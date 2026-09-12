@@ -1,0 +1,107 @@
+{
+  "scale": 0.21847177771839144,
+  "source_center": [
+    1.8712283917921013e-05,
+    -0.11980137564659543,
+    57.65886900014854
+  ],
+  "destination_center": [
+    0.0,
+    -10.112395,
+    3.162117
+  ],
+  "matrix": [
+    0.21847177771839144,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.21847177771839144,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.21847177771839144,
+    0.0,
+    -4.0881059327194704e-06,
+    -10.086221780489378,
+    -9.434718611694302,
+    1.0
+  ],
+  "muzzles": [
+    [
+      11.343961963099,
+      -10.83748098350048,
+      36.18420167476527
+    ],
+    [
+      -11.34397057080658,
+      -10.837472288242,
+      36.1842051091508
+    ]
+  ],
+  "meshpoints": [
+    {
+      "name": "weapon.0",
+      "translation": [
+        11.343961963099,
+        -10.83748098350048,
+        36.18420167476527
+      ]
+    },
+    {
+      "name": "weapon.0",
+      "translation": [
+        -11.34397057080658,
+        -10.837472288242,
+        36.1842051091508
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        0.0,
+        -10.112395,
+        -49.33136229999999
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "center",
+      "translation": [
+        0.0,
+        -10.112395,
+        3.162117
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0,
+        9.887605,
+        3.162117
+      ]
+    },
+    {
+      "name": "aura",
+      "translation": [
+        0,
+        -32.112395,
+        3.162117
+      ]
+    }
+  ],
+  "triangles": 14622,
+  "notes": [
+    "Source forward inferred +Z from named front hull and engine geometry.",
+    "Compiler input reflects Z to compensate for observed MeshBuilder handedness conversion.",
+    "All six PDC assemblies retained in supplied pose; no deployment animation added.",
+    "Muzzles estimated from front two barrel end vertices; confirm visually in SolarForge.",
+    "Simplified baseline; not certified for fleet performance."
+  ]
+}

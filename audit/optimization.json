@@ -1,0 +1,2859 @@
+{
+  "upstream_commit": "bba256eaa24039b6f93c773063ff7c20143ae0db",
+  "input_triangles": 140863,
+  "output_triangles": 14622,
+  "parts": 355,
+  "target_ratio": 0.08333333333333333,
+  "error_limit": 0.05,
+  "attribute_weights": [
+    0.05000000074505806,
+    0.05000000074505806,
+    0.05000000074505806,
+    0.20000000298023224,
+    0.20000000298023224
+  ],
+  "options": "meshopt_SimplifyPermissive (32)",
+  "removed_parts": 0,
+  "records": [
+    {
+      "mesh": 0,
+      "name": "pdc_gun_details3_PDC_0",
+      "primitive": 0,
+      "input_triangles": 96,
+      "output_triangles": 16,
+      "error": 0.04670939967036247
+    },
+    {
+      "mesh": 1,
+      "name": "pdc_gun_details3.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 96,
+      "output_triangles": 16,
+      "error": 0.04670939967036247
+    },
+    {
+      "mesh": 2,
+      "name": "pdc_gun_details3.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 96,
+      "output_triangles": 16,
+      "error": 0.04670939967036247
+    },
+    {
+      "mesh": 3,
+      "name": "pdc_gun_details3.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 96,
+      "output_triangles": 16,
+      "error": 0.04670939967036247
+    },
+    {
+      "mesh": 4,
+      "name": "pdc_gun_details3.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 96,
+      "output_triangles": 16,
+      "error": 0.04670939967036247
+    },
+    {
+      "mesh": 5,
+      "name": "pdc_gun_details3.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 96,
+      "output_triangles": 16,
+      "error": 0.04670939967036247
+    },
+    {
+      "mesh": 6,
+      "name": "hull_aft_Primary_0",
+      "primitive": 0,
+      "input_triangles": 2700,
+      "output_triangles": 225,
+      "error": 0.020237553864717484
+    },
+    {
+      "mesh": 7,
+      "name": "hull_main_Primary_0",
+      "primitive": 0,
+      "input_triangles": 1469,
+      "output_triangles": 121,
+      "error": 0.019105063751339912
+    },
+    {
+      "mesh": 8,
+      "name": "hull_rear_Primary_0",
+      "primitive": 0,
+      "input_triangles": 928,
+      "output_triangles": 126,
+      "error": 0.04934588447213173
+    },
+    {
+      "mesh": 9,
+      "name": "hull_middle_torpedo_bay_Primary_0",
+      "primitive": 0,
+      "input_triangles": 236,
+      "output_triangles": 40,
+      "error": 0.04282215237617493
+    },
+    {
+      "mesh": 10,
+      "name": "hull_middle_rear_Primary_0",
+      "primitive": 0,
+      "input_triangles": 72,
+      "output_triangles": 42,
+      "error": 0.04033687338232994
+    },
+    {
+      "mesh": 11,
+      "name": "hull_main_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 58,
+      "output_triangles": 8,
+      "error": 0.03842367231845856
+    },
+    {
+      "mesh": 12,
+      "name": "generators_side_pipes_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 4032,
+      "output_triangles": 336,
+      "error": 0.0024282706435769796
+    },
+    {
+      "mesh": 13,
+      "name": "generators_topdown_pipes_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 4032,
+      "output_triangles": 336,
+      "error": 0.0022633117623627186
+    },
+    {
+      "mesh": 14,
+      "name": "fuel_tanks_holder_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 656,
+      "output_triangles": 54,
+      "error": 0.04341409355401993
+    },
+    {
+      "mesh": 15,
+      "name": "generators_topdown_accessory_1.1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 12,
+      "error": 0.00757551146671176
+    },
+    {
+      "mesh": 16,
+      "name": "generators_topdown_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 12,
+      "error": 0.005750975571572781
+    },
+    {
+      "mesh": 17,
+      "name": "generators_side_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 12,
+      "error": 0.005631156265735626
+    },
+    {
+      "mesh": 18,
+      "name": "generators_side_accessory_2.1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 12,
+      "error": 0.007426683325320482
+    },
+    {
+      "mesh": 19,
+      "name": "generators_side_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 2064,
+      "output_triangles": 171,
+      "error": 0.027237610891461372
+    },
+    {
+      "mesh": 20,
+      "name": "generators_topdown_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 2064,
+      "output_triangles": 171,
+      "error": 0.025516139343380928
+    },
+    {
+      "mesh": 21,
+      "name": "generators_side_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 208,
+      "output_triangles": 16,
+      "error": 0.002944949083030224
+    },
+    {
+      "mesh": 22,
+      "name": "generators_topdown_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 208,
+      "output_triangles": 16,
+      "error": 0.003021017648279667
+    },
+    {
+      "mesh": 23,
+      "name": "hull_front_bottom_part_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 229,
+      "output_triangles": 45,
+      "error": 0.049865614622831345
+    },
+    {
+      "mesh": 24,
+      "name": "generators_topdown_accessory_2.2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 72,
+      "output_triangles": 6,
+      "error": 0.013955608010292053
+    },
+    {
+      "mesh": 25,
+      "name": "thruster_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 56,
+      "error": 0.04808490350842476
+    },
+    {
+      "mesh": 26,
+      "name": "thruster_4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 288,
+      "output_triangles": 24,
+      "error": 0.03827652707695961
+    },
+    {
+      "mesh": 27,
+      "name": "thruster_5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 56,
+      "error": 0.04808490350842476
+    },
+    {
+      "mesh": 28,
+      "name": "hull_main_accessory_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 20,
+      "output_triangles": 2,
+      "error": 0.03938422352075577
+    },
+    {
+      "mesh": 29,
+      "name": "thruster_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 56,
+      "error": 0.04808490350842476
+    },
+    {
+      "mesh": 30,
+      "name": "thruster_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 288,
+      "output_triangles": 24,
+      "error": 0.02940690703690052
+    },
+    {
+      "mesh": 31,
+      "name": "thruster_6_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 56,
+      "error": 0.04808490350842476
+    },
+    {
+      "mesh": 32,
+      "name": "hull_main_accessory_3.2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 34,
+      "output_triangles": 14,
+      "error": 0.04626382887363434
+    },
+    {
+      "mesh": 33,
+      "name": "hull_main_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 170,
+      "output_triangles": 19,
+      "error": 0.04508679732680321
+    },
+    {
+      "mesh": 34,
+      "name": "hull_rear_sides_Primary_0",
+      "primitive": 0,
+      "input_triangles": 322,
+      "output_triangles": 32,
+      "error": 0.04661174863576889
+    },
+    {
+      "mesh": 35,
+      "name": "hull_middle_side_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 368,
+      "output_triangles": 29,
+      "error": 0.03196578472852707
+    },
+    {
+      "mesh": 36,
+      "name": "hull_middle_side_accessory_6_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 124,
+      "output_triangles": 10,
+      "error": 0.01425500400364399
+    },
+    {
+      "mesh": 37,
+      "name": "hull_front_bottom_part_Primary_0",
+      "primitive": 0,
+      "input_triangles": 666,
+      "output_triangles": 55,
+      "error": 0.03633003309369087
+    },
+    {
+      "mesh": 38,
+      "name": "engines_secondary_middle_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 256,
+      "output_triangles": 40,
+      "error": 0.03272891417145729
+    },
+    {
+      "mesh": 39,
+      "name": "hull_middle_side_Primary_0",
+      "primitive": 0,
+      "input_triangles": 846,
+      "output_triangles": 70,
+      "error": 0.03770029544830322
+    },
+    {
+      "mesh": 40,
+      "name": "engines_secondary_front_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 128,
+      "output_triangles": 20,
+      "error": 0.0346430242061615
+    },
+    {
+      "mesh": 41,
+      "name": "hull_rear_sides_accessory_6.003_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 88,
+      "output_triangles": 7,
+      "error": 0.03779275715351105
+    },
+    {
+      "mesh": 42,
+      "name": "hull_rear_sides_accessory_1.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 132,
+      "output_triangles": 48,
+      "error": 0.04462230205535889
+    },
+    {
+      "mesh": 43,
+      "name": "hull_middle_side_accessory_5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 3,
+      "error": 0.016523344442248344
+    },
+    {
+      "mesh": 44,
+      "name": "hull_middle_side_accessory_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 56,
+      "output_triangles": 4,
+      "error": 0.018804050981998444
+    },
+    {
+      "mesh": 45,
+      "name": "hull_middle_side_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 56,
+      "output_triangles": 4,
+      "error": 0.015693416818976402
+    },
+    {
+      "mesh": 46,
+      "name": "hull_rear_sides_accessory_2.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 56,
+      "output_triangles": 4,
+      "error": 0.010809063911437988
+    },
+    {
+      "mesh": 47,
+      "name": "engines_secondary_middle_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 480,
+      "output_triangles": 40,
+      "error": 0.0028695757500827312
+    },
+    {
+      "mesh": 48,
+      "name": "engines_secondary_middle_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 1240,
+      "output_triangles": 103,
+      "error": 0.010497592389583588
+    },
+    {
+      "mesh": 49,
+      "name": "engines_secondary_front_accessory_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 620,
+      "output_triangles": 50,
+      "error": 0.010827791877090931
+    },
+    {
+      "mesh": 50,
+      "name": "engines_secondary_rear_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 64,
+      "output_triangles": 36,
+      "error": 0.038192905485630035
+    },
+    {
+      "mesh": 51,
+      "name": "engines_secondary_rear_accessory_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 310,
+      "output_triangles": 24,
+      "error": 0.04971738159656525
+    },
+    {
+      "mesh": 52,
+      "name": "hull_front_bottom_part_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 231,
+      "output_triangles": 18,
+      "error": 0.04170415177941322
+    },
+    {
+      "mesh": 53,
+      "name": "engines_main_skirt_Primary_0",
+      "primitive": 0,
+      "input_triangles": 6112,
+      "output_triangles": 509,
+      "error": 0.02685653418302536
+    },
+    {
+      "mesh": 54,
+      "name": "engines_main_ring_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 2112,
+      "output_triangles": 175,
+      "error": 0.014431922696530819
+    },
+    {
+      "mesh": 55,
+      "name": "engines_main_ring_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 960,
+      "output_triangles": 80,
+      "error": 0.0183060634881258
+    },
+    {
+      "mesh": 56,
+      "name": "engines_main_ring_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 384,
+      "output_triangles": 32,
+      "error": 0.03801986575126648
+    },
+    {
+      "mesh": 57,
+      "name": "hull_main_accessory_3.1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 624,
+      "output_triangles": 80,
+      "error": 0.04391223564743996
+    },
+    {
+      "mesh": 58,
+      "name": "engines_main_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 1128,
+      "output_triangles": 94,
+      "error": 0.014322231523692608
+    },
+    {
+      "mesh": 59,
+      "name": "engines_main_part_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 800,
+      "output_triangles": 80,
+      "error": 0.04658057168126106
+    },
+    {
+      "mesh": 60,
+      "name": "Plane.009_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 268,
+      "output_triangles": 22,
+      "error": 0.024654245004057884
+    },
+    {
+      "mesh": 61,
+      "name": "engines_main_part_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 736,
+      "output_triangles": 60,
+      "error": 0.049458641558885574
+    },
+    {
+      "mesh": 62,
+      "name": "engines_main_part_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 840,
+      "output_triangles": 97,
+      "error": 0.0486007034778595
+    },
+    {
+      "mesh": 63,
+      "name": "fuel_tanks_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 4880,
+      "output_triangles": 391,
+      "error": 0.014609504491090775
+    },
+    {
+      "mesh": 64,
+      "name": "generators_topdown_accessory_1.2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 120,
+      "output_triangles": 10,
+      "error": 0.006479561794549227
+    },
+    {
+      "mesh": 65,
+      "name": "hull_rear_sides_accessory_6.1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 1728,
+      "output_triangles": 144,
+      "error": 0.0021984281484037638
+    },
+    {
+      "mesh": 66,
+      "name": "hull_rear_sides_accessory_6.2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 384,
+      "output_triangles": 32,
+      "error": 0.006873801816254854
+    },
+    {
+      "mesh": 67,
+      "name": "handles_9_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 1728,
+      "output_triangles": 144,
+      "error": 0.002209034748375416
+    },
+    {
+      "mesh": 68,
+      "name": "handles_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 1728,
+      "output_triangles": 143,
+      "error": 0.0022519680205732584
+    },
+    {
+      "mesh": 69,
+      "name": "door_rear_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 48,
+      "output_triangles": 16,
+      "error": 0.04812825843691826
+    },
+    {
+      "mesh": 70,
+      "name": "door_rear_accessory_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 600,
+      "output_triangles": 50,
+      "error": 0.030438775196671486
+    },
+    {
+      "mesh": 71,
+      "name": "hull_rear_sides_accessory_5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 1580,
+      "output_triangles": 131,
+      "error": 0.013160888105630875
+    },
+    {
+      "mesh": 72,
+      "name": "hull_rear_sides_accessory_3.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 240,
+      "output_triangles": 21,
+      "error": 0.049953848123550415
+    },
+    {
+      "mesh": 73,
+      "name": "generators_side_accessory_2.2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 240,
+      "output_triangles": 20,
+      "error": 0.0035146228037774563
+    },
+    {
+      "mesh": 74,
+      "name": "hull_rear_sides_accessory_4.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 33,
+      "output_triangles": 31,
+      "error": 0.04088088497519493
+    },
+    {
+      "mesh": 75,
+      "name": "generators_topdown_accessory_2.1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 120,
+      "output_triangles": 10,
+      "error": 0.006483196280896664
+    },
+    {
+      "mesh": 76,
+      "name": "handles_10_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 216,
+      "output_triangles": 17,
+      "error": 0.032025400549173355
+    },
+    {
+      "mesh": 77,
+      "name": "handles_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 216,
+      "output_triangles": 17,
+      "error": 0.032025400549173355
+    },
+    {
+      "mesh": 78,
+      "name": "handles_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 216,
+      "output_triangles": 17,
+      "error": 0.032025400549173355
+    },
+    {
+      "mesh": 79,
+      "name": "handles_4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 216,
+      "output_triangles": 17,
+      "error": 0.032025400549173355
+    },
+    {
+      "mesh": 80,
+      "name": "handles_5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 216,
+      "output_triangles": 17,
+      "error": 0.032025400549173355
+    },
+    {
+      "mesh": 81,
+      "name": "handles_8_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 1512,
+      "output_triangles": 125,
+      "error": 0.012050437740981579
+    },
+    {
+      "mesh": 82,
+      "name": "hull_middle_side_accessory_12_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 240,
+      "output_triangles": 20,
+      "error": 0.013401110656559467
+    },
+    {
+      "mesh": 83,
+      "name": "hull_middle_side_accessory_9_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 96,
+      "output_triangles": 8,
+      "error": 0.013215022161602974
+    },
+    {
+      "mesh": 84,
+      "name": "hull_middle_side_accessory_8_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 1508,
+      "output_triangles": 125,
+      "error": 0.004680308047682047
+    },
+    {
+      "mesh": 85,
+      "name": "hull_middle_side_accessory_10.1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 312,
+      "output_triangles": 26,
+      "error": 0.003096429631114006
+    },
+    {
+      "mesh": 86,
+      "name": "hull_middle_side_accessory_10.2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 24,
+      "output_triangles": 2,
+      "error": 0.0028429070953279734
+    },
+    {
+      "mesh": 87,
+      "name": "hull_middle_side_accessory_10.3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 784,
+      "output_triangles": 64,
+      "error": 0.0018586062360554934
+    },
+    {
+      "mesh": 88,
+      "name": "hull_middle_side_accessory_11_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 216,
+      "output_triangles": 18,
+      "error": 0.0021233721636235714
+    },
+    {
+      "mesh": 89,
+      "name": "hull_middle_side_accessory_11.1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 80,
+      "output_triangles": 6,
+      "error": 0.002175897592678666
+    },
+    {
+      "mesh": 90,
+      "name": "thruster_8_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 288,
+      "output_triangles": 24,
+      "error": 0.012513653375208378
+    },
+    {
+      "mesh": 91,
+      "name": "handles_6_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 864,
+      "output_triangles": 71,
+      "error": 0.006519224029034376
+    },
+    {
+      "mesh": 92,
+      "name": "handles_7_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 432,
+      "output_triangles": 36,
+      "error": 0.013025011867284775
+    },
+    {
+      "mesh": 93,
+      "name": "door_cover_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 38,
+      "output_triangles": 16,
+      "error": 0.04356508329510689
+    },
+    {
+      "mesh": 94,
+      "name": "hull_middle_torpedo_bay_front_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 830,
+      "output_triangles": 68,
+      "error": 0.01805979758501053
+    },
+    {
+      "mesh": 95,
+      "name": "hull_middle_torpedo_bay_accessory_4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 276,
+      "output_triangles": 22,
+      "error": 0.008292152546346188
+    },
+    {
+      "mesh": 96,
+      "name": "hull_middle_torpedo_bay_accessory_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 2,
+      "error": 0.0021949969232082367
+    },
+    {
+      "mesh": 97,
+      "name": "hull_middle_torpedo_bay_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 156,
+      "output_triangles": 12,
+      "error": 0.008768809027969837
+    },
+    {
+      "mesh": 98,
+      "name": "hull_middle_torpedo_bay_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 440,
+      "output_triangles": 35,
+      "error": 0.0026535457000136375
+    },
+    {
+      "mesh": 99,
+      "name": "hull_middle_side_accessory_7_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 984,
+      "output_triangles": 68,
+      "error": 0.0026300298050045967
+    },
+    {
+      "mesh": 100,
+      "name": "hull_front_bottom_part_accessory_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 320,
+      "output_triangles": 26,
+      "error": 0.007945427671074867
+    },
+    {
+      "mesh": 101,
+      "name": "thruster_9_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 56,
+      "error": 0.04808490350842476
+    },
+    {
+      "mesh": 102,
+      "name": "thruster_7_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 288,
+      "output_triangles": 23,
+      "error": 0.009352757595479488
+    },
+    {
+      "mesh": 103,
+      "name": "thruster_10_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 144,
+      "output_triangles": 56,
+      "error": 0.04808490350842476
+    },
+    {
+      "mesh": 104,
+      "name": "antenna_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 582,
+      "output_triangles": 48,
+      "error": 0.03387875854969025
+    },
+    {
+      "mesh": 105,
+      "name": "antenna_2_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 32,
+      "output_triangles": 2,
+      "error": 0.02776041068136692
+    },
+    {
+      "mesh": 106,
+      "name": "antenna_2_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 16,
+      "output_triangles": 8,
+      "error": 0.04211873188614845
+    },
+    {
+      "mesh": 107,
+      "name": "antenna_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 218,
+      "output_triangles": 18,
+      "error": 0.0450090691447258
+    },
+    {
+      "mesh": 108,
+      "name": "antenna_3_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 32,
+      "output_triangles": 2,
+      "error": 0.027086855843663216
+    },
+    {
+      "mesh": 109,
+      "name": "antenna_2_accessory_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 24,
+      "error": 0.04170570150017738
+    },
+    {
+      "mesh": 110,
+      "name": "antenna_1_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 32,
+      "output_triangles": 16,
+      "error": 0.04774792119860649
+    },
+    {
+      "mesh": 111,
+      "name": "antenna_4_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 8,
+      "output_triangles": 2,
+      "error": 0.021317530423402786
+    },
+    {
+      "mesh": 112,
+      "name": "antenna_4_accessory_1.1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 8,
+      "output_triangles": 2,
+      "error": 0.021317530423402786
+    },
+    {
+      "mesh": 113,
+      "name": "antenna_4_accessory_1.4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 8,
+      "output_triangles": 2,
+      "error": 0.021317530423402786
+    },
+    {
+      "mesh": 114,
+      "name": "antenna_4_accessory_1.5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 8,
+      "output_triangles": 2,
+      "error": 0.021317530423402786
+    },
+    {
+      "mesh": 115,
+      "name": "antenna_4_accessory_1.2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 8,
+      "output_triangles": 2,
+      "error": 0.021317530423402786
+    },
+    {
+      "mesh": 116,
+      "name": "antenna_4_accessory_1.3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 8,
+      "output_triangles": 2,
+      "error": 0.021317530423402786
+    },
+    {
+      "mesh": 117,
+      "name": "antenna_holders_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 2758,
+      "output_triangles": 228,
+      "error": 0.017438780516386032
+    },
+    {
+      "mesh": 118,
+      "name": "antenna_holders_ribs_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 119,
+      "name": "antenna_holders_ribs_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 120,
+      "name": "antenna_holders_ribs_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 121,
+      "name": "antenna_holders_ribs_4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 122,
+      "name": "antenna_holders_ribs_5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 123,
+      "name": "antenna_holders_ribs_6_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 124,
+      "name": "antenna_holders_ribs_7_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 125,
+      "name": "antenna_holders_ribs_8_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 126,
+      "name": "antenna_holders_ribs_9_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 127,
+      "name": "antenna_holders_ribs_10_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 128,
+      "name": "antenna_holders_ribs_11_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 129,
+      "name": "antenna_holders_ribs_12_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 130,
+      "name": "antenna_holders_ribs_13_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 131,
+      "name": "antenna_holders_ribs_14_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 132,
+      "name": "antenna_holders_ribs_15_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 133,
+      "name": "antenna_holders_ribs_16_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 134,
+      "name": "antenna_holders_ribs_17_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 135,
+      "name": "antenna_holders_ribs_18_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 136,
+      "name": "antenna_holders_ribs_19_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 137,
+      "name": "antenna_holders_ribs_20_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 138,
+      "name": "antenna_holders_ribs_21_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 139,
+      "name": "antenna_holders_ribs_22_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 140,
+      "name": "antenna_holders_ribs_23_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 141,
+      "name": "antenna_holders_ribs_24_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 142,
+      "name": "antenna_holders_ribs_25_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 143,
+      "name": "antenna_holders_ribs_26_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 144,
+      "name": "antenna_holders_ribs_27_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 145,
+      "name": "antenna_holders_ribs_28_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 146,
+      "name": "antenna_holders_ribs_29_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 147,
+      "name": "antenna_holders_ribs_30_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 6,
+      "output_triangles": 6,
+      "error": 0.0
+    },
+    {
+      "mesh": 148,
+      "name": "antenna_holders_accessory_9_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 72,
+      "output_triangles": 6,
+      "error": 0.049276165664196014
+    },
+    {
+      "mesh": 149,
+      "name": "antenna_mini_holders_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 108,
+      "output_triangles": 20,
+      "error": 0.04369267448782921
+    },
+    {
+      "mesh": 150,
+      "name": "antenna_mini_antenna_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 156,
+      "output_triangles": 13,
+      "error": 0.0285898819565773
+    },
+    {
+      "mesh": 151,
+      "name": "antenna_mini_holders_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 54,
+      "output_triangles": 18,
+      "error": 0.04827076569199562
+    },
+    {
+      "mesh": 152,
+      "name": "antenna_mini_antenna_7.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 168,
+      "output_triangles": 28,
+      "error": 0.04921097308397293
+    },
+    {
+      "mesh": 153,
+      "name": "antenna_mini_antenna_8_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 156,
+      "output_triangles": 13,
+      "error": 0.026995325461030006
+    },
+    {
+      "mesh": 154,
+      "name": "antenna_mini_holders_8_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 108,
+      "output_triangles": 12,
+      "error": 0.04933775216341019
+    },
+    {
+      "mesh": 155,
+      "name": "antenna_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 274,
+      "output_triangles": 25,
+      "error": 0.04927407577633858
+    },
+    {
+      "mesh": 156,
+      "name": "antenna_3_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 108,
+      "output_triangles": 8,
+      "error": 0.03398921713232994
+    },
+    {
+      "mesh": 157,
+      "name": "antenna_holders_accessory_6_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 30,
+      "output_triangles": 6,
+      "error": 0.04588702321052551
+    },
+    {
+      "mesh": 158,
+      "name": "antenna_holders_accessory_7_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 100,
+      "output_triangles": 8,
+      "error": 0.031510453671216965
+    },
+    {
+      "mesh": 159,
+      "name": "antenna_holders_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 40,
+      "error": 0.0
+    },
+    {
+      "mesh": 160,
+      "name": "antenna_holders_accessory_17_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 20,
+      "output_triangles": 4,
+      "error": 0.046780213713645935
+    },
+    {
+      "mesh": 161,
+      "name": "antenna_holders_accessory_20_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 54,
+      "output_triangles": 18,
+      "error": 0.04633333161473274
+    },
+    {
+      "mesh": 162,
+      "name": "antenna_holders_accessory_8_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 20,
+      "output_triangles": 20,
+      "error": 0.0
+    },
+    {
+      "mesh": 163,
+      "name": "antenna_holders_accessory_15_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 20,
+      "output_triangles": 20,
+      "error": 0.0
+    },
+    {
+      "mesh": 164,
+      "name": "antenna_holders_accessory_14_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 30,
+      "output_triangles": 30,
+      "error": 0.0
+    },
+    {
+      "mesh": 165,
+      "name": "antenna_holders_accessory_16_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 20,
+      "output_triangles": 20,
+      "error": 0.0
+    },
+    {
+      "mesh": 166,
+      "name": "antenna_holders_accessory_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 40,
+      "error": 0.0
+    },
+    {
+      "mesh": 167,
+      "name": "antenna_holders_accessory_12_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 40,
+      "error": 0.0
+    },
+    {
+      "mesh": 168,
+      "name": "antenna_holders_accessory_11_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 30,
+      "output_triangles": 30,
+      "error": 0.0
+    },
+    {
+      "mesh": 169,
+      "name": "antenna_holders_accessory_10_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 20,
+      "output_triangles": 20,
+      "error": 0.0
+    },
+    {
+      "mesh": 170,
+      "name": "antenna_holders_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 40,
+      "error": 0.0
+    },
+    {
+      "mesh": 171,
+      "name": "antenna_holders_accessory_13_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 36,
+      "output_triangles": 20,
+      "error": 0.029972558841109276
+    },
+    {
+      "mesh": 172,
+      "name": "antenna_holders_accessory_5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 40,
+      "error": 0.0
+    },
+    {
+      "mesh": 173,
+      "name": "antenna_holders_accessory_4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 40,
+      "error": 0.0
+    },
+    {
+      "mesh": 174,
+      "name": "antenna_holders_accessory_18_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 20,
+      "output_triangles": 20,
+      "error": 0.0
+    },
+    {
+      "mesh": 175,
+      "name": "antenna_holders_accessory_19_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 20,
+      "output_triangles": 20,
+      "error": 0.0
+    },
+    {
+      "mesh": 176,
+      "name": "antenna_mini_holders_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 162,
+      "output_triangles": 12,
+      "error": 0.047477494925260544
+    },
+    {
+      "mesh": 177,
+      "name": "antenna_mini_antenna_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 156,
+      "output_triangles": 13,
+      "error": 0.018661661073565483
+    },
+    {
+      "mesh": 178,
+      "name": "antenna_mini_holders_4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 108,
+      "output_triangles": 20,
+      "error": 0.04905891790986061
+    },
+    {
+      "mesh": 179,
+      "name": "antenna_mini_antenna_4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 156,
+      "output_triangles": 13,
+      "error": 0.028811989352107048
+    },
+    {
+      "mesh": 180,
+      "name": "antenna_mini_holders_5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 108,
+      "output_triangles": 20,
+      "error": 0.04857710376381874
+    },
+    {
+      "mesh": 181,
+      "name": "antenna_mini_antenna_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 156,
+      "output_triangles": 13,
+      "error": 0.025301223620772362
+    },
+    {
+      "mesh": 182,
+      "name": "antenna_mini_holders_6_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 162,
+      "output_triangles": 13,
+      "error": 0.04258674755692482
+    },
+    {
+      "mesh": 183,
+      "name": "antenna_mini_antenna_5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 156,
+      "output_triangles": 13,
+      "error": 0.016091853380203247
+    },
+    {
+      "mesh": 184,
+      "name": "antenna_4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 210,
+      "output_triangles": 18,
+      "error": 0.04949666187167168
+    },
+    {
+      "mesh": 185,
+      "name": "antenna_mini_holders_7_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 108,
+      "output_triangles": 9,
+      "error": 0.0371788926422596
+    },
+    {
+      "mesh": 186,
+      "name": "antenna_mini_antenna_6_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 156,
+      "output_triangles": 13,
+      "error": 0.018968435004353523
+    },
+    {
+      "mesh": 187,
+      "name": "hull_middle_side_accessory_4.1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 16,
+      "output_triangles": 4,
+      "error": 0.029174527153372765
+    },
+    {
+      "mesh": 188,
+      "name": "hull_middle_side_accessory_4.2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 24,
+      "output_triangles": 2,
+      "error": 0.008616664446890354
+    },
+    {
+      "mesh": 189,
+      "name": "hull_middle_side_accessory_4.3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 24,
+      "output_triangles": 2,
+      "error": 0.008617369458079338
+    },
+    {
+      "mesh": 190,
+      "name": "hull_middle_side_accessory_4.4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 24,
+      "output_triangles": 2,
+      "error": 0.00862130243331194
+    },
+    {
+      "mesh": 191,
+      "name": "hull_middle_side_accessory_4.5_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 24,
+      "output_triangles": 2,
+      "error": 0.008613428100943565
+    },
+    {
+      "mesh": 192,
+      "name": "hull_middle_side_accessory_4.6_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 24,
+      "output_triangles": 2,
+      "error": 0.008619578555226326
+    },
+    {
+      "mesh": 193,
+      "name": "hull_middle_side_accessory_4.7_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 24,
+      "output_triangles": 2,
+      "error": 0.008610742166638374
+    },
+    {
+      "mesh": 194,
+      "name": "hull_middle_side_accessory_4.8_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 24,
+      "output_triangles": 2,
+      "error": 0.008609493263065815
+    },
+    {
+      "mesh": 195,
+      "name": "hull_middle_side_accessory_4.9_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 24,
+      "output_triangles": 2,
+      "error": 0.008610030636191368
+    },
+    {
+      "mesh": 196,
+      "name": "hull_rear_sides_accessory_1_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 52,
+      "output_triangles": 4,
+      "error": 0.04317653924226761
+    },
+    {
+      "mesh": 197,
+      "name": "hull_rear_sides_accessory_2_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 120,
+      "output_triangles": 24,
+      "error": 0.03697638958692551
+    },
+    {
+      "mesh": 198,
+      "name": "hull_rear_sides_accessory_3_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 40,
+      "output_triangles": 10,
+      "error": 0.04523356631398201
+    },
+    {
+      "mesh": 199,
+      "name": "hull_rear_sides_accessory_4_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 48,
+      "output_triangles": 4,
+      "error": 0.01666492223739624
+    },
+    {
+      "mesh": 200,
+      "name": "Plane.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 268,
+      "output_triangles": 22,
+      "error": 0.02497241459786892
+    },
+    {
+      "mesh": 201,
+      "name": "Plane.002_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 268,
+      "output_triangles": 22,
+      "error": 0.02497241459786892
+    },
+    {
+      "mesh": 202,
+      "name": "hull_rear_sides_1_Primary_0",
+      "primitive": 0,
+      "input_triangles": 221,
+      "output_triangles": 28,
+      "error": 0.04734152927994728
+    },
+    {
+      "mesh": 203,
+      "name": "hull_main.001_Primary_0",
+      "primitive": 0,
+      "input_triangles": 4,
+      "output_triangles": 4,
+      "error": 0.0
+    },
+    {
+      "mesh": 204,
+      "name": "hull_main.002_Primary_0",
+      "primitive": 0,
+      "input_triangles": 4,
+      "output_triangles": 4,
+      "error": 0.0
+    },
+    {
+      "mesh": 205,
+      "name": "Text_Tachi_Texts_0",
+      "primitive": 0,
+      "input_triangles": 2,
+      "output_triangles": 2,
+      "error": 0.0
+    },
+    {
+      "mesh": 206,
+      "name": "Text_MCRN_Texts_0",
+      "primitive": 0,
+      "input_triangles": 2,
+      "output_triangles": 2,
+      "error": 0.0
+    },
+    {
+      "mesh": 207,
+      "name": "Text_158_right_Texts_0",
+      "primitive": 0,
+      "input_triangles": 2,
+      "output_triangles": 2,
+      "error": 0.0
+    },
+    {
+      "mesh": 208,
+      "name": "Text_NAVY_right_Texts_0",
+      "primitive": 0,
+      "input_triangles": 2,
+      "output_triangles": 2,
+      "error": 0.0
+    },
+    {
+      "mesh": 209,
+      "name": "Text_158_left_Texts_0",
+      "primitive": 0,
+      "input_triangles": 2,
+      "output_triangles": 2,
+      "error": 0.0
+    },
+    {
+      "mesh": 210,
+      "name": "Text_NAVY_left_Texts_0",
+      "primitive": 0,
+      "input_triangles": 2,
+      "output_triangles": 2,
+      "error": 0.0
+    },
+    {
+      "mesh": 211,
+      "name": "pdc_gun_body.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 2176,
+      "output_triangles": 180,
+      "error": 0.038869280368089676
+    },
+    {
+      "mesh": 212,
+      "name": "pdc_gun_ammobox.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1180,
+      "output_triangles": 98,
+      "error": 0.026131153106689453
+    },
+    {
+      "mesh": 213,
+      "name": "pdc_bay_doors_small.002_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 112,
+      "output_triangles": 16,
+      "error": 0.018298611044883728
+    },
+    {
+      "mesh": 214,
+      "name": "pdc_bay_large.002_Primary_0",
+      "primitive": 0,
+      "input_triangles": 116,
+      "output_triangles": 50,
+      "error": 0.04978906735777855
+    },
+    {
+      "mesh": 215,
+      "name": "pdc_bay_shielding.002_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 52,
+      "output_triangles": 20,
+      "error": 0.044688452035188675
+    },
+    {
+      "mesh": 216,
+      "name": "pdc_gun_detail.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 72,
+      "error": 0.04599345475435257
+    },
+    {
+      "mesh": 217,
+      "name": "pdc_gun_barrels.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 504,
+      "output_triangles": 42,
+      "error": 0.026418514549732208
+    },
+    {
+      "mesh": 218,
+      "name": "pdc_gun_barrels_holder.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 176,
+      "output_triangles": 15,
+      "error": 0.045887596905231476
+    },
+    {
+      "mesh": 219,
+      "name": "pdc_gun_sphere_holder.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 16,
+      "output_triangles": 16,
+      "error": 0.0
+    },
+    {
+      "mesh": 220,
+      "name": "pdc_gun_sphere.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1926,
+      "output_triangles": 160,
+      "error": 0.039676178246736526
+    },
+    {
+      "mesh": 221,
+      "name": "pdc_gun_ammobox_details.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 480,
+      "output_triangles": 40,
+      "error": 0.02669674903154373
+    },
+    {
+      "mesh": 222,
+      "name": "pdc_gun_holders.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 576,
+      "output_triangles": 48,
+      "error": 0.04570541903376579
+    },
+    {
+      "mesh": 223,
+      "name": "pdc_gun_hodlers_details.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 80,
+      "output_triangles": 6,
+      "error": 0.02941426821053028
+    },
+    {
+      "mesh": 224,
+      "name": "pdc_bay_doors_large.002_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 56,
+      "output_triangles": 8,
+      "error": 0.042119309306144714
+    },
+    {
+      "mesh": 225,
+      "name": "pdc_bay_hinge.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 650,
+      "output_triangles": 54,
+      "error": 0.03264130279421806
+    },
+    {
+      "mesh": 226,
+      "name": "pdc_bay_pistons.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1056,
+      "output_triangles": 75,
+      "error": 0.019394351169466972
+    },
+    {
+      "mesh": 227,
+      "name": "pdc_bay_flat.002_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 120,
+      "output_triangles": 12,
+      "error": 0.04147310554981232
+    },
+    {
+      "mesh": 228,
+      "name": "pdc_bay_small.002_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 59,
+      "error": 0.0494970828294754
+    },
+    {
+      "mesh": 229,
+      "name": "pdc_bay_base1.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 64,
+      "output_triangles": 39,
+      "error": 0.04948883876204491
+    },
+    {
+      "mesh": 230,
+      "name": "pdc_gun_base_details2.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 336,
+      "output_triangles": 32,
+      "error": 0.04239264130592346
+    },
+    {
+      "mesh": 231,
+      "name": "pdc_gun_swivel1.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 257,
+      "output_triangles": 38,
+      "error": 0.04383978992700577
+    },
+    {
+      "mesh": 232,
+      "name": "pdc_gun_swivel2.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 464,
+      "output_triangles": 50,
+      "error": 0.04798677936196327
+    },
+    {
+      "mesh": 233,
+      "name": "pdc_gun_details.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 66,
+      "output_triangles": 20,
+      "error": 0.039873991161584854
+    },
+    {
+      "mesh": 234,
+      "name": "pdc_bay_base2.002_PDC_0",
+      "primitive": 0,
+      "input_triangles": 160,
+      "output_triangles": 12,
+      "error": 0.04998105391860008
+    },
+    {
+      "mesh": 235,
+      "name": "pdc_gun_body.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 2176,
+      "output_triangles": 180,
+      "error": 0.038869280368089676
+    },
+    {
+      "mesh": 236,
+      "name": "pdc_gun_ammobox.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1180,
+      "output_triangles": 98,
+      "error": 0.02613118290901184
+    },
+    {
+      "mesh": 237,
+      "name": "pdc_bay_doors_small.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 112,
+      "output_triangles": 16,
+      "error": 0.01829957216978073
+    },
+    {
+      "mesh": 238,
+      "name": "pdc_bay_large.001_Primary_0",
+      "primitive": 0,
+      "input_triangles": 116,
+      "output_triangles": 50,
+      "error": 0.04978906735777855
+    },
+    {
+      "mesh": 239,
+      "name": "pdc_bay_shielding.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 52,
+      "output_triangles": 20,
+      "error": 0.044688716530799866
+    },
+    {
+      "mesh": 240,
+      "name": "pdc_gun_detail.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 72,
+      "error": 0.04599175602197647
+    },
+    {
+      "mesh": 241,
+      "name": "pdc_gun_barrels.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 504,
+      "output_triangles": 42,
+      "error": 0.02641841024160385
+    },
+    {
+      "mesh": 242,
+      "name": "pdc_gun_barrels_holder.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 176,
+      "output_triangles": 15,
+      "error": 0.045887596905231476
+    },
+    {
+      "mesh": 243,
+      "name": "pdc_gun_sphere_holder.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 16,
+      "output_triangles": 16,
+      "error": 0.0
+    },
+    {
+      "mesh": 244,
+      "name": "pdc_gun_sphere.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1926,
+      "output_triangles": 160,
+      "error": 0.039676178246736526
+    },
+    {
+      "mesh": 245,
+      "name": "pdc_gun_ammobox_details.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 480,
+      "output_triangles": 40,
+      "error": 0.026698466390371323
+    },
+    {
+      "mesh": 246,
+      "name": "pdc_gun_holders.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 576,
+      "output_triangles": 48,
+      "error": 0.045705318450927734
+    },
+    {
+      "mesh": 247,
+      "name": "pdc_gun_hodlers_details.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 80,
+      "output_triangles": 6,
+      "error": 0.0294143408536911
+    },
+    {
+      "mesh": 248,
+      "name": "pdc_bay_doors_large.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 56,
+      "output_triangles": 8,
+      "error": 0.0421188585460186
+    },
+    {
+      "mesh": 249,
+      "name": "pdc_bay_hinge.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 652,
+      "output_triangles": 54,
+      "error": 0.032640911638736725
+    },
+    {
+      "mesh": 250,
+      "name": "pdc_bay_pistons.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1056,
+      "output_triangles": 85,
+      "error": 0.019417542964220047
+    },
+    {
+      "mesh": 251,
+      "name": "pdc_bay_flat.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 120,
+      "output_triangles": 12,
+      "error": 0.04147310554981232
+    },
+    {
+      "mesh": 252,
+      "name": "pdc_bay_small.001_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 59,
+      "error": 0.0494970828294754
+    },
+    {
+      "mesh": 253,
+      "name": "pdc_bay_base1.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 64,
+      "output_triangles": 39,
+      "error": 0.04948901757597923
+    },
+    {
+      "mesh": 254,
+      "name": "pdc_gun_base_details2.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 336,
+      "output_triangles": 32,
+      "error": 0.042392611503601074
+    },
+    {
+      "mesh": 255,
+      "name": "pdc_gun_swivel1.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 257,
+      "output_triangles": 38,
+      "error": 0.04383978992700577
+    },
+    {
+      "mesh": 256,
+      "name": "pdc_gun_swivel2.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 464,
+      "output_triangles": 51,
+      "error": 0.047986969351768494
+    },
+    {
+      "mesh": 257,
+      "name": "pdc_gun_details.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 66,
+      "output_triangles": 20,
+      "error": 0.03987444192171097
+    },
+    {
+      "mesh": 258,
+      "name": "pdc_bay_base2.001_PDC_0",
+      "primitive": 0,
+      "input_triangles": 160,
+      "output_triangles": 12,
+      "error": 0.04998089373111725
+    },
+    {
+      "mesh": 259,
+      "name": "pdc_gun_body.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 2176,
+      "output_triangles": 180,
+      "error": 0.038869280368089676
+    },
+    {
+      "mesh": 260,
+      "name": "pdc_gun_ammobox.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1180,
+      "output_triangles": 98,
+      "error": 0.026131175458431244
+    },
+    {
+      "mesh": 261,
+      "name": "pdc_bay_doors_small.003_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 112,
+      "output_triangles": 16,
+      "error": 0.01829836145043373
+    },
+    {
+      "mesh": 262,
+      "name": "pdc_bay_large.003_Primary_0",
+      "primitive": 0,
+      "input_triangles": 116,
+      "output_triangles": 50,
+      "error": 0.04978906735777855
+    },
+    {
+      "mesh": 263,
+      "name": "pdc_bay_shielding.003_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 52,
+      "output_triangles": 20,
+      "error": 0.044688280671834946
+    },
+    {
+      "mesh": 264,
+      "name": "pdc_gun_detail.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 72,
+      "error": 0.04599148407578468
+    },
+    {
+      "mesh": 265,
+      "name": "pdc_gun_barrels.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 504,
+      "output_triangles": 42,
+      "error": 0.028791645541787148
+    },
+    {
+      "mesh": 266,
+      "name": "pdc_gun_barrels_holder.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 176,
+      "output_triangles": 15,
+      "error": 0.045887596905231476
+    },
+    {
+      "mesh": 267,
+      "name": "pdc_gun_sphere_holder.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 16,
+      "output_triangles": 16,
+      "error": 0.0
+    },
+    {
+      "mesh": 268,
+      "name": "pdc_gun_sphere.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1926,
+      "output_triangles": 160,
+      "error": 0.039676178246736526
+    },
+    {
+      "mesh": 269,
+      "name": "pdc_gun_ammobox_details.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 480,
+      "output_triangles": 40,
+      "error": 0.0266957338899374
+    },
+    {
+      "mesh": 270,
+      "name": "pdc_gun_holders.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 576,
+      "output_triangles": 48,
+      "error": 0.0457051657140255
+    },
+    {
+      "mesh": 271,
+      "name": "pdc_gun_hodlers_details.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 80,
+      "output_triangles": 6,
+      "error": 0.02941434271633625
+    },
+    {
+      "mesh": 272,
+      "name": "pdc_bay_doors_large.003_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 56,
+      "output_triangles": 8,
+      "error": 0.04211888089776039
+    },
+    {
+      "mesh": 273,
+      "name": "pdc_bay_hinge.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 652,
+      "output_triangles": 54,
+      "error": 0.03264245763421059
+    },
+    {
+      "mesh": 274,
+      "name": "pdc_bay_pistons.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1056,
+      "output_triangles": 88,
+      "error": 0.019396504387259483
+    },
+    {
+      "mesh": 275,
+      "name": "pdc_bay_flat.003_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 120,
+      "output_triangles": 12,
+      "error": 0.04147310554981232
+    },
+    {
+      "mesh": 276,
+      "name": "pdc_bay_small.003_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 59,
+      "error": 0.0494970828294754
+    },
+    {
+      "mesh": 277,
+      "name": "pdc_bay_base1.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 64,
+      "output_triangles": 39,
+      "error": 0.04948883876204491
+    },
+    {
+      "mesh": 278,
+      "name": "pdc_gun_base_details2.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 336,
+      "output_triangles": 32,
+      "error": 0.04239210486412048
+    },
+    {
+      "mesh": 279,
+      "name": "pdc_gun_swivel1.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 257,
+      "output_triangles": 38,
+      "error": 0.04383978992700577
+    },
+    {
+      "mesh": 280,
+      "name": "pdc_gun_swivel2.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 464,
+      "output_triangles": 52,
+      "error": 0.04798860475420952
+    },
+    {
+      "mesh": 281,
+      "name": "pdc_gun_details.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 66,
+      "output_triangles": 20,
+      "error": 0.03987552225589752
+    },
+    {
+      "mesh": 282,
+      "name": "pdc_bay_base2.003_PDC_0",
+      "primitive": 0,
+      "input_triangles": 160,
+      "output_triangles": 12,
+      "error": 0.049981120973825455
+    },
+    {
+      "mesh": 283,
+      "name": "pdc_gun_body.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 2176,
+      "output_triangles": 180,
+      "error": 0.038869280368089676
+    },
+    {
+      "mesh": 284,
+      "name": "pdc_gun_ammobox.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1180,
+      "output_triangles": 98,
+      "error": 0.02480391412973404
+    },
+    {
+      "mesh": 285,
+      "name": "pdc_bay_doors_small.004_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 112,
+      "output_triangles": 16,
+      "error": 0.0182989202439785
+    },
+    {
+      "mesh": 286,
+      "name": "pdc_bay_large.004_Primary_0",
+      "primitive": 0,
+      "input_triangles": 116,
+      "output_triangles": 50,
+      "error": 0.04978906735777855
+    },
+    {
+      "mesh": 287,
+      "name": "pdc_bay_shielding.004_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 52,
+      "output_triangles": 20,
+      "error": 0.04468866437673569
+    },
+    {
+      "mesh": 288,
+      "name": "pdc_gun_detail.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 72,
+      "error": 0.04599329084157944
+    },
+    {
+      "mesh": 289,
+      "name": "pdc_gun_barrels.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 504,
+      "output_triangles": 42,
+      "error": 0.026418277993798256
+    },
+    {
+      "mesh": 290,
+      "name": "pdc_gun_barrels_holder.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 176,
+      "output_triangles": 15,
+      "error": 0.045887596905231476
+    },
+    {
+      "mesh": 291,
+      "name": "pdc_gun_sphere_holder.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 16,
+      "output_triangles": 16,
+      "error": 0.0
+    },
+    {
+      "mesh": 292,
+      "name": "pdc_gun_sphere.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1926,
+      "output_triangles": 160,
+      "error": 0.039676178246736526
+    },
+    {
+      "mesh": 293,
+      "name": "pdc_gun_ammobox_details.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 480,
+      "output_triangles": 40,
+      "error": 0.026697203516960144
+    },
+    {
+      "mesh": 294,
+      "name": "pdc_gun_holders.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 576,
+      "output_triangles": 48,
+      "error": 0.0457051619887352
+    },
+    {
+      "mesh": 295,
+      "name": "pdc_gun_hodlers_details.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 80,
+      "output_triangles": 6,
+      "error": 0.029414257034659386
+    },
+    {
+      "mesh": 296,
+      "name": "pdc_bay_doors_large.004_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 56,
+      "output_triangles": 8,
+      "error": 0.04211932048201561
+    },
+    {
+      "mesh": 297,
+      "name": "pdc_bay_hinge.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 650,
+      "output_triangles": 54,
+      "error": 0.032640695571899414
+    },
+    {
+      "mesh": 298,
+      "name": "pdc_bay_pistons.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1056,
+      "output_triangles": 86,
+      "error": 0.020868007093667984
+    },
+    {
+      "mesh": 299,
+      "name": "pdc_bay_flat.004_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 120,
+      "output_triangles": 12,
+      "error": 0.04147310554981232
+    },
+    {
+      "mesh": 300,
+      "name": "pdc_bay_small.004_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 59,
+      "error": 0.0494970828294754
+    },
+    {
+      "mesh": 301,
+      "name": "pdc_bay_base1.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 64,
+      "output_triangles": 39,
+      "error": 0.04948901757597923
+    },
+    {
+      "mesh": 302,
+      "name": "pdc_gun_base_details2.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 336,
+      "output_triangles": 32,
+      "error": 0.04239271581172943
+    },
+    {
+      "mesh": 303,
+      "name": "pdc_gun_swivel1.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 257,
+      "output_triangles": 38,
+      "error": 0.04383978992700577
+    },
+    {
+      "mesh": 304,
+      "name": "pdc_gun_swivel2.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 464,
+      "output_triangles": 51,
+      "error": 0.04644601047039032
+    },
+    {
+      "mesh": 305,
+      "name": "pdc_gun_details.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 66,
+      "output_triangles": 20,
+      "error": 0.03987351432442665
+    },
+    {
+      "mesh": 306,
+      "name": "pdc_bay_base2.004_PDC_0",
+      "primitive": 0,
+      "input_triangles": 160,
+      "output_triangles": 12,
+      "error": 0.04998103156685829
+    },
+    {
+      "mesh": 307,
+      "name": "pdc_gun_body.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 2176,
+      "output_triangles": 180,
+      "error": 0.038869280368089676
+    },
+    {
+      "mesh": 308,
+      "name": "pdc_gun_ammobox.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1180,
+      "output_triangles": 98,
+      "error": 0.02480391226708889
+    },
+    {
+      "mesh": 309,
+      "name": "pdc_bay_doors_small.006_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 112,
+      "output_triangles": 16,
+      "error": 0.018298732116818428
+    },
+    {
+      "mesh": 310,
+      "name": "pdc_bay_large.006_Primary_0",
+      "primitive": 0,
+      "input_triangles": 116,
+      "output_triangles": 50,
+      "error": 0.04978906735777855
+    },
+    {
+      "mesh": 311,
+      "name": "pdc_bay_shielding.006_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 52,
+      "output_triangles": 20,
+      "error": 0.044688668102025986
+    },
+    {
+      "mesh": 312,
+      "name": "pdc_gun_detail.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 72,
+      "error": 0.04599320515990257
+    },
+    {
+      "mesh": 313,
+      "name": "pdc_gun_barrels.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 504,
+      "output_triangles": 42,
+      "error": 0.026418432593345642
+    },
+    {
+      "mesh": 314,
+      "name": "pdc_gun_barrels_holder.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 176,
+      "output_triangles": 15,
+      "error": 0.045887596905231476
+    },
+    {
+      "mesh": 315,
+      "name": "pdc_gun_sphere_holder.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 16,
+      "output_triangles": 16,
+      "error": 0.0
+    },
+    {
+      "mesh": 316,
+      "name": "pdc_gun_sphere.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1926,
+      "output_triangles": 160,
+      "error": 0.039676178246736526
+    },
+    {
+      "mesh": 317,
+      "name": "pdc_gun_ammobox_details.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 480,
+      "output_triangles": 40,
+      "error": 0.02669833041727543
+    },
+    {
+      "mesh": 318,
+      "name": "pdc_gun_holders.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 576,
+      "output_triangles": 48,
+      "error": 0.04570550099015236
+    },
+    {
+      "mesh": 319,
+      "name": "pdc_gun_hodlers_details.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 80,
+      "output_triangles": 6,
+      "error": 0.02941419743001461
+    },
+    {
+      "mesh": 320,
+      "name": "pdc_bay_doors_large.006_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 56,
+      "output_triangles": 8,
+      "error": 0.04211932048201561
+    },
+    {
+      "mesh": 321,
+      "name": "pdc_bay_hinge.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 652,
+      "output_triangles": 54,
+      "error": 0.032641198486089706
+    },
+    {
+      "mesh": 322,
+      "name": "pdc_bay_pistons.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1056,
+      "output_triangles": 86,
+      "error": 0.02032025158405304
+    },
+    {
+      "mesh": 323,
+      "name": "pdc_bay_flat.006_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 120,
+      "output_triangles": 12,
+      "error": 0.04147310554981232
+    },
+    {
+      "mesh": 324,
+      "name": "pdc_bay_small.006_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 59,
+      "error": 0.0494970828294754
+    },
+    {
+      "mesh": 325,
+      "name": "pdc_bay_base1.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 64,
+      "output_triangles": 39,
+      "error": 0.04948883876204491
+    },
+    {
+      "mesh": 326,
+      "name": "pdc_gun_base_details2.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 336,
+      "output_triangles": 32,
+      "error": 0.042392536997795105
+    },
+    {
+      "mesh": 327,
+      "name": "pdc_gun_swivel1.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 257,
+      "output_triangles": 38,
+      "error": 0.04383978992700577
+    },
+    {
+      "mesh": 328,
+      "name": "pdc_gun_swivel2.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 464,
+      "output_triangles": 52,
+      "error": 0.04798659309744835
+    },
+    {
+      "mesh": 329,
+      "name": "pdc_gun_details.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 66,
+      "output_triangles": 20,
+      "error": 0.039873432368040085
+    },
+    {
+      "mesh": 330,
+      "name": "pdc_bay_base2.006_PDC_0",
+      "primitive": 0,
+      "input_triangles": 160,
+      "output_triangles": 12,
+      "error": 0.04193814843893051
+    },
+    {
+      "mesh": 331,
+      "name": "pdc_gun_body.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 2176,
+      "output_triangles": 180,
+      "error": 0.038869280368089676
+    },
+    {
+      "mesh": 332,
+      "name": "pdc_gun_ammobox.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1180,
+      "output_triangles": 98,
+      "error": 0.024804580956697464
+    },
+    {
+      "mesh": 333,
+      "name": "pdc_bay_doors_small.005_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 112,
+      "output_triangles": 16,
+      "error": 0.01829892210662365
+    },
+    {
+      "mesh": 334,
+      "name": "pdc_bay_large.005_Primary_0",
+      "primitive": 0,
+      "input_triangles": 116,
+      "output_triangles": 50,
+      "error": 0.04978906735777855
+    },
+    {
+      "mesh": 335,
+      "name": "pdc_bay_shielding.005_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 52,
+      "output_triangles": 20,
+      "error": 0.04468867927789688
+    },
+    {
+      "mesh": 336,
+      "name": "pdc_gun_detail.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 72,
+      "error": 0.045993417501449585
+    },
+    {
+      "mesh": 337,
+      "name": "pdc_gun_barrels.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 504,
+      "output_triangles": 42,
+      "error": 0.02641868405044079
+    },
+    {
+      "mesh": 338,
+      "name": "pdc_gun_barrels_holder.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 176,
+      "output_triangles": 15,
+      "error": 0.045887596905231476
+    },
+    {
+      "mesh": 339,
+      "name": "pdc_gun_sphere_holder.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 16,
+      "output_triangles": 16,
+      "error": 0.0
+    },
+    {
+      "mesh": 340,
+      "name": "pdc_gun_sphere.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1926,
+      "output_triangles": 160,
+      "error": 0.039676178246736526
+    },
+    {
+      "mesh": 341,
+      "name": "pdc_gun_ammobox_details.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 480,
+      "output_triangles": 40,
+      "error": 0.026696421205997467
+    },
+    {
+      "mesh": 342,
+      "name": "pdc_gun_holders.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 576,
+      "output_triangles": 48,
+      "error": 0.045705489814281464
+    },
+    {
+      "mesh": 343,
+      "name": "pdc_gun_hodlers_details.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 80,
+      "output_triangles": 6,
+      "error": 0.02941429801285267
+    },
+    {
+      "mesh": 344,
+      "name": "pdc_bay_doors_large.005_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 56,
+      "output_triangles": 8,
+      "error": 0.04211930185556412
+    },
+    {
+      "mesh": 345,
+      "name": "pdc_bay_hinge.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 652,
+      "output_triangles": 54,
+      "error": 0.03264147415757179
+    },
+    {
+      "mesh": 346,
+      "name": "pdc_bay_pistons.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 1056,
+      "output_triangles": 78,
+      "error": 0.01929383911192417
+    },
+    {
+      "mesh": 347,
+      "name": "pdc_bay_flat.005_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 120,
+      "output_triangles": 12,
+      "error": 0.04147310554981232
+    },
+    {
+      "mesh": 348,
+      "name": "pdc_bay_small.005_Secondary_0",
+      "primitive": 0,
+      "input_triangles": 192,
+      "output_triangles": 59,
+      "error": 0.0494970828294754
+    },
+    {
+      "mesh": 349,
+      "name": "pdc_bay_base1.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 64,
+      "output_triangles": 39,
+      "error": 0.04948883876204491
+    },
+    {
+      "mesh": 350,
+      "name": "pdc_gun_base_details2.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 336,
+      "output_triangles": 34,
+      "error": 0.04239264130592346
+    },
+    {
+      "mesh": 351,
+      "name": "pdc_gun_swivel1.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 257,
+      "output_triangles": 38,
+      "error": 0.04383978992700577
+    },
+    {
+      "mesh": 352,
+      "name": "pdc_gun_swivel2.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 464,
+      "output_triangles": 49,
+      "error": 0.047987595200538635
+    },
+    {
+      "mesh": 353,
+      "name": "pdc_gun_details.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 66,
+      "output_triangles": 20,
+      "error": 0.03987361118197441
+    },
+    {
+      "mesh": 354,
+      "name": "pdc_bay_base2.005_PDC_0",
+      "primitive": 0,
+      "input_triangles": 160,
+      "output_triangles": 12,
+      "error": 0.04193814843893051
+    }
+  ]
+}

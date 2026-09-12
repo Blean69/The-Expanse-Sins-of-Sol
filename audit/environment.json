@@ -1,0 +1,22 @@
+{
+  "game_path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2",
+  "sdk_path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools",
+  "game_version": "2.0.3 (318)",
+  "version_log": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/logs/sins2_log_472.txt",
+  "game_steam_build": "25127248",
+  "sdk_steam_build": "24092025",
+  "official_schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+  "scope": "Static inspection; game has not been launched for this project",
+  "root_files": [
+    "entities/trader_light_frigate.unit",
+    "entities/trader_light_frigate.unit_skin",
+    "entities/trader_torpedo_cruiser.unit",
+    "entities/trader_torpedo_cruiser_torpedo.weapon",
+    "entities/trader_antifighter_frigate.unit",
+    "uniforms/target_filter.uniforms",
+    "uniforms/attack_target_type_group.uniforms",
+    "uniforms/attack_target_type.uniforms",
+    "uniforms/weapon.uniforms",
+    "uniforms/debris.uniforms"
+  ]
+}

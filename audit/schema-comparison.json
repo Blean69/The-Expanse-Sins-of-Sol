@@ -1,0 +1,377 @@
+{
+  "official_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+  "files": [
+    {
+      "path": "json_schemas/ability-schema.json",
+      "official_git_blob": "a6916829393735ca89c0fb326903439a9882eebe",
+      "installed_git_blob": "a6916829393735ca89c0fb326903439a9882eebe",
+      "match": true
+    },
+    {
+      "path": "json_schemas/action-data-source-schema.json",
+      "official_git_blob": "4369adc9dec0fc598ea6b5e0c7d577833f3b0e80",
+      "installed_git_blob": "4369adc9dec0fc598ea6b5e0c7d577833f3b0e80",
+      "match": true
+    },
+    {
+      "path": "json_schemas/action-uniforms-schema.json",
+      "official_git_blob": "2796f1cb4bd4cf96ee2287cb4e9eb1a1c8dd08ce",
+      "installed_git_blob": "2796f1cb4bd4cf96ee2287cb4e9eb1a1c8dd08ce",
+      "match": true
+    },
+    {
+      "path": "json_schemas/attack-target-type-group-uniforms-schema.json",
+      "official_git_blob": "d3b03a7976636b9927d902cc336ea0a0a7e9864e",
+      "installed_git_blob": "d3b03a7976636b9927d902cc336ea0a0a7e9864e",
+      "match": true
+    },
+    {
+      "path": "json_schemas/attack-target-type-uniforms-schema.json",
+      "official_git_blob": "23fa9b5a917d322424f14c760d1458f679094319",
+      "installed_git_blob": "23fa9b5a917d322424f14c760d1458f679094319",
+      "match": true
+    },
+    {
+      "path": "json_schemas/brush-schema.json",
+      "official_git_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+      "installed_git_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+      "match": true
+    },
+    {
+      "path": "json_schemas/buff-schema.json",
+      "official_git_blob": "be1482fdfa2dc1b9730f5ebaf6cc2a5c096b49d5",
+      "installed_git_blob": "be1482fdfa2dc1b9730f5ebaf6cc2a5c096b49d5",
+      "match": true
+    },
+    {
+      "path": "json_schemas/capturable-units-uniforms-schema.json",
+      "official_git_blob": "5ede5f28f3932cefc8506961e2e279e7c3008869",
+      "installed_git_blob": "5ede5f28f3932cefc8506961e2e279e7c3008869",
+      "match": true
+    },
+    {
+      "path": "json_schemas/culture-uniforms-schema.json",
+      "official_git_blob": "db50211bcf8d316d03517f045310f873adfe2e55",
+      "installed_git_blob": "db50211bcf8d316d03517f045310f873adfe2e55",
+      "match": true
+    },
+    {
+      "path": "json_schemas/debris-uniforms-schema.json",
+      "official_git_blob": "3f697d35a44dc36ff861816eb8303efd42d03fbe",
+      "installed_git_blob": "3f697d35a44dc36ff861816eb8303efd42d03fbe",
+      "match": true
+    },
+    {
+      "path": "json_schemas/diplomatic-tags-schema.json",
+      "official_git_blob": "d160efaaff30a1bd48e6e5c8bd6c4370ad22fa9b",
+      "installed_git_blob": "d160efaaff30a1bd48e6e5c8bd6c4370ad22fa9b",
+      "match": true
+    },
+    {
+      "path": "json_schemas/exotic-schema.json",
+      "official_git_blob": "bf6e070978efbbc1c5bea72ee423b174407ce6ad",
+      "installed_git_blob": "bf6e070978efbbc1c5bea72ee423b174407ce6ad",
+      "match": true
+    },
+    {
+      "path": "json_schemas/exotic-uniforms-schema.json",
+      "official_git_blob": "72e3d031c51f375a5f533fb7837bf49cf606dad8",
+      "installed_git_blob": "72e3d031c51f375a5f533fb7837bf49cf606dad8",
+      "match": true
+    },
+    {
+      "path": "json_schemas/faction-picker-pages-schema.json",
+      "official_git_blob": "ff47b6626a6830a126b9c27dbbcf4dc6eb99e59b",
+      "installed_git_blob": "ff47b6626a6830a126b9c27dbbcf4dc6eb99e59b",
+      "match": true
+    },
+    {
+      "path": "json_schemas/flight-pattern-schema.json",
+      "official_git_blob": "6562e8b3f1c65ad9f7e4e6321cfb6ec9ae83a7b3",
+      "installed_git_blob": "6562e8b3f1c65ad9f7e4e6321cfb6ec9ae83a7b3",
+      "match": true
+    },
+    {
+      "path": "json_schemas/formation-schema.json",
+      "official_git_blob": "b70ee0fdc9037370a5b37e4b58b5988fa7b8c79d",
+      "installed_git_blob": "b70ee0fdc9037370a5b37e4b58b5988fa7b8c79d",
+      "match": true
+    },
+    {
+      "path": "json_schemas/formation-uniforms-schema.json",
+      "official_git_blob": "f57aa66467c036771482760c230795c641b3e79d",
+      "installed_git_blob": "f57aa66467c036771482760c230795c641b3e79d",
+      "match": true
+    },
+    {
+      "path": "json_schemas/front-end-uniforms-schema.json",
+      "official_git_blob": "457acc1795c385b68d9ed757217c549959563c08",
+      "installed_git_blob": "457acc1795c385b68d9ed757217c549959563c08",
+      "match": true
+    },
+    {
+      "path": "json_schemas/future-orbit-uniforms-schema.json",
+      "official_git_blob": "f568c4146c93073fdae5233ed8e54b60d69a0678",
+      "installed_git_blob": "f568c4146c93073fdae5233ed8e54b60d69a0678",
+      "match": true
+    },
+    {
+      "path": "json_schemas/galaxy-chart-schema.json",
+      "official_git_blob": "9e3acf7a0d0e662386b8b424dffb8da3ec9233cb",
+      "installed_git_blob": "9e3acf7a0d0e662386b8b424dffb8da3ec9233cb",
+      "match": true
+    },
+    {
+      "path": "json_schemas/galaxy-generator-uniforms-schema.json",
+      "official_git_blob": "96c6bbb5fbd7384a757dc9afedd560e9f0383464",
+      "installed_git_blob": "96c6bbb5fbd7384a757dc9afedd560e9f0383464",
+      "match": true
+    },
+    {
+      "path": "json_schemas/game-renderer-uniforms-schema.json",
+      "official_git_blob": "3f1e607ce6549b102c8984ad01f8e8dd9e174e8c",
+      "installed_git_blob": "3f1e607ce6549b102c8984ad01f8e8dd9e174e8c",
+      "match": true
+    },
+    {
+      "path": "json_schemas/gui-uniforms-schema.json",
+      "official_git_blob": "3b4f5a933c43deb3ef56ab67d467d385a18a0a11",
+      "installed_git_blob": "3b4f5a933c43deb3ef56ab67d467d385a18a0a11",
+      "match": true
+    },
+    {
+      "path": "json_schemas/hud-skin-schema.json",
+      "official_git_blob": "ca41ff0ec42ebff21bd59f394cf8607bce681d63",
+      "installed_git_blob": "ca41ff0ec42ebff21bd59f394cf8607bce681d63",
+      "match": true
+    },
+    {
+      "path": "json_schemas/hud-skin-uniforms-schema.json",
+      "official_git_blob": "9c2a26052b01c79c8382eac3a1f71212baa68f2f",
+      "installed_git_blob": "9c2a26052b01c79c8382eac3a1f71212baa68f2f",
+      "match": true
+    },
+    {
+      "path": "json_schemas/loadout-schema.json",
+      "official_git_blob": "564b56b177ca8503922ed11c22810542c59a592e",
+      "installed_git_blob": "564b56b177ca8503922ed11c22810542c59a592e",
+      "match": true
+    },
+    {
+      "path": "json_schemas/loot-uniforms-schema.json",
+      "official_git_blob": "b9444753754f5958f40bb2c89ca90d134aff13b8",
+      "installed_git_blob": "b9444753754f5958f40bb2c89ca90d134aff13b8",
+      "match": true
+    },
+    {
+      "path": "json_schemas/main-view-uniforms-schema.json",
+      "official_git_blob": "055f489ebecea9996a4f9387fd95e2746ac6ad0d",
+      "installed_git_blob": "055f489ebecea9996a4f9387fd95e2746ac6ad0d",
+      "match": true
+    },
+    {
+      "path": "json_schemas/mission-uniforms-schema.json",
+      "official_git_blob": "b6a35eed6dee9d9307113e45b410d580f91dc0cd",
+      "installed_git_blob": "b6a35eed6dee9d9307113e45b410d580f91dc0cd",
+      "match": true
+    },
+    {
+      "path": "json_schemas/music-uniforms-schema.json",
+      "official_git_blob": "10d9bbdcd57a785232e543e41b897d919d94469e",
+      "installed_git_blob": "10d9bbdcd57a785232e543e41b897d919d94469e",
+      "match": true
+    },
+    {
+      "path": "json_schemas/notification-uniforms-schema.json",
+      "official_git_blob": "1e40a0c74bfb1382f95309d325c1d5dab1e45844",
+      "installed_git_blob": "1e40a0c74bfb1382f95309d325c1d5dab1e45844",
+      "match": true
+    },
+    {
+      "path": "json_schemas/npc-reward-schema.json",
+      "official_git_blob": "73e6ceb69541e57173d04bec8fe4e06b72b7099b",
+      "installed_git_blob": "73e6ceb69541e57173d04bec8fe4e06b72b7099b",
+      "match": true
+    },
+    {
+      "path": "json_schemas/planet-track-uniforms-schema.json",
+      "official_git_blob": "d5289af6f3a5d2ca0bee4755891552a454690fdb",
+      "installed_git_blob": "d5289af6f3a5d2ca0bee4755891552a454690fdb",
+      "match": true
+    },
+    {
+      "path": "json_schemas/planet-uniforms-schema.json",
+      "official_git_blob": "b102bd3b479efe043c9cf119b0d89507a1ba0cf8",
+      "installed_git_blob": "b102bd3b479efe043c9cf119b0d89507a1ba0cf8",
+      "match": true
+    },
+    {
+      "path": "json_schemas/player-ai-diplomacy-schema.json",
+      "official_git_blob": "4dc11e98b8badee2834fa079dd83a7166e15fd91",
+      "installed_git_blob": "4dc11e98b8badee2834fa079dd83a7166e15fd91",
+      "match": true
+    },
+    {
+      "path": "json_schemas/player-ai-uniforms-schema.json",
+      "official_git_blob": "f3ca62ecf4904519a8e638800ed6cdb926f8f549",
+      "installed_git_blob": "f3ca62ecf4904519a8e638800ed6cdb926f8f549",
+      "match": true
+    },
+    {
+      "path": "json_schemas/player-color-uniforms-schema.json",
+      "official_git_blob": "a28162bbf9b6c48acf083c3d5f4d4c96f20e92a7",
+      "installed_git_blob": "a28162bbf9b6c48acf083c3d5f4d4c96f20e92a7",
+      "match": true
+    },
+    {
+      "path": "json_schemas/player-race-uniforms-schema.json",
+      "official_git_blob": "fdf0145edbfaa2a81713aca3f0c1cbcff65f211a",
+      "installed_git_blob": "fdf0145edbfaa2a81713aca3f0c1cbcff65f211a",
+      "match": true
+    },
+    {
+      "path": "json_schemas/player-schema.json",
+      "official_git_blob": "4b3ad4743d51184ca0566307ab2563a7b34023d2",
+      "installed_git_blob": "4b3ad4743d51184ca0566307ab2563a7b34023d2",
+      "match": true
+    },
+    {
+      "path": "json_schemas/player-uniforms-schema.json",
+      "official_git_blob": "fa7c139e66086b40f1ba2e83ad25a2eeef5aa3e3",
+      "installed_git_blob": "fa7c139e66086b40f1ba2e83ad25a2eeef5aa3e3",
+      "match": true
+    },
+    {
+      "path": "json_schemas/random-map-generator-uniforms-schema.json",
+      "official_git_blob": "e1561bbc3c955bed34abd5a11b2f68d76eb1b637",
+      "installed_git_blob": "e1561bbc3c955bed34abd5a11b2f68d76eb1b637",
+      "match": true
+    },
+    {
+      "path": "json_schemas/random-skybox-fillings-uniforms-schema.json",
+      "official_git_blob": "10d37d0d92e3ab64dd4472749d0bc764b337e493",
+      "installed_git_blob": "10d37d0d92e3ab64dd4472749d0bc764b337e493",
+      "match": true
+    },
+    {
+      "path": "json_schemas/research-subject-schema.json",
+      "official_git_blob": "29f8bfd3d1a60855106155ceef38ea3965a647c1",
+      "installed_git_blob": "29f8bfd3d1a60855106155ceef38ea3965a647c1",
+      "match": true
+    },
+    {
+      "path": "json_schemas/research-uniforms-schema.json",
+      "official_git_blob": "b6c5e73a3d83becdf99aeb280163ef0c6eb710cb",
+      "installed_git_blob": "b6c5e73a3d83becdf99aeb280163ef0c6eb710cb",
+      "match": true
+    },
+    {
+      "path": "json_schemas/scenario-uniforms-schema.json",
+      "official_git_blob": "88ac03c57057d16dd2af8ade85acbb7ca9f0890e",
+      "installed_git_blob": "88ac03c57057d16dd2af8ade85acbb7ca9f0890e",
+      "match": true
+    },
+    {
+      "path": "json_schemas/special-operation-unit-uniforms-schema.json",
+      "official_git_blob": "343f99900d6453921b0f1b85ab957c6613acc96c",
+      "installed_git_blob": "343f99900d6453921b0f1b85ab957c6613acc96c",
+      "match": true
+    },
+    {
+      "path": "json_schemas/special_operation_unit_uniforms-schema.json",
+      "official_git_blob": "0952ecbed66afc0b5d823c0b16afaa9f99fbda06",
+      "installed_git_blob": "0952ecbed66afc0b5d823c0b16afaa9f99fbda06",
+      "match": true
+    },
+    {
+      "path": "json_schemas/start-mode-uniforms-schema.json",
+      "official_git_blob": "29110e790894ec39b5921d0985a7e31832820634",
+      "installed_git_blob": "29110e790894ec39b5921d0985a7e31832820634",
+      "match": true
+    },
+    {
+      "path": "json_schemas/strikecraft-uniforms-schema.json",
+      "official_git_blob": "98697a243f175b1ea0dc207cb30f1300a6477132",
+      "installed_git_blob": "98697a243f175b1ea0dc207cb30f1300a6477132",
+      "match": true
+    },
+    {
+      "path": "json_schemas/target-filter-uniforms-schema.json",
+      "official_git_blob": "2a231b337acc47cb08d971796d4eed511f6d8f8b",
+      "installed_git_blob": "2a231b337acc47cb08d971796d4eed511f6d8f8b",
+      "match": true
+    },
+    {
+      "path": "json_schemas/tutorial-uniforms-schema.json",
+      "official_git_blob": "e94fae433df28efdb2ace55ecd702d6c1abef6ef",
+      "installed_git_blob": "e94fae433df28efdb2ace55ecd702d6c1abef6ef",
+      "match": true
+    },
+    {
+      "path": "json_schemas/unit-bar-uniforms-schema.json",
+      "official_git_blob": "247a3e763b3c5144b5302f872e4cde6e9a539d18",
+      "installed_git_blob": "247a3e763b3c5144b5302f872e4cde6e9a539d18",
+      "match": true
+    },
+    {
+      "path": "json_schemas/unit-build-uniforms-schema.json",
+      "official_git_blob": "4dc23c610530e883721b45cfa1ee4289e180e6de",
+      "installed_git_blob": "4dc23c610530e883721b45cfa1ee4289e180e6de",
+      "match": true
+    },
+    {
+      "path": "json_schemas/unit-item-schema.json",
+      "official_git_blob": "0e0ec0bcdb143e88154a4c1f263348ce93b2d676",
+      "installed_git_blob": "0e0ec0bcdb143e88154a4c1f263348ce93b2d676",
+      "match": true
+    },
+    {
+      "path": "json_schemas/unit-mutation-uniforms-schema.json",
+      "official_git_blob": "b25fbcdbf0fa2094000b8c4245f9dbd0dd919596",
+      "installed_git_blob": "b25fbcdbf0fa2094000b8c4245f9dbd0dd919596",
+      "match": true
+    },
+    {
+      "path": "json_schemas/unit-schema.json",
+      "official_git_blob": "ec6f58ca8b18eb712330dc92266fcbc26ba79b6a",
+      "installed_git_blob": "ec6f58ca8b18eb712330dc92266fcbc26ba79b6a",
+      "match": true
+    },
+    {
+      "path": "json_schemas/unit-skin-schema.json",
+      "official_git_blob": "3a99ce73a7e5aa89e7729f35500b85343913e6de",
+      "installed_git_blob": "3a99ce73a7e5aa89e7729f35500b85343913e6de",
+      "match": true
+    },
+    {
+      "path": "json_schemas/unit-tag-uniforms-schema.json",
+      "official_git_blob": "573bd35a00643ff463123dcdc90b560abe63ccaa",
+      "installed_git_blob": "573bd35a00643ff463123dcdc90b560abe63ccaa",
+      "match": true
+    },
+    {
+      "path": "json_schemas/unit-uniforms-schema.json",
+      "official_git_blob": "6b767d9d6294ac724f20e026999900d9de2a1314",
+      "installed_git_blob": "6b767d9d6294ac724f20e026999900d9de2a1314",
+      "match": true
+    },
+    {
+      "path": "json_schemas/user-interface-uniforms-schema.json",
+      "official_git_blob": "3bbeac2717ce5e7308c909a2478600e71cf3b51e",
+      "installed_git_blob": "3bbeac2717ce5e7308c909a2478600e71cf3b51e",
+      "match": true
+    },
+    {
+      "path": "json_schemas/weapon-schema.json",
+      "official_git_blob": "f28e848be8ba6300f4da09abe7c3d83eda34b81a",
+      "installed_git_blob": "f28e848be8ba6300f4da09abe7c3d83eda34b81a",
+      "match": true
+    },
+    {
+      "path": "json_schemas/weapon-uniforms-schema.json",
+      "official_git_blob": "9a2c8d13ef4b9adb8f1b07d64490cf1bb7f18feb",
+      "installed_git_blob": "9a2c8d13ef4b9adb8f1b07d64490cf1bb7f18feb",
+      "match": true
+    }
+  ]
+}

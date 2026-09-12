@@ -1,0 +1,319 @@
+{
+  "status": "EDITABLE CANDIDATES; not runtime-tested or installed",
+  "pivot_method": "named sphere origins; verify yaw/pitch mechanical centers in editor",
+  "partition_method": "nearest PDC sphere for all pdc_gun_* parts; swivel/sphere_holder/base_details as yaw; others pitch; bay doors stay in hull",
+  "rigs": [
+    {
+      "index": 0,
+      "sphere_source_node": 445,
+      "barrel_source_node": 439,
+      "pivot": [
+        -18.175572125070875,
+        -10.084103847204634,
+        6.057322298929087
+      ],
+      "source_pivot": [
+        -83.1941234093546,
+        0.00969431066503197,
+        70.910948189347
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_local": [
+        2.3485463068749182e-06,
+        -1.070943147229006,
+        3.6379034970757393
+      ],
+      "parts": {
+        "base": [
+          443,
+          465,
+          467,
+          469
+        ],
+        "barrel": [
+          4,
+          427,
+          429,
+          437,
+          439,
+          441,
+          445,
+          447,
+          449,
+          451,
+          471
+        ]
+      }
+    },
+    {
+      "index": 1,
+      "sphere_source_node": 493,
+      "barrel_source_node": 487,
+      "pivot": [
+        -0.029630667578143966,
+        4.7070387550502275,
+        -19.773606576106726
+      ],
+      "source_pivot": [
+        -0.13560826840709694,
+        67.71245554017514,
+        -47.32367755866012
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "muzzle_local": [
+        3.966794620161106e-06,
+        -1.0709500507392684,
+        3.637864382948216
+      ],
+      "parts": {
+        "base": [
+          491,
+          513,
+          515,
+          517
+        ],
+        "barrel": [
+          6,
+          475,
+          477,
+          485,
+          487,
+          489,
+          493,
+          495,
+          497,
+          499,
+          519
+        ]
+      }
+    },
+    {
+      "index": 2,
+      "sphere_source_node": 541,
+      "barrel_source_node": 535,
+      "pivot": [
+        0.27490528462383684,
+        -24.931829390490435,
+        -19.773593259941364
+      ],
+      "source_pivot": [
+        1.2583289960872008,
+        -67.95206120003719,
+        -47.32361660723883
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "muzzle_local": [
+        4.638390101701914e-06,
+        -1.0709447099448839,
+        3.6379157946722107
+      ],
+      "parts": {
+        "base": [
+          539,
+          561,
+          563,
+          565
+        ],
+        "barrel": [
+          8,
+          523,
+          525,
+          533,
+          535,
+          537,
+          541,
+          543,
+          545,
+          547,
+          567
+        ]
+      }
+    },
+    {
+      "index": 3,
+      "sphere_source_node": 589,
+      "barrel_source_node": 583,
+      "pivot": [
+        18.175560944733924,
+        -10.088342399110003,
+        6.0573294603289565
+      ],
+      "source_pivot": [
+        83.19410965872228,
+        -0.009706602119372755,
+        70.91098096886637
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_local": [
+        1.8731916343763023e-06,
+        -1.0709360657464921,
+        3.637884256563547
+      ],
+      "parts": {
+        "base": [
+          587,
+          609,
+          611,
+          613
+        ],
+        "barrel": [
+          10,
+          571,
+          573,
+          581,
+          583,
+          585,
+          589,
+          591,
+          593,
+          595,
+          615
+        ]
+      }
+    },
+    {
+      "index": 4,
+      "sphere_source_node": 637,
+      "barrel_source_node": 631,
+      "pivot": [
+        12.403419355535787,
+        -10.837475376557306,
+        32.54294554622051
+      ],
+      "source_pivot": [
+        56.773573104850385,
+        -3.4386757132369232,
+        192.14227391889364
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_local": [
+        5.606943173657064e-06,
+        -1.0594573924367883,
+        3.6412561285447596
+      ],
+      "parts": {
+        "base": [
+          635,
+          657,
+          659,
+          661
+        ],
+        "barrel": [
+          12,
+          619,
+          621,
+          629,
+          631,
+          633,
+          637,
+          639,
+          641,
+          643,
+          663
+        ]
+      }
+    },
+    {
+      "index": 5,
+      "sphere_source_node": 685,
+      "barrel_source_node": 679,
+      "pivot": [
+        -12.403426591217539,
+        -10.837475413083657,
+        32.54294150114352
+      ],
+      "source_pivot": [
+        -56.773568799808686,
+        -3.438675880427172,
+        192.14225540356395
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "muzzle_local": [
+        3.124841657489925e-06,
+        -1.0594560204109593,
+        3.641263608007285
+      ],
+      "parts": {
+        "base": [
+          683,
+          705,
+          707,
+          709
+        ],
+        "barrel": [
+          14,
+          667,
+          669,
+          677,
+          679,
+          681,
+          685,
+          687,
+          689,
+          691,
+          711
+        ]
+      }
+    }
+  ],
+  "caveats": [
+    "These glTF files use game-coordinate local frames, and still need compiler handedness compensation as in prepare_model.py.",
+    "Before mounting these rigs, remove exactly the listed moving nodes from a separate combat hull to prevent static duplicates.",
+    "Do not add 12 firing weapons: six physical assemblies each get one biaxial weapon entry.",
+    "Six barrel clusters are multi-barrel visual geometry; one cluster muzzle is estimated, not six independent budgets."
+  ]
+}

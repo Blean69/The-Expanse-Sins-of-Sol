@@ -1,0 +1,2110 @@
+{
+  "death_sequences/cruiser0.death_sequence_group": {
+    "bytes": 52,
+    "sha256": "44a5274ee5dc88c2ed77b723f4e23e69625dac60e0f2ad0d3483653e2bfad473"
+  },
+  "death_sequences/cruiser_001.death_sequence": {
+    "bytes": 5360,
+    "sha256": "c70df67329b34f79c6cd3f1e8cfb50eef808c31ae8e52ca1fb90ff785180e248"
+  },
+  "death_sequences/frigate0.death_sequence_group": {
+    "bytes": 52,
+    "sha256": "2e43188f2a7597a0bf056eae183770133db72d832fc0acf5465399e0a67a0c56"
+  },
+  "death_sequences/frigate_001.death_sequence": {
+    "bytes": 5135,
+    "sha256": "bf5e87f243729544605540bf72a9fe6e76ac826f44de56e5af6cb13852f48672"
+  },
+  "death_sequences/torpedo0.death_sequence_group": {
+    "bytes": 51,
+    "sha256": "b176c0be35543521c739dae04709991c0a0f2f1ee2e3c4008a5bf6b77925e928"
+  },
+  "death_sequences/torpedo0_0.death_sequence": {
+    "bytes": 373,
+    "sha256": "2105c4ee7c2f8aa63b149ebdcb0f1d581427cc0ded46e654e736f5d1440da27f"
+  },
+  "effects/Hyperspace_Tech_Frigate_ChargeUp.particle_effect": {
+    "bytes": 28714,
+    "sha256": "8f8812b6eae9f36fd40e0d0336ea92f75d5f57c895f05b908c0fd1dbf5ea69c1"
+  },
+  "effects/Hyperspace_Tech_Frigate_ChargeUp_Interstellar.particle_effect": {
+    "bytes": 23189,
+    "sha256": "185eeceadfb57d4fbcd1abfc4f730f19a684bc8f349ada5c42f932f460321947"
+  },
+  "effects/Hyperspace_Tech_Frigate_ChargeUp_Unstable.particle_effect": {
+    "bytes": 23189,
+    "sha256": "d1278d06b0e9ba58b3341c0512a22adde101d26f3c4f5d4c9b4a4b7aaa61b802"
+  },
+  "effects/Hyperspace_Tech_Frigate_Exit.particle_effect": {
+    "bytes": 13327,
+    "sha256": "e24020a4293eba595cdc91494fb814b81af46e6737d4a5fbf1908c1119e3a175"
+  },
+  "effects/Hyperspace_Tech_Frigate_Travel.particle_effect": {
+    "bytes": 25786,
+    "sha256": "a9b3e27df32aa485afc2cc2d9420e378c29c8f0577a411d2c7a4edfd51f7fc39"
+  },
+  "effects/Hyperspace_Tech_Frigate_Travel_Interstellar.particle_effect": {
+    "bytes": 29656,
+    "sha256": "ea6489ab34a6efb88149446a67833f10aa15fd1d0b20bba343ce9784f730b030"
+  },
+  "effects/Hyperspace_Tech_Frigate_Travel_Unstable.particle_effect": {
+    "bytes": 29656,
+    "sha256": "49ee811def98cbc1f4459206d1891a62f11c5d2e715469765671f2bbd8ca8fd4"
+  },
+  "effects/PD_autocannon_impact.particle_effect": {
+    "bytes": 7622,
+    "sha256": "f3f59f63926d567acf7c2f2c847bd435e3d14df84152930cde4b8af0d2107376"
+  },
+  "effects/corvette_radialexplosion_revamp.particle_effect": {
+    "bytes": 12127,
+    "sha256": "07c808ea05626cc6bae7d7ca7437c7f4a7cd4ca3f7df13e7c140ad9b427f3a0c"
+  },
+  "effects/cruiser_radialexplosion_revamp.particle_effect": {
+    "bytes": 14546,
+    "sha256": "86f7e00aa9e435e69f01a9bf897cf9a4672c859fe07b92fb2dba1f5b0b04d786"
+  },
+  "effects/damage_air_decompression.particle_effect": {
+    "bytes": 6017,
+    "sha256": "3d7f5ff496bb1f4e196faf14f48cdcbf3497de065197ce99dd8be57a67fe77f4"
+  },
+  "effects/damage_electricity.particle_effect": {
+    "bytes": 16134,
+    "sha256": "89eeb1ccd287fdafd86c5244e835a223c80ef40e6bbb915b9041aad6f684d8f5"
+  },
+  "effects/damage_electricity_2.particle_effect": {
+    "bytes": 12275,
+    "sha256": "28fdb201ffb034009af69e4d8de2c4beba57100438d50a8f2ef0623243e2d3bd"
+  },
+  "effects/damage_fire.particle_effect": {
+    "bytes": 13402,
+    "sha256": "6275b0c046dd7c4f63c9cb4efe2b669ae8fd0260fae571ac18bd7c2b57c68c91"
+  },
+  "effects/damage_fire_pillar.particle_effect": {
+    "bytes": 11645,
+    "sha256": "b803eddffafbba174dce4ff4ea70c8fe3b7976470c4ec25e96f6d9e4aee6684d"
+  },
+  "effects/damage_smoke_1.particle_effect": {
+    "bytes": 9032,
+    "sha256": "21f5d26477fa417e1302b728720b61d8f0d4679bd4ce6fa3718e6da47f67c1de"
+  },
+  "effects/damage_smoke_2.particle_effect": {
+    "bytes": 9032,
+    "sha256": "fd05fb2c8e278b2d19ec86b34e4b2d8d10c4779fc323be8c059baf2f94564ee3"
+  },
+  "effects/exhaust_tech_large_01.particle_effect": {
+    "bytes": 10243,
+    "sha256": "661ea789f293fb19374a00bfc5cb676491cf340b4719ad43a746609e76dbd5f2"
+  },
+  "effects/exhaust_tech_medium_01.particle_effect": {
+    "bytes": 10163,
+    "sha256": "39ab5067cc2b45229679e026289551f6ac9c7c8e629d2ead04d874c61e5d066d"
+  },
+  "effects/exhaust_tech_small_01.particle_effect": {
+    "bytes": 10148,
+    "sha256": "b09146e4e91a7aedb78e5a63e0411552bd8a96d6d95dfab7b0e8c06bb0a9b17f"
+  },
+  "effects/frigate_radialexplosion_revamp.particle_effect": {
+    "bytes": 14509,
+    "sha256": "5112409fd05810b1b0405fc90cf5dbbf7270a1548fe341ac586035d5d7948b56"
+  },
+  "effects/light_autocannon_impact.particle_effect": {
+    "bytes": 11591,
+    "sha256": "66099e41dbdfcb8e63ac5570e76e8c9fe308259ee20397b2012bc613842eb2d1"
+  },
+  "effects/medium_autocannon_impact.particle_effect": {
+    "bytes": 15826,
+    "sha256": "d1d5651d19798a43859dc2eff8d37d1ddffeb377c327c9230a008fdedf02cc6d"
+  },
+  "effects/placeholder_effect.particle_effect": {
+    "bytes": 3479,
+    "sha256": "5b544d01b927926e6b50ced1ec49b73be76ea09602a8cea4c9834e9df708273a"
+  },
+  "effects/strikecraft_radialexplosion_revamp.particle_effect": {
+    "bytes": 13565,
+    "sha256": "9513a85be9e2de283d4b4801254c877e91f9026861ac84f807bb7b6cd509cc74"
+  },
+  "effects/tec_damage_cruiser.particle_effect": {
+    "bytes": 7926,
+    "sha256": "54f07216f7bdfc577faa79f5065ab922c3490bfa50149cb382c605a201221241"
+  },
+  "effects/tec_damage_embers.particle_effect": {
+    "bytes": 3130,
+    "sha256": "06fc0ab900271002041d23d20f1eb01bda5b9f59c5742551848a4e651bf59d41"
+  },
+  "effects/tec_damage_frigate.particle_effect": {
+    "bytes": 8014,
+    "sha256": "a1609b51a20503c0ddc836c70944c455d23fc9cdd6ea2a894ca2955b327129e1"
+  },
+  "effects/tec_damage_plasma_sparks.particle_effect": {
+    "bytes": 9616,
+    "sha256": "f673ea48492b06a275d5782e162911d5ef5c44d67fb08471cce11af886551919"
+  },
+  "effects/tech_medium_radialexplosion_revamp.particle_effect": {
+    "bytes": 31012,
+    "sha256": "fc8b79dccb6a4be85699bba141b488235275349dc6cede718b9f3cc443914df0"
+  },
+  "effects/torpedo_cruiser_exhaust.particle_effect": {
+    "bytes": 11247,
+    "sha256": "4c8666be7d8912fecb6b54aa05e98ea82ada764add6c64c3e93c2093e299e107"
+  },
+  "effects/trader_antifighter_frigate.shield_effect": {
+    "bytes": 291,
+    "sha256": "f819ce94f1e807af95eae3740fbd6b5e8f3a49a34ed6d92539e8c9e361c5d840"
+  },
+  "effects/trader_light_autocannon_weapon_muzzle.particle_effect": {
+    "bytes": 2075,
+    "sha256": "818a69162d37903843d6c9a63130ab4885b9836a6bd87f1348d87e326a7c39d7"
+  },
+  "effects/trader_light_autocannon_weapon_projectile_travel.particle_effect": {
+    "bytes": 1927,
+    "sha256": "2d62c8037ca431cef017aac958e27db0791844d0eba164e9ea9cac38cadb55d2"
+  },
+  "effects/trader_light_frigate.shield_effect": {
+    "bytes": 285,
+    "sha256": "c9d3c76b41b982d81da82d6eed7f4cc2aac5b4011fea44fa4aaeed6f3cb8205b"
+  },
+  "effects/trader_medium_autocannon_weapon_muzzle.particle_effect": {
+    "bytes": 2451,
+    "sha256": "e2743c73d67acd08cca360621f732d815e804d66d8b621b7a4b16243fbff2c75"
+  },
+  "effects/trader_medium_autocannon_weapon_projectile_travel.particle_effect": {
+    "bytes": 2107,
+    "sha256": "ba6f071fd77deffcac5a976f5d643ece5e46a89003e9740f96e4e37e2f1c24bc"
+  },
+  "effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect": {
+    "bytes": 2426,
+    "sha256": "298541190912a6938ef0174d5d85a870ac3c876fb17a0d739d0d506846eef3e9"
+  },
+  "effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect": {
+    "bytes": 1958,
+    "sha256": "70fde486dc472b71e60383daec1c49bc7a6bb6a18d6f914b758e475f56a9a3c0"
+  },
+  "effects/trader_torpedo_cruiser.shield_effect": {
+    "bytes": 288,
+    "sha256": "aced92c5f3241efd242cf82c41ce155f02285fef13ba041398b40bd843a9f78d"
+  },
+  "effects/trader_torpedo_cruiser_impact.particle_effect": {
+    "bytes": 31022,
+    "sha256": "490c1cd964412e65808802554e2cf69d14e20e3a733edaf7275a8cf71fb4eb47"
+  },
+  "effects/trader_torpedo_cruiser_muzzle.particle_effect": {
+    "bytes": 8487,
+    "sha256": "354fa6f777b57bc1b62b13d1e0d4c30447598df530755de11746d85b6bdfaaca"
+  },
+  "entities/trader_antifighter_frigate.unit": {
+    "bytes": 9324,
+    "sha256": "16808a654c6dd2bf5e3e1f7c8582f9b2b0341ed3a34774d73b534f3e446c015a"
+  },
+  "entities/trader_antifighter_frigate.unit_skin": {
+    "bytes": 12894,
+    "sha256": "b27a6ea8ca7c83959c797f8ba3beeb833f873d725a41845a7fe591902c28b951"
+  },
+  "entities/trader_antifighter_frigate_light_autocannon.weapon": {
+    "bytes": 1606,
+    "sha256": "72535b2e763119d2138e3a3855e028def6223a2b1559ea9b851bd6e3c2635880"
+  },
+  "entities/trader_antifighter_frigate_point_defense_autocannon.weapon": {
+    "bytes": 1629,
+    "sha256": "40c0407280f541bde3ea455374fc90ccd1c21870d9caba24a503956a601ec693"
+  },
+  "entities/trader_light_frigate.unit": {
+    "bytes": 6192,
+    "sha256": "21f7dc1945cb4b04f28fcd7c22e0a1cfcfdf5eae4c41af7e5270bf847f22cb48"
+  },
+  "entities/trader_light_frigate.unit_skin": {
+    "bytes": 9244,
+    "sha256": "4819e90d19e76b6201fc39ee1230669202f5380fd66b376ebc30cf3ec91c0ba6"
+  },
+  "entities/trader_light_frigate_medium_autocannon.weapon": {
+    "bytes": 1425,
+    "sha256": "dd799fba024c2f55b8a6dcc9a481419de60e6a45aacbcccdc0fac155b5848567"
+  },
+  "entities/trader_torpedo_cruiser.unit": {
+    "bytes": 6622,
+    "sha256": "6875aa6691b62be7f5f5615dbc2d88099e1ce85bb4f118217c48b52aa9eba6e9"
+  },
+  "entities/trader_torpedo_cruiser.unit_skin": {
+    "bytes": 8749,
+    "sha256": "fe7a6f3dddd771c467e8359439afadc1e9cda3b9d346ddee85afd92e009678d7"
+  },
+  "entities/trader_torpedo_cruiser_torpedo.unit": {
+    "bytes": 2860,
+    "sha256": "886a135832469b62ce75f359823103f23621acc61375ebb336b92cfdddca66a1"
+  },
+  "entities/trader_torpedo_cruiser_torpedo.unit_skin": {
+    "bytes": 1372,
+    "sha256": "2fd884758cb15aaa182e19d12fd5bec393ae90e5fcd87e4786af9d9193371b89"
+  },
+  "entities/trader_torpedo_cruiser_torpedo.weapon": {
+    "bytes": 953,
+    "sha256": "5f1b0223af7404fd15f6c8045d83b93f6dd413a3e7f7e9ed49196994e9b3cb76"
+  },
+  "mesh_materials/trader_antifighter_frigate.mesh_material": {
+    "bytes": 297,
+    "sha256": "b375c7195fda7a73426b0333d7ed4cf0ec281d6796e7a02fedb19c865647e4e8"
+  },
+  "mesh_materials/trader_antifighter_frigate_shield.mesh_material": {
+    "bytes": 78,
+    "sha256": "2c7b843db34f170a3a94986fbf6faeb29ce6c0b532ce1749a93718f0349c780e"
+  },
+  "mesh_materials/trader_asset_turret_large.mesh_material": {
+    "bytes": 297,
+    "sha256": "d7c7676b90677296fe43f71b073407099ff8cc3b75606f18a91b1c7e6b36ac53"
+  },
+  "mesh_materials/trader_asset_turret_small.mesh_material": {
+    "bytes": 297,
+    "sha256": "992e78554b1fe4d27314aec2a16b0e407e7a184658e121aa1df308170536251f"
+  },
+  "mesh_materials/trader_damage.mesh_material": {
+    "bytes": 241,
+    "sha256": "5e00c06304734867d53669fddd2a77e84faff639b905209bb48d48ee51c2be34"
+  },
+  "mesh_materials/trader_light_frigate.mesh_material": {
+    "bytes": 273,
+    "sha256": "4d1ccb92a98efd5b15645474f551f3ee7c6ffeff6bf48100351ff065790430a0"
+  },
+  "mesh_materials/trader_light_frigate_shield.mesh_material": {
+    "bytes": 125,
+    "sha256": "aa2bc757cc9a9bf9131343f1bcfadcf4d400c386efed19d0194c98bb5c183699"
+  },
+  "mesh_materials/trader_torpedo_cruiser.mesh_material": {
+    "bytes": 281,
+    "sha256": "4e4edb46fe48d45195b42d4ab69971e1830f801463e5939beb429fa049367b54"
+  },
+  "mesh_materials/trader_torpedo_cruiser_shield.mesh_material": {
+    "bytes": 124,
+    "sha256": "d469ac1fb05790c6071603de87c6d743c101013f8cc4ba56081173185756f8b0"
+  },
+  "mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material": {
+    "bytes": 281,
+    "sha256": "4e4edb46fe48d45195b42d4ab69971e1830f801463e5939beb429fa049367b54"
+  },
+  "meshes/tec_damage_1.mesh": {
+    "bytes": 21168,
+    "sha256": "0b2920626965d8bdf4fec27ee295a7e164a8be8c90a0084b089cd5b983b2f990"
+  },
+  "meshes/tec_damage_2.mesh": {
+    "bytes": 65958,
+    "sha256": "353e1e3773ca7d0e95ac73daf1d26a95b76526d9b11be81d9da04b852f761b82"
+  },
+  "meshes/tec_damage_3.mesh": {
+    "bytes": 16960,
+    "sha256": "39909de3d9205b9d76077d9e55f542105c8f96dc640bf8b63c63652256333db4"
+  },
+  "meshes/tec_damage_4.mesh": {
+    "bytes": 48398,
+    "sha256": "6193d1de258f1ac857cfc313c1d143952b7c7b60590d06e46523e3d07f353b85"
+  },
+  "meshes/trader_antifighter_frigate.mesh": {
+    "bytes": 1056192,
+    "sha256": "c727314962dba9357e5aed04dec961f4964a67801ac4a21aa81e37fdac403682"
+  },
+  "meshes/trader_antifighter_frigate_shield.mesh": {
+    "bytes": 535202,
+    "sha256": "dddea13200af1d7941c57053289821dcc39de17bf9ddd65c6a6e4a71d41960fa"
+  },
+  "meshes/trader_asset_frigate_pdturret_barrel_0.mesh": {
+    "bytes": 66184,
+    "sha256": "e358d990f72cd10d6510017d0193e9b8bfcb842cc5922df99c31de9c61c2ae0c"
+  },
+  "meshes/trader_asset_frigate_pdturret_mount_0.mesh": {
+    "bytes": 35093,
+    "sha256": "300ca14c3e7b9a340510a0dcdaf66d814d64d9ff0ee137d58a6b94f8e36edd75"
+  },
+  "meshes/trader_asset_frigate_turret_barrel_0.mesh": {
+    "bytes": 69132,
+    "sha256": "525abc902e996dee4589844a24789b0fb0cb8dc8aabc15432a88e385016df1b4"
+  },
+  "meshes/trader_asset_frigate_turret_mount_0.mesh": {
+    "bytes": 49551,
+    "sha256": "cdd7673271930899edc3491da02ffcaadcb633bb2a131aa193856c5e7f1c9997"
+  },
+  "meshes/trader_damage_0.mesh": {
+    "bytes": 110366,
+    "sha256": "e7c394d3054f667caec8fbdb512471bab6912a618c04b60915d94db23af443f8"
+  },
+  "meshes/trader_light_frigate.mesh": {
+    "bytes": 534826,
+    "sha256": "a395aaba866865508e03e27cb646ddcb0152d68b4de5d5c8c67fb7bb59da09d9"
+  },
+  "meshes/trader_light_frigate_shield.mesh": {
+    "bytes": 609052,
+    "sha256": "7251ee41ecc4d1aba4cab5708005d2b63e9cd962c3a77c9b339911adcbf96441"
+  },
+  "meshes/trader_torpedo_cruiser.mesh": {
+    "bytes": 1197542,
+    "sha256": "d5f78245da6b137e0166f3cce556817af7dd799c5e826de3a986a91639c2d4fd"
+  },
+  "meshes/trader_torpedo_cruiser_shield.mesh": {
+    "bytes": 660742,
+    "sha256": "c99ec0c454e1c4d55b44cb4b5889b282383e892f33a6962038f6e541f2c0a540"
+  },
+  "meshes/trader_torpedo_cruiser_torpedo.mesh": {
+    "bytes": 82450,
+    "sha256": "b08b33c391bfb66eaabb2f4b3ac3578b6de584f2a8aec691dfa17460d028a6cf"
+  },
+  "sounds/ENGINE_TECHCRUISERSHIP.ogg": {
+    "bytes": 233919,
+    "sha256": "997605a6668956a48bcbbff76e94f1d6e7ebaabb11086718864553ede85b3b4f"
+  },
+  "sounds/ENGINE_TECHCRUISERSHIP.sound": {
+    "bytes": 152,
+    "sha256": "a1a282b6575315dfdeea70b0999b90e32f8de3e753fa43fccab1b60b974bcec7"
+  },
+  "sounds/ENGINE_TECHFRIGATESHIP.ogg": {
+    "bytes": 88853,
+    "sha256": "877be5a4b5da3dc2bc173c393d3bb965ffd9b074cf8902c0cb1b2ff4d7265d67"
+  },
+  "sounds/ENGINE_TECHFRIGATESHIP.sound": {
+    "bytes": 152,
+    "sha256": "793dab0536e29edfc1c458e6f20e7bceced5386d9e06d8585346f11cdb10fe78"
+  },
+  "sounds/EXPLOSION_SUPPORTSHIPDEATH.ogg": {
+    "bytes": 49559,
+    "sha256": "4ad0bc89905f8c06220f4e0a1e54bfa18e369e089f5512e80843352e627cae26"
+  },
+  "sounds/EXPLOSION_SUPPORTSHIPDEATH.sound": {
+    "bytes": 123,
+    "sha256": "3e473bc2e1e5213451bfe41f74b6f9a8de97f2ffe494818c7a5253f4f3a99a3e"
+  },
+  "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT1.ogg": {
+    "bytes": 37222,
+    "sha256": "c1b9cd90d6bc8fdfe405970a8da8fa4a324cae4a1e49a47742e56b5bbebeb84a"
+  },
+  "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT1.sound": {
+    "bytes": 123,
+    "sha256": "3e473bc2e1e5213451bfe41f74b6f9a8de97f2ffe494818c7a5253f4f3a99a3e"
+  },
+  "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT2.ogg": {
+    "bytes": 36163,
+    "sha256": "4c51c0386890c7276c105b1267f8d48c1e9a8a1aae727d7afa934b1b5c99abd8"
+  },
+  "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT2.sound": {
+    "bytes": 123,
+    "sha256": "3e473bc2e1e5213451bfe41f74b6f9a8de97f2ffe494818c7a5253f4f3a99a3e"
+  },
+  "sounds/HYPERSPACE_CHARGEUP.ogg": {
+    "bytes": 229293,
+    "sha256": "90de0d8277817758516b54e5f3427687625a1c9cba1568d28c16c04ab26a5781"
+  },
+  "sounds/HYPERSPACE_CHARGEUP.sound": {
+    "bytes": 164,
+    "sha256": "2ad1b653a88dbc6374b70120fade1ead4ce0565fd30f88515efd7d43de3d5073"
+  },
+  "sounds/HYPERSPACE_EXIT.ogg": {
+    "bytes": 91648,
+    "sha256": "0cfcb5b58d32a24a41be381671d472ede7f4a85dede59e0b4878320b4f9ac00a"
+  },
+  "sounds/HYPERSPACE_EXIT.sound": {
+    "bytes": 162,
+    "sha256": "9451a0b0064d153cecf2b771284ea3cc5d6049948ef927f1e6dc3b79a2fbfd9c"
+  },
+  "sounds/HYPERSPACE_TRAVEL.ogg": {
+    "bytes": 309468,
+    "sha256": "ee630caf716ba5b868310ef9da8cd2fa93a73a8557d110c51f5ec562df0bbc69"
+  },
+  "sounds/HYPERSPACE_TRAVEL.sound": {
+    "bytes": 123,
+    "sha256": "156ded172ceff5ca9369c28cb0a889c982e47e09990512057aa012ae2d3d59a1"
+  },
+  "sounds/RADIALEXPLOSION_CORVETTE_01_MEDIUM.sound": {
+    "bytes": 166,
+    "sha256": "6859db9b9efdb85c004b76d9522513c7c41bc22f28dadd49ebddaf9d71c39013"
+  },
+  "sounds/RADIALEXPLOSION_CORVETTE_02_MEDIUM.sound": {
+    "bytes": 166,
+    "sha256": "e19c0ee9e87075b81e3210fbead59b3deb1dd62fcbe1267b03d84ad7066b3cfe"
+  },
+  "sounds/RADIALEXPLOSION_CORVETTE_03_MEDIUM.sound": {
+    "bytes": 166,
+    "sha256": "a13569af062f39929e5fda29f02619169860a0d0a17c3ef460dd3bcf603d5c3c"
+  },
+  "sounds/RADIALEXPLOSION_CRUISER_01_LARGE.sound": {
+    "bytes": 166,
+    "sha256": "67b6eec056501e920eba8c497374aa67926cb9681914229b923b75318d09d195"
+  },
+  "sounds/RADIALEXPLOSION_CRUISER_02_LARGE.sound": {
+    "bytes": 166,
+    "sha256": "398d8ab6b52f25dc4b4369f78a50ffd0999295732bf96afe18efb7d169d899f1"
+  },
+  "sounds/RADIALEXPLOSION_CRUISER_03_LARGE.sound": {
+    "bytes": 166,
+    "sha256": "a4d6f2fb8d91052a06260bdc797d8d92c14f80c0ebe2570354ce05978f82109f"
+  },
+  "sounds/RADIALEXPLOSION_FRIGATE_01_LARGE.sound": {
+    "bytes": 166,
+    "sha256": "93cd2935bef41e6a35243dfae63196ce92f44eacb379255fc9de13c4a5512ee9"
+  },
+  "sounds/RADIALEXPLOSION_FRIGATE_02_LARGE.sound": {
+    "bytes": 166,
+    "sha256": "3694ac0caaaa075428a35b18efd42329491fa9438ea276ac8f97a0880a8985a8"
+  },
+  "sounds/RADIALEXPLOSION_FRIGATE_03_LARGE.sound": {
+    "bytes": 166,
+    "sha256": "9289c3702522bf19e6e00ebf85d03fb06d1c5d656c4ddec3a9a237a5baa7813f"
+  },
+  "sounds/RADIALEXPLOSION_STRIKECRAFT_01_MEDIUM.sound": {
+    "bytes": 169,
+    "sha256": "87a6dbc158758612ec327e65c98bf52bb86113e6f553cdf83fa7b22dc364cfb7"
+  },
+  "sounds/RADIALEXPLOSION_STRIKECRAFT_02_MEDIUM.sound": {
+    "bytes": 169,
+    "sha256": "56161fc81934bd76772663c9bb8811f38029acbd559665bc2f0f3e20ceef61e1"
+  },
+  "sounds/RADIALEXPLOSION_STRIKECRAFT_03_MEDIUM.sound": {
+    "bytes": 169,
+    "sha256": "9242149e1f024eae33d9a00dbd2a95471158ff81fad06148e4755f6412886aae"
+  },
+  "sounds/RadialExplosion_Corvette_01_Large.sound": {
+    "bytes": 166,
+    "sha256": "d5b9c1aadd4061d16ccd10b2ddcbedf6850f0093514bc98a72db7a89d3798282"
+  },
+  "sounds/RadialExplosion_Corvette_02_Large.sound": {
+    "bytes": 166,
+    "sha256": "551cdb1a7ecfacf3591ec55fdb8d4c19cb7e1dbb1c5f375d2ddbffef55feaabf"
+  },
+  "sounds/RadialExplosion_Corvette_03_Large.sound": {
+    "bytes": 166,
+    "sha256": "8268f4cbaee5e90b300233001baf47b0abb34da0586f293ba1b34b71c1eb9cd3"
+  },
+  "sounds/RadialExplosion_StrikeCraft_01_Large.sound": {
+    "bytes": 169,
+    "sha256": "c900265f4e15d5b77c084f939b84285a210eabb9aa004eaf99ebf9e6b7cfd13b"
+  },
+  "sounds/RadialExplosion_StrikeCraft_02_Large.sound": {
+    "bytes": 169,
+    "sha256": "9e554f04b550ef9b9e799800bfa0078e68a3c5120bcf99e1a436115e83f60f07"
+  },
+  "sounds/RadialExplosion_StrikeCraft_03_Large.sound": {
+    "bytes": 169,
+    "sha256": "c7b237d75521cac72f1228ec20ab1fa32e508c3ec02fb7ca38037e636c4d7870"
+  },
+  "sounds/RadialExplosion_TechMedium_01.ogg": {
+    "bytes": 82593,
+    "sha256": "229bd8489845786e87fb47730e1d7ca9196a5ce65bb9792764dd667a29d0fb56"
+  },
+  "sounds/RadialExplosion_TechMedium_01.sound": {
+    "bytes": 124,
+    "sha256": "326c1bd22599db449f634b68344832dc9d84d7a90e8c04d178d331372c00c722"
+  },
+  "sounds/RadialExplosion_TechMedium_02.ogg": {
+    "bytes": 72611,
+    "sha256": "1da51fe5fedc65117b495cf9ea3879d78273449d599a15ae1618c37aa5844f27"
+  },
+  "sounds/RadialExplosion_TechMedium_02.sound": {
+    "bytes": 124,
+    "sha256": "326c1bd22599db449f634b68344832dc9d84d7a90e8c04d178d331372c00c722"
+  },
+  "sounds/RadialExplosion_TechMedium_03.ogg": {
+    "bytes": 101479,
+    "sha256": "d2aa15d0a1dc2cbf58ff8d16e1a3ea1fca80d76607e6d362afe93208dce7ff59"
+  },
+  "sounds/RadialExplosion_TechMedium_03.sound": {
+    "bytes": 124,
+    "sha256": "326c1bd22599db449f634b68344832dc9d84d7a90e8c04d178d331372c00c722"
+  },
+  "sounds/ambient_loop_tech_neutrontorp_engine.ogg": {
+    "bytes": 115842,
+    "sha256": "9232576a3bf50caa38a691c35128b41652514f0a7347b6582a92d97ec6fac18a"
+  },
+  "sounds/ambient_loop_tech_neutrontorp_engine.sound": {
+    "bytes": 152,
+    "sha256": "b0fcef2583f33e86e39af5da150c622534bc0c6d4d965417bae255803860a47e"
+  },
+  "sounds/hyperspace_entry.ogg": {
+    "bytes": 68761,
+    "sha256": "514cc5bcd678d866c0bacd9a8d72f93c6c53acbb81931a0044f42b0568be42c4"
+  },
+  "sounds/hyperspace_entry.sound": {
+    "bytes": 163,
+    "sha256": "5fd385149bdec98aa125dd2ef71df3e39ae63e92659fd00435de2a91f8c392ab"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_neutral_0.ogg": {
+    "bytes": 18448,
+    "sha256": "7d0a1619e8d0d9d25405d413bf92922e0f3d9f20b9e0f509e5d3c8062e9d15a8"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_neutral_1.ogg": {
+    "bytes": 19891,
+    "sha256": "d1be4bbed6b5e822acea6a5c29ab8bf88dc70c101e6ef94a290302d6771f6dc4"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_neutral_1.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_neutral_2.ogg": {
+    "bytes": 25583,
+    "sha256": "96dba873176516b27f500226172f28d89c19597eba5135f252df0c7fcf3819ae"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_neutral_2.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_neutral_3_placeholder.ogg": {
+    "bytes": 25583,
+    "sha256": "96dba873176516b27f500226172f28d89c19597eba5135f252df0c7fcf3819ae"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_neutral_3_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_scared_0_placeholder.ogg": {
+    "bytes": 18448,
+    "sha256": "7d0a1619e8d0d9d25405d413bf92922e0f3d9f20b9e0f509e5d3c8062e9d15a8"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_scared_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_scared_1_placeholder.ogg": {
+    "bytes": 19891,
+    "sha256": "d1be4bbed6b5e822acea6a5c29ab8bf88dc70c101e6ef94a290302d6771f6dc4"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_scared_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_scared_2_placeholder.ogg": {
+    "bytes": 25583,
+    "sha256": "96dba873176516b27f500226172f28d89c19597eba5135f252df0c7fcf3819ae"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_scared_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_scared_3_placeholder.ogg": {
+    "bytes": 18448,
+    "sha256": "7d0a1619e8d0d9d25405d413bf92922e0f3d9f20b9e0f509e5d3c8062e9d15a8"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_scared_3_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_smug_0_placeholder.ogg": {
+    "bytes": 18448,
+    "sha256": "7d0a1619e8d0d9d25405d413bf92922e0f3d9f20b9e0f509e5d3c8062e9d15a8"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_smug_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_smug_1_placeholder.ogg": {
+    "bytes": 19891,
+    "sha256": "d1be4bbed6b5e822acea6a5c29ab8bf88dc70c101e6ef94a290302d6771f6dc4"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_smug_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_smug_2_placeholder.ogg": {
+    "bytes": 25583,
+    "sha256": "96dba873176516b27f500226172f28d89c19597eba5135f252df0c7fcf3819ae"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_smug_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_smug_3_placeholder.ogg": {
+    "bytes": 18448,
+    "sha256": "7d0a1619e8d0d9d25405d413bf92922e0f3d9f20b9e0f509e5d3c8062e9d15a8"
+  },
+  "sounds/trader_antifighter_frigate_attack_order_issued_smug_3_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_hyperspace_charge_started_neutral_0.ogg": {
+    "bytes": 19090,
+    "sha256": "9a652ea0a66126f950e3bf690851e8f00a996cb24ec0294a364ef5b3d2f11566"
+  },
+  "sounds/trader_antifighter_frigate_hyperspace_charge_started_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_neutral_0.ogg": {
+    "bytes": 12356,
+    "sha256": "16500f26808bfb65828c40be0b7a6ee9317b66f263009549f668c998bc6ceecf"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_neutral_1.ogg": {
+    "bytes": 18302,
+    "sha256": "7afc50259440bc1d3772b536379ee43f780ab9d8ec6f35810413080f597eb3ea"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_neutral_1.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_neutral_2.ogg": {
+    "bytes": 15485,
+    "sha256": "89423eea64ea3a85d5c48f93a1e11bd95d204f9c64c4d10cf28f4d8b2928abac"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_neutral_2.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_scared_0_placeholder.ogg": {
+    "bytes": 12356,
+    "sha256": "16500f26808bfb65828c40be0b7a6ee9317b66f263009549f668c998bc6ceecf"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_scared_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_scared_1_placeholder.ogg": {
+    "bytes": 18302,
+    "sha256": "7afc50259440bc1d3772b536379ee43f780ab9d8ec6f35810413080f597eb3ea"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_scared_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_scared_2_placeholder.ogg": {
+    "bytes": 15485,
+    "sha256": "89423eea64ea3a85d5c48f93a1e11bd95d204f9c64c4d10cf28f4d8b2928abac"
+  },
+  "sounds/trader_antifighter_frigate_order_issued_scared_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_selected_neutral_0.ogg": {
+    "bytes": 19867,
+    "sha256": "109d70c5467e7042a71cda985f54cef2639876fdc7f4db0b74c35be483294341"
+  },
+  "sounds/trader_antifighter_frigate_selected_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_selected_neutral_1.ogg": {
+    "bytes": 13972,
+    "sha256": "102eea9836af4a7c53d61f12cad9f8273357ffb5bfa1fe4e99279e92c229aab6"
+  },
+  "sounds/trader_antifighter_frigate_selected_neutral_1.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_selected_neutral_2.ogg": {
+    "bytes": 25583,
+    "sha256": "af788faf4eaa3da1119e383c5569451f2f57e3cc52fc19bd033b7c202f46442f"
+  },
+  "sounds/trader_antifighter_frigate_selected_neutral_2.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_selected_scared_0_placeholder.ogg": {
+    "bytes": 19867,
+    "sha256": "109d70c5467e7042a71cda985f54cef2639876fdc7f4db0b74c35be483294341"
+  },
+  "sounds/trader_antifighter_frigate_selected_scared_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_selected_scared_1_placeholder.ogg": {
+    "bytes": 13972,
+    "sha256": "102eea9836af4a7c53d61f12cad9f8273357ffb5bfa1fe4e99279e92c229aab6"
+  },
+  "sounds/trader_antifighter_frigate_selected_scared_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_selected_scared_2_placeholder.ogg": {
+    "bytes": 25583,
+    "sha256": "af788faf4eaa3da1119e383c5569451f2f57e3cc52fc19bd033b7c202f46442f"
+  },
+  "sounds/trader_antifighter_frigate_selected_scared_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_antifighter_frigate_spawned_neutral_0.ogg": {
+    "bytes": 25788,
+    "sha256": "35bf124604cdd000ac6a22d1bf108795b4575b4488e5b1ca1f388c8541c91ce1"
+  },
+  "sounds/trader_antifighter_frigate_spawned_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_neutral_0.ogg": {
+    "bytes": 12580,
+    "sha256": "63af4836202beb153a799af0d786afb3ae5b6f63dc2b7d545acdaa8f33b7124a"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_neutral_1.ogg": {
+    "bytes": 13149,
+    "sha256": "096c3c548b55f8a00e3875d864f02ffe61014b5bfea605b86f8692e0780fb3cd"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_neutral_1.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_neutral_2.ogg": {
+    "bytes": 11200,
+    "sha256": "fd5583ba1b12a464877422444eb5f8929399f4f45c30e15f6643bac713104e9a"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_neutral_2.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.ogg": {
+    "bytes": 12580,
+    "sha256": "63af4836202beb153a799af0d786afb3ae5b6f63dc2b7d545acdaa8f33b7124a"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.ogg": {
+    "bytes": 12580,
+    "sha256": "63af4836202beb153a799af0d786afb3ae5b6f63dc2b7d545acdaa8f33b7124a"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.ogg": {
+    "bytes": 13149,
+    "sha256": "096c3c548b55f8a00e3875d864f02ffe61014b5bfea605b86f8692e0780fb3cd"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.ogg": {
+    "bytes": 11200,
+    "sha256": "fd5583ba1b12a464877422444eb5f8929399f4f45c30e15f6643bac713104e9a"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.ogg": {
+    "bytes": 12580,
+    "sha256": "63af4836202beb153a799af0d786afb3ae5b6f63dc2b7d545acdaa8f33b7124a"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.ogg": {
+    "bytes": 12580,
+    "sha256": "63af4836202beb153a799af0d786afb3ae5b6f63dc2b7d545acdaa8f33b7124a"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.ogg": {
+    "bytes": 13149,
+    "sha256": "096c3c548b55f8a00e3875d864f02ffe61014b5bfea605b86f8692e0780fb3cd"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.ogg": {
+    "bytes": 11200,
+    "sha256": "fd5583ba1b12a464877422444eb5f8929399f4f45c30e15f6643bac713104e9a"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.ogg": {
+    "bytes": 12580,
+    "sha256": "63af4836202beb153a799af0d786afb3ae5b6f63dc2b7d545acdaa8f33b7124a"
+  },
+  "sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.ogg": {
+    "bytes": 15537,
+    "sha256": "2d90e32b315829c15f63040549e3c6d386c57fe79cb3de8959bc81e3268d5cea"
+  },
+  "sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_order_issued_neutral_0.ogg": {
+    "bytes": 16002,
+    "sha256": "bf9c6f1cc6db56c7bf1d0ce3737e729f2506af12114c334bd5847c76288475d8"
+  },
+  "sounds/trader_light_frigate_order_issued_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_order_issued_neutral_1.ogg": {
+    "bytes": 11035,
+    "sha256": "edf184eeea749ce414189af3b0ebbbca7328b5c2c22a8f5c60e30ceee8bd2e05"
+  },
+  "sounds/trader_light_frigate_order_issued_neutral_1.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_order_issued_neutral_2.ogg": {
+    "bytes": 15446,
+    "sha256": "74f3b595a73d53ef43b859d39e54f17de0be69c38265668f8a5258dda6ef087f"
+  },
+  "sounds/trader_light_frigate_order_issued_neutral_2.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_order_issued_scared_0_placeholder.ogg": {
+    "bytes": 16002,
+    "sha256": "bf9c6f1cc6db56c7bf1d0ce3737e729f2506af12114c334bd5847c76288475d8"
+  },
+  "sounds/trader_light_frigate_order_issued_scared_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_order_issued_scared_1_placeholder.ogg": {
+    "bytes": 11035,
+    "sha256": "edf184eeea749ce414189af3b0ebbbca7328b5c2c22a8f5c60e30ceee8bd2e05"
+  },
+  "sounds/trader_light_frigate_order_issued_scared_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_order_issued_scared_2_placeholder.ogg": {
+    "bytes": 15446,
+    "sha256": "74f3b595a73d53ef43b859d39e54f17de0be69c38265668f8a5258dda6ef087f"
+  },
+  "sounds/trader_light_frigate_order_issued_scared_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_selected_neutral_0.ogg": {
+    "bytes": 15018,
+    "sha256": "2d547f1191a481fe0fd8aa2cdfd2af121959e645d984dab03069b861a2abbf2d"
+  },
+  "sounds/trader_light_frigate_selected_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_selected_neutral_1.ogg": {
+    "bytes": 11534,
+    "sha256": "91fa125a185b1b477228824a8ba832dc9e327310916d99ad03efca0f34d8281a"
+  },
+  "sounds/trader_light_frigate_selected_neutral_1.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_selected_neutral_2.ogg": {
+    "bytes": 12300,
+    "sha256": "e999032b13e0c95695d871981d1bdaa2b41c9409c525a92416ffb47208c6aeb9"
+  },
+  "sounds/trader_light_frigate_selected_neutral_2.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_selected_scared_0_placeholder.ogg": {
+    "bytes": 15018,
+    "sha256": "2d547f1191a481fe0fd8aa2cdfd2af121959e645d984dab03069b861a2abbf2d"
+  },
+  "sounds/trader_light_frigate_selected_scared_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_selected_scared_1_placeholder.ogg": {
+    "bytes": 11534,
+    "sha256": "91fa125a185b1b477228824a8ba832dc9e327310916d99ad03efca0f34d8281a"
+  },
+  "sounds/trader_light_frigate_selected_scared_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_selected_scared_2_placeholder.ogg": {
+    "bytes": 12300,
+    "sha256": "e999032b13e0c95695d871981d1bdaa2b41c9409c525a92416ffb47208c6aeb9"
+  },
+  "sounds/trader_light_frigate_selected_scared_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_light_frigate_spawned_neutral_0.ogg": {
+    "bytes": 14875,
+    "sha256": "3f22a8dfa93fce246aab43d0363985c80e27adbef474c2f2e06f60363bae8567"
+  },
+  "sounds/trader_light_frigate_spawned_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_0.ogg": {
+    "bytes": 17875,
+    "sha256": "2fbb11adc0a9511a67e522354921d96b61317da9bba16cd582eaf1a133e738cf"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_1.ogg": {
+    "bytes": 14583,
+    "sha256": "9f4a5100a2c24f8a354964d812d26f4da283789330eec8252ad9bbb7d806d1d9"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_1.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_2.ogg": {
+    "bytes": 18544,
+    "sha256": "7d4d9ea1b1ce7e8ff3bed750de90e290d835e39de3cb2cab71de13f387f83251"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_2.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_3_placeholder.ogg": {
+    "bytes": 17875,
+    "sha256": "2fbb11adc0a9511a67e522354921d96b61317da9bba16cd582eaf1a133e738cf"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_3_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_scared_0_placeholder.ogg": {
+    "bytes": 17875,
+    "sha256": "2fbb11adc0a9511a67e522354921d96b61317da9bba16cd582eaf1a133e738cf"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_scared_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_scared_1_placeholder.ogg": {
+    "bytes": 14583,
+    "sha256": "9f4a5100a2c24f8a354964d812d26f4da283789330eec8252ad9bbb7d806d1d9"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_scared_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_scared_2_placeholder.ogg": {
+    "bytes": 18544,
+    "sha256": "7d4d9ea1b1ce7e8ff3bed750de90e290d835e39de3cb2cab71de13f387f83251"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_scared_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_scared_3_placeholder.ogg": {
+    "bytes": 17875,
+    "sha256": "2fbb11adc0a9511a67e522354921d96b61317da9bba16cd582eaf1a133e738cf"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_scared_3_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_smug_0_placeholder.ogg": {
+    "bytes": 17875,
+    "sha256": "2fbb11adc0a9511a67e522354921d96b61317da9bba16cd582eaf1a133e738cf"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_smug_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_smug_1_placeholder.ogg": {
+    "bytes": 14583,
+    "sha256": "9f4a5100a2c24f8a354964d812d26f4da283789330eec8252ad9bbb7d806d1d9"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_smug_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_smug_2_placeholder.ogg": {
+    "bytes": 18544,
+    "sha256": "7d4d9ea1b1ce7e8ff3bed750de90e290d835e39de3cb2cab71de13f387f83251"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_smug_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_smug_3_placeholder.ogg": {
+    "bytes": 17875,
+    "sha256": "2fbb11adc0a9511a67e522354921d96b61317da9bba16cd582eaf1a133e738cf"
+  },
+  "sounds/trader_torpedo_cruiser_attack_order_issued_smug_3_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_hyperspace_charge_started_neutral_0.ogg": {
+    "bytes": 20554,
+    "sha256": "a0a673b62dd7c1a8e40eed73b31ea7c3d2ae2ad93444e5cf231dee4b73daaf3c"
+  },
+  "sounds/trader_torpedo_cruiser_hyperspace_charge_started_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_neutral_0.ogg": {
+    "bytes": 16112,
+    "sha256": "46cb9404ab016a6023f69d8e9f396416c0a3b3dd2146fceca93db4efd4574a5e"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_neutral_1.ogg": {
+    "bytes": 13240,
+    "sha256": "19fb2bf4514791b062755b74eae30fda4caf6a82245ffd78be4dca36273ddc20"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_neutral_1.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_neutral_2.ogg": {
+    "bytes": 13523,
+    "sha256": "ab993be40dbcbbd0b95b2c66ce98db3d1962280915703f5e18d1cbccd75c8f92"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_neutral_2.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_scared_0_placeholder.ogg": {
+    "bytes": 16112,
+    "sha256": "46cb9404ab016a6023f69d8e9f396416c0a3b3dd2146fceca93db4efd4574a5e"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_scared_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_scared_1_placeholder.ogg": {
+    "bytes": 13240,
+    "sha256": "19fb2bf4514791b062755b74eae30fda4caf6a82245ffd78be4dca36273ddc20"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_scared_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_scared_2_placeholder.ogg": {
+    "bytes": 13523,
+    "sha256": "ab993be40dbcbbd0b95b2c66ce98db3d1962280915703f5e18d1cbccd75c8f92"
+  },
+  "sounds/trader_torpedo_cruiser_order_issued_scared_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_selected_neutral_0.ogg": {
+    "bytes": 17549,
+    "sha256": "4a4c064bf43409af6b1c4115b417b24750a0f450885466363c121d0bff7881ea"
+  },
+  "sounds/trader_torpedo_cruiser_selected_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_selected_neutral_1.ogg": {
+    "bytes": 18561,
+    "sha256": "0ccc63da2df81262558c1c42b26a259f31142eedb5326454e219e5193f320757"
+  },
+  "sounds/trader_torpedo_cruiser_selected_neutral_1.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_selected_neutral_2.ogg": {
+    "bytes": 16148,
+    "sha256": "74792600b981f494ff88461bba5cc4de0b7378efe6dda221342e549209b1c3d0"
+  },
+  "sounds/trader_torpedo_cruiser_selected_neutral_2.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_selected_scared_0_placeholder.ogg": {
+    "bytes": 17549,
+    "sha256": "4a4c064bf43409af6b1c4115b417b24750a0f450885466363c121d0bff7881ea"
+  },
+  "sounds/trader_torpedo_cruiser_selected_scared_0_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_selected_scared_1_placeholder.ogg": {
+    "bytes": 18561,
+    "sha256": "0ccc63da2df81262558c1c42b26a259f31142eedb5326454e219e5193f320757"
+  },
+  "sounds/trader_torpedo_cruiser_selected_scared_1_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_selected_scared_2_placeholder.ogg": {
+    "bytes": 16148,
+    "sha256": "74792600b981f494ff88461bba5cc4de0b7378efe6dda221342e549209b1c3d0"
+  },
+  "sounds/trader_torpedo_cruiser_selected_scared_2_placeholder.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/trader_torpedo_cruiser_spawned_neutral_0.ogg": {
+    "bytes": 22173,
+    "sha256": "aed2a5f085bd6210c8ed8667ecd324f7bec9f4974f3a662e00f660b950379767"
+  },
+  "sounds/trader_torpedo_cruiser_spawned_neutral_0.sound": {
+    "bytes": 84,
+    "sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c"
+  },
+  "sounds/weapon_impact_generic_light_hitshields.ogg": {
+    "bytes": 52054,
+    "sha256": "aec3bc7673cc36ba5bde2664bca1aad7acf6559d79d39a3137b07244d1d0f376"
+  },
+  "sounds/weapon_impact_generic_light_hitshields.sound": {
+    "bytes": 123,
+    "sha256": "e4c4aa14bed25959b1cfdc8566628daedda5324118c2e9aa3849725b7f56e354"
+  },
+  "sounds/weapon_impact_generic_light_hitshields_01.ogg": {
+    "bytes": 67347,
+    "sha256": "d47f33189b1c5f9f84cf9d802a83d37dfcd2a1a1ab60dae05cd9df1799fc9047"
+  },
+  "sounds/weapon_impact_generic_light_hitshields_01.sound": {
+    "bytes": 123,
+    "sha256": "e4c4aa14bed25959b1cfdc8566628daedda5324118c2e9aa3849725b7f56e354"
+  },
+  "sounds/weapon_impact_generic_light_hitshields_02.ogg": {
+    "bytes": 52213,
+    "sha256": "f0664597cb9f20456450197bc6a4ad45e8bb69f6aaeb11fa41b58a7d006c748f"
+  },
+  "sounds/weapon_impact_generic_light_hitshields_02.sound": {
+    "bytes": 123,
+    "sha256": "e4c4aa14bed25959b1cfdc8566628daedda5324118c2e9aa3849725b7f56e354"
+  },
+  "sounds/weapon_impact_generic_light_hitshields_03.ogg": {
+    "bytes": 53901,
+    "sha256": "ae44730173ba75e6a856b62fa091129deacbbbb200e88628acc4593cd98227fd"
+  },
+  "sounds/weapon_impact_generic_light_hitshields_03.sound": {
+    "bytes": 123,
+    "sha256": "e4c4aa14bed25959b1cfdc8566628daedda5324118c2e9aa3849725b7f56e354"
+  },
+  "sounds/weapon_impact_generic_medium_hitshields.ogg": {
+    "bytes": 48653,
+    "sha256": "7b4f8c898c1d4a2a4b3ace092cee2132dd27885f8e63cce8fb6667251834bc1d"
+  },
+  "sounds/weapon_impact_generic_medium_hitshields.sound": {
+    "bytes": 123,
+    "sha256": "77ae791cac88d47bdc25bac2bc68e06ef1978bb4c8e2d4cf800d3a63dda48304"
+  },
+  "sounds/weapon_impact_generic_medium_hitshields_01.ogg": {
+    "bytes": 50116,
+    "sha256": "8ebac664c17bbdbc33c0b8f1a966bb7c38edbc9535eeb5b13d32d0434557a245"
+  },
+  "sounds/weapon_impact_generic_medium_hitshields_01.sound": {
+    "bytes": 123,
+    "sha256": "77ae791cac88d47bdc25bac2bc68e06ef1978bb4c8e2d4cf800d3a63dda48304"
+  },
+  "sounds/weapon_impact_generic_medium_hitshields_02.ogg": {
+    "bytes": 51916,
+    "sha256": "078cce94bca33c8f8e21059d5c2adce6b1e7f36967ee80754ec7a0811f66d61e"
+  },
+  "sounds/weapon_impact_generic_medium_hitshields_02.sound": {
+    "bytes": 123,
+    "sha256": "77ae791cac88d47bdc25bac2bc68e06ef1978bb4c8e2d4cf800d3a63dda48304"
+  },
+  "sounds/weapon_impact_generic_medium_hitshields_03.ogg": {
+    "bytes": 49023,
+    "sha256": "b9e534fd8b8bfee9bdcd412b2ef0823d8442613127c71394be190d82a90e7787"
+  },
+  "sounds/weapon_impact_generic_medium_hitshields_03.sound": {
+    "bytes": 123,
+    "sha256": "77ae791cac88d47bdc25bac2bc68e06ef1978bb4c8e2d4cf800d3a63dda48304"
+  },
+  "sounds/weapon_impact_generic_pointdefense_hitshields.ogg": {
+    "bytes": 47517,
+    "sha256": "9e3e6a414b10bc219be05ae0ad263d039ac5c2c2ac10292ac7b5a6c132bd0228"
+  },
+  "sounds/weapon_impact_generic_pointdefense_hitshields.sound": {
+    "bytes": 122,
+    "sha256": "fdc2cef7a0109b3de1ea8b2ab43d6fe0d30987054ed718800633b08810b24610"
+  },
+  "sounds/weapon_impact_generic_pointdefense_hitshields_01.ogg": {
+    "bytes": 49497,
+    "sha256": "7ce9c244ec2933ac978eae92f7951da5b17656418122653774a54561372c6b25"
+  },
+  "sounds/weapon_impact_generic_pointdefense_hitshields_01.sound": {
+    "bytes": 122,
+    "sha256": "fdc2cef7a0109b3de1ea8b2ab43d6fe0d30987054ed718800633b08810b24610"
+  },
+  "sounds/weapon_impact_generic_pointdefense_hitshields_02.ogg": {
+    "bytes": 47800,
+    "sha256": "46acfd0be79f41b16e0721acd30700f9fae4a2d1c69bbb37570ab7a9e024f800"
+  },
+  "sounds/weapon_impact_generic_pointdefense_hitshields_02.sound": {
+    "bytes": 122,
+    "sha256": "fdc2cef7a0109b3de1ea8b2ab43d6fe0d30987054ed718800633b08810b24610"
+  },
+  "sounds/weapon_impact_generic_pointdefense_hitshields_03.ogg": {
+    "bytes": 46854,
+    "sha256": "ea9c29cee35cc077ad480b50e2ec95897a01cda54d6c717a9e85645cd9b83dcb"
+  },
+  "sounds/weapon_impact_generic_pointdefense_hitshields_03.sound": {
+    "bytes": 122,
+    "sha256": "fdc2cef7a0109b3de1ea8b2ab43d6fe0d30987054ed718800633b08810b24610"
+  },
+  "sounds/weapon_impact_physical_light_hithull.ogg": {
+    "bytes": 31804,
+    "sha256": "2710b8f79082922265a789956b5c3597f7e567da600853efcd4ba76dfe73d9d1"
+  },
+  "sounds/weapon_impact_physical_light_hithull.sound": {
+    "bytes": 153,
+    "sha256": "9fd4acd0511db7089c291802965b5f18ca7d1cf0e848a4e6075cff0de2f2271e"
+  },
+  "sounds/weapon_impact_physical_light_hithull_01.ogg": {
+    "bytes": 34871,
+    "sha256": "f340ecf37f1bc0c2244de23fd6986b993a552e78fecf872f719d80c2817c723e"
+  },
+  "sounds/weapon_impact_physical_light_hithull_01.sound": {
+    "bytes": 154,
+    "sha256": "8ce156e495917671ef65d8e8524fbbd4b806420d0271419c75965f9aeefa2d73"
+  },
+  "sounds/weapon_impact_physical_light_hithull_02.ogg": {
+    "bytes": 34355,
+    "sha256": "3375a757e804d2f968368970698c22045016cdad9e7e4ca5c8668d33f962292e"
+  },
+  "sounds/weapon_impact_physical_light_hithull_02.sound": {
+    "bytes": 154,
+    "sha256": "8ce156e495917671ef65d8e8524fbbd4b806420d0271419c75965f9aeefa2d73"
+  },
+  "sounds/weapon_impact_physical_light_hithull_03.ogg": {
+    "bytes": 31724,
+    "sha256": "4d555f2fdc23f2d0d3ab81ddaf08eefdd37efe5524595f86722bef6e55f3a81a"
+  },
+  "sounds/weapon_impact_physical_light_hithull_03.sound": {
+    "bytes": 154,
+    "sha256": "8ce156e495917671ef65d8e8524fbbd4b806420d0271419c75965f9aeefa2d73"
+  },
+  "sounds/weapon_impact_physical_light_hithull_04.ogg": {
+    "bytes": 32230,
+    "sha256": "1a0bb8774382db678687661c0f32e26c053d9f05a41f4eb515e6525604270895"
+  },
+  "sounds/weapon_impact_physical_light_hithull_04.sound": {
+    "bytes": 154,
+    "sha256": "8ce156e495917671ef65d8e8524fbbd4b806420d0271419c75965f9aeefa2d73"
+  },
+  "sounds/weapon_impact_physical_medium_hithull.ogg": {
+    "bytes": 57885,
+    "sha256": "6eab93781fcc208bdd07631ce7ab6d17449b0f935dcdddfda9635dea71b580de"
+  },
+  "sounds/weapon_impact_physical_medium_hithull.sound": {
+    "bytes": 123,
+    "sha256": "d34023db3bcb9179b3cba199385aff183455134ea272aa1631159205e4ac2c96"
+  },
+  "sounds/weapon_impact_physical_medium_hithull_01.ogg": {
+    "bytes": 59838,
+    "sha256": "bdcc15889f5bd5e5433e7804a36b4a0e447e961b8e58535ef3c44909697751ff"
+  },
+  "sounds/weapon_impact_physical_medium_hithull_01.sound": {
+    "bytes": 123,
+    "sha256": "d34023db3bcb9179b3cba199385aff183455134ea272aa1631159205e4ac2c96"
+  },
+  "sounds/weapon_impact_physical_medium_hithull_02.ogg": {
+    "bytes": 59485,
+    "sha256": "1893a345daa7c4f4250aa2a8452fd9793a599a18d5c2a8a9fb13e19fc9a9f682"
+  },
+  "sounds/weapon_impact_physical_medium_hithull_02.sound": {
+    "bytes": 123,
+    "sha256": "d34023db3bcb9179b3cba199385aff183455134ea272aa1631159205e4ac2c96"
+  },
+  "sounds/weapon_impact_physical_medium_hithull_03.ogg": {
+    "bytes": 61784,
+    "sha256": "627adeca7251ac67c2889c8a12a30951776a53e61aa87bd9b07edf04602215d9"
+  },
+  "sounds/weapon_impact_physical_medium_hithull_03.sound": {
+    "bytes": 123,
+    "sha256": "d34023db3bcb9179b3cba199385aff183455134ea272aa1631159205e4ac2c96"
+  },
+  "sounds/weapon_impact_physical_medium_hithull_04.ogg": {
+    "bytes": 63086,
+    "sha256": "104ebe5775abae91d480b7b14a2c084713516b45b6ec1e1178baa16d865e4d19"
+  },
+  "sounds/weapon_impact_physical_medium_hithull_04.sound": {
+    "bytes": 123,
+    "sha256": "d34023db3bcb9179b3cba199385aff183455134ea272aa1631159205e4ac2c96"
+  },
+  "sounds/weapon_impact_physical_pointdefense_hithull.ogg": {
+    "bytes": 32295,
+    "sha256": "38f73da4d93ac3331b91bef43c788c385a0cfb44de9ef2b185e5beac68a240f8"
+  },
+  "sounds/weapon_impact_physical_pointdefense_hithull.sound": {
+    "bytes": 153,
+    "sha256": "79b6946166e32cd10cbdbcfed51993f8cea66d9dff4029e46d13bb3668ed276f"
+  },
+  "sounds/weapon_impact_physical_pointdefense_hithull_01.ogg": {
+    "bytes": 34737,
+    "sha256": "c983d5310282c616e6e2a61ee575662f4c1c901df389b83670b56a49320861bf"
+  },
+  "sounds/weapon_impact_physical_pointdefense_hithull_01.sound": {
+    "bytes": 153,
+    "sha256": "79b6946166e32cd10cbdbcfed51993f8cea66d9dff4029e46d13bb3668ed276f"
+  },
+  "sounds/weapon_impact_physical_pointdefense_hithull_02.ogg": {
+    "bytes": 33750,
+    "sha256": "2cb7fbf2521f4613896eb3c2eace4a6a7e68fabeff2c37ea05888de8a2abb2ec"
+  },
+  "sounds/weapon_impact_physical_pointdefense_hithull_02.sound": {
+    "bytes": 208,
+    "sha256": "bb9c2f830c269324890fa09500f1c35b691e8fec11d69176b51afdb721c643ae"
+  },
+  "sounds/weapon_impact_physical_pointdefense_hithull_03.ogg": {
+    "bytes": 31145,
+    "sha256": "29aeabb5304b184263a78ce0a78d9d3a82d13f47674bdd7ea5ad9abf79da83d4"
+  },
+  "sounds/weapon_impact_physical_pointdefense_hithull_03.sound": {
+    "bytes": 208,
+    "sha256": "194df5f86c30f23c03d25a61a00fbff8303b7842bf96176cd3d87c357a331ea7"
+  },
+  "sounds/weapon_impact_tech_neutrontorp.ogg": {
+    "bytes": 92447,
+    "sha256": "d26673c11b086d46f6d0306fb0ad9084188688d0f36a5c799b308bc82c0202a0"
+  },
+  "sounds/weapon_impact_tech_neutrontorp.sound": {
+    "bytes": 165,
+    "sha256": "f7c00661da07720c23a86391f6ba70c5663b05647fb368cb4534eda3a1f3663f"
+  },
+  "sounds/weapon_muzzle_tech_light_autocannon.ogg": {
+    "bytes": 41388,
+    "sha256": "854509ad1c06d320828ac7f86354687a93d48c98130bb19135a6411447bbb528"
+  },
+  "sounds/weapon_muzzle_tech_light_autocannon.sound": {
+    "bytes": 165,
+    "sha256": "bf5c584d01fb7e72b7e5fed30394bf7be670b05b22284fadf2a6c8abc347f947"
+  },
+  "sounds/weapon_muzzle_tech_light_autocannon_01.ogg": {
+    "bytes": 44691,
+    "sha256": "622b5db0ff0003bcb22bd51500c521ba1f1a3e57b56569d64582e42019bfb0bf"
+  },
+  "sounds/weapon_muzzle_tech_light_autocannon_01.sound": {
+    "bytes": 165,
+    "sha256": "bf5c584d01fb7e72b7e5fed30394bf7be670b05b22284fadf2a6c8abc347f947"
+  },
+  "sounds/weapon_muzzle_tech_light_autocannon_02.ogg": {
+    "bytes": 41505,
+    "sha256": "bf61033a4d9e45320c7b42a765620d74e15421570325622730e7c8c9ba0c7341"
+  },
+  "sounds/weapon_muzzle_tech_light_autocannon_02.sound": {
+    "bytes": 165,
+    "sha256": "bf5c584d01fb7e72b7e5fed30394bf7be670b05b22284fadf2a6c8abc347f947"
+  },
+  "sounds/weapon_muzzle_tech_light_autocannon_03.ogg": {
+    "bytes": 44700,
+    "sha256": "6cf35420960f1c205a4042ded79f047019c5c19bcb3234e89df70aa91a287bb4"
+  },
+  "sounds/weapon_muzzle_tech_light_autocannon_03.sound": {
+    "bytes": 165,
+    "sha256": "bf5c584d01fb7e72b7e5fed30394bf7be670b05b22284fadf2a6c8abc347f947"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon.ogg": {
+    "bytes": 33540,
+    "sha256": "91bfabc1fd3f47c4e3564456764cc0dd3af983a2ba6f98c61032edb4d3e310d0"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon.sound": {
+    "bytes": 166,
+    "sha256": "53339a1ee6a4661c8be176481f4b5be91c200c10b128fb91738cf2127d826e87"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon_01.ogg": {
+    "bytes": 32573,
+    "sha256": "b0ed154a4c01ed1c7cb9adbcfcc8d6e7bbbec230374dbb260322f71515529476"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon_01.sound": {
+    "bytes": 166,
+    "sha256": "53339a1ee6a4661c8be176481f4b5be91c200c10b128fb91738cf2127d826e87"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon_02.ogg": {
+    "bytes": 32349,
+    "sha256": "5b67709959fc665d4fc4728cfd1c1c24756077d86665b39de70941128495fd63"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon_02.sound": {
+    "bytes": 166,
+    "sha256": "53339a1ee6a4661c8be176481f4b5be91c200c10b128fb91738cf2127d826e87"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon_03.ogg": {
+    "bytes": 32699,
+    "sha256": "2130b7459456383f1881b02bc36c10b7c25756d3d4816632107a7b06610c3302"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon_03.sound": {
+    "bytes": 166,
+    "sha256": "53339a1ee6a4661c8be176481f4b5be91c200c10b128fb91738cf2127d826e87"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon_04.ogg": {
+    "bytes": 32439,
+    "sha256": "b4e18e8d039b0223536e1427a0663c2d1ce63819a1329f07194930f04913796e"
+  },
+  "sounds/weapon_muzzle_tech_medium_autocannon_04.sound": {
+    "bytes": 166,
+    "sha256": "53339a1ee6a4661c8be176481f4b5be91c200c10b128fb91738cf2127d826e87"
+  },
+  "sounds/weapon_muzzle_tech_neutrontorp.ogg": {
+    "bytes": 116487,
+    "sha256": "6c1cf5012dee453b8a18250a3d9e4fd08a7d443fc683d9e235c0d3deb6ed985c"
+  },
+  "sounds/weapon_muzzle_tech_neutrontorp.sound": {
+    "bytes": 165,
+    "sha256": "f7c00661da07720c23a86391f6ba70c5663b05647fb368cb4534eda3a1f3663f"
+  },
+  "sounds/weapon_muzzle_tech_pointdefense_autocannon.ogg": {
+    "bytes": 36403,
+    "sha256": "c788beda8e80959f1df9a8d976f098b16c8dfed7dc4486bbe4d7e45cb7e02189"
+  },
+  "sounds/weapon_muzzle_tech_pointdefense_autocannon.sound": {
+    "bytes": 165,
+    "sha256": "ccf5b5fadd3ec3023ae234dfd968548eea453a496b25a4b541f5d0347426af03"
+  },
+  "sounds/weapon_muzzle_tech_pointdefense_autocannon_01.ogg": {
+    "bytes": 37094,
+    "sha256": "571c61f5153e8a4896479ecfb7bd7dda408dd3f8fa3e6c0f98dcf516369d917b"
+  },
+  "sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound": {
+    "bytes": 165,
+    "sha256": "ccf5b5fadd3ec3023ae234dfd968548eea453a496b25a4b541f5d0347426af03"
+  },
+  "sounds/weapon_muzzle_tech_pointdefense_autocannon_02.ogg": {
+    "bytes": 36604,
+    "sha256": "cfc6612b8c079966375c08d9c434a8a36766120e15c4819d623d04d95395e48b"
+  },
+  "sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound": {
+    "bytes": 165,
+    "sha256": "ccf5b5fadd3ec3023ae234dfd968548eea453a496b25a4b541f5d0347426af03"
+  },
+  "sounds/weapon_muzzle_tech_pointdefense_autocannon_03.ogg": {
+    "bytes": 37649,
+    "sha256": "1cd412e539caea26331c616142a3a9c52891a4484026f06b6f9d695b1c96caeb"
+  },
+  "sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound": {
+    "bytes": 165,
+    "sha256": "ccf5b5fadd3ec3023ae234dfd968548eea453a496b25a4b541f5d0347426af03"
+  },
+  "texture_animations/cloud_2x2.texture_animation": {
+    "bytes": 181,
+    "sha256": "7f6164ef901e44033b7526febc2ed2007202fa0f9879f8580f31b4b9d300934e"
+  },
+  "texture_animations/embers_anim.texture_animation": {
+    "bytes": 186,
+    "sha256": "e5d68dcfd1fb8f5918a37c1580499d6a49ef90621b928b8a2c1787c9c6f0f5ab"
+  },
+  "texture_animations/exhaust_simplelines_01.texture_animation": {
+    "bytes": 201,
+    "sha256": "e28584b3357ba5b269e85f733b131d205090b49d7c8268193f64e03fa079eebd"
+  },
+  "texture_animations/light_autocannon_2x2.texture_animation": {
+    "bytes": 199,
+    "sha256": "e81de595ccf65bd497021679cfc67d47c6333b6927c8121bca3316d0955324b7"
+  },
+  "texture_animations/lightning_01.texture_animation": {
+    "bytes": 191,
+    "sha256": "52dc4e2f6e1123fff88e376117795c6b2ff3ef6fff78aa0ba480d146f89d7564"
+  },
+  "texture_animations/lightning_02.texture_animation": {
+    "bytes": 191,
+    "sha256": "8cdab2baff34c9e3cf444277f48d9de22d27d14f02c52fed110f1c43f9045cd9"
+  },
+  "texture_animations/lightning_03.texture_animation": {
+    "bytes": 191,
+    "sha256": "3b9535dbdfe2dc47007589b2aecc2417a63b2d0f654cf997e9ed940ace5bff48"
+  },
+  "texture_animations/lightning_04.texture_animation": {
+    "bytes": 191,
+    "sha256": "fa0cfb8a49558b9c162d13ce62740b576835fa93bc34a9fbfa2356cfadfe393c"
+  },
+  "texture_animations/medium_bursts_2x2.texture_animation": {
+    "bytes": 195,
+    "sha256": "fa5d98d7fb7de4a4f7b4ca300a2e3d5817ed28e23310e7b4d5ff91dc07d07476"
+  },
+  "texture_animations/pointdefense_muzzleflash.texture_animation": {
+    "bytes": 208,
+    "sha256": "b965c66e986dc6eab8f4764a7173fae8f1f017054bdaee38ca1d55be45d11b81"
+  },
+  "texture_animations/raze_cloud_3x3.texture_animation": {
+    "bytes": 196,
+    "sha256": "25b30406352cb30718637605a8b72991224d24f455356fcf3c0480c181f36b3e"
+  },
+  "texture_animations/smoke_alpha_01.texture_animation": {
+    "bytes": 192,
+    "sha256": "8278b4c1a927e715f614d2cd002da49d0a21a7910f935c0e52305ae5a8452e74"
+  },
+  "texture_animations/trader_normal_shield_impact.texture_animation": {
+    "bytes": 203,
+    "sha256": "179331200cbc9e9fb128aa905f5ac87020ca990132d4e7d75b1f41bc80860e12"
+  },
+  "textures/Kay_lightningsphere2_clr.dds": {
+    "bytes": 22020,
+    "sha256": "ced0a66badd6b1115da66ba8c38a3b308eb0cbb780b7724aa2717a5ca3eb9934"
+  },
+  "textures/Kay_lightningsphere3_clr.dds": {
+    "bytes": 22020,
+    "sha256": "aa3db8cf226102d76efd5692ee6f9139d102adcfdfc292b504539d3f28c37d04"
+  },
+  "textures/Kay_lightningsphere_clr.dds": {
+    "bytes": 22020,
+    "sha256": "a57bec19fb18e5c913438409983f187018f2c2d5e49ee59a647ce57b17ddde1a"
+  },
+  "textures/T_Embers_FB01.dds": {
+    "bytes": 349700,
+    "sha256": "ade237c1de13afe3fc189a27b4d11641696bd86bb987625fcc2d1de1140fc58e"
+  },
+  "textures/abstract_fire_shape.dds": {
+    "bytes": 87556,
+    "sha256": "eda4e94e835c25edc6350bb33b3eb48a9cb37679b518a9a11786dbc35a4388d3"
+  },
+  "textures/aclight_clr.dds": {
+    "bytes": 5396,
+    "sha256": "1f84554cb7dadd47f08bb695d3256a843357a483bea035042689e55f22d2c630"
+  },
+  "textures/advent_ring.dds": {
+    "bytes": 349700,
+    "sha256": "1640afc9a6649db49e120e91a537a86bc97c79c710a7fddce51d155fc14bb25b"
+  },
+  "textures/binary_blast_1.dds": {
+    "bytes": 5592580,
+    "sha256": "2a62b833cacb6e57e1c0b9ca59a30a03632c21f203d9aa27afb91e8acf284777"
+  },
+  "textures/binary_blast_2.dds": {
+    "bytes": 349700,
+    "sha256": "7f7d747ed05ca7c4b45cfbb424a03e4b74581e103c80c25d202f2b2846398ae9"
+  },
+  "textures/cloud_01.dds": {
+    "bytes": 1398276,
+    "sha256": "666ce0d97ec15d4a432f864678ee3394ad1d02d0f1151dd6cd2153492908fe20"
+  },
+  "textures/clouds_2x2.dds": {
+    "bytes": 1398276,
+    "sha256": "9dea914809ee612207c630ece29065caa251b1e10e2439dad345ed7bd536d109"
+  },
+  "textures/cricle_cloud_01.dds": {
+    "bytes": 1398276,
+    "sha256": "3a9bbe9f02bb7c23a71b1c09aa1e4c04964b997f87460566ff90fa3847e8802b"
+  },
+  "textures/fire_pillar_texture.dds": {
+    "bytes": 1398276,
+    "sha256": "12e1a35c12a58d86700d09ad8029e60dc4a20543f36e93da54216e9ee8ec7594"
+  },
+  "textures/fire_seamless_texture.dds": {
+    "bytes": 349700,
+    "sha256": "464e9a3d793172da0b62d41c56e3d9f0d1bc4c1134b447527dd95aa738e0daa4"
+  },
+  "textures/firecraigelectrical_clr.dds": {
+    "bytes": 22000,
+    "sha256": "b4cf2f576031611d00192674529983b27e2ee7e1327239dfe3b2f2f2f9243f91"
+  },
+  "textures/heat_refraction.dds": {
+    "bytes": 349700,
+    "sha256": "23b370126ace6c867ac2c8c3e5cce430cfd645a82de60bd2231fcb3717aa31f7"
+  },
+  "textures/heat_refraction_falloff.dds": {
+    "bytes": 1398276,
+    "sha256": "fb7ca671e377a12e18dafbeada67196a25698e2eb00290f1167781ba99802c77"
+  },
+  "textures/kay_ionshockwave_clr.dds": {
+    "bytes": 87556,
+    "sha256": "d004229afd2659cdc87b69b327e9ade5bf469b3cd095ec5971e96837928fd298"
+  },
+  "textures/kay_particledust_clr.dds": {
+    "bytes": 87556,
+    "sha256": "610d9bce2570b9733ce646894733c6e6e86a20a8fe09caf56eb43d33b8305c7d"
+  },
+  "textures/kay_smoothring_clr.dds": {
+    "bytes": 87556,
+    "sha256": "bdbac1ccd12dfea7687ba6c7425fcaee7226615dee508c09ff110115b31f9656"
+  },
+  "textures/large_explosion_lens.dds": {
+    "bytes": 5592580,
+    "sha256": "f9a1d7ef43c821e82f49f05d42840736a8ba052af433e2fd7ec6f4a31ed0e0d1"
+  },
+  "textures/light_autocannon_bolt.dds": {
+    "bytes": 5396,
+    "sha256": "6944541cb9b80eacf66014c4f0f07a127c1139a5c6fc162af9cc74c8c7beba38"
+  },
+  "textures/light_autocannon_muzzleflash.dds": {
+    "bytes": 1398276,
+    "sha256": "1e2820837fa242dbac823132e75344cf16f993436869688104ac07452f84a178"
+  },
+  "textures/medium_autocannon_bolt.dds": {
+    "bytes": 5396,
+    "sha256": "7835a45204283d40911d29c3d9e526fe1588c88e69f41a6c4a568cb19871e90d"
+  },
+  "textures/medium_autocannon_bursts.dds": {
+    "bytes": 349700,
+    "sha256": "2cbd7e3e43bf0a887fce2132208fbce7b8389ed5130dabba174cdcd2ce610556"
+  },
+  "textures/phasegate_clr.dds": {
+    "bytes": 87556,
+    "sha256": "0897c22a1c600c1b883d66d040c9a2b073a495a09fca8427635df7a63b7557f8"
+  },
+  "textures/placeholder.dds": {
+    "bytes": 22020,
+    "sha256": "c2937cb8ea258e33b6c30bb2468bb82d8ded8a540dc4fafb0773ad621b9afd7a"
+  },
+  "textures/raze_clouds_3x3_greyscale.dds": {
+    "bytes": 786628,
+    "sha256": "6dc9aa492b6ee97b3588963e1e59d822fd89e2f9d237078548cb3f6cd539b5a8"
+  },
+  "textures/refraction_circle.dds": {
+    "bytes": 349700,
+    "sha256": "0a5c003e0a170470f2e84c86a1d4ff14218210c5787212de8f2d57ba1804ae26"
+  },
+  "textures/seamless_crazy_uvs.dds": {
+    "bytes": 1398276,
+    "sha256": "a135d5270237fcde242e79495e9b781ee68d8022140f9e4f069b4d8ce835c0d6"
+  },
+  "textures/smoke_alpha_01.dds": {
+    "bytes": 5592580,
+    "sha256": "63eb6e6e3e48a2c20b8c99a7873aa865e355577dd581fea3e306c2c8b5d85d47"
+  },
+  "textures/smoke_noise.dds": {
+    "bytes": 349700,
+    "sha256": "2a0963d65544501c382d8f7e3a520917ecf3c4cb3a1fd5446c3f7ef83e836ea9"
+  },
+  "textures/smoke_noise2.dds": {
+    "bytes": 5592580,
+    "sha256": "7c71affacebde80a753fec3ffaf882d30f19e1c98842f9952ff70d860072a073"
+  },
+  "textures/smoke_pillar.dds": {
+    "bytes": 87556,
+    "sha256": "0282580cccc4f038f0958139315331ca4806141894a91bd733e9f23b9b4b786f"
+  },
+  "textures/smoke_uv.dds": {
+    "bytes": 1398276,
+    "sha256": "7e29fafd0607883c1ea0913b8aafe92aac0b4a7f5ebd80d4eab2a1b1373793a7"
+  },
+  "textures/soft_circle.dds": {
+    "bytes": 5636,
+    "sha256": "134a2ecc7f222ed737dcdd6dd9d0b973d2cd7fa3cf7b849e8683f1e5ec6e4172"
+  },
+  "textures/soft_circle_large.dds": {
+    "bytes": 349700,
+    "sha256": "09ca537757ac5120079408ab7ec1061fb88a7180b4cb5c90bb0987da8303e479"
+  },
+  "textures/sparkles_clr.dds": {
+    "bytes": 22020,
+    "sha256": "1bf2fb06f080af4b3cd779013bb2ca8afdf2953fda04f0d8a3565315fc8379a6"
+  },
+  "textures/sphere_outer_glow.dds": {
+    "bytes": 349700,
+    "sha256": "b75e02fd50a8580f4a81e9fa678f5b70623e46a7beb5be66fe0cba75bfe06f9e"
+  },
+  "textures/t_autocannon_travel.dds": {
+    "bytes": 349732,
+    "sha256": "15b908d51863fd0f4a4c0087288445eede65498513a967d5a6bf35a132ddefea"
+  },
+  "textures/t_cloud_noise.dds": {
+    "bytes": 349700,
+    "sha256": "3558b6d92488f3405b35178617ca5cf1d48c04d54dd2ddc3ff6fdeba1513c7e9"
+  },
+  "textures/t_edgemask_ghost_fade.dds": {
+    "bytes": 699236,
+    "sha256": "b9e1de17c379fe2d26eb1230bd19ba1411a43b71fa3a1ccdd3dc1acf18391570"
+  },
+  "textures/t_exhaust_simplelines_fb_01.dds": {
+    "bytes": 699236,
+    "sha256": "2e1eea373f44a6d772297674fb8bc573664603661e90361ea08e1fa86468b435"
+  },
+  "textures/t_fire_noise.dds": {
+    "bytes": 1398276,
+    "sha256": "e8d19f5aa77b705500868e454cde866c6b5664373523a63ac6b6c7dc15057124"
+  },
+  "textures/t_gradient_46.dds": {
+    "bytes": 5636,
+    "sha256": "a2fbda99c4009f1e773081c2c70afb83b0c6d57a7c534ef333b53c528cb4cb2e"
+  },
+  "textures/t_gradient_48.dds": {
+    "bytes": 5636,
+    "sha256": "1ffdb43cb01bd380f4c30ce19ea46d81251d7fddde3d52c4a223efe6e2ca7503"
+  },
+  "textures/t_gradient_49.dds": {
+    "bytes": 5636,
+    "sha256": "333516088fb8c61f01cc17ba6f5cea049b11a82266847ed714f40e6f8b786abd"
+  },
+  "textures/t_gradient_50.dds": {
+    "bytes": 5636,
+    "sha256": "6873a7a8b66b4d7d1598c5e52f2f03b76d8c0e5b2ab75a1c51c2ac1fcc9ec827"
+  },
+  "textures/t_gradient_52.dds": {
+    "bytes": 5636,
+    "sha256": "e9fbdada1244314accc45ab499c20a3b8941067b5af2eaa5decab511aa1657a1"
+  },
+  "textures/t_gradient_53.dds": {
+    "bytes": 5636,
+    "sha256": "ffdb7df4ae4cae98e4e4b96175d12c1cd94eb964f64c4535f08c1062f592fa69"
+  },
+  "textures/t_gradient_56.dds": {
+    "bytes": 5636,
+    "sha256": "592a448b97ab6c7904c6cf3dda291b83fdd32a5236daf92cd4912a86cf2a8176"
+  },
+  "textures/t_gradient_59.dds": {
+    "bytes": 5636,
+    "sha256": "6f0050c5ab78caf3d7350a758983e156f6d4ad3c4bd109b522e9c6082953ce96"
+  },
+  "textures/t_gradient_61.dds": {
+    "bytes": 5636,
+    "sha256": "f40a57c1792320d52d691f3781ed718bccfbdc435c6f81aa6c8fab56b86b2e27"
+  },
+  "textures/t_gradient_62.dds": {
+    "bytes": 5636,
+    "sha256": "14ed9969be975ef1bceb5c81df6716f289a7f1297aed2193b4186e634f9187f1"
+  },
+  "textures/t_gradient_63.dds": {
+    "bytes": 5636,
+    "sha256": "af677e8cf28fa1d53582a7b886d2cb3dc08b066f2ae15c3486d7dda1ada5ece6"
+  },
+  "textures/t_gradient_72.dds": {
+    "bytes": 5636,
+    "sha256": "2b7c4cdb0443f69e57b3ea7080c92ec84fa21c2a419366995c5b6cdcad807c4f"
+  },
+  "textures/t_gradient_76.dds": {
+    "bytes": 5636,
+    "sha256": "95ec51d706d8c61881850a61b4836150d9422e684f0937d26646dbe62400450c"
+  },
+  "textures/t_gradient_78.dds": {
+    "bytes": 5636,
+    "sha256": "3e5c1bfc295be2c21da96cdf9ddf7c381072c7d3191c1ddc6a9c668bb4b770cb"
+  },
+  "textures/t_gradient_79.dds": {
+    "bytes": 5636,
+    "sha256": "60337eaf47003da1d5c245ab4f2a4b68055c24db9daaf0fec4d2f5bd963a96ac"
+  },
+  "textures/t_gradient_93.dds": {
+    "bytes": 5636,
+    "sha256": "a5257386a9332807aee85b96bb45f60036ba5271f3151ce20247810129133b2a"
+  },
+  "textures/t_gradient_light_autocannon.dds": {
+    "bytes": 5636,
+    "sha256": "03e9e2c967d07de0e1fc73621455f2755fc870d8acec0582ca8c4596fa10ec28"
+  },
+  "textures/t_gradient_medium_autocannon.dds": {
+    "bytes": 5636,
+    "sha256": "ffface7bbb9b31b03b25d0bb0ee83e8ad54c08e15d1dbad33c63b0fa28b7f579"
+  },
+  "textures/t_gradient_pd_autocannon.dds": {
+    "bytes": 5636,
+    "sha256": "9b053d99199d09c30fa295465e8ec3e70be2e5b1f834a8f9835bc217680c1b68"
+  },
+  "textures/t_gradient_yellow_star.dds": {
+    "bytes": 5636,
+    "sha256": "ce3230e7236d3956bc967a61b57a1e8154fc39b661c4f9b9ddbfc5e55774aea8"
+  },
+  "textures/t_lens_flare_2.dds": {
+    "bytes": 699300,
+    "sha256": "aecfdce9481a36b40b3982e42b7657bd9feef9fa83f761f8a94430ccf0b7add4"
+  },
+  "textures/t_lens_flare_3.dds": {
+    "bytes": 175268,
+    "sha256": "7397797a2988cf52566044465fb159ee59413b1919134e5b52f9fe86c7490b67"
+  },
+  "textures/t_lightning_fb_01.dds": {
+    "bytes": 699236,
+    "sha256": "d16fe99bbd403d51b8d819a54c76dabb7653a0c3a1db527b9e5e2b92f9cb94a6"
+  },
+  "textures/t_lightning_fb_02.dds": {
+    "bytes": 699236,
+    "sha256": "d6b3388a62ec28bfa42dc168bfd436af85bc2bfd9db8576169a7d9490b39218e"
+  },
+  "textures/t_lightning_fb_03.dds": {
+    "bytes": 699236,
+    "sha256": "5191a77092be6989c10035df617b99179e69b6c99c2815e27b3a8e0d6b507524"
+  },
+  "textures/t_lightning_fb_04.dds": {
+    "bytes": 1398276,
+    "sha256": "9343e4ce13791d1508bf7c9273862bd3ed076c10c7d17966bb9c4d44265dcd8f"
+  },
+  "textures/t_noise_001.dds": {
+    "bytes": 349700,
+    "sha256": "4b9731cad33698e337436e4fc4cfb6ec6242e054304f4543826bca90b3f4095f"
+  },
+  "textures/t_noise_002.dds": {
+    "bytes": 349700,
+    "sha256": "3498e0c4523d0b6ad974e941ffc95890709d597b60afd8df5e7b7c5c7ca0de3c"
+  },
+  "textures/t_noise_008.dds": {
+    "bytes": 349700,
+    "sha256": "6f48d309ee1d4463647bead03ee3eb87cfd14e1d7c40b1fb31d5fd3181b13a0c"
+  },
+  "textures/t_phasespace_dust_01.dds": {
+    "bytes": 349700,
+    "sha256": "b83556299c23302634c45158f15607a3e208ef0b1427cf1f44461e026c227bd4"
+  },
+  "textures/t_phasespace_opening_01.dds": {
+    "bytes": 1398276,
+    "sha256": "9d320051562c76aaef75d3ab6b92fb5598f872c9b80ca81a9cdfeb821eef3dce"
+  },
+  "textures/t_phasespace_opening_02.dds": {
+    "bytes": 1398276,
+    "sha256": "9c3a5055d7f2d3945f0b23844a07492808c962975e2bc9d5a68bad3ace3f7d83"
+  },
+  "textures/t_phasespace_opening_03.dds": {
+    "bytes": 5592580,
+    "sha256": "252d987b114941a9eaf1466ae357ea6a5231ad367037a10db46e5198574562ce"
+  },
+  "textures/t_phasespace_opening_small_01.dds": {
+    "bytes": 349700,
+    "sha256": "f8776520662357e1924851edca9ef58adb2f4c125a66c789e38929c0a16d138c"
+  },
+  "textures/t_phasespace_opening_small_02.dds": {
+    "bytes": 349700,
+    "sha256": "3989a97d4bb620e2cf7da7d25309325a3e3b4c557ee4f0edf70f41e12a0af398"
+  },
+  "textures/t_phasespace_streaks_01.dds": {
+    "bytes": 699236,
+    "sha256": "c6b9ab2c61ea49ebdea8ec7b87c1d9dc90836a73e5af66c3aa33a22ad35f8a61"
+  },
+  "textures/t_phasespace_streaks_02.dds": {
+    "bytes": 1398308,
+    "sha256": "98e980a6c0f4c8fda0312a82d6cb472b2a0bd8ba0f638a46d279f48e457543c9"
+  },
+  "textures/t_pointdefense_muzzleFlash_fb_02.dds": {
+    "bytes": 2796388,
+    "sha256": "a0e9fa9ced4ae80b220d3dda4d49a8a7a6588c219fc6922f0da0082c12ef0b4c"
+  },
+  "textures/t_shockwave_05.dds": {
+    "bytes": 1398276,
+    "sha256": "c46189964ec62df42e917b14f3455133e6e491b4aff97b1fefb9e2b4c607243f"
+  },
+  "textures/t_shockwave_06.dds": {
+    "bytes": 1398276,
+    "sha256": "e55d5ba0af82740110d2b0b7ecea71a52b4df57f3f8485577988e39d3c70062d"
+  },
+  "textures/t_shockwave_10.dds": {
+    "bytes": 1398276,
+    "sha256": "d826ccd6793cc141389aac13e60617eb482bd42c0767b3e36bd6fe7fba52daab"
+  },
+  "textures/t_soft_glow_04.dds": {
+    "bytes": 87556,
+    "sha256": "f0c38866820004f2de64667cc9cc72074bbb7023314a99ff28152c84b7a8da11"
+  },
+  "textures/t_uvdist_001.dds": {
+    "bytes": 87556,
+    "sha256": "4be18af58bfa1e849141fc86879d997b6ed3a4ecd1ab148e505217f244675a7d"
+  },
+  "textures/t_uvdist_002.dds": {
+    "bytes": 349700,
+    "sha256": "f9e4f20e34ba3bf7172a29b304da59ded51d6196c419fbd001a6395cb006bb05"
+  },
+  "textures/t_uvdist_003.dds": {
+    "bytes": 349700,
+    "sha256": "b2e32444a670fb8628b93e406e69022b61be0d912743d65da4c54ec846249266"
+  },
+  "textures/telekineticpush_bg_clr.dds": {
+    "bytes": 87536,
+    "sha256": "6e8f854250c1fc1f195bd7e0b5c065b97ef55257abe71d3af3066329f64b4d85"
+  },
+  "textures/trader_antifighter_frigate_clr.dds": {
+    "bytes": 1398276,
+    "sha256": "74ab8144589ab2e184dc3cc8f53239cc0099b70ca43b1e7ccfdb4886c091d160"
+  },
+  "textures/trader_antifighter_frigate_hud_icon.png": {
+    "bytes": 6328,
+    "sha256": "d5e3f10eb806eefa5cb573281e3bdeafd210442e2e3188784333574d7ba5df66"
+  },
+  "textures/trader_antifighter_frigate_hud_picture.png": {
+    "bytes": 41381,
+    "sha256": "342ebe0d9eff7cdbb162e2353f5435638094307a4e461de8a69ccd8cff7097d2"
+  },
+  "textures/trader_antifighter_frigate_main_view_icon.png": {
+    "bytes": 4391,
+    "sha256": "32fdcdcaef9043329dc32ab13c85367d683d5a1e3bbc65eab6a5a1a7762805a3"
+  },
+  "textures/trader_antifighter_frigate_main_view_icon_selected.png": {
+    "bytes": 4919,
+    "sha256": "940f2df198cc16178c984a19827b1a2fef0a74ae2c49999e0d91277ace407b37"
+  },
+  "textures/trader_antifighter_frigate_main_view_icon_sub_selected.png": {
+    "bytes": 5136,
+    "sha256": "fc6f530a8a353315bb37baf02341caffd5da953c9ad22eacd75fc8d6834407ca"
+  },
+  "textures/trader_antifighter_frigate_msk.dds": {
+    "bytes": 1398276,
+    "sha256": "625781e1acc38dd2fa0c1171efd27ab5a90eea543fdbd5954cc5f4d8bb5a3cd9"
+  },
+  "textures/trader_antifighter_frigate_nrm.dds": {
+    "bytes": 1398256,
+    "sha256": "1e84b4b5b30ba64578273211b91400d129cc89261c26c283141821b246fd5c90"
+  },
+  "textures/trader_antifighter_frigate_orm.dds": {
+    "bytes": 1398276,
+    "sha256": "09eaea7e66a7937ee668a6899f548d51c8faaf518674f1534ddb4934bca18314"
+  },
+  "textures/trader_antifighter_frigate_tooltip_picture.png": {
+    "bytes": 53914,
+    "sha256": "fee9bc2b5266929e23096045a5e1d241bc06e8921e32338cec20081b19a60d42"
+  },
+  "textures/trader_asset_turrets_large_clr.dds": {
+    "bytes": 5592580,
+    "sha256": "5cbd1b4f857e7f4114f28792bdbdd2e1cc053979cde8cd7114d6aac456cccc34"
+  },
+  "textures/trader_asset_turrets_large_msk.dds": {
+    "bytes": 5592580,
+    "sha256": "eca339ac14912cd3bd5d8d955bab3936abd571f4521c07ee97f2e6aeae39575e"
+  },
+  "textures/trader_asset_turrets_large_nrm.dds": {
+    "bytes": 5592560,
+    "sha256": "0779c378a2af67f79ca753bc1efd137591eb7b4431e164381661cba43f66e091"
+  },
+  "textures/trader_asset_turrets_large_orm.dds": {
+    "bytes": 5592580,
+    "sha256": "dd9fc12cf1246e047ef9bd1448680ddfb8a7c57a1ca2ba8f1a864b97c9c574e2"
+  },
+  "textures/trader_asset_turrets_small_clr.dds": {
+    "bytes": 1398276,
+    "sha256": "0ff0ad0c18bf436c4183458394265afff14872fa44a98ef0d9fba73d8629c531"
+  },
+  "textures/trader_asset_turrets_small_msk.dds": {
+    "bytes": 1398276,
+    "sha256": "bdc29816e44f6498f3cec7079efdbcf57fdc2807920b823686da552dbf405d70"
+  },
+  "textures/trader_asset_turrets_small_nrm.dds": {
+    "bytes": 1398256,
+    "sha256": "ae1bcfa438b7ae7b12aca2a8590bb67fbb156e22fcc850af87ab4fea22ea33a1"
+  },
+  "textures/trader_asset_turrets_small_orm.dds": {
+    "bytes": 1398276,
+    "sha256": "459b5953451387a83d6f8e71a53b7a2cb7ede426f281920cfd45858eff65bf3b"
+  },
+  "textures/trader_damage_0_clr.dds": {
+    "bytes": 349700,
+    "sha256": "4d3783f815b4af2a169d5695e24a93e26a7736d447710de5075f835607c0d206"
+  },
+  "textures/trader_damage_0_msk.dds": {
+    "bytes": 349700,
+    "sha256": "1a67b6b2e7ad527e873876d0f36702253a25f147ce159d0275d39029351aceae"
+  },
+  "textures/trader_damage_0_orm.dds": {
+    "bytes": 349700,
+    "sha256": "6ac62ec3fa612148903a371fcd54e0e6aa2107689461a6504d3d3723b835c961"
+  },
+  "textures/trader_light_frigate_clr.dds": {
+    "bytes": 1398276,
+    "sha256": "89ddd7c3acfaa3ee4c75a2362cea15745ab0420baa1384b261ce249984c32e9f"
+  },
+  "textures/trader_light_frigate_hud_icon.png": {
+    "bytes": 6591,
+    "sha256": "5a23394acd3c41d1a963bdec7405d866e19a552669bdaef2ea22f3212c89810b"
+  },
+  "textures/trader_light_frigate_hud_picture.png": {
+    "bytes": 34628,
+    "sha256": "1a2ed3f2ee6eb3f92fe5c292edde0350878ee0d83edf5852b3d87af89ccd6241"
+  },
+  "textures/trader_light_frigate_main_view_icon.png": {
+    "bytes": 4376,
+    "sha256": "e745652b67fd1a3a4b1e2d2285dfa2505116ce94d53ab25e9daff980bd1ebb6f"
+  },
+  "textures/trader_light_frigate_main_view_icon_selected.png": {
+    "bytes": 4803,
+    "sha256": "eecd337dde874a1439ced2d0752fdaeff9202952f49d621d5e654eb6b64a0a3f"
+  },
+  "textures/trader_light_frigate_main_view_icon_sub_selected.png": {
+    "bytes": 4992,
+    "sha256": "a505ca71889e4201b95253f185deef23b79e55e82fec340daf2983321ae3e4c5"
+  },
+  "textures/trader_light_frigate_msk.dds": {
+    "bytes": 1398276,
+    "sha256": "68bf0a6e1a070971d84961a61485257dc27fb26dbb8ef4847c828846e0fbcca3"
+  },
+  "textures/trader_light_frigate_nrm.dds": {
+    "bytes": 1398256,
+    "sha256": "599423c9b1a1dd838accd14f70555a1223c863301f7c7a14684d361334520954"
+  },
+  "textures/trader_light_frigate_orm.dds": {
+    "bytes": 1398276,
+    "sha256": "42faebb5c5bff6b093a6f4f1d1c5587a679981cd9f406e417dbc7e9e6f8e6cc4"
+  },
+  "textures/trader_light_frigate_tooltip_picture.png": {
+    "bytes": 47453,
+    "sha256": "d54cc0028119c71f2e29478a44121055a910745d734527bd74928c222152332e"
+  },
+  "textures/trader_normal_shield_impact_clr.dds": {
+    "bytes": 22369796,
+    "sha256": "a7e4a277050a798b926eacc5de0514f8a280d7f09c168cf9763167b5cb17741b"
+  },
+  "textures/trader_torpedo_cruiser_clr.dds": {
+    "bytes": 5592580,
+    "sha256": "9cd519fb8272dd439cfa21f5d19649cb6ce389b05c899705582a1afdf077ff17"
+  },
+  "textures/trader_torpedo_cruiser_hud_icon.png": {
+    "bytes": 7215,
+    "sha256": "e36fc34f02317518ba3b3382fb037a9282ab15e5b63e279bd989955c6f6cd9e5"
+  },
+  "textures/trader_torpedo_cruiser_hud_picture.png": {
+    "bytes": 41911,
+    "sha256": "9fc0196fbc30e3cf3f0aa702aab17144e52b9555f14482dfaaa7107134f9a8ff"
+  },
+  "textures/trader_torpedo_cruiser_main_view_icon.png": {
+    "bytes": 4535,
+    "sha256": "1b9063a582dcf54d16f93846180c3a19f710877390efacd8177e4528b44c6cff"
+  },
+  "textures/trader_torpedo_cruiser_main_view_icon_selected.png": {
+    "bytes": 5175,
+    "sha256": "9bbcc900e3ca6519ce390cb6666913bc5f52c815476bc340380dccee5a8756df"
+  },
+  "textures/trader_torpedo_cruiser_main_view_icon_sub_selected.png": {
+    "bytes": 5502,
+    "sha256": "5bb4a903beff07fb380590c7adc548c58f3895f77a4f6dc162d22272316cd4c1"
+  },
+  "textures/trader_torpedo_cruiser_msk.dds": {
+    "bytes": 5592580,
+    "sha256": "565ad5162d2384e9dacb6a3af66713fa666eb809cb4f8abcee76e5feb1f57d00"
+  },
+  "textures/trader_torpedo_cruiser_nrm.dds": {
+    "bytes": 5592560,
+    "sha256": "add60ac8485952531b95d9e681269123f173d7a7337dbd2316518ff513665881"
+  },
+  "textures/trader_torpedo_cruiser_orm.dds": {
+    "bytes": 5592580,
+    "sha256": "e4c141eacdc56dc8b16f30acbffc81a85db55700c20ff6e4aeb9c03245f27eb8"
+  },
+  "textures/trader_torpedo_cruiser_tooltip_picture.png": {
+    "bytes": 78905,
+    "sha256": "7164193e9d1569d4133bf8269b18835c6399d45b3870c36279099592f9feeeb9"
+  },
+  "textures/trader_torpedo_cruiser_torpedo_hud_icon.png": {
+    "bytes": 5024,
+    "sha256": "6388dee2561e6ac4737714b54bfc646b27452cd526fb5a56140ea3fbcd49e765"
+  },
+  "textures/trader_torpedo_cruiser_torpedo_main_view_icon.png": {
+    "bytes": 438,
+    "sha256": "e99cf0265f612918c265399eed084702d4de2d268e948cd3f393df4dc0cdb545"
+  },
+  "textures/vasari_ball_4.dds": {
+    "bytes": 349700,
+    "sha256": "4e1ecfc0a5144164cf3b0adaebb2c5b024e1800d789573cbad5d2b20497be567"
+  },
+  "textures/vertical_gradient.dds": {
+    "bytes": 5636,
+    "sha256": "8e454569ab2ae032226fe2c329172114458d67ad4271636beb1f29577e316393"
+  },
+  "textures/water_pattern.dds": {
+    "bytes": 5592580,
+    "sha256": "74a2329cded33ccb3328a1ef61f47584880b075fdf37e56308cb87fdd6d7d459"
+  },
+  "textures/water_uv.dds": {
+    "bytes": 349700,
+    "sha256": "fe23cdad8a0a1c80a994cc1de3bf92f2100397bc4f4aae447f07bda7506f5845"
+  },
+  "textures/white_circle.dds": {
+    "bytes": 87556,
+    "sha256": "0f6e38e1d9a08be1be1dab01030a7016422bdf791cf3156f07b8cc1c2b73556d"
+  },
+  "textures/white_square.dds": {
+    "bytes": 5636,
+    "sha256": "3fd22b3da6df3c80dcae1afbf58ebd68234e8b51855ca9fc6efd35d77e81ab7b"
+  },
+  "textures/zap_clr.dds": {
+    "bytes": 43876,
+    "sha256": "022b26f6235dab009de511f3cbec96aeeec58add51ab7a1f6c9d3d75aa79de44"
+  },
+  "uniforms/attack_target_type.uniforms": {
+    "bytes": 1780,
+    "sha256": "01ab45e59d724cc8b71ebd409f637f74f8c3e7c6738c430c39e066ea30117f84"
+  },
+  "uniforms/attack_target_type_group.uniforms": {
+    "bytes": 4286,
+    "sha256": "7bd10fe76bc0c6f3f7273be8d477d4e7f82d204a88f8e7bcdabbd70d5b56f588"
+  },
+  "uniforms/debris.uniforms": {
+    "bytes": 1758,
+    "sha256": "ef919dc97bbde602757f4b32a819596ce55d6986b767c5f45a0c2a3317124f06"
+  },
+  "uniforms/target_filter.uniforms": {
+    "bytes": 6334,
+    "sha256": "e1e16ca7208c286f9d4ab6daefb2cc6a7da8f157e08ce7596ba28476c510855d"
+  },
+  "uniforms/weapon.uniforms": {
+    "bytes": 1858,
+    "sha256": "02302adb2b139b86dc6d08ce034e661753007b16ba25d7695b98d77ff2a294eb"
+  }
+}

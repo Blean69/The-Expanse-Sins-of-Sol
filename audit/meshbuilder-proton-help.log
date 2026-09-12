@@ -1,0 +1,13 @@
+wine: created the configuration directory '/run/media/haker/NVME 2/expanse-mod/.tools/proton-prefix'
+wineserver: using server-side synchronization.
+Mesh Builder
+Usage: [OPTIONS]
+
+Options:
+  -h,--help                   Print this help message and exit
+  --input_path FILE REQUIRED  Path to input file
+  --output_folder_path TEXT REQUIRED
+                              Path to output folder
+  --mesh_output_format TEXT in {binary,json}
+                              Output format for mesh data
+  --fill_triangle_facing_grid Calculate and fill out triangle facing grid for the mesh.

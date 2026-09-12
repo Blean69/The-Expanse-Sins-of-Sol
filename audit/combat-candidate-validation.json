@@ -1,0 +1,23 @@
+{
+  "schema_passed": [
+    "mcrn_corvette_pdc_5.weapon",
+    "mcrn_corvette_pdc_4.weapon",
+    "mcrn_corvette_pdc_2.weapon",
+    "mcrn_corvette_pdc_1.weapon",
+    "mcrn_corvette_torpedo.unit_skin",
+    "mcrn_corvette_pdc_3.weapon",
+    "mcrn_corvette_pdc_0.weapon",
+    "mcrn_corvette_torpedo.unit",
+    "mcrn_corvette_torpedo.weapon"
+  ],
+  "installed": false,
+  "runtime_test": "NOT RUN",
+  "shared_vanilla_edits": 0,
+  "incomplete_dependencies": [
+    "PDC mesh aliases require combat skin bindings and compiled rig assets.",
+    "Candidate weapon effects still use vanilla alias names: copy Garda/Ogrov effect_alias_bindings into the future ship skin.",
+    "Combat hull must omit the moving gun geometry before rigs are attached.",
+    "Ship weapon entries, arcs, engagement distance, torpedo launch points and actual salvo mechanism are not yet authored."
+  ],
+  "intent": "Isolate dependencies and target eligibility before damage/range tuning; not a playable combat mod."
+}

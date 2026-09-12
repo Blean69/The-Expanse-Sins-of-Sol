@@ -1,0 +1,9 @@
+.tools/
+build/
+assets/original/
+assets/source/
+assets/derived/
+__pycache__/
+*.pyc
+local.paths.json
+audit/*.png

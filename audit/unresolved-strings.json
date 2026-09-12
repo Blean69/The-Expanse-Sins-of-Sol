@@ -1,0 +1,117 @@
+[
+  {
+    "file": "entities/trader_light_frigate.unit",
+    "pointer": "/action_effect_size",
+    "value": "small_unit"
+  },
+  {
+    "file": "entities/trader_torpedo_cruiser.unit",
+    "pointer": "/action_effect_size",
+    "value": "small_unit"
+  },
+  {
+    "file": "entities/trader_torpedo_cruiser_torpedo.weapon",
+    "pointer": "/effects/muzzle_effect",
+    "value": "trader_torpedo_cruiser_torpedo_weapon_muzzle"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate.unit",
+    "pointer": "/action_effect_size",
+    "value": "small_unit"
+  },
+  {
+    "file": "entities/trader_light_frigate_medium_autocannon.weapon",
+    "pointer": "/effects/muzzle_effect",
+    "value": "trader_light_frigate_medium_autocannon_weapon_muzzle"
+  },
+  {
+    "file": "entities/trader_light_frigate_medium_autocannon.weapon",
+    "pointer": "/effects/projectile_travel_effect",
+    "value": "trader_light_frigate_medium_autocannon_weapon_projectile_travel"
+  },
+  {
+    "file": "entities/trader_light_frigate_medium_autocannon.weapon",
+    "pointer": "/effects/hit_hull_effect",
+    "value": "trader_light_frigate_medium_autocannon_weapon_hit_hull"
+  },
+  {
+    "file": "entities/trader_light_frigate_medium_autocannon.weapon",
+    "pointer": "/effects/hit_shield_effect",
+    "value": "trader_light_frigate_medium_autocannon_weapon_hit_shield"
+  },
+  {
+    "file": "effects/trader_medium_autocannon_weapon_muzzle.particle_effect",
+    "pointer": "/emitters/0/particle/billboard/texture_animation",
+    "value": "autocannon_blue.texanim"
+  },
+  {
+    "file": "entities/trader_torpedo_cruiser_torpedo.unit",
+    "pointer": "/action_effect_size",
+    "value": "small_unit"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+    "pointer": "/effects/muzzle_effect",
+    "value": "trader_antifighter_frigate_point_defense_autocannon_weapon_muzzle"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+    "pointer": "/effects/projectile_travel_effect",
+    "value": "trader_antifighter_frigate_point_defense_autocannon_weapon_projectile_travel"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+    "pointer": "/effects/hit_hull_effect",
+    "value": "trader_antifighter_frigate_point_defense_autocannon_weapon_hit_hull"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+    "pointer": "/effects/hit_shield_effect",
+    "value": "trader_antifighter_frigate_point_defense_autocannon_weapon_hit_shield"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+    "pointer": "/turret/biaxial_base_mesh",
+    "value": "pdturret_mount_0"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+    "pointer": "/turret/biaxial_barrel_mesh",
+    "value": "pdturret_barrel_0"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_light_autocannon.weapon",
+    "pointer": "/effects/muzzle_effect",
+    "value": "trader_antifighter_frigate_light_autocannon_weapon_muzzle"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_light_autocannon.weapon",
+    "pointer": "/effects/projectile_travel_effect",
+    "value": "trader_antifighter_frigate_light_autocannon_weapon_projectile_travel"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_light_autocannon.weapon",
+    "pointer": "/effects/hit_hull_effect",
+    "value": "trader_antifighter_frigate_light_autocannon_weapon_hit_hull"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_light_autocannon.weapon",
+    "pointer": "/effects/hit_shield_effect",
+    "value": "trader_antifighter_frigate_light_autocannon_weapon_hit_shield"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_light_autocannon.weapon",
+    "pointer": "/turret/biaxial_base_mesh",
+    "value": "turret_mount_0"
+  },
+  {
+    "file": "entities/trader_antifighter_frigate_light_autocannon.weapon",
+    "pointer": "/turret/biaxial_barrel_mesh",
+    "value": "turret_barrel_0"
+  },
+  {
+    "file": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+    "pointer": "/skin_stages/0/effects/exhaust_effects/trail_effects/0/trail_effect",
+    "value": "trader_large_torpedo"
+  }
+]

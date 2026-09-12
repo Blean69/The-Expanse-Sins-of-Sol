@@ -1,0 +1,13 @@
+wineserver: using server-side synchronization.
+Loading gltf document : Z:/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/mcrn_corvette_baseline.gltf
+Success Loading gltf document : Z:/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/mcrn_corvette_baseline.gltf
+Generating Triangle Facing Grid ... this is slow and will bloat the output file. Should only be done for testing.
+Writing Z:/run/media/haker/NVME 2/expanse-mod/build/compiler-json\mcrn_corvette_baseline.mesh_json
+Writing Z:/run/media/haker/NVME 2/expanse-mod/build/compiler-json\mcrn_corvette_baseline_mcrn_tachi_material.mesh_material
+Writing Z:/run/media/haker/NVME 2/expanse-mod/build/compiler-json\mcrn_corvette_baseline_mcrn_tachi_primary.mesh_material
+Writing Z:/run/media/haker/NVME 2/expanse-mod/build/compiler-json\mcrn_corvette_baseline_mcrn_tachi_secondary.mesh_material
+Writing Z:/run/media/haker/NVME 2/expanse-mod/build/compiler-json\mcrn_corvette_baseline_mcrn_tachi_texts.mesh_material
+dbus[2753292]: arguments to dbus_pending_call_set_notify() were incorrect, assertion "pending != NULL" failed in file ../../dbus/dbus-pending-call.c line 658.
+This is normally a bug in some application using the D-Bus library.
+
+  D-Bus not built with -rdynamic so unable to print a backtrace
