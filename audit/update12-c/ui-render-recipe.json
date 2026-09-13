@@ -1,0 +1,29 @@
+{
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update12-c/expanse12_sunflare_editable.gltf": "a9fbb09549b67d3711240c0ef97d06615a84d18c549c037fa6ee8c73e5fc9a01",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update12-c/expanse12_sunflare_editable.bin": "ff466516978740f1abc86b838b514cbdacbf7880f41fc9e988cc847b0eb0f8f1",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update12-c/../../source/update12-sunflare/images/Razorback_Base_Color.png": "5ccbff575813e0b3872339290b18687422b8dd8ff64e74c8535e6829e4a4bfea"
+  },
+  "triangles": 17741,
+  "coordinate_conversion": "Source already uses game-facing right-handed glTF axes",
+  "camera_basis": [
+    [
+      0.7803805282839275,
+      0.0,
+      0.6253049104839162
+    ],
+    [
+      -0.23984779590714161,
+      0.9235120770132178,
+      0.29933004929211277
+    ],
+    [
+      -0.5774766366475658,
+      -0.3835693465473128,
+      0.720690842536162
+    ]
+  ],
+  "material_colors": "Actual source material base-color texture and UVs, or explicit source PBR factor; no invented colors",
+  "renderer": "Imported generic CPU double-sided z-buffer from polish_ui.py; studio contrast lift and Lambert shading; not Sins runtime rendering",
+  "runtime": "NOT RUN"
+}

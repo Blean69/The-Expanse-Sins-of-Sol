@@ -1,0 +1,99 @@
+{
+  "status": "PASS OFFLINE",
+  "authored": "Procedural gray/orange for Raptor; procedural silver for Pella plus reference-guided Free Navy emblem paint. Source STL contains no authored materials.",
+  "textures": {
+    "mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "expanse12_raptor_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "expanse12_raptor_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+    "expanse12_raptor_orm.dds": "3899064d5192d3dcaa405f26750ffefd3ebbc4a06f9d81a61b44fdb23fccd4cd",
+    "expanse12_raptor_mat_1_clr.dds": "39a6ad00992630e3006b909c0737c7c6340bb4cb46cf91a4766622648ea40b06",
+    "mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "expanse12_raptor_mat_0_clr.dds": "3ec8fe59b4be32ed0ea6099bcda3ef1bb5e0e82a8f7f8ab2b8075f31aebe5a26",
+    "expanse12_raptor_mat_2_clr.dds": "6750496fd2811ee25f049cc55acab176818932aac59936e8021f5eec5bcbaf9e"
+  },
+  "runtime": "NOT RUN",
+  "dimensions_checked_for_block_compression": [
+    {
+      "name": "mcrn_tachi_material_nrm.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2"
+    },
+    {
+      "name": "expanse12_raptor_nrm.dds",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd"
+    },
+    {
+      "name": "expanse12_raptor_msk.dds",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf"
+    },
+    {
+      "name": "mcrn_tachi_material_clr.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a"
+    },
+    {
+      "name": "mcrn_tachi_material_orm.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "sha256": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d"
+    },
+    {
+      "name": "expanse12_raptor_orm.dds",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "3899064d5192d3dcaa405f26750ffefd3ebbc4a06f9d81a61b44fdb23fccd4cd"
+    },
+    {
+      "name": "expanse12_raptor_mat_1_clr.dds",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "39a6ad00992630e3006b909c0737c7c6340bb4cb46cf91a4766622648ea40b06"
+    },
+    {
+      "name": "mcrn_tachi_material_msk.dds",
+      "size": [
+        4,
+        4
+      ],
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    {
+      "name": "expanse12_raptor_mat_0_clr.dds",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "3ec8fe59b4be32ed0ea6099bcda3ef1bb5e0e82a8f7f8ab2b8075f31aebe5a26"
+    },
+    {
+      "name": "expanse12_raptor_mat_2_clr.dds",
+      "size": [
+        16,
+        16
+      ],
+      "sha256": "6750496fd2811ee25f049cc55acab176818932aac59936e8021f5eec5bcbaf9e"
+    }
+  ]
+}

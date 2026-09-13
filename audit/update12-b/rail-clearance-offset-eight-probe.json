@@ -1,0 +1,36 @@
+{
+  "status": "MEASURED OFFLINE",
+  "sweeps": [
+    {
+      "angle_degrees": -15,
+      "samples": 600,
+      "outside_bearing_contacts": [],
+      "intended_bearing_contacts": 2
+    },
+    {
+      "angle_degrees": -7.5,
+      "samples": 600,
+      "outside_bearing_contacts": [],
+      "intended_bearing_contacts": 3
+    },
+    {
+      "angle_degrees": 0,
+      "samples": 600,
+      "outside_bearing_contacts": [],
+      "intended_bearing_contacts": 2
+    },
+    {
+      "angle_degrees": 7.5,
+      "samples": 600,
+      "outside_bearing_contacts": [],
+      "intended_bearing_contacts": 2
+    },
+    {
+      "angle_degrees": 15,
+      "samples": 600,
+      "outside_bearing_contacts": [],
+      "intended_bearing_contacts": 2
+    }
+  ],
+  "caveat": "Bounded600vertex samples per pose against hull; notcontinuous/fullinternalcollision proof"
+}

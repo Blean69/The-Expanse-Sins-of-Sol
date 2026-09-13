@@ -1,0 +1,401 @@
+{
+  "status": "PASS 79 standalone behavior schemas; asset integration not established",
+  "files": [
+    {
+      "file": "expanse12_pella_launch_corvette.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_launch_corvette.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_light_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_marines.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_marines.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_marines.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_reactor.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_reactor.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_reactor.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_reactor_breach.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_reactor_breach.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_reactor_breach.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_launch_corvette.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_launch_corvette.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_light_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_marines.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_marines.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_marines.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_reactor.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_reactor.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_reactor.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_reactor_breach.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_reactor_breach.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_reactor_breach.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_heavy_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_heavy_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_heavy_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_launch_corvette.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_launch_corvette.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_light_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_marines.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_marines.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_marines.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_10.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_11.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_9.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_rail_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_reactor.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_reactor.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_reactor.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_reactor_breach.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_reactor_breach.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_reactor_breach.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_sunflare_burn.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_sunflare_burn.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_sunflare_burn.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    }
+  ],
+  "runtime": "NOT RUN"
+}

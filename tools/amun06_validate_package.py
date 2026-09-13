@@ -47,6 +47,7 @@ class AmunResolver(Resolver):
   return data
 
 def check_action_values(mod,game,resolver,unit):
+ from build_combat03 import is_buff_selector
  common=read(resolver.resolve('uniforms/action.uniforms',unit));common_values={v for ptr,v in strings(common)if ptr[-1]=='action_value_id'}|{'fixed_one','fixed_zero'};reports=[]
  for group in unit.get('abilities',[]):
   for aid in group['abilities']:
@@ -62,6 +63,7 @@ def check_action_values(mod,game,resolver,unit):
      for k,v in d.items():
       if isinstance(v,str):
        if k in {'buff','watched_buff','persistant_buff'}:
+        if is_buff_selector(d,k,v):continue
         p=resolver.resolve('entities/'+v+'.buff',source);references.append(str(p))
         if d.get('constraint_type')!='has_buff' and p not in seen:seen.add(p);walk(read(p),p)
        elif k in {'torpedo_to_create','unit_to_create'}:resolver.unit(v,source)

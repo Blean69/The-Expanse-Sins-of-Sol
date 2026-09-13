@@ -1,0 +1,355 @@
+{
+  "status": "PASS",
+  "pinned_brush_schema_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update12-c/expanse12_sunflare_editable.gltf": "a9fbb09549b67d3711240c0ef97d06615a84d18c549c037fa6ee8c73e5fc9a01",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update12-c/expanse12_sunflare_editable.bin": "ff466516978740f1abc86b838b514cbdacbf7880f41fc9e988cc847b0eb0f8f1",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update12-c/../../source/update12-sunflare/images/Razorback_Base_Color.png": "5ccbff575813e0b3872339290b18687422b8dd8ff64e74c8535e6829e4a4bfea"
+  },
+  "triangles": 17741,
+  "brush_schema_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/brushes/expanse12_sunflare_hud_icon.brush",
+      "status": "PASS",
+      "texture": "expanse12_sunflare_hud_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/brushes/expanse12_sunflare_hud_picture.brush",
+      "status": "PASS",
+      "texture": "expanse12_sunflare_hud_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/brushes/expanse12_sunflare_tooltip_picture.brush",
+      "status": "PASS",
+      "texture": "expanse12_sunflare_tooltip_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/brushes/expanse12_sunflare_main_view_icon.brush",
+      "status": "PASS",
+      "texture": "expanse12_sunflare_main_view_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/brushes/expanse12_sunflare_main_view_icon_selected.brush",
+      "status": "PASS",
+      "texture": "expanse12_sunflare_main_view_icon_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/brushes/expanse12_sunflare_main_view_icon_sub_selected.brush",
+      "status": "PASS",
+      "texture": "expanse12_sunflare_main_view_icon_sub_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    }
+  ],
+  "png_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_hud_icon.png",
+      "sha256": "649d43156f04cda18259b6d6e234c9f3fea19d7f59b7d3a6b5b3287b586bf0ef",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_hud_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_hud_icon150.png",
+      "sha256": "c31a3b970611d3802d038bd61b4bcb56edd88c9bf9c3e059f59ea665f80515b9",
+      "dimensions": [
+        128,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_hud_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_hud_icon200.png",
+      "sha256": "ca74bc2f18e0e04d6fbb056710143fb5e7ed7e6b22351320a9496d3a55bae8b6",
+      "dimensions": [
+        170,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_hud_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_hud_picture.png",
+      "sha256": "998c61eee585cca454698c0ad33b92136234bc698a90e3e5c03546099ae0ef9f",
+      "dimensions": [
+        265,
+        85
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_hud_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_hud_picture150.png",
+      "sha256": "555b76215b5eab9ba0165f279becbcecf7225276bb297678a7de5ea559465826",
+      "dimensions": [
+        397,
+        127
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_hud_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_hud_picture200.png",
+      "sha256": "5ea38e71a93a2f2b7257f299b9991e498ff17f18b5494f5db8aca51e2f671722",
+      "dimensions": [
+        530,
+        170
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_hud_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_tooltip_picture.png",
+      "sha256": "a7cf9d218a3134bdb42a0bdc023d18e26d98865413747d75e3f0666f3a05fb17",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_tooltip_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_tooltip_picture150.png",
+      "sha256": "f8c0b2af23aa898957b88d0533510dcad9fde82e37124314444601546c4fa3c9",
+      "dimensions": [
+        689,
+        324
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_tooltip_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_tooltip_picture200.png",
+      "sha256": "76d93147cf50d26419bea66155d074f2565c36b4dc009b0e826e67a5f5141b49",
+      "dimensions": [
+        918,
+        432
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_tooltip_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_main_view_icon.png",
+      "sha256": "19e8a8422d12710ab1417d5442cfc30a1e0af52605b985009b8e05078bd9129b",
+      "dimensions": [
+        25,
+        19
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_main_view_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_main_view_icon150.png",
+      "sha256": "947508a7682eb699bfa7a2312ab5a76b4cdd13ca804948c3898523f214573c92",
+      "dimensions": [
+        38,
+        29
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_main_view_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_main_view_icon200.png",
+      "sha256": "08b43dbf5dd1a99319914103c09d7a1e212c3172b3c145a536a3569e71de3b8c",
+      "dimensions": [
+        50,
+        38
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_main_view_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_main_view_icon_selected.png",
+      "sha256": "5ce9b66bb1492d55a597bbeb85184190aab27f1918dd3988a393a9a74779a5c2",
+      "dimensions": [
+        36,
+        30
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_main_view_icon_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_main_view_icon_selected150.png",
+      "sha256": "ccb9003d789e40d938613016a62a2fc9725ab9bf001770cf70b159985a57fc1d",
+      "dimensions": [
+        54,
+        45
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_main_view_icon_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_main_view_icon_selected200.png",
+      "sha256": "2ffb5367a0b52d1c21f0056e5b5b10ca0b2162be969b2fc044a06bfdd7a9ef70",
+      "dimensions": [
+        72,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_main_view_icon_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_main_view_icon_sub_selected.png",
+      "sha256": "29222a440d39047e6450ff58fed22aabfbe80b8795beb1a180d21cbc5b4ee6ec",
+      "dimensions": [
+        46,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_main_view_icon_sub_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_main_view_icon_sub_selected150.png",
+      "sha256": "6055f7ceea9b873d70da491b16e9310952a893d9c6141d964c0c08a51ca4f849",
+      "dimensions": [
+        69,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_main_view_icon_sub_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/textures/expanse12_sunflare_main_view_icon_sub_selected200.png",
+      "sha256": "99d21568502595f444322d6a56f75ba6d7d854b26b06f239bed2667e7227b66f",
+      "dimensions": [
+        92,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_scout_corvette_main_view_icon_sub_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/expanse12_sunflare_mod_small_logo.png",
+      "sha256": "1747c96e96b19e0f901c4f8c7d89fc2d12fa821ac83d5266cea4232afd99f015",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_small_logo.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/update12-c/ui/generated/expanse12_sunflare_mod_large_logo.png",
+      "sha256": "050c59f93d44c3cc221571c0e0c3c66982995c091f709916362909c5daad7ae0",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_large_logo.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

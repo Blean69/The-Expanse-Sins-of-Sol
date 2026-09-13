@@ -1,0 +1,21 @@
+{
+  "status": "PASS OFFLINE",
+  "source_dimensions": [
+    4096,
+    4096
+  ],
+  "game_dimensions": [
+    2048,
+    2048
+  ],
+  "normal_map": "Source referenced glTF normals retained and renormalized after resize; DirectX filename ambiguity requires runtime bump inspection, no unverified green reversal",
+  "ORM": "R255 (no AO source), G/B source glTF roughness/metallic",
+  "mask": "R/G/A0, B=max source emissiveRGB. Emission is base-color-tinted by installed shader, not independent source emissionRGB",
+  "textures": {
+    "expanse12_sunflare_material_nrm.dds": "c9a132738dc37ab1698b38a779c3282149e0d6cc43e200c73b248b1735b527bd",
+    "expanse12_sunflare_material_orm.dds": "a3189452d431697641ca0095c324f615442b72f8f716586d67ef6bd5d24a0e09",
+    "expanse12_sunflare_material_clr.dds": "3af1b8d55962abf5563b1c643e2c64738e7895266a90fd586e068ec1effadad7",
+    "expanse12_sunflare_material_msk.dds": "3be6b657995ac12f317514a89e2bc0aa0272ca3a554fb0219b998e760ab01bc2"
+  },
+  "runtime": "NOT RUN"
+}

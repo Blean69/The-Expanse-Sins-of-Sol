@@ -1,0 +1,82 @@
+{
+  "source_triangles": 1513390,
+  "removed_static_gun_components": [
+    77,
+    78,
+    129,
+    155,
+    156,
+    255,
+    256,
+    257,
+    258,
+    67,
+    72,
+    74,
+    76,
+    66,
+    71,
+    73,
+    75,
+    122,
+    126,
+    127,
+    128,
+    145,
+    150,
+    152,
+    154,
+    144,
+    149,
+    151,
+    153,
+    240,
+    244,
+    248,
+    250,
+    239,
+    243,
+    247,
+    249,
+    242,
+    246,
+    252,
+    254,
+    241,
+    245,
+    251,
+    253
+  ],
+  "triangles_after_gun_removal": 1405094,
+  "optimized_hull_triangles": 73950,
+  "degenerates_removed": 44,
+  "meshoptimizer_relative_error": 0.00234159454703331,
+  "target": 74000,
+  "error_limit": 0.004,
+  "source_center": [
+    -203.84602500000003,
+    0.0,
+    0.0
+  ],
+  "source_to_game_rotation": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "uniform_scale": 0.18732196377839958,
+  "provisional_length": 203.15217391304347,
+  "source_format": "STL: no UV/material/animation source",
+  "runtime": "NOT RUN"
+}

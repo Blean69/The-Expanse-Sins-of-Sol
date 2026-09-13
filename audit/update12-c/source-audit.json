@@ -1,0 +1,198 @@
+{
+  "archive": "/home/haker/Downloads/Series_6_Sunflare_Racing_Pinnace_[The_Expanse].zip",
+  "archive_sha256": "0f861de9e69b6b0cf3959e083b45571f9879a35cc6b2bfb62f50e6bf4f103e86",
+  "source": "/run/media/haker/NVME 2/expanse-workers/validation/assets/source/update12-sunflare/Series_6_Sunflare_Racing_Pinnace_[The_Expanse].gltf",
+  "asset_metadata": {
+    "generator": "OpenSceneGraph 3.5.6",
+    "version": "2.0"
+  },
+  "triangles": 60635,
+  "nodes": [
+    {
+      "name": "f5fb9cc021e5401abeba64265ebdefb9.fbx",
+      "rotation": [
+        1,
+        0,
+        0,
+        0
+      ],
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "RootNode",
+      "children": [
+        2
+      ]
+    },
+    {
+      "name": "Hull_LP",
+      "rotation": [
+        0,
+        0,
+        -0.7071068387878191,
+        0.7071067235852713
+      ],
+      "scale": [
+        100.00000000000132,
+        100.00000000000132,
+        100
+      ],
+      "children": [
+        3
+      ]
+    },
+    {
+      "name": "Hull_LP",
+      "children": [
+        4
+      ]
+    },
+    {
+      "name": "Hull_LP_Razorback_0",
+      "mesh": 0
+    },
+    {
+      "name": "Sketchfab_model",
+      "translation": [
+        119.53558349609375,
+        15.64002513885498,
+        -1456.4957275390625
+      ],
+      "rotation": [
+        0.13989586860161046,
+        0.46847651897511045,
+        0.8358572917444763,
+        -0.24960265600148263
+      ],
+      "children": [
+        0
+      ]
+    }
+  ],
+  "animations": [],
+  "skins": [],
+  "materials": [
+    {
+      "name": "Razorback",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 3
+        }
+      },
+      "emissiveFactor": [
+        1,
+        1,
+        1
+      ],
+      "emissiveTexture": {
+        "index": 1
+      },
+      "normalTexture": {
+        "index": 2
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            0.2,
+            0.2,
+            0.2
+          ]
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "path": "images/Razorback_Base_Color.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGBA",
+      "sha256": "5ccbff575813e0b3872339290b18687422b8dd8ff64e74c8535e6829e4a4bfea"
+    },
+    {
+      "path": "images/Razorback_Metallic.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGBA",
+      "sha256": "be7b8e5ff0fdaa4aae0c0c4ad2eb515fb6c79405a4c56cf1aff4e643e9fb8ed8"
+    },
+    {
+      "path": "images/Razorback_Normal_DirectX.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGBA",
+      "sha256": "7ee3b9820aec58011e89fafc6bf87f82658caabeca154c2f1716d48c133e998d"
+    },
+    {
+      "path": "images/Razorback_Emissive.png",
+      "size": [
+        4096,
+        4096
+      ],
+      "mode": "RGBA",
+      "sha256": "750206b6f1337cd44110a20163edc6aff7e3ea3eca35f6c1fc746d8a9987718a"
+    }
+  ],
+  "parts": [
+    {
+      "node": 4,
+      "name": "Hull_LP_Razorback_0",
+      "primitive": 0,
+      "triangles": 60635,
+      "material": 0,
+      "bounds": [
+        [
+          -726.9525014972884,
+          -345.89953864116814,
+          -2258.881270851336
+        ],
+        [
+          1089.40022403181,
+          579.4360831154877,
+          -933.2773078484557
+        ]
+      ],
+      "attributes": [
+        "POSITION",
+        "NORMAL",
+        "TANGENT",
+        "TEXCOORD_0"
+      ]
+    }
+  ],
+  "bounds": [
+    [
+      -726.9525014972884,
+      -345.89953864116814,
+      -2258.881270851336
+    ],
+    [
+      1089.40022403181,
+      579.4360831154877,
+      -933.2773078484557
+    ]
+  ],
+  "creator": "No separate attribution document found; see actual asset_metadata",
+  "license": "No separate license document found; see actual asset_metadata",
+  "permission": "User supplied package and requested local conversion; no invented license",
+  "master_hashes": {
+    "Series_6_Sunflare_Racing_Pinnace_[The_Expanse].bin": "11c6e65dd2188badfc4c8014382cf687cca518e9387591d5b5b465cb6e467733",
+    "background.jpeg": "a59371956303a36f6e3f8e7b72490d29eccbd560267dbd468f677c574ba17086",
+    "Series_6_Sunflare_Racing_Pinnace_[The_Expanse].gltf": "178b3d9931f355f3fc13076802f97ddb16b472bac58eb81be93f2091e6bf98b8",
+    "images/Razorback_Normal_DirectX.png": "7ee3b9820aec58011e89fafc6bf87f82658caabeca154c2f1716d48c133e998d",
+    "images/Razorback_Base_Color.png": "5ccbff575813e0b3872339290b18687422b8dd8ff64e74c8535e6829e4a4bfea",
+    "images/Razorback_Emissive.png": "750206b6f1337cd44110a20163edc6aff7e3ea3eca35f6c1fc746d8a9987718a",
+    "images/Razorback_Metallic.png": "be7b8e5ff0fdaa4aae0c0c4ad2eb515fb6c79405a4c56cf1aff4e643e9fb8ed8"
+  }
+}

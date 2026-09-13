@@ -1,0 +1,25 @@
+{
+  "parts": [
+    {
+      "source_triangles": 663324,
+      "retained_triangles": 73495,
+      "removed_slivers": 5,
+      "target": 73500,
+      "error_limit": 0.002,
+      "measured_error": 0.0006458554416894913
+    },
+    {
+      "source_triangles": 14610,
+      "retained_triangles": 5948,
+      "removed_slivers": 0,
+      "target": 2800,
+      "error_limit": 0.001,
+      "measured_error": 0.0009946349309757352
+    }
+  ],
+  "assembled_triangles": 89519,
+  "source_triangles": 677402,
+  "separation_boundary_vertices": 114,
+  "source_rail_cut_no_duplicate_geometry": true,
+  "runtime": "NOT RUN"
+}

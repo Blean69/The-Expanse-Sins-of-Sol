@@ -1,0 +1,66 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "runtime": "NOT RUN",
+  "source_preserved": true,
+  "proper_rotation_determinant": 1.0,
+  "exhaust_meshpoint_position_and_frame": "PASS",
+  "exhaust_centerline_clear": "PASS",
+  "normal_unit_error": 8.274801575058888e-07,
+  "tangent_normal_dot_error": 8.100922317677561e-07,
+  "silhouette_checks": [
+    {
+      "view": "top",
+      "silhouette_iou": 0.999176196448566,
+      "threshold": 0.98
+    },
+    {
+      "view": "side",
+      "silhouette_iou": 0.9987244747779604,
+      "threshold": 0.98
+    },
+    {
+      "view": "rear",
+      "silhouette_iou": 0.9971354390724086,
+      "threshold": 0.98
+    }
+  ],
+  "dds_checks": [
+    {
+      "file": "expanse12_sunflare_material_nrm.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mipmaps": 12,
+      "sha256": "c9a132738dc37ab1698b38a779c3282149e0d6cc43e200c73b248b1735b527bd"
+    },
+    {
+      "file": "expanse12_sunflare_material_orm.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mipmaps": 12,
+      "sha256": "a3189452d431697641ca0095c324f615442b72f8f716586d67ef6bd5d24a0e09"
+    },
+    {
+      "file": "expanse12_sunflare_material_clr.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mipmaps": 12,
+      "sha256": "3af1b8d55962abf5563b1c643e2c64738e7895266a90fd586e068ec1effadad7"
+    },
+    {
+      "file": "expanse12_sunflare_material_msk.dds",
+      "size": [
+        2048,
+        2048
+      ],
+      "mipmaps": 12,
+      "sha256": "3be6b657995ac12f317514a89e2bc0aa0272ca3a554fb0219b998e760ab01bc2"
+    }
+  ],
+  "rendering_limits": "DirectX-named source normal map retained without speculative green reversal; in-game bump direction remains unobserved. Independent emissiveRGB approximated by base-color-tinted maskB in installed shader."
+}

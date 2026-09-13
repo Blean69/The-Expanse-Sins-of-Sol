@@ -1,0 +1,355 @@
+{
+  "status": "PASS",
+  "pinned_brush_schema_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+  "source_dependencies": {
+    "assets/derived/update12-a/pella/expanse12_pella_editable.gltf": "d9633ea79102218848906aa2ac3c177f38ed27e82e7ce44a6b3ed11b988a581c",
+    "assets/derived/update12-a/pella/expanse12_pella_editable.bin": "c5f2ac4b3fd0c7121797d3aee216c0c2068261994d8c1c7b097f26e8cf748e2e",
+    "assets/derived/update12-a/pella/texture-sources/expanse12_pella_free_navy_clr.png": "2e2a15ad743fd3942b150d713bdf3b487445b601da55e171bd83492fe0edcfa2"
+  },
+  "triangles": 95523,
+  "brush_schema_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/brushes/expanse12_pella_hud_icon.brush",
+      "status": "PASS",
+      "texture": "expanse12_pella_hud_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/brushes/expanse12_pella_hud_picture.brush",
+      "status": "PASS",
+      "texture": "expanse12_pella_hud_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/brushes/expanse12_pella_tooltip_picture.brush",
+      "status": "PASS",
+      "texture": "expanse12_pella_tooltip_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/brushes/expanse12_pella_main_view_icon.brush",
+      "status": "PASS",
+      "texture": "expanse12_pella_main_view_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/brushes/expanse12_pella_main_view_icon_selected.brush",
+      "status": "PASS",
+      "texture": "expanse12_pella_main_view_icon_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/brushes/expanse12_pella_main_view_icon_sub_selected.brush",
+      "status": "PASS",
+      "texture": "expanse12_pella_main_view_icon_sub_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    }
+  ],
+  "png_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_hud_icon.png",
+      "sha256": "2190e02558a04fb840497365ed889b3f5a0ef593ad0b583d254d45c42e7b1a7c",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_hud_icon150.png",
+      "sha256": "bf4b6d71f0f7ef7b40b466ae28c72c98eddeed0206d69e28affdf6e8b183e645",
+      "dimensions": [
+        128,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_hud_icon200.png",
+      "sha256": "22fd63343684bbb02251849b54c6ac0665649f99d14028158e621df874589a60",
+      "dimensions": [
+        170,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_hud_picture.png",
+      "sha256": "75cf14be06b4d0f317b1b2a278a5bcf3cfd87d5a2853fd195323b8a31a247c7b",
+      "dimensions": [
+        265,
+        85
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_hud_picture150.png",
+      "sha256": "127ae427b053fe611fdb31b2e79a1e7c65736eb77afc13ed9a978f96799eb084",
+      "dimensions": [
+        397,
+        127
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_hud_picture200.png",
+      "sha256": "36b7aa85166788e2e46ada46df3f00177e3358bb4737172c4ef282e22a8d68eb",
+      "dimensions": [
+        530,
+        170
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_tooltip_picture.png",
+      "sha256": "c918741fc7f628a6256d0ce096aef15e36bf115c60ce534ad76af2394cd977e9",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_tooltip_picture150.png",
+      "sha256": "d021630b3948f85754eb9cde881c8be0a5dcbcf7c4302a84df1a8b21f8eb51cc",
+      "dimensions": [
+        689,
+        324
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_tooltip_picture200.png",
+      "sha256": "26f292b409a761f9684dc52ad5a1247adfababade757406fb4f68ab688a69ea5",
+      "dimensions": [
+        918,
+        432
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_main_view_icon.png",
+      "sha256": "1436e44d5515b1f5fbbe390c2b431e6deb7ab3ff5b421c4ef7c92dfc333ec913",
+      "dimensions": [
+        25,
+        12
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_main_view_icon150.png",
+      "sha256": "e98cc5c71fca0fda286de64009f0bf60586b385622a7038ae44847a56434e534",
+      "dimensions": [
+        38,
+        18
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_main_view_icon200.png",
+      "sha256": "4f7c26d30830c526af952dcf2b160dc69af9ec633ecda78e8fb525a0d4875e8f",
+      "dimensions": [
+        50,
+        24
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_main_view_icon_selected.png",
+      "sha256": "256c7a8d2d8a17531d8b570ceea3cb04c6cd1618552ab6e4ffe696aeea0976ae",
+      "dimensions": [
+        36,
+        23
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_main_view_icon_selected150.png",
+      "sha256": "1532105befdf741bd21f95442d57adefcdcf7f0b0edbd73bf596004f3da402de",
+      "dimensions": [
+        54,
+        35
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_main_view_icon_selected200.png",
+      "sha256": "cbf5731df46f2f72867f42bcd30a4cfd9c5d3c2b8e064398598a18cf02264ddd",
+      "dimensions": [
+        72,
+        46
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_main_view_icon_sub_selected.png",
+      "sha256": "d3d67696021e49286bda9e28b206074fa46d0ee0e4f607fb9169ee6f2eaa3063",
+      "dimensions": [
+        46,
+        33
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_main_view_icon_sub_selected150.png",
+      "sha256": "21c561cbbb47af7e746579f495b8727e7e1286ca56ab98aab0af37903c94105e",
+      "dimensions": [
+        69,
+        50
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/textures/expanse12_pella_main_view_icon_sub_selected200.png",
+      "sha256": "facd06320d09dfb60a6e62231dc256297ba15d9d3b572342e41e4e831c133a14",
+      "dimensions": [
+        92,
+        66
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/expanse12_pella_mod_small_logo.png",
+      "sha256": "fa55da8c269b8f88bc577901c8d4dd396aac36be437c7482955c8fc3c280849e",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_small_logo.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated/expanse12_pella_mod_large_logo.png",
+      "sha256": "1efc045fc58b92b0e86ca392a43acf55977e73b7702dc4545df0ecc65693aeff",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_large_logo.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

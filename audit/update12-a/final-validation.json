@@ -1,0 +1,196 @@
+{
+  "status": "PASS OFFLINE",
+  "variants": [
+    {
+      "variant": "raptor",
+      "status": "PASS OFFLINE",
+      "assembled_triangles": 94823,
+      "game_files": 18,
+      "ui_files": 26,
+      "material_references": 5,
+      "textures": [
+        {
+          "name": "mcrn_tachi_material_nrm.dds",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2"
+        },
+        {
+          "name": "expanse12_raptor_nrm.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd"
+        },
+        {
+          "name": "expanse12_raptor_msk.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf"
+        },
+        {
+          "name": "mcrn_tachi_material_clr.dds",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a"
+        },
+        {
+          "name": "mcrn_tachi_material_orm.dds",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d"
+        },
+        {
+          "name": "expanse12_raptor_orm.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "3899064d5192d3dcaa405f26750ffefd3ebbc4a06f9d81a61b44fdb23fccd4cd"
+        },
+        {
+          "name": "expanse12_raptor_mat_1_clr.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "39a6ad00992630e3006b909c0737c7c6340bb4cb46cf91a4766622648ea40b06"
+        },
+        {
+          "name": "mcrn_tachi_material_msk.dds",
+          "size": [
+            4,
+            4
+          ],
+          "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+        },
+        {
+          "name": "expanse12_raptor_mat_0_clr.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "3ec8fe59b4be32ed0ea6099bcda3ef1bb5e0e82a8f7f8ab2b8075f31aebe5a26"
+        },
+        {
+          "name": "expanse12_raptor_mat_2_clr.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "6750496fd2811ee25f049cc55acab176818932aac59936e8021f5eec5bcbaf9e"
+        }
+      ],
+      "integration_spec_sha256": "f842a70ee778f94100ffff243c636350cd196501108ff1d1a4b0d16317a3aa27"
+    },
+    {
+      "variant": "pella",
+      "status": "PASS OFFLINE",
+      "assembled_triangles": 95523,
+      "game_files": 20,
+      "ui_files": 26,
+      "material_references": 6,
+      "textures": [
+        {
+          "name": "mcrn_tachi_material_nrm.dds",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2"
+        },
+        {
+          "name": "expanse12_pella_mat_1_clr.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "67e17756198d78832aaa4d03212eb6c76ba43596afbd4f31a880ed83dd6d50d3"
+        },
+        {
+          "name": "mcrn_tachi_material_clr.dds",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a"
+        },
+        {
+          "name": "mcrn_tachi_material_orm.dds",
+          "size": [
+            2048,
+            2048
+          ],
+          "sha256": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d"
+        },
+        {
+          "name": "expanse12_pella_free_navy_clr.dds",
+          "size": [
+            1024,
+            1024
+          ],
+          "sha256": "5447896151cc70119b571ba077135ccaa138f6e0e5e43cd822bedfd4697f4504"
+        },
+        {
+          "name": "expanse12_pella_msk.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf"
+        },
+        {
+          "name": "expanse12_pella_mat_0_clr.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "073fc148c486453690490d8da1c2f9199973017692fa7aedb7dff16a4e025f88"
+        },
+        {
+          "name": "expanse12_pella_mat_2_clr.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "06ca2a50beb49228510b8ed9055840f5256ab24e72f06c1c75a5856fc139360c"
+        },
+        {
+          "name": "expanse12_pella_nrm.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd"
+        },
+        {
+          "name": "expanse12_pella_orm.dds",
+          "size": [
+            16,
+            16
+          ],
+          "sha256": "b6b8becf66fefd85d809e2395dc1b87453959bc95262977542c887e7d933f7c5"
+        },
+        {
+          "name": "mcrn_tachi_material_msk.dds",
+          "size": [
+            4,
+            4
+          ],
+          "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+        }
+      ],
+      "integration_spec_sha256": "5f5092e1efcec37f9cf1c1080e2a2752e21505fe5d06cf154ef3df7d5fd0948b"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

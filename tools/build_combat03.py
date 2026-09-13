@@ -23,13 +23,28 @@ def frozen(game,sdk):
     for r in old['shared_read_only_inputs'].values():compare_tree(r)
     return verify_pins(ROOT,game,sdk)
 
+def is_buff_selector(node, key, value):
+    """Pinned buff schema: these two contexts select a live buff, not a file."""
+    if key != 'buff':
+        return False
+    if node.get('action_type') == 'make_buff_dead':
+        require(value in {'current_buff', 'parent_buff', 'all_child_buffs', 'all_buffs_on_current_spawner'}, 'Unknown action_buff selector: ' + value)
+        return True
+    if node.get('constraint_type') == 'buff_has_mutation':
+        require(value in {'current_buff', 'parent_buff', 'operand_buff'}, 'Unknown action_constraint_buff_type selector: ' + value)
+        return True
+    return False
+
+
 def check_actions(mod, resolver, unit_id):
     """Resolve the authored ability->ADS->buff->torpedo chain in its owning skin.
     Installed effects and icons remain boundary references, not copied assets.
     """
     unit=read(mod/'entities'/f'{unit_id}.unit')
     skins=[resolver.skin(n,unit_id) for g in unit['skin_groups'] for n in g['skins']]
-    aliases=[{x['alias_name'] for x in s['skin_stages'][0]['effects']['effect_alias_bindings']} for s in skins]
+    # Unarmed native scouts can omit the optional alias list. Any actual
+    # ability reference still must resolve below; absence grants no aliases.
+    aliases=[{x['alias_name'] for x in s['skin_stages'][0]['effects'].get('effect_alias_bindings', [])} for s in skins]
     loc=read(resolver.game/'localized_text/en.localized_text');loc.update(read(mod/'localized_text/en.localized_text'))
     counts={'abilities':0,'buffs':0,'torpedoes':0}
     for group in unit.get('abilities',[]):
@@ -50,6 +65,7 @@ def check_actions(mod, resolver, unit_id):
                     for k,v in d.items():
                         if isinstance(v,str):
                             if k in {'buff','watched_buff','persistant_buff'}:
+                                if is_buff_selector(d,k,v):continue
                                 q=resolver.resolve(f'entities/{v}.buff',source)
                                 # Existence queries do not execute another
                                 # ability's buff with this ability's ADS.

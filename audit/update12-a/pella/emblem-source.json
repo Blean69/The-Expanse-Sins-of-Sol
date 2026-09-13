@@ -1,0 +1,38 @@
+{
+  "status": "PASS OFFLINE compiled DDS/material and current hull mapping; runtime NOT RUN",
+  "reference": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/emblem-sources/user-eagle-reference.png",
+  "placement_reference": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/emblem-sources/user-tv-placement-reference.png",
+  "generated_with": "Built-in image_gen, two passes; cleaned eagle silhouette then opaque charcoal panel texture",
+  "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/texture-sources/expanse12_pella_free_navy_clr.png",
+  "sha256": "2e2a15ad743fd3942b150d713bdf3b487445b601da55e171bd83492fe0edcfa2",
+  "prompt": "Preserve reference Free Navy eagle silhouette, pale gray paint on charcoal background, clean edges, no text or border.",
+  "placement": {
+    "old_triangles": 88730,
+    "new_triangles": 89430,
+    "paint_triangles": 859,
+    "selected_source_faces": 661,
+    "bounds": {
+      "x": [
+        -9,
+        9
+      ],
+      "z": [
+        54,
+        72
+      ],
+      "y_min": 18
+    },
+    "added_geometry_layers": 0,
+    "method": "Clip original triangles along paint boundary and replace material/UV, preserving all positions on existing plating",
+    "texture_source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/texture-sources/expanse12_pella_free_navy_clr.png"
+  },
+  "runtime": "NOT RUN",
+  "limitations": "Reference-guided recreation and prototype fore dorsal panel placement, not exact screen UV authoring.",
+  "placement_note": "One dorsal forward marking adapted to actual STL plating; not mirrored port/starboard and not exact TV panel correspondence.",
+  "preview": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/source/ship_portrait_master.png",
+  "compiled_texture_sha256": "5447896151cc70119b571ba077135ccaa138f6e0e5e43cd822bedfd4697f4504",
+  "exact_prompts": [
+    "Use case: background-extraction. Asset type: spaceship hull decal texture. Extract and clean the single spread-wing Free Navy eagle emblem from the supplied reference. Preserve its exact distinctive silhouette: broad symmetric fanned wings, rounded long top inner feathers, small central bird head facing right, pointed tail fans. Make the emblem a uniform solid light gray (#dce1e5) flat paint silhouette, with clean crisp edges. Remove all photographic shading, highlights, black background, edge cutoff artifact and watermark fragments. Transparent background with actual alpha. Center the complete emblem within a square canvas with 8 percent transparent margin, no other objects, no text, no border, no drop shadow. This is a stencil-like marking to apply to a dark metallic spaceship panel, so every pixel outside the eagle must be fully transparent.",
+    "Use case: precise-object-edit. Make this eagle emblem into the final flat square painted spaceship panel texture. Keep the exact eagle silhouette intact, centered with 8 percent margin. Clean every speck or edge artifact outside the eagle and make its fill a uniform solid pale gray #dce1e5 with no gradients. Change the transparent background into an entirely uniform dark charcoal #20272d background. Opaque texture. Crisp antialiased silhouette, no outline, no photographic texture, no lighting, no shadows, no perspective, no extra elements. Preserve the eagle shape, especially head and feather outline."
+  ]
+}

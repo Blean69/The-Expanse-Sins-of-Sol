@@ -1,0 +1,2154 @@
+{
+  "status": "PASS OFFLINE MESH, MATERIAL, MOUNT AND UI CHECKS",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/game",
+  "hull_mesh": "expanse12_pella_hull",
+  "rigs": [
+    {
+      "index": 0,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_pella_pdc_0",
+        "mesh_point": "child.expanse12_pella_pdc_0",
+        "weapon_position": [
+          18.734941243224647,
+          10.480259970853034,
+          43.26178930453358
+        ],
+        "up": [
+          0.9557768423493909,
+          -0.2940928894560831,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.2940928894560831,
+          0.9557768423493909,
+          0.0
+        ],
+        [
+          -0.9557768423493909,
+          -0.2940928894560831,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        18.734941243224647,
+        10.480259970853034,
+        43.26178930453358
+      ],
+      "pitch_pivot_hull": [
+        20.050521229266394,
+        10.075455520418174,
+        43.44909734473772
+      ],
+      "muzzle_hull": [
+        20.439826755677018,
+        9.955664887970087,
+        47.23761759735343
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        11.877649131037181,
+        12.590251301214654,
+        43.26178930453358
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 77,
+        "housing": 69,
+        "other": [
+          67,
+          72,
+          74,
+          76
+        ]
+      },
+      "source_door_normal": [
+        0.0,
+        -0.2940928894560831,
+        0.9557768423493909
+      ],
+      "support_height": 7.174574449127253,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 1,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_pella_pdc_1",
+        "mesh_point": "child.expanse12_pella_pdc_1",
+        "weapon_position": [
+          -18.797116167419603,
+          10.682323178348298,
+          43.26178930453358
+        ],
+        "up": [
+          -0.9557768423269916,
+          -0.29409288952887874,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.29409288952887874,
+          -0.9557768423269916,
+          0.0
+        ],
+        [
+          0.9557768423269916,
+          -0.29409288952887874,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -18.797116167419603,
+        10.682323178348298,
+        43.26178930453358
+      ],
+      "pitch_pivot_hull": [
+        -20.112696153430516,
+        10.27751872781324,
+        43.44909734473772
+      ],
+      "muzzle_hull": [
+        -20.502002341706266,
+        10.157730246370441,
+        47.23761759735343
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -11.939824123451007,
+        12.792314488290671,
+        43.26178930453358
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 78,
+        "housing": 68,
+        "other": [
+          66,
+          71,
+          73,
+          75
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        -0.29409288952887874,
+        -0.9557768423269916
+      ],
+      "support_height": 7.174574377920082,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 2,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_pella_pdc_2",
+        "mesh_point": "child.expanse12_pella_pdc_2",
+        "weapon_position": [
+          0.10571608686815906,
+          28.184406537793677,
+          15.335634256387804
+        ],
+        "up": [
+          1.1102230245502616e-16,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          1.1102230245502616e-16,
+          0.0
+        ],
+        [
+          -1.1102230245502616e-16,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.10571608686815906,
+        28.184406537793677,
+        15.335634256387804
+      ],
+      "pitch_pivot_hull": [
+        0.10571608686815921,
+        29.56085753320378,
+        15.522942296591951
+      ],
+      "muzzle_hull": [
+        0.10571721214910551,
+        29.968176313172126,
+        19.311462549207654
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        0.10571608686815823,
+        20.728849411010742,
+        15.335634256387804
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 129,
+        "housing": 123,
+        "other": [
+          122,
+          126,
+          127,
+          128
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        1.0,
+        1.1102230245502616e-16
+      ],
+      "support_height": 7.455557126782935,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 3,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_pella_pdc_3",
+        "mesh_point": "child.expanse12_pella_pdc_3",
+        "weapon_position": [
+          23.562696338264395,
+          -7.550811986082762,
+          1.4167731452549857
+        ],
+        "up": [
+          0.91914503641134,
+          -0.393919283661509,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.393919283661509,
+          0.91914503641134,
+          0.0
+        ],
+        [
+          -0.91914503641134,
+          -0.393919283661509,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        23.562696338264395,
+        -7.550811986082762,
+        1.4167731452549857
+      ],
+      "pitch_pivot_hull": [
+        24.82785443855904,
+        -8.093022576189881,
+        1.6040811854591326
+      ],
+      "muzzle_hull": [
+        25.2022390301342,
+        -8.253474332513287,
+        5.392601438074834
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        16.968219730633557,
+        -4.724607852355614,
+        1.4167731452549857
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 155,
+        "housing": 148,
+        "other": [
+          145,
+          150,
+          152,
+          154
+        ]
+      },
+      "source_door_normal": [
+        0.0,
+        -0.393919283661509,
+        0.91914503641134
+      ],
+      "support_height": 7.174576749473571,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 4,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_pella_pdc_4",
+        "mesh_point": "child.expanse12_pella_pdc_4",
+        "weapon_position": [
+          -23.645991307055482,
+          -7.356457050148078,
+          1.4167731452549857
+        ],
+        "up": [
+          -0.9191450364068989,
+          -0.39391928367187184,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.39391928367187184,
+          -0.9191450364068989,
+          0.0
+        ],
+        [
+          0.9191450364068989,
+          -0.39391928367187184,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -23.645991307055482,
+        -7.356457050148078,
+        1.4167731452549857
+      ],
+      "pitch_pivot_hull": [
+        -24.911149407344016,
+        -7.898667640269462,
+        1.6040811854591326
+      ],
+      "muzzle_hull": [
+        -25.285534885457096,
+        -8.059117328004296,
+        5.392601438074834
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -17.05151476449569,
+        -4.530252944220516,
+        1.4167731452549857
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 156,
+        "housing": 147,
+        "other": [
+          144,
+          149,
+          151,
+          153
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        -0.39391928367187184,
+        -0.9191450364068989
+      ],
+      "support_height": 7.174576678713049,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 5,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_pella_pdc_5",
+        "mesh_point": "child.expanse12_pella_pdc_5",
+        "weapon_position": [
+          31.280749291508524,
+          -31.430271427988487,
+          -79.89393867344063
+        ],
+        "up": [
+          0.7071067987948877,
+          -0.7071067635782069,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.7071067635782069,
+          0.7071067987948877,
+          0.0
+        ],
+        [
+          -0.7071067987948877,
+          -0.7071067635782069,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        31.280749291508524,
+        -31.430271427988487,
+        -79.89393867344063
+      ],
+      "pitch_pivot_hull": [
+        32.254047148571,
+        -32.40356923657693,
+        -79.70663063323649
+      ],
+      "muzzle_hull": [
+        32.54206423146969,
+        -32.691587896518776,
+        -75.91811038062079
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        26.89500656005881,
+        -27.044528914965895,
+        -79.89393867344063
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 255,
+        "housing": 236,
+        "other": [
+          240,
+          244,
+          248,
+          250
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        -0.7071067635782069,
+        0.7071067987948877
+      ],
+      "support_height": 6.202376697444111,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 6,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_pella_pdc_6",
+        "mesh_point": "child.expanse12_pella_pdc_6",
+        "weapon_position": [
+          -31.430271427988487,
+          -31.28074929150853,
+          -79.89393867344063
+        ],
+        "up": [
+          -0.7071067635782069,
+          -0.7071067987948878,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.7071067987948878,
+          -0.7071067635782069,
+          0.0
+        ],
+        [
+          0.7071067635782069,
+          -0.7071067987948878,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -31.430271427988487,
+        -31.28074929150853,
+        -79.89393867344063
+      ],
+      "pitch_pivot_hull": [
+        -32.40356923657693,
+        -32.254047148571004,
+        -79.70663063323649
+      ],
+      "muzzle_hull": [
+        -32.691587896518776,
+        -32.542064231469695,
+        -75.91811038062079
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -27.044528914965895,
+        -26.895006560058818,
+        -79.89393867344063
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 256,
+        "housing": 235,
+        "other": [
+          239,
+          243,
+          247,
+          249
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        -0.7071067987948878,
+        -0.7071067635782069
+      ],
+      "support_height": 6.202376697444111,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 7,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_pella_pdc_7",
+        "mesh_point": "child.expanse12_pella_pdc_7",
+        "weapon_position": [
+          31.430271427988487,
+          31.28074929150853,
+          -79.89393867344063
+        ],
+        "up": [
+          0.7071067635782069,
+          0.7071067987948878,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.7071067987948878,
+          0.7071067635782069,
+          0.0
+        ],
+        [
+          -0.7071067635782069,
+          0.7071067987948878,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        31.430271427988487,
+        31.28074929150853,
+        -79.89393867344063
+      ],
+      "pitch_pivot_hull": [
+        32.40356923657693,
+        32.254047148571004,
+        -79.70663063323649
+      ],
+      "muzzle_hull": [
+        32.691587896518776,
+        32.542064231469695,
+        -75.91811038062079
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        27.044528914965895,
+        26.895006560058818,
+        -79.89393867344063
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 257,
+        "housing": 238,
+        "other": [
+          242,
+          246,
+          252,
+          254
+        ]
+      },
+      "source_door_normal": [
+        0.0,
+        0.7071067987948878,
+        0.7071067635782069
+      ],
+      "support_height": 6.202376697444111,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 8,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_pella_pdc_8",
+        "mesh_point": "child.expanse12_pella_pdc_8",
+        "weapon_position": [
+          -31.280749291508524,
+          31.430271427988487,
+          -79.89393867344063
+        ],
+        "up": [
+          -0.7071067987948877,
+          0.7071067635782069,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.7071067635782069,
+          -0.7071067987948877,
+          0.0
+        ],
+        [
+          0.7071067987948877,
+          0.7071067635782069,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -31.280749291508524,
+        31.430271427988487,
+        -79.89393867344063
+      ],
+      "pitch_pivot_hull": [
+        -32.254047148571,
+        32.40356923657693,
+        -79.70663063323649
+      ],
+      "muzzle_hull": [
+        -32.54206423146969,
+        32.691587896518776,
+        -75.91811038062079
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_pella_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_pella_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -26.89500656005881,
+        27.044528914965895,
+        -79.89393867344063
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 258,
+        "housing": 237,
+        "other": [
+          241,
+          245,
+          251,
+          253
+        ]
+      },
+      "source_door_normal": [
+        0.0,
+        0.7071067635782069,
+        -0.7071067987948877
+      ],
+      "support_height": 6.202376697444111,
+      "runtime": "NOT RUN"
+    }
+  ],
+  "ship_spatial": {
+    "box": {
+      "center": [
+        0.0,
+        0.0,
+        -0.003803253173828125
+      ],
+      "extents": [
+        34.7853205099257,
+        34.7853205099257,
+        101.57228469848633
+      ]
+    },
+    "radius": 109.00537513136402,
+    "bounds_min": [
+      -34.7853205099257,
+      -34.7853205099257,
+      -101.57608795166016
+    ],
+    "bounds_max": [
+      34.7853205099257,
+      34.7853205099257,
+      101.5684814453125
+    ]
+  },
+  "equipment": {
+    "light_torpedo_ports": [
+      {
+        "position": [
+          -12.175927645595973,
+          17.79558655894796,
+          82.76114950063895
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -12.175927645595973,
+          17.79558655894796,
+          81.36114950063896
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          12.175927645595973,
+          17.79558655894796,
+          82.51381360182496
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          12.175927645595973,
+          17.79558655894796,
+          81.11381360182497
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -13.11253746448797,
+          5.619658913351987,
+          88.04561676330543
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -13.11253746448797,
+          5.619658913351987,
+          86.64561676330544
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          13.11253746448797,
+          5.619658913351987,
+          87.5534584175938
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          13.11253746448797,
+          5.619658913351987,
+          86.15345841759381
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -5.619658913351987,
+          11.239317826703974,
+          88.31005653933754
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -5.619658913351987,
+          11.239317826703974,
+          86.91005653933755
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          5.619658913351987,
+          11.239317826703974,
+          88.1978716554387
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.619658913351987,
+          11.239317826703974,
+          86.79787165543871
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -5.619658913351987,
+          1.8732196377839958,
+          84.57009450610602
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -5.619658913351987,
+          1.8732196377839958,
+          83.17009450610603
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          0.0,
+          1.8732196377839958,
+          84.57009514566022
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          0.0,
+          1.8732196377839958,
+          83.17009514566023
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          5.619658913351987,
+          1.8732196377839958,
+          84.57009503912224
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.619658913351987,
+          1.8732196377839958,
+          83.17009503912224
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      }
+    ],
+    "light_torpedo_port": {
+      "position": [
+        -12.175927645595973,
+        17.79558655894796,
+        82.76114950063895
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "measured_surface": [
+        -12.175927645595973,
+        17.79558655894796,
+        81.36114950063896
+      ],
+      "new_collar": true,
+      "inner_diameter": 3.2,
+      "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+    },
+    "torpedo_ports": [
+      {
+        "position": [
+          -12.175927645595973,
+          17.79558655894796,
+          82.76114950063895
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -12.175927645595973,
+          17.79558655894796,
+          81.36114950063896
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          12.175927645595973,
+          17.79558655894796,
+          82.51381360182496
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          12.175927645595973,
+          17.79558655894796,
+          81.11381360182497
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -13.11253746448797,
+          5.619658913351987,
+          88.04561676330543
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -13.11253746448797,
+          5.619658913351987,
+          86.64561676330544
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          13.11253746448797,
+          5.619658913351987,
+          87.5534584175938
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          13.11253746448797,
+          5.619658913351987,
+          86.15345841759381
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -5.619658913351987,
+          11.239317826703974,
+          88.31005653933754
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -5.619658913351987,
+          11.239317826703974,
+          86.91005653933755
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          5.619658913351987,
+          11.239317826703974,
+          88.1978716554387
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.619658913351987,
+          11.239317826703974,
+          86.79787165543871
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -5.619658913351987,
+          1.8732196377839958,
+          84.57009450610602
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -5.619658913351987,
+          1.8732196377839958,
+          83.17009450610603
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          0.0,
+          1.8732196377839958,
+          84.57009514566022
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          0.0,
+          1.8732196377839958,
+          83.17009514566023
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          5.619658913351987,
+          1.8732196377839958,
+          84.57009503912224
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.619658913351987,
+          1.8732196377839958,
+          83.17009503912224
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      }
+    ],
+    "exhaust": {
+      "position": [
+        -22.541343554002403,
+        -22.541343554002403,
+        -101.66974793841094
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_component": 287,
+      "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+    },
+    "exhausts": [
+      {
+        "position": [
+          -22.541343554002403,
+          -22.541343554002403,
+          -101.66974793841094
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 287,
+        "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+      },
+      {
+        "position": [
+          22.541343554002403,
+          -22.541343554002403,
+          -101.66974793841094
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 288,
+        "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+      },
+      {
+        "position": [
+          22.541343554002403,
+          22.541343554002403,
+          -101.66974793841094
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 289,
+        "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+      },
+      {
+        "position": [
+          -22.541343554002403,
+          22.541343554002403,
+          -101.66974793841094
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 290,
+        "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+      }
+    ],
+    "boarding": {
+      "position": [
+        22.18172774017657,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        1,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "measured_surface": [
+        21.68172774017657,
+        0.0,
+        0.0
+      ],
+      "source": "Measured external starboard surface; prototype pod origin, source airlock identity unverified",
+      "mesh_point": "weapon.boarding.0"
+    }
+  },
+  "exhaust_geometry": {
+    "position": [
+      -22.541343554002403,
+      -22.541343554002403,
+      -101.66974793841094
+    ],
+    "forward": [
+      0,
+      0,
+      -1
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "source_component": 287,
+    "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+  },
+  "counts": {
+    "hull": 89430,
+    "pdc_base": 138,
+    "pdc_barrel": 539
+  },
+  "assembled_triangle_total": 95523,
+  "meshpoints": {
+    "hull": [
+      {
+        "name": "center",
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0,
+          40,
+          0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0,
+          -40,
+          0
+        ]
+      },
+      {
+        "name": "weapon.boarding.0",
+        "translation": [
+          22.18172774017657,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.7071067811865475,
+          0.0,
+          0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_pella_pdc_0",
+        "translation": [
+          18.734941243224647,
+          10.480259970853034,
+          43.26178930453358
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8043919720683701,
+          -0.5940989440084526
+        ]
+      },
+      {
+        "name": "child.expanse12_pella_pdc_1",
+        "translation": [
+          -18.797116167419603,
+          10.682323178348298,
+          43.26178930453358
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8043919720909946,
+          0.5940989439778198
+        ]
+      },
+      {
+        "name": "child.expanse12_pella_pdc_2",
+        "translation": [
+          0.10571608686815906,
+          28.184406537793677,
+          15.335634256387804
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -5.551115122751308e-17,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse12_pella_pdc_3",
+        "translation": [
+          23.562696338264395,
+          -7.550811986082762,
+          1.4167731452549857
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8348410877710527,
+          -0.5504910155209125
+        ]
+      },
+      {
+        "name": "child.expanse12_pella_pdc_4",
+        "translation": [
+          -23.645991307055482,
+          -7.356457050148078,
+          1.4167731452549857
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8348410877741559,
+          0.5504910155162063
+        ]
+      },
+      {
+        "name": "child.expanse12_pella_pdc_5",
+        "translation": [
+          31.280749291508524,
+          -31.430271427988487,
+          -79.89393867344063
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.9238795277465042,
+          -0.38268344386829245
+        ]
+      },
+      {
+        "name": "child.expanse12_pella_pdc_6",
+        "translation": [
+          -31.430271427988487,
+          -31.28074929150853,
+          -79.89393867344063
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.9238795372760693,
+          0.382683420861887
+        ]
+      },
+      {
+        "name": "child.expanse12_pella_pdc_7",
+        "translation": [
+          31.430271427988487,
+          31.28074929150853,
+          -79.89393867344063
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -0.382683420861887,
+          0.9238795372760693
+        ]
+      },
+      {
+        "name": "child.expanse12_pella_pdc_8",
+        "translation": [
+          -31.280749291508524,
+          31.430271427988487,
+          -79.89393867344063
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.38268344386829245,
+          0.9238795277465042
+        ]
+      },
+      {
+        "name": "weapon.torpedo.0",
+        "translation": [
+          -12.175927645595973,
+          17.79558655894796,
+          82.76114950063895
+        ]
+      },
+      {
+        "name": "weapon.torpedo.1",
+        "translation": [
+          12.175927645595973,
+          17.79558655894796,
+          82.51381360182496
+        ]
+      },
+      {
+        "name": "weapon.torpedo.2",
+        "translation": [
+          -13.11253746448797,
+          5.619658913351987,
+          88.04561676330543
+        ]
+      },
+      {
+        "name": "weapon.torpedo.3",
+        "translation": [
+          13.11253746448797,
+          5.619658913351987,
+          87.5534584175938
+        ]
+      },
+      {
+        "name": "weapon.torpedo.4",
+        "translation": [
+          -5.619658913351987,
+          11.239317826703974,
+          88.31005653933754
+        ]
+      },
+      {
+        "name": "weapon.torpedo.5",
+        "translation": [
+          5.619658913351987,
+          11.239317826703974,
+          88.1978716554387
+        ]
+      },
+      {
+        "name": "weapon.torpedo.6",
+        "translation": [
+          -5.619658913351987,
+          1.8732196377839958,
+          84.57009450610602
+        ]
+      },
+      {
+        "name": "weapon.torpedo.7",
+        "translation": [
+          0.0,
+          1.8732196377839958,
+          84.57009514566022
+        ]
+      },
+      {
+        "name": "weapon.torpedo.8",
+        "translation": [
+          5.619658913351987,
+          1.8732196377839958,
+          84.57009503912224
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          -22.541343554002403,
+          -22.541343554002403,
+          -101.66974793841094
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.1",
+        "translation": [
+          22.541343554002403,
+          -22.541343554002403,
+          -101.66974793841094
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.2",
+        "translation": [
+          22.541343554002403,
+          22.541343554002403,
+          -101.66974793841094
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.3",
+        "translation": [
+          -22.541343554002403,
+          22.541343554002403,
+          -101.66974793841094
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "pdc_base": [],
+    "pdc_barrel": []
+  },
+  "editable_source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/expanse12_pella_editable.gltf",
+  "runtime": "NOT RUN",
+  "free_navy_emblem": {
+    "old_triangles": 88730,
+    "new_triangles": 89430,
+    "paint_triangles": 859,
+    "selected_source_faces": 661,
+    "bounds": {
+      "x": [
+        -9,
+        9
+      ],
+      "z": [
+        54,
+        72
+      ],
+      "y_min": 18
+    },
+    "added_geometry_layers": 0,
+    "method": "Clip original triangles along paint boundary and replace material/UV, preserving all positions on existing plating",
+    "texture_source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/texture-sources/expanse12_pella_free_navy_clr.png"
+  },
+  "normalization": {
+    "source_center": [
+      -203.84602500000003,
+      0.0,
+      0.0
+    ],
+    "source_to_game_rotation": [
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0
+      ],
+      [
+        -1,
+        0,
+        0
+      ]
+    ],
+    "uniform_scale": 0.18732196377839958,
+    "provisional_length": 203.15217391304347,
+    "proper_rotation_determinant": 1.0
+  },
+  "identity": "expanse12_pella",
+  "palette": "Procedural silver, high metallic low roughness",
+  "railgun_count": 0,
+  "source_has_animations": false,
+  "source_PDC_state": "Nine stowed guns; derivative removes gun bodies/doors/latches/braces and retains bay housings",
+  "torpedo_layout": "Nine new collars on measured forward faces:4outer+2middle+3lower; source aperture/screen correspondence unverified",
+  "ui_integration_spec": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/audit/update12-a/pella/ui-integration-spec.json",
+  "source_sha256": "c06878f57e5b9f04043793226f8c6a06b082848273ea6fc9e9369f474c8dedd6",
+  "files": {
+    "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "textures/expanse12_pella_mat_1_clr.dds": "67e17756198d78832aaa4d03212eb6c76ba43596afbd4f31a880ed83dd6d50d3",
+    "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+    "textures/expanse12_pella_free_navy_clr.dds": "5447896151cc70119b571ba077135ccaa138f6e0e5e43cd822bedfd4697f4504",
+    "textures/expanse12_pella_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse12_pella_mat_0_clr.dds": "073fc148c486453690490d8da1c2f9199973017692fa7aedb7dff16a4e025f88",
+    "textures/expanse12_pella_mat_2_clr.dds": "06ca2a50beb49228510b8ed9055840f5256ab24e72f06c1c75a5856fc139360c",
+    "textures/expanse12_pella_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse12_pella_orm.dds": "b6b8becf66fefd85d809e2395dc1b87453959bc95262977542c887e7d933f7c5",
+    "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "mesh_materials/expanse12_pella_hull_expanse12_pella_mat_0.mesh_material": "756d34e140ac18e2d6fb30a93ad105ac4d33f1ae1da4a5329bc242634b7e87f9",
+    "mesh_materials/expanse12_pella_hull_expanse12_pella_mat_1.mesh_material": "90086056b02fd3aeeea16d26ec9881019382cf11a54707f0a969f0d25087f7ed",
+    "mesh_materials/expanse12_pella_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse12_pella_hull_expanse12_pella_free_navy.mesh_material": "cb33c5917837921f65fd01ec314d8116cb09bf9ac44b309a2e338966f198ca4e",
+    "mesh_materials/expanse12_pella_hull_expanse12_pella_mat_2.mesh_material": "76143788788b063d1a4cf1f039863e384cd1718ce8284e6e81e7855269bb8a2c",
+    "mesh_materials/expanse12_pella_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "meshes/expanse12_pella_hull.mesh": "78ed2a8e7c7943fb0e40f032c3ec444e8e8d8303157c02bcfba601bceb486e99",
+    "meshes/expanse12_pella_pdc_base.mesh": "df98518e170f5217f790b5810b64f59ed319194b07927a9691f0c4ca406fdf72",
+    "meshes/expanse12_pella_pdc_barrel.mesh": "600f969c81cdef2c743d63ad1db6ce8b05abf106ddd8d6280e336c76776be33d"
+  },
+  "ui_files": {
+    "expanse12_pella_mod_small_logo.png": "fa55da8c269b8f88bc577901c8d4dd396aac36be437c7482955c8fc3c280849e",
+    "expanse12_pella_mod_large_logo.png": "1efc045fc58b92b0e86ca392a43acf55977e73b7702dc4545df0ecc65693aeff",
+    "textures/expanse12_pella_hud_icon.png": "2190e02558a04fb840497365ed889b3f5a0ef593ad0b583d254d45c42e7b1a7c",
+    "textures/expanse12_pella_main_view_icon_selected.png": "256c7a8d2d8a17531d8b570ceea3cb04c6cd1618552ab6e4ffe696aeea0976ae",
+    "textures/expanse12_pella_main_view_icon200.png": "4f7c26d30830c526af952dcf2b160dc69af9ec633ecda78e8fb525a0d4875e8f",
+    "textures/expanse12_pella_tooltip_picture.png": "c918741fc7f628a6256d0ce096aef15e36bf115c60ce534ad76af2394cd977e9",
+    "textures/expanse12_pella_main_view_icon_sub_selected.png": "d3d67696021e49286bda9e28b206074fa46d0ee0e4f607fb9169ee6f2eaa3063",
+    "textures/expanse12_pella_hud_picture200.png": "36b7aa85166788e2e46ada46df3f00177e3358bb4737172c4ef282e22a8d68eb",
+    "textures/expanse12_pella_hud_picture.png": "75cf14be06b4d0f317b1b2a278a5bcf3cfd87d5a2853fd195323b8a31a247c7b",
+    "textures/expanse12_pella_hud_icon200.png": "22fd63343684bbb02251849b54c6ac0665649f99d14028158e621df874589a60",
+    "textures/expanse12_pella_main_view_icon_sub_selected150.png": "21c561cbbb47af7e746579f495b8727e7e1286ca56ab98aab0af37903c94105e",
+    "textures/expanse12_pella_hud_picture150.png": "127ae427b053fe611fdb31b2e79a1e7c65736eb77afc13ed9a978f96799eb084",
+    "textures/expanse12_pella_tooltip_picture150.png": "d021630b3948f85754eb9cde881c8be0a5dcbcf7c4302a84df1a8b21f8eb51cc",
+    "textures/expanse12_pella_main_view_icon_selected200.png": "cbf5731df46f2f72867f42bcd30a4cfd9c5d3c2b8e064398598a18cf02264ddd",
+    "textures/expanse12_pella_main_view_icon.png": "1436e44d5515b1f5fbbe390c2b431e6deb7ab3ff5b421c4ef7c92dfc333ec913",
+    "textures/expanse12_pella_main_view_icon150.png": "e98cc5c71fca0fda286de64009f0bf60586b385622a7038ae44847a56434e534",
+    "textures/expanse12_pella_main_view_icon_sub_selected200.png": "facd06320d09dfb60a6e62231dc256297ba15d9d3b572342e41e4e831c133a14",
+    "textures/expanse12_pella_tooltip_picture200.png": "26f292b409a761f9684dc52ad5a1247adfababade757406fb4f68ab688a69ea5",
+    "textures/expanse12_pella_hud_icon150.png": "bf4b6d71f0f7ef7b40b466ae28c72c98eddeed0206d69e28affdf6e8b183e645",
+    "textures/expanse12_pella_main_view_icon_selected150.png": "1532105befdf741bd21f95442d57adefcdcf7f0b0edbd73bf596004f3da402de",
+    "brushes/expanse12_pella_tooltip_picture.brush": "52bb1a936d60ca2ad03ec4a80aea8528cc9cb42ede47c979f3f360cd753374f2",
+    "brushes/expanse12_pella_main_view_icon.brush": "6d374b8278e7fda17dfb37a0d31aebd15c6127a3f100461871b078094c1b9196",
+    "brushes/expanse12_pella_main_view_icon_selected.brush": "a343a510d53ff23d2891826663dc6b5bbdda409f8ce13088a9264bd43573cecb",
+    "brushes/expanse12_pella_hud_icon.brush": "6b522d60035b67a7c0a14cbc2404acc7fa640f82dea82052d7dc5ccd418779d1",
+    "brushes/expanse12_pella_hud_picture.brush": "cf9e613a4e469ed557e8028a8fdcfdf824516bfe5edcce5f566f5fa6000552a4",
+    "brushes/expanse12_pella_main_view_icon_sub_selected.brush": "b96c2a2584cde69f180e6e82238af1f78a45ef5885745ecd48ee914bf6e2dc2c"
+  },
+  "ui_game_directory": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/pella/ui/generated"
+}

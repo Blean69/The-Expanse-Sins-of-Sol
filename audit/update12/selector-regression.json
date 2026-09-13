@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "schema_sha256": "3168c93503e336251d421a6a632911840ee3bf34dec8243281423681f941293d",
+  "cases": [
+    {
+      "context": {
+        "action_type": "make_buff_dead"
+      },
+      "selector": "current_buff",
+      "result": "PASS native schema enum"
+    },
+    {
+      "context": {
+        "action_type": "make_buff_dead"
+      },
+      "selector": "parent_buff",
+      "result": "PASS native schema enum"
+    },
+    {
+      "context": {
+        "action_type": "make_buff_dead"
+      },
+      "selector": "all_child_buffs",
+      "result": "PASS native schema enum"
+    },
+    {
+      "context": {
+        "action_type": "make_buff_dead"
+      },
+      "selector": "all_buffs_on_current_spawner",
+      "result": "PASS native schema enum"
+    },
+    {
+      "context": {
+        "action_type": "make_buff_dead"
+      },
+      "selector": "invented_selector",
+      "result": "PASS rejected"
+    },
+    {
+      "context": {
+        "constraint_type": "buff_has_mutation"
+      },
+      "selector": "current_buff",
+      "result": "PASS native schema enum"
+    },
+    {
+      "context": {
+        "constraint_type": "buff_has_mutation"
+      },
+      "selector": "parent_buff",
+      "result": "PASS native schema enum"
+    },
+    {
+      "context": {
+        "constraint_type": "buff_has_mutation"
+      },
+      "selector": "operand_buff",
+      "result": "PASS native schema enum"
+    },
+    {
+      "context": {
+        "constraint_type": "buff_has_mutation"
+      },
+      "selector": "invented_selector",
+      "result": "PASS rejected"
+    },
+    {
+      "context": {
+        "operator_type": "apply_buff"
+      },
+      "result": "PASS remains entity reference, not exempted"
+    }
+  ],
+  "scope": "Reference-validation helper only; no game runtime"
+}

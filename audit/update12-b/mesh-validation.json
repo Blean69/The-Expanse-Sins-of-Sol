@@ -1,0 +1,689 @@
+{
+  "status": "PASS OFFLINE",
+  "meshes": [
+    {
+      "mesh": "expanse12_scirocco_hull",
+      "triangles": 75447,
+      "sha256": "247e8a7788b8a33402289c5bc5b751dce38364c85a250d5cb22c1553be2fe532",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 7.994059603930368e-06,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "materials": [
+        "expanse12_scirocco_hull_expanse12_scirocco_mat_0",
+        "expanse12_scirocco_hull_expanse12_scirocco_mat_1",
+        "expanse12_scirocco_hull_expanse12_scirocco_mat_2"
+      ],
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            90.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -90.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_0",
+          "position": [
+            -52.801509857177734,
+            6.192625522613525,
+            129.2759552001953
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_1",
+          "position": [
+            64.3735122680664,
+            6.192625522613525,
+            129.2759552001953
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_2",
+          "position": [
+            -54.47200393676758,
+            6.192625522613525,
+            166.5854034423828
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_3",
+          "position": [
+            66.04400634765625,
+            6.192625522613525,
+            166.5854034423828
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_4",
+          "position": [
+            5.786001205444336,
+            -38.85694122314453,
+            36.00233840942383
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_5",
+          "position": [
+            5.786001205444336,
+            -81.68001556396484,
+            99.42839813232422
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_6",
+          "position": [
+            -46.21229553222656,
+            1.898159146308899,
+            -105.77355194091797
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_7",
+          "position": [
+            57.784297943115234,
+            1.898159146308899,
+            -105.77355194091797
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_8",
+          "position": [
+            -67.19635009765625,
+            1.898159146308899,
+            -161.73773193359375
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_9",
+          "position": [
+            78.41636657714844,
+            1.898159146308899,
+            -161.73773193359375
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_10",
+          "position": [
+            5.786001205444336,
+            -70.81391143798828,
+            -161.73773193359375
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_pdc_11",
+          "position": [
+            5.786001205444336,
+            74.6102294921875,
+            -161.73773193359375
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse12_scirocco_rail_0",
+          "position": [
+            -78.41761779785156,
+            55.8330192565918,
+            -67.42620086669922
+          ],
+          "rotation": [
+            0.5,
+            0.8660253882408142,
+            0.0,
+            -0.8660253882408142,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.light_torpedo.0",
+          "position": [
+            -30.03106689453125,
+            -10.223530769348145,
+            200.98851013183594
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.light_torpedo.1",
+          "position": [
+            -12.122532844543457,
+            -10.223530769348145,
+            201.14157104492188
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.light_torpedo.2",
+          "position": [
+            5.786001205444336,
+            -10.223530769348145,
+            202.12725830078125
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.light_torpedo.3",
+          "position": [
+            23.694534301757812,
+            -10.223530769348145,
+            201.14158630371094
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.light_torpedo.4",
+          "position": [
+            41.60306930541992,
+            -10.223530769348145,
+            200.98851013183594
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.heavy_torpedo.0",
+          "position": [
+            -30.03106689453125,
+            15.146892547607422,
+            203.91302490234375
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.heavy_torpedo.1",
+          "position": [
+            -12.122532844543457,
+            15.146892547607422,
+            196.5287628173828
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.heavy_torpedo.2",
+          "position": [
+            5.786001205444336,
+            15.146892547607422,
+            196.56500244140625
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.heavy_torpedo.3",
+          "position": [
+            23.694534301757812,
+            15.146892547607422,
+            196.5241241455078
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.heavy_torpedo.4",
+          "position": [
+            41.60306930541992,
+            15.146892547607422,
+            204.1211395263672
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.boarding.0",
+          "position": [
+            77.21202087402344,
+            6.192625522613525,
+            -1.307106614112854
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.0,
+            -0.9999999403953552,
+            0.0,
+            1.0,
+            0.0,
+            0.9999999403953552,
+            0.0,
+            5.960464477539063e-08
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            -39.37866973876953,
+            1.898162841796875,
+            -228.3354949951172
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.1",
+          "position": [
+            5.786001205444336,
+            -42.9962272644043,
+            -228.3354949951172
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.2",
+          "position": [
+            5.786001205444336,
+            46.79254913330078,
+            -228.3354949951172
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.3",
+          "position": [
+            50.598690032958984,
+            1.898162841796875,
+            -228.3354949951172
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    {
+      "mesh": "expanse12_scirocco_rail_0",
+      "triangles": 5948,
+      "sha256": "a395c09fcf1f81241165c8721676510de87fe1f29014c9aff1bac291a4a382ad",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 1.0788233730736712e-06,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "materials": [
+        "expanse12_scirocco_rail_0_expanse12_scirocco_mat_0"
+      ],
+      "meshpoints": []
+    },
+    {
+      "mesh": "expanse12_scirocco_pdc_base",
+      "triangles": 138,
+      "sha256": "2d5b749d0b0f8cd42880d5576feb4b31144c12e8458aaa636f07d6292a38c295",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 1.3328008833479087e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "materials": [
+        "expanse12_scirocco_pdc_base_mcrn_tachi_material"
+      ],
+      "meshpoints": []
+    },
+    {
+      "mesh": "expanse12_scirocco_pdc_barrel",
+      "triangles": 539,
+      "sha256": "327a55c71816c4a0169798fd05ef41c349f2548e63f6abd4d887047b1d9d3568",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 1.3657139822709083e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "materials": [
+        "expanse12_scirocco_pdc_barrel_mcrn_tachi_material"
+      ],
+      "meshpoints": []
+    }
+  ],
+  "runtime": "NOT RUN"
+}

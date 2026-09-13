@@ -1,0 +1,28 @@
+{
+  "source_dependencies": {
+    "assets/derived/update12-b/expanse12_scirocco_editable.gltf": "eb971ad0a4a7821eb2161808e8ae69d86f36d08cd8f3c7395605c4cef976679f",
+    "assets/derived/update12-b/expanse12_scirocco_editable.bin": "6abe2c99ec6c5648ac5d955b5354ff91b0d467dca2adafc708e4d05e83a4a579"
+  },
+  "triangles": 89519,
+  "coordinate_conversion": "Source already uses game-facing right-handed glTF axes",
+  "camera_basis": [
+    [
+      0.7803805282839275,
+      0.0,
+      0.6253049104839162
+    ],
+    [
+      -0.23984779590714161,
+      0.9235120770132178,
+      0.29933004929211277
+    ],
+    [
+      -0.5774766366475658,
+      -0.3835693465473128,
+      0.720690842536162
+    ]
+  ],
+  "material_colors": "Actual source material base-color texture and UVs, or explicit source PBR factor; no invented colors",
+  "renderer": "Imported generic CPU double-sided z-buffer from polish_ui.py; studio contrast lift and Lambert shading; not Sins runtime rendering",
+  "runtime": "NOT RUN"
+}

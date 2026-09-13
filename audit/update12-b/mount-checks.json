@@ -1,0 +1,85 @@
+{
+  "status": "PASS BOUNDED OFFLINE",
+  "pdc_mounts": [
+    {
+      "mount": 0,
+      "role": "bow side",
+      "support_depth": 3.782786411564338,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 1,
+      "role": "bow side",
+      "support_depth": 3.7825188602369124,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 2,
+      "role": "bow side",
+      "support_depth": 5.453015770440665,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 3,
+      "role": "bow side",
+      "support_depth": 5.4530124150252774,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 4,
+      "role": "ventral",
+      "support_depth": 4.317307759460029,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 5,
+      "role": "ventral",
+      "support_depth": 1.233584939432319,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 6,
+      "role": "behind side protrusion",
+      "support_depth": 29.16019056921312,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 7,
+      "role": "behind side protrusion",
+      "support_depth": 29.512167940465424,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 8,
+      "role": "engine pod",
+      "support_depth": 1.3119510115814705,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 9,
+      "role": "engine pod",
+      "support_depth": 1.3693481445312585,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 10,
+      "role": "engine pod",
+      "support_depth": 1.369363403320321,
+      "five_samples_inside_socket": true
+    },
+    {
+      "mount": 11,
+      "role": "engine pod",
+      "support_depth": 1.3119457311556886,
+      "five_samples_inside_socket": true
+    }
+  ],
+  "pdc_count": 12,
+  "rail_count": 1,
+  "unique_weapon_count": 13,
+  "proper_rotation_determinant": 1.0,
+  "port_supports_and_outward_rays": 10,
+  "source_engine_nozzles": 4,
+  "boarding_external_clearance": 20.0,
+  "runtime": "NOT RUN"
+}

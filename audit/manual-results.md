@@ -183,3 +183,17 @@ New package and hashes: `audit/update11/package-summary.json`. The agent did not
 | U11-6 destruction, save/reload, performance | NOT RUN | |
 
 Offline check results belong in `audit/update11/package-validation.json`; successful file/schema/reference checks do not advance these runtime rows.
+
+## Update 0.12 workstation results
+
+The agent did not install, enable or launch this package. New capital/scout/emblem behavior has not been observed in game. Package/hash: `audit/update12/package-summary.json`; offline evidence belongs in `audit/update12/package-validation.json`.
+
+| Gate | Result | Observations |
+|---|---|---|
+| U12-1 apply/build/supply/hero and titan limits | NOT RUN | |
+| U12-2 Pella eagle, models, mounts, sprites, voices, plumes | NOT RUN | |
+| U12-3 individual weapons, interception and torpedo timing | NOT RUN | |
+| U12-4 reactor, reinforcement, boarding and Sunflare burn | NOT RUN | |
+| U12-5 destruction, save/reload and full-fleet performance | NOT RUN | |
+
+Record ship level/items, target state, timestamps, exact package hash and logs before marking any gate observed. Earlier successful user reports do not certify these new assets or behaviors.

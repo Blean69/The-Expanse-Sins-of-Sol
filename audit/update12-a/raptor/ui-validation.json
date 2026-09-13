@@ -1,0 +1,354 @@
+{
+  "status": "PASS",
+  "pinned_brush_schema_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+  "source_dependencies": {
+    "assets/derived/update12-a/raptor/expanse12_raptor_editable.gltf": "1a0857309550969952ff9e746ff2a3c5341ee2d9c9fd0eb57cd79c4d1b670217",
+    "assets/derived/update12-a/raptor/expanse12_raptor_editable.bin": "7b91cc32b227ce6bde71fb794e3c5f4c08d47a127acc1402acdf1ad331203dd9"
+  },
+  "triangles": 94823,
+  "brush_schema_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/brushes/expanse12_raptor_hud_icon.brush",
+      "status": "PASS",
+      "texture": "expanse12_raptor_hud_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/brushes/expanse12_raptor_hud_picture.brush",
+      "status": "PASS",
+      "texture": "expanse12_raptor_hud_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/brushes/expanse12_raptor_tooltip_picture.brush",
+      "status": "PASS",
+      "texture": "expanse12_raptor_tooltip_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/brushes/expanse12_raptor_main_view_icon.brush",
+      "status": "PASS",
+      "texture": "expanse12_raptor_main_view_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/brushes/expanse12_raptor_main_view_icon_selected.brush",
+      "status": "PASS",
+      "texture": "expanse12_raptor_main_view_icon_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/brushes/expanse12_raptor_main_view_icon_sub_selected.brush",
+      "status": "PASS",
+      "texture": "expanse12_raptor_main_view_icon_sub_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    }
+  ],
+  "png_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_hud_icon.png",
+      "sha256": "d6e272cd73f569151bf10a0332e6122907e896e4d87df8ca97ef19be5c55b74c",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_hud_icon150.png",
+      "sha256": "f41895abf10c5f6f7860779802f1e0f0890c526312998b3ea84ab994373c2054",
+      "dimensions": [
+        128,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_hud_icon200.png",
+      "sha256": "f1a1778afd7e2ba0226898b4b186ce2450ceb81ceb6ac3ee7e3a917aa8779860",
+      "dimensions": [
+        170,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_hud_picture.png",
+      "sha256": "564d4a6cdc3f37a2869cf80077c82509d10715f6ed989166a19921342e77f5fb",
+      "dimensions": [
+        265,
+        85
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_hud_picture150.png",
+      "sha256": "c658ac753202e2aa226ecac74b5c21c616f2da099e804cc7f02a659329a2af50",
+      "dimensions": [
+        397,
+        127
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_hud_picture200.png",
+      "sha256": "e8df5e7887d8ce69b4218f9ea381224462f8c71425600aa9e0106530af2958ac",
+      "dimensions": [
+        530,
+        170
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_tooltip_picture.png",
+      "sha256": "7e2ddd3f4a7afec24a6670d3f040700e9c62135080ceb9ddd73a444ea00ad604",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_tooltip_picture150.png",
+      "sha256": "818911f4364978d70cf8e1f4bdc6f63f7fc518d59aeccb6025824506edf1719f",
+      "dimensions": [
+        689,
+        324
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_tooltip_picture200.png",
+      "sha256": "d05c4f741e4fe489a3cddc32db84080ba50ea2ed65054656f53aa2a49d767a75",
+      "dimensions": [
+        918,
+        432
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_main_view_icon.png",
+      "sha256": "1436e44d5515b1f5fbbe390c2b431e6deb7ab3ff5b421c4ef7c92dfc333ec913",
+      "dimensions": [
+        25,
+        12
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_main_view_icon150.png",
+      "sha256": "e98cc5c71fca0fda286de64009f0bf60586b385622a7038ae44847a56434e534",
+      "dimensions": [
+        38,
+        18
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_main_view_icon200.png",
+      "sha256": "4f7c26d30830c526af952dcf2b160dc69af9ec633ecda78e8fb525a0d4875e8f",
+      "dimensions": [
+        50,
+        24
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_main_view_icon_selected.png",
+      "sha256": "256c7a8d2d8a17531d8b570ceea3cb04c6cd1618552ab6e4ffe696aeea0976ae",
+      "dimensions": [
+        36,
+        23
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_main_view_icon_selected150.png",
+      "sha256": "1532105befdf741bd21f95442d57adefcdcf7f0b0edbd73bf596004f3da402de",
+      "dimensions": [
+        54,
+        35
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_main_view_icon_selected200.png",
+      "sha256": "cbf5731df46f2f72867f42bcd30a4cfd9c5d3c2b8e064398598a18cf02264ddd",
+      "dimensions": [
+        72,
+        46
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_main_view_icon_sub_selected.png",
+      "sha256": "d3d67696021e49286bda9e28b206074fa46d0ee0e4f607fb9169ee6f2eaa3063",
+      "dimensions": [
+        46,
+        33
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_main_view_icon_sub_selected150.png",
+      "sha256": "21c561cbbb47af7e746579f495b8727e7e1286ca56ab98aab0af37903c94105e",
+      "dimensions": [
+        69,
+        50
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/textures/expanse12_raptor_main_view_icon_sub_selected200.png",
+      "sha256": "facd06320d09dfb60a6e62231dc256297ba15d9d3b572342e41e4e831c133a14",
+      "dimensions": [
+        92,
+        66
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/expanse12_raptor_mod_small_logo.png",
+      "sha256": "576fa4ce4712107937cc784e9ce9fb6f67991cf3c29c66bda039a8b2047b57a6",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_small_logo.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update12-a/raptor/ui/generated/expanse12_raptor_mod_large_logo.png",
+      "sha256": "bffeb57a6f204f2e47b92eed085949ea3ef5a06523bbd6efdec56084e9e1ba08",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_large_logo.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

@@ -29,7 +29,7 @@ def preservation():
             'pins': verify_pins(ROOT, GAME, SDK)}
 
 
-def schema_check(path):
+def schema_check(path, original_override=None):
     types = {'.unit': 'unit', '.unit_skin': 'unit-skin', '.weapon': 'weapon',
              '.ability': 'ability', '.buff': 'buff', '.action_data_source': 'action-data-source',
              '.player': 'player', '.unit_item': 'unit-item', '.research_subject': 'research-subject', '.brush': 'brush'}
@@ -45,6 +45,9 @@ def schema_check(path):
         original = BASE / 'entities' / path.name
     if path.stem == TACHI:
         original = BASE / 'entities' / (MORRIGAN + path.suffix)
+    if original_override is not None:
+        original = Path(original_override)
+        require(original.is_file(), 'Missing explicit schema source: ' + str(original))
     source = read(original) if original.is_file() else {}
     extensions = []
     for _ in range(30):

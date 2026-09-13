@@ -1,0 +1,1004 @@
+{
+  "status": "PASS bounded behavior schema/typed-reference review",
+  "schemas": [
+    "expanse12_pella_launch_corvette.ability",
+    "expanse12_pella_launch_corvette.action_data_source",
+    "expanse12_pella_light_magazine.ability",
+    "expanse12_pella_light_magazine.action_data_source",
+    "expanse12_pella_light_magazine.buff",
+    "expanse12_pella_marines.ability",
+    "expanse12_pella_marines.action_data_source",
+    "expanse12_pella_marines.buff",
+    "expanse12_pella_pdc_0.weapon",
+    "expanse12_pella_pdc_1.weapon",
+    "expanse12_pella_pdc_2.weapon",
+    "expanse12_pella_pdc_3.weapon",
+    "expanse12_pella_pdc_4.weapon",
+    "expanse12_pella_pdc_5.weapon",
+    "expanse12_pella_pdc_6.weapon",
+    "expanse12_pella_pdc_7.weapon",
+    "expanse12_pella_pdc_8.weapon",
+    "expanse12_pella_reactor.ability",
+    "expanse12_pella_reactor.action_data_source",
+    "expanse12_pella_reactor.buff",
+    "expanse12_pella_reactor_breach.ability",
+    "expanse12_pella_reactor_breach.action_data_source",
+    "expanse12_pella_reactor_breach.buff",
+    "expanse12_raptor_launch_corvette.ability",
+    "expanse12_raptor_launch_corvette.action_data_source",
+    "expanse12_raptor_light_magazine.ability",
+    "expanse12_raptor_light_magazine.action_data_source",
+    "expanse12_raptor_light_magazine.buff",
+    "expanse12_raptor_marines.ability",
+    "expanse12_raptor_marines.action_data_source",
+    "expanse12_raptor_marines.buff",
+    "expanse12_raptor_pdc_0.weapon",
+    "expanse12_raptor_pdc_1.weapon",
+    "expanse12_raptor_pdc_2.weapon",
+    "expanse12_raptor_pdc_3.weapon",
+    "expanse12_raptor_pdc_4.weapon",
+    "expanse12_raptor_pdc_5.weapon",
+    "expanse12_raptor_pdc_6.weapon",
+    "expanse12_raptor_pdc_7.weapon",
+    "expanse12_raptor_pdc_8.weapon",
+    "expanse12_raptor_reactor.ability",
+    "expanse12_raptor_reactor.action_data_source",
+    "expanse12_raptor_reactor.buff",
+    "expanse12_raptor_reactor_breach.ability",
+    "expanse12_raptor_reactor_breach.action_data_source",
+    "expanse12_raptor_reactor_breach.buff",
+    "expanse12_scirocco_heavy_magazine.ability",
+    "expanse12_scirocco_heavy_magazine.action_data_source",
+    "expanse12_scirocco_heavy_magazine.buff",
+    "expanse12_scirocco_launch_corvette.ability",
+    "expanse12_scirocco_launch_corvette.action_data_source",
+    "expanse12_scirocco_light_magazine.ability",
+    "expanse12_scirocco_light_magazine.action_data_source",
+    "expanse12_scirocco_light_magazine.buff",
+    "expanse12_scirocco_marines.ability",
+    "expanse12_scirocco_marines.action_data_source",
+    "expanse12_scirocco_marines.buff",
+    "expanse12_scirocco_pdc_0.weapon",
+    "expanse12_scirocco_pdc_1.weapon",
+    "expanse12_scirocco_pdc_10.weapon",
+    "expanse12_scirocco_pdc_11.weapon",
+    "expanse12_scirocco_pdc_2.weapon",
+    "expanse12_scirocco_pdc_3.weapon",
+    "expanse12_scirocco_pdc_4.weapon",
+    "expanse12_scirocco_pdc_5.weapon",
+    "expanse12_scirocco_pdc_6.weapon",
+    "expanse12_scirocco_pdc_7.weapon",
+    "expanse12_scirocco_pdc_8.weapon",
+    "expanse12_scirocco_pdc_9.weapon",
+    "expanse12_scirocco_rail_0.weapon",
+    "expanse12_scirocco_reactor.ability",
+    "expanse12_scirocco_reactor.action_data_source",
+    "expanse12_scirocco_reactor.buff",
+    "expanse12_scirocco_reactor_breach.ability",
+    "expanse12_scirocco_reactor_breach.action_data_source",
+    "expanse12_scirocco_reactor_breach.buff",
+    "expanse12_sunflare_burn.ability",
+    "expanse12_sunflare_burn.action_data_source",
+    "expanse12_sunflare_burn.buff"
+  ],
+  "ability_count": 17,
+  "typed_actions": [
+    {
+      "ability": "expanse12_pella_launch_corvette",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_launch_corvette.action_data_source",
+      "reachable_buffs": [],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_pella_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_pella_marines",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_pella_reactor",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_pella_reactor_breach",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor_breach.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor_breach.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_raptor_launch_corvette",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_launch_corvette.action_data_source",
+      "reachable_buffs": [],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_raptor_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_raptor_marines",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_raptor_reactor",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_raptor_reactor_breach",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor_breach.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor_breach.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_scirocco_heavy_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_scirocco_launch_corvette",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_launch_corvette.action_data_source",
+      "reachable_buffs": [],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_scirocco_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_scirocco_marines",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_scirocco_reactor",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_scirocco_reactor_breach",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor_breach.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor_breach.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_sunflare_burn",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_sunflare_burn.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_sunflare_burn.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "reference_edges": [
+    {
+      "source": "Amun uniform overlay",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "Amun uniform overlay",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "{'abilities': [{'abilities': ['expanse12_pella_launch_corvette', 'expanse12_pella_light_magazine', 'expanse12_pella_marines', 'expanse12_pella_reactor', 'expanse12_pella_reactor_breach', 'expanse12_raptor_launch_corvette', 'expanse12_raptor_light_magazine', 'expanse12_raptor_marines', 'expanse12_raptor_reactor', 'expanse12_raptor_reactor_breach', 'expanse12_scirocco_heavy_magazine', 'expanse12_scirocco_launch_corvette', 'expanse12_scirocco_light_magazine', 'expanse12_scirocco_marines', 'expanse12_scirocco_reactor', 'expanse12_scirocco_reactor_breach', 'expanse12_sunflare_burn']}]}",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_pella_launch_corvette.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_launch_corvette.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_pella_launch_corvette",
+      "reference": "entities/expanse12_pella_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_launch_corvette.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_launch_corvette.ability",
+      "reference": "entities/expanse12_pella_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_launch_corvette.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_pella_light_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_pella_light_magazine",
+      "reference": "entities/expanse12_pella_light_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.ability",
+      "reference": "entities/expanse12_pella_light_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.ability",
+      "reference": "entities/expanse12_pella_light_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.buff",
+      "reference": "entities/expanse12_pella_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.buff",
+      "reference": "entities/expanse12_pella_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "reference": "entities/expanse04_light_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "meshes/expanse05_amun_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/meshes/expanse05_amun_torpedo.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/meshes/expanse05_amun_torpedo.mesh",
+      "reference": "mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/textures/expanse05_amun_torpedo_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/textures/expanse05_amun_torpedo_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/textures/expanse05_amun_torpedo_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "effects/trader_medium_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "sounds/engine_techsupportship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHSUPPORTSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0_1.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0_1.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_pella_marines.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_pella_marines",
+      "reference": "entities/expanse12_pella_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.ability",
+      "reference": "entities/expanse12_pella_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.ability",
+      "reference": "entities/expanse12_pella_marines.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.action_data_source",
+      "reference": "entities/expanse_rocinante_hero.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse_rocinante_hero.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.action_data_source",
+      "reference": "effects/expanse06_boarding_pod_visual.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/effects/expanse06_boarding_pod_visual.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_marines.action_data_source",
+      "reference": "sounds/ability_activate_tech_shuttlelaunch.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ability_activate_tech_shuttlelaunch.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_pella_reactor.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_pella_reactor",
+      "reference": "entities/expanse12_pella_reactor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.ability",
+      "reference": "entities/expanse12_pella_reactor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.ability",
+      "reference": "entities/expanse12_pella_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_pella_reactor_breach.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor_breach.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_pella_reactor_breach",
+      "reference": "entities/expanse12_pella_reactor_breach.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor_breach.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor_breach.ability",
+      "reference": "entities/expanse12_pella_reactor_breach.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor_breach.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor_breach.ability",
+      "reference": "entities/expanse12_pella_reactor_breach.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor_breach.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_pella_reactor_breach.action_data_source",
+      "reference": "effects/titan_safety_override_protocol.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/titan_safety_override_protocol.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_raptor_launch_corvette.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_launch_corvette.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_raptor_launch_corvette",
+      "reference": "entities/expanse12_raptor_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_launch_corvette.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_launch_corvette.ability",
+      "reference": "entities/expanse12_raptor_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_launch_corvette.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_raptor_light_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_raptor_light_magazine",
+      "reference": "entities/expanse12_raptor_light_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.ability",
+      "reference": "entities/expanse12_raptor_light_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.ability",
+      "reference": "entities/expanse12_raptor_light_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.buff",
+      "reference": "entities/expanse12_raptor_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.buff",
+      "reference": "entities/expanse12_raptor_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_raptor_marines.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_raptor_marines",
+      "reference": "entities/expanse12_raptor_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.ability",
+      "reference": "entities/expanse12_raptor_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.ability",
+      "reference": "entities/expanse12_raptor_marines.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.action_data_source",
+      "reference": "entities/expanse_rocinante_hero.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse_rocinante_hero.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.action_data_source",
+      "reference": "effects/expanse06_boarding_pod_visual.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/effects/expanse06_boarding_pod_visual.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_marines.action_data_source",
+      "reference": "sounds/ability_activate_tech_shuttlelaunch.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ability_activate_tech_shuttlelaunch.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_raptor_reactor.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_raptor_reactor",
+      "reference": "entities/expanse12_raptor_reactor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.ability",
+      "reference": "entities/expanse12_raptor_reactor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.ability",
+      "reference": "entities/expanse12_raptor_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_raptor_reactor_breach.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor_breach.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_raptor_reactor_breach",
+      "reference": "entities/expanse12_raptor_reactor_breach.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor_breach.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor_breach.ability",
+      "reference": "entities/expanse12_raptor_reactor_breach.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor_breach.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor_breach.ability",
+      "reference": "entities/expanse12_raptor_reactor_breach.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor_breach.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_raptor_reactor_breach.action_data_source",
+      "reference": "effects/titan_safety_override_protocol.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/titan_safety_override_protocol.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_scirocco_heavy_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_scirocco_heavy_magazine",
+      "reference": "entities/expanse12_scirocco_heavy_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.ability",
+      "reference": "entities/expanse12_scirocco_heavy_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.ability",
+      "reference": "entities/expanse12_scirocco_heavy_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.buff",
+      "reference": "entities/expanse12_scirocco_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.buff",
+      "reference": "entities/expanse12_scirocco_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_heavy_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse10_donnager_heavy_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse10_donnager_heavy_torpedo.unit",
+      "reference": "entities/expanse04_light_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "meshes/expanse05_amun_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/meshes/expanse05_amun_torpedo.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "effects/trader_medium_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "sounds/engine_techsupportship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHSUPPORTSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0_1.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0_1.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_scirocco_launch_corvette.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_launch_corvette.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_scirocco_launch_corvette",
+      "reference": "entities/expanse12_scirocco_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_launch_corvette.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_launch_corvette.ability",
+      "reference": "entities/expanse12_scirocco_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_launch_corvette.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_scirocco_light_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_scirocco_light_magazine",
+      "reference": "entities/expanse12_scirocco_light_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.ability",
+      "reference": "entities/expanse12_scirocco_light_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.ability",
+      "reference": "entities/expanse12_scirocco_light_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.buff",
+      "reference": "entities/expanse12_scirocco_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.buff",
+      "reference": "entities/expanse12_scirocco_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_scirocco_marines.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_scirocco_marines",
+      "reference": "entities/expanse12_scirocco_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.ability",
+      "reference": "entities/expanse12_scirocco_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.ability",
+      "reference": "entities/expanse12_scirocco_marines.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.action_data_source",
+      "reference": "entities/expanse_rocinante_hero.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/entities/expanse_rocinante_hero.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.action_data_source",
+      "reference": "effects/expanse06_boarding_pod_visual.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update11/effects/expanse06_boarding_pod_visual.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_marines.action_data_source",
+      "reference": "sounds/ability_activate_tech_shuttlelaunch.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ability_activate_tech_shuttlelaunch.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_scirocco_reactor.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_scirocco_reactor",
+      "reference": "entities/expanse12_scirocco_reactor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.ability",
+      "reference": "entities/expanse12_scirocco_reactor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.ability",
+      "reference": "entities/expanse12_scirocco_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_scirocco_reactor_breach.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor_breach.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_scirocco_reactor_breach",
+      "reference": "entities/expanse12_scirocco_reactor_breach.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor_breach.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor_breach.ability",
+      "reference": "entities/expanse12_scirocco_reactor_breach.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor_breach.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor_breach.ability",
+      "reference": "entities/expanse12_scirocco_reactor_breach.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor_breach.buff",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_scirocco_reactor_breach.action_data_source",
+      "reference": "effects/titan_safety_override_protocol.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/titan_safety_override_protocol.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse12_sunflare_burn.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_sunflare_burn.ability",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "expanse12_sunflare_burn",
+      "reference": "entities/expanse12_sunflare_burn.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_sunflare_burn.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_sunflare_burn.ability",
+      "reference": "entities/expanse12_sunflare_burn.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_sunflare_burn.action_data_source",
+      "origin": "read-only-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_sunflare_burn.ability",
+      "reference": "entities/expanse12_sunflare_burn.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/update12-main/behavior-schema-candidate/entities/expanse12_sunflare_burn.buff",
+      "origin": "read-only-candidate"
+    }
+  ],
+  "candidate_hashes": {
+    "expanse12_pella_launch_corvette.ability": "32b19950a1a9173cf455c47131c527d8c8d2eb4d250e191b99e029dd9108a528",
+    "expanse12_pella_launch_corvette.action_data_source": "b40840048996972522ba8d6615b90fdfb2830939ae146e7f41b419d578921220",
+    "expanse12_pella_light_magazine.ability": "657e23d4a3447b1a3480656349fb2ff308c20e2ef0a9fdd88e13fce07b07740f",
+    "expanse12_pella_light_magazine.action_data_source": "47fc881b1635d47da2893ab07a18de6873e1c6547b251fee2cd10f96e53526d3",
+    "expanse12_pella_light_magazine.buff": "eb1752e0d73caa047971a705e9a2f73c9e736768f3d559f477dc72791d138cfb",
+    "expanse12_pella_marines.ability": "e2aec0f052fb9eee0d26399392a3331d5c1b0758a95a53c9158b95cc4b204a11",
+    "expanse12_pella_marines.action_data_source": "8b3d90f33764ffc231af00d9a8353cc62b0bfb4e4a35f78f8b843d13fc993858",
+    "expanse12_pella_marines.buff": "7c38d1f5aef39196482d7e9c3db9c78da0cbeb3cc71f0b3a02ff4283c8fe1f12",
+    "expanse12_pella_pdc_0.weapon": "bab4d382b50ef440ad0a0889f75576fed8bf4d55a9aa750eda038b2c4aae8067",
+    "expanse12_pella_pdc_1.weapon": "bab4d382b50ef440ad0a0889f75576fed8bf4d55a9aa750eda038b2c4aae8067",
+    "expanse12_pella_pdc_2.weapon": "bab4d382b50ef440ad0a0889f75576fed8bf4d55a9aa750eda038b2c4aae8067",
+    "expanse12_pella_pdc_3.weapon": "bab4d382b50ef440ad0a0889f75576fed8bf4d55a9aa750eda038b2c4aae8067",
+    "expanse12_pella_pdc_4.weapon": "bab4d382b50ef440ad0a0889f75576fed8bf4d55a9aa750eda038b2c4aae8067",
+    "expanse12_pella_pdc_5.weapon": "bab4d382b50ef440ad0a0889f75576fed8bf4d55a9aa750eda038b2c4aae8067",
+    "expanse12_pella_pdc_6.weapon": "bab4d382b50ef440ad0a0889f75576fed8bf4d55a9aa750eda038b2c4aae8067",
+    "expanse12_pella_pdc_7.weapon": "bab4d382b50ef440ad0a0889f75576fed8bf4d55a9aa750eda038b2c4aae8067",
+    "expanse12_pella_pdc_8.weapon": "bab4d382b50ef440ad0a0889f75576fed8bf4d55a9aa750eda038b2c4aae8067",
+    "expanse12_pella_reactor.ability": "9a683d6ad10a2b4c05f88e0654d97db3cb39e994babb7d2ecd828a6cba8f321b",
+    "expanse12_pella_reactor.action_data_source": "4be789a4821458c59aa28895f812c833645e411c48a9a19d72158c7fcf6e3664",
+    "expanse12_pella_reactor.buff": "4aed4d35b5b318bcf4f94c56cfdba5cea43ed8dd1eb31ec9ef1c344abc1a886b",
+    "expanse12_pella_reactor_breach.ability": "4bfb0f41e8c1061a03531db4a9fb906a8ee609e50397fcf3d3b08f6446645285",
+    "expanse12_pella_reactor_breach.action_data_source": "df8047b5262e009aa51e4f07660c31507a28ece284383cf9edd79b88ac897c3d",
+    "expanse12_pella_reactor_breach.buff": "961a720d30766158681afeccfdbe8ed7efd88aa4bb0c818d43578fbc62f94b7a",
+    "expanse12_raptor_launch_corvette.ability": "276189d21b6335dcb5e990a62cb49063a31d7194a69a078b369973d0185b9a37",
+    "expanse12_raptor_launch_corvette.action_data_source": "b40840048996972522ba8d6615b90fdfb2830939ae146e7f41b419d578921220",
+    "expanse12_raptor_light_magazine.ability": "004776f11152bad399a591456a0088927d6e137cc955da1470aeb5a9f192f6e2",
+    "expanse12_raptor_light_magazine.action_data_source": "4db56d7f233bc71193fda5a6a77a210092c2fca98ee2b6306a2111ebb9357f26",
+    "expanse12_raptor_light_magazine.buff": "22dfc1d1603d6325e19f5ab9663a6a5a9bd6f1f0dcc90854a1b5f8ac8e448c7d",
+    "expanse12_raptor_marines.ability": "6514f0317cbf09339671916864428e4fa142eb7a65fd0cb003aa26539c957607",
+    "expanse12_raptor_marines.action_data_source": "4dec7764f471624619a028e81ae6cce8fff68ec77b678a97c5b8dc2f20bf1fab",
+    "expanse12_raptor_marines.buff": "7c38d1f5aef39196482d7e9c3db9c78da0cbeb3cc71f0b3a02ff4283c8fe1f12",
+    "expanse12_raptor_pdc_0.weapon": "e32c5e7de78e36f82633ca9e2645f92f5cbda406189307b8130dd4d32c3b7cbc",
+    "expanse12_raptor_pdc_1.weapon": "e32c5e7de78e36f82633ca9e2645f92f5cbda406189307b8130dd4d32c3b7cbc",
+    "expanse12_raptor_pdc_2.weapon": "e32c5e7de78e36f82633ca9e2645f92f5cbda406189307b8130dd4d32c3b7cbc",
+    "expanse12_raptor_pdc_3.weapon": "e32c5e7de78e36f82633ca9e2645f92f5cbda406189307b8130dd4d32c3b7cbc",
+    "expanse12_raptor_pdc_4.weapon": "e32c5e7de78e36f82633ca9e2645f92f5cbda406189307b8130dd4d32c3b7cbc",
+    "expanse12_raptor_pdc_5.weapon": "e32c5e7de78e36f82633ca9e2645f92f5cbda406189307b8130dd4d32c3b7cbc",
+    "expanse12_raptor_pdc_6.weapon": "e32c5e7de78e36f82633ca9e2645f92f5cbda406189307b8130dd4d32c3b7cbc",
+    "expanse12_raptor_pdc_7.weapon": "e32c5e7de78e36f82633ca9e2645f92f5cbda406189307b8130dd4d32c3b7cbc",
+    "expanse12_raptor_pdc_8.weapon": "e32c5e7de78e36f82633ca9e2645f92f5cbda406189307b8130dd4d32c3b7cbc",
+    "expanse12_raptor_reactor.ability": "bd4fdebf72dca6bd7a417fc2bfd83b4cbba98c857ee1b5159f9a40d09f3bb21e",
+    "expanse12_raptor_reactor.action_data_source": "61958e920a94776ae3c58a19d48e9b7c130f56a4a55b9172907dac5e4dce5837",
+    "expanse12_raptor_reactor.buff": "4aed4d35b5b318bcf4f94c56cfdba5cea43ed8dd1eb31ec9ef1c344abc1a886b",
+    "expanse12_raptor_reactor_breach.ability": "53f5c1643d1e821baee7e663e568a5fbc9bae01affcc7a830d93338cc4b6ee95",
+    "expanse12_raptor_reactor_breach.action_data_source": "df8047b5262e009aa51e4f07660c31507a28ece284383cf9edd79b88ac897c3d",
+    "expanse12_raptor_reactor_breach.buff": "961a720d30766158681afeccfdbe8ed7efd88aa4bb0c818d43578fbc62f94b7a",
+    "expanse12_scirocco_heavy_magazine.ability": "a59c3d449e4eb8ede7da1ef8a0afef2c920a41a39b7069f7c1df211ab48031d3",
+    "expanse12_scirocco_heavy_magazine.action_data_source": "3656b17ddb36bdda053d53cdec0c538b691dd554da0a2d96d0808da644fa8cdc",
+    "expanse12_scirocco_heavy_magazine.buff": "2b94337155d7e1a7e3273d341c0788d9b9bdda0aa2a734992ea62a515ca129cc",
+    "expanse12_scirocco_launch_corvette.ability": "a4628ec03b8923cf93c60b6851c224a87c2dca21f01004165da5a744b81b5de3",
+    "expanse12_scirocco_launch_corvette.action_data_source": "b40840048996972522ba8d6615b90fdfb2830939ae146e7f41b419d578921220",
+    "expanse12_scirocco_light_magazine.ability": "a6673240567ca523eb34f9250092d09685beeea44d3a34345ac4c16af88327ea",
+    "expanse12_scirocco_light_magazine.action_data_source": "441e917dedd27ebf2293add2a68eb2b34f29cf9e47e825c92cd4a5d2a34b46fc",
+    "expanse12_scirocco_light_magazine.buff": "00b160a58f308f22f719aa8cbb425b6d8fdf834375125d8d7890056dc8e20d8e",
+    "expanse12_scirocco_marines.ability": "07ca120aa0b15b12cf4f21bf58a72eb8c746079c581ba12aa548c6c6fe8d0529",
+    "expanse12_scirocco_marines.action_data_source": "8b3d90f33764ffc231af00d9a8353cc62b0bfb4e4a35f78f8b843d13fc993858",
+    "expanse12_scirocco_marines.buff": "7c38d1f5aef39196482d7e9c3db9c78da0cbeb3cc71f0b3a02ff4283c8fe1f12",
+    "expanse12_scirocco_pdc_0.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_1.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_10.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_11.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_2.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_3.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_4.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_5.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_6.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_7.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_8.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_pdc_9.weapon": "5f104a594eb29cf736c82076ddd6a7ed16f6003896acaf8d116efed1ca30a3e5",
+    "expanse12_scirocco_rail_0.weapon": "9139790aac9dd76c8842839f3fa84b5f67bd4302e45532d39260cad4287cb1c0",
+    "expanse12_scirocco_reactor.ability": "89a69ffe79b311493225b326ec625dfedd9663bf56b2c14f2fc26c977b8c074f",
+    "expanse12_scirocco_reactor.action_data_source": "61958e920a94776ae3c58a19d48e9b7c130f56a4a55b9172907dac5e4dce5837",
+    "expanse12_scirocco_reactor.buff": "4aed4d35b5b318bcf4f94c56cfdba5cea43ed8dd1eb31ec9ef1c344abc1a886b",
+    "expanse12_scirocco_reactor_breach.ability": "d32d2c9455d84f8d172e6a58047528c920949e16bc3c6af33a6d9fa91b3e5968",
+    "expanse12_scirocco_reactor_breach.action_data_source": "df8047b5262e009aa51e4f07660c31507a28ece284383cf9edd79b88ac897c3d",
+    "expanse12_scirocco_reactor_breach.buff": "961a720d30766158681afeccfdbe8ed7efd88aa4bb0c818d43578fbc62f94b7a",
+    "expanse12_sunflare_burn.ability": "4f324ac4644dc77992d8590584f78b6450578e15502baef3610c442b68eab6a8",
+    "expanse12_sunflare_burn.action_data_source": "a4e49813c588a7bb5dc42ef0a2cdb609ec9ba598a40afea74d6ae95ba09ec8a1",
+    "expanse12_sunflare_burn.buff": "24f50043fcdfae963d836d66a2be2bb6c5063ed16cd9ad28c87f73f0498cebbd"
+  },
+  "reviewed_source": {
+    "/run/media/haker/NVME 2/expanse-mod/tools/build_update12.py": "a8f53ec9af7ece309903038dcb805ca71adc687c02f1e6e5e50b895951712122",
+    "/run/media/haker/NVME 2/expanse-mod/tools/update12_behavior.py": "d9eabb2eed150eff1f9e8cac96f287a7e6a63fbeb000c93efa1c3651eede37a4",
+    "/run/media/haker/NVME 2/expanse-mod/tools/update12_validate.py": "80ea917cd4548f96aa0232d9e7320c2bd5fa55aad8144a246258c41cf54ceb08"
+  },
+  "limitations": [
+    "New hull/mount/UI asset integration NOT checked; only candidate behavior and existing-base dependencies checked.",
+    "Pella boarding exclusions are appended during main build and are not present in this pre-integration candidate.",
+    "Runtime NOT RUN."
+  ]
+}

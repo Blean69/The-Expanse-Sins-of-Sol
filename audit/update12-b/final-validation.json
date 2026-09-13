@@ -1,0 +1,15 @@
+{
+  "status": "PASS OFFLINE ASSET HANDOFF",
+  "asset_bundle_sha256": "f19227c96266ff7fe04960aab51764981cab83ecb8533c06926a5941573489f9",
+  "source_and_master_sha256": "ea72a0b5cb4f57b23851335706f898fd45d9788f78ec06fa64ae272bee7ca64a",
+  "source_unchanged": true,
+  "mesh_count": 4,
+  "assembled_triangles": 89519,
+  "proper_compiled_mount_frames": 13,
+  "torpedo_ports": 10,
+  "engine_nozzles": 4,
+  "boarding_origin": "weapon.boarding.0; 20 units outward from measured hull",
+  "rail_clearance": "600 samples per pose at -15, -7.5, 0, 7.5, 15 degrees; continuous collision proof not claimed",
+  "donor_winding_exception": "Same 3 base and 9 barrel near-perpendicular donor faces; zero opposed faces at -1e-5 tolerance",
+  "runtime": "NOT RUN"
+}
