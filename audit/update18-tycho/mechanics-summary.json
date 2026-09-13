@@ -1,0 +1,407 @@
+{
+  "status": "DISABLED_LABORATORY",
+  "unit": "expanse18_tycho_arsenal",
+  "hull": 75000,
+  "armor": 20000,
+  "armor_strength": 200,
+  "durability": 1500,
+  "cost": {
+    "credits": 10000.0,
+    "metal": 3000.0,
+    "crystal": 2000.0
+  },
+  "exotics": [
+    {
+      "exotic_type": "defense",
+      "count": 2
+    }
+  ],
+  "build_seconds": 600,
+  "pdc": {
+    "count": 16,
+    "damage": 10,
+    "cooldown": 0.25,
+    "range": 7000,
+    "max_all_mounts_raw_damage_per_second": 640,
+    "tracking_degrees_per_second": 180,
+    "note": "All mounts cannot necessarily bear; actual interception/mitigation/fire arcs require combat tests."
+  },
+  "torpedoes": {
+    "banks": 4,
+    "damage": 300,
+    "cooldown": 12,
+    "projectiles_per_bank_per_cycle": 1,
+    "all_banks_raw_damage_per_second": 100,
+    "range": 12000,
+    "spawned_unit": "trader_medium_torpedo"
+  },
+  "drydock_scope": "SELF FACTORY ONLY",
+  "mounts": [
+    {
+      "mesh_point": "child.turret_mount_0",
+      "position": [
+        661.015747,
+        335.875,
+        1259.878784
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_1",
+      "position": [
+        -657.781067,
+        335.875,
+        1259.879028
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_2",
+      "position": [
+        661.36731,
+        285.445312,
+        1263.369019
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_3",
+      "position": [
+        -657.429504,
+        285.40625,
+        1265.8302
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_4",
+      "position": [
+        661.367004,
+        335.90625,
+        -1259.7052
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_5",
+      "position": [
+        661.015442,
+        285.25,
+        -1263.433716
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_6",
+      "position": [
+        -658.27356,
+        335.90625,
+        -1259.704956
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_7",
+      "position": [
+        -658.625122,
+        285.25,
+        -1263.433472
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_8",
+      "position": [
+        1259.984253,
+        335.90625,
+        -648.164185
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_9",
+      "position": [
+        1263.718628,
+        285.25,
+        -648.515747
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_10",
+      "position": [
+        1259.984497,
+        335.890625,
+        648.538879
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_11",
+      "position": [
+        1263.718872,
+        285.25,
+        648.187317
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_12",
+      "position": [
+        -1258.749878,
+        335.890625,
+        648.187622
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_13",
+      "position": [
+        -1262.47644,
+        285.25,
+        648.539185
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_14",
+      "position": [
+        -1258.750122,
+        335.90625,
+        -647.554504
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "child.turret_mount_15",
+      "position": [
+        -1262.476685,
+        285.25,
+        -647.202942
+      ],
+      "yaw_arc": {
+        "min_angle": -55.0,
+        "max_angle": 55.0
+      },
+      "pitch_arc": {
+        "min_angle": -75.0,
+        "max_angle": 10.0
+      },
+      "weapon": "expanse18_tycho_arsenal_pdc"
+    },
+    {
+      "mesh_point": "weapon.0",
+      "position": [
+        859.005432,
+        513.490417,
+        865.272278
+      ],
+      "yaw_arc": {
+        "min_angle": -90.0,
+        "max_angle": 90.0
+      },
+      "pitch_arc": {
+        "min_angle": -90.0,
+        "max_angle": 120.0
+      },
+      "weapon": "expanse18_tycho_arsenal_torpedo"
+    },
+    {
+      "mesh_point": "weapon.1",
+      "position": [
+        -865.343506,
+        513.491211,
+        858.691833
+      ],
+      "yaw_arc": {
+        "min_angle": -90.0,
+        "max_angle": 90.0
+      },
+      "pitch_arc": {
+        "min_angle": -90.0,
+        "max_angle": 120.0
+      },
+      "weapon": "expanse18_tycho_arsenal_torpedo"
+    },
+    {
+      "mesh_point": "weapon.2",
+      "position": [
+        -858.762756,
+        513.49115,
+        -865.657166
+      ],
+      "yaw_arc": {
+        "min_angle": -90.0,
+        "max_angle": 90.0
+      },
+      "pitch_arc": {
+        "min_angle": -90.0,
+        "max_angle": 120.0
+      },
+      "weapon": "expanse18_tycho_arsenal_torpedo"
+    },
+    {
+      "mesh_point": "weapon.3",
+      "position": [
+        865.585876,
+        513.490356,
+        -859.076599
+      ],
+      "yaw_arc": {
+        "min_angle": -90.0,
+        "max_angle": 90.0
+      },
+      "pitch_arc": {
+        "min_angle": -90.0,
+        "max_angle": 120.0
+      },
+      "weapon": "expanse18_tycho_arsenal_torpedo"
+    }
+  ],
+  "sources": [
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_starbase.unit_skin",
+      "sha256": "e60d790a055b43bcac8bc3ef5063a9dc7babd89a8934fb828fc5052cfeedac4d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_starbase_medium_missile.weapon",
+      "sha256": "06381cb96e294eba1af0d28dacaeeb9b5e8ce4eb8e9ca86d578fd93aeeeac356"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_starbase_unit_factory.unit_item",
+      "sha256": "4e709fa1e9cfdc3a0a8f8c1046dda7f3282cbdd4b999bdf7080897f10fcd2144"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update17/entities/expanse10_donnager_pdc_0.weapon",
+      "sha256": "2cfba89695cac7df85fcfdaa44b4794fc6beb03a09f53110eb3be6623d7f0439"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update17/entities/expanse_donnager_battleship.unit_skin",
+      "sha256": "57517de8c20b7bf400b2c2305c4b586a18d71c2cb481021e98878e4a2950e19d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update17/entities/trader_starbase.unit",
+      "sha256": "b0012a25ee209099c56ea2d978eb511200549da61dd19b19303de97dd9aa03d4"
+    }
+  ]
+}

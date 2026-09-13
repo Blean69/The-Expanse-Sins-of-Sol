@@ -1,0 +1,51 @@
+{
+  "status": "PASS",
+  "schema_checks": [
+    {
+      "file": "expanse18_tycho_arsenal.unit",
+      "status": "PASS",
+      "schema": "unit-schema.json",
+      "unchanged_source_extensions": [
+        {
+          "path": "/unit_modifiers/0/modifier_type",
+          "unchanged_enum": "min_detection_level"
+        },
+        "/corruption"
+      ]
+    },
+    {
+      "file": "expanse18_tycho_arsenal.unit_skin",
+      "status": "PASS",
+      "schema": "unit-skin-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse18_tycho_arsenal_pdc.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse18_tycho_arsenal_torpedo.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse18_tycho_arsenal_industrial_drydock.unit_item",
+      "status": "PASS",
+      "schema": "unit-item-schema.json",
+      "unchanged_source_extensions": []
+    }
+  ],
+  "mount_count": 20,
+  "native_pdc_mounts": 16,
+  "native_torpedo_banks": 4,
+  "ai_groups_match_weapon": true,
+  "unique_station_tag": "expanse18_tycho_arsenal",
+  "generic_starbase_tag_absent": true,
+  "slots": 3,
+  "drydock_build_time_scalar": -0.13043478260869557,
+  "runtime_status": "NOT RUN",
+  "multiplayer_minutes": 0
+}
