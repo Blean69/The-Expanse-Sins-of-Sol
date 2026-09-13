@@ -1,0 +1,272 @@
+{
+  "status": "PASS OFFLINE",
+  "source_mesh_sha256": "56742daa7fab8a33da4c235bf95f64f97f78f499c0a573a81c4027a83ebb2745",
+  "geometry": {
+    "mesh": "expanse12_scirocco_hull.mesh",
+    "triangles": 84383,
+    "sha256": "457ea15a7f657c4628eab2257bda697d2120a333bf9320f489e5688168f2c37a",
+    "opposed_winding": 0,
+    "invalid_tangent_frames": 0
+  },
+  "body_and_native_metadata_unchanged": true,
+  "support_material": "Same finish as preserved Scirocco hull",
+  "mounts": [
+    {
+      "weapon": "expanse12_scirocco_pdc_0",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 46.832875178024366,
+      "new_bottom": 46.832875178024366,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        49.027448996784926,
+        49.6858330633266,
+        51.27531668604664,
+        52.38596096995836,
+        52.48281797901363,
+        52.38596096995836,
+        51.275316963697534,
+        49.68583478549226
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_1",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 58.45546248286752,
+      "new_bottom": 58.45546248286752,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        64.05482243136125,
+        63.95796338084702,
+        62.847319322378766,
+        61.25783521800098,
+        60.599450251486616,
+        61.25783727841417,
+        62.84732025442999,
+        63.95796338084702
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_2",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 46.883458877644415,
+      "new_bottom": 46.883458877644415,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        49.02744743575636,
+        49.68583287163838,
+        51.258143532241235,
+        52.864799190902986,
+        54.48425492831264,
+        53.8423744524965,
+        51.27531239601912,
+        49.6858311676924
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_3",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 58.45546146590978,
+      "new_bottom": 58.45546146590978,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        66.05625683801834,
+        64.43680160179166,
+        62.83014598172571,
+        61.257835282527054,
+        60.5994500019474,
+        61.25783628565701,
+        62.84731815393016,
+        65.47716583350245
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_4",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 35.831526785593255,
+      "new_bottom": 34.38643677303425,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        36.93362022679406,
+        35.82062651391317,
+        38.35694122314453,
+        35.820626306170055,
+        36.9336195419298,
+        35.186436944627076,
+        38.35694122314453,
+        35.186436773034245
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_5",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 78.65386394897425,
+      "new_bottom": 78.65386394897425,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        79.54575347900392,
+        81.05060316034945,
+        81.20576321353745,
+        81.05583684295186,
+        79.5457534790039,
+        81.05583684295186,
+        81.22835629181144,
+        81.05060316034945
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_6",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 15.751594480650237,
+      "new_bottom": 15.751594480650237,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        19.71526396432526,
+        42.544372369996935,
+        44.09571609890229,
+        45.64705982780767,
+        19.71526396432526,
+        17.735365407348155,
+        16.915264572925338,
+        17.735365407348127
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_7",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 26.971619338491376,
+      "new_bottom": 26.971619338491376,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        30.93528934477763,
+        57.21906247381645,
+        55.6677188797447,
+        54.11637501600572,
+        30.93528934477763,
+        28.95539046073816,
+        28.135289490841643,
+        28.95539046073813
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_8",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 64.67139739990235,
+      "new_bottom": 64.67139739990235,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        66.69635009765625,
+        66.69635009765624,
+        66.50621687858074,
+        66.59419840841217,
+        66.69635009765624,
+        66.69635009765624,
+        65.90013885498047,
+        66.50251359876286
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_9",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 75.89142150878907,
+      "new_bottom": 75.89142150878907,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        77.91636657714844,
+        77.91636657714845,
+        77.64701843261719,
+        77.81422125011719,
+        77.91636657714844,
+        77.91636657714844,
+        77.12015533447264,
+        77.72253007825505
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_10",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 68.28896636962891,
+      "new_bottom": 68.28896636962891,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        70.31391143798828,
+        70.3139114379883,
+        70.04454803466795,
+        70.21175974874419,
+        70.31391143798828,
+        70.3139114379883,
+        69.51769256591795,
+        70.12007493909489
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_11",
+      "vertices": 106,
+      "old_radius": 6.6,
+      "new_top_radius": 3.0,
+      "new_bottom_radius": 4.0,
+      "gun_attachment_plane_unchanged": true,
+      "old_bottom": 72.08529205322266,
+      "new_bottom": 72.08529205322266,
+      "eight_hull_contacts_within_support": true,
+      "contact_heights": [
+        74.1102294921875,
+        74.1102294921875,
+        74.00593141220189,
+        74.00808416515625,
+        74.11022949218751,
+        74.11022949218749,
+        73.3140106201172,
+        73.91639782242534
+      ]
+    }
+  ],
+  "resources": {
+    "meshes/expanse12_scirocco_hull.mesh": "/run/media/haker/NVME 2/expanse-mod/build/update16-scirocco/meshes/expanse12_scirocco_hull.mesh",
+    "mesh_materials/expanse12_scirocco_hull_expanse12_scirocco_mat_2.mesh_material": "/run/media/haker/NVME 2/expanse-mod/build/update16-scirocco/mesh_materials/expanse12_scirocco_hull_expanse12_scirocco_mat_2.mesh_material"
+  },
+  "runtime": "NOT RUN; new appearance requires in-game observation"
+}

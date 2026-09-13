@@ -1,0 +1,38 @@
+{
+  "source": "User playtest report in this conversation",
+  "version_tested": "0.15",
+  "observed": [
+    "Truman PDCs intercept torpedoes and later targeted ships; user corrected initial no-targeting report.",
+    "Truman other weapons work; high hull and model appearance accepted.",
+    "Truman rails too fast/strong against all ship classes; requested half firing rate.",
+    "Scirocco broad circular PDC collars visible in supplied screenshot.",
+    "Donnager light torpedoes too easy to defeat; requested12pervolley."
+  ],
+  "not_claimed": [
+    "Research existing/new unit behavior",
+    "Scirocco support stacking and capture",
+    "Save/reload or multiplayer"
+  ],
+  "requested_changes": {
+    "Truman_PDC_range": [
+      4500,
+      6000
+    ],
+    "Donnager_PDC_range": [
+      6000,
+      8000
+    ],
+    "Truman_rail_seconds": [
+      20,
+      40
+    ],
+    "Donnager_light_volley": [
+      2,
+      12
+    ]
+  },
+  "screenshot": {
+    "path": "/tmp/codex-clipboard-8941e868-827a-483a-ba1d-d1cfb1ff0445.png",
+    "sha256": "524f4e2d752f32d64a7f68c3a76700c366af816672278e8c8264c5a53fa0313d"
+  }
+}

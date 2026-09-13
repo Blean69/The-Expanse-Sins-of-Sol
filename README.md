@@ -1,6 +1,6 @@
 # The Expanse — Sins II corvette prototype
 
-**Current update: [0.15 Shared-tree friends playtest](docs/update15.md).** Adds bounded Scirocco support, thirteen themed research nodes, native Morrigan/Tachi trade escorts, a local missile-defense installation and the UNN Truman capital prototype. Supported faction: TEC Enclave; load alone. Existing fleet economics, movement, weapons and shieldless baseline are preserved. Offline checks pass; runtime research transitions, save/reload and multiplayer remain untested. The complete [0.14 rollback](docs/update14.md) is retained.
+**Current update: [0.16 Battleship balance patch](docs/update16.md).** Extends Truman/Donnager PDC range, halves Truman rail firing rate, increases Donnager light volleys to twelve torpedoes and narrows Scirocco gun supports. Full 0.15 fleet, research and audio retained. Offline checks pass; new runtime/save/multiplayer tests remain pending. Load alone as TEC Enclave; [0.15 rollback](docs/update15.md) is preserved.
 
 The user has now observed **individual PDC tracking and good tracer appearance** in the polish prototype. Residual hull holes and floating turret supports remain recorded defects. The working **0.2.1** package and installed copy are preserved. New work is staged separately under `build/experiments/expanse_corvette_ammo03` and `build/experiments/expanse_rocinante03`; see [0.3 handoff](docs/combat03.md) for exact package availability and runtime limits.
 
