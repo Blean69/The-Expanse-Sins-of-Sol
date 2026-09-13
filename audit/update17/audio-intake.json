@@ -1,0 +1,994 @@
+{
+  "records": [
+    {
+      "id": "platform",
+      "source": "/home/haker/Downloads/Defence platform reporting for duty.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Defence platform reporting for duty.mp3",
+      "source_sha256": "7784b42676df62e666ea239fe23c6cba141eb66a228611de3b52059b4c0b83ac",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-14.87",
+        "input_tp": "-0.95",
+        "input_lra": "0.00",
+        "input_thresh": "-24.87",
+        "output_i": "-18.01",
+        "output_tp": "-4.08",
+        "output_lra": "0.00",
+        "output_thresh": "-28.01",
+        "normalization_type": "linear",
+        "target_offset": "0.01"
+      },
+      "output_measurement": {
+        "input_i": "-17.98",
+        "input_tp": "-4.06",
+        "input_lra": "0.00",
+        "input_thresh": "-27.98",
+        "output_i": "-18.01",
+        "output_tp": "-4.08",
+        "output_lra": "0.00",
+        "output_thresh": "-28.01",
+        "normalization_type": "linear",
+        "target_offset": "0.01"
+      },
+      "input_duration": 2.08975,
+      "output_duration": 2.089796,
+      "wav_sha256": "4dc066a2f8ee21ec0df9669b4fbf23ef73b1f998a079bd3a26bbfa583191565f",
+      "ogg_sha256": "d738c9a8d156e510c26d3c9f58ffe1ab83ba1435e17f238bc37678ad514a53c2"
+    },
+    {
+      "id": "scirocco",
+      "source": "/home/haker/Downloads/Scirocco reporting for duty.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Scirocco reporting for duty.mp3",
+      "source_sha256": "fa1df8176911f38ecb3445a3a88a021a9b7a648bea434683db7b8e38b8e80474",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-17.78",
+        "input_tp": "-1.54",
+        "input_lra": "0.30",
+        "input_thresh": "-28.08",
+        "output_i": "-17.67",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-27.98",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.33"
+      },
+      "output_measurement": {
+        "input_i": "-18.04",
+        "input_tp": "-2.36",
+        "input_lra": "0.30",
+        "input_thresh": "-28.34",
+        "output_i": "-17.59",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-27.90",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.41"
+      },
+      "input_duration": 3.108563,
+      "output_duration": 3.108571,
+      "wav_sha256": "58db6563605b66371ec53eb7c61ee0652b6176e234f266c0dbcfb7c5bb622fb6",
+      "ogg_sha256": "5c44adaf14bc13200f5c130f942b9e022165327d688434249100935f364dad29"
+    },
+    {
+      "id": "mcrn_orders",
+      "source": "/home/haker/Downloads/MCRN what are our orders.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/MCRN what are our orders.mp3",
+      "source_sha256": "908769ec050fd6448062a389ef355a0a5d288a5e29ab6f8c989e9f4c2ff000ae",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-14.84",
+        "input_tp": "-1.12",
+        "input_lra": "0.00",
+        "input_thresh": "-25.66",
+        "output_i": "-18.02",
+        "output_tp": "-4.28",
+        "output_lra": "0.00",
+        "output_thresh": "-28.84",
+        "normalization_type": "linear",
+        "target_offset": "0.02"
+      },
+      "output_measurement": {
+        "input_i": "-18.02",
+        "input_tp": "-4.15",
+        "input_lra": "0.00",
+        "input_thresh": "-28.84",
+        "output_i": "-17.97",
+        "output_tp": "-4.12",
+        "output_lra": "0.00",
+        "output_thresh": "-28.79",
+        "normalization_type": "linear",
+        "target_offset": "-0.03"
+      },
+      "input_duration": 1.488938,
+      "output_duration": 1.48898,
+      "wav_sha256": "a03636f588c5a3274840335cec35ccafa8cfeba0bf2fc0382415c2b56a3dfee6",
+      "ogg_sha256": "95f2e4550d6672096901d9779747a85b0c719b1e14ba3c6feccd18d463739c2d"
+    },
+    {
+      "id": "raptor",
+      "source": "/home/haker/Downloads/MCRN raptor reporting for duty.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/MCRN raptor reporting for duty.mp3",
+      "source_sha256": "ec61ae67db1844e2b14667e8d6896ee17bb829978fba8a1e0e6c7ada7a736c6e",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-16.94",
+        "input_tp": "-1.71",
+        "input_lra": "0.00",
+        "input_thresh": "-27.48",
+        "output_i": "-18.20",
+        "output_tp": "-2.77",
+        "output_lra": "0.00",
+        "output_thresh": "-28.55",
+        "normalization_type": "linear",
+        "target_offset": "0.20"
+      },
+      "output_measurement": {
+        "input_i": "-18.01",
+        "input_tp": "-2.76",
+        "input_lra": "0.00",
+        "input_thresh": "-28.55",
+        "output_i": "-17.81",
+        "output_tp": "-2.75",
+        "output_lra": "0.00",
+        "output_thresh": "-28.54",
+        "normalization_type": "linear",
+        "target_offset": "-0.19"
+      },
+      "input_duration": 2.742813,
+      "output_duration": 2.742857,
+      "wav_sha256": "12eb23d6ce0ce9b912063331223596b6bcbf2cb4813682325fb22f75b230ca6a",
+      "ogg_sha256": "25820ebba964af2c4315d1bc6cd4a888e96627bdc839fcf1df90aaeb406a3cab"
+    },
+    {
+      "id": "pella_rail_held",
+      "source": "/home/haker/Downloads/Pella bringing up the railguns.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Pella bringing up the railguns.mp3",
+      "source_sha256": "c76b6dc6cfabc0ca5f30ee77d723d12f956b31d38844665cdfcb0bcb9f79cd85",
+      "status": "HELD: Pella has no railgun; no game resource generated"
+    },
+    {
+      "id": "pella",
+      "source": "/home/haker/Downloads/Aye beltalowda, pella here.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Aye beltalowda, pella here.mp3",
+      "source_sha256": "b79319bc5e816ea018ce316ba9eedd0eeb16e03437e2f1f9d41f3387a135c7d0",
+      "limiter_attempts": [
+        {
+          "gain_db": 2.280000000000001,
+          "measurement": {
+            "input_i": "-18.10",
+            "input_tp": "-2.72",
+            "input_lra": "0.00",
+            "input_thresh": "-28.35",
+            "output_i": "-18.00",
+            "output_tp": "-2.62",
+            "output_lra": "0.00",
+            "output_thresh": "-28.25",
+            "normalization_type": "linear",
+            "target_offset": "-0.00"
+          }
+        }
+      ],
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-20.28",
+        "input_tp": "-4.03",
+        "input_lra": "0.00",
+        "input_thresh": "-30.54",
+        "output_i": "-18.76",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-29.02",
+        "normalization_type": "linear",
+        "target_offset": "0.76"
+      },
+      "output_measurement": {
+        "input_i": "-18.10",
+        "input_tp": "-2.72",
+        "input_lra": "0.00",
+        "input_thresh": "-28.35",
+        "output_i": "-18.00",
+        "output_tp": "-2.62",
+        "output_lra": "0.00",
+        "output_thresh": "-28.25",
+        "normalization_type": "linear",
+        "target_offset": "-0.00"
+      },
+      "input_duration": 2.08975,
+      "output_duration": 2.089796,
+      "wav_sha256": "f518cf6c3f0beaa8ba5c206107fae3bfd6803834078ab47eea84030df180bfe9",
+      "ogg_sha256": "ab88caec8d4d4af9b417388c92ad3734b7d724dd4c9d9e4bac836e75ebcfa4ab"
+    },
+    {
+      "id": "razorback_command",
+      "source": "/home/haker/Downloads/I got this command (razorback).mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/I got this command (razorback).mp3",
+      "source_sha256": "fe0247e8a9424adc8bc6961d1eb4b5c6577814095bfda649da503055113f3ddd",
+      "limiter_attempts": [
+        {
+          "gain_db": 5.579999999999998,
+          "measurement": {
+            "input_i": "-18.73",
+            "input_tp": "-2.78",
+            "input_lra": "0.00",
+            "input_thresh": "-28.73",
+            "output_i": "-18.43",
+            "output_tp": "-2.50",
+            "output_lra": "0.00",
+            "output_thresh": "-28.43",
+            "normalization_type": "linear",
+            "target_offset": "0.43"
+          }
+        },
+        {
+          "gain_db": 6.309999999999999,
+          "measurement": {
+            "input_i": "-18.28",
+            "input_tp": "-2.74",
+            "input_lra": "0.00",
+            "input_thresh": "-28.28",
+            "output_i": "-18.02",
+            "output_tp": "-2.50",
+            "output_lra": "0.00",
+            "output_thresh": "-28.02",
+            "normalization_type": "linear",
+            "target_offset": "0.02"
+          }
+        }
+      ],
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-23.58",
+        "input_tp": "-6.05",
+        "input_lra": "0.00",
+        "input_thresh": "-33.58",
+        "output_i": "-20.05",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-30.05",
+        "normalization_type": "linear",
+        "target_offset": "2.05"
+      },
+      "output_measurement": {
+        "input_i": "-18.28",
+        "input_tp": "-2.74",
+        "input_lra": "0.00",
+        "input_thresh": "-28.28",
+        "output_i": "-18.02",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.02",
+        "normalization_type": "linear",
+        "target_offset": "0.02"
+      },
+      "input_duration": 1.28,
+      "output_duration": 1.28,
+      "wav_sha256": "544bf15dc3d67d76cb5d19dcda9d84473a198af79ba8ac162dcdc0cf0f470c93",
+      "ogg_sha256": "93063d8c0f31d7110641e407a17261d983907d1bc70c1fe538f6104e48940c7c"
+    },
+    {
+      "id": "razorback_retreat",
+      "source": "/home/haker/Downloads/Good luck catching me (razorback).mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Good luck catching me (razorback).mp3",
+      "source_sha256": "072779708abce79185a058ca8e026d8c8318bef8bcebc7d70e38467aa16c6f1b",
+      "limiter_attempts": [
+        {
+          "gain_db": 1.9899999999999984,
+          "measurement": {
+            "input_i": "-18.11",
+            "input_tp": "-2.92",
+            "input_lra": "0.00",
+            "input_thresh": "-28.11",
+            "output_i": "-17.99",
+            "output_tp": "-2.81",
+            "output_lra": "0.00",
+            "output_thresh": "-27.99",
+            "normalization_type": "linear",
+            "target_offset": "-0.01"
+          }
+        }
+      ],
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-19.99",
+        "input_tp": "-3.88",
+        "input_lra": "0.00",
+        "input_thresh": "-29.99",
+        "output_i": "-18.62",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.62",
+        "normalization_type": "linear",
+        "target_offset": "0.62"
+      },
+      "output_measurement": {
+        "input_i": "-18.11",
+        "input_tp": "-2.92",
+        "input_lra": "0.00",
+        "input_thresh": "-28.11",
+        "output_i": "-17.99",
+        "output_tp": "-2.81",
+        "output_lra": "0.00",
+        "output_thresh": "-27.99",
+        "normalization_type": "linear",
+        "target_offset": "-0.01"
+      },
+      "input_duration": 1.253875,
+      "output_duration": 1.253878,
+      "wav_sha256": "6f0a521411878845455ccf75d178a3a846a5b715def9379d4d771f2266c0e85b",
+      "ogg_sha256": "13ab51408651837c0f50f825ec51d615cb6aa5a7348d39d34393d14cb8256d8b"
+    },
+    {
+      "id": "unn_crippled",
+      "source": "/home/haker/Downloads/we're going down! UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/we're going down! UNN.mp3",
+      "source_sha256": "785b9095658b24bb5ae50825f4f1433fcd978b3d28e869c7f318ff654d91054e",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-20.93",
+        "input_tp": "-5.28",
+        "input_lra": "0.00",
+        "input_thresh": "-30.93",
+        "output_i": "-18.16",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.16",
+        "normalization_type": "linear",
+        "target_offset": "0.16"
+      },
+      "output_measurement": {
+        "input_i": "-18.17",
+        "input_tp": "-2.31",
+        "input_lra": "0.00",
+        "input_thresh": "-28.17",
+        "output_i": "-18.36",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.36",
+        "normalization_type": "linear",
+        "target_offset": "0.36"
+      },
+      "input_duration": 1.515063,
+      "output_duration": 1.515102,
+      "wav_sha256": "14640f9801a46fc346ec47d0dec5f660c55eeb8fd3118285ce57c60a4b086623",
+      "ogg_sha256": "b4cd3cedf3f79aec179e5e99a41d32cbf4586cfba1f0a8e02ee47744027bd24e"
+    },
+    {
+      "id": "construction",
+      "source": "/home/haker/Downloads/Construction complete.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Construction complete.mp3",
+      "source_sha256": "0231cc18550ef38a16b771ec48d9db746bf60370ea9f8c43e01ff1de3909d176",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-22.71",
+        "input_tp": "-6.93",
+        "input_lra": "0.00",
+        "input_thresh": "-33.47",
+        "output_i": "-18.30",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-29.05",
+        "normalization_type": "linear",
+        "target_offset": "0.30"
+      },
+      "output_measurement": {
+        "input_i": "-18.33",
+        "input_tp": "-2.51",
+        "input_lra": "0.00",
+        "input_thresh": "-29.09",
+        "output_i": "-18.33",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-29.09",
+        "normalization_type": "linear",
+        "target_offset": "0.33"
+      },
+      "input_duration": 1.515063,
+      "output_duration": 1.515102,
+      "wav_sha256": "0e124254bd9b87b10c28df429a6243ff29dd768d5cf450229f6d0fd8657eb0f1",
+      "ogg_sha256": "ab03066d46f532005e9923dc705f49079fa7d25c239db4cfb43e97eed3f7b631"
+    },
+    {
+      "id": "unn_scram",
+      "source": "/home/haker/Downloads/Reactor scrammed UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Reactor scrammed UNN.mp3",
+      "source_sha256": "59b78bb09c1ce054ee9529bb3636b65a78cc7bb6309f8882d4000d9f8218a69e",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-21.02",
+        "input_tp": "-5.41",
+        "input_lra": "0.00",
+        "input_thresh": "-31.02",
+        "output_i": "-18.10",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.10",
+        "normalization_type": "linear",
+        "target_offset": "0.10"
+      },
+      "output_measurement": {
+        "input_i": "-18.14",
+        "input_tp": "-2.54",
+        "input_lra": "0.00",
+        "input_thresh": "-28.14",
+        "output_i": "-18.12",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.12",
+        "normalization_type": "linear",
+        "target_offset": "0.12"
+      },
+      "input_duration": 2.220375,
+      "output_duration": 2.220408,
+      "wav_sha256": "3e7d768a40e9ad3d27804df068d0e1e572f69af6148115c96b4e1045d9c3f8b4",
+      "ogg_sha256": "249f4ec50f49ac4f13ab7dec106212b7d00307dd174a85d6a9bb70a4acaea5bc"
+    },
+    {
+      "id": "unn_juice",
+      "source": "/home/haker/Downloads/Here comes the juice UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Here comes the juice UNN.mp3",
+      "source_sha256": "23025507b3c63026890cb7336548f9ab5511f4f7d50d6855728f1bfa15634acf",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-24.11",
+        "input_tp": "-6.14",
+        "input_lra": "1.30",
+        "input_thresh": "-34.41",
+        "output_i": "-18.33",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.62",
+        "normalization_type": "dynamic",
+        "target_offset": "0.33"
+      },
+      "output_measurement": {
+        "input_i": "-18.49",
+        "input_tp": "-2.35",
+        "input_lra": "1.50",
+        "input_thresh": "-28.79",
+        "output_i": "-18.08",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.37",
+        "normalization_type": "dynamic",
+        "target_offset": "0.08"
+      },
+      "input_duration": 3.422,
+      "output_duration": 3.422041,
+      "wav_sha256": "f9295be0dc4fa8e1e785f9ac54c16d3c9071c4dffa21c1de6b54cc0766a5b176",
+      "ogg_sha256": "d05dcd601f366ebf8b010cfddbc8430ad96c65b35a639f278481d16a7eab8552"
+    },
+    {
+      "id": "unn_helm",
+      "source": "/home/haker/Downloads/helm, bring us about UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/helm, bring us about UNN.mp3",
+      "source_sha256": "b0ed9dfccc59ab29ebd769f41fae4038a99b30c632c7c0389961fd63b83ded45",
+      "limiter_attempts": [
+        {
+          "gain_db": 5.809999999999999,
+          "measurement": {
+            "input_i": "-18.33",
+            "input_tp": "-2.80",
+            "input_lra": "0.00",
+            "input_thresh": "-28.90",
+            "output_i": "-18.03",
+            "output_tp": "-2.50",
+            "output_lra": "0.00",
+            "output_thresh": "-28.60",
+            "normalization_type": "linear",
+            "target_offset": "0.03"
+          }
+        }
+      ],
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-23.81",
+        "input_tp": "-7.28",
+        "input_lra": "0.00",
+        "input_thresh": "-34.38",
+        "output_i": "-19.04",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-29.61",
+        "normalization_type": "linear",
+        "target_offset": "1.04"
+      },
+      "output_measurement": {
+        "input_i": "-18.33",
+        "input_tp": "-2.80",
+        "input_lra": "0.00",
+        "input_thresh": "-28.90",
+        "output_i": "-18.03",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.60",
+        "normalization_type": "linear",
+        "target_offset": "0.03"
+      },
+      "input_duration": 1.906938,
+      "output_duration": 1.906939,
+      "wav_sha256": "6ef8d88d754a65a13afb1bc43ee14eccae96b0c141dfe32a4a1e22c5b6ea3bf8",
+      "ogg_sha256": "35ff2389ff91f0495ef0650f21a0119d228f4015206d5e04d162e66b4b60d8b3"
+    },
+    {
+      "id": "unn_retreat",
+      "source": "/home/haker/Downloads/Retreat scared UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Retreat scared UNN.mp3",
+      "source_sha256": "5a69b9a5571040d9a72d6bb42e612436a09f6777f9cbe609460f6ef0a1ab0ea5",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-22.22",
+        "input_tp": "-6.59",
+        "input_lra": "0.00",
+        "input_thresh": "-32.63",
+        "output_i": "-18.13",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.53",
+        "normalization_type": "linear",
+        "target_offset": "0.13"
+      },
+      "output_measurement": {
+        "input_i": "-18.36",
+        "input_tp": "-2.52",
+        "input_lra": "0.00",
+        "input_thresh": "-28.56",
+        "output_i": "-18.13",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.54",
+        "normalization_type": "linear",
+        "target_offset": "0.13"
+      },
+      "input_duration": 2.40325,
+      "output_duration": 2.403265,
+      "wav_sha256": "675184553d6a62d5610b6335440159b616d05303c731dee72f5b7ff1240e6e0f",
+      "ogg_sha256": "5c252d9aea04049bf1c830d0b08d9b7213d6913f3731f616e509ee3d5ad88d97"
+    },
+    {
+      "id": "unn_cooldown",
+      "source": "/home/haker/Downloads/Ability on cooldown UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Ability on cooldown UNN.mp3",
+      "source_sha256": "a4a3cf09d1e3d7db460774d479247f67b137e8b3d19c93e58b1c90062d534cd9",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-23.22",
+        "input_tp": "-7.81",
+        "input_lra": "0.00",
+        "input_thresh": "-33.91",
+        "output_i": "-18.01",
+        "output_tp": "-2.59",
+        "output_lra": "0.00",
+        "output_thresh": "-28.70",
+        "normalization_type": "linear",
+        "target_offset": "0.01"
+      },
+      "output_measurement": {
+        "input_i": "-18.01",
+        "input_tp": "-2.71",
+        "input_lra": "0.00",
+        "input_thresh": "-28.70",
+        "output_i": "-17.99",
+        "output_tp": "-2.70",
+        "output_lra": "0.00",
+        "output_thresh": "-28.68",
+        "normalization_type": "linear",
+        "target_offset": "-0.01"
+      },
+      "input_duration": 1.671813,
+      "output_duration": 1.671837,
+      "wav_sha256": "617765ebd0ac5f91e2c6b5a3cf49b767f377ce51c4f568b1963390c788ca68a7",
+      "ogg_sha256": "4fdd71003295ce834e9a0d98d221dff5e1705ea822f1e8daec5ad67027b89527"
+    },
+    {
+      "id": "unn_mass_scared",
+      "source": "/home/haker/Downloads/Insufficient reaction mass scaredUNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Insufficient reaction mass scaredUNN.mp3",
+      "source_sha256": "76a981d2b0e82bc049ac4e258576efd9fb8dd24ff1f0e3ac84e8b6871e02199b",
+      "limiter_attempts": [
+        {
+          "gain_db": 3.7300000000000004,
+          "measurement": {
+            "input_i": "-18.35",
+            "input_tp": "-2.89",
+            "input_lra": "0.00",
+            "input_thresh": "-28.97",
+            "output_i": "-18.01",
+            "output_tp": "-2.54",
+            "output_lra": "0.00",
+            "output_thresh": "-28.62",
+            "normalization_type": "linear",
+            "target_offset": "0.01"
+          }
+        }
+      ],
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-21.73",
+        "input_tp": "-3.33",
+        "input_lra": "0.00",
+        "input_thresh": "-32.35",
+        "output_i": "-20.90",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-31.52",
+        "normalization_type": "linear",
+        "target_offset": "2.90"
+      },
+      "output_measurement": {
+        "input_i": "-18.35",
+        "input_tp": "-2.89",
+        "input_lra": "0.00",
+        "input_thresh": "-28.97",
+        "output_i": "-18.01",
+        "output_tp": "-2.54",
+        "output_lra": "0.00",
+        "output_thresh": "-28.62",
+        "normalization_type": "linear",
+        "target_offset": "0.01"
+      },
+      "input_duration": 2.586063,
+      "output_duration": 2.586122,
+      "wav_sha256": "b25665fc8816d639d3c27878bd5e2da051c2ef88eca899957efb9556fff7cfd2",
+      "ogg_sha256": "6115ddf87835c7c13c42218886daf8157418a3ac9b975a92285e3d9de45245d7"
+    },
+    {
+      "id": "unn_mass",
+      "source": "/home/haker/Downloads/Insufficient reaction mass neutralUNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Insufficient reaction mass neutralUNN.mp3",
+      "source_sha256": "dc8eee5ec31bcdb366e75fca7a2279925478fc79db6be0fa3b80059e3a9d4d90",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-23.16",
+        "input_tp": "-7.19",
+        "input_lra": "0.00",
+        "input_thresh": "-33.79",
+        "output_i": "-18.48",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-29.11",
+        "normalization_type": "linear",
+        "target_offset": "0.48"
+      },
+      "output_measurement": {
+        "input_i": "-18.50",
+        "input_tp": "-2.49",
+        "input_lra": "0.00",
+        "input_thresh": "-29.14",
+        "output_i": "-18.50",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-29.14",
+        "normalization_type": "linear",
+        "target_offset": "0.50"
+      },
+      "input_duration": 1.750188,
+      "output_duration": 1.750204,
+      "wav_sha256": "f43a21660f307bd73d2f89af1348100cfebc432e3cd347adebe67bdd745ccffb",
+      "ogg_sha256": "085d8fab46c68441705e16cd7c5aa7ae1ed37102a74435f324a285eb1b719179"
+    },
+    {
+      "id": "unn_rail",
+      "source": "/home/haker/Downloads/warming up railguns UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/warming up railguns UNN.mp3",
+      "source_sha256": "a789bd1505e43c7b987d939ed0d2b67aadcdeb30e72f634b7f47e6da5c67acea",
+      "limiter_attempts": [
+        {
+          "gain_db": 5.899999999999999,
+          "measurement": {
+            "input_i": "-18.07",
+            "input_tp": "-2.94",
+            "input_lra": "0.00",
+            "input_thresh": "-28.40",
+            "output_i": "-18.01",
+            "output_tp": "-2.87",
+            "output_lra": "0.00",
+            "output_thresh": "-28.34",
+            "normalization_type": "linear",
+            "target_offset": "0.01"
+          }
+        }
+      ],
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-23.90",
+        "input_tp": "-5.03",
+        "input_lra": "0.00",
+        "input_thresh": "-34.23",
+        "output_i": "-21.37",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-31.70",
+        "normalization_type": "linear",
+        "target_offset": "3.37"
+      },
+      "output_measurement": {
+        "input_i": "-18.07",
+        "input_tp": "-2.94",
+        "input_lra": "0.00",
+        "input_thresh": "-28.40",
+        "output_i": "-18.01",
+        "output_tp": "-2.87",
+        "output_lra": "0.00",
+        "output_thresh": "-28.34",
+        "normalization_type": "linear",
+        "target_offset": "0.01"
+      },
+      "input_duration": 2.925688,
+      "output_duration": 2.925714,
+      "wav_sha256": "d80fbc832fddecbc490eceea7b71c25584a159caed8c33294f0abdf53028d393",
+      "ogg_sha256": "7ffd3180ac3115ebef1ecb0023c0ded83ce441709f8cb459547f5fd4f39c61a2"
+    },
+    {
+      "id": "unn_contact",
+      "source": "/home/haker/Downloads/Hostile contact PDC's to auto UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Hostile contact PDC's to auto UNN.mp3",
+      "source_sha256": "8ba4c72dccd774c010aea21eff249cd6505fd71498065e5accaa59b45ff20786",
+      "limiter_attempts": [
+        {
+          "gain_db": 5.829999999999998,
+          "measurement": {
+            "input_i": "-18.15",
+            "input_tp": "-2.87",
+            "input_lra": "0.00",
+            "input_thresh": "-28.31",
+            "output_i": "-18.02",
+            "output_tp": "-2.72",
+            "output_lra": "0.00",
+            "output_thresh": "-28.19",
+            "normalization_type": "linear",
+            "target_offset": "0.02"
+          }
+        }
+      ],
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-23.83",
+        "input_tp": "-5.80",
+        "input_lra": "0.00",
+        "input_thresh": "-34.00",
+        "output_i": "-20.53",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-30.70",
+        "normalization_type": "linear",
+        "target_offset": "2.53"
+      },
+      "output_measurement": {
+        "input_i": "-18.15",
+        "input_tp": "-2.87",
+        "input_lra": "0.00",
+        "input_thresh": "-28.31",
+        "output_i": "-18.02",
+        "output_tp": "-2.72",
+        "output_lra": "0.00",
+        "output_thresh": "-28.19",
+        "normalization_type": "linear",
+        "target_offset": "0.02"
+      },
+      "input_duration": 2.951813,
+      "output_duration": 2.951837,
+      "wav_sha256": "11c956f0cca422d1fe55aa2ccf4e2a7655ab407c6602fc90b1723c1c21e15d0b",
+      "ogg_sha256": "da4728ca66cb4e3cdf7a22eebf0410f6e95666e885884186ae69ed294351f1f7"
+    },
+    {
+      "id": "unn_attack",
+      "source": "/home/haker/Downloads/Attack order received.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Attack order received.mp3",
+      "source_sha256": "32a86b533eb90b1808f6e9490fbf30f3bdda170d59609bdbfb141af78a8ba4a1",
+      "limiter_attempts": [
+        {
+          "gain_db": 5.379999999999999,
+          "measurement": {
+            "input_i": "-18.32",
+            "input_tp": "-2.69",
+            "input_lra": "0.00",
+            "input_thresh": "-28.32",
+            "output_i": "-18.15",
+            "output_tp": "-2.50",
+            "output_lra": "0.00",
+            "output_thresh": "-28.15",
+            "normalization_type": "linear",
+            "target_offset": "0.15"
+          }
+        }
+      ],
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-23.38",
+        "input_tp": "-6.62",
+        "input_lra": "0.00",
+        "input_thresh": "-33.38",
+        "output_i": "-19.26",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-29.26",
+        "normalization_type": "linear",
+        "target_offset": "1.26"
+      },
+      "output_measurement": {
+        "input_i": "-18.32",
+        "input_tp": "-2.69",
+        "input_lra": "0.00",
+        "input_thresh": "-28.32",
+        "output_i": "-18.15",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.15",
+        "normalization_type": "linear",
+        "target_offset": "0.15"
+      },
+      "input_duration": 1.488938,
+      "output_duration": 1.48898,
+      "wav_sha256": "9858a6a820570142f80519194e023068fbfa80bb5d3b6be08f5f880f4746f47f",
+      "ogg_sha256": "cdb6b5f3ea691faabefb00a58bba8e05b5c000f587c8691f4e47251a1f161ca6"
+    },
+    {
+      "id": "unn_course",
+      "source": "/home/haker/Downloads/Plotting course correction.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Plotting course correction.mp3",
+      "source_sha256": "cda05e148bbb8741c471729a91765a3f5cfb0b8260da67407b181c40a96d706e",
+      "limiter_attempts": [
+        {
+          "gain_db": 6.550000000000001,
+          "measurement": {
+            "input_i": "-18.39",
+            "input_tp": "-2.84",
+            "input_lra": "0.00",
+            "input_thresh": "-28.72",
+            "output_i": "-18.05",
+            "output_tp": "-2.50",
+            "output_lra": "0.00",
+            "output_thresh": "-28.38",
+            "normalization_type": "linear",
+            "target_offset": "0.05"
+          }
+        }
+      ],
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-24.55",
+        "input_tp": "-4.95",
+        "input_lra": "0.00",
+        "input_thresh": "-34.88",
+        "output_i": "-22.14",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-32.48",
+        "normalization_type": "linear",
+        "target_offset": "4.14"
+      },
+      "output_measurement": {
+        "input_i": "-18.39",
+        "input_tp": "-2.84",
+        "input_lra": "0.00",
+        "input_thresh": "-28.72",
+        "output_i": "-18.05",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.38",
+        "normalization_type": "linear",
+        "target_offset": "0.05"
+      },
+      "input_duration": 1.697938,
+      "output_duration": 1.697959,
+      "wav_sha256": "a3e917b885650deabb1e7a760d0ab11ee1df31a321cd250684e04ebf29d2b3d3",
+      "ogg_sha256": "466b1dfd33ae829757b4414d2719bf2df0627d4db0022a1040729d0c31ab86ad"
+    },
+    {
+      "id": "unn_orders_scared",
+      "source": "/home/haker/Downloads/Looking tough out here UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Looking tough out here UNN.mp3",
+      "source_sha256": "9160e801e85d996c1ef0c6660885cd6382233271eed87ee90495fbac2a203da4",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-23.55",
+        "input_tp": "-6.91",
+        "input_lra": "0.50",
+        "input_thresh": "-33.70",
+        "output_i": "-17.93",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.09",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.07"
+      },
+      "output_measurement": {
+        "input_i": "-18.16",
+        "input_tp": "-2.45",
+        "input_lra": "0.50",
+        "input_thresh": "-28.31",
+        "output_i": "-17.85",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.01",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.15"
+      },
+      "input_duration": 3.108563,
+      "output_duration": 3.108571,
+      "wav_sha256": "29d194f8071a8f25e7252e73a54e7724a257ad47dce95fc4cbc8b87a663140e6",
+      "ogg_sha256": "ac056237d99eec96d1a4cbb6252e3fa16650695ed753a3c8770dde3e272e3e1e"
+    },
+    {
+      "id": "unn_duty",
+      "source": "/home/haker/Downloads/Reporting for Duty UNN.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Reporting for Duty UNN.mp3",
+      "source_sha256": "b4f4a4375596906b55ed449e193bd116f7297817d3583576d9a11de87e33973e",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-23.85",
+        "input_tp": "-8.38",
+        "input_lra": "0.50",
+        "input_thresh": "-34.33",
+        "output_i": "-17.33",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-27.82",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.67"
+      },
+      "output_measurement": {
+        "input_i": "-18.00",
+        "input_tp": "-2.49",
+        "input_lra": "0.40",
+        "input_thresh": "-28.48",
+        "output_i": "-17.32",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-27.81",
+        "normalization_type": "dynamic",
+        "target_offset": "-0.68"
+      },
+      "input_duration": 3.186938,
+      "output_duration": 3.186939,
+      "wav_sha256": "f790d388d13c7d7ed5df5d4198282714d1e771b9071ac893e47e762d562be5f0",
+      "ogg_sha256": "4f66bf8037a112c6799910f80b2f3b35e76acd70cbfc40317e65c752edef2c63"
+    },
+    {
+      "id": "morrigan",
+      "source": "/home/haker/Downloads/Morrigan awaiting orders.mp3",
+      "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17/Morrigan awaiting orders.mp3",
+      "source_sha256": "026ecff8e4feb60e042067b04d8d51fe507abdde2817281328b32a76d442c445",
+      "status": "PASS measured normalization",
+      "input_measurement": {
+        "input_i": "-24.13",
+        "input_tp": "-8.13",
+        "input_lra": "0.00",
+        "input_thresh": "-34.13",
+        "output_i": "-18.50",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.50",
+        "normalization_type": "linear",
+        "target_offset": "0.50"
+      },
+      "output_measurement": {
+        "input_i": "-18.49",
+        "input_tp": "-2.59",
+        "input_lra": "0.00",
+        "input_thresh": "-28.49",
+        "output_i": "-18.39",
+        "output_tp": "-2.50",
+        "output_lra": "0.00",
+        "output_thresh": "-28.39",
+        "normalization_type": "linear",
+        "target_offset": "0.39"
+      },
+      "input_duration": 2.272625,
+      "output_duration": 2.272653,
+      "wav_sha256": "442be3de10989555b729319dfec75491a4eb2257e886c7116ca8baae80ffc67a",
+      "ogg_sha256": "61f86167a18d4fc36f3655c54ce258157862a920ef429a271aa3c820e70b9782"
+    }
+  ],
+  "target_lufs": -18.0,
+  "tolerance_lufs": 0.6,
+  "true_peak_limit_dbtp": -1.5,
+  "sample_rate": 44100,
+  "channels": 1,
+  "codec": "Vorbis q6",
+  "timing": "Full clip preserved; no trimming or missing-word reconstruction",
+  "listening": "NOT RUN",
+  "runtime": "NOT RUN",
+  "ffmpeg": "ffmpeg version 8.0.1-3ubuntu2+esm4 Copyright (c) 2000-2025 the FFmpeg developers"
+}

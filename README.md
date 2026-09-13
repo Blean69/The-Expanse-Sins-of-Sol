@@ -1,6 +1,6 @@
 # The Expanse — Sins II corvette prototype
 
-**Current update: [0.16 Battleship balance patch](docs/update16.md).** Extends Truman/Donnager PDC range, halves Truman rail firing rate, increases Donnager light volleys to twelve torpedoes and narrows Scirocco gun supports. Full 0.15 fleet, research and audio retained. Offline checks pass; new runtime/save/multiplayer tests remain pending. Load alone as TEC Enclave; [0.15 rollback](docs/update15.md) is preserved.
+**Current update: [0.17 Fleet voices](docs/update17.md).** Adds 23 normalized ship recordings, distinct fleet introductions and UNN crew responses. Full 0.16 gameplay, models, music and PDC audio retained. Offline checks pass; listening and in-game voice/save/multiplayer tests remain pending. Load alone as TEC Enclave; [0.16 rollback](docs/update16.md) is preserved.
 
 The user has now observed **individual PDC tracking and good tracer appearance** in the polish prototype. Residual hull holes and floating turret supports remain recorded defects. The working **0.2.1** package and installed copy are preserved. New work is staged separately under `build/experiments/expanse_corvette_ammo03` and `build/experiments/expanse_rocinante03`; see [0.3 handoff](docs/combat03.md) for exact package availability and runtime limits.
 

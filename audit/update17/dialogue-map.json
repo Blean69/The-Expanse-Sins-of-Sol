@@ -1,0 +1,788 @@
+{
+  "expanse15_missile_defense": {
+    "selected": {
+      "neutral": [
+        "expanse17_voice_platform"
+      ],
+      "scared": [
+        "expanse17_voice_platform"
+      ]
+    },
+    "spawned": {
+      "neutral": [
+        "expanse17_voice_platform"
+      ]
+    }
+  },
+  "expanse12_scirocco": {
+    "attack_order_issued": {
+      "neutral": [
+        "expanse10_donnager_railguns",
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_attack",
+        "expanse10_donnager_contact",
+        "expanse10_donnager_hammers"
+      ],
+      "smug": [
+        "expanse10_donnager_hammers"
+      ],
+      "scared": [
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_hammers",
+        "expanse10_donnager_contact"
+      ]
+    },
+    "order_issued": {
+      "neutral": [
+        "expanse10_donnager_course"
+      ]
+    },
+    "selected": {
+      "scared": [
+        "expanse17_voice_mcrn_orders"
+      ],
+      "neutral": [
+        "expanse17_voice_mcrn_orders"
+      ]
+    },
+    "insufficient_antimatter": {
+      "neutral": [
+        "expanse10_donnager_reaction_mass"
+      ],
+      "scared": [
+        "expanse10_donnager_reaction_mass_scared"
+      ]
+    },
+    "ability_cooldown_is_not_completed": {
+      "neutral": [
+        "expanse10_donnager_cooldown"
+      ]
+    },
+    "armor_down": {
+      "scared": [
+        "expanse10_donnager_armor"
+      ]
+    },
+    "retreat": {
+      "neutral": [
+        "expanse10_donnager_retreat"
+      ],
+      "scared": [
+        "expanse10_donnager_retreat_scared"
+      ]
+    },
+    "hyperspace_charge_started": {
+      "neutral": [
+        "expanse10_donnager_juice"
+      ]
+    },
+    "became_crippled": {
+      "scared": [
+        "expanse10_donnager_crippled"
+      ],
+      "neutral": [
+        "expanse10_donnager_crippled"
+      ]
+    },
+    "spawned": {
+      "neutral": [
+        "expanse17_voice_scirocco"
+      ]
+    },
+    "cannot_hyperspace": {
+      "neutral": [
+        "expanse10_donnager_reactor_scram"
+      ]
+    },
+    "ship_component_finished_building": {
+      "neutral": [
+        "expanse17_voice_construction"
+      ]
+    },
+    "destroyed": {
+      "neutral": [
+        "expanse10_donnager_destroyed"
+      ],
+      "scared": [
+        "expanse10_donnager_destroyed"
+      ]
+    }
+  },
+  "expanse12_raptor": {
+    "attack_order_issued": {
+      "neutral": [
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_attack",
+        "expanse10_donnager_contact"
+      ],
+      "scared": [
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_contact"
+      ]
+    },
+    "order_issued": {
+      "neutral": [
+        "expanse10_donnager_course"
+      ]
+    },
+    "selected": {
+      "scared": [
+        "expanse17_voice_mcrn_orders"
+      ],
+      "neutral": [
+        "expanse17_voice_mcrn_orders"
+      ]
+    },
+    "insufficient_antimatter": {
+      "neutral": [
+        "expanse10_donnager_reaction_mass"
+      ],
+      "scared": [
+        "expanse10_donnager_reaction_mass_scared"
+      ]
+    },
+    "ability_cooldown_is_not_completed": {
+      "neutral": [
+        "expanse10_donnager_cooldown"
+      ]
+    },
+    "armor_down": {
+      "scared": [
+        "expanse10_donnager_armor"
+      ]
+    },
+    "retreat": {
+      "neutral": [
+        "expanse10_donnager_retreat"
+      ],
+      "scared": [
+        "expanse10_donnager_retreat_scared"
+      ]
+    },
+    "hyperspace_charge_started": {
+      "neutral": [
+        "expanse10_donnager_juice"
+      ]
+    },
+    "became_crippled": {
+      "scared": [
+        "expanse10_donnager_crippled"
+      ],
+      "neutral": [
+        "expanse10_donnager_crippled"
+      ]
+    },
+    "spawned": {
+      "neutral": [
+        "expanse17_voice_raptor"
+      ]
+    },
+    "cannot_hyperspace": {
+      "neutral": [
+        "expanse10_donnager_reactor_scram"
+      ]
+    },
+    "ship_component_finished_building": {
+      "neutral": [
+        "expanse17_voice_construction"
+      ]
+    },
+    "destroyed": {
+      "neutral": [
+        "expanse10_donnager_destroyed"
+      ],
+      "scared": [
+        "expanse10_donnager_destroyed"
+      ]
+    }
+  },
+  "expanse_mcrn_corvette": {
+    "spawned": {
+      "neutral": [
+        "trader_light_frigate_spawned_neutral_0"
+      ]
+    },
+    "selected": {
+      "neutral": [
+        "expanse17_voice_mcrn_orders"
+      ],
+      "scared": [
+        "trader_light_frigate_selected_scared_0_placeholder",
+        "trader_light_frigate_selected_scared_1_placeholder",
+        "trader_light_frigate_selected_scared_2_placeholder"
+      ]
+    },
+    "order_issued": {
+      "neutral": [
+        "trader_light_frigate_order_issued_neutral_0",
+        "trader_light_frigate_order_issued_neutral_1",
+        "trader_light_frigate_order_issued_neutral_2"
+      ],
+      "scared": [
+        "trader_light_frigate_order_issued_scared_0_placeholder",
+        "trader_light_frigate_order_issued_scared_1_placeholder",
+        "trader_light_frigate_order_issued_scared_2_placeholder"
+      ]
+    },
+    "attack_order_issued": {
+      "neutral": [
+        "trader_light_frigate_attack_order_issued_neutral_0",
+        "trader_light_frigate_attack_order_issued_neutral_1",
+        "trader_light_frigate_attack_order_issued_neutral_2",
+        "trader_light_frigate_attack_order_issued_neutral_3_placeholder"
+      ],
+      "scared": [
+        "trader_light_frigate_attack_order_issued_scared_0_placeholder",
+        "trader_light_frigate_attack_order_issued_scared_1_placeholder",
+        "trader_light_frigate_attack_order_issued_scared_2_placeholder",
+        "trader_light_frigate_attack_order_issued_scared_3_placeholder"
+      ],
+      "smug": [
+        "trader_light_frigate_attack_order_issued_smug_0_placeholder",
+        "trader_light_frigate_attack_order_issued_smug_1_placeholder",
+        "trader_light_frigate_attack_order_issued_smug_2_placeholder",
+        "trader_light_frigate_attack_order_issued_smug_3_placeholder"
+      ]
+    },
+    "hyperspace_charge_started": {
+      "neutral": [
+        "trader_light_frigate_hyperspace_charge_started_neutral_0"
+      ]
+    }
+  },
+  "expanse12_pella": {
+    "attack_order_issued": {
+      "neutral": [
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_attack",
+        "expanse10_donnager_contact"
+      ],
+      "scared": [
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_contact"
+      ]
+    },
+    "order_issued": {
+      "neutral": [
+        "expanse10_donnager_course"
+      ]
+    },
+    "selected": {
+      "scared": [
+        "expanse10_donnager_orders_scared"
+      ],
+      "neutral": [
+        "expanse17_voice_pella",
+        "expanse10_donnager_orders_scared"
+      ]
+    },
+    "insufficient_antimatter": {
+      "neutral": [
+        "expanse10_donnager_reaction_mass"
+      ],
+      "scared": [
+        "expanse10_donnager_reaction_mass_scared"
+      ]
+    },
+    "ability_cooldown_is_not_completed": {
+      "neutral": [
+        "expanse10_donnager_cooldown"
+      ]
+    },
+    "armor_down": {
+      "scared": [
+        "expanse10_donnager_armor"
+      ]
+    },
+    "retreat": {
+      "neutral": [
+        "expanse10_donnager_retreat"
+      ],
+      "scared": [
+        "expanse10_donnager_retreat_scared"
+      ]
+    },
+    "hyperspace_charge_started": {
+      "neutral": [
+        "expanse10_donnager_juice"
+      ]
+    },
+    "became_crippled": {
+      "scared": [
+        "expanse10_donnager_crippled"
+      ],
+      "neutral": [
+        "expanse10_donnager_crippled"
+      ]
+    },
+    "spawned": {
+      "neutral": [
+        "expanse17_voice_pella"
+      ]
+    },
+    "cannot_hyperspace": {
+      "neutral": [
+        "expanse10_donnager_reactor_scram"
+      ]
+    },
+    "ship_component_finished_building": {
+      "neutral": [
+        "expanse17_voice_construction"
+      ]
+    },
+    "destroyed": {
+      "neutral": [
+        "expanse10_donnager_destroyed"
+      ],
+      "scared": [
+        "expanse10_donnager_destroyed"
+      ]
+    }
+  },
+  "trader_scout_corvette": {
+    "order_issued": {
+      "neutral": [
+        "expanse17_voice_razorback_command"
+      ]
+    },
+    "selected": {
+      "scared": [
+        "expanse17_voice_razorback_retreat"
+      ],
+      "neutral": [
+        "expanse17_voice_razorback_retreat"
+      ]
+    },
+    "insufficient_antimatter": {
+      "neutral": [
+        "expanse10_donnager_reaction_mass"
+      ],
+      "scared": [
+        "expanse10_donnager_reaction_mass_scared"
+      ]
+    },
+    "ability_cooldown_is_not_completed": {
+      "neutral": [
+        "expanse10_donnager_cooldown"
+      ]
+    },
+    "armor_down": {
+      "scared": [
+        "expanse10_donnager_armor"
+      ]
+    },
+    "retreat": {
+      "neutral": [
+        "expanse17_voice_razorback_retreat"
+      ],
+      "scared": [
+        "expanse17_voice_razorback_retreat"
+      ]
+    },
+    "hyperspace_charge_started": {
+      "neutral": [
+        "expanse10_donnager_juice"
+      ]
+    },
+    "became_crippled": {
+      "scared": [
+        "expanse10_donnager_crippled"
+      ],
+      "neutral": [
+        "expanse10_donnager_crippled"
+      ]
+    },
+    "spawned": {
+      "neutral": [
+        "expanse17_voice_razorback_command"
+      ]
+    },
+    "cannot_hyperspace": {
+      "neutral": [
+        "expanse10_donnager_reactor_scram"
+      ]
+    },
+    "ship_component_finished_building": {
+      "neutral": [
+        "expanse10_donnager_construction"
+      ]
+    },
+    "destroyed": {
+      "neutral": [
+        "expanse10_donnager_destroyed"
+      ],
+      "scared": [
+        "expanse10_donnager_destroyed"
+      ]
+    }
+  },
+  "trader_light_frigate": {
+    "attack_order_issued": {
+      "neutral": [
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_attack",
+        "expanse10_donnager_contact"
+      ],
+      "scared": [
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_contact"
+      ]
+    },
+    "order_issued": {
+      "neutral": [
+        "expanse10_donnager_course"
+      ]
+    },
+    "selected": {
+      "scared": [
+        "expanse17_voice_morrigan"
+      ],
+      "neutral": [
+        "expanse17_voice_morrigan"
+      ]
+    },
+    "insufficient_antimatter": {
+      "neutral": [
+        "expanse10_donnager_reaction_mass"
+      ],
+      "scared": [
+        "expanse10_donnager_reaction_mass_scared"
+      ]
+    },
+    "ability_cooldown_is_not_completed": {
+      "neutral": [
+        "expanse10_donnager_cooldown"
+      ]
+    },
+    "armor_down": {
+      "scared": [
+        "expanse10_donnager_armor"
+      ]
+    },
+    "retreat": {
+      "neutral": [
+        "expanse10_donnager_retreat"
+      ],
+      "scared": [
+        "expanse10_donnager_retreat_scared"
+      ]
+    },
+    "hyperspace_charge_started": {
+      "neutral": [
+        "expanse10_donnager_juice"
+      ]
+    },
+    "became_crippled": {
+      "scared": [
+        "expanse10_donnager_crippled"
+      ],
+      "neutral": [
+        "expanse10_donnager_crippled"
+      ]
+    },
+    "spawned": {
+      "neutral": [
+        "expanse17_voice_morrigan"
+      ]
+    },
+    "cannot_hyperspace": {
+      "neutral": [
+        "expanse10_donnager_reactor_scram"
+      ]
+    },
+    "ship_component_finished_building": {
+      "neutral": [
+        "expanse10_donnager_construction"
+      ]
+    },
+    "destroyed": {
+      "neutral": [
+        "expanse10_donnager_destroyed"
+      ],
+      "scared": [
+        "expanse10_donnager_destroyed"
+      ]
+    }
+  },
+  "expanse15_truman": {
+    "spawned": {
+      "neutral": [
+        "expanse17_voice_unn_duty"
+      ]
+    },
+    "selected": {
+      "neutral": [
+        "expanse17_voice_unn_duty"
+      ],
+      "scared": [
+        "expanse17_voice_unn_orders_scared"
+      ]
+    },
+    "order_issued": {
+      "neutral": [
+        "expanse17_voice_unn_course",
+        "expanse17_voice_unn_helm"
+      ],
+      "scared": [
+        "expanse17_voice_unn_helm",
+        "expanse17_voice_unn_course"
+      ]
+    },
+    "attack_order_issued": {
+      "neutral": [
+        "expanse17_voice_unn_attack",
+        "expanse17_voice_unn_contact",
+        "expanse17_voice_unn_rail"
+      ],
+      "scared": [
+        "expanse17_voice_unn_contact"
+      ],
+      "smug": [
+        "expanse17_voice_unn_attack"
+      ]
+    },
+    "retreat": {
+      "neutral": [
+        "expanse17_voice_unn_retreat"
+      ],
+      "scared": [
+        "expanse17_voice_unn_retreat"
+      ]
+    },
+    "hyperspace_charge_started": {
+      "neutral": [
+        "expanse17_voice_unn_juice"
+      ]
+    },
+    "cannot_hyperspace": {
+      "neutral": [
+        "expanse17_voice_unn_scram"
+      ],
+      "scared": [
+        "expanse17_voice_unn_scram"
+      ]
+    },
+    "armor_down": {
+      "scared": [
+        "trader_battle_capital_ship_armor_down_scared_0"
+      ]
+    },
+    "became_crippled": {
+      "neutral": [
+        "expanse17_voice_unn_crippled"
+      ],
+      "scared": [
+        "expanse17_voice_unn_crippled"
+      ]
+    },
+    "destroyed": {
+      "neutral": [
+        "trader_battle_capital_ship_destroyed_neutral_0"
+      ],
+      "scared": [
+        "trader_battle_capital_ship_destroyed_scared_0"
+      ]
+    },
+    "ship_component_finished_building": {
+      "neutral": [
+        "expanse17_voice_construction"
+      ]
+    },
+    "ability_cooldown_is_not_completed": {
+      "neutral": [
+        "expanse17_voice_unn_cooldown"
+      ],
+      "scared": [
+        "expanse17_voice_unn_cooldown"
+      ]
+    },
+    "insufficient_antimatter": {
+      "neutral": [
+        "expanse17_voice_unn_mass"
+      ],
+      "scared": [
+        "expanse17_voice_unn_mass_scared"
+      ]
+    }
+  },
+  "expanse_amun_ra": {
+    "spawned": {
+      "neutral": [
+        "expanse17_voice_unn_duty"
+      ]
+    },
+    "selected": {
+      "neutral": [
+        "expanse17_voice_unn_duty"
+      ],
+      "scared": [
+        "expanse17_voice_unn_orders_scared"
+      ]
+    },
+    "order_issued": {
+      "neutral": [
+        "expanse17_voice_unn_course",
+        "expanse17_voice_unn_helm"
+      ],
+      "scared": [
+        "expanse17_voice_unn_helm",
+        "expanse17_voice_unn_course"
+      ]
+    },
+    "attack_order_issued": {
+      "neutral": [
+        "expanse17_voice_unn_attack",
+        "expanse17_voice_unn_contact",
+        "expanse17_voice_unn_rail"
+      ],
+      "scared": [
+        "expanse17_voice_unn_contact"
+      ],
+      "smug": [
+        "expanse17_voice_unn_attack"
+      ]
+    },
+    "hyperspace_charge_started": {
+      "neutral": [
+        "expanse17_voice_unn_juice"
+      ]
+    },
+    "cannot_hyperspace": {
+      "neutral": [
+        "expanse17_voice_unn_scram"
+      ],
+      "scared": [
+        "expanse17_voice_unn_scram"
+      ]
+    },
+    "ability_cooldown_is_not_completed": {
+      "neutral": [
+        "expanse17_voice_unn_cooldown"
+      ],
+      "scared": [
+        "expanse17_voice_unn_cooldown"
+      ]
+    },
+    "insufficient_antimatter": {
+      "neutral": [
+        "expanse17_voice_unn_mass"
+      ],
+      "scared": [
+        "expanse17_voice_unn_mass_scared"
+      ]
+    },
+    "became_crippled": {
+      "neutral": [
+        "expanse17_voice_unn_crippled"
+      ],
+      "scared": [
+        "expanse17_voice_unn_crippled"
+      ]
+    },
+    "retreat": {
+      "neutral": [
+        "expanse17_voice_unn_retreat"
+      ],
+      "scared": [
+        "expanse17_voice_unn_retreat"
+      ]
+    }
+  },
+  "expanse_donnager_battleship": {
+    "attack_order_issued": {
+      "neutral": [
+        "expanse10_donnager_railguns",
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_attack",
+        "expanse10_donnager_contact",
+        "expanse10_donnager_hammers"
+      ],
+      "smug": [
+        "expanse10_donnager_hammers"
+      ],
+      "scared": [
+        "expanse10_donnager_bogies",
+        "expanse10_donnager_hammers",
+        "expanse10_donnager_contact"
+      ]
+    },
+    "order_issued": {
+      "neutral": [
+        "expanse10_donnager_course",
+        "expanse10_donnager_duty"
+      ]
+    },
+    "selected": {
+      "scared": [
+        "expanse10_donnager_orders_scared"
+      ],
+      "neutral": [
+        "expanse10_donnager_standing_by",
+        "expanse10_donnager_duty",
+        "expanse10_donnager_orders_scared"
+      ]
+    },
+    "insufficient_antimatter": {
+      "neutral": [
+        "expanse10_donnager_reaction_mass"
+      ],
+      "scared": [
+        "expanse10_donnager_reaction_mass_scared"
+      ]
+    },
+    "ability_cooldown_is_not_completed": {
+      "neutral": [
+        "expanse10_donnager_cooldown"
+      ]
+    },
+    "armor_down": {
+      "scared": [
+        "expanse10_donnager_armor"
+      ]
+    },
+    "retreat": {
+      "neutral": [
+        "expanse10_donnager_retreat"
+      ],
+      "scared": [
+        "expanse10_donnager_retreat_scared"
+      ]
+    },
+    "hyperspace_charge_started": {
+      "neutral": [
+        "expanse10_donnager_juice"
+      ]
+    },
+    "became_crippled": {
+      "scared": [
+        "expanse10_donnager_crippled"
+      ],
+      "neutral": [
+        "expanse10_donnager_crippled"
+      ]
+    },
+    "spawned": {
+      "neutral": [
+        "expanse10_donnager_duty"
+      ]
+    },
+    "cannot_hyperspace": {
+      "neutral": [
+        "expanse10_donnager_reactor_scram"
+      ]
+    },
+    "ship_component_finished_building": {
+      "neutral": [
+        "expanse17_voice_construction"
+      ]
+    },
+    "destroyed": {
+      "neutral": [
+        "expanse10_donnager_destroyed"
+      ],
+      "scared": [
+        "expanse10_donnager_destroyed"
+      ]
+    }
+  }
+}
