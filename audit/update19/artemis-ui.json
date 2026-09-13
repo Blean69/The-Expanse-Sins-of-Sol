@@ -1,0 +1,32 @@
+{
+  "skin_patches": [
+    {
+      "pointer": "/skin_stages/0/gui/hud_icon",
+      "value": "expanse19_artemis_hud_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_monochrome_icon",
+      "value": "expanse19_artemis_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_picture",
+      "value": "expanse19_artemis_hud_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/tooltip_picture",
+      "value": "expanse19_artemis_tooltip_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/icon",
+      "value": "expanse19_artemis_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/selected_icon",
+      "value": "expanse19_artemis_main_view_icon_selected"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/sub_selected_icon",
+      "value": "expanse19_artemis_main_view_icon_sub_selected"
+    }
+  ]
+}

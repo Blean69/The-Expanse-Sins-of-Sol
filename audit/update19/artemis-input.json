@@ -1,0 +1,1049 @@
+{
+  "source": "Artemis_Hauler/Full_Hull_Exterior",
+  "source_center": [
+    -0.2949190139770508,
+    0.49422740936279297,
+    12.185483932495117
+  ],
+  "source_to_game_rotation": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "game_units_per_metre": 2.282608695652174,
+  "counts": {
+    "hull": 77478
+  },
+  "hull_mesh": "expanse19_artemis_hull",
+  "ship_spatial": {
+    "box": {
+      "center": [
+        8.70746114856047e-06,
+        0.05911930747653926,
+        -0.017014379086703002
+      ],
+      "extents": [
+        67.92194335357003,
+        57.419704665308416,
+        168.50174219711965
+      ]
+    },
+    "radius": 172.2898558953814,
+    "bounds_min": [
+      -67.92193464610888,
+      -57.36058535783187,
+      -168.51875657620636
+    ],
+    "bounds_max": [
+      67.92195206103118,
+      57.47882397278495,
+      168.48472781803295
+    ]
+  },
+  "optimization": [
+    {
+      "material": "MI_Struct_DoorAirlockDbl02A_DoorSign",
+      "source_triangles": 15194,
+      "output_triangles": 820,
+      "relative_error": 0.0007906226674094796,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_TilesArtemisExt01A",
+      "source_triangles": 8470,
+      "output_triangles": 457,
+      "relative_error": 0.0015491275116801262,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_ArtemisExtTrim01A",
+      "source_triangles": 86966,
+      "output_triangles": 4692,
+      "relative_error": 0.0036428917665034533,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_ArtemisExtTrim02A",
+      "source_triangles": 81070,
+      "output_triangles": 4374,
+      "relative_error": 0.0039050201885402203,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_ArtemisExt_MetalPainted01A",
+      "source_triangles": 43388,
+      "output_triangles": 2295,
+      "relative_error": 0.00218312069773674,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_EngThrusterInt01A",
+      "source_triangles": 8064,
+      "output_triangles": 434,
+      "relative_error": 0.0016837776638567448,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_EngineThusterCone01A",
+      "source_triangles": 119762,
+      "output_triangles": 6461,
+      "relative_error": 0.000621435756329447,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_metalDark",
+      "source_triangles": 278227,
+      "output_triangles": 15008,
+      "relative_error": 0.0009610345587134361,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_TrimPanel01A",
+      "source_triangles": 1548,
+      "output_triangles": 84,
+      "relative_error": 0.0029285610653460026,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_HallHexTrim01A",
+      "source_triangles": 12016,
+      "output_triangles": 635,
+      "relative_error": 0.0028362085577100515,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_PanelWall01A",
+      "source_triangles": 12220,
+      "output_triangles": 651,
+      "relative_error": 0.0019606787245720625,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Decal_LargeAssetEmissive01A",
+      "omitted": "Separate decal overlay needs alpha-channel/shader baking; avoid opaque rectangular panels"
+    },
+    {
+      "material": "MI_Struct_FloorFrame02A",
+      "source_triangles": 4820,
+      "output_triangles": 260,
+      "relative_error": 0.004579405765980482,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_AirlockTrim01A",
+      "source_triangles": 73075,
+      "output_triangles": 3500,
+      "relative_error": 0.003084723837673664,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_DoorAirlockDbl02A_DoorSign",
+      "source_triangles": 96,
+      "output_triangles": 60,
+      "relative_error": 0.000684866972733289,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_PanelWall01B_Darker",
+      "source_triangles": 130178,
+      "output_triangles": 7021,
+      "relative_error": 0.0013366065686568618,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_DoorAirlockCargo01A",
+      "source_triangles": 1568,
+      "output_triangles": 368,
+      "relative_error": 0.005999719258397818,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Bin_ShippingContainer01E",
+      "source_triangles": 5212,
+      "output_triangles": 734,
+      "relative_error": 0.00558497104793787,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Bin_ShippingContainer01D",
+      "source_triangles": 2632,
+      "output_triangles": 374,
+      "relative_error": 0.005555934272706509,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Bin_ShippingContainerHex01B",
+      "source_triangles": 5464,
+      "output_triangles": 292,
+      "relative_error": 0.004736509174108505,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Bin_ShippingContainerHex01C",
+      "source_triangles": 4152,
+      "output_triangles": 222,
+      "relative_error": 0.003951624035835266,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Bin_ShippingContainerHex01A",
+      "source_triangles": 2842,
+      "output_triangles": 146,
+      "relative_error": 0.004415000323206186,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Bin_ShippingContainer01A",
+      "source_triangles": 9836,
+      "output_triangles": 1469,
+      "relative_error": 0.005996618885546923,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Bin_ShippingContainer01C",
+      "source_triangles": 3852,
+      "output_triangles": 207,
+      "relative_error": 0.002913371892645955,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Bin_ShippingContainer01B",
+      "source_triangles": 4196,
+      "output_triangles": 694,
+      "relative_error": 0.005997324828058481,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Decal_BelterShips01A",
+      "omitted": "Separate decal overlay needs alpha-channel/shader baking; avoid opaque rectangular panels"
+    },
+    {
+      "material": "MI_Struct_PanelWall01C",
+      "source_triangles": 67264,
+      "output_triangles": 3628,
+      "relative_error": 0.0022893797140568495,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_TilesArtemisExtGreeble01A",
+      "source_triangles": 18040,
+      "output_triangles": 1250,
+      "relative_error": 0.005857835058122873,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_FloorGrate02B",
+      "source_triangles": 728,
+      "output_triangles": 152,
+      "relative_error": 0.000820882327388972,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_TilesArtemisExtGreeble01B",
+      "source_triangles": 2281,
+      "output_triangles": 331,
+      "relative_error": 0.005994914099574089,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_TrimWallTech01A",
+      "source_triangles": 40,
+      "output_triangles": 40,
+      "relative_error": 0.0,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_Void",
+      "source_triangles": 758,
+      "output_triangles": 60,
+      "relative_error": 0.0026609154883772135,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_ArtemisExtFrame01a",
+      "source_triangles": 337204,
+      "output_triangles": 18162,
+      "relative_error": 0.0012915055267512798,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_Floor01A_Tile",
+      "source_triangles": 23644,
+      "output_triangles": 1274,
+      "relative_error": 0.001594381406903267,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_Floor04B_Tile",
+      "source_triangles": 3456,
+      "output_triangles": 186,
+      "relative_error": 0.0010528010316193104,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_PaintingHullArtemis01A",
+      "source_triangles": 2,
+      "output_triangles": 2,
+      "relative_error": 0.0,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Tech_BoomArmContainmentVault01A",
+      "source_triangles": 5796,
+      "output_triangles": 294,
+      "relative_error": 0.0029623322188854218,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_DoorAirlockSingle02A",
+      "source_triangles": 5344,
+      "output_triangles": 974,
+      "relative_error": 0.005971358623355627,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Decal_ShippingContainers",
+      "omitted": "Separate decal overlay needs alpha-channel/shader baking; avoid opaque rectangular panels"
+    },
+    {
+      "material": "MI_Decal_StencilText01A",
+      "omitted": "Separate decal overlay needs alpha-channel/shader baking; avoid opaque rectangular panels"
+    },
+    {
+      "material": "MI_Decal_Industrial01A",
+      "omitted": "Separate decal overlay needs alpha-channel/shader baking; avoid opaque rectangular panels"
+    }
+  ],
+  "editable_source": "/run/media/haker/NVME 2/expanse-workers19/haulers/assets/derived/update19-haulers/expanse19_artemis_editable.gltf",
+  "equipment": {
+    "exhausts": [
+      {
+        "position": [
+          -22.379884859400207,
+          -0.06290278224115792,
+          -168.76577854156494
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_position_metres": [
+          -10.09944,
+          0.46667,
+          -61.75
+        ],
+        "placement": "Three measured circular aft engine mouth centers, verify plume alignment in game"
+      },
+      {
+        "position": [
+          1.4463042710345724,
+          -0.06290278224115792,
+          -168.76577854156494
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_position_metres": [
+          0.3387,
+          0.46667,
+          -61.75
+        ],
+        "placement": "Three measured circular aft engine mouth centers, verify plume alignment in game"
+      },
+      {
+        "position": [
+          25.272493401469355,
+          -0.06290278224115792,
+          -168.76577854156494
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_position_metres": [
+          10.77684,
+          0.46667,
+          -61.75
+        ],
+        "placement": "Three measured circular aft engine mouth centers, verify plume alignment in game"
+      }
+    ],
+    "exhaust": {
+      "position": [
+        -22.379884859400207,
+        -0.06290278224115792,
+        -168.76577854156494
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_position_metres": [
+        -10.09944,
+        0.46667,
+        -61.75
+      ],
+      "placement": "Three measured circular aft engine mouth centers, verify plume alignment in game"
+    }
+  },
+  "meshpoints": {
+    "hull": [
+      {
+        "name": "center",
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0,
+          62.47882397278495,
+          0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0,
+          -62.36058535783187,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          -22.379884859400207,
+          -0.06290278224115792,
+          -168.76577854156494
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.1",
+        "translation": [
+          1.4463042710345724,
+          -0.06290278224115792,
+          -168.76577854156494
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.2",
+        "translation": [
+          25.272493401469355,
+          -0.06290278224115792,
+          -168.76577854156494
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "materials": [
+    "expanse19_artemis_hull_mat_07967afc67",
+    "expanse19_artemis_hull_mat_0d21871c90",
+    "expanse19_artemis_hull_mat_1fcabfded4",
+    "expanse19_artemis_hull_mat_295a1cee9e",
+    "expanse19_artemis_hull_mat_30c00fa233",
+    "expanse19_artemis_hull_mat_3fa29d493b",
+    "expanse19_artemis_hull_mat_403d81c191",
+    "expanse19_artemis_hull_mat_43e1b9d2ac",
+    "expanse19_artemis_hull_mat_53b3bd7168",
+    "expanse19_artemis_hull_mat_57f9cf3b3c",
+    "expanse19_artemis_hull_mat_81f11f8011",
+    "expanse19_artemis_hull_mat_842bd5dbdd",
+    "expanse19_artemis_hull_mat_89520bb057",
+    "expanse19_artemis_hull_mat_8ae5a95f46",
+    "expanse19_artemis_hull_mat_91f6e4147f",
+    "expanse19_artemis_hull_mat_94b8686a32",
+    "expanse19_artemis_hull_mat_9c099842cb",
+    "expanse19_artemis_hull_mat_ac5ec01313",
+    "expanse19_artemis_hull_mat_adfffb3dac",
+    "expanse19_artemis_hull_mat_b2e3984007",
+    "expanse19_artemis_hull_mat_b599de7d41",
+    "expanse19_artemis_hull_mat_c061abada0",
+    "expanse19_artemis_hull_mat_c468572c94",
+    "expanse19_artemis_hull_mat_c4a0c18f41",
+    "expanse19_artemis_hull_mat_c956f5316b",
+    "expanse19_artemis_hull_mat_ce3f94da32",
+    "expanse19_artemis_hull_mat_d7cad9971a",
+    "expanse19_artemis_hull_mat_dbe22dc8f8",
+    "expanse19_artemis_hull_mat_e88828f008",
+    "expanse19_artemis_hull_mat_f392c63527",
+    "expanse19_artemis_hull_mat_f869597639",
+    "expanse19_artemis_hull_mat_f8fb1f77d4",
+    "expanse19_artemis_hull_mat_fafc235727",
+    "expanse19_artemis_hull_mat_fbb2eff360",
+    "expanse19_artemis_hull_mat_fd88f4059a"
+  ],
+  "runtime_role_restriction": "None",
+  "compile_sha256": "cae0e6779166cff5a1e1a9a32d5a5336b4f438085f9104420e6705816edeb764",
+  "unit_skin": "expanse19_artemis",
+  "gui_brush_prefix": "expanse19_artemis",
+  "status": "PASS OFFLINE ASSET PIPELINE; GAME VALIDATION REQUIRED",
+  "game_file_hashes": {
+    "brushes/expanse19_artemis_hud_icon.brush": "cca318348a40771bd64b6fed35ff87cacd8f8bd18a1140c9df9fe145b37d0dc2",
+    "brushes/expanse19_artemis_hud_picture.brush": "f4bcd5b86246256bdfef8dc7e72903d188cd4f104234c9ca7d57a8abc66876be",
+    "brushes/expanse19_artemis_main_view_icon.brush": "1ff8ffb9194d31f57f113920a5969781ae416d8c9751c277fbe815834f88d0b3",
+    "brushes/expanse19_artemis_main_view_icon_selected.brush": "1bd393d47dbdeeeb4ce12f8574c0746e9b74c7d778c29e9eedef8d643db231d5",
+    "brushes/expanse19_artemis_main_view_icon_sub_selected.brush": "120de536aaf11cd74f1630f3996252463e64026e75745b9045c88ecf7f350fd7",
+    "brushes/expanse19_artemis_tooltip_picture.brush": "02d7a6b7aff4c4b146b45db43f089067df6aa83b3d502feabae8d14a5e77c70b",
+    "mesh_materials/expanse19_artemis_hull_mat_07967afc67.mesh_material": "6f901423ae3ba28da3eb631b853cde5de840798765b7f366c9597ecdb7973d87",
+    "mesh_materials/expanse19_artemis_hull_mat_0d21871c90.mesh_material": "717f4f68c2fddc54428291e0e6915b0cc7ae9b99ee538f58be9c5257fc1c4a59",
+    "mesh_materials/expanse19_artemis_hull_mat_1fcabfded4.mesh_material": "cb69a2a521f15ce20d4619bb74b5084ed8b8d03b2eb2314f4b773bb881f5d0f2",
+    "mesh_materials/expanse19_artemis_hull_mat_295a1cee9e.mesh_material": "dc5b61e210dec3ed34ad162d375633d2a8eb1385017b77bc3c676428eb06b5cb",
+    "mesh_materials/expanse19_artemis_hull_mat_30c00fa233.mesh_material": "dc764036af95f25fcedd0cf4dcae7f8684f35faaab8a3139238a9c3deee4a7bc",
+    "mesh_materials/expanse19_artemis_hull_mat_3fa29d493b.mesh_material": "b3a84bdd650f77541c5fd41ae0c733e514eb7b90e98d4cd3f46e6edf09bf5f52",
+    "mesh_materials/expanse19_artemis_hull_mat_403d81c191.mesh_material": "ec32aad8877178b7a09d10268b088d4be6b641190eaab8434dd35ddd790148d6",
+    "mesh_materials/expanse19_artemis_hull_mat_43e1b9d2ac.mesh_material": "7d55db22357c4a0af3e5b522c2e757f615b3e253c99a3ef08e0b6f6c03a4e478",
+    "mesh_materials/expanse19_artemis_hull_mat_53b3bd7168.mesh_material": "56f2c363eedbb71f8a51cebd99909d3142388d45d2226b88bb517e296677bfd2",
+    "mesh_materials/expanse19_artemis_hull_mat_57f9cf3b3c.mesh_material": "6007b6d3f7499c3cc95e93f8909838567b9f8748f075f6d7b178d7fc7c9c2878",
+    "mesh_materials/expanse19_artemis_hull_mat_81f11f8011.mesh_material": "10c7a7285687ff94a8f09e95734aa794bfb2f396dde0e691638e5a881fa04db0",
+    "mesh_materials/expanse19_artemis_hull_mat_842bd5dbdd.mesh_material": "70dc9b4a88b65e9c54ba72e6ab708a27a6e20eeafbd60fae7e9d78d2c40cf87d",
+    "mesh_materials/expanse19_artemis_hull_mat_89520bb057.mesh_material": "c32fb1d083dab07f281b72e31cce711a5526caf009243682b71b739c9128acc6",
+    "mesh_materials/expanse19_artemis_hull_mat_8ae5a95f46.mesh_material": "a790cf43e1db9f8b0c577c59e989f928b1e226993b916a66d22cdd3c3da6a7d6",
+    "mesh_materials/expanse19_artemis_hull_mat_91f6e4147f.mesh_material": "6d242a31cf66917771b20f57f8fa989ecc1d8fd39df153c104cbda3f44feb63a",
+    "mesh_materials/expanse19_artemis_hull_mat_94b8686a32.mesh_material": "b4d49075309afbbd19916d8b6c81d118f748ee6c0b1d1796d58d1ac55c018b59",
+    "mesh_materials/expanse19_artemis_hull_mat_9c099842cb.mesh_material": "d08653d36c4fec43bb370bba31cfbeccd157a9d7d908ef10c83b0f13ae82d2f6",
+    "mesh_materials/expanse19_artemis_hull_mat_ac5ec01313.mesh_material": "502392802e7fae02cc00d009f182dee66e0667933d271700e7e81eeb9b7ccd85",
+    "mesh_materials/expanse19_artemis_hull_mat_adfffb3dac.mesh_material": "d74f402f24d43f0351101aa368bbccf405a99dd2894eb335a0b5b0aa0599dd58",
+    "mesh_materials/expanse19_artemis_hull_mat_b2e3984007.mesh_material": "584046ffc4e4462c527ad02e29b20bbd7e06ab833eb153831d484152c42a3010",
+    "mesh_materials/expanse19_artemis_hull_mat_b599de7d41.mesh_material": "1a9bea04f6c5fea9ac52239a472ff28f445104141e25fe17683f03c9018cfbbc",
+    "mesh_materials/expanse19_artemis_hull_mat_c061abada0.mesh_material": "adcf95461077a7f688c99c9227da2cbf9d51a90cb7b3ff1cbc694d4b30cb4bcb",
+    "mesh_materials/expanse19_artemis_hull_mat_c468572c94.mesh_material": "4dc29f62c81de2fed65afca627af16864cfdfef7d463c7ab8efb43885eaa51e4",
+    "mesh_materials/expanse19_artemis_hull_mat_c4a0c18f41.mesh_material": "45daccf6576a7e9160dc46ecb6992f28818410e59535b94328b12ae8b387904e",
+    "mesh_materials/expanse19_artemis_hull_mat_c956f5316b.mesh_material": "9a0bcbfa3f1985928ef82d795b7c0182217b72f521c3aa64dd1d5cf09d2b0b10",
+    "mesh_materials/expanse19_artemis_hull_mat_ce3f94da32.mesh_material": "a2994ac30cd6a2fb9d8cac8d7dcb5eca830a8105041bbafbec4e24f6640f7781",
+    "mesh_materials/expanse19_artemis_hull_mat_d7cad9971a.mesh_material": "35972c1df4aace3386f2ad38a5a43a5cfcd3cbfeaa0ab6447445829eed5dd18f",
+    "mesh_materials/expanse19_artemis_hull_mat_dbe22dc8f8.mesh_material": "352613ef7646f1b524581dedc84f893a08280f1b1b8a5c45ec08158edba8d832",
+    "mesh_materials/expanse19_artemis_hull_mat_e88828f008.mesh_material": "afd18fa81bafe3fb8454e16df83af0d1be663d753ab599823f9cfc9dc0cc524b",
+    "mesh_materials/expanse19_artemis_hull_mat_f392c63527.mesh_material": "867c420d311f6797034cfe18b7d20da056be42d063a7ff07465056166fdb9f04",
+    "mesh_materials/expanse19_artemis_hull_mat_f869597639.mesh_material": "b58a025d2cd07f3195ad7bfd2625430e3c44d3803db7cfb3dfe74ab9182d9453",
+    "mesh_materials/expanse19_artemis_hull_mat_f8fb1f77d4.mesh_material": "692474b93b4a24d7de690f3e1f507eaa003e47b8aade20efc5e597e37e3d55c5",
+    "mesh_materials/expanse19_artemis_hull_mat_fafc235727.mesh_material": "c9f175f91ff7a8176e21ace80ee4b5fe3bf8ed7d51c22795da2b90a0429f9246",
+    "mesh_materials/expanse19_artemis_hull_mat_fbb2eff360.mesh_material": "ac365b608ec4a276fea686ed59f90529921b46784dbe8a92b52c77df2d2c0637",
+    "mesh_materials/expanse19_artemis_hull_mat_fd88f4059a.mesh_material": "b66d2309fd4f373d43a128bed9e66ca472fa07ddfe9e239c9107c4848da2f67d",
+    "meshes/expanse19_artemis_hull.mesh": "cae0e6779166cff5a1e1a9a32d5a5336b4f438085f9104420e6705816edeb764",
+    "textures/expanse19_artemis_hud_icon.png": "51781f7a440610c84c1bf28b56f9c2b5ea657a272007773953da9cc72c9b0173",
+    "textures/expanse19_artemis_hud_icon150.png": "c0fd0313559c49c1440dc18d85e551f52d22f19503f73997b8f1ccf6ed11c832",
+    "textures/expanse19_artemis_hud_icon200.png": "2319499ad56491095a6b502d801cfe3b6fa3afc08bbafee414ece9ada1891041",
+    "textures/expanse19_artemis_hud_picture.png": "1b6dab4a1eba8ebce846ab743094f4c83ef404ef888b6a776b84a4c41b4891fa",
+    "textures/expanse19_artemis_hud_picture150.png": "6019d6d1536178766c0ef8ece8172c34c99d39a9c8b60e8e2115e99feead10b4",
+    "textures/expanse19_artemis_hud_picture200.png": "c43dad80a1b4e8c0bb469abbdefcc3665a09f4f83b3eab1ca4c055b1878d0dd9",
+    "textures/expanse19_artemis_main_view_icon.png": "b0485f0eab486605c6ffe46393c1037c47bdb682173257de8c1fbae1be7c56f1",
+    "textures/expanse19_artemis_main_view_icon150.png": "2bb8b321b428b4a617e2061f9e0f3588e8075417344f7d1ed78bd24e13284f26",
+    "textures/expanse19_artemis_main_view_icon200.png": "cd11d73179f55078949d769b9d8c1cb513b75dab225b2e5e4ecf6a4bc24741b8",
+    "textures/expanse19_artemis_main_view_icon_selected.png": "473aeaaa307bfa043733ab925738f38c9ffee3fb319cae638d5609c033287af5",
+    "textures/expanse19_artemis_main_view_icon_selected150.png": "1b85990216de0527bc2d5752d17add0ce1249c1013d3c98054e7c5efa0535fe1",
+    "textures/expanse19_artemis_main_view_icon_selected200.png": "938f002373d8c205610c8a91a843d40065b2ea212482317b225ce90e1bf6136e",
+    "textures/expanse19_artemis_main_view_icon_sub_selected.png": "562cf2cf7a83b917bf95d9272c81d5bd443d87af91b93eff63f373d64cab1bb0",
+    "textures/expanse19_artemis_main_view_icon_sub_selected150.png": "baf44229176e76c97ad19621478e95b8f714914eb8204ce49973d44e8da0e61f",
+    "textures/expanse19_artemis_main_view_icon_sub_selected200.png": "89e27871101f66dc5d049a9d52f189113be65f386fb886621502801a26ec2743",
+    "textures/expanse19_artemis_tooltip_picture.png": "f813a04c45e5c5f60865f698d9563d2b2a52ff3f58bb5693166d20dc8069359c",
+    "textures/expanse19_artemis_tooltip_picture150.png": "da297bcf8b34b4f49f7353a214f856323421886e3787eec21324bd2b22fc6ae1",
+    "textures/expanse19_artemis_tooltip_picture200.png": "aa94267f1cc7a4177882f1aac46870d6e7ae975d19d5e6978fe9c8695216f144",
+    "textures/expanse19_hauler_mat_004acc1a91_clr.dds": "0b20180f2a96cd8e03ffb38d3551512165c0a54f2122a252e4c646de10ce5797",
+    "textures/expanse19_hauler_mat_004acc1a91_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_004acc1a91_nrm.dds": "1cbd789e30a5abe1e09a1633dd838588f6edff717098833482032c0e0ba1c373",
+    "textures/expanse19_hauler_mat_004acc1a91_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_07967afc67_clr.dds": "ecd1162710bf72abb48de2238a03de420a54321b1932ec1ae4df105777a2483a",
+    "textures/expanse19_hauler_mat_07967afc67_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_07967afc67_nrm.dds": "90edac7b905d875ad8e7867277672a0cc53ffb7a3633524ed497e677f2ce755f",
+    "textures/expanse19_hauler_mat_07967afc67_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_0d21871c90_clr.dds": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710",
+    "textures/expanse19_hauler_mat_0d21871c90_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_0d21871c90_nrm.dds": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42",
+    "textures/expanse19_hauler_mat_0d21871c90_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_15a00ad13d_clr.dds": "9aa36e73c049e64c2302316b2f8fdcb6312d3e44476246c1a7541ec9a64c2472",
+    "textures/expanse19_hauler_mat_15a00ad13d_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_15a00ad13d_nrm.dds": "032c0b30ae148905fe97085860a97b5adf7d8268c40ceaee0f20496783856df0",
+    "textures/expanse19_hauler_mat_15a00ad13d_orm.dds": "f99d01360b0539bf26fb75ee94e213e8e2b79717f52094631950e6ddf74b2fef",
+    "textures/expanse19_hauler_mat_1fcabfded4_clr.dds": "a65a491e3fae93dbe251f1f879450744eb7a5917494d33b8ffa5fbcfd1f962ba",
+    "textures/expanse19_hauler_mat_1fcabfded4_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_1fcabfded4_nrm.dds": "de2821725a0cad98eed857c3a56309ca5adf68aa79153e949b999fde5d4ac578",
+    "textures/expanse19_hauler_mat_1fcabfded4_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_295a1cee9e_clr.dds": "5ea9c22e134fb74b2a22af844b392bbc45ed20b8a24ffd6ede02c7780927f4ce",
+    "textures/expanse19_hauler_mat_295a1cee9e_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_295a1cee9e_nrm.dds": "304f60b5d6a8c79dff651be1ad89bf283f1d9e7e08308ddca85e87e0846edc84",
+    "textures/expanse19_hauler_mat_295a1cee9e_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_2d0e7aa335_clr.dds": "274a39d9ea3847eddbedecf7d5611461c850f353a5252c004e3ea556d139092a",
+    "textures/expanse19_hauler_mat_2d0e7aa335_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_2d0e7aa335_nrm.dds": "adba4ebcfffa90010fb9698505e98cbe33dbda35ecd24120740c348dd5e2ac6f",
+    "textures/expanse19_hauler_mat_2d0e7aa335_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_2fabc2e7c8_clr.dds": "2fbc31d2edb159b245bb517c9553b12bd04958a0f7b770888a440a82251d0c61",
+    "textures/expanse19_hauler_mat_2fabc2e7c8_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_2fabc2e7c8_nrm.dds": "96063cb90a98d0aca24f2050b7070dc492609c2a7f48a7143a5646392677b452",
+    "textures/expanse19_hauler_mat_2fabc2e7c8_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_30c00fa233_clr.dds": "5306c8b31ffba2eb3d3d4d39e522c896926deb9383a37b993fd7eed8fd80b3a7",
+    "textures/expanse19_hauler_mat_30c00fa233_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_30c00fa233_nrm.dds": "e56a30e3949dc1bacd5d1f1b90bcaac45ba2139539330789b36802b8e160af6c",
+    "textures/expanse19_hauler_mat_30c00fa233_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_3fa29d493b_clr.dds": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710",
+    "textures/expanse19_hauler_mat_3fa29d493b_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_3fa29d493b_nrm.dds": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42",
+    "textures/expanse19_hauler_mat_3fa29d493b_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_403d81c191_clr.dds": "8c64aa8bad6da13b57ee9ee88d11c39834cfc090e5421caa6a9552db29b6ca74",
+    "textures/expanse19_hauler_mat_403d81c191_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_403d81c191_nrm.dds": "72207a2d2f3cea3732caaf79fe2d2bbebd96eac62d372d06e8d6c6eb1e4f137b",
+    "textures/expanse19_hauler_mat_403d81c191_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_43e1b9d2ac_clr.dds": "8c64aa8bad6da13b57ee9ee88d11c39834cfc090e5421caa6a9552db29b6ca74",
+    "textures/expanse19_hauler_mat_43e1b9d2ac_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_43e1b9d2ac_nrm.dds": "72207a2d2f3cea3732caaf79fe2d2bbebd96eac62d372d06e8d6c6eb1e4f137b",
+    "textures/expanse19_hauler_mat_43e1b9d2ac_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_53b3bd7168_clr.dds": "329fc4851bcc1253174f23ba6060d24dda197a55605255af2498d7487be9862c",
+    "textures/expanse19_hauler_mat_53b3bd7168_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_53b3bd7168_nrm.dds": "2aba5caccd90cc83e9daee8ed4d67db9388c568e10f68a412a54a3a46d336baa",
+    "textures/expanse19_hauler_mat_53b3bd7168_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_554f068988_clr.dds": "0d1b33851bf3fa76264a42f14539b638be20b16454b90b49f2985f8dc1356efd",
+    "textures/expanse19_hauler_mat_554f068988_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_554f068988_nrm.dds": "945113d794f208b413bb58d6b6cb289b476e6f4a7964a296e98987a294c3474c",
+    "textures/expanse19_hauler_mat_554f068988_orm.dds": "25028fc210e5468d9caeb758f867a8e26e63f53e64e4106ea3f64ce90f92d804",
+    "textures/expanse19_hauler_mat_57f9cf3b3c_clr.dds": "ff2c4387fb0bf6b5679d8bb8efdf0e3bb8798eb24bce8ae344e2142acec19df4",
+    "textures/expanse19_hauler_mat_57f9cf3b3c_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_57f9cf3b3c_nrm.dds": "e7e924a0702d67733293f044d9156d107d1d77f55364e5c6489c919ef0172d3b",
+    "textures/expanse19_hauler_mat_57f9cf3b3c_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_580058b0e9_clr.dds": "d1d3298b614a72e348b3fe51f3c99cb828ab085f0d2eda4c545b420d0cda29a9",
+    "textures/expanse19_hauler_mat_580058b0e9_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_580058b0e9_nrm.dds": "052b48981e867346bec5d45f3bec3e24b0419a28e3ce7a5570f906f2d089f70b",
+    "textures/expanse19_hauler_mat_580058b0e9_orm.dds": "f99d01360b0539bf26fb75ee94e213e8e2b79717f52094631950e6ddf74b2fef",
+    "textures/expanse19_hauler_mat_5ce992901d_clr.dds": "a562d6a2208daa918f9806aa9f3e11a5f6cfd2b3e4b097e4b12ca78a3bc6811d",
+    "textures/expanse19_hauler_mat_5ce992901d_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_5ce992901d_nrm.dds": "8fe4880e3e9b63c9add102539f73ed8f7247b24674a98cf5695874df55fc84bf",
+    "textures/expanse19_hauler_mat_5ce992901d_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_6c6147b02e_clr.dds": "e79580ba8e81d807200744a77a03d7b4a87508d83b80b0ae25166052cdc52ca8",
+    "textures/expanse19_hauler_mat_6c6147b02e_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_6c6147b02e_nrm.dds": "e2bc87f390d80022af335254a51833d3ea2670fbfada5df98b074e811f4d8354",
+    "textures/expanse19_hauler_mat_6c6147b02e_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_77101938dc_clr.dds": "4038c79458add694499f53e60c0e3398be66033dbd3fa8ed63c8ac1e39ffae1a",
+    "textures/expanse19_hauler_mat_77101938dc_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_77101938dc_nrm.dds": "052b48981e867346bec5d45f3bec3e24b0419a28e3ce7a5570f906f2d089f70b",
+    "textures/expanse19_hauler_mat_77101938dc_orm.dds": "f99d01360b0539bf26fb75ee94e213e8e2b79717f52094631950e6ddf74b2fef",
+    "textures/expanse19_hauler_mat_81f11f8011_clr.dds": "bda97c339b7065fe995883d60c5662fcf513c3422b3a3dcf3aacc83d0954e9bb",
+    "textures/expanse19_hauler_mat_81f11f8011_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_81f11f8011_nrm.dds": "5257810b2105ec2a36bbb1eb61dc176722f7078ef8cbabe27fb1cd0c2062df05",
+    "textures/expanse19_hauler_mat_81f11f8011_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_842bd5dbdd_clr.dds": "7a746cea9c4236a0b7e0479625c9c9f9608b9dacb19300449a02cda63047e671",
+    "textures/expanse19_hauler_mat_842bd5dbdd_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_842bd5dbdd_nrm.dds": "8ea73931f448a558dc87e998dceda8645ba5ddc9dd0516812b700174310c2ea6",
+    "textures/expanse19_hauler_mat_842bd5dbdd_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_89520bb057_clr.dds": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710",
+    "textures/expanse19_hauler_mat_89520bb057_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_89520bb057_nrm.dds": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42",
+    "textures/expanse19_hauler_mat_89520bb057_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_8ae5a95f46_clr.dds": "bfff6e78f3596264e251610b3ccd6cd1de3c6f97ab84ae9d96c5e3ba7334f7e1",
+    "textures/expanse19_hauler_mat_8ae5a95f46_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_8ae5a95f46_nrm.dds": "b8e18e7b2a827f7b6678ff24e887a53f6a436a4ea5829de5f179f0d042858da9",
+    "textures/expanse19_hauler_mat_8ae5a95f46_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_8b3ffa4aa8_clr.dds": "d4b4ebd4aeb54ed7f04eb3c923a6ef0759de3f635c2e410833fbbd42b250da0d",
+    "textures/expanse19_hauler_mat_8b3ffa4aa8_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_8b3ffa4aa8_nrm.dds": "adba4ebcfffa90010fb9698505e98cbe33dbda35ecd24120740c348dd5e2ac6f",
+    "textures/expanse19_hauler_mat_8b3ffa4aa8_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_91f6e4147f_clr.dds": "374598dea9edcf91e5b9a111689a09139152bfc4d672efbe9b57e0cb0b22268d",
+    "textures/expanse19_hauler_mat_91f6e4147f_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_91f6e4147f_nrm.dds": "d0340425b8b2f2c6496fa9930541cc5082fc239fff3ae21d3e2ec82e96cc330a",
+    "textures/expanse19_hauler_mat_91f6e4147f_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_94b8686a32_clr.dds": "d8dcca956970fcea606daaba9960e4d5c87e9d34c8bf4811ebc796425bc67a9b",
+    "textures/expanse19_hauler_mat_94b8686a32_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_94b8686a32_nrm.dds": "f58f37abf0f80f99db579ba33cd01d7fbf3fbf7aaedb5ac24e678840085cab16",
+    "textures/expanse19_hauler_mat_94b8686a32_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_9c099842cb_clr.dds": "72e486f26493e80e25747afb6270a5722da19428f79b20cce7fd3c7e3af5b98b",
+    "textures/expanse19_hauler_mat_9c099842cb_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_9c099842cb_nrm.dds": "052b48981e867346bec5d45f3bec3e24b0419a28e3ce7a5570f906f2d089f70b",
+    "textures/expanse19_hauler_mat_9c099842cb_orm.dds": "f99d01360b0539bf26fb75ee94e213e8e2b79717f52094631950e6ddf74b2fef",
+    "textures/expanse19_hauler_mat_ac5ec01313_clr.dds": "aec8077503f5771006985794b2a4e03a2c13a15594b8c539f71c1fa7db3485e7",
+    "textures/expanse19_hauler_mat_ac5ec01313_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_ac5ec01313_nrm.dds": "6bf16e8284e3cdd16453d98c0fb88ef1f56777838f19bce2d48c705235236993",
+    "textures/expanse19_hauler_mat_ac5ec01313_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_adfffb3dac_clr.dds": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710",
+    "textures/expanse19_hauler_mat_adfffb3dac_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_adfffb3dac_nrm.dds": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42",
+    "textures/expanse19_hauler_mat_adfffb3dac_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_afb3f0a370_clr.dds": "2fbc31d2edb159b245bb517c9553b12bd04958a0f7b770888a440a82251d0c61",
+    "textures/expanse19_hauler_mat_afb3f0a370_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_afb3f0a370_nrm.dds": "96063cb90a98d0aca24f2050b7070dc492609c2a7f48a7143a5646392677b452",
+    "textures/expanse19_hauler_mat_afb3f0a370_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_b2e3984007_clr.dds": "722992d485c2379779d7627deab061b6df387ad36818820bb5280828b5fffa01",
+    "textures/expanse19_hauler_mat_b2e3984007_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_b2e3984007_nrm.dds": "2ac934e62d5e38ab8ecf20917fb0cd2c612f1f858fc5fd7b48c8f3205f450031",
+    "textures/expanse19_hauler_mat_b2e3984007_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_b599de7d41_clr.dds": "239e5713ef26745b2f11d72e8ac16010860a261b2e29cb44d8e21b18f4195bce",
+    "textures/expanse19_hauler_mat_b599de7d41_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_b599de7d41_nrm.dds": "6bf16e8284e3cdd16453d98c0fb88ef1f56777838f19bce2d48c705235236993",
+    "textures/expanse19_hauler_mat_b599de7d41_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_c01442c57b_clr.dds": "2f7307a4f108ab4f74f34d9dabddeda03598ff5593587c7211275b95b64e3524",
+    "textures/expanse19_hauler_mat_c01442c57b_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_c01442c57b_nrm.dds": "945113d794f208b413bb58d6b6cb289b476e6f4a7964a296e98987a294c3474c",
+    "textures/expanse19_hauler_mat_c01442c57b_orm.dds": "25028fc210e5468d9caeb758f867a8e26e63f53e64e4106ea3f64ce90f92d804",
+    "textures/expanse19_hauler_mat_c061abada0_clr.dds": "553e4aafff4531488502474760a2595c488e5f18518d309172707b5d41c4395f",
+    "textures/expanse19_hauler_mat_c061abada0_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_c061abada0_nrm.dds": "2ac934e62d5e38ab8ecf20917fb0cd2c612f1f858fc5fd7b48c8f3205f450031",
+    "textures/expanse19_hauler_mat_c061abada0_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_c468572c94_clr.dds": "a99b3f7af2967447c1362dd6d03c0e79c15cc898183069a6a40157a340d2c73b",
+    "textures/expanse19_hauler_mat_c468572c94_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_c468572c94_nrm.dds": "3ff3a359b71d40d24995c9217379de26f41272a7b9e4362d4fe7b9c8e7504fe6",
+    "textures/expanse19_hauler_mat_c468572c94_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_c4a0c18f41_clr.dds": "ed7b851f1aba96abd90b6fd27b5c06cb431efc797d77af4fc41623846f7400bd",
+    "textures/expanse19_hauler_mat_c4a0c18f41_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_c4a0c18f41_nrm.dds": "f19380abfaf73a0b7e48b2dfebe615753194bf8be9fc973062f04755d72969a2",
+    "textures/expanse19_hauler_mat_c4a0c18f41_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_c956f5316b_clr.dds": "a97ea40582713b2ed25ac4ee41e4cd5adbb2abf4e4ba2e7c7190ece2555642a1",
+    "textures/expanse19_hauler_mat_c956f5316b_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_c956f5316b_nrm.dds": "74d3f71f215292143258da21dca21aae9dd501d9a6b1ce8b502c18849e85b1ca",
+    "textures/expanse19_hauler_mat_c956f5316b_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_ce3f94da32_clr.dds": "8c64aa8bad6da13b57ee9ee88d11c39834cfc090e5421caa6a9552db29b6ca74",
+    "textures/expanse19_hauler_mat_ce3f94da32_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_ce3f94da32_nrm.dds": "72207a2d2f3cea3732caaf79fe2d2bbebd96eac62d372d06e8d6c6eb1e4f137b",
+    "textures/expanse19_hauler_mat_ce3f94da32_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_d7cad9971a_clr.dds": "dc65a63ff4a03c114c5ecd6e5289bed80096a872aa5bfcd7d9935ba6739c7805",
+    "textures/expanse19_hauler_mat_d7cad9971a_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_d7cad9971a_nrm.dds": "d615f6e2ea85216b8c1cd9384d1c5b6f5219efd8ef1c0547b9010d2789daa5a4",
+    "textures/expanse19_hauler_mat_d7cad9971a_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_dbe22dc8f8_clr.dds": "7790e4ba98062ec9ef5d5057b2b726d8a6d86b9dc91a936c03e7341f789eed48",
+    "textures/expanse19_hauler_mat_dbe22dc8f8_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_dbe22dc8f8_nrm.dds": "f58f37abf0f80f99db579ba33cd01d7fbf3fbf7aaedb5ac24e678840085cab16",
+    "textures/expanse19_hauler_mat_dbe22dc8f8_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_e7b2789630_clr.dds": "d9b6b24f44aacfe4e39c0c905dc299c8ff17a64253aaeeb5e843930bd922d23e",
+    "textures/expanse19_hauler_mat_e7b2789630_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_e7b2789630_nrm.dds": "945113d794f208b413bb58d6b6cb289b476e6f4a7964a296e98987a294c3474c",
+    "textures/expanse19_hauler_mat_e7b2789630_orm.dds": "25028fc210e5468d9caeb758f867a8e26e63f53e64e4106ea3f64ce90f92d804",
+    "textures/expanse19_hauler_mat_e88828f008_clr.dds": "02a485a041eb552f678575f789ef813660e97b9007c2f42c9d9b6e37ce1aec43",
+    "textures/expanse19_hauler_mat_e88828f008_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_e88828f008_nrm.dds": "5257810b2105ec2a36bbb1eb61dc176722f7078ef8cbabe27fb1cd0c2062df05",
+    "textures/expanse19_hauler_mat_e88828f008_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_ecf4d13bde_clr.dds": "633edd73a2fd7654839da76d3b079a806dae32b5bfc0851aa6d4c961dbbd06dd",
+    "textures/expanse19_hauler_mat_ecf4d13bde_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_ecf4d13bde_nrm.dds": "49877d3b7549537d023c05069346762c54285905c59b0fe630d5835f6f7f2178",
+    "textures/expanse19_hauler_mat_ecf4d13bde_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_f392c63527_clr.dds": "9001cd38884d51219f0fe4ab45e7b296f57fe6ef0430f649744aa93bb0b5e677",
+    "textures/expanse19_hauler_mat_f392c63527_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_f392c63527_nrm.dds": "ee6f092bd5c66194f9ccd8f8dff5b0fcac2b275a62e3497523215e9b6f3b3731",
+    "textures/expanse19_hauler_mat_f392c63527_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_f869597639_clr.dds": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710",
+    "textures/expanse19_hauler_mat_f869597639_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_f869597639_nrm.dds": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42",
+    "textures/expanse19_hauler_mat_f869597639_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_f8fb1f77d4_clr.dds": "7abda9cd6dbc361ee1d98f0bd5478f82ed76b048e28824eda22328da3ec4e1b2",
+    "textures/expanse19_hauler_mat_f8fb1f77d4_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_f8fb1f77d4_nrm.dds": "f05c002550fda26fe14cc466ef7034a3c4bdde7ab0e618ab8c0f815341827d7f",
+    "textures/expanse19_hauler_mat_f8fb1f77d4_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_fafc235727_clr.dds": "cae4b6bf494be7e26e01798c8eae403127d3cbc026fec767c659813acc555081",
+    "textures/expanse19_hauler_mat_fafc235727_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_fafc235727_nrm.dds": "959ef47503c31bd2740035915685c9d363ac175b80a93ee3f7093c9efd44cfbd",
+    "textures/expanse19_hauler_mat_fafc235727_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_fbb2eff360_clr.dds": "b9cc4d3673f3f43ca0c03a19085c3cb080ed0d5f736cfa5115cf35a7c028a405",
+    "textures/expanse19_hauler_mat_fbb2eff360_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_fbb2eff360_nrm.dds": "910ec9d46329e28caec33196d04224c51433807868d00427d50443f84c80b499",
+    "textures/expanse19_hauler_mat_fbb2eff360_orm.dds": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1",
+    "textures/expanse19_hauler_mat_fd88f4059a_clr.dds": "205f48df5173ec3db320cca089d004b5512d300dee07858fc676716e600bd36e",
+    "textures/expanse19_hauler_mat_fd88f4059a_msk.dds": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f",
+    "textures/expanse19_hauler_mat_fd88f4059a_nrm.dds": "945113d794f208b413bb58d6b6cb289b476e6f4a7964a296e98987a294c3474c",
+    "textures/expanse19_hauler_mat_fd88f4059a_orm.dds": "25028fc210e5468d9caeb758f867a8e26e63f53e64e4106ea3f64ce90f92d804"
+  },
+  "rigs": []
+}

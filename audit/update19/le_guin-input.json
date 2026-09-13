@@ -1,0 +1,349 @@
+{
+  "source": "Le_Guin_Freighter/Exterior",
+  "source_center": [
+    -2.7000694274902344,
+    -5.543788909912109,
+    1.6811847686767578
+  ],
+  "source_to_game_rotation": [
+    [
+      1,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      -1,
+      0
+    ]
+  ],
+  "game_units_per_metre": 2.282608695652174,
+  "counts": {
+    "hull": 75043
+  },
+  "hull_mesh": "expanse19_le_guin_hull",
+  "ship_spatial": {
+    "box": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extents": [
+        49.85218296880307,
+        45.33435593480649,
+        104.04841381570567
+      ]
+    },
+    "radius": 115.42195280387676,
+    "bounds_min": [
+      -49.85218296880307,
+      -45.33435593480649,
+      -104.04841381570567
+    ],
+    "bounds_max": [
+      49.85218296880307,
+      45.33435593480649,
+      104.04841381570567
+    ]
+  },
+  "optimization": [
+    {
+      "material": "MI_Vehi_UrshinabiExteriorPaint01A_VERTDMG",
+      "source_triangles": 16020,
+      "output_triangles": 5138,
+      "relative_error": 0.0010640221880748868,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Trash_DamageTile_Leguin01A_CM",
+      "source_triangles": 359,
+      "output_triangles": 133,
+      "relative_error": 0.005746782291680574,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_LeGuinExterior01A_Green_VERTDMG",
+      "source_triangles": 1379,
+      "output_triangles": 442,
+      "relative_error": 0.005016947630792856,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Vehi_UrshinabiExteriorPaint01A_VERTDMG",
+      "source_triangles": 1547,
+      "output_triangles": 496,
+      "relative_error": 0.0037160804495215416,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Trash_DamageTile_Leguin01A_CM",
+      "source_triangles": 8,
+      "output_triangles": 8,
+      "relative_error": 0.0,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_FloorFrame02A",
+      "source_triangles": 4644,
+      "output_triangles": 1488,
+      "relative_error": 0.0007705733296461403,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_metalDark",
+      "source_triangles": 186652,
+      "output_triangles": 59873,
+      "relative_error": 0.00041390012484043837,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_Floor01B_TileNoEmis",
+      "source_triangles": 896,
+      "output_triangles": 286,
+      "relative_error": 0.004878690931946039,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_AirlockTrim01A",
+      "source_triangles": 5640,
+      "output_triangles": 1809,
+      "relative_error": 0.0051538762636482716,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Trash_HullDamage_01A",
+      "source_triangles": 636,
+      "output_triangles": 282,
+      "relative_error": 0.0048516918905079365,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Decal_UNNUrshanabi01A_Yellow",
+      "omitted": "Separate decal overlay needs alpha-channel/shader baking; avoid opaque rectangular panels"
+    },
+    {
+      "material": "MI_Trash_StrcutSupportBeam01C",
+      "source_triangles": 15488,
+      "output_triangles": 4965,
+      "relative_error": 0.0003017231647390872,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Trash_DamageUnderlay01A",
+      "source_triangles": 101,
+      "output_triangles": 60,
+      "relative_error": 0.00256518367677927,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Trash_DamageTile_Distant",
+      "source_triangles": 405,
+      "output_triangles": 167,
+      "relative_error": 0.005902757868170738,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    },
+    {
+      "material": "MI_Struct_TrimWallTech01A",
+      "source_triangles": 6,
+      "output_triangles": 6,
+      "relative_error": 0.0,
+      "error_limit": 0.006,
+      "attribute_weights": [
+        0.014999999664723873,
+        0.014999999664723873,
+        0.014999999664723873,
+        0.004999999888241291,
+        0.004999999888241291
+      ]
+    }
+  ],
+  "editable_source": "/run/media/haker/NVME 2/expanse-workers19/haulers/assets/derived/update19-haulers/expanse19_le_guin_editable.gltf",
+  "equipment": {
+    "exhausts": [],
+    "exhaust": null
+  },
+  "meshpoints": {
+    "hull": [
+      {
+        "name": "center",
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0,
+          50.33435593480649,
+          0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0,
+          -50.33435593480649,
+          0
+        ]
+      }
+    ]
+  },
+  "materials": [
+    "expanse19_le_guin_hull_mat_004acc1a91",
+    "expanse19_le_guin_hull_mat_1fcabfded4",
+    "expanse19_le_guin_hull_mat_2d0e7aa335",
+    "expanse19_le_guin_hull_mat_2fabc2e7c8",
+    "expanse19_le_guin_hull_mat_30c00fa233",
+    "expanse19_le_guin_hull_mat_5ce992901d",
+    "expanse19_le_guin_hull_mat_6c6147b02e",
+    "expanse19_le_guin_hull_mat_8b3ffa4aa8",
+    "expanse19_le_guin_hull_mat_ac5ec01313",
+    "expanse19_le_guin_hull_mat_afb3f0a370",
+    "expanse19_le_guin_hull_mat_ecf4d13bde",
+    "expanse19_le_guin_hull_mat_f8fb1f77d4"
+  ],
+  "runtime_role_restriction": "Source wreck exterior; stationary derelict/prototype only. No verified propulsion assembly.",
+  "compile_sha256": "d641f9355c1b6aa59b4f058f01ff09fcb118488fe488f5abb4dab6325bd088c3",
+  "unit_skin": "expanse19_le_guin",
+  "gui_brush_prefix": "expanse19_le_guin",
+  "status": "PASS OFFLINE ASSET PIPELINE; GAME VALIDATION REQUIRED",
+  "game_file_hashes": {
+    "brushes/expanse19_le_guin_hud_icon.brush": "487856a1af0699e207e76a8c0ab89866b6b4217a97985b7f522d2c99a9367ef9",
+    "brushes/expanse19_le_guin_hud_picture.brush": "ffce64ff83cef390862411d77eb07c066275ac5c55d15ec692293eb48324a1dc",
+    "brushes/expanse19_le_guin_main_view_icon.brush": "25bf3e05ce4680dfb9249921ecf8b164b2277a1f854322c44e386029aa53cdfa",
+    "brushes/expanse19_le_guin_main_view_icon_selected.brush": "a81c7cb6e1e5146942cf0b3b27c7bdda98883989461ee62e9b9048905d125364",
+    "brushes/expanse19_le_guin_main_view_icon_sub_selected.brush": "13f38954a06149768565e1a930ed8495eeca50ba000ffb7e93a93b798b39b872",
+    "brushes/expanse19_le_guin_tooltip_picture.brush": "f3f2226badc677d149dd8b63fa12e70ff0792dda00c23855f6033096dc9d1dfa",
+    "mesh_materials/expanse19_le_guin_hull_mat_004acc1a91.mesh_material": "dd430eec8f1216be46e414cd8b6196f5a3db10650906b071d4f1dcb6cbfa93a6",
+    "mesh_materials/expanse19_le_guin_hull_mat_1fcabfded4.mesh_material": "cb69a2a521f15ce20d4619bb74b5084ed8b8d03b2eb2314f4b773bb881f5d0f2",
+    "mesh_materials/expanse19_le_guin_hull_mat_2d0e7aa335.mesh_material": "0b2fb199738518afd503060b4744e1232a8d873d9fa70888ee0f8697fcdbd4d7",
+    "mesh_materials/expanse19_le_guin_hull_mat_2fabc2e7c8.mesh_material": "91e6bbb8a72feff6ad7ead9963efcd59562312a9c94be7709c80db3c9f20b7ee",
+    "mesh_materials/expanse19_le_guin_hull_mat_30c00fa233.mesh_material": "dc764036af95f25fcedd0cf4dcae7f8684f35faaab8a3139238a9c3deee4a7bc",
+    "mesh_materials/expanse19_le_guin_hull_mat_5ce992901d.mesh_material": "de4d0b8e0f4d73be20800cce7a53531edf1f8ec03099c5bc0361953aa47ee9e9",
+    "mesh_materials/expanse19_le_guin_hull_mat_6c6147b02e.mesh_material": "bf7d8438e625cfd348d1dcc7e3b2b54e2087b7dc8645d350cd00ed959fcafd60",
+    "mesh_materials/expanse19_le_guin_hull_mat_8b3ffa4aa8.mesh_material": "a75ff5afe4d330b475d93736bff6b5c3372bab967e4667dbb67e3f4319a1737e",
+    "mesh_materials/expanse19_le_guin_hull_mat_ac5ec01313.mesh_material": "502392802e7fae02cc00d009f182dee66e0667933d271700e7e81eeb9b7ccd85",
+    "mesh_materials/expanse19_le_guin_hull_mat_afb3f0a370.mesh_material": "d6b5cc0f9592193d6273f2f65907e7e9268360c41ddcdb3bf4c7c94726d81fae",
+    "mesh_materials/expanse19_le_guin_hull_mat_ecf4d13bde.mesh_material": "00df2af0eb337279371b0e35eda04b352b90169e5f062ffbb0fa7a824e4595f4",
+    "mesh_materials/expanse19_le_guin_hull_mat_f8fb1f77d4.mesh_material": "692474b93b4a24d7de690f3e1f507eaa003e47b8aade20efc5e597e37e3d55c5",
+    "meshes/expanse19_le_guin_hull.mesh": "d641f9355c1b6aa59b4f058f01ff09fcb118488fe488f5abb4dab6325bd088c3",
+    "textures/expanse19_le_guin_hud_icon.png": "10e9683a088ce6e99a69d2d591426568a732098f50f2441975c36bdee09576fc",
+    "textures/expanse19_le_guin_hud_icon150.png": "9219253b66ab41faae4394f3d3ac822c03c18d615fe8264096d480c21c485079",
+    "textures/expanse19_le_guin_hud_icon200.png": "5662730b87f376ffeced7eba5b96374e3cff02b3f6b42cfc4e3b1c95259416e0",
+    "textures/expanse19_le_guin_hud_picture.png": "7e7d1870dcc7b7bbef5cf38d9730234860f6595574352c46419ab9a037859e51",
+    "textures/expanse19_le_guin_hud_picture150.png": "ec5107a1271baa6cdf907007d9d258d5d8e4b71180a27f1bbfd9087c4e8acede",
+    "textures/expanse19_le_guin_hud_picture200.png": "fe37344d5797705a96648dc6c8797931fcae26f95b0f5150c5f535a343504988",
+    "textures/expanse19_le_guin_main_view_icon.png": "3b432e720db6e983b11c21e02d7d312d15df6bd580202268481197a4de8da7a6",
+    "textures/expanse19_le_guin_main_view_icon150.png": "941af9f15c81436c41f1b5b3fb07da68601a78579d478459d17b889dedf6e63d",
+    "textures/expanse19_le_guin_main_view_icon200.png": "716a1c88e2a294a3d105fcba62ed861efcd96fbe2ec45910703d6d5afb69b153",
+    "textures/expanse19_le_guin_main_view_icon_selected.png": "9daa62e803d37712d0c354e5c18819ac46a97b5048f9a244e249907afaf19336",
+    "textures/expanse19_le_guin_main_view_icon_selected150.png": "cb5d0174b64a2574f738dd11cef4614a176d770c060a9039f782a3c227319c5b",
+    "textures/expanse19_le_guin_main_view_icon_selected200.png": "718f345e0a07c4adf368c0ecd3fcdeaa4350ae0fac33be0126509c07afc98908",
+    "textures/expanse19_le_guin_main_view_icon_sub_selected.png": "2b077655572c7e2f744d04835a1245de76a8dcb62a3a217c151afa9abdffe09c",
+    "textures/expanse19_le_guin_main_view_icon_sub_selected150.png": "e04a69e431f96ba000eddf6a44228e31edb89b49eda4755d3da96f6f54179020",
+    "textures/expanse19_le_guin_main_view_icon_sub_selected200.png": "b21b813eb3ab055758cabc2b5aeaec4410e6e90f3d8db112bccc2024699878a1",
+    "textures/expanse19_le_guin_tooltip_picture.png": "7217cf80cdde6bbfabe213541ebd2860398f9bb9961287f981ac8299cd8ff646",
+    "textures/expanse19_le_guin_tooltip_picture150.png": "78510487107c3ab4cc12a9c96e7ba876f7b1054d571f6ac5acdaec81acc27958",
+    "textures/expanse19_le_guin_tooltip_picture200.png": "86dadb1d223717aaf2435d00be82c1d3eff7eb2f69b609a9a78c69f72aef6aa3"
+  },
+  "rigs": []
+}

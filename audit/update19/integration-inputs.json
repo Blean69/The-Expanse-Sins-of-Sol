@@ -1,0 +1,16 @@
+{
+  "europa": {
+    "metadata": "audit/update19-europa/integration-spec.json",
+    "game": "build/update19-europa/game"
+  },
+  "artemis": {
+    "metadata": "audit/update19/artemis-input.json",
+    "ui": "audit/update19/artemis-ui.json",
+    "game": "build/update19-haulers/artemis/game"
+  },
+  "le_guin": {
+    "metadata": "audit/update19/le_guin-input.json",
+    "ui": "audit/update19/le_guin-ui.json",
+    "game": "build/update19-haulers/le_guin/game"
+  }
+}

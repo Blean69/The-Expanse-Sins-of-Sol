@@ -1,0 +1,2590 @@
+{
+  "supported_player": "trader_loyalist",
+  "node_count_examined": 208,
+  "matching_technology_count": 61,
+  "technology_mapping": [
+    {
+      "technology": "dlc3_trader_shroud_mitigation",
+      "domain": "civilian",
+      "tier": 4,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/dlc3_trader_shroud_mitigation.research_subject",
+      "sha256": "e54a04880fe100d228abe537dc24b19bbe398c98d1501c6656795eb028a7f00c",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "planet_corruption_debuff_strength",
+                "value_behavior": "scalar",
+                "value": -0.5
+              },
+              {
+                "modifier_type": "ignore_shroud_limit",
+                "value_behavior": "additive",
+                "value": 4.0
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_antimatter_0",
+      "domain": "military",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antimatter_0.research_subject",
+      "sha256": "5b27a3f89817ff1e31329767613d34256482c9b989b97059ba7982436dd03788",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "max_antimatter",
+            "value_behavior": "scalar",
+            "value": 0.1
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        },
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "antimatter_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.1
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_antimatter_1",
+      "domain": "military",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antimatter_1.research_subject",
+      "sha256": "9dce8461c581265bad69149c034b5f31505956463094f0c1b5eeeb2572963cb3",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "max_antimatter",
+            "value_behavior": "scalar",
+            "value": 0.1
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        },
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "antimatter_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.1
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_asteroid_planet_credit_rate",
+      "domain": "civilian",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_asteroid_planet_credit_rate.research_subject",
+      "sha256": "bb73d8535c74b74e7f45f66b60386e63cb753c38777e5aae1301366b61058a6c",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "commerce_track_credit_income_rate",
+                "value_behavior": "additive",
+                "value": 0.5,
+                "planet_types": [
+                  "asteroid",
+                  "ice_asteroid"
+                ]
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_autocannon_weapon_damage_0",
+      "domain": "military",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_autocannon_weapon_damage_0.research_subject",
+      "sha256": "c94d1aadae77d2110e683fd2b73469494ecc6fcd29647ca1b1f4b874f22a12a0",
+      "effects": [
+        {
+          "category": "weapon_modifiers",
+          "modifier": {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "point_defense"
+            ]
+          },
+          "affected_definitions": [
+            "expanse06_amun_pdc_0",
+            "expanse06_amun_pdc_1",
+            "expanse06_amun_pdc_2",
+            "expanse10_donnager_pdc_0",
+            "expanse10_donnager_pdc_1",
+            "expanse10_donnager_pdc_10",
+            "expanse10_donnager_pdc_11",
+            "expanse10_donnager_pdc_12",
+            "expanse10_donnager_pdc_13",
+            "expanse10_donnager_pdc_14",
+            "expanse10_donnager_pdc_15",
+            "expanse10_donnager_pdc_2",
+            "expanse10_donnager_pdc_3",
+            "expanse10_donnager_pdc_4",
+            "expanse10_donnager_pdc_5",
+            "expanse10_donnager_pdc_6",
+            "expanse10_donnager_pdc_7",
+            "expanse10_donnager_pdc_8",
+            "expanse10_donnager_pdc_9",
+            "expanse11_morrigan_pdc_0",
+            "expanse11_morrigan_pdc_1",
+            "expanse12_pella_pdc_0",
+            "expanse12_pella_pdc_1",
+            "expanse12_pella_pdc_2",
+            "expanse12_pella_pdc_3",
+            "expanse12_pella_pdc_4",
+            "expanse12_pella_pdc_5",
+            "expanse12_pella_pdc_6",
+            "expanse12_pella_pdc_7",
+            "expanse12_pella_pdc_8",
+            "expanse12_raptor_pdc_0",
+            "expanse12_raptor_pdc_1",
+            "expanse12_raptor_pdc_2",
+            "expanse12_raptor_pdc_3",
+            "expanse12_raptor_pdc_4",
+            "expanse12_raptor_pdc_5",
+            "expanse12_raptor_pdc_6",
+            "expanse12_raptor_pdc_7",
+            "expanse12_raptor_pdc_8",
+            "expanse12_scirocco_pdc_0",
+            "expanse12_scirocco_pdc_1",
+            "expanse12_scirocco_pdc_10",
+            "expanse12_scirocco_pdc_11",
+            "expanse12_scirocco_pdc_2",
+            "expanse12_scirocco_pdc_3",
+            "expanse12_scirocco_pdc_4",
+            "expanse12_scirocco_pdc_5",
+            "expanse12_scirocco_pdc_6",
+            "expanse12_scirocco_pdc_7",
+            "expanse12_scirocco_pdc_8",
+            "expanse12_scirocco_pdc_9",
+            "expanse15_truman_pdc_0",
+            "expanse15_truman_pdc_1",
+            "expanse15_truman_pdc_10",
+            "expanse15_truman_pdc_11",
+            "expanse15_truman_pdc_12",
+            "expanse15_truman_pdc_13",
+            "expanse15_truman_pdc_14",
+            "expanse15_truman_pdc_15",
+            "expanse15_truman_pdc_16",
+            "expanse15_truman_pdc_17",
+            "expanse15_truman_pdc_2",
+            "expanse15_truman_pdc_3",
+            "expanse15_truman_pdc_4",
+            "expanse15_truman_pdc_5",
+            "expanse15_truman_pdc_6",
+            "expanse15_truman_pdc_7",
+            "expanse15_truman_pdc_8",
+            "expanse15_truman_pdc_9",
+            "expanse19_europa_pdc_0",
+            "expanse19_europa_pdc_1",
+            "expanse19_europa_pdc_2",
+            "expanse19_europa_pdc_3",
+            "expanse19_europa_pdc_4",
+            "expanse19_europa_pdc_5",
+            "expanse_polish_pdc_0",
+            "expanse_polish_pdc_1",
+            "expanse_polish_pdc_2",
+            "expanse_polish_pdc_3",
+            "expanse_polish_pdc_4",
+            "expanse_polish_pdc_5",
+            "expanse_rocinante04_pdc_0",
+            "expanse_rocinante04_pdc_1",
+            "expanse_rocinante04_pdc_2",
+            "expanse_rocinante04_pdc_3",
+            "expanse_rocinante04_pdc_4",
+            "expanse_rocinante04_pdc_5"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_autocannon_weapon_damage_1",
+      "domain": "military",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_autocannon_weapon_damage_1.research_subject",
+      "sha256": "939be740ebd3bf6ca925462735dcb895598aea1999626057de030882db47de51",
+      "effects": [
+        {
+          "category": "weapon_modifiers",
+          "modifier": {
+            "value_behavior": "scalar",
+            "modifier_type": "damage",
+            "value": 0.1,
+            "tags": [
+              "autocannon"
+            ]
+          },
+          "affected_definitions": [
+            "expanse06_amun_pdc_0",
+            "expanse06_amun_pdc_1",
+            "expanse06_amun_pdc_2",
+            "expanse10_donnager_pdc_0",
+            "expanse10_donnager_pdc_1",
+            "expanse10_donnager_pdc_10",
+            "expanse10_donnager_pdc_11",
+            "expanse10_donnager_pdc_12",
+            "expanse10_donnager_pdc_13",
+            "expanse10_donnager_pdc_14",
+            "expanse10_donnager_pdc_15",
+            "expanse10_donnager_pdc_2",
+            "expanse10_donnager_pdc_3",
+            "expanse10_donnager_pdc_4",
+            "expanse10_donnager_pdc_5",
+            "expanse10_donnager_pdc_6",
+            "expanse10_donnager_pdc_7",
+            "expanse10_donnager_pdc_8",
+            "expanse10_donnager_pdc_9",
+            "expanse11_morrigan_pdc_0",
+            "expanse11_morrigan_pdc_1",
+            "expanse12_pella_pdc_0",
+            "expanse12_pella_pdc_1",
+            "expanse12_pella_pdc_2",
+            "expanse12_pella_pdc_3",
+            "expanse12_pella_pdc_4",
+            "expanse12_pella_pdc_5",
+            "expanse12_pella_pdc_6",
+            "expanse12_pella_pdc_7",
+            "expanse12_pella_pdc_8",
+            "expanse12_raptor_pdc_0",
+            "expanse12_raptor_pdc_1",
+            "expanse12_raptor_pdc_2",
+            "expanse12_raptor_pdc_3",
+            "expanse12_raptor_pdc_4",
+            "expanse12_raptor_pdc_5",
+            "expanse12_raptor_pdc_6",
+            "expanse12_raptor_pdc_7",
+            "expanse12_raptor_pdc_8",
+            "expanse12_scirocco_pdc_0",
+            "expanse12_scirocco_pdc_1",
+            "expanse12_scirocco_pdc_10",
+            "expanse12_scirocco_pdc_11",
+            "expanse12_scirocco_pdc_2",
+            "expanse12_scirocco_pdc_3",
+            "expanse12_scirocco_pdc_4",
+            "expanse12_scirocco_pdc_5",
+            "expanse12_scirocco_pdc_6",
+            "expanse12_scirocco_pdc_7",
+            "expanse12_scirocco_pdc_8",
+            "expanse12_scirocco_pdc_9",
+            "expanse15_truman_pdc_0",
+            "expanse15_truman_pdc_1",
+            "expanse15_truman_pdc_10",
+            "expanse15_truman_pdc_11",
+            "expanse15_truman_pdc_12",
+            "expanse15_truman_pdc_13",
+            "expanse15_truman_pdc_14",
+            "expanse15_truman_pdc_15",
+            "expanse15_truman_pdc_16",
+            "expanse15_truman_pdc_17",
+            "expanse15_truman_pdc_2",
+            "expanse15_truman_pdc_3",
+            "expanse15_truman_pdc_4",
+            "expanse15_truman_pdc_5",
+            "expanse15_truman_pdc_6",
+            "expanse15_truman_pdc_7",
+            "expanse15_truman_pdc_8",
+            "expanse15_truman_pdc_9",
+            "expanse19_europa_pdc_0",
+            "expanse19_europa_pdc_1",
+            "expanse19_europa_pdc_2",
+            "expanse19_europa_pdc_3",
+            "expanse19_europa_pdc_4",
+            "expanse19_europa_pdc_5",
+            "expanse_polish_pdc_0",
+            "expanse_polish_pdc_1",
+            "expanse_polish_pdc_2",
+            "expanse_polish_pdc_3",
+            "expanse_polish_pdc_4",
+            "expanse_polish_pdc_5",
+            "expanse_rocinante04_pdc_0",
+            "expanse_rocinante04_pdc_1",
+            "expanse_rocinante04_pdc_2",
+            "expanse_rocinante04_pdc_3",
+            "expanse_rocinante04_pdc_4",
+            "expanse_rocinante04_pdc_5"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_autocannon_weapon_damage_2",
+      "domain": "military",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_autocannon_weapon_damage_2.research_subject",
+      "sha256": "394ca9adfa52ad8226007306dc80d6f39118d01b3941d18947fab1e36e81db11",
+      "effects": [
+        {
+          "category": "weapon_modifiers",
+          "modifier": {
+            "value_behavior": "scalar",
+            "modifier_type": "damage",
+            "value": 0.1,
+            "tags": [
+              "autocannon"
+            ]
+          },
+          "affected_definitions": [
+            "expanse06_amun_pdc_0",
+            "expanse06_amun_pdc_1",
+            "expanse06_amun_pdc_2",
+            "expanse10_donnager_pdc_0",
+            "expanse10_donnager_pdc_1",
+            "expanse10_donnager_pdc_10",
+            "expanse10_donnager_pdc_11",
+            "expanse10_donnager_pdc_12",
+            "expanse10_donnager_pdc_13",
+            "expanse10_donnager_pdc_14",
+            "expanse10_donnager_pdc_15",
+            "expanse10_donnager_pdc_2",
+            "expanse10_donnager_pdc_3",
+            "expanse10_donnager_pdc_4",
+            "expanse10_donnager_pdc_5",
+            "expanse10_donnager_pdc_6",
+            "expanse10_donnager_pdc_7",
+            "expanse10_donnager_pdc_8",
+            "expanse10_donnager_pdc_9",
+            "expanse11_morrigan_pdc_0",
+            "expanse11_morrigan_pdc_1",
+            "expanse12_pella_pdc_0",
+            "expanse12_pella_pdc_1",
+            "expanse12_pella_pdc_2",
+            "expanse12_pella_pdc_3",
+            "expanse12_pella_pdc_4",
+            "expanse12_pella_pdc_5",
+            "expanse12_pella_pdc_6",
+            "expanse12_pella_pdc_7",
+            "expanse12_pella_pdc_8",
+            "expanse12_raptor_pdc_0",
+            "expanse12_raptor_pdc_1",
+            "expanse12_raptor_pdc_2",
+            "expanse12_raptor_pdc_3",
+            "expanse12_raptor_pdc_4",
+            "expanse12_raptor_pdc_5",
+            "expanse12_raptor_pdc_6",
+            "expanse12_raptor_pdc_7",
+            "expanse12_raptor_pdc_8",
+            "expanse12_scirocco_pdc_0",
+            "expanse12_scirocco_pdc_1",
+            "expanse12_scirocco_pdc_10",
+            "expanse12_scirocco_pdc_11",
+            "expanse12_scirocco_pdc_2",
+            "expanse12_scirocco_pdc_3",
+            "expanse12_scirocco_pdc_4",
+            "expanse12_scirocco_pdc_5",
+            "expanse12_scirocco_pdc_6",
+            "expanse12_scirocco_pdc_7",
+            "expanse12_scirocco_pdc_8",
+            "expanse12_scirocco_pdc_9",
+            "expanse15_truman_pdc_0",
+            "expanse15_truman_pdc_1",
+            "expanse15_truman_pdc_10",
+            "expanse15_truman_pdc_11",
+            "expanse15_truman_pdc_12",
+            "expanse15_truman_pdc_13",
+            "expanse15_truman_pdc_14",
+            "expanse15_truman_pdc_15",
+            "expanse15_truman_pdc_16",
+            "expanse15_truman_pdc_17",
+            "expanse15_truman_pdc_2",
+            "expanse15_truman_pdc_3",
+            "expanse15_truman_pdc_4",
+            "expanse15_truman_pdc_5",
+            "expanse15_truman_pdc_6",
+            "expanse15_truman_pdc_7",
+            "expanse15_truman_pdc_8",
+            "expanse15_truman_pdc_9",
+            "expanse19_europa_pdc_0",
+            "expanse19_europa_pdc_1",
+            "expanse19_europa_pdc_2",
+            "expanse19_europa_pdc_3",
+            "expanse19_europa_pdc_4",
+            "expanse19_europa_pdc_5",
+            "expanse_polish_pdc_0",
+            "expanse_polish_pdc_1",
+            "expanse_polish_pdc_2",
+            "expanse_polish_pdc_3",
+            "expanse_polish_pdc_4",
+            "expanse_polish_pdc_5",
+            "expanse_rocinante04_pdc_0",
+            "expanse_rocinante04_pdc_1",
+            "expanse_rocinante04_pdc_2",
+            "expanse_rocinante04_pdc_3",
+            "expanse_rocinante04_pdc_4",
+            "expanse_rocinante04_pdc_5"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_autocannon_weapon_damage_3",
+      "domain": "military",
+      "tier": 4,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_autocannon_weapon_damage_3.research_subject",
+      "sha256": "2919d88ec60b524977233b82c4050b620ff8e11db9e436c785a034f84ab629d8",
+      "effects": [
+        {
+          "category": "weapon_modifiers",
+          "modifier": {
+            "value_behavior": "scalar",
+            "modifier_type": "damage",
+            "value": 0.1,
+            "tags": [
+              "autocannon"
+            ]
+          },
+          "affected_definitions": [
+            "expanse06_amun_pdc_0",
+            "expanse06_amun_pdc_1",
+            "expanse06_amun_pdc_2",
+            "expanse10_donnager_pdc_0",
+            "expanse10_donnager_pdc_1",
+            "expanse10_donnager_pdc_10",
+            "expanse10_donnager_pdc_11",
+            "expanse10_donnager_pdc_12",
+            "expanse10_donnager_pdc_13",
+            "expanse10_donnager_pdc_14",
+            "expanse10_donnager_pdc_15",
+            "expanse10_donnager_pdc_2",
+            "expanse10_donnager_pdc_3",
+            "expanse10_donnager_pdc_4",
+            "expanse10_donnager_pdc_5",
+            "expanse10_donnager_pdc_6",
+            "expanse10_donnager_pdc_7",
+            "expanse10_donnager_pdc_8",
+            "expanse10_donnager_pdc_9",
+            "expanse11_morrigan_pdc_0",
+            "expanse11_morrigan_pdc_1",
+            "expanse12_pella_pdc_0",
+            "expanse12_pella_pdc_1",
+            "expanse12_pella_pdc_2",
+            "expanse12_pella_pdc_3",
+            "expanse12_pella_pdc_4",
+            "expanse12_pella_pdc_5",
+            "expanse12_pella_pdc_6",
+            "expanse12_pella_pdc_7",
+            "expanse12_pella_pdc_8",
+            "expanse12_raptor_pdc_0",
+            "expanse12_raptor_pdc_1",
+            "expanse12_raptor_pdc_2",
+            "expanse12_raptor_pdc_3",
+            "expanse12_raptor_pdc_4",
+            "expanse12_raptor_pdc_5",
+            "expanse12_raptor_pdc_6",
+            "expanse12_raptor_pdc_7",
+            "expanse12_raptor_pdc_8",
+            "expanse12_scirocco_pdc_0",
+            "expanse12_scirocco_pdc_1",
+            "expanse12_scirocco_pdc_10",
+            "expanse12_scirocco_pdc_11",
+            "expanse12_scirocco_pdc_2",
+            "expanse12_scirocco_pdc_3",
+            "expanse12_scirocco_pdc_4",
+            "expanse12_scirocco_pdc_5",
+            "expanse12_scirocco_pdc_6",
+            "expanse12_scirocco_pdc_7",
+            "expanse12_scirocco_pdc_8",
+            "expanse12_scirocco_pdc_9",
+            "expanse15_truman_pdc_0",
+            "expanse15_truman_pdc_1",
+            "expanse15_truman_pdc_10",
+            "expanse15_truman_pdc_11",
+            "expanse15_truman_pdc_12",
+            "expanse15_truman_pdc_13",
+            "expanse15_truman_pdc_14",
+            "expanse15_truman_pdc_15",
+            "expanse15_truman_pdc_16",
+            "expanse15_truman_pdc_17",
+            "expanse15_truman_pdc_2",
+            "expanse15_truman_pdc_3",
+            "expanse15_truman_pdc_4",
+            "expanse15_truman_pdc_5",
+            "expanse15_truman_pdc_6",
+            "expanse15_truman_pdc_7",
+            "expanse15_truman_pdc_8",
+            "expanse15_truman_pdc_9",
+            "expanse19_europa_pdc_0",
+            "expanse19_europa_pdc_1",
+            "expanse19_europa_pdc_2",
+            "expanse19_europa_pdc_3",
+            "expanse19_europa_pdc_4",
+            "expanse19_europa_pdc_5",
+            "expanse_polish_pdc_0",
+            "expanse_polish_pdc_1",
+            "expanse_polish_pdc_2",
+            "expanse_polish_pdc_3",
+            "expanse_polish_pdc_4",
+            "expanse_polish_pdc_5",
+            "expanse_rocinante04_pdc_0",
+            "expanse_rocinante04_pdc_1",
+            "expanse_rocinante04_pdc_2",
+            "expanse_rocinante04_pdc_3",
+            "expanse_rocinante04_pdc_4",
+            "expanse_rocinante04_pdc_5"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_corvette_speed",
+      "domain": "military",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_corvette_speed.research_subject",
+      "sha256": "4ecc0201be390d023c909e9c6a64ebbd377ba4770a79f17c2e89015e10dc569a",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "max_linear_speed",
+            "value_behavior": "scalar",
+            "value": 0.15,
+            "tags": [
+              "corvette"
+            ]
+          },
+          "affected_definitions": [
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_counter_deployment",
+      "domain": "civilian",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_counter_deployment.research_subject",
+      "sha256": "6478fe5f5349a76b599ed440394c2f0a351b82b1009ea8a44fb3d823dfd6bd9e",
+      "effects": [
+        {
+          "category": "buff_providers",
+          "providers": [
+            {
+              "scope": "all_owned_units",
+              "all_owned_units_target_filter": {
+                "ownerships": [
+                  "self"
+                ],
+                "constraints": [
+                  {
+                    "constraint_type": "is_unit_factory"
+                  }
+                ]
+              },
+              "action_data_source": "trader_counter_deployment",
+              "buff": "trader_counter_deployment_bootstrap",
+              "tooltip_sub_header_label": "trader_counter_deployment_research_subject_tooltip_sub_header_label",
+              "tooltip_lines": [
+                {
+                  "rendering_type": "buff_unit_factory_modifier",
+                  "unit_factory_modifier_id": "counter_deployment_factory_build_time_modifier"
+                }
+              ]
+            }
+          ],
+          "affected_definitions": [
+            "runtime target-filter matches; native provider behavior retained"
+          ],
+          "expectation": "Target-filter dispatch, not direct stat inheritance; runtime and saved-buff behavior NOT RUN."
+        }
+      ]
+    },
+    {
+      "technology": "trader_culture_rate_0",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_culture_rate_0.research_subject",
+      "sha256": "6bb352f83500525460f961b1a8c8fc77d277e4778671dbbb92c3d8773d55f749",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "culture_rate",
+                "value_behavior": "scalar",
+                "value": 0.1
+              },
+              {
+                "modifier_type": "max_allied_population_factor",
+                "value_behavior": "additive",
+                "value": 0.1
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_culture_rate_1",
+      "domain": "civilian",
+      "tier": 3,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_culture_rate_1.research_subject",
+      "sha256": "880f99cda762bd10ea5ca30a7c2fbe177fa288774a03e431436d1e46ef017b0d",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "culture_rate",
+                "value_behavior": "scalar",
+                "value": 0.15
+              },
+              {
+                "modifier_type": "max_allied_population_factor",
+                "value_behavior": "additive",
+                "value": 0.15
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_defense_structure_culture_resistance",
+      "domain": "military",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_defense_structure_culture_resistance.research_subject",
+      "sha256": "ed58b202432606feb23fa06c5163eb6784a8324501abe0b29cf24461d6c9cae0",
+      "effects": [
+        {
+          "category": "buff_providers",
+          "providers": [
+            {
+              "scope": "all_owned_units",
+              "all_owned_units_target_filter": {
+                "unit_types": [
+                  "structure"
+                ],
+                "ownerships": [
+                  "self"
+                ],
+                "constraints": [
+                  {
+                    "constraint_type": "is_structure_with_slot_type",
+                    "slot_type": "military"
+                  }
+                ]
+              },
+              "action_data_source": "trader_defense_structure_culture_resistance_research_subject",
+              "buff": "trader_defense_structure_culture_resistance_research_subject",
+              "tooltip_sub_header_label": "military_structures_research_subject_sub_header_label",
+              "tooltip_lines": [
+                {
+                  "rendering_type": "buff_unit_modifier",
+                  "unit_modifier_id": "trader_defense_structure_culture_resistance_modifier"
+                }
+              ]
+            }
+          ],
+          "affected_definitions": [
+            "runtime target-filter matches; native provider behavior retained"
+          ],
+          "expectation": "Target-filter dispatch, not direct stat inheritance; runtime and saved-buff behavior NOT RUN."
+        }
+      ]
+    },
+    {
+      "technology": "trader_fortification_specialist",
+      "domain": "civilian",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_fortification_specialist.research_subject",
+      "sha256": "526a977aa644b300cc47725d7cd5222e7bee3149d1910542d716003446905c0b",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "defense_track_build_price",
+                "value_behavior": "scalar",
+                "value": -0.25
+              },
+              {
+                "modifier_type": "defense_track_build_time",
+                "value_behavior": "scalar",
+                "value": -0.15
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_heavy_maneuvering_thrusters",
+      "domain": "military",
+      "tier": 3,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_heavy_maneuvering_thrusters.research_subject",
+      "sha256": "4065677f6e2878360c540a4f82608c41c52f1167ecb0632ef330fcd3c57ce874",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "max_angular_speed",
+            "value_behavior": "scalar",
+            "value": 0.35,
+            "tags": [
+              "capital_ship",
+              "super_capital_ship",
+              "titan"
+            ]
+          },
+          "affected_definitions": [
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_truman",
+            "expanse_donnager_battleship"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_hull_damage_reduction_0",
+      "domain": "military",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_hull_damage_reduction_0.research_subject",
+      "sha256": "17fa2983e4bbd79758d5292e21bce079b047a8efe2e993e2551db74e0a130bca",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "armor_strength",
+            "value_behavior": "additive",
+            "value": 10.0
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_hull_damage_reduction_1",
+      "domain": "military",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_hull_damage_reduction_1.research_subject",
+      "sha256": "93ec86771980bcf55893207a65ec4c635e38ca7981ebb91199e1824115b791d3",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "armor_strength",
+            "value_behavior": "additive",
+            "value": 15.0
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_hull_damage_reduction_2",
+      "domain": "military",
+      "tier": 4,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_hull_damage_reduction_2.research_subject",
+      "sha256": "d8cfabb7fd52908bba01289d012ea33e8d4d6bc39df2f75c70efea4f9a23e961",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "armor_strength",
+            "value_behavior": "additive",
+            "value": 25.0
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_improve_gauss_defense_cooldown",
+      "domain": "military",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_improve_gauss_defense_cooldown.research_subject",
+      "sha256": "406e4a6a298eaa8f4322deadf11759bfb07bab24111844b8fd6f2d9a0cfaf769",
+      "effects": [
+        {
+          "category": "weapon_modifiers",
+          "modifier": {
+            "modifier_type": "cooldown_duration",
+            "value_behavior": "scalar",
+            "value": -0.05,
+            "tags": [
+              "rail_gun"
+            ]
+          },
+          "affected_definitions": [
+            "expanse03_hero_railgun",
+            "expanse06_amun_railgun",
+            "expanse10_donnager_rail_0",
+            "expanse10_donnager_rail_1",
+            "expanse12_scirocco_rail_0",
+            "expanse15_truman_rail_0",
+            "expanse15_truman_rail_1"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_labor_negotiations",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_labor_negotiations.research_subject",
+      "sha256": "52897a215b68b26428932808715b6501aa2a0f494a653c00e721c76d8a3908c7",
+      "effects": [
+        {
+          "category": "unit_factory_modifiers",
+          "modifier": {
+            "modifier_type": "build_time",
+            "value_behavior": "scalar",
+            "value": -0.05,
+            "build_kinds": [
+              "corvette",
+              "frigate",
+              "cruiser"
+            ]
+          },
+          "affected_definitions": [
+            "expanse19_artemis",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Affects future construction at owned factories; existing units unchanged."
+        }
+      ]
+    },
+    {
+      "technology": "trader_max_hull_points_0",
+      "domain": "military",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_max_hull_points_0.research_subject",
+      "sha256": "0ea8a8b85d2fc02e630de3173ac76cd51dfc710c055fb02b3b16ac08476e268d",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "frigate",
+              "cruiser",
+              "corvette",
+              "capital_ship",
+              "super_capital_ship",
+              "titan",
+              "starbase"
+            ]
+          },
+          "affected_definitions": [
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_truman",
+            "expanse19_artemis",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_max_hull_points_1",
+      "domain": "military",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_max_hull_points_1.research_subject",
+      "sha256": "8857ab689e74a33f09bf96eca6cd5b1771b93ffed34dd4d5a3007193455f2c6f",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "value": 0.125
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        },
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "hull_point_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.05
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        },
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "hull_crippled_percentage",
+            "value_behavior": "scalar",
+            "value": 0.05
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_max_hull_points_2",
+      "domain": "military",
+      "tier": 3,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_max_hull_points_2.research_subject",
+      "sha256": "c339e36a964e24ddc918ebaec6143da58a6503e22972156f5320f90123cd1414",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "hull_point_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "frigate",
+              "cruiser",
+              "corvette",
+              "capital_ship",
+              "super_capital_ship",
+              "titan",
+              "starbase"
+            ]
+          },
+          "affected_definitions": [
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_truman",
+            "expanse19_artemis",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_mining_track_crystal_rate_0",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_mining_track_crystal_rate_0.research_subject",
+      "sha256": "f85a312df2a12cb64a339080d133c4fbb2c9675fdab2dc0dd2f23638a143fcef",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "mining_track_crystal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.05
+              },
+              {
+                "modifier_type": "mining_track_crystal_income_rate_per_population",
+                "value_behavior": "scalar",
+                "value": 0.05
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_mining_track_crystal_rate_1",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_mining_track_crystal_rate_1.research_subject",
+      "sha256": "92511208fdb6325357d62dc0f622eaeb60dbec6b5867014391fa6ac3b3f6d093",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "mining_track_crystal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.15
+              },
+              {
+                "modifier_type": "mining_track_crystal_income_rate_per_population",
+                "value_behavior": "scalar",
+                "value": 0.15
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_mining_track_metal_rate_0",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_mining_track_metal_rate_0.research_subject",
+      "sha256": "25bd0e9233f1166cee939544314f216b12008edc60e97497de4bda87585316c7",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "mining_track_metal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.1
+              },
+              {
+                "modifier_type": "mining_track_metal_income_rate_per_population",
+                "value_behavior": "scalar",
+                "value": 0.1
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_mining_track_metal_rate_1",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_mining_track_metal_rate_1.research_subject",
+      "sha256": "66dcac7ca6a9c990f5b8fe2cd13a47966a24917c920f848d3f89cdba5c773166",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "mining_track_metal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.15
+              },
+              {
+                "modifier_type": "mining_track_metal_income_rate_per_population",
+                "value_behavior": "scalar",
+                "value": 0.15
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_missile_weapon_armor",
+      "domain": "military",
+      "tier": 4,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_missile_weapon_armor.research_subject",
+      "sha256": "659693a2b2646bcc3112d1c2c9ea41e0431b0ffda540801097b11d468da972c3",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "torpedo"
+            ]
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse15_unn_light_torpedo",
+            "expanse19_defense_torpedo"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_missile_weapon_damage_0",
+      "domain": "military",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_missile_weapon_damage_0.research_subject",
+      "sha256": "295c76ed172703ff70dff6040e9921bfd44e8d079bbdd8535a3eb441fabb9504",
+      "effects": [
+        {
+          "category": "weapon_modifiers",
+          "modifier": {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "missile"
+            ]
+          },
+          "affected_definitions": [
+            "expanse15_missile_defense"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_missile_weapon_damage_1",
+      "domain": "military",
+      "tier": 3,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_missile_weapon_damage_1.research_subject",
+      "sha256": "b08fbb48bb7b1c75ab9e79dfe9dc2084fde1df7aaadcd1d949945ba6559ad74c",
+      "effects": [
+        {
+          "category": "weapon_modifiers",
+          "modifier": {
+            "value_behavior": "scalar",
+            "modifier_type": "damage",
+            "value": 0.1,
+            "tags": [
+              "missile"
+            ]
+          },
+          "affected_definitions": [
+            "expanse15_missile_defense"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_missile_weapon_damage_2",
+      "domain": "military",
+      "tier": 4,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_missile_weapon_damage_2.research_subject",
+      "sha256": "f8fb47d81876a9ba1caae148fa733f74f7d3e71deab394d5bfe5bc75e77a3922",
+      "effects": [
+        {
+          "category": "weapon_modifiers",
+          "modifier": {
+            "value_behavior": "scalar",
+            "modifier_type": "damage",
+            "value": 0.1,
+            "tags": [
+              "missile"
+            ]
+          },
+          "affected_definitions": [
+            "expanse15_missile_defense"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_missile_weapon_range",
+      "domain": "military",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_missile_weapon_range.research_subject",
+      "sha256": "41172cfae22796cab971ecbe085b13dc39a7ff9acb98f95770b94bdd85e0d664",
+      "effects": [
+        {
+          "category": "weapon_modifiers",
+          "modifier": {
+            "value_behavior": "scalar",
+            "modifier_type": "range",
+            "value": 0.15,
+            "tags": [
+              "missile"
+            ]
+          },
+          "affected_definitions": [
+            "expanse15_missile_defense"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_npc_market_discounts",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_npc_market_discounts.research_subject",
+      "sha256": "ccbba95a4c14b175114dd5c725a16bd979847237beb85973d6e98853b63676c8",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "npc_modifiers": [
+              {
+                "modifier_type": "buy_metal_credits_cost",
+                "value_behavior": "scalar",
+                "value": -0.1
+              },
+              {
+                "modifier_type": "buy_crystal_credits_cost",
+                "value_behavior": "scalar",
+                "value": -0.1
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_orbital_extraction_crystal_rate_0",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_orbital_extraction_crystal_rate_0.research_subject",
+      "sha256": "97236e1d3243ab8bde1d384b343d737ad0582ac3fae8b7aa2181607d373a7f6f",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "orbital_extraction_crystal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.15
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_orbital_extraction_crystal_rate_1",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_orbital_extraction_crystal_rate_1.research_subject",
+      "sha256": "5b0437d89664db3d79865ca17834999dcf5843592badfae2add6f197762745b4",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "orbital_extraction_crystal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.25
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_orbital_extraction_metal_rate_0",
+      "domain": "civilian",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_orbital_extraction_metal_rate_0.research_subject",
+      "sha256": "769407004772423a1dd855f4f32731847ea274ab9d3795d67b651bcde7510924",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "orbital_extraction_metal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.15
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_orbital_extraction_metal_rate_1",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_orbital_extraction_metal_rate_1.research_subject",
+      "sha256": "431cf30cfd95e9171142e57e9b1deb02350aa8f18389a9bd8d21dc8bbc4fd560",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "orbital_extraction_metal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.25
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_pervasive_economy",
+      "domain": "civilian",
+      "tier": 4,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_pervasive_economy.research_subject",
+      "sha256": "8bb58def250fee839bed249218a2ddee50628da2567ee5fad43a093efa3d3070",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "empire_modifiers": [
+              {
+                "value_behavior": "additive",
+                "modifier_type": "percentage_of_other_players_total_credit_income",
+                "value": 0.2
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_planet_civilian_slots",
+      "domain": "civilian",
+      "tier": 4,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_planet_civilian_slots.research_subject",
+      "sha256": "3398853b09a4b936e84a967267e91281ffc58a136ef1234e51f9775bd4877c31",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "max_civilian_structure_slots",
+                "value_behavior": "additive",
+                "value": 5.0,
+                "planet_types": [
+                  "city",
+                  "desert",
+                  "oceanic",
+                  "terran"
+                ]
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_planet_health_restore_rate",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_planet_health_restore_rate.research_subject",
+      "sha256": "ad1226a47924ecf31508fe8563864781f2fcac89900c572e22736cd4a03b7351",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "health_points_restore_rate",
+                "value_behavior": "scalar",
+                "value": 0.05
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_planet_track_upgrade_rate",
+      "domain": "civilian",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_planet_track_upgrade_rate.research_subject",
+      "sha256": "b885f079611edd8d7887f17fdb397004ee3456e636ed16afa354ca8baf08f426",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "any_development_track_build_time",
+                "value_behavior": "scalar",
+                "value": -0.1
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_quick_phase_jump",
+      "domain": "military",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_quick_phase_jump.research_subject",
+      "sha256": "dce347ed2eee38b4c66681c9a240ad06b412098830e265fa25cc243c547707c4",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "hyperspace_charge_time",
+            "value_behavior": "scalar",
+            "value": -0.4
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_structure_build_rate",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_structure_build_rate.research_subject",
+      "sha256": "969a84738a7681735bb21c75058dfec365210aa0c0c0ac06a5af4c2ee5c10ed3",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "structure_build_time",
+                "value_behavior": "scalar",
+                "value": -0.05
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_structure_hull",
+      "domain": "military",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_structure_hull.research_subject",
+      "sha256": "47a8515911041fc8aa198b770fda03cc2f2f3853a3c9d975f34c58fe9c2dce4d",
+      "effects": [
+        {
+          "category": "buff_providers",
+          "providers": [
+            {
+              "scope": "all_owned_units",
+              "all_owned_units_target_filter": {
+                "unit_types": [
+                  "structure"
+                ],
+                "ownerships": [
+                  "self"
+                ],
+                "constraints": [
+                  {
+                    "constraint_type": "is_structure_with_slot_type",
+                    "slot_type": "military"
+                  }
+                ]
+              },
+              "action_data_source": "trader_structure_hull_research_subject",
+              "buff": "trader_structure_hull_research_subject",
+              "tooltip_sub_header_label": "military_structures_research_subject_sub_header_label",
+              "tooltip_lines": [
+                {
+                  "rendering_type": "buff_unit_modifier",
+                  "unit_modifier_id": "structure_hull_max_hull_points_modifier"
+                },
+                {
+                  "rendering_type": "buff_unit_modifier",
+                  "unit_modifier_id": "structure_hull_max_armor_points_modifier"
+                }
+              ]
+            }
+          ],
+          "affected_definitions": [
+            "runtime target-filter matches; native provider behavior retained"
+          ],
+          "expectation": "Target-filter dispatch, not direct stat inheritance; runtime and saved-buff behavior NOT RUN."
+        }
+      ]
+    },
+    {
+      "technology": "trader_structure_price_decrease",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_structure_price_decrease.research_subject",
+      "sha256": "8c06fb0ffdc8ff4e12b317e094bf44315a7977424a251623ba5bc781ac79decb",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "structure_build_price",
+                "value_behavior": "scalar",
+                "value": -0.25
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_trade_port_income_rate_0",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/trader_trade_port_income_rate_0.research_subject",
+      "sha256": "2a12b1236606fe0c8d88181805b9424324085749c4b56f4de868d07566c701f8",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "empire_modifiers": [
+              {
+                "modifier_type": "trade_credits_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.05
+              },
+              {
+                "modifier_type": "trade_metal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.05
+              },
+              {
+                "modifier_type": "trade_crystal_income_rate",
+                "value_behavior": "scalar",
+                "value": 0.05
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_trade_port_income_rate_1",
+      "domain": "civilian",
+      "tier": 3,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_trade_port_income_rate_1.research_subject",
+      "sha256": "5086522c5dba6619d714374597676b7c818712e31731dcaf54b723d8d6f50932",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "empire_modifiers": [
+              {
+                "value_behavior": "scalar",
+                "modifier_type": "trade_credits_income_rate",
+                "value": 0.15
+              },
+              {
+                "value_behavior": "scalar",
+                "modifier_type": "trade_metal_income_rate",
+                "value": 0.15
+              },
+              {
+                "value_behavior": "scalar",
+                "modifier_type": "trade_crystal_income_rate",
+                "value": 0.15
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_unit_factory_build_rate",
+      "domain": "civilian",
+      "tier": 4,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_unit_factory_build_rate.research_subject",
+      "sha256": "794387817b0e1a2d4724f27a97f2280544ff9cd9c44f4ab0bb8754abcf0696a7",
+      "effects": [
+        {
+          "category": "unit_factory_modifiers",
+          "modifier": {
+            "modifier_type": "build_time",
+            "value_behavior": "scalar",
+            "value": -0.4,
+            "build_kinds": [
+              "corvette",
+              "frigate",
+              "cruiser"
+            ]
+          },
+          "affected_definitions": [
+            "expanse19_artemis",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Affects future construction at owned factories; existing units unchanged."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_barren_biosphere_credit_rate",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_barren_biosphere_credit_rate.research_subject",
+      "sha256": "6c32389eeab975fd343bbe5cf0ad9013fd57230defb1220e46504c34001c4b26",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "commerce_track_credit_income_rate",
+                "value_behavior": "additive",
+                "value": 1.5,
+                "planet_types": [
+                  "barren"
+                ]
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_crystalline_biosphere_credit_rate",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_crystalline_biosphere_credit_rate.research_subject",
+      "sha256": "cb89dbdbdd7b84adec44c5d30f511813533cd55db68db723a10faac58663e6d4",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "commerce_track_credit_income_rate",
+                "value_behavior": "additive",
+                "value": 2.5,
+                "planet_types": [
+                  "crystalline"
+                ]
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_experience_gain_1",
+      "domain": "military",
+      "tier": 3,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_experience_gain_1.research_subject",
+      "sha256": "32a87061fb5247bcb12475a477172ca1639885f022339b88b41da1ff713f80e1",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "experience_gained_from_unit_death",
+            "value_behavior": "scalar",
+            "value": 0.2
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_ferrous_biosphere_credit_rate",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_ferrous_biosphere_credit_rate.research_subject",
+      "sha256": "4cbb9416ef4437a93d5aff11ef881dd39423303b7c538a1b4c2a4f4dd4ccd67c",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "commerce_track_credit_income_rate",
+                "value_behavior": "additive",
+                "value": 2.5,
+                "planet_types": [
+                  "ferrous"
+                ]
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_ice_biosphere_credit_rate",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_ice_biosphere_credit_rate.research_subject",
+      "sha256": "b32511750667590ba338a32137e073adb3b49c3ece59d44a5bac0ade770dfc9c",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "commerce_track_credit_income_rate",
+                "value_behavior": "additive",
+                "value": 1.5,
+                "planet_types": [
+                  "ice"
+                ]
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_influence_0",
+      "domain": "civilian",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_influence_0.research_subject",
+      "sha256": "e6afde7fa3c17ed52385d198c7fbb83d9a9b2f6f6e960d44516a766d62a4289c",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "empire_modifiers": [
+              {
+                "value_behavior": "additive",
+                "modifier_type": "max_influence_points",
+                "value": 2.0
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_influence_1",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_influence_1.research_subject",
+      "sha256": "d4b6ebdbef23e36efd280095213d9115789cfd7af92477bec20d4cb685bbea95",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "empire_modifiers": [
+              {
+                "value_behavior": "additive",
+                "modifier_type": "max_influence_points",
+                "value": 3.0
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_influence_2",
+      "domain": "civilian",
+      "tier": 3,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_influence_2.research_subject",
+      "sha256": "9acb4b4b35ee1267468ebd5a35a062214fe872ea6aef1f767ba32ce0b666c66f",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "empire_modifiers": [
+              {
+                "value_behavior": "additive",
+                "modifier_type": "max_influence_points",
+                "value": 4.0
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_influence_rate",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_influence_rate.research_subject",
+      "sha256": "8989746387c550654419f4c3f11b0ea845bda95c02b79087dc5dda1347a20ff9",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "empire_modifiers": [
+              {
+                "value_behavior": "scalar",
+                "modifier_type": "influence_points_recharge_rate",
+                "value": 0.25
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_irradiated_biosphere_credit_rate",
+      "domain": "civilian",
+      "tier": 2,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_irradiated_biosphere_credit_rate.research_subject",
+      "sha256": "55348d2699e76c3e4ac7859b2003a54f930a44d51f2e3506acb40d3f074b97f1",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "commerce_track_credit_income_rate",
+                "value_behavior": "additive",
+                "value": 2.5,
+                "planet_types": [
+                  "irradiated"
+                ]
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_loot_experience_gain",
+      "domain": "civilian",
+      "tier": 0,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_loot_experience_gain.research_subject",
+      "sha256": "da76cd5eac3ac431b0d6d155e91744204665f81ab3ba8a39f3269a68fbabb282",
+      "effects": [
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "unit_capture_points",
+            "value_behavior": "additive",
+            "value": 1.0
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        },
+        {
+          "category": "unit_modifiers",
+          "modifier": {
+            "modifier_type": "experience_gained_from_loot_collection",
+            "value_behavior": "scalar",
+            "value": 0.5
+          },
+          "affected_definitions": [
+            "expanse04_light_torpedo",
+            "expanse06_amun_torpedo",
+            "expanse10_donnager_heavy_torpedo",
+            "expanse12_pella",
+            "expanse12_raptor",
+            "expanse12_scirocco",
+            "expanse15_missile_defense",
+            "expanse15_truman",
+            "expanse15_unn_light_torpedo",
+            "expanse18_equal_home",
+            "expanse19_artemis",
+            "expanse19_defense_torpedo",
+            "expanse19_europa_bane",
+            "expanse_amun_ra",
+            "expanse_donnager_battleship",
+            "expanse_mcrn_corvette",
+            "expanse_rocinante_hero",
+            "trader_light_frigate",
+            "trader_scout_corvette"
+          ],
+          "expectation": "Owner research modifier applies to matching definitions; actual runtime refresh requires existing/new ship comparison."
+        }
+      ]
+    },
+    {
+      "technology": "trader_upgrade_volcanic_biosphere_credit_rate",
+      "domain": "civilian",
+      "tier": 1,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_volcanic_biosphere_credit_rate.research_subject",
+      "sha256": "4998109432a040f42c4a4089db8dd2c9e4da3ac07111bf0d64d88dcfd2ae0d7b",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "commerce_track_credit_income_rate",
+                "value_behavior": "additive",
+                "value": 1.5,
+                "planet_types": [
+                  "volcanic"
+                ]
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    },
+    {
+      "technology": "trader_war_measures_act",
+      "domain": "civilian",
+      "tier": 3,
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_war_measures_act.research_subject",
+      "sha256": "577fd6c99d4830851844eadc490495180ad4ce6ec8f658a12b46e861dff9d2e9",
+      "effects": [
+        {
+          "category": "economic/planetary",
+          "modifiers": {
+            "planet_modifiers": [
+              {
+                "modifier_type": "commerce_track_credit_income_rate_per_population",
+                "value_behavior": "scalar",
+                "value": 0.5,
+                "dynamic_multiplier": "inverse_used_supply_percentage"
+              }
+            ]
+          },
+          "affected_definitions": [
+            "owned planets / economy matching native filters"
+          ],
+          "expectation": "Does not directly modify custom hull or weapon fields."
+        }
+      ]
+    }
+  ],
+  "explicit_custom_research_dependencies": [
+    {
+      "definition": "expanse03_hero_torpedo_salvo.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse03_roci_torpedo_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse03_torpedo_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse06_amun_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse10_donnager_heavy_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse10_donnager_light_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse11_morrigan_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse12_pella_light_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse12_raptor_light_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse12_scirocco_heavy_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse12_scirocco_light_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse15_missile_defense.unit",
+      "research_dependencies": [
+        "trader_unlock_long_range_cruiser"
+      ]
+    },
+    {
+      "definition": "expanse15_scirocco_breaching_teams.ability",
+      "research_dependencies": [
+        "trader_upgrade_experience_gain_0"
+      ]
+    },
+    {
+      "definition": "expanse15_truman_light_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse19_europa_magazine.ability",
+      "research_dependencies": [
+        "trader_missile_weapon_damage_0"
+      ]
+    },
+    {
+      "definition": "expanse_donnager_battleship.unit",
+      "research_dependencies": [
+        "trader_unlock_loyalist_titan"
+      ]
+    },
+    {
+      "definition": "trader_scout_corvette.unit",
+      "research_dependencies": [
+        "trader_scout_corvette_hyperspace_charge_time"
+      ]
+    }
+  ],
+  "custom_units": [
+    "expanse04_light_torpedo",
+    "expanse06_amun_torpedo",
+    "expanse10_donnager_heavy_torpedo",
+    "expanse12_pella",
+    "expanse12_raptor",
+    "expanse12_scirocco",
+    "expanse15_missile_defense",
+    "expanse15_truman",
+    "expanse15_unn_light_torpedo",
+    "expanse18_equal_home",
+    "expanse19_artemis",
+    "expanse19_defense_torpedo",
+    "expanse19_europa_bane",
+    "expanse_amun_ra",
+    "expanse_donnager_battleship",
+    "expanse_mcrn_corvette",
+    "expanse_rocinante_hero",
+    "trader_light_frigate",
+    "trader_scout_corvette"
+  ],
+  "custom_weapons": [
+    "expanse03_hero_railgun",
+    "expanse06_amun_pdc_0",
+    "expanse06_amun_pdc_1",
+    "expanse06_amun_pdc_2",
+    "expanse06_amun_railgun",
+    "expanse10_donnager_pdc_0",
+    "expanse10_donnager_pdc_1",
+    "expanse10_donnager_pdc_10",
+    "expanse10_donnager_pdc_11",
+    "expanse10_donnager_pdc_12",
+    "expanse10_donnager_pdc_13",
+    "expanse10_donnager_pdc_14",
+    "expanse10_donnager_pdc_15",
+    "expanse10_donnager_pdc_2",
+    "expanse10_donnager_pdc_3",
+    "expanse10_donnager_pdc_4",
+    "expanse10_donnager_pdc_5",
+    "expanse10_donnager_pdc_6",
+    "expanse10_donnager_pdc_7",
+    "expanse10_donnager_pdc_8",
+    "expanse10_donnager_pdc_9",
+    "expanse10_donnager_rail_0",
+    "expanse10_donnager_rail_1",
+    "expanse11_morrigan_pdc_0",
+    "expanse11_morrigan_pdc_1",
+    "expanse12_pella_pdc_0",
+    "expanse12_pella_pdc_1",
+    "expanse12_pella_pdc_2",
+    "expanse12_pella_pdc_3",
+    "expanse12_pella_pdc_4",
+    "expanse12_pella_pdc_5",
+    "expanse12_pella_pdc_6",
+    "expanse12_pella_pdc_7",
+    "expanse12_pella_pdc_8",
+    "expanse12_raptor_pdc_0",
+    "expanse12_raptor_pdc_1",
+    "expanse12_raptor_pdc_2",
+    "expanse12_raptor_pdc_3",
+    "expanse12_raptor_pdc_4",
+    "expanse12_raptor_pdc_5",
+    "expanse12_raptor_pdc_6",
+    "expanse12_raptor_pdc_7",
+    "expanse12_raptor_pdc_8",
+    "expanse12_scirocco_pdc_0",
+    "expanse12_scirocco_pdc_1",
+    "expanse12_scirocco_pdc_10",
+    "expanse12_scirocco_pdc_11",
+    "expanse12_scirocco_pdc_2",
+    "expanse12_scirocco_pdc_3",
+    "expanse12_scirocco_pdc_4",
+    "expanse12_scirocco_pdc_5",
+    "expanse12_scirocco_pdc_6",
+    "expanse12_scirocco_pdc_7",
+    "expanse12_scirocco_pdc_8",
+    "expanse12_scirocco_pdc_9",
+    "expanse12_scirocco_rail_0",
+    "expanse15_missile_defense",
+    "expanse15_truman_pdc_0",
+    "expanse15_truman_pdc_1",
+    "expanse15_truman_pdc_10",
+    "expanse15_truman_pdc_11",
+    "expanse15_truman_pdc_12",
+    "expanse15_truman_pdc_13",
+    "expanse15_truman_pdc_14",
+    "expanse15_truman_pdc_15",
+    "expanse15_truman_pdc_16",
+    "expanse15_truman_pdc_17",
+    "expanse15_truman_pdc_2",
+    "expanse15_truman_pdc_3",
+    "expanse15_truman_pdc_4",
+    "expanse15_truman_pdc_5",
+    "expanse15_truman_pdc_6",
+    "expanse15_truman_pdc_7",
+    "expanse15_truman_pdc_8",
+    "expanse15_truman_pdc_9",
+    "expanse15_truman_rail_0",
+    "expanse15_truman_rail_1",
+    "expanse19_europa_pdc_0",
+    "expanse19_europa_pdc_1",
+    "expanse19_europa_pdc_2",
+    "expanse19_europa_pdc_3",
+    "expanse19_europa_pdc_4",
+    "expanse19_europa_pdc_5",
+    "expanse_polish_pdc_0",
+    "expanse_polish_pdc_1",
+    "expanse_polish_pdc_2",
+    "expanse_polish_pdc_3",
+    "expanse_polish_pdc_4",
+    "expanse_polish_pdc_5",
+    "expanse_rocinante04_pdc_0",
+    "expanse_rocinante04_pdc_1",
+    "expanse_rocinante04_pdc_2",
+    "expanse_rocinante04_pdc_3",
+    "expanse_rocinante04_pdc_4",
+    "expanse_rocinante04_pdc_5"
+  ],
+  "spawned_torpedoes": [
+    "expanse04_light_torpedo",
+    "expanse06_amun_torpedo",
+    "expanse10_donnager_heavy_torpedo",
+    "expanse15_unn_light_torpedo",
+    "expanse19_defense_torpedo"
+  ],
+  "semantic_limits": [
+    "Tag lists are interpreted as OR, consistent with native multi-class hull and factory research. The affected_definitions arrays show structural tag matches, not a promise that an absent subsystem gains behavior: e.g. scalar antimatter on a torpedo with no antimatter data has no useful benefit.",
+    "No weapon-tag modifier reaches literal torpedo impact action values. Native missile damage/range upgrades currently bypass these custom impact actions.",
+    "Unfiltered native hull, armor-strength and hull-repair modifiers also match owned torpedo units. Existing inherited nodes remain unless one of the 13 replacements explicitly scopes them.",
+    "Native +35% capital/titan hull angular-speed research remains; no new weapon tracking or range improvement is introduced.",
+    "Native tier bonuses, culture, items, levels and temporary buffs combine with research. This audit is a single-node definition match, not a simulated full game."
+  ],
+  "runtime_status": "NOT RUN"
+}

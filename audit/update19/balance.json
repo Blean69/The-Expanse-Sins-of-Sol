@@ -1,0 +1,1007 @@
+{
+  "rows": [
+    {
+      "definition": "expanse03_hero_railgun.weapon",
+      "kind": "railgun",
+      "damage_before": 2500.0,
+      "damage_after": 2500.0,
+      "interval_before": 10.0,
+      "interval_after": 15.0,
+      "acquisition_before": 1.0,
+      "acquisition_after": 1.5
+    },
+    {
+      "definition": "expanse06_amun_pdc_0.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse06_amun_pdc_1.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse06_amun_pdc_2.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse06_amun_railgun.weapon",
+      "kind": "railgun",
+      "damage_before": 3750.0,
+      "damage_after": 3750.0,
+      "interval_before": 10.0,
+      "interval_after": 15.0,
+      "acquisition_before": 1.0,
+      "acquisition_after": 1.5
+    },
+    {
+      "definition": "expanse10_donnager_pdc_0.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_1.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_10.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_11.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_12.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_13.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_14.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_15.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_2.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_3.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_4.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_5.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_6.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_7.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_8.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_pdc_9.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse10_donnager_rail_0.weapon",
+      "kind": "railgun",
+      "damage_before": 5000.0,
+      "damage_after": 5000.0,
+      "interval_before": 20.0,
+      "interval_after": 30.0,
+      "acquisition_before": 1.0,
+      "acquisition_after": 1.5
+    },
+    {
+      "definition": "expanse10_donnager_rail_1.weapon",
+      "kind": "railgun",
+      "damage_before": 5000.0,
+      "damage_after": 5000.0,
+      "interval_before": 20.0,
+      "interval_after": 30.0,
+      "acquisition_before": 1.0,
+      "acquisition_after": 1.5
+    },
+    {
+      "definition": "expanse11_morrigan_pdc_0.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse11_morrigan_pdc_1.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_pella_pdc_0.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_pella_pdc_1.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_pella_pdc_2.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_pella_pdc_3.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_pella_pdc_4.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_pella_pdc_5.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_pella_pdc_6.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_pella_pdc_7.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_pella_pdc_8.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_raptor_pdc_0.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_raptor_pdc_1.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_raptor_pdc_2.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_raptor_pdc_3.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_raptor_pdc_4.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_raptor_pdc_5.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_raptor_pdc_6.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_raptor_pdc_7.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_raptor_pdc_8.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_0.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_1.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_10.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_11.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_2.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_3.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_4.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_5.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_6.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_7.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_8.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_pdc_9.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse12_scirocco_rail_0.weapon",
+      "kind": "railgun",
+      "damage_before": 4000.0,
+      "damage_after": 2000.0,
+      "interval_before": 15.0,
+      "interval_after": 22.5,
+      "acquisition_before": 1.0,
+      "acquisition_after": 1.5
+    },
+    {
+      "definition": "expanse15_truman_pdc_0.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_1.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_10.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_11.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_12.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_13.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_14.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_15.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_16.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_17.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_2.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_3.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_4.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_5.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_6.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_7.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_8.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_pdc_9.weapon",
+      "kind": "PDC",
+      "base_dps_before": 56.0,
+      "base_dps_after": 85.0
+    },
+    {
+      "definition": "expanse15_truman_rail_0.weapon",
+      "kind": "railgun",
+      "damage_before": 3500.0,
+      "damage_after": 3500.0,
+      "interval_before": 40.0,
+      "interval_after": 60.0,
+      "acquisition_before": 1.0,
+      "acquisition_after": 1.5
+    },
+    {
+      "definition": "expanse15_truman_rail_1.weapon",
+      "kind": "railgun",
+      "damage_before": 3500.0,
+      "damage_after": 3500.0,
+      "interval_before": 40.0,
+      "interval_after": 60.0,
+      "acquisition_before": 1.0,
+      "acquisition_after": 1.5
+    },
+    {
+      "definition": "expanse_polish_pdc_0.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_polish_pdc_1.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_polish_pdc_2.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_polish_pdc_3.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_polish_pdc_4.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_polish_pdc_5.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_rocinante04_pdc_0.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_rocinante04_pdc_1.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_rocinante04_pdc_2.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_rocinante04_pdc_3.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_rocinante04_pdc_4.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "expanse_rocinante04_pdc_5.weapon",
+      "kind": "PDC",
+      "base_dps_before": 112.0,
+      "base_dps_after": 117.6
+    },
+    {
+      "definition": "trader_light_frigate.unit",
+      "kind": "metal price",
+      "before": 35.0,
+      "after": 45.5
+    },
+    {
+      "definition": "expanse_mcrn_corvette.unit",
+      "kind": "metal price",
+      "before": 55.0,
+      "after": 71.5
+    },
+    {
+      "definition": "expanse_rocinante_hero.unit",
+      "kind": "metal price",
+      "before": 500.0,
+      "after": 650.0
+    },
+    {
+      "definition": "expanse12_raptor.unit",
+      "kind": "metal price",
+      "before": 1200.0,
+      "after": 1560.0
+    },
+    {
+      "definition": "expanse12_pella.unit",
+      "kind": "metal price",
+      "before": 1700.0,
+      "after": 2210.0
+    },
+    {
+      "definition": "expanse12_scirocco.unit",
+      "kind": "metal price",
+      "before": 1500.0,
+      "after": 1950.0
+    },
+    {
+      "definition": "expanse_donnager_battleship.unit",
+      "kind": "metal price",
+      "before": 2900.0,
+      "after": 3770.0
+    },
+    {
+      "definition": "expanse03_hero_torpedo_salvo.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        1500.0,
+        1575.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        2125.0,
+        2125.0
+      ]
+    },
+    {
+      "definition": "expanse03_torpedo_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        1500.0,
+        1575.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        2125.0,
+        2125.0
+      ]
+    },
+    {
+      "definition": "expanse06_amun_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        1800.0,
+        1890.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        2550.0,
+        2550.0
+      ]
+    },
+    {
+      "definition": "expanse10_donnager_heavy_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        8000.0,
+        8400.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        1275.0,
+        1275.0
+      ]
+    },
+    {
+      "definition": "expanse10_donnager_light_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        1500.0,
+        1575.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        2125.0,
+        2125.0
+      ]
+    },
+    {
+      "definition": "expanse11_morrigan_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        1500.0,
+        1575.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        2125.0,
+        2125.0
+      ]
+    },
+    {
+      "definition": "expanse12_pella_light_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        1500.0,
+        1575.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        2125.0,
+        2125.0
+      ]
+    },
+    {
+      "definition": "expanse12_raptor_light_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        1500.0,
+        1575.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        2125.0,
+        2125.0
+      ]
+    },
+    {
+      "definition": "expanse12_scirocco_heavy_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        8000.0,
+        8400.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        1275.0,
+        1275.0
+      ]
+    },
+    {
+      "definition": "expanse12_scirocco_light_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        1500.0,
+        1575.0
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        2125.0,
+        2125.0
+      ]
+    },
+    {
+      "definition": "expanse15_truman_light_magazine.action_data_source",
+      "kind": "torpedo",
+      "damage": [
+        750.0,
+        787.5
+      ],
+      "lifetime": 30.0,
+      "speed": [
+        2125.0,
+        2125.0
+      ]
+    }
+  ],
+  "scirocco_base_hull": 5400,
+  "scirocco_base_armor": 3100,
+  "truman_base_hull": 16200,
+  "truman_armor": "unchanged6500base",
+  "truman_supply": 185,
+  "amun_supply": 70,
+  "removed_zero_shield_bursts": {
+    "dlc2_trader_loyalist_super_capital_ship.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "dlc2_trader_rebel_super_capital_ship.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "expanse12_pella.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "expanse12_raptor.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "expanse12_scirocco.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "expanse15_missile_defense.unit": [
+      0
+    ],
+    "expanse15_truman.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "expanse_amun_ra.unit": [
+      0
+    ],
+    "expanse_donnager_battleship.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "expanse_mcrn_corvette.unit": [
+      0
+    ],
+    "expanse_rocinante_hero.unit": [
+      0
+    ],
+    "trader_antiarmor_frigate.unit": [
+      0
+    ],
+    "trader_antifighter_frigate.unit": [
+      0
+    ],
+    "trader_battle_capital_ship.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "trader_carrier_capital_ship.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "trader_carrier_cruiser.unit": [
+      0
+    ],
+    "trader_colony_capital_ship.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "trader_colony_frigate.unit": [
+      0
+    ],
+    "trader_command_cruiser.unit": [
+      0
+    ],
+    "trader_envoy_frigate.unit": [
+      0
+    ],
+    "trader_gauss_defense_structure.unit": [
+      0
+    ],
+    "trader_heavy_cruiser.unit": [
+      0
+    ],
+    "trader_light_frigate.unit": [
+      0
+    ],
+    "trader_long_range_cruiser.unit": [
+      0
+    ],
+    "trader_loyalist_titan.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "trader_medium_cruiser.unit": [
+      0
+    ],
+    "trader_missile_battery_frigate.unit": [
+      0
+    ],
+    "trader_missile_corvette.unit": [
+      0
+    ],
+    "trader_orbital_cannon_shell.unit": [
+      0
+    ],
+    "trader_rebel_titan.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "trader_robotics_cruiser.unit": [
+      0
+    ],
+    "trader_scout_corvette.unit": [
+      0
+    ],
+    "trader_scout_frigate.unit": [
+      0
+    ],
+    "trader_siege_capital_ship.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "trader_siege_frigate.unit": [
+      0
+    ],
+    "trader_skirmisher_corvette_frigate.unit": [
+      0
+    ],
+    "trader_starbase.unit": [
+      0
+    ],
+    "trader_support_capital_ship.unit": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "trader_torpedo_cruiser.unit": [
+      0
+    ]
+  },
+  "interpretations": [
+    "HP uses Pella hull baseline forTruman; armor retained to avoid accidental armor buff",
+    "Scirocco matches Pella hull+armor points at every level",
+    "Martian-origin Pella/Rocinante included in metal+PDC standardization; Sunflare and Earth prices unchanged",
+    "Earth PDC class includes Protogen Amun-Ra",
+    "DPS values are base per mount; existing research/reactor modifiers still apply",
+    "Railgun target-acquisition hold also1.0->1.5s, no new charge animation",
+    "Fuel applies to real projectiles from both magazine and salvo, no independent damage timer",
+    "Orbital missile installation included via private torpedo clone"
+  ],
+  "runtime": "NOT RUN"
+}
