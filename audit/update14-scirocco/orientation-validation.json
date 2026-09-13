@@ -1,0 +1,46 @@
+{
+  "status": "PASS OFFLINE",
+  "original_source_signed_volume": 10198222.26503771,
+  "before": {
+    "source_matched_triangles": 71764,
+    "matched_faces_opposed_to_preserved_outward_normals": 69890,
+    "signed_volume": -4194687.094574501
+  },
+  "after": {
+    "source_matched_triangles": 71764,
+    "matched_faces_opposed_to_preserved_outward_normals": 0,
+    "signed_volume": 4261861.212844171
+  },
+  "geometry_count_before": 84383,
+  "geometry_count_after": 84383,
+  "assembled_count_unchanged": 98455,
+  "source_texture_alpha_values": [
+    255
+  ],
+  "views": [
+    {
+      "view": "starboard",
+      "version": "update13",
+      "nearest_surface_front_facing_fraction": 0.0176536312849162
+    },
+    {
+      "view": "starboard",
+      "version": "update14",
+      "nearest_surface_front_facing_fraction": 1.0
+    },
+    {
+      "view": "port",
+      "version": "update13",
+      "nearest_surface_front_facing_fraction": 0.02455522609340252
+    },
+    {
+      "view": "port",
+      "version": "update14",
+      "nearest_surface_front_facing_fraction": 0.9999814677538917
+    }
+  ],
+  "mounts_and_equipment_unchanged": true,
+  "child_meshes_byte_identical": true,
+  "runtime": "NOT RUN",
+  "render": "Actual compiled triangles with backface culling and depth buffer; uniform existing material colors; independent nearest-surface facing map"
+}

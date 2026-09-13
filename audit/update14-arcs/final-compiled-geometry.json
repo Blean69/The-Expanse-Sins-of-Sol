@@ -1,0 +1,149 @@
+{
+  "status": "PASS",
+  "runtime": "NOT RUN",
+  "ships": [
+    {
+      "status": "PASS",
+      "identity": "expanse12_raptor",
+      "mesh_path": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/build/update14-hulls/raptor/game/meshes/expanse12_raptor_hull.mesh",
+      "mesh_sha256": "f4d7ed8d83cf4ebe92024b182c48ca5a537fea068c2641fddd7139f7effc0c0d",
+      "npz_path": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/assets/derived/update14-hulls/raptor/hull-ray.npz",
+      "npz_sha256": "2b25ebfb93b00a32905eea84c0e2221dbc8e9abc09d70fa9aefd18822305018e",
+      "triangle_count": 266307,
+      "correspondence": "Triangle vertex coordinates canonicalized after float32 conversion; corners and triangles sorted independently, ignoring winding and order. Full coordinate arrays compared, not centroid/count-only.",
+      "absolute_tolerance": 2e-05,
+      "max_coordinate_error": 0.0,
+      "exact_float32_match": true,
+      "canonical_compiled_triangle_sha256": "e2fddabc28e5258bec050a6704f64eeb5fa2a9e45b4e96f12a58129b5bb3b3c8",
+      "canonical_source_triangle_sha256": "e2fddabc28e5258bec050a6704f64eeb5fa2a9e45b4e96f12a58129b5bb3b3c8",
+      "mount_frames": [
+        {
+          "weapon": "expanse12_raptor_pdc_0",
+          "status": "PASS",
+          "max_basis_error": 3.1703333736032846e-08,
+          "max_position_error": 1.8899827978202666e-06
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_1",
+          "status": "PASS",
+          "max_basis_error": 3.168093443139952e-08,
+          "max_position_error": 1.8899827978202666e-06
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_2",
+          "status": "PASS",
+          "max_basis_error": 7.489494737974862e-27,
+          "max_position_error": 2.5727609909154125e-07
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_3",
+          "status": "PASS",
+          "max_basis_error": 5.415406273412415e-08,
+          "max_position_error": 2.185046366065535e-07
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_4",
+          "status": "PASS",
+          "max_basis_error": 5.4164425555836004e-08,
+          "max_position_error": 9.353513803489477e-07
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_5",
+          "status": "PASS",
+          "max_basis_error": 5.4097921253770664e-08,
+          "max_position_error": 2.5162140673273825e-06
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_6",
+          "status": "PASS",
+          "max_basis_error": 1.4910397694301025e-07,
+          "max_position_error": 2.5162140673273825e-06
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_7",
+          "status": "PASS",
+          "max_basis_error": 2.9894687392229e-08,
+          "max_position_error": 2.5162140673273825e-06
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_8",
+          "status": "PASS",
+          "max_basis_error": 5.4097921253770664e-08,
+          "max_position_error": 2.5162140673273825e-06
+        }
+      ]
+    },
+    {
+      "status": "PASS",
+      "identity": "expanse12_pella",
+      "mesh_path": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/build/update14-hulls/pella/game/meshes/expanse12_pella_hull.mesh",
+      "mesh_sha256": "a024359b134d81e20a38a7140d97930849a0845b07aed3af35dd9e66dafa136f",
+      "npz_path": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/assets/derived/update14-hulls/pella/hull-ray.npz",
+      "npz_sha256": "9df0467aeda85ba8f56a11c443b32ec0a5f254163f2df0dfe36a385ec498e1ed",
+      "triangle_count": 267387,
+      "correspondence": "Triangle vertex coordinates canonicalized after float32 conversion; corners and triangles sorted independently, ignoring winding and order. Full coordinate arrays compared, not centroid/count-only.",
+      "absolute_tolerance": 2e-05,
+      "max_coordinate_error": 0.0,
+      "exact_float32_match": true,
+      "canonical_compiled_triangle_sha256": "310ec008ed1d43dba3c007c8f23f5e84c49074464ee3e8bfca5a03aa274d7731",
+      "canonical_source_triangle_sha256": "310ec008ed1d43dba3c007c8f23f5e84c49074464ee3e8bfca5a03aa274d7731",
+      "mount_frames": [
+        {
+          "weapon": "expanse12_pella_pdc_0",
+          "status": "PASS",
+          "max_basis_error": 3.1703333736032846e-08,
+          "max_position_error": 1.8899827978202666e-06
+        },
+        {
+          "weapon": "expanse12_pella_pdc_1",
+          "status": "PASS",
+          "max_basis_error": 3.168093443139952e-08,
+          "max_position_error": 1.8899827978202666e-06
+        },
+        {
+          "weapon": "expanse12_pella_pdc_2",
+          "status": "PASS",
+          "max_basis_error": 7.489494737974862e-27,
+          "max_position_error": 2.5727609909154125e-07
+        },
+        {
+          "weapon": "expanse12_pella_pdc_3",
+          "status": "PASS",
+          "max_basis_error": 5.415406273412415e-08,
+          "max_position_error": 2.185046366065535e-07
+        },
+        {
+          "weapon": "expanse12_pella_pdc_4",
+          "status": "PASS",
+          "max_basis_error": 5.4164425555836004e-08,
+          "max_position_error": 9.353513803489477e-07
+        },
+        {
+          "weapon": "expanse12_pella_pdc_5",
+          "status": "PASS",
+          "max_basis_error": 5.4097921253770664e-08,
+          "max_position_error": 2.5162140673273825e-06
+        },
+        {
+          "weapon": "expanse12_pella_pdc_6",
+          "status": "PASS",
+          "max_basis_error": 1.4910397694301025e-07,
+          "max_position_error": 2.5162140673273825e-06
+        },
+        {
+          "weapon": "expanse12_pella_pdc_7",
+          "status": "PASS",
+          "max_basis_error": 2.9894687392229e-08,
+          "max_position_error": 2.5162140673273825e-06
+        },
+        {
+          "weapon": "expanse12_pella_pdc_8",
+          "status": "PASS",
+          "max_basis_error": 5.4097921253770664e-08,
+          "max_position_error": 2.5162140673273825e-06
+        }
+      ]
+    }
+  ],
+  "limits": "This establishes the sampled hull is the shipped geometry, not continuous line-of-fire proof. Each proposal and its native unit basis are bound to the final compiled hull."
+}

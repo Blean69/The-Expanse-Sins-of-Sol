@@ -1,0 +1,277 @@
+{
+  "status": "PASS OFFLINE; runtime NOT RUN",
+  "mount_arcs": {
+    "expanse12_raptor": {
+      "expanse12_raptor_pdc_0": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -23.0
+        }
+      },
+      "expanse12_raptor_pdc_1": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -23.0
+        }
+      },
+      "expanse12_raptor_pdc_2": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -9.0
+        }
+      },
+      "expanse12_raptor_pdc_3": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 136.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_raptor_pdc_4": {
+        "yaw_arc": {
+          "min_angle": -136.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_raptor_pdc_5": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_raptor_pdc_6": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_raptor_pdc_7": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_raptor_pdc_8": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      }
+    },
+    "expanse12_pella": {
+      "expanse12_pella_pdc_0": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -23.0
+        }
+      },
+      "expanse12_pella_pdc_1": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -23.0
+        }
+      },
+      "expanse12_pella_pdc_2": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -9.0
+        }
+      },
+      "expanse12_pella_pdc_3": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 136.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_pella_pdc_4": {
+        "yaw_arc": {
+          "min_angle": -136.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_pella_pdc_5": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_pella_pdc_6": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_pella_pdc_7": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "expanse12_pella_pdc_8": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      }
+    }
+  },
+  "weapon_tolerances": {
+    "expanse12_raptor_pdc_0": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_raptor_pdc_1": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_raptor_pdc_2": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_raptor_pdc_3": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_raptor_pdc_4": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_raptor_pdc_5": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_raptor_pdc_6": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_raptor_pdc_7": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_raptor_pdc_8": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_pella_pdc_0": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_pella_pdc_1": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_pella_pdc_2": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_pella_pdc_3": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_pella_pdc_4": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_pella_pdc_5": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_pella_pdc_6": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_pella_pdc_7": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    },
+    "expanse12_pella_pdc_8": {
+      "yaw_firing_tolerance": 1.0,
+      "pitch_firing_tolerance": 1.0
+    }
+  },
+  "reports": {
+    "expanse12_raptor": {
+      "path": "/run/media/haker/NVME 2/expanse-workers/visual14-arcs/audit/update14-arcs/expanse12_raptor-proposal.json",
+      "sha256": "9e356e3260288c4cd39e941fd49215892cd744be37504a0cadcc32b8853aac34",
+      "hull_source": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/assets/derived/update14-hulls/raptor/hull-ray.npz",
+      "hull_sha256": "2b25ebfb93b00a32905eea84c0e2221dbc8e9abc09d70fa9aefd18822305018e"
+    },
+    "expanse12_pella": {
+      "path": "/run/media/haker/NVME 2/expanse-workers/visual14-arcs/audit/update14-arcs/expanse12_pella-proposal.json",
+      "sha256": "d85ebfaf0df4e9e2f5d784363265422daec7df6a150004c4b271ee1f1ba51ab9",
+      "hull_source": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/assets/derived/update14-hulls/pella/hull-ray.npz",
+      "hull_sha256": "9df0467aeda85ba8f56a11c443b32ec0a5f254163f2df0dfe36a385ec498e1ed"
+    }
+  }
+}

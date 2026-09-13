@@ -1,0 +1,2050 @@
+{
+  "status": "PASS OFFLINE MESH, MATERIAL-IDENTITY, POINTS, AND BOUNDS; THREE RESIDUAL EXTERIOR SAMPLE EXPOSURES",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/build/update14-hulls/raptor/game",
+  "hull_mesh": "expanse12_raptor_hull",
+  "rigs": [
+    {
+      "index": 0,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_raptor_pdc_0",
+        "mesh_point": "child.expanse12_raptor_pdc_0",
+        "weapon_position": [
+          18.734941243224647,
+          10.480259970853034,
+          43.26178930453358
+        ],
+        "up": [
+          0.9557768423493909,
+          -0.2940928894560831,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.2940928894560831,
+          0.9557768423493909,
+          0.0
+        ],
+        [
+          -0.9557768423493909,
+          -0.2940928894560831,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        18.734941243224647,
+        10.480259970853034,
+        43.26178930453358
+      ],
+      "pitch_pivot_hull": [
+        20.050521229266394,
+        10.075455520418174,
+        43.44909734473772
+      ],
+      "muzzle_hull": [
+        20.439826755677018,
+        9.955664887970087,
+        47.23761759735343
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        11.877649131037181,
+        12.590251301214654,
+        43.26178930453358
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 77,
+        "housing": 69,
+        "other": [
+          67,
+          72,
+          74,
+          76
+        ]
+      },
+      "source_door_normal": [
+        0.0,
+        -0.2940928894560831,
+        0.9557768423493909
+      ],
+      "support_height": 7.174574449127253,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 1,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_raptor_pdc_1",
+        "mesh_point": "child.expanse12_raptor_pdc_1",
+        "weapon_position": [
+          -18.797116167419603,
+          10.682323178348298,
+          43.26178930453358
+        ],
+        "up": [
+          -0.9557768423269916,
+          -0.29409288952887874,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.29409288952887874,
+          -0.9557768423269916,
+          0.0
+        ],
+        [
+          0.9557768423269916,
+          -0.29409288952887874,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -18.797116167419603,
+        10.682323178348298,
+        43.26178930453358
+      ],
+      "pitch_pivot_hull": [
+        -20.112696153430516,
+        10.27751872781324,
+        43.44909734473772
+      ],
+      "muzzle_hull": [
+        -20.502002341706266,
+        10.157730246370441,
+        47.23761759735343
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -11.939824123451007,
+        12.792314488290671,
+        43.26178930453358
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 78,
+        "housing": 68,
+        "other": [
+          66,
+          71,
+          73,
+          75
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        -0.29409288952887874,
+        -0.9557768423269916
+      ],
+      "support_height": 7.174574377920082,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 2,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_raptor_pdc_2",
+        "mesh_point": "child.expanse12_raptor_pdc_2",
+        "weapon_position": [
+          0.10571608686815906,
+          28.184406537793677,
+          15.335634256387804
+        ],
+        "up": [
+          1.1102230245502616e-16,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          1.1102230245502616e-16,
+          0.0
+        ],
+        [
+          -1.1102230245502616e-16,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.10571608686815906,
+        28.184406537793677,
+        15.335634256387804
+      ],
+      "pitch_pivot_hull": [
+        0.10571608686815921,
+        29.56085753320378,
+        15.522942296591951
+      ],
+      "muzzle_hull": [
+        0.10571721214910551,
+        29.968176313172126,
+        19.311462549207654
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        0.10571608686815823,
+        20.728849411010742,
+        15.335634256387804
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 129,
+        "housing": 123,
+        "other": [
+          122,
+          126,
+          127,
+          128
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        1.0,
+        1.1102230245502616e-16
+      ],
+      "support_height": 7.455557126782935,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 3,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_raptor_pdc_3",
+        "mesh_point": "child.expanse12_raptor_pdc_3",
+        "weapon_position": [
+          23.562696338264395,
+          -7.550811986082762,
+          1.4167731452549857
+        ],
+        "up": [
+          0.91914503641134,
+          -0.393919283661509,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.393919283661509,
+          0.91914503641134,
+          0.0
+        ],
+        [
+          -0.91914503641134,
+          -0.393919283661509,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        23.562696338264395,
+        -7.550811986082762,
+        1.4167731452549857
+      ],
+      "pitch_pivot_hull": [
+        24.82785443855904,
+        -8.093022576189881,
+        1.6040811854591326
+      ],
+      "muzzle_hull": [
+        25.2022390301342,
+        -8.253474332513287,
+        5.392601438074834
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        16.968219730633557,
+        -4.724607852355614,
+        1.4167731452549857
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 155,
+        "housing": 148,
+        "other": [
+          145,
+          150,
+          152,
+          154
+        ]
+      },
+      "source_door_normal": [
+        0.0,
+        -0.393919283661509,
+        0.91914503641134
+      ],
+      "support_height": 7.174576749473571,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 4,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_raptor_pdc_4",
+        "mesh_point": "child.expanse12_raptor_pdc_4",
+        "weapon_position": [
+          -23.645991307055482,
+          -7.356457050148078,
+          1.4167731452549857
+        ],
+        "up": [
+          -0.9191450364068989,
+          -0.39391928367187184,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.39391928367187184,
+          -0.9191450364068989,
+          0.0
+        ],
+        [
+          0.9191450364068989,
+          -0.39391928367187184,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -23.645991307055482,
+        -7.356457050148078,
+        1.4167731452549857
+      ],
+      "pitch_pivot_hull": [
+        -24.911149407344016,
+        -7.898667640269462,
+        1.6040811854591326
+      ],
+      "muzzle_hull": [
+        -25.285534885457096,
+        -8.059117328004296,
+        5.392601438074834
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -17.05151476449569,
+        -4.530252944220516,
+        1.4167731452549857
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 156,
+        "housing": 147,
+        "other": [
+          144,
+          149,
+          151,
+          153
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        -0.39391928367187184,
+        -0.9191450364068989
+      ],
+      "support_height": 7.174576678713049,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 5,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_raptor_pdc_5",
+        "mesh_point": "child.expanse12_raptor_pdc_5",
+        "weapon_position": [
+          31.280749291508524,
+          -31.430271427988487,
+          -79.89393867344063
+        ],
+        "up": [
+          0.7071067987948877,
+          -0.7071067635782069,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.7071067635782069,
+          0.7071067987948877,
+          0.0
+        ],
+        [
+          -0.7071067987948877,
+          -0.7071067635782069,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        31.280749291508524,
+        -31.430271427988487,
+        -79.89393867344063
+      ],
+      "pitch_pivot_hull": [
+        32.254047148571,
+        -32.40356923657693,
+        -79.70663063323649
+      ],
+      "muzzle_hull": [
+        32.54206423146969,
+        -32.691587896518776,
+        -75.91811038062079
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        26.89500656005881,
+        -27.044528914965895,
+        -79.89393867344063
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 255,
+        "housing": 236,
+        "other": [
+          240,
+          244,
+          248,
+          250
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        -0.7071067635782069,
+        0.7071067987948877
+      ],
+      "support_height": 6.202376697444111,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 6,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_raptor_pdc_6",
+        "mesh_point": "child.expanse12_raptor_pdc_6",
+        "weapon_position": [
+          -31.430271427988487,
+          -31.28074929150853,
+          -79.89393867344063
+        ],
+        "up": [
+          -0.7071067635782069,
+          -0.7071067987948878,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.7071067987948878,
+          -0.7071067635782069,
+          0.0
+        ],
+        [
+          0.7071067635782069,
+          -0.7071067987948878,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -31.430271427988487,
+        -31.28074929150853,
+        -79.89393867344063
+      ],
+      "pitch_pivot_hull": [
+        -32.40356923657693,
+        -32.254047148571004,
+        -79.70663063323649
+      ],
+      "muzzle_hull": [
+        -32.691587896518776,
+        -32.542064231469695,
+        -75.91811038062079
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -27.044528914965895,
+        -26.895006560058818,
+        -79.89393867344063
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 256,
+        "housing": 235,
+        "other": [
+          239,
+          243,
+          247,
+          249
+        ]
+      },
+      "source_door_normal": [
+        -0.0,
+        -0.7071067987948878,
+        -0.7071067635782069
+      ],
+      "support_height": 6.202376697444111,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 7,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_raptor_pdc_7",
+        "mesh_point": "child.expanse12_raptor_pdc_7",
+        "weapon_position": [
+          31.430271427988487,
+          31.28074929150853,
+          -79.89393867344063
+        ],
+        "up": [
+          0.7071067635782069,
+          0.7071067987948878,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.7071067987948878,
+          0.7071067635782069,
+          0.0
+        ],
+        [
+          -0.7071067635782069,
+          0.7071067987948878,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        31.430271427988487,
+        31.28074929150853,
+        -79.89393867344063
+      ],
+      "pitch_pivot_hull": [
+        32.40356923657693,
+        32.254047148571004,
+        -79.70663063323649
+      ],
+      "muzzle_hull": [
+        32.691587896518776,
+        32.542064231469695,
+        -75.91811038062079
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        27.044528914965895,
+        26.895006560058818,
+        -79.89393867344063
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 257,
+        "housing": 238,
+        "other": [
+          242,
+          246,
+          252,
+          254
+        ]
+      },
+      "source_door_normal": [
+        0.0,
+        0.7071067987948878,
+        0.7071067635782069
+      ],
+      "support_height": 6.202376697444111,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 8,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse12_raptor_pdc_8",
+        "mesh_point": "child.expanse12_raptor_pdc_8",
+        "weapon_position": [
+          -31.280749291508524,
+          31.430271427988487,
+          -79.89393867344063
+        ],
+        "up": [
+          -0.7071067987948877,
+          0.7071067635782069,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.7071067635782069,
+          -0.7071067987948877,
+          0.0
+        ],
+        [
+          0.7071067987948877,
+          0.7071067635782069,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -31.280749291508524,
+        31.430271427988487,
+        -79.89393867344063
+      ],
+      "pitch_pivot_hull": [
+        -32.254047148571,
+        32.40356923657693,
+        -79.70663063323649
+      ],
+      "muzzle_hull": [
+        -32.54206423146969,
+        32.691587896518776,
+        -75.91811038062079
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_raptor_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_raptor_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -26.89500656005881,
+        27.044528914965895,
+        -79.89393867344063
+      ],
+      "support_embed_depth": 0.5,
+      "source_cluster": {
+        "body": 258,
+        "housing": 237,
+        "other": [
+          241,
+          245,
+          251,
+          253
+        ]
+      },
+      "source_door_normal": [
+        0.0,
+        0.7071067635782069,
+        -0.7071067987948877
+      ],
+      "support_height": 6.202376697444111,
+      "runtime": "NOT RUN"
+    }
+  ],
+  "ship_spatial": {
+    "box": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extents": [
+        34.7853205099257,
+        34.7853205099257,
+        101.57608795166016
+      ]
+    },
+    "radius": 109.02749347258646,
+    "bounds_min": [
+      -34.7853205099257,
+      -34.7853205099257,
+      -101.57608795166016
+    ],
+    "bounds_max": [
+      34.7853205099257,
+      34.7853205099257,
+      101.57608795166016
+    ]
+  },
+  "equipment": {
+    "light_torpedo_ports": [
+      {
+        "position": [
+          -12.175927645595973,
+          17.79558655894796,
+          82.76114950063895
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -12.175927645595973,
+          17.79558655894796,
+          81.36114950063896
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          12.175927645595973,
+          17.79558655894796,
+          82.51381360182496
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          12.175927645595973,
+          17.79558655894796,
+          81.11381360182497
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -13.11253746448797,
+          5.619658913351987,
+          88.04561676330543
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -13.11253746448797,
+          5.619658913351987,
+          86.64561676330544
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          13.11253746448797,
+          5.619658913351987,
+          87.5534584175938
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          13.11253746448797,
+          5.619658913351987,
+          86.15345841759381
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -5.619658913351987,
+          11.239317826703974,
+          88.31005653933754
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -5.619658913351987,
+          11.239317826703974,
+          86.91005653933755
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          5.619658913351987,
+          11.239317826703974,
+          88.1978716554387
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.619658913351987,
+          11.239317826703974,
+          86.79787165543871
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -5.619658913351987,
+          1.8732196377839958,
+          84.57009450610602
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -5.619658913351987,
+          1.8732196377839958,
+          83.17009450610603
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          0.0,
+          1.8732196377839958,
+          84.57009514566022
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          0.0,
+          1.8732196377839958,
+          83.17009514566023
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          5.619658913351987,
+          1.8732196377839958,
+          84.57009503912224
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.619658913351987,
+          1.8732196377839958,
+          83.17009503912224
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      }
+    ],
+    "light_torpedo_port": {
+      "position": [
+        -12.175927645595973,
+        17.79558655894796,
+        82.76114950063895
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "measured_surface": [
+        -12.175927645595973,
+        17.79558655894796,
+        81.36114950063896
+      ],
+      "new_collar": true,
+      "inner_diameter": 3.2,
+      "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+    },
+    "torpedo_ports": [
+      {
+        "position": [
+          -12.175927645595973,
+          17.79558655894796,
+          82.76114950063895
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -12.175927645595973,
+          17.79558655894796,
+          81.36114950063896
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          12.175927645595973,
+          17.79558655894796,
+          82.51381360182496
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          12.175927645595973,
+          17.79558655894796,
+          81.11381360182497
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -13.11253746448797,
+          5.619658913351987,
+          88.04561676330543
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -13.11253746448797,
+          5.619658913351987,
+          86.64561676330544
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          13.11253746448797,
+          5.619658913351987,
+          87.5534584175938
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          13.11253746448797,
+          5.619658913351987,
+          86.15345841759381
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -5.619658913351987,
+          11.239317826703974,
+          88.31005653933754
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -5.619658913351987,
+          11.239317826703974,
+          86.91005653933755
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          5.619658913351987,
+          11.239317826703974,
+          88.1978716554387
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.619658913351987,
+          11.239317826703974,
+          86.79787165543871
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          -5.619658913351987,
+          1.8732196377839958,
+          84.57009450610602
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -5.619658913351987,
+          1.8732196377839958,
+          83.17009450610603
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          0.0,
+          1.8732196377839958,
+          84.57009514566022
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          0.0,
+          1.8732196377839958,
+          83.17009514566023
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      },
+      {
+        "position": [
+          5.619658913351987,
+          1.8732196377839958,
+          84.57009503912224
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.619658913351987,
+          1.8732196377839958,
+          83.17009503912224
+        ],
+        "new_collar": true,
+        "inner_diameter": 3.2,
+        "source": "Authored retrofit on measured forward surface; exact screen port correspondence unverified"
+      }
+    ],
+    "exhaust": {
+      "position": [
+        -22.541343554002403,
+        -22.541343554002403,
+        -101.66974793841094
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_component": 287,
+      "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+    },
+    "exhausts": [
+      {
+        "position": [
+          -22.541343554002403,
+          -22.541343554002403,
+          -101.66974793841094
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 287,
+        "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+      },
+      {
+        "position": [
+          22.541343554002403,
+          -22.541343554002403,
+          -101.66974793841094
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 288,
+        "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+      },
+      {
+        "position": [
+          22.541343554002403,
+          22.541343554002403,
+          -101.66974793841094
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 289,
+        "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+      },
+      {
+        "position": [
+          -22.541343554002403,
+          22.541343554002403,
+          -101.66974793841094
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 290,
+        "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+      }
+    ],
+    "boarding": {
+      "position": [
+        22.18172774017657,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        1,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "measured_surface": [
+        21.68172774017657,
+        0.0,
+        0.0
+      ],
+      "source": "Measured external starboard surface; prototype pod origin, source airlock identity unverified"
+    }
+  },
+  "exhaust_geometry": {
+    "position": [
+      -22.541343554002403,
+      -22.541343554002403,
+      -101.66974793841094
+    ],
+    "forward": [
+      0,
+      0,
+      -1
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "source_component": 287,
+    "source": "Actual source engine-bell aftmost outlet plane, centered on measured Y/Z bounds"
+  },
+  "counts": {
+    "hull": 266307,
+    "pdc_base": 138,
+    "pdc_barrel": 539
+  },
+  "assembled_triangle_total": 272400,
+  "meshpoints": {
+    "hull": [
+      {
+        "name": "center",
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0,
+          40,
+          0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0,
+          -40,
+          0
+        ]
+      },
+      {
+        "name": "weapon.boarding.0",
+        "translation": [
+          22.18172774017657,
+          0.0,
+          0.0
+        ],
+        "rotation": [
+          0.0,
+          0.7071067811865475,
+          0.0,
+          0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_raptor_pdc_0",
+        "translation": [
+          18.734941243224647,
+          10.480259970853034,
+          43.26178930453358
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8043919720683701,
+          -0.5940989440084526
+        ]
+      },
+      {
+        "name": "child.expanse12_raptor_pdc_1",
+        "translation": [
+          -18.797116167419603,
+          10.682323178348298,
+          43.26178930453358
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8043919720909946,
+          0.5940989439778198
+        ]
+      },
+      {
+        "name": "child.expanse12_raptor_pdc_2",
+        "translation": [
+          0.10571608686815906,
+          28.184406537793677,
+          15.335634256387804
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -5.551115122751308e-17,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse12_raptor_pdc_3",
+        "translation": [
+          23.562696338264395,
+          -7.550811986082762,
+          1.4167731452549857
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8348410877710527,
+          -0.5504910155209125
+        ]
+      },
+      {
+        "name": "child.expanse12_raptor_pdc_4",
+        "translation": [
+          -23.645991307055482,
+          -7.356457050148078,
+          1.4167731452549857
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8348410877741559,
+          0.5504910155162063
+        ]
+      },
+      {
+        "name": "child.expanse12_raptor_pdc_5",
+        "translation": [
+          31.280749291508524,
+          -31.430271427988487,
+          -79.89393867344063
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.9238795277465042,
+          -0.38268344386829245
+        ]
+      },
+      {
+        "name": "child.expanse12_raptor_pdc_6",
+        "translation": [
+          -31.430271427988487,
+          -31.28074929150853,
+          -79.89393867344063
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.9238795372760693,
+          0.382683420861887
+        ]
+      },
+      {
+        "name": "child.expanse12_raptor_pdc_7",
+        "translation": [
+          31.430271427988487,
+          31.28074929150853,
+          -79.89393867344063
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -0.382683420861887,
+          0.9238795372760693
+        ]
+      },
+      {
+        "name": "child.expanse12_raptor_pdc_8",
+        "translation": [
+          -31.280749291508524,
+          31.430271427988487,
+          -79.89393867344063
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.38268344386829245,
+          0.9238795277465042
+        ]
+      },
+      {
+        "name": "weapon.torpedo.0",
+        "translation": [
+          -12.175927645595973,
+          17.79558655894796,
+          82.76114950063895
+        ]
+      },
+      {
+        "name": "weapon.torpedo.1",
+        "translation": [
+          12.175927645595973,
+          17.79558655894796,
+          82.51381360182496
+        ]
+      },
+      {
+        "name": "weapon.torpedo.2",
+        "translation": [
+          -13.11253746448797,
+          5.619658913351987,
+          88.04561676330543
+        ]
+      },
+      {
+        "name": "weapon.torpedo.3",
+        "translation": [
+          13.11253746448797,
+          5.619658913351987,
+          87.5534584175938
+        ]
+      },
+      {
+        "name": "weapon.torpedo.4",
+        "translation": [
+          -5.619658913351987,
+          11.239317826703974,
+          88.31005653933754
+        ]
+      },
+      {
+        "name": "weapon.torpedo.5",
+        "translation": [
+          5.619658913351987,
+          11.239317826703974,
+          88.1978716554387
+        ]
+      },
+      {
+        "name": "weapon.torpedo.6",
+        "translation": [
+          -5.619658913351987,
+          1.8732196377839958,
+          84.57009450610602
+        ]
+      },
+      {
+        "name": "weapon.torpedo.7",
+        "translation": [
+          0.0,
+          1.8732196377839958,
+          84.57009514566022
+        ]
+      },
+      {
+        "name": "weapon.torpedo.8",
+        "translation": [
+          5.619658913351987,
+          1.8732196377839958,
+          84.57009503912224
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          -22.541343554002403,
+          -22.541343554002403,
+          -101.66974793841094
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.1",
+        "translation": [
+          22.541343554002403,
+          -22.541343554002403,
+          -101.66974793841094
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.2",
+        "translation": [
+          22.541343554002403,
+          22.541343554002403,
+          -101.66974793841094
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.3",
+        "translation": [
+          -22.541343554002403,
+          22.541343554002403,
+          -101.66974793841094
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "pdc_base": [],
+    "pdc_barrel": []
+  },
+  "editable_source": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/assets/derived/update14-hulls/raptor/expanse12_raptor_editable.gltf",
+  "runtime": "NOT RUN",
+  "files": {
+    "meshes/expanse12_raptor_hull.mesh": "f4d7ed8d83cf4ebe92024b182c48ca5a537fea068c2641fddd7139f7effc0c0d"
+  }
+}

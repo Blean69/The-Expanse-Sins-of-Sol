@@ -1,0 +1,59 @@
+{
+  "original_sha256": "c06878f57e5b9f04043793226f8c6a06b082848273ea6fc9e9369f474c8dedd6",
+  "source_signed_volume_game_units": 240348.77949534982,
+  "anomaly_ray_source_comparison": [
+    {
+      "axis": 0,
+      "side": 1,
+      "projected_xy": [
+        -7.370165142857143,
+        -58.04347885714286
+      ],
+      "restored_depth": 22.664807129598945,
+      "source_depth": 22.675587839344196,
+      "source_normal": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "source_first_surface_backface": false,
+      "source_component": 189
+    },
+    {
+      "axis": 2,
+      "side": 1,
+      "projected_xy": [
+        -2.4567217142857167,
+        0.0
+      ],
+      "restored_depth": 82.155258,
+      "source_depth": 83.09186552111197,
+      "source_normal": [
+        0.0,
+        -0.5352762896828691,
+        0.8446770351461802
+      ],
+      "source_first_surface_backface": false,
+      "source_component": 11
+    },
+    {
+      "axis": 2,
+      "side": 1,
+      "projected_xy": [
+        4.913443428571426,
+        0.0
+      ],
+      "restored_depth": 82.155258,
+      "source_depth": 83.09186552111197,
+      "source_normal": [
+        0.0,
+        -0.5352762896828691,
+        0.8446770351461802
+      ],
+      "source_first_surface_backface": false,
+      "source_component": 11
+    }
+  ],
+  "interpretation": "The residual grazing and exact-centerline rays hit small inward faces after reduction; untouched source rays hit outward faces. This is a bounded sampled exposure finding, not a watertightness pass. Inspect the bow centerline and small side details in game.",
+  "runtime": "NOT RUN"
+}

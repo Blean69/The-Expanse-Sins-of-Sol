@@ -1,0 +1,136 @@
+[
+  {
+    "axis": 0,
+    "side": -1,
+    "first_surface_hits": 493,
+    "inward_facing_first_surfaces": 0,
+    "backface_hits": []
+  },
+  {
+    "axis": 0,
+    "side": 1,
+    "first_surface_hits": 493,
+    "inward_facing_first_surfaces": 1,
+    "backface_hits": [
+      {
+        "triangle_index": 240307,
+        "projected_xy": [
+          -7.370165142857143,
+          -58.04347885714286
+        ],
+        "position_axis": 22.664807129598945,
+        "normal": [
+          -0.6176003292309362,
+          -0.7669799539089012,
+          -0.1741022218001223
+        ],
+        "triangle": [
+          [
+            22.675589,
+            -7.424572,
+            -57.842045
+          ],
+          [
+            22.581926,
+            -7.377479,
+            -57.717251
+          ],
+          [
+            22.675589,
+            -7.304296,
+            -58.371902
+          ]
+        ]
+      }
+    ]
+  },
+  {
+    "axis": 1,
+    "side": -1,
+    "first_surface_hits": 507,
+    "inward_facing_first_surfaces": 0,
+    "backface_hits": []
+  },
+  {
+    "axis": 1,
+    "side": 1,
+    "first_surface_hits": 507,
+    "inward_facing_first_surfaces": 0,
+    "backface_hits": []
+  },
+  {
+    "axis": 2,
+    "side": -1,
+    "first_surface_hits": 499,
+    "inward_facing_first_surfaces": 0,
+    "backface_hits": []
+  },
+  {
+    "axis": 2,
+    "side": 1,
+    "first_surface_hits": 499,
+    "inward_facing_first_surfaces": 2,
+    "backface_hits": [
+      {
+        "triangle_index": 225730,
+        "projected_xy": [
+          -2.4567217142857167,
+          0.0
+        ],
+        "position_axis": 82.155258,
+        "normal": [
+          -0.0,
+          -0.8575034267496499,
+          -0.5144782532941583
+        ],
+        "triangle": [
+          [
+            -0.773059,
+            0.0,
+            82.155258
+          ],
+          [
+            -2.646279,
+            0.0,
+            82.155258
+          ],
+          [
+            -1.80333,
+            0.056197,
+            82.061592
+          ]
+        ]
+      },
+      {
+        "triangle_index": 224106,
+        "projected_xy": [
+          4.913443428571426,
+          0.0
+        ],
+        "position_axis": 82.155258,
+        "normal": [
+          -0.0,
+          -0.8575034267496499,
+          -0.5144782532941582
+        ],
+        "triangle": [
+          [
+            6.71982,
+            0.0,
+            82.155258
+          ],
+          [
+            4.752939,
+            0.0,
+            82.155258
+          ],
+          [
+            5.689549,
+            0.056197,
+            82.061592
+          ]
+        ]
+      }
+    ]
+  }
+]

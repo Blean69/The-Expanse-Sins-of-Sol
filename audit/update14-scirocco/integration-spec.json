@@ -1,0 +1,3750 @@
+{
+  "status": "PASS OFFLINE",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/visual14-scirocco/build/update14-scirocco/game",
+  "hull_mesh": "expanse12_scirocco_hull",
+  "rigs": [
+    {
+      "index": 0,
+      "kind": "pdc",
+      "placement_role": "bow side",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_0",
+        "mesh_point": "child.expanse12_scirocco_pdc_0",
+        "weapon_position": [
+          -59.8671768701422,
+          6.192625578354154,
+          129.2759544138265
+        ],
+        "up": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -59.8671768701422,
+        6.192625578354154,
+        129.2759544138265
+      ],
+      "pitch_pivot_hull": [
+        -62.89536906004443,
+        6.192625578354154,
+        129.68803210227563
+      ],
+      "muzzle_hull": [
+        -63.79147037597479,
+        6.1926280539722365,
+        138.02277665803015
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            -47.63287517802436,
+            12.264625578354154,
+            129.2759544138265
+          ],
+          [
+            -47.695122960846916,
+            10.48617795371887,
+            133.56950678919122
+          ],
+          [
+            -50.23495232923655,
+            6.192625578354154,
+            135.3479544138265
+          ],
+          [
+            -52.7747764174168,
+            1.8990732029894382,
+            133.56950678919122
+          ],
+          [
+            -54.8671768701422,
+            0.12062557835415433,
+            129.2759544138265
+          ],
+          [
+            -53.815146737646614,
+            1.8990732029894373,
+            124.98240203846179
+          ],
+          [
+            -51.27531758833845,
+            6.1926255783541535,
+            123.2039544138265
+          ],
+          [
+            -48.62437200068659,
+            10.486177953718869,
+            124.98240203846179
+          ]
+        ],
+        "bottom": 46.832875178024366,
+        "top": 59.8671768701422,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 1,
+      "kind": "pdc",
+      "placement_role": "bow side",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_1",
+        "mesh_point": "child.expanse12_scirocco_pdc_1",
+        "weapon_position": [
+          71.43917977763714,
+          6.192625578354154,
+          129.2759544138265
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        71.43917977763714,
+        6.192625578354154,
+        129.2759544138265
+      ],
+      "pitch_pivot_hull": [
+        74.46737196753936,
+        6.192625578354154,
+        129.68803210227563
+      ],
+      "muzzle_hull": [
+        75.36347328346972,
+        6.192623102736072,
+        138.02277665803015
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            66.43917977763714,
+            0.12062557835415433,
+            129.2759544138265
+          ],
+          [
+            64.34678119373419,
+            1.8990732029894382,
+            133.56950678919122
+          ],
+          [
+            61.806955306670986,
+            6.192625578354154,
+            135.3479544138265
+          ],
+          [
+            59.26712556164796,
+            10.48617795371887,
+            133.56950678919122
+          ],
+          [
+            59.255462482867514,
+            12.264625578354154,
+            129.2759544138265
+          ],
+          [
+            60.30749356705341,
+            10.486177953718872,
+            124.98240203846179
+          ],
+          [
+            62.84732028706782,
+            6.192625578354155,
+            123.2039544138265
+          ],
+          [
+            65.38714908614338,
+            1.899073202989439,
+            124.98240203846179
+          ]
+        ],
+        "bottom": 58.45546248286752,
+        "top": 71.43917977763714,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 2,
+      "kind": "pdc",
+      "placement_role": "bow side",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_2",
+        "mesh_point": "child.expanse12_scirocco_pdc_2",
+        "weapon_position": [
+          -59.867175163987426,
+          6.192625578354154,
+          166.585400415812
+        ],
+        "up": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -59.867175163987426,
+        6.192625578354154,
+        166.585400415812
+      ],
+      "pitch_pivot_hull": [
+        -62.895367353889654,
+        6.192625578354154,
+        166.99747810426112
+      ],
+      "muzzle_hull": [
+        -63.79146866982001,
+        6.1926280539722365,
+        175.33222266001565
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            -47.68345887764441,
+            12.264625578354154,
+            166.585400415812
+          ],
+          [
+            -48.14487682052143,
+            10.48617795371887,
+            170.87895279117672
+          ],
+          [
+            -51.27531551912013,
+            6.192625578354154,
+            172.657400415812
+          ],
+          [
+            -53.22453068831781,
+            1.8990732029894382,
+            170.87895279117672
+          ],
+          [
+            -54.867175163987426,
+            0.12062557835415433,
+            166.585400415812
+          ],
+          [
+            -54.69202699286281,
+            1.8990732029894373,
+            162.29184804044726
+          ],
+          [
+            -51.27531214604876,
+            6.1926255783541535,
+            160.513400415812
+          ],
+          [
+            -49.56983305322892,
+            10.486177953718869,
+            162.29184804044726
+          ]
+        ],
+        "bottom": 46.883458877644415,
+        "top": 59.867175163987426,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 3,
+      "kind": "pdc",
+      "placement_role": "bow side",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_3",
+        "mesh_point": "child.expanse12_scirocco_pdc_3",
+        "weapon_position": [
+          71.43917757487611,
+          6.192625578354154,
+          166.585400415812
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        71.43917757487611,
+        6.192625578354154,
+        166.585400415812
+      ],
+      "pitch_pivot_hull": [
+        74.46736976477834,
+        6.192625578354154,
+        166.99747810426112
+      ],
+      "muzzle_hull": [
+        75.36347108070869,
+        6.192623102736072,
+        175.33222266001565
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            66.43917757487611,
+            0.12062557835415433,
+            166.585400415812
+          ],
+          [
+            64.79653333722419,
+            1.8990732029894382,
+            170.87895279117672
+          ],
+          [
+            62.84731793000883,
+            6.192625578354154,
+            172.657400415812
+          ],
+          [
+            59.70157721012119,
+            10.48617795371887,
+            170.87895279117672
+          ],
+          [
+            59.255461465909775,
+            12.264625578354154,
+            166.585400415812
+          ],
+          [
+            60.825428037298636,
+            10.486177953718872,
+            162.29184804044726
+          ],
+          [
+            62.84731837532131,
+            6.192625578354155,
+            160.513400415812
+          ],
+          [
+            66.26485562787616,
+            1.899073202989439,
+            162.29184804044726
+          ]
+        ],
+        "bottom": 58.45546146590978,
+        "top": 71.43917757487611,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 4,
+      "kind": "pdc",
+      "placement_role": "ventral",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_4",
+        "mesh_point": "child.expanse12_scirocco_pdc_4",
+        "weapon_position": [
+          5.7860011192123135,
+          -76.55785369873047,
+          36.00233940886274
+        ],
+        "up": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        5.7860011192123135,
+        -76.55785369873047,
+        36.00233940886274
+      ],
+      "pitch_pivot_hull": [
+        5.7860011192123135,
+        -79.5860458886327,
+        36.41441709731186
+      ],
+      "muzzle_hull": [
+        5.785998643594231,
+        -80.48214720456305,
+        44.74916165306641
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            -0.28599888078768654,
+            -39.097736206320334,
+            36.00233940886274
+          ],
+          [
+            1.4924487438475973,
+            -36.63152701175764,
+            40.29589178422746
+          ],
+          [
+            5.7860011192123135,
+            -38.35694122314452,
+            42.07433940886274
+          ],
+          [
+            10.07955349457703,
+            -36.63152678559325,
+            40.29589178422746
+          ],
+          [
+            11.858001119212314,
+            -38.312274220549625,
+            36.00233940886274
+          ],
+          [
+            10.07955349457703,
+            -38.35694122314453,
+            31.708787033498023
+          ],
+          [
+            5.786001119212314,
+            -71.55785369873047,
+            29.93033940886274
+          ],
+          [
+            1.4924487438475982,
+            -38.35694122314453,
+            31.70878703349802
+          ]
+        ],
+        "bottom": 35.831526785593255,
+        "top": 76.55785369873047,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 5,
+      "kind": "pdc",
+      "placement_role": "ventral",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_5",
+        "mesh_point": "child.expanse12_scirocco_pdc_5",
+        "weapon_position": [
+          5.7860011192123135,
+          -86.23466733031546,
+          99.4283976122381
+        ],
+        "up": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        5.7860011192123135,
+        -86.23466733031546,
+        99.4283976122381
+      ],
+      "pitch_pivot_hull": [
+        5.7860011192123135,
+        -89.26285952021769,
+        99.84047530068722
+      ],
+      "muzzle_hull": [
+        5.785998643594231,
+        -90.15896083614804,
+        108.17521985644177
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            -0.28599888078768654,
+            -79.5457534790039,
+            99.4283976122381
+          ],
+          [
+            1.4924487438475973,
+            -79.54575347900389,
+            103.72194998760281
+          ],
+          [
+            5.7860011192123135,
+            -81.23466733031546,
+            105.5003976122381
+          ],
+          [
+            10.07955349457703,
+            -79.45386394897425,
+            103.72194998760281
+          ],
+          [
+            11.858001119212314,
+            -79.54575347900389,
+            99.4283976122381
+          ],
+          [
+            10.07955349457703,
+            -79.54575347900389,
+            95.13484523687339
+          ],
+          [
+            5.786001119212314,
+            -80.86002032159034,
+            93.3563976122381
+          ],
+          [
+            1.4924487438475982,
+            -79.5457534790039,
+            95.13484523687339
+          ]
+        ],
+        "bottom": 78.65386394897425,
+        "top": 86.23466733031546,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 6,
+      "kind": "pdc",
+      "placement_role": "behind side protrusion",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_6",
+        "mesh_point": "child.expanse12_scirocco_pdc_6",
+        "weapon_position": [
+          -51.574600078353185,
+          1.8981591057416152,
+          -105.77355539868216
+        ],
+        "up": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -51.574600078353185,
+        1.8981591057416152,
+        -105.77355539868216
+      ],
+      "pitch_pivot_hull": [
+        -54.60279226825541,
+        1.8981591057416152,
+        -105.36147771023305
+      ],
+      "muzzle_hull": [
+        -55.49889358418577,
+        1.8981615813596968,
+        -97.02673315447849
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            -19.71526396432523,
+            7.970159105741615,
+            -105.77355539868216
+          ],
+          [
+            -41.616832119451416,
+            6.191711481106331,
+            -101.48000302331745
+          ],
+          [
+            -44.095716098902315,
+            1.8981591057416156,
+            -99.70155539868216
+          ],
+          [
+            -46.574600078353185,
+            -2.395393269623101,
+            -101.48000302331745
+          ],
+          [
+            -19.71526396432523,
+            -4.173840894258385,
+            -105.77355539868216
+          ],
+          [
+            -16.551594480650238,
+            -2.395393269623102,
+            -110.06710777404687
+          ],
+          [
+            -25.210343102870084,
+            1.898159105741614,
+            -111.84555539868217
+          ],
+          [
+            -16.551594480650266,
+            6.1917114811063305,
+            -110.06710777404687
+          ]
+        ],
+        "bottom": 15.751594480650237,
+        "top": 51.574600078353185,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 7,
+      "kind": "pdc",
+      "placement_role": "behind side protrusion",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_7",
+        "mesh_point": "child.expanse12_scirocco_pdc_7",
+        "weapon_position": [
+          63.146602120826174,
+          1.8981591057416152,
+          -105.77355539868216
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        63.146602120826174,
+        1.8981591057416152,
+        -105.77355539868216
+      ],
+      "pitch_pivot_hull": [
+        66.1747943107284,
+        1.8981591057416152,
+        -105.36147771023305
+      ],
+      "muzzle_hull": [
+        67.07089562665875,
+        1.8981566301235335,
+        -97.02673315447849
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            30.935289344777615,
+            -4.173840894258385,
+            -105.77355539868216
+          ],
+          [
+            58.146602120826174,
+            -2.395393269623101,
+            -101.48000302331745
+          ],
+          [
+            55.66771837689127,
+            1.8981591057416147,
+            -99.70155539868216
+          ],
+          [
+            53.188834530340074,
+            6.191711481106331,
+            -101.48000302331745
+          ],
+          [
+            30.935289344777615,
+            7.970159105741615,
+            -105.77355539868216
+          ],
+          [
+            27.771619338491377,
+            6.191711481106332,
+            -110.06710777404687
+          ],
+          [
+            36.43036190915966,
+            1.8981591057416163,
+            -111.84555539868217
+          ],
+          [
+            27.771619338491377,
+            -2.3953932696231,
+            -110.06710777404687
+          ]
+        ],
+        "bottom": 26.971619338491376,
+        "top": 63.146602120826174,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 8,
+      "kind": "pdc",
+      "placement_role": "engine pod",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_8",
+        "mesh_point": "child.expanse12_scirocco_pdc_8",
+        "weapon_position": [
+          -71.57385253906251,
+          1.8981591057416152,
+          -161.73772440166042
+        ],
+        "up": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -71.57385253906251,
+        1.8981591057416152,
+        -161.73772440166042
+      ],
+      "pitch_pivot_hull": [
+        -74.60204472896474,
+        1.8981591057416152,
+        -161.32564671321128
+      ],
+      "muzzle_hull": [
+        -75.4981460448951,
+        1.8981615813596968,
+        -152.99090215745676
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            -65.58030237457541,
+            7.970159105741615,
+            -161.73772440166042
+          ],
+          [
+            -66.57385253906251,
+            6.191711481106331,
+            -157.4441720262957
+          ],
+          [
+            -66.4434049613021,
+            1.8981591057416156,
+            -155.6657244016604
+          ],
+          [
+            -66.15462768118364,
+            -2.395393269623101,
+            -157.4441720262957
+          ],
+          [
+            -66.02262878417967,
+            -4.173840894258385,
+            -161.73772440166042
+          ],
+          [
+            -66.02262878417969,
+            -2.395393269623102,
+            -166.03127677702514
+          ],
+          [
+            -65.47139739990234,
+            1.898159105741614,
+            -167.80972440166042
+          ],
+          [
+            -66.02262878417969,
+            6.1917114811063305,
+            -166.03127677702514
+          ]
+        ],
+        "bottom": 64.67139739990235,
+        "top": 71.57385253906251,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 9,
+      "kind": "pdc",
+      "placement_role": "engine pod",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_9",
+        "mesh_point": "child.expanse12_scirocco_pdc_9",
+        "weapon_position": [
+          82.79387664794922,
+          1.8981591057416152,
+          -161.73772440166042
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        82.79387664794922,
+        1.8981591057416152,
+        -161.73772440166042
+      ],
+      "pitch_pivot_hull": [
+        85.82206883785145,
+        1.8981591057416152,
+        -161.32564671321128
+      ],
+      "muzzle_hull": [
+        86.7181701537818,
+        1.8981566301235335,
+        -152.99090215745676
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            76.80029516009499,
+            -4.173840894258385,
+            -161.73772440166042
+          ],
+          [
+            77.79387664794922,
+            -2.395393269623101,
+            -157.4441720262957
+          ],
+          [
+            77.64701843261719,
+            1.8981591057416147,
+            -155.6657244016604
+          ],
+          [
+            77.37466420396808,
+            6.191711481106331,
+            -157.4441720262957
+          ],
+          [
+            77.24265289306639,
+            7.970159105741615,
+            -161.73772440166042
+          ],
+          [
+            77.2426528930664,
+            6.191711481106332,
+            -166.03127677702514
+          ],
+          [
+            76.69142150878906,
+            1.8981591057416163,
+            -167.80972440166042
+          ],
+          [
+            77.2426528930664,
+            -2.3953932696231,
+            -166.03127677702514
+          ]
+        ],
+        "bottom": 75.89142150878907,
+        "top": 82.79387664794922,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 10,
+      "kind": "pdc",
+      "placement_role": "engine pod",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_10",
+        "mesh_point": "child.expanse12_scirocco_pdc_10",
+        "weapon_position": [
+          5.7860011192123135,
+          -75.19141387939453,
+          -161.73772440166042
+        ],
+        "up": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        5.7860011192123135,
+        -75.19141387939453,
+        -161.73772440166042
+      ],
+      "pitch_pivot_hull": [
+        5.7860011192123135,
+        -78.21960606929676,
+        -161.32564671321128
+      ],
+      "muzzle_hull": [
+        5.785998643594231,
+        -79.11570738522711,
+        -152.99090215745676
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            -0.28599888078768654,
+            -69.1978355586393,
+            -161.73772440166042
+          ],
+          [
+            1.4924487438475973,
+            -70.19141387939453,
+            -157.4441720262957
+          ],
+          [
+            5.7860011192123135,
+            -70.04454803466795,
+            -155.6657244016604
+          ],
+          [
+            10.07955349457703,
+            -69.77220140184409,
+            -157.4441720262957
+          ],
+          [
+            11.858001119212314,
+            -69.6401824951172,
+            -161.73772440166042
+          ],
+          [
+            10.07955349457703,
+            -69.64018249511719,
+            -166.03127677702514
+          ],
+          [
+            5.786001119212314,
+            -69.0889663696289,
+            -167.80972440166042
+          ],
+          [
+            1.4924487438475982,
+            -69.6401824951172,
+            -166.03127677702514
+          ]
+        ],
+        "bottom": 68.28896636962891,
+        "top": 75.19141387939453,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 11,
+      "kind": "pdc",
+      "placement_role": "engine pod",
+      "mount": {
+        "weapon": "expanse12_scirocco_pdc_11",
+        "mesh_point": "child.expanse12_scirocco_pdc_11",
+        "weapon_position": [
+          5.7860011192123135,
+          79.0059314122019,
+          -161.73772440166042
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        5.7860011192123135,
+        79.0059314122019,
+        -161.73772440166042
+      ],
+      "pitch_pivot_hull": [
+        5.7860011192123135,
+        82.03412360210413,
+        -161.32564671321128
+      ],
+      "muzzle_hull": [
+        5.786003594830396,
+        82.93022491803448,
+        -152.99090215745676
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse12_scirocco_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "support": {
+        "samples": [
+          [
+            11.858001119212314,
+            72.99415854617119,
+            -161.73772440166042
+          ],
+          [
+            10.07955349457703,
+            73.9877395629883,
+            -157.4441720262957
+          ],
+          [
+            5.7860011192123135,
+            74.0059314122019,
+            -155.6657244016604
+          ],
+          [
+            1.4924487438475973,
+            73.56852294368238,
+            -157.4441720262957
+          ],
+          [
+            -0.28599888078768654,
+            73.43650817871094,
+            -161.73772440166042
+          ],
+          [
+            1.4924487438475964,
+            73.43650817871094,
+            -166.03127677702514
+          ],
+          [
+            5.786001119212313,
+            72.88529205322266,
+            -167.80972440166042
+          ],
+          [
+            10.079553494577029,
+            73.43650817871094,
+            -166.03127677702514
+          ]
+        ],
+        "bottom": 72.08529205322266,
+        "top": 79.0059314122019,
+        "radius": 6.6
+      },
+      "runtime": "NOT RUN",
+      "visual_scale_from_update12": 2.2
+    },
+    {
+      "index": 12,
+      "kind": "rail",
+      "mount": {
+        "weapon": "expanse12_scirocco_rail_0",
+        "mesh_point": "child.expanse12_scirocco_rail_0",
+        "weapon_position": [
+          -78.41761863034543,
+          55.833018805524226,
+          -67.42619791836744
+        ],
+        "up": [
+          -0.866025403784,
+          0.5,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -15.0,
+          "max_angle": 15.0
+        },
+        "pitch_arc": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.5,
+          -0.866025403784,
+          0.0
+        ],
+        [
+          0.866025403784,
+          0.5,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -78.41761863034543,
+        55.833018805524226,
+        -67.42619791836744
+      ],
+      "pitch_pivot_hull": [
+        -78.41761863034543,
+        55.833018805524226,
+        -67.42619791836744
+      ],
+      "muzzle_hull": [
+        -83.37796401977539,
+        58.73653793334961,
+        -17.722062492370604
+      ],
+      "turret_override": {
+        "type": "gimbal",
+        "gimbal_mesh": "expanse12_scirocco_rail_0",
+        "muzzle_positions": [
+          [
+            0.03434863035456472,
+            5.747544682701876,
+            49.70413542599683
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse12_scirocco_rail_0",
+          "mesh_definition": {
+            "mesh": "expanse12_scirocco_rail_0",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_cut_plane": {
+        "normal": [
+          0.0,
+          -0.866025403784,
+          0.5
+        ],
+        "height": 125.0,
+        "pivot_source": [
+          -88.60905,
+          -103.32800363,
+          71.030647875
+        ],
+        "cap_vertices": [
+          [
+            -100.06918663,
+            -102.8514656,
+            71.85603594
+          ],
+          [
+            -100.10905,
+            -103.32800363,
+            71.03064787
+          ],
+          [
+            -100.09457296,
+            -103.50307058,
+            70.72742301
+          ],
+          [
+            -100.06919031,
+            -103.80454597,
+            70.20525232
+          ],
+          [
+            -99.95195331,
+            -104.27506895,
+            69.39028261
+          ],
+          [
+            -99.88004018,
+            -104.44656911,
+            69.09323563
+          ],
+          [
+            -99.75724263,
+            -104.7390584,
+            68.58662931
+          ],
+          [
+            -99.65724922,
+            -104.90701252,
+            68.29572424
+          ],
+          [
+            -99.48557394,
+            -105.19527777,
+            67.79643419
+          ],
+          [
+            -99.14073519,
+            -105.63737146,
+            67.03070546
+          ],
+          [
+            -98.98681172,
+            -105.79481337,
+            66.75800806
+          ],
+          [
+            -98.72278494,
+            -106.06463563,
+            66.2906622
+          ],
+          [
+            -98.23630281,
+            -106.4730721,
+            65.58322949
+          ],
+          [
+            -98.03264369,
+            -106.61570147,
+            65.33618818
+          ],
+          [
+            -97.68440681,
+            -106.85939433,
+            64.91409975
+          ],
+          [
+            -97.06925462,
+            -107.22262132,
+            64.28497216
+          ],
+          [
+            -96.82142339,
+            -107.34654358,
+            64.0703325
+          ],
+          [
+            -96.39842713,
+            -107.55804819,
+            63.70399577
+          ],
+          [
+            -96.13097393,
+            -107.67131346,
+            63.50781456
+          ],
+          [
+            -95.67197825,
+            -107.8656238,
+            63.1712592
+          ],
+          [
+            -94.89933988,
+            -108.14157865,
+            62.69329138
+          ],
+          [
+            -94.59824953,
+            -108.23128628,
+            62.5379132
+          ],
+          [
+            -94.082479,
+            -108.38482653,
+            62.27197368
+          ],
+          [
+            -93.22795669,
+            -108.59381149,
+            61.9100011
+          ],
+          [
+            -92.90144179,
+            -108.65751806,
+            61.79965809
+          ],
+          [
+            -92.34376181,
+            -108.76623837,
+            61.611349
+          ],
+          [
+            -91.43130731,
+            -108.90208295,
+            61.37605927
+          ],
+          [
+            -90.50272013,
+            -108.9994757,
+            61.20737009
+          ],
+          [
+            -90.15491801,
+            -109.02115317,
+            61.1698236
+          ],
+          [
+            -89.55835231,
+            -109.05825982,
+            61.105553
+          ],
+          [
+            -88.60905,
+            -109.0780027,
+            61.07135734
+          ],
+          [
+            -88.25885312,
+            -109.07076007,
+            61.08390193
+          ],
+          [
+            -87.65974506,
+            -109.05825982,
+            61.105553
+          ],
+          [
+            -86.71538356,
+            -108.9994757,
+            61.20737009
+          ],
+          [
+            -85.78679638,
+            -108.90208295,
+            61.37605927
+          ],
+          [
+            -84.87434187,
+            -108.76623837,
+            61.611349
+          ],
+          [
+            -84.3166619,
+            -108.65751806,
+            61.79965809
+          ],
+          [
+            -83.990147,
+            -108.59381309,
+            61.90999834
+          ],
+          [
+            -83.13561838,
+            -108.38482745,
+            62.27197209
+          ],
+          [
+            -82.61984902,
+            -108.23128755,
+            62.537911
+          ],
+          [
+            -82.31875381,
+            -108.14157865,
+            62.69329138
+          ],
+          [
+            -81.54612544,
+            -107.8656238,
+            63.1712592
+          ],
+          [
+            -81.08712975,
+            -107.67131346,
+            63.50781456
+          ],
+          [
+            -80.81967287,
+            -107.55804979,
+            63.703993
+          ],
+          [
+            -80.39666975,
+            -107.3465449,
+            64.07033021
+          ],
+          [
+            -80.14883906,
+            -107.22262383,
+            64.2849678
+          ],
+          [
+            -79.53369319,
+            -106.85939433,
+            64.91409975
+          ],
+          [
+            -79.18545631,
+            -106.61570147,
+            65.33618818
+          ],
+          [
+            -78.98180088,
+            -106.47307462,
+            65.58322513
+          ],
+          [
+            -78.49531506,
+            -106.06463815,
+            66.29065784
+          ],
+          [
+            -78.23128222,
+            -105.79481615,
+            66.75800325
+          ],
+          [
+            -78.0773585,
+            -105.63737465,
+            67.03069993
+          ],
+          [
+            -77.73252606,
+            -105.19527937,
+            67.79643142
+          ],
+          [
+            -77.56085056,
+            -104.90701374,
+            68.29572212
+          ],
+          [
+            -77.46085737,
+            -104.73906,
+            68.58662654
+          ],
+          [
+            -77.33805335,
+            -104.44657032,
+            69.09323352
+          ],
+          [
+            -77.26614038,
+            -104.27506987,
+            69.39028102
+          ],
+          [
+            -77.14891338,
+            -103.80454597,
+            70.20525232
+          ],
+          [
+            -77.10905,
+            -103.32800363,
+            71.03064787
+          ],
+          [
+            -77.12353074,
+            -103.15293655,
+            71.33387295
+          ],
+          [
+            -77.14891337,
+            -102.8514656,
+            71.85603594
+          ],
+          [
+            -77.26614038,
+            -102.38094104,
+            72.67100839
+          ],
+          [
+            -77.33805357,
+            -102.20943912,
+            72.96805844
+          ],
+          [
+            -77.46085737,
+            -101.91694725,
+            73.47466921
+          ],
+          [
+            -77.56084726,
+            -101.74899286,
+            73.76557476
+          ],
+          [
+            -77.73252238,
+            -101.46072789,
+            74.26486433
+          ],
+          [
+            -78.0773585,
+            -101.01863851,
+            75.03058558
+          ],
+          [
+            -78.23128133,
+            -100.86119725,
+            75.30328184
+          ],
+          [
+            -78.49531506,
+            -100.5913716,
+            75.77063358
+          ],
+          [
+            -78.98179719,
+            -100.18293356,
+            76.47806902
+          ],
+          [
+            -79.18545256,
+            -100.04030491,
+            76.72510909
+          ],
+          [
+            -79.5336895,
+            -99.79661358,
+            77.14719486
+          ],
+          [
+            -80.14883538,
+            -99.43338436,
+            77.77632632
+          ],
+          [
+            -80.39666882,
+            -99.30946191,
+            77.9909663
+          ],
+          [
+            -80.81967287,
+            -99.09796245,
+            78.3572941
+          ],
+          [
+            -81.08712618,
+            -98.98469805,
+            78.5534738
+          ],
+          [
+            -81.54612175,
+            -98.79038346,
+            78.89003655
+          ],
+          [
+            -82.31875012,
+            -98.51443134,
+            79.36799964
+          ],
+          [
+            -82.61983942,
+            -98.42472243,
+            79.52338003
+          ],
+          [
+            -83.135611,
+            -98.27118344,
+            79.78931736
+          ],
+          [
+            -83.99014332,
+            -98.0621969,
+            80.15129267
+          ],
+          [
+            -84.31665763,
+            -97.99849204,
+            80.26163273
+          ],
+          [
+            -84.87433819,
+            -97.88976889,
+            80.44994675
+          ],
+          [
+            -85.786789,
+            -97.75392703,
+            80.68523174
+          ],
+          [
+            -86.71537987,
+            -97.65653429,
+            80.85392093
+          ],
+          [
+            -87.06318621,
+            -97.63485678,
+            80.89146747
+          ],
+          [
+            -87.65974506,
+            -97.59774901,
+            80.95574001
+          ],
+          [
+            -88.60904631,
+            -97.57800456,
+            80.98993841
+          ],
+          [
+            -88.95924188,
+            -97.58524715,
+            80.97739386
+          ],
+          [
+            -89.55834494,
+            -97.59774901,
+            80.95574001
+          ],
+          [
+            -90.50271275,
+            -97.65653269,
+            80.85392369
+          ],
+          [
+            -91.43130731,
+            -97.75392544,
+            80.6852345
+          ],
+          [
+            -92.34375813,
+            -97.88976889,
+            80.44994675
+          ],
+          [
+            -92.90143868,
+            -97.99849204,
+            80.26163273
+          ],
+          [
+            -93.227953,
+            -98.0621969,
+            80.15129267
+          ],
+          [
+            -94.08247531,
+            -98.27118252,
+            79.78931896
+          ],
+          [
+            -94.59824806,
+            -98.42472186,
+            79.52338103
+          ],
+          [
+            -94.89933619,
+            -98.51443134,
+            79.36799964
+          ],
+          [
+            -95.67197456,
+            -98.79038186,
+            78.89003931
+          ],
+          [
+            -96.13096953,
+            -98.9846962,
+            78.553477
+          ],
+          [
+            -96.39842344,
+            -99.09796086,
+            78.35729687
+          ],
+          [
+            -96.82142062,
+            -99.30946004,
+            77.99096955
+          ],
+          [
+            -97.06925462,
+            -99.43338184,
+            77.77633068
+          ],
+          [
+            -97.68440313,
+            -99.79661358,
+            77.14719486
+          ],
+          [
+            -98.03264007,
+            -100.04030491,
+            76.72510909
+          ],
+          [
+            -98.23629912,
+            -100.18293104,
+            76.47807339
+          ],
+          [
+            -98.72278125,
+            -100.59137068,
+            75.77063518
+          ],
+          [
+            -98.98680927,
+            -100.86119694,
+            75.30328238
+          ],
+          [
+            -99.14073519,
+            -101.01863692,
+            75.03058835
+          ],
+          [
+            -99.48557394,
+            -101.46072789,
+            74.26486433
+          ],
+          [
+            -99.65724905,
+            -101.74899286,
+            73.76557476
+          ],
+          [
+            -99.75724263,
+            -101.91694566,
+            73.47467197
+          ],
+          [
+            -99.88003995,
+            -102.20943714,
+            72.96806186
+          ],
+          [
+            -99.95195331,
+            -102.38094012,
+            72.67100999
+          ]
+        ],
+        "housing_separated_from_source_component": 89,
+        "derivative_outward_clearance_offset": 8.2
+      },
+      "runtime": "NOT RUN; rotation limited pending clearance check"
+    }
+  ],
+  "ship_spatial": {
+    "box": {
+      "center": [
+        -0.9256944702238172,
+        -3.6143679590567785,
+        0.0
+      ],
+      "extents": [
+        91.19918361523469,
+        90.09991186832033,
+        228.2608642578125
+      ]
+    },
+    "radius": 238.78639759699894,
+    "bounds_min": [
+      -92.1248780854585,
+      -93.71427982737711,
+      -228.2608642578125
+    ],
+    "bounds_max": [
+      90.27348914501087,
+      86.48554390926355,
+      228.2608642578125
+    ]
+  },
+  "equipment": {
+    "light_torpedo_ports": [
+      {
+        "position": [
+          -30.03106704269377,
+          -10.223530662519467,
+          200.98850769501294
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -30.03106704269377,
+          -10.223530662519467,
+          198.76060740770657
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            -30.03106704269377,
+            -10.223530662519467,
+            198.76060740770657
+          ],
+          [
+            -31.08106704269377,
+            -11.273530662519466,
+            198.63273714218283
+          ],
+          [
+            -31.08106704269377,
+            -9.173530662519468,
+            198.88850769501295
+          ],
+          [
+            -28.98106704269377,
+            -11.273530662519466,
+            198.63272353910048
+          ],
+          [
+            -28.98106704269377,
+            -9.173530662519468,
+            198.8884863027144
+          ]
+        ],
+        "collar_start": 198.13272353910048,
+        "collar_end": 200.88850769501295,
+        "radius": 1.5,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      },
+      {
+        "position": [
+          -12.122532961740728,
+          -10.223530662519467,
+          201.14157634682118
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -12.122532961740728,
+          -10.223530662519467,
+          198.91266409211352
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            -12.122532961740728,
+            -10.223530662519467,
+            198.91266409211352
+          ],
+          [
+            -13.172532961740728,
+            -11.273530662519466,
+            198.40783201046696
+          ],
+          [
+            -13.172532961740728,
+            -9.173530662519468,
+            199.0415763468212
+          ],
+          [
+            -11.072532961740727,
+            -11.273530662519466,
+            198.44585140807368
+          ],
+          [
+            -11.072532961740727,
+            -9.173530662519468,
+            198.81934950010884
+          ]
+        ],
+        "collar_start": 197.90783201046696,
+        "collar_end": 201.0415763468212,
+        "radius": 1.5,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      },
+      {
+        "position": [
+          5.7860011192123135,
+          -10.223530662519467,
+          202.12725819612996
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.7860011192123135,
+          -10.223530662519467,
+          199.86553851877485
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            5.7860011192123135,
+            -10.223530662519467,
+            199.86553851877485
+          ],
+          [
+            4.736001119212314,
+            -11.273530662519466,
+            199.70381273920373
+          ],
+          [
+            4.736001119212314,
+            -9.173530662519468,
+            200.02725819612996
+          ],
+          [
+            6.836001119212313,
+            -11.273530662519466,
+            199.70381273920373
+          ],
+          [
+            6.836001119212313,
+            -9.173530662519468,
+            200.02725819612996
+          ]
+        ],
+        "collar_start": 199.20381273920373,
+        "collar_end": 202.02725819612996,
+        "radius": 1.5,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      },
+      {
+        "position": [
+          23.694535200165355,
+          -10.223530662519467,
+          201.14158091192328
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          23.694535200165355,
+          -10.223530662519467,
+          198.61281792516866
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            23.694535200165355,
+            -10.223530662519467,
+            198.61281792516866
+          ],
+          [
+            22.644535200165354,
+            -11.273530662519466,
+            198.75304903029468
+          ],
+          [
+            22.644535200165354,
+            -9.173530662519468,
+            198.95770965182282
+          ],
+          [
+            24.744535200165355,
+            -11.273530662519466,
+            198.4078334032057
+          ],
+          [
+            24.744535200165355,
+            -9.173530662519468,
+            199.0415809119233
+          ]
+        ],
+        "collar_start": 197.9078334032057,
+        "collar_end": 201.0415809119233,
+        "radius": 1.5,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      },
+      {
+        "position": [
+          41.603069281118394,
+          -10.223530662519467,
+          200.98850574066637
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          41.603069281118394,
+          -10.223530662519467,
+          198.7606105330703
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            41.603069281118394,
+            -10.223530662519467,
+            198.7606105330703
+          ],
+          [
+            40.5530692811184,
+            -11.273530662519466,
+            198.63272831536665
+          ],
+          [
+            40.5530692811184,
+            -9.173530662519468,
+            198.88848630271443
+          ],
+          [
+            42.65306928111839,
+            -11.273530662519466,
+            198.63273551359492
+          ],
+          [
+            42.65306928111839,
+            -9.173530662519468,
+            198.88850574066637
+          ]
+        ],
+        "collar_start": 198.13272831536665,
+        "collar_end": 200.88850574066637,
+        "radius": 1.5,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      }
+    ],
+    "light_torpedo_port": {
+      "position": [
+        -30.03106704269377,
+        -10.223530662519467,
+        200.98850769501294
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "measured_surface": [
+        -30.03106704269377,
+        -10.223530662519467,
+        198.76060740770657
+      ],
+      "custom_collar": true,
+      "support_samples": [
+        [
+          -30.03106704269377,
+          -10.223530662519467,
+          198.76060740770657
+        ],
+        [
+          -31.08106704269377,
+          -11.273530662519466,
+          198.63273714218283
+        ],
+        [
+          -31.08106704269377,
+          -9.173530662519468,
+          198.88850769501295
+        ],
+        [
+          -28.98106704269377,
+          -11.273530662519466,
+          198.63272353910048
+        ],
+        [
+          -28.98106704269377,
+          -9.173530662519468,
+          198.8884863027144
+        ]
+      ],
+      "collar_start": 198.13272353910048,
+      "collar_end": 200.88850769501295,
+      "radius": 1.5,
+      "source_semantics": "Prototype retrofit, not an authored tube identification"
+    },
+    "heavy_torpedo_ports": [
+      {
+        "position": [
+          -30.03106704269377,
+          15.146892618830675,
+          203.91302837488516
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -30.03106704269377,
+          15.146892618830675,
+          191.83058166503906
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            -30.03106704269377,
+            15.146892618830675,
+            191.83058166503906
+          ],
+          [
+            -31.43106704269377,
+            13.746892618830675,
+            191.81166899012575
+          ],
+          [
+            -31.43106704269377,
+            16.546892618830675,
+            201.81302837488516
+          ],
+          [
+            -28.631067042693772,
+            13.746892618830675,
+            191.45895017893423
+          ],
+          [
+            -28.631067042693772,
+            16.546892618830675,
+            191.83058166503906
+          ]
+        ],
+        "collar_start": 190.95895017893423,
+        "collar_end": 203.81302837488516,
+        "radius": 2.0,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      },
+      {
+        "position": [
+          -12.122532961740728,
+          15.146892618830675,
+          196.52876126130596
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -12.122532961740728,
+          15.146892618830675,
+          194.42876126130597
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            -12.122532961740728,
+            15.146892618830675,
+            194.42876126130597
+          ],
+          [
+            -13.522532961740728,
+            13.746892618830675,
+            194.41656220472132
+          ],
+          [
+            -13.522532961740728,
+            16.546892618830675,
+            194.2783846538362
+          ],
+          [
+            -10.722532961740727,
+            13.746892618830675,
+            193.17373657226562
+          ],
+          [
+            -10.722532961740727,
+            16.546892618830675,
+            193.17373657226562
+          ]
+        ],
+        "collar_start": 192.67373657226562,
+        "collar_end": 196.42876126130597,
+        "radius": 2.0,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      },
+      {
+        "position": [
+          5.7860011192123135,
+          15.146892618830675,
+          196.5650031814487
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.7860011192123135,
+          15.146892618830675,
+          194.40885264416164
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            5.7860011192123135,
+            15.146892618830675,
+            194.40885264416164
+          ],
+          [
+            4.386001119212313,
+            13.746892618830675,
+            194.3505415903654
+          ],
+          [
+            4.386001119212313,
+            16.546892618830675,
+            194.33297822799904
+          ],
+          [
+            7.186001119212314,
+            13.746892618830675,
+            194.35054159036537
+          ],
+          [
+            7.186001119212314,
+            16.546892618830675,
+            194.4650031814487
+          ]
+        ],
+        "collar_start": 193.83297822799904,
+        "collar_end": 196.4650031814487,
+        "radius": 2.0,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      },
+      {
+        "position": [
+          23.694535200165355,
+          15.146892618830675,
+          196.5241311153198
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          23.694535200165355,
+          15.146892618830675,
+          194.4241311153198
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            23.694535200165355,
+            15.146892618830675,
+            194.4241311153198
+          ],
+          [
+            22.294535200165356,
+            13.746892618830675,
+            193.17373657226562
+          ],
+          [
+            22.294535200165356,
+            16.546892618830675,
+            193.17373657226562
+          ],
+          [
+            25.094535200165353,
+            13.746892618830675,
+            194.30225931869495
+          ],
+          [
+            25.094535200165353,
+            16.546892618830675,
+            194.3312820359702
+          ]
+        ],
+        "collar_start": 192.67373657226562,
+        "collar_end": 196.4241311153198,
+        "radius": 2.0,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      },
+      {
+        "position": [
+          41.603069281118394,
+          15.146892618830675,
+          204.1211353542941
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          41.603069281118394,
+          15.146892618830675,
+          191.62914760892357
+        ],
+        "custom_collar": true,
+        "support_samples": [
+          [
+            41.603069281118394,
+            15.146892618830675,
+            191.62914760892357
+          ],
+          [
+            40.203069281118395,
+            13.746892618830675,
+            191.4574737548828
+          ],
+          [
+            40.203069281118395,
+            16.546892618830675,
+            191.55506822950554
+          ],
+          [
+            43.00306928111839,
+            13.746892618830675,
+            191.7032269883416
+          ],
+          [
+            43.00306928111839,
+            16.546892618830675,
+            202.0211353542941
+          ]
+        ],
+        "collar_start": 190.9574737548828,
+        "collar_end": 204.0211353542941,
+        "radius": 2.0,
+        "source_semantics": "Prototype retrofit, not an authored tube identification"
+      }
+    ],
+    "heavy_torpedo_port": {
+      "position": [
+        -30.03106704269377,
+        15.146892618830675,
+        203.91302837488516
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "measured_surface": [
+        -30.03106704269377,
+        15.146892618830675,
+        191.83058166503906
+      ],
+      "custom_collar": true,
+      "support_samples": [
+        [
+          -30.03106704269377,
+          15.146892618830675,
+          191.83058166503906
+        ],
+        [
+          -31.43106704269377,
+          13.746892618830675,
+          191.81166899012575
+        ],
+        [
+          -31.43106704269377,
+          16.546892618830675,
+          201.81302837488516
+        ],
+        [
+          -28.631067042693772,
+          13.746892618830675,
+          191.45895017893423
+        ],
+        [
+          -28.631067042693772,
+          16.546892618830675,
+          191.83058166503906
+        ]
+      ],
+      "collar_start": 190.95895017893423,
+      "collar_end": 203.81302837488516,
+      "radius": 2.0,
+      "source_semantics": "Prototype retrofit, not an authored tube identification"
+    },
+    "exhausts": [
+      {
+        "position": [
+          -39.37866891764622,
+          1.8981628366862153,
+          -228.33548845722137
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "source_component": 0,
+        "source_bounds": [
+          [
+            -304.15054,
+            -85.27023,
+            -20.4983
+          ],
+          [
+            -266.50763,
+            -35.78402,
+            28.98791
+          ]
+        ]
+      },
+      {
+        "position": [
+          5.7860011192123135,
+          -42.99622638050014,
+          -228.33548845722137
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "source_component": 1,
+        "source_bounds": [
+          [
+            -304.15054,
+            -24.7431,
+            -80.66321
+          ],
+          [
+            -266.50763,
+            24.7431,
+            -31.177
+          ]
+        ]
+      },
+      {
+        "position": [
+          5.7860011192123135,
+          46.79254832292797,
+          -228.33548845722137
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "source_component": 2,
+        "source_bounds": [
+          [
+            -304.15054,
+            -24.7431,
+            39.66661
+          ],
+          [
+            -266.50763,
+            24.7431,
+            89.15281
+          ]
+        ]
+      },
+      {
+        "position": [
+          50.59869011154352,
+          1.8981628366862153,
+          -228.33548845722137
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "source_component": 3,
+        "source_bounds": [
+          [
+            -304.15054,
+            35.31232,
+            -20.4983
+          ],
+          [
+            -266.50763,
+            84.79852,
+            28.98791
+          ]
+        ]
+      }
+    ],
+    "exhaust": {
+      "position": [
+        -39.37866891764622,
+        1.8981628366862153,
+        -228.33548845722137
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "source_component": 0,
+      "source_bounds": [
+        [
+          -304.15054,
+          -85.27023,
+          -20.4983
+        ],
+        [
+          -266.50763,
+          -35.78402,
+          28.98791
+        ]
+      ]
+    },
+    "boarding": {
+      "position": [
+        77.21202411245469,
+        6.192625578354154,
+        -1.3071065931227626
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        1,
+        0,
+        0
+      ],
+      "measured_surface": [
+        57.212024112454685,
+        6.192625578354154,
+        -1.3071065931227626
+      ],
+      "external_clearance": 20.0,
+      "source_semantics": "Prototype boarding origin outside measured hull; no identified or animated source airlock claimed"
+    }
+  },
+  "counts": {
+    "hull": 84383,
+    "pdc_base": 138,
+    "pdc_barrel": 539,
+    "rail_0": 5948
+  },
+  "assembled_triangle_total": 98455,
+  "meshpoints": {
+    "hull": [
+      {
+        "name": "center",
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0,
+          90,
+          0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0,
+          -90,
+          0
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_0",
+        "translation": [
+          -59.8671768701422,
+          6.192625578354154,
+          129.2759544138265
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_1",
+        "translation": [
+          71.43917977763714,
+          6.192625578354154,
+          129.2759544138265
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          -0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_2",
+        "translation": [
+          -59.867175163987426,
+          6.192625578354154,
+          166.585400415812
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_3",
+        "translation": [
+          71.43917757487611,
+          6.192625578354154,
+          166.585400415812
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          -0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_4",
+        "translation": [
+          5.7860011192123135,
+          -76.55785369873047,
+          36.00233940886274
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_5",
+        "translation": [
+          5.7860011192123135,
+          -86.23466733031546,
+          99.4283976122381
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_6",
+        "translation": [
+          -51.574600078353185,
+          1.8981591057416152,
+          -105.77355539868216
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_7",
+        "translation": [
+          63.146602120826174,
+          1.8981591057416152,
+          -105.77355539868216
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          -0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_8",
+        "translation": [
+          -71.57385253906251,
+          1.8981591057416152,
+          -161.73772440166042
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_9",
+        "translation": [
+          82.79387664794922,
+          1.8981591057416152,
+          -161.73772440166042
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          -0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_10",
+        "translation": [
+          5.7860011192123135,
+          -75.19141387939453,
+          -161.73772440166042
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_pdc_11",
+        "translation": [
+          5.7860011192123135,
+          79.0059314122019,
+          -161.73772440166042
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse12_scirocco_rail_0",
+        "translation": [
+          -78.41761863034543,
+          55.833018805524226,
+          -67.42619791836744
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.49999999999981,
+          0.8660254037845483
+        ]
+      },
+      {
+        "name": "weapon.light_torpedo.0",
+        "translation": [
+          -30.03106704269377,
+          -10.223530662519467,
+          200.98850769501294
+        ]
+      },
+      {
+        "name": "weapon.light_torpedo.1",
+        "translation": [
+          -12.122532961740728,
+          -10.223530662519467,
+          201.14157634682118
+        ]
+      },
+      {
+        "name": "weapon.light_torpedo.2",
+        "translation": [
+          5.7860011192123135,
+          -10.223530662519467,
+          202.12725819612996
+        ]
+      },
+      {
+        "name": "weapon.light_torpedo.3",
+        "translation": [
+          23.694535200165355,
+          -10.223530662519467,
+          201.14158091192328
+        ]
+      },
+      {
+        "name": "weapon.light_torpedo.4",
+        "translation": [
+          41.603069281118394,
+          -10.223530662519467,
+          200.98850574066637
+        ]
+      },
+      {
+        "name": "weapon.heavy_torpedo.0",
+        "translation": [
+          -30.03106704269377,
+          15.146892618830675,
+          203.91302837488516
+        ]
+      },
+      {
+        "name": "weapon.heavy_torpedo.1",
+        "translation": [
+          -12.122532961740728,
+          15.146892618830675,
+          196.52876126130596
+        ]
+      },
+      {
+        "name": "weapon.heavy_torpedo.2",
+        "translation": [
+          5.7860011192123135,
+          15.146892618830675,
+          196.5650031814487
+        ]
+      },
+      {
+        "name": "weapon.heavy_torpedo.3",
+        "translation": [
+          23.694535200165355,
+          15.146892618830675,
+          196.5241311153198
+        ]
+      },
+      {
+        "name": "weapon.heavy_torpedo.4",
+        "translation": [
+          41.603069281118394,
+          15.146892618830675,
+          204.1211353542941
+        ]
+      },
+      {
+        "name": "weapon.boarding.0",
+        "translation": [
+          77.21202411245469,
+          6.192625578354154,
+          -1.3071065931227626
+        ],
+        "rotation": [
+          0.0,
+          0.7071067811865475,
+          0.0,
+          0.7071067811865475
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          -39.37866891764622,
+          1.8981628366862153,
+          -228.33548845722137
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.1",
+        "translation": [
+          5.7860011192123135,
+          -42.99622638050014,
+          -228.33548845722137
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.2",
+        "translation": [
+          5.7860011192123135,
+          46.79254832292797,
+          -228.33548845722137
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.3",
+        "translation": [
+          50.59869011154352,
+          1.8981628366862153,
+          -228.33548845722137
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "rail_0": [],
+    "pdc_base": [],
+    "pdc_barrel": []
+  },
+  "editable_source": "/run/media/haker/NVME 2/expanse-workers/visual14-scirocco/assets/derived/update14-scirocco/expanse12_scirocco_editable.gltf",
+  "normalization": {
+    "source_center": [
+      1.7517100000000028,
+      -7.754069999999999,
+      1.700994999999999
+    ],
+    "source_to_game_rotation": [
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "determinant": 1.0,
+    "scale": 0.74618892003971,
+    "source_length": 611.8045,
+    "provisional_game_length": 456.52173913043475,
+    "lore_length_meters": 200,
+    "source_gun_side_preserved": true
+  },
+  "runtime": "NOT RUN",
+  "ui_directory": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update12-b/ui-final/generated",
+  "ui_integration_spec": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/update12-b/ui-integration-spec.json",
+  "game_file_hashes": {
+    "meshes/expanse12_scirocco_rail_0.mesh": "a395c09fcf1f81241165c8721676510de87fe1f29014c9aff1bac291a4a382ad",
+    "meshes/expanse12_scirocco_hull.mesh": "56742daa7fab8a33da4c235bf95f64f97f78f499c0a573a81c4027a83ebb2745",
+    "meshes/expanse12_scirocco_pdc_barrel.mesh": "473fe52f6857c2764d9a4642c18663d546cb3351d35963ac58356ff15c9c4a1d",
+    "meshes/expanse12_scirocco_pdc_base.mesh": "316a7da7715712bca386c1c34ab143fe6ff3170a523bfa7d16a45dc9b03fa8ef"
+  },
+  "ui_file_hashes": {
+    "brushes/expanse12_scirocco_hud_icon.brush": "d9de8cc72cc8c05eaed55ea7e599ef816b51d799537a0a1d08fbec583de61478",
+    "brushes/expanse12_scirocco_hud_picture.brush": "a166b723c84be5ff1ec5ce66d489ee68ccb790644bf9dc7d8833d30df0a37cdf",
+    "brushes/expanse12_scirocco_main_view_icon.brush": "4a539de16b709f57f31fcbe3178fe818f57aaa01cf05489ef8f39a253e895b9d",
+    "brushes/expanse12_scirocco_main_view_icon_selected.brush": "9385c263e16f490489ceefa0716cae0ec31a0ff271abab9916d70f824515b1d5",
+    "brushes/expanse12_scirocco_main_view_icon_sub_selected.brush": "620e0169ad509224878fed46e70d25aa189388f3ce90851b19dd8f87e3bf815a",
+    "brushes/expanse12_scirocco_tooltip_picture.brush": "5e967ab1555d440203f7f9c5fd563691e7a31864106c285943ed379d3d9d627a",
+    "expanse12_scirocco_mod_large_logo.png": "e62ebb197dc9e1d2b46b969a1b61dc6fe9acbebd5ef5c42f59a161341db8a4f6",
+    "expanse12_scirocco_mod_small_logo.png": "24e3519d8ed48437654623161b6048ce7ad02ec4b2b0eada376936b5c23409d1",
+    "textures/expanse12_scirocco_hud_icon.png": "3ce7bbd229ee5845a324c8562cab97b104564990b9f119011bc9b1ed5a1f52ac",
+    "textures/expanse12_scirocco_hud_icon150.png": "1be4a70800cc6ba0cc4044eb6ecffe641b59944097d8101f036adb89c0eef7c6",
+    "textures/expanse12_scirocco_hud_icon200.png": "6cb87cd686920214c16c1e6cccc19fcc211b38956e8eb5c620f19b75af9f5c6a",
+    "textures/expanse12_scirocco_hud_picture.png": "2ca12c0663e90c65498640f829784179bcb9ffc5118be520c27e4f8184b742e4",
+    "textures/expanse12_scirocco_hud_picture150.png": "1f08f47ac35d95215cf6c66ac2cd78a22f62fa536070223291bc2f2938d60c44",
+    "textures/expanse12_scirocco_hud_picture200.png": "cf95409fceb8eeb24418826b5fdba6a5c33260702c4d1e44600f8ba31e9138ba",
+    "textures/expanse12_scirocco_main_view_icon.png": "4fdda99d04de821c07ff3131157f5fa2e6f2411aafa02069026e3088062392b6",
+    "textures/expanse12_scirocco_main_view_icon150.png": "5523c64b2b0c7412b1e1ca7de89d0bb9da01a54980237965f86e1d22fe3398d3",
+    "textures/expanse12_scirocco_main_view_icon200.png": "461cf2819fd155ae42d189915da0283f070fc8b33b9845d50596476a854f582b",
+    "textures/expanse12_scirocco_main_view_icon_selected.png": "3a02d6c146dcdb12a07b6484912e47d3a7deaadf8835b3acc02ac8cdf0d5af06",
+    "textures/expanse12_scirocco_main_view_icon_selected150.png": "b85d5feb6ce13d957882c0bf0027419ca162e25b018809083f04b20a7b0a2772",
+    "textures/expanse12_scirocco_main_view_icon_selected200.png": "2b48a3bdc2fd80d66a067fa8191e42901149f3d3f96ee4593935fdc2b09cc3fa",
+    "textures/expanse12_scirocco_main_view_icon_sub_selected.png": "add2a02da4b67432cb3d0d8c66a1f197f96d0826c89cc254b25e52f8794b62d6",
+    "textures/expanse12_scirocco_main_view_icon_sub_selected150.png": "26dca571ff87cfa7503e6f8a1de22b0779decf17ec941409672110610985fe2f",
+    "textures/expanse12_scirocco_main_view_icon_sub_selected200.png": "514c305a15e1628f06c2e53288e621956b017ac315808921aa364f1ffd4e0611",
+    "textures/expanse12_scirocco_tooltip_picture.png": "79feb95aa07eb3800615d39678667ffbc8ad64a48d3d14fd65713392d44e2f19",
+    "textures/expanse12_scirocco_tooltip_picture150.png": "b79e08c5af465b4732aca6a10bf4db126576afb19089fe5d07586d00ca0d8120",
+    "textures/expanse12_scirocco_tooltip_picture200.png": "7faf100781aedd8a0b6bb501a8947ae1c6488a004374796379dcc96d25a92a22"
+  },
+  "asset_bundle_sha256": "f19227c96266ff7fe04960aab51764981cab83ecb8533c06926a5941573489f9",
+  "material_validation": "Exact existing six-key ship material profile; no matching material schema in pinned SDK"
+}

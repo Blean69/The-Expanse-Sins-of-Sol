@@ -1,0 +1,127 @@
+{
+  "source_triangles": 1513390,
+  "removed_static_gun_components": [
+    77,
+    78,
+    129,
+    155,
+    156,
+    255,
+    256,
+    257,
+    258,
+    67,
+    72,
+    74,
+    76,
+    66,
+    71,
+    73,
+    75,
+    122,
+    126,
+    127,
+    128,
+    145,
+    150,
+    152,
+    154,
+    144,
+    149,
+    151,
+    153,
+    240,
+    244,
+    248,
+    250,
+    239,
+    243,
+    247,
+    249,
+    242,
+    246,
+    252,
+    254,
+    241,
+    245,
+    251,
+    253
+  ],
+  "triangles_after_gun_removal": 1405094,
+  "optimized_hull_triangles": 243749,
+  "component_budgets": [
+    {
+      "component": "hull",
+      "source_triangles": 1227086,
+      "target": 180000,
+      "triangles": 179759,
+      "relative_error": 0.0005456614308059216,
+      "error_limit": 0.0007,
+      "degenerates_removed": 79
+    },
+    {
+      "component": "287",
+      "source_triangles": 44502,
+      "target": 16000,
+      "triangles": 16000,
+      "relative_error": 6.459491851273924e-05,
+      "error_limit": 0.00015,
+      "degenerates_removed": 0
+    },
+    {
+      "component": "288",
+      "source_triangles": 44502,
+      "target": 16000,
+      "triangles": 15999,
+      "relative_error": 7.925356476334855e-05,
+      "error_limit": 0.00015,
+      "degenerates_removed": 1
+    },
+    {
+      "component": "289",
+      "source_triangles": 44502,
+      "target": 16000,
+      "triangles": 15999,
+      "relative_error": 8.620618609711528e-05,
+      "error_limit": 0.00015,
+      "degenerates_removed": 1
+    },
+    {
+      "component": "290",
+      "source_triangles": 44502,
+      "target": 16000,
+      "triangles": 15992,
+      "relative_error": 8.280785550596192e-05,
+      "error_limit": 0.00015,
+      "degenerates_removed": 0
+    }
+  ],
+  "source_center": [
+    -203.84602500000003,
+    0.0,
+    0.0
+  ],
+  "source_to_game_rotation": [
+    [
+      0,
+      0,
+      1
+    ],
+    [
+      0,
+      1,
+      0
+    ],
+    [
+      -1,
+      0,
+      0
+    ]
+  ],
+  "uniform_scale": 0.18732196377839958,
+  "provisional_length": 203.15217391304347,
+  "source_format": "STL: no UV/material/animation source",
+  "runtime": "NOT RUN",
+  "original_sha256": "c06878f57e5b9f04043793226f8c6a06b082848273ea6fc9e9369f474c8dedd6",
+  "source_welded_sha256": "ef0b856d197c51fd0e70491b85d65b4dc70d4d8a4e297f302cf821d49b990314"
+}

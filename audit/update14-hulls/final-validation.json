@@ -1,0 +1,37 @@
+{
+  "status": "PASS scoped offline checks; sampled surface limitation documented",
+  "records": [
+    {
+      "variant": "raptor",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/build/update14-hulls/raptor/game/meshes/expanse12_raptor_hull.mesh",
+      "sha256": "f4d7ed8d83cf4ebe92024b182c48ca5a537fea068c2641fddd7139f7effc0c0d",
+      "old_hull_triangles": 88730,
+      "hull_triangles": 266307,
+      "assembled_triangles": 272400,
+      "meshpoints_and_rotations_exact": true,
+      "material_names_exact": true,
+      "assembled_neutral_pose_bounds": "PASS",
+      "outward_surface_sample_hits": 2995,
+      "backface_surface_sample_hits": 3,
+      "exterior_test_limit": "Three narrow grazing/centerline exposures remain. Not a watertightness claim.",
+      "runtime": "NOT RUN"
+    },
+    {
+      "variant": "pella",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/build/update14-hulls/pella/game/meshes/expanse12_pella_hull.mesh",
+      "sha256": "a024359b134d81e20a38a7140d97930849a0845b07aed3af35dd9e66dafa136f",
+      "old_hull_triangles": 89430,
+      "hull_triangles": 267387,
+      "assembled_triangles": 273480,
+      "meshpoints_and_rotations_exact": true,
+      "material_names_exact": true,
+      "assembled_neutral_pose_bounds": "PASS",
+      "outward_surface_sample_hits": 2995,
+      "backface_surface_sample_hits": 3,
+      "exterior_test_limit": "Three narrow grazing/centerline exposures remain. Not a watertightness claim.",
+      "runtime": "NOT RUN"
+    }
+  ],
+  "owner": "hulls14",
+  "runtime": "NOT RUN"
+}

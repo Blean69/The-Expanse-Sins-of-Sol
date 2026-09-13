@@ -1,0 +1,595 @@
+{
+  "status": "PASS OFFLINE SAMPLED RAYS; runtime NOT RUN",
+  "identity": "expanse12_raptor",
+  "hull_source": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/assets/derived/update14-hulls/raptor/hull-ray.npz",
+  "hull_sha256": "2b25ebfb93b00a32905eea84c0e2221dbc8e9abc09d70fa9aefd18822305018e",
+  "triangle_count": 266307,
+  "self_check": "PASS: both windings, both ray directions, miss and range cutoff",
+  "coordinate_convention": "Right-handed game coordinates +Z forward, +Y up; B columns right=cross(up,forward), up, forward. Muzzle=pivot+B*Ry(yaw)*(barrel_position+Rx(pitch)*muzzle_position); outgoing ray=B*Ry(yaw+delta_yaw)*Rx(pitch+delta_pitch)*(0,0,1). Positive pitch points toward -up. Native dorsal flak mounts use negative pitch for outward elevation; compiled basis must match these unit vectors.",
+  "method": "Two-sided double-precision BVH triangle intersections from ACTUAL MUZZLE to unchanged 4500 range. Search 2 degree pose grid, final independent 1 degree pose grid including endpoints. Nine outgoing-direction combinations at +/-3 degrees per axis model aim tolerance plus 2-degree margin; proposed native firing tolerances are 1 degree. Old comparison samples unchanged 7.5-degree tolerance. Retain outward -85-degree pitch limit. Rectangles contain forward yaw zero and are inset 2 degrees from blocked search columns/rows.",
+  "limits": "Sampled rays are evidence, not continuous swept-volume proof or a game-engine runtime test. Native schema/data corroborate signs but engine source is unavailable. Hull triangles exclude other moving turrets; self-turret swept geometry is outside this line-of-fire check. Reduced arcs intentionally trade broadside coverage for hull clearance; tighter tolerance may delay shots while slewing.",
+  "entries": [
+    {
+      "weapon": "expanse12_raptor_pdc_0",
+      "old_mount_arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "mount_overrides": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -23.0
+        }
+      },
+      "weapon_overrides": {
+        "yaw_firing_tolerance": 1.0,
+        "pitch_firing_tolerance": 1.0
+      },
+      "old_sampled_blocked_poses": 1229,
+      "old_sampled_poses": 8326,
+      "old_ray_count": 74934,
+      "old_example": {
+        "yaw": 72.0,
+        "pitch": -9.0,
+        "direction_yaw_offset": -7.5,
+        "direction_pitch_offset": -7.5,
+        "distance_from_muzzle": 24.95695960133772,
+        "muzzle": [
+          19.92031304948461,
+          6.269144140763952,
+          44.456283113067194
+        ],
+        "direction": [
+          0.0169424258515433,
+          -0.9106720224250436,
+          0.41278253569954465
+        ],
+        "intersection": [
+          20.343144487010235,
+          -16.45846073296638,
+          54.758080180658474
+        ]
+      },
+      "search_ray_count": 74934,
+      "new_sampled_blocked_poses": 0,
+      "new_sampled_poses": 22743,
+      "new_ray_count": 204687,
+      "retained_solid_angle_fraction": 0.5588806232758305,
+      "random_between_grid_rays": 20000,
+      "random_blocked_rays": 0
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_1",
+      "old_mount_arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "mount_overrides": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -23.0
+        }
+      },
+      "weapon_overrides": {
+        "yaw_firing_tolerance": 1.0,
+        "pitch_firing_tolerance": 1.0
+      },
+      "old_sampled_blocked_poses": 1220,
+      "old_sampled_poses": 8326,
+      "old_ray_count": 74934,
+      "old_example": {
+        "yaw": -108.0,
+        "pitch": -9.0,
+        "direction_yaw_offset": -7.5,
+        "direction_pitch_offset": -7.5,
+        "distance_from_muzzle": 24.856878937598935,
+        "muzzle": [
+          -19.98248797335883,
+          6.471207348168934,
+          42.067295495999964
+        ],
+        "direction": [
+          -0.016942425782182895,
+          -0.9106720224263343,
+          -0.4127825356995443
+        ],
+        "intersection": [
+          -20.403623799935804,
+          -16.16525686514084,
+          31.806809978561283
+        ]
+      },
+      "search_ray_count": 74934,
+      "new_sampled_blocked_poses": 0,
+      "new_sampled_poses": 22743,
+      "new_ray_count": 204687,
+      "retained_solid_angle_fraction": 0.5588806232758305,
+      "random_between_grid_rays": 20000,
+      "random_blocked_rays": 0
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_2",
+      "old_mount_arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "mount_overrides": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -9.0
+        }
+      },
+      "weapon_overrides": {
+        "yaw_firing_tolerance": 1.0,
+        "pitch_firing_tolerance": 1.0
+      },
+      "old_sampled_blocked_poses": 407,
+      "old_sampled_poses": 8326,
+      "old_ray_count": 74934,
+      "old_example": {
+        "yaw": 160.0,
+        "pitch": 3.0,
+        "direction_yaw_offset": -7.5,
+        "direction_pitch_offset": -7.5,
+        "distance_from_muzzle": 57.77834592762359,
+        "muzzle": [
+          1.471043597634865,
+          29.769342266773968,
+          11.584424460294713
+        ],
+        "direction": [
+          0.4603251963612393,
+          0.07845909572784489,
+          -0.8842764748044332
+        ],
+        "intersection": [
+          28.067872032195805,
+          34.302579040905925,
+          -39.50760759661535
+        ]
+      },
+      "search_ray_count": 74934,
+      "new_sampled_blocked_poses": 0,
+      "new_sampled_poses": 27797,
+      "new_ray_count": 250173,
+      "retained_solid_angle_fraction": 0.7751510512155697,
+      "random_between_grid_rays": 20000,
+      "random_blocked_rays": 0
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_3",
+      "old_mount_arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "mount_overrides": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 136.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "weapon_overrides": {
+        "yaw_firing_tolerance": 1.0,
+        "pitch_firing_tolerance": 1.0
+      },
+      "old_sampled_blocked_poses": 599,
+      "old_sampled_poses": 8326,
+      "old_ray_count": 74934,
+      "old_example": {
+        "yaw": 164.0,
+        "pitch": -13.0,
+        "direction_yaw_offset": -7.5,
+        "direction_pitch_offset": -7.5,
+        "distance_from_muzzle": 41.63441199451563,
+        "muzzle": [
+          25.56476965140884,
+          -9.544535398292311,
+          -2.2236232322650062
+        ],
+        "direction": [
+          0.17476364116243331,
+          -0.48125150456646243,
+          -0.8589846675466125
+        ],
+        "intersection": [
+          32.84095108922728,
+          -29.58115881239293,
+          -37.98694477787271
+        ]
+      },
+      "search_ray_count": 74934,
+      "new_sampled_blocked_poses": 0,
+      "new_sampled_poses": 25043,
+      "new_ray_count": 225387,
+      "retained_solid_angle_fraction": 0.7084165362935764,
+      "random_between_grid_rays": 20000,
+      "random_blocked_rays": 0
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_4",
+      "old_mount_arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "mount_overrides": {
+        "yaw_arc": {
+          "min_angle": -136.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "weapon_overrides": {
+        "yaw_firing_tolerance": 1.0,
+        "pitch_firing_tolerance": 1.0
+      },
+      "old_sampled_blocked_poses": 601,
+      "old_sampled_poses": 8326,
+      "old_ray_count": 74934,
+      "old_example": {
+        "yaw": -154.0,
+        "pitch": -13.0,
+        "direction_yaw_offset": -7.5,
+        "direction_pitch_offset": -7.5,
+        "distance_from_muzzle": 37.195379125599594,
+        "muzzle": [
+          -25.405295492573085,
+          -9.916641785498006,
+          -1.9870510694717114
+        ],
+        "direction": [
+          -0.20481444974724983,
+          -0.4111329480502835,
+          -0.8882683942380333
+        ],
+        "intersection": [
+          -33.02344660132311,
+          -25.208887659253744,
+          -35.026530758442924
+        ]
+      },
+      "search_ray_count": 74934,
+      "new_sampled_blocked_poses": 0,
+      "new_sampled_poses": 25043,
+      "new_ray_count": 225387,
+      "retained_solid_angle_fraction": 0.7084165362935764,
+      "random_between_grid_rays": 20000,
+      "random_blocked_rays": 0
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_5",
+      "old_mount_arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "mount_overrides": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "weapon_overrides": {
+        "yaw_firing_tolerance": 1.0,
+        "pitch_firing_tolerance": 1.0
+      },
+      "old_sampled_blocked_poses": 98,
+      "old_sampled_poses": 8326,
+      "old_ray_count": 74934,
+      "old_example": {
+        "yaw": 0.0,
+        "pitch": 3.0,
+        "direction_yaw_offset": -7.5,
+        "direction_pitch_offset": 0.0,
+        "distance_from_muzzle": 33.95818995512868,
+        "muzzle": [
+          32.40146732542965,
+          -32.550990997481016,
+          -75.90198499811324
+        ],
+        "direction": [
+          0.05516235446574034,
+          0.12917657817467598,
+          0.9900861206485412
+        ],
+        "intersection": [
+          34.2746810367494,
+          -28.16438821807184,
+          -42.280452441193624
+        ]
+      },
+      "search_ray_count": 74934,
+      "new_sampled_blocked_poses": 0,
+      "new_sampled_poses": 28519,
+      "new_ray_count": 256671,
+      "retained_solid_angle_fraction": 0.807056813499011,
+      "random_between_grid_rays": 20000,
+      "random_blocked_rays": 0
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_6",
+      "old_mount_arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "mount_overrides": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "weapon_overrides": {
+        "yaw_firing_tolerance": 1.0,
+        "pitch_firing_tolerance": 1.0
+      },
+      "old_sampled_blocked_poses": 98,
+      "old_sampled_poses": 8326,
+      "old_ray_count": 74934,
+      "old_example": {
+        "yaw": 0.0,
+        "pitch": 3.0,
+        "direction_yaw_offset": -7.5,
+        "direction_pitch_offset": 0.0,
+        "distance_from_muzzle": 34.067457956869326,
+        "muzzle": [
+          -32.550990997481016,
+          -32.40146732542966,
+          -75.90198499811324
+        ],
+        "direction": [
+          0.12917657817467598,
+          -0.05516235446574033,
+          0.9900861206485412
+        ],
+        "intersection": [
+          -28.150273351502996,
+          -34.28070851699319,
+          -42.17226770923921
+        ]
+      },
+      "search_ray_count": 74934,
+      "new_sampled_blocked_poses": 0,
+      "new_sampled_poses": 28519,
+      "new_ray_count": 256671,
+      "retained_solid_angle_fraction": 0.807056813499011,
+      "random_between_grid_rays": 20000,
+      "random_blocked_rays": 0
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_7",
+      "old_mount_arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "mount_overrides": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "weapon_overrides": {
+        "yaw_firing_tolerance": 1.0,
+        "pitch_firing_tolerance": 1.0
+      },
+      "old_sampled_blocked_poses": 98,
+      "old_sampled_poses": 8326,
+      "old_ray_count": 74934,
+      "old_example": {
+        "yaw": 0.0,
+        "pitch": 3.0,
+        "direction_yaw_offset": -7.5,
+        "direction_pitch_offset": 0.0,
+        "distance_from_muzzle": 33.95819188116468,
+        "muzzle": [
+          32.550990997481016,
+          32.40146732542966,
+          -75.90198499811324
+        ],
+        "direction": [
+          -0.12917657817467598,
+          0.05516235446574033,
+          0.9900861206485412
+        ],
+        "intersection": [
+          28.1643879692731,
+          34.27468114299409,
+          -42.28045053425211
+        ]
+      },
+      "search_ray_count": 74934,
+      "new_sampled_blocked_poses": 0,
+      "new_sampled_poses": 28519,
+      "new_ray_count": 256671,
+      "retained_solid_angle_fraction": 0.807056813499011,
+      "random_between_grid_rays": 20000,
+      "random_blocked_rays": 0
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_8",
+      "old_mount_arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "mount_overrides": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "weapon_overrides": {
+        "yaw_firing_tolerance": 1.0,
+        "pitch_firing_tolerance": 1.0
+      },
+      "old_sampled_blocked_poses": 97,
+      "old_sampled_poses": 8326,
+      "old_ray_count": 74934,
+      "old_example": {
+        "yaw": 0.0,
+        "pitch": 3.0,
+        "direction_yaw_offset": -7.5,
+        "direction_pitch_offset": 0.0,
+        "distance_from_muzzle": 34.06745795686928,
+        "muzzle": [
+          -32.40146732542965,
+          32.550990997481016,
+          -75.90198499811324
+        ],
+        "direction": [
+          -0.05516235446574034,
+          -0.12917657817467598,
+          0.9900861206485412
+        ],
+        "intersection": [
+          -34.28070851699318,
+          28.150273351503003,
+          -42.17226770923925
+        ]
+      },
+      "search_ray_count": 74934,
+      "new_sampled_blocked_poses": 0,
+      "new_sampled_poses": 28519,
+      "new_ray_count": 256671,
+      "retained_solid_angle_fraction": 0.807056813499011,
+      "random_between_grid_rays": 20000,
+      "random_blocked_rays": 0
+    }
+  ],
+  "independent_bvh_check": {
+    "rays": 64,
+    "blocked": 15,
+    "result": "PASS BVH equals independent brute-force NumPy nearest intersections"
+  },
+  "native_data_evidence": {
+    "file": "Sins2/entities/trader_antifighter_frigate.unit",
+    "port_mount": {
+      "position_x": -10.803879,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": [
+        -160,
+        10
+      ],
+      "pitch_arc": [
+        -70,
+        15
+      ]
+    },
+    "starboard_mount": {
+      "position_x": 10.778546,
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": [
+        -10,
+        160
+      ],
+      "pitch_arc": [
+        -70,
+        15
+      ]
+    },
+    "interpretation": "Port X-negative gun permits mostly negative yaw; starboard permits mostly positive yaw. Dorsal guns permit mostly negative pitch. This corroborates the matrix convention; engine source is not available."
+  }
+}

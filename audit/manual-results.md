@@ -213,3 +213,17 @@ New derivative package/hash: `audit/update13/package-summary.json`. No agent ins
 | U13-3 Razorback orientation, drive and movement | NOT RUN | |
 | U13-4 close/far PDC audio mix with one ship and fleet | NOT RUN | |
 | U13-5 save/reload and unchanged gameplay regression | NOT RUN | |
+
+## User observations following update 0.13
+
+USER OBSERVED: the Scirocco exterior appears transparent, Raptor/Pella still have visibly coarse hull and engine geometry, and their PDCs can fire through their own hull. The five supplied screenshots are hashed in `audit/update14/checkpoint.json`. The checkpoint finds `expanse_update13` enabled and an installed copy present. These observations establish defects in the tested configuration, not full passes for the earlier runtime gates. Installed settings changed through user testing since the previous checkpoint; existing recorded mod trees did not change. The 0.14 assignment preserves this new starting state.
+
+## Update 0.14 workstation results
+
+The agent does not install, enable or launch the candidate. Offline checks cannot establish engine firing-angle conventions, final visibility or performance.
+
+| Gate | Result | Observations |
+|---|---|---|
+| U14-1 load / Scirocco exterior / restored capital detail | NOT RUN | |
+| U14-2 Raptor/Pella PDC arcs and incoming torpedo coverage | NOT RUN | |
+| U14-3 save/reload and representative fleet performance | NOT RUN | |

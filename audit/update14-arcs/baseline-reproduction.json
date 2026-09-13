@@ -1,0 +1,940 @@
+{
+  "status": "OFFLINE REPRODUCTION: old arcs intersect own hull",
+  "entries": [
+    {
+      "identity": "expanse12_raptor",
+      "mesh_sha256": "86715fe41240f799856ecbc8768da744267ab58337b994fae1debeccf5edce36",
+      "repaired_json_sha256": "4a51363d9639413bfcd291dd47dd3b634b34a6ac28e65c31d9890e9508942a07",
+      "triangle_count": 88730,
+      "mounts": [
+        {
+          "weapon": "expanse12_raptor_pdc_0",
+          "actual_muzzle_center_direction_blocked_poses": 705,
+          "including_original_tolerance_blocked_poses": 1218,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": 92.0,
+            "pitch": -17.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 22.541480854109853,
+            "muzzle": [
+              20.396594124519964,
+              6.109332591639697,
+              43.13296717551635
+            ],
+            "direction": [
+              -0.0016289988607990184,
+              -0.9994415868187608,
+              -0.03337455467731794
+            ],
+            "intersection": [
+              20.3598740778879,
+              -16.41956080243657,
+              42.38065529024314
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 72.0,
+            "pitch": -9.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 24.79439418103929,
+            "muzzle": [
+              19.92031304948461,
+              6.269144140763952,
+              44.456283113067194
+            ],
+            "direction": [
+              0.0169424258515433,
+              -0.9106720224250436,
+              0.41278253569954465
+            ],
+            "intersection": [
+              20.340390234430803,
+              -16.310416952886833,
+              54.69097601425062
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_1",
+          "actual_muzzle_center_direction_blocked_poses": 699,
+          "including_original_tolerance_blocked_poses": 1211,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -158.0,
+            "pitch": -15.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 86.74182098422139,
+            "muzzle": [
+              -21.01373747436043,
+              8.533897875454453,
+              39.79290217901562
+            ],
+            "direction": [
+              -0.14095803642833343,
+              -0.42195722019402854,
+              -0.8955908308443074
+            ],
+            "intersection": [
+              -33.24069423651429,
+              -28.067439781615658,
+              -37.892277345191395
+            ]
+          },
+          "example_tolerance": {
+            "yaw": -108.0,
+            "pitch": -9.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 24.856878310148332,
+            "muzzle": [
+              -19.98248797335883,
+              6.471207348168934,
+              42.067295495999964
+            ],
+            "direction": [
+              -0.016942425782182895,
+              -0.9106720224263343,
+              -0.4127825356995443
+            ],
+            "intersection": [
+              -20.403623789305268,
+              -16.16525629373913,
+              31.806810237561933
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_2",
+          "actual_muzzle_center_direction_blocked_poses": 110,
+          "including_original_tolerance_blocked_poses": 404,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -158.0,
+            "pitch": -3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 65.68392220711551,
+            "muzzle": [
+              -1.373725833303751,
+              30.165893927106772,
+              11.673890013277886
+            ],
+            "direction": [
+              -0.37409320809892826,
+              0.052335956242943876,
+              -0.9259131813179833
+            ],
+            "intersection": [
+              -25.945635012284033,
+              33.6035248056033,
+              -49.14371935895537
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 160.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 58.13555596613705,
+            "muzzle": [
+              1.471043597634865,
+              29.769342266773968,
+              11.584424460294713
+            ],
+            "direction": [
+              0.4603251963612393,
+              0.07845909572784489,
+              -0.8842764748044332
+            ],
+            "intersection": [
+              28.23230481331672,
+              34.3306054175126,
+              -39.82348003023679
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_3",
+          "actual_muzzle_center_direction_blocked_poses": 216,
+          "including_original_tolerance_blocked_poses": 593,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": 156.0,
+            "pitch": -19.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 37.174198940004146,
+            "muzzle": [
+              25.73284063812439,
+              -10.090222202352269,
+              -1.9056224870068414
+            ],
+            "direction": [
+              0.1477520365807522,
+              -0.4817296621034494,
+              -0.8637741998554579
+            ],
+            "intersection": [
+              31.225404239768043,
+              -27.998136496686875,
+              -34.01573643167654
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 164.0,
+            "pitch": -13.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 41.67897756233926,
+            "muzzle": [
+              25.56476965140884,
+              -9.544535398292311,
+              -2.2236232322650062
+            ],
+            "direction": [
+              0.17476364116243331,
+              -0.48125150456646243,
+              -0.8589846675466125
+            ],
+            "intersection": [
+              32.84873953013061,
+              -29.60260605895991,
+              -38.02522591733372
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_4",
+          "actual_muzzle_center_direction_blocked_poses": 214,
+          "including_original_tolerance_blocked_poses": 597,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -160.0,
+            "pitch": -19.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 37.92494034404854,
+            "muzzle": [
+              -25.90884837293433,
+              -9.679537469307563,
+              -2.00071402099761
+            ],
+            "direction": [
+              -0.17185621463916045,
+              -0.4254865774367825,
+              -0.888496828306681
+            ],
+            "intersection": [
+              -32.42648506087849,
+              -25.816090535790927,
+              -35.69690323040482
+            ]
+          },
+          "example_tolerance": {
+            "yaw": -154.0,
+            "pitch": -13.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 37.210367078809696,
+            "muzzle": [
+              -25.405295492573085,
+              -9.916641785498006,
+              -1.9870510694717114
+            ],
+            "direction": [
+              -0.20481444974724983,
+              -0.4111329480502835,
+              -0.8882683942380333
+            ],
+            "intersection": [
+              -33.026516350712676,
+              -25.215049700642254,
+              -35.039844083573776
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_5",
+          "actual_muzzle_center_direction_blocked_poses": 16,
+          "including_original_tolerance_blocked_poses": 97,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -6.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.243633217660516,
+            "muzzle": [
+              32.69652373698813,
+              -32.25593457122758,
+              -75.92385322040779
+            ],
+            "direction": [
+              0.036804377981384896,
+              0.11081860077602154,
+              0.9931589376748557
+            ],
+            "intersection": [
+              33.95683935738681,
+              -28.461103052559146,
+              -41.91448283182867
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 0.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 33.95819100803575,
+            "muzzle": [
+              32.40146732542965,
+              -32.550990997481016,
+              -75.90198499811324
+            ],
+            "direction": [
+              0.05516235446574034,
+              0.12917657817467598,
+              0.9900861206485412
+            ],
+            "intersection": [
+              34.274681094830235,
+              -28.164388082060906,
+              -42.28045139872495
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_6",
+          "actual_muzzle_center_direction_blocked_poses": 16,
+          "including_original_tolerance_blocked_poses": 97,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -6.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.493436792476786,
+            "muzzle": [
+              -32.25593457122758,
+              -32.696523736988134,
+              -75.92385322040779
+            ],
+            "direction": [
+              0.11081860077602156,
+              -0.03680437798138489,
+              0.9931589376748557
+            ],
+            "intersection": [
+              -28.433420169929157,
+              -33.966033222575454,
+              -41.66638817883676
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 0.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.06745691593604,
+            "muzzle": [
+              -32.550990997481016,
+              -32.40146732542966,
+              -75.90198499811324
+            ],
+            "direction": [
+              0.12917657817467598,
+              -0.05516235446574033,
+              0.9900861206485412
+            ],
+            "intersection": [
+              -28.150273485967197,
+              -34.28070845957286,
+              -42.172268739852804
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_7",
+          "actual_muzzle_center_direction_blocked_poses": 16,
+          "including_original_tolerance_blocked_poses": 96,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -6.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.195113073610045,
+            "muzzle": [
+              32.25593457122758,
+              32.696523736988134,
+              -75.92385322040779
+            ],
+            "direction": [
+              -0.11081860077602156,
+              0.03680437798138489,
+              0.9931589376748557
+            ],
+            "intersection": [
+              28.46647998703227,
+              33.955053603665476,
+              -41.962671046549666
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 0.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 33.95819152486812,
+            "muzzle": [
+              32.550990997481016,
+              32.40146732542966,
+              -75.90198499811324
+            ],
+            "direction": [
+              -0.12917657817467598,
+              0.05516235446574033,
+              0.9900861206485412
+            ],
+            "intersection": [
+              28.16438801529827,
+              34.27468112333993,
+              -42.28045088701639
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_8",
+          "actual_muzzle_center_direction_blocked_poses": 16,
+          "including_original_tolerance_blocked_poses": 97,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -6.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.195112568714855,
+            "muzzle": [
+              -32.69652373698813,
+              32.25593457122758,
+              -75.92385322040779
+            ],
+            "direction": [
+              -0.036804377981384896,
+              -0.11081860077602154,
+              0.9931589376748557
+            ],
+            "intersection": [
+              -33.955053585083114,
+              28.46648004298405,
+              -41.96267154799084
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 2.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 35.320524179062225,
+            "muzzle": [
+              -32.30295520980541,
+              32.64950311801154,
+              -75.904416827705
+            ],
+            "direction": [
+              -0.030673188598895874,
+              -0.10468741108817532,
+              0.9940320424718873
+            ],
+            "intersection": [
+              -33.38634830936165,
+              28.951888883428214,
+              -40.794684036814104
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "identity": "expanse12_pella",
+      "mesh_sha256": "1e42ec95a626300ae1e07f18b52904aa23966e3273710bb144ef97cdc2ae0aac",
+      "repaired_json_sha256": "319d6544c75e489e80f17915563d8599e43c1d7ab22eeffb6734d6e6de8ff086",
+      "triangle_count": 89430,
+      "mounts": [
+        {
+          "weapon": "expanse12_pella_pdc_0",
+          "actual_muzzle_center_direction_blocked_poses": 705,
+          "including_original_tolerance_blocked_poses": 1218,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": 92.0,
+            "pitch": -17.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 22.541480854109853,
+            "muzzle": [
+              20.396594124519964,
+              6.109332591639697,
+              43.13296717551635
+            ],
+            "direction": [
+              -0.0016289988607990184,
+              -0.9994415868187608,
+              -0.03337455467731794
+            ],
+            "intersection": [
+              20.3598740778879,
+              -16.41956080243657,
+              42.38065529024314
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 72.0,
+            "pitch": -9.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 24.79439418103929,
+            "muzzle": [
+              19.92031304948461,
+              6.269144140763952,
+              44.456283113067194
+            ],
+            "direction": [
+              0.0169424258515433,
+              -0.9106720224250436,
+              0.41278253569954465
+            ],
+            "intersection": [
+              20.340390234430803,
+              -16.310416952886833,
+              54.69097601425062
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_pella_pdc_1",
+          "actual_muzzle_center_direction_blocked_poses": 699,
+          "including_original_tolerance_blocked_poses": 1211,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -158.0,
+            "pitch": -15.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 86.74182098422139,
+            "muzzle": [
+              -21.01373747436043,
+              8.533897875454453,
+              39.79290217901562
+            ],
+            "direction": [
+              -0.14095803642833343,
+              -0.42195722019402854,
+              -0.8955908308443074
+            ],
+            "intersection": [
+              -33.24069423651429,
+              -28.067439781615658,
+              -37.892277345191395
+            ]
+          },
+          "example_tolerance": {
+            "yaw": -108.0,
+            "pitch": -9.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 24.856878310148332,
+            "muzzle": [
+              -19.98248797335883,
+              6.471207348168934,
+              42.067295495999964
+            ],
+            "direction": [
+              -0.016942425782182895,
+              -0.9106720224263343,
+              -0.4127825356995443
+            ],
+            "intersection": [
+              -20.403623789305268,
+              -16.16525629373913,
+              31.806810237561933
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_pella_pdc_2",
+          "actual_muzzle_center_direction_blocked_poses": 110,
+          "including_original_tolerance_blocked_poses": 404,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -158.0,
+            "pitch": -3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 65.68392220711551,
+            "muzzle": [
+              -1.373725833303751,
+              30.165893927106772,
+              11.673890013277886
+            ],
+            "direction": [
+              -0.37409320809892826,
+              0.052335956242943876,
+              -0.9259131813179833
+            ],
+            "intersection": [
+              -25.945635012284033,
+              33.6035248056033,
+              -49.14371935895537
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 160.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 58.13555596613705,
+            "muzzle": [
+              1.471043597634865,
+              29.769342266773968,
+              11.584424460294713
+            ],
+            "direction": [
+              0.4603251963612393,
+              0.07845909572784489,
+              -0.8842764748044332
+            ],
+            "intersection": [
+              28.23230481331672,
+              34.3306054175126,
+              -39.82348003023679
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_pella_pdc_3",
+          "actual_muzzle_center_direction_blocked_poses": 216,
+          "including_original_tolerance_blocked_poses": 593,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": 156.0,
+            "pitch": -19.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 37.174198940004146,
+            "muzzle": [
+              25.73284063812439,
+              -10.090222202352269,
+              -1.9056224870068414
+            ],
+            "direction": [
+              0.1477520365807522,
+              -0.4817296621034494,
+              -0.8637741998554579
+            ],
+            "intersection": [
+              31.225404239768043,
+              -27.998136496686875,
+              -34.01573643167654
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 164.0,
+            "pitch": -13.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 41.67897756233926,
+            "muzzle": [
+              25.56476965140884,
+              -9.544535398292311,
+              -2.2236232322650062
+            ],
+            "direction": [
+              0.17476364116243331,
+              -0.48125150456646243,
+              -0.8589846675466125
+            ],
+            "intersection": [
+              32.84873953013061,
+              -29.60260605895991,
+              -38.02522591733372
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_pella_pdc_4",
+          "actual_muzzle_center_direction_blocked_poses": 214,
+          "including_original_tolerance_blocked_poses": 597,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -160.0,
+            "pitch": -19.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 37.92494034404854,
+            "muzzle": [
+              -25.90884837293433,
+              -9.679537469307563,
+              -2.00071402099761
+            ],
+            "direction": [
+              -0.17185621463916045,
+              -0.4254865774367825,
+              -0.888496828306681
+            ],
+            "intersection": [
+              -32.42648506087849,
+              -25.816090535790927,
+              -35.69690323040482
+            ]
+          },
+          "example_tolerance": {
+            "yaw": -154.0,
+            "pitch": -13.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": -7.5,
+            "distance_from_muzzle": 37.210367078809696,
+            "muzzle": [
+              -25.405295492573085,
+              -9.916641785498006,
+              -1.9870510694717114
+            ],
+            "direction": [
+              -0.20481444974724983,
+              -0.4111329480502835,
+              -0.8882683942380333
+            ],
+            "intersection": [
+              -33.026516350712676,
+              -25.215049700642254,
+              -35.039844083573776
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_pella_pdc_5",
+          "actual_muzzle_center_direction_blocked_poses": 16,
+          "including_original_tolerance_blocked_poses": 97,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -6.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.243633217660516,
+            "muzzle": [
+              32.69652373698813,
+              -32.25593457122758,
+              -75.92385322040779
+            ],
+            "direction": [
+              0.036804377981384896,
+              0.11081860077602154,
+              0.9931589376748557
+            ],
+            "intersection": [
+              33.95683935738681,
+              -28.461103052559146,
+              -41.91448283182867
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 0.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 33.95819100803575,
+            "muzzle": [
+              32.40146732542965,
+              -32.550990997481016,
+              -75.90198499811324
+            ],
+            "direction": [
+              0.05516235446574034,
+              0.12917657817467598,
+              0.9900861206485412
+            ],
+            "intersection": [
+              34.274681094830235,
+              -28.164388082060906,
+              -42.28045139872495
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_pella_pdc_6",
+          "actual_muzzle_center_direction_blocked_poses": 16,
+          "including_original_tolerance_blocked_poses": 97,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -6.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.493436792476786,
+            "muzzle": [
+              -32.25593457122758,
+              -32.696523736988134,
+              -75.92385322040779
+            ],
+            "direction": [
+              0.11081860077602156,
+              -0.03680437798138489,
+              0.9931589376748557
+            ],
+            "intersection": [
+              -28.433420169929157,
+              -33.966033222575454,
+              -41.66638817883676
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 0.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.06745691593604,
+            "muzzle": [
+              -32.550990997481016,
+              -32.40146732542966,
+              -75.90198499811324
+            ],
+            "direction": [
+              0.12917657817467598,
+              -0.05516235446574033,
+              0.9900861206485412
+            ],
+            "intersection": [
+              -28.150273485967197,
+              -34.28070845957286,
+              -42.172268739852804
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_pella_pdc_7",
+          "actual_muzzle_center_direction_blocked_poses": 16,
+          "including_original_tolerance_blocked_poses": 96,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -6.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.195113073610045,
+            "muzzle": [
+              32.25593457122758,
+              32.696523736988134,
+              -75.92385322040779
+            ],
+            "direction": [
+              -0.11081860077602156,
+              0.03680437798138489,
+              0.9931589376748557
+            ],
+            "intersection": [
+              28.46647998703227,
+              33.955053603665476,
+              -41.962671046549666
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 0.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 33.95819152486812,
+            "muzzle": [
+              32.550990997481016,
+              32.40146732542966,
+              -75.90198499811324
+            ],
+            "direction": [
+              -0.12917657817467598,
+              0.05516235446574033,
+              0.9900861206485412
+            ],
+            "intersection": [
+              28.16438801529827,
+              34.27468112333993,
+              -42.28045088701639
+            ]
+          }
+        },
+        {
+          "weapon": "expanse12_pella_pdc_8",
+          "actual_muzzle_center_direction_blocked_poses": 16,
+          "including_original_tolerance_blocked_poses": 97,
+          "poses": 8326,
+          "total_rays": 83260,
+          "example_centerline": {
+            "yaw": -6.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": 0.0,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 34.195112568714855,
+            "muzzle": [
+              -32.69652373698813,
+              32.25593457122758,
+              -75.92385322040779
+            ],
+            "direction": [
+              -0.036804377981384896,
+              -0.11081860077602154,
+              0.9931589376748557
+            ],
+            "intersection": [
+              -33.955053585083114,
+              28.46648004298405,
+              -41.96267154799084
+            ]
+          },
+          "example_tolerance": {
+            "yaw": 2.0,
+            "pitch": 3.0,
+            "direction_yaw_offset": -7.5,
+            "direction_pitch_offset": 0.0,
+            "distance_from_muzzle": 35.320524179062225,
+            "muzzle": [
+              -32.30295520980541,
+              32.64950311801154,
+              -75.904416827705
+            ],
+            "direction": [
+              -0.030673188598895874,
+              -0.10468741108817532,
+              0.9940320424718873
+            ],
+            "intersection": [
+              -33.38634830936165,
+              28.951888883428214,
+              -40.794684036814104
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "runtime": "NOT RUN"
+}

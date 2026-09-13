@@ -1,0 +1,31 @@
+{
+  "status": "PASS offline source preparation; compiled validation pending",
+  "reference": "/tmp/codex-clipboard-3fac540f-2f08-44e8-a6b3-a3e204fac1a9.png",
+  "placement_reference": "/tmp/codex-clipboard-872e1a76-e69c-4245-867e-02fb6414a1d3.png",
+  "generated_with": "Built-in image_gen, two passes; cleaned eagle silhouette then opaque charcoal panel texture",
+  "source": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/assets/derived/update14-hulls/pella/texture-sources/expanse12_pella_free_navy_clr.png",
+  "sha256": "2e2a15ad743fd3942b150d713bdf3b487445b601da55e171bd83492fe0edcfa2",
+  "prompt": "Preserve reference Free Navy eagle silhouette, pale gray paint on charcoal background, clean edges, no text or border.",
+  "placement": {
+    "old_triangles": 266307,
+    "new_triangles": 267387,
+    "paint_triangles": 1582,
+    "selected_source_faces": 1296,
+    "bounds": {
+      "x": [
+        -9,
+        9
+      ],
+      "z": [
+        54,
+        72
+      ],
+      "y_min": 18
+    },
+    "added_geometry_layers": 0,
+    "method": "Clip original triangles along paint boundary and replace material/UV, preserving all positions on existing plating",
+    "texture_source": "/run/media/haker/NVME 2/expanse-workers/visual14-hulls/assets/derived/update14-hulls/pella/texture-sources/expanse12_pella_free_navy_clr.png"
+  },
+  "runtime": "NOT RUN",
+  "limitations": "Reference-guided recreation and prototype fore dorsal panel placement, not exact screen UV authoring."
+}
