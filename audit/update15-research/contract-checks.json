@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "checked_change_contracts": 34,
+  "tests": [
+    "13 original node costs/times/tiers/fields/prerequisites/windfalls preserved",
+    "Every torpedo value at level0 exactly preserved",
+    "Level1 changes only actual impact damage by5%; timing/count/lifetime/health descriptors identical",
+    "Ability changes restricted to research-level source + two-level prerequisite list",
+    "Synthetic new Truman program dynamically discovered,375\u2192393.75,correctUNNentitybinding",
+    "Unknown existing level semantics rejected"
+  ],
+  "runtime_status": "NOT RUN"
+}

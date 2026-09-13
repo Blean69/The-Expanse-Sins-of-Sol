@@ -1,0 +1,356 @@
+{
+  "status": "PASS",
+  "pinned_brush_schema_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/assets/derived/update15-truman/expanse15_truman_editable.gltf": "4c4c5a127a1af7113d434a7e63b2b381875c269c09b4d46ce8b02e307a5dfa18",
+    "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/assets/derived/update15-truman/expanse15_truman_editable.bin": "ad46645d8974869a8f4c98743ca0df8bc5b48ca77a34d55f59aebe240b40a188",
+    "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/assets/derived/update15-truman/texture-sources/expanse15_truman_material_clr.png": "e9ecdb7d6423e73f908c4796ecef0f98f4b6e7d4c104e7339ecf51061d57ba27",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update14/textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a"
+  },
+  "triangles": 306774,
+  "brush_schema_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/brushes/expanse15_truman_hud_icon.brush",
+      "status": "PASS",
+      "texture": "expanse15_truman_hud_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/brushes/expanse15_truman_hud_picture.brush",
+      "status": "PASS",
+      "texture": "expanse15_truman_hud_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/brushes/expanse15_truman_tooltip_picture.brush",
+      "status": "PASS",
+      "texture": "expanse15_truman_tooltip_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/brushes/expanse15_truman_main_view_icon.brush",
+      "status": "PASS",
+      "texture": "expanse15_truman_main_view_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/brushes/expanse15_truman_main_view_icon_selected.brush",
+      "status": "PASS",
+      "texture": "expanse15_truman_main_view_icon_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/brushes/expanse15_truman_main_view_icon_sub_selected.brush",
+      "status": "PASS",
+      "texture": "expanse15_truman_main_view_icon_sub_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    }
+  ],
+  "png_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_hud_icon.png",
+      "sha256": "ad5fdf6190eaf820d4922dc3348a9e48c2cc506af53cc58f914c9ee3efff9a94",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_hud_icon150.png",
+      "sha256": "5a98522b3add6a779ca635e1567042b4c8212d43b0ca8d38da14255e2b27aeb9",
+      "dimensions": [
+        128,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_hud_icon200.png",
+      "sha256": "74f67ae1b8b9511dc9e2e3fca812ad584f5d65694a916f8b4563ce0ac14ec878",
+      "dimensions": [
+        170,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_hud_picture.png",
+      "sha256": "b7065234063e41fd24727f0bdd77d520f17909a8d84431050e7765247c616e4b",
+      "dimensions": [
+        265,
+        85
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_hud_picture150.png",
+      "sha256": "4a3d9020603e0d22dc3a3423cdd7100c3fbfc6bd84ad8ccc2c241451443d4dfe",
+      "dimensions": [
+        397,
+        127
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_hud_picture200.png",
+      "sha256": "3e2fe91cd98bce315d74a43819fc9ac3282bbd9172bc1bc0ec0536e93878ef7b",
+      "dimensions": [
+        530,
+        170
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_tooltip_picture.png",
+      "sha256": "593ec571970f08639c87a410ce7001fdadec72ff0d8e98ea4f39eb80294e1973",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_tooltip_picture150.png",
+      "sha256": "52b44809487d71f2034eeb7601332c52355a1cc8d94d8cc71b69bbd74aba1fbc",
+      "dimensions": [
+        689,
+        324
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_tooltip_picture200.png",
+      "sha256": "43fa3a06929b90b15456e6f71ad375ef4f74da93d534303b00bc7027749822a8",
+      "dimensions": [
+        918,
+        432
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_main_view_icon.png",
+      "sha256": "215cc818af2921735a3da5e27684058df64f273bae5378b436d2b67bb91f55c0",
+      "dimensions": [
+        25,
+        12
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_main_view_icon150.png",
+      "sha256": "f992f8c19751523bea1b863f0c6d0a82ec7d6dc1f2299e82fd9ff8f22e362854",
+      "dimensions": [
+        38,
+        18
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_main_view_icon200.png",
+      "sha256": "1ea55876fc95b7603cfa55a24ddd6612052223ed9f77317aa204baef480b7de2",
+      "dimensions": [
+        50,
+        24
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_main_view_icon_selected.png",
+      "sha256": "1eef8b74e13d15bf13e78398920c6be9e34e00f19b7c51d9df4a3433dd6945cd",
+      "dimensions": [
+        36,
+        23
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_main_view_icon_selected150.png",
+      "sha256": "53c18b8eb7be0a552f9391aed2225448f4e542898de850fba17eef8af00f8d28",
+      "dimensions": [
+        54,
+        35
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_main_view_icon_selected200.png",
+      "sha256": "2822e0754578508590826d5237e372063e6e91c4af8a1a491c2bfc981dc15a47",
+      "dimensions": [
+        72,
+        46
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_main_view_icon_sub_selected.png",
+      "sha256": "d6746d03bd4cb7ad950d37b40d67672237559e1f7c7d733598a10278ce06ad2a",
+      "dimensions": [
+        46,
+        33
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_main_view_icon_sub_selected150.png",
+      "sha256": "a90d47ee25d9d29c5457b29f5ae86ead8a34482cb40a78e4c1e5125d7d8f92b3",
+      "dimensions": [
+        69,
+        50
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/textures/expanse15_truman_main_view_icon_sub_selected200.png",
+      "sha256": "a6f0e4c3bf1f7af20a1256005b3ffd236168497d8da66f8f0a170e1aeb5dc52c",
+      "dimensions": [
+        92,
+        66
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/expanse15_truman_mod_small_logo.png",
+      "sha256": "faa731823c4748ba03cb6a176b814a1b8499b79585aa81641d9040dca90fe1ff",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_small_logo.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/ui-final/generated/expanse15_truman_mod_large_logo.png",
+      "sha256": "386426075184fd6dd3712c3b20fc1afe3fde7bdb2363a259f198f0ef91b8b1dc",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_large_logo.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

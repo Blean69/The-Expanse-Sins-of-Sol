@@ -1,0 +1,3016 @@
+{
+  "status": "PASS OFFLINE MESH, MATERIAL, MOUNTS, ORIENTATION AND SAMPLED FIRING RAYS",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/build/update15-truman/game",
+  "hull_mesh": "expanse15_truman_hull",
+  "rigs": [
+    {
+      "index": 0,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_0",
+        "mesh_point": "child.expanse15_truman_pdc_0",
+        "weapon_position": [
+          120.1109175011353,
+          69.34607055189338,
+          -260.0
+        ],
+        "up": [
+          0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -35.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          -0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        120.1109175011353,
+        69.34607055189338,
+        -260.0
+      ],
+      "pitch_pivot_hull": [
+        123.09102132385912,
+        71.06663429615601,
+        -259.5317298994896
+      ],
+      "muzzle_hull": [
+        123.97289375768798,
+        71.57578033481172,
+        -250.06042926795038
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        114.91476507842867,
+        66.34607055189338,
+        -260.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 1,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_1",
+        "mesh_point": "child.expanse15_truman_pdc_1",
+        "weapon_position": [
+          8.492444621825011e-15,
+          138.69214581278098,
+          -260.0
+        ],
+        "up": [
+          6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -35.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        8.492444621825011e-15,
+        138.69214581278098,
+        -260.0
+      ],
+      "pitch_pivot_hull": [
+        8.703152910039033e-15,
+        142.13327330130625,
+        -259.5317298994896
+      ],
+      "muzzle_hull": [
+        2.8132023743875713e-06,
+        143.1515702512271,
+        -250.06042926795038
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        8.125050582080806e-15,
+        132.69214581278098,
+        -260.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 2,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_2",
+        "mesh_point": "child.expanse15_truman_pdc_2",
+        "weapon_position": [
+          -120.11091750113536,
+          69.3460705518934,
+          -260.0
+        ],
+        "up": [
+          -0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -35.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.49999999999999994,
+          -0.8660254037844387,
+          0.0
+        ],
+        [
+          0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -120.11091750113536,
+        69.3460705518934,
+        -260.0
+      ],
+      "pitch_pivot_hull": [
+        -123.09102132385918,
+        71.06663429615604,
+        -259.5317298994896
+      ],
+      "muzzle_hull": [
+        -123.97289094448567,
+        71.57578520742118,
+        -250.06042926795038
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -114.91476507842873,
+        66.3460705518934,
+        -260.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 3,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_3",
+        "mesh_point": "child.expanse15_truman_pdc_3",
+        "weapon_position": [
+          -120.11092399339782,
+          -69.34607430020293,
+          -260.0
+        ],
+        "up": [
+          -0.8660254037844386,
+          -0.5000000000000001,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -35.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.5000000000000001,
+          -0.8660254037844386,
+          0.0
+        ],
+        [
+          0.8660254037844386,
+          -0.5000000000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -120.11092399339782,
+        -69.34607430020293,
+        -260.0
+      ],
+      "pitch_pivot_hull": [
+        -123.09102781612164,
+        -71.06663804446556,
+        -259.5317298994896
+      ],
+      "muzzle_hull": [
+        -123.9729002499505,
+        -71.57578408312128,
+        -250.06042926795038
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -114.91477157069119,
+        -66.34607430020293,
+        -260.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 4,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_4",
+        "mesh_point": "child.expanse15_truman_pdc_4",
+        "weapon_position": [
+          -2.3763615919809017e-14,
+          -129.363099827935,
+          -260.0
+        ],
+        "up": [
+          -1.8369701987210297e-16,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -65.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          -1.8369701987210297e-16,
+          0.0
+        ],
+        [
+          1.8369701987210297e-16,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -2.3763615919809017e-14,
+        -129.363099827935,
+        -260.0
+      ],
+      "pitch_pivot_hull": [
+        -2.439574078445108e-14,
+        -132.80422731646027,
+        -259.5317298994896
+      ],
+      "muzzle_hull": [
+        -2.8132023902048647e-06,
+        -133.82252426638112,
+        -250.06042926795038
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -1.3407610631281261e-14,
+        -72.98763279130037,
+        -260.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 5,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_5",
+        "mesh_point": "child.expanse15_truman_pdc_5",
+        "weapon_position": [
+          120.1109239933977,
+          -69.3460743002029,
+          -260.0
+        ],
+        "up": [
+          0.8660254037844384,
+          -0.5000000000000004,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -35.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.5000000000000004,
+          0.8660254037844384,
+          0.0
+        ],
+        [
+          -0.8660254037844384,
+          -0.5000000000000004,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        120.1109239933977,
+        -69.3460743002029,
+        -260.0
+      ],
+      "pitch_pivot_hull": [
+        123.09102781612152,
+        -71.06663804446553,
+        -259.5317298994896
+      ],
+      "muzzle_hull": [
+        123.97289743674801,
+        -71.57578895573067,
+        -250.06042926795038
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        114.91477157069107,
+        -66.3460743002029,
+        -260.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 6,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_6",
+        "mesh_point": "child.expanse15_truman_pdc_6",
+        "weapon_position": [
+          67.22521630920635,
+          38.8124967324511,
+          65.0
+        ],
+        "up": [
+          0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -170.0,
+          "max_angle": 86.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -19.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          -0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        67.22521630920635,
+        38.8124967324511,
+        65.0
+      ],
+      "pitch_pivot_hull": [
+        70.20532013193016,
+        40.533060476713736,
+        65.46827010051037
+      ],
+      "muzzle_hull": [
+        71.08719256575903,
+        41.04220651536944,
+        74.93957073204962
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        60.396207015602386,
+        34.8697663784904,
+        65.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 7,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_7",
+        "mesh_point": "child.expanse15_truman_pdc_7",
+        "weapon_position": [
+          4.219681853698114e-15,
+          68.912634347079,
+          65.0
+        ],
+        "up": [
+          6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -158.0,
+          "max_angle": 158.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -15.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        4.219681853698114e-15,
+        68.912634347079,
+        65.0
+      ],
+      "pitch_pivot_hull": [
+        4.4303901419121355e-15,
+        72.35376183560427,
+        65.46827010051037
+      ],
+      "muzzle_hull": [
+        2.8132023701148085e-06,
+        73.37205878552513,
+        74.93957073204962
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        3.712021569438998e-15,
+        60.62191273473218,
+        65.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 8,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_8",
+        "mesh_point": "child.expanse15_truman_pdc_8",
+        "weapon_position": [
+          -67.2252163092064,
+          38.81249673245113,
+          65.0
+        ],
+        "up": [
+          -0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -86.0,
+          "max_angle": 170.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -19.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.49999999999999994,
+          -0.8660254037844387,
+          0.0
+        ],
+        [
+          0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -67.2252163092064,
+        38.81249673245113,
+        65.0
+      ],
+      "pitch_pivot_hull": [
+        -70.20532013193022,
+        40.533060476713764,
+        65.46827010051037
+      ],
+      "muzzle_hull": [
+        -71.08718975255671,
+        41.0422113879789,
+        74.93957073204962
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -60.396207015602386,
+        34.8697663784904,
+        65.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 9,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_9",
+        "mesh_point": "child.expanse15_truman_pdc_9",
+        "weapon_position": [
+          -67.2252835968568,
+          -38.812535580994215,
+          65.0
+        ],
+        "up": [
+          -0.8660254037844386,
+          -0.5000000000000001,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -170.0,
+          "max_angle": 86.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -19.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.5000000000000001,
+          -0.8660254037844386,
+          0.0
+        ],
+        [
+          0.8660254037844386,
+          -0.5000000000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -67.2252835968568,
+        -38.812535580994215,
+        65.0
+      ],
+      "pitch_pivot_hull": [
+        -70.20538741958062,
+        -40.53309932525685,
+        65.46827010051037
+      ],
+      "muzzle_hull": [
+        -71.08725985340948,
+        -41.04224536391256,
+        74.93957073204962
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -60.39620701560236,
+        -34.8697663784904,
+        65.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 10,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_10",
+        "mesh_point": "child.expanse15_truman_pdc_10",
+        "weapon_position": [
+          -1.2659048732810564e-14,
+          -68.91265161309794,
+          65.0
+        ],
+        "up": [
+          -1.8369701987210297e-16,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -150.0,
+          "max_angle": 150.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -11.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          -1.8369701987210297e-16,
+          0.0
+        ],
+        [
+          1.8369701987210297e-16,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -1.2659048732810564e-14,
+        -68.91265161309794,
+        65.0
+      ],
+      "pitch_pivot_hull": [
+        -1.3291173597452629e-14,
+        -72.3537791016232,
+        65.46827010051037
+      ],
+      "muzzle_hull": [
+        -2.8132023791002975e-06,
+        -73.37207605154406,
+        74.93957073204962
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -1.1556866613577943e-14,
+        -62.91265161309792,
+        65.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 11,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_11",
+        "mesh_point": "child.expanse15_truman_pdc_11",
+        "weapon_position": [
+          67.22528359685676,
+          -38.81253558099422,
+          65.0
+        ],
+        "up": [
+          0.8660254037844384,
+          -0.5000000000000004,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -86.0,
+          "max_angle": 170.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -19.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.5000000000000004,
+          0.8660254037844384,
+          0.0
+        ],
+        [
+          -0.8660254037844384,
+          -0.5000000000000004,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        67.22528359685676,
+        -38.81253558099422,
+        65.0
+      ],
+      "pitch_pivot_hull": [
+        70.20538741958057,
+        -40.533099325256856,
+        65.46827010051037
+      ],
+      "muzzle_hull": [
+        71.08725704020706,
+        -41.042250236522,
+        74.93957073204962
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        60.396207015602414,
+        -34.86976637849045,
+        65.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 12,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_12",
+        "mesh_point": "child.expanse15_truman_pdc_12",
+        "weapon_position": [
+          126.95518172385249,
+          73.29760834328407,
+          365.0
+        ],
+        "up": [
+          0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.49999999999999994,
+          0.8660254037844387,
+          0.0
+        ],
+        [
+          -0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        126.95518172385249,
+        73.29760834328407,
+        365.0
+      ],
+      "pitch_pivot_hull": [
+        129.93528554657632,
+        75.0181720875467,
+        365.4682701005104
+      ],
+      "muzzle_hull": [
+        130.81715798040517,
+        75.52731812620242,
+        374.9395707320496
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        119.01742272330509,
+        68.71474104755565,
+        365.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 13,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_13",
+        "mesh_point": "child.expanse15_truman_pdc_13",
+        "weapon_position": [
+          5.544197967586541e-15,
+          90.54362403015509,
+          365.0
+        ],
+        "up": [
+          6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -170.0,
+          "max_angle": 170.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        5.544197967586541e-15,
+        90.54362403015509,
+        365.0
+      ],
+      "pitch_pivot_hull": [
+        5.754906255800562e-15,
+        93.98475151868035,
+        365.4682701005104
+      ],
+      "muzzle_hull": [
+        2.8132023714393245e-06,
+        95.00304846860121,
+        374.9395707320496
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        5.167235917102701e-15,
+        84.38736655663217,
+        365.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 14,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_14",
+        "mesh_point": "child.expanse15_truman_pdc_14",
+        "weapon_position": [
+          -126.95518172385252,
+          73.29760834328408,
+          365.0
+        ],
+        "up": [
+          -0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.49999999999999994,
+          -0.8660254037844387,
+          0.0
+        ],
+        [
+          0.8660254037844387,
+          0.49999999999999994,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -126.95518172385252,
+        73.29760834328408,
+        365.0
+      ],
+      "pitch_pivot_hull": [
+        -129.93528554657635,
+        75.01817208754672,
+        365.4682701005104
+      ],
+      "muzzle_hull": [
+        -130.81715516720283,
+        75.52732299881185,
+        374.9395707320496
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -119.01742272330506,
+        68.71474104755563,
+        365.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 15,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_15",
+        "mesh_point": "child.expanse15_truman_pdc_15",
+        "weapon_position": [
+          -126.9552490115028,
+          -73.29764719182712,
+          365.0
+        ],
+        "up": [
+          -0.8660254037844386,
+          -0.5000000000000001,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.5000000000000001,
+          -0.8660254037844386,
+          0.0
+        ],
+        [
+          0.8660254037844386,
+          -0.5000000000000001,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -126.9552490115028,
+        -73.29764719182712,
+        365.0
+      ],
+      "pitch_pivot_hull": [
+        -129.93535283422662,
+        -75.01821093608976,
+        365.4682701005104
+      ],
+      "muzzle_hull": [
+        -130.81722526805547,
+        -75.52735697474547,
+        374.9395707320496
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -119.01746281557541,
+        -68.71476419483875,
+        365.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 16,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_16",
+        "mesh_point": "child.expanse15_truman_pdc_16",
+        "weapon_position": [
+          -1.717935655492754e-14,
+          -93.52006127746915,
+          365.0
+        ],
+        "up": [
+          -1.8369701987210297e-16,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -170.0,
+          "max_angle": 170.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          -1.8369701987210297e-16,
+          0.0
+        ],
+        [
+          1.8369701987210297e-16,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -1.717935655492754e-14,
+        -93.52006127746915,
+        365.0
+      ],
+      "pitch_pivot_hull": [
+        -1.7811481419569604e-14,
+        -96.96118876599442,
+        365.4682701005104
+      ],
+      "muzzle_hull": [
+        -2.8132023836206052e-06,
+        -97.97948571591527,
+        374.9395707320496
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -1.6077174435694924e-14,
+        -87.52006127746915,
+        365.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 17,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse15_truman_pdc_17",
+        "mesh_point": "child.expanse15_truman_pdc_17",
+        "weapon_position": [
+          126.95524901150276,
+          -73.29764719182714,
+          365.0
+        ],
+        "up": [
+          0.8660254037844384,
+          -0.5000000000000004,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.5000000000000004,
+          0.8660254037844384,
+          0.0
+        ],
+        [
+          -0.8660254037844384,
+          -0.5000000000000004,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        126.95524901150276,
+        -73.29764719182714,
+        365.0
+      ],
+      "pitch_pivot_hull": [
+        129.9353528342266,
+        -75.01821093608977,
+        365.4682701005104
+      ],
+      "muzzle_hull": [
+        130.81722245485307,
+        -75.52736184735491,
+        374.9395707320496
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse15_truman_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        119.01746281557541,
+        -68.71476419483879,
+        365.0
+      ],
+      "source": "Derivative retrofit measured from actual hull; battery representation, not42individualsourcePDCidentifications"
+    },
+    {
+      "index": 18,
+      "kind": "rail",
+      "mount": {
+        "weapon": "expanse15_truman_rail_0",
+        "mesh_point": "child.expanse15_truman_rail_0",
+        "weapon_position": [
+          0.0,
+          126.0,
+          -81.1756
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -12.0,
+          "max_angle": 12.0
+        },
+        "pitch_arc": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        }
+      },
+      "basis_columns": [
+        [
+          1,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        126.0,
+        -81.1756
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        126.0,
+        -81.1756
+      ],
+      "muzzle_hull": [
+        11.0,
+        135.0,
+        24.224400000000003
+      ],
+      "turret_override": {
+        "type": "gimbal",
+        "gimbal_mesh": "expanse15_truman_rail_0",
+        "muzzle_positions": [
+          [
+            11,
+            9,
+            105.4
+          ],
+          [
+            -11,
+            9,
+            105.4
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_rail_0",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_rail_0",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_components": [
+        2110,
+        2259,
+        2940,
+        2222,
+        2610,
+        2242,
+        2950,
+        2467,
+        3094,
+        2335,
+        2879,
+        2196,
+        2632,
+        2633,
+        2634,
+        2635,
+        2636,
+        2637,
+        2638,
+        2639,
+        2640,
+        2641,
+        2642,
+        2643,
+        2644,
+        2645,
+        2646,
+        2647,
+        2648,
+        2649,
+        2706,
+        2825,
+        2860,
+        2861,
+        2862,
+        2863,
+        2864,
+        2865,
+        2866,
+        2867,
+        2868,
+        2869,
+        2870,
+        2871,
+        2872,
+        2873,
+        2874,
+        2875,
+        2876,
+        2877,
+        3332,
+        2087,
+        2244,
+        2246,
+        2519,
+        2564,
+        2621,
+        2890,
+        2896,
+        2936,
+        3096,
+        3277,
+        3457
+      ]
+    },
+    {
+      "index": 19,
+      "kind": "rail",
+      "mount": {
+        "weapon": "expanse15_truman_rail_1",
+        "mesh_point": "child.expanse15_truman_rail_1",
+        "weapon_position": [
+          0.0,
+          -126.0,
+          -81.1756
+        ],
+        "up": [
+          0,
+          -1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -12.0,
+          "max_angle": 12.0
+        },
+        "pitch_arc": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1,
+          0,
+          0
+        ],
+        [
+          0,
+          -1,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        -126.0,
+        -81.1756
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        -126.0,
+        -81.1756
+      ],
+      "muzzle_hull": [
+        -11.0,
+        -135.0,
+        24.224400000000003
+      ],
+      "turret_override": {
+        "type": "gimbal",
+        "gimbal_mesh": "expanse15_truman_rail_1",
+        "muzzle_positions": [
+          [
+            11,
+            9,
+            105.4
+          ],
+          [
+            -11,
+            9,
+            105.4
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse15_truman_rail_1",
+          "mesh_definition": {
+            "mesh": "expanse15_truman_rail_1",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_components": [
+        2109,
+        2258,
+        2939,
+        2221,
+        2609,
+        2241,
+        2949,
+        2468,
+        3093,
+        2334,
+        2878,
+        2197,
+        2650,
+        2651,
+        2652,
+        2653,
+        2654,
+        2655,
+        2656,
+        2657,
+        2658,
+        2659,
+        2660,
+        2661,
+        2662,
+        2663,
+        2664,
+        2665,
+        2666,
+        2667,
+        2707,
+        2824,
+        2842,
+        2843,
+        2844,
+        2845,
+        2846,
+        2847,
+        2848,
+        2849,
+        2850,
+        2851,
+        2852,
+        2853,
+        2854,
+        2855,
+        2856,
+        2857,
+        2858,
+        2859,
+        3331,
+        2086,
+        2243,
+        2247,
+        2520,
+        2563,
+        2620,
+        2889,
+        2895,
+        2935,
+        3095,
+        3276,
+        3456
+      ]
+    }
+  ],
+  "ship_spatial": {
+    "box": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extents": [
+        150.13950135295792,
+        154.30450546116836,
+        429.13043478260875
+      ]
+    },
+    "radius": 447.6737100205802,
+    "bounds_min": [
+      -150.13950135295792,
+      -154.30450546116836,
+      -429.13043478260875
+    ],
+    "bounds_max": [
+      150.13950135295792,
+      154.30450546116836,
+      429.13043478260875
+    ]
+  },
+  "equipment": {
+    "light_torpedo_ports": [
+      {
+        "position": [
+          -35.0,
+          0.0,
+          419.0167731674959
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "measured_surface": [
+          -35.0,
+          0.0,
+          418.3167731674959
+        ],
+        "source": "Measured bow launch origin; exact screen tube correspondence unverified"
+      },
+      {
+        "position": [
+          35.0,
+          0.0,
+          419.01677316749584
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "measured_surface": [
+          35.0,
+          0.0,
+          418.31677316749585
+        ],
+        "source": "Measured bow launch origin; exact screen tube correspondence unverified"
+      },
+      {
+        "position": [
+          -16.0,
+          -30.0,
+          397.98471815882186
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "measured_surface": [
+          -16.0,
+          -30.0,
+          397.2847181588219
+        ],
+        "source": "Measured bow launch origin; exact screen tube correspondence unverified"
+      },
+      {
+        "position": [
+          16.0,
+          -30.0,
+          397.98471815882186
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "measured_surface": [
+          16.0,
+          -30.0,
+          397.2847181588219
+        ],
+        "source": "Measured bow launch origin; exact screen tube correspondence unverified"
+      }
+    ],
+    "light_torpedo_port": {
+      "position": [
+        -35.0,
+        0.0,
+        419.0167731674959
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "measured_surface": [
+        -35.0,
+        0.0,
+        418.3167731674959
+      ],
+      "source": "Measured bow launch origin; exact screen tube correspondence unverified"
+    },
+    "torpedo_ports": [
+      {
+        "position": [
+          -35.0,
+          0.0,
+          419.0167731674959
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "measured_surface": [
+          -35.0,
+          0.0,
+          418.3167731674959
+        ],
+        "source": "Measured bow launch origin; exact screen tube correspondence unverified"
+      },
+      {
+        "position": [
+          35.0,
+          0.0,
+          419.01677316749584
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "measured_surface": [
+          35.0,
+          0.0,
+          418.31677316749585
+        ],
+        "source": "Measured bow launch origin; exact screen tube correspondence unverified"
+      },
+      {
+        "position": [
+          -16.0,
+          -30.0,
+          397.98471815882186
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "measured_surface": [
+          -16.0,
+          -30.0,
+          397.2847181588219
+        ],
+        "source": "Measured bow launch origin; exact screen tube correspondence unverified"
+      },
+      {
+        "position": [
+          16.0,
+          -30.0,
+          397.98471815882186
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "measured_surface": [
+          16.0,
+          -30.0,
+          397.2847181588219
+        ],
+        "source": "Measured bow launch origin; exact screen tube correspondence unverified"
+      }
+    ],
+    "exhaust": {
+      "position": [
+        -76.90724576025552,
+        -44.40243014811538,
+        -428.7291605393728
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_component": 185
+    },
+    "exhausts": [
+      {
+        "position": [
+          -76.90724576025552,
+          -44.40243014811538,
+          -428.7291605393728
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 185
+      },
+      {
+        "position": [
+          -76.90718964569322,
+          44.402391299572,
+          -428.7291605393728
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 186
+      },
+      {
+        "position": [
+          0.0,
+          -88.8048754039974,
+          -428.7291605393728
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 1778
+      },
+      {
+        "position": [
+          -3.197442310920451e-14,
+          88.8047869156489,
+          -428.7291605393728
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 1779
+      },
+      {
+        "position": [
+          76.9071896456932,
+          44.402391299572,
+          -428.7291605393728
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 3702
+      },
+      {
+        "position": [
+          76.90724576025549,
+          -44.40243014811538,
+          -428.7291605393728
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source_component": 3703
+      }
+    ]
+  },
+  "counts": {
+    "hull": 285034,
+    "rail_0": 4778,
+    "rail_1": 4776,
+    "pdc_base": 138,
+    "pdc_barrel": 539
+  },
+  "assembled_triangle_total": 306774,
+  "meshpoints": {
+    "hull": [
+      {
+        "name": "center",
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0,
+          180,
+          0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0,
+          -180,
+          0
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_0",
+        "translation": [
+          120.1109175011353,
+          69.34607055189338,
+          -260.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -0.5000000000000001,
+          0.8660254037844387
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_1",
+        "translation": [
+          8.492444621825011e-15,
+          138.69214581278098,
+          -260.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -3.061616997868383e-17,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_2",
+        "translation": [
+          -120.11091750113536,
+          69.3460705518934,
+          -260.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.5000000000000001,
+          0.8660254037844387
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_3",
+        "translation": [
+          -120.11092399339782,
+          -69.34607430020293,
+          -260.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8660254037844387,
+          0.5
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_4",
+        "translation": [
+          -2.3763615919809017e-14,
+          -129.363099827935,
+          -260.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          1.0,
+          9.184850993605148e-17
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_5",
+        "translation": [
+          120.1109239933977,
+          -69.3460743002029,
+          -260.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8660254037844387,
+          -0.4999999999999997
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_6",
+        "translation": [
+          67.22521630920635,
+          38.8124967324511,
+          65.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -0.5000000000000001,
+          0.8660254037844387
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_7",
+        "translation": [
+          4.219681853698114e-15,
+          68.912634347079,
+          65.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -3.061616997868383e-17,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_8",
+        "translation": [
+          -67.2252163092064,
+          38.81249673245113,
+          65.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.5000000000000001,
+          0.8660254037844387
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_9",
+        "translation": [
+          -67.2252835968568,
+          -38.812535580994215,
+          65.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8660254037844387,
+          0.5
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_10",
+        "translation": [
+          -1.2659048732810564e-14,
+          -68.91265161309794,
+          65.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          1.0,
+          9.184850993605148e-17
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_11",
+        "translation": [
+          67.22528359685676,
+          -38.81253558099422,
+          65.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8660254037844387,
+          -0.4999999999999997
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_12",
+        "translation": [
+          126.95518172385249,
+          73.29760834328407,
+          365.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -0.5000000000000001,
+          0.8660254037844387
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_13",
+        "translation": [
+          5.544197967586541e-15,
+          90.54362403015509,
+          365.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -3.061616997868383e-17,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_14",
+        "translation": [
+          -126.95518172385252,
+          73.29760834328408,
+          365.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.5000000000000001,
+          0.8660254037844387
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_15",
+        "translation": [
+          -126.9552490115028,
+          -73.29764719182712,
+          365.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8660254037844387,
+          0.5
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_16",
+        "translation": [
+          -1.717935655492754e-14,
+          -93.52006127746915,
+          365.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          1.0,
+          9.184850993605148e-17
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_pdc_17",
+        "translation": [
+          126.95524901150276,
+          -73.29764719182714,
+          365.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.8660254037844387,
+          -0.4999999999999997
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_rail_0",
+        "translation": [
+          0.0,
+          126.0,
+          -81.1756
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse15_truman_rail_1",
+        "translation": [
+          0.0,
+          -126.0,
+          -81.1756
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "name": "weapon.torpedo.0",
+        "translation": [
+          -35.0,
+          0.0,
+          419.0167731674959
+        ]
+      },
+      {
+        "name": "weapon.torpedo.1",
+        "translation": [
+          35.0,
+          0.0,
+          419.01677316749584
+        ]
+      },
+      {
+        "name": "weapon.torpedo.2",
+        "translation": [
+          -16.0,
+          -30.0,
+          397.98471815882186
+        ]
+      },
+      {
+        "name": "weapon.torpedo.3",
+        "translation": [
+          16.0,
+          -30.0,
+          397.98471815882186
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          -76.90724576025552,
+          -44.40243014811538,
+          -428.7291605393728
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.1",
+        "translation": [
+          -76.90718964569322,
+          44.402391299572,
+          -428.7291605393728
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.2",
+        "translation": [
+          0.0,
+          -88.8048754039974,
+          -428.7291605393728
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.3",
+        "translation": [
+          -3.197442310920451e-14,
+          88.8047869156489,
+          -428.7291605393728
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.4",
+        "translation": [
+          76.9071896456932,
+          44.402391299572,
+          -428.7291605393728
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.5",
+        "translation": [
+          76.90724576025549,
+          -44.40243014811538,
+          -428.7291605393728
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "rail_0": [],
+    "rail_1": [],
+    "pdc_base": [],
+    "pdc_barrel": []
+  },
+  "editable_source": "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/assets/derived/update15-truman/expanse15_truman_editable.gltf",
+  "runtime": "NOT RUN",
+  "game_file_hashes": {
+    "textures/expanse15_truman_material_orm.dds": "d9b90c37f267c988b404b97e75718639364efa598afe68a3e61288f5d964ae9f",
+    "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "textures/expanse12_raptor_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse12_raptor_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse15_truman_material_msk.dds": "00177b0806b5bff596b5b47b6a364d3f2731c58e8e29788b4c4c6b03fd2ef802",
+    "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+    "textures/expanse15_truman_material_nrm.dds": "cbf714a6b08415ebae1f5cec906db5a932181ebdc6aba988db623de93a516a5e",
+    "textures/expanse12_raptor_orm.dds": "3899064d5192d3dcaa405f26750ffefd3ebbc4a06f9d81a61b44fdb23fccd4cd",
+    "textures/expanse15_truman_material_clr.dds": "a2adda7d4e5ccff86a464d510f88da5d7ce7ea6a63f2dd6cd441ca72be0d1256",
+    "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "textures/expanse12_raptor_mat_2_clr.dds": "6750496fd2811ee25f049cc55acab176818932aac59936e8021f5eec5bcbaf9e",
+    "mesh_materials/expanse15_truman_hull_truman_support.mesh_material": "79208cd2e102e3b40268890bb36da56b17af602c21af4de7776de34f35e72064",
+    "mesh_materials/expanse15_truman_hull_truman_material.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
+    "mesh_materials/expanse15_truman_rail_1_truman_material.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
+    "mesh_materials/expanse15_truman_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse15_truman_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse15_truman_rail_0_truman_material.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
+    "meshes/expanse15_truman_pdc_base.mesh": "11e2c630970cfc3f47094223b99f2d9faee10fdaa4462be504327bcce86b5c66",
+    "meshes/expanse15_truman_hull.mesh": "b99b180104b80d55406afe1a4ae18239acfdd335f64f791eac6c0f32cf54b595",
+    "meshes/expanse15_truman_rail_1.mesh": "8e255d6267256527fc9080c38e31b03030a7d7f71dd5420e7a0a5a364f8aaa4e",
+    "meshes/expanse15_truman_rail_0.mesh": "04237a98375ad62a28c8e2efcb9cfc5f46b39ef7c0cfca565e6277fd01b7a9c2",
+    "meshes/expanse15_truman_pdc_barrel.mesh": "69c706d08ecf00a5fec1da55d9173e6f2bd3b3075c0c26f815a903458a18358f"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/assets/derived/update15-truman/expanse15_truman_editable.gltf": "4c4c5a127a1af7113d434a7e63b2b381875c269c09b4d46ce8b02e307a5dfa18",
+    "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/assets/derived/update15-truman/expanse15_truman_editable.bin": "ad46645d8974869a8f4c98743ca0df8bc5b48ca77a34d55f59aebe240b40a188",
+    "/run/media/haker/NVME 2/expanse-workers/playtest15-truman/assets/derived/update15-truman/texture-sources/expanse15_truman_material_clr.png": "e9ecdb7d6423e73f908c4796ecef0f98f4b6e7d4c104e7339ecf51061d57ba27",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update14/textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a"
+  },
+  "triangles": 306774,
+  "coordinate_conversion": "Source already uses game-facing right-handed glTF axes",
+  "camera_basis": [
+    [
+      0.7803805282839275,
+      0.0,
+      0.6253049104839162
+    ],
+    [
+      0.23984779590714161,
+      0.9235120770132178,
+      -0.29933004929211277
+    ],
+    [
+      -0.5774766366475658,
+      0.3835693465473128,
+      0.720690842536162
+    ]
+  ],
+  "material_colors": "Actual source material base-color texture and UVs, or explicit source PBR factor; no invented colors",
+  "renderer": "Imported generic CPU double-sided z-buffer from polish_ui.py; studio contrast lift and Lambert shading; not Sins runtime rendering",
+  "runtime": "NOT RUN"
+}

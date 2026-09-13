@@ -1,0 +1,64 @@
+{
+  "status": "PASS offline; runtime NOT RUN",
+  "resource_directory": "/run/media/haker/NVME 2/expanse-workers/playtest15-scirocco/build/update15-scirocco",
+  "entity_files": [
+    "expanse15_scirocco_breaching_teams.ability",
+    "expanse15_scirocco_breaching_teams.action_data_source",
+    "expanse15_scirocco_breaching_teams_disruption.buff",
+    "expanse15_scirocco_breaching_teams_guard.buff",
+    "expanse15_scirocco_engineering_teams.ability",
+    "expanse15_scirocco_engineering_teams.action_data_source",
+    "expanse15_scirocco_engineering_teams.buff"
+  ],
+  "patches": [
+    {
+      "file": "entities/expanse12_scirocco.unit",
+      "pointer": "/abilities/0/abilities",
+      "before": [
+        "expanse12_scirocco_light_magazine",
+        "expanse12_scirocco_heavy_magazine",
+        "expanse12_scirocco_reactor",
+        "expanse12_scirocco_launch_corvette",
+        "expanse12_scirocco_marines",
+        "expanse12_scirocco_reactor_breach",
+        "expanse11_no_shields"
+      ],
+      "value": [
+        "expanse12_scirocco_reactor",
+        "expanse12_scirocco_launch_corvette",
+        "expanse15_scirocco_breaching_teams",
+        "expanse15_scirocco_engineering_teams",
+        "expanse12_scirocco_light_magazine",
+        "expanse12_scirocco_heavy_magazine",
+        "expanse12_scirocco_reactor_breach",
+        "expanse11_no_shields"
+      ]
+    }
+  ],
+  "localization": {
+    "expanse15_scirocco_breaching_teams.name": "Marine Breaching Teams",
+    "expanse15_scirocco_breaching_teams.description": "Launch a cosmetic marine pod at a detected enemy ship missing at least 20% hull. After 3 seconds, reduce speed by 15% and lengthen physical-weapon reloads by 15% for 12 seconds (13 with Marine Assault Doctrine). No capture or weapon shutdown. The target cannot receive another team for 45 seconds after arrival. Range 2,500; costs 40 antimatter; 90-second cooldown.",
+    "expanse15_scirocco_breaching_teams_guard.name": "Marine Team Security Lockout",
+    "expanse15_scirocco_engineering_teams.name": "Combat Engineering Teams",
+    "expanse15_scirocco_engineering_teams.description": "Repair another friendly ship for 20 hull per second over 20 ticks, up to 400 hull total regardless of ship size. Does not restore armor or shields. Engineering Teams from multiple ships cannot stack or refresh this effect. Range 3,500; costs 50 antimatter; 60-second cooldown. Stops if the recipient changes owner."
+  },
+  "active_ability_ids": [
+    "expanse12_scirocco_reactor",
+    "expanse12_scirocco_launch_corvette",
+    "expanse15_scirocco_breaching_teams",
+    "expanse15_scirocco_engineering_teams"
+  ],
+  "passive_ability_ids": [
+    "expanse12_scirocco_light_magazine",
+    "expanse12_scirocco_heavy_magazine",
+    "expanse12_scirocco_reactor_breach",
+    "expanse11_no_shields"
+  ],
+  "research_dependency": "trader_upgrade_experience_gain_0",
+  "research_values": {
+    "unresearched_duration": 12,
+    "researched_duration": 13
+  },
+  "old_capture_definitions": "Unreferenced Scirocco capture definitions may stay in baseline; no new capture code and no modifications to other ships capture abilities.",
+  "skin_patches": []
+}

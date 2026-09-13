@@ -1,0 +1,743 @@
+{
+  "status": "PASS OFFLINE",
+  "meshes": [
+    {
+      "mesh": "expanse15_truman_hull",
+      "triangles": 285034,
+      "sha256": "b99b180104b80d55406afe1a4ae18239acfdd335f64f791eac6c0f32cf54b595",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 1.6956961808361635e-05,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "materials": [
+        "expanse15_truman_hull_truman_material",
+        "expanse15_truman_hull_truman_support"
+      ],
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            180.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -180.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_0",
+          "position": [
+            120.11091613769531,
+            69.3460693359375,
+            -260.0
+          ],
+          "rotation": [
+            0.5,
+            -0.8660253882408142,
+            0.0,
+            0.8660253882408142,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_1",
+          "position": [
+            8.492444655762866e-15,
+            138.692138671875,
+            -260.0
+          ],
+          "rotation": [
+            1.0,
+            -6.123234262925839e-17,
+            0.0,
+            6.123234262925839e-17,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_2",
+          "position": [
+            -120.11091613769531,
+            69.3460693359375,
+            -260.0
+          ],
+          "rotation": [
+            0.5,
+            0.8660253882408142,
+            0.0,
+            -0.8660253882408142,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_3",
+          "position": [
+            -120.11092376708984,
+            -69.34607696533203,
+            -260.0
+          ],
+          "rotation": [
+            -0.5,
+            0.8660253882408142,
+            0.0,
+            -0.8660253882408142,
+            -0.5,
+            -0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_4",
+          "position": [
+            -2.376361606137075e-14,
+            -129.36309814453125,
+            -260.0
+          ],
+          "rotation": [
+            -1.0,
+            1.8369701465288538e-16,
+            0.0,
+            -1.8369701465288538e-16,
+            -1.0,
+            -0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_5",
+          "position": [
+            120.11092376708984,
+            -69.34607696533203,
+            -260.0
+          ],
+          "rotation": [
+            -0.5,
+            -0.8660253882408142,
+            -0.0,
+            0.8660253882408142,
+            -0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_6",
+          "position": [
+            67.2252197265625,
+            38.812496185302734,
+            65.0
+          ],
+          "rotation": [
+            0.5,
+            -0.8660253882408142,
+            0.0,
+            0.8660253882408142,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_7",
+          "position": [
+            4.21968182102864e-15,
+            68.91263580322266,
+            65.0
+          ],
+          "rotation": [
+            1.0,
+            -6.123234262925839e-17,
+            0.0,
+            6.123234262925839e-17,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_8",
+          "position": [
+            -67.2252197265625,
+            38.812496185302734,
+            65.0
+          ],
+          "rotation": [
+            0.5,
+            0.8660253882408142,
+            0.0,
+            -0.8660253882408142,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_9",
+          "position": [
+            -67.22528076171875,
+            -38.81253433227539,
+            65.0
+          ],
+          "rotation": [
+            -0.5,
+            0.8660253882408142,
+            0.0,
+            -0.8660253882408142,
+            -0.5,
+            -0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_10",
+          "position": [
+            -1.265904885121771e-14,
+            -68.91265106201172,
+            65.0
+          ],
+          "rotation": [
+            -1.0,
+            1.8369701465288538e-16,
+            0.0,
+            -1.8369701465288538e-16,
+            -1.0,
+            -0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_11",
+          "position": [
+            67.22528076171875,
+            -38.81253433227539,
+            65.0
+          ],
+          "rotation": [
+            -0.5,
+            -0.8660253882408142,
+            -0.0,
+            0.8660253882408142,
+            -0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_12",
+          "position": [
+            126.95518493652344,
+            73.297607421875,
+            365.0
+          ],
+          "rotation": [
+            0.5,
+            -0.8660253882408142,
+            0.0,
+            0.8660253882408142,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_13",
+          "position": [
+            5.5441978285620305e-15,
+            90.54362487792969,
+            365.0
+          ],
+          "rotation": [
+            1.0,
+            -6.123234262925839e-17,
+            0.0,
+            6.123234262925839e-17,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_14",
+          "position": [
+            -126.95518493652344,
+            73.297607421875,
+            365.0
+          ],
+          "rotation": [
+            0.5,
+            0.8660253882408142,
+            0.0,
+            -0.8660253882408142,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_15",
+          "position": [
+            -126.95524597167969,
+            -73.29764556884766,
+            365.0
+          ],
+          "rotation": [
+            -0.5,
+            0.8660253882408142,
+            0.0,
+            -0.8660253882408142,
+            -0.5,
+            -0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_16",
+          "position": [
+            -1.7179356217754058e-14,
+            -93.52005767822266,
+            365.0
+          ],
+          "rotation": [
+            -1.0,
+            1.8369701465288538e-16,
+            0.0,
+            -1.8369701465288538e-16,
+            -1.0,
+            -0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_pdc_17",
+          "position": [
+            126.95524597167969,
+            -73.29764556884766,
+            365.0
+          ],
+          "rotation": [
+            -0.5,
+            -0.8660253882408142,
+            -0.0,
+            0.8660253882408142,
+            -0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_rail_0",
+          "position": [
+            0.0,
+            126.0,
+            -81.17559814453125
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse15_truman_rail_1",
+          "position": [
+            0.0,
+            -126.0,
+            -81.17559814453125
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.torpedo.0",
+          "position": [
+            -35.0,
+            0.0,
+            419.01678466796875
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.torpedo.1",
+          "position": [
+            35.0,
+            0.0,
+            419.01678466796875
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.torpedo.2",
+          "position": [
+            -16.0,
+            -30.0,
+            397.9847106933594
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.torpedo.3",
+          "position": [
+            16.0,
+            -30.0,
+            397.9847106933594
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            -76.9072494506836,
+            -44.40243148803711,
+            -428.7291564941406
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.1",
+          "position": [
+            -76.90718841552734,
+            44.40238952636719,
+            -428.7291564941406
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.2",
+          "position": [
+            0.0,
+            -88.80487823486328,
+            -428.7291564941406
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.3",
+          "position": [
+            -3.197442310920451e-14,
+            88.8047866821289,
+            -428.7291564941406
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.4",
+          "position": [
+            76.90718841552734,
+            44.40238952636719,
+            -428.7291564941406
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.5",
+          "position": [
+            76.9072494506836,
+            -44.40243148803711,
+            -428.7291564941406
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    {
+      "mesh": "expanse15_truman_rail_0",
+      "triangles": 4778,
+      "sha256": "04237a98375ad62a28c8e2efcb9cfc5f46b39ef7c0cfca565e6277fd01b7a9c2",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 3.8077649562904524e-06,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "materials": [
+        "expanse15_truman_rail_0_truman_material"
+      ],
+      "meshpoints": []
+    },
+    {
+      "mesh": "expanse15_truman_rail_1",
+      "triangles": 4776,
+      "sha256": "8e255d6267256527fc9080c38e31b03030a7d7f71dd5420e7a0a5a364f8aaa4e",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 3.81902381949516e-06,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "materials": [
+        "expanse15_truman_rail_1_truman_material"
+      ],
+      "meshpoints": []
+    },
+    {
+      "mesh": "expanse15_truman_pdc_base",
+      "triangles": 138,
+      "sha256": "11e2c630970cfc3f47094223b99f2d9faee10fdaa4462be504327bcce86b5c66",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 1.3328008833479087e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "materials": [
+        "expanse15_truman_pdc_base_mcrn_tachi_material"
+      ],
+      "meshpoints": []
+    },
+    {
+      "mesh": "expanse15_truman_pdc_barrel",
+      "triangles": 539,
+      "sha256": "69c706d08ecf00a5fec1da55d9173e6f2bd3b3075c0c26f815a903458a18358f",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 1.3657139822709083e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "materials": [
+        "expanse15_truman_pdc_barrel_mcrn_tachi_material"
+      ],
+      "meshpoints": []
+    }
+  ],
+  "runtime": "NOT RUN"
+}

@@ -1,0 +1,20 @@
+{
+  "status": "DISABLED laboratory candidate; acceptance NOT RUN; excluded from friends package",
+  "sources": {
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_battle_capital_ship_planet_bombing.weapon": "5b431029af62075873910c57040a58e9abc83b8f76ded1041cd55a53fd5d42b6",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_medium_torpedo.unit": "b59568b65914657aa7e03ff22ace9fedc7a64ae2980d84db1e476a09ffaab979"
+  },
+  "evidence": [
+    "Native planetary bombing uses non-destructible projectile firing; native anti-ship missiles use spawn_torpedo with selectable, damageable torpedo units.",
+    "Pinned weapon schema allows both firing types but does not prove the planet_bombing plus spawn_torpedo combination delivers planetary damage.",
+    "Candidate replaces only firing mechanism and cadence; retains native75 bombing damage/3 population damage. No delayed planet buff, detached damage action, death explosion, map modification or global launch."
+  ],
+  "test": [
+    "Use separate developer sandbox: one launcher, one enemy planet, one manually triggered discharge; stop launcher immediately to guarantee only one object.",
+    "Control: allow actual torpedo to reach planet; record exact hull and population changes and confirm one impact.",
+    "Interception: destroy actual torpedo well before contact; record planet hull and population unchanged beyond120-second lifetime plus margin.",
+    "Repeat near contact, after save/reload, and on two synchronized clients. No damage on interception is necessary but insufficient: control impact must damage planet."
+  ],
+  "promotion_gate": "All control/interception cases must be observed before any strategic weapon enters a shared package. A renderer-only projectile or timer reaching planet fails.",
+  "adaptive_composite": "DEFERRED optional item: no shields/item/research unlock added. Inherited shield interactions and capture/save behavior require runtime testing first."
+}

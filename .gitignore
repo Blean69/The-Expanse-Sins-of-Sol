@@ -10,3 +10,6 @@ audit/*.png
 audit/**/*.png
 audit/**/*.jpg
 audit/**/*.jpeg
+# Reproducible raw component inventory and pre-research game-definition snapshot.
+audit/update15-truman/components.json
+audit/update15/before-research-definitions.json

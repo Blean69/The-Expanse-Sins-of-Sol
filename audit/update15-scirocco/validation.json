@@ -1,0 +1,88 @@
+{
+  "status": "PASS offline",
+  "schemas": [
+    {
+      "file": "expanse15_scirocco_breaching_teams.ability",
+      "sha256": "d7ce446bd2f99c605c5b5af824d14583dfa42d0c10a92e7570c79464b91cedd4",
+      "status": "PASS pinned closed-key schema"
+    },
+    {
+      "file": "expanse15_scirocco_breaching_teams.action_data_source",
+      "sha256": "f90b33f0243e4f06524b136f12483cf0c7ff49ffe142be1f9f1fc5ea2ccf815e",
+      "status": "PASS pinned closed-key schema"
+    },
+    {
+      "file": "expanse15_scirocco_breaching_teams_disruption.buff",
+      "sha256": "9535fe90058eaa1d5c35e94574a0c56868fd8de707861763d9de6068f0c2205e",
+      "status": "PASS pinned closed-key schema"
+    },
+    {
+      "file": "expanse15_scirocco_breaching_teams_guard.buff",
+      "sha256": "de68cde7500cdb26c6ee7683be49334f5174c4b0fe88e89e673f83fd8789694d",
+      "status": "PASS pinned closed-key schema"
+    },
+    {
+      "file": "expanse15_scirocco_engineering_teams.ability",
+      "sha256": "47d13f70f6440a2f1bc35c899d11c69f1e46994d885e3c771eb889d48582e199",
+      "status": "PASS pinned closed-key schema"
+    },
+    {
+      "file": "expanse15_scirocco_engineering_teams.action_data_source",
+      "sha256": "35631ebf382f08b924ab256c2ab6fa5b99be448e81d0364bb73e55132086c83d",
+      "status": "PASS pinned closed-key schema"
+    },
+    {
+      "file": "expanse15_scirocco_engineering_teams.buff",
+      "sha256": "f9ab54e647d3f5bd67552ac2bd2209930d2852fdfc7b4a392c833aebe9836060",
+      "status": "PASS pinned closed-key schema"
+    }
+  ],
+  "baseline_unit_sha256": "1c3c1cfc5907fd77f74f7ee8a94274d54ff3396b44a34d92af2882bd0ce95724",
+  "assertions": [
+    "Exactly four active abilities in one flat selection group; passive magazine/death/shield policy preserved.",
+    "Enemy damaged hull20% and friendly other ship filters; exclude missiles/planets/structures by type.",
+    "Manual admission checks pending guard; arrival rechecks enemy/damage and active guard without self-blocking its own pending application; all buffs globally preserve one stack.",
+    "Guard45s exceeds effect12/13s; source cooldown90s exceeds guard.",
+    "Absolute hull-only repair400 cap independent of max hull and base restoration research.",
+    "No change_owner_player or disable-weapons operators; capture ownership event clears disruption and repair."
+  ],
+  "native_evidence": [
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_robotics_cruiser_repair_droids.ability",
+      "sha256": "6f265a84473fdd3bf901189551eb6d7bd3405d8b6d300c3ba8949db6e0cbb655"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_robotics_cruiser_repair_droids.action_data_source",
+      "sha256": "0cb69767353b289311b4d5b89d248f3492627e6a25394f4663faa7a8ec134776"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.buff",
+      "sha256": "4aca26bcd60688abf2657e889e6a7b19231dda10aafe712e36c5c8daa4cee605"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.action_data_source",
+      "sha256": "817b0f5c5956cea097375a44c67dcc7f39db0d601b496611f8e1f16f157d5e93"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/vasari_carrier_capital_ship_repair_cloud.buff",
+      "sha256": "1028a1bdd29afc203bbc7645968d2690ae67f256c967e67de234d225c59e805b"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/dlc3_herald_corruptor_cruiser_purge_corruption.action_data_source",
+      "sha256": "ef25344706c57a4c56cebd6abb97e372122e749e3a5999364646636c06de4885"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_rebel_titan_warpath.buff",
+      "sha256": "f79c76e9811e34787e4ef9fd0cf8df2d3a6c39099c70f14e022e15f5489841a6"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update14/entities/expanse12_scirocco_marines.ability",
+      "sha256": "07ca120aa0b15b12cf4f21bf58a72eb8c746079c581ba12aa548c6c6fe8d0529"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update14/entities/expanse12_scirocco_marines.action_data_source",
+      "sha256": "82456b74255948b40b297187a047c2a5a83418809824e3987d02bfe264a12f28"
+    }
+  ],
+  "runtime": "NOT RUN: load/UI, simultaneous pod races, capture events, research existing/new units, multiplayer, save/reload."
+}

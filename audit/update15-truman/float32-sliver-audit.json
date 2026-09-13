@@ -1,0 +1,6 @@
+{
+  "source_triangles": 293253,
+  "removed_float32_microslivers": 393,
+  "minimum_double_area": 0.0001,
+  "purpose": "Remove numerically collinear source faces whose sign is unstable between compiler JSON decimal serialization andbinaryfloat32"
+}

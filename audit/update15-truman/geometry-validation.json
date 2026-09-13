@@ -1,0 +1,180 @@
+{
+  "status": "PASS OFFLINE",
+  "source_signed_volume": 35789742.950172134,
+  "source_matched_triangles": 283306,
+  "source_opposed_faces": 0,
+  "compiled_mount_frames": [
+    {
+      "weapon": "expanse15_truman_pdc_0",
+      "position_error": 1.3634399920192664e-06,
+      "basis_error": 1.554362449862623e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_1",
+      "position_error": 7.140905978531009e-06,
+      "basis_error": 2.6718907323636308e-24
+    },
+    {
+      "weapon": "expanse15_truman_pdc_2",
+      "position_error": 1.3634400488626852e-06,
+      "basis_error": 1.554362449862623e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_3",
+      "position_error": 2.6651291022972146e-06,
+      "basis_error": 1.5543624387603927e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_4",
+      "position_error": 1.6834037523949519e-06,
+      "basis_error": 5.219217591431599e-24
+    },
+    {
+      "weapon": "expanse15_truman_pdc_5",
+      "position_error": 2.665129130718924e-06,
+      "basis_error": 1.5543624165559322e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_6",
+      "position_error": 3.4173561545003395e-06,
+      "basis_error": 1.554362449862623e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_7",
+      "position_error": 1.4561436501026037e-06,
+      "basis_error": 2.6718907323636308e-24
+    },
+    {
+      "weapon": "expanse15_truman_pdc_8",
+      "position_error": 3.4173560976569206e-06,
+      "basis_error": 1.554362449862623e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_9",
+      "position_error": 2.835138047885266e-06,
+      "basis_error": 1.5543624387603927e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_10",
+      "position_error": 5.510862166602237e-07,
+      "basis_error": 5.219217591431599e-24
+    },
+    {
+      "weapon": "expanse15_truman_pdc_11",
+      "position_error": 2.835138005252702e-06,
+      "basis_error": 1.5543624165559322e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_12",
+      "position_error": 3.2126709470503556e-06,
+      "basis_error": 1.554362449862623e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_13",
+      "position_error": 8.477746007429232e-07,
+      "basis_error": 2.6718907323636308e-24
+    },
+    {
+      "weapon": "expanse15_truman_pdc_14",
+      "position_error": 3.212670918628646e-06,
+      "basis_error": 1.554362449862623e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_15",
+      "position_error": 3.039823113226703e-06,
+      "basis_error": 1.5543624387603927e-08
+    },
+    {
+      "weapon": "expanse15_truman_pdc_16",
+      "position_error": 3.5992464972878224e-06,
+      "basis_error": 5.219217591431599e-24
+    },
+    {
+      "weapon": "expanse15_truman_pdc_17",
+      "position_error": 3.0398230705941387e-06,
+      "basis_error": 1.5543624165559322e-08
+    },
+    {
+      "weapon": "expanse15_truman_rail_0",
+      "position_error": 1.8554687528649083e-06,
+      "basis_error": 0.0
+    },
+    {
+      "weapon": "expanse15_truman_rail_1",
+      "position_error": 1.8554687528649083e-06,
+      "basis_error": 0.0
+    }
+  ],
+  "rail_rays": [
+    {
+      "weapon": "expanse15_truman_rail_0",
+      "muzzle": [
+        11,
+        9,
+        105.4
+      ],
+      "rays": 873,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse15_truman_rail_0",
+      "muzzle": [
+        -11,
+        9,
+        105.4
+      ],
+      "rays": 873,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse15_truman_rail_1",
+      "muzzle": [
+        11,
+        9,
+        105.4
+      ],
+      "rays": 873,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse15_truman_rail_1",
+      "muzzle": [
+        -11,
+        9,
+        105.4
+      ],
+      "rays": 873,
+      "blocked": 0
+    }
+  ],
+  "exterior_views": [
+    {
+      "view": "starboard",
+      "nearest_outward_fraction": 0.9995609667298446
+    },
+    {
+      "view": "port",
+      "nearest_outward_fraction": 0.9995609667298446
+    },
+    {
+      "view": "dorsal",
+      "nearest_outward_fraction": 0.9997722210973882
+    },
+    {
+      "view": "ventral",
+      "nearest_outward_fraction": 1.0
+    },
+    {
+      "view": "bow",
+      "nearest_outward_fraction": 0.9999897114049077
+    },
+    {
+      "view": "aft",
+      "nearest_outward_fraction": 0.9999898416310278
+    }
+  ],
+  "source_triangle_count": 293253,
+  "assembled_triangles": 306774,
+  "runtime": "NOT RUN",
+  "limits": "Source glTF double-sided intent is not represented by indiscriminate duplicatefaces. Retained authored normals independentlycorroborated bypositivevolume/exteriorcoverage. Surface samples are notwatertightnessproof. Ray evidence excludes movingothergun geometry; rotation andengineconventions requireworkstationobservation."
+}

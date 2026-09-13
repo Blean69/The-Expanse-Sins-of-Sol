@@ -1,0 +1,1722 @@
+{
+  "status": "PASS offline schema, exact preserved node-economic fields, unchanged torpedo timing/count values",
+  "runtime_status": "NOT RUN",
+  "changes": [
+    {
+      "file": "entities/trader_planet_health_restore_rate.research_subject",
+      "sha256": "ad1226a47924ecf31508fe8563864781f2fcac89900c572e22736cd4a03b7351",
+      "source_sha256": "d9074b5caddeb316460b462eec0a9379cd0abf03a1ccf79135b39b8e3ec1fdd7"
+    },
+    {
+      "file": "entities/trader_structure_build_rate.research_subject",
+      "sha256": "969a84738a7681735bb21c75058dfec365210aa0c0c0ac06a5af4c2ee5c10ed3",
+      "source_sha256": "12804dfbce0d65c7659ed2604da74598c67b508a1135a8e49d0aa05d900852fe"
+    },
+    {
+      "file": "entities/trader_mining_track_crystal_rate_0.research_subject",
+      "sha256": "f85a312df2a12cb64a339080d133c4fbb2c9675fdab2dc0dd2f23638a143fcef",
+      "source_sha256": "ca061d28c65ca042956f56a4600b95291787ff0a72f21489df4becc914d8ba54"
+    },
+    {
+      "file": "entities/trader_trade_port_income_rate_0.research_subject",
+      "sha256": "2a12b1236606fe0c8d88181805b9424324085749c4b56f4de868d07566c701f8",
+      "source_sha256": "527f33a77850d158dfb1dab2d3614c0135f8bbd8f73bd35cfc6594b01f1b2145"
+    },
+    {
+      "file": "entities/trader_labor_negotiations.research_subject",
+      "sha256": "52897a215b68b26428932808715b6501aa2a0f494a653c00e721c76d8a3908c7",
+      "source_sha256": "412b8570dfee9002a5231d72ffbbef471bea406311f3a505f4be202b26a00183"
+    },
+    {
+      "file": "entities/trader_find_npc_explore.research_subject",
+      "sha256": "0e8794a5032d2b1d0cfdb4234b7654f0d29506376d5162ca7bbd60aa7f6ef605",
+      "source_sha256": "deab2d0715db0aa038b55bdee4fb2529b854f220f0f4debba7ca24bdca81d5e9"
+    },
+    {
+      "file": "entities/trader_max_hull_points_0.research_subject",
+      "sha256": "0ea8a8b85d2fc02e630de3173ac76cd51dfc710c055fb02b3b16ac08476e268d",
+      "source_sha256": "12fac95a73293ff3bc01305496d3610fb8d186e6164c79b930cad32477e55b9a"
+    },
+    {
+      "file": "entities/trader_autocannon_weapon_damage_0.research_subject",
+      "sha256": "c94d1aadae77d2110e683fd2b73469494ecc6fcd29647ca1b1f4b874f22a12a0",
+      "source_sha256": "11c48cb7445639615bae78626faa56d25b5fe1337bcbe50726354ef1782d5461"
+    },
+    {
+      "file": "entities/trader_missile_weapon_damage_0.research_subject",
+      "sha256": "295c76ed172703ff70dff6040e9921bfd44e8d079bbdd8535a3eb441fabb9504",
+      "source_sha256": "3f0ea420392351b67fe0ee9b846f438466aa8ae7881fa7778ad5c6c53c5b0fcd"
+    },
+    {
+      "file": "entities/trader_upgrade_experience_gain_0.research_subject",
+      "sha256": "d676a22005be3d0f9e9a2e6be7d277b9f3a09a183b13055e9a688979bc25c581",
+      "source_sha256": "47eb463eccebd6fd37b4b9793991043176948827728afa23847a07481458a8d7"
+    },
+    {
+      "file": "entities/trader_max_hull_points_2.research_subject",
+      "sha256": "c339e36a964e24ddc918ebaec6143da58a6503e22972156f5320f90123cd1414",
+      "source_sha256": "f19fc0a5edafc23428a54e810bd255f266f161113a1d6daa5146787fcf93fb2b"
+    },
+    {
+      "file": "entities/trader_missile_weapon_armor.research_subject",
+      "sha256": "659693a2b2646bcc3112d1c2c9ea41e0431b0ffda540801097b11d468da972c3",
+      "source_sha256": "760a067272d45ee7934218e3d7caa1f5c4d2b171d921e8a626a5511bfda54061"
+    },
+    {
+      "file": "entities/trader_improve_gauss_defense_cooldown.research_subject",
+      "sha256": "406e4a6a298eaa8f4322deadf11759bfb07bab24111844b8fd6f2d9a0cfaf769",
+      "source_sha256": "8b2892326c3829261752f4f207a521db85ee56a5f3f414cc5dbe6f94f673b316"
+    },
+    {
+      "file": "entities/expanse10_donnager_light_magazine.ability",
+      "sha256": "ad4dea7c638ffc7ab9a47622ef02dd053b5b67aec7066ff32ba5e5764246cc0a",
+      "source_sha256": "3b2d17f978d4678541f1da4c9fecd9892d077fddd831bf94ecac461ca42b83b5"
+    },
+    {
+      "file": "entities/expanse10_donnager_light_magazine.action_data_source",
+      "sha256": "5bfcaeba441bedb33875aa2368fa2571e7d090fccea12d1fc15e9164cceb5cf5",
+      "source_sha256": "2682d94683e4d783fac47bccae1bc531a73721529a4a556857807e126fb8c918"
+    },
+    {
+      "file": "entities/expanse12_pella_light_magazine.ability",
+      "sha256": "39efe6e59481909e9e9dea10e0c294251152a186616fe2d99860ebb3f6cf1083",
+      "source_sha256": "657e23d4a3447b1a3480656349fb2ff308c20e2ef0a9fdd88e13fce07b07740f"
+    },
+    {
+      "file": "entities/expanse12_pella_light_magazine.action_data_source",
+      "sha256": "cb15a38ba0a024d5e79eb7d32410bd656394d4f8cd1953866fab9f336a869ed9",
+      "source_sha256": "47fc881b1635d47da2893ab07a18de6873e1c6547b251fee2cd10f96e53526d3"
+    },
+    {
+      "file": "entities/expanse06_amun_magazine.ability",
+      "sha256": "c4b7c30b6499c15a491a421a61639b7566bf9146d8c5633cfe610ec48c011399",
+      "source_sha256": "026b32f41c56ebd365125e0f2faaf75548ae656f059f03b355da14b253fcb9ff"
+    },
+    {
+      "file": "entities/expanse06_amun_magazine.action_data_source",
+      "sha256": "9b40d8968492b3a3ae7e2c9432ee51c336b39468f23c2367434e317a7006431f",
+      "source_sha256": "f4bdcb1a4cbcc3bfe83e904669c7d2ac88875aa44cc4f1137f8d0b4b11debb7c"
+    },
+    {
+      "file": "entities/expanse12_raptor_light_magazine.ability",
+      "sha256": "563beff112d5f477ce14f08e982d23542c74f15642b00503a51e64d13f3ca299",
+      "source_sha256": "004776f11152bad399a591456a0088927d6e137cc955da1470aeb5a9f192f6e2"
+    },
+    {
+      "file": "entities/expanse12_raptor_light_magazine.action_data_source",
+      "sha256": "e53b606e014ddf84879a0a9a3cacbaf16649d062c7b85f3788a96dc032c5a1b8",
+      "source_sha256": "4db56d7f233bc71193fda5a6a77a210092c2fca98ee2b6306a2111ebb9357f26"
+    },
+    {
+      "file": "entities/expanse10_donnager_heavy_magazine.ability",
+      "sha256": "a84a0c7e471bd587648ef0330fbdff0f9402e5ac4bc23ae7d0ffa6356681401c",
+      "source_sha256": "3800c85ce016c05b2c759c730cf99deeab9c845fe6024abdc8f5b798a5789c6a"
+    },
+    {
+      "file": "entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "sha256": "909ab67b5c90ed1b8404dd4f7e31167e9abfa14320f55eb5250c6ca8ddc8a735",
+      "source_sha256": "abf075073cfd2f29ce930e23ff0c60fd72e5d74a1f0dccc132183083c8e03298"
+    },
+    {
+      "file": "entities/expanse12_scirocco_light_magazine.ability",
+      "sha256": "8b87f8ad9ec9116b7ee9622c0da80d42fcebb74d6e9189c1ba03fbe206f5a8a0",
+      "source_sha256": "a6673240567ca523eb34f9250092d09685beeea44d3a34345ac4c16af88327ea"
+    },
+    {
+      "file": "entities/expanse12_scirocco_light_magazine.action_data_source",
+      "sha256": "55afe5c4d3fd31db6cfae8a516b7dc6c8bd272f61f278d385b0e96d201984f57",
+      "source_sha256": "441e917dedd27ebf2293add2a68eb2b34f29cf9e47e825c92cd4a5d2a34b46fc"
+    },
+    {
+      "file": "entities/expanse03_roci_torpedo_magazine.ability",
+      "sha256": "bb94ef64a42a5701e415ae0ba292d0922a8cc752b9b6490e7119d08f915f832e",
+      "source_sha256": "1d1f1f38c6a012748f06eee5af4dbc4ef429f7aef3ac3809ab017591a1addcbe"
+    },
+    {
+      "file": "entities/expanse03_torpedo_magazine.action_data_source",
+      "sha256": "45c12981a1fe3cf24e9153d95380389495539548b0bef6cbee2d6058b9bf416a",
+      "source_sha256": "8b1268a25fc75b3be23074c23a9c26f9c7ebfbe4df97df8d00ae951e2b6bb6ec"
+    },
+    {
+      "file": "entities/expanse03_hero_torpedo_salvo.ability",
+      "sha256": "122d7afb6420a96df7b3abe256322fd9f1f450f3f71e047976823147755b73e5",
+      "source_sha256": "7baf3be69967adc2aca06ce2ba9e6ba3e179a517f8dd524366a238102b27a7c3"
+    },
+    {
+      "file": "entities/expanse03_hero_torpedo_salvo.action_data_source",
+      "sha256": "292c380f2f779492d3116ae6fc76e5b1ed751862632272324b6b77464fa06a53",
+      "source_sha256": "91cc1ee65027d0f2d39fde5052868855cb184f08045a6002f65514431c410fb2"
+    },
+    {
+      "file": "entities/expanse11_morrigan_magazine.ability",
+      "sha256": "0df55303abcf733f5d3c95075664bdf41ca17541a349e5c8c450d34683c4644a",
+      "source_sha256": "515c6446b743222cf442af5a0adb19e64f3a0e974e1238ea8561ced4d98bf070"
+    },
+    {
+      "file": "entities/expanse11_morrigan_magazine.action_data_source",
+      "sha256": "11b764846bca1a7a508a393d8fbfbe355e421e326e8c0df764838d5d86fde7f7",
+      "source_sha256": "8ab09fcd3cc07cb945c878da6a83c25b3d838ec8a19693645b1e5c8b2e8e7678"
+    },
+    {
+      "file": "entities/expanse03_torpedo_magazine.ability",
+      "sha256": "6c82f1a51ca47e37965a09306d40f5fa71b3d2c125858b2bf1eff542496a90a8",
+      "source_sha256": "2e67d9b77417a1e048e39bb3dd99bc4115f092abdaac9ae491089e90abebaf11"
+    },
+    {
+      "file": "entities/expanse12_scirocco_heavy_magazine.ability",
+      "sha256": "8f8333d7f290da8253072772f92a3eb3ea7d48c3f960e51af0a1050f088d0f2c",
+      "source_sha256": "a59c3d449e4eb8ede7da1ef8a0afef2c920a41a39b7069f7c1df211ab48031d3"
+    },
+    {
+      "file": "entities/expanse12_scirocco_heavy_magazine.action_data_source",
+      "sha256": "f1740c3ab3ca4de9b9a167390cf49e280287f0619e60232e66d1667c7919cb1d",
+      "source_sha256": "3656b17ddb36bdda053d53cdec0c538b691dd554da0a2d96d0808da644fa8cdc"
+    }
+  ],
+  "schema_checks": [
+    "trader_planet_health_restore_rate.research_subject",
+    "trader_structure_build_rate.research_subject",
+    "trader_mining_track_crystal_rate_0.research_subject",
+    "trader_trade_port_income_rate_0.research_subject",
+    "trader_labor_negotiations.research_subject",
+    "trader_find_npc_explore.research_subject",
+    "trader_max_hull_points_0.research_subject",
+    "trader_autocannon_weapon_damage_0.research_subject",
+    "trader_missile_weapon_damage_0.research_subject",
+    "trader_upgrade_experience_gain_0.research_subject",
+    "trader_max_hull_points_2.research_subject",
+    "trader_missile_weapon_armor.research_subject",
+    "trader_improve_gauss_defense_cooldown.research_subject",
+    "expanse10_donnager_light_magazine.ability",
+    "expanse10_donnager_light_magazine.action_data_source",
+    "expanse12_pella_light_magazine.ability",
+    "expanse12_pella_light_magazine.action_data_source",
+    "expanse06_amun_magazine.ability",
+    "expanse06_amun_magazine.action_data_source",
+    "expanse12_raptor_light_magazine.ability",
+    "expanse12_raptor_light_magazine.action_data_source",
+    "expanse10_donnager_heavy_magazine.ability",
+    "expanse10_donnager_heavy_magazine.action_data_source",
+    "expanse12_scirocco_light_magazine.ability",
+    "expanse12_scirocco_light_magazine.action_data_source",
+    "expanse03_roci_torpedo_magazine.ability",
+    "expanse03_torpedo_magazine.action_data_source",
+    "expanse03_hero_torpedo_salvo.ability",
+    "expanse03_hero_torpedo_salvo.action_data_source",
+    "expanse11_morrigan_magazine.ability",
+    "expanse11_morrigan_magazine.action_data_source",
+    "expanse03_torpedo_magazine.ability",
+    "expanse12_scirocco_heavy_magazine.ability",
+    "expanse12_scirocco_heavy_magazine.action_data_source"
+  ],
+  "mapping": [
+    {
+      "technology": "Closed-Cycle Life Support",
+      "definition": "trader_planet_health_restore_rate",
+      "domain": "civilian",
+      "tier": 1,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 700.0,
+          "metal": 100.0,
+          "crystal": 125.0
+        },
+        "research_time": 120.0,
+        "field": "civilian_annexation",
+        "field_coord": [
+          2,
+          12
+        ]
+      },
+      "old_effects": {
+        "planet_modifiers": [
+          {
+            "modifier_type": "health_points_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.2
+          }
+        ]
+      },
+      "new_effects": {
+        "planet_modifiers": [
+          {
+            "modifier_type": "health_points_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.05
+          }
+        ]
+      },
+      "expected_mechanical_result": "Owned planets recover health 5% faster. Empire-wide planetary effect; does not repair ships.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Vacuum Construction Standards",
+      "definition": "trader_structure_build_rate",
+      "domain": "civilian",
+      "tier": 2,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 1200.0,
+          "metal": 200.0,
+          "crystal": 300.0
+        },
+        "research_time": 225.0,
+        "prerequisites": [
+          [
+            "trader_structure_price_decrease"
+          ]
+        ],
+        "field": "civilian_industry",
+        "field_coord": [
+          4,
+          8
+        ]
+      },
+      "old_effects": {
+        "planet_modifiers": [
+          {
+            "modifier_type": "structure_build_time",
+            "value_behavior": "scalar",
+            "value": -0.25
+          }
+        ]
+      },
+      "new_effects": {
+        "planet_modifiers": [
+          {
+            "modifier_type": "structure_build_time",
+            "value_behavior": "scalar",
+            "value": -0.05
+          }
+        ]
+      },
+      "expected_mechanical_result": "Orbital structures at owned planets take 5% less time to build. Empire-wide; ship construction is unchanged.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Ice-Hauler Contracts",
+      "definition": "trader_mining_track_crystal_rate_0",
+      "domain": "civilian",
+      "tier": 1,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_time": 150.0,
+        "field": "civilian_industry",
+        "field_coord": [
+          3,
+          11
+        ]
+      },
+      "old_effects": {
+        "planet_modifiers": [
+          {
+            "modifier_type": "mining_track_crystal_income_rate",
+            "value_behavior": "scalar",
+            "value": 0.1
+          },
+          {
+            "modifier_type": "mining_track_crystal_income_rate_per_population",
+            "value_behavior": "scalar",
+            "value": 0.1
+          }
+        ]
+      },
+      "new_effects": {
+        "planet_modifiers": [
+          {
+            "modifier_type": "mining_track_crystal_income_rate",
+            "value_behavior": "scalar",
+            "value": 0.05
+          },
+          {
+            "modifier_type": "mining_track_crystal_income_rate_per_population",
+            "value_behavior": "scalar",
+            "value": 0.05
+          }
+        ]
+      },
+      "expected_mechanical_result": "Planetary mining-track crystal income increases by 5%, including its population component. Empire-wide; excludes orbital extractors.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Epstein Freight Logistics",
+      "definition": "trader_trade_port_income_rate_0",
+      "domain": "civilian",
+      "tier": 2,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 1200.0,
+          "metal": 200.0,
+          "crystal": 300.0
+        },
+        "exotic_price": [
+          {
+            "exotic_type": "economic",
+            "count": 1
+          }
+        ],
+        "research_time": 225.0,
+        "prerequisites": [
+          [
+            "trader_unlock_trade_port"
+          ]
+        ],
+        "field": "civilian_industry",
+        "field_coord": [
+          4,
+          5
+        ]
+      },
+      "old_effects": {
+        "empire_modifiers": [
+          {
+            "value_behavior": "scalar",
+            "modifier_type": "trade_credits_income_rate",
+            "value": 0.1
+          },
+          {
+            "value_behavior": "scalar",
+            "modifier_type": "trade_metal_income_rate",
+            "value": 0.1
+          },
+          {
+            "value_behavior": "scalar",
+            "modifier_type": "trade_crystal_income_rate",
+            "value": 0.1
+          }
+        ]
+      },
+      "new_effects": {
+        "empire_modifiers": [
+          {
+            "modifier_type": "trade_credits_income_rate",
+            "value_behavior": "scalar",
+            "value": 0.05
+          },
+          {
+            "modifier_type": "trade_metal_income_rate",
+            "value_behavior": "scalar",
+            "value": 0.05
+          },
+          {
+            "modifier_type": "trade_crystal_income_rate",
+            "value_behavior": "scalar",
+            "value": 0.05
+          }
+        ]
+      },
+      "expected_mechanical_result": "Trade credit, metal and crystal income increases by 5%. Empire-wide; escort speed and construction are unchanged.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Modular Drydock Assembly",
+      "definition": "trader_labor_negotiations",
+      "domain": "civilian",
+      "tier": 2,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 1250.0,
+          "metal": 225.0,
+          "crystal": 350.0
+        },
+        "exotic_price": [
+          {
+            "exotic_type": "economic",
+            "count": 1
+          }
+        ],
+        "research_time": 270.0,
+        "field": "civilian_industry",
+        "field_coord": [
+          5,
+          7
+        ]
+      },
+      "old_effects": {
+        "unit_factory_modifiers": [
+          {
+            "modifier_type": "build_time",
+            "value_behavior": "scalar",
+            "value": -0.1,
+            "build_kinds": [
+              "corvette",
+              "frigate",
+              "cruiser"
+            ]
+          }
+        ]
+      },
+      "new_effects": {
+        "unit_factory_modifiers": [
+          {
+            "modifier_type": "build_time",
+            "value_behavior": "scalar",
+            "value": -0.05,
+            "build_kinds": [
+              "corvette",
+              "frigate",
+              "cruiser"
+            ]
+          }
+        ]
+      },
+      "expected_mechanical_result": "Corvettes, frigates and cruisers take 5% less time to build at owned factories. Capital ships and titans are unchanged.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Deep-Survey Expeditions",
+      "definition": "trader_find_npc_explore",
+      "domain": "civilian",
+      "tier": 0,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 450.0,
+          "metal": 50.0,
+          "crystal": 75.0
+        },
+        "research_time": 75.0,
+        "field": "civilian_policy",
+        "field_coord": [
+          1,
+          2
+        ]
+      },
+      "old_effects": {},
+      "new_effects": {},
+      "expected_mechanical_result": "Retains the existing one-time expedition grant of four Sunflare scouts and the existing exploration discovery behavior. No permanent speed or hull bonus.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "trader_max_hull_points_0",
+      "domain": "military",
+      "tier": 0,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 400.0,
+          "metal": 25.0,
+          "crystal": 50.0
+        },
+        "research_time": 60.0,
+        "field": "military_engineering",
+        "field_coord": [
+          0,
+          3
+        ]
+      },
+      "old_effects": {
+        "unit_modifiers": [
+          {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "value": 0.125
+          },
+          {
+            "modifier_type": "hull_point_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.05
+          },
+          {
+            "modifier_type": "hull_crippled_percentage",
+            "value_behavior": "scalar",
+            "value": 0.05
+          }
+        ]
+      },
+      "new_effects": {
+        "unit_modifiers": [
+          {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "frigate",
+              "cruiser",
+              "corvette",
+              "capital_ship",
+              "super_capital_ship",
+              "titan",
+              "starbase"
+            ]
+          }
+        ]
+      },
+      "expected_mechanical_result": "Ship and starbase maximum hull increases by 5%. Torpedoes and orbital structures receive no benefit from this node.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "trader_autocannon_weapon_damage_0",
+      "domain": "military",
+      "tier": 0,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 400.0,
+          "metal": 25.0,
+          "crystal": 50.0
+        },
+        "research_time": 60.0,
+        "field": "military_armament",
+        "field_coord": [
+          0,
+          0
+        ]
+      },
+      "old_effects": {
+        "weapon_modifiers": [
+          {
+            "value_behavior": "scalar",
+            "modifier_type": "damage",
+            "value": 0.05,
+            "tags": [
+              "autocannon"
+            ]
+          }
+        ]
+      },
+      "new_effects": {
+        "weapon_modifiers": [
+          {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "point_defense"
+            ]
+          }
+        ]
+      },
+      "expected_mechanical_result": "Point-defense weapon damage increases by 5%. Range, tracking, firing arcs and cadence are unchanged.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Compact Warhead Packages",
+      "definition": "trader_missile_weapon_damage_0",
+      "domain": "military",
+      "tier": 2,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 1200.0,
+          "metal": 200.0,
+          "crystal": 300.0
+        },
+        "research_time": 225.0,
+        "field": "military_armament",
+        "field_coord": [
+          4,
+          4
+        ]
+      },
+      "old_effects": {
+        "weapon_modifiers": [
+          {
+            "value_behavior": "scalar",
+            "modifier_type": "damage",
+            "value": 0.1,
+            "tags": [
+              "missile"
+            ]
+          }
+        ]
+      },
+      "new_effects": {
+        "weapon_modifiers": [
+          {
+            "modifier_type": "damage",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "missile"
+            ]
+          }
+        ]
+      },
+      "expected_mechanical_result": "Missile weapon damage and custom launched torpedo impact damage increase by 5%. Torpedo count, speed, health and reload schedules are unchanged.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Marine Assault Doctrine",
+      "definition": "trader_upgrade_experience_gain_0",
+      "domain": "military",
+      "tier": 2,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 1250.0,
+          "metal": 225.0,
+          "crystal": 350.0
+        },
+        "research_time": 270.0,
+        "field": "military_mobilization",
+        "field_coord": [
+          5,
+          2
+        ]
+      },
+      "old_effects": {
+        "unit_modifiers": [
+          {
+            "modifier_type": "experience_gained_from_unit_death",
+            "value_behavior": "scalar",
+            "value": 0.1
+          }
+        ]
+      },
+      "new_effects": {
+        "unit_modifiers": []
+      },
+      "expected_mechanical_result": "Scirocco Marine Breaching Teams disrupt for 13 seconds instead of 12. Penalties and the 45-second protection window are unchanged. Does not change capture chance.",
+      "scope": "Empire-wide owner research; Marine effect only on Scirocco cast, not a global debuff."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "trader_max_hull_points_2",
+      "domain": "military",
+      "tier": 3,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 1700.0,
+          "metal": 300.0,
+          "crystal": 500.0
+        },
+        "research_time": 360.0,
+        "prerequisites": [
+          [
+            "trader_max_hull_points_1"
+          ]
+        ],
+        "field": "military_engineering",
+        "field_coord": [
+          6,
+          3
+        ]
+      },
+      "old_effects": {
+        "unit_modifiers": [
+          {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "value": 0.05
+          },
+          {
+            "modifier_type": "hull_point_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.2
+          },
+          {
+            "modifier_type": "hull_crippled_percentage",
+            "value_behavior": "scalar",
+            "value": 0.2
+          }
+        ]
+      },
+      "new_effects": {
+        "unit_modifiers": [
+          {
+            "modifier_type": "hull_point_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "frigate",
+              "cruiser",
+              "corvette",
+              "capital_ship",
+              "super_capital_ship",
+              "titan",
+              "starbase"
+            ]
+          }
+        ]
+      },
+      "expected_mechanical_result": "Ship and starbase passive hull restoration increases by 5%. Existing combat repair delays remain. Combat Engineering Teams retains its fixed 400-point repair cap.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Reinforced Torpedo Casings",
+      "definition": "trader_missile_weapon_armor",
+      "domain": "military",
+      "tier": 4,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 2200.0,
+          "metal": 400.0,
+          "crystal": 700.0
+        },
+        "research_time": 525.0,
+        "prerequisites": [
+          [
+            "trader_hull_damage_reduction_1",
+            "trader_missile_weapon_damage_1"
+          ]
+        ],
+        "field": "military_armament",
+        "field_coord": [
+          8,
+          5
+        ]
+      },
+      "old_effects": {
+        "unit_modifiers": [
+          {
+            "modifier_type": "max_armor_points",
+            "value_behavior": "scalar",
+            "value": 0.5,
+            "tags": [
+              "torpedo"
+            ]
+          }
+        ]
+      },
+      "new_effects": {
+        "unit_modifiers": [
+          {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "value": 0.05,
+            "tags": [
+              "torpedo"
+            ]
+          }
+        ]
+      },
+      "expected_mechanical_result": "Owned torpedoes gain 5% maximum hull. Does not add armor or shields; PDC interception remains useful.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    },
+    {
+      "technology": "Railgun Thermal Management",
+      "definition": "trader_improve_gauss_defense_cooldown",
+      "domain": "military",
+      "tier": 2,
+      "cost_and_prerequisites_preserved": {
+        "price": {
+          "credits": 1200.0,
+          "metal": 200.0,
+          "crystal": 300.0
+        },
+        "research_time": 225.0,
+        "field": "military_armament",
+        "field_coord": [
+          4,
+          2
+        ]
+      },
+      "old_effects": {
+        "weapon_modifiers": [
+          {
+            "value_behavior": "scalar",
+            "modifier_type": "cooldown_duration",
+            "value": -0.15,
+            "tags": [
+              "gauss"
+            ]
+          }
+        ]
+      },
+      "new_effects": {
+        "weapon_modifiers": [
+          {
+            "modifier_type": "cooldown_duration",
+            "value_behavior": "scalar",
+            "value": -0.05,
+            "tags": [
+              "rail_gun"
+            ]
+          }
+        ]
+      },
+      "expected_mechanical_result": "Railgun weapon cooldowns decrease by 5%. Damage, penetration, firing arcs and tracking speed remain unchanged.",
+      "scope": "Empire-wide owner research; filters in modifiers restrict applicability."
+    }
+  ],
+  "torpedo_programs": {
+    "expanse10_donnager_light_magazine": {
+      "abilities": [
+        "expanse10_donnager_light_magazine"
+      ],
+      "torpedo_entities": [
+        "expanse04_light_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse10_donnager_light_magazine",
+        "expanse10_donnager_reactor"
+      ],
+      "damage_before": 750.0,
+      "damage_after": 787.5
+    },
+    "expanse12_pella_light_magazine": {
+      "abilities": [
+        "expanse12_pella_light_magazine"
+      ],
+      "torpedo_entities": [
+        "expanse04_light_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse12_pella_light_magazine",
+        "expanse12_pella_reactor"
+      ],
+      "damage_before": 750.0,
+      "damage_after": 787.5
+    },
+    "expanse06_amun_magazine": {
+      "abilities": [
+        "expanse06_amun_magazine"
+      ],
+      "torpedo_entities": [
+        "expanse06_amun_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse06_amun_magazine"
+      ],
+      "damage_before": 900.0,
+      "damage_after": 945.0
+    },
+    "expanse12_raptor_light_magazine": {
+      "abilities": [
+        "expanse12_raptor_light_magazine"
+      ],
+      "torpedo_entities": [
+        "expanse04_light_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse12_raptor_light_magazine",
+        "expanse12_raptor_reactor"
+      ],
+      "damage_before": 750.0,
+      "damage_after": 787.5
+    },
+    "expanse10_donnager_heavy_magazine": {
+      "abilities": [
+        "expanse10_donnager_heavy_magazine"
+      ],
+      "torpedo_entities": [
+        "expanse10_donnager_heavy_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse10_donnager_heavy_magazine",
+        "expanse10_donnager_reactor"
+      ],
+      "damage_before": 4000.0,
+      "damage_after": 4200.0
+    },
+    "expanse12_scirocco_light_magazine": {
+      "abilities": [
+        "expanse12_scirocco_light_magazine"
+      ],
+      "torpedo_entities": [
+        "expanse04_light_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse12_scirocco_light_magazine",
+        "expanse12_scirocco_reactor"
+      ],
+      "damage_before": 750.0,
+      "damage_after": 787.5
+    },
+    "expanse03_torpedo_magazine": {
+      "abilities": [
+        "expanse03_roci_torpedo_magazine",
+        "expanse03_torpedo_magazine"
+      ],
+      "torpedo_entities": [
+        "expanse04_light_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse03_torpedo_magazine"
+      ],
+      "damage_before": 750.0,
+      "damage_after": 787.5
+    },
+    "expanse03_hero_torpedo_salvo": {
+      "abilities": [
+        "expanse03_hero_torpedo_salvo"
+      ],
+      "torpedo_entities": [
+        "expanse04_light_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse03_hero_torpedo_salvo_on_self"
+      ],
+      "damage_before": 750.0,
+      "damage_after": 787.5
+    },
+    "expanse11_morrigan_magazine": {
+      "abilities": [
+        "expanse11_morrigan_magazine"
+      ],
+      "torpedo_entities": [
+        "expanse04_light_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse11_morrigan_magazine"
+      ],
+      "damage_before": 750.0,
+      "damage_after": 787.5
+    },
+    "expanse12_scirocco_heavy_magazine": {
+      "abilities": [
+        "expanse12_scirocco_heavy_magazine"
+      ],
+      "torpedo_entities": [
+        "expanse10_donnager_heavy_torpedo"
+      ],
+      "resolved_buff_graph": [
+        "expanse12_scirocco_heavy_magazine",
+        "expanse12_scirocco_reactor"
+      ],
+      "damage_before": 4000.0,
+      "damage_after": 4200.0
+    }
+  },
+  "single_node_numeric_checks": [
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "expanse_amun_ra",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 2400.0,
+      "researched_expected_single_bonus": 2520.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "expanse12_raptor",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 4500.0,
+      "researched_expected_single_bonus": 4725.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "expanse_mcrn_corvette",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 750.0,
+      "researched_expected_single_bonus": 787.5,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "trader_scout_corvette",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 100.0,
+      "researched_expected_single_bonus": 105.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "expanse12_scirocco",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 6500.0,
+      "researched_expected_single_bonus": 6825.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "expanse12_pella",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 5400.0,
+      "researched_expected_single_bonus": 5670.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "trader_light_frigate",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 600.0,
+      "researched_expected_single_bonus": 630.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "expanse_rocinante_hero",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 3000.0,
+      "researched_expected_single_bonus": 3150.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Compartmentalized Bulkheads",
+      "definition": "expanse_donnager_battleship",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 14520.0,
+      "researched_expected_single_bonus": 15246.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_raptor_pdc_4",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_rocinante04_pdc_0",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_2",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_rocinante04_pdc_2",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_8",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_polish_pdc_0",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_9",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_5",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_11",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_6",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_raptor_pdc_8",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_polish_pdc_1",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_11",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_pella_pdc_4",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_raptor_pdc_3",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_raptor_pdc_2",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse11_morrigan_pdc_1",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse06_amun_pdc_2",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_raptor_pdc_5",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_polish_pdc_4",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_pella_pdc_6",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_pella_pdc_5",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_13",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_raptor_pdc_6",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_pella_pdc_8",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_2",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse11_morrigan_pdc_0",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_pella_pdc_2",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_pella_pdc_1",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_raptor_pdc_1",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_rocinante04_pdc_5",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_8",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_pella_pdc_0",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_rocinante04_pdc_4",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_1",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_0",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_3",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_pella_pdc_3",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_7",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_7",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse06_amun_pdc_1",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_14",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_pella_pdc_7",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_rocinante04_pdc_3",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_raptor_pdc_0",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_12",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_raptor_pdc_7",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_polish_pdc_5",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_15",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_10",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_4",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_9",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_4",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_5",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_10",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_6",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_0",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse06_amun_pdc_0",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_polish_pdc_3",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse10_donnager_pdc_1",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_rocinante04_pdc_1",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse12_scirocco_pdc_3",
+      "field": "damage",
+      "unresearched_definition_value": 14.0,
+      "researched_expected_single_bonus": 14.7,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "PDC Fire-Control Solutions",
+      "definition": "expanse_polish_pdc_2",
+      "field": "damage",
+      "unresearched_definition_value": 28.0,
+      "researched_expected_single_bonus": 29.4,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "expanse_amun_ra",
+      "field": "hull_point_restore_rate",
+      "unresearched_definition_value": 1.5,
+      "researched_expected_single_bonus": 1.575,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "expanse12_raptor",
+      "field": "hull_point_restore_rate",
+      "unresearched_definition_value": 3.0,
+      "researched_expected_single_bonus": 3.15,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "expanse_mcrn_corvette",
+      "field": "hull_point_restore_rate",
+      "unresearched_definition_value": 1.5,
+      "researched_expected_single_bonus": 1.575,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "trader_scout_corvette",
+      "field": "hull_point_restore_rate",
+      "unresearched_definition_value": 1.0,
+      "researched_expected_single_bonus": 1.05,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "expanse12_scirocco",
+      "field": "hull_point_restore_rate",
+      "unresearched_definition_value": 3.0,
+      "researched_expected_single_bonus": 3.15,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "expanse12_pella",
+      "field": "hull_point_restore_rate",
+      "unresearched_definition_value": 3.0,
+      "researched_expected_single_bonus": 3.15,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "trader_light_frigate",
+      "field": "hull_point_restore_rate",
+      "unresearched_definition_value": 1.5,
+      "researched_expected_single_bonus": 1.575,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "expanse_rocinante_hero",
+      "field": "hull_point_restore_rate",
+      "unresearched_definition_value": 1.5,
+      "researched_expected_single_bonus": 1.575,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Combat Damage Control",
+      "definition": "expanse_donnager_battleship",
+      "field": "hull_point_restore_rate",
+      "unresearched_definition_value": 6.0,
+      "researched_expected_single_bonus": 6.3,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Reinforced Torpedo Casings",
+      "definition": "expanse10_donnager_heavy_torpedo",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 50.0,
+      "researched_expected_single_bonus": 52.5,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Reinforced Torpedo Casings",
+      "definition": "expanse06_amun_torpedo",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 25.0,
+      "researched_expected_single_bonus": 26.25,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Reinforced Torpedo Casings",
+      "definition": "expanse04_light_torpedo",
+      "field": "max_hull_points",
+      "unresearched_definition_value": 50.0,
+      "researched_expected_single_bonus": 52.5,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Railgun Thermal Management",
+      "definition": "expanse03_hero_railgun",
+      "field": "cooldown_duration",
+      "unresearched_definition_value": 10.0,
+      "researched_expected_single_bonus": 9.5,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Railgun Thermal Management",
+      "definition": "expanse10_donnager_rail_1",
+      "field": "cooldown_duration",
+      "unresearched_definition_value": 20.0,
+      "researched_expected_single_bonus": 19.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Railgun Thermal Management",
+      "definition": "expanse06_amun_railgun",
+      "field": "cooldown_duration",
+      "unresearched_definition_value": 10.0,
+      "researched_expected_single_bonus": 9.5,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Railgun Thermal Management",
+      "definition": "expanse10_donnager_rail_0",
+      "field": "cooldown_duration",
+      "unresearched_definition_value": 20.0,
+      "researched_expected_single_bonus": 19.0,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    },
+    {
+      "technology": "Railgun Thermal Management",
+      "definition": "expanse12_scirocco_rail_0",
+      "field": "cooldown_duration",
+      "unresearched_definition_value": 15.0,
+      "researched_expected_single_bonus": 14.25,
+      "existing_and_new_units": "Same owner research modifier expected; existing current HP may preserve fraction/absolute amount per engine and is NOT RUN."
+    }
+  ],
+  "installed_sources": {
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_robotics_cruiser_repair_droids.ability": "6f265a84473fdd3bf901189551eb6d7bd3405d8b6d300c3ba8949db6e0cbb655",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/research-subject-schema.json": "e5858238bd357c24ba87dd59501325b76c8a3e8270a04a864fdf075fbff1483e",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/ability-schema.json": "d6a1de797283d6ff0db79defbc64c92a3afde14a2da58d6214e794cb69601dc4",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/action-data-source-schema.json": "4a762b71a3e30715e2c0e5ea0df0eced70edbefb33f8e8651e9bc0d49160d6e4",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_planet_health_restore_rate.research_subject": "d9074b5caddeb316460b462eec0a9379cd0abf03a1ccf79135b39b8e3ec1fdd7",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_structure_build_rate.research_subject": "12804dfbce0d65c7659ed2604da74598c67b508a1135a8e49d0aa05d900852fe",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_mining_track_crystal_rate_0.research_subject": "ca061d28c65ca042956f56a4600b95291787ff0a72f21489df4becc914d8ba54",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_trade_port_income_rate_0.research_subject": "527f33a77850d158dfb1dab2d3614c0135f8bbd8f73bd35cfc6594b01f1b2145",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_labor_negotiations.research_subject": "412b8570dfee9002a5231d72ffbbef471bea406311f3a505f4be202b26a00183",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_find_npc_explore.research_subject": "deab2d0715db0aa038b55bdee4fb2529b854f220f0f4debba7ca24bdca81d5e9",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_max_hull_points_0.research_subject": "12fac95a73293ff3bc01305496d3610fb8d186e6164c79b930cad32477e55b9a",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_autocannon_weapon_damage_0.research_subject": "11c48cb7445639615bae78626faa56d25b5fe1337bcbe50726354ef1782d5461",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_missile_weapon_damage_0.research_subject": "3f0ea420392351b67fe0ee9b846f438466aa8ae7881fa7778ad5c6c53c5b0fcd",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_upgrade_experience_gain_0.research_subject": "47eb463eccebd6fd37b4b9793991043176948827728afa23847a07481458a8d7",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_max_hull_points_2.research_subject": "f19fc0a5edafc23428a54e810bd255f266f161113a1d6daa5146787fcf93fb2b",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_missile_weapon_armor.research_subject": "760a067272d45ee7934218e3d7caa1f5c4d2b171d921e8a626a5511bfda54061",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_improve_gauss_defense_cooldown.research_subject": "8b2892326c3829261752f4f207a521db85ee56a5f3f414cc5dbe6f94f673b316"
+  },
+  "integration": {
+    "procedure": "Overlay entities, merge localization-entries.json into localized_text/en.localized_text. No new entity IDs or player changes required. Main Scirocco worker binds Marine doctrine independently. Call on complete candidate containing Truman before packaging.",
+    "source_ability_pattern": "trader_robotics_cruiser_repair_droids.ability, level_prerequisites=[[],[[trader_retrofit_bay_repair_rate_0]]]",
+    "research_program_runtime_risks": [
+      "Existing persistent magazine buff might retain old action-source level until its next magazine cycle; launch/research mid-magazine must be observed.",
+      "Torpedoes already launched may keep their launch-time damage snapshot; compare pre/post unlock missiles.",
+      "Ability level transition may restart persistent buff/ammo state; test before/after research, save/reload and host/client parity before claiming behavior pass."
+    ]
+  },
+  "limitations": [
+    "No research-based weapon tracking, penetration, firing arcs or speed change. Railgun cooldown only \u22125%.",
+    "Shield guard and hidden shield-only research preserved; foreign captured hulls/foreign allied buffs retain prior policy limits.",
+    "Deep-Survey retains native four-scout windfall, not an additional new reward.",
+    "Other native unfiltered hull/armor research still applies to torpedo entities, listed in inherited-research audit.",
+    "Research replacements retain old node IDs for prerequisites/save compatibility; downstream upgrade names and benefits remain native."
+  ]
+}
