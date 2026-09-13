@@ -1,0 +1,383 @@
+{
+  "status": "PASS OFFLINE",
+  "meshes": [
+    {
+      "mesh": "expanse19_europa_bane_hull",
+      "triangles": 100867,
+      "sha256": "a8f0f86db47acb7242e9fcdd33b7f1b4e9f579852fd394ababfe8302196b7e11",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 7.908399755273925e-06,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "materials": [
+        "expanse19_europa_bane_hull_expanse19_europa_material_01",
+        "expanse19_europa_bane_hull_expanse19_europa_material_02",
+        "expanse19_europa_bane_hull_expanse19_europa_material_04",
+        "expanse19_europa_bane_hull_expanse19_europa_material_05",
+        "expanse19_europa_bane_hull_expanse19_europa_material_06",
+        "expanse19_europa_bane_hull_expanse19_europa_material_07",
+        "expanse19_europa_bane_hull_expanse19_europa_material_08",
+        "expanse19_europa_bane_hull_expanse19_europa_material_09",
+        "expanse19_europa_bane_hull_expanse19_europa_material_10",
+        "expanse19_europa_bane_hull_expanse19_europa_material_15",
+        "expanse19_europa_bane_hull_expanse19_europa_material_17",
+        "expanse19_europa_bane_hull_expanse19_europa_support"
+      ],
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            60.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -60.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse19_europa_pdc_0",
+          "position": [
+            -0.11599302291870117,
+            37.50524139404297,
+            90.75187683105469
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse19_europa_pdc_1",
+          "position": [
+            -0.11599302291870117,
+            -36.73693084716797,
+            90.75187683105469
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse19_europa_pdc_2",
+          "position": [
+            44.18526840209961,
+            23.97076988220215,
+            -117.37312316894531
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse19_europa_pdc_3",
+          "position": [
+            -44.41725158691406,
+            23.97076988220215,
+            -117.37312316894531
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse19_europa_pdc_4",
+          "position": [
+            37.279666900634766,
+            -22.799888610839844,
+            2.6268768310546875
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            -0.7071067690849304,
+            -0.0,
+            0.7071067690849304,
+            -0.7071067094802856,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse19_europa_pdc_5",
+          "position": [
+            -37.51165008544922,
+            -22.799888610839844,
+            2.6268768310546875
+          ],
+          "rotation": [
+            -0.7071067094802856,
+            0.7071067690849304,
+            0.0,
+            -0.7071067690849304,
+            -0.7071067094802856,
+            -0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.torpedo.0",
+          "position": [
+            14.88400650024414,
+            -0.40423035621643066,
+            107.40849304199219
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.torpedo.1",
+          "position": [
+            -15.11599349975586,
+            -0.40423035621643066,
+            107.40849304199219
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.boarding.0",
+          "position": [
+            14.88400650024414,
+            -0.40423035621643066,
+            107.40849304199219
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            -0.11599302291870117,
+            5.033269882202148,
+            -153.7481231689453
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.1",
+          "position": [
+            31.87150764465332,
+            23.59576988220215,
+            -167.2481231689453
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.2",
+          "position": [
+            -32.15974426269531,
+            23.520769119262695,
+            -167.2481231689453
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.3",
+          "position": [
+            -0.11599302291870117,
+            -31.90423011779785,
+            -167.2481231689453
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    {
+      "mesh": "expanse19_europa_pdc_base",
+      "triangles": 138,
+      "sha256": "c4b44a1b2730056b72041bbabdb08e3970acbbbcd462c5dba4b47ba4b4b53f46",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 3.6256091856148213e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "materials": [
+        "expanse19_europa_pdc_base_mcrn_tachi_material"
+      ],
+      "meshpoints": []
+    },
+    {
+      "mesh": "expanse19_europa_pdc_barrel",
+      "triangles": 539,
+      "sha256": "87828cae23fd21425944711719fc8bed6201ebd4f944f7c736e20417eac316df",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 5.077339719951397e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "materials": [
+        "expanse19_europa_pdc_barrel_mcrn_tachi_material"
+      ],
+      "meshpoints": []
+    }
+  ],
+  "runtime": "NOT RUN"
+}

@@ -1,0 +1,678 @@
+{
+  "status": "PASS OFFLINE",
+  "material_count": 14,
+  "references": [
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_support.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_support_base_color_texture.dds",
+      "dimensions": [
+        16,
+        16
+      ],
+      "mips": 5,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_support.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_support_occlusion_roughness_metallic_texture.dds",
+      "dimensions": [
+        16,
+        16
+      ],
+      "mips": 5,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_support.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_support_normal_texture.dds",
+      "dimensions": [
+        16,
+        16
+      ],
+      "mips": 5,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_support.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_support_mask_texture.dds",
+      "dimensions": [
+        16,
+        16
+      ],
+      "mips": 5,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_06.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_06_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_06.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_06_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_06.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_06_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_06.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_06_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_07.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_07_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_07.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_07_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_07.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_07_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_07.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_07_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_pdc_base_mcrn_tachi_material.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_pdc_base_color_texture.dds",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_pdc_base_mcrn_tachi_material.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_pdc_occlusion_roughness_metallic_texture.dds",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_pdc_base_mcrn_tachi_material.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_pdc_normal_texture.dds",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_pdc_base_mcrn_tachi_material.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_pdc_mask_texture.dds",
+      "dimensions": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_10.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_10_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_10.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_10_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_10.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_10_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_10.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_10_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_17.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_17_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_17.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_17_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_17.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_17_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_17.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_17_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_05.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_05_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_05.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_05_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_05.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_05_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_05.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_05_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_15.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_15_clr.dds",
+      "dimensions": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_15.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_15_orm.dds",
+      "dimensions": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_15.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_15_nrm.dds",
+      "dimensions": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_15.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_15_msk.dds",
+      "dimensions": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_08.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_08_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_08.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_08_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_08.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_08_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_08.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_08_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_pdc_base_color_texture.dds",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_pdc_occlusion_roughness_metallic_texture.dds",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_pdc_normal_texture.dds",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "mips": 12,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_pdc_mask_texture.dds",
+      "dimensions": [
+        4,
+        4
+      ],
+      "mips": 3,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_04.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_04_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_04.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_04_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_04.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_04_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_04.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_04_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_02.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_02_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_02.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_02_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_02.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_02_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_02.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_02_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_09.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_09_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_09.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_09_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_09.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_09_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_09.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_09_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_01.mesh_material",
+      "channel": "base_color_texture",
+      "texture": "expanse19_europa_material_01_clr.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_01.mesh_material",
+      "channel": "occlusion_roughness_metallic_texture",
+      "texture": "expanse19_europa_material_01_orm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_01.mesh_material",
+      "channel": "normal_texture",
+      "texture": "expanse19_europa_material_01_nrm.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "BC5S",
+      "dxgi_format": null
+    },
+    {
+      "material": "expanse19_europa_bane_hull_expanse19_europa_material_01.mesh_material",
+      "channel": "mask_texture",
+      "texture": "expanse19_europa_material_01_msk.dds",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "mips": 11,
+      "fourcc": "DX10",
+      "dxgi_format": 98
+    }
+  ]
+}

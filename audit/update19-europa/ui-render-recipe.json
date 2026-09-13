@@ -1,0 +1,40 @@
+{
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/expanse19_europa_editable.gltf": "40c77ea6ffccceacea83acd4dd831d35bfe558423c6bff0c2357622e515b6b3b",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/expanse19_europa_editable.bin": "635d9808fdd194f9210f37b6a1df3c53a9f7bd2733df6c1db896cfbca0988788",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_01_clr.png": "d72edfd1ae117476f9418d91bc9e8fec4bcfb51ad36fb0a26a1128622f390db4",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_02_clr.png": "38e9a14fcc883e4bf8a17a1e260f0a5491ecba4df84568d2263a6204a0d6f841",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_04_clr.png": "3cff8068faf4379d44ae310c72bbfc4fcbfa30cee94919c411cf3740c4c48725",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_05_clr.png": "c68979cf8f30d41b22d300c8e0d444dbb6312dbb5ab7842bb55491ec6ed675ed",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_06_clr.png": "0b1273d5b228852b01793db791500596c766b16c2cfd1761dccac5479e4194e8",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_07_clr.png": "7156ec072842753bfd7e11c6f88a21e1e21e9f1b830a6199169d8ce703ca05e9",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_08_clr.png": "dcc9bfc5bb75b6fc89ccb99b8e09c1922e30b814549f58aa185ec7816a7ba5bf",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_09_clr.png": "d72edfd1ae117476f9418d91bc9e8fec4bcfb51ad36fb0a26a1128622f390db4",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_10_clr.png": "c7a06cce4ab8874a0b9e58f14d8478654d02a7e27e1bfc5d7c0b152d20f510cb",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_15_clr.png": "f75c8af4ad31eee3f6689c81126c676487babb8722b361a7eb4eaff5a2c3c1cd",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_17_clr.png": "7bd072604ff31d1c879de33cf1d73663527370290f0fd26f411760da068a3048",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/game/textures/expanse19_europa_pdc_base_color_texture.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a"
+  },
+  "triangles": 104929,
+  "coordinate_conversion": "Source already uses game-facing right-handed glTF axes",
+  "camera_basis": [
+    [
+      0.7803805282839275,
+      0.0,
+      0.6253049104839162
+    ],
+    [
+      0.23984779590714161,
+      0.9235120770132178,
+      -0.29933004929211277
+    ],
+    [
+      -0.5774766366475658,
+      0.3835693465473128,
+      0.720690842536162
+    ]
+  ],
+  "material_colors": "Actual source material base-color texture and UVs, or explicit source PBR factor; no invented colors",
+  "renderer": "Imported generic CPU double-sided z-buffer from polish_ui.py; studio contrast lift and Lambert shading; not Sins runtime rendering",
+  "runtime": "NOT RUN"
+}

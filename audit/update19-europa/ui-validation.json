@@ -1,0 +1,366 @@
+{
+  "status": "PASS",
+  "pinned_brush_schema_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/expanse19_europa_editable.gltf": "40c77ea6ffccceacea83acd4dd831d35bfe558423c6bff0c2357622e515b6b3b",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/expanse19_europa_editable.bin": "635d9808fdd194f9210f37b6a1df3c53a9f7bd2733df6c1db896cfbca0988788",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_01_clr.png": "d72edfd1ae117476f9418d91bc9e8fec4bcfb51ad36fb0a26a1128622f390db4",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_02_clr.png": "38e9a14fcc883e4bf8a17a1e260f0a5491ecba4df84568d2263a6204a0d6f841",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_04_clr.png": "3cff8068faf4379d44ae310c72bbfc4fcbfa30cee94919c411cf3740c4c48725",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_05_clr.png": "c68979cf8f30d41b22d300c8e0d444dbb6312dbb5ab7842bb55491ec6ed675ed",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_06_clr.png": "0b1273d5b228852b01793db791500596c766b16c2cfd1761dccac5479e4194e8",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_07_clr.png": "7156ec072842753bfd7e11c6f88a21e1e21e9f1b830a6199169d8ce703ca05e9",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_08_clr.png": "dcc9bfc5bb75b6fc89ccb99b8e09c1922e30b814549f58aa185ec7816a7ba5bf",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_09_clr.png": "d72edfd1ae117476f9418d91bc9e8fec4bcfb51ad36fb0a26a1128622f390db4",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_10_clr.png": "c7a06cce4ab8874a0b9e58f14d8478654d02a7e27e1bfc5d7c0b152d20f510cb",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_15_clr.png": "f75c8af4ad31eee3f6689c81126c676487babb8722b361a7eb4eaff5a2c3c1cd",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/texture-sources/expanse19_europa_material_17_clr.png": "7bd072604ff31d1c879de33cf1d73663527370290f0fd26f411760da068a3048",
+    "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/game/textures/expanse19_europa_pdc_base_color_texture.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a"
+  },
+  "triangles": 104929,
+  "brush_schema_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/brushes/expanse19_europa_hud_icon.brush",
+      "status": "PASS",
+      "texture": "expanse19_europa_hud_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/brushes/expanse19_europa_hud_picture.brush",
+      "status": "PASS",
+      "texture": "expanse19_europa_hud_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/brushes/expanse19_europa_tooltip_picture.brush",
+      "status": "PASS",
+      "texture": "expanse19_europa_tooltip_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/brushes/expanse19_europa_main_view_icon.brush",
+      "status": "PASS",
+      "texture": "expanse19_europa_main_view_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/brushes/expanse19_europa_main_view_icon_selected.brush",
+      "status": "PASS",
+      "texture": "expanse19_europa_main_view_icon_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/brushes/expanse19_europa_main_view_icon_sub_selected.brush",
+      "status": "PASS",
+      "texture": "expanse19_europa_main_view_icon_sub_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    }
+  ],
+  "png_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_hud_icon.png",
+      "sha256": "e7f70d0e000d43094483315582131e2468a4aa7fae7c08cd959c69539a0d263f",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_hud_icon150.png",
+      "sha256": "f01d32c14167afa39a7597183cf76c7b21a6386a5695c0deeecf346e39563aa7",
+      "dimensions": [
+        128,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_hud_icon200.png",
+      "sha256": "569c5f35aa011a9614c7d4121f984eae9cf2432ba612ebaf3931ea5f060036db",
+      "dimensions": [
+        170,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_hud_picture.png",
+      "sha256": "769e4f874b09676c5742bcd642b29ccad7e9a7a70d1d9cbfa21ee886d983c438",
+      "dimensions": [
+        265,
+        85
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_hud_picture150.png",
+      "sha256": "1acfeb52b82bc9cae864ab801f4e7c399f316b808ab4ac26ee3e957a478dbd08",
+      "dimensions": [
+        397,
+        127
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_hud_picture200.png",
+      "sha256": "11cd57d1a35017df451fd852ad954ece28291f21514ca14cb5a79d2da4d98139",
+      "dimensions": [
+        530,
+        170
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_tooltip_picture.png",
+      "sha256": "e277d8b555b9954c6769c83b3fdd8f541ef4e855e551ce4c0797c8e29f586bda",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_tooltip_picture150.png",
+      "sha256": "fabd8920f7047340ec07992709844a0acbd4607e4590b5ffb36c29f9af4467fd",
+      "dimensions": [
+        689,
+        324
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_tooltip_picture200.png",
+      "sha256": "1cee315f1178b72bd3f9f503a6406c21f3e03e23e2a47506a82a6031bb6a305b",
+      "dimensions": [
+        918,
+        432
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_main_view_icon.png",
+      "sha256": "f114986320b92366bb0433f7d4b8c0f3262afe39c0e11e86f82fe6d96a957d2a",
+      "dimensions": [
+        25,
+        12
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_main_view_icon150.png",
+      "sha256": "92e4cfbad950b4f71a561982fcbbde75bc257ce27b6d6ae43053987ae79e3257",
+      "dimensions": [
+        38,
+        18
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_main_view_icon200.png",
+      "sha256": "04b20932673725d61f6e36bfd49c7de935d74df713a12f65ffe178f77848eec7",
+      "dimensions": [
+        50,
+        24
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_main_view_icon_selected.png",
+      "sha256": "1a2da847ad881b1443f41033cc3be7bae9d451aa9cc7ac3501224a77302884e9",
+      "dimensions": [
+        36,
+        23
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_main_view_icon_selected150.png",
+      "sha256": "238e2a595ee5f51b9ff30145423d1bbfd2c0456be284df3bb2656fee2118e762",
+      "dimensions": [
+        54,
+        35
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_main_view_icon_selected200.png",
+      "sha256": "a498647cc4eab4f1d7f38aba85073d2955e79b9fa0a2484d52b6e741bd47e862",
+      "dimensions": [
+        72,
+        46
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_main_view_icon_sub_selected.png",
+      "sha256": "41d1e685dcb0e857e2ad65e004765dcd6ab59be6ef65bb2e3495d2db7bbb8c77",
+      "dimensions": [
+        46,
+        33
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_main_view_icon_sub_selected150.png",
+      "sha256": "7edecb3376f624dc625afde38130e22cefd1ab3a456ebbd348078303d8cd40c9",
+      "dimensions": [
+        69,
+        50
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/textures/expanse19_europa_main_view_icon_sub_selected200.png",
+      "sha256": "15df81fa33ffcb58b1bdc552e0ca8862247865259369be3a47dc11f38b19300e",
+      "dimensions": [
+        92,
+        66
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/expanse19_europa_mod_small_logo.png",
+      "sha256": "5a0277dad24ad51d4a977ca56085fe2e115d73622f2debba285282f66466743a",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_small_logo.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/generated/expanse19_europa_mod_large_logo.png",
+      "sha256": "5cb4b97e71bec5e08aa82240b37154c6ae7cbe023311bfe9779846044db07d03",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_large_logo.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

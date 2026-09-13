@@ -1,0 +1,1293 @@
+{
+  "status": "PASS OFFLINE MESH/MATERIAL/SAMPLED ARC; RUNTIME NOT RUN",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/game",
+  "hull_mesh": "expanse19_europa_bane_hull",
+  "rigs": [
+    {
+      "index": 0,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse19_europa_pdc_0",
+        "mesh_point": "child.expanse19_europa_pdc_0",
+        "weapon_position": [
+          -0.11599302291870117,
+          37.50524280890902,
+          90.75187683105469
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -0.11599302291870117,
+        37.50524280890902,
+        90.75187683105469
+      ],
+      "pitch_pivot_hull": [
+        -0.11599302291870117,
+        41.63459579513933,
+        91.31380095166713
+      ],
+      "muzzle_hull": [
+        -0.11598964707586243,
+        42.85655213504436,
+        102.67936170951424
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse19_europa_pdc_base",
+        "biaxial_barrel_mesh": "expanse19_europa_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          4.129352986230314,
+          0.5619241206124408
+        ],
+        "muzzle_positions": [
+          [
+            3.375842838746479e-06,
+            1.2219563399050293,
+            11.365560757847105
+          ]
+        ]
+      },
+      "measured_contact": [
+        -0.11599302291870117,
+        32.50524280890902,
+        90.75187683105469
+      ],
+      "source_location": [
+        0,
+        11,
+        -97
+      ],
+      "arc_validation": {
+        "blocked": 0,
+        "rays": 224181,
+        "step_degrees": 1,
+        "aim_envelope_degrees": 3
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse19_europa_pdc_1",
+        "mesh_point": "child.expanse19_europa_pdc_1",
+        "weapon_position": [
+          -0.11599302291870117,
+          -36.736932066500785,
+          90.75187683105469
+        ],
+        "up": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -0.11599302291870117,
+        -36.736932066500785,
+        90.75187683105469
+      ],
+      "pitch_pivot_hull": [
+        -0.11599302291870117,
+        -40.8662850527311,
+        91.31380095166713
+      ],
+      "muzzle_hull": [
+        -0.11599639876153992,
+        -42.08824139263613,
+        102.67936170951424
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse19_europa_pdc_base",
+        "biaxial_barrel_mesh": "expanse19_europa_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          4.129352986230314,
+          0.5619241206124408
+        ],
+        "muzzle_positions": [
+          [
+            3.375842838746479e-06,
+            1.2219563399050293,
+            11.365560757847105
+          ]
+        ]
+      },
+      "measured_contact": [
+        -0.11599302291870117,
+        -31.736932066500785,
+        90.75187683105469
+      ],
+      "source_location": [
+        0,
+        -20,
+        -97
+      ],
+      "arc_validation": {
+        "blocked": 0,
+        "rays": 224181,
+        "step_degrees": 1,
+        "aim_envelope_degrees": 3
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse19_europa_pdc_2",
+        "mesh_point": "child.expanse19_europa_pdc_2",
+        "weapon_position": [
+          44.18527018603869,
+          23.97076964378357,
+          -117.37312316894531
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        44.18527018603869,
+        23.97076964378357,
+        -117.37312316894531
+      ],
+      "pitch_pivot_hull": [
+        48.31462317226901,
+        23.97076964378357,
+        -116.81119904833287
+      ],
+      "muzzle_hull": [
+        49.536579512174036,
+        23.970766267940732,
+        -105.44563829048576
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse19_europa_pdc_base",
+        "biaxial_barrel_mesh": "expanse19_europa_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          4.129352986230314,
+          0.5619241206124408
+        ],
+        "muzzle_positions": [
+          [
+            3.375842838746479e-06,
+            1.2219563399050293,
+            11.365560757847105
+          ]
+        ]
+      },
+      "measured_contact": [
+        39.18527018603869,
+        23.97076964378357,
+        -117.37312316894531
+      ],
+      "source_location": [
+        -22,
+        6,
+        14
+      ],
+      "arc_validation": {
+        "blocked": 0,
+        "rays": 224181,
+        "step_degrees": 1,
+        "aim_envelope_degrees": 3
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse19_europa_pdc_3",
+        "mesh_point": "child.expanse19_europa_pdc_3",
+        "weapon_position": [
+          -44.417251549190965,
+          23.97076964378357,
+          -117.37312316894531
+        ],
+        "up": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -44.417251549190965,
+        23.97076964378357,
+        -117.37312316894531
+      ],
+      "pitch_pivot_hull": [
+        -48.54660453542128,
+        23.97076964378357,
+        -116.81119904833287
+      ],
+      "muzzle_hull": [
+        -49.76856087532631,
+        23.970773019626407,
+        -105.44563829048576
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse19_europa_pdc_base",
+        "biaxial_barrel_mesh": "expanse19_europa_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          4.129352986230314,
+          0.5619241206124408
+        ],
+        "muzzle_positions": [
+          [
+            3.375842838746479e-06,
+            1.2219563399050293,
+            11.365560757847105
+          ]
+        ]
+      },
+      "measured_contact": [
+        -39.417251549190965,
+        23.97076964378357,
+        -117.37312316894531
+      ],
+      "source_location": [
+        22,
+        6,
+        14
+      ],
+      "arc_validation": {
+        "blocked": 0,
+        "rays": 224181,
+        "step_degrees": 1,
+        "aim_envelope_degrees": 3
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse19_europa_pdc_4",
+        "mesh_point": "child.expanse19_europa_pdc_4",
+        "weapon_position": [
+          37.27966555041799,
+          -22.79988892955312,
+          2.6268768310546875
+        ],
+        "up": [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.7071067811865476,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        37.27966555041799,
+        -22.79988892955312,
+        2.6268768310546875
+      ],
+      "pitch_pivot_hull": [
+        40.199559048894365,
+        -25.719782428029497,
+        3.1888009516671283
+      ],
+      "muzzle_hull": [
+        41.06361027607374,
+        -26.5838384293716,
+        14.554361709514232
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse19_europa_pdc_base",
+        "biaxial_barrel_mesh": "expanse19_europa_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          4.129352986230314,
+          0.5619241206124408
+        ],
+        "muzzle_positions": [
+          [
+            3.375842838746479e-06,
+            1.2219563399050293,
+            11.365560757847105
+          ]
+        ]
+      },
+      "measured_contact": [
+        33.74413164448525,
+        -19.264355023620382,
+        2.6268768310546875
+      ],
+      "source_location": [
+        -19,
+        -18,
+        -50
+      ],
+      "arc_validation": {
+        "blocked": 0,
+        "rays": 224181,
+        "step_degrees": 1,
+        "aim_envelope_degrees": 3
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse19_europa_pdc_5",
+        "mesh_point": "child.expanse19_europa_pdc_5",
+        "weapon_position": [
+          -37.511651596255376,
+          -22.799888929553106,
+          2.6268768310546875
+        ],
+        "up": [
+          -0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        [
+          0.7071067811865476,
+          -0.7071067811865476,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -37.511651596255376,
+        -22.799888929553106,
+        2.6268768310546875
+      ],
+      "pitch_pivot_hull": [
+        -40.43154509473175,
+        -25.719782428029482,
+        3.1888009516671283
+      ],
+      "muzzle_hull": [
+        -41.29560109607385,
+        -26.583833655208856,
+        14.554361709514232
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse19_europa_pdc_base",
+        "biaxial_barrel_mesh": "expanse19_europa_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          4.129352986230314,
+          0.5619241206124408
+        ],
+        "muzzle_positions": [
+          [
+            3.375842838746479e-06,
+            1.2219563399050293,
+            11.365560757847105
+          ]
+        ]
+      },
+      "measured_contact": [
+        -33.97611769032264,
+        -19.264355023620368,
+        2.6268768310546875
+      ],
+      "source_location": [
+        19,
+        -18,
+        -50
+      ],
+      "arc_validation": {
+        "blocked": 0,
+        "rays": 224181,
+        "step_degrees": 1,
+        "aim_envelope_degrees": 3
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse19_europa_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse19_europa_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ]
+    }
+  ],
+  "ship_spatial": {
+    "box": {
+      "center": [
+        -0.11599068157613601,
+        0.38415537120411614,
+        -0.004788637161254883
+      ],
+      "extents": [
+        54.500732519540335,
+        47.32055908963041,
+        167.66817212104797
+      ]
+    },
+    "radius": 174.43423252526338,
+    "bounds_min": [
+      -54.61672320111647,
+      -46.93640371842629,
+      -167.67296075820923
+    ],
+    "bounds_max": [
+      54.3847418379642,
+      47.70471446083452,
+      167.66338348388672
+    ]
+  },
+  "equipment": {
+    "light_torpedo_ports": [
+      {
+        "position": [
+          14.884006977081299,
+          -0.40423035621643066,
+          107.4084909668821
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source": "Measured forward hull launcher retrofit, exact screen tube correspondence unverified"
+      },
+      {
+        "position": [
+          -15.115993022918701,
+          -0.40423035621643066,
+          107.40849096688208
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source": "Measured forward hull launcher retrofit, exact screen tube correspondence unverified"
+      }
+    ],
+    "torpedo_ports": [
+      {
+        "position": [
+          14.884006977081299,
+          -0.40423035621643066,
+          107.4084909668821
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source": "Measured forward hull launcher retrofit, exact screen tube correspondence unverified"
+      },
+      {
+        "position": [
+          -15.115993022918701,
+          -0.40423035621643066,
+          107.40849096688208
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source": "Measured forward hull launcher retrofit, exact screen tube correspondence unverified"
+      }
+    ],
+    "light_torpedo_port": {
+      "position": [
+        14.884006977081299,
+        -0.40423035621643066,
+        107.4084909668821
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source": "Measured forward hull launcher retrofit, exact screen tube correspondence unverified"
+    },
+    "exhaust": {
+      "position": [
+        -0.11599302291870117,
+        5.03326964378357,
+        -153.7481231689453
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    "exhausts": [
+      {
+        "position": [
+          -0.11599302291870117,
+          5.03326964378357,
+          -153.7481231689453
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          31.871506977081296,
+          23.59576964378357,
+          -167.2481231689453
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -32.159743022918704,
+          23.52076964378357,
+          -167.2481231689453
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "position": [
+          -0.11599302291870117,
+          -31.90423035621643,
+          -167.2481231689453
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ]
+      }
+    ]
+  },
+  "counts": {
+    "hull": 100867,
+    "pdc_base": 138,
+    "pdc_barrel": 539
+  },
+  "assembled_triangle_total": 104929,
+  "meshpoints": {
+    "hull": [
+      {
+        "name": "center",
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0,
+          60,
+          0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0,
+          -60,
+          0
+        ]
+      },
+      {
+        "name": "child.expanse19_europa_pdc_0",
+        "translation": [
+          -0.11599302291870117,
+          37.50524280890902,
+          90.75187683105469
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse19_europa_pdc_1",
+        "translation": [
+          -0.11599302291870117,
+          -36.736932066500785,
+          90.75187683105469
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      {
+        "name": "child.expanse19_europa_pdc_2",
+        "translation": [
+          44.18527018603869,
+          23.97076964378357,
+          -117.37312316894531
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          -0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse19_europa_pdc_3",
+        "translation": [
+          -44.417251549190965,
+          23.97076964378357,
+          -117.37312316894531
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067811865475,
+          0.7071067811865475
+        ]
+      },
+      {
+        "name": "child.expanse19_europa_pdc_4",
+        "translation": [
+          37.27966555041799,
+          -22.79988892955312,
+          2.6268768310546875
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.9238795325112867,
+          -0.3826834323650898
+        ]
+      },
+      {
+        "name": "child.expanse19_europa_pdc_5",
+        "translation": [
+          -37.511651596255376,
+          -22.799888929553106,
+          2.6268768310546875
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.9238795325112867,
+          0.3826834323650898
+        ]
+      },
+      {
+        "name": "weapon.torpedo.0",
+        "translation": [
+          14.884006977081299,
+          -0.40423035621643066,
+          107.4084909668821
+        ]
+      },
+      {
+        "name": "weapon.torpedo.1",
+        "translation": [
+          -15.115993022918701,
+          -0.40423035621643066,
+          107.40849096688208
+        ]
+      },
+      {
+        "name": "weapon.boarding.0",
+        "translation": [
+          14.884006977081299,
+          -0.40423035621643066,
+          107.4084909668821
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          -0.11599302291870117,
+          5.03326964378357,
+          -153.7481231689453
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.1",
+        "translation": [
+          31.871506977081296,
+          23.59576964378357,
+          -167.2481231689453
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.2",
+        "translation": [
+          -32.159743022918704,
+          23.52076964378357,
+          -167.2481231689453
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "exhaust.3",
+        "translation": [
+          -0.11599302291870117,
+          -31.90423035621643,
+          -167.2481231689453
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "pdc_base": [],
+    "pdc_barrel": []
+  },
+  "editable_source": "/run/media/haker/NVME 2/expanse-workers19/europa/assets/derived/update19-europa/expanse19_europa_editable.gltf",
+  "source_model_triangles": 149638,
+  "omitted_geometry": [
+    {
+      "material": "MI_Decal_ShipDamage01A",
+      "triangles": 70,
+      "reason": "Unreal decal shader excluded; avoids opaque floating decal cards"
+    },
+    {
+      "material": "MI_Vehi_InsigniaEuropaBaneDecals",
+      "triangles": 60,
+      "reason": "Unreal decal shader excluded; avoids opaque floating decal cards"
+    },
+    {
+      "material": "MI_Vehi_PDC01A",
+      "triangles": 13952,
+      "reason": "static weapons replaced with articulated retrofit"
+    },
+    {
+      "material": "MI_Vehi_PDC01B",
+      "triangles": 34514,
+      "reason": "static weapons replaced with articulated retrofit"
+    },
+    {
+      "material": "MI_Decal_TechEmissive01A_Red",
+      "triangles": 80,
+      "reason": "Unreal decal shader excluded; avoids opaque floating decal cards"
+    },
+    {
+      "material": "MI_Decal_InsigniaEuropaBane01A",
+      "triangles": 4,
+      "reason": "Unreal decal shader excluded; avoids opaque floating decal cards"
+    },
+    {
+      "material": "MI_Decal_TechEmissive01B",
+      "triangles": 556,
+      "reason": "Unreal decal shader excluded; avoids opaque floating decal cards"
+    }
+  ],
+  "scale": {
+    "source_metres": [
+      55.55797576904297,
+      49.039791107177734,
+      178.85116577148438
+    ],
+    "game_units_per_metre": 1.875,
+    "basis": "180 degrees Y; source engine cones +Z, ship forward -Z; game forward +Z",
+    "centering": [
+      -0.061862945556640625,
+      -6.78441047668457,
+      -48.5989990234375
+    ],
+    "comparison": "Same1.875gameunits/metre as current42mTachi78.75game-unitlength; Europa179m becomes335.35game-unitlength."
+  },
+  "runtime": "NOT RUN",
+  "compiled_files": {
+    "textures/expanse19_europa_material_04_nrm.dds": "276e9c1a874ba7b9b63a791073647d1570ed409a3c018ebb1b552ec196991c02",
+    "textures/expanse19_europa_material_10_nrm.dds": "51722e14ca165b11a643453479ae79f61de4a3ef65aa83c8bcba1e823da20dba",
+    "textures/expanse19_europa_material_15_nrm.dds": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877",
+    "textures/expanse19_europa_material_01_clr.dds": "59fe9ba2ea5c8864f1ca6e31e9b2e657fb7604f7d25e8f9eaa5c660563d39551",
+    "textures/expanse19_europa_material_06_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_material_08_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_material_02_clr.dds": "fc52f821eef8e92ec24f9c032af42f3adac142183a6967a105be736ade8dc74d",
+    "textures/expanse19_europa_material_09_clr.dds": "59fe9ba2ea5c8864f1ca6e31e9b2e657fb7604f7d25e8f9eaa5c660563d39551",
+    "textures/expanse19_europa_material_01_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_material_15_orm.dds": "68df92aa9988c139b533d314c843a58e1405bff636891c06039c437262e2baaf",
+    "textures/expanse19_europa_material_02_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_material_15_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "textures/expanse19_europa_pdc_base_color_texture.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "textures/expanse19_europa_material_02_nrm.dds": "8ca84921106b1e057e7fdde83e23f811a38dfdbdebb05515d601322042825306",
+    "textures/expanse19_europa_material_15_clr.dds": "f52f5eefe422994e242681d6f7b56be6fa2a338ad09dd5b80b0b449be60cbed5",
+    "textures/expanse19_europa_material_04_clr.dds": "3b81bdbfe1dfcfa35faa201bda4165888ecf9aa9bb8cf006f811c3c8e4fda123",
+    "textures/expanse19_europa_material_06_clr.dds": "55026ae4106f7466e1a666a6138ae1576495cb5186c58caeae1bc37fdd40672b",
+    "textures/expanse19_europa_material_02_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_main_view_icon_sub_selected200.png": "15df81fa33ffcb58b1bdc552e0ca8862247865259369be3a47dc11f38b19300e",
+    "textures/expanse19_europa_main_view_icon_selected150.png": "238e2a595ee5f51b9ff30145423d1bbfd2c0456be284df3bb2656fee2118e762",
+    "textures/expanse19_europa_material_09_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_material_06_nrm.dds": "831f15f962db4aa51539917c91a6c430e8cdacda04675c65532d8d559c1f4040",
+    "textures/expanse19_europa_material_08_clr.dds": "6f26cb0228d6da9021daa0aba07bde5a588ee282b8e7c6f81ce5175588616807",
+    "textures/expanse19_europa_tooltip_picture200.png": "1cee315f1178b72bd3f9f503a6406c21f3e03e23e2a47506a82a6031bb6a305b",
+    "textures/expanse19_europa_material_17_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_material_09_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_material_07_nrm.dds": "831f15f962db4aa51539917c91a6c430e8cdacda04675c65532d8d559c1f4040",
+    "textures/expanse19_europa_material_08_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_hud_icon150.png": "f01d32c14167afa39a7597183cf76c7b21a6386a5695c0deeecf346e39563aa7",
+    "textures/expanse19_europa_material_01_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_material_05_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_hud_icon.png": "e7f70d0e000d43094483315582131e2468a4aa7fae7c08cd959c69539a0d263f",
+    "textures/expanse19_europa_material_05_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_main_view_icon_sub_selected.png": "41d1e685dcb0e857e2ad65e004765dcd6ab59be6ef65bb2e3495d2db7bbb8c77",
+    "textures/expanse19_europa_material_10_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_material_07_clr.dds": "1fa81c96f8cfefe5157936fed29d9e841b74b0a9b4ec718e72f7621cfd472dfe",
+    "textures/expanse19_europa_material_05_nrm.dds": "e0e614ccb74122da77941f7a8f7875929834a2105fe55d1e0fad5f60e3a46183",
+    "textures/expanse19_europa_tooltip_picture.png": "e277d8b555b9954c6769c83b3fdd8f541ef4e855e551ce4c0797c8e29f586bda",
+    "textures/expanse19_europa_main_view_icon_selected200.png": "a498647cc4eab4f1d7f38aba85073d2955e79b9fa0a2484d52b6e741bd47e862",
+    "textures/expanse19_europa_hud_picture200.png": "11cd57d1a35017df451fd852ad954ece28291f21514ca14cb5a79d2da4d98139",
+    "textures/expanse19_europa_material_10_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_material_09_nrm.dds": "2f923f8e582dfad8c7a8fef6410692ea6bb3dc23cd8b22aee8543a2a2a362003",
+    "textures/expanse19_europa_support_occlusion_roughness_metallic_texture.dds": "3899064d5192d3dcaa405f26750ffefd3ebbc4a06f9d81a61b44fdb23fccd4cd",
+    "textures/expanse19_europa_material_08_nrm.dds": "831f15f962db4aa51539917c91a6c430e8cdacda04675c65532d8d559c1f4040",
+    "textures/expanse19_europa_material_17_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_material_17_nrm.dds": "aa0ef9ea9b138c0ed2f1adbb0d16a0de3a8ad0f0568a8db879b6d9f47dd4103b",
+    "textures/expanse19_europa_hud_icon200.png": "569c5f35aa011a9614c7d4121f984eae9cf2432ba612ebaf3931ea5f060036db",
+    "textures/expanse19_europa_material_04_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_main_view_icon150.png": "92e4cfbad950b4f71a561982fcbbde75bc257ce27b6d6ae43053987ae79e3257",
+    "textures/expanse19_europa_support_mask_texture.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse19_europa_material_01_nrm.dds": "2f923f8e582dfad8c7a8fef6410692ea6bb3dc23cd8b22aee8543a2a2a362003",
+    "textures/expanse19_europa_material_07_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_material_10_clr.dds": "acb0a12e20fcf8e4f01aa11fa582dc6d99df4e1fc61c26a83fab25f2af1068a2",
+    "textures/expanse19_europa_support_normal_texture.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse19_europa_support_base_color_texture.dds": "6750496fd2811ee25f049cc55acab176818932aac59936e8021f5eec5bcbaf9e",
+    "textures/expanse19_europa_hud_picture150.png": "1acfeb52b82bc9cae864ab801f4e7c399f316b808ab4ac26ee3e957a478dbd08",
+    "textures/expanse19_europa_pdc_occlusion_roughness_metallic_texture.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+    "textures/expanse19_europa_material_07_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "textures/expanse19_europa_hud_picture.png": "769e4f874b09676c5742bcd642b29ccad7e9a7a70d1d9cbfa21ee886d983c438",
+    "textures/expanse19_europa_material_06_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_tooltip_picture150.png": "fabd8920f7047340ec07992709844a0acbd4607e4590b5ffb36c29f9af4467fd",
+    "textures/expanse19_europa_pdc_normal_texture.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "textures/expanse19_europa_material_17_clr.dds": "a81631001429a4e5fc1cc2262fb961c98b68b889e3df70434bf9340c7afdcba3",
+    "textures/expanse19_europa_main_view_icon.png": "f114986320b92366bb0433f7d4b8c0f3262afe39c0e11e86f82fe6d96a957d2a",
+    "textures/expanse19_europa_material_04_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "textures/expanse19_europa_pdc_mask_texture.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "textures/expanse19_europa_main_view_icon_sub_selected150.png": "7edecb3376f624dc625afde38130e22cefd1ab3a456ebbd348078303d8cd40c9",
+    "textures/expanse19_europa_main_view_icon200.png": "04b20932673725d61f6e36bfd49c7de935d74df713a12f65ffe178f77848eec7",
+    "textures/expanse19_europa_material_05_clr.dds": "b9489937e4198a64df06e00dbd0cca3b8e366d5e9c5ae29b4b45a764f82af938",
+    "textures/expanse19_europa_main_view_icon_selected.png": "1a2da847ad881b1443f41033cc3be7bae9d451aa9cc7ac3501224a77302884e9",
+    "brushes/expanse19_europa_main_view_icon_selected.brush": "a55c61017e89d6f73d474cd77602d8cf8bee44fdcdea1c2bccba1298648f7344",
+    "brushes/expanse19_europa_tooltip_picture.brush": "5201361aaefcf77481091578006c26b8d90da963b0a978fb6d4716a88dcb7eb0",
+    "brushes/expanse19_europa_hud_picture.brush": "b24c5f4833345fd3dd47dc91f41ec2db42bc01e9e52e9d68cf0c701e76411090",
+    "brushes/expanse19_europa_main_view_icon.brush": "3529868e19ab217cb1b8bdba6828d57ec00c4fe1eea1e740e1fe6d1f2493662b",
+    "brushes/expanse19_europa_hud_icon.brush": "545caf5738dda2b45bad83fa3a06d10ccce1d8500665f43d3fd4155de946e022",
+    "brushes/expanse19_europa_main_view_icon_sub_selected.brush": "5791e9edc3b1fca4197d2782f4f22cd4c99264ed2c33e0421b7587f7b0b56f2b",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_support.mesh_material": "2277f913bd2148f15791a336ede861cd662aaea3689c70fc466a686e0951c642",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_06.mesh_material": "fbde22e38b51d8f7378827e84021fbdda83229fa433a93ee1cafc726da9932d0",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_07.mesh_material": "7deeb421a80d03474a340dcf0d750ae611eadc5047234798ed142c57ee76c3ae",
+    "mesh_materials/expanse19_europa_pdc_base_mcrn_tachi_material.mesh_material": "3b7c0426c2492587fa982c27d4b7d65678f74743373bc18cc639f267f0276406",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_10.mesh_material": "9a0e3e8b4a7a7846da07dbcd2b071d3e806e6fbe4162b6da29742e0bccd5d16e",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_17.mesh_material": "039ad352f8acb81c4868c4b5c66e86edc6d842fd48d978970e9b539081fce1e0",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_05.mesh_material": "0f173ddecd3bc64a55f874c8071ccfc8d548b9ed04e74864cf5f9e3fba50574a",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_15.mesh_material": "c689d8c6ddec30bd0bee7ccdb4ab2424d5d3ec4026af48a18ef2d1b1c1704b60",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_08.mesh_material": "e7a328561044732bb455445a43dc61bf5fda8fead5c1c9bafa8ba42ed790053a",
+    "mesh_materials/expanse19_europa_pdc_barrel_mcrn_tachi_material.mesh_material": "3b7c0426c2492587fa982c27d4b7d65678f74743373bc18cc639f267f0276406",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_04.mesh_material": "720884dacde310762d2ede6f358680d1b34a662308916bbbb5f101fe107f0166",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_02.mesh_material": "6f30e6ba65a684df11b8c1923f777a2160ffd87e2701bf89cfc97245f277e685",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_09.mesh_material": "376166b73e17142e33b9f5e7b405807874e5daf03c8777d5960663ffd1b139ff",
+    "mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_01.mesh_material": "8f159f5bc7f1cb5dce38f30e0518d7c147cca308b59d0ec3e4e391f554bbd187",
+    "meshes/expanse19_europa_pdc_barrel.mesh": "87828cae23fd21425944711719fc8bed6201ebd4f944f7c736e20417eac316df",
+    "meshes/expanse19_europa_pdc_base.mesh": "c4b44a1b2730056b72041bbabdb08e3970acbbbcd462c5dba4b47ba4b4b53f46",
+    "meshes/expanse19_europa_bane_hull.mesh": "a8f0f86db47acb7242e9fcdd33b7f1b4e9f579852fd394ababfe8302196b7e11"
+  },
+  "ui": {
+    "skin_patches": [
+      {
+        "pointer": "/skin_stages/0/gui/hud_icon",
+        "value": "expanse19_europa_hud_icon"
+      },
+      {
+        "pointer": "/skin_stages/0/gui/hud_monochrome_icon",
+        "value": "expanse19_europa_main_view_icon"
+      },
+      {
+        "pointer": "/skin_stages/0/gui/hud_picture",
+        "value": "expanse19_europa_hud_picture"
+      },
+      {
+        "pointer": "/skin_stages/0/gui/tooltip_picture",
+        "value": "expanse19_europa_tooltip_picture"
+      },
+      {
+        "pointer": "/skin_stages/0/main_view_icon/icon",
+        "value": "expanse19_europa_main_view_icon"
+      },
+      {
+        "pointer": "/skin_stages/0/main_view_icon/selected_icon",
+        "value": "expanse19_europa_main_view_icon_selected"
+      },
+      {
+        "pointer": "/skin_stages/0/main_view_icon/sub_selected_icon",
+        "value": "expanse19_europa_main_view_icon_sub_selected"
+      }
+    ],
+    "source": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/source/ship_portrait_master.png",
+    "brush_validation": "/run/media/haker/NVME 2/expanse-workers19/europa/build/update19-europa/ui-final/validation.json",
+    "ui_triangle_count": 104929
+  },
+  "acceptance": {
+    "MeshBuilder_binary_and_json": "PASS",
+    "authored_tangents_and_official_facing_grid": "PASS",
+    "hull_winding_opposition": "ZERO",
+    "sampled_static_hull_arc_collision": "ZERO",
+    "DDS_channel_files_and_mips": "PASS",
+    "actual_geometry_UI_brush_schema": "PASS",
+    "game_rendering_targeting_and_multiplayer": "NOT RUN"
+  }
+}

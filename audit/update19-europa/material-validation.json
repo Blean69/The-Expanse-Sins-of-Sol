@@ -1,0 +1,250 @@
+{
+  "status": "PASS OFFLINE",
+  "runtime": "NOT RUN",
+  "materials": {
+    "expanse19_europa_material_01": {
+      "source_material": "MI_Bin_ShippingContainerHex01B",
+      "source_texture_dimensions": [
+        1024,
+        1024
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_01_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_01_orm",
+      "normal_texture": "expanse19_europa_material_01_nrm",
+      "mask_texture": "expanse19_europa_material_01_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_02": {
+      "source_material": "MI_Bin_ShippingContainer01A",
+      "source_texture_dimensions": [
+        2048,
+        2048
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_02_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_02_orm",
+      "normal_texture": "expanse19_europa_material_02_nrm",
+      "mask_texture": "expanse19_europa_material_02_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_04": {
+      "source_material": "MI_Vehi_ArtemisExtTrim01A",
+      "source_texture_dimensions": [
+        1024,
+        1024
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_04_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_04_orm",
+      "normal_texture": "expanse19_europa_material_04_nrm",
+      "mask_texture": "expanse19_europa_material_04_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_05": {
+      "source_material": "MI_Vehi_MetalDarkArtemisExt01A",
+      "source_texture_dimensions": [
+        1024,
+        1024
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_05_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_05_orm",
+      "normal_texture": "expanse19_europa_material_05_nrm",
+      "mask_texture": "expanse19_europa_material_05_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_06": {
+      "source_material": "MI_Vehi_EuropasBaneExtPanels01B",
+      "source_texture_dimensions": [
+        1024,
+        1024
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_06_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_06_orm",
+      "normal_texture": "expanse19_europa_material_06_nrm",
+      "mask_texture": "expanse19_europa_material_06_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_07": {
+      "source_material": "MI_Vehi_EuropasBaneExtPanels01C",
+      "source_texture_dimensions": [
+        1024,
+        1024
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_07_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_07_orm",
+      "normal_texture": "expanse19_europa_material_07_nrm",
+      "mask_texture": "expanse19_europa_material_07_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_08": {
+      "source_material": "MI_Vehi_EuropasBaneExtPanels01A",
+      "source_texture_dimensions": [
+        1024,
+        1024
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_08_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_08_orm",
+      "normal_texture": "expanse19_europa_material_08_nrm",
+      "mask_texture": "expanse19_europa_material_08_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_09": {
+      "source_material": "MI_Bin_ShippingContainerHex01D",
+      "source_texture_dimensions": [
+        1024,
+        1024
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_09_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_09_orm",
+      "normal_texture": "expanse19_europa_material_09_nrm",
+      "mask_texture": "expanse19_europa_material_09_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_10": {
+      "source_material": "MI_Vehi_EngineThusterCone01A",
+      "source_texture_dimensions": [
+        1024,
+        1024
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_10_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_10_orm",
+      "normal_texture": "expanse19_europa_material_10_nrm",
+      "mask_texture": "expanse19_europa_material_10_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_15": {
+      "source_material": "MI_Struct_BlackOutMat01A",
+      "source_texture_dimensions": null,
+      "texture_size": [
+        4,
+        4
+      ],
+      "base_color_texture": "expanse19_europa_material_15_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_15_orm",
+      "normal_texture": "expanse19_europa_material_15_nrm",
+      "mask_texture": "expanse19_europa_material_15_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    },
+    "expanse19_europa_material_17": {
+      "source_material": "MI_Struct_TileMetalPainted_White01A",
+      "source_texture_dimensions": [
+        1024,
+        1024
+      ],
+      "texture_size": [
+        1024,
+        1024
+      ],
+      "base_color_texture": "expanse19_europa_material_17_clr",
+      "occlusion_roughness_metallic_texture": "expanse19_europa_material_17_orm",
+      "normal_texture": "expanse19_europa_material_17_nrm",
+      "mask_texture": "expanse19_europa_material_17_msk",
+      "emissive_factor": 1.0,
+      "material_approximation": "Original UV0 and color/normal retained; scalar tint and whole-panel paint approximation. Neutral ORM replaces undocumented Unreal masks; alpha decal cards excluded."
+    }
+  },
+  "private_texture_hashes": {
+    "expanse19_europa_material_04_nrm.dds": "276e9c1a874ba7b9b63a791073647d1570ed409a3c018ebb1b552ec196991c02",
+    "expanse19_europa_material_10_nrm.dds": "51722e14ca165b11a643453479ae79f61de4a3ef65aa83c8bcba1e823da20dba",
+    "expanse19_europa_material_15_nrm.dds": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877",
+    "expanse19_europa_material_01_clr.dds": "59fe9ba2ea5c8864f1ca6e31e9b2e657fb7604f7d25e8f9eaa5c660563d39551",
+    "expanse19_europa_material_06_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_material_08_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_material_02_clr.dds": "fc52f821eef8e92ec24f9c032af42f3adac142183a6967a105be736ade8dc74d",
+    "expanse19_europa_material_09_clr.dds": "59fe9ba2ea5c8864f1ca6e31e9b2e657fb7604f7d25e8f9eaa5c660563d39551",
+    "expanse19_europa_material_01_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_material_15_orm.dds": "68df92aa9988c139b533d314c843a58e1405bff636891c06039c437262e2baaf",
+    "expanse19_europa_material_02_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_material_15_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "expanse19_europa_pdc_base_color_texture.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "expanse19_europa_material_02_nrm.dds": "8ca84921106b1e057e7fdde83e23f811a38dfdbdebb05515d601322042825306",
+    "expanse19_europa_material_15_clr.dds": "f52f5eefe422994e242681d6f7b56be6fa2a338ad09dd5b80b0b449be60cbed5",
+    "expanse19_europa_material_04_clr.dds": "3b81bdbfe1dfcfa35faa201bda4165888ecf9aa9bb8cf006f811c3c8e4fda123",
+    "expanse19_europa_material_06_clr.dds": "55026ae4106f7466e1a666a6138ae1576495cb5186c58caeae1bc37fdd40672b",
+    "expanse19_europa_material_02_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_material_09_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_material_06_nrm.dds": "831f15f962db4aa51539917c91a6c430e8cdacda04675c65532d8d559c1f4040",
+    "expanse19_europa_material_08_clr.dds": "6f26cb0228d6da9021daa0aba07bde5a588ee282b8e7c6f81ce5175588616807",
+    "expanse19_europa_material_17_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_material_09_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_material_07_nrm.dds": "831f15f962db4aa51539917c91a6c430e8cdacda04675c65532d8d559c1f4040",
+    "expanse19_europa_material_08_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_material_01_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_material_05_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_material_05_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_material_10_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_material_07_clr.dds": "1fa81c96f8cfefe5157936fed29d9e841b74b0a9b4ec718e72f7621cfd472dfe",
+    "expanse19_europa_material_05_nrm.dds": "e0e614ccb74122da77941f7a8f7875929834a2105fe55d1e0fad5f60e3a46183",
+    "expanse19_europa_material_10_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_material_09_nrm.dds": "2f923f8e582dfad8c7a8fef6410692ea6bb3dc23cd8b22aee8543a2a2a362003",
+    "expanse19_europa_support_occlusion_roughness_metallic_texture.dds": "3899064d5192d3dcaa405f26750ffefd3ebbc4a06f9d81a61b44fdb23fccd4cd",
+    "expanse19_europa_material_08_nrm.dds": "831f15f962db4aa51539917c91a6c430e8cdacda04675c65532d8d559c1f4040",
+    "expanse19_europa_material_17_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_material_17_nrm.dds": "aa0ef9ea9b138c0ed2f1adbb0d16a0de3a8ad0f0568a8db879b6d9f47dd4103b",
+    "expanse19_europa_material_04_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_support_mask_texture.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "expanse19_europa_material_01_nrm.dds": "2f923f8e582dfad8c7a8fef6410692ea6bb3dc23cd8b22aee8543a2a2a362003",
+    "expanse19_europa_material_07_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_material_10_clr.dds": "acb0a12e20fcf8e4f01aa11fa582dc6d99df4e1fc61c26a83fab25f2af1068a2",
+    "expanse19_europa_support_normal_texture.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "expanse19_europa_support_base_color_texture.dds": "6750496fd2811ee25f049cc55acab176818932aac59936e8021f5eec5bcbaf9e",
+    "expanse19_europa_pdc_occlusion_roughness_metallic_texture.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+    "expanse19_europa_material_07_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+    "expanse19_europa_material_06_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_pdc_normal_texture.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "expanse19_europa_material_17_clr.dds": "a81631001429a4e5fc1cc2262fb961c98b68b889e3df70434bf9340c7afdcba3",
+    "expanse19_europa_material_04_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+    "expanse19_europa_pdc_mask_texture.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "expanse19_europa_material_05_clr.dds": "b9489937e4198a64df06e00dbd0cca3b8e366d5e9c5ae29b4b45a764f82af938"
+  },
+  "limitations": [
+    "UV0 preserved; Unreal multichannel layering and RGB paint-mask function not transferred",
+    "Source normal maps retained and renormalized; neutral roughness/metallic approximation",
+    "Source alpha/decal card geometry excluded instead of importing incorrect opaque cards",
+    "Source84kPDC not used; six proven677-triangle mounts substituted at measured exposed surfaces"
+  ]
+}
