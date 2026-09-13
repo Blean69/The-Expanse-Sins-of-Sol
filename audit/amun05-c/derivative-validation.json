@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "original_archive_and_master": "PASS",
+  "isolated_torpedo_dependencies": "PASS",
+  "installed_size_reference_unchanged": "PASS",
+  "exact_original_indices_and_nonposition_attributes": "PASS",
+  "position_uniform_scale_and_center": "PASS",
+  "finite_normals_indices": "PASS",
+  "triangles": 1600,
+  "dimensions": [
+    1.6812560558319092,
+    1.6812613010406494,
+    16.51075553894043
+  ],
+  "source_attribute_sets": [
+    [
+      "POSITION",
+      "NORMAL",
+      "TANGENT",
+      "TEXCOORD_0"
+    ],
+    [
+      "POSITION",
+      "NORMAL",
+      "TANGENT",
+      "TEXCOORD_0"
+    ]
+  ],
+  "candidate_vertex_radius": 8.287338726496193,
+  "stock_sphere_radius_delta": 0.013080112909767294,
+  "stock_sphere_fit": "Exceeds by about0.01308; main integration decision pending",
+  "projectile_entity_files_modified": false,
+  "runtime": "NOT RUN",
+  "game_compilation": "NOT RUN"
+}

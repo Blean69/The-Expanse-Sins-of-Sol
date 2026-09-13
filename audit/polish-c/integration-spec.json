@@ -1,0 +1,57 @@
+{
+  "root_files_to_copy": [
+    "mod_small_logo.png",
+    "mod_large_logo.png"
+  ],
+  "logos": {
+    "small_logo": "mod_small_logo.png",
+    "large_logo": "mod_large_logo.png"
+  },
+  "metadata_example_path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/.mod_meta_data",
+  "format": "Integrator metadata; do not package this file",
+  "unit_skin": "entities/trader_light_frigate.unit_skin",
+  "patches": [
+    {
+      "pointer": "/skin_stages/0/gui/hud_icon",
+      "old": "trader_light_frigate_hud_icon",
+      "value": "mcrn_corvette_hud_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_monochrome_icon",
+      "old": "trader_light_frigate_main_view_icon",
+      "value": "mcrn_corvette_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_picture",
+      "old": "trader_light_frigate_hud_picture",
+      "value": "mcrn_corvette_hud_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/tooltip_picture",
+      "old": "trader_light_frigate_tooltip_picture",
+      "value": "mcrn_corvette_tooltip_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/icon",
+      "old": "trader_light_frigate_main_view_icon",
+      "value": "mcrn_corvette_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/selected_icon",
+      "old": "trader_light_frigate_main_view_icon_selected",
+      "value": "mcrn_corvette_main_view_icon_selected"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/sub_selected_icon",
+      "old": "trader_light_frigate_main_view_icon_sub_selected",
+      "value": "mcrn_corvette_main_view_icon_sub_selected"
+    }
+  ],
+  "copy_generated_subdirectories": [
+    "brushes",
+    "textures"
+  ],
+  "entity_manifests_required": [],
+  "scope": "All users of overridden Cobalt skin, including applicable garrison/neutral users; no UI global overrides",
+  "runtime": "NOT RUN"
+}

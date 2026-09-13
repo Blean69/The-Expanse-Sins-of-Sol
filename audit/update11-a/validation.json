@@ -1,0 +1,41 @@
+{
+  "status": "PASS candidate structural/schema checks; reference completeness depends on main private MCRN unit and Morrigan mount integration",
+  "runtime": "NOT RUN",
+  "official_pin": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+  "schema_files_verified": 62,
+  "entity_schemas_passed": 7,
+  "main_uniform_contract_schema_passed": true,
+  "accepted_files_unchanged": 492,
+  "candidate_sha256": {
+    "expanse10_donnager_launch_corvette.ability": "ca73b9d107ae72a62ec59b951050da5a744174ca1a7c567a2665c3379ed89d60",
+    "expanse10_donnager_launch_corvette.action_data_source": "528fcfe62c97af14a0c1e48e3e00773e6ab50f7b7b01ebb84b0643a0b171d540",
+    "expanse06_amun_boarding.action_data_source": "2b918b2ab97a8b2c327e06c17bf961a47880cb4841b5bcca07af462951765b15",
+    "expanse10_donnager_marines.action_data_source": "81664a17bded230b4da901428b3f7f73842de04323f4c39c5b4860bae351bd93",
+    "expanse11_morrigan_magazine.ability": "6313eacc31f83cbadedec2287c104772e4246613c47b5babdaf1dc6e81f5b6c2",
+    "expanse11_morrigan_magazine.buff": "a275377136788af8a6b8c61cb1335df7748be5925ca10886ea85966f2914d1e3",
+    "expanse11_morrigan_magazine.action_data_source": "8ab09fcd3cc07cb945c878da6a83c25b3d838ec8a19693645b1e5c8b2e8e7678"
+  },
+  "evidence_sha256": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse10_donnager_launch_corvette.ability": "b350ea4e3462a829b7d9a271ec95c871887f1984efa088b8e0a555d18456b8e5",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse10_donnager_launch_corvette.action_data_source": "1a019f99ce158a39677e09c0d6a4ee61694dc3cf10f8e03b3c40ee8181195cf5",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse06_amun_boarding.action_data_source": "b4f07871cc5602c1562270c114827a68ef40e854fa4c433f74f7cd0d9378319d",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse10_donnager_marines.action_data_source": "598c415e3e4b6fc1d37594313c63900c29202e47a28f1bc5ca3c8a326459db29",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse03_torpedo_magazine.ability": "2e67d9b77417a1e048e39bb3dd99bc4115f092abdaac9ae491089e90abebaf11",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse03_torpedo_magazine.buff": "a37e0992dcd4a9c30256aaa1692179d2ade2a7cca44a21d1f4c16983e1002319",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse03_torpedo_magazine.action_data_source": "8b1268a25fc75b3be23074c23a9c26f9c7ebfbe4df97df8d00ae951e2b6bb6ec",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse06_amun_boarding.buff": "7c38d1f5aef39196482d7e9c3db9c78da0cbeb3cc71f0b3a02ff4283c8fe1f12",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse10_donnager_marines.buff": "7c38d1f5aef39196482d7e9c3db9c78da0cbeb3cc71f0b3a02ff4283c8fe1f12",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_pirate_mercenary_base_unit_item.ability": "7c3d0928f15cad1c02c4bf60fa83cb218e00b9610d07d80a9fdef1542cd55ae0",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/vasari_overseer_tower.ability": "da2089c1f788816323941bcc6dd6b0ad0bb0ced6574ad6dd2002d45d0b7fc848",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/dlc2_trader_loyalist_super_reserves.ability": "ea516ad381f79a1acdf7ea363a0235046fd7b52c2b4a23d831334b322a431a6c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/dlc2_trader_loyalist_super_capital_ship.unit": "cb615b7577e938be5495328ddd1b74def1d0f3068c05245a6aa82b3852aecfa1",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/weapon.uniforms": "02302adb2b139b86dc6d08ce034e661753007b16ba25d7695b98d77ff2a294eb",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/logs/sins2_log_318_[2026-09-13][06-34-54]_500.txt": "ea75e5d36178903adebb5b16c6522f51c7661770ba653b4a220396e30f31cf86"
+  },
+  "pending_main_dependencies": [
+    "expanse_mcrn_corvette.unit with supply55",
+    "Morrigan ability_positions two actual frames",
+    "main weapon tag uniform append + localization",
+    "main Amun ignored group correction"
+  ]
+}

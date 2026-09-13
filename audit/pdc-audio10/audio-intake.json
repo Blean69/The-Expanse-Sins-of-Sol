@@ -1,0 +1,183 @@
+{
+  "source": "/run/media/haker/NVME 2/expanse-audio-work/PDC.mp3",
+  "source_sha256": "dc1a38a83d9eb5c2ce0da4b2080dfbed43313b6b70a9c9cce16127e31d1ddcff",
+  "original": "/run/media/haker/NVME 2/expanse-mod/assets/original/pdc-audio10/PDC.mp3",
+  "wav": "/run/media/haker/NVME 2/expanse-mod/assets/derived/pdc-audio10/PDC-normalized.wav",
+  "wav_sha256": "c6b964cb6b30812f489f3084c17e382e66e645f3342bd9a05d25e66868bcdf98",
+  "ogg_sha256": "07d4412ae7b49a4e2f4d98e9903520eae57a880931e300361ff4440455ac20f8",
+  "input": {
+    "input_i": "-27.11",
+    "input_tp": "-15.44",
+    "input_lra": "0.00",
+    "input_thresh": "-37.11",
+    "output_i": "-17.99",
+    "output_tp": "-6.34",
+    "output_lra": "0.00",
+    "output_thresh": "-27.99",
+    "normalization_type": "linear",
+    "target_offset": "-0.01"
+  },
+  "stock_reference": {
+    "input_i": "-15.43",
+    "input_tp": "-0.63",
+    "input_lra": "0.00",
+    "input_thresh": "-26.09",
+    "output_i": "-17.97",
+    "output_tp": "-3.20",
+    "output_lra": "0.00",
+    "output_thresh": "-28.62",
+    "normalization_type": "linear",
+    "target_offset": "-0.03"
+  },
+  "encoded": {
+    "input_i": "-18.10",
+    "input_tp": "-6.71",
+    "input_lra": "0.00",
+    "input_thresh": "-28.10",
+    "output_i": "-18.01",
+    "output_tp": "-6.61",
+    "output_lra": "0.00",
+    "output_thresh": "-28.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "encoded_probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "vorbis",
+        "codec_long_name": "Vorbis",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 43008,
+        "duration": "0.896000",
+        "bit_rate": "110000",
+        "extradata_size": 3860,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        },
+        "tags": {
+          "encoder": "Lavc62.11.100 libvorbis"
+        }
+      }
+    ],
+    "format": {
+      "filename": "/run/media/haker/NVME 2/expanse-mod/build/pdc-audio10/game/sounds/expanse10_pdc_burst.ogg",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "ogg",
+      "format_long_name": "Ogg",
+      "start_time": "0.000000",
+      "duration": "0.896000",
+      "size": "14872",
+      "bit_rate": "132785",
+      "probe_score": 100
+    }
+  },
+  "source_probe": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "mp3",
+        "codec_long_name": "MP3 (MPEG audio layer 3)",
+        "codec_type": "audio",
+        "codec_tag_string": "[0][0][0][0]",
+        "codec_tag": "0x0000",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 1,
+        "channel_layout": "mono",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/14112000",
+        "start_pts": 324870,
+        "start_time": "0.023021",
+        "duration_ts": 12644352,
+        "duration": "0.896000",
+        "bit_rate": "126154",
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0,
+          "multilayer": 0
+        }
+      }
+    ],
+    "format": {
+      "filename": "/run/media/haker/NVME 2/expanse-mod/assets/original/pdc-audio10/PDC.mp3",
+      "nb_streams": 1,
+      "nb_programs": 0,
+      "nb_stream_groups": 0,
+      "format_name": "mp3",
+      "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+      "start_time": "0.023021",
+      "duration": "0.896000",
+      "size": "14903",
+      "bit_rate": "133062",
+      "probe_score": 51,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2mp41",
+        "encoder": "Lavf62.3.100"
+      }
+    }
+  },
+  "sound_profile": {
+    "is_positionable": true,
+    "is_looping": false,
+    "is_streaming": false,
+    "min_attenuation_distance": 100.0,
+    "sound_group": "weapon_muzzle_light"
+  },
+  "runtime": "NOT RUN",
+  "listening": "NOT RUN"
+}

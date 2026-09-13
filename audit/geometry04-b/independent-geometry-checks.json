@@ -1,0 +1,58 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "rigs": [
+    {
+      "index": 0,
+      "rest_muzzle_error": 1.7763568394002505e-15,
+      "shaft_and_trunnion_axis_drift": 1.1566155397028336e-15,
+      "yaw_samples": 5,
+      "pitch_samples_per_yaw": 4,
+      "collision_test": "NOT PERFORMED; tests axis attachment only"
+    },
+    {
+      "index": 1,
+      "rest_muzzle_error": 0.0,
+      "shaft_and_trunnion_axis_drift": 4.982458654106521e-16,
+      "yaw_samples": 5,
+      "pitch_samples_per_yaw": 4,
+      "collision_test": "NOT PERFORMED; tests axis attachment only"
+    },
+    {
+      "index": 2,
+      "rest_muzzle_error": 0.0,
+      "shaft_and_trunnion_axis_drift": 4.2865759912301997e-16,
+      "yaw_samples": 5,
+      "pitch_samples_per_yaw": 4,
+      "collision_test": "NOT PERFORMED; tests axis attachment only"
+    },
+    {
+      "index": 3,
+      "rest_muzzle_error": 0.0,
+      "shaft_and_trunnion_axis_drift": 1.749514751773845e-15,
+      "yaw_samples": 5,
+      "pitch_samples_per_yaw": 4,
+      "collision_test": "NOT PERFORMED; tests axis attachment only"
+    },
+    {
+      "index": 4,
+      "rest_muzzle_error": 1.7763568394002505e-15,
+      "shaft_and_trunnion_axis_drift": 1.4458181028209775e-15,
+      "yaw_samples": 5,
+      "pitch_samples_per_yaw": 4,
+      "collision_test": "NOT PERFORMED; tests axis attachment only"
+    },
+    {
+      "index": 5,
+      "rest_muzzle_error": 1.7763568394002505e-15,
+      "shaft_and_trunnion_axis_drift": 1.4740370771389673e-15,
+      "yaw_samples": 5,
+      "pitch_samples_per_yaw": 4,
+      "collision_test": "NOT PERFORMED; tests axis attachment only"
+    }
+  ],
+  "custom_fittings_and_exhaust_rigid_transform": "PASS",
+  "exhaust_axis_is_actual_aft_Z": true,
+  "prior03_frozen_files_preserved": 155,
+  "earlier_readonly_inputs_preserved": 24,
+  "runtime": "NOT RUN; no collision or targeting claim"
+}

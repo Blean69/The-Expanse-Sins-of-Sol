@@ -1,0 +1,1129 @@
+[
+  {
+    "node": 4,
+    "name": "s3_3c",
+    "triangles": 1149,
+    "boundary_edges": 435,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 5,
+    "name": "s3_3c",
+    "triangles": 628,
+    "boundary_edges": 486,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 9,
+    "name": "s3_3b-1",
+    "triangles": 183,
+    "boundary_edges": 25,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 13,
+    "name": "s3_3a",
+    "triangles": 328,
+    "boundary_edges": 16,
+    "nonmanifold_edges": 8
+  },
+  {
+    "node": 17,
+    "name": "s3_3",
+    "triangles": 1105,
+    "boundary_edges": 147,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 21,
+    "name": "s3_supportB-1",
+    "triangles": 65,
+    "boundary_edges": 9,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 29,
+    "name": "s2_2g",
+    "triangles": 464,
+    "boundary_edges": 16,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 33,
+    "name": "s2_2e",
+    "triangles": 198,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 36,
+    "name": "s2_2c",
+    "triangles": 482,
+    "boundary_edges": 88,
+    "nonmanifold_edges": 3
+  },
+  {
+    "node": 41,
+    "name": "s2_2a",
+    "triangles": 979,
+    "boundary_edges": 19,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 46,
+    "name": "s2_2b",
+    "triangles": 1145,
+    "boundary_edges": 319,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 47,
+    "name": "s2_2b",
+    "triangles": 815,
+    "boundary_edges": 169,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 52,
+    "name": "s2_2d",
+    "triangles": 288,
+    "boundary_edges": 18,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 57,
+    "name": "s2_2f",
+    "triangles": 255,
+    "boundary_edges": 43,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 63,
+    "name": "s1_covering",
+    "triangles": 114,
+    "boundary_edges": 22,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 83,
+    "name": "s1_1a",
+    "triangles": 616,
+    "boundary_edges": 106,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 88,
+    "name": "s1_1",
+    "triangles": 976,
+    "boundary_edges": 120,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 93,
+    "name": "s1_1b",
+    "triangles": 525,
+    "boundary_edges": 85,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 98,
+    "name": "s1_1c+d",
+    "triangles": 1050,
+    "boundary_edges": 134,
+    "nonmanifold_edges": 7
+  },
+  {
+    "node": 103,
+    "name": "s1_1e",
+    "triangles": 554,
+    "boundary_edges": 71,
+    "nonmanifold_edges": 11
+  },
+  {
+    "node": 107,
+    "name": "s1_1f",
+    "triangles": 529,
+    "boundary_edges": 17,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 113,
+    "name": "pdc_pdc1",
+    "triangles": 130,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 116,
+    "name": "pdc_pdc2",
+    "triangles": 134,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 119,
+    "name": "pdc_cannon1",
+    "triangles": 319,
+    "boundary_edges": 55,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 129,
+    "name": "pdc_pin-3x6",
+    "triangles": 52,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 132,
+    "name": "pdc_pin-4x8",
+    "triangles": 36,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 135,
+    "name": "pdc_covering",
+    "triangles": 91,
+    "boundary_edges": 19,
+    "nonmanifold_edges": 14
+  },
+  {
+    "node": 142,
+    "name": "pdc_frame",
+    "triangles": 321,
+    "boundary_edges": 17,
+    "nonmanifold_edges": 3
+  },
+  {
+    "node": 146,
+    "name": "pdc_frame_cov",
+    "triangles": 50,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 149,
+    "name": "pdc_cannon2",
+    "triangles": 209,
+    "boundary_edges": 15,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 155,
+    "name": "ar_airlock",
+    "triangles": 125,
+    "boundary_edges": 35,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 159,
+    "name": "ar_bridge3",
+    "triangles": 134,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 3
+  },
+  {
+    "node": 162,
+    "name": "ar_bridge1",
+    "triangles": 146,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 165,
+    "name": "ar_bridge2",
+    "triangles": 144,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 168,
+    "name": "ar_stoper-1",
+    "triangles": 8,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 171,
+    "name": "ar_stoper-3",
+    "triangles": 8,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 176,
+    "name": "pdc_pdc1.001",
+    "triangles": 130,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 179,
+    "name": "pdc_pdc2.001",
+    "triangles": 134,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 182,
+    "name": "pdc_cannon1.001",
+    "triangles": 319,
+    "boundary_edges": 55,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 192,
+    "name": "pdc_pin-3x6.001",
+    "triangles": 52,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 195,
+    "name": "pdc_pin-4x8.001",
+    "triangles": 36,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 198,
+    "name": "pdc_covering.001",
+    "triangles": 91,
+    "boundary_edges": 19,
+    "nonmanifold_edges": 14
+  },
+  {
+    "node": 202,
+    "name": "pdc_frame.001",
+    "triangles": 321,
+    "boundary_edges": 17,
+    "nonmanifold_edges": 3
+  },
+  {
+    "node": 206,
+    "name": "pdc_frame_cov.001",
+    "triangles": 50,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 209,
+    "name": "pdc_cannon2.001",
+    "triangles": 209,
+    "boundary_edges": 15,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 214,
+    "name": "pdc_pdc1.002",
+    "triangles": 130,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 217,
+    "name": "pdc_pdc2.002",
+    "triangles": 134,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 220,
+    "name": "pdc_cannon1.002",
+    "triangles": 319,
+    "boundary_edges": 55,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 230,
+    "name": "pdc_pin-3x6.002",
+    "triangles": 52,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 233,
+    "name": "pdc_pin-4x8.002",
+    "triangles": 36,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 236,
+    "name": "pdc_covering.002",
+    "triangles": 91,
+    "boundary_edges": 19,
+    "nonmanifold_edges": 15
+  },
+  {
+    "node": 240,
+    "name": "pdc_frame.002",
+    "triangles": 321,
+    "boundary_edges": 17,
+    "nonmanifold_edges": 3
+  },
+  {
+    "node": 244,
+    "name": "pdc_frame_cov.002",
+    "triangles": 50,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 247,
+    "name": "pdc_cannon2.002",
+    "triangles": 209,
+    "boundary_edges": 15,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 252,
+    "name": "pdc_pdc1.003",
+    "triangles": 130,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 255,
+    "name": "pdc_pdc2.003",
+    "triangles": 134,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 258,
+    "name": "pdc_cannon1.003",
+    "triangles": 319,
+    "boundary_edges": 55,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 268,
+    "name": "pdc_pin-3x6.003",
+    "triangles": 52,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 271,
+    "name": "pdc_pin-4x8.003",
+    "triangles": 36,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 274,
+    "name": "pdc_covering.003",
+    "triangles": 92,
+    "boundary_edges": 16,
+    "nonmanifold_edges": 17
+  },
+  {
+    "node": 278,
+    "name": "pdc_frame.003",
+    "triangles": 321,
+    "boundary_edges": 17,
+    "nonmanifold_edges": 3
+  },
+  {
+    "node": 282,
+    "name": "pdc_frame_cov.003",
+    "triangles": 50,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 285,
+    "name": "pdc_cannon2.003",
+    "triangles": 209,
+    "boundary_edges": 15,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 290,
+    "name": "pdc_pdc1.004",
+    "triangles": 130,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 293,
+    "name": "pdc_pdc2.004",
+    "triangles": 134,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 296,
+    "name": "pdc_cannon1.004",
+    "triangles": 319,
+    "boundary_edges": 55,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 306,
+    "name": "pdc_pin-3x6.004",
+    "triangles": 52,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 309,
+    "name": "pdc_pin-4x8.004",
+    "triangles": 36,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 312,
+    "name": "pdc_covering.004",
+    "triangles": 91,
+    "boundary_edges": 19,
+    "nonmanifold_edges": 14
+  },
+  {
+    "node": 316,
+    "name": "pdc_frame.004",
+    "triangles": 321,
+    "boundary_edges": 17,
+    "nonmanifold_edges": 3
+  },
+  {
+    "node": 320,
+    "name": "pdc_frame_cov.004",
+    "triangles": 50,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 323,
+    "name": "pdc_cannon2.004",
+    "triangles": 209,
+    "boundary_edges": 15,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 328,
+    "name": "pdc_pdc1.005",
+    "triangles": 130,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 331,
+    "name": "pdc_pdc2.005",
+    "triangles": 134,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 334,
+    "name": "pdc_cannon1.005",
+    "triangles": 319,
+    "boundary_edges": 55,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 344,
+    "name": "pdc_pin-3x6.005",
+    "triangles": 52,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 347,
+    "name": "pdc_pin-4x8.005",
+    "triangles": 36,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 350,
+    "name": "pdc_covering.005",
+    "triangles": 91,
+    "boundary_edges": 19,
+    "nonmanifold_edges": 14
+  },
+  {
+    "node": 354,
+    "name": "pdc_frame.005",
+    "triangles": 321,
+    "boundary_edges": 17,
+    "nonmanifold_edges": 3
+  },
+  {
+    "node": 358,
+    "name": "pdc_frame_cov.005",
+    "triangles": 50,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 361,
+    "name": "pdc_cannon2.005",
+    "triangles": 209,
+    "boundary_edges": 15,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 366,
+    "name": "s3_supportB-2.001",
+    "triangles": 65,
+    "boundary_edges": 9,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 370,
+    "name": "s3_3b-2.001",
+    "triangles": 184,
+    "boundary_edges": 30,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 6,
+    "name": "s3_3c",
+    "triangles": 96,
+    "boundary_edges": 46,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 10,
+    "name": "s3_3b-1",
+    "triangles": 42,
+    "boundary_edges": 44,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 14,
+    "name": "s3_3a",
+    "triangles": 12,
+    "boundary_edges": 16,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 18,
+    "name": "s3_3",
+    "triangles": 26,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 22,
+    "name": "s3_supportB-1",
+    "triangles": 32,
+    "boundary_edges": 8,
+    "nonmanifold_edges": 4
+  },
+  {
+    "node": 25,
+    "name": "s3_supportA-1",
+    "triangles": 174,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 24
+  },
+  {
+    "node": 30,
+    "name": "s2_2g",
+    "triangles": 4,
+    "boundary_edges": 6,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 38,
+    "name": "s2_2c",
+    "triangles": 143,
+    "boundary_edges": 233,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 43,
+    "name": "s2_2a",
+    "triangles": 4,
+    "boundary_edges": 8,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 49,
+    "name": "s2_2b",
+    "triangles": 6,
+    "boundary_edges": 12,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 54,
+    "name": "s2_2d",
+    "triangles": 9,
+    "boundary_edges": 19,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 59,
+    "name": "s2_2f",
+    "triangles": 33,
+    "boundary_edges": 47,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 64,
+    "name": "s1_covering",
+    "triangles": 12,
+    "boundary_edges": 14,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 71,
+    "name": "s1_antenna-2",
+    "triangles": 214,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 74,
+    "name": "s1_antenna-4",
+    "triangles": 106,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 77,
+    "name": "s1_antenna-3",
+    "triangles": 194,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 80,
+    "name": "s1_antenna-1",
+    "triangles": 74,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 85,
+    "name": "s1_1a",
+    "triangles": 143,
+    "boundary_edges": 77,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 90,
+    "name": "s1_1",
+    "triangles": 158,
+    "boundary_edges": 174,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 95,
+    "name": "s1_1b",
+    "triangles": 82,
+    "boundary_edges": 92,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 100,
+    "name": "s1_1c+d",
+    "triangles": 38,
+    "boundary_edges": 78,
+    "nonmanifold_edges": 4
+  },
+  {
+    "node": 104,
+    "name": "s1_1e",
+    "triangles": 107,
+    "boundary_edges": 109,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 109,
+    "name": "s1_1f",
+    "triangles": 9,
+    "boundary_edges": 15,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 120,
+    "name": "pdc_cannon1",
+    "triangles": 57,
+    "boundary_edges": 37,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 123,
+    "name": "pdc_mag2",
+    "triangles": 200,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 126,
+    "name": "pdc_mag1",
+    "triangles": 198,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 136,
+    "name": "pdc_covering",
+    "triangles": 16,
+    "boundary_edges": 14,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 139,
+    "name": "pdc_filler-1",
+    "triangles": 42,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 143,
+    "name": "pdc_frame",
+    "triangles": 54,
+    "boundary_edges": 48,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 150,
+    "name": "pdc_cannon2",
+    "triangles": 12,
+    "boundary_edges": 32,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 156,
+    "name": "ar_airlock",
+    "triangles": 32,
+    "boundary_edges": 54,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 183,
+    "name": "pdc_cannon1.001",
+    "triangles": 57,
+    "boundary_edges": 37,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 186,
+    "name": "pdc_mag2.001",
+    "triangles": 200,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 189,
+    "name": "pdc_mag1.001",
+    "triangles": 198,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 199,
+    "name": "pdc_covering.001",
+    "triangles": 16,
+    "boundary_edges": 14,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 203,
+    "name": "pdc_frame.001",
+    "triangles": 54,
+    "boundary_edges": 48,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 210,
+    "name": "pdc_cannon2.001",
+    "triangles": 12,
+    "boundary_edges": 32,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 221,
+    "name": "pdc_cannon1.002",
+    "triangles": 57,
+    "boundary_edges": 37,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 224,
+    "name": "pdc_mag2.002",
+    "triangles": 200,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 227,
+    "name": "pdc_mag1.002",
+    "triangles": 198,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 237,
+    "name": "pdc_covering.002",
+    "triangles": 16,
+    "boundary_edges": 14,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 241,
+    "name": "pdc_frame.002",
+    "triangles": 54,
+    "boundary_edges": 48,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 248,
+    "name": "pdc_cannon2.002",
+    "triangles": 12,
+    "boundary_edges": 32,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 259,
+    "name": "pdc_cannon1.003",
+    "triangles": 57,
+    "boundary_edges": 37,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 262,
+    "name": "pdc_mag2.003",
+    "triangles": 200,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 265,
+    "name": "pdc_mag1.003",
+    "triangles": 198,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 275,
+    "name": "pdc_covering.003",
+    "triangles": 16,
+    "boundary_edges": 14,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 279,
+    "name": "pdc_frame.003",
+    "triangles": 54,
+    "boundary_edges": 48,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 286,
+    "name": "pdc_cannon2.003",
+    "triangles": 12,
+    "boundary_edges": 32,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 297,
+    "name": "pdc_cannon1.004",
+    "triangles": 57,
+    "boundary_edges": 37,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 300,
+    "name": "pdc_mag2.004",
+    "triangles": 200,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 303,
+    "name": "pdc_mag1.004",
+    "triangles": 198,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 313,
+    "name": "pdc_covering.004",
+    "triangles": 16,
+    "boundary_edges": 14,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 317,
+    "name": "pdc_frame.004",
+    "triangles": 54,
+    "boundary_edges": 48,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 324,
+    "name": "pdc_cannon2.004",
+    "triangles": 12,
+    "boundary_edges": 32,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 335,
+    "name": "pdc_cannon1.005",
+    "triangles": 57,
+    "boundary_edges": 37,
+    "nonmanifold_edges": 2
+  },
+  {
+    "node": 338,
+    "name": "pdc_mag2.005",
+    "triangles": 200,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 341,
+    "name": "pdc_mag1.005",
+    "triangles": 198,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 1
+  },
+  {
+    "node": 351,
+    "name": "pdc_covering.005",
+    "triangles": 16,
+    "boundary_edges": 14,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 355,
+    "name": "pdc_frame.005",
+    "triangles": 54,
+    "boundary_edges": 48,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 362,
+    "name": "pdc_cannon2.005",
+    "triangles": 12,
+    "boundary_edges": 32,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 367,
+    "name": "s3_supportB-2.001",
+    "triangles": 32,
+    "boundary_edges": 8,
+    "nonmanifold_edges": 4
+  },
+  {
+    "node": 371,
+    "name": "s3_3b-2.001",
+    "triangles": 42,
+    "boundary_edges": 46,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 374,
+    "name": "pdc_filler-1.006",
+    "triangles": 42,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 377,
+    "name": "pdc_filler-1.001",
+    "triangles": 42,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 380,
+    "name": "pdc_filler-1.004",
+    "triangles": 42,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 383,
+    "name": "pdc_filler-1.005",
+    "triangles": 42,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 386,
+    "name": "pdc_filler-1.002",
+    "triangles": 42,
+    "boundary_edges": 0,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 37,
+    "name": "s2_2c",
+    "triangles": 7,
+    "boundary_edges": 21,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 42,
+    "name": "s2_2a",
+    "triangles": 4,
+    "boundary_edges": 12,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 48,
+    "name": "s2_2b",
+    "triangles": 4,
+    "boundary_edges": 12,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 53,
+    "name": "s2_2d",
+    "triangles": 4,
+    "boundary_edges": 12,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 58,
+    "name": "s2_2f",
+    "triangles": 4,
+    "boundary_edges": 12,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 84,
+    "name": "s1_1a",
+    "triangles": 28,
+    "boundary_edges": 38,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 89,
+    "name": "s1_1",
+    "triangles": 5,
+    "boundary_edges": 7,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 94,
+    "name": "s1_1b",
+    "triangles": 10,
+    "boundary_edges": 14,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 99,
+    "name": "s1_1c+d",
+    "triangles": 24,
+    "boundary_edges": 34,
+    "nonmanifold_edges": 0
+  },
+  {
+    "node": 108,
+    "name": "s1_1f",
+    "triangles": 4,
+    "boundary_edges": 8,
+    "nonmanifold_edges": 0
+  }
+]

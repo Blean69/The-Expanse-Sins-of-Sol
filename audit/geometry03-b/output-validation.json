@@ -1,0 +1,867 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "triangle_total": 16335,
+  "rest_pose_position_max_error": 2.505206877539779e-06,
+  "outputs": {
+    "hull": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_hull.mesh",
+      "sha256": "9c6a2107e3b0b26b41cd6654418bdcab190a2c7ee4a91d265937d5e9103d008a",
+      "raw_official_sha256": "de5be696b82a13374136ba6eb28cffc3c7639c7ab567754a4079808da580f40d",
+      "triangles": 11553,
+      "materials": [
+        "expanse03_hull_mcrn_tachi_material",
+        "expanse03_hull_mcrn_tachi_primary",
+        "expanse03_hull_mcrn_tachi_secondary",
+        "expanse03_hull_mcrn_tachi_texts"
+      ],
+      "source_frame_max_match_error": 2.12221546522077e-06,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.0220589525574724e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 265,
+      "minimum_face_normal_cosine": -5.088514357203796e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 5.000000005139782e-07,
+      "changed_bytes": 190358,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "f3b5cf3e5f8b74ec0b32f763577623477634173053a21738cf88123f27b07203",
+      "trailer_sha256_after": "f3b5cf3e5f8b74ec0b32f763577623477634173053a21738cf88123f27b07203",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "weapon.0",
+          "position": [
+            11.343961715698242,
+            -10.837480545043945,
+            36.184200286865234
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.0",
+          "position": [
+            -11.34397029876709,
+            -10.837471961975098,
+            36.1842041015625
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            0.0,
+            -10.112395286560059,
+            -49.331363677978516
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            -10.112395286560059,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            9.887604713439941,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -32.112396240234375,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse_pdc_0_base",
+          "position": [
+            -15.3208589553833,
+            -10.084102630615234,
+            5.71939754486084
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse_pdc_1_base",
+          "position": [
+            -0.029646355658769608,
+            1.8523238897323608,
+            -19.435649871826172
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse_pdc_2_base",
+          "position": [
+            0.27492398023605347,
+            -22.07711410522461,
+            -19.435636520385742
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse_pdc_3_base",
+          "position": [
+            15.320857048034668,
+            -10.088343620300293,
+            5.719399929046631
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse_pdc_4_base",
+          "position": [
+            9.547650337219238,
+            -10.837475776672363,
+            32.214027404785156
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse_pdc_5_base",
+          "position": [
+            -9.54765796661377,
+            -10.837474822998047,
+            32.21402359008789
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_0_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_0_base.mesh",
+      "sha256": "51be2e27b143757853263b4ec292bd50411e4a2185fe740ebbbfb33490165ada",
+      "raw_official_sha256": "1ea1ccd3223a048b8d4116fd9e53cd21a408f6706d9dcf42e345ce163a8aab83",
+      "triangles": 226,
+      "materials": [
+        "expanse03_pdc_0_base_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.4133954677079822e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.624749961295137e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "minimum_face_normal_cosine": -3.3955366772156244e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.995155334919232e-07,
+      "changed_bytes": 3150,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "41d1a64e87745371ea09345e0b93b986bfdc7a281fb5bfe053bbe64f71fe0451",
+      "trailer_sha256_after": "41d1a64e87745371ea09345e0b93b986bfdc7a281fb5bfe053bbe64f71fe0451",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "child.expanse_pdc_0_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_0_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_0_barrel.mesh",
+      "sha256": "927f872b1d51cd9888b1d8a14ce0dcf98f329f6c1872f6e32e0a5b3f1c33baa0",
+      "raw_official_sha256": "4f29b40362792ac5a195c792a68bc7958692208f27b1cd7dfb1ea27fcca603e3",
+      "triangles": 571,
+      "materials": [
+        "expanse03_pdc_0_barrel_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.6284853504664784e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.896030785461397e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "minimum_face_normal_cosine": -1.2020169536859024e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998016356339008e-07,
+      "changed_bytes": 10066,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "92aa0ac0107f6c40497f7ff5a9ba67e93f3fef795e748c17a2e1a4ea75249bc7",
+      "trailer_sha256_after": "92aa0ac0107f6c40497f7ff5a9ba67e93f3fef795e748c17a2e1a4ea75249bc7",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_1_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_1_base.mesh",
+      "sha256": "a83cf89f83b5089554a8d5b9d473a467d68382b95fe8cc851f83725bc7e4d832",
+      "raw_official_sha256": "5eb4f70f9d991a15955a9e20eb8bad6cba409decaab5e4b523b0c38c6d540f51",
+      "triangles": 226,
+      "materials": [
+        "expanse03_pdc_1_base_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.344955589558951e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.803065338716565e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "minimum_face_normal_cosine": -3.04363071820462e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.976644515930495e-07,
+      "changed_bytes": 3120,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "2a6f371582f8a490afe7c19f5ddb62667e275c2264ab457f022d09ced71a3a1c",
+      "trailer_sha256_after": "2a6f371582f8a490afe7c19f5ddb62667e275c2264ab457f022d09ced71a3a1c",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "child.expanse_pdc_1_barrel",
+          "position": [
+            0.0,
+            1.3764537572860718,
+            0.18730218708515167
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_1_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_1_barrel.mesh",
+      "sha256": "371c4ed7d13f3d253ccfdd5a65bbaf4e2173f670ce957b66e2d00363edc0e5a4",
+      "raw_official_sha256": "1c377150e7ec6de7abf016f675592d3535e1b92466d614887339efa12b31fe40",
+      "triangles": 571,
+      "materials": [
+        "expanse03_pdc_1_barrel_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.679707387619887e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.0696878755852595e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "minimum_face_normal_cosine": -5.823047678212217e-07,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.99916076646123e-07,
+      "changed_bytes": 10073,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "06920c721ae3994089796c61f67b426ebdef64f406842ca5f2a7a7c2011848b5",
+      "trailer_sha256_after": "06920c721ae3994089796c61f67b426ebdef64f406842ca5f2a7a7c2011848b5",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -1.1721871487679891e-05,
+            0.4073111116886139,
+            3.7885186672210693
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_2_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_2_base.mesh",
+      "sha256": "ea7d5e43f8c73a37dcbfae1c9ec62749156e6e2bfb4cc6b5acdacecb84fa4a6d",
+      "raw_official_sha256": "71b984ed92dc4b137f76f0791ef2c840b354f6302203a16e66542af173e59405",
+      "triangles": 226,
+      "materials": [
+        "expanse03_pdc_2_base_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.3673002634102496e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.755428919647772e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "minimum_face_normal_cosine": -3.1569975474460354e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.98718261798814e-07,
+      "changed_bytes": 3115,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "2c30919538d62851ebebbff0481b43e044c871d6fce07edf46bd7080486b875d",
+      "trailer_sha256_after": "2c30919538d62851ebebbff0481b43e044c871d6fce07edf46bd7080486b875d",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "child.expanse_pdc_2_barrel",
+          "position": [
+            0.0,
+            1.3764538764953613,
+            0.18732084333896637
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_2_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_2_barrel.mesh",
+      "sha256": "98b5890f363c2e798721aacf629fde37e1b1e6c1fde06175450b49425313d582",
+      "raw_official_sha256": "43b71d22544f4e3ce92a6878653d1043c7f249511ee6f11200579dd086d36cee",
+      "triangles": 571,
+      "materials": [
+        "expanse03_pdc_2_barrel_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.6476502204823499e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.4227974171917595e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 7,
+      "minimum_face_normal_cosine": -1.6598060410455526e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998016357449231e-07,
+      "changed_bytes": 10067,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "29c629010b256732134fe26289335ed2454574f04d261126df4f57a22b0cd165",
+      "trailer_sha256_after": "29c629010b256732134fe26289335ed2454574f04d261126df4f57a22b0cd165",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -1.406491264788201e-05,
+            0.4073164463043213,
+            3.788551092147827
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_3_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_3_base.mesh",
+      "sha256": "7a3a44cd4d67b7708ae12cb89c50e22e82857e5482e0c099dc79767d61056eaa",
+      "raw_official_sha256": "98b3dd81dc62197e7339bd9631f2f1aa51db7a3d143db212b278815175a05909",
+      "triangles": 226,
+      "materials": [
+        "expanse03_pdc_3_base_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.293943946646468e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.443395402203574e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "minimum_face_normal_cosine": -3.352613105709062e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998245239362653e-07,
+      "changed_bytes": 3137,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "b381075b926afec34dbf90481685469a5cb5241ded6ddfcd6d007679477291e6",
+      "trailer_sha256_after": "b381075b926afec34dbf90481685469a5cb5241ded6ddfcd6d007679477291e6",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "child.expanse_pdc_3_barrel",
+          "position": [
+            0.0,
+            1.376452922821045,
+            0.1873120814561844
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_3_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_3_barrel.mesh",
+      "sha256": "fd9ab3af8b1510f409421fec0ffb2e32551817b1060121038ea5cf493456218e",
+      "raw_official_sha256": "c912397a161acb639f4c23bbad017576a9e24b42a2baa6450d3f7f680a77588a",
+      "triangles": 571,
+      "materials": [
+        "expanse03_pdc_3_barrel_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.5701355314624032e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.7593849545862224e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "minimum_face_normal_cosine": -4.980919218926646e-07,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.992950670421395e-07,
+      "changed_bytes": 10082,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "c56ced5bee115f2e96dacd4ce58ec56d4e81e178d3b8d9bf06eb136aadbeac1e",
+      "trailer_sha256_after": "c56ced5bee115f2e96dacd4ce58ec56d4e81e178d3b8d9bf06eb136aadbeac1e",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            8.712169687896676e-07,
+            0.40731510519981384,
+            3.788501501083374
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_4_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_4_base.mesh",
+      "sha256": "003c1db3d5c2061e451fa80d603609d2a27aacb457b528a7ae3201bc77b7aac8",
+      "raw_official_sha256": "1d884970fa4daaffe526c33c7b3e6239575584f23a241b818152104a9877ceca",
+      "triangles": 226,
+      "materials": [
+        "expanse03_pdc_4_base_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.3644290870787283e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.170609441660588e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "minimum_face_normal_cosine": -3.220830161094125e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.997100830905765e-07,
+      "changed_bytes": 3131,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "6b63fda15abcf4a721e2d1bd21b476df138abe17cde5b8cf93444ee8085674fa",
+      "trailer_sha256_after": "6b63fda15abcf4a721e2d1bd21b476df138abe17cde5b8cf93444ee8085674fa",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "child.expanse_pdc_4_barrel",
+          "position": [
+            0.0,
+            1.3770369291305542,
+            0.18296070396900177
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_4_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_4_barrel.mesh",
+      "sha256": "ce2501bedb5414d78c99f1763fd923e4be301360781276a963fc21b83fd3fc1c",
+      "raw_official_sha256": "871d39993c897603044d103a670f5247069ac1fa2c8616fa00aadf075e109537",
+      "triangles": 571,
+      "materials": [
+        "expanse03_pdc_4_barrel_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.7874795250486792e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.405909443365829e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "minimum_face_normal_cosine": -8.366909848887389e-07,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.99976739287266e-07,
+      "changed_bytes": 10009,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "6e7f119ce0cb144eaad91349c2855b50e9300b54494d23f077a4a7f4f89d98c4",
+      "trailer_sha256_after": "6e7f119ce0cb144eaad91349c2855b50e9300b54494d23f077a4a7f4f89d98c4",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            5.176108516025124e-06,
+            0.41927504539489746,
+            3.7872121334075928
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_5_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_5_base.mesh",
+      "sha256": "7b6a1f7abe69bca76e2c5ecb5011a4dc5d34c82443766c86366676152cf1f355",
+      "raw_official_sha256": "f3ccc2cd9508c1756c65c9c737cb18710c0927a780be2b683e266be17cfbbecd",
+      "triangles": 226,
+      "materials": [
+        "expanse03_pdc_5_base_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.3604725009722946e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.6669890518249417e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "minimum_face_normal_cosine": -3.131099786080693e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999580383024949e-07,
+      "changed_bytes": 3147,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "a9a6c61cc64af24dd2ac28be9b4dce254ecdfb509364727b8a20d436f56aab13",
+      "trailer_sha256_after": "a9a6c61cc64af24dd2ac28be9b4dce254ecdfb509364727b8a20d436f56aab13",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "child.expanse_pdc_5_barrel",
+          "position": [
+            0.0,
+            1.3770325183868408,
+            0.18296368420124054
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "pdc_5_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_5_barrel.mesh",
+      "sha256": "0062df1ce6147aa39aa26796b97ab63e7d37d056b27565dfee6ed156922c9ff5",
+      "raw_official_sha256": "8634cf25b81837104f0b94c11933181c25965e0c25210b61c120e30a5198c519",
+      "triangles": 571,
+      "materials": [
+        "expanse03_pdc_5_barrel_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.8661827524094228e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.796000715833563e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "minimum_face_normal_cosine": -6.952585286858292e-07,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999389648929764e-07,
+      "changed_bytes": 9939,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "cab2ffc5201741916cc43d81bf2c1e3e6d7f7cbd121b5e7b92406d3879907664",
+      "trailer_sha256_after": "cab2ffc5201741916cc43d81bf2c1e3e6d7f7cbd121b5e7b92406d3879907664",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            2.9582590741483727e-06,
+            0.4192805290222168,
+            3.7872180938720703
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    }
+  },
+  "rotation_checks": [
+    {
+      "index": 0,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 1,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 2,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 3,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 4,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 5,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    }
+  ],
+  "runtime": "NOT RUN"
+}

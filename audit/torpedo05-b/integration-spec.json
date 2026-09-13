@@ -1,0 +1,186 @@
+{
+  "status": "COMPLETE OFFLINE APPEARANCE CANDIDATE; RUNTIME NOT RUN",
+  "mesh_id": "expanse05_amun_torpedo",
+  "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/meshes/expanse05_amun_torpedo.mesh",
+  "sha256": "cf93418cfd01da9fd76971c2855912124f244c3e35d5ede20ffe441ead5de024",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game",
+  "material": {
+    "id": "expanse05_amun_torpedo_expanse05_amun_torpedo_surface",
+    "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+    "sha256": "a3cf13e9d3e34209b407bb55fda1bfac36b47c551a14e2252bf7cbe159848f2b"
+  },
+  "textures": [
+    {
+      "field": "base_color_texture",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/textures/expanse05_amun_torpedo_surface_clr.dds",
+      "sha256": "6fbb1e86e52eb5ad512be2d4579acfe682e63911f2be672e340c9e8ffeab5d60",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "DXGI_format": 98
+    },
+    {
+      "field": "occlusion_roughness_metallic_texture",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/textures/expanse05_amun_torpedo_surface_orm.dds",
+      "sha256": "e61ed92fb0fa31ad9a73e96ba1cfb24340bfa740b6ae7eb143d579a7e32ce502",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "DXGI_format": 98
+    },
+    {
+      "field": "normal_texture",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "sha256": "6b96ab0c3f629c39d869759011d6a409e2d9309613d39659072b2f664f56baa3",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "DXGI_format": 84
+    },
+    {
+      "field": "mask_texture",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/textures/expanse05_amun_torpedo_surface_msk.dds",
+      "sha256": "85407ae3d2a9b8b0d64ea12f97266a4605afdff288e84d76081dd636321defc0",
+      "dimensions": [
+        1024,
+        1024
+      ],
+      "DXGI_format": 98
+    }
+  ],
+  "meshpoints": [
+    {
+      "name": "center",
+      "position": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "above",
+      "position": [
+        0.0,
+        0.9406306743621826,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "aura",
+      "position": [
+        0.0,
+        -0.9406306743621826,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "exhaust.0",
+      "position": [
+        -0.004106670618057251,
+        0.0020533204078674316,
+        -8.285377502441406
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "bone_index": 0
+    }
+  ],
+  "compiled_bounds": {
+    "box": [
+      0.0,
+      0.0,
+      0.0,
+      0.8406280279159546,
+      0.8406306505203247,
+      8.255377769470215
+    ],
+    "sphere": [
+      0.0,
+      0.0,
+      0.0,
+      8.287338256835938
+    ]
+  },
+  "source_geometry_bounds": {
+    "min": [
+      -0.8406280279159546,
+      -0.8406306505203247,
+      -8.255377769470215
+    ],
+    "max": [
+      0.8406280279159546,
+      0.8406306505203247,
+      8.255377769470215
+    ],
+    "dimensions": [
+      1.6812560558319092,
+      1.6812613010406494,
+      16.51075553894043
+    ],
+    "vertex_radius": 8.287338726496193
+  },
+  "triangle_count": 1600,
+  "runtime": "NOT RUN",
+  "gameplay_changes": [],
+  "appearance_caveats": {
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source_dimensions": [
+      4096,
+      4096
+    ],
+    "ORM": "R=255 because no AO texture;G/B copied from glTF metallicRoughness",
+    "MSK": "R/G/A0;B=max source emissiveRGB; game emissive uses base-color tint",
+    "normal": "Referenced glTF normal preserved; source filename DirectX conflicts with glTF naming expectation; no unverified green-channel inversion. Inspect bumps in game."
+  }
+}

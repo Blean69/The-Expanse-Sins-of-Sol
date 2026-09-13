@@ -1,0 +1,33 @@
+{
+  "owner": "Worker C / validation",
+  "status": "INTAKE AND EDITABLE CANDIDATES COMPLETE; NO GAME PACKAGE",
+  "source_tools": [
+    "/run/media/haker/NVME 2/expanse-workers/validation/tools/donnager04_intake.py",
+    "/run/media/haker/NVME 2/expanse-workers/validation/tools/donnager04_validate.py"
+  ],
+  "report": "/run/media/haker/NVME 2/expanse-workers/validation/audit/donnager04-c/report.md",
+  "assets_root": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c",
+  "normalized_candidate": "normalized-preview/donnager04_centered.gltf",
+  "provisional_relative_scale_candidate": "normalized-preview/donnager04_provisional_475p5m.gltf",
+  "rail_candidates": [
+    "rail-assembly-preview/donnager04_rail_negative_X.gltf",
+    "rail-assembly-preview/donnager04_rail_positive_X.gltf"
+  ],
+  "preview_files": [
+    "/run/media/haker/NVME 2/expanse-workers/validation/audit/donnager04-c/donnager-planning-view.png",
+    "/run/media/haker/NVME 2/expanse-workers/validation/audit/donnager04-c/railguns-isolated-view.png",
+    "/run/media/haker/NVME 2/expanse-workers/validation/audit/donnager04-c/provisional-scale-comparison.png"
+  ],
+  "game_files_to_copy": [],
+  "unit_skin_weapon_manifest_patches": [],
+  "blocked_game_export": [
+    "Source1,804,024 triangles vs SDK capital75,000; optimization not performed",
+    "No game shader textures/material conversion/tangent export",
+    "PDC mount count and surface positions unverified; donor not spliced",
+    "Rail fixed/moving parts, pivots, muzzle bores and limited sweep unverified",
+    "Carrier/hangar ability mechanics owned by Worker A/main; no acquisition or gameplay definition here"
+  ],
+  "runtime": "NOT RUN",
+  "preserved_source": "Keep original archive and master byte-identical. Derived candidate normalization or selection is separate.",
+  "copy_guidance": "If relocating rail candidates, keep normalized-preview/textures alongside rail-assembly-preview because editable glTF image paths are relative. Both normalized full scenes share their local scene.bin/textures. These files are ignored assets, not entity packages."
+}

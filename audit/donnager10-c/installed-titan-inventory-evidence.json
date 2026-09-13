@@ -1,0 +1,424 @@
+{
+  "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_loyalist_titan.unit",
+  "sha256": "8bd6a2ea315f91d0cc3cafdb0eabe966eda83bea133b911473dc4ac64cc30390",
+  "items": {
+    "levels": [
+      {
+        "max_ship_component_count": 8
+      }
+    ]
+  },
+  "item_access_tags": [
+    "trader_loyalist_titan"
+  ],
+  "tags": [
+    "titan"
+  ],
+  "ability_set": [
+    {
+      "abilities": [
+        "trader_loyalist_titan_disruption_matrix",
+        "trader_loyalist_titan_furious_defense",
+        "trader_loyalist_titan_shield_surge",
+        "trader_loyalist_titan_invulnerability_field"
+      ]
+    }
+  ],
+  "item_builds": [
+    {
+      "build_group": [
+        "trader_loyalist_titan_hull_plating_0",
+        "trader_loyalist_titan_hull_plating_1",
+        "trader_loyalist_titan_hull_plating_2"
+      ],
+      "weight": 10.0
+    },
+    {
+      "build_group": [
+        "trader_flak_burst"
+      ],
+      "weight": 8.0
+    },
+    {
+      "build_group": [
+        "trader_beam_armor"
+      ],
+      "weight": 8.0
+    },
+    {
+      "build_group": [
+        "trader_missile_armor"
+      ],
+      "weight": 8.0
+    },
+    {
+      "build_group": [
+        "trader_combat_repair_system"
+      ],
+      "weight": 8.0
+    },
+    {
+      "build_group": [
+        "trader_heavy_armor"
+      ],
+      "weight": 8.0
+    },
+    {
+      "build_group": [
+        "trader_loyalist_titan_unlock_missile_weapon",
+        "trader_missile_guidance_computer"
+      ],
+      "weight": 5.0
+    },
+    {
+      "build_group": [
+        "trader_loyalist_titan_hangar"
+      ],
+      "weight": 5.0
+    },
+    {
+      "build_group": [
+        "trader_loyalist_titan_unlock_beam_weapon"
+      ],
+      "weight": 5.0
+    },
+    {
+      "build_group": [
+        "trader_loyalist_titan_shield_array"
+      ],
+      "weight": 3.0
+    },
+    {
+      "build_group": [
+        "trader_antimatter_engine"
+      ],
+      "weight": 3.0
+    },
+    {
+      "build_group": [
+        "trader_rapid_autoloader",
+        "trader_targeting_array"
+      ],
+      "weight": 3.0
+    },
+    {
+      "build_group": [
+        "pranast_armored_citadel"
+      ]
+    }
+  ],
+  "referenced_item_definitions": [
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_loyalist_titan_hangar.unit_item",
+      "sha256": "e33372708a6a44ccb425b37800cac9067fa9c54408fe481659b4f96fbcfefcfa",
+      "definition": {
+        "version": 0,
+        "item_type": "ship_component",
+        "hud_icon": "trader_loyalist_titan_hangar_unit_item_hud_icon",
+        "tooltip_picture": "trader_loyalist_titan_hangar_tooltip_picture",
+        "name": "trader_loyalist_titan_hangar_unit_item_name",
+        "description": "trader_loyalist_titan_hangar_unit_item_description",
+        "build_time": 30.0,
+        "price": {
+          "credits": 900.0,
+          "metal": 300.0,
+          "crystal": 150.0
+        },
+        "required_unit_tags": [
+          "titan"
+        ],
+        "required_item_access_tags": [
+          "trader_loyalist_titan"
+        ],
+        "max_count_on_unit": 1,
+        "build_prerequisites": [
+          [
+            "trader_unlock_loyalist_titan_hangar_unit_item"
+          ]
+        ],
+        "build_group_id": "offense",
+        "unit_modifiers": [
+          {
+            "modifier_type": "max_squadron_capacity",
+            "value_behavior": "additive",
+            "values": [
+              15.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_loyalist_titan_unlock_beam_weapon.unit_item",
+      "sha256": "882eb0bd27270a6599dccc7162f2d9c694f9d39c848b549b7bde04670046e5f6",
+      "definition": {
+        "version": 0,
+        "item_type": "ship_component",
+        "hud_icon": "trader_loyalist_titan_unlock_beam_weapon_unit_item_hud_icon",
+        "tooltip_picture": "trader_loyalist_titan_unlock_beam_weapon_tooltip_picture",
+        "name": "trader_loyalist_titan_unlock_beam_weapon_unit_item_name",
+        "description": "trader_loyalist_titan_unlock_beam_weapon_unit_item_description",
+        "build_time": 30.0,
+        "price": {
+          "credits": 900.0,
+          "metal": 300.0,
+          "crystal": 150.0
+        },
+        "required_unit_tags": [
+          "titan"
+        ],
+        "required_item_access_tags": [
+          "trader_loyalist_titan"
+        ],
+        "max_count_on_unit": 1,
+        "build_prerequisites": [
+          [
+            "trader_unlock_loyalist_titan_beam_weapon_unit_item"
+          ]
+        ],
+        "build_group_id": "offense"
+      }
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_loyalist_titan_unlock_missile_weapon.unit_item",
+      "sha256": "d50e9a0706a651f6b27fc1d71c51fc2dc07e6ac328129ada06b79c1ceabb2440",
+      "definition": {
+        "version": 0,
+        "item_type": "ship_component",
+        "hud_icon": "trader_loyalist_titan_unlock_missile_weapon_unit_item_hud_icon",
+        "tooltip_picture": "trader_loyalist_titan_unlock_missile_weapon_tooltip_picture",
+        "name": "trader_loyalist_titan_unlock_missile_weapon_unit_item_name",
+        "description": "trader_loyalist_titan_unlock_missile_weapon_unit_item_description",
+        "build_time": 30.0,
+        "price": {
+          "credits": 900.0,
+          "metal": 300.0,
+          "crystal": 150.0
+        },
+        "required_unit_tags": [
+          "titan"
+        ],
+        "required_item_access_tags": [
+          "trader_loyalist_titan"
+        ],
+        "max_count_on_unit": 1,
+        "build_prerequisites": [
+          [
+            "trader_unlock_loyalist_titan_missile_weapon_unit_item"
+          ]
+        ],
+        "build_group_id": "offense"
+      }
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system.unit_item",
+      "sha256": "756552afc019e4c85e7a704b4846ce529351a04c2f6ae4e8ec431f0bdd85f6e7",
+      "definition": {
+        "version": 0,
+        "item_type": "ship_component",
+        "hud_icon": "trader_combat_repair_system_unit_item_hud_icon",
+        "tooltip_icon": "trader_combat_repair_system_unit_item_hud_icon",
+        "tooltip_picture": "trader_combat_repair_system_unit_item_tooltip_picture",
+        "name": "trader_combat_repair_system_unit_item_name",
+        "description": "trader_combat_repair_system_unit_item_description",
+        "build_time": 30.0,
+        "price": {
+          "credits": 750.0,
+          "metal": 150.0,
+          "crystal": 150.0
+        },
+        "required_unit_tags": [
+          "capital_ship",
+          "super_capital_ship",
+          "titan"
+        ],
+        "max_count_on_unit": 1,
+        "build_prerequisites": [
+          [
+            "trader_unlock_combat_repair_system_unit_item"
+          ]
+        ],
+        "build_group_id": "defense",
+        "ability": "trader_combat_repair_system_unit_item",
+        "unit_modifiers": [
+          {
+            "modifier_type": "hull_point_restore_scalar_after_damage_taken",
+            "value_behavior": "additive",
+            "values": [
+              2.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_heavy_armor.unit_item",
+      "sha256": "e7e9b7b6494961b6e2ab76085b3f7cb1d6bcfc7969a2c3af6d3610ddfce93e6f",
+      "definition": {
+        "version": 0,
+        "item_type": "ship_component",
+        "hud_icon": "trader_heavy_armor_unit_item_hud_icon",
+        "tooltip_icon": "trader_heavy_armor_unit_item_hud_icon",
+        "tooltip_picture": "trader_heavy_armor_unit_item_tooltip_picture",
+        "name": "trader_heavy_armor_unit_item_name",
+        "description": "trader_heavy_armor_unit_item_description",
+        "build_time": 30.0,
+        "price": {
+          "credits": 750.0,
+          "metal": 250.0,
+          "crystal": 0.0
+        },
+        "required_unit_tags": [
+          "capital_ship",
+          "super_capital_ship",
+          "titan"
+        ],
+        "max_count_on_unit": 1,
+        "build_prerequisites": [
+          [
+            "trader_unlock_heavy_armor_unit_item"
+          ]
+        ],
+        "build_group_id": "defense",
+        "unit_modifiers": [
+          {
+            "modifier_type": "max_armor_points",
+            "value_behavior": "scalar",
+            "values": [
+              0.25
+            ]
+          },
+          {
+            "modifier_type": "max_hull_points",
+            "value_behavior": "scalar",
+            "values": [
+              0.25
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "runtime": "NOT RUN",
+  "base09_player_limits": {
+    "trader_loyalist": {
+      "global": [
+        {
+          "tag": "titan",
+          "unit_limit": 1
+        },
+        {
+          "tag": "super_capital_ship",
+          "unit_limit": 1
+        },
+        {
+          "tag": "expanse_rocinante_hero",
+          "unit_limit": 1
+        },
+        {
+          "tag": "expanse_amun_ra",
+          "unit_limit": 6
+        }
+      ],
+      "star": [
+        {
+          "tag": "starbase",
+          "unit_limit": 4
+        }
+      ],
+      "planet": [
+        {
+          "tag": "starbase",
+          "unit_limit": 1
+        },
+        {
+          "tag": "superweapon",
+          "unit_limit": 1
+        }
+      ]
+    },
+    "trader_rebel": {
+      "global": [
+        {
+          "tag": "titan",
+          "unit_limit": 1
+        },
+        {
+          "tag": "super_capital_ship",
+          "unit_limit": 1
+        },
+        {
+          "tag": "expanse_rocinante_hero",
+          "unit_limit": 1
+        },
+        {
+          "tag": "expanse_amun_ra",
+          "unit_limit": 6
+        }
+      ],
+      "star": [
+        {
+          "tag": "starbase",
+          "unit_limit": 4
+        }
+      ],
+      "planet": [
+        {
+          "tag": "starbase",
+          "unit_limit": 1
+        },
+        {
+          "tag": "superweapon",
+          "unit_limit": 1
+        }
+      ]
+    },
+    "dlc_trader_loyalist": {
+      "global": [
+        {
+          "tag": "titan",
+          "unit_limit": 1
+        },
+        {
+          "tag": "super_capital_ship",
+          "unit_limit": 1
+        },
+        {
+          "tag": "expanse_rocinante_hero",
+          "unit_limit": 1
+        },
+        {
+          "tag": "expanse_amun_ra",
+          "unit_limit": 6
+        }
+      ],
+      "star": [
+        {
+          "tag": "starbase",
+          "unit_limit": 4
+        }
+      ],
+      "planet": [
+        {
+          "tag": "starbase",
+          "unit_limit": 1
+        },
+        {
+          "tag": "superweapon",
+          "unit_limit": 1
+        }
+      ]
+    }
+  },
+  "agreed_integration_checks": {
+    "unit_id": "expanse_donnager_battleship",
+    "mod_id": "expanse_donnager10",
+    "shared_limit": {
+      "tag": "titan",
+      "unit_limit": 1
+    },
+    "component_slots": 8,
+    "abilities": "exactly one unconditional coexisting set",
+    "items": "generic compatible roster; no Ankylon proprietary unlocks"
+  }
+}

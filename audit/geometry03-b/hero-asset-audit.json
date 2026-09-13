@@ -1,0 +1,5520 @@
+{
+  "permission": "User states permission granted to use this asset; creator/source URL/exact license terms not supplied",
+  "archive_sha256": "2fef806f80c65f138eed9b877c6cd1ae98f12e597856b96cfb1c6676a16af3e6",
+  "master_files": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-master/background.jpeg": "a59371956303a36f6e3f8e7b72490d29eccbd560267dbd468f677c574ba17086",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-master/Rocinante_(The_Expanse).bin": "0d52248f937dbde55980f986f9b3c6a1a9d6ac8ee10dd93b094286544a8cdeab",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-master/Rocinante_(The_Expanse).gltf": "e3083cccb204e638c168885de102b1b054bba8186a7dcaa6185829dea91d555e"
+  },
+  "source_triangles": 432680,
+  "stand_removed_triangles": 6068,
+  "stand_free_triangles": 426612,
+  "stand_nodes": [
+    65,
+    66,
+    67,
+    68
+  ],
+  "source_mesh_nodes": 163,
+  "remaining_mesh_nodes": 161,
+  "optimized_static_triangles": 26707,
+  "source_materials": [
+    {
+      "name": "roci_darker silver metal",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.08021982031446832,
+          0.08021982031446832,
+          0.08021982031446832,
+          1
+        ],
+        "roughnessFactor": 0.7,
+        "metallicFactor": 0.1
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.4
+        }
+      }
+    },
+    {
+      "name": "roci_dark silver metal",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.31854677812509186,
+          0.31854677812509186,
+          0.31854677812509186,
+          1
+        ],
+        "roughnessFactor": 0.6,
+        "metallicFactor": 0.1
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.4
+        }
+      }
+    },
+    {
+      "name": "roci_color metal",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.445201,
+          0.08865550000000004,
+          0.005181530000000002,
+          1
+        ],
+        "roughnessFactor": 0.7,
+        "metallicFactor": 0.1
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.4
+        }
+      }
+    },
+    {
+      "name": "roci_Metal Black Dixon",
+      "doubleSided": true,
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularFactor": 0.4
+        }
+      }
+    }
+  ],
+  "texture_images": 0,
+  "UV_sets": 0,
+  "background_jpeg": "Archive background.jpeg is not referenced by glTF model",
+  "animations": {
+    "count": 1,
+    "name": "Animation",
+    "channel_count": 351,
+    "duration_seconds": 16.625,
+    "relative_PDC_motion": [
+      {
+        "node": 111,
+        "name": "pdc_pdc1_28",
+        "relative_translation": [
+          0.022928153976528344,
+          0.00033805508547088284,
+          -0.001072901665876591
+        ],
+        "relative_rotation_degrees": 5.893544467512781e-16
+      },
+      {
+        "node": 114,
+        "name": "pdc_pdc2_29",
+        "relative_translation": [
+          0.021461282693892872,
+          -3.482271674782461e-07,
+          -0.0014726028882577347
+        ],
+        "relative_rotation_degrees": 5.893544467512781e-16
+      },
+      {
+        "node": 117,
+        "name": "pdc_cannon1_30",
+        "relative_translation": [
+          0.029934411117730417,
+          -0.024658045597720765,
+          3.973456687150767e-06
+        ],
+        "relative_rotation_degrees": 29.999991975298965
+      },
+      {
+        "node": 133,
+        "name": "pdc_covering_35",
+        "relative_translation": [
+          0.0725050976907794,
+          -0.06049710695688247,
+          5.1939994299143866e-06
+        ],
+        "relative_rotation_degrees": 90.00000267668712
+      },
+      {
+        "node": 140,
+        "name": "pdc_frame_37",
+        "relative_translation": [
+          1.9955109824970618e-07,
+          -1.2333793465448482e-06,
+          4.1838759157752925e-06
+        ],
+        "relative_rotation_degrees": 5.893544467512781e-16
+      },
+      {
+        "node": 147,
+        "name": "pdc_cannon2_39",
+        "relative_translation": [
+          0.029933198890150454,
+          -0.024658979784066427,
+          -1.6099894713794694e-06
+        ],
+        "relative_rotation_degrees": 29.999991975298965
+      },
+      {
+        "node": 174,
+        "name": "pdc_pdc1.001_50",
+        "relative_translation": [
+          -0.02292663032482716,
+          -0.00034074436652532444,
+          -0.0010767508025760208
+        ],
+        "relative_rotation_degrees": 8.865663740746031e-06
+      },
+      {
+        "node": 196,
+        "name": "pdc_covering.001_57",
+        "relative_translation": [
+          -0.07244351366742877,
+          0.06055613383733939,
+          3.2410394400772535e-06
+        ],
+        "relative_rotation_degrees": 90.0000088644409
+      },
+      {
+        "node": 212,
+        "name": "pdc_pdc1.002_62",
+        "relative_translation": [
+          -0.021772070123510297,
+          0.0008732687454063269,
+          -0.007217886487006442
+        ],
+        "relative_rotation_degrees": 7.788367351245659e-06
+      },
+      {
+        "node": 234,
+        "name": "pdc_covering.002_69",
+        "relative_translation": [
+          -0.13005385362086286,
+          0.11659568907579346,
+          -0.036455315314227854
+        ],
+        "relative_rotation_degrees": 90.00000302998127
+      },
+      {
+        "node": 250,
+        "name": "pdc_pdc1.003_74",
+        "relative_translation": [
+          0.0223544589224132,
+          0.0008735251179325864,
+          -0.0051471529327897225
+        ],
+        "relative_rotation_degrees": 9.137119206290847e-06
+      },
+      {
+        "node": 272,
+        "name": "pdc_covering.003_81",
+        "relative_translation": [
+          0.13091942472053597,
+          0.11749782727675913,
+          -0.036701004490347744
+        ],
+        "relative_rotation_degrees": 89.9999993432149
+      },
+      {
+        "node": 288,
+        "name": "pdc_pdc1.004_86",
+        "relative_translation": [
+          -0.0003416860566470726,
+          0.022928085281745815,
+          -0.0010746337630847536
+        ],
+        "relative_rotation_degrees": 2.0972924802621756e-05
+      },
+      {
+        "node": 310,
+        "name": "pdc_covering.004_93",
+        "relative_translation": [
+          0.04491043530871343,
+          0.05680926061018374,
+          -4.306752606833553e-06
+        ],
+        "relative_rotation_degrees": 90.00002802363107
+      },
+      {
+        "node": 326,
+        "name": "pdc_pdc1.005_98",
+        "relative_translation": [
+          0.0003423168500929432,
+          -0.02292749348850494,
+          -0.0010741662562820664
+        ],
+        "relative_rotation_degrees": 1.3350582634618088e-05
+      },
+      {
+        "node": 348,
+        "name": "pdc_covering.005_105",
+        "relative_translation": [
+          -0.044803663558356785,
+          -0.05679676722431617,
+          2.5640948668192998e-06
+        ],
+        "relative_rotation_degrees": 89.99998068130735
+      }
+    ],
+    "interpretation": "Includes global presentation movement and real PDC covering/housing/cannon relative movement. Engine deployment integration NOT IMPLEMENTED."
+  },
+  "optimization": {
+    "library": "/run/media/haker/NVME 2/expanse-mod/.tools/libmeshoptimizer.so",
+    "library_sha256": "1877da479e08797a1b688e5eacabac1900b89d2f4efd89a5ae5c8d5626356ef4",
+    "pinned_source_commit": "bba256eaa24039b6f93c773063ff7c20143ae0db",
+    "target_ratio": 0.05,
+    "error_limit": 0.04,
+    "records": [
+      {
+        "node": 4,
+        "name": "GeometryNode_828",
+        "parent_name": "s3_3c",
+        "input_triangles": 22997,
+        "output_triangles": 1149,
+        "simplifier_error": 0.018628638237714767
+      },
+      {
+        "node": 5,
+        "name": "GeometryNode_840",
+        "parent_name": "s3_3c",
+        "input_triangles": 12593,
+        "output_triangles": 628,
+        "simplifier_error": 0.014293385669589043
+      },
+      {
+        "node": 6,
+        "name": "GeometryNode_848",
+        "parent_name": "s3_3c",
+        "input_triangles": 1922,
+        "output_triangles": 96,
+        "simplifier_error": 0.016506263986229897
+      },
+      {
+        "node": 9,
+        "name": "GeometryNode_875",
+        "parent_name": "s3_3b-1",
+        "input_triangles": 3684,
+        "output_triangles": 183,
+        "simplifier_error": 0.012329262681305408
+      },
+      {
+        "node": 10,
+        "name": "GeometryNode_883",
+        "parent_name": "s3_3b-1",
+        "input_triangles": 848,
+        "output_triangles": 42,
+        "simplifier_error": 0.015376398339867592
+      },
+      {
+        "node": 13,
+        "name": "GeometryNode_902",
+        "parent_name": "s3_3a",
+        "input_triangles": 5104,
+        "output_triangles": 328,
+        "simplifier_error": 0.039170149713754654
+      },
+      {
+        "node": 14,
+        "name": "GeometryNode_910",
+        "parent_name": "s3_3a",
+        "input_triangles": 80,
+        "output_triangles": 12,
+        "simplifier_error": 0.03943891078233719
+      },
+      {
+        "node": 17,
+        "name": "GeometryNode_929",
+        "parent_name": "s3_3",
+        "input_triangles": 22102,
+        "output_triangles": 1105,
+        "simplifier_error": 0.01916784606873989
+      },
+      {
+        "node": 18,
+        "name": "GeometryNode_937",
+        "parent_name": "s3_3",
+        "input_triangles": 534,
+        "output_triangles": 26,
+        "simplifier_error": 0.026106880977749825
+      },
+      {
+        "node": 21,
+        "name": "GeometryNode_956",
+        "parent_name": "s3_supportB-1",
+        "input_triangles": 1332,
+        "output_triangles": 65,
+        "simplifier_error": 0.014742426574230194
+      },
+      {
+        "node": 22,
+        "name": "GeometryNode_964",
+        "parent_name": "s3_supportB-1",
+        "input_triangles": 468,
+        "output_triangles": 32,
+        "simplifier_error": 0.039704181253910065
+      },
+      {
+        "node": 25,
+        "name": "GeometryNode_983",
+        "parent_name": "s3_supportA-1",
+        "input_triangles": 4128,
+        "output_triangles": 174,
+        "simplifier_error": 0.02460852451622486
+      },
+      {
+        "node": 29,
+        "name": "GeometryNode_1000",
+        "parent_name": "s2_2g",
+        "input_triangles": 9308,
+        "output_triangles": 464,
+        "simplifier_error": 0.011285834014415741
+      },
+      {
+        "node": 30,
+        "name": "GeometryNode_1008",
+        "parent_name": "s2_2g",
+        "input_triangles": 16,
+        "output_triangles": 4,
+        "simplifier_error": 0.018449652940034866
+      },
+      {
+        "node": 33,
+        "name": "GeometryNode_1027",
+        "parent_name": "s2_2e",
+        "input_triangles": 2744,
+        "output_triangles": 198,
+        "simplifier_error": 0.039807625114917755
+      },
+      {
+        "node": 36,
+        "name": "GeometryNode_1042",
+        "parent_name": "s2_2c",
+        "input_triangles": 9640,
+        "output_triangles": 482,
+        "simplifier_error": 0.02402489073574543
+      },
+      {
+        "node": 37,
+        "name": "GeometryNode_1050",
+        "parent_name": "s2_2c",
+        "input_triangles": 144,
+        "output_triangles": 7,
+        "simplifier_error": 0.02151503413915634
+      },
+      {
+        "node": 38,
+        "name": "GeometryNode_1062",
+        "parent_name": "s2_2c",
+        "input_triangles": 2888,
+        "output_triangles": 143,
+        "simplifier_error": 0.005685755517333746
+      },
+      {
+        "node": 41,
+        "name": "GeometryNode_1085",
+        "parent_name": "s2_2a",
+        "input_triangles": 19596,
+        "output_triangles": 979,
+        "simplifier_error": 0.01776595041155815
+      },
+      {
+        "node": 42,
+        "name": "GeometryNode_1093",
+        "parent_name": "s2_2a",
+        "input_triangles": 64,
+        "output_triangles": 4,
+        "simplifier_error": 0.018611371517181396
+      },
+      {
+        "node": 43,
+        "name": "GeometryNode_1101",
+        "parent_name": "s2_2a",
+        "input_triangles": 96,
+        "output_triangles": 4,
+        "simplifier_error": 0.015228454023599625
+      },
+      {
+        "node": 46,
+        "name": "GeometryNode_1124",
+        "parent_name": "s2_2b",
+        "input_triangles": 22933,
+        "output_triangles": 1145,
+        "simplifier_error": 0.008796251378953457
+      },
+      {
+        "node": 47,
+        "name": "GeometryNode_1132",
+        "parent_name": "s2_2b",
+        "input_triangles": 16331,
+        "output_triangles": 815,
+        "simplifier_error": 0.012329676188528538
+      },
+      {
+        "node": 48,
+        "name": "GeometryNode_1140",
+        "parent_name": "s2_2b",
+        "input_triangles": 64,
+        "output_triangles": 4,
+        "simplifier_error": 0.018610702827572823
+      },
+      {
+        "node": 49,
+        "name": "GeometryNode_1148",
+        "parent_name": "s2_2b",
+        "input_triangles": 128,
+        "output_triangles": 6,
+        "simplifier_error": 0.015221314504742622
+      },
+      {
+        "node": 52,
+        "name": "GeometryNode_1175",
+        "parent_name": "s2_2d",
+        "input_triangles": 5794,
+        "output_triangles": 288,
+        "simplifier_error": 0.029079271480441093
+      },
+      {
+        "node": 53,
+        "name": "GeometryNode_1183",
+        "parent_name": "s2_2d",
+        "input_triangles": 32,
+        "output_triangles": 4,
+        "simplifier_error": 0.027445292100310326
+      },
+      {
+        "node": 54,
+        "name": "GeometryNode_1191",
+        "parent_name": "s2_2d",
+        "input_triangles": 130,
+        "output_triangles": 9,
+        "simplifier_error": 0.03997659683227539
+      },
+      {
+        "node": 57,
+        "name": "GeometryNode_1214",
+        "parent_name": "s2_2f",
+        "input_triangles": 5129,
+        "output_triangles": 255,
+        "simplifier_error": 0.031086523085832596
+      },
+      {
+        "node": 58,
+        "name": "GeometryNode_1222",
+        "parent_name": "s2_2f",
+        "input_triangles": 32,
+        "output_triangles": 4,
+        "simplifier_error": 0.027409400790929794
+      },
+      {
+        "node": 59,
+        "name": "GeometryNode_1230",
+        "parent_name": "s2_2f",
+        "input_triangles": 163,
+        "output_triangles": 33,
+        "simplifier_error": 0.03939453512430191
+      },
+      {
+        "node": 63,
+        "name": "GeometryNode_1255",
+        "parent_name": "s1_covering",
+        "input_triangles": 2316,
+        "output_triangles": 114,
+        "simplifier_error": 0.035949621349573135
+      },
+      {
+        "node": 64,
+        "name": "GeometryNode_1263",
+        "parent_name": "s1_covering",
+        "input_triangles": 52,
+        "output_triangles": 12,
+        "simplifier_error": 0.03992140665650368
+      },
+      {
+        "node": 71,
+        "name": "GeometryNode_1312",
+        "parent_name": "s1_antenna-2",
+        "input_triangles": 4300,
+        "output_triangles": 214,
+        "simplifier_error": 0.0036109313368797302
+      },
+      {
+        "node": 74,
+        "name": "GeometryNode_1327",
+        "parent_name": "s1_antenna-4",
+        "input_triangles": 2128,
+        "output_triangles": 106,
+        "simplifier_error": 0.00207238900475204
+      },
+      {
+        "node": 77,
+        "name": "GeometryNode_1342",
+        "parent_name": "s1_antenna-3",
+        "input_triangles": 3896,
+        "output_triangles": 194,
+        "simplifier_error": 0.0036910264752805233
+      },
+      {
+        "node": 80,
+        "name": "GeometryNode_1357",
+        "parent_name": "s1_antenna-1",
+        "input_triangles": 1480,
+        "output_triangles": 74,
+        "simplifier_error": 0.004104012623429298
+      },
+      {
+        "node": 83,
+        "name": "GeometryNode_1372",
+        "parent_name": "s1_1a",
+        "input_triangles": 12344,
+        "output_triangles": 616,
+        "simplifier_error": 0.017751803621649742
+      },
+      {
+        "node": 84,
+        "name": "GeometryNode_1380",
+        "parent_name": "s1_1a",
+        "input_triangles": 572,
+        "output_triangles": 28,
+        "simplifier_error": 0.013444565236568451
+      },
+      {
+        "node": 85,
+        "name": "GeometryNode_1388",
+        "parent_name": "s1_1a",
+        "input_triangles": 2866,
+        "output_triangles": 143,
+        "simplifier_error": 0.004814335145056248
+      },
+      {
+        "node": 88,
+        "name": "GeometryNode_1411",
+        "parent_name": "s1_1",
+        "input_triangles": 19541,
+        "output_triangles": 976,
+        "simplifier_error": 0.011352811940014362
+      },
+      {
+        "node": 89,
+        "name": "GeometryNode_1419",
+        "parent_name": "s1_1",
+        "input_triangles": 114,
+        "output_triangles": 5,
+        "simplifier_error": 0.016237925738096237
+      },
+      {
+        "node": 90,
+        "name": "GeometryNode_1427",
+        "parent_name": "s1_1",
+        "input_triangles": 3193,
+        "output_triangles": 158,
+        "simplifier_error": 0.005849630106240511
+      },
+      {
+        "node": 93,
+        "name": "GeometryNode_1450",
+        "parent_name": "s1_1b",
+        "input_triangles": 10535,
+        "output_triangles": 525,
+        "simplifier_error": 0.01256522350013256
+      },
+      {
+        "node": 94,
+        "name": "GeometryNode_1458",
+        "parent_name": "s1_1b",
+        "input_triangles": 12,
+        "output_triangles": 10,
+        "simplifier_error": 0.03163425996899605
+      },
+      {
+        "node": 95,
+        "name": "GeometryNode_1466",
+        "parent_name": "s1_1b",
+        "input_triangles": 1661,
+        "output_triangles": 82,
+        "simplifier_error": 0.008475814945995808
+      },
+      {
+        "node": 98,
+        "name": "GeometryNode_1489",
+        "parent_name": "s1_1c+d",
+        "input_triangles": 21020,
+        "output_triangles": 1050,
+        "simplifier_error": 0.02244875766336918
+      },
+      {
+        "node": 99,
+        "name": "GeometryNode_1497",
+        "parent_name": "s1_1c+d",
+        "input_triangles": 506,
+        "output_triangles": 24,
+        "simplifier_error": 0.018252305686473846
+      },
+      {
+        "node": 100,
+        "name": "GeometryNode_1505",
+        "parent_name": "s1_1c+d",
+        "input_triangles": 778,
+        "output_triangles": 38,
+        "simplifier_error": 0.01609046384692192
+      },
+      {
+        "node": 103,
+        "name": "GeometryNode_1528",
+        "parent_name": "s1_1e",
+        "input_triangles": 11099,
+        "output_triangles": 554,
+        "simplifier_error": 0.02137012965977192
+      },
+      {
+        "node": 104,
+        "name": "GeometryNode_1536",
+        "parent_name": "s1_1e",
+        "input_triangles": 2147,
+        "output_triangles": 107,
+        "simplifier_error": 0.01357852853834629
+      },
+      {
+        "node": 107,
+        "name": "GeometryNode_1555",
+        "parent_name": "s1_1f",
+        "input_triangles": 10599,
+        "output_triangles": 529,
+        "simplifier_error": 0.012434794567525387
+      },
+      {
+        "node": 108,
+        "name": "GeometryNode_1563",
+        "parent_name": "s1_1f",
+        "input_triangles": 16,
+        "output_triangles": 4,
+        "simplifier_error": 0.009090532548725605
+      },
+      {
+        "node": 109,
+        "name": "GeometryNode_1571",
+        "parent_name": "s1_1f",
+        "input_triangles": 73,
+        "output_triangles": 9,
+        "simplifier_error": 0.03691045939922333
+      },
+      {
+        "node": 113,
+        "name": "GeometryNode_1596",
+        "parent_name": "pdc_pdc1",
+        "input_triangles": 400,
+        "output_triangles": 130,
+        "simplifier_error": 0.039366334676742554
+      },
+      {
+        "node": 116,
+        "name": "GeometryNode_1611",
+        "parent_name": "pdc_pdc2",
+        "input_triangles": 752,
+        "output_triangles": 134,
+        "simplifier_error": 0.03870631754398346
+      },
+      {
+        "node": 119,
+        "name": "GeometryNode_1626",
+        "parent_name": "pdc_cannon1",
+        "input_triangles": 6396,
+        "output_triangles": 319,
+        "simplifier_error": 0.014968042261898518
+      },
+      {
+        "node": 120,
+        "name": "GeometryNode_1634",
+        "parent_name": "pdc_cannon1",
+        "input_triangles": 1140,
+        "output_triangles": 57,
+        "simplifier_error": 0.035225871950387955
+      },
+      {
+        "node": 123,
+        "name": "GeometryNode_1653",
+        "parent_name": "pdc_mag2",
+        "input_triangles": 820,
+        "output_triangles": 200,
+        "simplifier_error": 0.03913704305887222
+      },
+      {
+        "node": 126,
+        "name": "GeometryNode_1668",
+        "parent_name": "pdc_mag1",
+        "input_triangles": 832,
+        "output_triangles": 198,
+        "simplifier_error": 0.03937378525733948
+      },
+      {
+        "node": 129,
+        "name": "GeometryNode_1683",
+        "parent_name": "pdc_pin-3x6",
+        "input_triangles": 284,
+        "output_triangles": 52,
+        "simplifier_error": 0.038084276020526886
+      },
+      {
+        "node": 132,
+        "name": "GeometryNode_1698",
+        "parent_name": "pdc_pin-4x8",
+        "input_triangles": 212,
+        "output_triangles": 36,
+        "simplifier_error": 0.039116885513067245
+      },
+      {
+        "node": 135,
+        "name": "GeometryNode_1713",
+        "parent_name": "pdc_covering",
+        "input_triangles": 1866,
+        "output_triangles": 91,
+        "simplifier_error": 0.03778233751654625
+      },
+      {
+        "node": 136,
+        "name": "GeometryNode_1721",
+        "parent_name": "pdc_covering",
+        "input_triangles": 206,
+        "output_triangles": 16,
+        "simplifier_error": 0.029956940561532974
+      },
+      {
+        "node": 139,
+        "name": "GeometryNode_1740",
+        "parent_name": "pdc_filler-1",
+        "input_triangles": 840,
+        "output_triangles": 42,
+        "simplifier_error": 0.0177841205149889
+      },
+      {
+        "node": 142,
+        "name": "GeometryNode_1755",
+        "parent_name": "pdc_frame",
+        "input_triangles": 6463,
+        "output_triangles": 321,
+        "simplifier_error": 0.03563787788152695
+      },
+      {
+        "node": 143,
+        "name": "GeometryNode_1763",
+        "parent_name": "pdc_frame",
+        "input_triangles": 1081,
+        "output_triangles": 54,
+        "simplifier_error": 0.007027778774499893
+      },
+      {
+        "node": 146,
+        "name": "GeometryNode_1782",
+        "parent_name": "pdc_frame_cov",
+        "input_triangles": 144,
+        "output_triangles": 50,
+        "simplifier_error": 0.03943714499473572
+      },
+      {
+        "node": 149,
+        "name": "GeometryNode_1797",
+        "parent_name": "pdc_cannon2",
+        "input_triangles": 1316,
+        "output_triangles": 209,
+        "simplifier_error": 0.03955719619989395
+      },
+      {
+        "node": 150,
+        "name": "GeometryNode_1805",
+        "parent_name": "pdc_cannon2",
+        "input_triangles": 18,
+        "output_triangles": 12,
+        "simplifier_error": 0.008935894817113876
+      },
+      {
+        "node": 155,
+        "name": "GeometryNode_1828",
+        "parent_name": "ar_airlock",
+        "input_triangles": 371,
+        "output_triangles": 125,
+        "simplifier_error": 0.039706870913505554
+      },
+      {
+        "node": 156,
+        "name": "GeometryNode_1836",
+        "parent_name": "ar_airlock",
+        "input_triangles": 105,
+        "output_triangles": 32,
+        "simplifier_error": 0.03993900120258331
+      },
+      {
+        "node": 159,
+        "name": "GeometryNode_1855",
+        "parent_name": "ar_bridge3",
+        "input_triangles": 224,
+        "output_triangles": 134,
+        "simplifier_error": 0.03975730761885643
+      },
+      {
+        "node": 162,
+        "name": "GeometryNode_1870",
+        "parent_name": "ar_bridge1",
+        "input_triangles": 288,
+        "output_triangles": 146,
+        "simplifier_error": 0.03970317170023918
+      },
+      {
+        "node": 165,
+        "name": "GeometryNode_1885",
+        "parent_name": "ar_bridge2",
+        "input_triangles": 224,
+        "output_triangles": 144,
+        "simplifier_error": 0.037783123552799225
+      },
+      {
+        "node": 168,
+        "name": "GeometryNode_1900",
+        "parent_name": "ar_stoper-1",
+        "input_triangles": 88,
+        "output_triangles": 8,
+        "simplifier_error": 0.03538375347852707
+      },
+      {
+        "node": 171,
+        "name": "GeometryNode_1915",
+        "parent_name": "ar_stoper-3",
+        "input_triangles": 88,
+        "output_triangles": 8,
+        "simplifier_error": 0.033241380006074905
+      },
+      {
+        "node": 176,
+        "name": "GeometryNode_1934",
+        "parent_name": "pdc_pdc1.001",
+        "input_triangles": 400,
+        "output_triangles": 130,
+        "simplifier_error": 0.039366334676742554
+      },
+      {
+        "node": 179,
+        "name": "GeometryNode_1949",
+        "parent_name": "pdc_pdc2.001",
+        "input_triangles": 752,
+        "output_triangles": 134,
+        "simplifier_error": 0.03870631754398346
+      },
+      {
+        "node": 182,
+        "name": "GeometryNode_1964",
+        "parent_name": "pdc_cannon1.001",
+        "input_triangles": 6396,
+        "output_triangles": 319,
+        "simplifier_error": 0.014968042261898518
+      },
+      {
+        "node": 183,
+        "name": "GeometryNode_1972",
+        "parent_name": "pdc_cannon1.001",
+        "input_triangles": 1140,
+        "output_triangles": 57,
+        "simplifier_error": 0.035225871950387955
+      },
+      {
+        "node": 186,
+        "name": "GeometryNode_1991",
+        "parent_name": "pdc_mag2.001",
+        "input_triangles": 820,
+        "output_triangles": 200,
+        "simplifier_error": 0.03913704305887222
+      },
+      {
+        "node": 189,
+        "name": "GeometryNode_2006",
+        "parent_name": "pdc_mag1.001",
+        "input_triangles": 832,
+        "output_triangles": 198,
+        "simplifier_error": 0.03937378525733948
+      },
+      {
+        "node": 192,
+        "name": "GeometryNode_2021",
+        "parent_name": "pdc_pin-3x6.001",
+        "input_triangles": 284,
+        "output_triangles": 52,
+        "simplifier_error": 0.038084276020526886
+      },
+      {
+        "node": 195,
+        "name": "GeometryNode_2036",
+        "parent_name": "pdc_pin-4x8.001",
+        "input_triangles": 212,
+        "output_triangles": 36,
+        "simplifier_error": 0.039116885513067245
+      },
+      {
+        "node": 198,
+        "name": "GeometryNode_2051",
+        "parent_name": "pdc_covering.001",
+        "input_triangles": 1866,
+        "output_triangles": 91,
+        "simplifier_error": 0.03778233751654625
+      },
+      {
+        "node": 199,
+        "name": "GeometryNode_2059",
+        "parent_name": "pdc_covering.001",
+        "input_triangles": 206,
+        "output_triangles": 16,
+        "simplifier_error": 0.029956940561532974
+      },
+      {
+        "node": 202,
+        "name": "GeometryNode_2078",
+        "parent_name": "pdc_frame.001",
+        "input_triangles": 6463,
+        "output_triangles": 321,
+        "simplifier_error": 0.03563787788152695
+      },
+      {
+        "node": 203,
+        "name": "GeometryNode_2086",
+        "parent_name": "pdc_frame.001",
+        "input_triangles": 1081,
+        "output_triangles": 54,
+        "simplifier_error": 0.007027778774499893
+      },
+      {
+        "node": 206,
+        "name": "GeometryNode_2105",
+        "parent_name": "pdc_frame_cov.001",
+        "input_triangles": 144,
+        "output_triangles": 50,
+        "simplifier_error": 0.03943714499473572
+      },
+      {
+        "node": 209,
+        "name": "GeometryNode_2120",
+        "parent_name": "pdc_cannon2.001",
+        "input_triangles": 1316,
+        "output_triangles": 209,
+        "simplifier_error": 0.03955719619989395
+      },
+      {
+        "node": 210,
+        "name": "GeometryNode_2128",
+        "parent_name": "pdc_cannon2.001",
+        "input_triangles": 18,
+        "output_triangles": 12,
+        "simplifier_error": 0.008935894817113876
+      },
+      {
+        "node": 214,
+        "name": "GeometryNode_2149",
+        "parent_name": "pdc_pdc1.002",
+        "input_triangles": 400,
+        "output_triangles": 130,
+        "simplifier_error": 0.039366334676742554
+      },
+      {
+        "node": 217,
+        "name": "GeometryNode_2164",
+        "parent_name": "pdc_pdc2.002",
+        "input_triangles": 752,
+        "output_triangles": 134,
+        "simplifier_error": 0.03870631754398346
+      },
+      {
+        "node": 220,
+        "name": "GeometryNode_2179",
+        "parent_name": "pdc_cannon1.002",
+        "input_triangles": 6396,
+        "output_triangles": 319,
+        "simplifier_error": 0.014968042261898518
+      },
+      {
+        "node": 221,
+        "name": "GeometryNode_2187",
+        "parent_name": "pdc_cannon1.002",
+        "input_triangles": 1140,
+        "output_triangles": 57,
+        "simplifier_error": 0.035225871950387955
+      },
+      {
+        "node": 224,
+        "name": "GeometryNode_2206",
+        "parent_name": "pdc_mag2.002",
+        "input_triangles": 820,
+        "output_triangles": 200,
+        "simplifier_error": 0.03913704305887222
+      },
+      {
+        "node": 227,
+        "name": "GeometryNode_2221",
+        "parent_name": "pdc_mag1.002",
+        "input_triangles": 832,
+        "output_triangles": 198,
+        "simplifier_error": 0.03937378525733948
+      },
+      {
+        "node": 230,
+        "name": "GeometryNode_2236",
+        "parent_name": "pdc_pin-3x6.002",
+        "input_triangles": 284,
+        "output_triangles": 52,
+        "simplifier_error": 0.038084276020526886
+      },
+      {
+        "node": 233,
+        "name": "GeometryNode_2251",
+        "parent_name": "pdc_pin-4x8.002",
+        "input_triangles": 212,
+        "output_triangles": 36,
+        "simplifier_error": 0.039116885513067245
+      },
+      {
+        "node": 236,
+        "name": "GeometryNode_2266",
+        "parent_name": "pdc_covering.002",
+        "input_triangles": 1866,
+        "output_triangles": 91,
+        "simplifier_error": 0.038992270827293396
+      },
+      {
+        "node": 237,
+        "name": "GeometryNode_2274",
+        "parent_name": "pdc_covering.002",
+        "input_triangles": 206,
+        "output_triangles": 16,
+        "simplifier_error": 0.029956940561532974
+      },
+      {
+        "node": 240,
+        "name": "GeometryNode_2293",
+        "parent_name": "pdc_frame.002",
+        "input_triangles": 6463,
+        "output_triangles": 321,
+        "simplifier_error": 0.03563787788152695
+      },
+      {
+        "node": 241,
+        "name": "GeometryNode_2301",
+        "parent_name": "pdc_frame.002",
+        "input_triangles": 1081,
+        "output_triangles": 54,
+        "simplifier_error": 0.007027778774499893
+      },
+      {
+        "node": 244,
+        "name": "GeometryNode_2320",
+        "parent_name": "pdc_frame_cov.002",
+        "input_triangles": 144,
+        "output_triangles": 50,
+        "simplifier_error": 0.03943714499473572
+      },
+      {
+        "node": 247,
+        "name": "GeometryNode_2335",
+        "parent_name": "pdc_cannon2.002",
+        "input_triangles": 1316,
+        "output_triangles": 209,
+        "simplifier_error": 0.03955719619989395
+      },
+      {
+        "node": 248,
+        "name": "GeometryNode_2343",
+        "parent_name": "pdc_cannon2.002",
+        "input_triangles": 18,
+        "output_triangles": 12,
+        "simplifier_error": 0.008935894817113876
+      },
+      {
+        "node": 252,
+        "name": "GeometryNode_2364",
+        "parent_name": "pdc_pdc1.003",
+        "input_triangles": 400,
+        "output_triangles": 130,
+        "simplifier_error": 0.039366334676742554
+      },
+      {
+        "node": 255,
+        "name": "GeometryNode_2379",
+        "parent_name": "pdc_pdc2.003",
+        "input_triangles": 752,
+        "output_triangles": 134,
+        "simplifier_error": 0.03870631754398346
+      },
+      {
+        "node": 258,
+        "name": "GeometryNode_2394",
+        "parent_name": "pdc_cannon1.003",
+        "input_triangles": 6396,
+        "output_triangles": 319,
+        "simplifier_error": 0.014968042261898518
+      },
+      {
+        "node": 259,
+        "name": "GeometryNode_2402",
+        "parent_name": "pdc_cannon1.003",
+        "input_triangles": 1140,
+        "output_triangles": 57,
+        "simplifier_error": 0.035225871950387955
+      },
+      {
+        "node": 262,
+        "name": "GeometryNode_2421",
+        "parent_name": "pdc_mag2.003",
+        "input_triangles": 820,
+        "output_triangles": 200,
+        "simplifier_error": 0.03913704305887222
+      },
+      {
+        "node": 265,
+        "name": "GeometryNode_2436",
+        "parent_name": "pdc_mag1.003",
+        "input_triangles": 832,
+        "output_triangles": 198,
+        "simplifier_error": 0.03937378525733948
+      },
+      {
+        "node": 268,
+        "name": "GeometryNode_2451",
+        "parent_name": "pdc_pin-3x6.003",
+        "input_triangles": 284,
+        "output_triangles": 52,
+        "simplifier_error": 0.038084276020526886
+      },
+      {
+        "node": 271,
+        "name": "GeometryNode_2466",
+        "parent_name": "pdc_pin-4x8.003",
+        "input_triangles": 212,
+        "output_triangles": 36,
+        "simplifier_error": 0.039116885513067245
+      },
+      {
+        "node": 274,
+        "name": "GeometryNode_2481",
+        "parent_name": "pdc_covering.003",
+        "input_triangles": 1866,
+        "output_triangles": 92,
+        "simplifier_error": 0.037457626312971115
+      },
+      {
+        "node": 275,
+        "name": "GeometryNode_2489",
+        "parent_name": "pdc_covering.003",
+        "input_triangles": 206,
+        "output_triangles": 16,
+        "simplifier_error": 0.029956940561532974
+      },
+      {
+        "node": 278,
+        "name": "GeometryNode_2508",
+        "parent_name": "pdc_frame.003",
+        "input_triangles": 6463,
+        "output_triangles": 321,
+        "simplifier_error": 0.03563787788152695
+      },
+      {
+        "node": 279,
+        "name": "GeometryNode_2516",
+        "parent_name": "pdc_frame.003",
+        "input_triangles": 1081,
+        "output_triangles": 54,
+        "simplifier_error": 0.007027778774499893
+      },
+      {
+        "node": 282,
+        "name": "GeometryNode_2535",
+        "parent_name": "pdc_frame_cov.003",
+        "input_triangles": 144,
+        "output_triangles": 50,
+        "simplifier_error": 0.03943714499473572
+      },
+      {
+        "node": 285,
+        "name": "GeometryNode_2550",
+        "parent_name": "pdc_cannon2.003",
+        "input_triangles": 1316,
+        "output_triangles": 209,
+        "simplifier_error": 0.03955719619989395
+      },
+      {
+        "node": 286,
+        "name": "GeometryNode_2558",
+        "parent_name": "pdc_cannon2.003",
+        "input_triangles": 18,
+        "output_triangles": 12,
+        "simplifier_error": 0.008935894817113876
+      },
+      {
+        "node": 290,
+        "name": "GeometryNode_2579",
+        "parent_name": "pdc_pdc1.004",
+        "input_triangles": 400,
+        "output_triangles": 130,
+        "simplifier_error": 0.039366334676742554
+      },
+      {
+        "node": 293,
+        "name": "GeometryNode_2594",
+        "parent_name": "pdc_pdc2.004",
+        "input_triangles": 752,
+        "output_triangles": 134,
+        "simplifier_error": 0.03870631754398346
+      },
+      {
+        "node": 296,
+        "name": "GeometryNode_2609",
+        "parent_name": "pdc_cannon1.004",
+        "input_triangles": 6396,
+        "output_triangles": 319,
+        "simplifier_error": 0.014968042261898518
+      },
+      {
+        "node": 297,
+        "name": "GeometryNode_2617",
+        "parent_name": "pdc_cannon1.004",
+        "input_triangles": 1140,
+        "output_triangles": 57,
+        "simplifier_error": 0.035225871950387955
+      },
+      {
+        "node": 300,
+        "name": "GeometryNode_2636",
+        "parent_name": "pdc_mag2.004",
+        "input_triangles": 820,
+        "output_triangles": 200,
+        "simplifier_error": 0.03913704305887222
+      },
+      {
+        "node": 303,
+        "name": "GeometryNode_2651",
+        "parent_name": "pdc_mag1.004",
+        "input_triangles": 832,
+        "output_triangles": 198,
+        "simplifier_error": 0.03937378525733948
+      },
+      {
+        "node": 306,
+        "name": "GeometryNode_2666",
+        "parent_name": "pdc_pin-3x6.004",
+        "input_triangles": 284,
+        "output_triangles": 52,
+        "simplifier_error": 0.038084276020526886
+      },
+      {
+        "node": 309,
+        "name": "GeometryNode_2681",
+        "parent_name": "pdc_pin-4x8.004",
+        "input_triangles": 212,
+        "output_triangles": 36,
+        "simplifier_error": 0.039116885513067245
+      },
+      {
+        "node": 312,
+        "name": "GeometryNode_2696",
+        "parent_name": "pdc_covering.004",
+        "input_triangles": 1866,
+        "output_triangles": 91,
+        "simplifier_error": 0.03778233751654625
+      },
+      {
+        "node": 313,
+        "name": "GeometryNode_2704",
+        "parent_name": "pdc_covering.004",
+        "input_triangles": 206,
+        "output_triangles": 16,
+        "simplifier_error": 0.029956940561532974
+      },
+      {
+        "node": 316,
+        "name": "GeometryNode_2723",
+        "parent_name": "pdc_frame.004",
+        "input_triangles": 6463,
+        "output_triangles": 321,
+        "simplifier_error": 0.03563787788152695
+      },
+      {
+        "node": 317,
+        "name": "GeometryNode_2731",
+        "parent_name": "pdc_frame.004",
+        "input_triangles": 1081,
+        "output_triangles": 54,
+        "simplifier_error": 0.007027778774499893
+      },
+      {
+        "node": 320,
+        "name": "GeometryNode_2750",
+        "parent_name": "pdc_frame_cov.004",
+        "input_triangles": 144,
+        "output_triangles": 50,
+        "simplifier_error": 0.03943714499473572
+      },
+      {
+        "node": 323,
+        "name": "GeometryNode_2765",
+        "parent_name": "pdc_cannon2.004",
+        "input_triangles": 1316,
+        "output_triangles": 209,
+        "simplifier_error": 0.03955719619989395
+      },
+      {
+        "node": 324,
+        "name": "GeometryNode_2773",
+        "parent_name": "pdc_cannon2.004",
+        "input_triangles": 18,
+        "output_triangles": 12,
+        "simplifier_error": 0.008935894817113876
+      },
+      {
+        "node": 328,
+        "name": "GeometryNode_2794",
+        "parent_name": "pdc_pdc1.005",
+        "input_triangles": 400,
+        "output_triangles": 130,
+        "simplifier_error": 0.039366334676742554
+      },
+      {
+        "node": 331,
+        "name": "GeometryNode_2809",
+        "parent_name": "pdc_pdc2.005",
+        "input_triangles": 752,
+        "output_triangles": 134,
+        "simplifier_error": 0.03870631754398346
+      },
+      {
+        "node": 334,
+        "name": "GeometryNode_2824",
+        "parent_name": "pdc_cannon1.005",
+        "input_triangles": 6396,
+        "output_triangles": 319,
+        "simplifier_error": 0.014968042261898518
+      },
+      {
+        "node": 335,
+        "name": "GeometryNode_2832",
+        "parent_name": "pdc_cannon1.005",
+        "input_triangles": 1140,
+        "output_triangles": 57,
+        "simplifier_error": 0.035225871950387955
+      },
+      {
+        "node": 338,
+        "name": "GeometryNode_2851",
+        "parent_name": "pdc_mag2.005",
+        "input_triangles": 820,
+        "output_triangles": 200,
+        "simplifier_error": 0.03913704305887222
+      },
+      {
+        "node": 341,
+        "name": "GeometryNode_2866",
+        "parent_name": "pdc_mag1.005",
+        "input_triangles": 832,
+        "output_triangles": 198,
+        "simplifier_error": 0.03937378525733948
+      },
+      {
+        "node": 344,
+        "name": "GeometryNode_2881",
+        "parent_name": "pdc_pin-3x6.005",
+        "input_triangles": 284,
+        "output_triangles": 52,
+        "simplifier_error": 0.038084276020526886
+      },
+      {
+        "node": 347,
+        "name": "GeometryNode_2896",
+        "parent_name": "pdc_pin-4x8.005",
+        "input_triangles": 212,
+        "output_triangles": 36,
+        "simplifier_error": 0.039116885513067245
+      },
+      {
+        "node": 350,
+        "name": "GeometryNode_2911",
+        "parent_name": "pdc_covering.005",
+        "input_triangles": 1866,
+        "output_triangles": 91,
+        "simplifier_error": 0.03778233751654625
+      },
+      {
+        "node": 351,
+        "name": "GeometryNode_2919",
+        "parent_name": "pdc_covering.005",
+        "input_triangles": 206,
+        "output_triangles": 16,
+        "simplifier_error": 0.029956940561532974
+      },
+      {
+        "node": 354,
+        "name": "GeometryNode_2938",
+        "parent_name": "pdc_frame.005",
+        "input_triangles": 6463,
+        "output_triangles": 321,
+        "simplifier_error": 0.03563787788152695
+      },
+      {
+        "node": 355,
+        "name": "GeometryNode_2946",
+        "parent_name": "pdc_frame.005",
+        "input_triangles": 1081,
+        "output_triangles": 54,
+        "simplifier_error": 0.007027778774499893
+      },
+      {
+        "node": 358,
+        "name": "GeometryNode_2965",
+        "parent_name": "pdc_frame_cov.005",
+        "input_triangles": 144,
+        "output_triangles": 50,
+        "simplifier_error": 0.03943714499473572
+      },
+      {
+        "node": 361,
+        "name": "GeometryNode_2980",
+        "parent_name": "pdc_cannon2.005",
+        "input_triangles": 1316,
+        "output_triangles": 209,
+        "simplifier_error": 0.03955719619989395
+      },
+      {
+        "node": 362,
+        "name": "GeometryNode_2988",
+        "parent_name": "pdc_cannon2.005",
+        "input_triangles": 18,
+        "output_triangles": 12,
+        "simplifier_error": 0.008935894817113876
+      },
+      {
+        "node": 366,
+        "name": "GeometryNode_3009",
+        "parent_name": "s3_supportB-2.001",
+        "input_triangles": 1332,
+        "output_triangles": 65,
+        "simplifier_error": 0.014742426574230194
+      },
+      {
+        "node": 367,
+        "name": "GeometryNode_3017",
+        "parent_name": "s3_supportB-2.001",
+        "input_triangles": 468,
+        "output_triangles": 32,
+        "simplifier_error": 0.03970413655042648
+      },
+      {
+        "node": 370,
+        "name": "GeometryNode_3036",
+        "parent_name": "s3_3b-2.001",
+        "input_triangles": 3684,
+        "output_triangles": 184,
+        "simplifier_error": 0.011977258138358593
+      },
+      {
+        "node": 371,
+        "name": "GeometryNode_3044",
+        "parent_name": "s3_3b-2.001",
+        "input_triangles": 848,
+        "output_triangles": 42,
+        "simplifier_error": 0.015019477345049381
+      },
+      {
+        "node": 374,
+        "name": "GeometryNode_3063",
+        "parent_name": "pdc_filler-1.006",
+        "input_triangles": 840,
+        "output_triangles": 42,
+        "simplifier_error": 0.0177841205149889
+      },
+      {
+        "node": 377,
+        "name": "GeometryNode_3078",
+        "parent_name": "pdc_filler-1.001",
+        "input_triangles": 840,
+        "output_triangles": 42,
+        "simplifier_error": 0.0177841205149889
+      },
+      {
+        "node": 380,
+        "name": "GeometryNode_3093",
+        "parent_name": "pdc_filler-1.004",
+        "input_triangles": 840,
+        "output_triangles": 42,
+        "simplifier_error": 0.0177841205149889
+      },
+      {
+        "node": 383,
+        "name": "GeometryNode_3108",
+        "parent_name": "pdc_filler-1.005",
+        "input_triangles": 840,
+        "output_triangles": 42,
+        "simplifier_error": 0.0177841205149889
+      },
+      {
+        "node": 386,
+        "name": "GeometryNode_3123",
+        "parent_name": "pdc_filler-1.002",
+        "input_triangles": 840,
+        "output_triangles": 42,
+        "simplifier_error": 0.017362801358103752
+      }
+    ]
+  },
+  "parts": [
+    {
+      "node": 4,
+      "name": "GeometryNode_828",
+      "parent_name": "s3_3c",
+      "triangles": 22997,
+      "stand_removed": false
+    },
+    {
+      "node": 5,
+      "name": "GeometryNode_840",
+      "parent_name": "s3_3c",
+      "triangles": 12593,
+      "stand_removed": false
+    },
+    {
+      "node": 6,
+      "name": "GeometryNode_848",
+      "parent_name": "s3_3c",
+      "triangles": 1922,
+      "stand_removed": false
+    },
+    {
+      "node": 9,
+      "name": "GeometryNode_875",
+      "parent_name": "s3_3b-1",
+      "triangles": 3684,
+      "stand_removed": false
+    },
+    {
+      "node": 10,
+      "name": "GeometryNode_883",
+      "parent_name": "s3_3b-1",
+      "triangles": 848,
+      "stand_removed": false
+    },
+    {
+      "node": 13,
+      "name": "GeometryNode_902",
+      "parent_name": "s3_3a",
+      "triangles": 5104,
+      "stand_removed": false
+    },
+    {
+      "node": 14,
+      "name": "GeometryNode_910",
+      "parent_name": "s3_3a",
+      "triangles": 80,
+      "stand_removed": false
+    },
+    {
+      "node": 17,
+      "name": "GeometryNode_929",
+      "parent_name": "s3_3",
+      "triangles": 22102,
+      "stand_removed": false
+    },
+    {
+      "node": 18,
+      "name": "GeometryNode_937",
+      "parent_name": "s3_3",
+      "triangles": 534,
+      "stand_removed": false
+    },
+    {
+      "node": 21,
+      "name": "GeometryNode_956",
+      "parent_name": "s3_supportB-1",
+      "triangles": 1332,
+      "stand_removed": false
+    },
+    {
+      "node": 22,
+      "name": "GeometryNode_964",
+      "parent_name": "s3_supportB-1",
+      "triangles": 468,
+      "stand_removed": false
+    },
+    {
+      "node": 25,
+      "name": "GeometryNode_983",
+      "parent_name": "s3_supportA-1",
+      "triangles": 4128,
+      "stand_removed": false
+    },
+    {
+      "node": 29,
+      "name": "GeometryNode_1000",
+      "parent_name": "s2_2g",
+      "triangles": 9308,
+      "stand_removed": false
+    },
+    {
+      "node": 30,
+      "name": "GeometryNode_1008",
+      "parent_name": "s2_2g",
+      "triangles": 16,
+      "stand_removed": false
+    },
+    {
+      "node": 33,
+      "name": "GeometryNode_1027",
+      "parent_name": "s2_2e",
+      "triangles": 2744,
+      "stand_removed": false
+    },
+    {
+      "node": 36,
+      "name": "GeometryNode_1042",
+      "parent_name": "s2_2c",
+      "triangles": 9640,
+      "stand_removed": false
+    },
+    {
+      "node": 37,
+      "name": "GeometryNode_1050",
+      "parent_name": "s2_2c",
+      "triangles": 144,
+      "stand_removed": false
+    },
+    {
+      "node": 38,
+      "name": "GeometryNode_1062",
+      "parent_name": "s2_2c",
+      "triangles": 2888,
+      "stand_removed": false
+    },
+    {
+      "node": 41,
+      "name": "GeometryNode_1085",
+      "parent_name": "s2_2a",
+      "triangles": 19596,
+      "stand_removed": false
+    },
+    {
+      "node": 42,
+      "name": "GeometryNode_1093",
+      "parent_name": "s2_2a",
+      "triangles": 64,
+      "stand_removed": false
+    },
+    {
+      "node": 43,
+      "name": "GeometryNode_1101",
+      "parent_name": "s2_2a",
+      "triangles": 96,
+      "stand_removed": false
+    },
+    {
+      "node": 46,
+      "name": "GeometryNode_1124",
+      "parent_name": "s2_2b",
+      "triangles": 22933,
+      "stand_removed": false
+    },
+    {
+      "node": 47,
+      "name": "GeometryNode_1132",
+      "parent_name": "s2_2b",
+      "triangles": 16331,
+      "stand_removed": false
+    },
+    {
+      "node": 48,
+      "name": "GeometryNode_1140",
+      "parent_name": "s2_2b",
+      "triangles": 64,
+      "stand_removed": false
+    },
+    {
+      "node": 49,
+      "name": "GeometryNode_1148",
+      "parent_name": "s2_2b",
+      "triangles": 128,
+      "stand_removed": false
+    },
+    {
+      "node": 52,
+      "name": "GeometryNode_1175",
+      "parent_name": "s2_2d",
+      "triangles": 5794,
+      "stand_removed": false
+    },
+    {
+      "node": 53,
+      "name": "GeometryNode_1183",
+      "parent_name": "s2_2d",
+      "triangles": 32,
+      "stand_removed": false
+    },
+    {
+      "node": 54,
+      "name": "GeometryNode_1191",
+      "parent_name": "s2_2d",
+      "triangles": 130,
+      "stand_removed": false
+    },
+    {
+      "node": 57,
+      "name": "GeometryNode_1214",
+      "parent_name": "s2_2f",
+      "triangles": 5129,
+      "stand_removed": false
+    },
+    {
+      "node": 58,
+      "name": "GeometryNode_1222",
+      "parent_name": "s2_2f",
+      "triangles": 32,
+      "stand_removed": false
+    },
+    {
+      "node": 59,
+      "name": "GeometryNode_1230",
+      "parent_name": "s2_2f",
+      "triangles": 163,
+      "stand_removed": false
+    },
+    {
+      "node": 63,
+      "name": "GeometryNode_1255",
+      "parent_name": "s1_covering",
+      "triangles": 2316,
+      "stand_removed": false
+    },
+    {
+      "node": 64,
+      "name": "GeometryNode_1263",
+      "parent_name": "s1_covering",
+      "triangles": 52,
+      "stand_removed": false
+    },
+    {
+      "node": 67,
+      "name": "GeometryNode_1282",
+      "parent_name": "s1_stand",
+      "triangles": 3556,
+      "stand_removed": true
+    },
+    {
+      "node": 68,
+      "name": "GeometryNode_1290",
+      "parent_name": "s1_stand",
+      "triangles": 2512,
+      "stand_removed": true
+    },
+    {
+      "node": 71,
+      "name": "GeometryNode_1312",
+      "parent_name": "s1_antenna-2",
+      "triangles": 4300,
+      "stand_removed": false
+    },
+    {
+      "node": 74,
+      "name": "GeometryNode_1327",
+      "parent_name": "s1_antenna-4",
+      "triangles": 2128,
+      "stand_removed": false
+    },
+    {
+      "node": 77,
+      "name": "GeometryNode_1342",
+      "parent_name": "s1_antenna-3",
+      "triangles": 3896,
+      "stand_removed": false
+    },
+    {
+      "node": 80,
+      "name": "GeometryNode_1357",
+      "parent_name": "s1_antenna-1",
+      "triangles": 1480,
+      "stand_removed": false
+    },
+    {
+      "node": 83,
+      "name": "GeometryNode_1372",
+      "parent_name": "s1_1a",
+      "triangles": 12344,
+      "stand_removed": false
+    },
+    {
+      "node": 84,
+      "name": "GeometryNode_1380",
+      "parent_name": "s1_1a",
+      "triangles": 572,
+      "stand_removed": false
+    },
+    {
+      "node": 85,
+      "name": "GeometryNode_1388",
+      "parent_name": "s1_1a",
+      "triangles": 2866,
+      "stand_removed": false
+    },
+    {
+      "node": 88,
+      "name": "GeometryNode_1411",
+      "parent_name": "s1_1",
+      "triangles": 19541,
+      "stand_removed": false
+    },
+    {
+      "node": 89,
+      "name": "GeometryNode_1419",
+      "parent_name": "s1_1",
+      "triangles": 114,
+      "stand_removed": false
+    },
+    {
+      "node": 90,
+      "name": "GeometryNode_1427",
+      "parent_name": "s1_1",
+      "triangles": 3193,
+      "stand_removed": false
+    },
+    {
+      "node": 93,
+      "name": "GeometryNode_1450",
+      "parent_name": "s1_1b",
+      "triangles": 10535,
+      "stand_removed": false
+    },
+    {
+      "node": 94,
+      "name": "GeometryNode_1458",
+      "parent_name": "s1_1b",
+      "triangles": 12,
+      "stand_removed": false
+    },
+    {
+      "node": 95,
+      "name": "GeometryNode_1466",
+      "parent_name": "s1_1b",
+      "triangles": 1661,
+      "stand_removed": false
+    },
+    {
+      "node": 98,
+      "name": "GeometryNode_1489",
+      "parent_name": "s1_1c+d",
+      "triangles": 21020,
+      "stand_removed": false
+    },
+    {
+      "node": 99,
+      "name": "GeometryNode_1497",
+      "parent_name": "s1_1c+d",
+      "triangles": 506,
+      "stand_removed": false
+    },
+    {
+      "node": 100,
+      "name": "GeometryNode_1505",
+      "parent_name": "s1_1c+d",
+      "triangles": 778,
+      "stand_removed": false
+    },
+    {
+      "node": 103,
+      "name": "GeometryNode_1528",
+      "parent_name": "s1_1e",
+      "triangles": 11099,
+      "stand_removed": false
+    },
+    {
+      "node": 104,
+      "name": "GeometryNode_1536",
+      "parent_name": "s1_1e",
+      "triangles": 2147,
+      "stand_removed": false
+    },
+    {
+      "node": 107,
+      "name": "GeometryNode_1555",
+      "parent_name": "s1_1f",
+      "triangles": 10599,
+      "stand_removed": false
+    },
+    {
+      "node": 108,
+      "name": "GeometryNode_1563",
+      "parent_name": "s1_1f",
+      "triangles": 16,
+      "stand_removed": false
+    },
+    {
+      "node": 109,
+      "name": "GeometryNode_1571",
+      "parent_name": "s1_1f",
+      "triangles": 73,
+      "stand_removed": false
+    },
+    {
+      "node": 113,
+      "name": "GeometryNode_1596",
+      "parent_name": "pdc_pdc1",
+      "triangles": 400,
+      "stand_removed": false
+    },
+    {
+      "node": 116,
+      "name": "GeometryNode_1611",
+      "parent_name": "pdc_pdc2",
+      "triangles": 752,
+      "stand_removed": false
+    },
+    {
+      "node": 119,
+      "name": "GeometryNode_1626",
+      "parent_name": "pdc_cannon1",
+      "triangles": 6396,
+      "stand_removed": false
+    },
+    {
+      "node": 120,
+      "name": "GeometryNode_1634",
+      "parent_name": "pdc_cannon1",
+      "triangles": 1140,
+      "stand_removed": false
+    },
+    {
+      "node": 123,
+      "name": "GeometryNode_1653",
+      "parent_name": "pdc_mag2",
+      "triangles": 820,
+      "stand_removed": false
+    },
+    {
+      "node": 126,
+      "name": "GeometryNode_1668",
+      "parent_name": "pdc_mag1",
+      "triangles": 832,
+      "stand_removed": false
+    },
+    {
+      "node": 129,
+      "name": "GeometryNode_1683",
+      "parent_name": "pdc_pin-3x6",
+      "triangles": 284,
+      "stand_removed": false
+    },
+    {
+      "node": 132,
+      "name": "GeometryNode_1698",
+      "parent_name": "pdc_pin-4x8",
+      "triangles": 212,
+      "stand_removed": false
+    },
+    {
+      "node": 135,
+      "name": "GeometryNode_1713",
+      "parent_name": "pdc_covering",
+      "triangles": 1866,
+      "stand_removed": false
+    },
+    {
+      "node": 136,
+      "name": "GeometryNode_1721",
+      "parent_name": "pdc_covering",
+      "triangles": 206,
+      "stand_removed": false
+    },
+    {
+      "node": 139,
+      "name": "GeometryNode_1740",
+      "parent_name": "pdc_filler-1",
+      "triangles": 840,
+      "stand_removed": false
+    },
+    {
+      "node": 142,
+      "name": "GeometryNode_1755",
+      "parent_name": "pdc_frame",
+      "triangles": 6463,
+      "stand_removed": false
+    },
+    {
+      "node": 143,
+      "name": "GeometryNode_1763",
+      "parent_name": "pdc_frame",
+      "triangles": 1081,
+      "stand_removed": false
+    },
+    {
+      "node": 146,
+      "name": "GeometryNode_1782",
+      "parent_name": "pdc_frame_cov",
+      "triangles": 144,
+      "stand_removed": false
+    },
+    {
+      "node": 149,
+      "name": "GeometryNode_1797",
+      "parent_name": "pdc_cannon2",
+      "triangles": 1316,
+      "stand_removed": false
+    },
+    {
+      "node": 150,
+      "name": "GeometryNode_1805",
+      "parent_name": "pdc_cannon2",
+      "triangles": 18,
+      "stand_removed": false
+    },
+    {
+      "node": 155,
+      "name": "GeometryNode_1828",
+      "parent_name": "ar_airlock",
+      "triangles": 371,
+      "stand_removed": false
+    },
+    {
+      "node": 156,
+      "name": "GeometryNode_1836",
+      "parent_name": "ar_airlock",
+      "triangles": 105,
+      "stand_removed": false
+    },
+    {
+      "node": 159,
+      "name": "GeometryNode_1855",
+      "parent_name": "ar_bridge3",
+      "triangles": 224,
+      "stand_removed": false
+    },
+    {
+      "node": 162,
+      "name": "GeometryNode_1870",
+      "parent_name": "ar_bridge1",
+      "triangles": 288,
+      "stand_removed": false
+    },
+    {
+      "node": 165,
+      "name": "GeometryNode_1885",
+      "parent_name": "ar_bridge2",
+      "triangles": 224,
+      "stand_removed": false
+    },
+    {
+      "node": 168,
+      "name": "GeometryNode_1900",
+      "parent_name": "ar_stoper-1",
+      "triangles": 88,
+      "stand_removed": false
+    },
+    {
+      "node": 171,
+      "name": "GeometryNode_1915",
+      "parent_name": "ar_stoper-3",
+      "triangles": 88,
+      "stand_removed": false
+    },
+    {
+      "node": 176,
+      "name": "GeometryNode_1934",
+      "parent_name": "pdc_pdc1.001",
+      "triangles": 400,
+      "stand_removed": false
+    },
+    {
+      "node": 179,
+      "name": "GeometryNode_1949",
+      "parent_name": "pdc_pdc2.001",
+      "triangles": 752,
+      "stand_removed": false
+    },
+    {
+      "node": 182,
+      "name": "GeometryNode_1964",
+      "parent_name": "pdc_cannon1.001",
+      "triangles": 6396,
+      "stand_removed": false
+    },
+    {
+      "node": 183,
+      "name": "GeometryNode_1972",
+      "parent_name": "pdc_cannon1.001",
+      "triangles": 1140,
+      "stand_removed": false
+    },
+    {
+      "node": 186,
+      "name": "GeometryNode_1991",
+      "parent_name": "pdc_mag2.001",
+      "triangles": 820,
+      "stand_removed": false
+    },
+    {
+      "node": 189,
+      "name": "GeometryNode_2006",
+      "parent_name": "pdc_mag1.001",
+      "triangles": 832,
+      "stand_removed": false
+    },
+    {
+      "node": 192,
+      "name": "GeometryNode_2021",
+      "parent_name": "pdc_pin-3x6.001",
+      "triangles": 284,
+      "stand_removed": false
+    },
+    {
+      "node": 195,
+      "name": "GeometryNode_2036",
+      "parent_name": "pdc_pin-4x8.001",
+      "triangles": 212,
+      "stand_removed": false
+    },
+    {
+      "node": 198,
+      "name": "GeometryNode_2051",
+      "parent_name": "pdc_covering.001",
+      "triangles": 1866,
+      "stand_removed": false
+    },
+    {
+      "node": 199,
+      "name": "GeometryNode_2059",
+      "parent_name": "pdc_covering.001",
+      "triangles": 206,
+      "stand_removed": false
+    },
+    {
+      "node": 202,
+      "name": "GeometryNode_2078",
+      "parent_name": "pdc_frame.001",
+      "triangles": 6463,
+      "stand_removed": false
+    },
+    {
+      "node": 203,
+      "name": "GeometryNode_2086",
+      "parent_name": "pdc_frame.001",
+      "triangles": 1081,
+      "stand_removed": false
+    },
+    {
+      "node": 206,
+      "name": "GeometryNode_2105",
+      "parent_name": "pdc_frame_cov.001",
+      "triangles": 144,
+      "stand_removed": false
+    },
+    {
+      "node": 209,
+      "name": "GeometryNode_2120",
+      "parent_name": "pdc_cannon2.001",
+      "triangles": 1316,
+      "stand_removed": false
+    },
+    {
+      "node": 210,
+      "name": "GeometryNode_2128",
+      "parent_name": "pdc_cannon2.001",
+      "triangles": 18,
+      "stand_removed": false
+    },
+    {
+      "node": 214,
+      "name": "GeometryNode_2149",
+      "parent_name": "pdc_pdc1.002",
+      "triangles": 400,
+      "stand_removed": false
+    },
+    {
+      "node": 217,
+      "name": "GeometryNode_2164",
+      "parent_name": "pdc_pdc2.002",
+      "triangles": 752,
+      "stand_removed": false
+    },
+    {
+      "node": 220,
+      "name": "GeometryNode_2179",
+      "parent_name": "pdc_cannon1.002",
+      "triangles": 6396,
+      "stand_removed": false
+    },
+    {
+      "node": 221,
+      "name": "GeometryNode_2187",
+      "parent_name": "pdc_cannon1.002",
+      "triangles": 1140,
+      "stand_removed": false
+    },
+    {
+      "node": 224,
+      "name": "GeometryNode_2206",
+      "parent_name": "pdc_mag2.002",
+      "triangles": 820,
+      "stand_removed": false
+    },
+    {
+      "node": 227,
+      "name": "GeometryNode_2221",
+      "parent_name": "pdc_mag1.002",
+      "triangles": 832,
+      "stand_removed": false
+    },
+    {
+      "node": 230,
+      "name": "GeometryNode_2236",
+      "parent_name": "pdc_pin-3x6.002",
+      "triangles": 284,
+      "stand_removed": false
+    },
+    {
+      "node": 233,
+      "name": "GeometryNode_2251",
+      "parent_name": "pdc_pin-4x8.002",
+      "triangles": 212,
+      "stand_removed": false
+    },
+    {
+      "node": 236,
+      "name": "GeometryNode_2266",
+      "parent_name": "pdc_covering.002",
+      "triangles": 1866,
+      "stand_removed": false
+    },
+    {
+      "node": 237,
+      "name": "GeometryNode_2274",
+      "parent_name": "pdc_covering.002",
+      "triangles": 206,
+      "stand_removed": false
+    },
+    {
+      "node": 240,
+      "name": "GeometryNode_2293",
+      "parent_name": "pdc_frame.002",
+      "triangles": 6463,
+      "stand_removed": false
+    },
+    {
+      "node": 241,
+      "name": "GeometryNode_2301",
+      "parent_name": "pdc_frame.002",
+      "triangles": 1081,
+      "stand_removed": false
+    },
+    {
+      "node": 244,
+      "name": "GeometryNode_2320",
+      "parent_name": "pdc_frame_cov.002",
+      "triangles": 144,
+      "stand_removed": false
+    },
+    {
+      "node": 247,
+      "name": "GeometryNode_2335",
+      "parent_name": "pdc_cannon2.002",
+      "triangles": 1316,
+      "stand_removed": false
+    },
+    {
+      "node": 248,
+      "name": "GeometryNode_2343",
+      "parent_name": "pdc_cannon2.002",
+      "triangles": 18,
+      "stand_removed": false
+    },
+    {
+      "node": 252,
+      "name": "GeometryNode_2364",
+      "parent_name": "pdc_pdc1.003",
+      "triangles": 400,
+      "stand_removed": false
+    },
+    {
+      "node": 255,
+      "name": "GeometryNode_2379",
+      "parent_name": "pdc_pdc2.003",
+      "triangles": 752,
+      "stand_removed": false
+    },
+    {
+      "node": 258,
+      "name": "GeometryNode_2394",
+      "parent_name": "pdc_cannon1.003",
+      "triangles": 6396,
+      "stand_removed": false
+    },
+    {
+      "node": 259,
+      "name": "GeometryNode_2402",
+      "parent_name": "pdc_cannon1.003",
+      "triangles": 1140,
+      "stand_removed": false
+    },
+    {
+      "node": 262,
+      "name": "GeometryNode_2421",
+      "parent_name": "pdc_mag2.003",
+      "triangles": 820,
+      "stand_removed": false
+    },
+    {
+      "node": 265,
+      "name": "GeometryNode_2436",
+      "parent_name": "pdc_mag1.003",
+      "triangles": 832,
+      "stand_removed": false
+    },
+    {
+      "node": 268,
+      "name": "GeometryNode_2451",
+      "parent_name": "pdc_pin-3x6.003",
+      "triangles": 284,
+      "stand_removed": false
+    },
+    {
+      "node": 271,
+      "name": "GeometryNode_2466",
+      "parent_name": "pdc_pin-4x8.003",
+      "triangles": 212,
+      "stand_removed": false
+    },
+    {
+      "node": 274,
+      "name": "GeometryNode_2481",
+      "parent_name": "pdc_covering.003",
+      "triangles": 1866,
+      "stand_removed": false
+    },
+    {
+      "node": 275,
+      "name": "GeometryNode_2489",
+      "parent_name": "pdc_covering.003",
+      "triangles": 206,
+      "stand_removed": false
+    },
+    {
+      "node": 278,
+      "name": "GeometryNode_2508",
+      "parent_name": "pdc_frame.003",
+      "triangles": 6463,
+      "stand_removed": false
+    },
+    {
+      "node": 279,
+      "name": "GeometryNode_2516",
+      "parent_name": "pdc_frame.003",
+      "triangles": 1081,
+      "stand_removed": false
+    },
+    {
+      "node": 282,
+      "name": "GeometryNode_2535",
+      "parent_name": "pdc_frame_cov.003",
+      "triangles": 144,
+      "stand_removed": false
+    },
+    {
+      "node": 285,
+      "name": "GeometryNode_2550",
+      "parent_name": "pdc_cannon2.003",
+      "triangles": 1316,
+      "stand_removed": false
+    },
+    {
+      "node": 286,
+      "name": "GeometryNode_2558",
+      "parent_name": "pdc_cannon2.003",
+      "triangles": 18,
+      "stand_removed": false
+    },
+    {
+      "node": 290,
+      "name": "GeometryNode_2579",
+      "parent_name": "pdc_pdc1.004",
+      "triangles": 400,
+      "stand_removed": false
+    },
+    {
+      "node": 293,
+      "name": "GeometryNode_2594",
+      "parent_name": "pdc_pdc2.004",
+      "triangles": 752,
+      "stand_removed": false
+    },
+    {
+      "node": 296,
+      "name": "GeometryNode_2609",
+      "parent_name": "pdc_cannon1.004",
+      "triangles": 6396,
+      "stand_removed": false
+    },
+    {
+      "node": 297,
+      "name": "GeometryNode_2617",
+      "parent_name": "pdc_cannon1.004",
+      "triangles": 1140,
+      "stand_removed": false
+    },
+    {
+      "node": 300,
+      "name": "GeometryNode_2636",
+      "parent_name": "pdc_mag2.004",
+      "triangles": 820,
+      "stand_removed": false
+    },
+    {
+      "node": 303,
+      "name": "GeometryNode_2651",
+      "parent_name": "pdc_mag1.004",
+      "triangles": 832,
+      "stand_removed": false
+    },
+    {
+      "node": 306,
+      "name": "GeometryNode_2666",
+      "parent_name": "pdc_pin-3x6.004",
+      "triangles": 284,
+      "stand_removed": false
+    },
+    {
+      "node": 309,
+      "name": "GeometryNode_2681",
+      "parent_name": "pdc_pin-4x8.004",
+      "triangles": 212,
+      "stand_removed": false
+    },
+    {
+      "node": 312,
+      "name": "GeometryNode_2696",
+      "parent_name": "pdc_covering.004",
+      "triangles": 1866,
+      "stand_removed": false
+    },
+    {
+      "node": 313,
+      "name": "GeometryNode_2704",
+      "parent_name": "pdc_covering.004",
+      "triangles": 206,
+      "stand_removed": false
+    },
+    {
+      "node": 316,
+      "name": "GeometryNode_2723",
+      "parent_name": "pdc_frame.004",
+      "triangles": 6463,
+      "stand_removed": false
+    },
+    {
+      "node": 317,
+      "name": "GeometryNode_2731",
+      "parent_name": "pdc_frame.004",
+      "triangles": 1081,
+      "stand_removed": false
+    },
+    {
+      "node": 320,
+      "name": "GeometryNode_2750",
+      "parent_name": "pdc_frame_cov.004",
+      "triangles": 144,
+      "stand_removed": false
+    },
+    {
+      "node": 323,
+      "name": "GeometryNode_2765",
+      "parent_name": "pdc_cannon2.004",
+      "triangles": 1316,
+      "stand_removed": false
+    },
+    {
+      "node": 324,
+      "name": "GeometryNode_2773",
+      "parent_name": "pdc_cannon2.004",
+      "triangles": 18,
+      "stand_removed": false
+    },
+    {
+      "node": 328,
+      "name": "GeometryNode_2794",
+      "parent_name": "pdc_pdc1.005",
+      "triangles": 400,
+      "stand_removed": false
+    },
+    {
+      "node": 331,
+      "name": "GeometryNode_2809",
+      "parent_name": "pdc_pdc2.005",
+      "triangles": 752,
+      "stand_removed": false
+    },
+    {
+      "node": 334,
+      "name": "GeometryNode_2824",
+      "parent_name": "pdc_cannon1.005",
+      "triangles": 6396,
+      "stand_removed": false
+    },
+    {
+      "node": 335,
+      "name": "GeometryNode_2832",
+      "parent_name": "pdc_cannon1.005",
+      "triangles": 1140,
+      "stand_removed": false
+    },
+    {
+      "node": 338,
+      "name": "GeometryNode_2851",
+      "parent_name": "pdc_mag2.005",
+      "triangles": 820,
+      "stand_removed": false
+    },
+    {
+      "node": 341,
+      "name": "GeometryNode_2866",
+      "parent_name": "pdc_mag1.005",
+      "triangles": 832,
+      "stand_removed": false
+    },
+    {
+      "node": 344,
+      "name": "GeometryNode_2881",
+      "parent_name": "pdc_pin-3x6.005",
+      "triangles": 284,
+      "stand_removed": false
+    },
+    {
+      "node": 347,
+      "name": "GeometryNode_2896",
+      "parent_name": "pdc_pin-4x8.005",
+      "triangles": 212,
+      "stand_removed": false
+    },
+    {
+      "node": 350,
+      "name": "GeometryNode_2911",
+      "parent_name": "pdc_covering.005",
+      "triangles": 1866,
+      "stand_removed": false
+    },
+    {
+      "node": 351,
+      "name": "GeometryNode_2919",
+      "parent_name": "pdc_covering.005",
+      "triangles": 206,
+      "stand_removed": false
+    },
+    {
+      "node": 354,
+      "name": "GeometryNode_2938",
+      "parent_name": "pdc_frame.005",
+      "triangles": 6463,
+      "stand_removed": false
+    },
+    {
+      "node": 355,
+      "name": "GeometryNode_2946",
+      "parent_name": "pdc_frame.005",
+      "triangles": 1081,
+      "stand_removed": false
+    },
+    {
+      "node": 358,
+      "name": "GeometryNode_2965",
+      "parent_name": "pdc_frame_cov.005",
+      "triangles": 144,
+      "stand_removed": false
+    },
+    {
+      "node": 361,
+      "name": "GeometryNode_2980",
+      "parent_name": "pdc_cannon2.005",
+      "triangles": 1316,
+      "stand_removed": false
+    },
+    {
+      "node": 362,
+      "name": "GeometryNode_2988",
+      "parent_name": "pdc_cannon2.005",
+      "triangles": 18,
+      "stand_removed": false
+    },
+    {
+      "node": 366,
+      "name": "GeometryNode_3009",
+      "parent_name": "s3_supportB-2.001",
+      "triangles": 1332,
+      "stand_removed": false
+    },
+    {
+      "node": 367,
+      "name": "GeometryNode_3017",
+      "parent_name": "s3_supportB-2.001",
+      "triangles": 468,
+      "stand_removed": false
+    },
+    {
+      "node": 370,
+      "name": "GeometryNode_3036",
+      "parent_name": "s3_3b-2.001",
+      "triangles": 3684,
+      "stand_removed": false
+    },
+    {
+      "node": 371,
+      "name": "GeometryNode_3044",
+      "parent_name": "s3_3b-2.001",
+      "triangles": 848,
+      "stand_removed": false
+    },
+    {
+      "node": 374,
+      "name": "GeometryNode_3063",
+      "parent_name": "pdc_filler-1.006",
+      "triangles": 840,
+      "stand_removed": false
+    },
+    {
+      "node": 377,
+      "name": "GeometryNode_3078",
+      "parent_name": "pdc_filler-1.001",
+      "triangles": 840,
+      "stand_removed": false
+    },
+    {
+      "node": 380,
+      "name": "GeometryNode_3093",
+      "parent_name": "pdc_filler-1.004",
+      "triangles": 840,
+      "stand_removed": false
+    },
+    {
+      "node": 383,
+      "name": "GeometryNode_3108",
+      "parent_name": "pdc_filler-1.005",
+      "triangles": 840,
+      "stand_removed": false
+    },
+    {
+      "node": 386,
+      "name": "GeometryNode_3123",
+      "parent_name": "pdc_filler-1.002",
+      "triangles": 840,
+      "stand_removed": false
+    }
+  ],
+  "animation_tracks": [
+    {
+      "node": 2,
+      "name": "s3_3c_0",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 2,
+      "name": "s3_3c_0",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 2,
+      "name": "s3_3c_0",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 7,
+      "name": "s3_3b-1_1",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 7,
+      "name": "s3_3b-1_1",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 7,
+      "name": "s3_3b-1_1",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 11,
+      "name": "s3_3a_2",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 11,
+      "name": "s3_3a_2",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 11,
+      "name": "s3_3a_2",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 15,
+      "name": "s3_3_3",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 15,
+      "name": "s3_3_3",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 15,
+      "name": "s3_3_3",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 19,
+      "name": "s3_supportB-1_4",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 19,
+      "name": "s3_supportB-1_4",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 19,
+      "name": "s3_supportB-1_4",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 23,
+      "name": "s3_supportA-1_5",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 23,
+      "name": "s3_supportA-1_5",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 23,
+      "name": "s3_supportA-1_5",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 26,
+      "name": "SEGMENT-3_6",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 26,
+      "name": "SEGMENT-3_6",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 26,
+      "name": "SEGMENT-3_6",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 27,
+      "name": "s2_2g_7",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 27,
+      "name": "s2_2g_7",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 27,
+      "name": "s2_2g_7",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 31,
+      "name": "s2_2e_8",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 31,
+      "name": "s2_2e_8",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 31,
+      "name": "s2_2e_8",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 34,
+      "name": "s2_2c_9",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 34,
+      "name": "s2_2c_9",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 34,
+      "name": "s2_2c_9",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 39,
+      "name": "s2_2a_10",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 39,
+      "name": "s2_2a_10",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 39,
+      "name": "s2_2a_10",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 44,
+      "name": "s2_2b_11",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 44,
+      "name": "s2_2b_11",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 44,
+      "name": "s2_2b_11",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 50,
+      "name": "s2_2d_12",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 50,
+      "name": "s2_2d_12",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 50,
+      "name": "s2_2d_12",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 55,
+      "name": "s2_2f_13",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 55,
+      "name": "s2_2f_13",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 55,
+      "name": "s2_2f_13",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 60,
+      "name": "SEGMENT-2_14",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 60,
+      "name": "SEGMENT-2_14",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 60,
+      "name": "SEGMENT-2_14",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 61,
+      "name": "s1_covering_15",
+      "path": "translation",
+      "keys": 165,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 61,
+      "name": "s1_covering_15",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 61,
+      "name": "s1_covering_15",
+      "path": "scale",
+      "keys": 73,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 65,
+      "name": "s1_stand_16",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 65,
+      "name": "s1_stand_16",
+      "path": "rotation",
+      "keys": 25,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 65,
+      "name": "s1_stand_16",
+      "path": "scale",
+      "keys": 25,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 69,
+      "name": "s1_antenna-2_17",
+      "path": "translation",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 69,
+      "name": "s1_antenna-2_17",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 69,
+      "name": "s1_antenna-2_17",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 72,
+      "name": "s1_antenna-4_18",
+      "path": "translation",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 72,
+      "name": "s1_antenna-4_18",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 72,
+      "name": "s1_antenna-4_18",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 75,
+      "name": "s1_antenna-3_19",
+      "path": "translation",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 75,
+      "name": "s1_antenna-3_19",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 75,
+      "name": "s1_antenna-3_19",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 78,
+      "name": "s1_antenna-1_20",
+      "path": "translation",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 78,
+      "name": "s1_antenna-1_20",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 78,
+      "name": "s1_antenna-1_20",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 81,
+      "name": "s1_1a_21",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 81,
+      "name": "s1_1a_21",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 81,
+      "name": "s1_1a_21",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 86,
+      "name": "s1_1_22",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 86,
+      "name": "s1_1_22",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 86,
+      "name": "s1_1_22",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 91,
+      "name": "s1_1b_23",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 91,
+      "name": "s1_1b_23",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 91,
+      "name": "s1_1b_23",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 96,
+      "name": "s1_1c+d_24",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 96,
+      "name": "s1_1c+d_24",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 96,
+      "name": "s1_1c+d_24",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 101,
+      "name": "s1_1e_25",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 101,
+      "name": "s1_1e_25",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 101,
+      "name": "s1_1e_25",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 105,
+      "name": "s1_1f_26",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 105,
+      "name": "s1_1f_26",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 105,
+      "name": "s1_1f_26",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 110,
+      "name": "airlock-covering_27",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 110,
+      "name": "airlock-covering_27",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 110,
+      "name": "airlock-covering_27",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 111,
+      "name": "pdc_pdc1_28",
+      "path": "translation",
+      "keys": 140,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 111,
+      "name": "pdc_pdc1_28",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 111,
+      "name": "pdc_pdc1_28",
+      "path": "scale",
+      "keys": 73,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 114,
+      "name": "pdc_pdc2_29",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 114,
+      "name": "pdc_pdc2_29",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 114,
+      "name": "pdc_pdc2_29",
+      "path": "scale",
+      "keys": 73,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 117,
+      "name": "pdc_cannon1_30",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 117,
+      "name": "pdc_cannon1_30",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 117,
+      "name": "pdc_cannon1_30",
+      "path": "scale",
+      "keys": 130,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 121,
+      "name": "pdc_mag2_31",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 121,
+      "name": "pdc_mag2_31",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 121,
+      "name": "pdc_mag2_31",
+      "path": "scale",
+      "keys": 130,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 124,
+      "name": "pdc_mag1_32",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 124,
+      "name": "pdc_mag1_32",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 124,
+      "name": "pdc_mag1_32",
+      "path": "scale",
+      "keys": 130,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 127,
+      "name": "pdc_pin-3x6_33",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 127,
+      "name": "pdc_pin-3x6_33",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 127,
+      "name": "pdc_pin-3x6_33",
+      "path": "scale",
+      "keys": 130,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 130,
+      "name": "pdc_pin-4x8_34",
+      "path": "translation",
+      "keys": 140,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 130,
+      "name": "pdc_pin-4x8_34",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 130,
+      "name": "pdc_pin-4x8_34",
+      "path": "scale",
+      "keys": 130,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 133,
+      "name": "pdc_covering_35",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 133,
+      "name": "pdc_covering_35",
+      "path": "rotation",
+      "keys": 100,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 133,
+      "name": "pdc_covering_35",
+      "path": "scale",
+      "keys": 86,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 137,
+      "name": "pdc_filler-1_36",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 137,
+      "name": "pdc_filler-1_36",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 137,
+      "name": "pdc_filler-1_36",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 140,
+      "name": "pdc_frame_37",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 140,
+      "name": "pdc_frame_37",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 140,
+      "name": "pdc_frame_37",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 144,
+      "name": "pdc_frame_cov_38",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 144,
+      "name": "pdc_frame_cov_38",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 144,
+      "name": "pdc_frame_cov_38",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 147,
+      "name": "pdc_cannon2_39",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 147,
+      "name": "pdc_cannon2_39",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 147,
+      "name": "pdc_cannon2_39",
+      "path": "scale",
+      "keys": 130,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 151,
+      "name": "PDC-1_orig_40",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 151,
+      "name": "PDC-1_orig_40",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 151,
+      "name": "PDC-1_orig_40",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 152,
+      "name": "SEGMENT-1_41",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 152,
+      "name": "SEGMENT-1_41",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 152,
+      "name": "SEGMENT-1_41",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 153,
+      "name": "ar_airlock_42",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 153,
+      "name": "ar_airlock_42",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 153,
+      "name": "ar_airlock_42",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 157,
+      "name": "ar_bridge3_43",
+      "path": "translation",
+      "keys": 165,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 157,
+      "name": "ar_bridge3_43",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 157,
+      "name": "ar_bridge3_43",
+      "path": "scale",
+      "keys": 73,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 160,
+      "name": "ar_bridge1_44",
+      "path": "translation",
+      "keys": 137,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 160,
+      "name": "ar_bridge1_44",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 160,
+      "name": "ar_bridge1_44",
+      "path": "scale",
+      "keys": 71,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 163,
+      "name": "ar_bridge2_45",
+      "path": "translation",
+      "keys": 147,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 163,
+      "name": "ar_bridge2_45",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 163,
+      "name": "ar_bridge2_45",
+      "path": "scale",
+      "keys": 71,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 166,
+      "name": "ar_stoper-1_46",
+      "path": "translation",
+      "keys": 147,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 166,
+      "name": "ar_stoper-1_46",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 166,
+      "name": "ar_stoper-1_46",
+      "path": "scale",
+      "keys": 71,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 169,
+      "name": "ar_stoper-3_47",
+      "path": "translation",
+      "keys": 147,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 169,
+      "name": "ar_stoper-3_47",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 169,
+      "name": "ar_stoper-3_47",
+      "path": "scale",
+      "keys": 71,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 172,
+      "name": "air_bridge_48",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 172,
+      "name": "air_bridge_48",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 172,
+      "name": "air_bridge_48",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 173,
+      "name": "ROCINANTE_49",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 173,
+      "name": "ROCINANTE_49",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 173,
+      "name": "ROCINANTE_49",
+      "path": "scale",
+      "keys": 54,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 174,
+      "name": "pdc_pdc1.001_50",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 174,
+      "name": "pdc_pdc1.001_50",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 174,
+      "name": "pdc_pdc1.001_50",
+      "path": "scale",
+      "keys": 70,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 177,
+      "name": "pdc_pdc2.001_51",
+      "path": "translation",
+      "keys": 140,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 177,
+      "name": "pdc_pdc2.001_51",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 177,
+      "name": "pdc_pdc2.001_51",
+      "path": "scale",
+      "keys": 70,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 180,
+      "name": "pdc_cannon1.001_52",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 180,
+      "name": "pdc_cannon1.001_52",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 180,
+      "name": "pdc_cannon1.001_52",
+      "path": "scale",
+      "keys": 131,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 184,
+      "name": "pdc_mag2.001_53",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 184,
+      "name": "pdc_mag2.001_53",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 184,
+      "name": "pdc_mag2.001_53",
+      "path": "scale",
+      "keys": 131,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 187,
+      "name": "pdc_mag1.001_54",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 187,
+      "name": "pdc_mag1.001_54",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 187,
+      "name": "pdc_mag1.001_54",
+      "path": "scale",
+      "keys": 131,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 190,
+      "name": "pdc_pin-3x6.001_55",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 190,
+      "name": "pdc_pin-3x6.001_55",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 190,
+      "name": "pdc_pin-3x6.001_55",
+      "path": "scale",
+      "keys": 131,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 193,
+      "name": "pdc_pin-4x8.001_56",
+      "path": "translation",
+      "keys": 140,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 193,
+      "name": "pdc_pin-4x8.001_56",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 193,
+      "name": "pdc_pin-4x8.001_56",
+      "path": "scale",
+      "keys": 131,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 196,
+      "name": "pdc_covering.001_57",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 196,
+      "name": "pdc_covering.001_57",
+      "path": "rotation",
+      "keys": 100,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 196,
+      "name": "pdc_covering.001_57",
+      "path": "scale",
+      "keys": 86,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 200,
+      "name": "pdc_frame.001_58",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 200,
+      "name": "pdc_frame.001_58",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 200,
+      "name": "pdc_frame.001_58",
+      "path": "scale",
+      "keys": 56,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 204,
+      "name": "pdc_frame_cov.001_59",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 204,
+      "name": "pdc_frame_cov.001_59",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 204,
+      "name": "pdc_frame_cov.001_59",
+      "path": "scale",
+      "keys": 56,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 207,
+      "name": "pdc_cannon2.001_60",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 207,
+      "name": "pdc_cannon2.001_60",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 207,
+      "name": "pdc_cannon2.001_60",
+      "path": "scale",
+      "keys": 131,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 211,
+      "name": "PDC-2_61",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 211,
+      "name": "PDC-2_61",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 211,
+      "name": "PDC-2_61",
+      "path": "scale",
+      "keys": 56,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 212,
+      "name": "pdc_pdc1.002_62",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 212,
+      "name": "pdc_pdc1.002_62",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 212,
+      "name": "pdc_pdc1.002_62",
+      "path": "scale",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 215,
+      "name": "pdc_pdc2.002_63",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 215,
+      "name": "pdc_pdc2.002_63",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 215,
+      "name": "pdc_pdc2.002_63",
+      "path": "scale",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 218,
+      "name": "pdc_cannon1.002_64",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 218,
+      "name": "pdc_cannon1.002_64",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 218,
+      "name": "pdc_cannon1.002_64",
+      "path": "scale",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 222,
+      "name": "pdc_mag2.002_65",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 222,
+      "name": "pdc_mag2.002_65",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 222,
+      "name": "pdc_mag2.002_65",
+      "path": "scale",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 225,
+      "name": "pdc_mag1.002_66",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 225,
+      "name": "pdc_mag1.002_66",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 225,
+      "name": "pdc_mag1.002_66",
+      "path": "scale",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 228,
+      "name": "pdc_pin-3x6.002_67",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 228,
+      "name": "pdc_pin-3x6.002_67",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 228,
+      "name": "pdc_pin-3x6.002_67",
+      "path": "scale",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 231,
+      "name": "pdc_pin-4x8.002_68",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 231,
+      "name": "pdc_pin-4x8.002_68",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 231,
+      "name": "pdc_pin-4x8.002_68",
+      "path": "scale",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 234,
+      "name": "pdc_covering.002_69",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 234,
+      "name": "pdc_covering.002_69",
+      "path": "rotation",
+      "keys": 100,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 234,
+      "name": "pdc_covering.002_69",
+      "path": "scale",
+      "keys": 101,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 238,
+      "name": "pdc_frame.002_70",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 238,
+      "name": "pdc_frame.002_70",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 238,
+      "name": "pdc_frame.002_70",
+      "path": "scale",
+      "keys": 70,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 242,
+      "name": "pdc_frame_cov.002_71",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 242,
+      "name": "pdc_frame_cov.002_71",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 242,
+      "name": "pdc_frame_cov.002_71",
+      "path": "scale",
+      "keys": 70,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 245,
+      "name": "pdc_cannon2.002_72",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 245,
+      "name": "pdc_cannon2.002_72",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 245,
+      "name": "pdc_cannon2.002_72",
+      "path": "scale",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 249,
+      "name": "PDC-5_73",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 249,
+      "name": "PDC-5_73",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 249,
+      "name": "PDC-5_73",
+      "path": "scale",
+      "keys": 70,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 250,
+      "name": "pdc_pdc1.003_74",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 250,
+      "name": "pdc_pdc1.003_74",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 250,
+      "name": "pdc_pdc1.003_74",
+      "path": "scale",
+      "keys": 72,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 253,
+      "name": "pdc_pdc2.003_75",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 253,
+      "name": "pdc_pdc2.003_75",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 253,
+      "name": "pdc_pdc2.003_75",
+      "path": "scale",
+      "keys": 72,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 256,
+      "name": "pdc_cannon1.003_76",
+      "path": "translation",
+      "keys": 142,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 256,
+      "name": "pdc_cannon1.003_76",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 256,
+      "name": "pdc_cannon1.003_76",
+      "path": "scale",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 260,
+      "name": "pdc_mag2.003_77",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 260,
+      "name": "pdc_mag2.003_77",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 260,
+      "name": "pdc_mag2.003_77",
+      "path": "scale",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 263,
+      "name": "pdc_mag1.003_78",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 263,
+      "name": "pdc_mag1.003_78",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 263,
+      "name": "pdc_mag1.003_78",
+      "path": "scale",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 266,
+      "name": "pdc_pin-3x6.003_79",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 266,
+      "name": "pdc_pin-3x6.003_79",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 266,
+      "name": "pdc_pin-3x6.003_79",
+      "path": "scale",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 269,
+      "name": "pdc_pin-4x8.003_80",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 269,
+      "name": "pdc_pin-4x8.003_80",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 269,
+      "name": "pdc_pin-4x8.003_80",
+      "path": "scale",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 272,
+      "name": "pdc_covering.003_81",
+      "path": "translation",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 272,
+      "name": "pdc_covering.003_81",
+      "path": "rotation",
+      "keys": 100,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 272,
+      "name": "pdc_covering.003_81",
+      "path": "scale",
+      "keys": 97,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 276,
+      "name": "pdc_frame.003_82",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 276,
+      "name": "pdc_frame.003_82",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 276,
+      "name": "pdc_frame.003_82",
+      "path": "scale",
+      "keys": 62,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 280,
+      "name": "pdc_frame_cov.003_83",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 280,
+      "name": "pdc_frame_cov.003_83",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 280,
+      "name": "pdc_frame_cov.003_83",
+      "path": "scale",
+      "keys": 62,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 283,
+      "name": "pdc_cannon2.003_84",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 283,
+      "name": "pdc_cannon2.003_84",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 283,
+      "name": "pdc_cannon2.003_84",
+      "path": "scale",
+      "keys": 116,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 287,
+      "name": "PDC-6_85",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 287,
+      "name": "PDC-6_85",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 287,
+      "name": "PDC-6_85",
+      "path": "scale",
+      "keys": 62,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 288,
+      "name": "pdc_pdc1.004_86",
+      "path": "translation",
+      "keys": 140,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 288,
+      "name": "pdc_pdc1.004_86",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 288,
+      "name": "pdc_pdc1.004_86",
+      "path": "scale",
+      "keys": 71,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 291,
+      "name": "pdc_pdc2.004_87",
+      "path": "translation",
+      "keys": 140,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 291,
+      "name": "pdc_pdc2.004_87",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 291,
+      "name": "pdc_pdc2.004_87",
+      "path": "scale",
+      "keys": 71,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 294,
+      "name": "pdc_cannon1.004_88",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 294,
+      "name": "pdc_cannon1.004_88",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 294,
+      "name": "pdc_cannon1.004_88",
+      "path": "scale",
+      "keys": 127,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 298,
+      "name": "pdc_mag2.004_89",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 298,
+      "name": "pdc_mag2.004_89",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 298,
+      "name": "pdc_mag2.004_89",
+      "path": "scale",
+      "keys": 127,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 301,
+      "name": "pdc_mag1.004_90",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 301,
+      "name": "pdc_mag1.004_90",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 301,
+      "name": "pdc_mag1.004_90",
+      "path": "scale",
+      "keys": 127,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 304,
+      "name": "pdc_pin-3x6.004_91",
+      "path": "translation",
+      "keys": 181,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 304,
+      "name": "pdc_pin-3x6.004_91",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 304,
+      "name": "pdc_pin-3x6.004_91",
+      "path": "scale",
+      "keys": 127,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 307,
+      "name": "pdc_pin-4x8.004_92",
+      "path": "translation",
+      "keys": 140,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 307,
+      "name": "pdc_pin-4x8.004_92",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 307,
+      "name": "pdc_pin-4x8.004_92",
+      "path": "scale",
+      "keys": 127,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 310,
+      "name": "pdc_covering.004_93",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 310,
+      "name": "pdc_covering.004_93",
+      "path": "rotation",
+      "keys": 100,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 310,
+      "name": "pdc_covering.004_93",
+      "path": "scale",
+      "keys": 87,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 314,
+      "name": "pdc_frame.004_94",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 314,
+      "name": "pdc_frame.004_94",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 314,
+      "name": "pdc_frame.004_94",
+      "path": "scale",
+      "keys": 63,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 318,
+      "name": "pdc_frame_cov.004_95",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 318,
+      "name": "pdc_frame_cov.004_95",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 318,
+      "name": "pdc_frame_cov.004_95",
+      "path": "scale",
+      "keys": 63,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 321,
+      "name": "pdc_cannon2.004_96",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 321,
+      "name": "pdc_cannon2.004_96",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 321,
+      "name": "pdc_cannon2.004_96",
+      "path": "scale",
+      "keys": 127,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 325,
+      "name": "PDC-3_97",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 325,
+      "name": "PDC-3_97",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 325,
+      "name": "PDC-3_97",
+      "path": "scale",
+      "keys": 63,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 326,
+      "name": "pdc_pdc1.005_98",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 326,
+      "name": "pdc_pdc1.005_98",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 326,
+      "name": "pdc_pdc1.005_98",
+      "path": "scale",
+      "keys": 71,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 329,
+      "name": "pdc_pdc2.005_99",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 329,
+      "name": "pdc_pdc2.005_99",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 329,
+      "name": "pdc_pdc2.005_99",
+      "path": "scale",
+      "keys": 71,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 332,
+      "name": "pdc_cannon1.005_100",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 332,
+      "name": "pdc_cannon1.005_100",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 332,
+      "name": "pdc_cannon1.005_100",
+      "path": "scale",
+      "keys": 108,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 336,
+      "name": "pdc_mag2.005_101",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 336,
+      "name": "pdc_mag2.005_101",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 336,
+      "name": "pdc_mag2.005_101",
+      "path": "scale",
+      "keys": 108,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 339,
+      "name": "pdc_mag1.005_102",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 339,
+      "name": "pdc_mag1.005_102",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 339,
+      "name": "pdc_mag1.005_102",
+      "path": "scale",
+      "keys": 108,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 342,
+      "name": "pdc_pin-3x6.005_103",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 342,
+      "name": "pdc_pin-3x6.005_103",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 342,
+      "name": "pdc_pin-3x6.005_103",
+      "path": "scale",
+      "keys": 108,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 345,
+      "name": "pdc_pin-4x8.005_104",
+      "path": "translation",
+      "keys": 141,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 345,
+      "name": "pdc_pin-4x8.005_104",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 345,
+      "name": "pdc_pin-4x8.005_104",
+      "path": "scale",
+      "keys": 108,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 348,
+      "name": "pdc_covering.005_105",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 348,
+      "name": "pdc_covering.005_105",
+      "path": "rotation",
+      "keys": 100,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 348,
+      "name": "pdc_covering.005_105",
+      "path": "scale",
+      "keys": 89,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 352,
+      "name": "pdc_frame.005_106",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 352,
+      "name": "pdc_frame.005_106",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 352,
+      "name": "pdc_frame.005_106",
+      "path": "scale",
+      "keys": 51,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 356,
+      "name": "pdc_frame_cov.005_107",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 356,
+      "name": "pdc_frame_cov.005_107",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 356,
+      "name": "pdc_frame_cov.005_107",
+      "path": "scale",
+      "keys": 51,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 359,
+      "name": "pdc_cannon2.005_108",
+      "path": "translation",
+      "keys": 182,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 359,
+      "name": "pdc_cannon2.005_108",
+      "path": "rotation",
+      "keys": 117,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 359,
+      "name": "pdc_cannon2.005_108",
+      "path": "scale",
+      "keys": 108,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 363,
+      "name": "PDC-4_109",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 363,
+      "name": "PDC-4_109",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 363,
+      "name": "PDC-4_109",
+      "path": "scale",
+      "keys": 51,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 364,
+      "name": "s3_supportB-2.001_110",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 364,
+      "name": "s3_supportB-2.001_110",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 364,
+      "name": "s3_supportB-2.001_110",
+      "path": "scale",
+      "keys": 53,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 368,
+      "name": "s3_3b-2.001_111",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 368,
+      "name": "s3_3b-2.001_111",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 368,
+      "name": "s3_3b-2.001_111",
+      "path": "scale",
+      "keys": 53,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 372,
+      "name": "pdc_filler-1.006_112",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 372,
+      "name": "pdc_filler-1.006_112",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 372,
+      "name": "pdc_filler-1.006_112",
+      "path": "scale",
+      "keys": 56,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 375,
+      "name": "pdc_filler-1.001_113",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 375,
+      "name": "pdc_filler-1.001_113",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 375,
+      "name": "pdc_filler-1.001_113",
+      "path": "scale",
+      "keys": 63,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 378,
+      "name": "pdc_filler-1.004_114",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 378,
+      "name": "pdc_filler-1.004_114",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 378,
+      "name": "pdc_filler-1.004_114",
+      "path": "scale",
+      "keys": 51,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 381,
+      "name": "pdc_filler-1.005_115",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 381,
+      "name": "pdc_filler-1.005_115",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 381,
+      "name": "pdc_filler-1.005_115",
+      "path": "scale",
+      "keys": 70,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 384,
+      "name": "pdc_filler-1.002_116",
+      "path": "translation",
+      "keys": 115,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 384,
+      "name": "pdc_filler-1.002_116",
+      "path": "rotation",
+      "keys": 75,
+      "time_min": 0.0,
+      "time_max": 16.625
+    },
+    {
+      "node": 384,
+      "name": "pdc_filler-1.002_116",
+      "path": "scale",
+      "keys": 62,
+      "time_min": 0.0,
+      "time_max": 16.625
+    }
+  ],
+  "runtime": "NOT RUN"
+}

@@ -1,0 +1,73 @@
+{
+  "dlc3_herald_cloak_frigate.unit": {
+    "sha256": "db19d56d9c83b35af2a244fcb3b31e23623aa96f22c267b91b066d1275e343cf",
+    "abilities": [
+      {
+        "abilities": [
+          "dlc3_herald_cloak_frigate_cloak",
+          "dlc3_herald_cloak_frigate_shadow_bolt"
+        ]
+      }
+    ]
+  },
+  "trader_robotics_cruiser.unit": {
+    "sha256": "e8b8743db8f3843aa1dd36145cfd19b3f446d1550ce195affefc9ff6e934b8ba",
+    "abilities": [
+      {
+        "abilities": [
+          "trader_robotics_cruiser_repair_droids",
+          "trader_robotics_cruiser_antimatter_droids",
+          "trader_robotics_cruiser_detection_droids"
+        ]
+      }
+    ]
+  },
+  "trader_battle_capital_ship.unit": {
+    "sha256": "75d19ed8116c22a6c6d04ac55eacec0e555735d5b09d5632f67229f403daaa80",
+    "abilities": [
+      {
+        "abilities": [
+          "trader_battle_capital_ship_experimental_beam",
+          "trader_battle_capital_ship_fusillade",
+          "trader_battle_capital_ship_adaptive_force_field",
+          "trader_battle_capital_ship_finest_hour"
+        ]
+      }
+    ]
+  },
+  "trader_orbital_cannon_structure.unit": {
+    "sha256": "d05aff19ce97e28742afacc6644ff56f7d6e0c3a3937836836497678464b4a9f",
+    "abilities": [
+      {
+        "abilities": [
+          "trader_orbital_cannon_loyalist"
+        ],
+        "required_player": "trader_loyalist"
+      },
+      {
+        "abilities": [
+          "trader_orbital_cannon"
+        ],
+        "required_player": "trader_rebel"
+      }
+    ]
+  },
+  "vasari_fabricator_cruiser.unit": {
+    "sha256": "2418157a4468fb071676463cf39165cac40be4f69bbafc95457325bebb8a16c4",
+    "abilities": [
+      {
+        "abilities": [
+          "vasari_fabricator_cruiser_mobile_unit_factory",
+          "vasari_fabricator_cruiser_retrofit",
+          "vasari_fabricator_cruiser_debris_reclamation"
+        ]
+      },
+      {
+        "abilities": [
+          "vasari_fabricator_cruiser_retrofit"
+        ],
+        "required_special_operation_unit_kind": "viturak_cabal_remote_fabrication"
+      }
+    ]
+  }
+}

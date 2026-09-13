@@ -1,0 +1,86 @@
+{
+  "status": "PASSIVE PER-BUFF MEMORY CANDIDATE; runtime NOT RUN",
+  "ability_to_add": "expanse03_torpedo_magazine",
+  "ability_to_remove": "expanse03_torpedo_cycle",
+  "mutually_exclusive_normal_magazine_modes": [
+    "expanse03_torpedo_cycle",
+    "expanse03_torpedo_magazine"
+  ],
+  "manifest_ids": {
+    "ability": [
+      "expanse03_torpedo_magazine"
+    ],
+    "buff": [
+      "expanse03_torpedo_magazine"
+    ],
+    "action_data_source": [
+      "expanse03_torpedo_magazine"
+    ],
+    "unit": [
+      "expanse03_heavy_torpedo"
+    ]
+  },
+  "launch_positions": "Replace ability_positions with B/main's verified pair; untouched stock Ogrov reference positions retained here",
+  "normal_ammo_capacity": 8,
+  "rounds_per_successful_pair": 2,
+  "pair_interval": 10,
+  "reload_after_last_pair": 120,
+  "state_location": "per_buff_memory_declaration: ammo,next_pair_ready,reload_ready floats and selected_target unit",
+  "target_policy": "Nearest detected eligible enemy in same gravity well within200000; independent of current manual attack target/order",
+  "target_loss_policy": "No valid selection means no create_torpedo and no ammo debit; expired next-pair deadline retained, ready to resume without catch-up salvos",
+  "poll_interval_seconds": 0.25,
+  "timer_clock": "common_simulation_time_value; absolute deadlines",
+  "permission_guards": [
+    "is_fully_built",
+    "can_use_weapons",
+    "can_use_missile_weapons"
+  ],
+  "no_active_actions_or_move_operators": true,
+  "localization_additions": {
+    "expanse03_torpedo_magazine.name": "Heavy torpedo magazine (experimental)",
+    "expanse03_torpedo_magazine.description": "Autonomous paired launches from an eight-round magazine. Ten seconds between pairs;120-second reload only when depleted. Remaining rounds are held in buff memory. Save/reload behavior is unverified.",
+    "expanse03_torpedo_magazine.ammo_label": "Torpedoes remaining"
+  },
+  "unchanged_dependencies": "expanse03_heavy_torpedo.unit matches filtered candidate; same inherited projectile skin and Ogrov muzzle alias",
+  "runtime_gates": [
+    "Actual four-pair timing and120-second reload;0.25-second polling may quantize first acquisition",
+    "Unit-memory selector and operator filtering/order; no installed unit-memory-write example found",
+    "Remaining ammo survives target loss, stop/move/new attack orders; autonomous target can differ from attack order",
+    "Buff memory serialization, simulation-clock restoration and on_buff_started behavior across save/reload",
+    "Passive buff lifetime across disable/death/ownership changes and no unintended free magazine resets",
+    "PDC movement/rotation/fire continues; missile disable/cripple rules need explicit verification",
+    "Creation failure cannot currently be observed before ammo debit; test engine limits/invalid target races",
+    "Nearest-target scans at4Hz per ship:1/6/30-ship performance",
+    "Ability range still does not guarantee vanilla navigation standoff"
+  ],
+  "input_evidence": {
+    "entities/advent_battle_capital_ship_energy_absorptive_armor.action_data_source": {
+      "sha256": "b98be4fc637b7a9461c42570c4394b321210976a4222a0aaf521a92c17a33d43",
+      "historical_pin_checked": false
+    },
+    "entities/advent_battle_capital_ship_energy_absorptive_armor.ability": {
+      "sha256": "c12700fa7bd864c12ee2c5a3b3b736bdd948d2a5a281313f8fe71188a035f025",
+      "historical_pin_checked": false
+    },
+    "entities/advent_battle_capital_ship_energy_absorptive_armor.buff": {
+      "sha256": "ad933d566f7bdaf1df89a55d170387330c21fee73a67608792eba9a999b272f1",
+      "historical_pin_checked": false
+    },
+    "entities/vasari_loyalist_titan_the_maw_on_self.buff": {
+      "sha256": "785fa1f162ee201e0978a0be8ffd11d2b7e6c4a638a5c92e1d189611b819d1d2",
+      "historical_pin_checked": false
+    },
+    "entities/trader_capital_ship_insurance_unit_item.ability": {
+      "sha256": "07dc0f498182db755f88dd42aa78207b1a08d3f6a8c2a8fb5040482115f46777",
+      "historical_pin_checked": false
+    },
+    "entities/trader_orbital_cannon.action_data_source": {
+      "sha256": "2a4cfda9c7308a1d01966bfed768bd3a58decf8168dbf55d2a1c2de359956ddc",
+      "historical_pin_checked": false
+    },
+    "uniforms/action.uniforms": {
+      "sha256": "99d4ceb38218c3320efce9455ccd4bda1d6e478eebab8b19c0a204fea0ac8877",
+      "historical_pin_checked": false
+    }
+  }
+}

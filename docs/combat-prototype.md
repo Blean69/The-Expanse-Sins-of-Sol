@@ -1,3 +1,7 @@
+# Current polish status
+
+See [polish.md](polish.md) for the prepared six-PDC variant and provisional cadence. Runtime rotation, interception priority and damage timing remain untested. Earlier candidate notes below are historical context.
+
 # Next change: corvette combat prototype
 
 This follows the visual baseline. `build/combat-candidates` contains nine schema-checked definition candidates and additive manifests. It has no `.mod_meta_data`, no Cobalt override, and is not installed. It is **not a playable combat mod**. Inspect `audit/combat-candidate-validation.json` for unresolved integration dependencies.
@@ -51,3 +55,6 @@ For a controlled unupgraded Cobalt target (durability 150, armor 825, armor stre
 Tune one ship and controlled targets after the baseline passes. Record raw and effective per-gun DPS, overlap count, interception success vs salvo size, and time-to-kill. Keep long-range torpedoes as the chosen `max_range_weapon_index` candidate so the unit is not deliberately configured around its short-range PDCs; verify stop-and-fire behavior and range selection before claiming standoff works. Preserve all vanilla physics and navigation. Six 360° guns are not realistic coverage: derive hull-obstructed yaw/pitch arcs from actual mounting surfaces.
 
 Remaining integration: compiler-ready rig export, combat hull without duplicate static guns, twelve skin alias bindings, six weapon mounts, torpedo aperture locations, real salvo spawning, long-range lifetime/range experiment, and ship-only damage/health/cost tuning. All are tracked as pending, with runtime tests in the manual checklist.
+# Current experimental handoff
+
+The previous `build/combat-candidates` and editable rig candidates remain unchanged. Reviewed stock Garda/Ogrov behavior and one imported dorsal PDC are prepared separately; see [experiments.md](experiments.md), `audit/workers/a/weapon-behavior.md` and `audit/workers/b/`. These are untuned runtime experiments. They do not implement six functional PDCs, well-wide torpedoes, the 15-second kill goal, standoff tuning or audio. The existing baseline scope and gameplay remain preserved.

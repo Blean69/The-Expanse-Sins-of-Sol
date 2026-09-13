@@ -1,0 +1,218 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "baseline": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06",
+  "only_prior_files_changed": [
+    ".mod_meta_data",
+    "ASSET-SOURCES.md",
+    "entities/expanse_rocinante_hero.unit_skin"
+  ],
+  "added_files": 22,
+  "skin_schema": "PASS pinned Draft7 and additional closed-key check",
+  "sound_schema": "Not present in pinned SDK; exact installed speech profile and colocated Ogg convention checked",
+  "dialogue_references": [
+    {
+      "category": "retreat",
+      "mood": "scared",
+      "sound": "expanse07_roci_retreat",
+      "media": "expanse07_roci_retreat.ogg"
+    },
+    {
+      "category": "retreat",
+      "mood": "neutral",
+      "sound": "expanse07_roci_retreat",
+      "media": "expanse07_roci_retreat.ogg"
+    },
+    {
+      "category": "selected",
+      "mood": "neutral",
+      "sound": "expanse07_roci_captain",
+      "media": "expanse07_roci_captain.ogg"
+    },
+    {
+      "category": "selected",
+      "mood": "neutral",
+      "sound": "expanse07_roci_mars_navy",
+      "media": "expanse07_roci_mars_navy.ogg"
+    },
+    {
+      "category": "selected",
+      "mood": "neutral",
+      "sound": "expanse07_roci_freighter_joke",
+      "media": "expanse07_roci_freighter_joke.ogg"
+    },
+    {
+      "category": "attack_order_issued",
+      "mood": "smug",
+      "sound": "expanse07_roci_asteroid_ride",
+      "media": "expanse07_roci_asteroid_ride.ogg"
+    },
+    {
+      "category": "attack_order_issued",
+      "mood": "smug",
+      "sound": "expanse07_roci_thanks",
+      "media": "expanse07_roci_thanks.ogg"
+    },
+    {
+      "category": "attack_order_issued",
+      "mood": "smug",
+      "sound": "expanse07_roci_churn",
+      "media": "expanse07_roci_churn.ogg"
+    },
+    {
+      "category": "attack_order_issued",
+      "mood": "scared",
+      "sound": "expanse07_roci_enemy_railguns",
+      "media": "expanse07_roci_enemy_railguns.ogg"
+    },
+    {
+      "category": "attack_order_issued",
+      "mood": "neutral",
+      "sound": "expanse07_roci_asteroid_ride",
+      "media": "expanse07_roci_asteroid_ride.ogg"
+    },
+    {
+      "category": "attack_order_issued",
+      "mood": "neutral",
+      "sound": "expanse07_roci_thanks",
+      "media": "expanse07_roci_thanks.ogg"
+    },
+    {
+      "category": "attack_order_issued",
+      "mood": "neutral",
+      "sound": "expanse07_roci_churn",
+      "media": "expanse07_roci_churn.ogg"
+    },
+    {
+      "category": "armor_down",
+      "mood": "neutral",
+      "sound": "expanse07_roci_antenna",
+      "media": "expanse07_roci_antenna.ogg"
+    },
+    {
+      "category": "hyperspace_charge_started",
+      "mood": "neutral",
+      "sound": "expanse07_roci_juice_long",
+      "media": "expanse07_roci_juice_long.ogg"
+    },
+    {
+      "category": "spawned",
+      "mood": "neutral",
+      "sound": "expanse07_roci_captain",
+      "media": "expanse07_roci_captain.ogg"
+    },
+    {
+      "category": "order_issued",
+      "mood": "neutral",
+      "sound": "expanse07_roci_good_news",
+      "media": "expanse07_roci_good_news.ogg"
+    }
+  ],
+  "normalization": {
+    "supplied": 12,
+    "normalized_and_encoded": 11,
+    "held": 1,
+    "missing_optional_short_juice": true
+  },
+  "runtime": "NOT RUN",
+  "listening": "NOT RUN; no semantic completeness claim",
+  "preservation": {
+    "trees": [
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_ammo03",
+        "files": 92,
+        "tree_sha256": "211aaf0040b8c6edef8894606bf8eaa54606fe6c862fb2f79cbe3dea68c121a1"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_visual",
+        "files": 26,
+        "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_amun06",
+        "files": 267,
+        "tree_sha256": "e9af852c6e40ea83a7f31c79d574f935597583d5250442ea9c446db29f43aa18"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_rocinante03",
+        "files": 164,
+        "tree_sha256": "f87253a45f07ed279f0aced31912378cc7690793a99d0f725db82daac6673d6e"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_amun06_cloak",
+        "files": 273,
+        "tree_sha256": "a238df02a4c71b2d288a60e41a834bbc94d49ec184b146e9eb30a547aba14255"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_rocinante04_amun",
+        "files": 204,
+        "tree_sha256": "7734eeb09fa0f2b48d849f0721d2fa35c742b536b0abc2ae14318aba1e568492"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_polish",
+        "files": 83,
+        "tree_sha256": "922bb383eac8568ac5f365cd992f96d6709620e36c71f4ab639555db0da2aebf"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_cobalt_name",
+        "files": 2,
+        "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_combat03",
+        "files": 92,
+        "tree_sha256": "63ca0bcf4da8c094435aeb28fce0ceb11262cfa4e6b8f33106416fb77820b03b"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_ammo03",
+        "files": 92,
+        "tree_sha256": "211aaf0040b8c6edef8894606bf8eaa54606fe6c862fb2f79cbe3dea68c121a1"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06",
+        "files": 267,
+        "tree_sha256": "e9af852c6e40ea83a7f31c79d574f935597583d5250442ea9c446db29f43aa18"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_rocinante03",
+        "files": 164,
+        "tree_sha256": "f87253a45f07ed279f0aced31912378cc7690793a99d0f725db82daac6673d6e"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06_cloak",
+        "files": 273,
+        "tree_sha256": "a238df02a4c71b2d288a60e41a834bbc94d49ec184b146e9eb30a547aba14255"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc",
+        "files": 10,
+        "tree_sha256": "dec0e431a1ec4c87a8dbc1ed44e58fcc9e968a906bf0669e950d4a4d5abbb941"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_rocinante04_amun",
+        "files": 204,
+        "tree_sha256": "7734eeb09fa0f2b48d849f0721d2fa35c742b536b0abc2ae14318aba1e568492"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish",
+        "files": 83,
+        "tree_sha256": "922bb383eac8568ac5f365cd992f96d6709620e36c71f4ab639555db0da2aebf"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_rocinante04",
+        "files": 198,
+        "tree_sha256": "a673fdade01f53a5db871a9303e5505dae16f6d6c214e9acb32a258413c2792f"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_combat03",
+        "files": 92,
+        "tree_sha256": "63ca0bcf4da8c094435aeb28fce0ceb11262cfa4e6b8f33106416fb77820b03b"
+      }
+    ],
+    "zips_unchanged": 9,
+    "pins": {
+      "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+      "schemas": 62,
+      "installed_references": 527
+    }
+  }
+}

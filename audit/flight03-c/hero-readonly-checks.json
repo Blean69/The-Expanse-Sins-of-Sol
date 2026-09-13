@@ -1,0 +1,99 @@
+{
+  "reviewed_source": "/run/media/haker/NVME 2/expanse-mod/tools/hero03_abilities.py",
+  "source_sha256": "5361ac8726cc75fb2705a8bd9e7cd81aab9d095ae091da136a5303a09b731889",
+  "schema_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_belter_ingenuity.ability",
+      "sha256": "15df34b8fadc895c2e8edbb5f8c1785193fcff782d574dc1826e1c9ada5e8686",
+      "schema": "ability-schema.json",
+      "result": "PASS"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_belter_ingenuity.action_data_source",
+      "sha256": "0696d51eb35d850ff3d25950787502bb76998ae04049d9e417ec10770d934003",
+      "schema": "action-data-source-schema.json",
+      "result": "PASS"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_belter_ingenuity.buff",
+      "sha256": "7e8c88e510ab8e27263d18e168ae2a7e52f22b6eef294943e04c74676812e0b6",
+      "schema": "buff-schema.json",
+      "result": "PASS"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_morale.ability",
+      "sha256": "96d12e5110ba016f7b7398dd60666bd2d742e09283da278d106502a3c35ab5e2",
+      "schema": "ability-schema.json",
+      "result": "PASS"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_morale.action_data_source",
+      "sha256": "ad4f3af199bbbadbd308bbd847ba184a32edc00babb42c5254ff236a4bcd90cb",
+      "schema": "action-data-source-schema.json",
+      "result": "PASS"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_morale.buff",
+      "sha256": "5e1d604a1c68ffcde707628948d8f04ab05378b92cb73e7765407e24329f1699",
+      "schema": "buff-schema.json",
+      "result": "PASS"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_morale_recipient.buff",
+      "sha256": "f3533f79c08df84fb0e48240f294b0aa2f469e02682c43d86f72b3de77e0fdb6",
+      "schema": "buff-schema.json",
+      "result": "PASS"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_overcharged_reactor.ability",
+      "sha256": "9022922c7f9a0531a98dc900e192e3e702c90ed924cefe38d8acf5fe02cedb2e",
+      "schema": "ability-schema.json",
+      "result": "PASS"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_overcharged_reactor.action_data_source",
+      "sha256": "8c3d2c902523f674225bdca4a8688c4ee9aefa9e4ce107ea75d50e1126147367",
+      "schema": "action-data-source-schema.json",
+      "result": "PASS"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_overcharged_reactor.buff",
+      "sha256": "20d9c3a23b0ac6a49d67ce41bb4583ceee26ceaaeffef512b5a1789bbc177427",
+      "schema": "buff-schema.json",
+      "result": "PASS"
+    }
+  ],
+  "gui_reference_checks": [
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_overcharged_reactor.ability",
+      "field": "hud_icon",
+      "target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/jiskun_tachyon_boost_hud_icon.png"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_overcharged_reactor.ability",
+      "field": "tooltip_icon",
+      "target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/jiskun_tachyon_boost_hud_icon.png"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_belter_ingenuity.ability",
+      "field": "hud_icon",
+      "target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_combat_repair_system_unit_item_hud_icon.png"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_belter_ingenuity.ability",
+      "field": "tooltip_icon",
+      "target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_combat_repair_system_unit_item_hud_icon.png"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_morale.ability",
+      "field": "hud_icon",
+      "target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_colony_capital_ship_inspiring_broadcast_ability_hud_icon.png"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/hero03-main/generated/entities/expanse_roci_morale.ability",
+      "field": "tooltip_icon",
+      "target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_colony_capital_ship_inspiring_broadcast_ability_hud_icon.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

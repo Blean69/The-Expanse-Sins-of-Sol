@@ -1,0 +1,98 @@
+{
+  "environment": "REQUIRES ignored normalized assets, official outputs and scipy",
+  "checks": {
+    "hull": {
+      "triangles": 13945,
+      "all_indexed_positions_max_error": 5.000000005139782e-07,
+      "compiler_winding_relative_to_editable_by_material": {
+        "0": "reversed",
+        "2": "reversed",
+        "1": "same",
+        "3": "same"
+      },
+      "status": "PASS"
+    },
+    "base": {
+      "triangles": 138,
+      "all_indexed_positions_max_error": 4.949111938046258e-07,
+      "compiler_winding_relative_to_editable_by_material": {
+        "0": "same"
+      },
+      "status": "PASS"
+    },
+    "barrel": {
+      "triangles": 539,
+      "all_indexed_positions_max_error": 4.99916076646123e-07,
+      "compiler_winding_relative_to_editable_by_material": {
+        "0": "same"
+      },
+      "status": "PASS"
+    }
+  },
+  "baseline_rest_pose_position_normal_uv_check": {
+    "status": "PASS",
+    "indexed_corners": 43866,
+    "max_feature_distance_both_directions": 1.8148667581233643e-06,
+    "max_absolute_errors": {
+      "position": 1.649130673797572e-06,
+      "normal": 0.0,
+      "tangent_xyz": 2.0,
+      "tangent_w": 2.0,
+      "uv": 0.0
+    }
+  },
+  "source_hull_attributes_preserved": {
+    "status": "PASS",
+    "max_absolute_error": 2.462541942804819e-06
+  },
+  "emitted_tangent_drift": {
+    "indexed_corners_without_full_attribute_match_within_2e_minus4": 1980,
+    "max_full_attribute_distance": 2.0000000000002127,
+    "note": "full attribute comparison includes regenerated tangent XYZ/W; position/normal/UV comparison separately passes"
+  },
+  "emitted_tangent_equality": "NOT PRESERVED: official MeshBuilder regenerates Mikk tangents after partition; normal-map appearance requires runtime inspection",
+  "tangent_source_evidence": "Pinned SDK Shaders/mesh/mesh_pbr_utility.hlsli:152",
+  "output_shading_and_binary_checks": {
+    "hull": {
+      "finite_unit_orthogonal_tangents": "FAIL",
+      "zero_tangent_indexed_corners": 412,
+      "nonunit_tangent_indexed_corners": 412,
+      "nonorthogonal_indexed_corners": 416,
+      "max_normal_tangent_dot": 1.0,
+      "normal_unit_invalid_corners": 0,
+      "tangent_sign_invalid_corners": 0,
+      "json_binary_vertex_max_error": 5.000000005139782e-07,
+      "binary_json_parity": "PASS"
+    },
+    "base": {
+      "finite_unit_orthogonal_tangents": "FAIL",
+      "zero_tangent_indexed_corners": 2,
+      "nonunit_tangent_indexed_corners": 2,
+      "nonorthogonal_indexed_corners": 0,
+      "max_normal_tangent_dot": 1.1561399999999696e-06,
+      "normal_unit_invalid_corners": 0,
+      "tangent_sign_invalid_corners": 0,
+      "json_binary_vertex_max_error": 4.994356669485315e-07,
+      "binary_json_parity": "PASS"
+    },
+    "barrel": {
+      "finite_unit_orthogonal_tangents": "FAIL",
+      "zero_tangent_indexed_corners": 18,
+      "nonunit_tangent_indexed_corners": 18,
+      "nonorthogonal_indexed_corners": 7,
+      "max_normal_tangent_dot": 0.025680687241999952,
+      "normal_unit_invalid_corners": 0,
+      "tangent_sign_invalid_corners": 0,
+      "json_binary_vertex_max_error": 4.999465942415182e-07,
+      "binary_json_parity": "PASS"
+    }
+  },
+  "frozen_baseline_shading_observation": {
+    "zero_tangent_indexed_corners": 432,
+    "nonunit_tangent_indexed_corners": 432,
+    "nonorthogonal_indexed_corners": 422,
+    "max_normal_tangent_dot": 1.0
+  },
+  "package_gate": "BLOCKED: invalid generated tangent frames; candidate-only",
+  "runtime": "NOT RUN"
+}

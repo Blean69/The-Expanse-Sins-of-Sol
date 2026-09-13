@@ -1,0 +1,272 @@
+{
+  "status": "PASS available typed action references against candidate+accepted+installed overlay; INCOMPLETE ship integration explicitly listed",
+  "runtime": "NOT RUN",
+  "ability_reports": [
+    {
+      "ability": "expanse10_donnager_launch_corvette",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_launch_corvette.action_data_source",
+      "reachable_buffs": [],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse06_amun_boarding",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse06_amun_boarding.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse06_amun_boarding.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse10_donnager_marines",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_marines.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse10_donnager_marines.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse11_morrigan_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse11_morrigan_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse11_morrigan_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "references_resolved": 38,
+  "pending_main_integration": [
+    "Private expanse_mcrn_corvette.unit is main-owned and absent from this component output; unit must have supply55",
+    "Two actual Morrigan ability_positions must be applied by main",
+    "Morrigan unit skin must bind expanse04_light_torpedo_muzzle"
+  ],
+  "edges": [
+    {
+      "source": "Amun uniform overlay",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "Amun uniform overlay",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "{'abilities': [{'abilities': ['expanse10_donnager_launch_corvette', 'expanse06_amun_boarding', 'expanse10_donnager_marines', 'expanse11_morrigan_magazine']}]}",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse10_donnager_launch_corvette.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_launch_corvette.ability",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "expanse10_donnager_launch_corvette",
+      "reference": "entities/expanse10_donnager_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_launch_corvette.action_data_source",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_launch_corvette.ability",
+      "reference": "entities/expanse10_donnager_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_launch_corvette.action_data_source",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse06_amun_boarding.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse06_amun_boarding.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse06_amun_boarding",
+      "reference": "entities/expanse06_amun_boarding.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse06_amun_boarding.action_data_source",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse06_amun_boarding.ability",
+      "reference": "entities/expanse06_amun_boarding.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse06_amun_boarding.action_data_source",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse06_amun_boarding.ability",
+      "reference": "entities/expanse06_amun_boarding.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse06_amun_boarding.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse06_amun_boarding.action_data_source",
+      "reference": "entities/expanse_rocinante_hero.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse_rocinante_hero.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse06_amun_boarding.action_data_source",
+      "reference": "effects/expanse06_boarding_pod_visual.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/effects/expanse06_boarding_pod_visual.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse06_amun_boarding.action_data_source",
+      "reference": "sounds/ability_activate_tech_shuttlelaunch.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ability_activate_tech_shuttlelaunch.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse10_donnager_marines.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse10_donnager_marines.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse10_donnager_marines",
+      "reference": "entities/expanse10_donnager_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_marines.action_data_source",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse10_donnager_marines.ability",
+      "reference": "entities/expanse10_donnager_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_marines.action_data_source",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse10_donnager_marines.ability",
+      "reference": "entities/expanse10_donnager_marines.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse10_donnager_marines.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_marines.action_data_source",
+      "reference": "entities/expanse_rocinante_hero.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse_rocinante_hero.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_marines.action_data_source",
+      "reference": "effects/expanse06_boarding_pod_visual.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/effects/expanse06_boarding_pod_visual.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse10_donnager_marines.action_data_source",
+      "reference": "sounds/ability_activate_tech_shuttlelaunch.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ability_activate_tech_shuttlelaunch.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse11_morrigan_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse11_morrigan_magazine.ability",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "expanse11_morrigan_magazine",
+      "reference": "entities/expanse11_morrigan_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse11_morrigan_magazine.action_data_source",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse11_morrigan_magazine.ability",
+      "reference": "entities/expanse11_morrigan_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse11_morrigan_magazine.action_data_source",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse11_morrigan_magazine.ability",
+      "reference": "entities/expanse11_morrigan_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse11_morrigan_magazine.buff",
+      "origin": "update11-candidate"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/build/update11-a/reviewed/entities/expanse11_morrigan_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse04_light_torpedo.unit",
+      "reference": "entities/expanse04_light_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse04_light_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "meshes/expanse05_amun_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/meshes/expanse05_amun_torpedo.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/meshes/expanse05_amun_torpedo.mesh",
+      "reference": "mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/textures/expanse05_amun_torpedo_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/textures/expanse05_amun_torpedo_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/textures/expanse05_amun_torpedo_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "effects/trader_medium_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "sounds/engine_techsupportship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHSUPPORTSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0_1.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0_1.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "launch UI",
+      "reference": "brushes/mcrn_corvette_hud_icon.brush",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/brushes/mcrn_corvette_hud_icon.brush",
+      "origin": "mod"
+    },
+    {
+      "source": "launch UI",
+      "reference": "brushes/mcrn_corvette_tooltip_picture.brush",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/brushes/mcrn_corvette_tooltip_picture.brush",
+      "origin": "mod"
+    },
+    {
+      "source": "Morrigan projectile",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10_pdc_audio/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    }
+  ]
+}

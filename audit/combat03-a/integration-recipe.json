@@ -1,0 +1,380 @@
+{
+  "status": "EXPERIMENTAL TIMED ABILITY CANDIDATES; railgun definition schema-ready; runtime NOT RUN",
+  "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+  "unit_ability_integration": [
+    {
+      "ability_id": "expanse03_torpedo_cycle",
+      "unit_scope": "ordinary corvette and hero",
+      "ability_positions_replace_required": true,
+      "reference_positions_source": "entities/trader_torpedo_cruiser_heavy_torpedo.ability#/ability_positions",
+      "launchpoint_hook": "ability_positions; next_sequential position selection; real aperture positions supplied by B/main",
+      "auto_cast": "always; target within same gravity well, no weapon_has_target prerequisite",
+      "cooldown_budget": "own private ability/buff; independent from other ability ID"
+    },
+    {
+      "ability_id": "expanse03_hero_torpedo_salvo",
+      "unit_scope": "hero only",
+      "ability_positions_replace_required": true,
+      "reference_positions_source": "entities/trader_torpedo_cruiser_heavy_torpedo.ability#/ability_positions",
+      "launchpoint_hook": "ability_positions; next_sequential position selection; real aperture positions supplied by B/main",
+      "auto_cast": "manual only (auto_cast absent)",
+      "cooldown_budget": "own private ability/buff; independent from other ability ID"
+    }
+  ],
+  "railgun_weapon_id": "expanse03_hero_railgun",
+  "railgun_unit_scope": "hero only",
+  "railgun_mount": "Main/B supplies one fixed keel-aligned weapon entry and real non_turret_muzzle_positions; no invented mount coordinates emitted",
+  "required_skin_effect_alias_bindings": [
+    {
+      "alias_name": "trader_torpedo_cruiser_torpedo_weapon_muzzle",
+      "alias_binding": {
+        "particle_effect": "trader_torpedo_cruiser_muzzle",
+        "sounds": [
+          "weapon_muzzle_tech_neutrontorp"
+        ]
+      }
+    },
+    {
+      "alias_name": "trader_rebel_titan_rail_gun_weapon_hit_hull",
+      "alias_binding": {
+        "particle_effect": "trader_titan_rail_gun_weapon_impact",
+        "sounds": [
+          "weapon_impact_physical_heavy_hithull",
+          "weapon_impact_physical_heavy_hithull_01",
+          "weapon_impact_physical_heavy_hithull_02",
+          "weapon_impact_physical_heavy_hithull_03"
+        ]
+      }
+    },
+    {
+      "alias_name": "trader_rebel_titan_rail_gun_weapon_hit_shield",
+      "alias_binding": {
+        "particle_effect": "trader_titan_rail_gun_weapon_impact",
+        "sounds": [
+          "weapon_impact_generic_heavy_hitshields",
+          "weapon_impact_generic_heavy_hitshields_01",
+          "weapon_impact_generic_heavy_hitshields_02",
+          "weapon_impact_generic_heavy_hitshields_03"
+        ]
+      }
+    },
+    {
+      "alias_name": "trader_rebel_titan_rail_gun_weapon_muzzle",
+      "alias_binding": {
+        "particle_effect": "trader_titan_rail_gun_weapon_muzzle",
+        "sounds": [
+          "weapon_muzzle_tech_railgun"
+        ]
+      }
+    },
+    {
+      "alias_name": "trader_rebel_titan_rail_gun_weapon_projectile_travel",
+      "alias_binding": {
+        "particle_effect": "trader_titan_rail_gun_weapon_travel"
+      }
+    }
+  ],
+  "projectile_id": "expanse03_heavy_torpedo",
+  "projectile_skin_inherited": "trader_torpedo_cruiser_torpedo",
+  "additive_manifest_ids": {
+    "unit": [
+      "expanse03_heavy_torpedo"
+    ],
+    "weapon": [
+      "expanse03_hero_railgun"
+    ],
+    "ability": [
+      "expanse03_torpedo_cycle",
+      "expanse03_hero_torpedo_salvo"
+    ],
+    "buff": [
+      "expanse03_torpedo_cycle_on_self",
+      "expanse03_hero_torpedo_salvo_on_self"
+    ],
+    "action_data_source": [
+      "expanse03_torpedo_cycle",
+      "expanse03_hero_torpedo_salvo"
+    ]
+  },
+  "localization_additions": {
+    "expanse03.weapon_name.railgun": "Keel-mounted railgun",
+    "expanse03_torpedo_cycle.name": "Heavy torpedo cycle (experimental)",
+    "expanse03_torpedo_cycle.description": "Four paired heavy-torpedo launches at 0, 10, 20 and 30 seconds; then a 120-second reload. Experimental: interruption, remaining ammunition and save/reload behavior are unverified.",
+    "expanse03_hero_torpedo_salvo.name": "Overwhelming torpedo salvo",
+    "expanse03_hero_torpedo_salvo.description": "Fire eight heavy torpedoes from an independent salvo reserve. Experimental; 120-second ability cooldown."
+  },
+  "nominal_schedules": [
+    {
+      "ability": "expanse03_torpedo_cycle",
+      "nominal_torpedo_spawn_times": [
+        0.0,
+        0.0,
+        10.0,
+        10.0,
+        20.0,
+        20.0,
+        30.0,
+        30.0
+      ],
+      "expected_cooldown_start_if_buff_dies_at_last_interval": 30.0,
+      "expected_next_ready_time": 150.0,
+      "runtime_status": "NOT RUN; schedule calculation only"
+    },
+    {
+      "ability": "expanse03_hero_torpedo_salvo",
+      "nominal_torpedo_spawn_times": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "expected_cooldown_start_if_buff_dies_at_last_interval": 0.0,
+      "expected_next_ready_time": 120.0,
+      "runtime_status": "NOT RUN; schedule calculation only"
+    }
+  ],
+  "normal_torpedo_damage_per_created_entity": 750.0,
+  "normal_complete_cycle_nominal_raw_damage": 6000.0,
+  "normal_complete_cycle_nominal_raw_dps_over_150_seconds": 40.0,
+  "hero_salvo_nominal_raw_damage": 6000.0,
+  "railgun_nominal_raw_dps": 250.0,
+  "torpedo_range": 200000.0,
+  "torpedo_lifetime": 240.0,
+  "torpedo_speed": 1000.0,
+  "railgun_target_acquired_duration_required_to_fire": 1.0,
+  "weapon_burst_magazine_substitute_added": false,
+  "ordinary_torpedo_weapon_added": false,
+  "railgun_benchmarks": [
+    {
+      "unit": "Cobalt",
+      "durability": 150.0,
+      "armor_strength": 50.0,
+      "armor": 825.0,
+      "hull": 750.0,
+      "shields": 0,
+      "ideal_raw_damage_requirement": 1987.5,
+      "rail_one_shot_under_simplified_unbuffed_model": true
+    },
+    {
+      "unit": "Garda",
+      "durability": 200.0,
+      "armor_strength": 75.0,
+      "armor": 450.0,
+      "hull": 400.0,
+      "shields": 0,
+      "ideal_raw_damage_requirement": 1187.5,
+      "rail_one_shot_under_simplified_unbuffed_model": true
+    },
+    {
+      "unit": "Harcka",
+      "durability": 50.0,
+      "armor_strength": 25.0,
+      "armor": 800.0,
+      "hull": 845.0,
+      "shields": 0,
+      "ideal_raw_damage_requirement": 1845.0,
+      "rail_one_shot_under_simplified_unbuffed_model": true
+    },
+    {
+      "unit": "Kodiak",
+      "durability": 400.0,
+      "armor_strength": 90.0,
+      "armor": 1400.0,
+      "hull": 1250.0,
+      "shields": 0,
+      "ideal_raw_damage_requirement": 3910.0,
+      "rail_one_shot_under_simplified_unbuffed_model": false
+    },
+    {
+      "unit": "Kol level 1",
+      "durability": 500.0,
+      "armor_strength": 105.0,
+      "armor": 2420.0,
+      "hull": 3750.0,
+      "shields": 2650.0,
+      "ideal_raw_damage_requirement": 11361.0,
+      "rail_one_shot_under_simplified_unbuffed_model": false
+    }
+  ],
+  "required_runtime_gates": [
+    "Replace both ability_positions arrays with verified real launch apertures before packaging; emitted positions are unchanged stock Ogrov reference points.",
+    "Observed schemas/definitions support timer fields, not a proven persistent magazine: cancellation, target loss, retargeting and remaining ammunition are unresolved.",
+    "cooldown_reset_type=on_spawned_buff_made_dead is current-schema supported but no explicitly set installed example was found; verify buff completion time and next-ready t150.",
+    "The watched-buff ability may count as channeling; channeling_will_disable_weapons=false is explicit but not runtime proof of uninterrupted PDCs/navigation.",
+    "Ability range is not max_range_weapon_index; no verified ability-based stop-and-fire standoff selection found.",
+    "Actual spawn count, per-projectile damage, interception preventing impact, lifetime and same-well filtering require runtime observations.",
+    "Hero8 ability has a separate120-second cooldown/reserve and does not consume normal timed-cycle ammo; user-facing cooldown remains provisional."
+  ],
+  "installed_input_hashes": {
+    "entities/trader_torpedo_cruiser_torpedo.unit": {
+      "sha256": "886a135832469b62ce75f359823103f23621acc61375ebb336b92cfdddca66a1",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    },
+    "entities/trader_torpedo_cruiser_torpedo.weapon": {
+      "sha256": "5f1b0223af7404fd15f6c8045d83b93f6dd413a3e7f7e9ed49196994e9b3cb76",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    },
+    "entities/trader_torpedo_cruiser.unit_skin": {
+      "sha256": "fe7a6f3dddd771c467e8359439afadc1e9cda3b9d346ddee85afd92e009678d7",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    },
+    "entities/trader_torpedo_cruiser_torpedo.unit_skin": {
+      "sha256": "2fd884758cb15aaa182e19d12fd5bec393ae90e5fcd87e4786af9d9193371b89",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    },
+    "entities/trader_torpedo_cruiser_heavy_torpedo.ability": {
+      "sha256": "d1f07d9defabc157c40e09ded6561bba04b864c0c200a4239c92862d6e3c7edc",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/trader_torpedo_cruiser_heavy_torpedo_on_self.buff": {
+      "sha256": "3a1dc3576e0c1c6dd1f23db885df9e1b84f2961fc5d669da5bf870d7caa3b737",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/trader_torpedo_cruiser_heavy_torpedo.action_data_source": {
+      "sha256": "4ca95246b077a960564afcf7dd7fb958ea1aff0e4143c4c7a360285e8bf57e9a",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/vasari_starbase_charged_salvo.ability": {
+      "sha256": "df7389b7e4530b7032a4e4604d8e76f19e7eef4d0cfd5579229716e61361bc91",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/vasari_starbase_charged_salvo_on_self.buff": {
+      "sha256": "a655806e93fac551d0bb5a69603bf1f2ed816deed93f0b97ba648d8c540f627d",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/vasari_starbase_charged_salvo.action_data_source": {
+      "sha256": "b9e2ba2469f7f6836969bc46fe6b2c941d5e54b54a603098f0947990b9cb48e0",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/vasari_loyalist_titan_phase_tunneling.action_data_source": {
+      "sha256": "83592b6e6e35ad0729f28f1c3a1467c765f2577fa05bbbf2b57a3bb131b798cd",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/trader_rebel_titan_rail_gun.weapon": {
+      "sha256": "639695487acb6e643a2c892096ab2c0fb8c5cc96abe214ab4ac8f543ed9562e3",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/trader_rebel_titan.unit_skin": {
+      "sha256": "7ad666382ff5bfa04ef4e0c9e6d5c3dd5ff4e2b9dbaa1885312f39cf51ce5240",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/trader_light_frigate.unit": {
+      "sha256": "21f7dc1945cb4b04f28fcd7c22e0a1cfcfdf5eae4c41af7e5270bf847f22cb48",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    },
+    "entities/trader_light_frigate_medium_autocannon.weapon": {
+      "sha256": "dd799fba024c2f55b8a6dcc9a481419de60e6a45aacbcccdc0fac155b5848567",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    },
+    "entities/trader_antifighter_frigate.unit": {
+      "sha256": "16808a654c6dd2bf5e3e1f7c8582f9b2b0341ed3a34774d73b534f3e446c015a",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    },
+    "entities/trader_antiarmor_frigate.unit": {
+      "sha256": "b7b793c57d38462a477b11af63799b3abfc29a1d700633da3db37fd369351c7b",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/trader_heavy_cruiser.unit": {
+      "sha256": "1c504d1709a2893bcbc5a90b9d7bd0aca32bba500a1492280182d62ea68bac2e",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/trader_battle_capital_ship.unit": {
+      "sha256": "75d19ed8116c22a6c6d04ac55eacec0e555735d5b09d5632f67229f403daaa80",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "uniforms/attack_target_type_group.uniforms": {
+      "sha256": "7bd10fe76bc0c6f3f7273be8d477d4e7f82d204a88f8e7bcdabbd70d5b56f588",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    },
+    "uniforms/target_filter.uniforms": {
+      "sha256": "e1e16ca7208c286f9d4ab6daefb2cc6a7da8f157e08ce7596ba28476c510855d",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    },
+    "uniforms/action.uniforms": {
+      "sha256": "99d4ceb38218c3320efce9455ccd4bda1d6e478eebab8b19c0a204fea0ac8877",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/gravity_well.unit": {
+      "sha256": "f7234892c9a6aba7a5c1cd704191e3c362443d2f8bb52496daa7e1458e397b3d",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "entities/neutron_star.unit": {
+      "sha256": "c23f472d0e421c7938246069c962e628a97d2e1c28a29021b73874813c066ab9",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "effects/trader_titan_rail_gun_weapon_impact.particle_effect": {
+      "sha256": "020f15649a48a048f11561ebcae1855d2873fdead0b91db410efad1ca9ab8b47",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "effects/trader_titan_rail_gun_weapon_muzzle.particle_effect": {
+      "sha256": "a41b6fcfbe75dab0ca203e6245835687c89275dcb8cea27b49a9f7a9844c9eb1",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "effects/trader_titan_rail_gun_weapon_travel.particle_effect": {
+      "sha256": "c4f17b62aa88bf64fd1c7fdf01467260b2d2fc5cfd89fa000933a1b7f0fe7ee7",
+      "matches_historical_pin": null,
+      "note": "Newly inspected dependency; recorded without replacing historical snapshot"
+    },
+    "effects/trader_torpedo_cruiser_muzzle.particle_effect": {
+      "sha256": "354fa6f777b57bc1b62b13d1e0d4c30447598df530755de11746d85b6bdfaaca",
+      "matches_historical_pin": true,
+      "note": "Historical pin checked"
+    }
+  },
+  "direct_effect_dependencies": {
+    "effects/trader_titan_rail_gun_weapon_impact.particle_effect": "020f15649a48a048f11561ebcae1855d2873fdead0b91db410efad1ca9ab8b47",
+    "sounds/weapon_impact_physical_heavy_hithull.sound": "2d1dfa0b9d1583a8afcc1ef7d378e9afdb1bda512d489f4e97bae314c88eff69",
+    "sounds/weapon_impact_physical_heavy_hithull.ogg": "bcadcf3499ec93aced8bd43716b7e75cd1680ca399b2e699a50a6badbd1926dd",
+    "sounds/weapon_impact_physical_heavy_hithull_01.sound": "2d1dfa0b9d1583a8afcc1ef7d378e9afdb1bda512d489f4e97bae314c88eff69",
+    "sounds/weapon_impact_physical_heavy_hithull_01.ogg": "d38db97ef4e2360a1b04059ec7e713b15b4f93e8b1afd364a52936fc0f1bf207",
+    "sounds/weapon_impact_physical_heavy_hithull_02.sound": "2d1dfa0b9d1583a8afcc1ef7d378e9afdb1bda512d489f4e97bae314c88eff69",
+    "sounds/weapon_impact_physical_heavy_hithull_02.ogg": "cd2e29c0ac6469d183f42ac28c27b11e0f6ef066c53755515c6c1414c40685b6",
+    "sounds/weapon_impact_physical_heavy_hithull_03.sound": "2d1dfa0b9d1583a8afcc1ef7d378e9afdb1bda512d489f4e97bae314c88eff69",
+    "sounds/weapon_impact_physical_heavy_hithull_03.ogg": "2ea68723aca42bc9d4d6f19c5b27c1f7aac5104cb0828b8d103a43ab005fa26d",
+    "sounds/weapon_impact_generic_heavy_hitshields.sound": "2d1dfa0b9d1583a8afcc1ef7d378e9afdb1bda512d489f4e97bae314c88eff69",
+    "sounds/weapon_impact_generic_heavy_hitshields.ogg": "af03e959e4fc7195e76ff993f7a5682684ffea9ab605c191ba52c9cb07c361e7",
+    "sounds/weapon_impact_generic_heavy_hitshields_01.sound": "2d1dfa0b9d1583a8afcc1ef7d378e9afdb1bda512d489f4e97bae314c88eff69",
+    "sounds/weapon_impact_generic_heavy_hitshields_01.ogg": "2ae29a64b2e6111913eb7b64175978e9ead67a66ed6ab1810274f0537f7dea9e",
+    "sounds/weapon_impact_generic_heavy_hitshields_02.sound": "2d1dfa0b9d1583a8afcc1ef7d378e9afdb1bda512d489f4e97bae314c88eff69",
+    "sounds/weapon_impact_generic_heavy_hitshields_02.ogg": "afb67491cff3dfe59545517ca0bb0f2e326addcc5b18afcbee9ad800d8d563a8",
+    "sounds/weapon_impact_generic_heavy_hitshields_03.sound": "2d1dfa0b9d1583a8afcc1ef7d378e9afdb1bda512d489f4e97bae314c88eff69",
+    "sounds/weapon_impact_generic_heavy_hitshields_03.ogg": "e6eae607ed9264dc0db0457d4bdbb63895cbaceb5bb47c09bdb4b8c5b0ad28e8",
+    "effects/trader_titan_rail_gun_weapon_muzzle.particle_effect": "a41b6fcfbe75dab0ca203e6245835687c89275dcb8cea27b49a9f7a9844c9eb1",
+    "sounds/weapon_muzzle_tech_railgun.sound": "63c8fb0d5e6e6cd6f626c338585cdf50a65237127ef177c9dcc50f224e37dc15",
+    "sounds/weapon_muzzle_tech_railgun.ogg": "50ab6cc2bc583113889412c27f3ed075b1b842825fc1c85684af34460dadb1f1",
+    "effects/trader_titan_rail_gun_weapon_travel.particle_effect": "c4f17b62aa88bf64fd1c7fdf01467260b2d2fc5cfd89fa000933a1b7f0fe7ee7",
+    "effects/trader_torpedo_cruiser_muzzle.particle_effect": "354fa6f777b57bc1b62b13d1e0d4c30447598df530755de11746d85b6bdfaaca",
+    "sounds/weapon_muzzle_tech_neutrontorp.sound": "f7c00661da07720c23a86391f6ba70c5663b05647fb368cb4534eda3a1f3663f",
+    "sounds/weapon_muzzle_tech_neutrontorp.ogg": "6c1cf5012dee453b8a18250a3d9e4fd08a7d443fc683d9e235c0d3deb6ed985c"
+  }
+}

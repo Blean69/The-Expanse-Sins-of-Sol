@@ -1,0 +1,1321 @@
+{
+  "status": "PASS",
+  "schema_count": 14,
+  "weapons": 6,
+  "geometry_meshes": 13,
+  "ui_reference_checks": 21,
+  "exact_nonweapon_unit_values": "PASS",
+  "no_shared_vanilla_weapon_overrides": "PASS",
+  "references": [
+    {
+      "source": "polish-root",
+      "reference": "entities/trader_light_frigate.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "entities/trader_light_frigate.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "reference": "mesh_materials/expanse_polish_hull_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "reference": "mesh_materials/expanse_polish_hull_mcrn_tachi_primary.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_primary.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_primary.mesh_material",
+      "reference": "textures/mcrn_tachi_primary_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_primary_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_primary.mesh_material",
+      "reference": "textures/mcrn_tachi_primary_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_primary_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_primary.mesh_material",
+      "reference": "textures/mcrn_tachi_primary_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_primary_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_primary.mesh_material",
+      "reference": "textures/mcrn_tachi_primary_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_primary_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "reference": "mesh_materials/expanse_polish_hull_mcrn_tachi_secondary.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_secondary.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_secondary.mesh_material",
+      "reference": "textures/mcrn_tachi_secondary_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_secondary_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_secondary.mesh_material",
+      "reference": "textures/mcrn_tachi_secondary_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_secondary_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_secondary.mesh_material",
+      "reference": "textures/mcrn_tachi_secondary_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_secondary_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_secondary.mesh_material",
+      "reference": "textures/mcrn_tachi_secondary_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_secondary_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "reference": "mesh_materials/expanse_polish_hull_mcrn_tachi_texts.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_texts.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_texts.mesh_material",
+      "reference": "textures/mcrn_tachi_texts_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_texts_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_texts.mesh_material",
+      "reference": "textures/mcrn_tachi_texts_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_texts_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_texts.mesh_material",
+      "reference": "textures/mcrn_tachi_texts_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_texts_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_hull_mcrn_tachi_texts.mesh_material",
+      "reference": "textures/mcrn_tachi_texts_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_texts_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/exhaust_tech_medium_01.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/exhaust_tech_medium_01.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/hyperspace_chargeup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_CHARGEUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/hyperspace_entry.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/hyperspace_entry.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/hyperspace_exit.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_EXIT.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/tec_damage_embers.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_embers.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/damage_smoke_1.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_1.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/tec_damage_plasma_sparks.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_plasma_sparks.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/damage_electricity_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/damage_air_decompression.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_air_decompression.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/ambient_loop_airdecompression.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_airdecompression.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/tec_damage_frigate.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_frigate.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/trader_light_frigate.shield_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_light_frigate.shield_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/medium_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/medium_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_medium_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_medium_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_medium_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_medium_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_medium_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_medium_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_medium_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_medium_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_medium_hithull_04.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_medium_hithull_04.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/medium_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/medium_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_medium_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_medium_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_medium_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_medium_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_medium_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_medium_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_medium_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_medium_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/trader_medium_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_medium_autocannon.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_medium_autocannon.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_medium_autocannon_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_medium_autocannon_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_medium_autocannon_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_medium_autocannon_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_medium_autocannon_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_medium_autocannon_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_medium_autocannon_04.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_medium_autocannon_04.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/trader_medium_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/engine_techfrigateship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHFRIGATESHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/hyperspace_travel.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_TRAVEL.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_spawned_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_spawned_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "death_sequences/frigate0.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/frigate0.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_0_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_0_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_0_base.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_0_base_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_base_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_0_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_0_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_0_barrel.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_0_barrel_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_barrel_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_0_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_1_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_1_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_1_base.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_1_base_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_base_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_1_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_1_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_1_barrel.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_1_barrel_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_barrel_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_1_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_2_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_2_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_2_base.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_2_base_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_base_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_2_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_2_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_2_barrel.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_2_barrel_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_barrel_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_2_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_3_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_3_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_3_base.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_3_base_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_base_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_3_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_3_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_3_barrel.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_3_barrel_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_barrel_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_3_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_4_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_4_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_4_base.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_4_base_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_base_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_4_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_4_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_4_barrel.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_4_barrel_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_barrel_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_4_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_5_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_5_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_5_base.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_5_base_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_base_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin",
+      "reference": "meshes/expanse_polish_pdc_5_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_5_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_pdc_5_barrel.mesh",
+      "reference": "mesh_materials/expanse_polish_pdc_5_barrel_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_barrel_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/mesh_materials/expanse_polish_pdc_5_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "entities/expanse_polish_pdc_0.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_0.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_0.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_0.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "meshes/expanse_polish_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "entities/expanse_polish_pdc_1.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_1.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_1.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_1.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "meshes/expanse_polish_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "entities/expanse_polish_pdc_2.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_2.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_2.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_2.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "meshes/expanse_polish_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "entities/expanse_polish_pdc_3.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_3.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_3.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_3.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "meshes/expanse_polish_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "entities/expanse_polish_pdc_4.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_4.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_4.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_4.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "meshes/expanse_polish_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "entities/expanse_polish_pdc_5.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_5.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_5.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_5.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "meshes/expanse_polish_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit",
+      "reference": "entities/expanse_polish_pdc_0.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/expanse_polish_pdc_0.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "polish-rig-check",
+      "reference": "meshes/expanse_polish_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_hud_icon.brush",
+      "reference": "textures/mcrn_corvette_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_hud_icon.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_hud_icon.brush",
+      "reference": "textures/mcrn_corvette_hud_icon150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_hud_icon150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_hud_icon.brush",
+      "reference": "textures/mcrn_corvette_hud_icon200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_hud_icon200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_hud_picture.brush",
+      "reference": "textures/mcrn_corvette_hud_picture.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_hud_picture.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_hud_picture.brush",
+      "reference": "textures/mcrn_corvette_hud_picture150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_hud_picture150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_hud_picture.brush",
+      "reference": "textures/mcrn_corvette_hud_picture200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_hud_picture200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_tooltip_picture.brush",
+      "reference": "textures/mcrn_corvette_tooltip_picture.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_tooltip_picture.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_tooltip_picture.brush",
+      "reference": "textures/mcrn_corvette_tooltip_picture150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_tooltip_picture150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_tooltip_picture.brush",
+      "reference": "textures/mcrn_corvette_tooltip_picture200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_tooltip_picture200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon_selected.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon_selected.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon_selected.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon_selected.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon_selected150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon_selected150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon_selected.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon_selected200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon_selected200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon_sub_selected.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon_sub_selected.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon_sub_selected.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon_sub_selected.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon_sub_selected150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon_sub_selected150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/brushes/mcrn_corvette_main_view_icon_sub_selected.brush",
+      "reference": "textures/mcrn_corvette_main_view_icon_sub_selected200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/textures/mcrn_corvette_main_view_icon_sub_selected200.png",
+      "origin": "mod"
+    }
+  ],
+  "runtime": "NOT RUN",
+  "limits": "Schemas/reference/damage-budget checks do not establish runtime culling, rotation, target priority or damage cadence."
+}

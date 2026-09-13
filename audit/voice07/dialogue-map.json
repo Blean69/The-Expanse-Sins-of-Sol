@@ -1,0 +1,52 @@
+{
+  "retreat": {
+    "scared": [
+      "expanse07_roci_retreat"
+    ],
+    "neutral": [
+      "expanse07_roci_retreat"
+    ]
+  },
+  "selected": {
+    "neutral": [
+      "expanse07_roci_captain",
+      "expanse07_roci_mars_navy",
+      "expanse07_roci_freighter_joke"
+    ]
+  },
+  "attack_order_issued": {
+    "smug": [
+      "expanse07_roci_asteroid_ride",
+      "expanse07_roci_thanks",
+      "expanse07_roci_churn"
+    ],
+    "scared": [
+      "expanse07_roci_enemy_railguns"
+    ],
+    "neutral": [
+      "expanse07_roci_asteroid_ride",
+      "expanse07_roci_thanks",
+      "expanse07_roci_churn"
+    ]
+  },
+  "armor_down": {
+    "neutral": [
+      "expanse07_roci_antenna"
+    ]
+  },
+  "hyperspace_charge_started": {
+    "neutral": [
+      "expanse07_roci_juice_long"
+    ]
+  },
+  "spawned": {
+    "neutral": [
+      "expanse07_roci_captain"
+    ]
+  },
+  "order_issued": {
+    "neutral": [
+      "expanse07_roci_good_news"
+    ]
+  }
+}

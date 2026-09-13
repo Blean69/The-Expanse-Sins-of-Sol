@@ -1,0 +1,66 @@
+{
+  "runtime": "NOT RUN",
+  "events": [
+    {
+      "time": 0,
+      "event": "torpedo",
+      "count": 1,
+      "deadline": 0
+    },
+    {
+      "time": 10,
+      "event": "torpedo",
+      "count": 2,
+      "deadline": 0
+    },
+    {
+      "time": 20,
+      "event": "torpedo",
+      "count": 3,
+      "deadline": 0
+    },
+    {
+      "time": 30,
+      "event": "torpedo",
+      "count": 0,
+      "deadline": 90
+    },
+    {
+      "time": 35,
+      "event": "torpedo",
+      "count": 0,
+      "deadline": 90
+    },
+    {
+      "time": 60,
+      "event": "gun_hit",
+      "count": 0,
+      "deadline": 90
+    },
+    {
+      "time": 89,
+      "event": "torpedo",
+      "count": 0,
+      "deadline": 90
+    },
+    {
+      "time": 90,
+      "event": "torpedo",
+      "count": 1,
+      "deadline": 90
+    },
+    {
+      "time": 91,
+      "event": "gun_hit",
+      "count": 0,
+      "deadline": 151
+    },
+    {
+      "time": 100,
+      "event": "torpedo",
+      "count": 0,
+      "deadline": 151
+    }
+  ],
+  "status": "PASS intended Python state sequence only"
+}

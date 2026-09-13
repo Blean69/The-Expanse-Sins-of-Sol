@@ -1,0 +1,130 @@
+{
+  "railgun": {
+    "position": [
+      -1.8635979001501342,
+      -8.295146593030672,
+      66.47124465258463
+    ],
+    "forward": [
+      0,
+      0,
+      1
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "mesh_point": "weapon.rail.0",
+    "source": "Actual paired forward rail components9/10 in source hull, full terminal cap bounds midpoint; +Y ray clearance checked",
+    "source_position": [
+      -0.00439071655274148,
+      52.882758636474605,
+      -0.19853949546813843
+    ]
+  },
+  "torpedo_ports": [
+    {
+      "name": "torpedo_bay_002",
+      "position": [
+        -7.557701039709313,
+        7.028108960149176,
+        1.4651650074353164
+      ],
+      "forward": [
+        -0.8172192430060997,
+        0.5757670319221615,
+        0.025397515864388376
+      ],
+      "up": [
+        -0.0017606293200932172,
+        0.04157358345665615,
+        -0.999133893601338
+      ],
+      "source_root": 7,
+      "source_position": [
+        2.4848846093377226,
+        24.46423053336968,
+        6.500285767433161
+      ],
+      "source": "Measured named source door center/normal plus0.06 outward clearance; static door pose; launch aperture/door-clearance runtime NOT RUN"
+    },
+    {
+      "name": "torpedo_bay_003",
+      "position": [
+        3.394656358833288,
+        -23.820028294190728,
+        3.9714273378458493
+      ],
+      "forward": [
+        0.9174241623276942,
+        -0.3877953557794632,
+        0.08914969665236218
+      ],
+      "up": [
+        -0.04128953868344038,
+        0.130057770375192,
+        0.9906463296052445
+      ],
+      "source_root": 12,
+      "source_position": [
+        -2.303127192400843,
+        25.5598863067884,
+        -6.985509104005636
+      ],
+      "source": "Measured named source door center/normal plus0.06 outward clearance; static door pose; launch aperture/door-clearance runtime NOT RUN"
+    }
+  ],
+  "exhaust": {
+    "position": [
+      -1.9330433549627672,
+      -7.8406443103400925,
+      -67.08800670172256
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "forward": [
+      0,
+      0,
+      -1
+    ],
+    "source": "Fitted actual aft nozzle inner rim; full circumference, not whole-hull min slice center",
+    "inner_rim_vertices": 8,
+    "source_inner_radius": 3.9735602553183234,
+    "source_fit_residual": 0.002796756994965399,
+    "source_position": [
+      0.025968560917900143,
+      -5.50497,
+      0.00015401080195383702
+    ]
+  },
+  "boarding_port": {
+    "name": "boarding_shuttle_bay",
+    "position": [
+      -19.6923820878351,
+      -28.252026771332503,
+      9.083066768079217
+    ],
+    "forward": [
+      0.5701251099495643,
+      -0.7394882511625024,
+      0.35793083884686605
+    ],
+    "up": [
+      -0.4269353747586334,
+      0.1055480517606456,
+      0.8981012162051877
+    ],
+    "source_root": 41,
+    "source_position": [
+      7.789769571956904,
+      27.794527583327305,
+      -8.92303362422134
+    ],
+    "source": "Measured named source door center/normal plus0.06 outward clearance; static door pose; launch aperture/door-clearance runtime NOT RUN",
+    "mesh_point": "weapon.boarding.0"
+  }
+}

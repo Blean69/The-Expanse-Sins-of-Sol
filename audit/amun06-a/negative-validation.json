@@ -1,0 +1,57 @@
+{
+  "positive_component_and_synthetic_known_unit_hook": "PASS supplemental, not official whole cloak coverage",
+  "synthetic_unit": "Existing reviewed hero known fields plus exactcloak/controller hooks, no game test",
+  "negative_cases": [
+    {
+      "case": "unknown top-level cloak flag",
+      "result": "REJECTED as expected",
+      "diagnostic": "expanse06_amun_cloak.buff: additional closed-key evaluation: /: Unevaluated properties are not allowed ('invented_stealth' was unexpected)"
+    },
+    {
+      "case": "unknown nested quality field",
+      "result": "REJECTED as expected",
+      "diagnostic": "Unrecognized modifier field/value"
+    },
+    {
+      "case": "removed product gate",
+      "result": "REJECTED as expected",
+      "diagnostic": "'required_product'"
+    },
+    {
+      "case": "count threshold changed3",
+      "result": "REJECTED as expected",
+      "diagnostic": "('Wrong fixed value', 'threshold')"
+    },
+    {
+      "case": "undeclared memory",
+      "result": "REJECTED as expected",
+      "diagnostic": "('Undeclared memory', 'expanse06_amun_cloak_controller.buff', '/trigger_event_actions/0/action_group/actions/0/float_variable', 'invented_memory')"
+    },
+    {
+      "case": "count Martian projectile",
+      "result": "REJECTED as expected",
+      "diagnostic": ""
+    },
+    {
+      "case": "generic gun reveal tag",
+      "result": "REJECTED as expected",
+      "diagnostic": ""
+    },
+    {
+      "case": "shield mutation sneaks in",
+      "result": "REJECTED as expected",
+      "diagnostic": "No shield/acquisition mutation permitted"
+    },
+    {
+      "case": "unknown unit field",
+      "result": "REJECTED as expected",
+      "diagnostic": "amun.unit: additional closed-key evaluation: /: Unevaluated properties are not allowed ('invented_other_field' was unexpected)"
+    },
+    {
+      "case": "changed inherited corruption",
+      "result": "REJECTED as expected",
+      "diagnostic": "Inherited Cobalt corruption may not change"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

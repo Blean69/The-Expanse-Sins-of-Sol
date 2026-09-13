@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "cases": [
+    {
+      "base": "expanse_amun06_voice07",
+      "unit": "expanse_amun_ra",
+      "old_separate_sets": "REJECT",
+      "corrected_single_set": "PASS"
+    },
+    {
+      "base": "expanse_amun06_voice07",
+      "unit": "expanse_rocinante_hero",
+      "old_separate_sets": "REJECT",
+      "corrected_single_set": "PASS"
+    },
+    {
+      "base": "expanse_amun06_cloak_voice07",
+      "unit": "expanse_amun_ra",
+      "old_separate_sets": "REJECT",
+      "corrected_single_set": "PASS"
+    },
+    {
+      "base": "expanse_amun06_cloak_voice07",
+      "unit": "expanse_rocinante_hero",
+      "old_separate_sets": "REJECT",
+      "corrected_single_set": "PASS"
+    }
+  ],
+  "conditional_groups_protected": true,
+  "runtime": "NOT RUN"
+}

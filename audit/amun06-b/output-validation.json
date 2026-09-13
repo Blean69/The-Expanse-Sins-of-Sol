@@ -1,0 +1,460 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "triangle_total": 32007,
+  "rest_pose_position_max_error": 3.794441333276261e-06,
+  "outputs": {
+    "amun_hull": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_hull.mesh",
+      "sha256": "8c80d0b50ff03bea1b3ebc1ee0ac17b4021a2db4ba9a3b25f321b17746850194",
+      "raw_official_sha256": "534c6edc2165bc9665ad0b69a303154b83ce7528dba16f549f45ffd014464024",
+      "triangles": 23842,
+      "materials": [
+        "expanse06_amun_hull_expanse06_amun_surface"
+      ],
+      "source_frame_max_match_error": 3.794505234662964e-06,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.202900427685563e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.2938861794859211,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999999987376214e-07,
+      "changed_bytes": 267448,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "ceb23a07fe42a6513596fee4034db39e2dbb1e43590bef3888a12a5c195a0246",
+      "trailer_sha256_after": "ceb23a07fe42a6513596fee4034db39e2dbb1e43590bef3888a12a5c195a0246",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            -10.112395286560059,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            15.7283353805542,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -35.953125,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.rail.0",
+          "position": [
+            -1.8635978698730469,
+            -8.295146942138672,
+            66.47124481201172
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            -1.933043360710144,
+            -7.840644359588623,
+            -67.08800506591797
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.boarding.0",
+          "position": [
+            -19.6923828125,
+            -28.25202751159668,
+            9.083066940307617
+          ],
+          "rotation": [
+            0.7019141912460327,
+            0.6648433804512024,
+            0.25553810596466064,
+            -0.4269353747367859,
+            0.10554805397987366,
+            0.8981012105941772,
+            0.5701251029968262,
+            -0.7394882440567017,
+            0.35793086886405945
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse06_amun_pdc_0_base",
+          "position": [
+            -23.86028480529785,
+            -20.226417541503906,
+            24.364337921142578
+          ],
+          "rotation": [
+            -0.47018545866012573,
+            0.7960078120231628,
+            -0.38117873668670654,
+            -0.872633159160614,
+            -0.4839176535606384,
+            0.06584103405475616,
+            -0.13204915821552277,
+            0.3635866641998291,
+            0.9221538305282593
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse06_amun_pdc_1_base",
+          "position": [
+            -1.8228590488433838,
+            -29.924718856811523,
+            -32.382408142089844
+          ],
+          "rotation": [
+            -0.3755427598953247,
+            -8.026786986192747e-07,
+            0.9268051385879517,
+            2.2547596927324776e-06,
+            -1.0,
+            4.756111593451351e-08,
+            0.9268051385879517,
+            2.1075838958495297e-06,
+            0.37554270029067993
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse06_amun_pdc_2_base",
+          "position": [
+            -1.8628684282302856,
+            10.453352928161621,
+            -42.56707000732422
+          ],
+          "rotation": [
+            0.35826408863067627,
+            -5.204196235965533e-17,
+            -0.9336203336715698,
+            1.4388916604945263e-16,
+            1.0,
+            -5.265897953961578e-19,
+            0.9336203336715698,
+            -1.3414918712853464e-16,
+            0.35826408863067627
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "amun_pdc_0_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_0_base.mesh",
+      "sha256": "fc16d2b4d38a54806002f94ac462cd31d3b48a2ed1f2b7b98930d74ca955118e",
+      "raw_official_sha256": "630e1fa1ec7b517c42906285727a400345dbcf774f836550f823742a046dd133",
+      "triangles": 352,
+      "materials": [
+        "expanse06_amun_pdc_0_base_expanse06_amun_surface"
+      ],
+      "source_frame_max_match_error": 1.7703408308530636e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.8044502720092623e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9401160032967875,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.983882904152637e-07,
+      "changed_bytes": 3625,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "fd3d1675c21415945ecb370f1c87f0a9eacfcfa2b0a19efd588af02856cf8027",
+      "trailer_sha256_after": "fd3d1675c21415945ecb370f1c87f0a9eacfcfa2b0a19efd588af02856cf8027",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "amun_pdc_0_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "sha256": "dd39838bc5c8505c13101a7c3adf57bad4f2a58f28a6b09a4093d2d126170637",
+      "raw_official_sha256": "e5f9e9d3496a9a7c01156c09a9b697d3c971edfae5947997fcc5d575c1aa8779",
+      "triangles": 876,
+      "materials": [
+        "expanse06_amun_pdc_0_barrel_expanse06_amun_surface"
+      ],
+      "source_frame_max_match_error": 2.122320372884321e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.189309573110432e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9777748143351692,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.992446899221292e-07,
+      "changed_bytes": 7792,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "661ca525212fc9835d065996ce7c7a9b8751f16a51b4149c4f0da25f05f6a121",
+      "trailer_sha256_after": "661ca525212fc9835d065996ce7c7a9b8751f16a51b4149c4f0da25f05f6a121",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "amun_pdc_1_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_1_base.mesh",
+      "sha256": "824f938bb37a5a110500987e97aaef01a6938f5579ec9020412e94e2457ffd33",
+      "raw_official_sha256": "7ae9239a8094cb3d84c2725fcbfa4919010058792b788e0afe61d90b8546467a",
+      "triangles": 352,
+      "materials": [
+        "expanse06_amun_pdc_1_base_expanse06_amun_surface"
+      ],
+      "source_frame_max_match_error": 1.7442910648433118e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.913562369144529e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9401160032967875,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.983882904152637e-07,
+      "changed_bytes": 3633,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "cef7571fa4545f65cd7bb1e4a342f78fa20023d0bdfb2eb5533b11ed8a23e2bc",
+      "trailer_sha256_after": "cef7571fa4545f65cd7bb1e4a342f78fa20023d0bdfb2eb5533b11ed8a23e2bc",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "amun_pdc_1_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "sha256": "034074396411f46abdc077c6c6d040ec9af10aee574eaaca8fc85b06c2c159fe",
+      "raw_official_sha256": "900a51bdb8306a39d5333fcffd996d98786797b0e1a20a98e7269e8d07620ced",
+      "triangles": 876,
+      "materials": [
+        "expanse06_amun_pdc_1_barrel_expanse06_amun_surface"
+      ],
+      "source_frame_max_match_error": 2.105285616348627e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.186664528770627e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9777748143351692,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.992446899221292e-07,
+      "changed_bytes": 7744,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "ffeeb4382ae3a6c19eeb328551500b5019453951f986ef2b142fd4dfe341a0a2",
+      "trailer_sha256_after": "ffeeb4382ae3a6c19eeb328551500b5019453951f986ef2b142fd4dfe341a0a2",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "amun_pdc_2_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_2_base.mesh",
+      "sha256": "346fc42476ace1bca267383704e92a3f4f56563fd97adfc90a6139b775052929",
+      "raw_official_sha256": "eba940407bca3d3739f1643b37520a0246b3918a21c08f7af68382cd7985edd3",
+      "triangles": 352,
+      "materials": [
+        "expanse06_amun_pdc_2_base_expanse06_amun_surface"
+      ],
+      "source_frame_max_match_error": 1.7442910555658317e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.9298680814804356e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9401160032967875,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.983882904152637e-07,
+      "changed_bytes": 3634,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "cef7571fa4545f65cd7bb1e4a342f78fa20023d0bdfb2eb5533b11ed8a23e2bc",
+      "trailer_sha256_after": "cef7571fa4545f65cd7bb1e4a342f78fa20023d0bdfb2eb5533b11ed8a23e2bc",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "amun_pdc_2_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "sha256": "0166f3672b4bfe874f562d34a6b4851ba8f0114aadd88db85e10c8b344554f9b",
+      "raw_official_sha256": "fef69b6e696d9fedb59d222fde59877a06e3e8c7876b0df3c10f2de15ab03bad",
+      "triangles": 876,
+      "materials": [
+        "expanse06_amun_pdc_2_barrel_expanse06_amun_surface"
+      ],
+      "source_frame_max_match_error": 2.358618251202705e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.1910876607810224e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9777748143351692,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.995269775598388e-07,
+      "changed_bytes": 7800,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "ffeeb4382ae3a6c19eeb328551500b5019453951f986ef2b142fd4dfe341a0a2",
+      "trailer_sha256_after": "ffeeb4382ae3a6c19eeb328551500b5019453951f986ef2b142fd4dfe341a0a2",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "amun_boarding_pod": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_boarding_pod.mesh",
+      "sha256": "900c31b16da99dbb3ba5effc96e9d0240af33edba797cf9c658f829d1e269695",
+      "raw_official_sha256": "b0b7c293343aef6ab039a05bf772174105c1d50974a9080638c73960f6db14c1",
+      "triangles": 4481,
+      "materials": [
+        "expanse06_amun_boarding_pod_expanse06_amun_surface"
+      ],
+      "source_frame_max_match_error": 2.171242387801283e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.795801639975768e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.8162481052974117,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.99992370603386e-07,
+      "changed_bytes": 51306,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "ce548fc83ae76dd5e6f53dec114b3b3cb05e280b27e09474aef168f0e24d896c",
+      "trailer_sha256_after": "ce548fc83ae76dd5e6f53dec114b3b3cb05e280b27e09474aef168f0e24d896c",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            0.0,
+            0.0,
+            -3.383157253265381
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    }
+  },
+  "rotation_checks": [
+    {
+      "index": 0,
+      "basis_error": 6.982541617128746e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 1,
+      "basis_error": 5.6852480945224215e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 2,
+      "basis_error": 5.5511849006428804e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "mesh_point": "exhaust.0",
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.rail.0",
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true
+    }
+  ],
+  "runtime": "NOT RUN"
+}

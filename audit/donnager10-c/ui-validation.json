@@ -1,0 +1,357 @@
+{
+  "status": "PASS",
+  "pinned_brush_schema_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/donnager10_editable.gltf": "d7798b20ad5bb85bbd5b7f4de0706aed0c90cde4d72096ef30d689c7713803e5",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/donnager10_editable.bin": "96971f2e39377dda53f12e01b53bceaefd0fe8b97cb7dbec5e2d3e5536852797",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/../../../../validation/assets/derived/donnager04-c/master/textures/GreyHull_baseColor.jpeg": "d66989a5d80424ac292282df12a0208b5ce535a90fc65628c397dbb61374b70a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/../../../../validation/assets/derived/donnager04-c/master/textures/OrangeHull_baseColor.jpeg": "0f83b3aa6e7549b5b1bfddee8b91b78a3f0849421db559b3e611fd7a27a8015e",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/../../../../../expanse-mod/assets/derived/baseline/textures/material_baseColor.png": "6b52eb697f17719924f09b4471a2067d5d258cd96e8a246f10d45dd553259db0"
+  },
+  "triangles": 76299,
+  "brush_schema_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/brushes/expanse10_donnager_hud_icon.brush",
+      "status": "PASS",
+      "texture": "expanse10_donnager_hud_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/brushes/expanse10_donnager_hud_picture.brush",
+      "status": "PASS",
+      "texture": "expanse10_donnager_hud_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/brushes/expanse10_donnager_tooltip_picture.brush",
+      "status": "PASS",
+      "texture": "expanse10_donnager_tooltip_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/brushes/expanse10_donnager_main_view_icon.brush",
+      "status": "PASS",
+      "texture": "expanse10_donnager_main_view_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/brushes/expanse10_donnager_main_view_icon_selected.brush",
+      "status": "PASS",
+      "texture": "expanse10_donnager_main_view_icon_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/brushes/expanse10_donnager_main_view_icon_sub_selected.brush",
+      "status": "PASS",
+      "texture": "expanse10_donnager_main_view_icon_sub_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    }
+  ],
+  "png_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_hud_icon.png",
+      "sha256": "6cb321f68d73e4918d5963fca471bc28e7dc361c4a19c7d114ab4b6ff97d46a2",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_hud_icon150.png",
+      "sha256": "4953dc17ad557b0bd9222b21fb6ee7fe33d51ba493dec6ef06352137b6206fc1",
+      "dimensions": [
+        128,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_hud_icon200.png",
+      "sha256": "f69291856c9c43651e568779999428bd6f199ab256b9f3fa9f8d24f830c56403",
+      "dimensions": [
+        170,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_hud_picture.png",
+      "sha256": "de5f5d1def3a487cdd56844e49915111c5a76d1a0d8b6e74b531601397e784ba",
+      "dimensions": [
+        265,
+        85
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_hud_picture150.png",
+      "sha256": "7564ffa611f1cfb7655780fad0569f136d7291f49b806ce02fbff23647bfad9a",
+      "dimensions": [
+        397,
+        127
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_hud_picture200.png",
+      "sha256": "38991d5867b81a1e0a03ede60c664338b42d6ed33795e49e44eafca598ddd687",
+      "dimensions": [
+        530,
+        170
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_tooltip_picture.png",
+      "sha256": "66003f510fe6b58e7ca66c18340e00052cc54ca43ce78b92a4437e0f037a3b08",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_tooltip_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_tooltip_picture150.png",
+      "sha256": "b59122c2c60082a4cea86a7211649fda3e38a8611c7891fe0fc72792489ba291",
+      "dimensions": [
+        689,
+        324
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_tooltip_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_tooltip_picture200.png",
+      "sha256": "b38cf784c83faf354bd4004387db427003f4133071f4229bd85372360b4b3d4d",
+      "dimensions": [
+        918,
+        432
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_tooltip_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_main_view_icon.png",
+      "sha256": "7c7c73859d30578df189893c5b80b677081ab5556d67fd21f8652a5579f447e4",
+      "dimensions": [
+        51,
+        28
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_main_view_icon150.png",
+      "sha256": "385066a5ff40337be8b97fee06a4ac6cdf8e8a2737bee1257c3020be13298c37",
+      "dimensions": [
+        77,
+        42
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_main_view_icon200.png",
+      "sha256": "7d500aa499c900267398c00bc669404e8662d3104f27cbbc55f3ff014957ac6e",
+      "dimensions": [
+        102,
+        56
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_main_view_icon_selected.png",
+      "sha256": "a8f4a4d221ea5a2fd2fb5bc851ed449ac79e0d8ce578d7b1f919324191b2bdf5",
+      "dimensions": [
+        62,
+        39
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_main_view_icon_selected150.png",
+      "sha256": "28df62b111904a937be5a9168f78ddb7f57d56554566c059087802e4a5f9bf23",
+      "dimensions": [
+        93,
+        59
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_main_view_icon_selected200.png",
+      "sha256": "daa7ceed3c756b2086662da2322427f2005102651be6444f727dc07f3d0f9816",
+      "dimensions": [
+        124,
+        78
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_main_view_icon_sub_selected.png",
+      "sha256": "d2c840563f196ddacb7c502b4cb030db018f20954ad498023a6f3ad5ca12b1ad",
+      "dimensions": [
+        72,
+        49
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_sub_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_main_view_icon_sub_selected150.png",
+      "sha256": "6069ea99cb9e606c4e6c7e74a8983497ad2c23326d3fd237b8bddfbac6b96735",
+      "dimensions": [
+        108,
+        74
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_sub_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/textures/expanse10_donnager_main_view_icon_sub_selected200.png",
+      "sha256": "559327cab79c250ee167bcaf82201744944e7e3c9aa683f812498040052a1ff8",
+      "dimensions": [
+        144,
+        98
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_sub_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/expanse10_donnager_mod_small_logo.png",
+      "sha256": "ae676a4caf227ccd9263a179add4f2feefe52219ab87737aa5355dcf81d871b2",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_small_logo.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/ui/generated/expanse10_donnager_mod_large_logo.png",
+      "sha256": "60180c6fb52796628250bb6e9094c123d0ecff1b0d3447d2397378823551b7ab",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_large_logo.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

@@ -1,0 +1,47 @@
+{
+  "source_log": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/logs/sins2_log_492.txt",
+  "sha256": "9ba2c50047594763c05afc005127b1824c69ad7d5223b4516cc9320a0b50f223",
+  "selected_lines": [
+    {
+      "line": 20,
+      "text": "[22:30:07.7818269][   496][    local_filesystem_mods] WARNING : corrupt mod meta_data : C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_cobalt_name\\.mod_meta_data"
+    },
+    {
+      "line": 21,
+      "text": "key not found : 'display_name'"
+    },
+    {
+      "line": 22,
+      "text": "key not found : 'logos'"
+    },
+    {
+      "line": 24,
+      "text": "[22:30:07.7819743][   496][    local_filesystem_mods] WARNING : corrupt mod meta_data : C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_corvette_visual\\.mod_meta_data"
+    },
+    {
+      "line": 25,
+      "text": "key not found : 'display_name'"
+    },
+    {
+      "line": 26,
+      "text": "key not found : 'logos'"
+    },
+    {
+      "line": 491,
+      "text": "[22:31:08.7285423][   496][           modding_system] Enabling mod : [expanse_cobalt_name] { name=expanse_cobalt_name , version=1.0 , compatibility_version=2 , target game version=0.0.0 , bundled_mods=[] , dependencies=0 }"
+    },
+    {
+      "line": 495,
+      "text": "[22:31:12.5500296][   496][           modding_system] Enabling mod : [expanse_corvette_visual] { name=expanse_corvette_visual , version=1.0 , compatibility_version=2 , target game version=0.0.0 , bundled_mods=[] , dependencies=0 }"
+    },
+    {
+      "line": 726,
+      "text": "simulation_mods                                    = [expanse_corvette_visual:1.0 (/:expanse_corvette_visual)]"
+    }
+  ],
+  "observer": "user; agent read existing logs/screenshots only",
+  "new_variant_runtime": "NOT RUN",
+  "rotated_log_current_path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/logs/sins2_log_318_[2026-09-12][22-30-07]_492.txt",
+  "rotated_log_current_sha256": "a6c9cb29c73a82c10caeca466eff430e5272f96016b483b41c863387562dcc8a",
+  "note": "Original source_log and hash describe the earlier read; the game appended/rotated the log on close."
+}

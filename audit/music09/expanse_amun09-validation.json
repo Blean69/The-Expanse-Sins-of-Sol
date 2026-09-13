@@ -1,0 +1,174 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "runtime": "NOT RUN",
+  "music_states": [
+    "front_end",
+    "loading",
+    "ambient",
+    "early_game_neutral",
+    "early_game_winning",
+    "early_game_losing",
+    "mid_game_neutral",
+    "mid_game_winning",
+    "mid_game_losing",
+    "late_game_neutral",
+    "late_game_winning",
+    "late_game_losing",
+    "battle_neutral",
+    "battle_winning",
+    "battle_losing",
+    "game_won",
+    "game_lost"
+  ],
+  "used_tracks": [
+    "expanse09_music_boarded",
+    "expanse09_music_eros_radio",
+    "expanse09_music_expanse_theme",
+    "expanse09_music_hammerlock",
+    "expanse09_music_impossible_burden",
+    "expanse09_music_lies_and_power",
+    "expanse09_music_lifetime_losing",
+    "expanse09_music_lionel_polanski",
+    "expanse09_music_never_see_them_coming",
+    "expanse09_music_ready_to_talk",
+    "expanse09_music_respite",
+    "expanse09_music_signal",
+    "expanse09_music_tachi_station",
+    "expanse09_music_theme",
+    "expanse09_music_welwala"
+  ],
+  "full_player_race_schema": "PASS pinned Draft7 and additional closed-key check",
+  "other_race_and_nonmusic_fields_unchanged": true,
+  "previous_ability_fixes_and_17_voices_unchanged": true,
+  "new_files": 31,
+  "preservation": {
+    "trees": [
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_ammo03",
+        "files": 92,
+        "tree_sha256": "211aaf0040b8c6edef8894606bf8eaa54606fe6c862fb2f79cbe3dea68c121a1"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_amun06_voice07",
+        "files": 289,
+        "tree_sha256": "2ae8b8672d9f22fa86b68512b5198b644fac4ef50b4baa4797ea95a94aee233d"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_visual",
+        "files": 26,
+        "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_amun06",
+        "files": 267,
+        "tree_sha256": "e9af852c6e40ea83a7f31c79d574f935597583d5250442ea9c446db29f43aa18"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_rocinante03",
+        "files": 164,
+        "tree_sha256": "f87253a45f07ed279f0aced31912378cc7690793a99d0f725db82daac6673d6e"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_amun06_cloak",
+        "files": 273,
+        "tree_sha256": "a238df02a4c71b2d288a60e41a834bbc94d49ec184b146e9eb30a547aba14255"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_amun06_cloak_voice07",
+        "files": 295,
+        "tree_sha256": "06e656c62079c930ea02a6392bcd3cb3d78e6c25f59886c4e6b445145565ea4d"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_rocinante04_amun",
+        "files": 204,
+        "tree_sha256": "7734eeb09fa0f2b48d849f0721d2fa35c742b536b0abc2ae14318aba1e568492"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_polish",
+        "files": 83,
+        "tree_sha256": "922bb383eac8568ac5f365cd992f96d6709620e36c71f4ab639555db0da2aebf"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_cobalt_name",
+        "files": 2,
+        "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_combat03",
+        "files": 92,
+        "tree_sha256": "63ca0bcf4da8c094435aeb28fce0ceb11262cfa4e6b8f33106416fb77820b03b"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_ammo03",
+        "files": 92,
+        "tree_sha256": "211aaf0040b8c6edef8894606bf8eaa54606fe6c862fb2f79cbe3dea68c121a1"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun08_cloak",
+        "files": 307,
+        "tree_sha256": "1d2203974320fe3a535c77540a919355b72f2deb2c3e7c1f4dfd6d40bca65fec"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06_voice07",
+        "files": 289,
+        "tree_sha256": "2ae8b8672d9f22fa86b68512b5198b644fac4ef50b4baa4797ea95a94aee233d"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06",
+        "files": 267,
+        "tree_sha256": "e9af852c6e40ea83a7f31c79d574f935597583d5250442ea9c446db29f43aa18"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_rocinante03",
+        "files": 164,
+        "tree_sha256": "f87253a45f07ed279f0aced31912378cc7690793a99d0f725db82daac6673d6e"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun08",
+        "files": 301,
+        "tree_sha256": "d2bdce209048990faebc23a16121583043e5ff30c49fa75f4e4e065869690a08"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06_cloak",
+        "files": 273,
+        "tree_sha256": "a238df02a4c71b2d288a60e41a834bbc94d49ec184b146e9eb30a547aba14255"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc",
+        "files": 10,
+        "tree_sha256": "dec0e431a1ec4c87a8dbc1ed44e58fcc9e968a906bf0669e950d4a4d5abbb941"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06_cloak_voice07",
+        "files": 295,
+        "tree_sha256": "06e656c62079c930ea02a6392bcd3cb3d78e6c25f59886c4e6b445145565ea4d"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_rocinante04_amun",
+        "files": 204,
+        "tree_sha256": "7734eeb09fa0f2b48d849f0721d2fa35c742b536b0abc2ae14318aba1e568492"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish",
+        "files": 83,
+        "tree_sha256": "922bb383eac8568ac5f365cd992f96d6709620e36c71f4ab639555db0da2aebf"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_rocinante04",
+        "files": 198,
+        "tree_sha256": "a673fdade01f53a5db871a9303e5505dae16f6d6c214e9acb32a258413c2792f"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_combat03",
+        "files": 92,
+        "tree_sha256": "63ca0bcf4da8c094435aeb28fce0ceb11262cfa4e6b8f33106416fb77820b03b"
+      }
+    ],
+    "old_zips_unchanged": 13,
+    "pins": {
+      "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+      "schemas": 62,
+      "installed_references": 527
+    }
+  }
+}

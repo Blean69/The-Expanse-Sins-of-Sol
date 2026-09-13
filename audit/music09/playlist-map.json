@@ -1,0 +1,283 @@
+{
+  "front_end": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_theme",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_expanse_theme",
+        "weight": 1
+      }
+    ],
+    "first_music_track_index": 0
+  },
+  "loading": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_expanse_theme",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_respite",
+        "weight": 1
+      }
+    ]
+  },
+  "ambient": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_respite",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_ready_to_talk",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_tachi_station",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_lionel_polanski",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_eros_radio",
+        "weight": 1
+      }
+    ]
+  },
+  "early_game_neutral": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_tachi_station",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_ready_to_talk",
+        "weight": 1
+      }
+    ],
+    "extra_music_tracks_pool_type": "ambient"
+  },
+  "early_game_winning": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_tachi_station",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_expanse_theme",
+        "weight": 1
+      }
+    ],
+    "extra_music_tracks_pool_type": "ambient"
+  },
+  "early_game_losing": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_lionel_polanski",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_lifetime_losing",
+        "weight": 1
+      }
+    ],
+    "extra_music_tracks_pool_type": "ambient"
+  },
+  "mid_game_neutral": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_lionel_polanski",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_lies_and_power",
+        "weight": 1
+      }
+    ],
+    "extra_music_tracks_pool_type": "ambient"
+  },
+  "mid_game_winning": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_ready_to_talk",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_expanse_theme",
+        "weight": 1
+      }
+    ],
+    "extra_music_tracks_pool_type": "ambient"
+  },
+  "mid_game_losing": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_lifetime_losing",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_impossible_burden",
+        "weight": 1
+      }
+    ],
+    "extra_music_tracks_pool_type": "ambient"
+  },
+  "late_game_neutral": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_lies_and_power",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_lionel_polanski",
+        "weight": 1
+      }
+    ],
+    "extra_music_tracks_pool_type": "ambient"
+  },
+  "late_game_winning": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_expanse_theme",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_tachi_station",
+        "weight": 1
+      }
+    ],
+    "extra_music_tracks_pool_type": "ambient"
+  },
+  "late_game_losing": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_impossible_burden",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_lifetime_losing",
+        "weight": 1
+      }
+    ],
+    "extra_music_tracks_pool_type": "ambient"
+  },
+  "battle_neutral": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_boarded",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_welwala",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_signal",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_never_see_them_coming",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_hammerlock",
+        "weight": 1
+      }
+    ]
+  },
+  "battle_winning": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_welwala",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_boarded",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_signal",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_never_see_them_coming",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_hammerlock",
+        "weight": 1
+      }
+    ]
+  },
+  "battle_losing": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_signal",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_boarded",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_welwala",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_never_see_them_coming",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_hammerlock",
+        "weight": 1
+      }
+    ]
+  },
+  "game_won": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_expanse_theme",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_respite",
+        "weight": 1
+      }
+    ],
+    "first_music_track_index": 0
+  },
+  "game_lost": {
+    "exhaustive_shuffle": true,
+    "music_tracks": [
+      {
+        "sound": "expanse09_music_lifetime_losing",
+        "weight": 1
+      },
+      {
+        "sound": "expanse09_music_impossible_burden",
+        "weight": 1
+      }
+    ],
+    "first_music_track_index": 0
+  }
+}

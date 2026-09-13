@@ -1,0 +1,592 @@
+{
+  "units": {
+    "trader_battle_capital_ship": {
+      "build": {
+        "build_time": 75.0,
+        "price": {
+          "credits": 2500.0,
+          "metal": 850.0,
+          "crystal": 600.0
+        },
+        "exotic_price": [
+          {
+            "exotic_type": "offense",
+            "count": 1
+          },
+          {
+            "exotic_type": "defense",
+            "count": 2
+          }
+        ],
+        "build_kind": "capital_ship",
+        "supply_cost": 50,
+        "build_group_id": "capital_ship"
+      },
+      "level_zero_health": {
+        "max_hull_points": 3750.0,
+        "hull_point_restore_rate": 3.0,
+        "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+        "hull_point_restore_scalar_after_damage_taken": 0.0,
+        "hull_crippled_percentage": 0.5,
+        "max_armor_points": 2420.0,
+        "armor_point_restore_rate": 4.0,
+        "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+        "armor_point_restore_scalar_after_damage_taken": 0.0,
+        "armor_strength": 105.0,
+        "max_shield_points": 2650.0,
+        "shield_point_restore_rate": 5.0,
+        "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+        "shield_point_restore_scalar_after_damage_taken": 0.0,
+        "shield_burst_restore": {
+          "cooldown_duration": 50.0,
+          "restore_percentage": 0.25
+        },
+        "experience_given_on_death": 100.0
+      },
+      "durability": 500.0,
+      "factory": null,
+      "abilities": [
+        {
+          "abilities": [
+            "trader_battle_capital_ship_experimental_beam",
+            "trader_battle_capital_ship_fusillade",
+            "trader_battle_capital_ship_adaptive_force_field",
+            "trader_battle_capital_ship_finest_hour"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "trader_battle_capital_ship_heavy_gauss",
+          "mount_count": 2,
+          "damage": 150.0,
+          "penetration": 600.0,
+          "cooldown_duration": 10.0,
+          "range": 8000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_battle_capital_ship_medium_autocannon",
+          "mount_count": 4,
+          "damage": 20.0,
+          "penetration": 250.0,
+          "cooldown_duration": 2.5,
+          "range": 8000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_battle_capital_ship_light_autocannon",
+          "mount_count": 3,
+          "damage": 10.0,
+          "penetration": 50.0,
+          "cooldown_duration": 1.5,
+          "range": 5000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_battle_capital_ship_planet_bombing",
+          "mount_count": 1,
+          "cooldown_duration": 15.0,
+          "range": 4000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        }
+      ]
+    },
+    "trader_carrier_capital_ship": {
+      "build": {
+        "build_time": 75.0,
+        "price": {
+          "credits": 2500.0,
+          "metal": 850.0,
+          "crystal": 600.0
+        },
+        "exotic_price": [
+          {
+            "exotic_type": "defense",
+            "count": 1
+          },
+          {
+            "exotic_type": "economic",
+            "count": 2
+          }
+        ],
+        "build_kind": "capital_ship",
+        "supply_cost": 50,
+        "build_group_id": "capital_ship"
+      },
+      "level_zero_health": {
+        "max_hull_points": 4585.0,
+        "hull_point_restore_rate": 3.0,
+        "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+        "hull_crippled_percentage": 0.5,
+        "max_armor_points": 1610.0,
+        "armor_point_restore_rate": 4.0,
+        "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+        "armor_strength": 75.0,
+        "max_shield_points": 1650.0,
+        "shield_point_restore_rate": 5.0,
+        "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+        "shield_burst_restore": {
+          "cooldown_duration": 50.0,
+          "restore_percentage": 0.25
+        },
+        "experience_given_on_death": 100.0
+      },
+      "durability": 500.0,
+      "factory": {
+        "build_kinds": [
+          "corvette"
+        ],
+        "required_mutation": "mobile_unit_factory_enabled",
+        "base_build_point": {
+          "position": [
+            101.301765,
+            -23.076166,
+            -90.023933
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      "abilities": [
+        {
+          "abilities": [
+            "trader_carrier_capital_ship_deploy_missile_battery",
+            "trader_carrier_capital_ship_mass_production",
+            "trader_carrier_capital_ship_mobile_unit_factory",
+            "trader_carrier_capital_ship_rapid_manufacturing"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "trader_carrier_capital_ship_light_autocannon",
+          "mount_count": 1,
+          "damage": 10.0,
+          "penetration": 50.0,
+          "cooldown_duration": 1.5,
+          "range": 5000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_carrier_capital_ship_medium_autocannon",
+          "mount_count": 2,
+          "damage": 20.0,
+          "penetration": 250.0,
+          "cooldown_duration": 2.5,
+          "range": 8000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_carrier_capital_ship_point_defense_autocannon",
+          "mount_count": 9,
+          "damage": 4.0,
+          "penetration": 0.0,
+          "cooldown_duration": 1.0,
+          "range": 5000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_carrier_capital_ship_planet_bombing",
+          "mount_count": 1,
+          "cooldown_duration": 15.0,
+          "range": 4000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        }
+      ]
+    },
+    "trader_loyalist_titan": {
+      "build": {
+        "build_time": 300.0,
+        "price": {
+          "credits": 9600.0,
+          "metal": 2900.0,
+          "crystal": 1900.0
+        },
+        "exotic_price": [
+          {
+            "exotic_type": "defense",
+            "count": 3
+          },
+          {
+            "exotic_type": "utility",
+            "count": 1
+          },
+          {
+            "exotic_type": "ultimate",
+            "count": 3
+          }
+        ],
+        "prerequisites": [
+          [
+            "trader_unlock_loyalist_titan"
+          ]
+        ],
+        "build_kind": "titan",
+        "supply_cost": 150,
+        "build_group_id": "titan"
+      },
+      "level_zero_health": {
+        "max_hull_points": 14520.0,
+        "hull_point_restore_rate": 6.0,
+        "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+        "hull_point_restore_scalar_after_damage_taken": 0.0,
+        "hull_crippled_percentage": 0.5,
+        "max_armor_points": 5000.0,
+        "armor_point_restore_rate": 8.0,
+        "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+        "armor_point_restore_scalar_after_damage_taken": 0.0,
+        "armor_strength": 130.0,
+        "max_shield_points": 6000.0,
+        "shield_point_restore_rate": 10.0,
+        "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+        "shield_point_restore_scalar_after_damage_taken": 0.0,
+        "shield_burst_restore": {
+          "cooldown_duration": 70.0,
+          "restore_percentage": 0.25
+        },
+        "experience_given_on_death": 400.0
+      },
+      "durability": 750.0,
+      "factory": {
+        "build_kinds": [
+          "corvette",
+          "frigate",
+          "cruiser",
+          "capital_ship",
+          "super_capital_ship",
+          "titan"
+        ],
+        "required_mutation": "mobile_unit_factory_enabled",
+        "will_spawn_units_in_hyperspace": true,
+        "spawn_units_in_hyperspace_delay_duration": 10.0
+      },
+      "abilities": [
+        {
+          "abilities": [
+            "trader_loyalist_titan_disruption_matrix",
+            "trader_loyalist_titan_furious_defense",
+            "trader_loyalist_titan_shield_surge",
+            "trader_loyalist_titan_invulnerability_field"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "trader_loyalist_titan_medium_autocannon",
+          "mount_count": 16,
+          "damage": 20.0,
+          "penetration": 300.0,
+          "cooldown_duration": 1.5,
+          "range": 8000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_loyalist_titan_beam",
+          "mount_count": 8,
+          "damage": 300.0,
+          "penetration": 500.0,
+          "cooldown_duration": 5.0,
+          "range": 8000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_loyalist_titan_medium_missile",
+          "mount_count": 4,
+          "damage": 400.0,
+          "penetration": 500.0,
+          "cooldown_duration": 15.0,
+          "range": 12000.0,
+          "burst_pattern": [
+            0.0,
+            0.5,
+            1.0,
+            1.5
+          ],
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_loyalist_titan_medium_missile_side",
+          "mount_count": 8,
+          "damage": 500.0,
+          "penetration": 500.0,
+          "cooldown_duration": 15.0,
+          "range": 12000.0,
+          "burst_pattern": [
+            0.0,
+            0.75,
+            1.5,
+            2.25,
+            3.0
+          ],
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_loyalist_titan_point_defense_autocannon",
+          "mount_count": 22,
+          "damage": 4.0,
+          "penetration": 0.0,
+          "cooldown_duration": 1.0,
+          "range": 5000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_loyalist_titan_planet_bombing",
+          "mount_count": 1,
+          "cooldown_duration": 15.0,
+          "range": 4000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        }
+      ]
+    },
+    "trader_rebel_titan": {
+      "build": {
+        "build_time": 300.0,
+        "price": {
+          "credits": 9600.0,
+          "metal": 2900.0,
+          "crystal": 1900.0
+        },
+        "exotic_price": [
+          {
+            "exotic_type": "offense",
+            "count": 4
+          },
+          {
+            "exotic_type": "ultimate",
+            "count": 3
+          }
+        ],
+        "prerequisites": [
+          [
+            "trader_unlock_rebel_titan"
+          ]
+        ],
+        "build_kind": "titan",
+        "supply_cost": 150,
+        "build_group_id": "titan"
+      },
+      "level_zero_health": {
+        "max_hull_points": 12800.0,
+        "hull_point_restore_rate": 6.0,
+        "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+        "hull_point_restore_scalar_after_damage_taken": 0.0,
+        "hull_crippled_percentage": 0.5,
+        "max_armor_points": 4425.0,
+        "armor_point_restore_rate": 8.0,
+        "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+        "armor_point_restore_scalar_after_damage_taken": 0.0,
+        "armor_strength": 105.0,
+        "max_shield_points": 6575.0,
+        "shield_point_restore_rate": 10.0,
+        "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+        "shield_point_restore_scalar_after_damage_taken": 0.0,
+        "shield_burst_restore": {
+          "cooldown_duration": 70.0,
+          "restore_percentage": 0.25
+        },
+        "experience_given_on_death": 400.0
+      },
+      "durability": 750.0,
+      "factory": {
+        "build_kinds": [
+          "corvette",
+          "frigate",
+          "cruiser",
+          "capital_ship",
+          "super_capital_ship",
+          "titan"
+        ],
+        "required_mutation": "mobile_unit_factory_enabled",
+        "will_spawn_units_in_hyperspace": true,
+        "spawn_units_in_hyperspace_delay_duration": 10.0
+      },
+      "abilities": [
+        {
+          "abilities": [
+            "trader_rebel_titan_piercing_shot",
+            "trader_rebel_titan_explosive_shot",
+            "trader_rebel_titan_warpath",
+            "trader_rebel_titan_orbital_cannon"
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "id": "trader_rebel_titan_fixed_heavy_gauss",
+          "mount_count": 4,
+          "damage": 150.0,
+          "penetration": 600.0,
+          "cooldown_duration": 10.0,
+          "range": 12000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_rebel_titan_heavy_gauss",
+          "mount_count": 12,
+          "damage": 150.0,
+          "penetration": 600.0,
+          "cooldown_duration": 10.0,
+          "range": 12000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_rebel_titan_rail_gun",
+          "mount_count": 1,
+          "damage": 750.0,
+          "penetration": 1000.0,
+          "cooldown_duration": 10.0,
+          "range": 12000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_rebel_titan_point_defense_autocannon",
+          "mount_count": 14,
+          "damage": 4.0,
+          "penetration": 0.0,
+          "cooldown_duration": 1.0,
+          "range": 5000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_rebel_titan_medium_autocannon",
+          "mount_count": 10,
+          "damage": 20.0,
+          "penetration": 250.0,
+          "cooldown_duration": 2.5,
+          "range": 8000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_rebel_titan_medium_missile",
+          "mount_count": 4,
+          "damage": 600.0,
+          "penetration": 500.0,
+          "cooldown_duration": 15.0,
+          "range": 15000.0,
+          "burst_pattern": [
+            0.0,
+            0.5,
+            1.0,
+            1.5,
+            2.0,
+            2.5
+          ],
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        },
+        {
+          "id": "trader_rebel_titan_planet_bombing",
+          "mount_count": 1,
+          "cooldown_duration": 15.0,
+          "range": 4000.0,
+          "scope": "raw definition; mount unlocks, arcs, level bonuses and burst distribution are not a runtime DPS measurement"
+        }
+      ]
+    }
+  },
+  "unit_factory_schema": {
+    "type": "object",
+    "properties": {
+      "build_kinds": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "build_rate_scalar": {
+        "type": "number"
+      },
+      "default_rally_point_offset": {
+        "type": "array",
+        "items": {
+          "type": "number"
+        }
+      },
+      "required_ability": {
+        "type": "string"
+      },
+      "required_mutation": {
+        "type": "string"
+      },
+      "will_spawn_units_in_hyperspace": {
+        "type": "boolean"
+      }
+    },
+    "required": [
+      "build_kinds"
+    ],
+    "allOf": [
+      {
+        "if": {
+          "properties": {
+            "will_spawn_units_in_hyperspace": {
+              "const": true
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "spawn_units_in_hyperspace_delay_duration": {
+              "type": "number"
+            }
+          }
+        }
+      },
+      {
+        "if": {
+          "properties": {
+            "will_spawn_units_in_hyperspace": {
+              "const": false
+            }
+          }
+        },
+        "then": {
+          "properties": {
+            "base_build_point": {
+              "$ref": "#/$defs/basis"
+            }
+          },
+          "required": [
+            "base_build_point"
+          ]
+        }
+      }
+    ],
+    "unevaluatedProperties": false
+  },
+  "stock_Cobalt_build_kind": "frigate",
+  "preferred_local_factory": {
+    "build_kinds": [
+      "frigate"
+    ],
+    "base_build_point": "Must use verified Donnager hangar position/rotation; not stock Sova coordinates",
+    "scope_warning": "Allows other player-available frigates; schema has no per-unit whitelist. Broadens only new carrier, not global build menus."
+  },
+  "alternative_spawn_ability": {
+    "reference": "trader_pirate_mercenary_base_unit_item.ability",
+    "operator": "spawn_units",
+    "units": {
+      "required_units": [
+        {
+          "unit": "trader_light_frigate",
+          "count": [
+            1,
+            1
+          ]
+        }
+      ]
+    },
+    "constrain_available_supply_to_owner_player": true,
+    "check_research_prerequisites": true,
+    "caveat": "Costed replacement/reinforcement ability is not a native production queue; no claim it preserves construction/cancel/refund behavior. Supply/price must match final corvette build definition."
+  }
+}

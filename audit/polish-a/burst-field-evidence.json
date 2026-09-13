@@ -1,0 +1,634 @@
+{
+  "top_level_property_schema": {
+    "type": "array",
+    "items": {
+      "type": "number"
+    }
+  },
+  "effects_property_schema": {
+    "type": "array",
+    "items": {
+      "type": "number"
+    }
+  },
+  "stock_garda_top_level_present": false,
+  "stock_garda_effects_pattern": [
+    0.0,
+    0.08,
+    0.16,
+    0.24,
+    0.32
+  ],
+  "installed_top_level_examples": [
+    {
+      "file": "entities/advent_battle_psionic_capital_ship_missile.weapon",
+      "sha256": "0bb775689ccb9183e4f99dc601f5b28b4ceadd579a79a24465744b33e8f556d8",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.15,
+        0.3,
+        0.45,
+        0.6,
+        0.75,
+        0.9,
+        1.05
+      ]
+    },
+    {
+      "file": "entities/advent_planet_psionic_capital_ship_missile.weapon",
+      "sha256": "78b669dc63ba988ed704802fcd798a49fc6be4f9db91c2bfd62b2d1eaa4c3d5a",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.15,
+        0.3,
+        0.45,
+        0.6,
+        0.75
+      ]
+    },
+    {
+      "file": "entities/advent_rebel_titan_missile.weapon",
+      "sha256": "8c295974d62ee71c3b0607d4ffdf590ac5684739ad40bb92f8bab97065993e16",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2,
+        2.4,
+        2.6,
+        2.8
+      ]
+    },
+    {
+      "file": "entities/advent_starbase_missile.weapon",
+      "sha256": "ba739477f965515599d875966810f906e218af84d28baab992102b7a7ed35a4b",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0,
+        1.2,
+        1.4,
+        1.6,
+        1.8,
+        2.0,
+        2.2
+      ]
+    },
+    {
+      "file": "entities/dlc2_advent_rebel_super_capital_ship_missile.weapon",
+      "sha256": "b403e75b38b225f6782a8b8ed720db112e7cd4f7bb79293aced2420fa72a2928",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.15,
+        0.3,
+        0.45,
+        0.6,
+        0.75,
+        0.9,
+        1.05,
+        1.2,
+        1.35,
+        1.5,
+        1.65
+      ]
+    },
+    {
+      "file": "entities/dlc2_trader_loyalist_super_capital_ship_beam.weapon",
+      "sha256": "eb83583c24583afb123bf23942ff69f7f7c9e71b113e2803227bf22ee56b886b",
+      "firing_type": "beam",
+      "burst_pattern": [
+        0.0,
+        0.75
+      ]
+    },
+    {
+      "file": "entities/dlc2_trader_loyalist_super_capital_ship_missile.weapon",
+      "sha256": "b47e7d187855f9dfe61b66fe0494eb8c957091bf33dbce4300d3f5a700e20820",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.75,
+        1.5,
+        2.25,
+        3.0,
+        3.75
+      ]
+    },
+    {
+      "file": "entities/dlc2_trader_rebel_super_capital_ship_beam.weapon",
+      "sha256": "c7038c19d1c67b75bfcefef5c19b8366861794d976ac331988c4dfe78289dbb2",
+      "firing_type": "beam",
+      "burst_pattern": [
+        0.0,
+        0.75
+      ]
+    },
+    {
+      "file": "entities/dlc2_trader_rebel_super_capital_ship_missile.weapon",
+      "sha256": "c26154bf0f2633639901580c8df4df98139eced8a93413d33f630618719d4c8e",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.75,
+        1.5,
+        2.25,
+        3.0,
+        3.75
+      ]
+    },
+    {
+      "file": "entities/dlc2_trader_rebel_super_capital_ship_missile_turret.weapon",
+      "sha256": "843cdb8db806c2e28dffbdee24136cf0e0586fa42927ff483f3c9eabb77f90f1",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.5,
+        1.0,
+        1.5
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_attack_corvette_void_missile.weapon",
+      "sha256": "f68b8d304b1fd6f717022f1a3a663f2db5ca19a5eb1ddc4534e50d5c84b62a98",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_battle_capital_ship_missile.weapon",
+      "sha256": "a1742d9eeb7513190ef2dc0e54ddeac48ebf270f8d99ad750c88fc95b6ddf2e6",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_bomber_strikecraft_void_missile.weapon",
+      "sha256": "96687d5c62c546fda67b50882e256307b504beb49b68a6826d27f0ebd24ff59b",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.25
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_carrier_capital_ship_missile.weapon",
+      "sha256": "6e199de0089d68c93f1f755c0a1b6da6ce6ebbdb5e7606c8e85a029d8175c6c3",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.2,
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_carrier_capital_ship_missile_large.weapon",
+      "sha256": "8c9861d2304836d8af36c26446cd799045fc5ed0fffe50551e95ee8e46a1f9a9",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        1.5,
+        1.75,
+        2.0
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_heavy_defense_structure_void_missile.weapon",
+      "sha256": "65f25a55868c35223680b569529576c41955f62d8ea650acd3c49f1fbd88f236",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.25,
+        0.5
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_siege_capital_ship_phase_dart.weapon",
+      "sha256": "f19474d5a483aa9468a921997c45fab233abbe210b41b11a02e63c187d2736c9",
+      "firing_type": "projectile",
+      "burst_pattern": [
+        0.0,
+        0.1,
+        0.2,
+        0.3
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_starbase_void_missile.weapon",
+      "sha256": "eb62892d9724d4fe9879624fcfe9b96731cb05d41e1b3c583ad10df8a5717d5c",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        1.5,
+        1.75
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_titan_missile.weapon",
+      "sha256": "4ceebf37132245f4c2f9dd2b64ddf6e9706bb571af89234b774c371efd3c1df8",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0,
+        1.25,
+        1.5,
+        1.75,
+        2.0,
+        2.25,
+        2.5,
+        2.75
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_titan_phase_cannon.weapon",
+      "sha256": "8f251e5742b8de8f57fe7a54a2090a80ec01ce743def8d79a77c76435988448e",
+      "firing_type": "projectile",
+      "burst_pattern": [
+        0.0,
+        0.15,
+        0.3
+      ]
+    },
+    {
+      "file": "entities/dlc3_herald_titan_phase_dart.weapon",
+      "sha256": "a9b6ed4786e783563ce3307ca7fc4b140c9610e19bbba98f4163dbecb450dbd5",
+      "firing_type": "projectile",
+      "burst_pattern": [
+        0.0,
+        0.08,
+        0.16,
+        0.24,
+        0.32,
+        0.4
+      ]
+    },
+    {
+      "file": "entities/dlc_ancient_starbase_missile.weapon",
+      "sha256": "68cea2f70a1bc04e3a387a3d7f54933edb47695c183d9846bc27b7d8c2ecfcbb",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        1.0,
+        2.0
+      ]
+    },
+    {
+      "file": "entities/pirate_king_capital_ship_gauss.weapon",
+      "sha256": "6ebb45fca0140149f66731e08690a30cd94072751609359a49d9db0e4cd8ffd5",
+      "firing_type": "projectile",
+      "burst_pattern": [
+        0.0,
+        0.2
+      ]
+    },
+    {
+      "file": "entities/pirate_king_capital_ship_missile.weapon",
+      "sha256": "11de365b57fa429e23ce5e3bed295ddfd000091623323979d7f0c0e8bddae963",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.6
+      ]
+    },
+    {
+      "file": "entities/trader_bomber_strikecraft_heavy_missile.weapon",
+      "sha256": "785fd56c8b9ca5464407fca7d1b25f6a3fa74a21d357ce2cd62050c9057b597f",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.1,
+        0.25,
+        0.35
+      ]
+    },
+    {
+      "file": "entities/trader_long_range_cruiser_medium_missile.weapon",
+      "sha256": "ba3d99829cec0b1418138d7ba61b61b44a3e1c1b8f3e6ef09e1c0e0b1861525f",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "file": "entities/trader_loyalist_titan_medium_missile.weapon",
+      "sha256": "bd166b8ddc91b7e11ca0b8d67530cf7248285b155a169b9b2faabcedad5dbca5",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.5,
+        1.0,
+        1.5
+      ]
+    },
+    {
+      "file": "entities/trader_loyalist_titan_medium_missile_side.weapon",
+      "sha256": "993d0c4d6cebfe3e6d4bed66cbf34ab72548b41e0ae9cfdf17b0ca865ca934c9",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.75,
+        1.5,
+        2.25,
+        3.0
+      ]
+    },
+    {
+      "file": "entities/trader_missile_corvette_missile.weapon",
+      "sha256": "e6eb56641de706e8b9d1b72db1e8d9f0933b5195dde90759f862d5af25aabfc6",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0
+      ]
+    },
+    {
+      "file": "entities/trader_rebel_titan_medium_missile.weapon",
+      "sha256": "781265eeb0de70e1afa41484deed24c2862f58e452dc284b07dbf83e33f8732d",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5
+      ]
+    },
+    {
+      "file": "entities/trader_siege_capital_ship_heavy_gauss.weapon",
+      "sha256": "85a5d45c26689af0f48c9e36fd91abfac224106a460649f01d9910ce61a04b1d",
+      "firing_type": "projectile",
+      "burst_pattern": [
+        0.0,
+        0.2,
+        0.4
+      ]
+    },
+    {
+      "file": "entities/trader_siege_capital_ship_medium_missile.weapon",
+      "sha256": "e3e2a85a1849503f39ca5076941ad2fdf99fd74ae14c91ab4fe1291308c8d10f",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5
+      ]
+    },
+    {
+      "file": "entities/trader_starbase_medium_missile.weapon",
+      "sha256": "06381cb96e294eba1af0d28dacaeeb9b5e8ce4eb8e9ca86d578fd93aeeeac356",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ]
+    },
+    {
+      "file": "entities/trader_support_capital_ship_medium_missile.weapon",
+      "sha256": "802d0b3816fae3da05755e06796f8173eeb431cd57bb4e007f2bb8a1d2a47034",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.5,
+        1.0,
+        1.5
+      ]
+    },
+    {
+      "file": "entities/vasari_battle_capital_ship_missile.weapon",
+      "sha256": "bcec41a1f1fb21e7f35b0c29ec0e47ed738664c06a699d4f664f70dd5bbf3d96",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.6,
+        1.2
+      ]
+    },
+    {
+      "file": "entities/vasari_bomber_strikecraft_heavy_phase_missile.weapon",
+      "sha256": "5d98e7deef5ac868e6cd1b963d3c2175b079a4be94f59f9a30e6249711a00444",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.18,
+        0.36,
+        0.54
+      ]
+    },
+    {
+      "file": "entities/vasari_carrier_capital_ship_missile.weapon",
+      "sha256": "53a04c4f28da4942329a592f50e8f835b40eff42595d758c585f5d85a18466d5",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.6,
+        1.2
+      ]
+    },
+    {
+      "file": "entities/vasari_loyalist_titan_missile.weapon",
+      "sha256": "b87fbc77f4f889305d5d3f587cad85b6614e11817de4751c98317a7a0514c0cd",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.3,
+        0.6,
+        0.9,
+        1.2,
+        1.5,
+        1.8,
+        2.1,
+        2.4,
+        2.7,
+        3.0,
+        3.3,
+        3.6,
+        3.9,
+        4.2,
+        4.5,
+        4.8,
+        5.1
+      ]
+    },
+    {
+      "file": "entities/vasari_marauder_capital_ship_missile.weapon",
+      "sha256": "ee0b820b0cb084695d1eaeafd433cea683ea0e04b145085f14f2e7d3f9ca056d",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.6,
+        1.2,
+        1.8
+      ]
+    },
+    {
+      "file": "entities/vasari_missile_defense_structure_medium_phase_missile.weapon",
+      "sha256": "1e6be48c197cef4f185b5430e04ab7e4b57509b997bf2f24a85780e04ba5c668",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3.0
+      ]
+    },
+    {
+      "file": "entities/vasari_raider_corvette_phase_missile.weapon",
+      "sha256": "6b954e70a1d515cc2e390e033a8cca34ab3e3bbfb8192f35883eca656285ed2b",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.18
+      ]
+    },
+    {
+      "file": "entities/vasari_rebel_titan_missile_front.weapon",
+      "sha256": "d1e22d04e4217c0cf4cb1936b6ea3dd9cf4e7c7aff0f7e9910081e6fd874215d",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.6,
+        1.2,
+        1.8,
+        2.4,
+        3.0,
+        3.6,
+        4.2
+      ]
+    },
+    {
+      "file": "entities/vasari_rebel_titan_missile_rear.weapon",
+      "sha256": "9c0787500168f2ff789c03e39f3e659afdf20f1cdb114ba364ed188a0b373a6f",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.3,
+        0.6,
+        0.9
+      ]
+    },
+    {
+      "file": "entities/vasari_rebel_titan_missile_upgrade.weapon",
+      "sha256": "41e8ae5cb0d04e7d6114f54b36bc3dd273a62ee327861ab3957a05bb8f201ad0",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.12,
+        0.24,
+        0.36,
+        0.48,
+        0.6,
+        0.72,
+        0.84,
+        0.96,
+        1.08,
+        1.2,
+        1.32,
+        1.44,
+        1.56,
+        1.68,
+        1.8,
+        1.92,
+        2.04,
+        2.16,
+        2.28,
+        2.4,
+        2.52,
+        2.64,
+        2.76,
+        2.88,
+        3.0,
+        3.12,
+        3.24,
+        3.36,
+        3.48,
+        3.6,
+        3.72
+      ]
+    },
+    {
+      "file": "entities/vasari_siege_capital_ship_missile.weapon",
+      "sha256": "dbb7618855b7f30d00e0fd2fafdbf0f168b5d04596b91e19a597fdc7e7225672",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.6,
+        1.2,
+        1.8,
+        2.4
+      ]
+    },
+    {
+      "file": "entities/vasari_starbase_missile_front.weapon",
+      "sha256": "667b82d35c06ca0f0faf1024a6cade84157d54240527fcbd5700873aa00c7394",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.6,
+        1.2,
+        1.8,
+        2.4
+      ]
+    },
+    {
+      "file": "entities/vasari_starbase_missile_rear.weapon",
+      "sha256": "ec0ed3ee4eacf28e200990e7f41193d7331e9f4278f08ce88a53bccad3b7c8ea",
+      "firing_type": "spawn_torpedo",
+      "burst_pattern": [
+        0.0,
+        0.6,
+        1.2
+      ]
+    }
+  ],
+  "semantics": "Distinct observed fields; schemas do not document damage-per-burst semantics. No multiplier inferred."
+}

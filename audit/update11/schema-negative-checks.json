@@ -1,0 +1,21 @@
+{
+  "scope": "requires pinned local SDK and accepted source extensions",
+  "checks": [
+    {
+      "check": "new unknown field rejected",
+      "status": "PASS rejected",
+      "diagnostic": "Changed/unknown extension /tmp/expanse11-schema-0kliwayf/expanse_mcrn_corvette.unit:invented_expanse_control"
+    },
+    {
+      "check": "changed installed extension rejected",
+      "status": "PASS rejected",
+      "diagnostic": "Changed/unknown extension /tmp/expanse11-schema-0kliwayf/expanse_mcrn_corvette.unit:corruption"
+    },
+    {
+      "check": "nested invented mount key rejected",
+      "status": "PASS rejected",
+      "diagnostic": "Changed/unknown extension /tmp/expanse11-schema-0kliwayf/expanse_mcrn_corvette.unit:invented_tracking_priority"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

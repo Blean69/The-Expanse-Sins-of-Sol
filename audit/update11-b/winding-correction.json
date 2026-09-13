@@ -1,0 +1,114 @@
+{
+  "expanse10_donnager_pdc_barrel": [
+    {
+      "material": 0,
+      "triangle_count": 539,
+      "input_triangles_flipped": 530,
+      "max_triangle_position_error": 4.998016356339008e-07
+    }
+  ],
+  "expanse10_donnager_pdc_base": [
+    {
+      "material": 0,
+      "triangle_count": 138,
+      "input_triangles_flipped": 135,
+      "max_triangle_position_error": 4.989624022844197e-07
+    }
+  ],
+  "expanse11_donnager_hull": [
+    {
+      "material": 0,
+      "triangle_count": 38440,
+      "input_triangles_flipped": 38440,
+      "max_triangle_position_error": 5.000000005139782e-07
+    },
+    {
+      "material": 1,
+      "triangle_count": 101397,
+      "input_triangles_flipped": 0,
+      "max_triangle_position_error": 5.000000555810402e-07
+    },
+    {
+      "material": 3,
+      "triangle_count": 8964,
+      "input_triangles_flipped": 8964,
+      "max_triangle_position_error": 4.999999987376214e-07
+    },
+    {
+      "material": 2,
+      "triangle_count": 128,
+      "input_triangles_flipped": 128,
+      "max_triangle_position_error": 4.960937758369255e-07
+    },
+    {
+      "material": 4,
+      "triangle_count": 3731,
+      "input_triangles_flipped": 0,
+      "max_triangle_position_error": 4.997558598063279e-07
+    },
+    {
+      "material": 5,
+      "triangle_count": 760,
+      "input_triangles_flipped": 760,
+      "max_triangle_position_error": 4.995117173223207e-07
+    },
+    {
+      "material": 6,
+      "triangle_count": 273,
+      "input_triangles_flipped": 0,
+      "max_triangle_position_error": 4.99511713769607e-07
+    },
+    {
+      "material": 7,
+      "triangle_count": 10333,
+      "input_triangles_flipped": 10333,
+      "max_triangle_position_error": 4.999999987376214e-07
+    },
+    {
+      "material": 8,
+      "triangle_count": 597,
+      "input_triangles_flipped": 0,
+      "max_triangle_position_error": 4.990234430124474e-07
+    },
+    {
+      "material": 9,
+      "triangle_count": 1316,
+      "input_triangles_flipped": 1316,
+      "max_triangle_position_error": 4.999999987376214e-07
+    },
+    {
+      "material": 10,
+      "triangle_count": 202,
+      "input_triangles_flipped": 0,
+      "max_triangle_position_error": 4.993896478566739e-07
+    }
+  ],
+  "expanse11_donnager_rail_0": [
+    {
+      "material": 0,
+      "triangle_count": 3233,
+      "input_triangles_flipped": 0,
+      "max_triangle_position_error": 4.999999996257998e-07
+    },
+    {
+      "material": 1,
+      "triangle_count": 5286,
+      "input_triangles_flipped": 5286,
+      "max_triangle_position_error": 4.999999987376214e-07
+    }
+  ],
+  "expanse11_donnager_rail_1": [
+    {
+      "material": 0,
+      "triangle_count": 3325,
+      "input_triangles_flipped": 0,
+      "max_triangle_position_error": 4.997558598063279e-07
+    },
+    {
+      "material": 1,
+      "triangle_count": 5479,
+      "input_triangles_flipped": 5479,
+      "max_triangle_position_error": 4.999999987376214e-07
+    }
+  ]
+}

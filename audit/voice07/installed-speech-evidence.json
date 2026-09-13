@@ -1,0 +1,14 @@
+{
+  "definition": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_0.sound",
+  "definition_sha256": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+  "media_sha256": "2d547f1191a481fe0fd8aa2cdfd2af121959e645d984dab03069b861a2abbf2d",
+  "profile": {
+    "is_positionable": false,
+    "is_looping": false,
+    "is_streaming": true
+  },
+  "media": "same-stem colocated .ogg, Vorbis mono44100Hz",
+  "stock_sample_measured_integrated_lufs": -16.12,
+  "target_choice": "-18 LUFS; provisional slightly quieter dialogue mix, runtime listening needed",
+  "dedicated_sound_schema": "NOT AVAILABLE in pinned SDK; exact installed profile used"
+}

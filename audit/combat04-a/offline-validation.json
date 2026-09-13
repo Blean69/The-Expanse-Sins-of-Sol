@@ -1,0 +1,417 @@
+{
+  "status": "PASS for two schemas, exact field delta and enumerated dependencies",
+  "runtime": "NOT RUN",
+  "pinned_schema_count": 62,
+  "source_previous_unchanged": true,
+  "candidate_sha256": {
+    "entities/expanse04_light_torpedo.unit": "21522c37b7194c0e439bf92e9d4ebd9ef4aeed79c15fcb574b56909559aa3686",
+    "entities/expanse04_light_torpedo.unit_skin": "745913ff836fcbcb81e40605dd251d008d581ff6c13f2e93c7ac673a0da26e9d"
+  },
+  "installed_readonly_evidence": {
+    "entities/trader_medium_torpedo.unit": {
+      "sha256": "b59568b65914657aa7e03ff22ace9fedc7a64ae2980d84db1e476a09ffaab979",
+      "bytes": 2846,
+      "actual_relative_path": "entities/trader_medium_torpedo.unit"
+    },
+    "entities/trader_medium_torpedo.unit_skin": {
+      "sha256": "856058d7c0786c279c984673648b42bab634f27814940378499d01a3b2a8a1e2",
+      "bytes": 1329,
+      "actual_relative_path": "entities/trader_medium_torpedo.unit_skin"
+    },
+    "meshes/trader_medium_torpedo.mesh": {
+      "sha256": "95596db4c6c66f84ededdd778e3a75db731aa1cdfde283648cfa711c9a21a1e0",
+      "bytes": 216982,
+      "actual_relative_path": "meshes/trader_medium_torpedo.mesh"
+    },
+    "entities/trader_torpedo_cruiser_torpedo.unit": {
+      "sha256": "886a135832469b62ce75f359823103f23621acc61375ebb336b92cfdddca66a1",
+      "bytes": 2860,
+      "actual_relative_path": "entities/trader_torpedo_cruiser_torpedo.unit"
+    },
+    "meshes/trader_torpedo_cruiser_torpedo.mesh": {
+      "sha256": "b08b33c391bfb66eaabb2f4b3ac3578b6de584f2a8aec691dfa17460d028a6cf",
+      "bytes": 82450,
+      "actual_relative_path": "meshes/trader_torpedo_cruiser_torpedo.mesh"
+    },
+    "mesh_materials/trader_medium_torpedo.mesh_material": {
+      "sha256": "f63fc8326da6c899b608a974fb6e7192fa15f74152018d4b27db1f84b35155e9",
+      "bytes": 277,
+      "actual_relative_path": "mesh_materials/trader_medium_torpedo.mesh_material"
+    },
+    "textures/trader_medium_torpedo_clr.dds": {
+      "sha256": "a5e216b134b534d29ccf72c75d77b11a7ed51ebf65f943954ca17ed886b8da11",
+      "bytes": 87556,
+      "actual_relative_path": "textures/trader_medium_torpedo_clr.dds"
+    },
+    "textures/trader_medium_torpedo_orm.dds": {
+      "sha256": "1391a4c4094a9795ee64ff983df6cd63d189dccb6d90e8cab1bab44231d54a19",
+      "bytes": 87556,
+      "actual_relative_path": "textures/trader_medium_torpedo_orm.dds"
+    },
+    "textures/trader_medium_torpedo_nrm.dds": {
+      "sha256": "51259370885394a9fc8653c6d29b78d3e34b3b18eed5565773c1bff0d832fa6f",
+      "bytes": 87536,
+      "actual_relative_path": "textures/trader_medium_torpedo_nrm.dds"
+    },
+    "textures/trader_medium_torpedo_msk.dds": {
+      "sha256": "8df8052f7cc5d55a015b3e111778d64cc31012abb759b445d7732977fc51c60b",
+      "bytes": 87556,
+      "actual_relative_path": "textures/trader_medium_torpedo_msk.dds"
+    },
+    "effects/trader_medium_torpedo.exhaust_trail_effect": {
+      "sha256": "d2343798e37ee7bebc0b9324f532f29510501d10ba05f37efee4bfe731afc34d",
+      "bytes": 438,
+      "actual_relative_path": "effects/trader_medium_torpedo.exhaust_trail_effect"
+    },
+    "textures/trader_missile_trail.dds": {
+      "sha256": "e8dcc9af23344db457a37734397699f99666c720fe2e4564d1537627d24361d2",
+      "bytes": 11108,
+      "actual_relative_path": "textures/trader_missile_trail.dds"
+    },
+    "sounds/engine_techsupportship.sound": {
+      "sha256": "acd9e3e285e17ac461cf342303654c64001648aa1bcb8fb4ba28cf1d9ff8f433",
+      "bytes": 152,
+      "actual_relative_path": "sounds/ENGINE_TECHSUPPORTSHIP.sound"
+    },
+    "sounds/engine_techsupportship.ogg": {
+      "sha256": "b9321fc57eeb11e5a3c5d32213466170c38846c98e0bf41b47d1a4d9490b2c98",
+      "bytes": 16929,
+      "actual_relative_path": "sounds/ENGINE_TECHSUPPORTSHIP.ogg"
+    },
+    "death_sequences/torpedo0_1.death_sequence_group": {
+      "sha256": "f04fdd049fae69e5a38ca89beba193929d46ebad55bfc41c5f535d4e745c2cee",
+      "bytes": 51,
+      "actual_relative_path": "death_sequences/torpedo0_1.death_sequence_group"
+    },
+    "death_sequences/torpedo0_1.death_sequence": {
+      "sha256": "27225431ba3163620afc121440281a51b4018c79959f42c6e054cb6ea0cb6cb2",
+      "bytes": 363,
+      "actual_relative_path": "death_sequences/torpedo0_1.death_sequence"
+    },
+    "sounds/explosion_supportshipdeath.sound": {
+      "sha256": "3e473bc2e1e5213451bfe41f74b6f9a8de97f2ffe494818c7a5253f4f3a99a3e",
+      "bytes": 123,
+      "actual_relative_path": "sounds/EXPLOSION_SUPPORTSHIPDEATH.sound"
+    },
+    "sounds/explosion_supportshipdeath.ogg": {
+      "sha256": "4ad0bc89905f8c06220f4e0a1e54bfa18e369e089f5512e80843352e627cae26",
+      "bytes": 49559,
+      "actual_relative_path": "sounds/EXPLOSION_SUPPORTSHIPDEATH.ogg"
+    },
+    "sounds/explosion_supportshipdeath_alt1.sound": {
+      "sha256": "3e473bc2e1e5213451bfe41f74b6f9a8de97f2ffe494818c7a5253f4f3a99a3e",
+      "bytes": 123,
+      "actual_relative_path": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT1.sound"
+    },
+    "sounds/explosion_supportshipdeath_alt1.ogg": {
+      "sha256": "c1b9cd90d6bc8fdfe405970a8da8fa4a324cae4a1e49a47742e56b5bbebeb84a",
+      "bytes": 37222,
+      "actual_relative_path": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT1.ogg"
+    },
+    "sounds/explosion_supportshipdeath_alt2.sound": {
+      "sha256": "3e473bc2e1e5213451bfe41f74b6f9a8de97f2ffe494818c7a5253f4f3a99a3e",
+      "bytes": 123,
+      "actual_relative_path": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT2.sound"
+    },
+    "sounds/explosion_supportshipdeath_alt2.ogg": {
+      "sha256": "4c51c0386890c7276c105b1267f8d48c1e9a8a1aae727d7afa934b1b5c99abd8",
+      "bytes": 36163,
+      "actual_relative_path": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT2.ogg"
+    },
+    "entities/trader_long_range_cruiser.unit_skin": {
+      "sha256": "0a2c8fa161980c83e2969a0af91f7fb2979d8a7ff350c991e4d93cdfc18b3ca1",
+      "bytes": 10130,
+      "actual_relative_path": "entities/trader_long_range_cruiser.unit_skin"
+    },
+    "sounds/weapon_tech_medium_missile_muzzle.sound": {
+      "sha256": "3069920ccce1cbf3cd430c0138b2c887b906144d0d6a254c9f2ebc5472157590",
+      "bytes": 166,
+      "actual_relative_path": "sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE.sound"
+    },
+    "sounds/weapon_tech_medium_missile_muzzle.ogg": {
+      "sha256": "0d1b5daf75220a756461d1c6cb1134eb145ed03f04b4a8a7de675c9c848cb356",
+      "bytes": 47162,
+      "actual_relative_path": "sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE.ogg"
+    },
+    "sounds/weapon_tech_medium_missile_muzzle_01.sound": {
+      "sha256": "3069920ccce1cbf3cd430c0138b2c887b906144d0d6a254c9f2ebc5472157590",
+      "bytes": 166,
+      "actual_relative_path": "sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_01.sound"
+    },
+    "sounds/weapon_tech_medium_missile_muzzle_01.ogg": {
+      "sha256": "43ab6f3d9319b3fdc1a86b5a362e42831c0158a599b44d7fa27ef2cfbc6ccf9b",
+      "bytes": 59701,
+      "actual_relative_path": "sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_01.ogg"
+    },
+    "sounds/weapon_tech_medium_missile_muzzle_02.sound": {
+      "sha256": "3069920ccce1cbf3cd430c0138b2c887b906144d0d6a254c9f2ebc5472157590",
+      "bytes": 166,
+      "actual_relative_path": "sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_02.sound"
+    },
+    "sounds/weapon_tech_medium_missile_muzzle_02.ogg": {
+      "sha256": "4c413533874917ac62a0c6734c00252fd11d66128fc32251fb2bbdbfd7ac5061",
+      "bytes": 59853,
+      "actual_relative_path": "sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_02.ogg"
+    },
+    "sounds/weapon_tech_medium_missile_muzzle_03.sound": {
+      "sha256": "3069920ccce1cbf3cd430c0138b2c887b906144d0d6a254c9f2ebc5472157590",
+      "bytes": 166,
+      "actual_relative_path": "sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_03.sound"
+    },
+    "sounds/weapon_tech_medium_missile_muzzle_03.ogg": {
+      "sha256": "23cfb6a02ba4657fa99b130647430ab69b71aa588837cf54409822a18f06e174",
+      "bytes": 46810,
+      "actual_relative_path": "sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_03.ogg"
+    },
+    "effects/torpedo_missile_hit.particle_effect": {
+      "sha256": "9eabbb51dd0cf9aa93c2971aec201699f3ad70c99f3e19cc33405aafb6d8641f",
+      "bytes": 32102,
+      "actual_relative_path": "effects/torpedo_missile_hit.particle_effect"
+    },
+    "textures/t_gradient_64.dds": {
+      "sha256": "7697b9f33e02b7ed1f1e01c5d552dd352af66bf92c3d0dce1cc89de365e57289",
+      "bytes": 5636,
+      "actual_relative_path": "textures/t_gradient_64.dds"
+    },
+    "textures/smoke_uv.dds": {
+      "sha256": "7e29fafd0607883c1ea0913b8aafe92aac0b4a7f5ebd80d4eab2a1b1373793a7",
+      "bytes": 1398276,
+      "actual_relative_path": "textures/smoke_uv.dds"
+    },
+    "textures/smoke_noise.dds": {
+      "sha256": "2a0963d65544501c382d8f7e3a520917ecf3c4cb3a1fd5446c3f7ef83e836ea9",
+      "bytes": 349700,
+      "actual_relative_path": "textures/smoke_noise.dds"
+    },
+    "textures/binary_blast_4.dds": {
+      "sha256": "e0af3cd295e6a399fbc3027d5228d613f969c263305519d4a1124ce4e133ce22",
+      "bytes": 1398276,
+      "actual_relative_path": "textures/binary_blast_4.dds"
+    },
+    "textures/t_gradient_63.dds": {
+      "sha256": "af677e8cf28fa1d53582a7b886d2cb3dc08b066f2ae15c3486d7dda1ada5ece6",
+      "bytes": 5636,
+      "actual_relative_path": "textures/t_gradient_63.dds"
+    },
+    "textures/water_uv.dds": {
+      "sha256": "fe23cdad8a0a1c80a994cc1de3bf92f2100397bc4f4aae447f07bda7506f5845",
+      "bytes": 349700,
+      "actual_relative_path": "textures/water_uv.dds"
+    },
+    "textures/t_gradient_53.dds": {
+      "sha256": "ffdb7df4ae4cae98e4e4b96175d12c1cd94eb964f64c4535f08c1062f592fa69",
+      "bytes": 5636,
+      "actual_relative_path": "textures/t_gradient_53.dds"
+    },
+    "textures/t_gradient_49.dds": {
+      "sha256": "333516088fb8c61f01cc17ba6f5cea049b11a82266847ed714f40e6f8b786abd",
+      "bytes": 5636,
+      "actual_relative_path": "textures/t_gradient_49.dds"
+    },
+    "textures/smoke_noise2.dds": {
+      "sha256": "7c71affacebde80a753fec3ffaf882d30f19e1c98842f9952ff70d860072a073",
+      "bytes": 5592580,
+      "actual_relative_path": "textures/smoke_noise2.dds"
+    },
+    "textures/cricle_cloud_01.dds": {
+      "sha256": "3a9bbe9f02bb7c23a71b1c09aa1e4c04964b997f87460566ff90fa3847e8802b",
+      "bytes": 1398276,
+      "actual_relative_path": "textures/cricle_cloud_01.dds"
+    },
+    "textures/t_gradient_yellow_star.dds": {
+      "sha256": "ce3230e7236d3956bc967a61b57a1e8154fc39b661c4f9b9ddbfc5e55774aea8",
+      "bytes": 5636,
+      "actual_relative_path": "textures/t_gradient_yellow_star.dds"
+    },
+    "textures/t_uvdist_001.dds": {
+      "sha256": "4be18af58bfa1e849141fc86879d997b6ed3a4ecd1ab148e505217f244675a7d",
+      "bytes": 87556,
+      "actual_relative_path": "textures/t_uvdist_001.dds"
+    },
+    "textures/t_gradient_62.dds": {
+      "sha256": "14ed9969be975ef1bceb5c81df6716f289a7f1297aed2193b4186e634f9187f1",
+      "bytes": 5636,
+      "actual_relative_path": "textures/t_gradient_62.dds"
+    },
+    "effects/javelis_torpedo_muzzle.particle_effect": {
+      "sha256": "035f416454758ceaf2a313bb477187ce37253a74b2e98d9aeb6ee49f46687c1b",
+      "bytes": 10631,
+      "actual_relative_path": "effects/javelis_torpedo_muzzle.particle_effect"
+    },
+    "textures/cloud_01.dds": {
+      "sha256": "666ce0d97ec15d4a432f864678ee3394ad1d02d0f1151dd6cd2153492908fe20",
+      "bytes": 1398276,
+      "actual_relative_path": "textures/cloud_01.dds"
+    },
+    "textures/t_fire_noise.dds": {
+      "sha256": "e8d19f5aa77b705500868e454cde866c6b5664373523a63ac6b6c7dc15057124",
+      "bytes": 1398276,
+      "actual_relative_path": "textures/t_fire_noise.dds"
+    },
+    "entities/trader_battle_capital_ship.unit": {
+      "sha256": "75d19ed8116c22a6c6d04ac55eacec0e555735d5b09d5632f67229f403daaa80",
+      "bytes": 29542,
+      "actual_relative_path": "entities/trader_battle_capital_ship.unit"
+    },
+    "entities/trader_battle_capital_ship_heavy_gauss.weapon": {
+      "sha256": "02d293a20ab2cddb4b3d1af1229265ecdd502bef7b7d5e24b2c041f379204921",
+      "bytes": 1600,
+      "actual_relative_path": "entities/trader_battle_capital_ship_heavy_gauss.weapon"
+    },
+    "entities/trader_battle_capital_ship_medium_autocannon.weapon": {
+      "sha256": "ad4520db5d5d8a43fba49d332ed22888d4f24d259af2f1076e7f1788de52a960",
+      "bytes": 1629,
+      "actual_relative_path": "entities/trader_battle_capital_ship_medium_autocannon.weapon"
+    },
+    "entities/trader_battle_capital_ship_light_autocannon.weapon": {
+      "sha256": "a497e9c53f5dd931b7fa15d1b8b6bf2d4600723dd80d0673d417b392ccadb048",
+      "bytes": 1602,
+      "actual_relative_path": "entities/trader_battle_capital_ship_light_autocannon.weapon"
+    },
+    "entities/trader_battle_capital_ship_planet_bombing.weapon": {
+      "sha256": "5b431029af62075873910c57040a58e9abc83b8f76ded1041cd55a53fd5d42b6",
+      "bytes": 940,
+      "actual_relative_path": "entities/trader_battle_capital_ship_planet_bombing.weapon"
+    },
+    "entities/trader_carrier_capital_ship.unit": {
+      "sha256": "24fb2fe89162b5c1d725d9d218ad32465746ec73c7c521fff9fc9475b77411ee",
+      "bytes": 40759,
+      "actual_relative_path": "entities/trader_carrier_capital_ship.unit"
+    },
+    "entities/trader_carrier_capital_ship_light_autocannon.weapon": {
+      "sha256": "a09f769d19fd199cc2eec989eb3c4292635c64dbd217a247c171d0eaa0343f67",
+      "bytes": 1607,
+      "actual_relative_path": "entities/trader_carrier_capital_ship_light_autocannon.weapon"
+    },
+    "entities/trader_carrier_capital_ship_medium_autocannon.weapon": {
+      "sha256": "9bf583a4850c8b11ff909c2d3bff2cc4d85878df5f088113979eb089eedb4888",
+      "bytes": 1633,
+      "actual_relative_path": "entities/trader_carrier_capital_ship_medium_autocannon.weapon"
+    },
+    "entities/trader_carrier_capital_ship_point_defense_autocannon.weapon": {
+      "sha256": "c9ff7aab1ddf3c2c146c15b72ed1e78f405defa4e36410e9cc935e71b8bfe407",
+      "bytes": 1647,
+      "actual_relative_path": "entities/trader_carrier_capital_ship_point_defense_autocannon.weapon"
+    },
+    "entities/trader_carrier_capital_ship_planet_bombing.weapon": {
+      "sha256": "e6af4feeb1b06acbb222e40110c087b46a7519ed181a571bddc66148271a65f2",
+      "bytes": 945,
+      "actual_relative_path": "entities/trader_carrier_capital_ship_planet_bombing.weapon"
+    },
+    "entities/trader_loyalist_titan.unit": {
+      "sha256": "8bd6a2ea315f91d0cc3cafdb0eabe966eda83bea133b911473dc4ac64cc30390",
+      "bytes": 72287,
+      "actual_relative_path": "entities/trader_loyalist_titan.unit"
+    },
+    "entities/trader_loyalist_titan_medium_autocannon.weapon": {
+      "sha256": "a5c81911b7640e8de0098c8fc540da558a2d69101edc4604e732c30477f73bc0",
+      "bytes": 1535,
+      "actual_relative_path": "entities/trader_loyalist_titan_medium_autocannon.weapon"
+    },
+    "entities/trader_loyalist_titan_beam.weapon": {
+      "sha256": "f6814655a5be625c920107864084c5d5fec1d466b40dd8264e58c4a0850e9678",
+      "bytes": 1432,
+      "actual_relative_path": "entities/trader_loyalist_titan_beam.weapon"
+    },
+    "entities/trader_loyalist_titan_medium_missile.weapon": {
+      "sha256": "bd166b8ddc91b7e11ca0b8d67530cf7248285b155a169b9b2faabcedad5dbca5",
+      "bytes": 1002,
+      "actual_relative_path": "entities/trader_loyalist_titan_medium_missile.weapon"
+    },
+    "entities/trader_loyalist_titan_medium_missile_side.weapon": {
+      "sha256": "993d0c4d6cebfe3e6d4bed66cbf34ab72548b41e0ae9cfdf17b0ca865ca934c9",
+      "bytes": 1009,
+      "actual_relative_path": "entities/trader_loyalist_titan_medium_missile_side.weapon"
+    },
+    "entities/trader_loyalist_titan_point_defense_autocannon.weapon": {
+      "sha256": "ec84d7245eb08ef94c6e398f47008e07294ccfc15bf4196e218ca8050409934c",
+      "bytes": 1623,
+      "actual_relative_path": "entities/trader_loyalist_titan_point_defense_autocannon.weapon"
+    },
+    "entities/trader_loyalist_titan_planet_bombing.weapon": {
+      "sha256": "fda5e8421055261fa5ead8b750568440189f0a0333152e825f675dab201e22d9",
+      "bytes": 920,
+      "actual_relative_path": "entities/trader_loyalist_titan_planet_bombing.weapon"
+    },
+    "entities/trader_rebel_titan.unit": {
+      "sha256": "4453421f447457174050e0784664496d1d28f6c57be096e2b80a4ce1df34d4c5",
+      "bytes": 58732,
+      "actual_relative_path": "entities/trader_rebel_titan.unit"
+    },
+    "entities/trader_rebel_titan_fixed_heavy_gauss.weapon": {
+      "sha256": "b51b5ce6bf3aee3f7e68af09310a3273282b1a48bd2c8dcf1178e42ae18b3b1c",
+      "bytes": 1195,
+      "actual_relative_path": "entities/trader_rebel_titan_fixed_heavy_gauss.weapon"
+    },
+    "entities/trader_rebel_titan_heavy_gauss.weapon": {
+      "sha256": "53424a7206100c4524ad22ab9a48bfbb84c406f0e1a7c3eebe56cb278ad70c6a",
+      "bytes": 1512,
+      "actual_relative_path": "entities/trader_rebel_titan_heavy_gauss.weapon"
+    },
+    "entities/trader_rebel_titan_rail_gun.weapon": {
+      "sha256": "639695487acb6e643a2c892096ab2c0fb8c5cc96abe214ab4ac8f543ed9562e3",
+      "bytes": 1066,
+      "actual_relative_path": "entities/trader_rebel_titan_rail_gun.weapon"
+    },
+    "entities/trader_rebel_titan_point_defense_autocannon.weapon": {
+      "sha256": "66f64b2e57bbe57bad2f8773039a967eafd577877f7c47d800c405d5453b7316",
+      "bytes": 1611,
+      "actual_relative_path": "entities/trader_rebel_titan_point_defense_autocannon.weapon"
+    },
+    "entities/trader_rebel_titan_medium_autocannon.weapon": {
+      "sha256": "f066a1da9e101e0eda077185afac0548141fd1b51cf7b8c37470c47ef0d1421a",
+      "bytes": 1607,
+      "actual_relative_path": "entities/trader_rebel_titan_medium_autocannon.weapon"
+    },
+    "entities/trader_rebel_titan_medium_missile.weapon": {
+      "sha256": "781265eeb0de70e1afa41484deed24c2862f58e452dc284b07dbf83e33f8732d",
+      "bytes": 1009,
+      "actual_relative_path": "entities/trader_rebel_titan_medium_missile.weapon"
+    },
+    "entities/trader_rebel_titan_planet_bombing.weapon": {
+      "sha256": "defc1dd5c3b48b7e017f082a2364640aa8bb716a37f6a53d7df76209b0b154a3",
+      "bytes": 908,
+      "actual_relative_path": "entities/trader_rebel_titan_planet_bombing.weapon"
+    },
+    "entities/trader_carrier_capital_ship_mobile_unit_factory.ability": {
+      "sha256": "2514d71124c16722c0d044533b587cab1999f064b4772e7811b7eacf873dbfa1",
+      "bytes": 882,
+      "actual_relative_path": "entities/trader_carrier_capital_ship_mobile_unit_factory.ability"
+    },
+    "entities/trader_carrier_capital_ship_mobile_unit_factory.buff": {
+      "sha256": "c5b77ca0d299c5987adc5cc8be511ff8be49e292e02e12bcd2c71cd6f901b173",
+      "bytes": 456,
+      "actual_relative_path": "entities/trader_carrier_capital_ship_mobile_unit_factory.buff"
+    },
+    "entities/trader_carrier_capital_ship_mobile_unit_factory.action_data_source": {
+      "sha256": "871426ae1083bb968da2c1cbdaba77ea69e46f59f80adcec3b933828cc3435a8",
+      "bytes": 584,
+      "actual_relative_path": "entities/trader_carrier_capital_ship_mobile_unit_factory.action_data_source"
+    },
+    "entities/trader_pirate_mercenary_base_unit_item.ability": {
+      "sha256": "7c3d0928f15cad1c02c4bf60fa83cb218e00b9610d07d80a9fdef1542cd55ae0",
+      "bytes": 3046,
+      "actual_relative_path": "entities/trader_pirate_mercenary_base_unit_item.ability"
+    },
+    "entities/trader_pirate_mercenary_base_unit_item.action_data_source": {
+      "sha256": "4212cd89d1f8f71af5e6d1dcf16e527ea736336454e9b1d0a79839c26a20a079",
+      "bytes": 682,
+      "actual_relative_path": "entities/trader_pirate_mercenary_base_unit_item.action_data_source"
+    },
+    "entities/eivonns_light_ships.ability": {
+      "sha256": "842a96946d6f7647aab39be2661a57ac9a31931695fe6d6a5f1b72e25d817340",
+      "bytes": 3292,
+      "actual_relative_path": "entities/eivonns_light_ships.ability"
+    },
+    "entities/trader_light_frigate.unit": {
+      "sha256": "21f7dc1945cb4b04f28fcd7c22e0a1cfcfdf5eae4c41af7e5270bf847f22cb48",
+      "bytes": 6192,
+      "actual_relative_path": "entities/trader_light_frigate.unit"
+    }
+  },
+  "particle_textures_checked": [
+    "javelis_torpedo_muzzle",
+    "torpedo_missile_hit"
+  ],
+  "reference_coverage": "New Javelis mesh/material/textures/trail/death/sound plus nested particle texture dependencies; main final package resolver covers unit/skin/UI/localization integration. No particle-effect schema exists."
+}

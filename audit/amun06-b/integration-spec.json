@@ -1,0 +1,804 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "runtime": "NOT RUN",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game",
+  "hull_mesh": "expanse06_amun_hull",
+  "pod_mesh": "expanse06_amun_boarding_pod",
+  "rigs": [
+    {
+      "index": 0,
+      "source_pad_root": 892,
+      "source_yaw_node": 895,
+      "source_pitch_node": 900,
+      "source_barrel_node": 905,
+      "source_pad_mesh": 894,
+      "mount": {
+        "weapon": "expanse06_amun_pdc_0",
+        "mesh_point": "child.expanse06_amun_pdc_0_base",
+        "weapon_position": [
+          -23.860285191867504,
+          -20.226417562732074,
+          24.364337536870206
+        ],
+        "up": [
+          -0.8726331394494881,
+          -0.4839177233860546,
+          0.06584102769085844
+        ],
+        "forward": [
+          -0.13204916750546908,
+          0.36358667710970644,
+          0.9221538622103334
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.4701855173210479,
+          -0.8726331394494881,
+          -0.13204916750546908
+        ],
+        [
+          0.7960077654099363,
+          -0.4839177233860546,
+          0.36358667710970644
+        ],
+        [
+          -0.38117872016761156,
+          0.06584102769085844,
+          0.9221538622103334
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -23.860285191867504,
+        -20.226417562732074,
+        24.364337536870206
+      ],
+      "pitch_pivot_hull": [
+        -25.11299310860585,
+        -21.231482301497103,
+        23.810695924402474
+      ],
+      "muzzle_hull": [
+        -26.05639600316945,
+        -18.621743597932728,
+        30.424262900600173
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse06_amun_pdc_0_base",
+        "biaxial_barrel_mesh": "expanse06_amun_pdc_0_barrel",
+        "barrel_position": [
+          2.1843591020073724e-06,
+          1.5430707496980827,
+          -0.7105518623323791
+        ],
+        "muzzle_positions": [
+          [
+            -4.311843950747236e-06,
+            -0.004210139860198336,
+            7.172168120292612
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse06_amun_pdc_0_base",
+          "mesh_definition": {
+            "mesh": "expanse06_amun_pdc_0_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse06_amun_pdc_0_barrel",
+          "mesh_definition": {
+            "mesh": "expanse06_amun_pdc_0_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "neutral_pose": "Original yaw retained. Source pitch pose removed at exact source pitch pivot and placed horizontal in game neutral; source barrel+Z becomes game local+Z, pad+Z becomes game local+Y. No geometry deformation.",
+      "runtime": "NOT RUN; source joint axes verified, aiming/clearance require game"
+    },
+    {
+      "index": 1,
+      "source_pad_root": 910,
+      "source_yaw_node": 913,
+      "source_pitch_node": 918,
+      "source_barrel_node": 923,
+      "source_pad_mesh": 912,
+      "mount": {
+        "weapon": "expanse06_amun_pdc_1",
+        "mesh_point": "child.expanse06_amun_pdc_1_base",
+        "weapon_position": [
+          -1.8228590660676334,
+          -29.924718651992592,
+          -32.38240929367494
+        ],
+        "up": [
+          2.254759592139297e-06,
+          -0.9999999999974569,
+          4.756115967090925e-08
+        ],
+        "forward": [
+          0.9268050817354707,
+          2.107583895733255e-06,
+          0.37554272788174925
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.3755427278808946,
+          2.254759592139297e-06,
+          0.9268050817354707
+        ],
+        [
+          -8.026786434403195e-07,
+          -0.9999999999974569,
+          2.107583895733255e-06
+        ],
+        [
+          0.9268050817378658,
+          4.756115967090925e-08,
+          0.37554272788174925
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -1.8228590660676334,
+        -29.924718651992592,
+        -32.38240929367494
+      ],
+      "pitch_pivot_hull": [
+        -2.481396889540318,
+        -31.46779091016709,
+        -32.649244024787
+      ],
+      "muzzle_hull": [
+        4.16580658118942,
+        -31.463562383193185,
+        -29.95579244050506
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse06_amun_pdc_1_base",
+        "biaxial_barrel_mesh": "expanse06_amun_pdc_1_barrel",
+        "barrel_position": [
+          6.544452009238973e-06,
+          1.5430707606351297,
+          -0.7105472962791588
+        ],
+        "muzzle_positions": [
+          [
+            -4.311843934366917e-06,
+            -0.004213411024424775,
+            7.172168120292614
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse06_amun_pdc_1_base",
+          "mesh_definition": {
+            "mesh": "expanse06_amun_pdc_1_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse06_amun_pdc_1_barrel",
+          "mesh_definition": {
+            "mesh": "expanse06_amun_pdc_1_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "neutral_pose": "Original yaw retained. Source pitch pose removed at exact source pitch pivot and placed horizontal in game neutral; source barrel+Z becomes game local+Z, pad+Z becomes game local+Y. No geometry deformation.",
+      "runtime": "NOT RUN; source joint axes verified, aiming/clearance require game"
+    },
+    {
+      "index": 2,
+      "source_pad_root": 946,
+      "source_yaw_node": 949,
+      "source_pitch_node": 954,
+      "source_barrel_node": 959,
+      "source_pad_mesh": 948,
+      "mount": {
+        "weapon": "expanse06_amun_pdc_2",
+        "mesh_point": "child.expanse06_amun_pdc_2_base",
+        "weapon_position": [
+          -1.862868468877709,
+          10.45335292435636,
+          -42.56707056297099
+        ],
+        "up": [
+          1.276626374509674e-16,
+          1.0,
+          -4.4035809183333386e-17
+        ],
+        "forward": [
+          0.9336202781597208,
+          -1.776584060091761e-16,
+          0.35826411515663326
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.3582641151566333,
+          1.276626374509674e-16,
+          0.9336202781597208
+        ],
+        [
+          -6.826848243287976e-17,
+          1.0,
+          -1.776584060091761e-16
+        ],
+        [
+          -0.9336202781597208,
+          -4.4035809183333386e-17,
+          0.35826411515663326
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -1.862868468877709,
+        10.45335292435636,
+        -42.56707056297099
+      ],
+      "pitch_pivot_hull": [
+        -2.5262482701778994,
+        11.996421503505225,
+        -42.821638234711905
+      ],
+      "muzzle_hull": [
+        4.169835507588925,
+        11.992207543647428,
+        -40.252106986683245
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse06_amun_pdc_2_base",
+        "biaxial_barrel_mesh": "expanse06_amun_pdc_2_barrel",
+        "barrel_position": [
+          4.362975629614457e-06,
+          1.5430685791488656,
+          -0.7105472962791675
+        ],
+        "muzzle_positions": [
+          [
+            5.113170484461064e-08,
+            -0.004213959857796328,
+            7.172170438121765
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse06_amun_pdc_2_base",
+          "mesh_definition": {
+            "mesh": "expanse06_amun_pdc_2_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse06_amun_pdc_2_barrel",
+          "mesh_definition": {
+            "mesh": "expanse06_amun_pdc_2_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "neutral_pose": "Original yaw retained. Source pitch pose removed at exact source pitch pivot and placed horizontal in game neutral; source barrel+Z becomes game local+Z, pad+Z becomes game local+Y. No geometry deformation.",
+      "runtime": "NOT RUN; source joint axes verified, aiming/clearance require game"
+    }
+  ],
+  "spatial": {
+    "box": {
+      "center": [
+        -1.3428700282259847,
+        -9.735684350738884,
+        3.162116999999995
+      ],
+      "extents": [
+        28.078646429073814,
+        23.231820393532026,
+        70.18149976630436
+      ]
+    },
+    "radius": 71.18901353126955,
+    "bounds_min": [
+      -29.4215164572998,
+      -32.96750474427091,
+      -67.01938276630436
+    ],
+    "bounds_max": [
+      26.73577640084783,
+      13.496136042793143,
+      73.34361676630435
+    ],
+    "includes": "Real central hull, fixed doors, three selected pads and neutral yaw/pitch geometry only; pod excluded"
+  },
+  "equipment": {
+    "railgun": {
+      "position": [
+        -1.8635979001501342,
+        -8.295146593030672,
+        66.47124465258463
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "mesh_point": "weapon.rail.0",
+      "source": "Actual paired forward rail components9/10 in source hull, full terminal cap bounds midpoint; +Y ray clearance checked",
+      "source_position": [
+        -0.00439071655274148,
+        52.882758636474605,
+        -0.19853949546813843
+      ]
+    },
+    "torpedo_ports": [
+      {
+        "name": "torpedo_bay_002",
+        "position": [
+          -7.557701039709313,
+          7.028108960149176,
+          1.4651650074353164
+        ],
+        "forward": [
+          -0.8172192430060997,
+          0.5757670319221615,
+          0.025397515864388376
+        ],
+        "up": [
+          -0.0017606293200932172,
+          0.04157358345665615,
+          -0.999133893601338
+        ],
+        "source_root": 7,
+        "source_position": [
+          2.4848846093377226,
+          24.46423053336968,
+          6.500285767433161
+        ],
+        "source": "Measured named source door center/normal plus0.06 outward clearance; static door pose; launch aperture/door-clearance runtime NOT RUN"
+      },
+      {
+        "name": "torpedo_bay_003",
+        "position": [
+          3.394656358833288,
+          -23.820028294190728,
+          3.9714273378458493
+        ],
+        "forward": [
+          0.9174241623276942,
+          -0.3877953557794632,
+          0.08914969665236218
+        ],
+        "up": [
+          -0.04128953868344038,
+          0.130057770375192,
+          0.9906463296052445
+        ],
+        "source_root": 12,
+        "source_position": [
+          -2.303127192400843,
+          25.5598863067884,
+          -6.985509104005636
+        ],
+        "source": "Measured named source door center/normal plus0.06 outward clearance; static door pose; launch aperture/door-clearance runtime NOT RUN"
+      }
+    ],
+    "exhaust": {
+      "position": [
+        -1.9330433549627672,
+        -7.8406443103400925,
+        -67.08800670172256
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "source": "Fitted actual aft nozzle inner rim; full circumference, not whole-hull min slice center",
+      "inner_rim_vertices": 8,
+      "source_inner_radius": 3.9735602553183234,
+      "source_fit_residual": 0.002796756994965399,
+      "source_position": [
+        0.025968560917900143,
+        -5.50497,
+        0.00015401080195383702
+      ]
+    },
+    "boarding_port": {
+      "name": "boarding_shuttle_bay",
+      "position": [
+        -19.6923820878351,
+        -28.252026771332503,
+        9.083066768079217
+      ],
+      "forward": [
+        0.5701251099495643,
+        -0.7394882511625024,
+        0.35793083884686605
+      ],
+      "up": [
+        -0.4269353747586334,
+        0.1055480517606456,
+        0.8981012162051877
+      ],
+      "source_root": 41,
+      "source_position": [
+        7.789769571956904,
+        27.794527583327305,
+        -8.92303362422134
+      ],
+      "source": "Measured named source door center/normal plus0.06 outward clearance; static door pose; launch aperture/door-clearance runtime NOT RUN",
+      "mesh_point": "weapon.boarding.0"
+    }
+  },
+  "normalization": {
+    "source_to_game_rotation": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "source_center": [
+      -0.8190946578979537,
+      25.206082344055172,
+      -0.99298095703125
+    ],
+    "scale": 2.287454135882813,
+    "target_center": [
+      0.0,
+      -10.112395,
+      3.162117
+    ],
+    "central_hull_length": 140.3629995326087,
+    "scale_status": "Provisional61.5m Amun /46m Tachi, based on secondary size reference supplied by main; not primary-verified",
+    "source_reference": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/master/Amun-Ra_Class_Stealth_Ship_[The_Expanse].gltf",
+    "presentation_cancel_matrix": [
+      [
+        0.004730606453391521,
+        -0.006967882491235316,
+        0.005391658006206012,
+        25.78284119956957
+      ],
+      [
+        0.008810298659384073,
+        0.003741337516003718,
+        -0.0028950010339402485,
+        4.594486012741173
+      ],
+      [
+        1.4703551665819942e-09,
+        0.006119722791303342,
+        0.00790879212722955,
+        36.28613526628536
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "selection": {
+    "selected_pdc_roots": [
+      892,
+      910,
+      946
+    ],
+    "omitted_pdc_root": 928,
+    "reason": "Requested three guns: dorsal/ventral opposition plus starboard-forward reinforcement; source has four, this is an explicit non-canonical prototype choice",
+    "excluded_detached_torpedoes": [
+      102,
+      107,
+      112,
+      117
+    ],
+    "excluded_detached_pods": [
+      47,
+      122,
+      177,
+      232,
+      287,
+      342,
+      397,
+      452,
+      507,
+      562,
+      617,
+      672,
+      727,
+      782,
+      837
+    ],
+    "separate_pod_source_root": 122,
+    "no_fourth_static_gun": true
+  },
+  "meshes": [
+    {
+      "id": "expanse06_amun_hull",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_hull.mesh",
+      "sha256": "8c80d0b50ff03bea1b3ebc1ee0ac17b4021a2db4ba9a3b25f321b17746850194",
+      "triangles": 23842,
+      "materials": [
+        "expanse06_amun_hull_expanse06_amun_surface"
+      ]
+    },
+    {
+      "id": "expanse06_amun_pdc_0_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_0_base.mesh",
+      "sha256": "fc16d2b4d38a54806002f94ac462cd31d3b48a2ed1f2b7b98930d74ca955118e",
+      "triangles": 352,
+      "materials": [
+        "expanse06_amun_pdc_0_base_expanse06_amun_surface"
+      ]
+    },
+    {
+      "id": "expanse06_amun_pdc_0_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "sha256": "dd39838bc5c8505c13101a7c3adf57bad4f2a58f28a6b09a4093d2d126170637",
+      "triangles": 876,
+      "materials": [
+        "expanse06_amun_pdc_0_barrel_expanse06_amun_surface"
+      ]
+    },
+    {
+      "id": "expanse06_amun_pdc_1_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_1_base.mesh",
+      "sha256": "824f938bb37a5a110500987e97aaef01a6938f5579ec9020412e94e2457ffd33",
+      "triangles": 352,
+      "materials": [
+        "expanse06_amun_pdc_1_base_expanse06_amun_surface"
+      ]
+    },
+    {
+      "id": "expanse06_amun_pdc_1_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "sha256": "034074396411f46abdc077c6c6d040ec9af10aee574eaaca8fc85b06c2c159fe",
+      "triangles": 876,
+      "materials": [
+        "expanse06_amun_pdc_1_barrel_expanse06_amun_surface"
+      ]
+    },
+    {
+      "id": "expanse06_amun_pdc_2_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_2_base.mesh",
+      "sha256": "346fc42476ace1bca267383704e92a3f4f56563fd97adfc90a6139b775052929",
+      "triangles": 352,
+      "materials": [
+        "expanse06_amun_pdc_2_base_expanse06_amun_surface"
+      ]
+    },
+    {
+      "id": "expanse06_amun_pdc_2_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "sha256": "0166f3672b4bfe874f562d34a6b4851ba8f0114aadd88db85e10c8b344554f9b",
+      "triangles": 876,
+      "materials": [
+        "expanse06_amun_pdc_2_barrel_expanse06_amun_surface"
+      ]
+    },
+    {
+      "id": "expanse06_amun_boarding_pod",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/meshes/expanse06_amun_boarding_pod.mesh",
+      "sha256": "900c31b16da99dbb3ba5effc96e9d0240af33edba797cf9c658f829d1e269695",
+      "triangles": 4481,
+      "materials": [
+        "expanse06_amun_boarding_pod_expanse06_amun_surface"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "expanse06_amun_boarding_pod_expanse06_amun_surface",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/mesh_materials/expanse06_amun_boarding_pod_expanse06_amun_surface.mesh_material",
+      "sha256": "d6b3d8bd2b26ef9f22fbc07c99987eeb284e66e30203095ffafb7e73d07411b1"
+    },
+    {
+      "id": "expanse06_amun_hull_expanse06_amun_surface",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/mesh_materials/expanse06_amun_hull_expanse06_amun_surface.mesh_material",
+      "sha256": "d6b3d8bd2b26ef9f22fbc07c99987eeb284e66e30203095ffafb7e73d07411b1"
+    },
+    {
+      "id": "expanse06_amun_pdc_0_barrel_expanse06_amun_surface",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/mesh_materials/expanse06_amun_pdc_0_barrel_expanse06_amun_surface.mesh_material",
+      "sha256": "d6b3d8bd2b26ef9f22fbc07c99987eeb284e66e30203095ffafb7e73d07411b1"
+    },
+    {
+      "id": "expanse06_amun_pdc_0_base_expanse06_amun_surface",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/mesh_materials/expanse06_amun_pdc_0_base_expanse06_amun_surface.mesh_material",
+      "sha256": "d6b3d8bd2b26ef9f22fbc07c99987eeb284e66e30203095ffafb7e73d07411b1"
+    },
+    {
+      "id": "expanse06_amun_pdc_1_barrel_expanse06_amun_surface",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/mesh_materials/expanse06_amun_pdc_1_barrel_expanse06_amun_surface.mesh_material",
+      "sha256": "d6b3d8bd2b26ef9f22fbc07c99987eeb284e66e30203095ffafb7e73d07411b1"
+    },
+    {
+      "id": "expanse06_amun_pdc_1_base_expanse06_amun_surface",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/mesh_materials/expanse06_amun_pdc_1_base_expanse06_amun_surface.mesh_material",
+      "sha256": "d6b3d8bd2b26ef9f22fbc07c99987eeb284e66e30203095ffafb7e73d07411b1"
+    },
+    {
+      "id": "expanse06_amun_pdc_2_barrel_expanse06_amun_surface",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/mesh_materials/expanse06_amun_pdc_2_barrel_expanse06_amun_surface.mesh_material",
+      "sha256": "d6b3d8bd2b26ef9f22fbc07c99987eeb284e66e30203095ffafb7e73d07411b1"
+    },
+    {
+      "id": "expanse06_amun_pdc_2_base_expanse06_amun_surface",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/mesh_materials/expanse06_amun_pdc_2_base_expanse06_amun_surface.mesh_material",
+      "sha256": "d6b3d8bd2b26ef9f22fbc07c99987eeb284e66e30203095ffafb7e73d07411b1"
+    }
+  ],
+  "textures": [
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/textures/expanse06_amun_surface_clr.dds",
+      "sha256": "09484852c84a914fee40ca55f6802aa2be3002328c8e77cf64c35d4f7a1271f6",
+      "width": 2048,
+      "height": 2048,
+      "dxgi_format": 98,
+      "fourcc": "DX10"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/textures/expanse06_amun_surface_msk.dds",
+      "sha256": "be683c473b845a8cfa5cb15aaa9c70d13c92dbf64c1e0cea7e0ac6b3a04f83b6",
+      "width": 2048,
+      "height": 2048,
+      "dxgi_format": 98,
+      "fourcc": "DX10"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/textures/expanse06_amun_surface_nrm.dds",
+      "sha256": "40aa5884687acbf236db9c35445a402699bffbed18c07dc7966f1470f943b5b7",
+      "width": 2048,
+      "height": 2048,
+      "dxgi_format": 84,
+      "fourcc": "BC5S"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/textures/expanse06_amun_surface_orm.dds",
+      "sha256": "7c09006790e01a20b8d3011c4bdcc76fe6541264dfedc2ab848c9df8cca9dfe5",
+      "width": 2048,
+      "height": 2048,
+      "dxgi_format": 98,
+      "fourcc": "DX10"
+    }
+  ],
+  "ship_triangle_count": 27526,
+  "pod_triangle_count": 4481,
+  "pod_meshpoints": [
+    {
+      "name": "center",
+      "position": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "exhaust.0",
+      "position": [
+        0.0,
+        0.0,
+        -3.383157253265381
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "bone_index": 0
+    }
+  ],
+  "editable_ship": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_editable.gltf",
+  "editable_pod": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_pod_editable.gltf",
+  "compiler_input_is_z_reflected": true,
+  "editable_is_z_reflected": false,
+  "mesh_compiler_applies_z_reflection": true,
+  "material_limitations": {
+    "aliases": [
+      "expanse06_amun_boarding_pod_expanse06_amun_surface",
+      "expanse06_amun_hull_expanse06_amun_surface",
+      "expanse06_amun_pdc_0_barrel_expanse06_amun_surface",
+      "expanse06_amun_pdc_0_base_expanse06_amun_surface",
+      "expanse06_amun_pdc_1_barrel_expanse06_amun_surface",
+      "expanse06_amun_pdc_1_base_expanse06_amun_surface",
+      "expanse06_amun_pdc_2_barrel_expanse06_amun_surface",
+      "expanse06_amun_pdc_2_base_expanse06_amun_surface"
+    ],
+    "texture_dimensions": [
+      2048,
+      2048
+    ],
+    "source_dimensions": [
+      4096,
+      4096
+    ],
+    "normal_map": "Source referenced glTF normals retained and renormalized after resize; DirectX filename ambiguity requires runtime bump inspection, no unverified green reversal",
+    "ORM": "R255 (no AO source), G/B source glTF roughness/metallic",
+    "mask": "R/G/A0, B=max source emissiveRGB. Emission is base-color-tinted by installed shader, not independent source emissionRGB",
+    "source_material": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/materials/expanse06_amun_surface.mesh_material"
+  },
+  "source_hashes": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/master/Amun-Ra_Class_Stealth_Ship_[The_Expanse].gltf": "5c3f66749ccb3ad2632d1999a424520fe48c0a7d56684fcb68d9c8011c6d8f9b",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/master/Amun-Ra_Class_Stealth_Ship_[The_Expanse].bin": "45a1d0c349dfc89ef8957f17b3871d3139d2f949e4fe8c9213917f8e64649381",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/master/background.jpeg": "a59371956303a36f6e3f8e7b72490d29eccbd560267dbd468f677c574ba17086",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/master/images/DefaultMaterial_Emissive.png": "223ff910d9679722175223df1b14fdc40604022dc96cc57973c0abe1c13916ba",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/master/images/DefaultMaterial_Metallic.png": "e91f87c353050d7e76cf07eaeafce849da934319adfd3004ff0627af74825238",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/master/images/DefaultMaterial_Normal_DirectX.png": "50477a1343e15e6a33e7f1342edc8fd5050e6e9843a74243dd6e9704b5e0ea6a",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/master/images/DefaultMaterial_Base_Color.png": "b0c7c99cc52aba63724fb8954ce80a529e097b16ebc1c179ef31fabcf5ff8535"
+  },
+  "offline_validation": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/amun06-b/output-validation.json",
+  "independent_checks": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/amun06-b/independent-checks.json"
+}

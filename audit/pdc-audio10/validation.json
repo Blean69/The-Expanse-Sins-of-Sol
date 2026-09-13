@@ -1,0 +1,38 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "source_preserved": true,
+  "schemas": 4,
+  "ships": [
+    "trader_light_frigate",
+    "expanse_rocinante_hero",
+    "expanse_amun_ra",
+    "expanse_donnager_battleship"
+  ],
+  "PDC_mounts": 31,
+  "only_skin_muzzle_sound_bindings_changed": true,
+  "gameplay_other_audio_music_unchanged": true,
+  "encoded_measurement": {
+    "input_i": "-18.10",
+    "input_tp": "-6.71",
+    "input_lra": "0.00",
+    "input_thresh": "-28.10",
+    "output_i": "-18.01",
+    "output_tp": "-6.61",
+    "output_lra": "0.00",
+    "output_thresh": "-28.01",
+    "normalization_type": "linear",
+    "target_offset": "0.01"
+  },
+  "base": {
+    "files": 490,
+    "zip_sha256": "2a9650d771178b1ae5ff83d2c5d2076dfcb546290bc233a8d4e352aebcad484f",
+    "tree_sha256": "9f1d4d51af96e2721f839610bc5402d279b72fb2f8084471b75fd219def62f48"
+  },
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "runtime": "NOT RUN",
+  "mix_gate": "Check overlapping bursts and zoom attenuation with one ship then a fleet; retains installed positional/nonlooping/light-weapon sound group."
+}

@@ -1,6 +1,8 @@
 # Build and load
 
-The ready packages are under `build/`, and both variants have already been copied to the observed user-mod directory. They are not enabled. Use one variant at a time.
+For the current work, use [Donnager0.10](donnager10.md): build/verify with `python3 tools/build_donnager10.py` and `--validate-only`. Its distinct combined mod ID is `expanse_donnager10`. Install the generated folder manually into the recorded Proton mods directory, then enable **only that combined variant** for a disposable test game. The agent does not install or enable it. Preserve0.9 for rollback and use its existing saves with0.9. Instructions below are historical baseline instructions.
+
+For the current six-PDC variant, use [polish.md](polish.md). It is built but not installed. The following instructions describe the older baseline setup; the user has since enabled/tested those baselines together. Preserve their installed folders and use only the new polish variant for the next test.
 
 ## Paths and prerequisites
 
@@ -120,3 +122,29 @@ In Sins II, open Modding, enable the local test, and apply changes. Start a new 
 Logs live at the sibling `sins2/logs` directory. Preserve the first failing log and save. To unload, disable the mod and apply changes; to uninstall, remove its own user-mod directory while the game is closed. No game-file restore should be required.
 
 Official workflow reference: [Stardock mod guide](https://stardock.atlassian.net/wiki/spaces/SSEFW/pages/2284027951/How%2Bto%2BCreate%2Ba%2BMod). No mod.io upload or public asset release was performed.
+# Historical experimental checkpoint
+
+The two installed baselines are frozen for this assignment. Do not run their rebuild/install steps above when loading the new polish candidate. Separate experiment assembly, validation, provenance and next-session loading guidance are in [experiments.md](experiments.md). They use the same recorded game and pinned SDK; no dependency update is required. Audio intake is documented in [audio-feasibility.md](audio-feasibility.md), with no audio integration.
+# Latest optional package
+
+Use the [self-contained custom-torpedo variant](torpedo05.md) for the current workstation experiment, or [0.4 with stock Javelis appearance](combat04.md) for comparison. Enable only one Expanse variant at a time. Both new packages are built but were not installed or enabled by this assignment. Existing installed folders and settings remain unchanged.
+
+## Amun-Ra follow-up
+
+See [Amun0.6 build/load and coverage notes](amun06.md) for the separate combined core and optional cloak experiments. Both preserve accepted0.4.1 content and must be loaded alone.
+
+## Rocinante voices
+
+See [voice0.7 build/load notes](voice07.md). Choose the matching complete core or cloak voice variant and load it alone. Existing packages remain untouched.
+
+## Current ability-control fix
+
+[Update0.8](update08.md) supersedes the earlier Amun/voice packages for testing ability controls. Choose the cloak variant for stealth and load it alone in a fresh test game.
+
+## Soundtrack combined build0.9
+
+[Current combined load instructions](music09.md) include the0.8 ability fix and all voice lines. Use the cloak variant alone for stealth; music routing and new ability controls still need runtime confirmation.
+
+## Current combined0.11 handoff
+
+See [Martian fleet0.11](update11.md) for fresh build requirements, distinct `expanse_update11.zip`, exact load folder and ordered U11 tests. This supersedes earlier package recommendations for the new Morrigan/Donnager work. Keep historical variants disabled when testing the combined package. Nothing is installed or enabled automatically.

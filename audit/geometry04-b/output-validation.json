@@ -1,0 +1,610 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "triangle_total": 92067,
+  "rest_pose_position_max_error": 2.091543061608976e-06,
+  "outputs": {
+    "hero_hull": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_hull.mesh",
+      "sha256": "bab077014fd34375253cd01f43562b3520333daf03e05d915ed738ef5d8f8c04",
+      "raw_official_sha256": "886665fa21ca636435690ccce896b4a7d880c63af2a049841e17e2e3ffb6522f",
+      "triangles": 67377,
+      "materials": [
+        "expanse04_hero_hull_expanse03_hero_mat_0",
+        "expanse04_hero_hull_expanse03_hero_mat_1",
+        "expanse04_hero_hull_expanse03_hero_mat_2"
+      ],
+      "source_frame_max_match_error": 2.0918924540651218e-06,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.0466352995972557e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.8868495301996342,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999999999588667e-07,
+      "changed_bytes": 1267276,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "a5e4f732f76c4429b50b087d305b63a86355313b7fc464467d298a0dc31efb31",
+      "trailer_sha256_after": "a5e4f732f76c4429b50b087d305b63a86355313b7fc464467d298a0dc31efb31",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            -10.112395286560059,
+            3.1621170043945312
+          ],
+          "rotation": [
+            0.9999823570251465,
+            5.816567863803357e-05,
+            -0.005937744397670031,
+            -1.8189894035458565e-12,
+            0.9999520182609558,
+            0.00979545246809721,
+            0.005938029382377863,
+            -0.009795279242098331,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            0.016193464398384094,
+            -9.88895320892334,
+            -49.3289680480957
+          ],
+          "rotation": [
+            -1.0,
+            5.15041948532547e-21,
+            2.233491787228789e-39,
+            5.15041948532547e-21,
+            1.0,
+            8.673048176225022e-19,
+            2.233491787228789e-39,
+            8.673048176225022e-19,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            9.886645317077637,
+            3.3580260276794434
+          ],
+          "rotation": [
+            0.9999823570251465,
+            5.816567863803357e-05,
+            -0.005937744397670031,
+            -1.8189894035458565e-12,
+            0.9999520182609558,
+            0.00979545246809721,
+            0.005938029382377863,
+            -0.009795279242098331,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -32.1113395690918,
+            2.9466171264648438
+          ],
+          "rotation": [
+            0.9999823570251465,
+            5.816567863803357e-05,
+            -0.005937744397670031,
+            -1.8189894035458565e-12,
+            0.9999520182609558,
+            0.00979545246809721,
+            0.005938029382377863,
+            -0.009795279242098331,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.rail.0",
+          "position": [
+            0.2194569855928421,
+            -19.96018409729004,
+            40.024654388427734
+          ],
+          "rotation": [
+            0.9999823570251465,
+            5.816567863803357e-05,
+            -0.005937744397670031,
+            -1.8189894035458565e-12,
+            0.9999520182609558,
+            0.00979545246809721,
+            0.005938029382377863,
+            -0.009795279242098331,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_0_base",
+          "position": [
+            -14.9133939743042,
+            -12.864521980285645,
+            4.77574348449707
+          ],
+          "rotation": [
+            -0.18147635459899902,
+            0.9833953380584717,
+            -1.4644264467733592e-08,
+            -0.9833953380584717,
+            -0.18147635459899902,
+            1.2803609195088939e-07,
+            1.2325250509093166e-07,
+            3.7636620930925346e-08,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_1_base",
+          "position": [
+            14.93702507019043,
+            -6.960951805114746,
+            4.774276256561279
+          ],
+          "rotation": [
+            0.20643746852874756,
+            -0.9784597158432007,
+            -4.380322593533492e-07,
+            0.9784597158432007,
+            0.20643746852874756,
+            1.358474861490322e-07,
+            -4.2495059915381717e-08,
+            -4.566409756989742e-07,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_2_base",
+          "position": [
+            9.381905555725098,
+            -8.87112045288086,
+            31.113956451416016
+          ],
+          "rotation": [
+            0.12938207387924194,
+            -0.9909226894378662,
+            -0.03650321811437607,
+            0.9566779136657715,
+            0.11505860090255737,
+            0.26744893193244934,
+            -0.2608211934566498,
+            -0.06952492147684097,
+            0.9628803730010986
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_3_base",
+          "position": [
+            -8.044827461242676,
+            -13.472634315490723,
+            33.993751525878906
+          ],
+          "rotation": [
+            0.38684916496276855,
+            -0.9213488698005676,
+            -0.038262322545051575,
+            -0.8844886422157288,
+            -0.3824692368507385,
+            0.26720261573791504,
+            -0.26082098484039307,
+            -0.06952454149723053,
+            -0.962880551815033
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_4_base",
+          "position": [
+            -2.1333463191986084,
+            1.8821171522140503,
+            -20.679227828979492
+          ],
+          "rotation": [
+            0.9845485091209412,
+            0.17511199414730072,
+            -7.725964934479634e-08,
+            -0.17511199414730072,
+            0.9845485091209412,
+            -3.555153682555101e-08,
+            6.98403752608101e-08,
+            4.8531305196775065e-08,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_5_base",
+          "position": [
+            2.142731189727783,
+            -21.659671783447266,
+            -20.67796516418457
+          ],
+          "rotation": [
+            -0.9832156896591187,
+            -0.18244709074497223,
+            1.659909969475848e-07,
+            0.18244709074497223,
+            -0.9832156896591187,
+            -8.858095412733746e-08,
+            1.7936628182724235e-07,
+            -5.680960413201319e-08,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "hero_pdc_0_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_0_base.mesh",
+      "sha256": "37671f5f6c3b5228cf6697a8a6696809ab6d30557977f5062617dbd6a9876a05",
+      "raw_official_sha256": "14a53784373dd139eb68a7b1744c74b5cd7101e94614e2119bf367772056c1d4",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_0_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 1.1950185617916543e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.0624231150926486e-23,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999993092,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.395141601776231e-07,
+      "changed_bytes": 5380,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "354bcfa425e9bd7194c37f698f6be027df2d415566df8189e7059b0ca32e5dd4",
+      "trailer_sha256_after": "354bcfa425e9bd7194c37f698f6be027df2d415566df8189e7059b0ca32e5dd4",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_0_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_0_barrel.mesh",
+      "sha256": "633cd6032b3f0c12164d08f5cf0b660f3f7f0e97a3a698e72f6294a006dc6315",
+      "raw_official_sha256": "085aaa44039a703e3961d70af89dfc85f0613e9bac8b069ab10ef991cf9c70ff",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_0_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_0_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.145832541882429e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.5563961614238906e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383100953486692,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999439716310561e-07,
+      "changed_bytes": 58640,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "390c470acd95110de67f0999edb751a21874eebfaa6e90f8ac7ea1ca9cbd2272",
+      "trailer_sha256_after": "390c470acd95110de67f0999edb751a21874eebfaa6e90f8ac7ea1ca9cbd2272",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_1_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_1_base.mesh",
+      "sha256": "3e02eb440eb408b95f180c547d57e3a0a8793195c1525a0b240ad0ed902a6ef2",
+      "raw_official_sha256": "52270ae77c827b24323b4d3b5c985a5d9b454d4d0daba8ffcdec5534bc1f62e4",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_1_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 1.1455836115305312e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.531959357701305e-23,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999997397,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.906711578156475e-07,
+      "changed_bytes": 5454,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "114a1f3d4cb69b3fe2f8b0b86f4615e90fe614232d52565876e189c7b9e366cf",
+      "trailer_sha256_after": "114a1f3d4cb69b3fe2f8b0b86f4615e90fe614232d52565876e189c7b9e366cf",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_1_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_1_barrel.mesh",
+      "sha256": "b268f9b299207bc0f936f59a0f6dad4f0518cc15aa7d4db9ca90d7528f7fd2f4",
+      "raw_official_sha256": "0b583f4e35832f635f48b03ed96c36f11188c096dc12d3c1ba7dc3ea9a2dd16b",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_1_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_1_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.7045311462026376e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.1792196491787763e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383082464384647,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999912381169203e-07,
+      "changed_bytes": 58817,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "eec1b60de9b8419c3c1cdec5a950fc4d7f3999ec49b3c86447057c76783b3e36",
+      "trailer_sha256_after": "eec1b60de9b8419c3c1cdec5a950fc4d7f3999ec49b3c86447057c76783b3e36",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_2_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_2_base.mesh",
+      "sha256": "1b97845aa0330e008ee488ec40f8f1a9a52a8be4a5c3b3fe2572c4e9f83a36e8",
+      "raw_official_sha256": "8f8dc129099e2cfce3126bb973d83c9aef5ccb21fe22372dfa5164c47cf015d6",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_2_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 1.185990129886413e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.775673043431724e-23,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999998026,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.866218566990099e-07,
+      "changed_bytes": 5275,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "6f0b3e696e478c1e5a1e051945c21054cb70f1813a11e7f8d6a821301ed57499",
+      "trailer_sha256_after": "6f0b3e696e478c1e5a1e051945c21054cb70f1813a11e7f8d6a821301ed57499",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_2_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_2_barrel.mesh",
+      "sha256": "e49dc620d285307f48e9af7fb1d8fb5829e82e02a5c95207fa3ddc060c541fe8",
+      "raw_official_sha256": "30b7582638a5686e40b797f2ddf260c2372d38b8a5b9368112250c211caf8386",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_2_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_2_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.544095886444858e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.5906883749371445e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383107158472376,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998970031255823e-07,
+      "changed_bytes": 58849,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "9ec38286a69a4069141890e623bee8761e428ed39ce108faece7819836226690",
+      "trailer_sha256_after": "9ec38286a69a4069141890e623bee8761e428ed39ce108faece7819836226690",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_3_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_3_base.mesh",
+      "sha256": "e5aa0e6340b2b139c4cc89b69d379cb33fa44e41b4545b6fc98c26e13fa72db9",
+      "raw_official_sha256": "9c3bd6ed99736146901d9b225e6ada75fa9c1a02dcd45d09e4548f97bddba964",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_3_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 6.687899389525116e-08,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 1.9455981952408316e-22,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999997492,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.971389770958012e-07,
+      "changed_bytes": 5398,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "654019e3934caa120a6a3c03d996681cd6e8a4eb4ced950d068e27c5575a5315",
+      "trailer_sha256_after": "654019e3934caa120a6a3c03d996681cd6e8a4eb4ced950d068e27c5575a5315",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_3_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_3_barrel.mesh",
+      "sha256": "a4addbf4c22b3f29bd9416bd7bf1d2a663ad0537ec7b9b37601cf19c95d74c4b",
+      "raw_official_sha256": "b3a4ba872f5362522aad4c19938445e36502bcbe871112aafd36f409bb25af12",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_3_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_3_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.3258773041900572e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.5016351656859115e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383073812539224,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998435974012949e-07,
+      "changed_bytes": 58683,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "719c749ff2a07a1ab01222fabf0f976885b5314568feee588ca66187d53eaa4f",
+      "trailer_sha256_after": "719c749ff2a07a1ab01222fabf0f976885b5314568feee588ca66187d53eaa4f",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_4_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_4_base.mesh",
+      "sha256": "0c70370542e525ac996823691bae2d3a37331b8a828e41f29d6d187cfe4cf072",
+      "raw_official_sha256": "1cfc03b3add3275f180ca94ea1ffe9eea3d8ea09a6b182bd25a3b488a9f5a42d",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_4_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 1.2501588426898295e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 1.601591605474308e-22,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999998334,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.360771179157119e-07,
+      "changed_bytes": 5390,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "16f4e0674c7d32c4616f322db106ccc0a03bfbbaa23adc794e5c018c01838378",
+      "trailer_sha256_after": "16f4e0674c7d32c4616f322db106ccc0a03bfbbaa23adc794e5c018c01838378",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_4_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_4_barrel.mesh",
+      "sha256": "a54c76083efb9037a0b644e8128636e58d310f7d60626ccbee35d44ca8cdb211",
+      "raw_official_sha256": "019c14f807166b66b36613a43a9616ed1afcf5cf3866bd9280b6627893af8c6b",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_4_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_4_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.674024477827744e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.465291615294518e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383105153337307,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.99985218047061e-07,
+      "changed_bytes": 58948,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "1b686ed285ac2c3c47b7e3fcab7260dcdd26094fcd68b04c5b0ee8d986803563",
+      "trailer_sha256_after": "1b686ed285ac2c3c47b7e3fcab7260dcdd26094fcd68b04c5b0ee8d986803563",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_5_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_5_base.mesh",
+      "sha256": "d6d2ccbab9e6455e4f100cf1a0609d638e15ad8036a99b9a70fdd857b84f9d55",
+      "raw_official_sha256": "caedcdc033673457e2ca7a651a5a7670fa1b6fdc0e465869ae0469827b1e75f2",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_5_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 7.05683023553892e-08,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 9.50441075626897e-23,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.99999999999975,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.911651612093948e-07,
+      "changed_bytes": 5407,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "12dbd5ea65ec43f40039d324ea689089102e8bdf9616e4a3b1afda0e9372de85",
+      "trailer_sha256_after": "12dbd5ea65ec43f40039d324ea689089102e8bdf9616e4a3b1afda0e9372de85",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_5_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_5_barrel.mesh",
+      "sha256": "43b33990cf192b17f4ec9a36aec4a33c5207aadf8d64fc37edaf8a95b4ba57bc",
+      "raw_official_sha256": "0f7e09dfe4b9819a1ed025e4b62f52d79472aedfda47aec5b6b1ae7e87791f36",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_5_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_5_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.643613179980168e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.4605629533880347e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383104827584912,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999694823704104e-07,
+      "changed_bytes": 58800,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "e78831b54410c16fc3735c618c93699445a037cd75066ad566c2ca397ca6721f",
+      "trailer_sha256_after": "e78831b54410c16fc3735c618c93699445a037cd75066ad566c2ca397ca6721f",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    }
+  },
+  "rotation_checks": [
+    {
+      "index": 0,
+      "basis_error": 3.346492816191926e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 1,
+      "basis_error": 9.560721070389633e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 2,
+      "basis_error": 5.585525374163236e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 3,
+      "basis_error": 1.0696212482397272e-07,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 4,
+      "basis_error": 1.077608080546355e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 5,
+      "basis_error": 1.7436267651937953e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "mesh_point": "exhaust.0",
+      "basis_error": 3.5488347630434626e-18,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.rail.0",
+      "basis_error": 1.8718785299576268e-08,
+      "row0_right_row1_up_row2_forward": true
+    }
+  ],
+  "runtime": "NOT RUN"
+}

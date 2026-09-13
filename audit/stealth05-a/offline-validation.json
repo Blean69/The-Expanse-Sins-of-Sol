@@ -1,0 +1,95 @@
+{
+  "status": "PASS six component schemas; integrated cloak BLOCKED",
+  "runtime": "NOT RUN",
+  "schema_pin": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+  "pinned_schema_count": 62,
+  "schema_checked": [
+    "expanse05_launch_probe.buff",
+    "expanse05_launch_probe.action_data_source",
+    "expanse05_launch_probe.ability",
+    "expanse05_boarding_probe.buff",
+    "expanse05_boarding_probe.ability",
+    "expanse05_boarding_probe.action_data_source"
+  ],
+  "cloak_absent_top_level_fields": [
+    "provides_cloak",
+    "required_product",
+    "cloak_alpha_value",
+    "cloak_fade_duration_value"
+  ],
+  "installed_cloak_schema_errors": [
+    {
+      "path": "unit_modifiers/0",
+      "message": "{'modifier_type': 'cloak_quality', 'value_behavior': 'additive', 'value_id': 'cloak_quality_from_memory_value'} is not valid under any of the given schemas"
+    }
+  ],
+  "installed_reference_sha256": {
+    "entities/dlc3_herald_cloak_frigate_cloak.ability": {
+      "sha256": "b5f2f5e63515f85a8061985a1871fca91ad2a8846e14935e657e2548ea41e524",
+      "bytes": 3165
+    },
+    "entities/dlc3_herald_cloak_frigate_cloak.buff": {
+      "sha256": "308ce717860ba1e570e9abfb9fef4df3027b25a00a55955a5b792306832fee79",
+      "bytes": 4440
+    },
+    "entities/dlc3_herald_cloak_frigate_cloak.action_data_source": {
+      "sha256": "e57dfe07b0cae50acafa5b3b5b00ded6a5887fbeb0e93109b7aaf9d9b7840b3b",
+      "bytes": 2916
+    },
+    "entities/dlc3_herald_cloak_frigate_cloak_damage_dealt_degrade.buff": {
+      "sha256": "9d4aa3e0d54b65bcce5303dc92104c2a84c610fc6f18bd05caf61c135ca32e8c",
+      "bytes": 1086
+    },
+    "entities/pirate_king_capital_ship_mag_blast_missile_on_self.buff": {
+      "sha256": "da3169b001e46d3edefcf772cf648362745170632d6f2e0f05e00b9b54caac1c",
+      "bytes": 3675
+    },
+    "entities/dlc2_vasari_loyalist_super_empowered_strikecraft_on_strikecraft.buff": {
+      "sha256": "e0d22446108a360b7bf7cc98345ad00005df87c579cfe617ffb6042008b0566e",
+      "bytes": 2327
+    },
+    "entities/pirate_boarding_crew.ability": {
+      "sha256": "4988ea8043e3d59d6db6f5b9a722738cd4809f74ab01c22c8dee93238009382d",
+      "bytes": 4523
+    },
+    "entities/pirate_boarding_crew.buff": {
+      "sha256": "1833ae3b5fd322d9a8bc7af338a96d515c9ec96227c3bdb89a8b7be41dd86769",
+      "bytes": 4691
+    },
+    "entities/pirate_boarding_crew.action_data_source": {
+      "sha256": "aa1125cd93a1b9568b95aa3b07224d28404189d1cdc50427b244fa69c8ef1f20",
+      "bytes": 4952
+    },
+    "entities/advent_battle_psionic_capital_ship_domination.buff": {
+      "sha256": "c12f458acb63b103f6e0e771e00d9e8ee41de64394b0898f4916d3b7f04feefe",
+      "bytes": 1692
+    },
+    "entities/vasari_battle_capital_ship_disrupt_armor_on_damage_dealer.buff": {
+      "sha256": "233fe85f8141ef80481a8e6a3430f0ae1c31f3489962c6cb5a1ed084ab54d1ae",
+      "bytes": 1377
+    },
+    "entities/trader_battle_capital_ship.unit": {
+      "sha256": "75d19ed8116c22a6c6d04ac55eacec0e555735d5b09d5632f67229f403daaa80",
+      "bytes": 29542
+    },
+    "entities/trader_rebel_titan.unit": {
+      "sha256": "4453421f447457174050e0784664496d1d28f6c57be096e2b80a4ce1df34d4c5",
+      "bytes": 58732
+    },
+    "entities/trader_loyalist.player": {
+      "sha256": "c8f27b0ce6e867c80ec4344df6ae19ebcc5ae44f5501e94e8b7e220074ecb5f9",
+      "bytes": 223041
+    },
+    "effects/pirate_pillage_shuttle.particle_effect": {
+      "sha256": "4d42ca975ef8eb3995e23a7957abe816293da8d27e0d3415f9ca78ade4fed770",
+      "bytes": 23472
+    },
+    "meshes/trader_asset_colony_shuttle.mesh": {
+      "sha256": "ee2fdfafb4309a80e43aa07fca4b7a72569c49fecdacf44bf7269507d04ac1bd",
+      "bytes": 735395
+    }
+  },
+  "reference_scope": "Exact code/mesh evidence hashes; final stock probe skin/UI/sound/particle texture references must be resolved by integrator",
+  "generic_weapon_fired_event_exists": false,
+  "spawn_event": "on_current_spawner_spawned_torpedo"
+}

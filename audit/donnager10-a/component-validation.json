@@ -1,0 +1,477 @@
+{
+  "status": "PASS private component schemas, exact delta and scoped references",
+  "schema_count": 36,
+  "pin_check": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "schema_coverage": "Pinned Draft7 plus same schema evaluated under Draft2020 for closed keys; no schema modifications",
+  "checked_action_value_references": 129,
+  "references": [
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/javelis_torpedo_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/javelis_torpedo_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "ship effect aliases",
+      "reference": "effects/trader_torpedo_cruiser_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_torpedo_cruiser_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_light_magazine.ability",
+      "reference": "entities/expanse10_donnager_light_magazine.action_data_source",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.action_data_source",
+      "origin": "candidate"
+    },
+    {
+      "source": "expanse10_donnager_light_magazine.ability",
+      "reference": "entities/expanse10_donnager_light_magazine.buff",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.buff",
+      "origin": "candidate"
+    },
+    {
+      "source": "expanse10_donnager_light_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_light_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "origin": "installed"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor.buff",
+      "origin": "candidate"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor.buff",
+      "origin": "candidate"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit",
+      "reference": "entities/expanse04_light_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "meshes/expanse05_amun_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/meshes/expanse05_amun_torpedo.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/meshes/expanse05_amun_torpedo.mesh",
+      "reference": "mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/expanse05_amun_torpedo_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/expanse05_amun_torpedo_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/expanse05_amun_torpedo_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "effects/trader_medium_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "sounds/engine_techsupportship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHSUPPORTSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0_1.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0_1.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_heavy_magazine.ability",
+      "reference": "entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "origin": "candidate"
+    },
+    {
+      "source": "expanse10_donnager_heavy_magazine.ability",
+      "reference": "entities/expanse10_donnager_heavy_magazine.buff",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_magazine.buff",
+      "origin": "candidate"
+    },
+    {
+      "source": "expanse10_donnager_heavy_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_heavy_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "origin": "installed"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor.buff",
+      "origin": "candidate"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor.buff",
+      "origin": "candidate"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_heavy_torpedo.unit",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_torpedo.unit",
+      "origin": "candidate"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_heavy_torpedo.unit",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_torpedo.unit",
+      "origin": "candidate"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_torpedo.unit",
+      "reference": "entities/expanse04_light_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "meshes/expanse05_amun_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/meshes/expanse05_amun_torpedo.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "effects/trader_medium_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "sounds/engine_techsupportship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHSUPPORTSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0_1.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0_1.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_launch_corvette.ability",
+      "reference": "entities/expanse10_donnager_launch_corvette.action_data_source",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_launch_corvette.action_data_source",
+      "origin": "candidate"
+    },
+    {
+      "source": "expanse10_donnager_launch_corvette.ability",
+      "reference": "entities/trader_light_frigate.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/trader_light_frigate.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse10_donnager_launch_corvette.ability",
+      "reference": "textures/trader_light_frigate_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_reactor.ability",
+      "reference": "entities/expanse10_donnager_reactor.action_data_source",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor.action_data_source",
+      "origin": "candidate"
+    },
+    {
+      "source": "expanse10_donnager_reactor.ability",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor.buff",
+      "origin": "candidate"
+    },
+    {
+      "source": "expanse10_donnager_reactor.ability",
+      "reference": "textures/jiskun_tachyon_boost_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/jiskun_tachyon_boost_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_reactor.ability",
+      "reference": "textures/jiskun_tachyon_boost_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/jiskun_tachyon_boost_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_marines.ability",
+      "reference": "entities/expanse10_donnager_marines.action_data_source",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_marines.action_data_source",
+      "origin": "candidate"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_marines.action_data_source",
+      "reference": "entities/expanse_rocinante_hero.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse_rocinante_hero.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_marines.action_data_source",
+      "reference": "effects/expanse06_boarding_pod_visual.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/effects/expanse06_boarding_pod_visual.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse10_donnager_marines.ability",
+      "reference": "entities/expanse10_donnager_marines.buff",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_marines.buff",
+      "origin": "candidate"
+    },
+    {
+      "source": "expanse10_donnager_marines.ability",
+      "reference": "textures/pirate_boarding_crew_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/pirate_boarding_crew_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_marines.ability",
+      "reference": "textures/pirate_boarding_crew_tooltip_picture.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/pirate_boarding_crew_tooltip_picture.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_reactor_breach.ability",
+      "reference": "entities/expanse10_donnager_reactor_breach.action_data_source",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor_breach.action_data_source",
+      "origin": "candidate"
+    },
+    {
+      "source": "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor_breach.action_data_source",
+      "reference": "effects/titan_safety_override_protocol.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/titan_safety_override_protocol.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_reactor_breach.ability",
+      "reference": "textures/trader_starbase_self_destruct_unit_item_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_starbase_self_destruct_unit_item_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse10_donnager_reactor_breach.ability",
+      "reference": "entities/expanse10_donnager_reactor_breach.buff",
+      "resolved": "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor_breach.buff",
+      "origin": "candidate"
+    }
+  ],
+  "resolved_unique_files": {
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_muzzle.particle_effect": "a41b6fcfbe75dab0ca203e6245835687c89275dcb8cea27b49a9f7a9844c9eb1",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/expanse05_amun_torpedo_surface_nrm.dds": "6b96ab0c3f629c39d869759011d6a409e2d9309613d39659072b2f664f56baa3",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon.png": "5a23394acd3c41d1a963bdec7405d866e19a552669bdaef2ea22f3212c89810b",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.buff": "d8606b363640d8abe08c97483587b5cd296d9334670b7dc3f7b99bc91d22574c",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor.buff": "4aed4d35b5b318bcf4f94c56cfdba5cea43ed8dd1eb31ec9ef1c344abc1a886b",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/titan_safety_override_protocol.particle_effect": "e86761289c67004585f5404fd320a08ad97064cf82214e520f476fc569db7b8f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0_1.death_sequence_group": "f04fdd049fae69e5a38ca89beba193929d46ebad55bfc41c5f535d4e745c2cee",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/javelis_torpedo_muzzle.particle_effect": "035f416454758ceaf2a313bb477187ce37253a74b2e98d9aeb6ee49f46687c1b",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit": "22a0cb44cbd751ea6d5289c6e46bfeaba6c34c573647a6904b12ad129909e3bf",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material": "a3cf13e9d3e34209b407bb55fda1bfac36b47c551a14e2252bf7cbe159848f2b",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor_breach.buff": "961a720d30766158681afeccfdbe8ed7efd88aa4bb0c818d43578fbc62f94b7a",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect": "020f15649a48a048f11561ebcae1855d2873fdead0b91db410efad1ca9ab8b47",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHSUPPORTSHIP.sound": "acd9e3e285e17ac461cf342303654c64001648aa1bcb8fb4ba28cf1d9ff8f433",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_torpedo.exhaust_trail_effect": "d2343798e37ee7bebc0b9324f532f29510501d10ba05f37efee4bfe731afc34d",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_magazine.action_data_source": "abf075073cfd2f29ce930e23ff0c60fd72e5d74a1f0dccc132183083c8e03298",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/expanse05_amun_torpedo_surface_orm.dds": "e61ed92fb0fa31ad9a73e96ba1cfb24340bfa740b6ae7eb143d579a7e32ce502",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png": "6ff34033351e4b19f936bb4a0ecf506924affe029a9746926514d75cf6a4f4a9",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/pirate_boarding_crew_hud_icon.png": "df9162e1d98dc0d1b44ce4754e6743add7ba74b147714f5edb05eeee71113147",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor_breach.action_data_source": "d1b5c99476e2143ea5e031183fa668b68be290be554469263693ebb0e39c2910",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_marines.buff": "7c38d1f5aef39196482d7e9c3db9c78da0cbeb3cc71f0b3a02ff4283c8fe1f12",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_starbase_self_destruct_unit_item_hud_icon.png": "1a158e6b2d1afdf323e95860f00198cd62440df82058a9bdd2d4a98336b1b21e",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png": "d52f4daa51c88cf771a19ae643093782aeecf62f73e0045a4128f820b3658087",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_launch_corvette.action_data_source": "1a019f99ce158a39677e09c0d6a4ee61694dc3cf10f8e03b3c40ee8181195cf5",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/trader_light_frigate.unit": "842f95b6015d72be71f121ec18741016fb331bfad2f2d492f6c27899a289c8cc",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/jiskun_tachyon_boost_hud_icon.png": "eec846a1d4adb0a973b50b6ad095fff4f4383782dfc7b68d11af5553c23d3cf0",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_reactor.action_data_source": "3dfa5985ad1c860738bb98d2a31c43afc250d292911f4aa8ce734e0a3d875079",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_magazine.buff": "5aded5fef528f9f28d82f41b67b2cc83d56bdfb8650296ea378b5052fec01b8d",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_travel.particle_effect": "c4f17b62aa88bf64fd1c7fdf01467260b2d2fc5cfd89fa000933a1b7f0fe7ee7",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_marines.action_data_source": "598c415e3e4b6fc1d37594313c63900c29202e47a28f1bc5ca3c8a326459db29",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/meshes/expanse05_amun_torpedo.mesh": "cf93418cfd01da9fd76971c2855912124f244c3e35d5ede20ffe441ead5de024",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/expanse05_amun_torpedo_surface_msk.dds": "85407ae3d2a9b8b0d64ea12f97266a4605afdff288e84d76081dd636321defc0",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect": "70fde486dc472b71e60383daec1c49bc7a6bb6a18d6f914b758e475f56a9a3c0",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/effects/expanse06_boarding_pod_visual.particle_effect": "ae12e332fa7ed69d49963c4f9aaa3f8e69328d5ab5fab0d2d453a34bd5a3cd31",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_heavy_torpedo.unit": "cb572eb95bf22413cedea362a7169a7e2eb7ffeb234b195ec2390919972a3988",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect": "f3f59f63926d567acf7c2f2c847bd435e3d14df84152930cde4b8af0d2107376",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse_rocinante_hero.unit": "d7f33ecc959822cb1053c78eed2258d85d59540619e2c87f30991ab93aaf2637",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect": "298541190912a6938ef0174d5d85a870ac3c876fb17a0d739d0d506846eef3e9",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/pirate_boarding_crew_tooltip_picture.png": "eb953e56c2037796e0b63b5f9ce925823b9ec07dc64bbd77907a86323534bb94",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/entities/expanse04_light_torpedo.unit_skin": "5df74887e78d499a9d54cf96b8aa251cc1f68e0e09482ed116bbbd8ef4d7d28c",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/expanse05_amun_torpedo_surface_clr.dds": "6fbb1e86e52eb5ad512be2d4579acfe682e63911f2be672e340c9e8ffeab5d60",
+    "build/donnager10-a/final-fit/entities/expanse10_donnager_light_magazine.action_data_source": "2682d94683e4d783fac47bccae1bc531a73721529a4a556857807e126fb8c918",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_torpedo_cruiser_muzzle.particle_effect": "354fa6f777b57bc1b62b13d1e0d4c30447598df530755de11746d85b6bdfaaca"
+  },
+  "magazine_arithmetic": {
+    "status": "PASS arithmetic model only",
+    "cases": [
+      {
+        "initial_remaining_seconds": 10,
+        "boost_seconds": 0,
+        "modeled_completion": 10.0
+      },
+      {
+        "initial_remaining_seconds": 10,
+        "boost_seconds": 30,
+        "modeled_completion": 6.75
+      },
+      {
+        "initial_remaining_seconds": 15,
+        "boost_seconds": 30,
+        "modeled_completion": 10.0
+      },
+      {
+        "initial_remaining_seconds": 120,
+        "boost_seconds": 0,
+        "modeled_completion": 120.0
+      },
+      {
+        "initial_remaining_seconds": 120,
+        "boost_seconds": 30,
+        "modeled_completion": 105.0
+      }
+    ],
+    "poll_seconds": 0.25,
+    "extra_progress_per_active_poll": 0.125,
+    "runtime": "NOT RUN",
+    "boundary_note": "Model polls at t=0; engine event order can shift a boundary poll. It does not establish save serialization or runtime modifiers."
+  },
+  "heavy_projectile_group": {
+    "types": [
+      "defense",
+      "starbase",
+      "titan"
+    ]
+  },
+  "bound_unit_geometry_checked": false,
+  "runtime": "NOT RUN",
+  "limits": [
+    "Reference traversal stops at untouched installed effect/audio/death resources",
+    "Main must validate unit, manifests, mount positions, turret frames, alias attachment and package preservation",
+    "Existing defense_starbase_titan includes defense; heavy launch filters strictly starbase/titan but postlaunch retargeting remains an engine question"
+  ]
+}

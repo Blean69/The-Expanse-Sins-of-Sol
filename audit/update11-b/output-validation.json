@@ -1,0 +1,808 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "triangle_total": 184141,
+  "rest_pose_position_max_error": 1.2230906772059467e-05,
+  "outputs": {
+    "donnager_hull": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse11_donnager_hull.mesh",
+      "sha256": "090212896b36e566e924fa866e081516d1064d622cad2ac8fb2457eb3f8fcd27",
+      "raw_official_sha256": "55ab16a0122da77d7b8a158f5177334fff4d2eed05ee889c33621ab40520afa8",
+      "triangles": 166141,
+      "materials": [
+        "expanse11_donnager_hull_expanse11_donnager_mat_0",
+        "expanse11_donnager_hull_expanse11_donnager_mat_1",
+        "expanse11_donnager_hull_expanse11_donnager_mat_10",
+        "expanse11_donnager_hull_expanse11_donnager_mat_2",
+        "expanse11_donnager_hull_expanse11_donnager_mat_3",
+        "expanse11_donnager_hull_expanse11_donnager_mat_4",
+        "expanse11_donnager_hull_expanse11_donnager_mat_5",
+        "expanse11_donnager_hull_expanse11_donnager_mat_6",
+        "expanse11_donnager_hull_expanse11_donnager_mat_7",
+        "expanse11_donnager_hull_expanse11_donnager_mat_8",
+        "expanse11_donnager_hull_expanse11_donnager_mat_9"
+      ],
+      "source_frame_max_match_error": 1.223139581256799e-05,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.408900977637131e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.8774899033749656,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 5.000000555810402e-07,
+      "changed_bytes": 1572689,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "ee74070378d9a06a618da05e913fd74f7c2719ec42291ec96324c3bb27d41059",
+      "trailer_sha256_after": "ee74070378d9a06a618da05e913fd74f7c2719ec42291ec96324c3bb27d41059",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            215.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -215.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_0",
+          "position": [
+            100.49077606201172,
+            0.0,
+            -370.0
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_1",
+          "position": [
+            0.0,
+            100.11564636230469,
+            -370.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_2",
+          "position": [
+            -100.49066925048828,
+            0.0,
+            -370.0
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_3",
+          "position": [
+            0.0,
+            -100.4907455444336,
+            -370.0
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_4",
+          "position": [
+            78.9344253540039,
+            0.0,
+            -150.0
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_5",
+          "position": [
+            0.0,
+            79.01118469238281,
+            -150.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_6",
+          "position": [
+            -77.9618148803711,
+            0.0,
+            -150.0
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_7",
+          "position": [
+            0.0,
+            -79.01116943359375,
+            -150.0
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_8",
+          "position": [
+            59.759342193603516,
+            0.0,
+            50.0
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_9",
+          "position": [
+            0.0,
+            59.7593994140625,
+            50.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_10",
+          "position": [
+            -59.75937271118164,
+            0.0,
+            50.0
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_11",
+          "position": [
+            0.0,
+            -59.759315490722656,
+            50.0
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_12",
+          "position": [
+            85.84027099609375,
+            0.0,
+            240.0
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            -0.9999999403953552,
+            0.0,
+            0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_13",
+          "position": [
+            0.0,
+            85.77338409423828,
+            240.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_14",
+          "position": [
+            -85.62242889404297,
+            0.0,
+            240.0
+          ],
+          "rotation": [
+            5.960464477539063e-08,
+            0.9999999403953552,
+            0.0,
+            -0.9999999403953552,
+            5.960464477539063e-08,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_pdc_15",
+          "position": [
+            0.0,
+            -86.27274322509766,
+            240.0
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_rail_0",
+          "position": [
+            -107.75201416015625,
+            -7.457105675712228e-05,
+            195.07830810546875
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse10_donnager_rail_1",
+          "position": [
+            107.75210571289062,
+            1.7095884686568752e-05,
+            195.07830810546875
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            -101.73932647705078,
+            -101.7392578125,
+            -523.1683959960938
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.1",
+          "position": [
+            -101.73932647705078,
+            101.73921966552734,
+            -523.16845703125
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.2",
+          "position": [
+            101.73941040039062,
+            -101.73926544189453,
+            -523.1683959960938
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.3",
+          "position": [
+            101.73939514160156,
+            101.73919677734375,
+            -523.1683959960938
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "hangar.0",
+          "position": [
+            6.474574183812365e-05,
+            -3.772802301682532e-05,
+            -508.2420349121094
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.boarding.0",
+          "position": [
+            6.474574183812365e-05,
+            -3.772802301682532e-05,
+            -508.2420349121094
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "donnager_pdc_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse10_donnager_pdc_base.mesh",
+      "sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "raw_official_sha256": "545b67069e029b7c8e4ab4a681d46d189ed67c9bcc9760beed210db0ebb04b03",
+      "triangles": 138,
+      "materials": [
+        "expanse10_donnager_pdc_base_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.3328008833479087e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.624749961295137e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "minimum_face_normal_cosine": -3.3955366772156244e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.995155334919232e-07,
+      "changed_bytes": 2738,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "2f9dc67c71a4582b3440b38fc9747f1aab85417479a8c1ed993c5ec2068cdca8",
+      "trailer_sha256_after": "2f9dc67c71a4582b3440b38fc9747f1aab85417479a8c1ed993c5ec2068cdca8",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "donnager_pdc_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse10_donnager_pdc_barrel.mesh",
+      "sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "raw_official_sha256": "a43d342b2beb1e2e4b45803e19560c007765883627dda2cd3718894330ec63dc",
+      "triangles": 539,
+      "materials": [
+        "expanse10_donnager_pdc_barrel_mcrn_tachi_material"
+      ],
+      "source_frame_max_match_error": 1.3657139822709083e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.896030785461397e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "minimum_face_normal_cosine": -1.8028028504939529e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998016356339008e-07,
+      "changed_bytes": 9941,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "efcb6222580d21243cc2e59b85dde952b635d6239061685a743e4236e3b9b33f",
+      "trailer_sha256_after": "efcb6222580d21243cc2e59b85dde952b635d6239061685a743e4236e3b9b33f",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "donnager_rail_0": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse11_donnager_rail_0.mesh",
+      "sha256": "0b50f109a0e87d4e14f3d99f565c66f5b1fda88830311bd04f7c001dcc62e988",
+      "raw_official_sha256": "ccedae8d2235e709ae03089fe1892113b814370fba8ba8f51edb801be772a44a",
+      "triangles": 8519,
+      "materials": [
+        "expanse11_donnager_rail_0_expanse11_donnager_mat_0",
+        "expanse11_donnager_rail_0_expanse11_donnager_mat_1"
+      ],
+      "source_frame_max_match_error": 1.8571604114098117e-06,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.9942360641198604e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.8975967215247157,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999999996257998e-07,
+      "changed_bytes": 83778,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "0393ef6896e1f35d9469b851863199dd61de47f072478bd1710be2449e4f5533",
+      "trailer_sha256_after": "0393ef6896e1f35d9469b851863199dd61de47f072478bd1710be2449e4f5533",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "donnager_rail_1": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse11_donnager_rail_1.mesh",
+      "sha256": "f820857cc8e2b90b84f766c66a63a44bfe6bef2e69e75ed97ca46d2051db525a",
+      "raw_official_sha256": "9d162defcd34447e53710c84e5b3cc6cb387bfbff4274c1b4025152144d813f4",
+      "triangles": 8804,
+      "materials": [
+        "expanse11_donnager_rail_1_expanse11_donnager_mat_0",
+        "expanse11_donnager_rail_1_expanse11_donnager_mat_1"
+      ],
+      "source_frame_max_match_error": 1.8360967199507127e-06,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.0510200638443905e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9043979723759465,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999999999588667e-07,
+      "changed_bytes": 87146,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "b64874a3180eadb4027366d0005d77acc090a5dd7f9c3afb916ef8835ba1dc69",
+      "trailer_sha256_after": "b64874a3180eadb4027366d0005d77acc090a5dd7f9c3afb916ef8835ba1dc69",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    }
+  },
+  "rotation_checks": [
+    {
+      "index": 0,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 1,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 2,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 3,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 4,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 5,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 6,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 7,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 8,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 9,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 10,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 11,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 12,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 13,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 14,
+      "basis_error": 5.960464477539063e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 15,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 16,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 17,
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "mesh_point": "exhaust.0",
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true
+    }
+  ],
+  "unreferenced_input_vertices_excluded_from_indexed_geometry_check": {
+    "donnager_hull": 0,
+    "donnager_pdc_base": 3308,
+    "donnager_pdc_barrel": 7781,
+    "donnager_rail_0": 0,
+    "donnager_rail_1": 0
+  },
+  "runtime": "NOT RUN"
+}

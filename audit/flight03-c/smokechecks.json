@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "test": "invented effect key",
+      "result": "PASS (deliberate defect rejected)"
+    },
+    {
+      "test": "missing node attachment",
+      "result": "PASS (deliberate defect rejected)"
+    },
+    {
+      "test": "Phase axial length4x / width1.25x / same emitter count",
+      "result": "PASS"
+    },
+    {
+      "test": "Blue gradient resolves existinginstalled asset; external primary tint absent in all3 private effects",
+      "result": "PASS"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

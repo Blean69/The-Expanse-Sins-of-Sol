@@ -1,0 +1,36 @@
+{
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_editable.gltf": "e66a2f67cb47aa5850ab119fa56015fc78bc18946f98a2fe577a7665e2618849",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_hull_editable.bin": "ac6fa22a3b2980cba58a4b6e73ed67af7c039251c4164fb02638784eb201bd91",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_pdc_0_base_editable.bin": "c7ef722778820b53e81e23b5dca008452b3b1b04164d0530e0fa3216e53718c3",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_pdc_0_barrel_editable.bin": "9c24eacb9107311170f433a8f7e92f99955bc9bdc8172843ffc966b89dd9240b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_pdc_1_base_editable.bin": "547f9cafe5a442fff81f6b7a1a6854a670e35c343f3ca8946a672f20fe2a77b7",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_pdc_1_barrel_editable.bin": "687caeeda21bddf749a47a3872c79061710110cac570ffebee1b85f617382c95",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_pdc_2_base_editable.bin": "8d1531c9e1209cf885c6acaee2b7662b03d924e68e19e78baa51fa99c2b2db5a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_pdc_2_barrel_editable.bin": "f285237ce359b15b91b6f4698f065670d23aba49964b39c42492e9d89faad68e",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/expanse06_amun_boarding_pod_editable.bin": "f838f3ef171bdd0bd02cbb5ef6c9a7c430b55aecc87199ecff472f2f842fcc6b",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/master/images/DefaultMaterial_Base_Color.png": "b0c7c99cc52aba63724fb8954ce80a529e097b16ebc1c179ef31fabcf5ff8535"
+  },
+  "triangles": 27526,
+  "coordinate_conversion": "Source already uses game-facing right-handed glTF axes",
+  "camera_basis": [
+    [
+      0.7803805282839275,
+      0.0,
+      0.6253049104839162
+    ],
+    [
+      -0.23984779590714161,
+      0.9235120770132178,
+      0.29933004929211277
+    ],
+    [
+      -0.5774766366475658,
+      -0.3835693465473128,
+      0.720690842536162
+    ]
+  ],
+  "material_colors": "Actual source material base-color texture and UVs, or explicit source PBR factor; no invented colors",
+  "renderer": "Imported generic CPU double-sided z-buffer from polish_ui.py; studio contrast lift and Lambert shading; not Sins runtime rendering",
+  "runtime": "NOT RUN"
+}

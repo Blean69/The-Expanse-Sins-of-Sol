@@ -1,0 +1,7 @@
+from donnager10_geometry_common import *
+import ctypes as c
+lib=c.CDLL('/run/media/haker/NVME 2/expanse-mod/.tools/libmeshoptimizer.so');u=c.POINTER(c.c_uint);f=c.POINTER(c.c_float);fn=lib.meshopt_simplifyWithAttributes;fn.argtypes=[u,u,c.c_size_t,f,c.c_size_t,c.c_size_t,f,c.c_size_t,f,c.c_size_t,c.POINTER(c.c_ubyte),c.c_size_t,c.c_float,c.c_uint,f];fn.restype=c.c_size_t
+rows=[];arrays={}
+for p in source_parts():
+ pos=np.ascontiguousarray(p['v'],dtype='float32');attrs=np.ascontiguousarray(np.column_stack([p['n'],p['uv']]),dtype='float32');idx=np.ascontiguousarray(p['i'].flatten(),dtype='uint32');weights=np.array([.1,.1,.1,.1,.1],dtype='float32');dst=np.zeros_like(idx);err=c.c_float();nn=fn(dst.ctypes.data_as(u),idx.ctypes.data_as(u),len(idx),pos.ctypes.data_as(f),len(pos),12,attrs.ctypes.data_as(f),20,weights.ctypes.data_as(f),5,None,max(12,int(len(idx)*.023)//3*3),.0045,32,c.byref(err));ii=dst[:nn].reshape(-1,3);used,remap=np.unique(ii,return_inverse=True);key=f'n{p["node"]}';arrays[key+'_v']=pos[used];arrays[key+'_n']=p['n'][used];arrays[key+'_uv']=p['uv'][used];arrays[key+'_i']=remap.reshape(-1,3);r={'key':key,'node':p['node'],'material':p['material'],'name':p['name'],'source_triangles':len(idx)//3,'triangles':nn//3,'error':err.value};rows.append(r);print(p['node'],len(idx)//3,nn//3,err.value,flush=True)
+np.savez(OUT/'probe.npz',**arrays);write(AUDIT/'optimization-probe.json',{'parts':rows,'triangles':sum(r['triangles'] for r in rows)});print('TOTAL',sum(r['triangles'] for r in rows),flush=True)

@@ -1,0 +1,61 @@
+{
+  "mounts": [
+    {
+      "name": "dorsal",
+      "weapon_position": [
+        3.857128172413127e-07,
+        -1.1384768011684947,
+        13.514855539497557
+      ],
+      "forward": [
+        0.0,
+        0.6514067925868338,
+        0.758728667292685
+      ],
+      "up": [
+        0.0,
+        0.758728667292685,
+        -0.6514067925868338
+      ],
+      "source_nodes": [
+        22,
+        192,
+        194,
+        196,
+        198,
+        200
+      ],
+      "status": "Named bay front-plane center estimate; closed hatch geometry, not verified open throat"
+    },
+    {
+      "name": "ventral",
+      "weapon_position": [
+        3.857132595541657e-07,
+        -19.03396518811094,
+        13.514856870897404
+      ],
+      "forward": [
+        0.0,
+        -0.6514067925868338,
+        0.758728667292685
+      ],
+      "up": [
+        -0.0,
+        0.758728667292685,
+        0.6514067925868338
+      ],
+      "source_nodes": [
+        22,
+        192,
+        194,
+        196,
+        198,
+        200
+      ],
+      "status": "Named bay front-plane center estimate; closed hatch geometry, not verified open throat"
+    }
+  ],
+  "source_geometry": "hull_middle_torpedo_bay / hull_middle_torpedo_bay_front",
+  "runtime": "NOT RUN",
+  "note": "Model contains front/hatch surfaces; launch-clearance and projectile/effect alignment require runtime verification."
+}

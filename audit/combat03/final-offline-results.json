@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "pinned_environment": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "frozen_baselines_and_polish": "PASS",
+  "original_hero_archive_and_master": "PASS",
+  "packages": [
+    {
+      "id": "expanse_corvette_combat03",
+      "status": "PASS",
+      "schemas": 18,
+      "files": 92,
+      "zip_sha256": "e3ea5be007e007b6787a652059c8eeb639cb2c657df5476069f46eb0b2ea3032",
+      "tree_sha256": "63ca0bcf4da8c094435aeb28fce0ceb11262cfa4e6b8f33106416fb77820b03b"
+    },
+    {
+      "id": "expanse_corvette_ammo03",
+      "status": "PASS",
+      "schemas": 18,
+      "files": 92,
+      "zip_sha256": "b35ca53921724ed7db2b134e424e4de1d4bb378c495b2f7c66c6c299e26f2c8f",
+      "tree_sha256": "211aaf0040b8c6edef8894606bf8eaa54606fe6c862fb2f79cbe3dea68c121a1"
+    },
+    {
+      "id": "expanse_rocinante03",
+      "status": "PASS",
+      "schemas": 51,
+      "files": 164,
+      "zip_sha256": "6c86c8ed0a514345255bfd9a2341d453c77b4544d88cee20a24d9b0f64681983",
+      "tree_sha256": "f87253a45f07ed279f0aced31912378cc7690793a99d0f725db82daac6673d6e"
+    }
+  ],
+  "new_experiments_installed": false,
+  "runtime": "NOT RUN",
+  "particle_schema": "NOT AVAILABLE",
+  "regression_checks": 19,
+  "negative_texture_and_target_filter_retests": "PASS after checker fixes"
+}

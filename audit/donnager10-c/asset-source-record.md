@@ -1,0 +1,3 @@
+## Donnager generic Martian-captain speech
+
+20 MP3 recordings supplied locally by the user, described by the user as AI-generated generic Martian-captain speech. Creator/provider, upstream voice identity, exact license and redistribution terms are unspecified. No model permission is applied to these recordings. Exact source filenames and SHA-256 hashes are recorded in the accompanying voice-intake audit; preserved original MP3s remain unchanged. Local derivative processing: mono 44.1 kHz Vorbis at approximately −18 LUFS, full timing retained. No listening-quality or in-game playback certification.

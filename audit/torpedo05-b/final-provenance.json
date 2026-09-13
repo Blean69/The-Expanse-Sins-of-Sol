@@ -1,0 +1,43 @@
+{
+  "worker": "B",
+  "source_head": "9e40dd4b42853318ef87cc3d7d858f2abf601176",
+  "source_status": "UNCOMMITTED WORKER SOURCES; exact hashes included",
+  "readonly_input_hashes": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.gltf": "36736f580a2ed45235c27d1da82841a7a8423bbc3be91ccea9e63f570f4b0e49",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.bin": "fb49a7353c9605e0cc2669fe3cf01ba5bc95ac6db5fbf61828c4b872b1bedf4d",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Emissive.png": "223ff910d9679722175223df1b14fdc40604022dc96cc57973c0abe1c13916ba",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Metallic.png": "e91f87c353050d7e76cf07eaeafce849da934319adfd3004ff0627af74825238",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Normal_DirectX.png": "50477a1343e15e6a33e7f1342edc8fd5050e6e9843a74243dd6e9704b5e0ea6a",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Base_Color.png": "b0c7c99cc52aba63724fb8954ce80a529e097b16ebc1c179ef31fabcf5ff8535"
+  },
+  "hero04_frozen_files_verified_unchanged": 128,
+  "files": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/torpedo05-b/expanse05_amun_torpedo.bin": "af8f4c3f92a4aafe3a352ec3514486297c4a9dee73029f510f527901b650f604",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/torpedo05-b/expanse05_amun_torpedo.gltf": "63c6bb57fd31a7513397e497ac466055e432227cbc738a42d8de63591f1465a8",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/torpedo05-b/materials/expanse05_amun_torpedo_surface.mesh_material": "a3cf13e9d3e34209b407bb55fda1bfac36b47c551a14e2252bf7cbe159848f2b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/torpedo05-b/retained-source-frames.json": "926e45749ec9db733baaab005c05f968be98ca22445de0b4b4a7db412417487b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/torpedo05-b/texture-sources/expanse05_amun_torpedo_surface_clr.png": "d084d3a0946ed5b76b3c6e5353dece1d52708b51484de4daa8169ba70378ed9e",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/torpedo05-b/texture-sources/expanse05_amun_torpedo_surface_msk.png": "a498f64cb2917d4a19cb6847720266ac54f0a44dca7d9b77c23f81d4902a842c",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/torpedo05-b/texture-sources/expanse05_amun_torpedo_surface_nrm.png": "947abd88a024a269d180d9ad5b5e188a2500e350e29018c01f8d4c78910092a1",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/torpedo05-b/texture-sources/expanse05_amun_torpedo_surface_orm.png": "f29fdb211509a755e28c7da62555add137728d0ee5eca6173af73c73350a07f2",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/torpedo05-b/REPORT.md": "291d1761f2132bc9c30c58ad1524f3f2f4694406568d8b3e346d70f7ce2f4c8b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/torpedo05-b/integration-spec.json": "bc3f2b3caa2eb53d9d180fa9c2244d189ae6598f86add84b6884ff4a996a64e1",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/torpedo05-b/mount-metadata.json": "41fa5f1cc52062ecb006b8e36efa877548a254c252cd6c6ed36a517165ebc428",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/torpedo05-b/output-validation.json": "c07d61d07fa3aac1367c00d8690267fac5d61fde8fe63d93f4a83e2f0a686eec",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/torpedo05-b/torpedo-preview.png": "b116e1818da55ba596539a20284816144891fe784c966cd2ec0cc69ee4573bc1",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/torpedo05-b/winding-correction.json": "3f1e7cdac8b6a824075681a7ba5b681d64486d1d53606f0d43fddbbc7c32daf0",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material": "a3cf13e9d3e34209b407bb55fda1bfac36b47c551a14e2252bf7cbe159848f2b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/meshes/expanse05_amun_torpedo.mesh": "cf93418cfd01da9fd76971c2855912124f244c3e35d5ede20ffe441ead5de024",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/textures/expanse05_amun_torpedo_surface_clr.dds": "6fbb1e86e52eb5ad512be2d4579acfe682e63911f2be672e340c9e8ffeab5d60",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/textures/expanse05_amun_torpedo_surface_msk.dds": "85407ae3d2a9b8b0d64ea12f97266a4605afdff288e84d76081dd636321defc0",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/textures/expanse05_amun_torpedo_surface_nrm.dds": "6b96ab0c3f629c39d869759011d6a409e2d9309613d39659072b2f664f56baa3",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/textures/expanse05_amun_torpedo_surface_orm.dds": "e61ed92fb0fa31ad9a73e96ba1cfb24340bfa740b6ae7eb143d579a7e32ce502",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/torpedo05_compile.py": "488e251630a7585e56b80337192ab57d65fbb9c685c9ad1e4633cb62e5737f34",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/torpedo05_finish.py": "6d7038df1c5978463a172c0fe8026657587417cdd579e46915d31d59ac0bbb27",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/torpedo05_prepare.py": "19c03bb3dbf03a3d60e71418195d7811376ac9466a5a0560e904f7ca3c21d0c0",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/torpedo05_spec.py": "54a81e7c218867b9345819d149615f569ac447e9826dbc46c72f037665f59959",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/torpedo05_textures.py": "e62045a15aefc5604bccf6cc6ea4d19f1ecab1a9dd833993db91310e039b84c8",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/torpedo05_winding.py": "56772505a2283591487177919049499dd85eda6c3a3fd32e8b14501b94a5166d"
+  },
+  "runtime": "NOT RUN"
+}

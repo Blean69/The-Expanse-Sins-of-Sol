@@ -1,0 +1,253 @@
+{
+  "status": "OFFLINE TORPEDO APPEARANCE CHECKS PASS; RUNTIME NOT RUN",
+  "source_hashes": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.gltf": "36736f580a2ed45235c27d1da82841a7a8423bbc3be91ccea9e63f570f4b0e49",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.bin": "fb49a7353c9605e0cc2669fe3cf01ba5bc95ac6db5fbf61828c4b872b1bedf4d",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Emissive.png": "223ff910d9679722175223df1b14fdc40604022dc96cc57973c0abe1c13916ba",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Metallic.png": "e91f87c353050d7e76cf07eaeafce849da934319adfd3004ff0627af74825238",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Normal_DirectX.png": "50477a1343e15e6a33e7f1342edc8fd5050e6e9843a74243dd6e9704b5e0ea6a",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Base_Color.png": "b0c7c99cc52aba63724fb8954ce80a529e097b16ebc1c179ef31fabcf5ff8535"
+  },
+  "source_scene": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.gltf",
+  "frames": {
+    "amun_torpedo": {
+      "basis": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "rigs": [],
+  "meshpoints": {
+    "amun_torpedo": [
+      {
+        "name": "center",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0.0,
+          0.9406306505203247,
+          0.0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0.0,
+          -0.9406306505203247,
+          0.0
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          -0.004106670618057251,
+          0.0020533204078674316,
+          -8.285377769470214
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "counts": {
+    "amun_torpedo": 1600
+  },
+  "triangle_total": 1600,
+  "exhaust_geometry": {
+    "position": [
+      -0.004106670618057251,
+      0.0020533204078674316,
+      -8.285377769470214
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "forward": [
+      0,
+      0,
+      -1
+    ],
+    "source": "Full actual aft-most body slice0.01 gameunits; center of XY bounds;0.03 outward clearance"
+  },
+  "bounds": {
+    "min": [
+      -0.8406280279159546,
+      -0.8406306505203247,
+      -8.255377769470215
+    ],
+    "max": [
+      0.8406280279159546,
+      0.8406306505203247,
+      8.255377769470215
+    ],
+    "dimensions": [
+      1.6812560558319092,
+      1.6812613010406494,
+      16.51075553894043
+    ],
+    "vertex_radius": 8.287338726496193
+  },
+  "material_source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/torpedo05-b/materials/expanse05_amun_torpedo_surface.mesh_material",
+  "texture_conversion": {
+    "dimensions": [
+      1024,
+      1024
+    ],
+    "source_dimensions": [
+      4096,
+      4096
+    ],
+    "ORM": "R=255 because no AO texture;G/B copied from glTF metallicRoughness",
+    "MSK": "R/G/A0;B=max source emissiveRGB; game emissive uses base-color tint",
+    "normal": "Referenced glTF normal preserved; source filename DirectX conflicts with glTF naming expectation; no unverified green-channel inversion. Inspect bumps in game."
+  },
+  "gameplay_changes": [],
+  "outputs": {
+    "amun_torpedo": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/meshes/expanse05_amun_torpedo.mesh",
+      "sha256": "cf93418cfd01da9fd76971c2855912124f244c3e35d5ede20ffe441ead5de024",
+      "raw_official_sha256": "5c0bb176f828d6432cd8cafd1229ee67f4717e8c4b2d2d5655f090ee75c78111",
+      "triangles": 1600,
+      "materials": [
+        "expanse05_amun_torpedo_expanse05_amun_torpedo_surface"
+      ],
+      "source_frame_max_match_error": 1.4146119399593444e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.80433433644356e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.8459203067584493,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998903274655575e-07,
+      "changed_bytes": 13722,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "4f422748eb66e7f1b81d8531c5386ddc54e820104c5ce01164b9b0a6585ab959",
+      "trailer_sha256_after": "4f422748eb66e7f1b81d8531c5386ddc54e820104c5ce01164b9b0a6585ab959",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            0.9406306743621826,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -0.9406306743621826,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            -0.004106670618057251,
+            0.0020533204078674316,
+            -8.285377502441406
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    }
+  },
+  "rest_pose_position_max_error": 0.0,
+  "rotation_checks": [
+    {
+      "mesh_point": "exhaust.0",
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true
+    }
+  ],
+  "tangent_repair": "Exact16-byte tangent-field substitution only; official regenerated winding/index/grid/trailer preserved"
+}

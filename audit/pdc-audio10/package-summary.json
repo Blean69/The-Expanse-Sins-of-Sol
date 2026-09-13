@@ -1,0 +1,19 @@
+{
+  "mod_id": "expanse_donnager10_pdc_audio",
+  "files": 492,
+  "zip_sha256": "ae7afea222fc41c7ed13407be52ac70ef1ea34ba351c551c8e52fcb6e28e3ee9",
+  "tree_sha256": "4ae02627454913e875349cd42b351686117f4a0d17e7891d4c722752d965acc6",
+  "PDC_mounts": 31,
+  "exact_skin_changes": [
+    "entities/trader_light_frigate.unit_skin",
+    "entities/expanse_rocinante_hero.unit_skin",
+    "entities/expanse_amun_ra.unit_skin",
+    "entities/expanse_donnager_battleship.unit_skin"
+  ],
+  "gameplay_and_other_files_preserved": true,
+  "base_zip_sha256": "2a9650d771178b1ae5ff83d2c5d2076dfcb546290bc233a8d4e352aebcad484f",
+  "encoded_lufs": "-18.10",
+  "encoded_true_peak": "-6.71",
+  "installed": false,
+  "runtime": "NOT RUN"
+}

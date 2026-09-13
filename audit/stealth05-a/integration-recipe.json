@@ -1,0 +1,62 @@
+{
+  "status": "OFFLINE COMPONENT PROBES ONLY; no Amun/cloak package",
+  "launch_probe": {
+    "attach_ability": "expanse05_launch_probe",
+    "observed_projectile": "trader_torpedo_cruiser_torpedo",
+    "private_Amun_binding": "Replace exact trigger_event_destination has_definition with finalized private Amun projectile ID; do not count PDC/rail/pods",
+    "count": "individual projectile, fourth triggers",
+    "window": "60 seconds from fourth launch or first tagged gun hit, subsequent launches/hits during window do not extend",
+    "reset": "count zero on reveal; new launch sequence allowed once absolute deadline expires",
+    "weapon_tag_recipe": {
+      "append_to_three_private_PDC_and_heavy_rail_tags": "expanse05_cloak_revealing_gun",
+      "never_append_to_torpedo_or_pod": "expanse05_cloak_revealing_gun"
+    },
+    "gun_policy": "first successful tagged PDC/rail hit starts same60s window; misses/firing before impact do not reveal; this is NOT a weapon-fired hook"
+  },
+  "boarding_probe": {
+    "attach_ability": "expanse05_boarding_probe",
+    "modeled_pod_effect": "pirate_pillage_shuttle",
+    "mesh_references": [
+      "trader_asset_colony_shuttle"
+    ],
+    "roll_count": "one10% roll per eligible delayed attempt; no damage/death trigger",
+    "arrival": "fixed3s delayed action corresponding to stock shuttle effect; not collision of a pod entity",
+    "capture_targets": "enemy capital_ship only, excludes named Rocinante; excludes supercapital/titan by unit type; unknown external mod heroes require explicit exclusions",
+    "supply": "target supply checked at cast and rechecked before transfer, includes queued/future supply",
+    "engine_gates": [
+      "delayed visual timing and source-death/cancel behavior",
+      "ownership/supply availability atomicity across concurrent attempts",
+      "capital ownership health/items/abilities/orders and faction systems",
+      "save/load at pending arrival; multiplayer RNG repeatability",
+      "visual pod is not interceptable and cannot collide physically"
+    ]
+  },
+  "Amun_design_only": {
+    "max_owned": 6,
+    "limit_semantics": "player empire; shared faction-wide pool across players is not evidenced",
+    "PDC_count": 3,
+    "ship_unit_and_mounts": "not generated; must use actual asset metadata",
+    "proposed_private_torpedo": {
+      "damage": 900,
+      "speed": 1500,
+      "penetration": 1000,
+      "hull": 25,
+      "armor": 50,
+      "armor_strength": 25,
+      "status": "PROPOSAL ONLY, no changed projectile output"
+    },
+    "preserved_MCRN_torpedo": {
+      "damage": 750,
+      "speed": 1250,
+      "hull": 50,
+      "armor": 100,
+      "armor_strength": 50
+    }
+  },
+  "cloak_release_blockers": [
+    "Pinned schemas omit installed DLC cloak fields/quality and is_cloaked. No update authorized in this task.",
+    "Preserve required_product dlc_Herald; entitlement behavior on TEC/custom unit untested.",
+    "Hit-trigger gun reveal misses are not detected; stock disable_can_auto_acquire_weapon_targets can suppress autonomous PDCs, so do not promise active hidden defensive network.",
+    "Counter probe has no provides_cloak and performs no visibility changes. Cloak reset/manual toggle/save restoration need a separate combined experiment."
+  ]
+}

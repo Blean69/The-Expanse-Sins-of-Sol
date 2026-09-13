@@ -1,0 +1,50 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "source_master_files_preserved": 7,
+  "prior_frozen_checkpoints": [
+    {
+      "checkpoint": "geometry04-b",
+      "frozen_files_preserved": 128
+    },
+    {
+      "checkpoint": "torpedo05-b",
+      "frozen_files_preserved": 26
+    }
+  ],
+  "ship_triangle_count": 27526,
+  "pod_triangle_count": 4481,
+  "unique_ship_source_mesh_nodes": 37,
+  "detached_equipment_and_fourth_gun_excluded": true,
+  "rig_checks": [
+    {
+      "index": 0,
+      "rest_muzzle_error": 2.7747866226945916e-09,
+      "source_matrix_tolerance": 1e-07,
+      "basis_orthogonality_max_error": 4.480660713992239e-09,
+      "actual_source_yaw_axis_preserved": true,
+      "source_pitch_origin_preserved": true,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 1,
+      "rest_muzzle_error": 0.0,
+      "source_matrix_tolerance": 1e-07,
+      "basis_orthogonality_max_error": 1.5739367341247364e-16,
+      "actual_source_yaw_axis_preserved": true,
+      "source_pitch_origin_preserved": true,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 2,
+      "rest_muzzle_error": 0.0,
+      "source_matrix_tolerance": 1e-07,
+      "basis_orthogonality_max_error": 2.220446049250313e-16,
+      "actual_source_yaw_axis_preserved": true,
+      "source_pitch_origin_preserved": true,
+      "runtime": "NOT RUN"
+    }
+  ],
+  "source_rail_forward_ray_hits": 0,
+  "launch_door_aperture_clearance": "NOT TESTED IN GAME; measured source static door surfaces, not proved open launch throats",
+  "runtime": "NOT RUN"
+}

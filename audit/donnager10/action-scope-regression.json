@@ -1,0 +1,32 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "positive_case": "Full package graph passes with reference-only has_buff and each executed buff checked in its owning ADS",
+  "negative_cases": [
+    {
+      "check": "ability graph",
+      "defect": "missing own ADS duration",
+      "result": "PASS expected rejection",
+      "diagnostic": "Unknown action value duration in /run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff"
+    },
+    {
+      "check": "ability graph",
+      "defect": "missing queried reactor buff",
+      "result": "PASS expected rejection",
+      "diagnostic": "Missing reference entities/expanse10_donnager_reactor.buff from /run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff"
+    },
+    {
+      "check": "typed ADS graph",
+      "defect": "missing own ADS duration",
+      "result": "PASS expected rejection",
+      "diagnostic": "Unknown typed action value duration in /run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff"
+    },
+    {
+      "check": "typed ADS graph",
+      "defect": "missing queried reactor buff",
+      "result": "PASS expected rejection",
+      "diagnostic": "Missing reference entities/expanse10_donnager_reactor.buff from /run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff"
+    }
+  ],
+  "fixtures": "Temporary resolver overlays only; package and game unchanged",
+  "runtime": "NOT RUN"
+}

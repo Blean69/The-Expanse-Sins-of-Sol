@@ -1,0 +1,357 @@
+{
+  "status": "PASS",
+  "pinned_brush_schema_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/expanse03_hero_static.gltf": "7bbf3de161c766634fd8ecbf47dd8773c2bc84bf888a6fc04325728feb7c3779",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/expanse03_hero_static.bin": "c4fbfb8edbed77988e765aae43aa71cc4e987a78518e7a4451e08636cb605769",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_0_clr.png": "9344bb966376da23bb8e89864b803808a4ca974e4efd8617161531b2f749cf28",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_1_clr.png": "f56976d2d52a825c07153f4210d6bd00fe383245011e524ad7ba20b971177c79",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_2_clr.png": "0ab087aaccaee3abcecc0da8cef7db647fb7ca4ed65967bce96449112120481c"
+  },
+  "triangles": 26707,
+  "brush_schema_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/brushes/expanse03_hero_hud_icon.brush",
+      "status": "PASS",
+      "texture": "expanse03_hero_hud_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/brushes/expanse03_hero_hud_picture.brush",
+      "status": "PASS",
+      "texture": "expanse03_hero_hud_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/brushes/expanse03_hero_tooltip_picture.brush",
+      "status": "PASS",
+      "texture": "expanse03_hero_tooltip_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/brushes/expanse03_hero_main_view_icon.brush",
+      "status": "PASS",
+      "texture": "expanse03_hero_main_view_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/brushes/expanse03_hero_main_view_icon_selected.brush",
+      "status": "PASS",
+      "texture": "expanse03_hero_main_view_icon_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/brushes/expanse03_hero_main_view_icon_sub_selected.brush",
+      "status": "PASS",
+      "texture": "expanse03_hero_main_view_icon_sub_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    }
+  ],
+  "png_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_hud_icon.png",
+      "sha256": "d5115b4e8691a55e4555ca15b633fcbd4ccb59c4becba9c56bc1a3758d6d3095",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_hud_icon150.png",
+      "sha256": "ba24cd9883afc8a281009c4dbef6274b274eb1b13672d2dde2c70bc9908ef038",
+      "dimensions": [
+        128,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_hud_icon200.png",
+      "sha256": "ac2eddf61c962f5a969935247c6d322476308170c36c61ab92aefc70daf8a99d",
+      "dimensions": [
+        170,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_hud_picture.png",
+      "sha256": "1c883559fa941f21bc544e687919f53e72caa34796e2b61a2b743744aea703c1",
+      "dimensions": [
+        265,
+        85
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_hud_picture150.png",
+      "sha256": "9578cff8c88e4e8f10baf56101f23d15f76c8c7569c41e5b2a4011c4ccb87d1a",
+      "dimensions": [
+        397,
+        127
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_hud_picture200.png",
+      "sha256": "26b9ec78e56019596ab2abd7ab31a3f9087974053fe8a35a33f5bd20dee1ac01",
+      "dimensions": [
+        530,
+        170
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_tooltip_picture.png",
+      "sha256": "9685d895fcda0e88a1d4bc122cfbcfa8c3d5f212b23ec54b8c00724d1b0b9e9b",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_tooltip_picture150.png",
+      "sha256": "f524ac57362e7e7a88d1a77109aac56ed20f4a618d1cddebeae59ad0a916bce9",
+      "dimensions": [
+        689,
+        324
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_tooltip_picture200.png",
+      "sha256": "0c29a781c992712b4e4cbe0ae2eb06d038034ee39a94432e6329895bd48f1b32",
+      "dimensions": [
+        918,
+        432
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_tooltip_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_main_view_icon.png",
+      "sha256": "199c55fa5bafaf17b7546a24045ac3abad4fbe2e51c75013bc1f4b1cd94400c5",
+      "dimensions": [
+        25,
+        12
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_main_view_icon150.png",
+      "sha256": "7452446eb245b8fed6329271f3a373893b61aa7afa715ebae0a77eaad55aa461",
+      "dimensions": [
+        38,
+        18
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_main_view_icon200.png",
+      "sha256": "0385e014d90b7cd493ce915969e7c903b0f64ce3d29ddd6ca3fb4031fc62b44c",
+      "dimensions": [
+        50,
+        24
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_main_view_icon_selected.png",
+      "sha256": "3df0fc26347c7fe1e1b77d53b33bedf7a8338f193becccecec6dfdf1a14e1129",
+      "dimensions": [
+        36,
+        23
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_main_view_icon_selected150.png",
+      "sha256": "3d50ff30aa05d9410f85d7f7a0208872ec43eddce11637de5a6a7f192cba31fb",
+      "dimensions": [
+        54,
+        35
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_main_view_icon_selected200.png",
+      "sha256": "b76d75755f4516ec6124948e426fab257766de759011d02cc2b13f193bd079fa",
+      "dimensions": [
+        72,
+        46
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_main_view_icon_sub_selected.png",
+      "sha256": "251c32b8214e6a75075cd2c6861e4a6f0b6cc73dc29193712d5c1ae4b9045399",
+      "dimensions": [
+        46,
+        33
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_main_view_icon_sub_selected150.png",
+      "sha256": "570a644771e9125215c34a95936107ef0ed6a20e0418bbfb87b9b3c44e49c962",
+      "dimensions": [
+        69,
+        50
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/textures/expanse03_hero_main_view_icon_sub_selected200.png",
+      "sha256": "c2b6771a156128345474e40a2bfc78ffc3bc6b1a667842e5a46b3d8bddd2dde2",
+      "dimensions": [
+        92,
+        66
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_main_view_icon_sub_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/expanse03_hero_mod_small_logo.png",
+      "sha256": "18f3c5bafddba519fe58baf30b5293cbb4bd190a2342a91144f70a4c353f890f",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_small_logo.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/hero-ui/generated/expanse03_hero_mod_large_logo.png",
+      "sha256": "ce9344e82e7ec882b0bcdc2cfb5d014eb5cc38b510ee98e0dab98fb9096819ec",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_large_logo.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

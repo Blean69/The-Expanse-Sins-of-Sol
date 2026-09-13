@@ -1,0 +1,13 @@
+"""Verify source preservation/resources and freeze a geometry-only handoff."""
+from common import *
+import hashlib,struct,subprocess
+sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest();audit=ROOT/'audit/torpedo05-b';m=read(audit/'mount-metadata.json');check=read(audit/'output-validation.json');assert check['status']=='PASS OFFLINE ONLY';game=ROOT/'build/torpedo05-b/game';r=check['outputs']['amun_torpedo'];assert sha(r['mesh'])==r['sha256'];info=read_mesh(r['mesh']);material=game/'mesh_materials'/(info['materials'][0]+'.mesh_material');assert material.is_file();md=read(material);dds=[]
+for field in ['base_color_texture','occlusion_roughness_metallic_texture','normal_texture','mask_texture']:
+ p=game/'textures'/(md[field]+'.dds');b=p.read_bytes();assert b[:4]==b'DDS ';height,width=struct.unpack_from('<II',b,12);assert [width,height]==[1024,1024];fourcc=b[84:88];fmt=struct.unpack_from('<I',b,128)[0] if fourcc==b'DX10' else 84 if fourcc==b'BC5S' else None;assert fmt==(84 if field=='normal_texture' else 98),(field,fourcc,fmt);dds.append({'field':field,'path':str(p),'sha256':sha(p),'dimensions':[width,height],'DXGI_format':fmt})
+for p,h in m['source_hashes'].items():assert sha(p)==h,p
+hero=read(ROOT/'audit/geometry04-b/final-provenance.json')
+for p,h in hero['files'].items():assert sha(p)==h,p
+spec={'status':'COMPLETE OFFLINE APPEARANCE CANDIDATE; RUNTIME NOT RUN','mesh_id':Path(r['mesh']).stem,'mesh':r['mesh'],'sha256':r['sha256'],'game_directory':str(game),'material':{'id':material.stem,'path':str(material),'sha256':sha(material)},'textures':dds,'meshpoints':info['meshpoints'],'compiled_bounds':{'box':info['box'],'sphere':info['sphere']},'source_geometry_bounds':m['bounds'],'triangle_count':1600,'runtime':'NOT RUN','gameplay_changes':[],'appearance_caveats':m['texture_conversion']};write(audit/'integration-spec.json',spec)
+files=list((ROOT/'tools').glob('torpedo05*.py'))
+for directory in [ROOT/'assets/derived/torpedo05-b',game,audit]:files.extend(p for p in directory.rglob('*') if p.is_file() and p.name!='final-provenance.json')
+write(audit/'final-provenance.json',{'worker':'B','source_head':subprocess.check_output(['git','rev-parse','HEAD'],cwd=ROOT,text=True).strip(),'source_status':'UNCOMMITTED WORKER SOURCES; exact hashes included','readonly_input_hashes':m['source_hashes'],'hero04_frozen_files_verified_unchanged':len(hero['files']),'files':{str(p):sha(p) for p in sorted(set(files))},'runtime':'NOT RUN'});print(json.dumps({'mesh_sha256':r['sha256'],'resources':len(dds)+2,'frozen_files':len(files),'source_dependencies_preserved':len(m['source_hashes']),'hero04_files_preserved':len(hero['files'])}))

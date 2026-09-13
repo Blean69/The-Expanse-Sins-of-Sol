@@ -1,0 +1,88 @@
+{
+  "status": "PASS: schema, structural/state-reference checks and intended-state model only",
+  "runtime": "NOT RUN",
+  "pinned_schema_count": 62,
+  "schema_validated_files": [
+    "expanse03_torpedo_magazine.ability",
+    "expanse03_torpedo_magazine.buff",
+    "expanse03_torpedo_magazine.action_data_source",
+    "expanse03_heavy_torpedo.unit"
+  ],
+  "explicit_checks": [
+    "No active_actions/channel or movement operators",
+    "Infinite passive timer; no finite-volley completion death",
+    "Eight rounds stored in buff memory",
+    "Two create operators and one guarded debit2",
+    "No target means no ammo debit",
+    "Reload guard requires depleted ammo and expired120-second deadline",
+    "All memory/action-value/filter IDs resolve",
+    "Preserve-existing stacking and no restart-on-reapplication",
+    "Filtered timed candidate remains unchanged"
+  ],
+  "unit_memory_write_status": "Current schema supports it; no installed explicit example found; runtime NOT RUN",
+  "save_serialization": "NOT RUN",
+  "state_model": {
+    "result": "PASS: intended state-machine model only; NOT game runtime",
+    "continuous_target": [
+      [
+        0,
+        2
+      ],
+      [
+        10,
+        2
+      ],
+      [
+        20,
+        2
+      ],
+      [
+        30,
+        2
+      ],
+      [
+        150,
+        2
+      ]
+    ],
+    "target_loss_and_reacquisition": [
+      [
+        0,
+        2
+      ],
+      [
+        60,
+        2
+      ],
+      [
+        70,
+        2
+      ],
+      [
+        80,
+        2
+      ],
+      [
+        201,
+        2
+      ]
+    ],
+    "asserted": [
+      "Four paired launches at0/10/20/30, next150",
+      "No ammo debit or reload during60-second target gap",
+      "Changed orders do not reset ammo",
+      "Reacquisition resumes remaining ammo without catch-up salvos",
+      "Only depleted magazine starts120-second reload",
+      "No duplicate pair atsame timestamp",
+      "Reload completes without targets",
+      "Permission-blocked firing retains ammo"
+    ],
+    "save_serialization_test": "NOT RUN; no Python round-trip presented as engine save evidence"
+  },
+  "output_hashes": {
+    "expanse03_heavy_torpedo.unit": "b61a546c7687defdd7a1cd87fd82e493c85169fdbf7256161dc32d69a912194e",
+    "expanse03_torpedo_magazine.ability": "12a46956c8feeb13373ba464aab26e7791c7d21d0a1fd7762617176dcf877bc7",
+    "expanse03_torpedo_magazine.action_data_source": "96fe9b10220321bcb1f13db53a8255dc337712cda1b5cfe03cd938fa5252636b",
+    "expanse03_torpedo_magazine.buff": "9d813a22c88d85aa864699222446b6811b686e0dd823ee98faac42303f47655a"
+  }
+}

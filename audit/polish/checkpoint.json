@@ -1,0 +1,67 @@
+{
+  "previous_checkpoint": "9e40dd4b42853318ef87cc3d7d858f2abf601176",
+  "source_status_at_start": " M ASSET-SOURCES.md\n M README.md\n M audit/manual-results.md\n M docs/build-and-load.md\n M docs/combat-prototype.md\n M docs/manual-test-checklist.md\n?? audit/audio/\n?? audit/experiments/\n?? audit/workers/\n?? docs/audio-feasibility.md\n?? docs/experiments.md\n?? tools/audit_audio_sources.py\n?? tools/build_experiments.py\n?? tools/experiment_checks_selftest.py\n?? tools/tachi_rig_experiment.py\n?? tools/tachi_verify_compiler.py\n?? tools/validate_experiments.py\n?? tools/weapon_experiment.py\n",
+  "prior_outputs_preserved": [
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/expanse_cobalt_name",
+      "files": 2,
+      "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_cobalt_name",
+      "files": 2,
+      "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/expanse_corvette_visual",
+      "files": 26,
+      "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_visual",
+      "files": 26,
+      "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/original",
+      "files": 1,
+      "tree_sha256": "8b29f7e1897378ad63637bac37a6bb3af72fc6c09fc49c91d74e87c903e58ee6"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/source",
+      "files": 13,
+      "tree_sha256": "6b352cbc28c4efd7c7e0a11efad79b752f3e4cfdeda2fdf8944b200eba5e5a12"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived",
+      "files": 58,
+      "tree_sha256": "1419b8dd0c370fb1f9a4fcb4ed831dc943b8467a02a7c4caa2c532e5166d7aa7"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/combat-candidates",
+      "files": 12,
+      "tree_sha256": "68b06add1b209e60fa2395b6f7e40cc476364abad83508f3acea06e68f91c848"
+    }
+  ],
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "settings_at_start": {
+    "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/settings",
+    "files": {
+      ".enabled_mods": "9a27bf79d20cf92cffa03bc5388b6637b67656e8fcc894048634013ea8455abd",
+      "debug_gui_layout.json": "c99aba8a92d4b2d68c0b17e339767f81e2bf16ea65994882fd5ef26eddc23ca2",
+      "input_bindings.json": "7dd10eadee25d8c82da4026a05acee9c0df26a78a756a8cf40da35e7cd9580bf",
+      "last_used_multi_player_options.lobby_options": "501f195415978d8018540f5f1ae337651739735904360cd2f355dc4499dbc96e",
+      "last_used_single_player_options.lobby_options": "501f195415978d8018540f5f1ae337651739735904360cd2f355dc4499dbc96e",
+      "mod_showcase_cache.json": "5e49029cb00c20c5b3b397a1183d6d047fa0829026b27888c52ae98fa4a693fd",
+      "settings.json": "08106ef617c3721df9fa7735cd92296be24e7ae6bc5743e2a44a6ab98c0e13a5",
+      "settings.versions.json": "eefeecad7bc02bd766cf398644ef7d6088463e8fd8b33799404a01681bfcc97e",
+      "steam_autocloud.vdf": "14ee02ae129b9a797cf245dfc39d07621ac62428028e03a9b8e419eb1ff18886"
+    },
+    "tree_sha256": "dba267d77a933731232edb17c0b75da660cd1dde9d93ac49b82b9d33713cf2aa"
+  },
+  "user_runtime_report": "Model loads, fixed muzzles correct; holes and slow sequential medium autocannon visible. Reported both baselines enabled. Other tests not established."
+}

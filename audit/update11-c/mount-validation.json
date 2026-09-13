@@ -1,0 +1,488 @@
+{
+  "status": "PASS OFFLINE GEOMETRY/FRAMES/REFERENCES; runtime NOT RUN",
+  "launch_rays": [
+    {
+      "port": 0,
+      "ray": "PASS forward unobstructed from measured collar mouth",
+      "position": [
+        -3.0,
+        0,
+        31.325729506819624
+      ]
+    },
+    {
+      "port": 1,
+      "ray": "PASS forward unobstructed from measured collar mouth",
+      "position": [
+        3.0,
+        0,
+        31.26850312920278
+      ]
+    }
+  ],
+  "mount_frames": [
+    {
+      "mount": 0,
+      "basis": "PASS exact game row-vector convention",
+      "support": "Measured hullcontact with0.65unit embedding; original adjacentstaticgun components removed"
+    },
+    {
+      "mount": 1,
+      "basis": "PASS exact game row-vector convention",
+      "support": "Measured hullcontact with0.65unit embedding; original adjacentstaticgun components removed"
+    }
+  ],
+  "sampled_barrel_center_rays": [
+    {
+      "mount": 0,
+      "yaw": -180,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -180,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -180,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -180,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -135,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -135,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -135,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -135,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -90,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -90,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -90,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -90,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -45,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -45,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -45,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": -45,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 0,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 0,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 0,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 0,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 45,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 45,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 45,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 45,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 90,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 90,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 90,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 90,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 135,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 135,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 135,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 0,
+      "yaw": 135,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -180,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -180,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -180,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -180,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -135,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -135,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -135,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -135,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -90,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -90,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -90,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -90,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -45,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -45,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -45,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": -45,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 0,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 0,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 0,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 0,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 45,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 45,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 45,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 45,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 90,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 90,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 90,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 90,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 135,
+      "pitch": -85,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 135,
+      "pitch": -45,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 135,
+      "pitch": 0,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    },
+    {
+      "mount": 1,
+      "yaw": 135,
+      "pitch": 5,
+      "barrel_center_ray_clear": true,
+      "first_hull_hit_distance": null
+    }
+  ],
+  "sampled_obstructions": 0,
+  "limits": "Centerline samples do not prove full swept-mesh clearance, target coverage or game aiming. No runtime claim.",
+  "source_preserved": true
+}

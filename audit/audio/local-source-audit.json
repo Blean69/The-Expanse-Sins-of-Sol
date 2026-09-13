@@ -1,0 +1,813 @@
+{
+  "scope": "selected local candidates, not exhaustive; no listening/conversion/runtime test",
+  "workshop_root": "/run/media/haker/NVME 2/SteamLibrary/steamapps/workshop/content/244850",
+  "sources": [
+    {
+      "workshop_id": "2394430829",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2394430829",
+      "creator": "not established from local metadata",
+      "permission": "audio reuse not established",
+      "definition": "Data/AryxLynxonEpsteinDrives_Audio.sbc",
+      "definition_sha256": "da2943bffebb834118bdce95c974b9f32c73db568991f2f32f23df837c3a679e",
+      "files": [
+        {
+          "path": "Audio/ARLN_EPST/arylyn_edrive_ignition_01.wav",
+          "bytes": 712568,
+          "sha256": "95fa9c6c1124096f1d0b944162fc2fe84b1309641d3027e37d859744d6d18122",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "4.038458"
+            }
+          }
+        },
+        {
+          "path": "Audio/ARLN_EPST/arylyn_edrive_ignition_02.wav",
+          "bytes": 712568,
+          "sha256": "252024f8cd9fa09fbf40ddbfe52215087b4660ef7060e8eb29a4a52f161a3baf",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "4.038458"
+            }
+          }
+        },
+        {
+          "path": "Audio/ARLN_EPST/arylyn_edrive_loop_01.wav",
+          "bytes": 1302832,
+          "sha256": "b1ffdaad4b8f0dad50e29543790e485a265940af6fb74a8c1f02f613dc57c5f7",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "7.384626"
+            }
+          }
+        },
+        {
+          "path": "Audio/ARLN_EPST/arylyn_edrive_loop_02.wav",
+          "bytes": 1302832,
+          "sha256": "15939ca771bea4ab7465e0da9022858249870d19de09895c5446393a84c9a0ee",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "7.384626"
+            }
+          }
+        },
+        {
+          "path": "Audio/ARLN_EPST/aryx_lynxon_drive_loop_01.wav",
+          "bytes": 5008306,
+          "sha256": "24734ac09fa8a9235786a54d722b41665dd7151c404ff09adad1abcb73ed61d0",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "28.390612"
+            }
+          }
+        },
+        {
+          "path": "Audio/ARLN_EPST/aryx_lynxon_drive_loop_02.wav",
+          "bytes": 5008306,
+          "sha256": "b8f6be88a5a4bddae4e0fee347febe323012d8d61023666092203797e4719874",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "28.390612"
+            }
+          }
+        },
+        {
+          "path": "Audio/ARLN_EPST/aryx_lynxon_drive_loop_03.wav",
+          "bytes": 5008306,
+          "sha256": "1a71abed38e27a415fcf8c069340342e508f7649fdf775f8cc8c1664008b19a6",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "28.390612"
+            }
+          }
+        },
+        {
+          "path": "Audio/ARLN_EPST/aryx_lynxon_drive_start_01.wav",
+          "bytes": 797158,
+          "sha256": "abf3dee3ef6743a63f5b77274cbe78f15e084a1193aa6365bcaa18381592e96a",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "4.517891"
+            }
+          }
+        },
+        {
+          "path": "Audio/ARLN_EPST/aryx_lynxon_heavy_drive_loop.wav",
+          "bytes": 9379402,
+          "sha256": "7f07a2530f9a65032e17e6a911a9f2262df0ee477d5bb61ed83a091175f8e49a",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "48000",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "48.850000"
+            }
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "ArcARYLYN_edrive_standard_burn",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\ARLN_EPST\\arylyn_edrive_ignition_01.wav",
+                "Loop": "Audio\\ARLN_EPST\\aryx_lynxon_drive_loop_01.wav"
+              },
+              "present": {
+                "Start": true,
+                "Loop": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\ARLN_EPST\\arylyn_edrive_loop_01.wav",
+                "Loop": "Audio\\ARLN_EPST\\arylyn_edrive_loop_02.wav"
+              },
+              "present": {
+                "Start": true,
+                "Loop": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "ArcARYLYN_Very_Large_Epstein_Drive_Fire",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Loop": "Audio\\ARLN_EPST\\aryx_lynxon_heavy_drive_loop.wav"
+              },
+              "present": {
+                "Loop": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "ArcARYLYN_edrive_comically_loud_burn",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\ARLN_EPST\\arylyn_edrive_ignition_01.wav",
+                "Loop": "Audio\\ARLN_EPST\\aryx_lynxon_drive_loop_01.wav"
+              },
+              "present": {
+                "Start": true,
+                "Loop": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\ARLN_EPST\\arylyn_edrive_loop_01.wav",
+                "Loop": "Audio\\ARLN_EPST\\arylyn_edrive_loop_02.wav"
+              },
+              "present": {
+                "Start": true,
+                "Loop": true
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "workshop_id": "2036872575",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2036872575",
+      "creator": "not established from local metadata",
+      "permission": "audio reuse not established",
+      "definition": "Data/Audio_PDC.sbc",
+      "definition_sha256": "51b2ba9d2474b1c33a7092fee8e5ffae0974e577e4847626346fc3fff91af6cd",
+      "files": [
+        {
+          "path": "Audio/WEP/OneShotEnd_2D.wav",
+          "bytes": 261474,
+          "sha256": "e32f03f52fa755f1bc5b2112f6d24ada54a155114666e1d18e2cac23eb9361b2",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "48000",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "1.360875"
+            }
+          }
+        },
+        {
+          "path": "Audio/WEP/OneShotEnd_3D.wav",
+          "bytes": 522770,
+          "sha256": "2006ae9c1d53378bac4f18e0885e2ff150b4607af7e37232182fc666f2495b32",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "48000",
+                "channels": 2
+              }
+            ],
+            "format": {
+              "duration": "1.360875"
+            }
+          }
+        },
+        {
+          "path": "Audio/WEP/OneShotLoop_2D.wav",
+          "bytes": 498526,
+          "sha256": "ab528b8328be77c314a115c3d36c32b615e16976a12772677b7815a2fa5b7d3a",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "48000",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "2.595521"
+            }
+          }
+        },
+        {
+          "path": "Audio/WEP/OneShotLoop_3D.wav",
+          "bytes": 1025610,
+          "sha256": "c6a0370cacd60ca8a6b8f0961aa1337ae940611f11320aa3e99082f307c96fbb",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "48000",
+                "channels": 2
+              }
+            ],
+            "format": {
+              "duration": "2.670354"
+            }
+          }
+        },
+        {
+          "path": "Audio/WEP/OneShotStart_2D.wav",
+          "bytes": 28022,
+          "sha256": "7942a2aaac9a80571ecb4e78c2ae55c00dde42b6ba2e133f4c240a1e7b922f6a",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "48000",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "0.144979"
+            }
+          }
+        },
+        {
+          "path": "Audio/WEP/OneShotStart_3D.wav",
+          "bytes": 64842,
+          "sha256": "deaa416fe3065abaa38ec0f36adfe7c83e4ec540f964ed4aadc883164cf90527",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "48000",
+                "channels": 2
+              }
+            ],
+            "format": {
+              "duration": "0.168354"
+            }
+          }
+        },
+        {
+          "path": "Audio/WEP/startloopend_original.wav",
+          "bytes": 1596674,
+          "sha256": "3070d8cf999dd1f536656dd67b4db3169b78b6966ad737e63691f5890c9fcddc",
+          "header_probe": "unknown format: 3",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_f32le",
+                "sample_rate": "48000",
+                "channels": 2
+              }
+            ],
+            "format": {
+              "duration": "4.157500"
+            }
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "PDC_Shot",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\WEP\\OneShotStart_2D.wav",
+                "Loop": "Audio\\WEP\\OneShotLoop_2D.wav",
+                "End": "Audio\\WEP\\OneShotEnd_2D.wav"
+              },
+              "present": {
+                "Start": true,
+                "Loop": true,
+                "End": true
+              }
+            },
+            {
+              "type": "D2",
+              "references": {
+                "Start": "Audio\\WEP\\OneShotStart_3D.wav",
+                "Loop": "Audio\\WEP\\OneShotLoop_3D.wav",
+                "End": "Audio\\WEP\\OneShotEnd_3D.wav"
+              },
+              "present": {
+                "Start": true,
+                "Loop": true,
+                "End": true
+              }
+            }
+          ]
+        }
+      ],
+      "license_file": {
+        "path": "LICENSE",
+        "sha256": "c3bc1fd94148c28485e8bab1d5a28edbc8e3870f2bd9be7127c68c8b7a0ea5df",
+        "heading": [
+          "GNU GENERAL PUBLIC LICENSE",
+          "                       Version 3, 29 June 2007"
+        ],
+        "scope": "root GPL v3 text; per-audio authorship/scope not established"
+      }
+    },
+    {
+      "workshop_id": "2860576438",
+      "source_url": "https://steamcommunity.com/sharedfiles/filedetails/?id=2860576438",
+      "creator": "not established from local metadata",
+      "permission": "audio reuse not established",
+      "definition": "Data/Audio/AudioImpakt.sbc",
+      "definition_sha256": "7b18257f1e7a9b20272daee4d30285e487ae8bed8bc406edf96098c765a946e0",
+      "files": [
+        {
+          "path": "Audio/sfx/MissileLaunch1.wav",
+          "bytes": 686816,
+          "sha256": "11103d0a8289a43f147cb13f0bab225318ed4e046c4bd8585995ad71bdaf1403",
+          "channels": 1,
+          "rate": 44100,
+          "sample_bytes": 2,
+          "duration_seconds": 7.7853,
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_s16le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "7.785329"
+            }
+          }
+        },
+        {
+          "path": "Audio/sfx/latchrelease.wav",
+          "bytes": 73772,
+          "sha256": "2341f00daefd8e76b6fabbf9f8f1bf7440666077dca73e81aef7a212f9d8920d",
+          "channels": 1,
+          "rate": 44100,
+          "sample_bytes": 2,
+          "duration_seconds": 0.8359,
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_s16le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "0.835918"
+            }
+          }
+        },
+        {
+          "path": "Audio/sfx/missile_launch_02.ogg",
+          "bytes": 189870,
+          "sha256": "c977174b8eada94786f0351aab95b37e8a926a5449a70ddd266389ea6bdd48fa",
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "vorbis",
+                "sample_rate": "44100",
+                "channels": 2
+              }
+            ],
+            "format": {
+              "duration": "4.681859"
+            }
+          }
+        },
+        {
+          "path": "Audio/sfx/missilelaunch.wav",
+          "bytes": 389270,
+          "sha256": "3aee63f4e33c6d92d899aa473cd1309cc247b19786659b3b4c591c5412ecea96",
+          "channels": 1,
+          "rate": 44100,
+          "sample_bytes": 2,
+          "duration_seconds": 4.4118,
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_s16le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "4.411791"
+            }
+          }
+        },
+        {
+          "path": "Audio/sfx/missilesoundeffect.wav",
+          "bytes": 289936,
+          "sha256": "b467b2ca7265c72185c13de34034c2c072fda7a6957341d35a7b4f229b3526fb",
+          "channels": 1,
+          "rate": 48000,
+          "sample_bytes": 2,
+          "duration_seconds": 3.0186,
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_s16le",
+                "sample_rate": "48000",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "3.018604"
+            }
+          }
+        },
+        {
+          "path": "Audio/sfx/radio_missile_02.wav",
+          "bytes": 204558,
+          "sha256": "5c965b59506f4ed16ebdc7d1dd15d8191f09b34528d4ae951f162896d8ff574c",
+          "channels": 1,
+          "rate": 44100,
+          "sample_bytes": 2,
+          "duration_seconds": 2.3188,
+          "ffprobe": {
+            "programs": [],
+            "stream_groups": [],
+            "streams": [
+              {
+                "codec_name": "pcm_s16le",
+                "sample_rate": "44100",
+                "channels": 1
+              }
+            ],
+            "format": {
+              "duration": "2.318753"
+            }
+          }
+        }
+      ],
+      "events": [
+        {
+          "id": "MissileLaunch1",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\MissileLaunch1.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\MissileLaunch1.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\MissileLaunch1.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "nuclearoption",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilesoundeffect.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilesoundeffect.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilesoundeffect.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "latchrelease",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\latchrelease.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\latchrelease.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\latchrelease.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "missilelaunch",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilelaunch.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilelaunch.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilelaunch.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "radio_missile_02",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilelaunch.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilelaunch.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilelaunch.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            }
+          ]
+        },
+        {
+          "id": "missile_launch_02",
+          "waves": [
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilelaunch.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilelaunch.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            },
+            {
+              "type": "D3",
+              "references": {
+                "Start": "Audio\\sfx\\missilelaunch.wav"
+              },
+              "present": {
+                "Start": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "runtime": "NOT RUN",
+  "installed_sound_field_counts": {
+    "is_positionable": 3727,
+    "is_looping": 3833,
+    "is_streaming": 3833,
+    "min_attenuation_distance": 655,
+    "sound_group": 267,
+    "data": 49
+  },
+  "engine_definition": {
+    "is_positionable": true,
+    "is_looping": true,
+    "is_streaming": false,
+    "min_attenuation_distance": 140.0,
+    "sound_group": "exhaust"
+  },
+  "engine_skin_pointer": "entities/trader_light_frigate.unit_skin#/skin_stages/0/sounds/move_sounds/engine"
+}

@@ -1,0 +1,35 @@
+[
+  {
+    "skin": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/advent_loyalist_titan.unit_skin",
+    "retreat": {
+      "neutral": [
+        "advent_loyalist_titan_retreat_neutral_0"
+      ],
+      "scared": [
+        "advent_loyalist_titan_retreat_scared_0"
+      ]
+    }
+  },
+  {
+    "skin": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/dlc2_advent_loyalist_super_capital_ship.unit_skin",
+    "retreat": {
+      "neutral": [
+        "advent_loyalist_super_retreat_neutral_0"
+      ],
+      "scared": [
+        "advent_loyalist_super_retreat_scared_0"
+      ]
+    }
+  },
+  {
+    "skin": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_rebel_titan.unit_skin",
+    "retreat": {
+      "neutral": [
+        "trader_rebel_titan_retreat_neutral_0"
+      ],
+      "scared": [
+        "trader_rebel_titan_retreat_scared_0"
+      ]
+    }
+  }
+]

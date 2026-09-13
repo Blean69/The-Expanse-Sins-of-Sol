@@ -1,0 +1,31 @@
+{
+  "status": "PASS: weapon recipe checks only",
+  "runtime": "NOT RUN",
+  "pinned_schema_count": 62,
+  "installed_input_count": 6,
+  "weapon_schemas_passed": [
+    "expanse_polish_pdc_0",
+    "expanse_polish_pdc_1",
+    "expanse_polish_pdc_2",
+    "expanse_polish_pdc_3",
+    "expanse_polish_pdc_4",
+    "expanse_polish_pdc_5"
+  ],
+  "checked_exact_differences": true,
+  "one_weapon_budget_per_mount": true,
+  "unique_mount_count": 6,
+  "unique_alias_count": 12,
+  "mesh_dependent_checks": "NOT PERFORMED; separate Worker B/integrator gate required",
+  "output_hashes": {
+    "expanse_polish_pdc_0.weapon": "5d13a6afd968bcc1006e0970564458a9c55ecc9034926c37d424114343018604",
+    "expanse_polish_pdc_1.weapon": "78a141a1ea2f99f84776e82bd0a5c9a03ba6ef3ca5213a0a5ae53ddacc4ee76d",
+    "expanse_polish_pdc_2.weapon": "c10e17264949ceb59bc19042f860cb6968cc9a63991e48c3e39d5b51f7daf5f5",
+    "expanse_polish_pdc_3.weapon": "aab62699599e4aeb66eec32f427fbebd75ebac1ba89d45c8b0e7cf66d619345e",
+    "expanse_polish_pdc_4.weapon": "e7c3c1427bebb663878791065090d492a86f070af1a412ddab25e425db048095",
+    "expanse_polish_pdc_5.weapon": "a78a9d5555c00ee636c8c08cf0d3db40204e64546d13f8f1518279e4f3230f95"
+  },
+  "asset_independent_checks": {
+    "syntax_compilation": "PASS",
+    "missing_environment_diagnostic": "PASS; BLOCKED returned; no skipped asset check marked as pass"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "root_files_to_copy": [
+    "mod_small_logo.png",
+    "mod_large_logo.png"
+  ],
+  "logos": {
+    "small_logo": "mod_small_logo.png",
+    "large_logo": "mod_large_logo.png"
+  },
+  "metadata_example_path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/.mod_meta_data",
+  "format": "Integrator metadata; do not package this file",
+  "unit_skin": "entities/trader_light_frigate.unit_skin",
+  "patches": [
+    {
+      "pointer": "/skin_stages/0/gui/hud_icon",
+      "old": "trader_light_frigate_hud_icon",
+      "value": "mcrn_corvette_hud_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_monochrome_icon",
+      "old": "trader_light_frigate_main_view_icon",
+      "value": "mcrn_corvette_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_picture",
+      "old": "trader_light_frigate_hud_picture",
+      "value": "mcrn_corvette_hud_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/tooltip_picture",
+      "old": "trader_light_frigate_tooltip_picture",
+      "value": "mcrn_corvette_tooltip_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/icon",
+      "old": "trader_light_frigate_main_view_icon",
+      "value": "mcrn_corvette_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/selected_icon",
+      "old": "trader_light_frigate_main_view_icon_selected",
+      "value": "mcrn_corvette_main_view_icon_selected"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/sub_selected_icon",
+      "old": "trader_light_frigate_main_view_icon_sub_selected",
+      "value": "mcrn_corvette_main_view_icon_sub_selected"
+    }
+  ],
+  "copy_generated_subdirectories": [
+    "brushes",
+    "textures"
+  ],
+  "entity_manifests_required": [],
+  "scope": "All users of overridden Cobalt skin, including applicable garrison/neutral users; no UI global overrides",
+  "runtime": "NOT RUN",
+  "read_only_inputs": {
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_light_frigate.unit": "21f7dc1945cb4b04f28fcd7c22e0a1cfcfdf5eae4c41af7e5270bf847f22cb48",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_light_frigate.unit_skin": "4819e90d19e76b6201fc39ee1230669202f5380fd66b376ebc30cf3ec91c0ba6",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/brush-schema.json": "0819b66a74e8abe306304cb3ce6640f0d1575887c3f5e2b24fb4da80106ca622",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/README.md": "6d68e50ce5ac3ab555d392e60b4bb8990330171f1ef7c380bc7246ed28f41ce6",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/.mod_meta_data": "4ba4baf5c8eb174095fc7c78bf82a83794df7e4ce050ae95cd952615662191fb"
+  },
+  "installed_cobalt_brush_sidecars": [],
+  "texture_organization": "Standalone RGBA PNG images with separate 150/200 DPI files. No Cobalt brush sidecars observed. Explicit mod-specific brushes bind standalone texture IDs; no source atlas or entity_manifest needed."
+}

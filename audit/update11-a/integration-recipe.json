@@ -1,0 +1,99 @@
+{
+  "status": "OFFLINE COMPONENTS PASS; main unit/skin integration and runtime tests required",
+  "files": [
+    "expanse10_donnager_launch_corvette.ability",
+    "expanse10_donnager_launch_corvette.action_data_source",
+    "expanse06_amun_boarding.action_data_source",
+    "expanse10_donnager_marines.action_data_source",
+    "expanse11_morrigan_magazine.ability",
+    "expanse11_morrigan_magazine.buff",
+    "expanse11_morrigan_magazine.action_data_source"
+  ],
+  "localization": {
+    "expanse10_donnager_launch_corvette.description": "Deploy one MCRN Corvette-class as a reinforcement arriving after 2 seconds. Costs 300 credits and 55 metal; requires 55 free fleet supply. 20-second cooldown. Arrival placement is controlled by the engine.",
+    "expanse06_amun_boarding.description": "Launch a boarding pod: one 10% capture attempt after 3 seconds against a detected enemy capital ship, command ship or titan. Requires free fleet supply. 180-second cooldown. Rocinante is excluded. The timed visual cannot be intercepted. Captured titans may exceed the construction cap.",
+    "expanse10_donnager_marines.description": "Launch a boarding pod: one 40% capture attempt after 3 seconds against a detected enemy capital ship, command ship or titan. Requires free fleet supply. 600-second cooldown. Rocinante is excluded. The timed visual cannot be intercepted. Captured titans may exceed the construction cap.",
+    "expanse11_morrigan_magazine.name": "Morrigan light torpedoes",
+    "expanse11_morrigan_magazine.description": "Four Martian light torpedoes: one every 10 seconds, alternating between two bow tubes. Reloads 120 seconds after the fourth launch. Targets detected enemies in the same gravity well.",
+    "expanse11_morrigan_magazine.ammo_label": "Torpedoes remaining",
+    "expanse06_cloak_revealing_gun.name": "Cloak-revealing gun"
+  },
+  "allowed_existing_deltas": {
+    "expanse10_donnager_launch_corvette.ability": [
+      "/active_actions/actions/actions/0/operators/0/check_research_prerequisites",
+      "/active_actions/actions/actions/0/operators/0/in_hyperspace",
+      "/active_actions/actions/actions/0/operators/0/units/required_units/0/unit",
+      "/gui/hud_icon",
+      "/gui/tooltip_line_groups",
+      "/gui/tooltip_picture"
+    ],
+    "expanse10_donnager_launch_corvette.action_data_source": [
+      "/action_values/3/action_value/values/0",
+      "/action_values/4/action_value/values/0"
+    ],
+    "expanse06_amun_boarding.action_data_source": [
+      "/target_filters/0/target_filter/unit_types"
+    ],
+    "expanse10_donnager_marines.action_data_source": [
+      "/target_filters/0/target_filter/unit_types"
+    ]
+  },
+  "main_required_unit": "expanse_mcrn_corvette",
+  "main_required_unit_supply": 55,
+  "launch": {
+    "in_hyperspace": true,
+    "arrival_delay": 2,
+    "price": {
+      "credits": 300,
+      "metal": 55
+    },
+    "cooldown": 20,
+    "required_supply": 55,
+    "count": 1,
+    "runtime_unresolved": [
+      "Correct owner, arrival and location",
+      "Resource payment, full supply and simultaneous launch races",
+      "No unit_spawner assert"
+    ]
+  },
+  "morrigan": {
+    "ability": "expanse11_morrigan_magazine",
+    "ability_positions": "REQUIRED: main actual two bow tube position/frame records, not old Cobalt coordinates",
+    "firing": "one shot per10s;4rounds;120s empty reload;sequential tubes",
+    "projectile": "expanse04_light_torpedo",
+    "damage": 750,
+    "penetration": 1000,
+    "hull": 50,
+    "armor": 100,
+    "armor_strength": 50
+  },
+  "main_unit_ai_fix": {
+    "unit": "expanse_amun_ra",
+    "attack_target_type_groups_to_ignore": [],
+    "reason": "Sole prior ignored group torpedo_strikecraft also appears in attack_target_type_groups and produces engine validation error"
+  },
+  "main_weapon_uniform": {
+    "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/weapon.uniforms",
+    "source_sha256": "02302adb2b139b86dc6d08ce034e661753007b16ba25d7695b98d77ff2a294eb",
+    "append_weapon_tag": {
+      "name": "expanse06_cloak_revealing_gun",
+      "localized_name": "expanse06_cloak_revealing_gun.name"
+    },
+    "retain_other_fields": true,
+    "expected_stock_tag_count": 19
+  },
+  "boarding": {
+    "target_types": [
+      "capital_ship",
+      "super_capital_ship",
+      "titan"
+    ],
+    "Amun_chance": 0.1,
+    "Amun_cooldown": 180,
+    "Donnager_chance": 0.4,
+    "Donnager_cooldown": 600,
+    "capital_and_titan_supply_rechecks_preserved": true,
+    "Rocinante_excluded": true,
+    "capture_cap": "UNRESOLVED: change_owner_player has no cap field and action queries expose no global player tag count; captured titans may exceed construction cap. Test while already owning/queueing a titan. No shared construction cap is removed."
+  }
+}

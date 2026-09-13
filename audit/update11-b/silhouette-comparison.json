@@ -1,0 +1,42 @@
+{
+  "status": "MEASURED OFFLINE; visual quality requires runtime",
+  "purpose": "Original and optimized source only, before donor/support/collar additions. Binary projected masks, not a shading/UV proof",
+  "views": [
+    {
+      "axes": [
+        2,
+        0
+      ],
+      "pixels_per_game_unit": 0.92,
+      "source_pixels": 186647,
+      "reduced_pixels": 186280,
+      "intersection_over_union": 0.9974879216702911,
+      "source_pixels_missing_beyond_two_pixel_tolerance": 0,
+      "derivative_pixels_added_beyond_two_pixel_tolerance": 0
+    },
+    {
+      "axes": [
+        2,
+        1
+      ],
+      "pixels_per_game_unit": 0.92,
+      "source_pixels": 180774,
+      "reduced_pixels": 180477,
+      "intersection_over_union": 0.9977713505173453,
+      "source_pixels_missing_beyond_two_pixel_tolerance": 0,
+      "derivative_pixels_added_beyond_two_pixel_tolerance": 0
+    },
+    {
+      "axes": [
+        0,
+        1
+      ],
+      "pixels_per_game_unit": 0.75,
+      "source_pixels": 52502,
+      "reduced_pixels": 52159,
+      "intersection_over_union": 0.9922526363878631,
+      "source_pixels_missing_beyond_two_pixel_tolerance": 0,
+      "derivative_pixels_added_beyond_two_pixel_tolerance": 0
+    }
+  ]
+}

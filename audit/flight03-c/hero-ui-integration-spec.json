@@ -1,0 +1,43 @@
+{
+  "source": "Actual new26707-triangle hero source; no Tachi image/model input",
+  "copy_generated_subdirectories": [
+    "brushes",
+    "textures"
+  ],
+  "optional_root_logos": {
+    "small_logo": "expanse03_hero_mod_small_logo.png",
+    "large_logo": "expanse03_hero_mod_large_logo.png"
+  },
+  "hero_skin_patches": [
+    {
+      "pointer": "/skin_stages/0/gui/hud_icon",
+      "value": "expanse03_hero_hud_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_monochrome_icon",
+      "value": "expanse03_hero_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_picture",
+      "value": "expanse03_hero_hud_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/tooltip_picture",
+      "value": "expanse03_hero_tooltip_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/icon",
+      "value": "expanse03_hero_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/selected_icon",
+      "value": "expanse03_hero_main_view_icon_selected"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/sub_selected_icon",
+      "value": "expanse03_hero_main_view_icon_sub_selected"
+    }
+  ],
+  "entity_manifests_required": [],
+  "runtime": "NOT RUN"
+}

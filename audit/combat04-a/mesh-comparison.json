@@ -1,0 +1,162 @@
+{
+  "trader_medium_torpedo": {
+    "physics": {
+      "can_move_linear": true,
+      "max_linear_speed": 1750.0,
+      "time_to_max_linear_speed": 7.0,
+      "arrival_tolerance_spatial_radius_scalar": 2.0,
+      "death_linear_speed_range": [
+        1.0,
+        2.0
+      ],
+      "can_move_angular": true,
+      "max_angular_speed": 75.0,
+      "time_to_max_angular_speed": 3.0,
+      "max_bank_angle": 89.0,
+      "death_angular_speed_range": [
+        5.0,
+        10.0
+      ],
+      "linear_acceleration_angle": 180.0,
+      "linear_speed_floor_to_brake_for_turn": 500.0,
+      "can_strafe_linear": true,
+      "strafe_max_linear_speed": 250.0,
+      "time_to_strafe_max_linear_speed": 1.5,
+      "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+      "strafe_start_angle": 0.0,
+      "strafe_stop_angle": 180.0,
+      "strafe_speed_start_angle": 10.0,
+      "strafe_max_start_turning_angle": 170.0,
+      "disable_goal_tracking_on_death": false
+    },
+    "health": {
+      "release_time_after_death": 5.0,
+      "round_max_points_up_to_5": false,
+      "levels": [
+        {
+          "max_hull_points": 5.0,
+          "max_armor_points": 10.0,
+          "armor_strength": 25.0
+        }
+      ]
+    },
+    "spatial": {
+      "radius": 8.274259,
+      "box": {
+        "center": [
+          7e-06,
+          0.0,
+          2e-06
+        ],
+        "extents": [
+          1.468057,
+          1.468057,
+          8.255378
+        ]
+      },
+      "collision_rank": 0,
+      "can_displace_target_on_collision": false
+    },
+    "mesh": {
+      "box": [
+        7.000000096013537e-06,
+        0.0,
+        1.9999999949504854e-06,
+        1.4680570363998413,
+        1.4680570363998413,
+        8.255377769470215
+      ],
+      "sphere": [
+        0.0,
+        0.0,
+        0.0,
+        8.274258613586426
+      ],
+      "triangles": 3076,
+      "materials": [
+        "trader_medium_torpedo"
+      ]
+    },
+    "length": 16.51075553894043
+  },
+  "trader_torpedo_cruiser_torpedo": {
+    "physics": {
+      "can_move_linear": true,
+      "max_linear_speed": 1000.0,
+      "time_to_max_linear_speed": 2.0,
+      "arrival_tolerance_spatial_radius_scalar": 2.0,
+      "death_linear_speed_range": [
+        1.0,
+        2.0
+      ],
+      "can_move_angular": true,
+      "max_angular_speed": 15.0,
+      "time_to_max_angular_speed": 2.0,
+      "max_bank_angle": 89.0,
+      "death_angular_speed_range": [
+        5.0,
+        10.0
+      ],
+      "linear_acceleration_angle": 180.0,
+      "linear_speed_floor_to_brake_for_turn": 500.0,
+      "can_strafe_linear": true,
+      "strafe_max_linear_speed": 250.0,
+      "time_to_strafe_max_linear_speed": 1.5,
+      "strafe_max_linear_distance_spatial_radius_scalar": 3.0,
+      "strafe_start_angle": 0.0,
+      "strafe_stop_angle": 180.0,
+      "strafe_speed_start_angle": 10.0,
+      "strafe_max_start_turning_angle": 170.0,
+      "disable_goal_tracking_on_death": false
+    },
+    "health": {
+      "release_time_after_death": 5.0,
+      "round_max_points_up_to_5": false,
+      "levels": [
+        {
+          "max_hull_points": 50.0,
+          "max_armor_points": 100.0,
+          "armor_strength": 50.0
+        }
+      ]
+    },
+    "spatial": {
+      "radius": 136.160538,
+      "box": {
+        "center": [
+          0.0,
+          2.8e-05,
+          0.0
+        ],
+        "extents": [
+          9.701946,
+          9.701998,
+          136.04129
+        ]
+      },
+      "collision_rank": 0,
+      "can_displace_target_on_collision": false
+    },
+    "mesh": {
+      "box": [
+        0.0,
+        2.8000000384054147e-05,
+        0.0,
+        9.701946258544922,
+        9.701997756958008,
+        136.04129028320312
+      ],
+      "sphere": [
+        0.0,
+        0.0,
+        0.0,
+        136.16053771972656
+      ],
+      "triangles": 908,
+      "materials": [
+        "trader_torpedo_cruiser_torpedo"
+      ]
+    },
+    "length": 272.08258056640625
+  }
+}

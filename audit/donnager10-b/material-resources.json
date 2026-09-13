@@ -1,0 +1,41 @@
+{
+  "status": "GENERATED; DDS/reference checks pending",
+  "actual_aliases": {
+    "expanse10_donnager_hull_expanse10_donnager_mat_0": "expanse10_donnager_mat_0",
+    "expanse10_donnager_hull_expanse10_donnager_mat_1": "expanse10_donnager_mat_1",
+    "expanse10_donnager_hull_expanse10_donnager_mat_10": "expanse10_donnager_mat_10",
+    "expanse10_donnager_hull_expanse10_donnager_mat_2": "expanse10_donnager_mat_2",
+    "expanse10_donnager_hull_expanse10_donnager_mat_3": "expanse10_donnager_mat_3",
+    "expanse10_donnager_hull_expanse10_donnager_mat_4": "expanse10_donnager_mat_4",
+    "expanse10_donnager_hull_expanse10_donnager_mat_5": "expanse10_donnager_mat_5",
+    "expanse10_donnager_hull_expanse10_donnager_mat_6": "expanse10_donnager_mat_6",
+    "expanse10_donnager_hull_expanse10_donnager_mat_7": "expanse10_donnager_mat_7",
+    "expanse10_donnager_hull_expanse10_donnager_mat_8": "expanse10_donnager_mat_8",
+    "expanse10_donnager_hull_expanse10_donnager_mat_9": "expanse10_donnager_mat_9",
+    "expanse10_donnager_pdc_barrel_mcrn_tachi_material": "mcrn_tachi_material",
+    "expanse10_donnager_pdc_base_mcrn_tachi_material": "mcrn_tachi_material",
+    "expanse10_donnager_rail_0_expanse10_donnager_mat_0": "expanse10_donnager_mat_0",
+    "expanse10_donnager_rail_0_expanse10_donnager_mat_1": "expanse10_donnager_mat_1",
+    "expanse10_donnager_rail_1_expanse10_donnager_mat_0": "expanse10_donnager_mat_0",
+    "expanse10_donnager_rail_1_expanse10_donnager_mat_1": "expanse10_donnager_mat_1"
+  },
+  "source_material_count": 11,
+  "donor_material_count": 1,
+  "source_texture_size": [
+    2048,
+    2048
+  ],
+  "constant_texture_size": [
+    16,
+    16
+  ],
+  "no_source_normal_map": "Flat unit normal derivative; no detail reconstructed or baked",
+  "mask": "Source emissive surfaces use maskB1 tinted by base color. No player-color region invented",
+  "donor_texture_hashes": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun09_cloak/textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+  },
+  "source_materials": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/materials"
+}

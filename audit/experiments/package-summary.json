@@ -1,0 +1,30 @@
+{
+  "checkpoint": "9e40dd4b42853318ef87cc3d7d858f2abf601176",
+  "stock": {
+    "mod_id": "expanse_exp_stock_pdc",
+    "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc",
+    "offline": "PASS",
+    "files": 10,
+    "zip_sha256": "eab5c7eda43b55374ca07d3452c42dc920c9a573cf4776b414c8f09f27b44179",
+    "tree_sha256": "dec0e431a1ec4c87a8dbc1ed44e58fcc9e968a906bf0669e950d4a4d5abbb941",
+    "installed": false,
+    "runtime": "NOT RUN"
+  },
+  "tachi": {
+    "reserved_mod_id": "expanse_exp_tachi_one_pdc",
+    "status": "CANDIDATE ONLY",
+    "package": null,
+    "blocker": "Generated invalid tangent frames",
+    "gate_rejection_observed": "BLOCKED: rig shading-frame gate has not passed; candidate only",
+    "worker_root": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc",
+    "runtime": "NOT RUN"
+  },
+  "preservation_status": "PASS",
+  "main_checks": {
+    "focused_selftests": "17 PASS (9 asset-independent / 8 environment); rerun in main",
+    "syntax": "PASS",
+    "stock_hardened_input_reconstruction": "PASS; identical packaged entity bytes",
+    "rig_packaging_rejection": "PASS; nonzero exit, no package files created",
+    "audio": "22 local media metadata/hash probes; no playback or media copies"
+  }
+}

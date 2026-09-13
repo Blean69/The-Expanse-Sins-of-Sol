@@ -1,0 +1,31 @@
+{
+  "version": "0.2.1",
+  "cause": "Unit AI explicit target groups omitted torpedo_strikecraft while matching weapon contained it",
+  "changed_files": [
+    ".mod_meta_data",
+    "entities/trader_light_frigate.unit"
+  ],
+  "new_groups": [
+    "torpedo_strikecraft",
+    "flak",
+    "light",
+    "antiarmor_lrm",
+    "carrier_support",
+    "capital_supercapital_heavy",
+    "defense",
+    "corvette"
+  ],
+  "unit_ignore_groups_preserved": [
+    "torpedo_strikecraft"
+  ],
+  "backup": "/run/media/haker/NVME 2/expanse-mod/build/hotfix-0.2.0",
+  "installed_matches_package": true,
+  "offline_validation": "PASS",
+  "schemas": 14,
+  "archive": {
+    "files": 83,
+    "zip_sha256": "77fafb25e1f8ec8f812c5f5b720bef85f563c451b3866d432c7ae5141f0b2e10",
+    "tree_sha256": "922bb383eac8568ac5f365cd992f96d6709620e36c71f4ab639555db0da2aebf"
+  },
+  "runtime_apply_changes": "NOT RUN by agent"
+}

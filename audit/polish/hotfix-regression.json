@@ -1,0 +1,210 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Unchanged synthetic frozen tree",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": {
+        "path": "/tmp/expanse-worker-c-m1j6jucm/frozen",
+        "files": 1,
+        "tree_sha256": "e59f80da308acf85bae0cac1fef2daaeecfe49250b05fa4e560a8b4416e1c352"
+      }
+    },
+    {
+      "check": "Injected baseline weapon contamination rejected",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": "Frozen tree changed: /tmp/expanse-worker-c-m1j6jucm/frozen; added=['contaminant.weapon']; missing=[]; changed=[]"
+    },
+    {
+      "check": "Missing dependency is BLOCKED, not PASS",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Mod override precedes installed reference",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Untouched installed dependency fallback resolves",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": "fallback.unit"
+    },
+    {
+      "check": "Injected missing reference fails explicitly",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": "Missing reference entities/missing.weapon from selftest"
+    },
+    {
+      "check": "Recorded baseline semantics accepted read-only",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "two_localization_entries": true,
+        "two_muzzles": [
+          [
+            11.343961963099,
+            -10.83748098350048,
+            36.18420167476527
+          ],
+          [
+            -11.34397057080658,
+            -10.837472288242,
+            36.1842051091508
+          ]
+        ],
+        "mean_weapon_position": [
+          -4.303853789799916e-06,
+          -10.83747663587124,
+          36.184203391958036
+        ],
+        "gameplay_unchanged": true
+      }
+    },
+    {
+      "check": "Injected wrong fixed muzzle rejected",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": "Visual baseline muzzle coordinates changed"
+    },
+    {
+      "check": "Injected wrong muzzle mean rejected",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": "Visual baseline weapon_position must equal the two-muzzle mean"
+    },
+    {
+      "check": "Injected gameplay change rejected",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": "Visual baseline changed Cobalt gameplay or another unit field"
+    },
+    {
+      "check": "Installed Garda mount and Ogrov projectile graphs resolve",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": [
+        0,
+        0
+      ]
+    },
+    {
+      "check": "Minimal stock package full offline validation",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "status": "PASS",
+        "checks": [
+          {
+            "check": "Package layout and separation",
+            "scope": "asset-independent",
+            "status": "PASS",
+            "detail": {
+              "mod_id": "expanse_selftest_stock",
+              "files": 3,
+              "tree_sha256": "d428a6a99afbc99b176fdf16e6981b35e6a858afc17379d351a9aa3e1a17c027"
+            }
+          },
+          {
+            "check": "Additive manifests",
+            "scope": "environment",
+            "status": "PASS",
+            "detail": "All new entity IDs registered; no vanilla dependency copies required"
+          },
+          {
+            "check": "Pinned SDK and installed references",
+            "scope": "environment",
+            "status": "PASS",
+            "detail": {
+              "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+              "schemas": 62,
+              "installed_references": 527
+            }
+          },
+          {
+            "check": "Pinned schemas for authored definitions",
+            "scope": "environment",
+            "status": "PASS",
+            "detail": {
+              "validated": 2,
+              "limitation": "Draft 7 does not enforce unevaluatedProperties; integrator must review exact source diffs. Installed SDK has no mesh_material, localized_text or mod_meta_data schema; these are checked structurally/by references only"
+            }
+          },
+          {
+            "check": "Overlay references, mount aliases, torpedo entity classification",
+            "scope": "environment",
+            "status": "PASS",
+            "detail": {
+              "edges": 207,
+              "mesh_count": 7,
+              "boundary": "Installed effect/audio/death resources checked for existence only; no runtime or whole-game closure claim"
+            }
+          }
+        ],
+        "runtime": "NOT RUN"
+      }
+    },
+    {
+      "check": "ZIP bytes and layout match package",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": {
+        "files": 3,
+        "zip_sha256": "b19485f9c49f0d59d5fbf9407e0137ed6e01f0040f0395fe70fa5a9fc298042d",
+        "tree_sha256": "d428a6a99afbc99b176fdf16e6981b35e6a858afc17379d351a9aa3e1a17c027"
+      }
+    },
+    {
+      "check": "Package provenance records commit/source hashes/ZIP hash",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": {
+        "source_commit": "9e40dd4b42853318ef87cc3d7d858f2abf601176",
+        "source_tree_sha256": "4d2dd31616307e7ca452116877b91a55d4f9d0a8d9e586f13299b6f4affff9a0",
+        "ignored_dependency_hashes": {},
+        "package_sha256": "b19485f9c49f0d59d5fbf9407e0137ed6e01f0040f0395fe70fa5a9fc298042d",
+        "package_path": "/tmp/expanse-worker-c-m1j6jucm/build/experiments/expanse_selftest_stock.zip",
+        "runtime": "NOT RUN"
+      }
+    },
+    {
+      "check": "Missing SDK full validation is BLOCKED",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Experimental package rejects candidate directory",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": null
+    },
+    {
+      "check": "Injected missing mount alias rejected",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": "Unbound turret mesh alias missing_alias: /tmp/expanse-worker-c-m1j6jucm/build/experiments/expanse_selftest_stock/entities/trader_antifighter_frigate_point_defense_autocannon.weapon on /tmp/expanse-worker-c-m1j6jucm/build/experiments/expanse_selftest_stock/entities/trader_antifighter_frigate.unit"
+    },
+    {
+      "check": "Mismatched unit and matching-weapon groups rejected",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": "attack_target_type_groups do not match weapon:trader_light_frigate_medium_autocannon.weapon on /tmp/expanse-worker-c-m1j6jucm/build/experiments/expanse_selftest_stock/entities/trader_light_frigate.unit"
+    },
+    {
+      "check": "Matching groups accepted with unit torpedo-ignore preserved",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": [
+        "torpedo_strikecraft"
+      ]
+    }
+  ],
+  "runtime": "NOT RUN"
+}

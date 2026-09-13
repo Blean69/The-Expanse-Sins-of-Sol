@@ -1,0 +1,3248 @@
+{
+  "status": "OFFLINE SIX HERO AIMING RIG CHECKS PASS; RUNTIME NOT RUN",
+  "rigs": [
+    {
+      "index": 0,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_0",
+        "mesh_point": "child.expanse04_hero_pdc_0_base",
+        "weapon_position": [
+          -14.913393920144916,
+          -12.864521905610982,
+          4.7757435004340305
+        ],
+        "forward": [
+          1.2325250682012023e-07,
+          3.7636625193760856e-08,
+          0.9999999999999918
+        ],
+        "up": [
+          -0.9833953045935435,
+          -0.1814763756067317,
+          1.280360948165237e-07
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.18147637560673502,
+          -0.9833953045935435,
+          1.2325250682012023e-07
+        ],
+        [
+          0.9833953045935512,
+          -0.1814763756067317,
+          3.7636625193760856e-08
+        ],
+        [
+          -1.4644262274132095e-08,
+          1.280360948165237e-07,
+          0.9999999999999918
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -14.913393920144916,
+        -12.864521905610982,
+        4.7757435004340305
+      ],
+      "pitch_pivot_hull": [
+        -16.61263844335775,
+        -13.178101537221803,
+        4.7757437216722565
+      ],
+      "muzzle_hull": [
+        -16.380494159901062,
+        -13.207519185164895,
+        10.55284412383056
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_0_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_0_barrel",
+        "barrel_position": [
+          -8.683666631308258e-16,
+          1.727936380492649,
+          -2.882488765720078e-16
+        ],
+        "muzzle_positions": [
+          [
+            -0.0710579646403381,
+            -0.222950250534577,
+            5.777100429663441
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_0_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_0_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_0_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_0_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        119,
+        120,
+        123,
+        126,
+        129,
+        132,
+        149,
+        150
+      ],
+      "fixed_source_housing_node": 111,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 1,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_1",
+        "mesh_point": "child.expanse04_hero_pdc_1_base",
+        "weapon_position": [
+          14.937025303743535,
+          -6.960951749963981,
+          4.7742760516634695
+        ],
+        "forward": [
+          -4.249505194301774e-08,
+          -4.566409867950381e-07,
+          0.9999999999998949
+        ],
+        "up": [
+          0.9784598114504114,
+          0.20643739335790617,
+          1.3584747552610457e-07
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.2064373933579465,
+          0.9784598114504114,
+          -4.249505194301774e-08
+        ],
+        [
+          -0.9784598114503142,
+          0.20643739335790617,
+          -4.566409867950381e-07
+        ],
+        [
+          -4.3803228608627734e-07,
+          1.3584747552610457e-07,
+          0.9999999999998949
+        ]
+      ],
+      "yaw_pivot_hull": [
+        14.937025303743535,
+        -6.960951749963981,
+        4.7742760516634695
+      ],
+      "pitch_pivot_hull": [
+        16.64539269812184,
+        -6.60051700582225,
+        4.774276288849908
+      ],
+      "muzzle_hull": [
+        16.412352021850403,
+        -6.570687000690489,
+        10.55398828938169
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_1_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_1_barrel",
+        "barrel_position": [
+          -4.1043144794368666e-16,
+          1.7459760476477004,
+          8.78144174669655e-17
+        ],
+        "muzzle_positions": [
+          [
+            -0.07729830265309386,
+            -0.22186212250228743,
+            5.779711996812647
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_1_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_1_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_1_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_1_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        182,
+        183,
+        186,
+        189,
+        192,
+        195,
+        209,
+        210
+      ],
+      "fixed_source_housing_node": 174,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 2,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_2",
+        "mesh_point": "child.expanse04_hero_pdc_2_base",
+        "weapon_position": [
+          9.381905658056311,
+          -8.871120800747791,
+          31.113955681220062
+        ],
+        "forward": [
+          -0.2608211919502971,
+          -0.06952492058021265,
+          0.9628803618560001
+        ],
+        "up": [
+          0.9566778881586233,
+          0.11505865675781111,
+          0.2674489181384828
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.1293820858464683,
+          0.9566778881586233,
+          -0.2608211919502971
+        ],
+        [
+          -0.9909226967445058,
+          0.11505865675781111,
+          -0.06952492058021265
+        ],
+        [
+          -0.036503218195301446,
+          0.2674489181384828,
+          0.9628803618560001
+        ]
+      ],
+      "yaw_pivot_hull": [
+        9.381905658056311,
+        -8.871120800747791,
+        31.113955681220062
+      ],
+      "pitch_pivot_hull": [
+        10.965100621816926,
+        -8.680711585513766,
+        31.556553744268285
+      ],
+      "muzzle_hull": [
+        9.236339067834102,
+        -9.036713665745712,
+        36.966753358310484
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_2_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_2_barrel",
+        "barrel_position": [
+          -9.51005733714221e-17,
+          1.6548882161454446,
+          3.3355702575159786e-16
+        ],
+        "muzzle_positions": [
+          [
+            -0.06838993138690422,
+            -0.24787704005975936,
+            5.685023627544309
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_2_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_2_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_2_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_2_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        220,
+        221,
+        224,
+        227,
+        230,
+        233,
+        247,
+        248
+      ],
+      "fixed_source_housing_node": 212,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 3,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_3",
+        "mesh_point": "child.expanse04_hero_pdc_3_base",
+        "weapon_position": [
+          -8.044827034152654,
+          -13.472634335094192,
+          33.99375254259143
+        ],
+        "forward": [
+          -0.260820985704161,
+          -0.06952454484695147,
+          -0.9628804448529081
+        ],
+        "up": [
+          -0.8844886069266843,
+          -0.3824691623260585,
+          0.2672026273944481
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.38684921821454293,
+          -0.8844886069266843,
+          -0.260820985704161
+        ],
+        [
+          -0.9213488359646564,
+          -0.3824691623260585,
+          -0.06952454484695147
+        ],
+        [
+          -0.03826231610043544,
+          0.2672026273944481,
+          -0.9628804448529081
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -8.044827034152654,
+        -13.472634335094192,
+        33.99375254259143
+      ],
+      "pitch_pivot_hull": [
+        -9.444815660556312,
+        -14.078015199260598,
+        34.41668692113274
+      ],
+      "muzzle_hull": [
+        -10.770145060090883,
+        -14.389688384123673,
+        28.843890010104506
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_3_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_3_barrel",
+        "barrel_position": [
+          4.808604662032654e-16,
+          1.5828226790486,
+          -1.2686542855705798e-15
+        ],
+        "muzzle_positions": [
+          [
+            -0.01231479903841471,
+            -0.19762184031502128,
+            5.733279825453691
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_3_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_3_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_3_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_3_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        258,
+        259,
+        262,
+        265,
+        268,
+        271,
+        285,
+        286
+      ],
+      "fixed_source_housing_node": 250,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 4,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_4",
+        "mesh_point": "child.expanse04_hero_pdc_4_base",
+        "weapon_position": [
+          -2.133346346743259,
+          1.8821171283567857,
+          -20.67922844340654
+        ],
+        "forward": [
+          6.984037414668886e-08,
+          4.853130266260959e-08,
+          0.9999999999999964
+        ],
+        "up": [
+          -0.17511199835700028,
+          0.984548519897022,
+          -3.5551534722319545e-08
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.9845485198970202,
+          -0.17511199835700028,
+          6.984037414668886e-08
+        ],
+        [
+          0.1751119983569972,
+          0.984548519897022,
+          4.853130266260959e-08
+        ],
+        [
+          -7.725965038729473e-08,
+          -3.5551534722319545e-08,
+          0.9999999999999964
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -2.133346346743259,
+        1.8821171283567857,
+        -20.67922844340654
+      ],
+      "pitch_pivot_hull": [
+        -2.435174351577822,
+        3.5791128694339465,
+        -20.679228504684172
+      ],
+      "muzzle_hull": [
+        -2.464889886268927,
+        3.3463547568912766,
+        -14.898686505172906
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_4_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_4_barrel",
+        "barrel_position": [
+          1.616297250094146e-16,
+          1.7236283502357574,
+          1.284188377811563e-15
+        ],
+        "muzzle_positions": [
+          [
+            -0.07001557052187979,
+            -0.2239583140430435,
+            5.7805419861398475
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_4_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_4_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_4_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_4_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        296,
+        297,
+        300,
+        303,
+        306,
+        309,
+        323,
+        324
+      ],
+      "fixed_source_housing_node": 288,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 5,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_5",
+        "mesh_point": "child.expanse04_hero_pdc_5_base",
+        "weapon_position": [
+          2.142731286323029,
+          -21.659671213880497,
+          -20.677965475920647
+        ],
+        "forward": [
+          1.7936629742289392e-07,
+          -5.6809603959901305e-08,
+          0.9999999999999823
+        ],
+        "up": [
+          0.18244709341432422,
+          -0.9832156722228633,
+          -8.858095256744678e-08
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.983215672222851,
+          0.18244709341432422,
+          1.7936629742289392e-07
+        ],
+        [
+          -0.18244709341433687,
+          -0.9832156722228633,
+          -5.6809603959901305e-08
+        ],
+        [
+          1.659910075742738e-07,
+          -8.858095256744678e-08,
+          0.9999999999999823
+        ]
+      ],
+      "yaw_pivot_hull": [
+        2.142731286323029,
+        -21.659671213880497,
+        -20.677965475920647
+      ],
+      "pitch_pivot_hull": [
+        2.4581169767566604,
+        -23.359299022830996,
+        -20.677965629045392
+      ],
+      "muzzle_hull": [
+        2.4877008182942864,
+        -23.127328380147276,
+        -14.898480294657498
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_5_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_5_barrel",
+        "barrel_position": [
+          -9.890396574033874e-17,
+          1.7286419012300367,
+          1.3751331113986284e-15
+        ],
+        "muzzle_positions": [
+          [
+            -0.0714087068168577,
+            -0.22268019743398987,
+            5.779485326515976
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_5_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_5_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_5_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_5_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        334,
+        335,
+        338,
+        341,
+        344,
+        347,
+        361,
+        362
+      ],
+      "fixed_source_housing_node": 326,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    }
+  ],
+  "frames": {
+    "hero_hull": {
+      "basis": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    },
+    "hero_pdc_0_base": {
+      "basis": [
+        [
+          -0.18147637560673502,
+          -0.9833953045935435,
+          1.2325250682012023e-07
+        ],
+        [
+          0.9833953045935512,
+          -0.1814763756067317,
+          3.7636625193760856e-08
+        ],
+        [
+          -1.4644262274132095e-08,
+          1.280360948165237e-07,
+          0.9999999999999918
+        ]
+      ],
+      "origin": [
+        -14.913393920144916,
+        -12.864521905610982,
+        4.7757435004340305
+      ]
+    },
+    "hero_pdc_0_barrel": {
+      "basis": [
+        [
+          -0.18147637560673502,
+          -0.9833953045935435,
+          1.2325250682012023e-07
+        ],
+        [
+          0.9833953045935512,
+          -0.1814763756067317,
+          3.7636625193760856e-08
+        ],
+        [
+          -1.4644262274132095e-08,
+          1.280360948165237e-07,
+          0.9999999999999918
+        ]
+      ],
+      "origin": [
+        -16.61263844335775,
+        -13.178101537221803,
+        4.7757437216722565
+      ]
+    },
+    "hero_pdc_1_base": {
+      "basis": [
+        [
+          0.2064373933579465,
+          0.9784598114504114,
+          -4.249505194301774e-08
+        ],
+        [
+          -0.9784598114503142,
+          0.20643739335790617,
+          -4.566409867950381e-07
+        ],
+        [
+          -4.3803228608627734e-07,
+          1.3584747552610457e-07,
+          0.9999999999998949
+        ]
+      ],
+      "origin": [
+        14.937025303743535,
+        -6.960951749963981,
+        4.7742760516634695
+      ]
+    },
+    "hero_pdc_1_barrel": {
+      "basis": [
+        [
+          0.2064373933579465,
+          0.9784598114504114,
+          -4.249505194301774e-08
+        ],
+        [
+          -0.9784598114503142,
+          0.20643739335790617,
+          -4.566409867950381e-07
+        ],
+        [
+          -4.3803228608627734e-07,
+          1.3584747552610457e-07,
+          0.9999999999998949
+        ]
+      ],
+      "origin": [
+        16.64539269812184,
+        -6.60051700582225,
+        4.774276288849908
+      ]
+    },
+    "hero_pdc_2_base": {
+      "basis": [
+        [
+          0.1293820858464683,
+          0.9566778881586233,
+          -0.2608211919502971
+        ],
+        [
+          -0.9909226967445058,
+          0.11505865675781111,
+          -0.06952492058021265
+        ],
+        [
+          -0.036503218195301446,
+          0.2674489181384828,
+          0.9628803618560001
+        ]
+      ],
+      "origin": [
+        9.381905658056311,
+        -8.871120800747791,
+        31.113955681220062
+      ]
+    },
+    "hero_pdc_2_barrel": {
+      "basis": [
+        [
+          0.1293820858464683,
+          0.9566778881586233,
+          -0.2608211919502971
+        ],
+        [
+          -0.9909226967445058,
+          0.11505865675781111,
+          -0.06952492058021265
+        ],
+        [
+          -0.036503218195301446,
+          0.2674489181384828,
+          0.9628803618560001
+        ]
+      ],
+      "origin": [
+        10.965100621816926,
+        -8.680711585513766,
+        31.556553744268285
+      ]
+    },
+    "hero_pdc_3_base": {
+      "basis": [
+        [
+          0.38684921821454293,
+          -0.8844886069266843,
+          -0.260820985704161
+        ],
+        [
+          -0.9213488359646564,
+          -0.3824691623260585,
+          -0.06952454484695147
+        ],
+        [
+          -0.03826231610043544,
+          0.2672026273944481,
+          -0.9628804448529081
+        ]
+      ],
+      "origin": [
+        -8.044827034152654,
+        -13.472634335094192,
+        33.99375254259143
+      ]
+    },
+    "hero_pdc_3_barrel": {
+      "basis": [
+        [
+          0.38684921821454293,
+          -0.8844886069266843,
+          -0.260820985704161
+        ],
+        [
+          -0.9213488359646564,
+          -0.3824691623260585,
+          -0.06952454484695147
+        ],
+        [
+          -0.03826231610043544,
+          0.2672026273944481,
+          -0.9628804448529081
+        ]
+      ],
+      "origin": [
+        -9.444815660556312,
+        -14.078015199260598,
+        34.41668692113274
+      ]
+    },
+    "hero_pdc_4_base": {
+      "basis": [
+        [
+          0.9845485198970202,
+          -0.17511199835700028,
+          6.984037414668886e-08
+        ],
+        [
+          0.1751119983569972,
+          0.984548519897022,
+          4.853130266260959e-08
+        ],
+        [
+          -7.725965038729473e-08,
+          -3.5551534722319545e-08,
+          0.9999999999999964
+        ]
+      ],
+      "origin": [
+        -2.133346346743259,
+        1.8821171283567857,
+        -20.67922844340654
+      ]
+    },
+    "hero_pdc_4_barrel": {
+      "basis": [
+        [
+          0.9845485198970202,
+          -0.17511199835700028,
+          6.984037414668886e-08
+        ],
+        [
+          0.1751119983569972,
+          0.984548519897022,
+          4.853130266260959e-08
+        ],
+        [
+          -7.725965038729473e-08,
+          -3.5551534722319545e-08,
+          0.9999999999999964
+        ]
+      ],
+      "origin": [
+        -2.435174351577822,
+        3.5791128694339465,
+        -20.679228504684172
+      ]
+    },
+    "hero_pdc_5_base": {
+      "basis": [
+        [
+          -0.983215672222851,
+          0.18244709341432422,
+          1.7936629742289392e-07
+        ],
+        [
+          -0.18244709341433687,
+          -0.9832156722228633,
+          -5.6809603959901305e-08
+        ],
+        [
+          1.659910075742738e-07,
+          -8.858095256744678e-08,
+          0.9999999999999823
+        ]
+      ],
+      "origin": [
+        2.142731286323029,
+        -21.659671213880497,
+        -20.677965475920647
+      ]
+    },
+    "hero_pdc_5_barrel": {
+      "basis": [
+        [
+          -0.983215672222851,
+          0.18244709341432422,
+          1.7936629742289392e-07
+        ],
+        [
+          -0.18244709341433687,
+          -0.9832156722228633,
+          -5.6809603959901305e-08
+        ],
+        [
+          1.659910075742738e-07,
+          -8.858095256744678e-08,
+          0.9999999999999823
+        ]
+      ],
+      "origin": [
+        2.4581169767566604,
+        -23.359299022830996,
+        -20.677965629045392
+      ]
+    }
+  },
+  "meshpoints": {
+    "hero_hull": [
+      {
+        "name": "center",
+        "translation": [
+          0.0,
+          -10.112395,
+          3.162117
+        ],
+        "rotation": [
+          0.00489776311359724,
+          0.00296899209148768,
+          1.454165845873719e-05,
+          0.9999835982609835
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          0.016193465191928606,
+          -9.888953050343192,
+          -49.32896702740548
+        ],
+        "rotation": [
+          2.575209677839355e-21,
+          1.0,
+          4.336524169292302e-19,
+          0.0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0.0,
+          9.886645468200932,
+          3.3580260382333535
+        ],
+        "rotation": [
+          0.00489776311359724,
+          0.00296899209148768,
+          1.454165845873719e-05,
+          0.9999835982609835
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0.0,
+          -32.11133951502102,
+          2.9466170579433104
+        ],
+        "rotation": [
+          0.00489776311359724,
+          0.00296899209148768,
+          1.454165845873719e-05,
+          0.9999835982609835
+        ]
+      },
+      {
+        "name": "weapon.rail.0",
+        "translation": [
+          0.21945698964029473,
+          -19.960184733597316,
+          40.02465341126872
+        ],
+        "rotation": [
+          0.00489776311359724,
+          0.00296899209148768,
+          1.454165845873719e-05,
+          0.9999835982609835
+        ]
+      },
+      {
+        "name": "child.expanse04_hero_pdc_0_base",
+        "translation": [
+          -14.913393920144916,
+          -12.864521905610982,
+          4.7757435004340305
+        ],
+        "rotation": [
+          3.532687971948385e-08,
+          5.388817651062236e-08,
+          0.7685949439095762,
+          0.6397357362197544
+        ]
+      },
+      {
+        "name": "child.expanse04_hero_pdc_1_base",
+        "translation": [
+          14.937025303743535,
+          -6.960951749963981,
+          4.7742760516634695
+        ],
+        "rotation": [
+          1.9071397113498648e-07,
+          1.27318051662452e-07,
+          -0.6299057892423363,
+          0.7766715500640776
+        ]
+      },
+      {
+        "name": "child.expanse04_hero_pdc_2_base",
+        "translation": [
+          9.381905658056311,
+          -8.871120800747791,
+          31.113955681220062
+        ],
+        "rotation": [
+          0.11340532089881986,
+          -0.07549206755570897,
+          -0.6554463401476357,
+          0.7428527957240719
+        ]
+      },
+      {
+        "name": "child.expanse04_hero_pdc_3_base",
+        "translation": [
+          -8.044827034152654,
+          -13.472634335094192,
+          33.99375254259143
+        ],
+        "rotation": [
+          0.8264682125456354,
+          -0.5462513305046284,
+          -0.0904702979692888,
+          0.10185726659838308
+        ]
+      },
+      {
+        "name": "child.expanse04_hero_pdc_4_base",
+        "translation": [
+          -2.133346346743259,
+          1.8821171283567857,
+          -20.67922844340654
+        ],
+        "rotation": [
+          -2.1102383163156696e-08,
+          3.691789165980567e-08,
+          0.08789618906123615,
+          0.996129640131499
+        ]
+      },
+      {
+        "name": "child.expanse04_hero_pdc_5_base",
+        "translation": [
+          2.142731286323029,
+          -21.659671213880497,
+          -20.677965475920647
+        ],
+        "rotation": [
+          8.670390948050221e-08,
+          -3.6501123532251364e-08,
+          0.9957950773685438,
+          -0.09160875443191555
+        ]
+      }
+    ],
+    "hero_pdc_0_base": [],
+    "hero_pdc_0_barrel": [],
+    "hero_pdc_1_base": [],
+    "hero_pdc_1_barrel": [],
+    "hero_pdc_2_base": [],
+    "hero_pdc_2_barrel": [],
+    "hero_pdc_3_base": [],
+    "hero_pdc_3_barrel": [],
+    "hero_pdc_4_base": [],
+    "hero_pdc_4_barrel": [],
+    "hero_pdc_5_base": [],
+    "hero_pdc_5_barrel": []
+  },
+  "counts": {
+    "hero_hull": 67377,
+    "hero_pdc_0_base": 192,
+    "hero_pdc_0_barrel": 3923,
+    "hero_pdc_1_base": 192,
+    "hero_pdc_1_barrel": 3923,
+    "hero_pdc_2_base": 192,
+    "hero_pdc_2_barrel": 3923,
+    "hero_pdc_3_base": 192,
+    "hero_pdc_3_barrel": 3923,
+    "hero_pdc_4_base": 192,
+    "hero_pdc_4_barrel": 3923,
+    "hero_pdc_5_base": 192,
+    "hero_pdc_5_barrel": 3923
+  },
+  "triangle_total": 92067,
+  "normalization": {
+    "old_game_to_new_game_rotation": [
+      [
+        0.9999823697490017,
+        0.0,
+        0.005938029232905325
+      ],
+      [
+        5.8165679801001125e-05,
+        0.9999520234100465,
+        -0.00979527921539185
+      ],
+      [
+        -0.0059377443465116865,
+        0.009795451911667693,
+        0.9999343940048876
+      ]
+    ],
+    "pivot": [
+      0.0,
+      -10.112395,
+      3.162117
+    ],
+    "source_to_game_rotation": [
+      [
+        0.39486179986706543,
+        -0.0007361836517236977,
+        -0.918740233711016
+      ],
+      [
+        0.105254696726281,
+        0.9934517854831294,
+        0.04444095788167666
+      ],
+      [
+        0.912691408868737,
+        -0.11424976128646083,
+        0.3923536468840153
+      ]
+    ],
+    "source_rotated_center": [
+      0.8799434430275922,
+      -0.14603885889677126,
+      -0.2937967509940494
+    ],
+    "scale": 208.6639007429145,
+    "target_center": [
+      0.0,
+      -10.112395,
+      3.162117
+    ],
+    "equation": "new_position = R @ (old_position - target_center) + target_center",
+    "geometry_change": "Uniform rigid normalization only; original source per-segment deployed poses retained. Corrective simplification max error0.005 vs0.04, same pinned library."
+  },
+  "equipment": {
+    "pdc_mounts": [
+      {
+        "index": 0,
+        "source_housing_node": 111,
+        "source_cannon_node": 117,
+        "source_frame_node": 140,
+        "weapon_position": [
+          -16.380494159901062,
+          -13.207519185164895,
+          10.55284412383056
+        ],
+        "muzzle_hull": [
+          -16.380494159901062,
+          -13.207519185164895,
+          10.55284412383056
+        ],
+        "forward": [
+          1.2325250682012023e-07,
+          3.7636625193760856e-08,
+          0.9999999999999918
+        ],
+        "up": [
+          -1.2073765683977814e-09,
+          0.9999999999999993,
+          -3.763662505033198e-08
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 9.995140093366217e-07,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.0"
+      },
+      {
+        "index": 1,
+        "source_housing_node": 174,
+        "source_cannon_node": 180,
+        "source_frame_node": 200,
+        "weapon_position": [
+          16.412352021850403,
+          -6.570687000690489,
+          10.55398828938169
+        ],
+        "muzzle_hull": [
+          16.412352021850403,
+          -6.570687000690489,
+          10.55398828938169
+        ],
+        "forward": [
+          -4.249505194301774e-08,
+          -4.566409867950381e-07,
+          0.9999999999998949
+        ],
+        "up": [
+          4.16258802557875e-10,
+          0.9999999999998958,
+          4.5664098681336055e-07
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 9.924241588521454e-07,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.1"
+      },
+      {
+        "index": 2,
+        "source_housing_node": 212,
+        "source_cannon_node": 218,
+        "source_frame_node": 238,
+        "weapon_position": [
+          9.236339067834102,
+          -9.036713665745712,
+          36.966753358310484
+        ],
+        "muzzle_hull": [
+          9.236339067834102,
+          -9.036713665745712,
+          36.966753358310484
+        ],
+        "forward": [
+          -0.2608211919502971,
+          -0.06952492058021265,
+          0.9628803618560001
+        ],
+        "up": [
+          -0.01570104888135263,
+          0.9975769315933626,
+          0.06777715409189787
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 1.1266558885836275e-06,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.2"
+      },
+      {
+        "index": 3,
+        "source_housing_node": 250,
+        "source_cannon_node": 256,
+        "source_frame_node": 276,
+        "weapon_position": [
+          -10.770145060090883,
+          -14.389688384123673,
+          28.843890010104506
+        ],
+        "muzzle_hull": [
+          -10.770145060090883,
+          -14.389688384123673,
+          28.843890010104506
+        ],
+        "forward": [
+          -0.260820985704161,
+          -0.06952454484695147,
+          -0.9628804448529081
+        ],
+        "up": [
+          -0.020657099059228738,
+          0.9975769491189153,
+          -0.06643428967825643
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 1.1593594884118374e-06,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.3"
+      },
+      {
+        "index": 4,
+        "source_housing_node": 288,
+        "source_cannon_node": 294,
+        "source_frame_node": 314,
+        "weapon_position": [
+          -2.464889886268927,
+          3.3463547568912766,
+          -14.898686505172906
+        ],
+        "muzzle_hull": [
+          -2.464889886268927,
+          3.3463547568912766,
+          -14.898686505172906
+        ],
+        "forward": [
+          6.984037414668886e-08,
+          4.853130266260959e-08,
+          0.9999999999999964
+        ],
+        "up": [
+          -6.841542394386554e-10,
+          0.9999999999999989,
+          -4.853130261781974e-08
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 9.944643064585534e-07,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.4"
+      },
+      {
+        "index": 5,
+        "source_housing_node": 326,
+        "source_cannon_node": 332,
+        "source_frame_node": 352,
+        "weapon_position": [
+          2.4877008182942864,
+          -23.127328380147276,
+          -14.898480294657498
+        ],
+        "muzzle_hull": [
+          2.4877008182942864,
+          -23.127328380147276,
+          -14.898480294657498
+        ],
+        "forward": [
+          1.7936629742289392e-07,
+          -5.6809603959901305e-08,
+          0.9999999999999823
+        ],
+        "up": [
+          -1.7570480479249528e-09,
+          0.9999999999999983,
+          5.680960427354441e-08
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 9.947047878711146e-07,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.5"
+      }
+    ],
+    "railgun": {
+      "position": [
+        0.21945698964029473,
+        -19.960184733597316,
+        40.02465341126872
+      ],
+      "forward": [
+        0.005938029232905325,
+        -0.00979527921539185,
+        0.9999343940048876
+      ],
+      "up": [
+        0.0,
+        0.9999520234100465,
+        0.009795451911667693
+      ],
+      "mesh_point": "weapon.rail.0",
+      "source": "CUSTOM prototype keel railgun added to hero derivative; not a relabelled source antenna",
+      "mount_hull_surface_samples": [
+        -18.436335678959942,
+        -18.598627067468637
+      ]
+    },
+    "torpedo_ports": [
+      {
+        "name": "dorsal",
+        "position": [
+          0.05913020035185099,
+          3.4224937843945042,
+          13.252888913066995
+        ],
+        "forward": [
+          0.005938029232905325,
+          -0.00979527921539185,
+          0.9999343940048876
+        ],
+        "up": [
+          0.0,
+          0.9999520234100465,
+          0.009795451911667693
+        ],
+        "source": "CUSTOM prototype launch fitting on measured hero forebody surface",
+        "hull_surface_y": 2.7206880976112853,
+        "nearest_PDC_muzzle_distance": 19.24114424397103
+      },
+      {
+        "name": "ventral",
+        "position": [
+          3.0590773095988557,
+          -22.787233660407814,
+          12.978325527949856
+        ],
+        "forward": [
+          0.005938029232905325,
+          -0.00979527921539185,
+          0.9999343940048876
+        ],
+        "up": [
+          0.0,
+          0.9999520234100465,
+          0.009795451911667693
+        ],
+        "source": "CUSTOM prototype launch fitting on measured hero forebody surface",
+        "hull_surface_y": -21.89047136628024,
+        "nearest_PDC_muzzle_distance": 21.04304595937091
+      }
+    ],
+    "exhaust": {
+      "position": [
+        0.016193465191928606,
+        -9.888953050343192,
+        -49.32896702740548
+      ],
+      "opening_center": [
+        0.016193465191928557,
+        -9.888953050343192,
+        -49.22896702740549
+      ],
+      "forward": [
+        -5.920368176971442e-19,
+        2.6815299454209607e-18,
+        -1.0
+      ],
+      "up": [
+        6.2895628253759e-22,
+        1.0,
+        -2.6815299454209607e-18
+      ],
+      "source_nodes": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "basis": "Full aftmost s3_3c authored axial plane; inner/outer rim separated by largest radial gap, inner circumference least-squares circle fitted. 0.1 outward clearance.",
+      "rim_unique_vertices": 152,
+      "inner_rim_vertices": 64,
+      "opening_radius": 8.748105557241582,
+      "circle_max_radial_residual": 0.006216378283321333,
+      "maximum_angular_gap_radians": 0.5195953673592232,
+      "plane_flatness": 9.829721108189915e-07,
+      "runtime": "NOT RUN"
+    },
+    "runtime": "NOT RUN",
+    "custom_fittings_not_screen_accuracy_claim": true
+  },
+  "custom_railgun": {
+    "position": [
+      0.21945698964029473,
+      -19.960184733597316,
+      40.02465341126872
+    ],
+    "forward": [
+      0.005938029232905325,
+      -0.00979527921539185,
+      0.9999343940048876
+    ],
+    "up": [
+      0.0,
+      0.9999520234100465,
+      0.009795451911667693
+    ],
+    "mesh_point": "weapon.rail.0",
+    "source": "CUSTOM prototype keel railgun added to hero derivative; not a relabelled source antenna",
+    "mount_hull_surface_samples": [
+      -18.436335678959942,
+      -18.598627067468637
+    ]
+  },
+  "exhaust_geometry": {
+    "position": [
+      0.016193465191928606,
+      -9.888953050343192,
+      -49.32896702740548
+    ],
+    "opening_center": [
+      0.016193465191928557,
+      -9.888953050343192,
+      -49.22896702740549
+    ],
+    "forward": [
+      -5.920368176971442e-19,
+      2.6815299454209607e-18,
+      -1.0
+    ],
+    "up": [
+      6.2895628253759e-22,
+      1.0,
+      -2.6815299454209607e-18
+    ],
+    "source_nodes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "basis": "Full aftmost s3_3c authored axial plane; inner/outer rim separated by largest radial gap, inner circumference least-squares circle fitted. 0.1 outward clearance.",
+    "rim_unique_vertices": 152,
+    "inner_rim_vertices": 64,
+    "opening_radius": 8.748105557241582,
+    "circle_max_radial_residual": 0.006216378283321333,
+    "maximum_angular_gap_radians": 0.5195953673592232,
+    "plane_flatness": 9.829721108189915e-07,
+    "runtime": "NOT RUN"
+  },
+  "materialspec": [
+    {
+      "name": "expanse03_hero_mat_0",
+      "original": {
+        "name": "roci_darker silver metal",
+        "doubleSided": true,
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.08021982031446832,
+            0.08021982031446832,
+            0.08021982031446832,
+            1
+          ],
+          "roughnessFactor": 0.7,
+          "metallicFactor": 0.1
+        },
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularFactor": 0.4
+          }
+        }
+      },
+      "srgb_texture_color": [
+        80,
+        80,
+        80
+      ],
+      "material_file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/materials/expanse03_hero_mat_0.mesh_material"
+    },
+    {
+      "name": "expanse03_hero_mat_1",
+      "original": {
+        "name": "roci_dark silver metal",
+        "doubleSided": true,
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.31854677812509186,
+            0.31854677812509186,
+            0.31854677812509186,
+            1
+          ],
+          "roughnessFactor": 0.6,
+          "metallicFactor": 0.1
+        },
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularFactor": 0.4
+          }
+        }
+      },
+      "srgb_texture_color": [
+        153,
+        153,
+        153
+      ],
+      "material_file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/materials/expanse03_hero_mat_1.mesh_material"
+    },
+    {
+      "name": "expanse03_hero_mat_2",
+      "original": {
+        "name": "roci_color metal",
+        "doubleSided": true,
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.445201,
+            0.08865550000000004,
+            0.005181530000000002,
+            1
+          ],
+          "roughnessFactor": 0.7,
+          "metallicFactor": 0.1
+        },
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularFactor": 0.4
+          }
+        }
+      },
+      "srgb_texture_color": [
+        178,
+        84,
+        16
+      ],
+      "material_file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/materials/expanse03_hero_mat_2.mesh_material"
+    }
+  ],
+  "source_assignment": [
+    {
+      "source_node": 4,
+      "triangles": 3989,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 5,
+      "triangles": 2205,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 6,
+      "triangles": 356,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 9,
+      "triangles": 495,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 10,
+      "triangles": 147,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 13,
+      "triangles": 1331,
+      "removed_numerically_degenerate_triangles": 15,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 14,
+      "triangles": 80,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 17,
+      "triangles": 4262,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 18,
+      "triangles": 467,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 21,
+      "triangles": 252,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 22,
+      "triangles": 384,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 25,
+      "triangles": 844,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 29,
+      "triangles": 894,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 30,
+      "triangles": 16,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 33,
+      "triangles": 802,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 36,
+      "triangles": 2243,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 37,
+      "triangles": 144,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 38,
+      "triangles": 227,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 41,
+      "triangles": 2881,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 42,
+      "triangles": 48,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 43,
+      "triangles": 96,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 46,
+      "triangles": 1883,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 47,
+      "triangles": 1880,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 48,
+      "triangles": 48,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 49,
+      "triangles": 128,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 52,
+      "triangles": 1349,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 53,
+      "triangles": 32,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 54,
+      "triangles": 130,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 57,
+      "triangles": 1141,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 58,
+      "triangles": 32,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 59,
+      "triangles": 162,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 63,
+      "triangles": 1522,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 64,
+      "triangles": 52,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 71,
+      "triangles": 214,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 74,
+      "triangles": 106,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 77,
+      "triangles": 194,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 80,
+      "triangles": 74,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 83,
+      "triangles": 1843,
+      "removed_numerically_degenerate_triangles": 2,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 84,
+      "triangles": 198,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 85,
+      "triangles": 143,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 88,
+      "triangles": 2172,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 89,
+      "triangles": 50,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 90,
+      "triangles": 187,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 93,
+      "triangles": 1364,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 94,
+      "triangles": 12,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 95,
+      "triangles": 246,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 98,
+      "triangles": 4679,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 99,
+      "triangles": 233,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 100,
+      "triangles": 296,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 103,
+      "triangles": 1930,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 104,
+      "triangles": 627,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 107,
+      "triangles": 1134,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 108,
+      "triangles": 14,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 109,
+      "triangles": 61,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 113,
+      "triangles": 366,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 116,
+      "triangles": 532,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 119,
+      "triangles": 840,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_0_barrel"
+    },
+    {
+      "source_node": 120,
+      "triangles": 407,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_0_barrel"
+    },
+    {
+      "source_node": 123,
+      "triangles": 704,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_0_barrel"
+    },
+    {
+      "source_node": 126,
+      "triangles": 746,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_0_barrel"
+    },
+    {
+      "source_node": 129,
+      "triangles": 198,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_0_barrel"
+    },
+    {
+      "source_node": 132,
+      "triangles": 146,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_0_barrel"
+    },
+    {
+      "source_node": 135,
+      "triangles": 388,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 136,
+      "triangles": 206,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 139,
+      "triangles": 154,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 142,
+      "triangles": 1121,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 143,
+      "triangles": 78,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 146,
+      "triangles": 144,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 149,
+      "triangles": 816,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_0_barrel"
+    },
+    {
+      "source_node": 150,
+      "triangles": 18,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_0_barrel"
+    },
+    {
+      "source_node": 155,
+      "triangles": 367,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 156,
+      "triangles": 89,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 159,
+      "triangles": 224,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 162,
+      "triangles": 284,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 165,
+      "triangles": 224,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 168,
+      "triangles": 88,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 171,
+      "triangles": 88,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 176,
+      "triangles": 366,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 179,
+      "triangles": 532,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 182,
+      "triangles": 840,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_1_barrel"
+    },
+    {
+      "source_node": 183,
+      "triangles": 407,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_1_barrel"
+    },
+    {
+      "source_node": 186,
+      "triangles": 704,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_1_barrel"
+    },
+    {
+      "source_node": 189,
+      "triangles": 746,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_1_barrel"
+    },
+    {
+      "source_node": 192,
+      "triangles": 198,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_1_barrel"
+    },
+    {
+      "source_node": 195,
+      "triangles": 146,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_1_barrel"
+    },
+    {
+      "source_node": 198,
+      "triangles": 388,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 199,
+      "triangles": 206,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 202,
+      "triangles": 1121,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 203,
+      "triangles": 78,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 206,
+      "triangles": 144,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 209,
+      "triangles": 816,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_1_barrel"
+    },
+    {
+      "source_node": 210,
+      "triangles": 18,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_1_barrel"
+    },
+    {
+      "source_node": 214,
+      "triangles": 366,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 217,
+      "triangles": 532,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 220,
+      "triangles": 840,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_2_barrel"
+    },
+    {
+      "source_node": 221,
+      "triangles": 407,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_2_barrel"
+    },
+    {
+      "source_node": 224,
+      "triangles": 704,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_2_barrel"
+    },
+    {
+      "source_node": 227,
+      "triangles": 746,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_2_barrel"
+    },
+    {
+      "source_node": 230,
+      "triangles": 198,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_2_barrel"
+    },
+    {
+      "source_node": 233,
+      "triangles": 146,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_2_barrel"
+    },
+    {
+      "source_node": 236,
+      "triangles": 388,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 237,
+      "triangles": 206,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 240,
+      "triangles": 1121,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 241,
+      "triangles": 78,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 244,
+      "triangles": 144,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 247,
+      "triangles": 816,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_2_barrel"
+    },
+    {
+      "source_node": 248,
+      "triangles": 18,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_2_barrel"
+    },
+    {
+      "source_node": 252,
+      "triangles": 366,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 255,
+      "triangles": 532,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 258,
+      "triangles": 840,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_3_barrel"
+    },
+    {
+      "source_node": 259,
+      "triangles": 407,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_3_barrel"
+    },
+    {
+      "source_node": 262,
+      "triangles": 704,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_3_barrel"
+    },
+    {
+      "source_node": 265,
+      "triangles": 746,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_3_barrel"
+    },
+    {
+      "source_node": 268,
+      "triangles": 198,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_3_barrel"
+    },
+    {
+      "source_node": 271,
+      "triangles": 146,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_3_barrel"
+    },
+    {
+      "source_node": 274,
+      "triangles": 380,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 275,
+      "triangles": 206,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 278,
+      "triangles": 1121,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 279,
+      "triangles": 78,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 282,
+      "triangles": 144,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 285,
+      "triangles": 816,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_3_barrel"
+    },
+    {
+      "source_node": 286,
+      "triangles": 18,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_3_barrel"
+    },
+    {
+      "source_node": 290,
+      "triangles": 366,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 293,
+      "triangles": 532,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 296,
+      "triangles": 840,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_4_barrel"
+    },
+    {
+      "source_node": 297,
+      "triangles": 407,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_4_barrel"
+    },
+    {
+      "source_node": 300,
+      "triangles": 704,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_4_barrel"
+    },
+    {
+      "source_node": 303,
+      "triangles": 746,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_4_barrel"
+    },
+    {
+      "source_node": 306,
+      "triangles": 198,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_4_barrel"
+    },
+    {
+      "source_node": 309,
+      "triangles": 146,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_4_barrel"
+    },
+    {
+      "source_node": 312,
+      "triangles": 388,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 313,
+      "triangles": 206,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 316,
+      "triangles": 1121,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 317,
+      "triangles": 78,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 320,
+      "triangles": 144,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 323,
+      "triangles": 816,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_4_barrel"
+    },
+    {
+      "source_node": 324,
+      "triangles": 18,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_4_barrel"
+    },
+    {
+      "source_node": 328,
+      "triangles": 366,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 331,
+      "triangles": 532,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 334,
+      "triangles": 840,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_5_barrel"
+    },
+    {
+      "source_node": 335,
+      "triangles": 407,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_5_barrel"
+    },
+    {
+      "source_node": 338,
+      "triangles": 704,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_5_barrel"
+    },
+    {
+      "source_node": 341,
+      "triangles": 746,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_5_barrel"
+    },
+    {
+      "source_node": 344,
+      "triangles": 198,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_5_barrel"
+    },
+    {
+      "source_node": 347,
+      "triangles": 146,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_5_barrel"
+    },
+    {
+      "source_node": 350,
+      "triangles": 388,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 351,
+      "triangles": 206,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 354,
+      "triangles": 1121,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 355,
+      "triangles": 78,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 358,
+      "triangles": 144,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 361,
+      "triangles": 816,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_5_barrel"
+    },
+    {
+      "source_node": 362,
+      "triangles": 18,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_pdc_5_barrel"
+    },
+    {
+      "source_node": 366,
+      "triangles": 252,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 367,
+      "triangles": 384,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 370,
+      "triangles": 487,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 371,
+      "triangles": 147,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 374,
+      "triangles": 154,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 377,
+      "triangles": 154,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 380,
+      "triangles": 154,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 383,
+      "triangles": 154,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": 386,
+      "triangles": 156,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": null,
+      "triangles": 72,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    },
+    {
+      "source_node": null,
+      "triangles": 156,
+      "removed_numerically_degenerate_triangles": 0,
+      "assigned_to": "hero_hull"
+    }
+  ],
+  "aiming_vs_deployment": "Source animation30deg rotates around barrel direction, not a suitable aiming pivot. New explicit aiming joints centered on measured blocks and supported by added geometry; source cannon+magazine+pin group stays intact.",
+  "outputs": {
+    "hero_hull": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_hull.mesh",
+      "sha256": "bab077014fd34375253cd01f43562b3520333daf03e05d915ed738ef5d8f8c04",
+      "raw_official_sha256": "886665fa21ca636435690ccce896b4a7d880c63af2a049841e17e2e3ffb6522f",
+      "triangles": 67377,
+      "materials": [
+        "expanse04_hero_hull_expanse03_hero_mat_0",
+        "expanse04_hero_hull_expanse03_hero_mat_1",
+        "expanse04_hero_hull_expanse03_hero_mat_2"
+      ],
+      "source_frame_max_match_error": 2.0918924540651218e-06,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.0466352995972557e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.8868495301996342,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999999999588667e-07,
+      "changed_bytes": 1267276,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "a5e4f732f76c4429b50b087d305b63a86355313b7fc464467d298a0dc31efb31",
+      "trailer_sha256_after": "a5e4f732f76c4429b50b087d305b63a86355313b7fc464467d298a0dc31efb31",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            -10.112395286560059,
+            3.1621170043945312
+          ],
+          "rotation": [
+            0.9999823570251465,
+            5.816567863803357e-05,
+            -0.005937744397670031,
+            -1.8189894035458565e-12,
+            0.9999520182609558,
+            0.00979545246809721,
+            0.005938029382377863,
+            -0.009795279242098331,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            0.016193464398384094,
+            -9.88895320892334,
+            -49.3289680480957
+          ],
+          "rotation": [
+            -1.0,
+            5.15041948532547e-21,
+            2.233491787228789e-39,
+            5.15041948532547e-21,
+            1.0,
+            8.673048176225022e-19,
+            2.233491787228789e-39,
+            8.673048176225022e-19,
+            -1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            9.886645317077637,
+            3.3580260276794434
+          ],
+          "rotation": [
+            0.9999823570251465,
+            5.816567863803357e-05,
+            -0.005937744397670031,
+            -1.8189894035458565e-12,
+            0.9999520182609558,
+            0.00979545246809721,
+            0.005938029382377863,
+            -0.009795279242098331,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -32.1113395690918,
+            2.9466171264648438
+          ],
+          "rotation": [
+            0.9999823570251465,
+            5.816567863803357e-05,
+            -0.005937744397670031,
+            -1.8189894035458565e-12,
+            0.9999520182609558,
+            0.00979545246809721,
+            0.005938029382377863,
+            -0.009795279242098331,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.rail.0",
+          "position": [
+            0.2194569855928421,
+            -19.96018409729004,
+            40.024654388427734
+          ],
+          "rotation": [
+            0.9999823570251465,
+            5.816567863803357e-05,
+            -0.005937744397670031,
+            -1.8189894035458565e-12,
+            0.9999520182609558,
+            0.00979545246809721,
+            0.005938029382377863,
+            -0.009795279242098331,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_0_base",
+          "position": [
+            -14.9133939743042,
+            -12.864521980285645,
+            4.77574348449707
+          ],
+          "rotation": [
+            -0.18147635459899902,
+            0.9833953380584717,
+            -1.4644264467733592e-08,
+            -0.9833953380584717,
+            -0.18147635459899902,
+            1.2803609195088939e-07,
+            1.2325250509093166e-07,
+            3.7636620930925346e-08,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_1_base",
+          "position": [
+            14.93702507019043,
+            -6.960951805114746,
+            4.774276256561279
+          ],
+          "rotation": [
+            0.20643746852874756,
+            -0.9784597158432007,
+            -4.380322593533492e-07,
+            0.9784597158432007,
+            0.20643746852874756,
+            1.358474861490322e-07,
+            -4.2495059915381717e-08,
+            -4.566409756989742e-07,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_2_base",
+          "position": [
+            9.381905555725098,
+            -8.87112045288086,
+            31.113956451416016
+          ],
+          "rotation": [
+            0.12938207387924194,
+            -0.9909226894378662,
+            -0.03650321811437607,
+            0.9566779136657715,
+            0.11505860090255737,
+            0.26744893193244934,
+            -0.2608211934566498,
+            -0.06952492147684097,
+            0.9628803730010986
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_3_base",
+          "position": [
+            -8.044827461242676,
+            -13.472634315490723,
+            33.993751525878906
+          ],
+          "rotation": [
+            0.38684916496276855,
+            -0.9213488698005676,
+            -0.038262322545051575,
+            -0.8844886422157288,
+            -0.3824692368507385,
+            0.26720261573791504,
+            -0.26082098484039307,
+            -0.06952454149723053,
+            -0.962880551815033
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_4_base",
+          "position": [
+            -2.1333463191986084,
+            1.8821171522140503,
+            -20.679227828979492
+          ],
+          "rotation": [
+            0.9845485091209412,
+            0.17511199414730072,
+            -7.725964934479634e-08,
+            -0.17511199414730072,
+            0.9845485091209412,
+            -3.555153682555101e-08,
+            6.98403752608101e-08,
+            4.8531305196775065e-08,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse04_hero_pdc_5_base",
+          "position": [
+            2.142731189727783,
+            -21.659671783447266,
+            -20.67796516418457
+          ],
+          "rotation": [
+            -0.9832156896591187,
+            -0.18244709074497223,
+            1.659909969475848e-07,
+            0.18244709074497223,
+            -0.9832156896591187,
+            -8.858095412733746e-08,
+            1.7936628182724235e-07,
+            -5.680960413201319e-08,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    "hero_pdc_0_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_0_base.mesh",
+      "sha256": "37671f5f6c3b5228cf6697a8a6696809ab6d30557977f5062617dbd6a9876a05",
+      "raw_official_sha256": "14a53784373dd139eb68a7b1744c74b5cd7101e94614e2119bf367772056c1d4",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_0_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 1.1950185617916543e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.0624231150926486e-23,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999993092,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.395141601776231e-07,
+      "changed_bytes": 5380,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "354bcfa425e9bd7194c37f698f6be027df2d415566df8189e7059b0ca32e5dd4",
+      "trailer_sha256_after": "354bcfa425e9bd7194c37f698f6be027df2d415566df8189e7059b0ca32e5dd4",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_0_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_0_barrel.mesh",
+      "sha256": "633cd6032b3f0c12164d08f5cf0b660f3f7f0e97a3a698e72f6294a006dc6315",
+      "raw_official_sha256": "085aaa44039a703e3961d70af89dfc85f0613e9bac8b069ab10ef991cf9c70ff",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_0_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_0_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.145832541882429e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.5563961614238906e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383100953486692,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999439716310561e-07,
+      "changed_bytes": 58640,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "390c470acd95110de67f0999edb751a21874eebfaa6e90f8ac7ea1ca9cbd2272",
+      "trailer_sha256_after": "390c470acd95110de67f0999edb751a21874eebfaa6e90f8ac7ea1ca9cbd2272",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_1_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_1_base.mesh",
+      "sha256": "3e02eb440eb408b95f180c547d57e3a0a8793195c1525a0b240ad0ed902a6ef2",
+      "raw_official_sha256": "52270ae77c827b24323b4d3b5c985a5d9b454d4d0daba8ffcdec5534bc1f62e4",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_1_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 1.1455836115305312e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.531959357701305e-23,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999997397,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.906711578156475e-07,
+      "changed_bytes": 5454,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "114a1f3d4cb69b3fe2f8b0b86f4615e90fe614232d52565876e189c7b9e366cf",
+      "trailer_sha256_after": "114a1f3d4cb69b3fe2f8b0b86f4615e90fe614232d52565876e189c7b9e366cf",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_1_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_1_barrel.mesh",
+      "sha256": "b268f9b299207bc0f936f59a0f6dad4f0518cc15aa7d4db9ca90d7528f7fd2f4",
+      "raw_official_sha256": "0b583f4e35832f635f48b03ed96c36f11188c096dc12d3c1ba7dc3ea9a2dd16b",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_1_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_1_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.7045311462026376e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.1792196491787763e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383082464384647,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999912381169203e-07,
+      "changed_bytes": 58817,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "eec1b60de9b8419c3c1cdec5a950fc4d7f3999ec49b3c86447057c76783b3e36",
+      "trailer_sha256_after": "eec1b60de9b8419c3c1cdec5a950fc4d7f3999ec49b3c86447057c76783b3e36",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_2_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_2_base.mesh",
+      "sha256": "1b97845aa0330e008ee488ec40f8f1a9a52a8be4a5c3b3fe2572c4e9f83a36e8",
+      "raw_official_sha256": "8f8dc129099e2cfce3126bb973d83c9aef5ccb21fe22372dfa5164c47cf015d6",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_2_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 1.185990129886413e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 4.775673043431724e-23,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999998026,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.866218566990099e-07,
+      "changed_bytes": 5275,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "6f0b3e696e478c1e5a1e051945c21054cb70f1813a11e7f8d6a821301ed57499",
+      "trailer_sha256_after": "6f0b3e696e478c1e5a1e051945c21054cb70f1813a11e7f8d6a821301ed57499",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_2_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_2_barrel.mesh",
+      "sha256": "e49dc620d285307f48e9af7fb1d8fb5829e82e02a5c95207fa3ddc060c541fe8",
+      "raw_official_sha256": "30b7582638a5686e40b797f2ddf260c2372d38b8a5b9368112250c211caf8386",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_2_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_2_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.544095886444858e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.5906883749371445e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383107158472376,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998970031255823e-07,
+      "changed_bytes": 58849,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "9ec38286a69a4069141890e623bee8761e428ed39ce108faece7819836226690",
+      "trailer_sha256_after": "9ec38286a69a4069141890e623bee8761e428ed39ce108faece7819836226690",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_3_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_3_base.mesh",
+      "sha256": "e5aa0e6340b2b139c4cc89b69d379cb33fa44e41b4545b6fc98c26e13fa72db9",
+      "raw_official_sha256": "9c3bd6ed99736146901d9b225e6ada75fa9c1a02dcd45d09e4548f97bddba964",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_3_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 6.687899389525116e-08,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 1.9455981952408316e-22,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999997492,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.971389770958012e-07,
+      "changed_bytes": 5398,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "654019e3934caa120a6a3c03d996681cd6e8a4eb4ced950d068e27c5575a5315",
+      "trailer_sha256_after": "654019e3934caa120a6a3c03d996681cd6e8a4eb4ced950d068e27c5575a5315",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_3_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_3_barrel.mesh",
+      "sha256": "a4addbf4c22b3f29bd9416bd7bf1d2a663ad0537ec7b9b37601cf19c95d74c4b",
+      "raw_official_sha256": "b3a4ba872f5362522aad4c19938445e36502bcbe871112aafd36f409bb25af12",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_3_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_3_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.3258773041900572e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.5016351656859115e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383073812539224,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998435974012949e-07,
+      "changed_bytes": 58683,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "719c749ff2a07a1ab01222fabf0f976885b5314568feee588ca66187d53eaa4f",
+      "trailer_sha256_after": "719c749ff2a07a1ab01222fabf0f976885b5314568feee588ca66187d53eaa4f",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_4_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_4_base.mesh",
+      "sha256": "0c70370542e525ac996823691bae2d3a37331b8a828e41f29d6d187cfe4cf072",
+      "raw_official_sha256": "1cfc03b3add3275f180ca94ea1ffe9eea3d8ea09a6b182bd25a3b488a9f5a42d",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_4_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 1.2501588426898295e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 1.601591605474308e-22,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9999999999998334,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.360771179157119e-07,
+      "changed_bytes": 5390,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "16f4e0674c7d32c4616f322db106ccc0a03bfbbaa23adc794e5c018c01838378",
+      "trailer_sha256_after": "16f4e0674c7d32c4616f322db106ccc0a03bfbbaa23adc794e5c018c01838378",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_4_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_4_barrel.mesh",
+      "sha256": "a54c76083efb9037a0b644e8128636e58d310f7d60626ccbee35d44ca8cdb211",
+      "raw_official_sha256": "019c14f807166b66b36613a43a9616ed1afcf5cf3866bd9280b6627893af8c6b",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_4_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_4_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.674024477827744e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.465291615294518e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383105153337307,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.99985218047061e-07,
+      "changed_bytes": 58948,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "1b686ed285ac2c3c47b7e3fcab7260dcdd26094fcd68b04c5b0ee8d986803563",
+      "trailer_sha256_after": "1b686ed285ac2c3c47b7e3fcab7260dcdd26094fcd68b04c5b0ee8d986803563",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_5_base": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_5_base.mesh",
+      "sha256": "d6d2ccbab9e6455e4f100cf1a0609d638e15ad8036a99b9a70fdd857b84f9d55",
+      "raw_official_sha256": "caedcdc033673457e2ca7a651a5a7670fa1b6fdc0e465869ae0469827b1e75f2",
+      "triangles": 192,
+      "materials": [
+        "expanse04_hero_pdc_5_base_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 7.05683023553892e-08,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 9.50441075626897e-23,
+      "tangent_max_unit_error": 0.0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.99999999999975,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.911651612093948e-07,
+      "changed_bytes": 5407,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "12dbd5ea65ec43f40039d324ea689089102e8bdf9616e4a3b1afda0e9372de85",
+      "trailer_sha256_after": "12dbd5ea65ec43f40039d324ea689089102e8bdf9616e4a3b1afda0e9372de85",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    },
+    "hero_pdc_5_barrel": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_5_barrel.mesh",
+      "sha256": "43b33990cf192b17f4ec9a36aec4a33c5207aadf8d64fc37edaf8a95b4ba57bc",
+      "raw_official_sha256": "0f7e09dfe4b9819a1ed025e4b62f52d79472aedfda47aec5b6b1ae7e87791f36",
+      "triangles": 3923,
+      "materials": [
+        "expanse04_hero_pdc_5_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_5_barrel_expanse03_hero_mat_1"
+      ],
+      "source_frame_max_match_error": 2.643613179980168e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.4605629533880347e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.9383104827584912,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999694823704104e-07,
+      "changed_bytes": 58800,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "e78831b54410c16fc3735c618c93699445a037cd75066ad566c2ca397ca6721f",
+      "trailer_sha256_after": "e78831b54410c16fc3735c618c93699445a037cd75066ad566c2ca397ca6721f",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": []
+    }
+  },
+  "rest_pose_position_max_error": 2.091543061608976e-06,
+  "rotation_checks": [
+    {
+      "index": 0,
+      "basis_error": 3.346492816191926e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 1,
+      "basis_error": 9.560721070389633e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 2,
+      "basis_error": 5.585525374163236e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 3,
+      "basis_error": 1.0696212482397272e-07,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 4,
+      "basis_error": 1.077608080546355e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "index": 5,
+      "basis_error": 1.7436267651937953e-08,
+      "row0_right_row1_up_row2_forward": true,
+      "stored_rows_match_columns_transposed": true
+    },
+    {
+      "mesh_point": "exhaust.0",
+      "basis_error": 3.5488347630434626e-18,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.rail.0",
+      "basis_error": 1.8718785299576268e-08,
+      "row0_right_row1_up_row2_forward": true
+    }
+  ],
+  "tangent_repair": "Exact16-byte tangent-field substitution only; official regenerated winding/index/grid/trailer preserved"
+}

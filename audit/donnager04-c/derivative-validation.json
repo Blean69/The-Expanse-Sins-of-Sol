@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "archive_and_master_preserved": "PASS",
+  "donor_dependencies_unchanged": "PASS",
+  "assets": {
+    "master/scene.gltf": {
+      "triangles": 1804024,
+      "dimensions": [
+        450.7550239562988,
+        450.75491728097427,
+        1183.900772034083
+      ],
+      "finite_positions": "PASS",
+      "indices": "PASS",
+      "unit_local_normals": "PASS",
+      "buffer_and_image_references": "PASS",
+      "sha256": "a6cce51398991f0f720317123f51ce47bdf87d7e9fd864ac5e9803487eb1e818"
+    },
+    "normalized-preview/donnager04_centered.gltf": {
+      "triangles": 1804024,
+      "dimensions": [
+        38.073716531314346,
+        38.07370752081894,
+        100.0
+      ],
+      "finite_positions": "PASS",
+      "indices": "PASS",
+      "unit_local_normals": "PASS",
+      "buffer_and_image_references": "PASS",
+      "sha256": "ef10bcd4f89ab5d638c3dd8370dbaa1dd0b73121f775e10e4cb70f6bd8f607d0"
+    },
+    "normalized-preview/donnager04_provisional_475p5m.gltf": {
+      "triangles": 1804024,
+      "dimensions": [
+        413.1933434631949,
+        413.19324567718763,
+        1085.2456263978258
+      ],
+      "finite_positions": "PASS",
+      "indices": "PASS",
+      "unit_local_normals": "PASS",
+      "buffer_and_image_references": "PASS",
+      "sha256": "1511418cea0a80e5cd21e2205d5bfe810108524c06eddd76b045026507968c3f"
+    },
+    "rail-assembly-preview/donnager04_rail_negative_X.gltf": {
+      "triangles": 63432,
+      "dimensions": [
+        2.0475417375564575,
+        3.4109580516815186,
+        18.216570377349854
+      ],
+      "finite_positions": "PASS",
+      "indices": "PASS",
+      "unit_local_normals": "PASS",
+      "buffer_and_image_references": "PASS",
+      "sha256": "74fb18c46ca5369ad4afc5c76d4b511a1d8e93409f326288e45898cc7c42794b"
+    },
+    "rail-assembly-preview/donnager04_rail_positive_X.gltf": {
+      "triangles": 63431,
+      "dimensions": [
+        2.047541856765747,
+        3.4109580516815186,
+        18.216570377349854
+      ],
+      "finite_positions": "PASS",
+      "indices": "PASS",
+      "unit_local_normals": "PASS",
+      "buffer_and_image_references": "PASS",
+      "sha256": "61820a3cdf51c8dda02d045fd21b7ad3c7370dc616a1c80015d29b6446533a52"
+    }
+  },
+  "runtime": "NOT RUN",
+  "package_export": "NOT RUN; candidates deliberately incomplete for game export"
+}

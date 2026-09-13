@@ -1,0 +1,1498 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "Package layout and separation",
+      "scope": "asset-independent",
+      "status": "PASS",
+      "detail": {
+        "mod_id": "expanse_exp_stock_pdc",
+        "files": 10,
+        "tree_sha256": "dec0e431a1ec4c87a8dbc1ed44e58fcc9e968a906bf0669e950d4a4d5abbb941"
+      }
+    },
+    {
+      "check": "Additive manifests",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": "All new entity IDs registered; no vanilla dependency copies required"
+    },
+    {
+      "check": "Pinned SDK and installed references",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+        "schemas": 62,
+        "installed_references": 527
+      }
+    },
+    {
+      "check": "Pinned schemas for authored definitions",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "validated": 6,
+        "limitation": "Draft 7 does not enforce unevaluatedProperties; integrator must review exact source diffs. Installed SDK has no mesh_material, localized_text or mod_meta_data schema; these are checked structurally/by references only"
+      }
+    },
+    {
+      "check": "Overlay references, mount aliases, torpedo entity classification",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "edges": 214,
+        "mesh_count": 7,
+        "boundary": "Installed effect/audio/death resources checked for existence only; no runtime or whole-game closure claim"
+      }
+    }
+  ],
+  "runtime": "NOT RUN",
+  "reference_edges": [
+    {
+      "source": "package-root",
+      "reference": "entities/mcrn_corvette_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit",
+      "reference": "entities/mcrn_corvette_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "meshes/trader_torpedo_cruiser_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_torpedo_cruiser_torpedo.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_torpedo_cruiser_torpedo.mesh",
+      "reference": "mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "reference": "textures/trader_torpedo_cruiser_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_clr.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "reference": "textures/trader_torpedo_cruiser_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_orm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "reference": "textures/trader_torpedo_cruiser_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_nrm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "reference": "textures/trader_torpedo_cruiser_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_msk.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/torpedo_cruiser_exhaust.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "effects/trader_large_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_large_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "sounds/ambient_loop_tech_neutrontorp_engine.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_tech_neutrontorp_engine.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "package-root",
+      "reference": "entities/trader_antifighter_frigate.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "entities/trader_antifighter_frigate.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "meshes/trader_antifighter_frigate.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "reference": "mesh_materials/trader_antifighter_frigate.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_antifighter_frigate.mesh_material",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_antifighter_frigate.mesh_material",
+      "reference": "textures/trader_antifighter_frigate_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_antifighter_frigate_clr.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_antifighter_frigate.mesh_material",
+      "reference": "textures/trader_antifighter_frigate_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_antifighter_frigate_orm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_antifighter_frigate.mesh_material",
+      "reference": "textures/trader_antifighter_frigate_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_antifighter_frigate_nrm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_antifighter_frigate.mesh_material",
+      "reference": "textures/trader_antifighter_frigate_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_antifighter_frigate_msk.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "reference": "mesh_materials/trader_asset_turret_large.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_large.mesh_material",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_large.mesh_material",
+      "reference": "textures/trader_asset_turrets_large_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_large_clr.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_large.mesh_material",
+      "reference": "textures/trader_asset_turrets_large_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_large_orm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_large.mesh_material",
+      "reference": "textures/trader_asset_turrets_large_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_large_nrm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_large.mesh_material",
+      "reference": "textures/trader_asset_turrets_large_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_large_msk.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "meshes/trader_asset_frigate_pdturret_barrel_0.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_pdturret_barrel_0.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_pdturret_barrel_0.mesh",
+      "reference": "mesh_materials/trader_asset_turret_small.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_small.mesh_material",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_small.mesh_material",
+      "reference": "textures/trader_asset_turrets_small_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_small_clr.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_small.mesh_material",
+      "reference": "textures/trader_asset_turrets_small_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_small_orm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_small.mesh_material",
+      "reference": "textures/trader_asset_turrets_small_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_small_nrm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_small.mesh_material",
+      "reference": "textures/trader_asset_turrets_small_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_small_msk.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "meshes/trader_asset_frigate_pdturret_mount_0.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_pdturret_mount_0.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_pdturret_mount_0.mesh",
+      "reference": "mesh_materials/trader_asset_turret_small.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_small.mesh_material",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "meshes/trader_asset_frigate_turret_barrel_0.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_turret_barrel_0.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_turret_barrel_0.mesh",
+      "reference": "mesh_materials/trader_asset_turret_small.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_small.mesh_material",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "meshes/trader_asset_frigate_turret_mount_0.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_turret_mount_0.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_turret_mount_0.mesh",
+      "reference": "mesh_materials/trader_asset_turret_small.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_small.mesh_material",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/exhaust_tech_small_01.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/exhaust_tech_small_01.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/hyperspace_chargeup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_CHARGEUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/hyperspace_entry.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/hyperspace_entry.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/hyperspace_exit.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_EXIT.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/tec_damage_embers.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_embers.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/damage_smoke_1.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_1.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/tec_damage_plasma_sparks.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_plasma_sparks.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/damage_electricity_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/damage_air_decompression.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_air_decompression.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/ambient_loop_airdecompression.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_airdecompression.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/tec_damage_frigate.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_frigate.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/trader_antifighter_frigate.shield_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_antifighter_frigate.shield_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/light_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/light_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_light_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_light_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_light_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_light_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_light_hithull_04.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull_04.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/light_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/light_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_light_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_light_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_light_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_light_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_light_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_light_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_light_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_light_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/trader_light_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_light_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_light_autocannon.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_light_autocannon.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_light_autocannon_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_light_autocannon_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_light_autocannon_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_light_autocannon_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_light_autocannon_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_light_autocannon_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/trader_light_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_light_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/engine_techfrigateship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHFRIGATESHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/hyperspace_travel.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_TRAVEL.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_spawned_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_spawned_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_selected_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_selected_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_selected_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_selected_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_selected_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_selected_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "sounds/trader_antifighter_frigate_hyperspace_charge_started_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_hyperspace_charge_started_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin",
+      "reference": "death_sequences/frigate0.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/frigate0.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "entities/mcrn_exp_stock_dual_pdc.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_exp_stock_dual_pdc.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_exp_stock_dual_pdc.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_exp_stock_dual_pdc.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "meshes/trader_antifighter_frigate.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "meshes/trader_antifighter_frigate.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "meshes/trader_antifighter_frigate.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "meshes/trader_antifighter_frigate.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "meshes/trader_antifighter_frigate.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "meshes/trader_antifighter_frigate.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "entities/trader_antifighter_frigate_light_autocannon.weapon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_light_autocannon.weapon",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_light_autocannon.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_light_autocannon.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit",
+      "reference": "meshes/trader_antifighter_frigate.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "package-root",
+      "reference": "entities/trader_torpedo_cruiser.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_torpedo_cruiser.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_torpedo_cruiser.unit",
+      "reference": "entities/trader_torpedo_cruiser.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "meshes/trader_torpedo_cruiser.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_torpedo_cruiser.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_torpedo_cruiser.mesh",
+      "reference": "mesh_materials/trader_torpedo_cruiser.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser.mesh_material",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser.mesh_material",
+      "reference": "textures/trader_torpedo_cruiser_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_clr.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser.mesh_material",
+      "reference": "textures/trader_torpedo_cruiser_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_orm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser.mesh_material",
+      "reference": "textures/trader_torpedo_cruiser_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_nrm.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser.mesh_material",
+      "reference": "textures/trader_torpedo_cruiser_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_msk.dds",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/exhaust_tech_large_01.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/exhaust_tech_large_01.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/hyperspace_chargeup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_CHARGEUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/hyperspace_entry.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/hyperspace_entry.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/hyperspace_exit.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_EXIT.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/tec_damage_embers.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_embers.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/damage_smoke_1.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_1.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/damage_smoke_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/damage_electricity.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/damage_electricity_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/damage_air_decompression.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_air_decompression.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/ambient_loop_airdecompression.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_airdecompression.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/damage_fire.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_fire.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/ambient_loop_firedamage.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_firedamage.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/damage_fire_pillar.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_fire_pillar.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/ambient_loop_firepillar_damage.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_firepillar_damage.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/tec_damage_cruiser.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_cruiser.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/trader_torpedo_cruiser.shield_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_torpedo_cruiser.shield_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/placeholder_effect.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/placeholder_effect.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/weapon_impact_tech_neutrontorp.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_tech_neutrontorp.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/placeholder_effect.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/placeholder_effect.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/weapon_impact_tech_neutrontorp.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_tech_neutrontorp.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "effects/trader_torpedo_cruiser_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_torpedo_cruiser_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_neutrontorp.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_neutrontorp.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/engine_techcruisership.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHCRUISERSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/hyperspace_travel.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_TRAVEL.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_spawned_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_spawned_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_selected_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_selected_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_selected_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_selected_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_selected_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_selected_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_neutral_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_neutral_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_scared_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_scared_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_smug_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_smug_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_smug_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_smug_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_smug_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_smug_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_attack_order_issued_smug_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_smug_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "sounds/trader_torpedo_cruiser_hyperspace_charge_started_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_hyperspace_charge_started_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin",
+      "reference": "death_sequences/cruiser0.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/cruiser0.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_torpedo_cruiser.unit",
+      "reference": "entities/mcrn_corvette_torpedo.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.weapon",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.weapon",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.weapon",
+      "reference": "entities/mcrn_corvette_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_torpedo_cruiser.unit",
+      "reference": "meshes/trader_torpedo_cruiser.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_torpedo_cruiser.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_torpedo_cruiser.unit",
+      "reference": "entities/mcrn_corvette_torpedo.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "package-root",
+      "reference": "entities/mcrn_corvette_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "meshes/trader_torpedo_cruiser_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_torpedo_cruiser_torpedo.mesh",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/torpedo_cruiser_exhaust.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "effects/trader_large_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_large_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "sounds/ambient_loop_tech_neutrontorp_engine.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_tech_neutrontorp_engine.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0.death_sequence_group",
+      "origin": "installed"
+    }
+  ],
+  "resolved_dependency_sha256": {
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/cruiser0.death_sequence_group": "44a5274ee5dc88c2ed77b723f4e23e69625dac60e0f2ad0d3483653e2bfad473",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/frigate0.death_sequence_group": "2e43188f2a7597a0bf056eae183770133db72d832fc0acf5465399e0a67a0c56",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0.death_sequence_group": "b176c0be35543521c739dae04709991c0a0f2f1ee2e3c4008a5bf6b77925e928",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect": "f3f59f63926d567acf7c2f2c847bd435e3d14df84152930cde4b8af0d2107376",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_air_decompression.particle_effect": "3d7f5ff496bb1f4e196faf14f48cdcbf3497de065197ce99dd8be57a67fe77f4",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity.particle_effect": "89eeb1ccd287fdafd86c5244e835a223c80ef40e6bbb915b9041aad6f684d8f5",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity_2.particle_effect": "28fdb201ffb034009af69e4d8de2c4beba57100438d50a8f2ef0623243e2d3bd",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_fire.particle_effect": "6275b0c046dd7c4f63c9cb4efe2b669ae8fd0260fae571ac18bd7c2b57c68c91",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_fire_pillar.particle_effect": "b803eddffafbba174dce4ff4ea70c8fe3b7976470c4ec25e96f6d9e4aee6684d",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_1.particle_effect": "21f5d26477fa417e1302b728720b61d8f0d4679bd4ce6fa3718e6da47f67c1de",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_2.particle_effect": "fd05fb2c8e278b2d19ec86b34e4b2d8d10c4779fc323be8c059baf2f94564ee3",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/exhaust_tech_large_01.particle_effect": "661ea789f293fb19374a00bfc5cb676491cf340b4719ad43a746609e76dbd5f2",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/exhaust_tech_small_01.particle_effect": "b09146e4e91a7aedb78e5a63e0411552bd8a96d6d95dfab7b0e8c06bb0a9b17f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/light_autocannon_impact.particle_effect": "66099e41dbdfcb8e63ac5570e76e8c9fe308259ee20397b2012bc613842eb2d1",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/placeholder_effect.particle_effect": "5b544d01b927926e6b50ced1ec49b73be76ea09602a8cea4c9834e9df708273a",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_cruiser.particle_effect": "54f07216f7bdfc577faa79f5065ab922c3490bfa50149cb382c605a201221241",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_embers.particle_effect": "06fc0ab900271002041d23d20f1eb01bda5b9f59c5742551848a4e651bf59d41",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_frigate.particle_effect": "a1609b51a20503c0ddc836c70944c455d23fc9cdd6ea2a894ca2955b327129e1",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_plasma_sparks.particle_effect": "f673ea48492b06a275d5782e162911d5ef5c44d67fb08471cce11af886551919",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/torpedo_cruiser_exhaust.particle_effect": "4c8666be7d8912fecb6b54aa05e98ea82ada764add6c64c3e93c2093e299e107",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_antifighter_frigate.shield_effect": "f819ce94f1e807af95eae3740fbd6b5e8f3a49a34ed6d92539e8c9e361c5d840",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_large_torpedo.exhaust_trail_effect": "44b7f1441c96beab727ebf20affd11c71cb03693f65041807e33e682953a78fe",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_light_autocannon_weapon_muzzle.particle_effect": "818a69162d37903843d6c9a63130ab4885b9836a6bd87f1348d87e326a7c39d7",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_light_autocannon_weapon_projectile_travel.particle_effect": "2d62c8037ca431cef017aac958e27db0791844d0eba164e9ea9cac38cadb55d2",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect": "298541190912a6938ef0174d5d85a870ac3c876fb17a0d739d0d506846eef3e9",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect": "70fde486dc472b71e60383daec1c49bc7a6bb6a18d6f914b758e475f56a9a3c0",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_torpedo_cruiser.shield_effect": "aced92c5f3241efd242cf82c41ce155f02285fef13ba041398b40bd843a9f78d",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_torpedo_cruiser_muzzle.particle_effect": "354fa6f777b57bc1b62b13d1e0d4c30447598df530755de11746d85b6bdfaaca",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate.unit_skin": "b27a6ea8ca7c83959c797f8ba3beeb833f873d725a41845a7fe591902c28b951",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_light_autocannon.weapon": "72535b2e763119d2138e3a3855e028def6223a2b1559ea9b851bd6e3c2635880",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antifighter_frigate_point_defense_autocannon.weapon": "40c0407280f541bde3ea455374fc90ccd1c21870d9caba24a503956a601ec693",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_torpedo_cruiser.unit_skin": "fe7a6f3dddd771c467e8359439afadc1e9cda3b9d346ddee85afd92e009678d7",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_antifighter_frigate.mesh_material": "b375c7195fda7a73426b0333d7ed4cf0ec281d6796e7a02fedb19c865647e4e8",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_large.mesh_material": "d7c7676b90677296fe43f71b073407099ff8cc3b75606f18a91b1c7e6b36ac53",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_asset_turret_small.mesh_material": "992e78554b1fe4d27314aec2a16b0e407e7a184658e121aa1df308170536251f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser.mesh_material": "4e4edb46fe48d45195b42d4ab69971e1830f801463e5939beb429fa049367b54",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material": "4e4edb46fe48d45195b42d4ab69971e1830f801463e5939beb429fa049367b54",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_antifighter_frigate.mesh": "c727314962dba9357e5aed04dec961f4964a67801ac4a21aa81e37fdac403682",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_pdturret_barrel_0.mesh": "e358d990f72cd10d6510017d0193e9b8bfcb842cc5922df99c31de9c61c2ae0c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_pdturret_mount_0.mesh": "300ca14c3e7b9a340510a0dcdaf66d814d64d9ff0ee137d58a6b94f8e36edd75",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_turret_barrel_0.mesh": "525abc902e996dee4589844a24789b0fb0cb8dc8aabc15432a88e385016df1b4",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_asset_frigate_turret_mount_0.mesh": "cdd7673271930899edc3491da02ffcaadcb633bb2a131aa193856c5e7f1c9997",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_torpedo_cruiser.mesh": "d5f78245da6b137e0166f3cce556817af7dd799c5e826de3a986a91639c2d4fd",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_torpedo_cruiser_torpedo.mesh": "b08b33c391bfb66eaabb2f4b3ac3578b6de584f2a8aec691dfa17460d028a6cf",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHCRUISERSHIP.sound": "a1a282b6575315dfdeea70b0999b90e32f8de3e753fa43fccab1b60b974bcec7",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHFRIGATESHIP.sound": "793dab0536e29edfc1c458e6f20e7bceced5386d9e06d8585346f11cdb10fe78",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_CHARGEUP.sound": "2ad1b653a88dbc6374b70120fade1ead4ce0565fd30f88515efd7d43de3d5073",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_EXIT.sound": "9451a0b0064d153cecf2b771284ea3cc5d6049948ef927f1e6dc3b79a2fbfd9c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_TRAVEL.sound": "156ded172ceff5ca9369c28cb0a889c982e47e09990512057aa012ae2d3d59a1",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_airdecompression.sound": "db18e8ca735cdf73f36247817e3967b28dbcb971a55ca9872eccc8d9f074dd79",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage.sound": "f890f60dec8e617c3f47b8743c607dc988555e277d35e827f3fe4766b986ee6f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage_01.sound": "32c16a0371a85292bc8d57b108a4bac208beb93b8585e65e8665d9a0b1475582",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_firedamage.sound": "1da646826c8bc1efcd4ad1a4a4290c780861fd5cd8263f4c505de0f170fd870f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_firepillar_damage.sound": "df6398722c8f05a5fe6eac5ef2c556d337d97d5916fb4bd2ba6d9245e490d299",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_tech_neutrontorp_engine.sound": "b0fcef2583f33e86e39af5da150c622534bc0c6d4d965417bae255803860a47e",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/hyperspace_entry.sound": "5fd385149bdec98aa125dd2ef71df3e39ae63e92659fd00435de2a91f8c392ab",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_neutral_1.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_neutral_2.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_neutral_3_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_scared_0_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_scared_1_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_scared_2_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_scared_3_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_smug_0_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_smug_1_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_smug_2_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_attack_order_issued_smug_3_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_hyperspace_charge_started_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_neutral_1.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_neutral_2.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_scared_0_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_scared_1_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_order_issued_scared_2_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_neutral_1.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_neutral_2.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_scared_0_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_scared_1_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_selected_scared_2_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_antifighter_frigate_spawned_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_neutral_1.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_neutral_2.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_neutral_3_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_scared_0_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_scared_1_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_scared_2_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_scared_3_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_smug_0_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_smug_1_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_smug_2_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_attack_order_issued_smug_3_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_hyperspace_charge_started_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_neutral_1.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_neutral_2.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_scared_0_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_scared_1_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_order_issued_scared_2_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_neutral_1.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_neutral_2.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_scared_0_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_scared_1_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_selected_scared_2_placeholder.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_torpedo_cruiser_spawned_neutral_0.sound": "37f6d14794188594371ec0f1131fb410a25b8ed483b4643d6446e0e57472cf5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_light_hitshields.sound": "e4c4aa14bed25959b1cfdc8566628daedda5324118c2e9aa3849725b7f56e354",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_light_hitshields_01.sound": "e4c4aa14bed25959b1cfdc8566628daedda5324118c2e9aa3849725b7f56e354",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_light_hitshields_02.sound": "e4c4aa14bed25959b1cfdc8566628daedda5324118c2e9aa3849725b7f56e354",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_light_hitshields_03.sound": "e4c4aa14bed25959b1cfdc8566628daedda5324118c2e9aa3849725b7f56e354",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields.sound": "fdc2cef7a0109b3de1ea8b2ab43d6fe0d30987054ed718800633b08810b24610",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_01.sound": "fdc2cef7a0109b3de1ea8b2ab43d6fe0d30987054ed718800633b08810b24610",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_02.sound": "fdc2cef7a0109b3de1ea8b2ab43d6fe0d30987054ed718800633b08810b24610",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_03.sound": "fdc2cef7a0109b3de1ea8b2ab43d6fe0d30987054ed718800633b08810b24610",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull.sound": "9fd4acd0511db7089c291802965b5f18ca7d1cf0e848a4e6075cff0de2f2271e",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull_01.sound": "8ce156e495917671ef65d8e8524fbbd4b806420d0271419c75965f9aeefa2d73",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull_02.sound": "8ce156e495917671ef65d8e8524fbbd4b806420d0271419c75965f9aeefa2d73",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull_03.sound": "8ce156e495917671ef65d8e8524fbbd4b806420d0271419c75965f9aeefa2d73",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_light_hithull_04.sound": "8ce156e495917671ef65d8e8524fbbd4b806420d0271419c75965f9aeefa2d73",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull.sound": "79b6946166e32cd10cbdbcfed51993f8cea66d9dff4029e46d13bb3668ed276f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_01.sound": "79b6946166e32cd10cbdbcfed51993f8cea66d9dff4029e46d13bb3668ed276f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_02.sound": "bb9c2f830c269324890fa09500f1c35b691e8fec11d69176b51afdb721c643ae",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_03.sound": "194df5f86c30f23c03d25a61a00fbff8303b7842bf96176cd3d87c357a331ea7",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_tech_neutrontorp.sound": "f7c00661da07720c23a86391f6ba70c5663b05647fb368cb4534eda3a1f3663f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_light_autocannon.sound": "bf5c584d01fb7e72b7e5fed30394bf7be670b05b22284fadf2a6c8abc347f947",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_light_autocannon_01.sound": "bf5c584d01fb7e72b7e5fed30394bf7be670b05b22284fadf2a6c8abc347f947",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_light_autocannon_02.sound": "bf5c584d01fb7e72b7e5fed30394bf7be670b05b22284fadf2a6c8abc347f947",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_light_autocannon_03.sound": "bf5c584d01fb7e72b7e5fed30394bf7be670b05b22284fadf2a6c8abc347f947",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_neutrontorp.sound": "f7c00661da07720c23a86391f6ba70c5663b05647fb368cb4534eda3a1f3663f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon.sound": "ccf5b5fadd3ec3023ae234dfd968548eea453a496b25a4b541f5d0347426af03",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound": "ccf5b5fadd3ec3023ae234dfd968548eea453a496b25a4b541f5d0347426af03",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound": "ccf5b5fadd3ec3023ae234dfd968548eea453a496b25a4b541f5d0347426af03",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound": "ccf5b5fadd3ec3023ae234dfd968548eea453a496b25a4b541f5d0347426af03",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_antifighter_frigate_clr.dds": "74ab8144589ab2e184dc3cc8f53239cc0099b70ca43b1e7ccfdb4886c091d160",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_antifighter_frigate_msk.dds": "625781e1acc38dd2fa0c1171efd27ab5a90eea543fdbd5954cc5f4d8bb5a3cd9",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_antifighter_frigate_nrm.dds": "1e84b4b5b30ba64578273211b91400d129cc89261c26c283141821b246fd5c90",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_antifighter_frigate_orm.dds": "09eaea7e66a7937ee668a6899f548d51c8faaf518674f1534ddb4934bca18314",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_large_clr.dds": "5cbd1b4f857e7f4114f28792bdbdd2e1cc053979cde8cd7114d6aac456cccc34",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_large_msk.dds": "eca339ac14912cd3bd5d8d955bab3936abd571f4521c07ee97f2e6aeae39575e",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_large_nrm.dds": "0779c378a2af67f79ca753bc1efd137591eb7b4431e164381661cba43f66e091",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_large_orm.dds": "dd9fc12cf1246e047ef9bd1448680ddfb8a7c57a1ca2ba8f1a864b97c9c574e2",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_small_clr.dds": "0ff0ad0c18bf436c4183458394265afff14872fa44a98ef0d9fba73d8629c531",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_small_msk.dds": "bdc29816e44f6498f3cec7079efdbcf57fdc2807920b823686da552dbf405d70",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_small_nrm.dds": "ae1bcfa438b7ae7b12aca2a8590bb67fbb156e22fcc850af87ab4fea22ea33a1",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_asset_turrets_small_orm.dds": "459b5953451387a83d6f8e71a53b7a2cb7ede426f281920cfd45858eff65bf3b",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_clr.dds": "9cd519fb8272dd439cfa21f5d19649cb6ce389b05c899705582a1afdf077ff17",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_msk.dds": "565ad5162d2384e9dacb6a3af66713fa666eb809cb4f8abcee76e5feb1f57d00",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_nrm.dds": "add60ac8485952531b95d9e681269123f173d7a7337dbd2316518ff513665881",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_orm.dds": "e4c141eacdc56dc8b16f30acbffc81a85db55700c20ff6e4aeb9c03245f27eb8",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms": "7bd10fe76bc0c6f3f7273be8d477d4e7f82d204a88f8e7bcdabbd70d5b56f588",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms": "e1e16ca7208c286f9d4ab6daefb2cc6a7da8f157e08ce7596ba28476c510855d",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit": "4d5d0a83e3445341e06ac7ff22b6f288a031b8f591c87234e86cd760f9ee996d",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.unit_skin": "7b32e3a1e95b5c2699cbd2c1df93b3d5163de1428f09ceda4311475a3feecf9e",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_corvette_torpedo.weapon": "f60179e6ac4a27fad5b6f9d7491d09a9b82798a4e066981114eb90af6218d401",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/mcrn_exp_stock_dual_pdc.weapon": "ae2eab13f20f38c3557fa17a7e3c5e7b6271767a9c9480d238a0f6c4c3ad6f26",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_antifighter_frigate.unit": "45e62c0c8b4a5a3f41d42ea20904601604b2adc89e1682c6e2e851b0e50bbe35",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_exp_stock_pdc/entities/trader_torpedo_cruiser.unit": "fbb568df52f90a484bbc98dfd7df021ac9ff7dad5b5a6f31bcf82bb40f96947f"
+  }
+}

@@ -1,0 +1,2246 @@
+{
+  "status": "PASS OFFLINE CORE CHECKS",
+  "runtime": "NOT RUN",
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "prior_files_preserved_except_reviewed_integration_fields": true,
+  "players_six_cap_and_hero_one_preserved": [
+    "trader_loyalist",
+    "trader_rebel",
+    "dlc_trader_loyalist"
+  ],
+  "three_physical_PDC_budgets": true,
+  "schemas": 72,
+  "declared_schema_dialect": "Draft7; schema also contains unevaluatedProperties that Draft7 ignores",
+  "known_unit_extension": {
+    "field": "corruption",
+    "status": "OBSERVED INSTALLED EXTENSION; absent pinned schema",
+    "exact_installed_Cobalt_equality": true,
+    "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_light_frigate.unit",
+    "source_sha256": "21f7dc1945cb4b04f28fcd7c22e0a1cfcfdf5eae4c41af7e5270bf847f22cb48",
+    "penalty_buffs": [
+      "trader_ship_corruption_penalty_mild",
+      "trader_ship_corruption_penalty_moderate",
+      "trader_ship_corruption_penalty_extreme"
+    ],
+    "strict_other_fields": "PASS additional Draft2020 interpretation of SAME pinned Draft7 schema; does not certify excluded corruption field"
+  },
+  "additive_manifests": [
+    "unit",
+    "unit_skin",
+    "weapon",
+    "ability",
+    "buff",
+    "action_data_source"
+  ],
+  "typed_action_graphs": [
+    {
+      "ability": "expanse06_amun_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse06_amun_boarding",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "existing_action_graph_checks": {
+    "abilities": 2,
+    "buffs": 2,
+    "torpedoes": 2
+  },
+  "boarding": {
+    "modeled_delay_seconds": 3,
+    "chance": 0.1,
+    "attempts_per_cast": 1,
+    "supply_rechecked": true,
+    "physical_interceptable_pod": false,
+    "runtime": "NOT RUN; source/target context, delay and capture are not established by this offline graph"
+  },
+  "UI_brushes": [
+    "expanse06_amun_tooltip_picture.brush",
+    "expanse06_amun_main_view_icon.brush",
+    "expanse06_amun_hud_picture.brush",
+    "expanse06_amun_hud_icon.brush",
+    "expanse06_amun_main_view_icon_sub_selected.brush",
+    "expanse06_amun_main_view_icon_selected.brush"
+  ],
+  "references": [
+    {
+      "source": "Amun uniform overlay",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "Amun uniform overlay",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "Amun06 package root",
+      "reference": "entities/expanse_amun_ra.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "entities/expanse_amun_ra.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_hull.mesh",
+      "reference": "mesh_materials/expanse06_amun_hull_expanse06_amun_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_hull_expanse06_amun_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_hull_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_hull_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_hull_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_hull_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/expanse06_amun_idle_plume.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/effects/expanse06_amun_idle_plume.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_chargeup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_CHARGEUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_entry.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/hyperspace_entry.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_exit.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_EXIT.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/tec_damage_embers.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_embers.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/damage_smoke_1.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_1.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/tec_damage_plasma_sparks.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_plasma_sparks.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/damage_electricity_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/damage_air_decompression.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_air_decompression.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/ambient_loop_airdecompression.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_airdecompression.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/tec_damage_frigate.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_frigate.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_light_frigate.shield_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_light_frigate.shield_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/javelis_torpedo_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/javelis_torpedo_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_railgun.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_railgun.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/engine_techfrigateship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHFRIGATESHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_travel.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_TRAVEL.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_spawned_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_spawned_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "death_sequences/frigate0.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/frigate0.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_0_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_0_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_0_base.mesh",
+      "reference": "mesh_materials/expanse06_amun_pdc_0_base_expanse06_amun_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_base_expanse06_amun_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "reference": "mesh_materials/expanse06_amun_pdc_0_barrel_expanse06_amun_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_barrel_expanse06_amun_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_0_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_1_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_1_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_1_base.mesh",
+      "reference": "mesh_materials/expanse06_amun_pdc_1_base_expanse06_amun_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_base_expanse06_amun_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "reference": "mesh_materials/expanse06_amun_pdc_1_barrel_expanse06_amun_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_barrel_expanse06_amun_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_1_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_2_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_2_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_2_base.mesh",
+      "reference": "mesh_materials/expanse06_amun_pdc_2_base_expanse06_amun_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_base_expanse06_amun_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_base_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "reference": "mesh_materials/expanse06_amun_pdc_2_barrel_expanse06_amun_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_barrel_expanse06_amun_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse06_amun_pdc_2_barrel_expanse06_amun_surface.mesh_material",
+      "reference": "textures/expanse06_amun_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "entities/expanse06_amun_pdc_0.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_pdc_0.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "meshes/expanse06_amun_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "entities/expanse06_amun_pdc_1.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_pdc_1.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "meshes/expanse06_amun_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "entities/expanse06_amun_pdc_2.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_pdc_2.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "meshes/expanse06_amun_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "entities/expanse06_amun_railgun.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_railgun.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "meshes/expanse06_amun_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit",
+      "reference": "entities/expanse06_amun_pdc_0.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_pdc_0.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "installed corruption extension",
+      "reference": "entities/trader_ship_corruption_penalty_mild.buff",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_ship_corruption_penalty_mild.buff",
+      "origin": "installed"
+    },
+    {
+      "source": "installed corruption extension",
+      "reference": "entities/trader_ship_corruption_penalty_moderate.buff",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_ship_corruption_penalty_moderate.buff",
+      "origin": "installed"
+    },
+    {
+      "source": "installed corruption extension",
+      "reference": "entities/trader_ship_corruption_penalty_extreme.buff",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_ship_corruption_penalty_extreme.buff",
+      "origin": "installed"
+    },
+    {
+      "source": "{'version': 0, 'spatial': {'box': {'center': [-1.3428700282259847, -9.735684350738884, 3.162116999999995], 'extents': [28.078646429073814, 23.231820393532026, 70.18149976630436]}, 'radius': 71.18901353126955, 'collision_rank': 1}, 'physics': {'can_move_linear': True, 'max_linear_speed': 1250.0, 'time_to_max_linear_speed': 5.0, 'arrival_tolerance_spatial_radius_scalar': 1.5, 'death_linear_speed_range': [0.75, 1.25], 'can_move_angular': True, 'max_angular_speed': 25.0, 'time_to_max_angular_speed': 1.25, 'max_bank_angle': 35.0, 'death_angular_speed_range': [5.0, 10.0], 'linear_acceleration_angle': 90.0, 'can_strafe_linear': True, 'strafe_max_linear_speed': 250.0, 'time_to_strafe_max_linear_speed': 10.0, 'strafe_max_linear_distance_spatial_radius_scalar': 10.0, 'strafe_start_angle': 0.0, 'strafe_stop_angle': 180.0, 'strafe_speed_start_angle': 10.0, 'strafe_max_start_turning_angle': 170.0}, 'hyperspace': {'speed': 215000.0, 'speed_between_stars': 752500.0, 'charge_time': 8.0, 'charge_time_variance': 1.0, 'min_charge_angle': 10.0, 'max_charge_angle': 45.0}, 'move': {'follow_distance': 309.716614}, 'attack': {'attack_pattern': {'type': 'circle_strafe', 'angle_range_off_gravity_well_plane': [-45.0, 45.0]}}, 'ai': {'attack_target_type_groups': ['torpedo_strikecraft', 'flak', 'light', 'antiarmor_lrm', 'carrier_support', 'capital_supercapital_heavy', 'defense', 'corvette'], 'attack_target_type_groups_to_ignore': ['torpedo_strikecraft'], 'auto_follow_target_priority': 5.0, 'pursuit': {'min_target_speed': 100.0, 'min_distance_to_target': 3000.0}, 'attack_target_type_range_scalar': 2.0, 'attack_target_type_groups_matching_weapon': 'expanse06_amun_pdc_0'}, 'ai_attack_target': {'attack_priority': 50.0, 'is_always_a_threat': True, 'attack_target_type': 'light'}, 'player_ai': {'attack_ship_weight_scalar': 0.1}, 'user_interface': {'pip_type': 'frigate', 'can_ever_be_selected': True, 'selection_priority': 300, 'has_sub_selection_grouping': True, 'selection_group_unit_type': 'combat_ship', 'can_move': True, 'can_attack': True, 'can_show_distance_to_plane_line': True, 'can_rotate': True}, 'formation': {'leader_priority': 0, 'offsets_per_formation_type': {'ships_and_structures': {'rank': 1, 'group': 0}}}, 'spawn_debris': {'spawn_debris_time': 1.0, 'generic_group_name': 'trader', 'generic_counts': {'small_debris': [4, 5]}}, 'health': {'release_time_after_death': 60.0, 'can_collide_duration_after_death': 0.8, 'durability': 150.0, 'can_ever_be_resurrected': True, 'levels': [{'max_hull_points': 2400.0, 'hull_point_restore_rate': 1.5, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'max_armor_points': 1200.0, 'armor_point_restore_rate': 2.25, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 50.0, 'shield_point_restore_rate': 3.0, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 30.0, 'restore_percentage': 0.5}, 'experience_given_on_death': 35.0}]}, 'corruption': {'max_corruption': 500.0, 'corruption_decay_rate': 10.0, 'corruption_decay_delay_duration_after_gain': 60.0, 'corruption_thresholds': [0.1, 0.5, 0.9], 'negative_corruption_buffs': ['trader_ship_corruption_penalty_mild', 'trader_ship_corruption_penalty_moderate', 'trader_ship_corruption_penalty_extreme']}, 'build': {'build_time': 90.0, 'price': {'credits': 4000.0, 'metal': 750.0, 'crystal': 500.0}, 'build_kind': 'frigate', 'supply_cost': 40, 'build_group_id': 'frigate'}, 'unit_modifiers': [{'modifier_type': 'max_shield_points', 'value_behavior': 'additive', 'value': 400.0, 'prerequisites': [['trader_shields_frigate']]}], 'target_filter_unit_type': 'frigate', 'tags': ['frigate', 'expanse_amun_ra'], 'ship_roles': ['attack_ship'], 'skin_groups': [{'skins': ['expanse_amun_ra']}], 'can_join_fleet': True, 'action_effect_size': 'small_unit', 'abilities': [{'abilities': ['expanse06_amun_magazine']}, {'abilities': ['expanse06_amun_boarding']}], 'antimatter': {'max_antimatter': 200.0, 'antimatter_restore_rate': 1.0}, 'weapons': {'weapons': [{'weapon': 'expanse06_amun_pdc_0', 'mesh_point': 'child.expanse06_amun_pdc_0_base', 'weapon_position': [-23.860285191867504, -20.226417562732074, 24.364337536870206], 'up': [-0.8726331394494881, -0.4839177233860546, 0.06584102769085844], 'forward': [-0.13204916750546908, 0.36358667710970644, 0.9221538622103334], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse06_amun_pdc_1', 'mesh_point': 'child.expanse06_amun_pdc_1_base', 'weapon_position': [-1.8228590660676334, -29.924718651992592, -32.38240929367494], 'up': [2.254759592139297e-06, -0.9999999999974569, 4.756115967090925e-08], 'forward': [0.9268050817354707, 2.107583895733255e-06, 0.37554272788174925], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse06_amun_pdc_2', 'mesh_point': 'child.expanse06_amun_pdc_2_base', 'weapon_position': [-1.862868468877709, 10.45335292435636, -42.56707056297099], 'up': [1.276626374509674e-16, 1.0, -4.4035809183333386e-17], 'forward': [0.9336202781597208, -1.776584060091761e-16, 0.35826411515663326], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse06_amun_railgun', 'mesh_point': 'weapon.rail.0', 'weapon_position': [-1.8635979001501342, -8.295146593030672, 66.47124465258463], 'non_turret_muzzle_positions': [[-1.8635979001501342, -8.295146593030672, 66.47124465258463]], 'up': [0, 1, 0], 'forward': [0, 0, 1], 'yaw_arc': {'min_angle': -10, 'max_angle': 10}, 'pitch_arc': {'min_angle': -10, 'max_angle': 10}}], 'max_range_weapon_index': 3}}",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse06_amun_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse06_amun_magazine",
+      "reference": "entities/expanse06_amun_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.ability",
+      "reference": "entities/expanse06_amun_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.ability",
+      "reference": "entities/expanse06_amun_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.buff",
+      "reference": "entities/expanse06_amun_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit",
+      "reference": "entities/expanse06_amun_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit_skin",
+      "reference": "meshes/expanse05_amun_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse05_amun_torpedo.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse05_amun_torpedo.mesh",
+      "reference": "mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse05_amun_torpedo_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse05_amun_torpedo_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse05_amun_torpedo_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit_skin",
+      "reference": "effects/trader_medium_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit_skin",
+      "reference": "sounds/engine_techsupportship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHSUPPORTSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0_1.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0_1.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.buff",
+      "reference": "entities/expanse06_amun_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse06_amun_boarding.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse06_amun_boarding",
+      "reference": "entities/expanse06_amun_boarding.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.ability",
+      "reference": "entities/expanse06_amun_boarding.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.ability",
+      "reference": "entities/expanse06_amun_boarding.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.action_data_source",
+      "reference": "entities/expanse_rocinante_hero.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_rocinante_hero.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.action_data_source",
+      "reference": "effects/expanse06_boarding_pod_visual.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/effects/expanse06_boarding_pod_visual.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.action_data_source",
+      "reference": "sounds/ability_activate_tech_shuttlelaunch.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ability_activate_tech_shuttlelaunch.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse_amun_ra.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/expanse06_amun_idle_plume.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/effects/expanse06_amun_idle_plume.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_chargeup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_CHARGEUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_entry.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/hyperspace_entry.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_exit.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_EXIT.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/tec_damage_embers.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_embers.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/damage_smoke_1.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_1.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/tec_damage_plasma_sparks.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_plasma_sparks.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/damage_electricity_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/damage_air_decompression.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_air_decompression.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/ambient_loop_airdecompression.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_airdecompression.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/tec_damage_frigate.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_frigate.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_light_frigate.shield_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_light_frigate.shield_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/javelis_torpedo_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/javelis_torpedo_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_railgun.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_railgun.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/engine_techfrigateship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHFRIGATESHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_travel.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_TRAVEL.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_spawned_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_spawned_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "death_sequences/frigate0.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/frigate0.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_0_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_0_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_1_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_1_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_2_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_2_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse06_amun_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.ability",
+      "reference": "entities/expanse06_amun_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.ability",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.ability",
+      "reference": "entities/expanse06_amun_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.buff",
+      "reference": "entities/expanse06_amun_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.buff",
+      "reference": "entities/expanse06_amun_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.buff",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse06_amun_boarding.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.ability",
+      "reference": "entities/expanse06_amun_boarding.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.ability",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.ability",
+      "reference": "entities/expanse06_amun_boarding.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse06_amun_boarding.ability",
+      "reference": "textures/pirate_boarding_crew_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/pirate_boarding_crew_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "Amun UI integration",
+      "reference": "entities/expanse_amun_ra.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/expanse06_amun_idle_plume.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/effects/expanse06_amun_idle_plume.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_chargeup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_CHARGEUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_entry.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/hyperspace_entry.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_exit.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_EXIT.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/tec_damage_embers.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_embers.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/damage_smoke_1.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_1.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/tec_damage_plasma_sparks.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_plasma_sparks.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/damage_electricity_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/damage_air_decompression.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_air_decompression.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/ambient_loop_airdecompression.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_airdecompression.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/tec_damage_frigate.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_frigate.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_light_frigate.shield_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_light_frigate.shield_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/javelis_torpedo_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/javelis_torpedo_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_railgun.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_railgun.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/engine_techfrigateship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHFRIGATESHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/hyperspace_travel.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_TRAVEL.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_spawned_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_spawned_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_selected_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_selected_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_1.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_1.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_2.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_2.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_neutral_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_scared_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_0_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_1_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_2_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_attack_order_issued_smug_3_placeholder.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/trader_light_frigate_hyperspace_charge_started_neutral_0.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "death_sequences/frigate0.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/frigate0.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_0_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_0_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_1_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_1_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_2_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_2_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/entities/expanse_amun_ra.unit_skin",
+      "reference": "meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "mod metadata logo",
+      "reference": "expanse06_amun_mod_small_logo.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/expanse06_amun_mod_small_logo.png",
+      "origin": "mod"
+    },
+    {
+      "source": "mod metadata logo",
+      "reference": "expanse06_amun_mod_large_logo.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/expanse06_amun_mod_large_logo.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_tooltip_picture.brush",
+      "reference": "textures/expanse06_amun_tooltip_picture.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_tooltip_picture.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_tooltip_picture.brush",
+      "reference": "textures/expanse06_amun_tooltip_picture150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_tooltip_picture150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_tooltip_picture.brush",
+      "reference": "textures/expanse06_amun_tooltip_picture200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_tooltip_picture200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_main_view_icon.brush",
+      "reference": "textures/expanse06_amun_main_view_icon.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_main_view_icon.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_main_view_icon.brush",
+      "reference": "textures/expanse06_amun_main_view_icon150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_main_view_icon150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_main_view_icon.brush",
+      "reference": "textures/expanse06_amun_main_view_icon200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_main_view_icon200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_hud_picture.brush",
+      "reference": "textures/expanse06_amun_hud_picture.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_hud_picture.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_hud_picture.brush",
+      "reference": "textures/expanse06_amun_hud_picture150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_hud_picture150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_hud_picture.brush",
+      "reference": "textures/expanse06_amun_hud_picture200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_hud_picture200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_hud_icon.brush",
+      "reference": "textures/expanse06_amun_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_hud_icon.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_hud_icon.brush",
+      "reference": "textures/expanse06_amun_hud_icon150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_hud_icon150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_hud_icon.brush",
+      "reference": "textures/expanse06_amun_hud_icon200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_hud_icon200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_main_view_icon_sub_selected.brush",
+      "reference": "textures/expanse06_amun_main_view_icon_sub_selected.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_main_view_icon_sub_selected.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_main_view_icon_sub_selected.brush",
+      "reference": "textures/expanse06_amun_main_view_icon_sub_selected150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_main_view_icon_sub_selected150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_main_view_icon_sub_selected.brush",
+      "reference": "textures/expanse06_amun_main_view_icon_sub_selected200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_main_view_icon_sub_selected200.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_main_view_icon_selected.brush",
+      "reference": "textures/expanse06_amun_main_view_icon_selected.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_main_view_icon_selected.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_main_view_icon_selected.brush",
+      "reference": "textures/expanse06_amun_main_view_icon_selected150.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_main_view_icon_selected150.png",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/brushes/expanse06_amun_main_view_icon_selected.brush",
+      "reference": "textures/expanse06_amun_main_view_icon_selected200.png",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_amun06/textures/expanse06_amun_main_view_icon_selected200.png",
+      "origin": "mod"
+    }
+  ],
+  "limits": [
+    "Six-cap queue/capture/rebuild enforcement needs runtime testing",
+    "Boarding timing, recipient ownership and randomness need runtime testing",
+    "PDC interception during explicit ship attack and shared budget need runtime testing",
+    "No optional cloak fields or files allowed in core; separate observed-field candidate is outside this gate"
+  ]
+}

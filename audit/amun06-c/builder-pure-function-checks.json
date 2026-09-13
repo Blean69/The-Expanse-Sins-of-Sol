@@ -1,0 +1,22 @@
+{
+  "new_unit_declared": "PASS",
+  "skin_declared": "PASS",
+  "new_unit_strict_after_exact_known_corruption_exclusion": "PASS",
+  "new_skin_strict": "PASS",
+  "compiled_mount_points": {
+    "child.expanse06_amun_pdc_0_base": "PASS",
+    "child.expanse06_amun_pdc_1_base": "PASS",
+    "child.expanse06_amun_pdc_2_base": "PASS",
+    "weapon.rail.0": "PASS"
+  },
+  "three_complete_yaw_pitch_muzzle_transform_chains": "PASS",
+  "AI_group_inheritance_matches_new_mounted_PDC": "PASS",
+  "pod_effect_changes": [
+    [
+      "/emitters/0/particle/mesh/mesh",
+      "trader_asset_colony_shuttle",
+      "expanse06_amun_boarding_pod"
+    ]
+  ],
+  "runtime": "NOT RUN"
+}

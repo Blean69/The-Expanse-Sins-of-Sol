@@ -1,0 +1,219 @@
+{
+  "checkpoint_commit": "9e40dd4b42853318ef87cc3d7d858f2abf601176",
+  "initial_git_status": "",
+  "baselines": {
+    "expanse_cobalt_name": {
+      "build": {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/expanse_cobalt_name",
+        "files": {
+          ".mod_meta_data": "38eea6fc061e6a2b87183f5b68ac93f1aecb8e06ea969f1fc7caf2f9744f871c",
+          "localized_text/en.localized_text": "83d90b4abd1d99d89779692fb2a5e768cc9694d1563dd69a9d69d09c32416d4c"
+        },
+        "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+      },
+      "installed": {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_cobalt_name",
+        "files": {
+          ".mod_meta_data": "38eea6fc061e6a2b87183f5b68ac93f1aecb8e06ea969f1fc7caf2f9744f871c",
+          "localized_text/en.localized_text": "83d90b4abd1d99d89779692fb2a5e768cc9694d1563dd69a9d69d09c32416d4c"
+        },
+        "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+      },
+      "zip_sha256": "0854d2769ac8870de3a24a9f660b5c266f67be235829ab09b94b233652efbbb6"
+    },
+    "expanse_corvette_visual": {
+      "build": {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/expanse_corvette_visual",
+        "files": {
+          ".mod_meta_data": "38eea6fc061e6a2b87183f5b68ac93f1aecb8e06ea969f1fc7caf2f9744f871c",
+          "ASSET-SOURCES.md": "bb40b30e105af1880143d8f491795ad6e007d6810673f22e9afcf5d0ec064f85",
+          "entities/trader_light_frigate.unit": "2e4322c10460be9ba5545c9218b65a182ccbd91424f594ee3aa67377a3451b0f",
+          "entities/trader_light_frigate.unit_skin": "9adb78df6c649f0573fa0c753db23482ecb157a78100ddf28fa3a47b75a23811",
+          "localized_text/en.localized_text": "83d90b4abd1d99d89779692fb2a5e768cc9694d1563dd69a9d69d09c32416d4c",
+          "mesh_materials/mcrn_corvette_baseline_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+          "mesh_materials/mcrn_corvette_baseline_mcrn_tachi_primary.mesh_material": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
+          "mesh_materials/mcrn_corvette_baseline_mcrn_tachi_secondary.mesh_material": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+          "mesh_materials/mcrn_corvette_baseline_mcrn_tachi_texts.mesh_material": "df830ec82bf24733a2bd37e7104797ba999df0cb9b6645e82d6df27ae7aeaf97",
+          "meshes/mcrn_corvette_baseline.mesh": "60867e4cddb5c130614015b8350972f98eb0c4a701f9a64b3b108ba4ef27d7da",
+          "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+          "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+          "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+          "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+          "textures/mcrn_tachi_primary_clr.dds": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+          "textures/mcrn_tachi_primary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+          "textures/mcrn_tachi_primary_nrm.dds": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+          "textures/mcrn_tachi_primary_orm.dds": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+          "textures/mcrn_tachi_secondary_clr.dds": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+          "textures/mcrn_tachi_secondary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+          "textures/mcrn_tachi_secondary_nrm.dds": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+          "textures/mcrn_tachi_secondary_orm.dds": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+          "textures/mcrn_tachi_texts_clr.dds": "93416d1ecb3c99166e261db1ffe9f836d9b92ce6deadb9d1987b7a12e36e1d29",
+          "textures/mcrn_tachi_texts_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+          "textures/mcrn_tachi_texts_nrm.dds": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877",
+          "textures/mcrn_tachi_texts_orm.dds": "9d47285a3e633e68834237401004315b6b8a7b079cbd646bfedc4040f7266bc0"
+        },
+        "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+      },
+      "installed": {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_visual",
+        "files": {
+          ".mod_meta_data": "38eea6fc061e6a2b87183f5b68ac93f1aecb8e06ea969f1fc7caf2f9744f871c",
+          "ASSET-SOURCES.md": "bb40b30e105af1880143d8f491795ad6e007d6810673f22e9afcf5d0ec064f85",
+          "entities/trader_light_frigate.unit": "2e4322c10460be9ba5545c9218b65a182ccbd91424f594ee3aa67377a3451b0f",
+          "entities/trader_light_frigate.unit_skin": "9adb78df6c649f0573fa0c753db23482ecb157a78100ddf28fa3a47b75a23811",
+          "localized_text/en.localized_text": "83d90b4abd1d99d89779692fb2a5e768cc9694d1563dd69a9d69d09c32416d4c",
+          "mesh_materials/mcrn_corvette_baseline_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+          "mesh_materials/mcrn_corvette_baseline_mcrn_tachi_primary.mesh_material": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
+          "mesh_materials/mcrn_corvette_baseline_mcrn_tachi_secondary.mesh_material": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+          "mesh_materials/mcrn_corvette_baseline_mcrn_tachi_texts.mesh_material": "df830ec82bf24733a2bd37e7104797ba999df0cb9b6645e82d6df27ae7aeaf97",
+          "meshes/mcrn_corvette_baseline.mesh": "60867e4cddb5c130614015b8350972f98eb0c4a701f9a64b3b108ba4ef27d7da",
+          "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+          "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+          "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+          "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+          "textures/mcrn_tachi_primary_clr.dds": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+          "textures/mcrn_tachi_primary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+          "textures/mcrn_tachi_primary_nrm.dds": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+          "textures/mcrn_tachi_primary_orm.dds": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+          "textures/mcrn_tachi_secondary_clr.dds": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+          "textures/mcrn_tachi_secondary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+          "textures/mcrn_tachi_secondary_nrm.dds": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+          "textures/mcrn_tachi_secondary_orm.dds": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+          "textures/mcrn_tachi_texts_clr.dds": "93416d1ecb3c99166e261db1ffe9f836d9b92ce6deadb9d1987b7a12e36e1d29",
+          "textures/mcrn_tachi_texts_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+          "textures/mcrn_tachi_texts_nrm.dds": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877",
+          "textures/mcrn_tachi_texts_orm.dds": "9d47285a3e633e68834237401004315b6b8a7b079cbd646bfedc4040f7266bc0"
+        },
+        "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+      },
+      "zip_sha256": "6ee4e3b8248113d75a088859c21d0723d33252baed91b7bebe5c086c14281a1c"
+    }
+  },
+  "shared_read_only_inputs": {
+    "assets/original": {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/original",
+      "files": {
+        "mcrn_tachi_expanse_tv_show.zip": "47abb4ac87c2af477a906bdab4e87f20551e72917877e6dfa489a11946320142"
+      },
+      "tree_sha256": "8b29f7e1897378ad63637bac37a6bb3af72fc6c09fc49c91d74e87c903e58ee6"
+    },
+    "assets/source": {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/source",
+      "files": {
+        "tachi/license.txt": "1efdcdaede1b8093496f517c7b654b82db474b1a245dc4e93851d38ef89046e5",
+        "tachi/scene.bin": "d4c253a8f88868d9be5c6860667005736d6b45de7a923c1e9d93d94fa3c96188",
+        "tachi/scene.gltf": "09969d308b5c78a76680ee5efe8d1813a726775fb6602f61528c4876b5c3f4db",
+        "tachi/textures/Primary_baseColor.png": "8cc0e6bff573d7da923cade9ad893bab928cedefaba799b958ed9242ce523835",
+        "tachi/textures/Primary_metallicRoughness.png": "9c949d595fdf707ce1870fd11c72782325ce427576e2a0a6c46df8324a918626",
+        "tachi/textures/Primary_normal.png": "3f1c02c71bea11dbf80ecdaf98eae11a1542413e0f2cf7c99c66e8de7285ffba",
+        "tachi/textures/Secondary_baseColor.png": "c34cf4b29ac88357bc4998e1d006b544ed1bab67c64250c59a46d5a8a97c78b3",
+        "tachi/textures/Secondary_metallicRoughness.png": "0ce9645c118c786a2f2c73fa69d5535c0b87d6d8df06d324d6338b22cfa43623",
+        "tachi/textures/Secondary_normal.png": "d33d8759581710f75f7d78a2712c52093b675442255076d59556ff794c88067a",
+        "tachi/textures/Texts_baseColor.png": "111198059f95a32ffa8aa09b2f89f4c238937e60bfadd4fa5191e84af272597f",
+        "tachi/textures/material_baseColor.png": "6b52eb697f17719924f09b4471a2067d5d258cd96e8a246f10d45dd553259db0",
+        "tachi/textures/material_metallicRoughness.png": "2364f25a08ada859379cc69cfd26f68c70bc28a15267923f4f3867e85dbdc218",
+        "tachi/textures/material_normal.png": "53b9a5b4737953cf3d92e2709cf488a6df79719401a2e3752d4140e156745208"
+      },
+      "tree_sha256": "6b352cbc28c4efd7c7e0a11efad79b752f3e4cfdeda2fdf8944b200eba5e5a12"
+    },
+    "assets/derived": {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived",
+      "files": {
+        "baseline/game-materials/mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+        "baseline/game-materials/mcrn_tachi_primary.mesh_material": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
+        "baseline/game-materials/mcrn_tachi_secondary.mesh_material": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+        "baseline/game-materials/mcrn_tachi_texts.mesh_material": "df830ec82bf24733a2bd37e7104797ba999df0cb9b6645e82d6df27ae7aeaf97",
+        "baseline/game-textures/mcrn_tachi_material_clr.png": "b4ba9df2411d8bf835e030f355e8430c98c6d89bcd123bb6e6444778f4a580b9",
+        "baseline/game-textures/mcrn_tachi_material_msk.png": "6fa466e21df6bf014ed03517399a711777f572b1f0be6a561b947790cda9f634",
+        "baseline/game-textures/mcrn_tachi_material_nrm.png": "32a1ae75f412b67b740983dfee097e015216d20a82ef848463fee43c6adb1268",
+        "baseline/game-textures/mcrn_tachi_material_orm.png": "c4d3e9290e18e981cb3cd309d5722a4b9faa0ffea37082bade85fad9c6e07bc5",
+        "baseline/game-textures/mcrn_tachi_primary_clr.png": "4abd77bc7d3b20a4f347ca53df7dfcdf2681f8549478cd5790931ebf69116f5f",
+        "baseline/game-textures/mcrn_tachi_primary_msk.png": "6fa466e21df6bf014ed03517399a711777f572b1f0be6a561b947790cda9f634",
+        "baseline/game-textures/mcrn_tachi_primary_nrm.png": "0e50f79637ad1f642607d3b6800d19ab6e793067a0c8209595459bd5f296b22e",
+        "baseline/game-textures/mcrn_tachi_primary_orm.png": "5c14871225d2ce9a5773979932dd5766e09620165d4e95987241250d74a35433",
+        "baseline/game-textures/mcrn_tachi_secondary_clr.png": "7b0503e550964d7232308a455156e3d6ee90e897eb7a9f2d8e7900c427b76f1f",
+        "baseline/game-textures/mcrn_tachi_secondary_msk.png": "6fa466e21df6bf014ed03517399a711777f572b1f0be6a561b947790cda9f634",
+        "baseline/game-textures/mcrn_tachi_secondary_nrm.png": "c3badd0e06f724ddace06a4e1294d48e1a73eae3b6189abd01f3293a5c6e324d",
+        "baseline/game-textures/mcrn_tachi_secondary_orm.png": "75526c680182852e015fe37d4b52c2326cebd930903a5bec9c47229861f32687",
+        "baseline/game-textures/mcrn_tachi_texts_clr.png": "3ffcf0f735c5e935b19ddd210d5d6d6c754837f926cd2a042c0989640be3bcde",
+        "baseline/game-textures/mcrn_tachi_texts_msk.png": "6fa466e21df6bf014ed03517399a711777f572b1f0be6a561b947790cda9f634",
+        "baseline/game-textures/mcrn_tachi_texts_nrm.png": "5cf6a04873c681f66cecbd3306a2cc4282001d74164c247d7ad3d2025fb6779c",
+        "baseline/game-textures/mcrn_tachi_texts_orm.png": "e778acebdf0bfccf9156b39550b0fe10dce047d65af38ea47dc2771e6a838729",
+        "baseline/mcrn_corvette_baseline.bin": "de0a9610ba439deb026192ab632bab26e2f9aa08f95072d8f6ed9812d3351657",
+        "baseline/mcrn_corvette_baseline.gltf": "19d38a2ac9adcd29b93be22bebe846b088a3deac13bc007db5902824cbcf856d",
+        "baseline/mcrn_editable.gltf": "9cc667f8a55e04c69881e20499945ce7997519b06faeee8778c0b13854fd4bb9",
+        "baseline/scene.bin": "01aa5e4cffbbbef5f4c43682b4f383628679cf83650ae1c84513723319285cba",
+        "baseline/textures/Primary_baseColor.png": "8cc0e6bff573d7da923cade9ad893bab928cedefaba799b958ed9242ce523835",
+        "baseline/textures/Primary_metallicRoughness.png": "9c949d595fdf707ce1870fd11c72782325ce427576e2a0a6c46df8324a918626",
+        "baseline/textures/Primary_normal.png": "3f1c02c71bea11dbf80ecdaf98eae11a1542413e0f2cf7c99c66e8de7285ffba",
+        "baseline/textures/Secondary_baseColor.png": "c34cf4b29ac88357bc4998e1d006b544ed1bab67c64250c59a46d5a8a97c78b3",
+        "baseline/textures/Secondary_metallicRoughness.png": "0ce9645c118c786a2f2c73fa69d5535c0b87d6d8df06d324d6338b22cfa43623",
+        "baseline/textures/Secondary_normal.png": "d33d8759581710f75f7d78a2712c52093b675442255076d59556ff794c88067a",
+        "baseline/textures/Texts_baseColor.png": "111198059f95a32ffa8aa09b2f89f4c238937e60bfadd4fa5191e84af272597f",
+        "baseline/textures/material_baseColor.png": "6b52eb697f17719924f09b4471a2067d5d258cd96e8a246f10d45dd553259db0",
+        "baseline/textures/material_metallicRoughness.png": "2364f25a08ada859379cc69cfd26f68c70bc28a15267923f4f3867e85dbdc218",
+        "baseline/textures/material_normal.png": "53b9a5b4737953cf3d92e2709cf488a6df79719401a2e3752d4140e156745208",
+        "optimized-source/scene.bin": "01aa5e4cffbbbef5f4c43682b4f383628679cf83650ae1c84513723319285cba",
+        "optimized-source/scene.gltf": "dc305da1534a8209fd2082b9e76506bad99789b6941186483d4c79c79b700877",
+        "optimized-source/textures/Primary_baseColor.png": "8cc0e6bff573d7da923cade9ad893bab928cedefaba799b958ed9242ce523835",
+        "optimized-source/textures/Primary_metallicRoughness.png": "9c949d595fdf707ce1870fd11c72782325ce427576e2a0a6c46df8324a918626",
+        "optimized-source/textures/Primary_normal.png": "3f1c02c71bea11dbf80ecdaf98eae11a1542413e0f2cf7c99c66e8de7285ffba",
+        "optimized-source/textures/Secondary_baseColor.png": "c34cf4b29ac88357bc4998e1d006b544ed1bab67c64250c59a46d5a8a97c78b3",
+        "optimized-source/textures/Secondary_metallicRoughness.png": "0ce9645c118c786a2f2c73fa69d5535c0b87d6d8df06d324d6338b22cfa43623",
+        "optimized-source/textures/Secondary_normal.png": "d33d8759581710f75f7d78a2712c52093b675442255076d59556ff794c88067a",
+        "optimized-source/textures/Texts_baseColor.png": "111198059f95a32ffa8aa09b2f89f4c238937e60bfadd4fa5191e84af272597f",
+        "optimized-source/textures/material_baseColor.png": "6b52eb697f17719924f09b4471a2067d5d258cd96e8a246f10d45dd553259db0",
+        "optimized-source/textures/material_metallicRoughness.png": "2364f25a08ada859379cc69cfd26f68c70bc28a15267923f4f3867e85dbdc218",
+        "optimized-source/textures/material_normal.png": "53b9a5b4737953cf3d92e2709cf488a6df79719401a2e3752d4140e156745208",
+        "pdc-rigs/mcrn_pdc_0_barrel.gltf": "f779ed67df607cb733ae96ed65755e81c10f4c3e5c0030f33fde53c8eee51c08",
+        "pdc-rigs/mcrn_pdc_0_base.gltf": "8e5cdd29286d0abfad576a6fe30921e61c0e55fb3349a6316587d380afe2b75d",
+        "pdc-rigs/mcrn_pdc_1_barrel.gltf": "a95e604e9d602cd8c86f78b4783f4fa80426b7c69d11b41da68a0d42ba0af03c",
+        "pdc-rigs/mcrn_pdc_1_base.gltf": "ced0ae5e263de06429cd5ccf69e56229eb5b8c72618989875e0641da1677e83c",
+        "pdc-rigs/mcrn_pdc_2_barrel.gltf": "4498f604ce11edc85100302291ff9499e430883d26ffd3b12c46c280816ed9c1",
+        "pdc-rigs/mcrn_pdc_2_base.gltf": "edb827bc33e5b3f4f727a68a20de2cc0491abb415329da4f42e7c2ecbb4c1ea9",
+        "pdc-rigs/mcrn_pdc_3_barrel.gltf": "3ad0b545ef25e297ab84d5db5115e207d201853b5c6bb9f838fe22ecd5e4183b",
+        "pdc-rigs/mcrn_pdc_3_base.gltf": "3caef8d057b095ffb6f533173c490a9b7eee48c8b4803d6d8b92fd12d63f47dd",
+        "pdc-rigs/mcrn_pdc_4_barrel.gltf": "129703c36f445368677123833285161503d92830db0f56639b691d41506debc9",
+        "pdc-rigs/mcrn_pdc_4_base.gltf": "5ffb35ceab826afaeb2f0910c33386022da4c99a1343196ace2a56946e3a6e0a",
+        "pdc-rigs/mcrn_pdc_5_barrel.gltf": "eed1cc9f74fe65a52d56ffe0e590a35a498dd8dc3363eb3d62f1f69116d62034",
+        "pdc-rigs/mcrn_pdc_5_base.gltf": "bf9c70b66952a4a91d184dd3ddfe9e9598cd2e520e8df398bab7ca3c413c1969"
+      },
+      "tree_sha256": "1419b8dd0c370fb1f9a4fcb4ed831dc943b8467a02a7c4caa2c532e5166d7aa7"
+    },
+    "build/combat-candidates": {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/combat-candidates",
+      "files": {
+        "entities/mcrn_corvette_pdc_0.weapon": "b875e4f1700ba4bcbaca45515d9f44816681b41161a15d133014364f522d6907",
+        "entities/mcrn_corvette_pdc_1.weapon": "27a1bdca4560be756f76771a9b1f363ae3003e33e9a46e86eb6a31e044ba6cd5",
+        "entities/mcrn_corvette_pdc_2.weapon": "a33fe7b933e7e97b9962c9ad820c4c0e9662a7b8383f48041c3ec00a63398bbd",
+        "entities/mcrn_corvette_pdc_3.weapon": "7e82c9b8a0c42caa36d4bb60afee1da9ae128c7747cd28fbfc5003347a64ce2d",
+        "entities/mcrn_corvette_pdc_4.weapon": "cf06e95f0c2875226bbca2726d1b857ca19ce9f66f5ad89094447af2b5def661",
+        "entities/mcrn_corvette_pdc_5.weapon": "669f6d041be82bfbc63e44b5f1b9e702d781820c28c1499d12a824f852db4861",
+        "entities/mcrn_corvette_torpedo.unit": "4d5d0a83e3445341e06ac7ff22b6f288a031b8f591c87234e86cd760f9ee996d",
+        "entities/mcrn_corvette_torpedo.unit_skin": "7b32e3a1e95b5c2699cbd2c1df93b3d5163de1428f09ceda4311475a3feecf9e",
+        "entities/mcrn_corvette_torpedo.weapon": "f60179e6ac4a27fad5b6f9d7491d09a9b82798a4e066981114eb90af6218d401",
+        "entities/unit.entity_manifest": "cf2b871baf006cb75616bd75f2dc52ca411f9d23f99f1a31f74386c41c56ef45",
+        "entities/unit_skin.entity_manifest": "cf2b871baf006cb75616bd75f2dc52ca411f9d23f99f1a31f74386c41c56ef45",
+        "entities/weapon.entity_manifest": "b1b7fdf0b45d40952444a95f374b071ce7fcfd397b286ff47004cdbb0cf92fa4"
+      },
+      "tree_sha256": "68b06add1b209e60fa2395b6f7e40cc476364abad83508f3acea06e68f91c848"
+    }
+  },
+  "settings": {
+    "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/settings",
+    "files": {
+      "debug_gui_layout.json": "1bcf2691cbaace971c0363d64d5bae07cf1a730398783f9b34a1a2fc95d22fac",
+      "input_bindings.json": "7dd10eadee25d8c82da4026a05acee9c0df26a78a756a8cf40da35e7cd9580bf",
+      "last_used_multi_player_options.lobby_options": "501f195415978d8018540f5f1ae337651739735904360cd2f355dc4499dbc96e",
+      "last_used_single_player_options.lobby_options": "501f195415978d8018540f5f1ae337651739735904360cd2f355dc4499dbc96e",
+      "settings.json": "96f8ab1d1c4e7c9a90a404ac0969dca0508b7243696aa3caab59607b84c9fb52",
+      "settings.versions.json": "2602218c2617c765fe0feb91da0d388be9788ac435c056be16e7fec9dcf23bab",
+      "steam_autocloud.vdf": "14ee02ae129b9a797cf245dfc39d07621ac62428028e03a9b8e419eb1ff18886"
+    },
+    "tree_sha256": "10acf39988c1360b3edff5db59a4c561bdc787a4a5292455eccecf5badfc03d4"
+  },
+  "meshbuilder_sha256": "6eb01c73910e565c7db33fef8edc95d5258c4e6ad2d71075b0e7af071dc6657d",
+  "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+  "tree_hash_method": "SHA256 of compact sorted JSON mapping relative path to file SHA256",
+  "runtime": "NOT RUN"
+}

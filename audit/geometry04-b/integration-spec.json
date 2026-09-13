@@ -1,0 +1,1136 @@
+{
+  "suggested_mod_id": "expanse_rocinante04",
+  "status": "COMPLETE OFFLINE GEOMETRY HANDOFF; RUNTIME NOT RUN",
+  "hull_mesh": "expanse04_hero_hull",
+  "meshes": [
+    {
+      "id": "expanse04_hero_hull",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_hull.mesh",
+      "sha256": "bab077014fd34375253cd01f43562b3520333daf03e05d915ed738ef5d8f8c04",
+      "materials": [
+        "expanse04_hero_hull_expanse03_hero_mat_0",
+        "expanse04_hero_hull_expanse03_hero_mat_1",
+        "expanse04_hero_hull_expanse03_hero_mat_2"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_0_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_0_base.mesh",
+      "sha256": "37671f5f6c3b5228cf6697a8a6696809ab6d30557977f5062617dbd6a9876a05",
+      "materials": [
+        "expanse04_hero_pdc_0_base_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_0_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_0_barrel.mesh",
+      "sha256": "633cd6032b3f0c12164d08f5cf0b660f3f7f0e97a3a698e72f6294a006dc6315",
+      "materials": [
+        "expanse04_hero_pdc_0_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_0_barrel_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_1_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_1_base.mesh",
+      "sha256": "3e02eb440eb408b95f180c547d57e3a0a8793195c1525a0b240ad0ed902a6ef2",
+      "materials": [
+        "expanse04_hero_pdc_1_base_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_1_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_1_barrel.mesh",
+      "sha256": "b268f9b299207bc0f936f59a0f6dad4f0518cc15aa7d4db9ca90d7528f7fd2f4",
+      "materials": [
+        "expanse04_hero_pdc_1_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_1_barrel_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_2_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_2_base.mesh",
+      "sha256": "1b97845aa0330e008ee488ec40f8f1a9a52a8be4a5c3b3fe2572c4e9f83a36e8",
+      "materials": [
+        "expanse04_hero_pdc_2_base_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_2_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_2_barrel.mesh",
+      "sha256": "e49dc620d285307f48e9af7fb1d8fb5829e82e02a5c95207fa3ddc060c541fe8",
+      "materials": [
+        "expanse04_hero_pdc_2_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_2_barrel_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_3_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_3_base.mesh",
+      "sha256": "e5aa0e6340b2b139c4cc89b69d379cb33fa44e41b4545b6fc98c26e13fa72db9",
+      "materials": [
+        "expanse04_hero_pdc_3_base_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_3_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_3_barrel.mesh",
+      "sha256": "a4addbf4c22b3f29bd9416bd7bf1d2a663ad0537ec7b9b37601cf19c95d74c4b",
+      "materials": [
+        "expanse04_hero_pdc_3_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_3_barrel_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_4_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_4_base.mesh",
+      "sha256": "0c70370542e525ac996823691bae2d3a37331b8a828e41f29d6d187cfe4cf072",
+      "materials": [
+        "expanse04_hero_pdc_4_base_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_4_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_4_barrel.mesh",
+      "sha256": "a54c76083efb9037a0b644e8128636e58d310f7d60626ccbee35d44ca8cdb211",
+      "materials": [
+        "expanse04_hero_pdc_4_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_4_barrel_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_5_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_5_base.mesh",
+      "sha256": "d6d2ccbab9e6455e4f100cf1a0609d638e15ad8036a99b9a70fdd857b84f9d55",
+      "materials": [
+        "expanse04_hero_pdc_5_base_expanse03_hero_mat_1"
+      ]
+    },
+    {
+      "id": "expanse04_hero_pdc_5_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_5_barrel.mesh",
+      "sha256": "43b33990cf192b17f4ec9a36aec4a33c5207aadf8d64fc37edaf8a95b4ba57bc",
+      "materials": [
+        "expanse04_hero_pdc_5_barrel_expanse03_hero_mat_0",
+        "expanse04_hero_pdc_5_barrel_expanse03_hero_mat_1"
+      ]
+    }
+  ],
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game",
+  "rigs": [
+    {
+      "index": 0,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_0",
+        "mesh_point": "child.expanse04_hero_pdc_0_base",
+        "weapon_position": [
+          -14.913393920144916,
+          -12.864521905610982,
+          4.7757435004340305
+        ],
+        "forward": [
+          1.2325250682012023e-07,
+          3.7636625193760856e-08,
+          0.9999999999999918
+        ],
+        "up": [
+          -0.9833953045935435,
+          -0.1814763756067317,
+          1.280360948165237e-07
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.18147637560673502,
+          -0.9833953045935435,
+          1.2325250682012023e-07
+        ],
+        [
+          0.9833953045935512,
+          -0.1814763756067317,
+          3.7636625193760856e-08
+        ],
+        [
+          -1.4644262274132095e-08,
+          1.280360948165237e-07,
+          0.9999999999999918
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -14.913393920144916,
+        -12.864521905610982,
+        4.7757435004340305
+      ],
+      "pitch_pivot_hull": [
+        -16.61263844335775,
+        -13.178101537221803,
+        4.7757437216722565
+      ],
+      "muzzle_hull": [
+        -16.380494159901062,
+        -13.207519185164895,
+        10.55284412383056
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_0_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_0_barrel",
+        "barrel_position": [
+          -8.683666631308258e-16,
+          1.727936380492649,
+          -2.882488765720078e-16
+        ],
+        "muzzle_positions": [
+          [
+            -0.0710579646403381,
+            -0.222950250534577,
+            5.777100429663441
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_0_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_0_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_0_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_0_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        119,
+        120,
+        123,
+        126,
+        129,
+        132,
+        149,
+        150
+      ],
+      "fixed_source_housing_node": 111,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 1,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_1",
+        "mesh_point": "child.expanse04_hero_pdc_1_base",
+        "weapon_position": [
+          14.937025303743535,
+          -6.960951749963981,
+          4.7742760516634695
+        ],
+        "forward": [
+          -4.249505194301774e-08,
+          -4.566409867950381e-07,
+          0.9999999999998949
+        ],
+        "up": [
+          0.9784598114504114,
+          0.20643739335790617,
+          1.3584747552610457e-07
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.2064373933579465,
+          0.9784598114504114,
+          -4.249505194301774e-08
+        ],
+        [
+          -0.9784598114503142,
+          0.20643739335790617,
+          -4.566409867950381e-07
+        ],
+        [
+          -4.3803228608627734e-07,
+          1.3584747552610457e-07,
+          0.9999999999998949
+        ]
+      ],
+      "yaw_pivot_hull": [
+        14.937025303743535,
+        -6.960951749963981,
+        4.7742760516634695
+      ],
+      "pitch_pivot_hull": [
+        16.64539269812184,
+        -6.60051700582225,
+        4.774276288849908
+      ],
+      "muzzle_hull": [
+        16.412352021850403,
+        -6.570687000690489,
+        10.55398828938169
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_1_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_1_barrel",
+        "barrel_position": [
+          -4.1043144794368666e-16,
+          1.7459760476477004,
+          8.78144174669655e-17
+        ],
+        "muzzle_positions": [
+          [
+            -0.07729830265309386,
+            -0.22186212250228743,
+            5.779711996812647
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_1_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_1_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_1_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_1_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        182,
+        183,
+        186,
+        189,
+        192,
+        195,
+        209,
+        210
+      ],
+      "fixed_source_housing_node": 174,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 2,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_2",
+        "mesh_point": "child.expanse04_hero_pdc_2_base",
+        "weapon_position": [
+          9.381905658056311,
+          -8.871120800747791,
+          31.113955681220062
+        ],
+        "forward": [
+          -0.2608211919502971,
+          -0.06952492058021265,
+          0.9628803618560001
+        ],
+        "up": [
+          0.9566778881586233,
+          0.11505865675781111,
+          0.2674489181384828
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.1293820858464683,
+          0.9566778881586233,
+          -0.2608211919502971
+        ],
+        [
+          -0.9909226967445058,
+          0.11505865675781111,
+          -0.06952492058021265
+        ],
+        [
+          -0.036503218195301446,
+          0.2674489181384828,
+          0.9628803618560001
+        ]
+      ],
+      "yaw_pivot_hull": [
+        9.381905658056311,
+        -8.871120800747791,
+        31.113955681220062
+      ],
+      "pitch_pivot_hull": [
+        10.965100621816926,
+        -8.680711585513766,
+        31.556553744268285
+      ],
+      "muzzle_hull": [
+        9.236339067834102,
+        -9.036713665745712,
+        36.966753358310484
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_2_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_2_barrel",
+        "barrel_position": [
+          -9.51005733714221e-17,
+          1.6548882161454446,
+          3.3355702575159786e-16
+        ],
+        "muzzle_positions": [
+          [
+            -0.06838993138690422,
+            -0.24787704005975936,
+            5.685023627544309
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_2_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_2_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_2_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_2_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        220,
+        221,
+        224,
+        227,
+        230,
+        233,
+        247,
+        248
+      ],
+      "fixed_source_housing_node": 212,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 3,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_3",
+        "mesh_point": "child.expanse04_hero_pdc_3_base",
+        "weapon_position": [
+          -8.044827034152654,
+          -13.472634335094192,
+          33.99375254259143
+        ],
+        "forward": [
+          -0.260820985704161,
+          -0.06952454484695147,
+          -0.9628804448529081
+        ],
+        "up": [
+          -0.8844886069266843,
+          -0.3824691623260585,
+          0.2672026273944481
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.38684921821454293,
+          -0.8844886069266843,
+          -0.260820985704161
+        ],
+        [
+          -0.9213488359646564,
+          -0.3824691623260585,
+          -0.06952454484695147
+        ],
+        [
+          -0.03826231610043544,
+          0.2672026273944481,
+          -0.9628804448529081
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -8.044827034152654,
+        -13.472634335094192,
+        33.99375254259143
+      ],
+      "pitch_pivot_hull": [
+        -9.444815660556312,
+        -14.078015199260598,
+        34.41668692113274
+      ],
+      "muzzle_hull": [
+        -10.770145060090883,
+        -14.389688384123673,
+        28.843890010104506
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_3_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_3_barrel",
+        "barrel_position": [
+          4.808604662032654e-16,
+          1.5828226790486,
+          -1.2686542855705798e-15
+        ],
+        "muzzle_positions": [
+          [
+            -0.01231479903841471,
+            -0.19762184031502128,
+            5.733279825453691
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_3_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_3_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_3_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_3_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        258,
+        259,
+        262,
+        265,
+        268,
+        271,
+        285,
+        286
+      ],
+      "fixed_source_housing_node": 250,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 4,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_4",
+        "mesh_point": "child.expanse04_hero_pdc_4_base",
+        "weapon_position": [
+          -2.133346346743259,
+          1.8821171283567857,
+          -20.67922844340654
+        ],
+        "forward": [
+          6.984037414668886e-08,
+          4.853130266260959e-08,
+          0.9999999999999964
+        ],
+        "up": [
+          -0.17511199835700028,
+          0.984548519897022,
+          -3.5551534722319545e-08
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.9845485198970202,
+          -0.17511199835700028,
+          6.984037414668886e-08
+        ],
+        [
+          0.1751119983569972,
+          0.984548519897022,
+          4.853130266260959e-08
+        ],
+        [
+          -7.725965038729473e-08,
+          -3.5551534722319545e-08,
+          0.9999999999999964
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -2.133346346743259,
+        1.8821171283567857,
+        -20.67922844340654
+      ],
+      "pitch_pivot_hull": [
+        -2.435174351577822,
+        3.5791128694339465,
+        -20.679228504684172
+      ],
+      "muzzle_hull": [
+        -2.464889886268927,
+        3.3463547568912766,
+        -14.898686505172906
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_4_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_4_barrel",
+        "barrel_position": [
+          1.616297250094146e-16,
+          1.7236283502357574,
+          1.284188377811563e-15
+        ],
+        "muzzle_positions": [
+          [
+            -0.07001557052187979,
+            -0.2239583140430435,
+            5.7805419861398475
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_4_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_4_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_4_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_4_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        296,
+        297,
+        300,
+        303,
+        306,
+        309,
+        323,
+        324
+      ],
+      "fixed_source_housing_node": 288,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    },
+    {
+      "index": 5,
+      "mount": {
+        "weapon": "expanse_rocinante04_pdc_5",
+        "mesh_point": "child.expanse04_hero_pdc_5_base",
+        "weapon_position": [
+          2.142731286323029,
+          -21.659671213880497,
+          -20.677965475920647
+        ],
+        "forward": [
+          1.7936629742289392e-07,
+          -5.6809603959901305e-08,
+          0.9999999999999823
+        ],
+        "up": [
+          0.18244709341432422,
+          -0.9832156722228633,
+          -8.858095256744678e-08
+        ],
+        "yaw_arc": {
+          "min_angle": -90.0,
+          "max_angle": 90.0
+        },
+        "pitch_arc": {
+          "min_angle": -65.0,
+          "max_angle": 10.0
+        }
+      },
+      "basis_columns": [
+        [
+          -0.983215672222851,
+          0.18244709341432422,
+          1.7936629742289392e-07
+        ],
+        [
+          -0.18244709341433687,
+          -0.9832156722228633,
+          -5.6809603959901305e-08
+        ],
+        [
+          1.659910075742738e-07,
+          -8.858095256744678e-08,
+          0.9999999999999823
+        ]
+      ],
+      "yaw_pivot_hull": [
+        2.142731286323029,
+        -21.659671213880497,
+        -20.677965475920647
+      ],
+      "pitch_pivot_hull": [
+        2.4581169767566604,
+        -23.359299022830996,
+        -20.677965629045392
+      ],
+      "muzzle_hull": [
+        2.4877008182942864,
+        -23.127328380147276,
+        -14.898480294657498
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_5_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_5_barrel",
+        "barrel_position": [
+          -9.890396574033874e-17,
+          1.7286419012300367,
+          1.3751331113986284e-15
+        ],
+        "muzzle_positions": [
+          [
+            -0.0714087068168577,
+            -0.22268019743398987,
+            5.779485326515976
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_5_base",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_5_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse04_hero_pdc_5_barrel",
+          "mesh_definition": {
+            "mesh": "expanse04_hero_pdc_5_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "source_moving_nodes": [
+        334,
+        335,
+        338,
+        341,
+        344,
+        347,
+        361,
+        362
+      ],
+      "fixed_source_housing_node": 326,
+      "pivot_evidence": "Pitch at deployed actual cannon2 mounting-block bounds center; yaw on matching deployed pdc1 outer surface. Added socket/shaft/yoke support connects both. These are authored aiming joints, not claimed source deployment joints.",
+      "runtime": "NOT RUN; arc/occlusion/clearance require workstation inspection"
+    }
+  ],
+  "equipment": {
+    "pdc_mounts": [
+      {
+        "index": 0,
+        "source_housing_node": 111,
+        "source_cannon_node": 117,
+        "source_frame_node": 140,
+        "weapon_position": [
+          -16.380494159901062,
+          -13.207519185164895,
+          10.55284412383056
+        ],
+        "muzzle_hull": [
+          -16.380494159901062,
+          -13.207519185164895,
+          10.55284412383056
+        ],
+        "forward": [
+          1.2325250682012023e-07,
+          3.7636625193760856e-08,
+          0.9999999999999918
+        ],
+        "up": [
+          -1.2073765683977814e-09,
+          0.9999999999999993,
+          -3.763662505033198e-08
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 9.995140093366217e-07,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.0"
+      },
+      {
+        "index": 1,
+        "source_housing_node": 174,
+        "source_cannon_node": 180,
+        "source_frame_node": 200,
+        "weapon_position": [
+          16.412352021850403,
+          -6.570687000690489,
+          10.55398828938169
+        ],
+        "muzzle_hull": [
+          16.412352021850403,
+          -6.570687000690489,
+          10.55398828938169
+        ],
+        "forward": [
+          -4.249505194301774e-08,
+          -4.566409867950381e-07,
+          0.9999999999998949
+        ],
+        "up": [
+          4.16258802557875e-10,
+          0.9999999999998958,
+          4.5664098681336055e-07
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 9.924241588521454e-07,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.1"
+      },
+      {
+        "index": 2,
+        "source_housing_node": 212,
+        "source_cannon_node": 218,
+        "source_frame_node": 238,
+        "weapon_position": [
+          9.236339067834102,
+          -9.036713665745712,
+          36.966753358310484
+        ],
+        "muzzle_hull": [
+          9.236339067834102,
+          -9.036713665745712,
+          36.966753358310484
+        ],
+        "forward": [
+          -0.2608211919502971,
+          -0.06952492058021265,
+          0.9628803618560001
+        ],
+        "up": [
+          -0.01570104888135263,
+          0.9975769315933626,
+          0.06777715409189787
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 1.1266558885836275e-06,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.2"
+      },
+      {
+        "index": 3,
+        "source_housing_node": 250,
+        "source_cannon_node": 256,
+        "source_frame_node": 276,
+        "weapon_position": [
+          -10.770145060090883,
+          -14.389688384123673,
+          28.843890010104506
+        ],
+        "muzzle_hull": [
+          -10.770145060090883,
+          -14.389688384123673,
+          28.843890010104506
+        ],
+        "forward": [
+          -0.260820985704161,
+          -0.06952454484695147,
+          -0.9628804448529081
+        ],
+        "up": [
+          -0.020657099059228738,
+          0.9975769491189153,
+          -0.06643428967825643
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 1.1593594884118374e-06,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.3"
+      },
+      {
+        "index": 4,
+        "source_housing_node": 288,
+        "source_cannon_node": 294,
+        "source_frame_node": 314,
+        "weapon_position": [
+          -2.464889886268927,
+          3.3463547568912766,
+          -14.898686505172906
+        ],
+        "muzzle_hull": [
+          -2.464889886268927,
+          3.3463547568912766,
+          -14.898686505172906
+        ],
+        "forward": [
+          6.984037414668886e-08,
+          4.853130266260959e-08,
+          0.9999999999999964
+        ],
+        "up": [
+          -6.841542394386554e-10,
+          0.9999999999999989,
+          -4.853130261781974e-08
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 9.944643064585534e-07,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.4"
+      },
+      {
+        "index": 5,
+        "source_housing_node": 326,
+        "source_cannon_node": 332,
+        "source_frame_node": 352,
+        "weapon_position": [
+          2.4877008182942864,
+          -23.127328380147276,
+          -14.898480294657498
+        ],
+        "muzzle_hull": [
+          2.4877008182942864,
+          -23.127328380147276,
+          -14.898480294657498
+        ],
+        "forward": [
+          1.7936629742289392e-07,
+          -5.6809603959901305e-08,
+          0.9999999999999823
+        ],
+        "up": [
+          -1.7570480479249528e-09,
+          0.9999999999999983,
+          5.680960427354441e-08
+        ],
+        "tip_plane_unique_vertices": 210,
+        "tip_plane_flatness": 9.947047878711146e-07,
+        "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+        "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+        "mesh_point": "weapon.pdc.5"
+      }
+    ],
+    "railgun": {
+      "position": [
+        0.21945698964029473,
+        -19.960184733597316,
+        40.02465341126872
+      ],
+      "forward": [
+        0.005938029232905325,
+        -0.00979527921539185,
+        0.9999343940048876
+      ],
+      "up": [
+        0.0,
+        0.9999520234100465,
+        0.009795451911667693
+      ],
+      "mesh_point": "weapon.rail.0",
+      "source": "CUSTOM prototype keel railgun added to hero derivative; not a relabelled source antenna",
+      "mount_hull_surface_samples": [
+        -18.436335678959942,
+        -18.598627067468637
+      ]
+    },
+    "torpedo_ports": [
+      {
+        "name": "dorsal",
+        "position": [
+          0.05913020035185099,
+          3.4224937843945042,
+          13.252888913066995
+        ],
+        "forward": [
+          0.005938029232905325,
+          -0.00979527921539185,
+          0.9999343940048876
+        ],
+        "up": [
+          0.0,
+          0.9999520234100465,
+          0.009795451911667693
+        ],
+        "source": "CUSTOM prototype launch fitting on measured hero forebody surface",
+        "hull_surface_y": 2.7206880976112853,
+        "nearest_PDC_muzzle_distance": 19.24114424397103
+      },
+      {
+        "name": "ventral",
+        "position": [
+          3.0590773095988557,
+          -22.787233660407814,
+          12.978325527949856
+        ],
+        "forward": [
+          0.005938029232905325,
+          -0.00979527921539185,
+          0.9999343940048876
+        ],
+        "up": [
+          0.0,
+          0.9999520234100465,
+          0.009795451911667693
+        ],
+        "source": "CUSTOM prototype launch fitting on measured hero forebody surface",
+        "hull_surface_y": -21.89047136628024,
+        "nearest_PDC_muzzle_distance": 21.04304595937091
+      }
+    ],
+    "exhaust": {
+      "position": [
+        0.016193465191928606,
+        -9.888953050343192,
+        -49.32896702740548
+      ],
+      "opening_center": [
+        0.016193465191928557,
+        -9.888953050343192,
+        -49.22896702740549
+      ],
+      "forward": [
+        -5.920368176971442e-19,
+        2.6815299454209607e-18,
+        -1.0
+      ],
+      "up": [
+        6.2895628253759e-22,
+        1.0,
+        -2.6815299454209607e-18
+      ],
+      "source_nodes": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "basis": "Full aftmost s3_3c authored axial plane; inner/outer rim separated by largest radial gap, inner circumference least-squares circle fitted. 0.1 outward clearance.",
+      "rim_unique_vertices": 152,
+      "inner_rim_vertices": 64,
+      "opening_radius": 8.748105557241582,
+      "circle_max_radial_residual": 0.006216378283321333,
+      "maximum_angular_gap_radians": 0.5195953673592232,
+      "plane_flatness": 9.829721108189915e-07,
+      "runtime": "NOT RUN"
+    },
+    "runtime": "NOT RUN",
+    "custom_fittings_not_screen_accuracy_claim": true
+  },
+  "normalization": {
+    "old_game_to_new_game_rotation": [
+      [
+        0.9999823697490017,
+        0.0,
+        0.005938029232905325
+      ],
+      [
+        5.8165679801001125e-05,
+        0.9999520234100465,
+        -0.00979527921539185
+      ],
+      [
+        -0.0059377443465116865,
+        0.009795451911667693,
+        0.9999343940048876
+      ]
+    ],
+    "pivot": [
+      0.0,
+      -10.112395,
+      3.162117
+    ],
+    "source_to_game_rotation": [
+      [
+        0.39486179986706543,
+        -0.0007361836517236977,
+        -0.918740233711016
+      ],
+      [
+        0.105254696726281,
+        0.9934517854831294,
+        0.04444095788167666
+      ],
+      [
+        0.912691408868737,
+        -0.11424976128646083,
+        0.3923536468840153
+      ]
+    ],
+    "source_rotated_center": [
+      0.8799434430275922,
+      -0.14603885889677126,
+      -0.2937967509940494
+    ],
+    "scale": 208.6639007429145,
+    "target_center": [
+      0.0,
+      -10.112395,
+      3.162117
+    ],
+    "equation": "new_position = R @ (old_position - target_center) + target_center",
+    "geometry_change": "Uniform rigid normalization only; original source per-segment deployed poses retained. Corrective simplification max error0.005 vs0.04, same pinned library."
+  },
+  "triangle_total": 92067,
+  "validation": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/output-validation.json",
+  "independent_checks": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/independent-geometry-checks.json",
+  "unchanged_gameplay": "Main integrator preserves unit physics and rail2500 damage/1000 penetration/10s. This worker authors geometry only."
+}

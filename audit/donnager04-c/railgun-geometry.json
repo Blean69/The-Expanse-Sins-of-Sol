@@ -1,0 +1,764 @@
+{
+  "source_nodes": [
+    33,
+    34,
+    35,
+    36
+  ],
+  "triangles": 126863,
+  "weld_rounding_world_units": 0.0001,
+  "connected_components": 874,
+  "top_components": [
+    {
+      "component": 4,
+      "triangles": 12536,
+      "world_bounds": {
+        "min": [
+          -129.5114,
+          22.5285,
+          475.5628
+        ],
+        "max": [
+          -105.5833,
+          62.9109,
+          499.491
+        ],
+        "dimensions": [
+          23.928100000000015,
+          40.3824,
+          23.928200000000004
+        ]
+      }
+    },
+    {
+      "component": 437,
+      "triangles": 12536,
+      "world_bounds": {
+        "min": [
+          105.5833,
+          22.5286,
+          475.5628
+        ],
+        "max": [
+          129.5114,
+          62.911,
+          499.491
+        ],
+        "dimensions": [
+          23.928100000000015,
+          40.382400000000004,
+          23.928200000000004
+        ]
+      }
+    },
+    {
+      "component": 452,
+      "triangles": 2478,
+      "world_bounds": {
+        "min": [
+          107.4337,
+          26.3365,
+          477.4133
+        ],
+        "max": [
+          127.6609,
+          28.6465,
+          497.6405
+        ],
+        "dimensions": [
+          20.227199999999996,
+          2.3099999999999987,
+          20.227199999999982
+        ]
+      }
+    },
+    {
+      "component": 453,
+      "triangles": 2478,
+      "world_bounds": {
+        "min": [
+          107.4337,
+          56.7931,
+          477.4133
+        ],
+        "max": [
+          127.6609,
+          59.1031,
+          497.6405
+        ],
+        "dimensions": [
+          20.227199999999996,
+          2.309999999999995,
+          20.227199999999982
+        ]
+      }
+    },
+    {
+      "component": 7,
+      "triangles": 2478,
+      "world_bounds": {
+        "min": [
+          -127.6609,
+          26.3364,
+          477.4133
+        ],
+        "max": [
+          -107.4337,
+          28.6464,
+          497.6405
+        ],
+        "dimensions": [
+          20.227199999999996,
+          2.3099999999999987,
+          20.227199999999982
+        ]
+      }
+    },
+    {
+      "component": 8,
+      "triangles": 2478,
+      "world_bounds": {
+        "min": [
+          -127.6609,
+          56.793,
+          477.4133
+        ],
+        "max": [
+          -107.4337,
+          59.103,
+          497.6405
+        ],
+        "dimensions": [
+          20.227199999999996,
+          2.3100000000000023,
+          20.227199999999982
+        ]
+      }
+    },
+    {
+      "component": 860,
+      "triangles": 1268,
+      "world_bounds": {
+        "min": [
+          123.9583,
+          36.3849,
+          462.776
+        ],
+        "max": [
+          126.2551,
+          42.1447,
+          475.3507
+        ],
+        "dimensions": [
+          2.2968000000000046,
+          5.7597999999999985,
+          12.574700000000007
+        ]
+      }
+    },
+    {
+      "component": 861,
+      "triangles": 1268,
+      "world_bounds": {
+        "min": [
+          123.9583,
+          43.2949,
+          462.776
+        ],
+        "max": [
+          126.2551,
+          49.0547,
+          475.3507
+        ],
+        "dimensions": [
+          2.2968000000000046,
+          5.7597999999999985,
+          12.574700000000007
+        ]
+      }
+    },
+    {
+      "component": 17,
+      "triangles": 1268,
+      "world_bounds": {
+        "min": [
+          -126.2551,
+          43.2948,
+          462.776
+        ],
+        "max": [
+          -123.9583,
+          49.0546,
+          475.3507
+        ],
+        "dimensions": [
+          2.2968000000000046,
+          5.7597999999999985,
+          12.574700000000007
+        ]
+      }
+    },
+    {
+      "component": 25,
+      "triangles": 1268,
+      "world_bounds": {
+        "min": [
+          -125.9958,
+          43.2948,
+          443.1693
+        ],
+        "max": [
+          -123.6925,
+          49.0575,
+          456.0909
+        ],
+        "dimensions": [
+          2.3033000000000072,
+          5.762699999999995,
+          12.921599999999955
+        ]
+      }
+    },
+    {
+      "component": 855,
+      "triangles": 1268,
+      "world_bounds": {
+        "min": [
+          123.6925,
+          36.382,
+          443.1693
+        ],
+        "max": [
+          125.9958,
+          42.1447,
+          456.0909
+        ],
+        "dimensions": [
+          2.3033000000000072,
+          5.762700000000002,
+          12.921599999999955
+        ]
+      }
+    },
+    {
+      "component": 856,
+      "triangles": 1268,
+      "world_bounds": {
+        "min": [
+          123.6925,
+          43.2949,
+          443.1693
+        ],
+        "max": [
+          125.9958,
+          49.0576,
+          456.0909
+        ],
+        "dimensions": [
+          2.3033000000000072,
+          5.762700000000002,
+          12.921599999999955
+        ]
+      }
+    },
+    {
+      "component": 16,
+      "triangles": 1268,
+      "world_bounds": {
+        "min": [
+          -126.2551,
+          36.3848,
+          462.776
+        ],
+        "max": [
+          -123.9583,
+          42.1446,
+          475.3507
+        ],
+        "dimensions": [
+          2.2968000000000046,
+          5.7597999999999985,
+          12.574700000000007
+        ]
+      }
+    },
+    {
+      "component": 24,
+      "triangles": 1268,
+      "world_bounds": {
+        "min": [
+          -125.9958,
+          36.3819,
+          443.1693
+        ],
+        "max": [
+          -123.6925,
+          42.1446,
+          456.0909
+        ],
+        "dimensions": [
+          2.3033000000000072,
+          5.762699999999995,
+          12.921599999999955
+        ]
+      }
+    },
+    {
+      "component": 155,
+      "triangles": 1244,
+      "world_bounds": {
+        "min": [
+          -123.3554,
+          35.2654,
+          493.7018
+        ],
+        "max": [
+          -107.8614,
+          50.1739,
+          528.6148
+        ],
+        "dimensions": [
+          15.494,
+          14.908500000000004,
+          34.912999999999954
+        ]
+      }
+    },
+    {
+      "component": 454,
+      "triangles": 1244,
+      "world_bounds": {
+        "min": [
+          107.8614,
+          35.2656,
+          493.7018
+        ],
+        "max": [
+          123.3554,
+          50.174,
+          528.6148
+        ],
+        "dimensions": [
+          15.494,
+          14.9084,
+          34.912999999999954
+        ]
+      }
+    },
+    {
+      "component": 730,
+      "triangles": 682,
+      "world_bounds": {
+        "min": [
+          119.4172,
+          35.534,
+          435.6707
+        ],
+        "max": [
+          126.2616,
+          49.9056,
+          483.2201
+        ],
+        "dimensions": [
+          6.844400000000007,
+          14.3716,
+          47.54939999999999
+        ]
+      }
+    },
+    {
+      "component": 15,
+      "triangles": 682,
+      "world_bounds": {
+        "min": [
+          -126.2616,
+          35.5339,
+          435.6707
+        ],
+        "max": [
+          -119.4172,
+          49.9055,
+          483.2201
+        ],
+        "dimensions": [
+          6.844400000000007,
+          14.3716,
+          47.54939999999999
+        ]
+      }
+    },
+    {
+      "component": 147,
+      "triangles": 570,
+      "world_bounds": {
+        "min": [
+          -123.7606,
+          28.8119,
+          560.5864
+        ],
+        "max": [
+          -111.9895,
+          35.7035,
+          639.7639
+        ],
+        "dimensions": [
+          11.77109999999999,
+          6.891599999999997,
+          79.17750000000001
+        ]
+      }
+    },
+    {
+      "component": 148,
+      "triangles": 570,
+      "world_bounds": {
+        "min": [
+          -123.7606,
+          49.7358,
+          560.5864
+        ],
+        "max": [
+          -111.9895,
+          56.6274,
+          639.7639
+        ],
+        "dimensions": [
+          11.77109999999999,
+          6.891600000000004,
+          79.17750000000001
+        ]
+      }
+    },
+    {
+      "component": 534,
+      "triangles": 570,
+      "world_bounds": {
+        "min": [
+          111.9895,
+          49.7359,
+          560.5864
+        ],
+        "max": [
+          123.7606,
+          56.6275,
+          639.7639
+        ],
+        "dimensions": [
+          11.77109999999999,
+          6.891599999999997,
+          79.17750000000001
+        ]
+      }
+    },
+    {
+      "component": 533,
+      "triangles": 570,
+      "world_bounds": {
+        "min": [
+          111.9895,
+          28.8121,
+          560.5864
+        ],
+        "max": [
+          123.7606,
+          35.7037,
+          639.7639
+        ],
+        "dimensions": [
+          11.77109999999999,
+          6.891599999999997,
+          79.17750000000001
+        ]
+      }
+    },
+    {
+      "component": 177,
+      "triangles": 538,
+      "world_bounds": {
+        "min": [
+          -122.3415,
+          31.4319,
+          600.2111
+        ],
+        "max": [
+          -114.0808,
+          38.4277,
+          648.5817
+        ],
+        "dimensions": [
+          8.2607,
+          6.995800000000003,
+          48.37059999999997
+        ]
+      }
+    },
+    {
+      "component": 178,
+      "triangles": 538,
+      "world_bounds": {
+        "min": [
+          -122.3415,
+          47.0116,
+          600.2111
+        ],
+        "max": [
+          -114.0808,
+          54.0075,
+          648.5817
+        ],
+        "dimensions": [
+          8.2607,
+          6.995899999999999,
+          48.37059999999997
+        ]
+      }
+    },
+    {
+      "component": 604,
+      "triangles": 538,
+      "world_bounds": {
+        "min": [
+          114.0808,
+          31.432,
+          600.2111
+        ],
+        "max": [
+          122.3415,
+          38.4278,
+          648.5817
+        ],
+        "dimensions": [
+          8.2607,
+          6.995799999999999,
+          48.37059999999997
+        ]
+      }
+    },
+    {
+      "component": 606,
+      "triangles": 538,
+      "world_bounds": {
+        "min": [
+          114.0808,
+          47.0118,
+          600.2111
+        ],
+        "max": [
+          122.3415,
+          54.0076,
+          648.5817
+        ],
+        "dimensions": [
+          8.2607,
+          6.995799999999996,
+          48.37059999999997
+        ]
+      }
+    },
+    {
+      "component": 22,
+      "triangles": 492,
+      "world_bounds": {
+        "min": [
+          -126.0979,
+          27.0209,
+          497.7615
+        ],
+        "max": [
+          -122.9527,
+          36.5168,
+          519.195
+        ],
+        "dimensions": [
+          3.1452000000000027,
+          9.495900000000002,
+          21.433500000000038
+        ]
+      }
+    },
+    {
+      "component": 839,
+      "triangles": 492,
+      "world_bounds": {
+        "min": [
+          122.9528,
+          48.9227,
+          497.7615
+        ],
+        "max": [
+          126.0979,
+          58.4186,
+          519.195
+        ],
+        "dimensions": [
+          3.1450999999999993,
+          9.495899999999999,
+          21.433500000000038
+        ]
+      }
+    },
+    {
+      "component": 838,
+      "triangles": 492,
+      "world_bounds": {
+        "min": [
+          122.9528,
+          27.021,
+          497.7615
+        ],
+        "max": [
+          126.0979,
+          36.5169,
+          519.195
+        ],
+        "dimensions": [
+          3.1450999999999993,
+          9.495899999999999,
+          21.433500000000038
+        ]
+      }
+    },
+    {
+      "component": 23,
+      "triangles": 492,
+      "world_bounds": {
+        "min": [
+          -126.0979,
+          48.9226,
+          497.7615
+        ],
+        "max": [
+          -122.9528,
+          58.4185,
+          519.195
+        ],
+        "dimensions": [
+          3.1450999999999993,
+          9.495899999999999,
+          21.433500000000038
+        ]
+      }
+    }
+  ],
+  "sides": [
+    {
+      "side": "negative_X",
+      "triangles": 63432,
+      "world_bounds": {
+        "min": [
+          -129.82411980628967,
+          22.52850803387271,
+          433.5310334459858
+        ],
+        "max": [
+          -105.583256483078,
+          62.91086646568935,
+          649.1971509041441
+        ],
+        "dimensions": [
+          24.24086332321167,
+          40.38235843181664,
+          215.66611745815828
+        ]
+      },
+      "preview_bounds": {
+        "min": [
+          -10.965790051238406,
+          -1.7054869491914852,
+          13.414654470824658
+        ],
+        "max": [
+          -8.91824823896617,
+          1.7054710791941978,
+          31.63122485852853
+        ],
+        "dimensions": [
+          2.047541812272236,
+          3.410958028385683,
+          18.21657038770387
+        ]
+      },
+      "estimated_drum_center_world": [
+        -117.54735,
+        42.7197,
+        487.52689999999996
+      ],
+      "estimated_drum_center_preview": [
+        -9.928813803203976,
+        -6.8580317836840655e-06,
+        17.975498405510397
+      ],
+      "pivot_basis": "Measured bounds center of symmetric main drum component (12,536 triangles), not an authored pivot",
+      "provisional_axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_basis": "Drum is approximately circular in XZ, with axial span along Y; geometric inference only",
+      "max_forward_geometry_world": 649.1971509041441,
+      "muzzle_status": "Forwardmost face is not validated as the bore; no game muzzle coordinate emitted",
+      "motion_status": "Whole assembly can be selected by sign(X), but fixed cradle versus moving barrel is not separated. Limited rotation, hull sweep and gimbal identity NOT VERIFIED.",
+      "editable_candidate": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c/rail-assembly-preview/donnager04_rail_negative_X.gltf"
+    },
+    {
+      "side": "positive_X",
+      "triangles": 63431,
+      "world_bounds": {
+        "min": [
+          105.58326840400696,
+          22.52860936176883,
+          433.5310334459684
+        ],
+        "max": [
+          129.82413172721863,
+          62.91096779358547,
+          649.1971509041263
+        ],
+        "dimensions": [
+          24.24086332321167,
+          40.38235843181664,
+          215.66611745815788
+        ]
+      },
+      "preview_bounds": {
+        "min": [
+          8.918257140135461,
+          -1.7054783903748587,
+          13.414654470823184
+        ],
+        "max": [
+          10.965798952407697,
+          1.7054796380108244,
+          31.63122485852702
+        ],
+        "dimensions": [
+          2.047541812272236,
+          3.410958028385683,
+          18.216570387703836
+        ]
+      },
+      "estimated_drum_center_world": [
+        117.54735,
+        42.7198,
+        487.52689999999996
+      ],
+      "estimated_drum_center_preview": [
+        9.928821697453666,
+        1.5886220540697748e-06,
+        17.975498405510397
+      ],
+      "pivot_basis": "Measured bounds center of symmetric main drum component (12,536 triangles), not an authored pivot",
+      "provisional_axis_world": [
+        0,
+        1,
+        0
+      ],
+      "axis_basis": "Drum is approximately circular in XZ, with axial span along Y; geometric inference only",
+      "max_forward_geometry_world": 649.1971509041263,
+      "muzzle_status": "Forwardmost face is not validated as the bore; no game muzzle coordinate emitted",
+      "motion_status": "Whole assembly can be selected by sign(X), but fixed cradle versus moving barrel is not separated. Limited rotation, hull sweep and gimbal identity NOT VERIFIED.",
+      "editable_candidate": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c/rail-assembly-preview/donnager04_rail_positive_X.gltf"
+    }
+  ],
+  "rig": "Whole high-poly assemblies selected by side. Estimated drum center is not authored/validated. Fixed cradle vs moving barrel unresolved; no game mount output."
+}

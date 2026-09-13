@@ -1,0 +1,2659 @@
+{
+  "status": "PASS INDEPENDENT OFFLINE INTEGRATION",
+  "runtime": "NOT RUN",
+  "accepted09_preserved": true,
+  "shared_titan_limit": 1,
+  "single_coexisting_ability_set": [
+    {
+      "abilities": [
+        "expanse10_donnager_light_magazine",
+        "expanse10_donnager_heavy_magazine",
+        "expanse10_donnager_launch_corvette",
+        "expanse10_donnager_reactor",
+        "expanse10_donnager_marines",
+        "expanse10_donnager_reactor_breach"
+      ]
+    }
+  ],
+  "component_slots": 8,
+  "compatible_items": [
+    {
+      "id": "trader_flak_burst",
+      "type": "ship_component",
+      "sha256": "2729983ec7bf08d52ce45087fcf461e6e8b45892d40a9a98fa1de62c9d2f332a",
+      "ability": "trader_flak_burst_unit_item"
+    },
+    {
+      "id": "trader_beam_armor",
+      "type": "ship_component",
+      "sha256": "21f533d0fa16cd0cfc022130219dd151cb86ad70274dd071b13a6b61325f84c3",
+      "ability": "trader_beam_armor"
+    },
+    {
+      "id": "trader_missile_armor",
+      "type": "ship_component",
+      "sha256": "36c58bcf500f703caa78dcc55c363f7632bdd94359fed5c5de3ad3f1b79bf03a",
+      "ability": "trader_missile_armor"
+    },
+    {
+      "id": "trader_combat_repair_system",
+      "type": "ship_component",
+      "sha256": "756552afc019e4c85e7a704b4846ce529351a04c2f6ae4e8ec431f0bdd85f6e7",
+      "ability": "trader_combat_repair_system_unit_item"
+    },
+    {
+      "id": "trader_heavy_armor",
+      "type": "ship_component",
+      "sha256": "e7e9b7b6494961b6e2ab76085b3f7cb1d6bcfc7969a2c3af6d3610ddfce93e6f",
+      "ability": null
+    },
+    {
+      "id": "trader_antimatter_engine",
+      "type": "ship_component",
+      "sha256": "5404d0cd17f62072b1e04dd60378ebbcb457d4ae09c05af839110ef892152b78",
+      "ability": "trader_antimatter_engine_unit_item"
+    },
+    {
+      "id": "trader_rapid_autoloader",
+      "type": "ship_component",
+      "sha256": "848dea24a57f309c75708f8043cbdebf6c337e18ff6432d3d0e8e40488608573",
+      "ability": "trader_rapid_autoloader_unit_item"
+    },
+    {
+      "id": "trader_targeting_array",
+      "type": "ship_component",
+      "sha256": "cf5e9379d3867244768d68b6175387037530f4b03604489247f2eff613f43f7c",
+      "ability": "trader_targeting_array_unit_item"
+    },
+    {
+      "id": "trader_salvage_kit",
+      "type": "ship_component",
+      "sha256": "71e437df21b72faaf652eedd60b07972f9d8ef1f54b321af58ce9c18001eefc3",
+      "ability": "trader_salvage_kit_unit_item"
+    },
+    {
+      "id": "trader_radiation_bomb",
+      "type": "ship_component",
+      "sha256": "ba11f4bb39419cf541054634a7989a324cc2b5508acd93b324111cac4be4851b",
+      "ability": "trader_radiation_bomb_unit_item"
+    }
+  ],
+  "audio_files_verified": 40,
+  "ui_pngs_verified": 20,
+  "actions": {
+    "abilities": 6,
+    "buffs": 5,
+    "torpedoes": 3
+  },
+  "typed_actions": [
+    {
+      "ability": "expanse10_donnager_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse10_donnager_heavy_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse10_donnager_launch_corvette",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.action_data_source",
+      "reachable_buffs": [],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse10_donnager_reactor",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse10_donnager_marines",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse10_donnager_reactor_breach",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "reference_edges": [
+    {
+      "source": "Amun uniform overlay",
+      "reference": "uniforms/target_filter.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "Amun uniform overlay",
+      "reference": "uniforms/attack_target_type_group.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/attack_target_type_group.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "independent Donnager root",
+      "reference": "entities/expanse_donnager_battleship.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse_donnager_battleship.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_0.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_0.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_atlas_0_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_atlas_0_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_0_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_0_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_1.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_1.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_atlas_0_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_atlas_0_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_1_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_1_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_10.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_10.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_10.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_10_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_10_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_10.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_10_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_10_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_10.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_10.mesh_material",
+      "reference": "textures/expanse10_donnager_emissive_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_emissive_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_2.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_2.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_2.mesh_material",
+      "reference": "textures/expanse10_donnager_atlas_1_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_atlas_1_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_2.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_2_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_2_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_2.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_2.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_3.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_3.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_3.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_3_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_3_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_3.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_3_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_3_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_3.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_3.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_4.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_4.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_4.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_4_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_4_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_4.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_4_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_4_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_4.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_4.mesh_material",
+      "reference": "textures/expanse10_donnager_emissive_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_emissive_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_5.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_5.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_5.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_5_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_5_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_5.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_5_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_5_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_5.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_5.mesh_material",
+      "reference": "textures/expanse10_donnager_emissive_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_emissive_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_6.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_6.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_6.mesh_material",
+      "reference": "textures/expanse10_donnager_atlas_0_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_atlas_0_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_6.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_6_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_6_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_6.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_6.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_7.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_7.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_7.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_7_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_7_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_7.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_7_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_7_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_7.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_7.mesh_material",
+      "reference": "textures/expanse10_donnager_emissive_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_emissive_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_8.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_8.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_8.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_8_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_8_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_8.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_8_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_8_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_8.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_8.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "reference": "mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_9.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_9.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_9.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_9_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_9_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_9.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_9_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_9_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_9.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_9.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_pdc_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_pdc_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_pdc_base.mesh",
+      "reference": "mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_pdc_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_pdc_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_pdc_barrel.mesh",
+      "reference": "mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/mcrn_tachi_material_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/mcrn_tachi_material_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/mcrn_tachi_material_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "reference": "textures/mcrn_tachi_material_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/mcrn_tachi_material_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_rail_0.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_rail_0.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_rail_0.mesh",
+      "reference": "mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_0.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_0.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_atlas_0_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_atlas_0_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_0_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_0_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_rail_0.mesh",
+      "reference": "mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_1.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_1.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_atlas_0_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_atlas_0_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_1_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_1_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_rail_1.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_rail_1.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_rail_1.mesh",
+      "reference": "mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_0.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_0.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_atlas_0_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_atlas_0_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_0_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_0_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_0.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_rail_1.mesh",
+      "reference": "mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_1.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_1.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_atlas_0_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_atlas_0_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_mat_1_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_mat_1_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_flat_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_flat_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_1.mesh_material",
+      "reference": "textures/expanse10_donnager_dark_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse10_donnager_dark_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/expanse10_donnager_idle_plume.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/effects/expanse10_donnager_idle_plume.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/hyperspace_chargeup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_CHARGEUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/hyperspace_entry.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/hyperspace_entry.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/hyperspace_exit.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_EXIT.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_air_decompression.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_air_decompression.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_airdecompression.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_airdecompression.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_smoke_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_smoke_3.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_3.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/tec_damage_escaping_gas.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_escaping_gas.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_tech_escaping_gas.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_tech_escaping_gas.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_electricity.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_electricity_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/tec_damage_embers.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_embers.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_fire.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_fire.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_firedamage.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_firedamage.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_fire_pillar.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_fire_pillar.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_firepillar_damage.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_firepillar_damage.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/capitalship_levelup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/CAPITALSHIP_LEVELUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/expanse10_donnager_shield.shield_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/effects/expanse10_donnager_shield.shield_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/javelis_torpedo_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/javelis_torpedo_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_railgun.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_railgun.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_torpedo_cruiser_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_torpedo_cruiser_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_neutrontorp.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_neutrontorp.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/engine_techcapitalship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHCAPITALSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/hyperspace_travel.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_TRAVEL.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_railguns.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_railguns.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_bogies.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_bogies.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_attack.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_attack.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_contact.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_contact.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_hammers.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_hammers.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_hammers.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_hammers.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_bogies.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_bogies.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_hammers.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_hammers.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_contact.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_contact.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_course.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_course.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_orders_scared.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_orders_scared.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_standing_by.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_standing_by.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_reaction_mass.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_reaction_mass.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_reaction_mass_scared.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_reaction_mass_scared.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_cooldown.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_cooldown.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_armor.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_armor.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_retreat.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_retreat.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_retreat_scared.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_retreat_scared.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_juice.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_juice.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_crippled.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_crippled.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_crippled.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_crippled.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_duty.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_duty.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_reactor_scram.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_reactor_scram.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_construction.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_construction.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_destroyed.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_destroyed.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_destroyed.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_destroyed.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "death_sequences/trader_titan.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/trader_titan.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_0.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_0.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_1.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_1.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_2.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_2.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_3.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_3.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_4.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_4.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_5.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_5.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_6.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_6.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_7.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_7.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_8.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_8.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_9.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_9.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_10.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_10.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_11.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_11.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_12.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_12.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_13.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_13.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_14.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_14.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_pdc_15.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_pdc_15.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_rail_0.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_rail_0.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_rail_1.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_rail_1.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit",
+      "reference": "entities/expanse10_donnager_rail_0.weapon",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_rail_0.weapon",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_donnager_battleship",
+      "reference": "entities/expanse_donnager_battleship.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_hull.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_hull.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_pdc_base.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_pdc_base.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_pdc_barrel.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_pdc_barrel.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_rail_0.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_rail_0.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "meshes/expanse10_donnager_rail_1.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse10_donnager_rail_1.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/expanse10_donnager_idle_plume.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/effects/expanse10_donnager_idle_plume.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/hyperspace_chargeup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_CHARGEUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/hyperspace_entry.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/hyperspace_entry.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/hyperspace_exit.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_EXIT.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_air_decompression.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_air_decompression.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_airdecompression.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_airdecompression.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_smoke_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_smoke_3.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_smoke_3.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/tec_damage_escaping_gas.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_escaping_gas.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_tech_escaping_gas.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_tech_escaping_gas.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_electricity.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_electricity_2.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_electricity_2.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_electrical_damage_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_electrical_damage_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/tec_damage_embers.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/tec_damage_embers.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_fire.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_fire.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_firedamage.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_firedamage.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/damage_fire_pillar.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/damage_fire_pillar.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/ambient_loop_firepillar_damage.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ambient_loop_firepillar_damage.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/capitalship_levelup.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/CAPITALSHIP_LEVELUP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/expanse10_donnager_shield.shield_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/effects/expanse10_donnager_shield.shield_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/javelis_torpedo_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/javelis_torpedo_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_tech_medium_missile_muzzle_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/WEAPON_TECH_MEDIUM_MISSILE_MUZZLE_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_pointdefense_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/pd_autocannon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/PD_autocannon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_pointdefense_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_pointdefense_autocannon_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_point_defense_autocannon_weapon_projectile_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_physical_heavy_hithull_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_impact.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_01.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_02.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_impact_generic_heavy_hitshields_03.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_railgun.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_railgun.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_titan_rail_gun_weapon_travel.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "effects/trader_torpedo_cruiser_muzzle.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_torpedo_cruiser_muzzle.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/weapon_muzzle_tech_neutrontorp.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/weapon_muzzle_tech_neutrontorp.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/engine_techcapitalship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHCAPITALSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/hyperspace_travel.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/HYPERSPACE_TRAVEL.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_railguns.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_railguns.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_bogies.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_bogies.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_attack.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_attack.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_contact.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_contact.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_hammers.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_hammers.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_hammers.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_hammers.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_bogies.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_bogies.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_hammers.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_hammers.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_contact.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_contact.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_course.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_course.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_orders_scared.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_orders_scared.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_standing_by.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_standing_by.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_reaction_mass.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_reaction_mass.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_reaction_mass_scared.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_reaction_mass_scared.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_cooldown.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_cooldown.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_armor.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_armor.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_retreat.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_retreat.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_retreat_scared.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_retreat_scared.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_juice.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_juice.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_crippled.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_crippled.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_crippled.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_crippled.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_duty.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_duty.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_reactor_scram.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_reactor_scram.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_construction.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_construction.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_destroyed.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_destroyed.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "sounds/expanse10_donnager_destroyed.sound",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/sounds/expanse10_donnager_destroyed.sound",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_donnager_battleship.unit_skin",
+      "reference": "death_sequences/trader_titan.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/trader_titan.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_donnager_battleship",
+      "reference": "entities/expanse10_donnager_light_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.ability",
+      "reference": "entities/expanse10_donnager_light_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.ability",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.ability",
+      "reference": "entities/expanse10_donnager_light_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit",
+      "reference": "entities/expanse04_light_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "meshes/expanse05_amun_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse05_amun_torpedo.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse05_amun_torpedo.mesh",
+      "reference": "mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_clr.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse05_amun_torpedo_surface_clr.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_orm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse05_amun_torpedo_surface_orm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse05_amun_torpedo_surface_nrm.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/mesh_materials/expanse05_amun_torpedo_expanse05_amun_torpedo_surface.mesh_material",
+      "reference": "textures/expanse05_amun_torpedo_surface_msk.dds",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/textures/expanse05_amun_torpedo_surface_msk.dds",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "effects/trader_medium_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "sounds/engine_techsupportship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHSUPPORTSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0_1.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0_1.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_donnager_battleship",
+      "reference": "entities/expanse10_donnager_heavy_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.ability",
+      "reference": "entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.ability",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.ability",
+      "reference": "entities/expanse10_donnager_heavy_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_heavy_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_torpedo.unit",
+      "reference": "entities/expanse04_light_torpedo.unit_skin",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "meshes/expanse05_amun_torpedo.mesh",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/meshes/expanse05_amun_torpedo.mesh",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "effects/trader_medium_torpedo.exhaust_trail_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/trader_medium_torpedo.exhaust_trail_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "sounds/engine_techsupportship.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ENGINE_TECHSUPPORTSHIP.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit_skin",
+      "reference": "death_sequences/torpedo0_1.death_sequence_group",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/death_sequences/torpedo0_1.death_sequence_group",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.ability",
+      "reference": "textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_torpedo_cruiser_heavy_torpedo_ability_tooltip_picture.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_donnager_battleship",
+      "reference": "entities/expanse10_donnager_launch_corvette.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.ability",
+      "reference": "entities/expanse10_donnager_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.ability",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.ability",
+      "reference": "textures/trader_light_frigate_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_light_frigate_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_donnager_battleship",
+      "reference": "entities/expanse10_donnager_reactor.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.ability",
+      "reference": "entities/expanse10_donnager_reactor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.ability",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.ability",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.ability",
+      "reference": "textures/jiskun_tachyon_boost_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/jiskun_tachyon_boost_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.ability",
+      "reference": "textures/jiskun_tachyon_boost_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/jiskun_tachyon_boost_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_donnager_battleship",
+      "reference": "entities/expanse10_donnager_marines.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.ability",
+      "reference": "entities/expanse10_donnager_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.ability",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.ability",
+      "reference": "entities/expanse10_donnager_marines.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.ability",
+      "reference": "textures/pirate_boarding_crew_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/pirate_boarding_crew_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.ability",
+      "reference": "textures/pirate_boarding_crew_tooltip_picture.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/pirate_boarding_crew_tooltip_picture.png",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_donnager_battleship",
+      "reference": "entities/expanse10_donnager_reactor_breach.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.ability",
+      "reference": "entities/expanse10_donnager_reactor_breach.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.ability",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.ability",
+      "reference": "textures/trader_starbase_self_destruct_unit_item_hud_icon.png",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_starbase_self_destruct_unit_item_hud_icon.png",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.ability",
+      "reference": "entities/expanse10_donnager_reactor_breach.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "{'version': 0, 'spatial': {'box': {'center': [-0.21248626708984375, 0.02161407470703125, -0.382080078125], 'extents': [206.16521453857422, 205.93097686767578, 542.24072265625]}, 'radius': 574.0262941929471, 'collision_rank': 3}, 'physics': {'can_move_linear': True, 'max_linear_speed': 575.0, 'time_to_max_linear_speed': 7.1875, 'arrival_tolerance_spatial_radius_scalar': 0.25, 'death_linear_speed_range': [0.75, 1.25], 'can_move_angular': True, 'max_angular_speed': 18.0, 'time_to_max_angular_speed': 20.0, 'max_bank_angle': 15.0, 'death_angular_speed_range': [1.0, 2.0], 'linear_acceleration_angle': 75.0, 'can_strafe_linear': True, 'strafe_max_linear_speed': 200.0, 'time_to_strafe_max_linear_speed': 20.0, 'strafe_max_linear_distance_spatial_radius_scalar': 3.0, 'strafe_start_angle': 0.0, 'strafe_stop_angle': 180.0, 'strafe_speed_start_angle': 10.0, 'strafe_max_start_turning_angle': 170.0}, 'hyperspace': {'speed': 215000.0, 'speed_between_stars': 752500.0, 'charge_time': 8.0, 'charge_time_variance': 1.0, 'min_charge_angle': 10.0, 'max_charge_angle': 45.0}, 'move': {'follow_distance': 5298.325684}, 'attack': {'attack_pattern': {'type': 'stop_and_fire'}}, 'ai': {'attack_target_type_groups': ['flak', 'light', 'antiarmor_lrm', 'carrier_support', 'capital_supercapital_heavy', 'defense', 'corvette', 'defense_starbase_titan', 'defense_civilian'], 'attack_target_type_groups_to_ignore': ['torpedo_strikecraft_corvette'], 'attack_target_type_groups_matching_weapon': 'expanse10_donnager_rail_0', 'auto_follow_target_priority': 5.0, 'pursuit': {'min_target_speed': 100.0, 'min_distance_to_target': 5000.0}, 'attack_target_type_range_scalar': 1.5}, 'ai_attack_target': {'attack_priority': 50.0, 'is_always_a_threat': True, 'attack_target_type': 'titan'}, 'user_interface': {'pip_type': 'titan', 'can_ever_be_selected': True, 'selection_priority': 500, 'selection_group_unit_type': 'combat_ship', 'can_move': True, 'can_rotate': True, 'can_attack': True, 'can_show_max_weapon_range_in_tactical_view': True, 'can_show_distance_to_plane_line': True}, 'weapons': {'weapons': [{'weapon': 'expanse10_donnager_pdc_0', 'mesh_point': 'child.expanse10_donnager_pdc_0', 'weapon_position': [100.49077758789062, 0.0, -370.0], 'up': [1.0, 0.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_1', 'mesh_point': 'child.expanse10_donnager_pdc_1', 'weapon_position': [0.0, 100.11564971909416, -370.0], 'up': [0.0, 1.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_2', 'mesh_point': 'child.expanse10_donnager_pdc_2', 'weapon_position': [-100.49067077636721, 0.0, -370.0], 'up': [-1.0, 0.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_3', 'mesh_point': 'child.expanse10_donnager_pdc_3', 'weapon_position': [0.0, -100.49074764526978, -370.0], 'up': [0.0, -1.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_4', 'mesh_point': 'child.expanse10_donnager_pdc_4', 'weapon_position': [78.93442775698375, 0.0, -150.0], 'up': [1.0, 0.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_5', 'mesh_point': 'child.expanse10_donnager_pdc_5', 'weapon_position': [0.0, 79.01118675807413, -150.0], 'up': [0.0, 1.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_6', 'mesh_point': 'child.expanse10_donnager_pdc_6', 'weapon_position': [-77.96181478922242, 0.0, -150.0], 'up': [-1.0, 0.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_7', 'mesh_point': 'child.expanse10_donnager_pdc_7', 'weapon_position': [0.0, -79.0111676157488, -150.0], 'up': [0.0, -1.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_8', 'mesh_point': 'child.expanse10_donnager_pdc_8', 'weapon_position': [59.759341282355514, 0.0, 50.0], 'up': [1.0, 0.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_9', 'mesh_point': 'child.expanse10_donnager_pdc_9', 'weapon_position': [0.0, 59.759400433300364, 50.0], 'up': [0.0, 1.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_10', 'mesh_point': 'child.expanse10_donnager_pdc_10', 'weapon_position': [-59.759373730418, 0.0, 50.0], 'up': [-1.0, 0.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_11', 'mesh_point': 'child.expanse10_donnager_pdc_11', 'weapon_position': [0.0, -59.759314579476246, 50.0], 'up': [0.0, -1.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_12', 'mesh_point': 'child.expanse10_donnager_pdc_12', 'weapon_position': [85.8402696972343, 0.0, 240.0], 'up': [1.0, 0.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_13', 'mesh_point': 'child.expanse10_donnager_pdc_13', 'weapon_position': [0.0, 85.77338592292094, 240.0], 'up': [0.0, 1.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_14', 'mesh_point': 'child.expanse10_donnager_pdc_14', 'weapon_position': [-85.62243087217823, 0.0, 240.0], 'up': [-1.0, 0.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_pdc_15', 'mesh_point': 'child.expanse10_donnager_pdc_15', 'weapon_position': [0.0, -86.27274455973668, 240.0], 'up': [0.0, -1.0, 0.0], 'forward': [0.0, 0.0, 1.0], 'yaw_arc': {'min_angle': -180.0, 'max_angle': 180.0}, 'pitch_arc': {'min_angle': -85.0, 'max_angle': 5.0}}, {'weapon': 'expanse10_donnager_rail_0', 'mesh_point': 'child.expanse10_donnager_rail_0', 'weapon_position': [-107.75201749781718, -7.457105678741628e-05, 195.0783098869338], 'up': [0, 1, 0], 'forward': [0, 0, 1], 'yaw_arc': {'min_angle': -2.0, 'max_angle': 2.0}, 'pitch_arc': {'min_angle': 0.0, 'max_angle': 0.0}}, {'weapon': 'expanse10_donnager_rail_1', 'mesh_point': 'child.expanse10_donnager_rail_1', 'weapon_position': [107.75210327909191, 1.7095884563771384e-05, 195.0783098869338], 'up': [0, 1, 0], 'forward': [0, 0, 1], 'yaw_arc': {'min_angle': -2.0, 'max_angle': 2.0}, 'pitch_arc': {'min_angle': 0.0, 'max_angle': 0.0}}], 'max_range_weapon_index': 16}, 'formation': {'leader_priority': 4, 'offsets_per_formation_type': {'ships_and_structures': {'rank': 0, 'group': 3}}}, 'spawn_debris': {'spawn_debris_time': 6.5, 'generic_group_name': 'trader', 'generic_counts': {'small_debris': [50, 60], 'large_debris': [50, 60]}, 'spawn_loot': {'loot_unit': 'ship_loot_trader', 'loot_name': 'expanse_donnager_battleship_loot_name', 'loot_level': 1, 'experience_given': 1000.0, 'exotics': [{'bundles': [{'types': ['defense'], 'counts': [1, 3]}, {'types': ['utility'], 'counts': [0, 1]}, {'types': ['ultimate'], 'counts': [1, 3]}], 'weight': 1.0}], 'assets': {'credits': [960, 2880], 'metal': [290, 870], 'crystal': [190, 570]}}}, 'health': {'release_time_after_death': 60.0, 'can_collide_duration_after_death': 6.5, 'durability': 750.0, 'levels': [{'max_hull_points': 14520.0, 'hull_point_restore_rate': 6.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.5, 'max_armor_points': 5000.0, 'armor_point_restore_rate': 8.0, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 130.0, 'max_shield_points': 6000.0, 'shield_point_restore_rate': 10.0, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 70.0, 'restore_percentage': 0.25}, 'experience_given_on_death': 400.0}, {'max_hull_points': 15815.0, 'hull_point_restore_rate': 7.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.52, 'max_armor_points': 5225.0, 'armor_point_restore_rate': 9.2, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 135.0, 'max_shield_points': 6405.0, 'shield_point_restore_rate': 12.4, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 68.0, 'restore_percentage': 0.27}, 'experience_given_on_death': 480.0}, {'max_hull_points': 17105.0, 'hull_point_restore_rate': 8.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.54, 'max_armor_points': 5450.0, 'armor_point_restore_rate': 10.4, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 140.0, 'max_shield_points': 6805.0, 'shield_point_restore_rate': 14.8, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 66.0, 'restore_percentage': 0.29}, 'experience_given_on_death': 600.0}, {'max_hull_points': 18400.0, 'hull_point_restore_rate': 9.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.56, 'max_armor_points': 5675.0, 'armor_point_restore_rate': 11.6, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 145.0, 'max_shield_points': 7210.0, 'shield_point_restore_rate': 17.2, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 64.0, 'restore_percentage': 0.32}, 'experience_given_on_death': 760.0}, {'max_hull_points': 19690.0, 'hull_point_restore_rate': 10.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.58, 'max_armor_points': 5900.0, 'armor_point_restore_rate': 12.8, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 150.0, 'max_shield_points': 7610.0, 'shield_point_restore_rate': 19.6, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 62.0, 'restore_percentage': 0.35}, 'experience_given_on_death': 960.0}, {'max_hull_points': 20985.0, 'hull_point_restore_rate': 11.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.61, 'max_armor_points': 6125.0, 'armor_point_restore_rate': 14.0, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 155.0, 'max_shield_points': 8010.0, 'shield_point_restore_rate': 22.0, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 60.0, 'restore_percentage': 0.38}, 'experience_given_on_death': 1200.0}, {'max_hull_points': 22275.0, 'hull_point_restore_rate': 12.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.64, 'max_armor_points': 6350.0, 'armor_point_restore_rate': 15.2, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 160.0, 'max_shield_points': 8415.0, 'shield_point_restore_rate': 24.4, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 58.0, 'restore_percentage': 0.41}, 'experience_given_on_death': 1480.0}, {'max_hull_points': 23570.0, 'hull_point_restore_rate': 13.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.67, 'max_armor_points': 6575.0, 'armor_point_restore_rate': 16.4, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 165.0, 'max_shield_points': 8815.0, 'shield_point_restore_rate': 26.8, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 56.0, 'restore_percentage': 0.44}, 'experience_given_on_death': 1800.0}, {'max_hull_points': 24860.0, 'hull_point_restore_rate': 14.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.71, 'max_armor_points': 6800.0, 'armor_point_restore_rate': 17.6, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 170.0, 'max_shield_points': 9220.0, 'shield_point_restore_rate': 29.2, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 53.0, 'restore_percentage': 0.47}, 'experience_given_on_death': 2160.0}, {'max_hull_points': 26155.0, 'hull_point_restore_rate': 15.0, 'hull_point_restore_cooldown_duration_after_damage_taken': 60.0, 'hull_point_restore_scalar_after_damage_taken': 0.0, 'hull_crippled_percentage': 0.75, 'max_armor_points': 7025.0, 'armor_point_restore_rate': 18.8, 'armor_point_restore_cooldown_duration_after_damage_taken': 60.0, 'armor_point_restore_scalar_after_damage_taken': 0.0, 'armor_strength': 175.0, 'max_shield_points': 9620.0, 'shield_point_restore_rate': 31.6, 'shield_point_restore_cooldown_duration_after_damage_taken': 20.0, 'shield_point_restore_scalar_after_damage_taken': 0.0, 'shield_burst_restore': {'cooldown_duration': 50.0, 'restore_percentage': 0.5}, 'experience_given_on_death': 2560.0}]}, 'corruption': {'max_corruption': 10000.0, 'corruption_decay_rate': 50.0, 'corruption_decay_delay_duration_after_gain': 60.0, 'show_main_view_icon_alert_fill': True}, 'antimatter': {'max_antimatter': 0.0, 'antimatter_restore_rate': 0.0}, 'levels': {'type': 'experience', 'levels': [{'experience_to_next_level': 500.0, 'unit_modifiers': {'additive_values': {'max_antimatter': 455.0, 'antimatter_restore_rate': 1.33}, 'scalar_values': {}}}, {'experience_to_next_level': 1250.0, 'unit_modifiers': {'additive_values': {'max_antimatter': 480.0, 'antimatter_restore_rate': 1.4}, 'scalar_values': {}}, 'weapon_modifiers': {'additive_values': {}, 'scalar_values': {'damage': 0.01, 'cooldown_duration': -0.025}}}, {'experience_to_next_level': 2250.0, 'unit_modifiers': {'additive_values': {'max_antimatter': 505.0, 'antimatter_restore_rate': 1.46}, 'scalar_values': {}}, 'weapon_modifiers': {'additive_values': {}, 'scalar_values': {'damage': 0.02, 'cooldown_duration': -0.05}}}, {'experience_to_next_level': 3750.0, 'unit_modifiers': {'additive_values': {'max_antimatter': 530.0, 'antimatter_restore_rate': 1.53}, 'scalar_values': {}}, 'weapon_modifiers': {'additive_values': {}, 'scalar_values': {'damage': 0.03, 'cooldown_duration': -0.075}}}, {'experience_to_next_level': 5750.0, 'unit_modifiers': {'additive_values': {'max_antimatter': 555.0, 'antimatter_restore_rate': 1.6}, 'scalar_values': {}}, 'weapon_modifiers': {'additive_values': {}, 'scalar_values': {'damage': 0.04, 'cooldown_duration': -0.1}}}, {'experience_to_next_level': 8250.0, 'unit_modifiers': {'additive_values': {'max_antimatter': 580.0, 'antimatter_restore_rate': 1.66}, 'scalar_values': {}}, 'weapon_modifiers': {'additive_values': {}, 'scalar_values': {'damage': 0.05, 'cooldown_duration': -0.125}}}, {'experience_to_next_level': 11250.0, 'unit_modifiers': {'additive_values': {'max_antimatter': 605.0, 'antimatter_restore_rate': 1.73}, 'scalar_values': {}}, 'weapon_modifiers': {'additive_values': {}, 'scalar_values': {'damage': 0.06, 'cooldown_duration': -0.15}}}, {'experience_to_next_level': 15000.0, 'unit_modifiers': {'additive_values': {'max_antimatter': 630.0, 'antimatter_restore_rate': 1.8}, 'scalar_values': {}}, 'weapon_modifiers': {'additive_values': {}, 'scalar_values': {'damage': 0.07, 'cooldown_duration': -0.175}}}, {'experience_to_next_level': 19500.0, 'unit_modifiers': {'additive_values': {'max_antimatter': 635.0, 'antimatter_restore_rate': 1.81}, 'scalar_values': {}}, 'weapon_modifiers': {'additive_values': {}, 'scalar_values': {'damage': 0.08, 'cooldown_duration': -0.2}}}, {'unit_modifiers': {'additive_values': {'max_antimatter': 680.0, 'antimatter_restore_rate': 1.93}, 'scalar_values': {}}, 'weapon_modifiers': {'additive_values': {}, 'scalar_values': {'damage': 0.09, 'cooldown_duration': -0.225}}}]}, 'build': {'build_time': 300.0, 'price': {'credits': 9600.0, 'metal': 2900.0, 'crystal': 1900.0}, 'exotic_price': [{'exotic_type': 'defense', 'count': 3}, {'exotic_type': 'utility', 'count': 1}, {'exotic_type': 'ultimate', 'count': 3}], 'prerequisites': [['trader_unlock_loyalist_titan'], ['trader_unlock_rebel_titan']], 'build_kind': 'titan', 'supply_cost': 150, 'build_group_id': 'titan'}, 'items': {'levels': [{'max_ship_component_count': 8}]}, 'item_builds': [{'build_group': ['trader_flak_burst'], 'weight': 5.0}, {'build_group': ['trader_beam_armor'], 'weight': 5.0}, {'build_group': ['trader_missile_armor'], 'weight': 5.0}, {'build_group': ['trader_combat_repair_system'], 'weight': 5.0}, {'build_group': ['trader_heavy_armor'], 'weight': 5.0}, {'build_group': ['trader_antimatter_engine'], 'weight': 5.0}, {'build_group': ['trader_rapid_autoloader'], 'weight': 5.0}, {'build_group': ['trader_targeting_array'], 'weight': 5.0}, {'build_group': ['trader_salvage_kit'], 'weight': 5.0}, {'build_group': ['trader_radiation_bomb'], 'weight': 5.0}], 'target_filter_unit_type': 'titan', 'tags': ['titan', 'expanse_donnager_battleship'], 'is_loot_collector': True, 'capture_points': 15, 'abilities': [{'abilities': ['expanse10_donnager_light_magazine', 'expanse10_donnager_heavy_magazine', 'expanse10_donnager_launch_corvette', 'expanse10_donnager_reactor', 'expanse10_donnager_marines', 'expanse10_donnager_reactor_breach']}], 'ship_roles': ['attack_ship'], 'skin_groups': [{'skins': ['expanse_donnager_battleship']}], 'action_effect_size': 'large_unit', 'can_join_fleet': True}",
+      "reference": "uniforms/action.uniforms",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/action.uniforms",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse10_donnager_light_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse10_donnager_light_magazine",
+      "reference": "entities/expanse10_donnager_light_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.ability",
+      "reference": "entities/expanse10_donnager_light_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.ability",
+      "reference": "entities/expanse10_donnager_light_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_light_magazine.buff",
+      "reference": "entities/expanse04_light_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse04_light_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse10_donnager_heavy_magazine.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse10_donnager_heavy_magazine",
+      "reference": "entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.ability",
+      "reference": "entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.ability",
+      "reference": "entities/expanse10_donnager_heavy_magazine.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_magazine.buff",
+      "reference": "entities/expanse10_donnager_heavy_torpedo.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_heavy_torpedo.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse10_donnager_launch_corvette.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse10_donnager_launch_corvette",
+      "reference": "entities/expanse10_donnager_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.ability",
+      "reference": "entities/expanse10_donnager_launch_corvette.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_launch_corvette.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse10_donnager_reactor.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse10_donnager_reactor",
+      "reference": "entities/expanse10_donnager_reactor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.ability",
+      "reference": "entities/expanse10_donnager_reactor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.ability",
+      "reference": "entities/expanse10_donnager_reactor.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse10_donnager_marines.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse10_donnager_marines",
+      "reference": "entities/expanse10_donnager_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.ability",
+      "reference": "entities/expanse10_donnager_marines.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.ability",
+      "reference": "entities/expanse10_donnager_marines.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.action_data_source",
+      "reference": "entities/expanse_rocinante_hero.unit",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse_rocinante_hero.unit",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.action_data_source",
+      "reference": "effects/expanse06_boarding_pod_visual.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/effects/expanse06_boarding_pod_visual.particle_effect",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_marines.action_data_source",
+      "reference": "sounds/ability_activate_tech_shuttlelaunch.sound",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/sounds/ability_activate_tech_shuttlelaunch.sound",
+      "origin": "installed"
+    },
+    {
+      "source": "expanse_amun_ra",
+      "reference": "entities/expanse10_donnager_reactor_breach.ability",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.ability",
+      "origin": "mod"
+    },
+    {
+      "source": "expanse10_donnager_reactor_breach",
+      "reference": "entities/expanse10_donnager_reactor_breach.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.ability",
+      "reference": "entities/expanse10_donnager_reactor_breach.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.action_data_source",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.ability",
+      "reference": "entities/expanse10_donnager_reactor_breach.buff",
+      "resolved": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.buff",
+      "origin": "mod"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_donnager10/entities/expanse10_donnager_reactor_breach.action_data_source",
+      "reference": "effects/titan_safety_override_protocol.particle_effect",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/titan_safety_override_protocol.particle_effect",
+      "origin": "installed"
+    },
+    {
+      "source": "Donnager item trader_flak_burst",
+      "reference": "entities/trader_flak_burst_unit_item.ability",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_flak_burst_unit_item.ability",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_flak_burst_unit_item.ability",
+      "reference": "entities/trader_flak_burst_unit_item.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_flak_burst_unit_item.action_data_source",
+      "origin": "installed"
+    },
+    {
+      "source": "Donnager item trader_beam_armor",
+      "reference": "entities/trader_beam_armor.ability",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_beam_armor.ability",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_beam_armor.ability",
+      "reference": "entities/trader_beam_armor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_beam_armor.action_data_source",
+      "origin": "installed"
+    },
+    {
+      "source": "Donnager item trader_missile_armor",
+      "reference": "entities/trader_missile_armor.ability",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_missile_armor.ability",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_missile_armor.ability",
+      "reference": "entities/trader_missile_armor.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_missile_armor.action_data_source",
+      "origin": "installed"
+    },
+    {
+      "source": "Donnager item trader_combat_repair_system",
+      "reference": "entities/trader_combat_repair_system_unit_item.ability",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.ability",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.ability",
+      "reference": "entities/trader_combat_repair_system_unit_item.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.action_data_source",
+      "origin": "installed"
+    },
+    {
+      "source": "Donnager item trader_antimatter_engine",
+      "reference": "entities/trader_antimatter_engine_unit_item.ability",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antimatter_engine_unit_item.ability",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antimatter_engine_unit_item.ability",
+      "reference": "entities/trader_antimatter_engine_unit_item.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_antimatter_engine_unit_item.action_data_source",
+      "origin": "installed"
+    },
+    {
+      "source": "Donnager item trader_rapid_autoloader",
+      "reference": "entities/trader_rapid_autoloader_unit_item.ability",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_rapid_autoloader_unit_item.ability",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_rapid_autoloader_unit_item.ability",
+      "reference": "entities/trader_rapid_autoloader_unit_item.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_rapid_autoloader_unit_item.action_data_source",
+      "origin": "installed"
+    },
+    {
+      "source": "Donnager item trader_targeting_array",
+      "reference": "entities/trader_targeting_array_unit_item.ability",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_targeting_array_unit_item.ability",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_targeting_array_unit_item.ability",
+      "reference": "entities/trader_targeting_array_unit_item.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_targeting_array_unit_item.action_data_source",
+      "origin": "installed"
+    },
+    {
+      "source": "Donnager item trader_salvage_kit",
+      "reference": "entities/trader_salvage_kit_unit_item.ability",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_salvage_kit_unit_item.ability",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_salvage_kit_unit_item.ability",
+      "reference": "entities/trader_salvage_kit_unit_item.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_salvage_kit_unit_item.action_data_source",
+      "origin": "installed"
+    },
+    {
+      "source": "Donnager item trader_radiation_bomb",
+      "reference": "entities/trader_radiation_bomb_unit_item.ability",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_radiation_bomb_unit_item.ability",
+      "origin": "installed"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_radiation_bomb_unit_item.ability",
+      "reference": "entities/trader_radiation_bomb_unit_item.action_data_source",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_radiation_bomb_unit_item.action_data_source",
+      "origin": "installed"
+    }
+  ],
+  "zip": {
+    "files": 490,
+    "zip_sha256": "2a9650d771178b1ae5ff83d2c5d2076dfcb546290bc233a8d4e352aebcad484f",
+    "tree_sha256": "9f1d4d51af96e2721f839610bc5402d279b72fb2f8084471b75fd219def62f48"
+  }
+}

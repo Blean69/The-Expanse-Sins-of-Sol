@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "prior_files": 119,
+  "source_master_files": 5,
+  "source_archive_sha256": "b03d70d6180b7c6ff50db22df883f576ebb3981c5d4d138f8bdf1e7434079562",
+  "donor_dependencies": 7,
+  "compiled_donor_meshes_exact": [
+    {
+      "file": "expanse10_donnager_pdc_base.mesh",
+      "sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "exact_prior_binary_preserved": true
+    },
+    {
+      "file": "expanse10_donnager_pdc_barrel.mesh",
+      "sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "exact_prior_binary_preserved": true
+    }
+  ],
+  "all18_compiled_mounts_and_equipment_points_exact": true,
+  "fixed_support_only_change": {
+    "reason": "Higher-fidelity original hull is0.473 lower at one existingPDC15footprint; extend fixedsocket into hull, preserve all gunpivots/muzzles/arcs",
+    "mount_index": 15,
+    "fixed_socket_bottom_delta": -0.6,
+    "gun_transform_delta": 0,
+    "PDC6_minor_footing_embed": 0.44934651455,
+    "no_moving_geometry_removed": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "aliases": [
+    "expanse06_amun_boarding_pod_expanse06_amun_surface",
+    "expanse06_amun_hull_expanse06_amun_surface",
+    "expanse06_amun_pdc_0_barrel_expanse06_amun_surface",
+    "expanse06_amun_pdc_0_base_expanse06_amun_surface",
+    "expanse06_amun_pdc_1_barrel_expanse06_amun_surface",
+    "expanse06_amun_pdc_1_base_expanse06_amun_surface",
+    "expanse06_amun_pdc_2_barrel_expanse06_amun_surface",
+    "expanse06_amun_pdc_2_base_expanse06_amun_surface"
+  ],
+  "texture_dimensions": [
+    2048,
+    2048
+  ],
+  "source_dimensions": [
+    4096,
+    4096
+  ],
+  "normal_map": "Source referenced glTF normals retained and renormalized after resize; DirectX filename ambiguity requires runtime bump inspection, no unverified green reversal",
+  "ORM": "R255 (no AO source), G/B source glTF roughness/metallic",
+  "mask": "R/G/A0, B=max source emissiveRGB. Emission is base-color-tinted by installed shader, not independent source emissionRGB",
+  "source_material": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/amun06-b/materials/expanse06_amun_surface.mesh_material"
+}

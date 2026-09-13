@@ -1,0 +1,132 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "source_commit": "9e40dd4b42853318ef87cc3d7d858f2abf601176",
+  "runtime": "NOT RUN",
+  "installed_or_enabled": false,
+  "frozen": {
+    "pins": {
+      "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+      "schemas": 62,
+      "installed_references": 527
+    },
+    "preserved_trees": [
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_cobalt_name",
+        "files": 2,
+        "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_ammo03",
+        "files": 92,
+        "tree_sha256": "211aaf0040b8c6edef8894606bf8eaa54606fe6c862fb2f79cbe3dea68c121a1"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_combat03",
+        "files": 92,
+        "tree_sha256": "63ca0bcf4da8c094435aeb28fce0ceb11262cfa4e6b8f33106416fb77820b03b"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_polish",
+        "files": 83,
+        "tree_sha256": "922bb383eac8568ac5f365cd992f96d6709620e36c71f4ab639555db0da2aebf"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_visual",
+        "files": 26,
+        "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_rocinante03",
+        "files": 164,
+        "tree_sha256": "f87253a45f07ed279f0aced31912378cc7690793a99d0f725db82daac6673d6e"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/expanse_cobalt_name",
+        "files": 2,
+        "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/expanse_corvette_visual",
+        "files": 26,
+        "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish",
+        "files": 83,
+        "tree_sha256": "922bb383eac8568ac5f365cd992f96d6709620e36c71f4ab639555db0da2aebf"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_combat03",
+        "files": 92,
+        "tree_sha256": "63ca0bcf4da8c094435aeb28fce0ceb11262cfa4e6b8f33106416fb77820b03b"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_ammo03",
+        "files": 92,
+        "tree_sha256": "211aaf0040b8c6edef8894606bf8eaa54606fe6c862fb2f79cbe3dea68c121a1"
+      },
+      {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_rocinante03",
+        "files": 164,
+        "tree_sha256": "f87253a45f07ed279f0aced31912378cc7690793a99d0f725db82daac6673d6e"
+      }
+    ],
+    "enabled_settings_unchanged": true
+  },
+  "packages": {
+    "expanse_rocinante04": {
+      "files": 198,
+      "zip_sha256": "fa00d7e1de5dca57a4728b3dcb2d7c0b6660afdbbd1dfef9ef638a6a68cb1ff0",
+      "tree_sha256": "a673fdade01f53a5db871a9303e5505dae16f6d6c214e9acb32a258413c2792f"
+    },
+    "expanse_rocinante04_amun": {
+      "files": 204,
+      "zip_sha256": "0037f2f5d06046bd442231372690f999f84a6fefbca023955017a4c3a2368e74",
+      "tree_sha256": "7734eeb09fa0f2b48d849f0721d2fa35c742b536b0abc2ae14318aba1e568492"
+    }
+  },
+  "full_package_schema_counts": {
+    "expanse_rocinante04": 52,
+    "expanse_rocinante04_amun": 52
+  },
+  "negative_regressions": {
+    "status": "PASS",
+    "checks": [
+      {
+        "check": "localization drift",
+        "status": "PASS rejected mutation",
+        "diagnostic": "Unapproved localization delta"
+      },
+      {
+        "check": "hero navigation drift",
+        "status": "PASS rejected mutation",
+        "diagnostic": "Unapproved hero stats/navigation/rail/ability change"
+      },
+      {
+        "check": "Martian projectile health drift",
+        "status": "PASS rejected mutation",
+        "diagnostic": "expanse04_light_torpedo.unit"
+      },
+      {
+        "check": "PDC second budget",
+        "status": "PASS rejected mutation",
+        "diagnostic": "Unexpected PDC budget/targeting change"
+      }
+    ],
+    "scope": "Full-environment negative tests; no runtime simulation"
+  },
+  "worker_evidence": {
+    "hero": "audit/geometry04-b/output-validation.json",
+    "torpedo": "audit/torpedo05-b/output-validation.json",
+    "donnager": "audit/donnager04-c/derivative-validation.json",
+    "amun_intake": "audit/amun05-c/derivative-validation.json",
+    "stealth_probes": "audit/stealth05-a/offline-validation.json"
+  },
+  "limitations": [
+    "New cloak fields are absent from pinned schemas; complete stealth candidate is blocked",
+    "Boarding probe is a timed visual with one roll, not an interceptable pod with verified arrival",
+    "Donnager requires optimization, hardpoints and ship integration",
+    "Hero92,067triangles requires workstation performance acceptance",
+    "Amun cap semantics optional question unanswered; existing implementation path is per-player only"
+  ]
+}

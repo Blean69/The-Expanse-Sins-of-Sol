@@ -1,0 +1,564 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/validation/build/update11-c/game",
+  "hull_mesh": "expanse11_morrigan_hull",
+  "rigs": [
+    {
+      "index": 0,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse11_morrigan_pdc_0",
+        "mesh_point": "child.expanse11_morrigan_pdc_0",
+        "weapon_position": [
+          -9.907288249669477,
+          4.125575987616707,
+          -2.897129839899753
+        ],
+        "up": [
+          -0.866025403784329,
+          0.50000000000019,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.50000000000019,
+          -0.866025403784329,
+          0.0
+        ],
+        [
+          0.866025403784329,
+          0.50000000000019,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -9.907288249669477,
+        4.125575987616707,
+        -2.897129839899753
+      ],
+      "pitch_pivot_hull": [
+        -11.099329778758856,
+        4.813801485322021,
+        -2.709821799695606
+      ],
+      "muzzle_hull": [
+        -11.452077627009407,
+        5.017461849828155,
+        1.0786984529200954
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse11_morrigan_pdc_base",
+        "biaxial_barrel_mesh": "expanse11_morrigan_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse11_morrigan_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse11_morrigan_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse11_morrigan_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse11_morrigan_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        -9.51757681796653,
+        3.9005759876166213,
+        -2.897129839899753
+      ],
+      "support_embed_depth": 0.65,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 1,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse11_morrigan_pdc_1",
+        "mesh_point": "child.expanse11_morrigan_pdc_1",
+        "weapon_position": [
+          9.794371423449377,
+          4.125576092259467,
+          -2.897129839899753
+        ],
+        "up": [
+          0.866025403784329,
+          0.50000000000019,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.50000000000019,
+          0.866025403784329,
+          0.0
+        ],
+        [
+          -0.866025403784329,
+          0.50000000000019,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        9.794371423449377,
+        4.125576092259467,
+        -2.897129839899753
+      ],
+      "pitch_pivot_hull": [
+        10.986412952538755,
+        4.813801589964781,
+        -2.709821799695606
+      ],
+      "muzzle_hull": [
+        11.339161926070252,
+        5.017460005427144,
+        1.0786984529200954
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse11_morrigan_pdc_base",
+        "biaxial_barrel_mesh": "expanse11_morrigan_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse11_morrigan_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse11_morrigan_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse11_morrigan_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse11_morrigan_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_contact": [
+        9.40465999174643,
+        3.9005760922593815,
+        -2.897129839899753
+      ],
+      "support_embed_depth": 0.65,
+      "runtime": "NOT RUN"
+    }
+  ],
+  "ship_spatial": {
+    "box": {
+      "center": [
+        -0.056458580232389366,
+        0.0,
+        0.0
+      ],
+      "extents": [
+        13.453052685430848,
+        11.092942237854004,
+        39.375
+      ]
+    },
+    "radius": 40.02207555475084,
+    "bounds_min": [
+      -13.509511265663237,
+      -11.092942237854004,
+      -39.375
+    ],
+    "bounds_max": [
+      13.396594105198458,
+      11.092942237854004,
+      39.375
+    ]
+  },
+  "equipment": {
+    "light_torpedo_ports": [
+      {
+        "position": [
+          -3.0,
+          0,
+          31.325729506819624
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -3.0,
+          0.0,
+          30.125729506819624
+        ],
+        "new_collar": true
+      },
+      {
+        "position": [
+          3.0,
+          0,
+          31.26850312920278
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          3.0,
+          0.0,
+          30.06850312920278
+        ],
+        "new_collar": true
+      }
+    ],
+    "light_torpedo_port": {
+      "position": [
+        -3.0,
+        0,
+        31.325729506819624
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "measured_surface": [
+        -3.0,
+        0.0,
+        30.125729506819624
+      ],
+      "new_collar": true
+    },
+    "torpedo_ports": [
+      {
+        "position": [
+          -3.0,
+          0,
+          31.325729506819624
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -3.0,
+          0.0,
+          30.125729506819624
+        ],
+        "new_collar": true
+      },
+      {
+        "position": [
+          3.0,
+          0,
+          31.26850312920278
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          3.0,
+          0.0,
+          30.06850312920278
+        ],
+        "new_collar": true
+      }
+    ],
+    "exhaust": {
+      "position": [
+        -0.05645850373333878,
+        -1.6895323866967917,
+        -39.4749996706234
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source": "Source engine-bell component56 aftmost plane; centered on measured bell Y/Z bounds"
+    },
+    "exhausts": [
+      {
+        "position": [
+          -0.05645850373333878,
+          -1.6895323866967917,
+          -39.4749996706234
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source": "Source engine-bell component56 aftmost plane; centered on measured bell Y/Z bounds"
+      }
+    ]
+  },
+  "exhaust_geometry": {
+    "position": [
+      -0.05645850373333878,
+      -1.6895323866967917,
+      -39.4749996706234
+    ],
+    "forward": [
+      0,
+      0,
+      -1
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "source": "Source engine-bell component56 aftmost plane; centered on measured bell Y/Z bounds"
+  },
+  "counts": {
+    "hull": 28831,
+    "pdc_base": 138,
+    "pdc_barrel": 539
+  },
+  "assembled_triangle_total": 30185,
+  "meshpoints": {
+    "hull": [
+      {
+        "name": "center",
+        "translation": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0,
+          15,
+          0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0,
+          -15,
+          0
+        ]
+      },
+      {
+        "name": "child.expanse11_morrigan_pdc_0",
+        "translation": [
+          -9.907288249669477,
+          4.125575987616707,
+          -2.897129839899753
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.499999999999905,
+          0.8660254037844934
+        ]
+      },
+      {
+        "name": "child.expanse11_morrigan_pdc_1",
+        "translation": [
+          9.794371423449377,
+          4.125576092259467,
+          -2.897129839899753
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -0.499999999999905,
+          0.8660254037844934
+        ]
+      },
+      {
+        "name": "weapon.torpedo.0",
+        "translation": [
+          -3.0,
+          0,
+          31.325729506819624
+        ]
+      },
+      {
+        "name": "weapon.torpedo.1",
+        "translation": [
+          3.0,
+          0,
+          31.26850312920278
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          -0.05645850373333878,
+          -1.6895323866967917,
+          -39.4749996706234
+        ],
+        "rotation": [
+          0,
+          1,
+          0,
+          0
+        ]
+      }
+    ],
+    "pdc_base": [],
+    "pdc_barrel": []
+  },
+  "editable_source": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update11-c/expanse11_morrigan_editable.gltf",
+  "runtime": "NOT RUN",
+  "normalization": {
+    "source_center": [
+      1.8290549999999968,
+      -0.27956999999999965,
+      4.86619
+    ],
+    "source_to_game_rotation": [
+      [
+        0,
+        -1,
+        0
+      ],
+      [
+        0,
+        0,
+        1
+      ],
+      [
+        -1,
+        0,
+        0
+      ]
+    ],
+    "uniform_scale": 0.2019476472201554,
+    "provisional_length": 78.75,
+    "proper_rotation_determinant": 1.0
+  },
+  "ui_integration_spec": "/run/media/haker/NVME 2/expanse-workers/validation/audit/update11-c/ui-integration-spec.json",
+  "source_sha256": "72dcce753f7ac17b1a4600fffb649e93af78e9b19527a2386b46a61cdd115188",
+  "files": {
+    "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "textures/expanse11_morrigan_mat_0_clr.dds": "3ec8fe59b4be32ed0ea6099bcda3ef1bb5e0e82a8f7f8ab2b8075f31aebe5a26",
+    "textures/expanse11_morrigan_mat_1_clr.dds": "39a6ad00992630e3006b909c0737c7c6340bb4cb46cf91a4766622648ea40b06",
+    "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+    "textures/expanse11_morrigan_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse11_morrigan_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse11_morrigan_orm.dds": "3899064d5192d3dcaa405f26750ffefd3ebbc4a06f9d81a61b44fdb23fccd4cd",
+    "textures/expanse11_morrigan_mat_2_clr.dds": "6750496fd2811ee25f049cc55acab176818932aac59936e8021f5eec5bcbaf9e",
+    "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "mesh_materials/expanse11_morrigan_hull_expanse11_morrigan_mat_1.mesh_material": "2aefd7acd2c840eef3123c0165cbeabb9c73b1f78d1769a46310cd80f503d17d",
+    "mesh_materials/expanse11_morrigan_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse11_morrigan_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse11_morrigan_hull_expanse11_morrigan_mat_2.mesh_material": "d6bd28c7a15e8c818185f306c058ebfb6894a1c7d8a5f3a7a51f28a919099551",
+    "mesh_materials/expanse11_morrigan_hull_expanse11_morrigan_mat_0.mesh_material": "ff6fc8fe16db7333a36eacfb6d599b65d5b0e9df1179d8e6aaca90ffc32b0476",
+    "meshes/expanse11_morrigan_pdc_base.mesh": "cbda0af5ad4120159a4a60247dc0d318d11d7331e42b98daa60cbdb74082ad00",
+    "meshes/expanse11_morrigan_hull.mesh": "751c376dc3271b0560208d81b081d90b9231a6ef712859582f1750888ad7fde9",
+    "meshes/expanse11_morrigan_pdc_barrel.mesh": "25f7854e78b7a6c6f9f29a5be60522d291d29b817188bf8e53165c1a0825cf80"
+  }
+}

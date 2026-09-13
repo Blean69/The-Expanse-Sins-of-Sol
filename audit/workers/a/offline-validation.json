@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "runtime": "NOT RUN",
+  "schema_revision": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+  "schema_hashes_verified": 62,
+  "input_hashes": {
+    "entities/trader_antifighter_frigate_point_defense_autocannon.weapon": "40c0407280f541bde3ea455374fc90ccd1c21870d9caba24a503956a601ec693",
+    "entities/trader_torpedo_cruiser_torpedo.weapon": "5f1b0223af7404fd15f6c8045d83b93f6dd413a3e7f7e9ed49196994e9b3cb76",
+    "entities/trader_torpedo_cruiser_torpedo.unit": "886a135832469b62ce75f359823103f23621acc61375ebb336b92cfdddca66a1",
+    "entities/trader_torpedo_cruiser_torpedo.unit_skin": "2fd884758cb15aaa182e19d12fd5bec393ae90e5fcd87e4786af9d9193371b89",
+    "entities/trader_antifighter_frigate.unit": "16808a654c6dd2bf5e3e1f7c8582f9b2b0341ed3a34774d73b534f3e446c015a",
+    "entities/trader_antifighter_frigate.unit_skin": "b27a6ea8ca7c83959c797f8ba3beeb833f873d725a41845a7fe591902c28b951",
+    "entities/trader_torpedo_cruiser.unit": "6875aa6691b62be7f5f5615dbc2d88099e1ce85bb4f118217c48b52aa9eba6e9",
+    "entities/trader_torpedo_cruiser.unit_skin": "fe7a6f3dddd771c467e8359439afadc1e9cda3b9d346ddee85afd92e009678d7",
+    "entities/trader_light_frigate.unit": "21f7dc1945cb4b04f28fcd7c22e0a1cfcfdf5eae4c41af7e5270bf847f22cb48",
+    "uniforms/target_filter.uniforms": "e1e16ca7208c286f9d4ab6daefb2cc6a7da8f157e08ce7596ba28476c510855d",
+    "uniforms/attack_target_type_group.uniforms": "7bd10fe76bc0c6f3f7273be8d477d4e7f82d204a88f8e7bcdabbd70d5b56f588"
+  },
+  "existing_candidates_verified": {
+    "mcrn_corvette_torpedo.weapon": "f60179e6ac4a27fad5b6f9d7491d09a9b82798a4e066981114eb90af6218d401",
+    "mcrn_corvette_torpedo.unit": "4d5d0a83e3445341e06ac7ff22b6f288a031b8f591c87234e86cd760f9ee996d",
+    "mcrn_corvette_torpedo.unit_skin": "7b32e3a1e95b5c2699cbd2c1df93b3d5163de1428f09ceda4311475a3feecf9e",
+    "mcrn_corvette_pdc_0.weapon": "b875e4f1700ba4bcbaca45515d9f44816681b41161a15d133014364f522d6907",
+    "mcrn_corvette_pdc_1.weapon": "27a1bdca4560be756f76771a9b1f363ae3003e33e9a46e86eb6a31e044ba6cd5",
+    "mcrn_corvette_pdc_2.weapon": "a33fe7b933e7e97b9962c9ad820c4c0e9662a7b8383f48041c3ec00a63398bbd",
+    "mcrn_corvette_pdc_3.weapon": "7e82c9b8a0c42caa36d4bb60afee1da9ae128c7747cd28fbfc5003347a64ce2d",
+    "mcrn_corvette_pdc_4.weapon": "cf06e95f0c2875226bbca2726d1b857ca19ce9f66f5ad89094447af2b5def661",
+    "mcrn_corvette_pdc_5.weapon": "669f6d041be82bfbc63e44b5f1b9e702d781820c28c1499d12a824f852db4861"
+  },
+  "staged_schema_valid": [
+    "mcrn_corvette_torpedo.unit",
+    "mcrn_corvette_torpedo.unit_skin",
+    "mcrn_corvette_torpedo.weapon",
+    "mcrn_exp_stock_dual_pdc.weapon"
+  ],
+  "proposed_unit_schemas_valid": [
+    "trader_antifighter_frigate",
+    "trader_torpedo_cruiser"
+  ],
+  "checks": [
+    "Pinned schema bytes",
+    "Existing candidate contents unchanged",
+    "Referenced installed input hashes",
+    "Exact weapon/projectile/unit allowlisted differences",
+    "Enemy filter and existing groups",
+    "Garda effect and turret aliases",
+    "Ogrov muzzle alias",
+    "One entry for experimental physical gun"
+  ],
+  "output_hashes": {
+    "mcrn_corvette_torpedo.unit": "4d5d0a83e3445341e06ac7ff22b6f288a031b8f591c87234e86cd760f9ee996d",
+    "mcrn_corvette_torpedo.unit_skin": "7b32e3a1e95b5c2699cbd2c1df93b3d5163de1428f09ceda4311475a3feecf9e",
+    "mcrn_corvette_torpedo.weapon": "f60179e6ac4a27fad5b6f9d7491d09a9b82798a4e066981114eb90af6218d401",
+    "mcrn_exp_stock_dual_pdc.weapon": "ae2eab13f20f38c3557fa17a7e3c5e7b6271767a9c9480d238a0f6c4c3ad6f26"
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "status": "PASS OFFLINE",
+  "meshes": [
+    {
+      "mesh": "expanse11_morrigan_hull",
+      "triangles": 28831,
+      "sha256": "751c376dc3271b0560208d81b081d90b9231a6ef712859582f1750888ad7fde9",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 8.318335619031313e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "materials": [
+        "expanse11_morrigan_hull_expanse11_morrigan_mat_0",
+        "expanse11_morrigan_hull_expanse11_morrigan_mat_1",
+        "expanse11_morrigan_hull_expanse11_morrigan_mat_2"
+      ],
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            15.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -15.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse11_morrigan_pdc_0",
+          "position": [
+            -9.907288551330566,
+            4.125576019287109,
+            -2.897129774093628
+          ],
+          "rotation": [
+            0.5,
+            0.8660253882408142,
+            0.0,
+            -0.8660253882408142,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "child.expanse11_morrigan_pdc_1",
+          "position": [
+            9.794371604919434,
+            4.125576019287109,
+            -2.897129774093628
+          ],
+          "rotation": [
+            0.5,
+            -0.8660253882408142,
+            0.0,
+            0.8660253882408142,
+            0.5,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.torpedo.0",
+          "position": [
+            -3.0,
+            0.0,
+            31.325729370117188
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.torpedo.1",
+          "position": [
+            3.0,
+            0.0,
+            31.268503189086914
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            -0.056458503007888794,
+            -1.6895323991775513,
+            -39.474998474121094
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    },
+    {
+      "mesh": "expanse11_morrigan_pdc_base",
+      "triangles": 138,
+      "sha256": "cbda0af5ad4120159a4a60247dc0d318d11d7331e42b98daa60cbdb74082ad00",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 1.3328008833479087e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 3,
+      "materials": [
+        "expanse11_morrigan_pdc_base_mcrn_tachi_material"
+      ],
+      "meshpoints": []
+    },
+    {
+      "mesh": "expanse11_morrigan_pdc_barrel",
+      "triangles": 539,
+      "sha256": "25f7854e78b7a6c6f9f29a5be60522d291d29b817188bf8e53165c1a0825cf80",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 1.3657139822709083e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 9,
+      "materials": [
+        "expanse11_morrigan_pdc_barrel_mcrn_tachi_material"
+      ],
+      "meshpoints": []
+    }
+  ],
+  "runtime": "NOT RUN"
+}

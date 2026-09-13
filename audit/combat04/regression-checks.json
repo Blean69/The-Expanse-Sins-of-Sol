@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "localization drift",
+      "status": "PASS rejected mutation",
+      "diagnostic": "Unapproved localization delta"
+    },
+    {
+      "check": "hero navigation drift",
+      "status": "PASS rejected mutation",
+      "diagnostic": "Unapproved hero stats/navigation/rail/ability change"
+    },
+    {
+      "check": "Martian projectile health drift",
+      "status": "PASS rejected mutation",
+      "diagnostic": "expanse04_light_torpedo.unit"
+    },
+    {
+      "check": "PDC second budget",
+      "status": "PASS rejected mutation",
+      "diagnostic": "Unexpected PDC budget/targeting change"
+    }
+  ],
+  "scope": "Full-environment negative tests; no runtime simulation"
+}

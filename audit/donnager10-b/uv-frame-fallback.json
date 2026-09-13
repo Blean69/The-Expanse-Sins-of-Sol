@@ -1,0 +1,129 @@
+{
+  "status": "PASS FLAT MATERIAL SCOPE VERIFIED",
+  "generated_orthogonal_basis_vertices": 2508,
+  "compiler_repair_fallbacks": 0,
+  "donor_fallbacks": 0,
+  "explanation": "Original Donnager supplies no normal maps; UV-degenerate or cancelling tangent sums require an arbitrary orthonormal frame for the generated flat normal texture. This is not a source-detail normal reconstruction. Donor source frames are retained unchanged.",
+  "materials": [
+    {
+      "mesh": "donnager_hull",
+      "material": 0,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 469,
+      "flat_material_orthogonal_basis_vertices": 1407
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 1,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 111,
+      "flat_material_orthogonal_basis_vertices": 333
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 2,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 128,
+      "flat_material_orthogonal_basis_vertices": 384
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 3,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 29,
+      "flat_material_orthogonal_basis_vertices": 87
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 4,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 0,
+      "flat_material_orthogonal_basis_vertices": 0
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 5,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 0,
+      "flat_material_orthogonal_basis_vertices": 0
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 6,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 27,
+      "flat_material_orthogonal_basis_vertices": 81
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 7,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 0,
+      "flat_material_orthogonal_basis_vertices": 0
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 8,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 0,
+      "flat_material_orthogonal_basis_vertices": 0
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 9,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 0,
+      "flat_material_orthogonal_basis_vertices": 0
+    },
+    {
+      "mesh": "donnager_hull",
+      "material": 10,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 0,
+      "flat_material_orthogonal_basis_vertices": 0
+    },
+    {
+      "mesh": "donnager_rail_0",
+      "material": 0,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 24,
+      "flat_material_orthogonal_basis_vertices": 72
+    },
+    {
+      "mesh": "donnager_rail_0",
+      "material": 1,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 12,
+      "flat_material_orthogonal_basis_vertices": 36
+    },
+    {
+      "mesh": "donnager_rail_1",
+      "material": 0,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 24,
+      "flat_material_orthogonal_basis_vertices": 72
+    },
+    {
+      "mesh": "donnager_rail_1",
+      "material": 1,
+      "source_normal_texture_absent": true,
+      "generated_normal_texture": "expanse10_donnager_flat_nrm",
+      "uv_degenerate_triangles": 12,
+      "flat_material_orthogonal_basis_vertices": 36
+    }
+  ]
+}

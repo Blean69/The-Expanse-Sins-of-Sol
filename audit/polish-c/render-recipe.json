@@ -1,0 +1,39 @@
+{
+  "source": "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/mcrn_editable.gltf",
+  "source_sha256": "9cc667f8a55e04c69881e20499945ce7997519b06faeee8778c0b13854fd4bb9",
+  "source_buffer_sha256": "01aa5e4cffbbbef5f4c43682b4f383628679cf83650ae1c84513723319285cba",
+  "triangles": 14622,
+  "camera_basis": [
+    [
+      0.7803805282839275,
+      0.0,
+      0.6253049104839162
+    ],
+    [
+      -0.23984779590714161,
+      0.9235120770132178,
+      0.29933004929211277
+    ],
+    [
+      -0.5774766366475658,
+      -0.3835693465473128,
+      0.720690842536162
+    ]
+  ],
+  "portrait_master_size": [
+    1836,
+    864
+  ],
+  "portrait_fill_fraction": 0.9,
+  "lighting": "Double-sided absolute Lambert ambient0.38/diffuse0.62; source baseColor UV samples; studio gamma lift0.65/exposure1.05 for small UI readability; opaque hull alpha ignored according to glTF alphaMode",
+  "alpha": "Opaque materials force alpha255; source alpha decals use cutoff0.5. HUD strip opaque gradient. Other sprites transparent RGBA.",
+  "silhouette": "Orthographic +Z right/+X up union of actual source triangles; no culling; no invented geometry",
+  "ui_format_evidence": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/README.md:73; UI stays PNG",
+  "texture_sources": {
+    "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/textures/material_baseColor.png": "6b52eb697f17719924f09b4471a2067d5d258cd96e8a246f10d45dd553259db0",
+    "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/textures/Primary_baseColor.png": "8cc0e6bff573d7da923cade9ad893bab928cedefaba799b958ed9242ce523835",
+    "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/textures/Secondary_baseColor.png": "c34cf4b29ac88357bc4998e1d006b544ed1bab67c64250c59a46d5a8a97c78b3",
+    "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/textures/Texts_baseColor.png": "111198059f95a32ffa8aa09b2f89f4c238937e60bfadd4fa5191e84af272597f"
+  },
+  "runtime": "NOT RUN"
+}

@@ -1,0 +1,40 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "meshes": 8,
+  "materials": 8,
+  "textures": [
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/textures/expanse06_amun_surface_clr.dds",
+      "sha256": "09484852c84a914fee40ca55f6802aa2be3002328c8e77cf64c35d4f7a1271f6",
+      "width": 2048,
+      "height": 2048,
+      "dxgi_format": 98,
+      "fourcc": "DX10"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/textures/expanse06_amun_surface_msk.dds",
+      "sha256": "be683c473b845a8cfa5cb15aaa9c70d13c92dbf64c1e0cea7e0ac6b3a04f83b6",
+      "width": 2048,
+      "height": 2048,
+      "dxgi_format": 98,
+      "fourcc": "DX10"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/textures/expanse06_amun_surface_nrm.dds",
+      "sha256": "40aa5884687acbf236db9c35445a402699bffbed18c07dc7966f1470f943b5b7",
+      "width": 2048,
+      "height": 2048,
+      "dxgi_format": 84,
+      "fourcc": "BC5S"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/amun06-b/game/textures/expanse06_amun_surface_orm.dds",
+      "sha256": "7c09006790e01a20b8d3011c4bdcc76fe6541264dfedc2ab848c9df8cca9dfe5",
+      "width": 2048,
+      "height": 2048,
+      "dxgi_format": 98,
+      "fourcc": "DX10"
+    }
+  ],
+  "all_mesh_material_and_texture_references_resolved": true
+}

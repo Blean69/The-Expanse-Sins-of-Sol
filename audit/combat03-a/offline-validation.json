@@ -1,0 +1,71 @@
+{
+  "result": "PASS for candidate definition schemas and explicit reference checks only",
+  "runtime": "NOT RUN",
+  "schema_count": 62,
+  "schemas_passed": [
+    "expanse03_heavy_torpedo.unit",
+    "expanse03_hero_railgun.weapon",
+    "expanse03_hero_torpedo_salvo.ability",
+    "expanse03_hero_torpedo_salvo.action_data_source",
+    "expanse03_hero_torpedo_salvo_on_self.buff",
+    "expanse03_torpedo_cycle.ability",
+    "expanse03_torpedo_cycle.action_data_source",
+    "expanse03_torpedo_cycle_on_self.buff"
+  ],
+  "private_create_torpedo_chain": "Both buffs point to private torpedo unit -> installed torpedo skin -> installed mesh/effects",
+  "normal_schedule_arithmetic": {
+    "ability": "expanse03_torpedo_cycle",
+    "nominal_torpedo_spawn_times": [
+      0.0,
+      0.0,
+      10.0,
+      10.0,
+      20.0,
+      20.0,
+      30.0,
+      30.0
+    ],
+    "expected_cooldown_start_if_buff_dies_at_last_interval": 30.0,
+    "expected_next_ready_time": 150.0,
+    "runtime_status": "NOT RUN; schedule calculation only"
+  },
+  "hero_schedule_arithmetic": {
+    "ability": "expanse03_hero_torpedo_salvo",
+    "nominal_torpedo_spawn_times": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "expected_cooldown_start_if_buff_dies_at_last_interval": 0.0,
+    "expected_next_ready_time": 120.0,
+    "runtime_status": "NOT RUN; schedule calculation only"
+  },
+  "railgun_exact_differences": [
+    "/attack_target_type_groups",
+    "/damage",
+    "/name",
+    "/uniforms_target_filter_id"
+  ],
+  "private_projectile_exact_differences": [
+    "/ai/attack_target_type_groups"
+  ],
+  "local_action_value_and_filter_references": "PASS",
+  "same_well_constraint_schema_and_installed_evidence": "PASS",
+  "installed_alias_dependencies": "PASS: five aliases and direct particle/sound resources exist",
+  "package_readiness": "BLOCKED until real aperture integration and explicit experimental labeling; no complete-magazine or runtime-success claim",
+  "output_hashes": {
+    "expanse03_heavy_torpedo.unit": "b61a546c7687defdd7a1cd87fd82e493c85169fdbf7256161dc32d69a912194e",
+    "expanse03_hero_railgun.weapon": "903de04c56b9b456626ccea71c0a8300c22d4fd4d6a7727915cb29e408874636",
+    "expanse03_hero_torpedo_salvo.ability": "a351a5095c8f7b9953ee3c6431eb863e823fad39bd6618ac606e0348840d5983",
+    "expanse03_hero_torpedo_salvo.action_data_source": "334b3c900a759d1cfaa18de3689cacb4f1b4a19267c54f8d9f74313951149e90",
+    "expanse03_hero_torpedo_salvo_on_self.buff": "e335018444ee04f2b5c173af81a8514929eba4a6308239dccd1400541782a580",
+    "expanse03_torpedo_cycle.ability": "bafe620e953a3dfdab83b84837e502a2fedf03c6f934d545edc6d0ed029d14f4",
+    "expanse03_torpedo_cycle.action_data_source": "c3795c320e002a37c21c2d19cf1ac23085d1e2d7aaf43e3be2eb9ff3d191faa5",
+    "expanse03_torpedo_cycle_on_self.buff": "e335018444ee04f2b5c173af81a8514929eba4a6308239dccd1400541782a580"
+  }
+}

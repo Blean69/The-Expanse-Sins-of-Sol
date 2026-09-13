@@ -1,0 +1,54 @@
+{
+  "old_game_to_new_game_rotation": [
+    [
+      0.9999823697490017,
+      0.0,
+      0.005938029232905325
+    ],
+    [
+      5.8165679801001125e-05,
+      0.9999520234100465,
+      -0.00979527921539185
+    ],
+    [
+      -0.0059377443465116865,
+      0.009795451911667693,
+      0.9999343940048876
+    ]
+  ],
+  "pivot": [
+    0.0,
+    -10.112395,
+    3.162117
+  ],
+  "source_to_game_rotation": [
+    [
+      0.39486179986706543,
+      -0.0007361836517236977,
+      -0.918740233711016
+    ],
+    [
+      0.105254696726281,
+      0.9934517854831294,
+      0.04444095788167666
+    ],
+    [
+      0.912691408868737,
+      -0.11424976128646083,
+      0.3923536468840153
+    ]
+  ],
+  "source_rotated_center": [
+    0.8799434430275922,
+    -0.14603885889677126,
+    -0.2937967509940494
+  ],
+  "scale": 208.6639007429145,
+  "target_center": [
+    0.0,
+    -10.112395,
+    3.162117
+  ],
+  "equation": "new_position = R @ (old_position - target_center) + target_center",
+  "geometry_change": "Uniform rigid normalization only; original source per-segment deployed poses retained. Corrective simplification max error0.005 vs0.04, same pinned library."
+}

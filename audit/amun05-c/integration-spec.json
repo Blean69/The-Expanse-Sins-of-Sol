@@ -1,0 +1,34 @@
+{
+  "owner": "Worker C / validation",
+  "status": "EDITABLE TORPEDO INTAKE READY FOR REVIEW; NOT GAME COMPILED",
+  "editable_scene": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.gltf",
+  "dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.bin": "fb49a7353c9605e0cc2669fe3cf01ba5bc95ac6db5fbf61828c4b872b1bedf4d",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.gltf": "36736f580a2ed45235c27d1da82841a7a8423bbc3be91ccea9e63f570f4b0e49",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Base_Color.png": "b0c7c99cc52aba63724fb8954ce80a529e097b16ebc1c179ef31fabcf5ff8535",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Emissive.png": "223ff910d9679722175223df1b14fdc40604022dc96cc57973c0abe1c13916ba",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Metallic.png": "e91f87c353050d7e76cf07eaeafce849da934319adfd3004ff0627af74825238",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Normal_DirectX.png": "50477a1343e15e6a33e7f1342edc8fd5050e6e9843a74243dd6e9704b5e0ea6a"
+  },
+  "source_archive_sha256": "fa0d7ee158c53ee1e07d362eb1cfc49ab08fe3da9f5b11c2cd414c7c50d71441",
+  "source_root_node": 102,
+  "triangles": 1600,
+  "length": 16.510756,
+  "coordinate_convention": "Right-handed glTF, local+Z long axis, no compiler handedness conversion applied. Source+Z end is the narrow nose; verify against preview before integration.",
+  "report": "/run/media/haker/NVME 2/expanse-workers/validation/audit/amun05-c/report.md",
+  "previews": [
+    "/run/media/haker/NVME 2/expanse-workers/validation/audit/amun05-c/torpedo-isolated-preview.png",
+    "/run/media/haker/NVME 2/expanse-workers/validation/audit/amun05-c/torpedo-side-preview.png",
+    "/run/media/haker/NVME 2/expanse-workers/validation/audit/amun05-c/equipment-preview.png"
+  ],
+  "game_files_to_copy": [],
+  "entity_patches": [],
+  "health_changes": [],
+  "next_steps": [
+    "Review actual rendered source candidate",
+    "Compile with established handedness/winding convention only once",
+    "Convert source atlas to verified private game materials/textures",
+    "Main may patch only private projectile skin/mesh appearance while retaining approved MCRN health and weapon/ammo definitions"
+  ],
+  "runtime": "NOT RUN"
+}

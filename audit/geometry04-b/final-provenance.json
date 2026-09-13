@@ -1,0 +1,854 @@
+{
+  "worker": "B",
+  "source_head": "9e40dd4b42853318ef87cc3d7d858f2abf601176",
+  "source_status": "UNCOMMITTED ISOLATED WORKTREE; exact script hashes below",
+  "preserved_inputs": [
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_editable.gltf",
+      "sha256": "1c382db63e7e3f131ee95dbbe1976bdab3855819cac477d4034db1e47902215d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_hull.bin",
+      "sha256": "e58644f1fe14f02bb607862b8923c19deee626c6e2a2616f232e2cf13bbb3fc0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_hull.gltf",
+      "sha256": "0738a2be3ac5321b1788b979b8f48a8c2b57723921550977f0a0d6bd0fb0b87e"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_hull_editable.bin",
+      "sha256": "02ecf582fcf37db45805062d0e6ecb66f98d1562a42261201a75faf57f1880fb"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_0_barrel.bin",
+      "sha256": "1f319aea0003cc3050a23137ac607b43811d4aa12cad072786f42ad8ba1957f6"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_0_barrel.gltf",
+      "sha256": "6174ee8088dc3ede9fa3dab4d011273b5390fff986f68b1e76cb36a1118fd95f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_0_barrel_editable.bin",
+      "sha256": "80f5d853b610bdb09a36b0fff742535d68726a40863791ae88a4bc70e93b71e7"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_0_base.bin",
+      "sha256": "87c80f35c2f45479ac331e5b69a9e8c37a5eadb78af9fd94765d122647d46539"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_0_base.gltf",
+      "sha256": "afab2260c285c817e3f2af6fc66bfa390b11e39b7aff36840ad6d68fc5c40bb0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_0_base_editable.bin",
+      "sha256": "c47fffbcfad62924fa91517b851f85aa8272d92cb03f435ba59c40f90f271825"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_1_barrel.bin",
+      "sha256": "6c49c71e500c7c3e9e52605ab12d1a94554285fd047d2d66f3b69cb40810a8b9"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_1_barrel.gltf",
+      "sha256": "06e7fd7ae58e73ccf1ba94d4c0fb6025bb26a4d91785633b7f9e513dafc0fd64"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_1_barrel_editable.bin",
+      "sha256": "974f2efecd37fa4a61e783d15bf8df092560e38eac7a751208705789a0c18989"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_1_base.bin",
+      "sha256": "529317ddd1fd08f9939182e4164cec0f96a2a191996fcc1b0553a5c1ac960369"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_1_base.gltf",
+      "sha256": "bdaaa484ebda4618a5bb3986ce77a86c05cc11df2203e8df56a65c3eef43f6e1"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_1_base_editable.bin",
+      "sha256": "9c6be7ce28c939d0f118a965812a96ea9f14fe4166d9bf7d3c3474c1f99916d9"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_2_barrel.bin",
+      "sha256": "3820b3b96f424f2dfe5231145c1c265db7753ff6abd0dc08057f5855db0d8710"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_2_barrel.gltf",
+      "sha256": "850ee1dea5bdafca235902f120c443270b767527313aca0eace67be983ce0fed"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_2_barrel_editable.bin",
+      "sha256": "ab06993c2ebf4706b11581a7f7691091b621b126b1384b5e036f2d9ea07bb66f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_2_base.bin",
+      "sha256": "162b5c8b6b5b0982e9143666c3dac7cb3c6354dc590673250d5f7ef00fd55be4"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_2_base.gltf",
+      "sha256": "f6f45062dbdd6c8415611a4288036e7b3e67d2ee3b123b46615ca3c575c06305"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_2_base_editable.bin",
+      "sha256": "ee69333bcb9a242ef817c725aacb6cf33e599ac39c3a19735d8f5cd1427f1bf5"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_3_barrel.bin",
+      "sha256": "0e676acf551e9fd97d0a5d004732d9b647156927fb516b66a29b77ebb83e90ee"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_3_barrel.gltf",
+      "sha256": "f04afaa8d4cfbd62cac3d3df2c85334f2e8130cd1d9d62062bbedd7c17015070"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_3_barrel_editable.bin",
+      "sha256": "7609ec0d689d4e1a9707ac2ecb85f024acdb59be65e12a62cafe79d4348bb579"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_3_base.bin",
+      "sha256": "53ef9aafe591eb6e291670690d456ee43661af54b24eb8e337f6b796f792ea87"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_3_base.gltf",
+      "sha256": "2b6bce2b0065c178b28a4d659be135e5b91e030c55eed611b9592c195bd56339"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_3_base_editable.bin",
+      "sha256": "52760ca1893cb003837b364a4fc6a4736e42d18d539970dcd899fec0a07e9198"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_4_barrel.bin",
+      "sha256": "496216e7dc71817fa877e8b57b8bfdb2bd39fc96d69005772953b7143146c92f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_4_barrel.gltf",
+      "sha256": "4c7d77481fcb85806d2b2e8222cdfea3d828bcf45e1716ce59ad97a2b52ae970"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_4_barrel_editable.bin",
+      "sha256": "bacb2bae8c77fcb45672a879b3184d76dfb614259309b2c8fcacbd44eaea23a4"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_4_base.bin",
+      "sha256": "96eeca283b17eecd8638baaaa4bd20f30aabd06df3f102a28a937e10c83e353f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_4_base.gltf",
+      "sha256": "c27818a9f7c15fa6f92a3817e1c7b0e9edfaf6492fa1bfb1de01e5e60fa6b738"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_4_base_editable.bin",
+      "sha256": "7906067b4a09f8272a57bef8abf8fc2aa71cbd6585e5680c8dbe645fc949a015"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_5_barrel.bin",
+      "sha256": "f7b99c5b569345701545a2504d357e4cc40c833c1cc4a54eae773b57470d3302"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_5_barrel.gltf",
+      "sha256": "91b7e32406bafe4c4cc159028e8f7f3b79228bcb28114388d4810b37c6ebe4db"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_5_barrel_editable.bin",
+      "sha256": "1e384dad9cb9c67344247aa47417df998a08b37f67590e1409a7830b65022bf0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_5_base.bin",
+      "sha256": "55554a9ec003fcab428cb9b53f997a1945b3d0cca0239368f3f9b86502854b7d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_5_base.gltf",
+      "sha256": "9dde6cbc6f36c38efa3014ffff8a25e54b7073b6a7fcfce0b74c0f06d79c34bb"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/expanse03_pdc_5_base_editable.bin",
+      "sha256": "9581309a0cf9063b2525e6d02992afe120b7becd9cd0d6f17aa38e27ab03caea"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/corvette/retained-source-frames.json",
+      "sha256": "1400fe19ea20ae1f8d8190787908ddc5f39638f2579ecdc3212b775624ec89be"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/expanse03_hero_static.bin",
+      "sha256": "c4fbfb8edbed77988e765aae43aa71cc4e987a78518e7a4451e08636cb605769"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/expanse03_hero_static.gltf",
+      "sha256": "c6b8e018dc85962fc1aaf89eae149fb7c6216434ab22ed3522d2f9452e819f6f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/expanse03_hero_static_editable.bin",
+      "sha256": "0eab820c7c56540d2ff826b10b565f65e6843527d47a823bba79775577e97fb7"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/expanse03_hero_static_editable.gltf",
+      "sha256": "b6e17e981b847c60b8d430598f493e23a8d3d51c63994d77b19312500c58d7c6"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/materials/expanse03_hero_mat_0.mesh_material",
+      "sha256": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/materials/expanse03_hero_mat_1.mesh_material",
+      "sha256": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/materials/expanse03_hero_mat_2.mesh_material",
+      "sha256": "4cd80dc510d778371123ff6d93c3405adf39759564606f34bbf61498a25cffa0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/retained-source-frames.json",
+      "sha256": "6a860aab7b4903ef022b5636f166190ec8d11db7f0f2776280eddf2c71991026"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/rocinante_stand_free_animated.gltf",
+      "sha256": "0caf9aa728cc593c38f209e20a44ec9411eba7b0c76a093c9038d8331a854fd0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/rocinante_stand_free_deployed.gltf",
+      "sha256": "85f166bb6074187aef955c8f687e6aa4be8547b27cf72e00fa261fec0e93f827"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_0_clr.png",
+      "sha256": "9344bb966376da23bb8e89864b803808a4ca974e4efd8617161531b2f749cf28"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_0_msk.png",
+      "sha256": "6fa466e21df6bf014ed03517399a711777f572b1f0be6a561b947790cda9f634"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_0_nrm.png",
+      "sha256": "27a3fbb44eb50bdf6d17b737c6be1e7f6069ccc0f2c9b619bec9f9b81ab5018a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_0_orm.png",
+      "sha256": "da8c9ed39b297a9d77e9bc6b7faa64eb8e96fd320774d4e78e0d59af3f7c6f38"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_1_clr.png",
+      "sha256": "f56976d2d52a825c07153f4210d6bd00fe383245011e524ad7ba20b971177c79"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_1_msk.png",
+      "sha256": "6fa466e21df6bf014ed03517399a711777f572b1f0be6a561b947790cda9f634"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_1_nrm.png",
+      "sha256": "27a3fbb44eb50bdf6d17b737c6be1e7f6069ccc0f2c9b619bec9f9b81ab5018a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_1_orm.png",
+      "sha256": "fe0eeef8316c0b50e05d2d9a19bf6eabe97e6c76277641bce5fb04d907e9e4f7"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_2_clr.png",
+      "sha256": "0ab087aaccaee3abcecc0da8cef7db647fb7ca4ed65967bce96449112120481c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_2_msk.png",
+      "sha256": "6fa466e21df6bf014ed03517399a711777f572b1f0be6a561b947790cda9f634"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_2_nrm.png",
+      "sha256": "27a3fbb44eb50bdf6d17b737c6be1e7f6069ccc0f2c9b619bec9f9b81ab5018a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_2_orm.png",
+      "sha256": "da8c9ed39b297a9d77e9bc6b7faa64eb8e96fd320774d4e78e0d59af3f7c6f38"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-armed/expanse03_hero_armed.bin",
+      "sha256": "0ada609f8e5927748f29869d8edd2c2220c7b01385ac70ab71dc0f6c5f258e75"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-armed/expanse03_hero_armed.gltf",
+      "sha256": "b632d4215fd9a1c6018b0a4ebc3b9deb23497db94cf874758e8a8b17d3bca57f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-armed/expanse03_hero_armed_editable.bin",
+      "sha256": "4207bf348242d5fd738a366fc0022607f745c5fd73ddc07e2b8638ed0285a2cc"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-armed/expanse03_hero_armed_editable.gltf",
+      "sha256": "07ab4f6aef5f9fe7a4737bb593e057b956a88ced2d8a4038eab78dd99148ddc7"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-armed/retained-source-frames.json",
+      "sha256": "87ccd28ada823c17c11d592129b6c65b9229dc0132fee233638abe06a1277181"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/REPORT.md",
+      "sha256": "9b9fd27738d5edafbeed625494105815fba68ee308767a858789ef1654631deb"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/corvette-winding-correction.json",
+      "sha256": "5db17971db85b0882a4a655d1e8496b3852b842b03f13e3e40f68a6fa3d5481f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-armed-equipment.json",
+      "sha256": "70f6884012500b8bf030c8385242446ced90e930c6caea08106aa89f9fa132b6"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-armed-mount-metadata.json",
+      "sha256": "e57de3725afb309431f9f40fc4a4a34b097d9ae7bb24ccaf56d7a513daa7deca"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-armed-output-validation.json",
+      "sha256": "a197814813dffaadfe5f62e5058291de8915a1125bb0e3bb269be2351312850d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-armed-resources.json",
+      "sha256": "5a4de9bd4afe1916b01e14970fe03cb66e2968d2d1767e088bd410fe1f9911a1"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-armed-static-preview.png",
+      "sha256": "b6fc526cf623235824aef6c4c57100e9940013de5a397778fd86921a0f2e65a0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-armed-winding-correction.json",
+      "sha256": "79e740cf6cf51ef21f520c2336620ed4287b3a269ece85b0274cca96e099d60b"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-asset-audit.json",
+      "sha256": "c5ca11c6994ebdd712695b25504c5e7eb73990f5d1988d78c31d3f6277ed6e2b"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-cannon1-isolated.png",
+      "sha256": "00765ae58609663c3af05db529bcb8a14ec907bfe7de03969b6724cc053e2425"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-cannon2-isolated.png",
+      "sha256": "18e0fb0e048679cd72f242271bf89ea3bd9fae7bb44f45dee2d349abf70fa5a2"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-equipment-mounts.json",
+      "sha256": "f97464af34088883954d253177fdecb9c40dc516775aee03281ece6c2a05e08c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-equipment-view.png",
+      "sha256": "88e872982db9c0cf98194f9007c7437f342ceaba30de4f9b72b96ea7441382a2"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-mount-metadata.json",
+      "sha256": "440db3f720fcbcc6035e8a4c62de35349307aaa7e08e1336a34b3314da583b1a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-one-pdc-parts.png",
+      "sha256": "b8c955a927c14a8d1f18ef2eb1c06e5763b7ded0b55c3f9c2450edd1b9f0d26b"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-output-validation.json",
+      "sha256": "0a53cc53f31dfa430b234df7c513c427d06c9cb1e12e8d0db224a49d20e362fd"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-static-preview.png",
+      "sha256": "c7d29b74e9eac84013e4c77a41ce3d396f80affae30b89df316ca2a4cc88ea6c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/hero-winding-correction.json",
+      "sha256": "d5fab2210b5bc1f9c76efaccdfea4e8f67fd633186361f654538fa98f3c889c8"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/mount-metadata.json",
+      "sha256": "12bafd14dd8803fdd4c162b1a59cd60b817dd6da0e30b0c57770b04a64fd7257"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/output-validation.json",
+      "sha256": "c4bf97223be7423e028f99ac1b2c781a4a74907189a885a1e67383672f6c5623"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/six-pdc-mounts.png",
+      "sha256": "ac0e3e758141f8a66a983cfbfe4f1fcc760635d2c229cbe96fbdcf770fdbe5ad"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/torpedo-bay-inspection.png",
+      "sha256": "90db0d49868cca239c0a31e71141fa2af99175511852a662f62faf9171925094"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/torpedo-mounts.json",
+      "sha256": "0b794ad0d2bf1e8197428832ce5618773a10aeb6f3699711c335f807efffeb1d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry03-b/winding-correction.json",
+      "sha256": "0592444e50867569389c2b33d70ca012b05650dd58ed0d76a9aff61eb31a3bbc"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_hull.mesh",
+      "sha256": "9c6a2107e3b0b26b41cd6654418bdcab190a2c7ee4a91d265937d5e9103d008a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_0_barrel.mesh",
+      "sha256": "927f872b1d51cd9888b1d8a14ce0dcf98f329f6c1872f6e32e0a5b3f1c33baa0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_0_base.mesh",
+      "sha256": "51be2e27b143757853263b4ec292bd50411e4a2185fe740ebbbfb33490165ada"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_1_barrel.mesh",
+      "sha256": "371c4ed7d13f3d253ccfdd5a65bbaf4e2173f670ce957b66e2d00363edc0e5a4"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_1_base.mesh",
+      "sha256": "a83cf89f83b5089554a8d5b9d473a467d68382b95fe8cc851f83725bc7e4d832"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_2_barrel.mesh",
+      "sha256": "98b5890f363c2e798721aacf629fde37e1b1e6c1fde06175450b49425313d582"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_2_base.mesh",
+      "sha256": "ea7d5e43f8c73a37dcbfae1c9ec62749156e6e2bfb4cc6b5acdacecb84fa4a6d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_3_barrel.mesh",
+      "sha256": "fd9ab3af8b1510f409421fec0ffb2e32551817b1060121038ea5cf493456218e"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_3_base.mesh",
+      "sha256": "7a3a44cd4d67b7708ae12cb89c50e22e82857e5482e0c099dc79767d61056eaa"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_4_barrel.mesh",
+      "sha256": "ce2501bedb5414d78c99f1763fd923e4be301360781276a963fc21b83fd3fc1c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_4_base.mesh",
+      "sha256": "003c1db3d5c2061e451fa80d603609d2a27aacb457b528a7ae3201bc77b7aac8"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_5_barrel.mesh",
+      "sha256": "0062df1ce6147aa39aa26796b97ab63e7d37d056b27565dfee6ed156922c9ff5"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/corvette/game/meshes/expanse03_pdc_5_base.mesh",
+      "sha256": "7b6a1f7abe69bca76e2c5ecb5011a4dc5d34c82443766c86366676152cf1f355"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/mesh_materials/expanse03_hero_static_expanse03_hero_mat_0.mesh_material",
+      "sha256": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/mesh_materials/expanse03_hero_static_expanse03_hero_mat_1.mesh_material",
+      "sha256": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/mesh_materials/expanse03_hero_static_expanse03_hero_mat_2.mesh_material",
+      "sha256": "4cd80dc510d778371123ff6d93c3405adf39759564606f34bbf61498a25cffa0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/meshes/expanse03_hero_static.mesh",
+      "sha256": "1f8523255048bbb0bd8b8e4535768325c93c9f25681b1171d46efcfd0fb009f0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_0_clr.dds",
+      "sha256": "69156133affc0598cdc27e7b84d06a122d18d2ccb7b92d8f78bd35a4a5c1211d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_0_msk.dds",
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_0_nrm.dds",
+      "sha256": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_0_orm.dds",
+      "sha256": "2e561e9815a8bd76e2a3f5dbca83a050664a8882345a914861b83619bfdb239a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_1_clr.dds",
+      "sha256": "58ce7342e51132fa4646bf38354beacb4bbf5d92923ee8e36136ee30fc04d39d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_1_msk.dds",
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_1_nrm.dds",
+      "sha256": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_1_orm.dds",
+      "sha256": "f30bc274cf8db93ef40a3429b10793072238dd8cee9849d22b46bb6c4640934c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_2_clr.dds",
+      "sha256": "cd30bee1a536e3fbca11980282eaaeab79284c1392b28c0c5486bf19f2905c29"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_2_msk.dds",
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_2_nrm.dds",
+      "sha256": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero/game/textures/expanse03_hero_mat_2_orm.dds",
+      "sha256": "2e561e9815a8bd76e2a3f5dbca83a050664a8882345a914861b83619bfdb239a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/mesh_materials/expanse03_hero_armed_expanse03_hero_mat_0.mesh_material",
+      "sha256": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/mesh_materials/expanse03_hero_armed_expanse03_hero_mat_1.mesh_material",
+      "sha256": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/mesh_materials/expanse03_hero_armed_expanse03_hero_mat_2.mesh_material",
+      "sha256": "4cd80dc510d778371123ff6d93c3405adf39759564606f34bbf61498a25cffa0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/meshes/expanse03_hero_armed.mesh",
+      "sha256": "bba6b43d21a18439855c5b44a1fd90ab00973b3abfedccbd7c0065859b26a76d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_0_clr.dds",
+      "sha256": "69156133affc0598cdc27e7b84d06a122d18d2ccb7b92d8f78bd35a4a5c1211d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_0_msk.dds",
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_0_nrm.dds",
+      "sha256": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_0_orm.dds",
+      "sha256": "2e561e9815a8bd76e2a3f5dbca83a050664a8882345a914861b83619bfdb239a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_1_clr.dds",
+      "sha256": "58ce7342e51132fa4646bf38354beacb4bbf5d92923ee8e36136ee30fc04d39d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_1_msk.dds",
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_1_nrm.dds",
+      "sha256": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_1_orm.dds",
+      "sha256": "f30bc274cf8db93ef40a3429b10793072238dd8cee9849d22b46bb6c4640934c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_2_clr.dds",
+      "sha256": "cd30bee1a536e3fbca11980282eaaeab79284c1392b28c0c5486bf19f2905c29"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_2_msk.dds",
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_2_nrm.dds",
+      "sha256": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/textures/expanse03_hero_mat_2_orm.dds",
+      "sha256": "2e561e9815a8bd76e2a3f5dbca83a050664a8882345a914861b83619bfdb239a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_compile.py",
+      "sha256": "02c411aa0bfdd2381fa8e54dfdf1711dd0d3f8f4f8afddf4a07dd11c8df9643f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_corvette.py",
+      "sha256": "02ecb46d84800d8b12821ceb96ea6e2f0ad3d6ebb1ae99542d94c2a679dcebe3"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_editable.py",
+      "sha256": "99a53f3a625e78ddae4dc3ea33a68d9d966a8a92637c95c824a0f30f8cc07a30"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_finish.py",
+      "sha256": "4d452f126dbe4207f4e15082c058c1c7262a8c6205da9020b0e5a6355fce1735"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero.py",
+      "sha256": "005b2dd1b6aebdb44933e743754bef2999729bdd3ddc62f7b0528bc85b8d6dce"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_armed.py",
+      "sha256": "b0f4a73668d11d30750b078725e650d5b0e154736a98663be598328aab08be13"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_armed_compile.py",
+      "sha256": "b66957868e6be71b7e8d71c0c5258d3bc8446327ecfc47d638d81e62a689356e"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_armed_finish.py",
+      "sha256": "31a4995395fde0108d13404bdac905a1904ffac39de20905ec15d45039d31bcc"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_armed_winding.py",
+      "sha256": "f070bd984bbd10e26be0b7c109ab32cd727918b482e51fd394931926714a074b"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_compile.py",
+      "sha256": "d6894745419c12ea81cf62247de70ae5cbf3b2818c6dadb6732501a0c52da68f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_editable.py",
+      "sha256": "bede29d2d0184c398e239392eb6eebbed1609155592757b74bed1baaf019dcc2"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_finish.py",
+      "sha256": "1621f0e263ed233762ed2b19b85ec0cd79c806cd47bf0ef8600ebb6b0e951685"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_mounts.py",
+      "sha256": "235310ae162588d48fab81132bc0a460fa7234861fe77c4e900c4e2ceeb7877a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_resources.py",
+      "sha256": "80e69fb71216b2c1cb0a853a597c8c521f810be8804c52bd9a74cb8e8e494abb"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_textures.py",
+      "sha256": "96d5197e59c9dacf3ce7fbe4e3afc7463a7fc038938c21ab4897f2dbac65288c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_hero_winding.py",
+      "sha256": "6c4d8f07b9a780185be0fbe2faeb4d3e233ea3e3d330a30fa1ccc42eb3cac979"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_provenance.py",
+      "sha256": "bff8a325a5f77b32c9469630556d2c2ec819c37ef215dfd50f25654a10d6ebbc"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry03_winding.py",
+      "sha256": "1fcbf8be749754a8ef3c5f2b1b1f03880657b74640d38c954020e637ea98381b"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/mcrn_editable.gltf",
+      "sha256": "9cc667f8a55e04c69881e20499945ce7997519b06faeee8778c0b13854fd4bb9"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/scene.bin",
+      "sha256": "01aa5e4cffbbbef5f4c43682b4f383628679cf83650ae1c84513723319285cba"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived/pdc-rigs/mcrn_pdc_1_base.gltf",
+      "sha256": "ced0ae5e263de06429cd5ccf69e56229eb5b8c72618989875e0641da1677e83c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived/pdc-rigs/mcrn_pdc_1_barrel.gltf",
+      "sha256": "a95e604e9d602cd8c86f78b4783f4fa80426b7c69d11b41da68a0d42ba0af03c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/audit/pdc-rig-candidates.json",
+      "sha256": "d2aa5f52312cf017b52a80a919eaf196acc128254c7b39579b569ccbbedf3b2f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/MeshBuilder/bin/MeshBuilder.exe",
+      "sha256": "6eb01c73910e565c7db33fef8edc95d5258c4e6ad2d71075b0e7af071dc6657d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-master/background.jpeg",
+      "sha256": "a59371956303a36f6e3f8e7b72490d29eccbd560267dbd468f677c574ba17086"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-master/Rocinante_(The_Expanse).bin",
+      "sha256": "0d52248f937dbde55980f986f9b3c6a1a9d6ac8ee10dd93b094286544a8cdeab"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-master/Rocinante_(The_Expanse).gltf",
+      "sha256": "e3083cccb204e638c168885de102b1b054bba8186a7dcaa6185829dea91d555e"
+    },
+    {
+      "path": "/home/haker/Downloads/Rocinante_(The_Expanse).zip",
+      "sha256": "2fef806f80c65f138eed9b877c6cd1ae98f12e597856b96cfb1c6676a16af3e6"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero-original/Rocinante_(The_Expanse).zip",
+      "sha256": "2fef806f80c65f138eed9b877c6cd1ae98f12e597856b96cfb1c6676a16af3e6"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_hull.mesh",
+      "sha256": "ef3c73d9938e96bc6d7464ad6143d2d48f484fbe1f7e25c12ac42e893abd03e9"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_0_base.mesh",
+      "sha256": "90dcf5333deee66595b0badfb6cb89ae0eb10fb6d273e472933a07eceb0d1554"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_0_barrel.mesh",
+      "sha256": "b159ee8e3bcb84c6207f05732f4254872d8acd79151c648a380ee2ecacc40fff"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_1_base.mesh",
+      "sha256": "64e842ba5e46531f8a87ad70a741c3148aa6f8ebeccb2677a912ba09a1a7ead0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_1_barrel.mesh",
+      "sha256": "36ed0598cd9a465a97f84ac9773fc27d5054018027db642e7261e3951e9579ee"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_2_base.mesh",
+      "sha256": "c9f0da05cda034331ad8a6c720c632324a759bb302e9b740a8dd12e72b3ecb09"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_2_barrel.mesh",
+      "sha256": "592649a337a452b759c3f93c465624ae23379e5393f536a651644703dbe7b7b8"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_3_base.mesh",
+      "sha256": "ed189d7aef94bc5a681108a97b85131fd9f1b9e07ac3cde35bb77457e5d9c204"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_3_barrel.mesh",
+      "sha256": "05c9978fc5771deeb5d7b5167f3e7bdbff7c2b01b11347d25f7aba23cb557219"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_4_base.mesh",
+      "sha256": "eaaed4cabeb8a36eaad0b0e76d09fd310467eee3f65e8de1ebd0eeb4d540ef24"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_4_barrel.mesh",
+      "sha256": "d2f00f7d332ead6cf12e02020a4383724d018caf01eae76c88dd584f2eb08429"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_5_base.mesh",
+      "sha256": "71cab05880cfffbec31b0d44429e82ba74ba51108a0371b099397350552f1e47"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/game/meshes/expanse_polish_pdc_5_barrel.mesh",
+      "sha256": "ce4d0287a19beb6c128976700367563b98847644e21dd9532be0612de0637b7f"
+    }
+  ],
+  "files": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_editable.gltf": "9c35a962a015e5b1979adb29c70151e0bbbc5a906cc779db8066199ee9f2ac3d",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_hull.bin": "9a2d2087cf524519b367d7612346eaa94488d7b4b62be82923088de7f78d2b6b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_hull.gltf": "a1aa23a10b75f0cbc84759133fedf2b551cd007295d3b85dff1c120f4e10ba2a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_hull_editable.bin": "53fc281c9cdce0edffca0bd8d7266c09509145501808ac611e8a37ebf362d58b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_0_barrel.bin": "002c7ead78a05836a88de5082ef59eab6f6ab6c12157d42718b7e6e1aabccee0",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_0_barrel.gltf": "2e8c6a996025462c9e185ba10a53188169225ee141987f16352d26d58dfdd354",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_0_barrel_editable.bin": "831f9eb7c619a754ba46e9c7f6b476ef428f4a59a7aceb54a57b637a272ace06",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_0_base.bin": "47216e05b0e91ee592e363f76c20e441729cb287f8bd0724abf21f4456a01978",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_0_base.gltf": "524d08dac29a6a60716ae1bc504ac66265e4bb6767466e4d1dfeb6b4cee5f8cb",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_0_base_editable.bin": "099fb3b561775d75590612e6c5f32016794b3f645fc96f6b58b4053c4f9f8198",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_1_barrel.bin": "cf154c76dfd3c9705ae8ea266e5dbfb6f5a1e185ed0e4cb5c66d4e0cf7990953",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_1_barrel.gltf": "ea2f40926237344a5847faee7d353001bab037633a0d8c906d44e473dc9c1f75",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_1_barrel_editable.bin": "d49340daced4251e5e5e84f21e9b0ea7a0e4d8b6433e1083fa50304b9ba8a261",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_1_base.bin": "cb6f90ef69fb1495b1434bcab5855532f5fbb626546e012da26a19db03fa117b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_1_base.gltf": "cd7bcb0209c8f2bb1dcefed2d96ff6dc626e0afc92fb3426be6dfb1a4b386df9",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_1_base_editable.bin": "0d060be4b9fcf506cfd5b8bdbf596717c0ec7158a91a68fe979bddde41055055",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_2_barrel.bin": "ba590a0acf885d79f5181c77d282239e9baa4f985b96ef3f72da888819d441fa",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_2_barrel.gltf": "e2f44acd91c8a6c83af43b4e0013fbcd2cf88b0eadb6495f5e52c01ed9c60c45",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_2_barrel_editable.bin": "fa72ab267e6e3255c53835097afa1f0c76e4de891feb977cdb58010f8b762f07",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_2_base.bin": "012532337c43126e331e8fdf76d3523616f7eaf94412a9592088beef4fde5000",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_2_base.gltf": "41f119286639d0509c33ab22e85da8313d641322969afe0a8d5c04b5c18c7ca9",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_2_base_editable.bin": "208137bb4303588d5d92454474383ab741b6dea98b67cf6e07d3069bb05e411a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_3_barrel.bin": "374578992d1ab32cc93d696d76026a9046fb09f1a1d1528cf987f185aef0e9b8",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_3_barrel.gltf": "1c679231d9532f9bda57e42df8bc60cc721487d128f9bb8516989e3172dd044a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_3_barrel_editable.bin": "effe62950e6d0983540ea1455c1079152e9b7077f4237666ff17b7a43da06cde",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_3_base.bin": "d6dd5628fa8c941bafc9676d60bae2962b45c9f30ef2a90dc10078931e17b592",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_3_base.gltf": "bdee20691fca4f3686e6d8c3b1f2ed2b670ffcdcb2edcead90271a19a04f1e22",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_3_base_editable.bin": "db85c0c03b898850ed173e96b8905f7c5a705d34f295c7e21f16b011d4c83bd9",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_4_barrel.bin": "01c52908d47d912970ffc6ba9d730755adbaea5aa61cf18684fb2bd5c35e5b3e",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_4_barrel.gltf": "ed3bd4dd433e20523c073fbd6e93b70628826577dc52716c8dabffa10745de4d",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_4_barrel_editable.bin": "ec1cda515a8cd8d4216430941d13f5229d19a4bf42dc1dba0b69d29029e1258d",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_4_base.bin": "656b7a59d55ee51c828bcb4563601314e369282f82b71e5defae04463a205b9e",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_4_base.gltf": "a701806bf6e535128affcfbb1850dc34d2940421514af7ee9d8f8343ec732dd2",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_4_base_editable.bin": "4f75c976b160370cd63ea38234a23e04ba379e54def8f4a65442f1f2dfc04681",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_5_barrel.bin": "b3012d2358ddec926a496a42802ae1e60f7154c20a7016f10a1c717e77756ab8",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_5_barrel.gltf": "cfab5ddbb2324d79ef1f99d04c0e6877f110357bba10a8eb9cbe67c125c7b28c",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_5_barrel_editable.bin": "0630dbd5874f65711b686c9cae9140ed26a9f9518cfc097a7419d84b95b145ee",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_5_base.bin": "76dfaf621881553e6201e6d2cf28d24c7bd761e35e0aac17524235fe70477a3d",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_5_base.gltf": "35b75b7cbb13e79c52f3610ca8be914abb065f18d36d6f317b2ec6bbec43ab51",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/expanse04_hero_pdc_5_base_editable.bin": "72239db9af7c817662b9092cb3442fb8781f3de337a1f7e93d983fb80f3f6a46",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/parts.npz": "a356451089863a523da37df7ea193b011c8d4a22ce0bf87c6cce51acdb7cb00d",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry04-b/retained-source-frames.json": "5baca4932dfcce29ca162e94530955223d4fe7ecdee1298cd04efb6e177b4678",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/REPORT.md": "6bd16741742facd59f113b5217208c70a6d6310808f9ef899b37c2a641957538",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/corrective-preview.png": "e292a919de5ad8a40db7541b981315e187898af44351688d70a24a61430dde1b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/deployment-axis-evidence.json": "a8c999a6bfe5f5d78676f25d8f1aac1208e3653263857ef17f3bc13e95c3c10f",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/equipment.json": "658681e9bc40513008e181407d89ee80b5e99925d3ad9f22aa53e11786d19dfc",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/hero-aiming-rig-view.png": "2afd3353a3e9c7f93c5f7559d3eaf2a88863fc21ea4ddaea47f82ef91b750e63",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/independent-geometry-checks.json": "4ad5a4e6aa61fb90809b20dc25bcbf5f6028a20d50aafcb2eeabdf199e3a3209",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/integration-spec.json": "f6fe4b4df0a5b7667fb2db8115eafcd0969521e408c13d3d37907ca27d6cfef2",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/material-resources.json": "8c2a0dc02e4aad9f7b31525d9f1ff362a0d4ac0d12f277469a43d7399f9f43a7",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/mount-metadata.json": "ba7fb8c63e17505d165dbd928f1768f836bba3d2fc0374ad0d1bee4785f3a940",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/normal-repair.json": "6402970874d37b4a74a8223150a8d1bcec33fccb6e19718678c8d0e926f66211",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/normalization.json": "a58c0e77902847441da91cfac52e0fb57fe73bd4cc6ab2d1b641dcf5d5923e3c",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/optimized-topology.json": "5ab4c9f3c25a49cc42188d76bd16cdf2a9ca6017afcfe29966dad019061300d4",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/output-validation.json": "0e42a8e4be844cdf7131c47a47c884396ab680772fd7d94474a69de9ea488af7",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/parts.json": "a00e2d7b31f8eaf34201c4b485c2cba0ba8fa48a41e34e19bc36fe9fe23dea79",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/quality-probe-bounded.json": "ad323be06637c9573626061741f7bee21493bd4dd7b98da2119cec888efdd39b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/quality-probe-weld.json": "bc26e773fd669a9047ef5b86ffc2ebfb7f09113c4739ad40e7ca402fae62a365",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/quality-probe.json": "7eee27e5567838c433d0b9ecce868cfe09969b3d1594e5c04080c1473da91ecd",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/six-rig-preview.png": "9f448fbadca7d7908e8b2017c51cec6e714c8b0312b5d201665c0d92160983a2",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/source-pose.json": "2d016ff2d6866e8608b4e6de11f1b61fe657fbf83d24fb54ebfe5e959ba0b155",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/source-topology.json": "0942e3e161bd5e79a9b2934dbfa2e18f375644b02b7c92f2d3b61d58349d8368",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/source-v-optimized.png": "9dffd508d5775e8383390a8a566eac6def4cb5878dcafb73a6eb1b1030acdad2",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/geometry04-b/winding-correction.json": "8a3b3c7c249d6f46b0facd7c953987935af7974c79b1fbeb397da603d6f18b23",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_hull_expanse03_hero_mat_0.mesh_material": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_hull_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_hull_expanse03_hero_mat_2.mesh_material": "4cd80dc510d778371123ff6d93c3405adf39759564606f34bbf61498a25cffa0",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_0_barrel_expanse03_hero_mat_0.mesh_material": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_0_barrel_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_0_base_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_1_barrel_expanse03_hero_mat_0.mesh_material": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_1_barrel_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_1_base_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_2_barrel_expanse03_hero_mat_0.mesh_material": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_2_barrel_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_2_base_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_3_barrel_expanse03_hero_mat_0.mesh_material": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_3_barrel_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_3_base_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_4_barrel_expanse03_hero_mat_0.mesh_material": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_4_barrel_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_4_base_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_5_barrel_expanse03_hero_mat_0.mesh_material": "470fa9334735576830da9c47c79133adb31c9f36b1738852852bd7a098f39f14",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_5_barrel_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/mesh_materials/expanse04_hero_pdc_5_base_expanse03_hero_mat_1.mesh_material": "1b8bfcc3cc6ab99b06c17edfe7d6b7c50184299e38efddc5303e8e49aabbb531",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_hull.mesh": "bab077014fd34375253cd01f43562b3520333daf03e05d915ed738ef5d8f8c04",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_0_barrel.mesh": "633cd6032b3f0c12164d08f5cf0b660f3f7f0e97a3a698e72f6294a006dc6315",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_0_base.mesh": "37671f5f6c3b5228cf6697a8a6696809ab6d30557977f5062617dbd6a9876a05",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_1_barrel.mesh": "b268f9b299207bc0f936f59a0f6dad4f0518cc15aa7d4db9ca90d7528f7fd2f4",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_1_base.mesh": "3e02eb440eb408b95f180c547d57e3a0a8793195c1525a0b240ad0ed902a6ef2",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_2_barrel.mesh": "e49dc620d285307f48e9af7fb1d8fb5829e82e02a5c95207fa3ddc060c541fe8",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_2_base.mesh": "1b97845aa0330e008ee488ec40f8f1a9a52a8be4a5c3b3fe2572c4e9f83a36e8",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_3_barrel.mesh": "a4addbf4c22b3f29bd9416bd7bf1d2a663ad0537ec7b9b37601cf19c95d74c4b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_3_base.mesh": "e5aa0e6340b2b139c4cc89b69d379cb33fa44e41b4545b6fc98c26e13fa72db9",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_4_barrel.mesh": "a54c76083efb9037a0b644e8128636e58d310f7d60626ccbee35d44ca8cdb211",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_4_base.mesh": "0c70370542e525ac996823691bae2d3a37331b8a828e41f29d6d187cfe4cf072",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_5_barrel.mesh": "43b33990cf192b17f4ec9a36aec4a33c5207aadf8d64fc37edaf8a95b4ba57bc",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/meshes/expanse04_hero_pdc_5_base.mesh": "d6d2ccbab9e6455e4f100cf1a0609d638e15ad8036a99b9a70fdd857b84f9d55",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_0_clr.dds": "69156133affc0598cdc27e7b84d06a122d18d2ccb7b92d8f78bd35a4a5c1211d",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_0_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_0_nrm.dds": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_0_orm.dds": "2e561e9815a8bd76e2a3f5dbca83a050664a8882345a914861b83619bfdb239a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_1_clr.dds": "58ce7342e51132fa4646bf38354beacb4bbf5d92923ee8e36136ee30fc04d39d",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_1_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_1_nrm.dds": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_1_orm.dds": "f30bc274cf8db93ef40a3429b10793072238dd8cee9849d22b46bb6c4640934c",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_2_clr.dds": "cd30bee1a536e3fbca11980282eaaeab79284c1392b28c0c5486bf19f2905c29",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_2_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_2_nrm.dds": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry04-b/game/textures/expanse03_hero_mat_2_orm.dds": "2e561e9815a8bd76e2a3f5dbca83a050664a8882345a914861b83619bfdb239a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_checks.py": "d3d15362e1a47504fc47b76ab03ed181dd1faa7666869170a7a3ceb18dd00878",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_compare.py": "e5fcdb34046547a3156c12abf7a4cdfd58ccc8a421c6c66fa0f5bc20d1215d6a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_compile.py": "39f73379518e7613028d7387b2f6617e82ee21799855d128148be71cff89ad76",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_deployment_axes.py": "1d2e03288135f4d20234b0f6b41fbf7f353361f95696a4c5fed77af320efb81d",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_diagnose.py": "0304c560893afed39f0432f1408b2777753c1a080db16105232ab0e23d760974",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_editable.py": "2b855470322f6d09d48c2a57a4eed0c2f4f548394effce89967c66ad4b2aa91b",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_finish.py": "45578c0944417eaa10020a8cc6fe2d94f47aa51a5a30e34be97b9952140611ab",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_preview.py": "57fb4401f99cf19d59564d609264ca024f27685127896870ceb52b8d3b18be57",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_provenance.py": "cec68fe38f8f8731d75e61ec6eb8b5b1826345b7a1d1ade02047d267316c08f6",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_quality_probe.py": "8cd3b35a579a0c082c2e6a04859ec6d42a6335e4a8b79983e6de3f9681161307",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_quality_probe_bounded.py": "d70a800b314521ebd15ca1007c7f839599edaf182b01897068379a9087ecd6ec",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_quality_probe_weld.py": "b8eadd3f357603eea5a55ee86aa66304dedaf089cdf6603517df7c896ce00dd3",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_resources.py": "2de5a7b2dcc062b6d29ebeea4ec4ea9a091da3a3499f27e0b99aa16041bfcb0f",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_rig.py": "d36c1af5f81136e87173f50acc9fb4e9e8fdc8f4ffb4fffd843b3cdccf115900",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_source.py": "542b1316f4cef301a36f7ded2d3305f7254d830c99411962ec6cb70b3b358cc1",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_spec.py": "0a38c59af444b8defc20546a11d37b684da9557e31d4c40cf4ba9685aa3f44c7",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_view.py": "1e2907337128be82b91415d52f5cdd644e0cede4fa0909c3d8cff0f650114d97",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/tools/geometry04_winding.py": "1d7eed0f688d0f6bad1b1b92f5aa6a13c31f9719e5253f022b04f4bca521519b"
+  },
+  "runtime": "NOT RUN"
+}

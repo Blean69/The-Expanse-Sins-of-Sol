@@ -1,0 +1,18 @@
+{
+  "status": "PASS OFFLINE AUDIO",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/voice/game",
+  "dialogue_json": "/run/media/haker/NVME 2/expanse-workers/validation/build/donnager10-c/voice/dialogue.json",
+  "skin_pointer": "/skin_stages/0/sounds/dialogue",
+  "apply_only": "new Donnager skin; never replace Rocinante dialogue",
+  "files": 40,
+  "records": 20,
+  "entity_manifests_required": [],
+  "runtime": "NOT RUN",
+  "held_callbacks": [
+    "No enemy-detection/PDC-interception event: PDC lines acknowledge attack orders",
+    "Construction line only ship_component_finished_building, not newly produced fleet ships",
+    "Reactor warning only cannot_hyperspace; no reactor or drive-failure detector",
+    "Reaction mass is flavor for existing insufficient_antimatter; no separate fuel resource",
+    "Juice uses hyperspace_charge_started; no reactor-overcharge ability sound binding proposed"
+  ]
+}

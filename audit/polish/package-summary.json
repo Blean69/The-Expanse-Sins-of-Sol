@@ -1,0 +1,26 @@
+{
+  "mod_id": "expanse_corvette_polish",
+  "files": 83,
+  "zip_sha256": "77fafb25e1f8ec8f812c5f5b720bef85f563c451b3866d432c7ae5141f0b2e10",
+  "tree_sha256": "922bb383eac8568ac5f365cd992f96d6709620e36c71f4ab639555db0da2aebf",
+  "runtime": "0.2.0 Apply Changes FAIL user-observed; 0.2.1 runtime NOT RUN",
+  "installed": true,
+  "source_commit": "9e40dd4b42853318ef87cc3d7d858f2abf601176",
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "baseline_preservation": "PASS; original built/installed trees and ZIPs unchanged",
+  "source_assets_preservation": "PASS; original/master/prior derivatives unchanged",
+  "new_package_schemas": 14,
+  "independent_final_binary_mesh_checks": 13,
+  "ui_pngs_checked": 18,
+  "mod_logos_checked": 2,
+  "negative_fixtures_rejected": 3,
+  "python_syntax": "PASS: eight new scripts",
+  "diff_whitespace": "PASS",
+  "version": "0.2.1",
+  "hotfix": "Explicit unit target groups synchronized with matching PDC weapon",
+  "regression_checks": 19
+}

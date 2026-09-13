@@ -1,0 +1,1630 @@
+[
+  {
+    "key": "n4",
+    "node": 4,
+    "parent_node": 3,
+    "name": "s3_3c",
+    "material": 0,
+    "triangles": 3989,
+    "source_triangles": 22997,
+    "simplifier_error": 0.004978864453732967
+  },
+  {
+    "key": "n5",
+    "node": 5,
+    "parent_node": 3,
+    "name": "s3_3c",
+    "material": 0,
+    "triangles": 2205,
+    "source_triangles": 12593,
+    "simplifier_error": 0.00497478200122714
+  },
+  {
+    "key": "n6",
+    "node": 6,
+    "parent_node": 3,
+    "name": "s3_3c",
+    "material": 1,
+    "triangles": 356,
+    "source_triangles": 1922,
+    "simplifier_error": 0.00476745143532753
+  },
+  {
+    "key": "n9",
+    "node": 9,
+    "parent_node": 8,
+    "name": "s3_3b-1",
+    "material": 0,
+    "triangles": 495,
+    "source_triangles": 3684,
+    "simplifier_error": 0.004927178379148245
+  },
+  {
+    "key": "n10",
+    "node": 10,
+    "parent_node": 8,
+    "name": "s3_3b-1",
+    "material": 1,
+    "triangles": 147,
+    "source_triangles": 848,
+    "simplifier_error": 0.00499894842505455
+  },
+  {
+    "key": "n13",
+    "node": 13,
+    "parent_node": 12,
+    "name": "s3_3a",
+    "material": 0,
+    "triangles": 1346,
+    "source_triangles": 5104,
+    "simplifier_error": 0.004919913597404957
+  },
+  {
+    "key": "n14",
+    "node": 14,
+    "parent_node": 12,
+    "name": "s3_3a",
+    "material": 1,
+    "triangles": 80,
+    "source_triangles": 80,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n17",
+    "node": 17,
+    "parent_node": 16,
+    "name": "s3_3",
+    "material": 0,
+    "triangles": 4262,
+    "source_triangles": 22102,
+    "simplifier_error": 0.004986891057342291
+  },
+  {
+    "key": "n18",
+    "node": 18,
+    "parent_node": 16,
+    "name": "s3_3",
+    "material": 1,
+    "triangles": 467,
+    "source_triangles": 534,
+    "simplifier_error": 0.004865136928856373
+  },
+  {
+    "key": "n21",
+    "node": 21,
+    "parent_node": 20,
+    "name": "s3_supportB-1",
+    "material": 0,
+    "triangles": 252,
+    "source_triangles": 1332,
+    "simplifier_error": 0.0045556300319731236
+  },
+  {
+    "key": "n22",
+    "node": 22,
+    "parent_node": 20,
+    "name": "s3_supportB-1",
+    "material": 1,
+    "triangles": 384,
+    "source_triangles": 468,
+    "simplifier_error": 0.004899968858808279
+  },
+  {
+    "key": "n25",
+    "node": 25,
+    "parent_node": 24,
+    "name": "s3_supportA-1",
+    "material": 1,
+    "triangles": 844,
+    "source_triangles": 4128,
+    "simplifier_error": 0.004963959567248821
+  },
+  {
+    "key": "n29",
+    "node": 29,
+    "parent_node": 28,
+    "name": "s2_2g",
+    "material": 0,
+    "triangles": 894,
+    "source_triangles": 9308,
+    "simplifier_error": 0.0049970317631959915
+  },
+  {
+    "key": "n30",
+    "node": 30,
+    "parent_node": 28,
+    "name": "s2_2g",
+    "material": 1,
+    "triangles": 16,
+    "source_triangles": 16,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n33",
+    "node": 33,
+    "parent_node": 32,
+    "name": "s2_2e",
+    "material": 0,
+    "triangles": 802,
+    "source_triangles": 2744,
+    "simplifier_error": 0.004938426427543163
+  },
+  {
+    "key": "n36",
+    "node": 36,
+    "parent_node": 35,
+    "name": "s2_2c",
+    "material": 0,
+    "triangles": 2243,
+    "source_triangles": 9640,
+    "simplifier_error": 0.004966309759765863
+  },
+  {
+    "key": "n37",
+    "node": 37,
+    "parent_node": 35,
+    "name": "s2_2c",
+    "material": 2,
+    "triangles": 144,
+    "source_triangles": 144,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n38",
+    "node": 38,
+    "parent_node": 35,
+    "name": "s2_2c",
+    "material": 1,
+    "triangles": 227,
+    "source_triangles": 2888,
+    "simplifier_error": 0.004968700464814901
+  },
+  {
+    "key": "n41",
+    "node": 41,
+    "parent_node": 40,
+    "name": "s2_2a",
+    "material": 0,
+    "triangles": 2881,
+    "source_triangles": 19596,
+    "simplifier_error": 0.004966962616890669
+  },
+  {
+    "key": "n42",
+    "node": 42,
+    "parent_node": 40,
+    "name": "s2_2a",
+    "material": 2,
+    "triangles": 48,
+    "source_triangles": 64,
+    "simplifier_error": 0.004446225706487894
+  },
+  {
+    "key": "n43",
+    "node": 43,
+    "parent_node": 40,
+    "name": "s2_2a",
+    "material": 1,
+    "triangles": 96,
+    "source_triangles": 96,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n46",
+    "node": 46,
+    "parent_node": 45,
+    "name": "s2_2b",
+    "material": 0,
+    "triangles": 1883,
+    "source_triangles": 22933,
+    "simplifier_error": 0.004978779703378677
+  },
+  {
+    "key": "n47",
+    "node": 47,
+    "parent_node": 45,
+    "name": "s2_2b",
+    "material": 0,
+    "triangles": 1880,
+    "source_triangles": 16331,
+    "simplifier_error": 0.0049771033227443695
+  },
+  {
+    "key": "n48",
+    "node": 48,
+    "parent_node": 45,
+    "name": "s2_2b",
+    "material": 2,
+    "triangles": 48,
+    "source_triangles": 64,
+    "simplifier_error": 0.004453201778233051
+  },
+  {
+    "key": "n49",
+    "node": 49,
+    "parent_node": 45,
+    "name": "s2_2b",
+    "material": 1,
+    "triangles": 128,
+    "source_triangles": 128,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n52",
+    "node": 52,
+    "parent_node": 51,
+    "name": "s2_2d",
+    "material": 0,
+    "triangles": 1349,
+    "source_triangles": 5794,
+    "simplifier_error": 0.004970753099769354
+  },
+  {
+    "key": "n53",
+    "node": 53,
+    "parent_node": 51,
+    "name": "s2_2d",
+    "material": 2,
+    "triangles": 32,
+    "source_triangles": 32,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n54",
+    "node": 54,
+    "parent_node": 51,
+    "name": "s2_2d",
+    "material": 1,
+    "triangles": 130,
+    "source_triangles": 130,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n57",
+    "node": 57,
+    "parent_node": 56,
+    "name": "s2_2f",
+    "material": 0,
+    "triangles": 1141,
+    "source_triangles": 5129,
+    "simplifier_error": 0.0049767629243433475
+  },
+  {
+    "key": "n58",
+    "node": 58,
+    "parent_node": 56,
+    "name": "s2_2f",
+    "material": 2,
+    "triangles": 32,
+    "source_triangles": 32,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n59",
+    "node": 59,
+    "parent_node": 56,
+    "name": "s2_2f",
+    "material": 1,
+    "triangles": 162,
+    "source_triangles": 163,
+    "simplifier_error": 0.0003802953287959099
+  },
+  {
+    "key": "n63",
+    "node": 63,
+    "parent_node": 62,
+    "name": "s1_covering",
+    "material": 0,
+    "triangles": 1522,
+    "source_triangles": 2316,
+    "simplifier_error": 0.004978975281119347
+  },
+  {
+    "key": "n64",
+    "node": 64,
+    "parent_node": 62,
+    "name": "s1_covering",
+    "material": 1,
+    "triangles": 52,
+    "source_triangles": 52,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n71",
+    "node": 71,
+    "parent_node": 70,
+    "name": "s1_antenna-2",
+    "material": 1,
+    "triangles": 214,
+    "source_triangles": 4300,
+    "simplifier_error": 0.0036109313368797302
+  },
+  {
+    "key": "n74",
+    "node": 74,
+    "parent_node": 73,
+    "name": "s1_antenna-4",
+    "material": 1,
+    "triangles": 106,
+    "source_triangles": 2128,
+    "simplifier_error": 0.00207238900475204
+  },
+  {
+    "key": "n77",
+    "node": 77,
+    "parent_node": 76,
+    "name": "s1_antenna-3",
+    "material": 1,
+    "triangles": 194,
+    "source_triangles": 3896,
+    "simplifier_error": 0.0036910264752805233
+  },
+  {
+    "key": "n80",
+    "node": 80,
+    "parent_node": 79,
+    "name": "s1_antenna-1",
+    "material": 1,
+    "triangles": 74,
+    "source_triangles": 1480,
+    "simplifier_error": 0.004104012623429298
+  },
+  {
+    "key": "n83",
+    "node": 83,
+    "parent_node": 82,
+    "name": "s1_1a",
+    "material": 0,
+    "triangles": 1845,
+    "source_triangles": 12344,
+    "simplifier_error": 0.00492455530911684
+  },
+  {
+    "key": "n84",
+    "node": 84,
+    "parent_node": 82,
+    "name": "s1_1a",
+    "material": 2,
+    "triangles": 198,
+    "source_triangles": 572,
+    "simplifier_error": 0.004977116361260414
+  },
+  {
+    "key": "n85",
+    "node": 85,
+    "parent_node": 82,
+    "name": "s1_1a",
+    "material": 1,
+    "triangles": 143,
+    "source_triangles": 2866,
+    "simplifier_error": 0.004814335145056248
+  },
+  {
+    "key": "n88",
+    "node": 88,
+    "parent_node": 87,
+    "name": "s1_1",
+    "material": 0,
+    "triangles": 2172,
+    "source_triangles": 19541,
+    "simplifier_error": 0.0049674431793391705
+  },
+  {
+    "key": "n89",
+    "node": 89,
+    "parent_node": 87,
+    "name": "s1_1",
+    "material": 2,
+    "triangles": 50,
+    "source_triangles": 114,
+    "simplifier_error": 0.004953404888510704
+  },
+  {
+    "key": "n90",
+    "node": 90,
+    "parent_node": 87,
+    "name": "s1_1",
+    "material": 1,
+    "triangles": 187,
+    "source_triangles": 3193,
+    "simplifier_error": 0.0049743447452783585
+  },
+  {
+    "key": "n93",
+    "node": 93,
+    "parent_node": 92,
+    "name": "s1_1b",
+    "material": 0,
+    "triangles": 1364,
+    "source_triangles": 10535,
+    "simplifier_error": 0.004973262082785368
+  },
+  {
+    "key": "n94",
+    "node": 94,
+    "parent_node": 92,
+    "name": "s1_1b",
+    "material": 2,
+    "triangles": 12,
+    "source_triangles": 12,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n95",
+    "node": 95,
+    "parent_node": 92,
+    "name": "s1_1b",
+    "material": 1,
+    "triangles": 246,
+    "source_triangles": 1661,
+    "simplifier_error": 0.004973622504621744
+  },
+  {
+    "key": "n98",
+    "node": 98,
+    "parent_node": 97,
+    "name": "s1_1c+d",
+    "material": 0,
+    "triangles": 4679,
+    "source_triangles": 21020,
+    "simplifier_error": 0.00497859250754118
+  },
+  {
+    "key": "n99",
+    "node": 99,
+    "parent_node": 97,
+    "name": "s1_1c+d",
+    "material": 2,
+    "triangles": 233,
+    "source_triangles": 506,
+    "simplifier_error": 0.004856408108025789
+  },
+  {
+    "key": "n100",
+    "node": 100,
+    "parent_node": 97,
+    "name": "s1_1c+d",
+    "material": 1,
+    "triangles": 296,
+    "source_triangles": 778,
+    "simplifier_error": 0.0049599106423556805
+  },
+  {
+    "key": "n103",
+    "node": 103,
+    "parent_node": 102,
+    "name": "s1_1e",
+    "material": 0,
+    "triangles": 1930,
+    "source_triangles": 11099,
+    "simplifier_error": 0.004956329241394997
+  },
+  {
+    "key": "n104",
+    "node": 104,
+    "parent_node": 102,
+    "name": "s1_1e",
+    "material": 1,
+    "triangles": 627,
+    "source_triangles": 2147,
+    "simplifier_error": 0.004968978930264711
+  },
+  {
+    "key": "n107",
+    "node": 107,
+    "parent_node": 106,
+    "name": "s1_1f",
+    "material": 0,
+    "triangles": 1134,
+    "source_triangles": 10599,
+    "simplifier_error": 0.004965983331203461
+  },
+  {
+    "key": "n108",
+    "node": 108,
+    "parent_node": 106,
+    "name": "s1_1f",
+    "material": 2,
+    "triangles": 14,
+    "source_triangles": 16,
+    "simplifier_error": 0.004968723747879267
+  },
+  {
+    "key": "n109",
+    "node": 109,
+    "parent_node": 106,
+    "name": "s1_1f",
+    "material": 1,
+    "triangles": 61,
+    "source_triangles": 73,
+    "simplifier_error": 0.004162441473454237
+  },
+  {
+    "key": "n113",
+    "node": 113,
+    "parent_node": 112,
+    "name": "pdc_pdc1",
+    "material": 0,
+    "triangles": 366,
+    "source_triangles": 400,
+    "simplifier_error": 0.004592811223119497
+  },
+  {
+    "key": "n116",
+    "node": 116,
+    "parent_node": 115,
+    "name": "pdc_pdc2",
+    "material": 0,
+    "triangles": 532,
+    "source_triangles": 752,
+    "simplifier_error": 0.004977353382855654
+  },
+  {
+    "key": "n119",
+    "node": 119,
+    "parent_node": 118,
+    "name": "pdc_cannon1",
+    "material": 0,
+    "triangles": 840,
+    "source_triangles": 6396,
+    "simplifier_error": 0.004968216642737389
+  },
+  {
+    "key": "n120",
+    "node": 120,
+    "parent_node": 118,
+    "name": "pdc_cannon1",
+    "material": 1,
+    "triangles": 407,
+    "source_triangles": 1140,
+    "simplifier_error": 0.004949317313730717
+  },
+  {
+    "key": "n123",
+    "node": 123,
+    "parent_node": 122,
+    "name": "pdc_mag2",
+    "material": 1,
+    "triangles": 704,
+    "source_triangles": 820,
+    "simplifier_error": 0.004991391208022833
+  },
+  {
+    "key": "n126",
+    "node": 126,
+    "parent_node": 125,
+    "name": "pdc_mag1",
+    "material": 1,
+    "triangles": 746,
+    "source_triangles": 832,
+    "simplifier_error": 0.004975053481757641
+  },
+  {
+    "key": "n129",
+    "node": 129,
+    "parent_node": 128,
+    "name": "pdc_pin-3x6",
+    "material": 0,
+    "triangles": 198,
+    "source_triangles": 284,
+    "simplifier_error": 0.004304667469114065
+  },
+  {
+    "key": "n132",
+    "node": 132,
+    "parent_node": 131,
+    "name": "pdc_pin-4x8",
+    "material": 0,
+    "triangles": 146,
+    "source_triangles": 212,
+    "simplifier_error": 0.004921598359942436
+  },
+  {
+    "key": "n135",
+    "node": 135,
+    "parent_node": 134,
+    "name": "pdc_covering",
+    "material": 0,
+    "triangles": 388,
+    "source_triangles": 1866,
+    "simplifier_error": 0.004951945040374994
+  },
+  {
+    "key": "n136",
+    "node": 136,
+    "parent_node": 134,
+    "name": "pdc_covering",
+    "material": 1,
+    "triangles": 206,
+    "source_triangles": 206,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n139",
+    "node": 139,
+    "parent_node": 138,
+    "name": "pdc_filler-1",
+    "material": 1,
+    "triangles": 154,
+    "source_triangles": 840,
+    "simplifier_error": 0.004863671492785215
+  },
+  {
+    "key": "n142",
+    "node": 142,
+    "parent_node": 141,
+    "name": "pdc_frame",
+    "material": 0,
+    "triangles": 1121,
+    "source_triangles": 6463,
+    "simplifier_error": 0.004948965273797512
+  },
+  {
+    "key": "n143",
+    "node": 143,
+    "parent_node": 141,
+    "name": "pdc_frame",
+    "material": 1,
+    "triangles": 78,
+    "source_triangles": 1081,
+    "simplifier_error": 0.004841137677431107
+  },
+  {
+    "key": "n146",
+    "node": 146,
+    "parent_node": 145,
+    "name": "pdc_frame_cov",
+    "material": 0,
+    "triangles": 144,
+    "source_triangles": 144,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n149",
+    "node": 149,
+    "parent_node": 148,
+    "name": "pdc_cannon2",
+    "material": 0,
+    "triangles": 816,
+    "source_triangles": 1316,
+    "simplifier_error": 0.004974608775228262
+  },
+  {
+    "key": "n150",
+    "node": 150,
+    "parent_node": 148,
+    "name": "pdc_cannon2",
+    "material": 1,
+    "triangles": 18,
+    "source_triangles": 18,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n155",
+    "node": 155,
+    "parent_node": 154,
+    "name": "ar_airlock",
+    "material": 0,
+    "triangles": 367,
+    "source_triangles": 371,
+    "simplifier_error": 0.0007970859296619892
+  },
+  {
+    "key": "n156",
+    "node": 156,
+    "parent_node": 154,
+    "name": "ar_airlock",
+    "material": 1,
+    "triangles": 89,
+    "source_triangles": 105,
+    "simplifier_error": 0.004455345217138529
+  },
+  {
+    "key": "n159",
+    "node": 159,
+    "parent_node": 158,
+    "name": "ar_bridge3",
+    "material": 0,
+    "triangles": 224,
+    "source_triangles": 224,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n162",
+    "node": 162,
+    "parent_node": 161,
+    "name": "ar_bridge1",
+    "material": 0,
+    "triangles": 284,
+    "source_triangles": 288,
+    "simplifier_error": 0.00353430793620646
+  },
+  {
+    "key": "n165",
+    "node": 165,
+    "parent_node": 164,
+    "name": "ar_bridge2",
+    "material": 0,
+    "triangles": 224,
+    "source_triangles": 224,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n168",
+    "node": 168,
+    "parent_node": 167,
+    "name": "ar_stoper-1",
+    "material": 0,
+    "triangles": 88,
+    "source_triangles": 88,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n171",
+    "node": 171,
+    "parent_node": 170,
+    "name": "ar_stoper-3",
+    "material": 0,
+    "triangles": 88,
+    "source_triangles": 88,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n176",
+    "node": 176,
+    "parent_node": 175,
+    "name": "pdc_pdc1.001",
+    "material": 0,
+    "triangles": 366,
+    "source_triangles": 400,
+    "simplifier_error": 0.004592811223119497
+  },
+  {
+    "key": "n179",
+    "node": 179,
+    "parent_node": 178,
+    "name": "pdc_pdc2.001",
+    "material": 0,
+    "triangles": 532,
+    "source_triangles": 752,
+    "simplifier_error": 0.004977353382855654
+  },
+  {
+    "key": "n182",
+    "node": 182,
+    "parent_node": 181,
+    "name": "pdc_cannon1.001",
+    "material": 0,
+    "triangles": 840,
+    "source_triangles": 6396,
+    "simplifier_error": 0.004968216642737389
+  },
+  {
+    "key": "n183",
+    "node": 183,
+    "parent_node": 181,
+    "name": "pdc_cannon1.001",
+    "material": 1,
+    "triangles": 407,
+    "source_triangles": 1140,
+    "simplifier_error": 0.004949317313730717
+  },
+  {
+    "key": "n186",
+    "node": 186,
+    "parent_node": 185,
+    "name": "pdc_mag2.001",
+    "material": 1,
+    "triangles": 704,
+    "source_triangles": 820,
+    "simplifier_error": 0.004991391208022833
+  },
+  {
+    "key": "n189",
+    "node": 189,
+    "parent_node": 188,
+    "name": "pdc_mag1.001",
+    "material": 1,
+    "triangles": 746,
+    "source_triangles": 832,
+    "simplifier_error": 0.004975053481757641
+  },
+  {
+    "key": "n192",
+    "node": 192,
+    "parent_node": 191,
+    "name": "pdc_pin-3x6.001",
+    "material": 0,
+    "triangles": 198,
+    "source_triangles": 284,
+    "simplifier_error": 0.004304667469114065
+  },
+  {
+    "key": "n195",
+    "node": 195,
+    "parent_node": 194,
+    "name": "pdc_pin-4x8.001",
+    "material": 0,
+    "triangles": 146,
+    "source_triangles": 212,
+    "simplifier_error": 0.004921598359942436
+  },
+  {
+    "key": "n198",
+    "node": 198,
+    "parent_node": 197,
+    "name": "pdc_covering.001",
+    "material": 0,
+    "triangles": 388,
+    "source_triangles": 1866,
+    "simplifier_error": 0.004951945040374994
+  },
+  {
+    "key": "n199",
+    "node": 199,
+    "parent_node": 197,
+    "name": "pdc_covering.001",
+    "material": 1,
+    "triangles": 206,
+    "source_triangles": 206,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n202",
+    "node": 202,
+    "parent_node": 201,
+    "name": "pdc_frame.001",
+    "material": 0,
+    "triangles": 1121,
+    "source_triangles": 6463,
+    "simplifier_error": 0.004948965273797512
+  },
+  {
+    "key": "n203",
+    "node": 203,
+    "parent_node": 201,
+    "name": "pdc_frame.001",
+    "material": 1,
+    "triangles": 78,
+    "source_triangles": 1081,
+    "simplifier_error": 0.004841137677431107
+  },
+  {
+    "key": "n206",
+    "node": 206,
+    "parent_node": 205,
+    "name": "pdc_frame_cov.001",
+    "material": 0,
+    "triangles": 144,
+    "source_triangles": 144,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n209",
+    "node": 209,
+    "parent_node": 208,
+    "name": "pdc_cannon2.001",
+    "material": 0,
+    "triangles": 816,
+    "source_triangles": 1316,
+    "simplifier_error": 0.004974608775228262
+  },
+  {
+    "key": "n210",
+    "node": 210,
+    "parent_node": 208,
+    "name": "pdc_cannon2.001",
+    "material": 1,
+    "triangles": 18,
+    "source_triangles": 18,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n214",
+    "node": 214,
+    "parent_node": 213,
+    "name": "pdc_pdc1.002",
+    "material": 0,
+    "triangles": 366,
+    "source_triangles": 400,
+    "simplifier_error": 0.004592811223119497
+  },
+  {
+    "key": "n217",
+    "node": 217,
+    "parent_node": 216,
+    "name": "pdc_pdc2.002",
+    "material": 0,
+    "triangles": 532,
+    "source_triangles": 752,
+    "simplifier_error": 0.004977353382855654
+  },
+  {
+    "key": "n220",
+    "node": 220,
+    "parent_node": 219,
+    "name": "pdc_cannon1.002",
+    "material": 0,
+    "triangles": 840,
+    "source_triangles": 6396,
+    "simplifier_error": 0.004968216642737389
+  },
+  {
+    "key": "n221",
+    "node": 221,
+    "parent_node": 219,
+    "name": "pdc_cannon1.002",
+    "material": 1,
+    "triangles": 407,
+    "source_triangles": 1140,
+    "simplifier_error": 0.004949317313730717
+  },
+  {
+    "key": "n224",
+    "node": 224,
+    "parent_node": 223,
+    "name": "pdc_mag2.002",
+    "material": 1,
+    "triangles": 704,
+    "source_triangles": 820,
+    "simplifier_error": 0.004991391208022833
+  },
+  {
+    "key": "n227",
+    "node": 227,
+    "parent_node": 226,
+    "name": "pdc_mag1.002",
+    "material": 1,
+    "triangles": 746,
+    "source_triangles": 832,
+    "simplifier_error": 0.004975053481757641
+  },
+  {
+    "key": "n230",
+    "node": 230,
+    "parent_node": 229,
+    "name": "pdc_pin-3x6.002",
+    "material": 0,
+    "triangles": 198,
+    "source_triangles": 284,
+    "simplifier_error": 0.004304667469114065
+  },
+  {
+    "key": "n233",
+    "node": 233,
+    "parent_node": 232,
+    "name": "pdc_pin-4x8.002",
+    "material": 0,
+    "triangles": 146,
+    "source_triangles": 212,
+    "simplifier_error": 0.004921598359942436
+  },
+  {
+    "key": "n236",
+    "node": 236,
+    "parent_node": 235,
+    "name": "pdc_covering.002",
+    "material": 0,
+    "triangles": 388,
+    "source_triangles": 1866,
+    "simplifier_error": 0.004951945040374994
+  },
+  {
+    "key": "n237",
+    "node": 237,
+    "parent_node": 235,
+    "name": "pdc_covering.002",
+    "material": 1,
+    "triangles": 206,
+    "source_triangles": 206,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n240",
+    "node": 240,
+    "parent_node": 239,
+    "name": "pdc_frame.002",
+    "material": 0,
+    "triangles": 1121,
+    "source_triangles": 6463,
+    "simplifier_error": 0.004948965273797512
+  },
+  {
+    "key": "n241",
+    "node": 241,
+    "parent_node": 239,
+    "name": "pdc_frame.002",
+    "material": 1,
+    "triangles": 78,
+    "source_triangles": 1081,
+    "simplifier_error": 0.004841137677431107
+  },
+  {
+    "key": "n244",
+    "node": 244,
+    "parent_node": 243,
+    "name": "pdc_frame_cov.002",
+    "material": 0,
+    "triangles": 144,
+    "source_triangles": 144,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n247",
+    "node": 247,
+    "parent_node": 246,
+    "name": "pdc_cannon2.002",
+    "material": 0,
+    "triangles": 816,
+    "source_triangles": 1316,
+    "simplifier_error": 0.004974608775228262
+  },
+  {
+    "key": "n248",
+    "node": 248,
+    "parent_node": 246,
+    "name": "pdc_cannon2.002",
+    "material": 1,
+    "triangles": 18,
+    "source_triangles": 18,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n252",
+    "node": 252,
+    "parent_node": 251,
+    "name": "pdc_pdc1.003",
+    "material": 0,
+    "triangles": 366,
+    "source_triangles": 400,
+    "simplifier_error": 0.004592811223119497
+  },
+  {
+    "key": "n255",
+    "node": 255,
+    "parent_node": 254,
+    "name": "pdc_pdc2.003",
+    "material": 0,
+    "triangles": 532,
+    "source_triangles": 752,
+    "simplifier_error": 0.004977353382855654
+  },
+  {
+    "key": "n258",
+    "node": 258,
+    "parent_node": 257,
+    "name": "pdc_cannon1.003",
+    "material": 0,
+    "triangles": 840,
+    "source_triangles": 6396,
+    "simplifier_error": 0.004968216642737389
+  },
+  {
+    "key": "n259",
+    "node": 259,
+    "parent_node": 257,
+    "name": "pdc_cannon1.003",
+    "material": 1,
+    "triangles": 407,
+    "source_triangles": 1140,
+    "simplifier_error": 0.004949317313730717
+  },
+  {
+    "key": "n262",
+    "node": 262,
+    "parent_node": 261,
+    "name": "pdc_mag2.003",
+    "material": 1,
+    "triangles": 704,
+    "source_triangles": 820,
+    "simplifier_error": 0.004991391208022833
+  },
+  {
+    "key": "n265",
+    "node": 265,
+    "parent_node": 264,
+    "name": "pdc_mag1.003",
+    "material": 1,
+    "triangles": 746,
+    "source_triangles": 832,
+    "simplifier_error": 0.004975053481757641
+  },
+  {
+    "key": "n268",
+    "node": 268,
+    "parent_node": 267,
+    "name": "pdc_pin-3x6.003",
+    "material": 0,
+    "triangles": 198,
+    "source_triangles": 284,
+    "simplifier_error": 0.004304667469114065
+  },
+  {
+    "key": "n271",
+    "node": 271,
+    "parent_node": 270,
+    "name": "pdc_pin-4x8.003",
+    "material": 0,
+    "triangles": 146,
+    "source_triangles": 212,
+    "simplifier_error": 0.004921598359942436
+  },
+  {
+    "key": "n274",
+    "node": 274,
+    "parent_node": 273,
+    "name": "pdc_covering.003",
+    "material": 0,
+    "triangles": 380,
+    "source_triangles": 1866,
+    "simplifier_error": 0.004968089982867241
+  },
+  {
+    "key": "n275",
+    "node": 275,
+    "parent_node": 273,
+    "name": "pdc_covering.003",
+    "material": 1,
+    "triangles": 206,
+    "source_triangles": 206,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n278",
+    "node": 278,
+    "parent_node": 277,
+    "name": "pdc_frame.003",
+    "material": 0,
+    "triangles": 1121,
+    "source_triangles": 6463,
+    "simplifier_error": 0.004948965273797512
+  },
+  {
+    "key": "n279",
+    "node": 279,
+    "parent_node": 277,
+    "name": "pdc_frame.003",
+    "material": 1,
+    "triangles": 78,
+    "source_triangles": 1081,
+    "simplifier_error": 0.004841137677431107
+  },
+  {
+    "key": "n282",
+    "node": 282,
+    "parent_node": 281,
+    "name": "pdc_frame_cov.003",
+    "material": 0,
+    "triangles": 144,
+    "source_triangles": 144,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n285",
+    "node": 285,
+    "parent_node": 284,
+    "name": "pdc_cannon2.003",
+    "material": 0,
+    "triangles": 816,
+    "source_triangles": 1316,
+    "simplifier_error": 0.004974608775228262
+  },
+  {
+    "key": "n286",
+    "node": 286,
+    "parent_node": 284,
+    "name": "pdc_cannon2.003",
+    "material": 1,
+    "triangles": 18,
+    "source_triangles": 18,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n290",
+    "node": 290,
+    "parent_node": 289,
+    "name": "pdc_pdc1.004",
+    "material": 0,
+    "triangles": 366,
+    "source_triangles": 400,
+    "simplifier_error": 0.004592811223119497
+  },
+  {
+    "key": "n293",
+    "node": 293,
+    "parent_node": 292,
+    "name": "pdc_pdc2.004",
+    "material": 0,
+    "triangles": 532,
+    "source_triangles": 752,
+    "simplifier_error": 0.004977353382855654
+  },
+  {
+    "key": "n296",
+    "node": 296,
+    "parent_node": 295,
+    "name": "pdc_cannon1.004",
+    "material": 0,
+    "triangles": 840,
+    "source_triangles": 6396,
+    "simplifier_error": 0.004968216642737389
+  },
+  {
+    "key": "n297",
+    "node": 297,
+    "parent_node": 295,
+    "name": "pdc_cannon1.004",
+    "material": 1,
+    "triangles": 407,
+    "source_triangles": 1140,
+    "simplifier_error": 0.004949317313730717
+  },
+  {
+    "key": "n300",
+    "node": 300,
+    "parent_node": 299,
+    "name": "pdc_mag2.004",
+    "material": 1,
+    "triangles": 704,
+    "source_triangles": 820,
+    "simplifier_error": 0.004991391208022833
+  },
+  {
+    "key": "n303",
+    "node": 303,
+    "parent_node": 302,
+    "name": "pdc_mag1.004",
+    "material": 1,
+    "triangles": 746,
+    "source_triangles": 832,
+    "simplifier_error": 0.004975053481757641
+  },
+  {
+    "key": "n306",
+    "node": 306,
+    "parent_node": 305,
+    "name": "pdc_pin-3x6.004",
+    "material": 0,
+    "triangles": 198,
+    "source_triangles": 284,
+    "simplifier_error": 0.004304667469114065
+  },
+  {
+    "key": "n309",
+    "node": 309,
+    "parent_node": 308,
+    "name": "pdc_pin-4x8.004",
+    "material": 0,
+    "triangles": 146,
+    "source_triangles": 212,
+    "simplifier_error": 0.004921598359942436
+  },
+  {
+    "key": "n312",
+    "node": 312,
+    "parent_node": 311,
+    "name": "pdc_covering.004",
+    "material": 0,
+    "triangles": 388,
+    "source_triangles": 1866,
+    "simplifier_error": 0.004951945040374994
+  },
+  {
+    "key": "n313",
+    "node": 313,
+    "parent_node": 311,
+    "name": "pdc_covering.004",
+    "material": 1,
+    "triangles": 206,
+    "source_triangles": 206,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n316",
+    "node": 316,
+    "parent_node": 315,
+    "name": "pdc_frame.004",
+    "material": 0,
+    "triangles": 1121,
+    "source_triangles": 6463,
+    "simplifier_error": 0.004948965273797512
+  },
+  {
+    "key": "n317",
+    "node": 317,
+    "parent_node": 315,
+    "name": "pdc_frame.004",
+    "material": 1,
+    "triangles": 78,
+    "source_triangles": 1081,
+    "simplifier_error": 0.004841137677431107
+  },
+  {
+    "key": "n320",
+    "node": 320,
+    "parent_node": 319,
+    "name": "pdc_frame_cov.004",
+    "material": 0,
+    "triangles": 144,
+    "source_triangles": 144,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n323",
+    "node": 323,
+    "parent_node": 322,
+    "name": "pdc_cannon2.004",
+    "material": 0,
+    "triangles": 816,
+    "source_triangles": 1316,
+    "simplifier_error": 0.004974608775228262
+  },
+  {
+    "key": "n324",
+    "node": 324,
+    "parent_node": 322,
+    "name": "pdc_cannon2.004",
+    "material": 1,
+    "triangles": 18,
+    "source_triangles": 18,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n328",
+    "node": 328,
+    "parent_node": 327,
+    "name": "pdc_pdc1.005",
+    "material": 0,
+    "triangles": 366,
+    "source_triangles": 400,
+    "simplifier_error": 0.004592811223119497
+  },
+  {
+    "key": "n331",
+    "node": 331,
+    "parent_node": 330,
+    "name": "pdc_pdc2.005",
+    "material": 0,
+    "triangles": 532,
+    "source_triangles": 752,
+    "simplifier_error": 0.004977353382855654
+  },
+  {
+    "key": "n334",
+    "node": 334,
+    "parent_node": 333,
+    "name": "pdc_cannon1.005",
+    "material": 0,
+    "triangles": 840,
+    "source_triangles": 6396,
+    "simplifier_error": 0.004968216642737389
+  },
+  {
+    "key": "n335",
+    "node": 335,
+    "parent_node": 333,
+    "name": "pdc_cannon1.005",
+    "material": 1,
+    "triangles": 407,
+    "source_triangles": 1140,
+    "simplifier_error": 0.004949317313730717
+  },
+  {
+    "key": "n338",
+    "node": 338,
+    "parent_node": 337,
+    "name": "pdc_mag2.005",
+    "material": 1,
+    "triangles": 704,
+    "source_triangles": 820,
+    "simplifier_error": 0.004991391208022833
+  },
+  {
+    "key": "n341",
+    "node": 341,
+    "parent_node": 340,
+    "name": "pdc_mag1.005",
+    "material": 1,
+    "triangles": 746,
+    "source_triangles": 832,
+    "simplifier_error": 0.004975053481757641
+  },
+  {
+    "key": "n344",
+    "node": 344,
+    "parent_node": 343,
+    "name": "pdc_pin-3x6.005",
+    "material": 0,
+    "triangles": 198,
+    "source_triangles": 284,
+    "simplifier_error": 0.004304667469114065
+  },
+  {
+    "key": "n347",
+    "node": 347,
+    "parent_node": 346,
+    "name": "pdc_pin-4x8.005",
+    "material": 0,
+    "triangles": 146,
+    "source_triangles": 212,
+    "simplifier_error": 0.004921598359942436
+  },
+  {
+    "key": "n350",
+    "node": 350,
+    "parent_node": 349,
+    "name": "pdc_covering.005",
+    "material": 0,
+    "triangles": 388,
+    "source_triangles": 1866,
+    "simplifier_error": 0.004951945040374994
+  },
+  {
+    "key": "n351",
+    "node": 351,
+    "parent_node": 349,
+    "name": "pdc_covering.005",
+    "material": 1,
+    "triangles": 206,
+    "source_triangles": 206,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n354",
+    "node": 354,
+    "parent_node": 353,
+    "name": "pdc_frame.005",
+    "material": 0,
+    "triangles": 1121,
+    "source_triangles": 6463,
+    "simplifier_error": 0.004948965273797512
+  },
+  {
+    "key": "n355",
+    "node": 355,
+    "parent_node": 353,
+    "name": "pdc_frame.005",
+    "material": 1,
+    "triangles": 78,
+    "source_triangles": 1081,
+    "simplifier_error": 0.004841137677431107
+  },
+  {
+    "key": "n358",
+    "node": 358,
+    "parent_node": 357,
+    "name": "pdc_frame_cov.005",
+    "material": 0,
+    "triangles": 144,
+    "source_triangles": 144,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n361",
+    "node": 361,
+    "parent_node": 360,
+    "name": "pdc_cannon2.005",
+    "material": 0,
+    "triangles": 816,
+    "source_triangles": 1316,
+    "simplifier_error": 0.004974608775228262
+  },
+  {
+    "key": "n362",
+    "node": 362,
+    "parent_node": 360,
+    "name": "pdc_cannon2.005",
+    "material": 1,
+    "triangles": 18,
+    "source_triangles": 18,
+    "simplifier_error": 0.0
+  },
+  {
+    "key": "n366",
+    "node": 366,
+    "parent_node": 365,
+    "name": "s3_supportB-2.001",
+    "material": 0,
+    "triangles": 252,
+    "source_triangles": 1332,
+    "simplifier_error": 0.0045556300319731236
+  },
+  {
+    "key": "n367",
+    "node": 367,
+    "parent_node": 365,
+    "name": "s3_supportB-2.001",
+    "material": 1,
+    "triangles": 384,
+    "source_triangles": 468,
+    "simplifier_error": 0.004899968858808279
+  },
+  {
+    "key": "n370",
+    "node": 370,
+    "parent_node": 369,
+    "name": "s3_3b-2.001",
+    "material": 0,
+    "triangles": 487,
+    "source_triangles": 3684,
+    "simplifier_error": 0.004965322092175484
+  },
+  {
+    "key": "n371",
+    "node": 371,
+    "parent_node": 369,
+    "name": "s3_3b-2.001",
+    "material": 1,
+    "triangles": 147,
+    "source_triangles": 848,
+    "simplifier_error": 0.00499894842505455
+  },
+  {
+    "key": "n374",
+    "node": 374,
+    "parent_node": 373,
+    "name": "pdc_filler-1.006",
+    "material": 1,
+    "triangles": 154,
+    "source_triangles": 840,
+    "simplifier_error": 0.004863671492785215
+  },
+  {
+    "key": "n377",
+    "node": 377,
+    "parent_node": 376,
+    "name": "pdc_filler-1.001",
+    "material": 1,
+    "triangles": 154,
+    "source_triangles": 840,
+    "simplifier_error": 0.004863671492785215
+  },
+  {
+    "key": "n380",
+    "node": 380,
+    "parent_node": 379,
+    "name": "pdc_filler-1.004",
+    "material": 1,
+    "triangles": 154,
+    "source_triangles": 840,
+    "simplifier_error": 0.004863671492785215
+  },
+  {
+    "key": "n383",
+    "node": 383,
+    "parent_node": 382,
+    "name": "pdc_filler-1.005",
+    "material": 1,
+    "triangles": 154,
+    "source_triangles": 840,
+    "simplifier_error": 0.004863671492785215
+  },
+  {
+    "key": "n386",
+    "node": 386,
+    "parent_node": 385,
+    "name": "pdc_filler-1.002",
+    "material": 1,
+    "triangles": 156,
+    "source_triangles": 840,
+    "simplifier_error": 0.004863671492785215
+  },
+  {
+    "key": "custom0",
+    "node": null,
+    "name": "Preserved custom rail/ports",
+    "material": 0,
+    "triangles": 72,
+    "source_triangles": 72,
+    "simplifier_error": 0
+  },
+  {
+    "key": "custom1",
+    "node": null,
+    "name": "Preserved custom rail/ports",
+    "material": 1,
+    "triangles": 156,
+    "source_triangles": 156,
+    "simplifier_error": 0
+  }
+]

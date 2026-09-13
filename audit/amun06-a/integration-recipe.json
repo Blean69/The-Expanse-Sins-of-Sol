@@ -1,0 +1,112 @@
+{
+  "core_status": "READY FOR MAIN GEOMETRY/SHIP INTEGRATION; official component schemas PASS; runtime NOT RUN",
+  "core_files": [
+    "expanse06_amun_torpedo.unit_skin",
+    "expanse06_amun_torpedo.unit",
+    "expanse06_amun_pdc_0.weapon",
+    "expanse06_amun_pdc_2.weapon",
+    "expanse06_amun_railgun.weapon",
+    "expanse06_amun_magazine.action_data_source",
+    "expanse06_amun_magazine.buff",
+    "expanse06_amun_pdc_1.weapon",
+    "expanse06_amun_magazine.ability",
+    "expanse06_amun_boarding.action_data_source",
+    "expanse06_amun_boarding.ability",
+    "expanse06_amun_boarding.buff"
+  ],
+  "ship_id": "expanse_amun_ra",
+  "core_ship_abilities": [
+    "expanse06_amun_magazine",
+    "expanse06_amun_boarding"
+  ],
+  "private_weapons": [
+    "expanse06_amun_pdc_0",
+    "expanse06_amun_pdc_1",
+    "expanse06_amun_pdc_2",
+    "expanse06_amun_railgun"
+  ],
+  "torpedo": {
+    "unit": "expanse06_amun_torpedo",
+    "skin": "expanse06_amun_torpedo",
+    "mesh": "expanse05_amun_torpedo",
+    "generated_assets": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game",
+    "damage": 900,
+    "speed": 1500,
+    "penetration": 1000,
+    "hull": 25,
+    "armor": 50,
+    "armor_strength": 50,
+    "range": 200000,
+    "life": 240
+  },
+  "mount_requirements": [
+    "Bind three actual PDC turrets and unit mounts; exactly one budget per physical assembly",
+    "Bind heavy railgun actual muzzle; definition damage3750/pen1000/10seconds",
+    "Add actual torpedo ability_positions to expanse06_amun_magazine.ability; no copied Tachi points",
+    "Bind ship-effect-aliases.json in Amun ship skin; boarding alias lives in boarding ADS and uses implicit center"
+  ],
+  "magazine": {
+    "capacity": 8,
+    "per_pair": 2,
+    "pair_interval": 10,
+    "empty_reload": 120,
+    "three_individual_allowance": "Fourth individual projectile occurs within the second pair, normally t10. One-per5seconds was not substituted."
+  },
+  "boarding": {
+    "ability": "expanse06_amun_boarding",
+    "chance": 0.1,
+    "delay": 3,
+    "range": 6000,
+    "cooldown": 180,
+    "semantics": "Accepted modeled shuttle with fixed delay; no physical arrival or interceptable pod",
+    "targets": "enemy capital_ship, fully built, detected, same well; named Rocinante excluded; other mod heroes need explicit exclusions",
+    "supply": "dynamic target supply at cast and rechecked at delayed attempt; queue/concurrent-transfer behavior runtime"
+  },
+  "optional_cloak": {
+    "status": "ISOLATED CANDIDATE ONLY \u2014 NO ZIP; NOT FULL OFFICIAL SCHEMA PASS",
+    "files": [
+      "expanse06_amun_cloak_controller.buff",
+      "expanse06_amun_cloak_controller.ability",
+      "expanse06_amun_cloak.action_data_source",
+      "expanse06_amun_cloak.buff",
+      "expanse06_amun_cloak.ability",
+      "expanse06_amun_revealed.buff"
+    ],
+    "append_ship_abilities": [
+      "expanse06_amun_cloak_controller",
+      "expanse06_amun_cloak"
+    ],
+    "unit_hook": {
+      "cloak_ability": "expanse06_amun_cloak"
+    },
+    "unit_hook_source": "entities/dlc3_herald_cloak_frigate.unit",
+    "product_gate": "dlc_Herald",
+    "cloak_quality": 4,
+    "reveal_quality_modifier": -5,
+    "duration": 60,
+    "controller_independence": "Passive controller owns memory and reveal child. Cloak/decloak does not intentionally reset controller or remove reveal child. Engine lifecycle/save behavior untested.",
+    "damage_policy": "Only private tagged PDC/rail successful hits trigger reveal; torpedo impacts excluded. Misses do not reveal. No copied stock generic damage-dealt degradation, shield or auto-acquisition mutation.",
+    "continued_events": "Do not extend reveal deadline; count restarts after60s. Manual cloak is optional and no auto-cloak cast is added."
+  },
+  "unit_limit": {
+    "tag": "expanse_amun_ra",
+    "unit_limit": 6,
+    "semantics": "per player empire, not all players sharing faction"
+  },
+  "validation": "validate_components(package, candidate, sdk, cloak=False) supplements main whole-package checks; never use observed extension checks as official schema PASS",
+  "core_abilities": [
+    "expanse06_amun_magazine",
+    "expanse06_amun_boarding"
+  ],
+  "railgun": "expanse06_amun_railgun",
+  "pdcs": [
+    "expanse06_amun_pdc_0",
+    "expanse06_amun_pdc_1",
+    "expanse06_amun_pdc_2"
+  ],
+  "boarding_model_override": {
+    "ability_mesh_point": "weapon.boarding.0",
+    "ADS_alias_particle": "expanse06_boarding_pod_visual",
+    "scope": "Only these2 exact fields; delay/chance/filter/supply untouched; enable validator boarding_model=True"
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "status": "PASS (offline observed-structure/schema/reference checks only)",
+  "pinned_schema_revision": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+  "unit_schema": "PASS",
+  "unit_exact_change": "/attack/attack_pattern only",
+  "unit_physics_and_move_unchanged": true,
+  "skin_schema_checks": [
+    {
+      "role": "corvette",
+      "unit_skin_schema": "PASS"
+    },
+    {
+      "role": "hero",
+      "unit_skin_schema": "PASS"
+    }
+  ],
+  "particle_effect_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "sha256": "0ba2b41799e71adc5ff24f3a40e4bec163d08fbdd62726b5392fd11fc7d17a01",
+      "schema": "NOT AVAILABLE in pinned SDK; no schema PASS claimed",
+      "observed_structure_and_attachment_references": "PASS",
+      "changed_pointers": [
+        "/emitters/0/particle/billboard/gradient_texture",
+        "/emitters/0/particle/billboard/height/0",
+        "/emitters/0/particle/billboard/height/1",
+        "/emitters/0/particle/billboard/width/0",
+        "/emitters/0/particle/billboard/width/1",
+        "/emitters/0/particle/external_color",
+        "/emitters/1/particle/billboard/width/0",
+        "/emitters/1/particle/billboard/width/1",
+        "/emitters/1/particle/external_color",
+        "/emitters/1/particle/light/surface_radius",
+        "/emitters/2/forward_velocity/0",
+        "/emitters/2/forward_velocity/1",
+        "/emitters/2/particle/billboard/height/0",
+        "/emitters/2/particle/billboard/height/1",
+        "/emitters/2/particle/billboard/width/0",
+        "/emitters/2/particle/billboard/width/1",
+        "/emitters/2/particle/external_color",
+        "/emitters/3/forward_velocity/0",
+        "/emitters/3/forward_velocity/1",
+        "/emitters/3/particle/billboard/gradient_texture",
+        "/emitters/3/particle/billboard/width/0",
+        "/emitters/3/particle/billboard/width/1",
+        "/emitters/3/particle/external_color",
+        "/emitters/4/particle/billboard/width/0",
+        "/emitters/4/particle/billboard/width/1",
+        "/emitters/4/particle/camera_offset/0",
+        "/emitters/4/particle/camera_offset/1",
+        "/max_effect_radius_scalar",
+        "/modifiers/0/height_change_rate/0",
+        "/modifiers/0/height_change_rate/1",
+        "/nodes/0/y/0",
+        "/nodes/0/y/1",
+        "/nodes/0/yaw/0",
+        "/nodes/0/yaw/1",
+        "/nodes/0/z/0",
+        "/nodes/0/z/1",
+        "/nodes/1/y/0",
+        "/nodes/1/y/1",
+        "/nodes/1/yaw/0",
+        "/nodes/1/yaw/1",
+        "/nodes/1/z/0",
+        "/nodes/1/z/1",
+        "/nodes/2/y/0",
+        "/nodes/2/y/1",
+        "/nodes/2/yaw/0",
+        "/nodes/2/yaw/1",
+        "/nodes/2/z/0",
+        "/nodes/2/z/1",
+        "/nodes/3/y/0",
+        "/nodes/3/y/1",
+        "/nodes/3/yaw/0",
+        "/nodes/3/yaw/1",
+        "/nodes/3/z/0",
+        "/nodes/3/z/1",
+        "/nodes/4/y/0",
+        "/nodes/4/y/1",
+        "/nodes/4/yaw/0",
+        "/nodes/4/yaw/1",
+        "/nodes/4/z/0",
+        "/nodes/4/z/1"
+      ],
+      "particle_emitter_count": 5
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "sha256": "0671e083e31fa5a14c0dc70b315129a5f9b5907caca6f51ae25488de0a0129ac",
+      "schema": "NOT AVAILABLE in pinned SDK; no schema PASS claimed",
+      "observed_structure_and_attachment_references": "PASS",
+      "changed_pointers": [
+        "/emitters/0/particle/billboard/gradient_texture",
+        "/emitters/0/particle/billboard/height/0",
+        "/emitters/0/particle/billboard/height/1",
+        "/emitters/0/particle/billboard/width/0",
+        "/emitters/0/particle/billboard/width/1",
+        "/emitters/0/particle/external_color",
+        "/emitters/1/particle/billboard/width/0",
+        "/emitters/1/particle/billboard/width/1",
+        "/emitters/1/particle/external_color",
+        "/emitters/1/particle/light/surface_radius",
+        "/emitters/2/forward_velocity/0",
+        "/emitters/2/forward_velocity/1",
+        "/emitters/2/particle/billboard/height/0",
+        "/emitters/2/particle/billboard/height/1",
+        "/emitters/2/particle/billboard/width/0",
+        "/emitters/2/particle/billboard/width/1",
+        "/emitters/2/particle/external_color",
+        "/emitters/3/forward_velocity/0",
+        "/emitters/3/forward_velocity/1",
+        "/emitters/3/particle/billboard/gradient_texture",
+        "/emitters/3/particle/billboard/width/0",
+        "/emitters/3/particle/billboard/width/1",
+        "/emitters/3/particle/external_color",
+        "/emitters/4/particle/billboard/width/0",
+        "/emitters/4/particle/billboard/width/1",
+        "/emitters/4/particle/camera_offset/0",
+        "/emitters/4/particle/camera_offset/1",
+        "/max_effect_radius_scalar",
+        "/modifiers/0/height_change_rate/0",
+        "/modifiers/0/height_change_rate/1",
+        "/nodes/0/z/0",
+        "/nodes/0/z/1",
+        "/nodes/2/z/0",
+        "/nodes/2/z/1",
+        "/nodes/3/z/0",
+        "/nodes/3/z/1",
+        "/nodes/4/z/0",
+        "/nodes/4/z/1"
+      ],
+      "particle_emitter_count": 5
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "sha256": "256236b7a8c6e3297c4e5d153526f0adbec419f23947455c6fae6514144247e6",
+      "schema": "NOT AVAILABLE in pinned SDK; no schema PASS claimed",
+      "observed_structure_and_attachment_references": "PASS",
+      "changed_pointers": [
+        "/emitters/0/particle/billboard/gradient_texture",
+        "/emitters/0/particle/billboard/height/0",
+        "/emitters/0/particle/billboard/height/1",
+        "/emitters/0/particle/billboard/width/0",
+        "/emitters/0/particle/billboard/width/1",
+        "/emitters/0/particle/external_color",
+        "/emitters/1/particle/billboard/width/0",
+        "/emitters/1/particle/billboard/width/1",
+        "/emitters/1/particle/external_color",
+        "/emitters/1/particle/light/surface_radius",
+        "/emitters/2/forward_velocity/0",
+        "/emitters/2/forward_velocity/1",
+        "/emitters/2/particle/billboard/height/0",
+        "/emitters/2/particle/billboard/height/1",
+        "/emitters/2/particle/billboard/width/0",
+        "/emitters/2/particle/billboard/width/1",
+        "/emitters/2/particle/external_color",
+        "/emitters/3/forward_velocity/0",
+        "/emitters/3/forward_velocity/1",
+        "/emitters/3/particle/billboard/gradient_texture",
+        "/emitters/3/particle/billboard/width/0",
+        "/emitters/3/particle/billboard/width/1",
+        "/emitters/3/particle/external_color",
+        "/emitters/4/particle/billboard/width/0",
+        "/emitters/4/particle/billboard/width/1",
+        "/emitters/4/particle/camera_offset/0",
+        "/emitters/4/particle/camera_offset/1",
+        "/max_effect_radius_scalar",
+        "/modifiers/0/height_change_rate/0",
+        "/modifiers/0/height_change_rate/1",
+        "/nodes/0/y/0",
+        "/nodes/0/y/1",
+        "/nodes/0/yaw/0",
+        "/nodes/0/yaw/1",
+        "/nodes/0/z/0",
+        "/nodes/0/z/1",
+        "/nodes/1/y/0",
+        "/nodes/1/y/1",
+        "/nodes/1/yaw/0",
+        "/nodes/1/yaw/1",
+        "/nodes/1/z/0",
+        "/nodes/1/z/1",
+        "/nodes/2/y/0",
+        "/nodes/2/y/1",
+        "/nodes/2/yaw/0",
+        "/nodes/2/yaw/1",
+        "/nodes/2/z/0",
+        "/nodes/2/z/1",
+        "/nodes/3/y/0",
+        "/nodes/3/y/1",
+        "/nodes/3/yaw/0",
+        "/nodes/3/yaw/1",
+        "/nodes/3/z/0",
+        "/nodes/3/z/1",
+        "/nodes/4/y/0",
+        "/nodes/4/y/1",
+        "/nodes/4/yaw/0",
+        "/nodes/4/yaw/1",
+        "/nodes/4/z/0",
+        "/nodes/4/z/1"
+      ],
+      "particle_emitter_count": 5
+    }
+  ],
+  "source_dependency_sha256": {
+    "/run/media/haker/NVME 2/expanse-mod/audit/schema-comparison.json": "ae2f53e00daedd5ba8ed42a1c8197bfe1678027595507db0e1b8c61b7b0e4338",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/unit-schema.json": "494233fe19a65910a8a52acbd076a49b72178105372b5db7cd1ce7b85f851988",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/unit-skin-schema.json": "029936e1b3bedbf2ce3b5411fd625e412d8d091b16b1e1f38208cc96f8ee5d48",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_light_frigate.unit": "21f7dc1945cb4b04f28fcd7c22e0a1cfcfdf5eae4c41af7e5270bf847f22cb48",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_missile_corvette.unit": "26bd8d26660d3915413159ecea04fe89d0dc4e92434c5c3babffbed132adee73",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/advent_gunship_corvette.unit": "ec582bb659d7566bb3128f247f960b8b3894636c60f1b353fe8b67c4a5a57cbf",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_light_frigate.unit_skin": "4819e90d19e76b6201fc39ee1230669202f5380fd66b376ebc30cf3ec91c0ba6",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/entities/trader_light_frigate.unit_skin": "cba4d7fef3004ac8379c6dd967b81dc034c1356983c2107e99368562e7f9cb1c",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh": "ef3c73d9938e96bc6d7464ad6143d2d48f484fbe1f7e25c12ac42e893abd03e9",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/exhaust_tech_medium_01.particle_effect": "39ab5067cc2b45229679e026289551f6ac9c7c8e629d2ead04d874c61e5d066d",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/advent_medium_missile_exhaust.particle_effect": "1c8c8ac386d98fb3c5e2f83875c9cb020e4d28cf5c6000faeb35bab8c9b6effb",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/Buff_FighterBlinkActivate.particle_effect": "33a11b1d9a925fd15cfb95ae0abf95107f1b1b815279b3e252ee3bbfb37c0407",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_edgemask_ghost_fade.dds": "b9e1de17c379fe2d26eb1230bd19ba1411a43b71fa3a1ccdd3dc1acf18391570",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/advent_light.dds": "3085690d77fec2b7d4a52ac47e64b0192568f5e2c56b5e4605037f88522296b7",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_noise_008.dds": "6f48d309ee1d4463647bead03ee3eb87cfd14e1d7c40b1fb31d5fd3181b13a0c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/zap_clr.dds": "022b26f6235dab009de511f3cbec96aeeec58add51ab7a1f6c9d3d75aa79de44",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/soft_circle_large.dds": "09ca537757ac5120079408ab7ec1061fb88a7180b4cb5c90bb0987da8303e479",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/water_uv.dds": "fe23cdad8a0a1c80a994cc1de3bf92f2100397bc4f4aae447f07bda7506f5845",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/heat_refraction_falloff.dds": "fb7ca671e377a12e18dafbeada67196a25698e2eb00290f1167781ba99802c77",
+    "/run/media/haker/NVME 2/expanse-mod/audit/installed-file-hashes.json": "a9db33682ec011daea8df30e7d20a468e041a34bf55fb764647b4550bae6927e"
+  },
+  "reference_edges": [
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "pointer": "/emitters/0/particle/billboard/texture_0",
+      "reference": "t_edgemask_ghost_fade",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_edgemask_ghost_fade.dds",
+      "sha256": "b9e1de17c379fe2d26eb1230bd19ba1411a43b71fa3a1ccdd3dc1acf18391570"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "pointer": "/emitters/0/particle/billboard/gradient_texture",
+      "reference": "advent_light",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/advent_light.dds",
+      "sha256": "3085690d77fec2b7d4a52ac47e64b0192568f5e2c56b5e4605037f88522296b7"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "pointer": "/emitters/0/particle/billboard/erosion_texture",
+      "reference": "t_noise_008",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_noise_008.dds",
+      "sha256": "6f48d309ee1d4463647bead03ee3eb87cfd14e1d7c40b1fb31d5fd3181b13a0c"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "pointer": "/emitters/1/particle/billboard/texture_0",
+      "reference": "zap_clr",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/zap_clr.dds",
+      "sha256": "022b26f6235dab009de511f3cbec96aeeec58add51ab7a1f6c9d3d75aa79de44"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "pointer": "/emitters/1/particle/billboard/texture_1",
+      "reference": "zap_clr",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/zap_clr.dds",
+      "sha256": "022b26f6235dab009de511f3cbec96aeeec58add51ab7a1f6c9d3d75aa79de44"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "pointer": "/emitters/3/particle/billboard/gradient_texture",
+      "reference": "advent_light",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/advent_light.dds",
+      "sha256": "3085690d77fec2b7d4a52ac47e64b0192568f5e2c56b5e4605037f88522296b7"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "pointer": "/emitters/3/particle/billboard/erosion_texture",
+      "reference": "soft_circle_large",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/soft_circle_large.dds",
+      "sha256": "09ca537757ac5120079408ab7ec1061fb88a7180b4cb5c90bb0987da8303e479"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "pointer": "/emitters/4/particle/billboard/refraction_texture",
+      "reference": "water_uv",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/water_uv.dds",
+      "sha256": "fe23cdad8a0a1c80a994cc1de3bf92f2100397bc4f4aae447f07bda7506f5845"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_corvette_phase_plume.particle_effect",
+      "pointer": "/emitters/4/particle/billboard/refraction_mask_texture",
+      "reference": "heat_refraction_falloff",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/heat_refraction_falloff.dds",
+      "sha256": "fb7ca671e377a12e18dafbeada67196a25698e2eb00290f1167781ba99802c77"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "pointer": "/emitters/0/particle/billboard/texture_0",
+      "reference": "t_edgemask_ghost_fade",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_edgemask_ghost_fade.dds",
+      "sha256": "b9e1de17c379fe2d26eb1230bd19ba1411a43b71fa3a1ccdd3dc1acf18391570"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "pointer": "/emitters/0/particle/billboard/gradient_texture",
+      "reference": "advent_light",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/advent_light.dds",
+      "sha256": "3085690d77fec2b7d4a52ac47e64b0192568f5e2c56b5e4605037f88522296b7"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "pointer": "/emitters/0/particle/billboard/erosion_texture",
+      "reference": "t_noise_008",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_noise_008.dds",
+      "sha256": "6f48d309ee1d4463647bead03ee3eb87cfd14e1d7c40b1fb31d5fd3181b13a0c"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "pointer": "/emitters/1/particle/billboard/texture_0",
+      "reference": "zap_clr",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/zap_clr.dds",
+      "sha256": "022b26f6235dab009de511f3cbec96aeeec58add51ab7a1f6c9d3d75aa79de44"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "pointer": "/emitters/1/particle/billboard/texture_1",
+      "reference": "zap_clr",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/zap_clr.dds",
+      "sha256": "022b26f6235dab009de511f3cbec96aeeec58add51ab7a1f6c9d3d75aa79de44"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "pointer": "/emitters/3/particle/billboard/gradient_texture",
+      "reference": "advent_light",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/advent_light.dds",
+      "sha256": "3085690d77fec2b7d4a52ac47e64b0192568f5e2c56b5e4605037f88522296b7"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "pointer": "/emitters/3/particle/billboard/erosion_texture",
+      "reference": "soft_circle_large",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/soft_circle_large.dds",
+      "sha256": "09ca537757ac5120079408ab7ec1061fb88a7180b4cb5c90bb0987da8303e479"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "pointer": "/emitters/4/particle/billboard/refraction_texture",
+      "reference": "water_uv",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/water_uv.dds",
+      "sha256": "fe23cdad8a0a1c80a994cc1de3bf92f2100397bc4f4aae447f07bda7506f5845"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_idle_plume.particle_effect",
+      "pointer": "/emitters/4/particle/billboard/refraction_mask_texture",
+      "reference": "heat_refraction_falloff",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/heat_refraction_falloff.dds",
+      "sha256": "fb7ca671e377a12e18dafbeada67196a25698e2eb00290f1167781ba99802c77"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "pointer": "/emitters/0/particle/billboard/texture_0",
+      "reference": "t_edgemask_ghost_fade",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_edgemask_ghost_fade.dds",
+      "sha256": "b9e1de17c379fe2d26eb1230bd19ba1411a43b71fa3a1ccdd3dc1acf18391570"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "pointer": "/emitters/0/particle/billboard/gradient_texture",
+      "reference": "advent_light",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/advent_light.dds",
+      "sha256": "3085690d77fec2b7d4a52ac47e64b0192568f5e2c56b5e4605037f88522296b7"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "pointer": "/emitters/0/particle/billboard/erosion_texture",
+      "reference": "t_noise_008",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_noise_008.dds",
+      "sha256": "6f48d309ee1d4463647bead03ee3eb87cfd14e1d7c40b1fb31d5fd3181b13a0c"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "pointer": "/emitters/1/particle/billboard/texture_0",
+      "reference": "zap_clr",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/zap_clr.dds",
+      "sha256": "022b26f6235dab009de511f3cbec96aeeec58add51ab7a1f6c9d3d75aa79de44"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "pointer": "/emitters/1/particle/billboard/texture_1",
+      "reference": "zap_clr",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/zap_clr.dds",
+      "sha256": "022b26f6235dab009de511f3cbec96aeeec58add51ab7a1f6c9d3d75aa79de44"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "pointer": "/emitters/3/particle/billboard/gradient_texture",
+      "reference": "advent_light",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/advent_light.dds",
+      "sha256": "3085690d77fec2b7d4a52ac47e64b0192568f5e2c56b5e4605037f88522296b7"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "pointer": "/emitters/3/particle/billboard/erosion_texture",
+      "reference": "soft_circle_large",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/soft_circle_large.dds",
+      "sha256": "09ca537757ac5120079408ab7ec1061fb88a7180b4cb5c90bb0987da8303e479"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "pointer": "/emitters/4/particle/billboard/refraction_texture",
+      "reference": "water_uv",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/water_uv.dds",
+      "sha256": "fe23cdad8a0a1c80a994cc1de3bf92f2100397bc4f4aae447f07bda7506f5845"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/validation/build/flight03-c/generated/effects/mcrn03_hero_phase_plume.particle_effect",
+      "pointer": "/emitters/4/particle/billboard/refraction_mask_texture",
+      "reference": "heat_refraction_falloff",
+      "installed_target": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/heat_refraction_falloff.dds",
+      "sha256": "fb7ca671e377a12e18dafbeada67196a25698e2eb00290f1167781ba99802c77"
+    }
+  ],
+  "state_hook_evidence": {
+    "hyperspace_effects": {
+      "type": "object",
+      "properties": {
+        "charge_effect": {
+          "$ref": "#/$defs/particle_effect_definition_ptr"
+        },
+        "charge_effect_between_stars": {
+          "$ref": "#/$defs/particle_effect_definition_ptr"
+        },
+        "charge_effect_destabilized": {
+          "$ref": "#/$defs/particle_effect_definition_ptr"
+        },
+        "charge_sound": {
+          "$ref": "#/$defs/sound_ptr"
+        },
+        "enter_sound": {
+          "$ref": "#/$defs/sound_ptr"
+        },
+        "exit_effect": {
+          "$ref": "#/$defs/particle_effect_definition_ptr"
+        },
+        "exit_sound": {
+          "$ref": "#/$defs/sound_ptr"
+        },
+        "travel_effect": {
+          "$ref": "#/$defs/particle_effect_definition_ptr"
+        },
+        "travel_effect_between_stars": {
+          "$ref": "#/$defs/particle_effect_definition_ptr"
+        },
+        "travel_effect_destabilized": {
+          "$ref": "#/$defs/particle_effect_definition_ptr"
+        }
+      },
+      "required": [
+        "charge_effect",
+        "charge_effect_between_stars",
+        "charge_sound",
+        "enter_sound",
+        "exit_effect",
+        "exit_sound",
+        "travel_effect",
+        "travel_effect_between_stars"
+      ],
+      "unevaluatedProperties": false
+    },
+    "flair_effects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "constraint": {
+            "type": "string",
+            "enum": [
+              "is_loot_collection_active",
+              "is_exotic_factory_busy",
+              "is_unit_factory_busy",
+              "is_unit_factory_idle",
+              "is_damaged",
+              "has_unit_item",
+              "does_not_have_unit_item",
+              "is_crippled",
+              "is_not_crippled",
+              "is_not_in_phase_space_or_charging",
+              "is_collecting_loot",
+              "is_surrendered"
+            ]
+          },
+          "hull_damage_percentage": {
+            "description": "default=0.5",
+            "type": "number"
+          },
+          "hyperspace_effect_delay": {
+            "description": "optional delay for usage with is_not_in_phase_space_or_charging. allows for particle effects to hold off to play until after an arbitary amount of time after hyperspace is complete.",
+            "type": "number"
+          },
+          "mesh_point_name": {
+            "$ref": "#/$defs/mesh_point_name"
+          },
+          "particle_effect": {
+            "$ref": "#/$defs/particle_effect_definition_ptr"
+          },
+          "sound": {
+            "$ref": "#/$defs/sound_ptr"
+          },
+          "unit_item": {
+            "$ref": "#/$defs/unit_item_definition_ptr"
+          }
+        },
+        "unevaluatedProperties": false
+      }
+    },
+    "exhaust_effects": {
+      "type": "object",
+      "properties": {
+        "mesh_point": {
+          "$ref": "#/$defs/mesh_point_name"
+        },
+        "particle_effect": {
+          "$ref": "#/$defs/particle_effect_definition_ptr"
+        }
+      },
+      "unevaluatedProperties": false
+    }
+  },
+  "installed_comparison": {
+    "cobalt": {
+      "attack_pattern": {
+        "type": "stop_and_fire"
+      }
+    },
+    "tec_missile_corvette": {
+      "attack_pattern": {
+        "type": "circle_strafe",
+        "alignment": {
+          "type": "yaw",
+          "angle": 90.0,
+          "allow_opposite_angle": false
+        },
+        "angle_range_off_gravity_well_plane": [
+          -45.0,
+          45.0
+        ]
+      }
+    },
+    "generic_circle_strafe_donor": {
+      "attack_pattern": {
+        "type": "circle_strafe",
+        "angle_range_off_gravity_well_plane": [
+          -45.0,
+          45.0
+        ]
+      }
+    }
+  },
+  "generated_file_sha256": {
+    "generated/effects/mcrn03_hero_phase_plume.particle_effect": "256236b7a8c6e3297c4e5d153526f0adbec419f23947455c6fae6514144247e6",
+    "generated/effects/mcrn03_hero_idle_plume.particle_effect": "0671e083e31fa5a14c0dc70b315129a5f9b5907caca6f51ae25488de0a0129ac",
+    "generated/effects/mcrn03_corvette_phase_plume.particle_effect": "0ba2b41799e71adc5ff24f3a40e4bec163d08fbdd62726b5392fd11fc7d17a01"
+  },
+  "runtime": "NOT RUN",
+  "previously_pinned_game_references_checked": 9
+}

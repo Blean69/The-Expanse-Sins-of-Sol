@@ -1,0 +1,659 @@
+{
+  "scope": "Existing checkpoint trace, projectile skin and downstream dependencies; additional trail reference resolved separately below. JSON-pointer targets, not package copies.",
+  "relationships": [
+    {
+      "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+      "json_pointer": "/skin_stages/0/death_sequence_group",
+      "id": "torpedo0",
+      "target": "death_sequences/torpedo0.death_sequence_group",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+      "json_pointer": "/skin_stages/0/effects/exhaust_effects/particle_effects/0/particle_effect",
+      "id": "torpedo_cruiser_exhaust",
+      "target": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+      "json_pointer": "/skin_stages/0/gui/description",
+      "id": "trader_torpedo_cruiser_torpedo_description",
+      "target": "localized_text/en.localized_text#/trader_torpedo_cruiser_torpedo_description",
+      "resolution": "localization"
+    },
+    {
+      "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+      "json_pointer": "/skin_stages/0/gui/hud_icon",
+      "id": "trader_torpedo_cruiser_torpedo_hud_icon",
+      "target": "textures/trader_torpedo_cruiser_torpedo_hud_icon.png",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+      "json_pointer": "/skin_stages/0/gui/hud_monochrome_icon",
+      "id": "trader_torpedo_cruiser_torpedo_main_view_icon",
+      "target": "textures/trader_torpedo_cruiser_torpedo_main_view_icon.png",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+      "json_pointer": "/skin_stages/0/gui/name",
+      "id": "trader_torpedo_cruiser_torpedo_name",
+      "target": "localized_text/en.localized_text#/trader_torpedo_cruiser_torpedo_name",
+      "resolution": "localization"
+    },
+    {
+      "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+      "json_pointer": "/skin_stages/0/main_view_icon/icon",
+      "id": "trader_torpedo_cruiser_torpedo_main_view_icon",
+      "target": "textures/trader_torpedo_cruiser_torpedo_main_view_icon.png",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+      "json_pointer": "/skin_stages/0/sounds/move_sounds/engine",
+      "id": "ambient_loop_tech_neutrontorp_engine",
+      "target": "sounds/ambient_loop_tech_neutrontorp_engine.sound",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+      "json_pointer": "/skin_stages/0/unit_mesh/mesh",
+      "id": "trader_torpedo_cruiser_torpedo",
+      "target": "meshes/trader_torpedo_cruiser_torpedo.mesh",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "death_sequences/torpedo0.death_sequence_group",
+      "json_pointer": "/death_sequences/0",
+      "id": "torpedo0_0",
+      "target": "death_sequences/torpedo0_0.death_sequence",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/0/particle/billboard/distortion_texture",
+      "id": "t_uvdist_002",
+      "target": "textures/t_uvdist_002.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/0/particle/billboard/erosion_texture",
+      "id": "t_noise_002",
+      "target": "textures/t_noise_002.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/0/particle/billboard/gradient_texture",
+      "id": "t_gradient_52",
+      "target": "textures/t_gradient_52.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/0/particle/billboard/texture_animation",
+      "id": "cloud_2x2",
+      "target": "texture_animations/cloud_2x2.texture_animation",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/1/particle/billboard/distortion_texture",
+      "id": "t_uvdist_002",
+      "target": "textures/t_uvdist_002.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/1/particle/billboard/erosion_texture",
+      "id": "t_cloud_noise",
+      "target": "textures/t_cloud_noise.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/1/particle/billboard/gradient_texture",
+      "id": "t_gradient_46",
+      "target": "textures/t_gradient_46.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/1/particle/billboard/texture_animation",
+      "id": "cloud_2x2",
+      "target": "texture_animations/cloud_2x2.texture_animation",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/2/particle/billboard/distortion_texture",
+      "id": "t_uvdist_002",
+      "target": "textures/t_uvdist_002.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/2/particle/billboard/erosion_texture",
+      "id": "smoke_noise",
+      "target": "textures/smoke_noise.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/2/particle/billboard/gradient_texture",
+      "id": "t_gradient_52",
+      "target": "textures/t_gradient_52.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/2/particle/billboard/texture_animation",
+      "id": "raze_cloud_3x3",
+      "target": "texture_animations/raze_cloud_3x3.texture_animation",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/3/particle/billboard/refraction_mask_texture",
+      "id": "heat_refraction_falloff",
+      "target": "textures/heat_refraction_falloff.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/torpedo_cruiser_exhaust.particle_effect",
+      "json_pointer": "/emitters/3/particle/billboard/refraction_texture",
+      "id": "heat_refraction",
+      "target": "textures/heat_refraction.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "sounds/ambient_loop_tech_neutrontorp_engine.sound",
+      "json_pointer": "(implicit same basename)",
+      "id": "ambient_loop_tech_neutrontorp_engine",
+      "target": "sounds/ambient_loop_tech_neutrontorp_engine.ogg",
+      "resolution": "sound_audio"
+    },
+    {
+      "source": "meshes/trader_torpedo_cruiser_torpedo.mesh",
+      "json_pointer": "/materials/0",
+      "id": "trader_torpedo_cruiser_torpedo",
+      "target": "mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "death_sequences/torpedo0_0.death_sequence",
+      "json_pointer": "/events/0/particle_effects/0",
+      "id": "trader_torpedo_cruiser_impact",
+      "target": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "death_sequences/torpedo0_0.death_sequence",
+      "json_pointer": "/events/0/sounds/0",
+      "id": "explosion_supportshipdeath",
+      "target": "sounds/EXPLOSION_SUPPORTSHIPDEATH.sound",
+      "resolution": "casefold_stem"
+    },
+    {
+      "source": "death_sequences/torpedo0_0.death_sequence",
+      "json_pointer": "/events/0/sounds/1",
+      "id": "explosion_supportshipdeath_alt1",
+      "target": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT1.sound",
+      "resolution": "casefold_stem"
+    },
+    {
+      "source": "death_sequences/torpedo0_0.death_sequence",
+      "json_pointer": "/events/0/sounds/2",
+      "id": "explosion_supportshipdeath_alt2",
+      "target": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT2.sound",
+      "resolution": "casefold_stem"
+    },
+    {
+      "source": "texture_animations/cloud_2x2.texture_animation",
+      "json_pointer": "/texture",
+      "id": "clouds_2x2",
+      "target": "textures/clouds_2x2.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "texture_animations/raze_cloud_3x3.texture_animation",
+      "json_pointer": "/texture",
+      "id": "raze_clouds_3x3_greyscale",
+      "target": "textures/raze_clouds_3x3_greyscale.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "json_pointer": "/base_color_texture",
+      "id": "trader_torpedo_cruiser_clr",
+      "target": "textures/trader_torpedo_cruiser_clr.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "json_pointer": "/mask_texture",
+      "id": "trader_torpedo_cruiser_msk",
+      "target": "textures/trader_torpedo_cruiser_msk.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "json_pointer": "/normal_texture",
+      "id": "trader_torpedo_cruiser_nrm",
+      "target": "textures/trader_torpedo_cruiser_nrm.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material",
+      "json_pointer": "/occlusion_roughness_metallic_texture",
+      "id": "trader_torpedo_cruiser_orm",
+      "target": "textures/trader_torpedo_cruiser_orm.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/0/particle/billboard/refraction_mask_texture",
+      "id": "heat_refraction_falloff",
+      "target": "textures/heat_refraction_falloff.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/0/particle/billboard/refraction_texture",
+      "id": "refraction_circle",
+      "target": "textures/refraction_circle.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/1/particle/billboard/erosion_texture",
+      "id": "smoke_noise",
+      "target": "textures/smoke_noise.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/1/particle/billboard/gradient_texture",
+      "id": "t_gradient_yellow_star",
+      "target": "textures/t_gradient_yellow_star.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/1/particle/billboard/texture_animation",
+      "id": "cloud_2x2",
+      "target": "texture_animations/cloud_2x2.texture_animation",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/10/particle/billboard/distortion_texture",
+      "id": "t_uvdist_001",
+      "target": "textures/t_uvdist_001.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/10/particle/billboard/erosion_texture",
+      "id": "water_pattern",
+      "target": "textures/water_pattern.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/10/particle/billboard/gradient_texture",
+      "id": "t_gradient_50",
+      "target": "textures/t_gradient_50.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/10/particle/billboard/texture_0",
+      "id": "cloud_01",
+      "target": "textures/cloud_01.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/2/particle/billboard/distortion_texture",
+      "id": "smoke_uv",
+      "target": "textures/smoke_uv.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/2/particle/billboard/erosion_texture",
+      "id": "smoke_noise",
+      "target": "textures/smoke_noise.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/2/particle/billboard/gradient_texture",
+      "id": "t_gradient_48",
+      "target": "textures/t_gradient_48.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/2/particle/billboard/texture_animation",
+      "id": "smoke_alpha_01",
+      "target": "texture_animations/smoke_alpha_01.texture_animation",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/2/particle/billboard/texture_animation",
+      "id": "smoke_alpha_01",
+      "target": "textures/smoke_alpha_01.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/3/particle/billboard/distortion_texture",
+      "id": "t_uvdist_003",
+      "target": "textures/t_uvdist_003.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/3/particle/billboard/erosion_texture",
+      "id": "smoke_noise",
+      "target": "textures/smoke_noise.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/3/particle/billboard/gradient_texture",
+      "id": "t_gradient_59",
+      "target": "textures/t_gradient_59.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/3/particle/billboard/texture_animation",
+      "id": "cloud_2x2",
+      "target": "texture_animations/cloud_2x2.texture_animation",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/4/particle/billboard/distortion_texture",
+      "id": "smoke_uv",
+      "target": "textures/smoke_uv.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/4/particle/billboard/erosion_texture",
+      "id": "t_noise_001",
+      "target": "textures/t_noise_001.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/4/particle/billboard/gradient_texture",
+      "id": "t_gradient_56",
+      "target": "textures/t_gradient_56.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/4/particle/billboard/texture_animation",
+      "id": "smoke_alpha_01",
+      "target": "texture_animations/smoke_alpha_01.texture_animation",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/4/particle/billboard/texture_animation",
+      "id": "smoke_alpha_01",
+      "target": "textures/smoke_alpha_01.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/5/particle/billboard/texture_0",
+      "id": "soft_circle",
+      "target": "textures/soft_circle.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/6/particle/billboard/distortion_texture",
+      "id": "water_uv",
+      "target": "textures/water_uv.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/6/particle/billboard/erosion_texture",
+      "id": "smoke_noise",
+      "target": "textures/smoke_noise.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/6/particle/billboard/gradient_texture",
+      "id": "t_gradient_49",
+      "target": "textures/t_gradient_49.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/6/particle/billboard/texture_0",
+      "id": "binary_blast_1",
+      "target": "textures/binary_blast_1.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/7/particle/billboard/erosion_texture",
+      "id": "t_noise_002",
+      "target": "textures/t_noise_002.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/7/particle/billboard/gradient_texture",
+      "id": "t_gradient_53",
+      "target": "textures/t_gradient_53.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/7/particle/billboard/texture_animation",
+      "id": "embers_anim",
+      "target": "texture_animations/embers_anim.texture_animation",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/8/particle/billboard/distortion_texture",
+      "id": "t_uvdist_001",
+      "target": "textures/t_uvdist_001.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/8/particle/billboard/erosion_texture",
+      "id": "smoke_noise2",
+      "target": "textures/smoke_noise2.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/8/particle/billboard/gradient_texture",
+      "id": "t_gradient_49",
+      "target": "textures/t_gradient_49.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/8/particle/billboard/texture_0",
+      "id": "abstract_fire_shape",
+      "target": "textures/abstract_fire_shape.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/9/particle/billboard/distortion_texture",
+      "id": "smoke_uv",
+      "target": "textures/smoke_uv.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/9/particle/billboard/erosion_texture",
+      "id": "smoke_noise",
+      "target": "textures/smoke_noise.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/9/particle/billboard/gradient_texture",
+      "id": "t_gradient_63",
+      "target": "textures/t_gradient_63.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "effects/trader_torpedo_cruiser_impact.particle_effect",
+      "json_pointer": "/emitters/9/particle/billboard/texture_0",
+      "id": "binary_blast_2",
+      "target": "textures/binary_blast_2.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "sounds/EXPLOSION_SUPPORTSHIPDEATH.sound",
+      "json_pointer": "(implicit same basename)",
+      "id": "EXPLOSION_SUPPORTSHIPDEATH",
+      "target": "sounds/EXPLOSION_SUPPORTSHIPDEATH.ogg",
+      "resolution": "sound_audio"
+    },
+    {
+      "source": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT1.sound",
+      "json_pointer": "(implicit same basename)",
+      "id": "EXPLOSION_SUPPORTSHIPDEATH_ALT1",
+      "target": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT1.ogg",
+      "resolution": "sound_audio"
+    },
+    {
+      "source": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT2.sound",
+      "json_pointer": "(implicit same basename)",
+      "id": "EXPLOSION_SUPPORTSHIPDEATH_ALT2",
+      "target": "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT2.ogg",
+      "resolution": "sound_audio"
+    },
+    {
+      "source": "texture_animations/smoke_alpha_01.texture_animation",
+      "json_pointer": "/texture",
+      "id": "smoke_alpha_01",
+      "target": "textures/smoke_alpha_01.dds",
+      "resolution": "exact_stem"
+    },
+    {
+      "source": "texture_animations/embers_anim.texture_animation",
+      "json_pointer": "/texture",
+      "id": "t_embers_fb01",
+      "target": "textures/T_Embers_FB01.dds",
+      "resolution": "casefold_stem"
+    }
+  ],
+  "additional_reference": {
+    "source": "entities/trader_torpedo_cruiser_torpedo.unit_skin",
+    "pointer": "/skin_stages/0/effects/exhaust_effects/trail_effects/0/trail_effect",
+    "target": "effects/trader_large_torpedo.exhaust_trail_effect",
+    "sha256": "44b7f1441c96beab727ebf20affd11c71cb03693f65041807e33e682953a78fe",
+    "previous_hash_snapshot_contains_file": false,
+    "contents": {
+      "texture": "trader_missile_trail",
+      "start_width": 4.0,
+      "middle_width": 8.0,
+      "middle_offset": 1,
+      "max_width_scalar": 10.0,
+      "segment_duration": 1.5,
+      "max_trail_length": 1000.0,
+      "render_with_player_color": false,
+      "basic_constants": {
+        "alpha_ramp_curvature": 1.0,
+        "alpha_ramp_steepness": 0.3,
+        "alpha_ramp_growth_delay": 1.2,
+        "alpha_ramp_max_alpha_scalar": 1.0
+      }
+    }
+  },
+  "additional_trail_texture_reference": {
+    "source": "effects/trader_large_torpedo.exhaust_trail_effect",
+    "pointer": "/texture",
+    "target": "textures/trader_missile_trail.dds",
+    "sha256": "e8dcc9af23344db457a37734397699f99666c720fe2e4564d1537627d24361d2",
+    "previous_hash_snapshot_contains_file": false
+  },
+  "verified_checkpoint_file_hashes": {
+    "death_sequences/torpedo0.death_sequence_group": "b176c0be35543521c739dae04709991c0a0f2f1ee2e3c4008a5bf6b77925e928",
+    "death_sequences/torpedo0_0.death_sequence": "2105c4ee7c2f8aa63b149ebdcb0f1d581427cc0ded46e654e736f5d1440da27f",
+    "effects/torpedo_cruiser_exhaust.particle_effect": "4c8666be7d8912fecb6b54aa05e98ea82ada764add6c64c3e93c2093e299e107",
+    "effects/trader_torpedo_cruiser_impact.particle_effect": "490c1cd964412e65808802554e2cf69d14e20e3a733edaf7275a8cf71fb4eb47",
+    "entities/trader_torpedo_cruiser_torpedo.unit_skin": "2fd884758cb15aaa182e19d12fd5bec393ae90e5fcd87e4786af9d9193371b89",
+    "mesh_materials/trader_torpedo_cruiser_torpedo.mesh_material": "4e4edb46fe48d45195b42d4ab69971e1830f801463e5939beb429fa049367b54",
+    "meshes/trader_torpedo_cruiser_torpedo.mesh": "b08b33c391bfb66eaabb2f4b3ac3578b6de584f2a8aec691dfa17460d028a6cf",
+    "sounds/EXPLOSION_SUPPORTSHIPDEATH.ogg": "4ad0bc89905f8c06220f4e0a1e54bfa18e369e089f5512e80843352e627cae26",
+    "sounds/EXPLOSION_SUPPORTSHIPDEATH.sound": "3e473bc2e1e5213451bfe41f74b6f9a8de97f2ffe494818c7a5253f4f3a99a3e",
+    "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT1.ogg": "c1b9cd90d6bc8fdfe405970a8da8fa4a324cae4a1e49a47742e56b5bbebeb84a",
+    "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT1.sound": "3e473bc2e1e5213451bfe41f74b6f9a8de97f2ffe494818c7a5253f4f3a99a3e",
+    "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT2.ogg": "4c51c0386890c7276c105b1267f8d48c1e9a8a1aae727d7afa934b1b5c99abd8",
+    "sounds/EXPLOSION_SUPPORTSHIPDEATH_ALT2.sound": "3e473bc2e1e5213451bfe41f74b6f9a8de97f2ffe494818c7a5253f4f3a99a3e",
+    "sounds/ambient_loop_tech_neutrontorp_engine.ogg": "9232576a3bf50caa38a691c35128b41652514f0a7347b6582a92d97ec6fac18a",
+    "sounds/ambient_loop_tech_neutrontorp_engine.sound": "b0fcef2583f33e86e39af5da150c622534bc0c6d4d965417bae255803860a47e",
+    "texture_animations/cloud_2x2.texture_animation": "7f6164ef901e44033b7526febc2ed2007202fa0f9879f8580f31b4b9d300934e",
+    "texture_animations/embers_anim.texture_animation": "e5d68dcfd1fb8f5918a37c1580499d6a49ef90621b928b8a2c1787c9c6f0f5ab",
+    "texture_animations/raze_cloud_3x3.texture_animation": "25b30406352cb30718637605a8b72991224d24f455356fcf3c0480c181f36b3e",
+    "texture_animations/smoke_alpha_01.texture_animation": "8278b4c1a927e715f614d2cd002da49d0a21a7910f935c0e52305ae5a8452e74",
+    "textures/T_Embers_FB01.dds": "ade237c1de13afe3fc189a27b4d11641696bd86bb987625fcc2d1de1140fc58e",
+    "textures/abstract_fire_shape.dds": "eda4e94e835c25edc6350bb33b3eb48a9cb37679b518a9a11786dbc35a4388d3",
+    "textures/binary_blast_1.dds": "2a62b833cacb6e57e1c0b9ca59a30a03632c21f203d9aa27afb91e8acf284777",
+    "textures/binary_blast_2.dds": "7f7d747ed05ca7c4b45cfbb424a03e4b74581e103c80c25d202f2b2846398ae9",
+    "textures/cloud_01.dds": "666ce0d97ec15d4a432f864678ee3394ad1d02d0f1151dd6cd2153492908fe20",
+    "textures/clouds_2x2.dds": "9dea914809ee612207c630ece29065caa251b1e10e2439dad345ed7bd536d109",
+    "textures/heat_refraction.dds": "23b370126ace6c867ac2c8c3e5cce430cfd645a82de60bd2231fcb3717aa31f7",
+    "textures/heat_refraction_falloff.dds": "fb7ca671e377a12e18dafbeada67196a25698e2eb00290f1167781ba99802c77",
+    "textures/raze_clouds_3x3_greyscale.dds": "6dc9aa492b6ee97b3588963e1e59d822fd89e2f9d237078548cb3f6cd539b5a8",
+    "textures/refraction_circle.dds": "0a5c003e0a170470f2e84c86a1d4ff14218210c5787212de8f2d57ba1804ae26",
+    "textures/smoke_alpha_01.dds": "63eb6e6e3e48a2c20b8c99a7873aa865e355577dd581fea3e306c2c8b5d85d47",
+    "textures/smoke_noise.dds": "2a0963d65544501c382d8f7e3a520917ecf3c4cb3a1fd5446c3f7ef83e836ea9",
+    "textures/smoke_noise2.dds": "7c71affacebde80a753fec3ffaf882d30f19e1c98842f9952ff70d860072a073",
+    "textures/smoke_uv.dds": "7e29fafd0607883c1ea0913b8aafe92aac0b4a7f5ebd80d4eab2a1b1373793a7",
+    "textures/soft_circle.dds": "134a2ecc7f222ed737dcdd6dd9d0b973d2cd7fa3cf7b849e8683f1e5ec6e4172",
+    "textures/t_cloud_noise.dds": "3558b6d92488f3405b35178617ca5cf1d48c04d54dd2ddc3ff6fdeba1513c7e9",
+    "textures/t_gradient_46.dds": "a2fbda99c4009f1e773081c2c70afb83b0c6d57a7c534ef333b53c528cb4cb2e",
+    "textures/t_gradient_48.dds": "1ffdb43cb01bd380f4c30ce19ea46d81251d7fddde3d52c4a223efe6e2ca7503",
+    "textures/t_gradient_49.dds": "333516088fb8c61f01cc17ba6f5cea049b11a82266847ed714f40e6f8b786abd",
+    "textures/t_gradient_50.dds": "6873a7a8b66b4d7d1598c5e52f2f03b76d8c0e5b2ab75a1c51c2ac1fcc9ec827",
+    "textures/t_gradient_52.dds": "e9fbdada1244314accc45ab499c20a3b8941067b5af2eaa5decab511aa1657a1",
+    "textures/t_gradient_53.dds": "ffdb7df4ae4cae98e4e4b96175d12c1cd94eb964f64c4535f08c1062f592fa69",
+    "textures/t_gradient_56.dds": "592a448b97ab6c7904c6cf3dda291b83fdd32a5236daf92cd4912a86cf2a8176",
+    "textures/t_gradient_59.dds": "6f0050c5ab78caf3d7350a758983e156f6d4ad3c4bd109b522e9c6082953ce96",
+    "textures/t_gradient_63.dds": "af677e8cf28fa1d53582a7b886d2cb3dc08b066f2ae15c3486d7dda1ada5ece6",
+    "textures/t_gradient_yellow_star.dds": "ce3230e7236d3956bc967a61b57a1e8154fc39b661c4f9b9ddbfc5e55774aea8",
+    "textures/t_noise_001.dds": "4b9731cad33698e337436e4fc4cfb6ec6242e054304f4543826bca90b3f4095f",
+    "textures/t_noise_002.dds": "3498e0c4523d0b6ad974e941ffc95890709d597b60afd8df5e7b7c5c7ca0de3c",
+    "textures/t_uvdist_001.dds": "4be18af58bfa1e849141fc86879d997b6ed3a4ecd1ab148e505217f244675a7d",
+    "textures/t_uvdist_002.dds": "f9e4f20e34ba3bf7172a29b304da59ded51d6196c419fbd001a6395cb006bb05",
+    "textures/t_uvdist_003.dds": "b2e32444a670fb8628b93e406e69022b61be0d912743d65da4c54ec846249266",
+    "textures/trader_torpedo_cruiser_clr.dds": "9cd519fb8272dd439cfa21f5d19649cb6ce389b05c899705582a1afdf077ff17",
+    "textures/trader_torpedo_cruiser_msk.dds": "565ad5162d2384e9dacb6a3af66713fa666eb809cb4f8abcee76e5feb1f57d00",
+    "textures/trader_torpedo_cruiser_nrm.dds": "add60ac8485952531b95d9e681269123f173d7a7337dbd2316518ff513665881",
+    "textures/trader_torpedo_cruiser_orm.dds": "e4c141eacdc56dc8b16f30acbffc81a85db55700c20ff6e4aeb9c03245f27eb8",
+    "textures/trader_torpedo_cruiser_torpedo_hud_icon.png": "6388dee2561e6ac4737714b54bfc646b27452cd526fb5a56140ea3fbcd49e765",
+    "textures/trader_torpedo_cruiser_torpedo_main_view_icon.png": "e99cf0265f612918c265399eed084702d4de2d268e948cd3f393df4dc0cdb545",
+    "textures/water_pattern.dds": "74a2329cded33ccb3328a1ef61f47584880b075fdf37e56308cb87fdd6d7d459",
+    "textures/water_uv.dds": "fe23cdad8a0a1c80a994cc1de3bf92f2100397bc4f4aae447f07bda7506f5845"
+  },
+  "observed_unpinned_file_hashes": {
+    "localized_text/en.localized_text": "e86adff0440a7eb3088d65ae9512c503dc02eef3f6d8698abaac43cd66a36003"
+  },
+  "result": "PASS for 80 inherited relationships: 58 file hashes match checkpoint; localization keys exist. Trail and texture exist and freshly recorded, no prior hash pin available for comparison"
+}

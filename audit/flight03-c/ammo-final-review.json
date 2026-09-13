@@ -1,0 +1,41 @@
+{
+  "status": "PASS (offline snapshot review)",
+  "unit_ability_only_change_vs_timed": "PASS",
+  "one_passive_budget_no_old_timed_files": "PASS",
+  "same_six_PDC_weapon_bytes": "PASS",
+  "worker_buff_ADS_projectile_agreement": "PASS",
+  "launch_positions_from_timed_geometry": "PASS",
+  "schemas": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_ammo03/entities/expanse03_torpedo_magazine.ability",
+      "schema": "PASS",
+      "sha256": "2e67d9b77417a1e048e39bb3dd99bc4115f092abdaac9ae491089e90abebaf11"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_ammo03/entities/expanse03_torpedo_magazine.buff",
+      "schema": "PASS",
+      "sha256": "9d813a22c88d85aa864699222446b6811b686e0dd823ee98faac42303f47655a"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_ammo03/entities/expanse03_torpedo_magazine.action_data_source",
+      "schema": "PASS",
+      "sha256": "96fe9b10220321bcb1f13db53a8255dc337712cda1b5cfe03cd938fa5252636b"
+    }
+  ],
+  "typed_action_memory_values_filters": "PASS",
+  "inherited_unit_skin_mesh_refs": "PASS",
+  "zip": {
+    "files": 92,
+    "zip_sha256": "0862330304ba5df91f1457f1ef4770538200913b5bf916733093c6eebcd05849",
+    "tree_sha256": "efebf809218bdd868ba41337a0c799595058c47a5e9e1b43a9eea3093f930144"
+  },
+  "hero_tag_base_entries_and_item_access_preserved": "PASS",
+  "hero_tag_extra": [
+    {
+      "name": "expanse_rocinante_hero",
+      "localized_name": "expanse_rocinante_hero_name"
+    }
+  ],
+  "hero_tag_overwrite_flag": true,
+  "runtime": "NOT RUN"
+}

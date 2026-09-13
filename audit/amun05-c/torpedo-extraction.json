@@ -1,0 +1,82 @@
+{
+  "selected_root": 102,
+  "selected_mesh_nodes": [
+    105,
+    106
+  ],
+  "selected_source_meshes": [
+    38,
+    39
+  ],
+  "same_geometry_and_attributes_all_four_instances": true,
+  "instance_attribute_hashes": [
+    "59ebb5dc400115d1c0b0663957cd5ec66d03d6ba2a93a6b0ec6109153f270b35",
+    "59ebb5dc400115d1c0b0663957cd5ec66d03d6ba2a93a6b0ec6109153f270b35",
+    "59ebb5dc400115d1c0b0663957cd5ec66d03d6ba2a93a6b0ec6109153f270b35",
+    "59ebb5dc400115d1c0b0663957cd5ec66d03d6ba2a93a6b0ec6109153f270b35"
+  ],
+  "source_local_bounds": {
+    "min": [
+      -0.6455429792404175,
+      -0.6455429792404246,
+      -5.610509872436523
+    ],
+    "max": [
+      0.6455265283584666,
+      0.6455305814743006,
+      7.068423748016359
+    ],
+    "dimensions": [
+      1.291069507598884,
+      1.2910735607147252,
+      12.678933620452883
+    ]
+  },
+  "source_local_center": [
+    -8.225440975451193e-06,
+    -6.1988830619696955e-06,
+    0.7289569377899179
+  ],
+  "uniform_factor": 1.3022196104383619,
+  "target_length": 16.510756,
+  "target_dimensions": [
+    1.6812560312342666,
+    1.6812613092811983,
+    16.510756
+  ],
+  "coordinate_convention": "Right-handed glTF, local+Z long axis, no compiler handedness conversion applied. Source+Z end is the narrow nose; verify against preview before integration.",
+  "game_entity_changes": [],
+  "health_damage_motion_ammo_changes": "NONE",
+  "output_scene": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.gltf",
+  "dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.bin": "fb49a7353c9605e0cc2669fe3cf01ba5bc95ac6db5fbf61828c4b872b1bedf4d",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/amun05_torpedo.gltf": "36736f580a2ed45235c27d1da82841a7a8423bbc3be91ccea9e63f570f4b0e49",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Base_Color.png": "b0c7c99cc52aba63724fb8954ce80a529e097b16ebc1c179ef31fabcf5ff8535",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Emissive.png": "223ff910d9679722175223df1b14fdc40604022dc96cc57973c0abe1c13916ba",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Metallic.png": "e91f87c353050d7e76cf07eaeafce849da934319adfd3004ff0627af74825238",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/amun05-c/torpedo-editable/images/DefaultMaterial_Normal_DirectX.png": "50477a1343e15e6a33e7f1342edc8fd5050e6e9843a74243dd6e9704b5e0ea6a"
+  },
+  "installed_size_reference": {
+    "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_medium_torpedo.mesh",
+    "sha256": "95596db4c6c66f84ededdd778e3a75db731aa1cdfde283648cfa711c9a21a1e0",
+    "full_length": 16.51075553894043,
+    "box": [
+      7.000000096013537e-06,
+      0.0,
+      1.9999999949504854e-06,
+      1.4680570363998413,
+      1.4680570363998413,
+      8.255377769470215
+    ],
+    "sphere": [
+      0.0,
+      0.0,
+      0.0,
+      8.274258613586426
+    ]
+  },
+  "next_integration": "Convert using existing verified compiler convention. Map atlas channels to verified game shader channels; these source textures are not already game-ready DDS. Use private mesh/material/skin IDs; preserve approved MCRN projectile stats. Bounds/collision choice remains main-owned.",
+  "candidate_centered_vertex_radius": 8.287338726496193,
+  "stock_sphere_radius_delta": 0.013080112909767294,
+  "bounds_note": "Length and shape normalization do not guarantee identical sphere: custom radius is about0.01308 larger than stock. Compiler must calculate private mesh bounds; main explicitly decides spatial collision radius separately from unchanged health."
+}

@@ -1,0 +1,332 @@
+{
+  "light_torpedo_ports": [
+    {
+      "position": [
+        -18.0,
+        0.0,
+        295.0293212890625
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "custom_collar": {
+        "center": [
+          -18.0,
+          0.0,
+          294.9293212890625
+        ],
+        "start_z": 291.6293212890625,
+        "end_z": 294.9293212890625,
+        "outer_radius": 2.4,
+        "inner_radius": 1.8,
+        "support_sample_z": [
+          291.9293212890625,
+          291.9293212890625,
+          291.9293212890625,
+          291.9293212890625,
+          291.9293212890625
+        ]
+      },
+      "classification": "New short prototype light tube on measured bow surface, not claimed canonical source aperture"
+    },
+    {
+      "position": [
+        18.0,
+        0.0,
+        295.0293212890625
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "custom_collar": {
+        "center": [
+          18.0,
+          0.0,
+          294.9293212890625
+        ],
+        "start_z": 291.6293212890625,
+        "end_z": 294.9293212890625,
+        "outer_radius": 2.4,
+        "inner_radius": 1.8,
+        "support_sample_z": [
+          291.9293212890625,
+          291.9293212890625,
+          291.9293212890625,
+          291.9293212890625,
+          291.9293212890625
+        ]
+      },
+      "classification": "New short prototype light tube on measured bow surface, not claimed canonical source aperture"
+    }
+  ],
+  "heavy_torpedo_ports": [
+    {
+      "position": [
+        -66.12392841321115,
+        -10.020387178158451,
+        -442.44306932205166
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "source_component": {
+        "node": 60,
+        "component": 0,
+        "triangles": 30,
+        "min": [
+          -75.58491230010986,
+          28.338598582562042,
+          -207.73070356552086
+        ],
+        "max": [
+          -68.68513822555542,
+          35.238366696651916,
+          -207.73070244140592
+        ],
+        "center": [
+          -72.13502526283264,
+          31.78848263960698,
+          -207.7307030034634
+        ],
+        "dimensions": [
+          6.899774074554443,
+          6.8997681140898734,
+          1.1241149309171306e-06
+        ],
+        "area_normal": [
+          1.9254629204816744e-17,
+          -1.6292067895440361e-07,
+          -0.9999999999999868
+        ]
+      },
+      "outward_axis_first_surface": -442.2430725097656,
+      "axis_clearance": -0.19999681228603094,
+      "classification": "Measured actual aft circular dark aperture, assigned heavy launcher for prototype; source weapon label absent"
+    },
+    {
+      "position": [
+        -66.12392841321115,
+        10.020328073790438,
+        -442.44307258709864
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "source_component": {
+        "node": 60,
+        "component": 1,
+        "triangles": 30,
+        "min": [
+          -75.58491230010986,
+          50.20113078099086,
+          -207.73070712737967
+        ],
+        "max": [
+          -68.68513822555542,
+          57.10090038519685,
+          -207.73070600326452
+        ],
+        "center": [
+          -72.13502526283264,
+          53.65101558309385,
+          -207.7307065653221
+        ],
+        "dimensions": [
+          6.899774074554443,
+          6.899769604205993,
+          1.124115158290806e-06
+        ],
+        "area_normal": [
+          -6.299079478105866e-18,
+          -1.6292067990704153e-07,
+          -0.9999999999999868
+        ]
+      },
+      "outward_axis_first_surface": -442.2430725097656,
+      "axis_clearance": -0.20000007733301572,
+      "classification": "Measured actual aft circular dark aperture, assigned heavy launcher for prototype; source weapon label absent"
+    },
+    {
+      "position": [
+        66.12405790468969,
+        -10.02040288650939,
+        -442.44304746694723
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "source_component": {
+        "node": 60,
+        "component": 78,
+        "triangles": 30,
+        "min": [
+          68.68518590927124,
+          28.338580701172493,
+          -207.73067972366027
+        ],
+        "max": [
+          75.58495998382568,
+          35.23835030537849,
+          -207.73067859954512
+        ],
+        "center": [
+          72.13507294654846,
+          31.78846550327549,
+          -207.7306791616027
+        ],
+        "dimensions": [
+          6.899774074554443,
+          6.899769604205996,
+          1.124115158290806e-06
+        ],
+        "area_normal": [
+          -6.299079478078685e-18,
+          -1.629206799070415e-07,
+          -0.9999999999999868
+        ]
+      },
+      "outward_axis_first_surface": -442.2430419921875,
+      "axis_clearance": -0.20000547475973462,
+      "classification": "Measured actual aft circular dark aperture, assigned heavy launcher for prototype; source weapon label absent"
+    },
+    {
+      "position": [
+        66.12405790468969,
+        10.020312365439512,
+        -442.4430507319941
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "source_component": {
+        "node": 60,
+        "component": 79,
+        "triangles": 30,
+        "min": [
+          68.68518590927124,
+          50.20111438971743,
+          -207.73068328551886
+        ],
+        "max": [
+          75.58495998382568,
+          57.100882503807306,
+          -207.73068216140393
+        ],
+        "center": [
+          72.13507294654846,
+          53.65099844676237,
+          -207.7306827234614
+        ],
+        "dimensions": [
+          6.899774074554443,
+          6.8997681140898734,
+          1.1241149309171306e-06
+        ],
+        "area_normal": [
+          1.9254629204805873e-17,
+          -1.6292067895440361e-07,
+          -0.9999999999999866
+        ]
+      },
+      "outward_axis_first_surface": -442.2430419921875,
+      "axis_clearance": -0.20000873980660572,
+      "classification": "Measured actual aft circular dark aperture, assigned heavy launcher for prototype; source weapon label absent"
+    }
+  ],
+  "hangar": {
+    "position": [
+      6.474573926723589e-05,
+      -3.772802129520568e-05,
+      -508.2420349121094
+    ],
+    "forward": [
+      0,
+      0,
+      -1
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "mouth_position": [
+      6.474573926723589e-05,
+      -3.772802129520568e-05,
+      -448.3420349121094
+    ],
+    "source_hatch": {
+      "node": 65,
+      "component": 0,
+      "triangles": 4016,
+      "min": [
+        -49.51210916042328,
+        -6.792393303149481,
+        -220.30634654423858
+      ],
+      "max": [
+        49.5121568441391,
+        92.23187368771332,
+        -206.85756307882775
+      ],
+      "center": [
+        2.384185791015625e-05,
+        42.71974019228192,
+        -213.58195481153317
+      ],
+      "dimensions": [
+        99.02426600456238,
+        99.0242669908628,
+        13.448783465410827
+      ],
+      "area_normal": [
+        3.272499762597454e-07,
+        -1.6292072073937683e-07,
+        -0.9999999999999332
+      ]
+    },
+    "clearance_from_static_hatch": 60.0,
+    "classification": "Actual central aft99-source-unit hatch reference; corvette spawn outside closed static hatch, no door animation or open passage claimed"
+  }
+}

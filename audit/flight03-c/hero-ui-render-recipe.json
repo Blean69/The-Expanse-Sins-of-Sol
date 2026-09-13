@@ -1,0 +1,31 @@
+{
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/expanse03_hero_static.gltf": "7bbf3de161c766634fd8ecbf47dd8773c2bc84bf888a6fc04325728feb7c3779",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/expanse03_hero_static.bin": "c4fbfb8edbed77988e765aae43aa71cc4e987a78518e7a4451e08636cb605769",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_0_clr.png": "9344bb966376da23bb8e89864b803808a4ca974e4efd8617161531b2f749cf28",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_1_clr.png": "f56976d2d52a825c07153f4210d6bd00fe383245011e524ad7ba20b971177c79",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/texture-sources/expanse03_hero_mat_2_clr.png": "0ab087aaccaee3abcecc0da8cef7db647fb7ca4ed65967bce96449112120481c"
+  },
+  "triangles": 26707,
+  "coordinate_conversion": "Negate compiler-input positionZ to restore game coordinates before projection",
+  "camera_basis": [
+    [
+      0.7803805282839275,
+      0.0,
+      0.6253049104839162
+    ],
+    [
+      -0.23984779590714161,
+      0.9235120770132178,
+      0.29933004929211277
+    ],
+    [
+      -0.5774766366475658,
+      -0.3835693465473128,
+      0.720690842536162
+    ]
+  ],
+  "material_colors": "Actual B-produced sRGB flat color PNGs; no Tachi UV textures used",
+  "renderer": "Imported generic CPU double-sided z-buffer from polish_ui.py; studio contrast lift and Lambert shading; not Sins runtime rendering",
+  "runtime": "NOT RUN"
+}

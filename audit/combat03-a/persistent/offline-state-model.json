@@ -1,0 +1,58 @@
+{
+  "result": "PASS: intended state-machine model only; NOT game runtime",
+  "continuous_target": [
+    [
+      0,
+      2
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      20,
+      2
+    ],
+    [
+      30,
+      2
+    ],
+    [
+      150,
+      2
+    ]
+  ],
+  "target_loss_and_reacquisition": [
+    [
+      0,
+      2
+    ],
+    [
+      60,
+      2
+    ],
+    [
+      70,
+      2
+    ],
+    [
+      80,
+      2
+    ],
+    [
+      201,
+      2
+    ]
+  ],
+  "asserted": [
+    "Four paired launches at0/10/20/30, next150",
+    "No ammo debit or reload during60-second target gap",
+    "Changed orders do not reset ammo",
+    "Reacquisition resumes remaining ammo without catch-up salvos",
+    "Only depleted magazine starts120-second reload",
+    "No duplicate pair atsame timestamp",
+    "Reload completes without targets",
+    "Permission-blocked firing retains ammo"
+  ],
+  "save_serialization_test": "NOT RUN; no Python round-trip presented as engine save evidence"
+}

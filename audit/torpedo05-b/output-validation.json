@@ -1,0 +1,121 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "triangle_total": 1600,
+  "rest_pose_position_max_error": 0.0,
+  "outputs": {
+    "amun_torpedo": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/torpedo05-b/game/meshes/expanse05_amun_torpedo.mesh",
+      "sha256": "cf93418cfd01da9fd76971c2855912124f244c3e35d5ede20ffe441ead5de024",
+      "raw_official_sha256": "5c0bb176f828d6432cd8cafd1229ee67f4717e8c4b2d2d5655f090ee75c78111",
+      "triangles": 1600,
+      "materials": [
+        "expanse05_amun_torpedo_expanse05_amun_torpedo_surface"
+      ],
+      "source_frame_max_match_error": 1.4146119399593444e-07,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 3.80433433644356e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "minimum_face_normal_cosine": 0.8459203067584493,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.998903274655575e-07,
+      "changed_bytes": 13722,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "4f422748eb66e7f1b81d8531c5386ddc54e820104c5ce01164b9b0a6585ab959",
+      "trailer_sha256_after": "4f422748eb66e7f1b81d8531c5386ddc54e820104c5ce01164b9b0a6585ab959",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            0.9406306743621826,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -0.9406306743621826,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            -0.004106670618057251,
+            0.0020533204078674316,
+            -8.285377502441406
+          ],
+          "rotation": [
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    }
+  },
+  "rotation_checks": [
+    {
+      "mesh_point": "exhaust.0",
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true
+    }
+  ],
+  "runtime": "NOT RUN"
+}

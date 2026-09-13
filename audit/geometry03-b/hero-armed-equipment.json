@@ -1,0 +1,296 @@
+{
+  "pdc_mounts": [
+    {
+      "index": 0,
+      "source_housing_node": 111,
+      "source_cannon_node": 117,
+      "source_frame_node": 140,
+      "weapon_position": [
+        -16.42426964587598,
+        -13.134975179527268,
+        10.485409000252071
+      ],
+      "muzzle_hull": [
+        -16.42426964587598,
+        -13.134975179527268,
+        10.485409000252071
+      ],
+      "forward": [
+        -0.00593762109398863,
+        0.00979548954648713,
+        0.9999343943680951
+      ],
+      "up": [
+        5.816469592237664e-05,
+        0.9999520230413781,
+        -0.00979531685671714
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 9.995140093366217e-07,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.0"
+    },
+    {
+      "index": 1,
+      "source_housing_node": 174,
+      "source_cannon_node": 180,
+      "source_frame_node": 200,
+      "weapon_position": [
+        16.368377631859556,
+        -6.498450200010531,
+        10.616268345643865
+      ],
+      "muzzle_hull": [
+        16.368377631859556,
+        -6.498450200010531,
+        10.616268345643865
+      ],
+      "forward": [
+        -0.00593778686737464,
+        0.009794995292587946,
+        0.9999343982253714
+      ],
+      "up": [
+        5.816338463502102e-05,
+        0.999952027882947,
+        -0.009794822601890643
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 9.924241588521454e-07,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.1"
+    },
+    {
+      "index": 2,
+      "source_housing_node": 212,
+      "source_cannon_node": 218,
+      "source_frame_node": 238,
+      "weapon_position": [
+        9.035515508171645,
+        -8.705633583428762,
+        37.0088446238768
+      ],
+      "muzzle_hull": [
+        9.035515508171645,
+        -8.705633583428762,
+        37.0088446238768
+      ],
+      "forward": [
+        -0.26653797499646364,
+        -0.06008973673035677,
+        0.9619494432788354
+      ],
+      "up": [
+        -0.01604519074107181,
+        0.9981929791075853,
+        0.057907929633222194
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 1.1266558885836275e-06,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.2"
+    },
+    {
+      "index": 3,
+      "source_housing_node": 250,
+      "source_cannon_node": 256,
+      "source_frame_node": 276,
+      "weapon_position": [
+        -10.922695773906726,
+        -14.137918601646026,
+        28.820148978604113
+      ],
+      "muzzle_hull": [
+        -10.922695773906726,
+        -14.137918601646026,
+        28.820148978604113
+      ],
+      "forward": [
+        -0.2551030933893393,
+        -0.0789530583906135,
+        -0.9636850244317168
+      ],
+      "up": [
+        -0.02020424030003653,
+        0.9968783348888511,
+        -0.07632413840411174
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 1.1593594884118374e-06,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.3"
+    },
+    {
+      "index": 4,
+      "source_housing_node": 288,
+      "source_cannon_node": 294,
+      "source_frame_node": 314,
+      "weapon_position": [
+        -2.356823158406369,
+        3.168795319751903,
+        -15.043970408145812
+      ],
+      "muzzle_hull": [
+        -2.356823158406369,
+        3.168795319751903,
+        -15.043970408145812
+      ],
+      "forward": [
+        -0.005937674504545965,
+        0.009795500440641956,
+        0.9999343939442205
+      ],
+      "up": [
+        5.816528382529116e-05,
+        0.9999520229346593,
+        -0.009795327747573038
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 9.944643064585534e-07,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.4"
+    },
+    {
+      "index": 5,
+      "source_housing_node": 326,
+      "source_cannon_node": 332,
+      "source_frame_node": 352,
+      "weapon_position": [
+        2.594139146537807,
+        -23.303615680321037,
+        -14.755038464589639
+      ],
+      "muzzle_hull": [
+        2.594139146537807,
+        -23.303615680321037,
+        -14.755038464589639
+      ],
+      "forward": [
+        -0.005937564986680801,
+        0.009795395104789092,
+        0.9999343956264181
+      ],
+      "up": [
+        5.816358546302368e-05,
+        0.9999520239665206,
+        -0.009795222419948011
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 9.947047878711146e-07,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.5"
+    }
+  ],
+  "railgun": {
+    "position": [
+      0,
+      -19.598627067468637,
+      40.12
+    ],
+    "forward": [
+      0,
+      0,
+      1
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "mesh_point": "weapon.rail.0",
+    "source": "CUSTOM prototype keel railgun added to hero derivative; not a relabelled source antenna",
+    "mount_hull_surface_samples": [
+      -18.436335678959942,
+      -18.598627067468637
+    ]
+  },
+  "torpedo_ports": [
+    {
+      "name": "dorsal",
+      "position": [
+        0.0,
+        3.520688097611285,
+        13.120000000000001
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source": "CUSTOM prototype launch fitting on measured hero forebody surface",
+      "hull_surface_y": 2.7206880976112853,
+      "nearest_PDC_muzzle_distance": 19.24114424397103
+    },
+    {
+      "name": "ventral",
+      "position": [
+        3.0,
+        -22.690471366280242,
+        13.120000000000001
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source": "CUSTOM prototype launch fitting on measured hero forebody surface",
+      "hull_surface_y": -21.89047136628024,
+      "nearest_PDC_muzzle_distance": 21.04304595937091
+    }
+  ],
+  "exhaust": {
+    "position": [
+      0.3278848137759674,
+      -10.403137659707747,
+      -49.32761581661896
+    ],
+    "opening_center": [
+      0.3272910393413162,
+      -10.402158114516581,
+      -49.227622377218474
+    ],
+    "forward": [
+      0.0059377443465116865,
+      -0.009795451911667693,
+      -0.9999343940048876
+    ],
+    "up": [
+      5.8165679801001125e-05,
+      0.9999520234100465,
+      -0.00979527921539185
+    ],
+    "source_nodes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "basis": "Full aftmost s3_3c authored axial plane; inner/outer rim separated by largest radial gap, inner circumference least-squares circle fitted. 0.1 outward clearance.",
+    "rim_unique_vertices": 152,
+    "inner_rim_vertices": 64,
+    "opening_radius": 8.748105557241582,
+    "circle_max_radial_residual": 0.006216378283321333,
+    "maximum_angular_gap_radians": 0.5195953673592232,
+    "plane_flatness": 9.829721108189915e-07,
+    "runtime": "NOT RUN"
+  },
+  "runtime": "NOT RUN",
+  "custom_fittings_not_screen_accuracy_claim": true
+}

@@ -1,0 +1,31 @@
+{
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/donnager10_editable.gltf": "d7798b20ad5bb85bbd5b7f4de0706aed0c90cde4d72096ef30d689c7713803e5",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/donnager10_editable.bin": "96971f2e39377dda53f12e01b53bceaefd0fe8b97cb7dbec5e2d3e5536852797",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/../../../../validation/assets/derived/donnager04-c/master/textures/GreyHull_baseColor.jpeg": "d66989a5d80424ac292282df12a0208b5ce535a90fc65628c397dbb61374b70a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/../../../../validation/assets/derived/donnager04-c/master/textures/OrangeHull_baseColor.jpeg": "0f83b3aa6e7549b5b1bfddee8b91b78a3f0849421db559b3e611fd7a27a8015e",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/donnager10-b/../../../../../expanse-mod/assets/derived/baseline/textures/material_baseColor.png": "6b52eb697f17719924f09b4471a2067d5d258cd96e8a246f10d45dd553259db0"
+  },
+  "triangles": 76299,
+  "coordinate_conversion": "Source already uses game-facing right-handed glTF axes",
+  "camera_basis": [
+    [
+      0.7803805282839275,
+      0.0,
+      0.6253049104839162
+    ],
+    [
+      -0.23984779590714161,
+      0.9235120770132178,
+      0.29933004929211277
+    ],
+    [
+      -0.5774766366475658,
+      -0.3835693465473128,
+      0.720690842536162
+    ]
+  ],
+  "material_colors": "Actual source material base-color texture and UVs, or explicit source PBR factor; no invented colors",
+  "renderer": "Imported generic CPU double-sided z-buffer from polish_ui.py; studio contrast lift and Lambert shading; not Sins runtime rendering",
+  "runtime": "NOT RUN"
+}

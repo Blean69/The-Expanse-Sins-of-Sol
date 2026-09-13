@@ -1,0 +1,357 @@
+{
+  "status": "PASS",
+  "pinned_brush_schema_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/update11-b/update11_donnager_editable.gltf": "54636637e6230cd9653221de9f2635711cf9a083687049448a060c5cf15c436f",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/update11-b/update11_donnager_editable.bin": "9db4ae5663c1e479097ad3ec54599c0a8eb6d2393cf95d93b619a4c3b016d4d5",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/update11-b/../../../../validation/assets/derived/donnager04-c/master/textures/GreyHull_baseColor.jpeg": "d66989a5d80424ac292282df12a0208b5ce535a90fc65628c397dbb61374b70a",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/update11-b/../../../../validation/assets/derived/donnager04-c/master/textures/OrangeHull_baseColor.jpeg": "0f83b3aa6e7549b5b1bfddee8b91b78a3f0849421db559b3e611fd7a27a8015e",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/update11-b/../../../../../expanse-mod/assets/derived/baseline/textures/material_baseColor.png": "6b52eb697f17719924f09b4471a2067d5d258cd96e8a246f10d45dd553259db0"
+  },
+  "triangles": 194296,
+  "brush_schema_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/brushes/expanse11_donnager_hud_icon.brush",
+      "status": "PASS",
+      "texture": "expanse11_donnager_hud_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/brushes/expanse11_donnager_hud_picture.brush",
+      "status": "PASS",
+      "texture": "expanse11_donnager_hud_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/brushes/expanse11_donnager_tooltip_picture.brush",
+      "status": "PASS",
+      "texture": "expanse11_donnager_tooltip_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/brushes/expanse11_donnager_main_view_icon.brush",
+      "status": "PASS",
+      "texture": "expanse11_donnager_main_view_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/brushes/expanse11_donnager_main_view_icon_selected.brush",
+      "status": "PASS",
+      "texture": "expanse11_donnager_main_view_icon_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/brushes/expanse11_donnager_main_view_icon_sub_selected.brush",
+      "status": "PASS",
+      "texture": "expanse11_donnager_main_view_icon_sub_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    }
+  ],
+  "png_checks": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_hud_icon.png",
+      "sha256": "761e3c0b4b0cc8c196b5a0537e88805d2fa12d4d30d001dbbb272ea136f3dd1b",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_hud_icon150.png",
+      "sha256": "8ada861445313d637c2ae33df27e9adb2d273cbe9a0f58f18f6aa3a62ca6b3d7",
+      "dimensions": [
+        128,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_hud_icon200.png",
+      "sha256": "6170a36616eba3a359e2a8df092c92638a8fdc83404992689c879abdbf6bdd78",
+      "dimensions": [
+        170,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_hud_picture.png",
+      "sha256": "18d3b746e7bb60138d5e4881e7f2858fbf6a76bb276eacb7674be48bc0e34eb4",
+      "dimensions": [
+        265,
+        85
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_hud_picture150.png",
+      "sha256": "560669cbbd6cffce493ebfd6ebb7e7462488621cf83e7a4b2dc97586d8a074f9",
+      "dimensions": [
+        397,
+        127
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_hud_picture200.png",
+      "sha256": "6c514705b028b07de2f155fb33e6cb59cd93d4a1b3b8cf94aa9cd371ccddf026",
+      "dimensions": [
+        530,
+        170
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_tooltip_picture.png",
+      "sha256": "952b788bf2261c8c463a746c8c33e7761a909316b48c0b0d28febb5368eb1ea9",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_tooltip_picture.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_tooltip_picture150.png",
+      "sha256": "06c3e4f54cf4ed4142adf3f289aee43f06c40b14f815bc592745e8dd7c37bb7c",
+      "dimensions": [
+        689,
+        324
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_tooltip_picture150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_tooltip_picture200.png",
+      "sha256": "582c44598c5c72a58307a0eacde483c3d0a4d9cd83492d7dbaad76641e258460",
+      "dimensions": [
+        918,
+        432
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_tooltip_picture200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_main_view_icon.png",
+      "sha256": "9d2d41b1a25c69e64a6f6c19d9ab1241a31d1ef99f8bb04f3b9d9ba2e096a70b",
+      "dimensions": [
+        51,
+        28
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_main_view_icon150.png",
+      "sha256": "2da8413fbb993ea19b39a5ad5cc13c91329a3409d020dcbce9a0aef64f2a448d",
+      "dimensions": [
+        77,
+        42
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_main_view_icon200.png",
+      "sha256": "d57ca1f84e01df1644778ace4fcdf69f95340c5f39696e8fca52759326cb9192",
+      "dimensions": [
+        102,
+        56
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_main_view_icon_selected.png",
+      "sha256": "e5164a80bd42e614df854216a69a0bcee6eb315a67c0a5dcd697d23541c6a135",
+      "dimensions": [
+        62,
+        39
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_main_view_icon_selected150.png",
+      "sha256": "fde41b90ee1681b998f37d7dcb2cadc43c5aa3d30c356592f3659a318fcffe7a",
+      "dimensions": [
+        93,
+        59
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_main_view_icon_selected200.png",
+      "sha256": "17885272ec6820970dfdd924f2e5da33883250e614e796fc1cf13e2484a7aeec",
+      "dimensions": [
+        124,
+        78
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_main_view_icon_sub_selected.png",
+      "sha256": "54cc5c572414ba3438f0b582e9e4d1fa415085d880f864d2c5bd5317fbc4d8fb",
+      "dimensions": [
+        72,
+        49
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_sub_selected.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_main_view_icon_sub_selected150.png",
+      "sha256": "3b4f9783ed195ab8370afdc41701e8e1626231fd9a16c93b43c3d03f70ca96af",
+      "dimensions": [
+        108,
+        74
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_sub_selected150.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/textures/expanse11_donnager_main_view_icon_sub_selected200.png",
+      "sha256": "b5a4d403a42cb61f919d2c0f0480a25bd0e5e5215389017e2a0dc765c601131c",
+      "dimensions": [
+        144,
+        98
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_sub_selected200.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/expanse11_donnager_mod_small_logo.png",
+      "sha256": "ffbea55d15dc8193b67605ab7cf13419b3e5dee0b01d58b1cbed29044b602de3",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_small_logo.png"
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/ui/generated/expanse11_donnager_mod_large_logo.png",
+      "sha256": "2ccf883bc74514ebb0039e2939649a9dc17eca64856d40e52bad009bc2b6fda3",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_large_logo.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

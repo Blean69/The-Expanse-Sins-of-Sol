@@ -1,0 +1,161 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "expanse_cobalt_name: frozen build",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/expanse_cobalt_name",
+        "files": 2,
+        "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+      }
+    },
+    {
+      "check": "expanse_cobalt_name: frozen installed",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_cobalt_name",
+        "files": 2,
+        "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+      }
+    },
+    {
+      "check": "expanse_cobalt_name: frozen ZIP",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "files": 2,
+        "zip_sha256": "0854d2769ac8870de3a24a9f660b5c266f67be235829ab09b94b233652efbbb6",
+        "tree_sha256": "599ec704a76198a37e5230da722764b11ea17590cd5da6b8ec85aea668630c37"
+      }
+    },
+    {
+      "check": "expanse_corvette_visual: frozen build",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/expanse_corvette_visual",
+        "files": 26,
+        "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+      }
+    },
+    {
+      "check": "expanse_corvette_visual: frozen installed",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_corvette_visual",
+        "files": 26,
+        "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+      }
+    },
+    {
+      "check": "expanse_corvette_visual: frozen ZIP",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "files": 26,
+        "zip_sha256": "6ee4e3b8248113d75a088859c21d0723d33252baed91b7bebe5c086c14281a1c",
+        "tree_sha256": "c3f88816cbd303df5da78f4c8e9f1a7e0ba5d1219d8ccfd9a3827933be3fda68"
+      }
+    },
+    {
+      "check": "Unchanged shared input: assets/original",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/expanse-mod/assets/original",
+        "files": 1,
+        "tree_sha256": "8b29f7e1897378ad63637bac37a6bb3af72fc6c09fc49c91d74e87c903e58ee6"
+      }
+    },
+    {
+      "check": "Unchanged shared input: assets/source",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/expanse-mod/assets/source",
+        "files": 13,
+        "tree_sha256": "6b352cbc28c4efd7c7e0a11efad79b752f3e4cfdeda2fdf8944b200eba5e5a12"
+      }
+    },
+    {
+      "check": "Unchanged shared input: assets/derived",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived",
+        "files": 58,
+        "tree_sha256": "1419b8dd0c370fb1f9a4fcb4ed831dc943b8467a02a7c4caa2c532e5166d7aa7"
+      }
+    },
+    {
+      "check": "Unchanged shared input: build/combat-candidates",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/expanse-mod/build/combat-candidates",
+        "files": 12,
+        "tree_sha256": "68b06add1b209e60fa2395b6f7e40cc476364abad83508f3acea06e68f91c848"
+      }
+    },
+    {
+      "check": "Unchanged enabled-mod settings",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/settings",
+        "files": 7,
+        "tree_sha256": "10acf39988c1360b3edff5db59a4c561bdc787a4a5292455eccecf5badfc03d4"
+      }
+    },
+    {
+      "check": "Exact baseline semantics including muzzle mean",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "two_localization_entries": true,
+        "two_muzzles": [
+          [
+            11.343961963099,
+            -10.83748098350048,
+            36.18420167476527
+          ],
+          [
+            -11.34397057080658,
+            -10.837472288242,
+            36.1842051091508
+          ]
+        ],
+        "mean_weapon_position": [
+          -4.303853789799916e-06,
+          -10.83747663587124,
+          36.184203391958036
+        ],
+        "gameplay_unchanged": true
+      }
+    },
+    {
+      "check": "Pinned SDK and installed references",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+        "schemas": 62,
+        "installed_references": 527
+      }
+    },
+    {
+      "check": "Frozen MeshBuilder binary",
+      "scope": "environment",
+      "status": "PASS",
+      "detail": {
+        "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/MeshBuilder/bin/MeshBuilder.exe",
+        "sha256": "6eb01c73910e565c7db33fef8edc95d5258c4e6ad2d71075b0e7af071dc6657d"
+      }
+    }
+  ],
+  "runtime": "NOT RUN"
+}

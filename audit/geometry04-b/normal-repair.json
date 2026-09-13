@@ -1,0 +1,980 @@
+[
+  {
+    "source_node": 4,
+    "triangles": 3989,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 5,
+    "triangles": 2205,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 6,
+    "triangles": 356,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 9,
+    "triangles": 495,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 10,
+    "triangles": 147,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 13,
+    "triangles": 1331,
+    "removed_numerically_degenerate_triangles": 15,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 14,
+    "triangles": 80,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 17,
+    "triangles": 4262,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 18,
+    "triangles": 467,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 21,
+    "triangles": 252,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 22,
+    "triangles": 384,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 25,
+    "triangles": 844,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 29,
+    "triangles": 894,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 30,
+    "triangles": 16,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 33,
+    "triangles": 802,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 36,
+    "triangles": 2243,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 37,
+    "triangles": 144,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 38,
+    "triangles": 227,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 41,
+    "triangles": 2881,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 42,
+    "triangles": 48,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 43,
+    "triangles": 96,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 46,
+    "triangles": 1883,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 47,
+    "triangles": 1880,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 48,
+    "triangles": 48,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 49,
+    "triangles": 128,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 52,
+    "triangles": 1349,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 53,
+    "triangles": 32,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 54,
+    "triangles": 130,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 57,
+    "triangles": 1141,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 58,
+    "triangles": 32,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 59,
+    "triangles": 162,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 63,
+    "triangles": 1522,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 64,
+    "triangles": 52,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 71,
+    "triangles": 214,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 74,
+    "triangles": 106,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 77,
+    "triangles": 194,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 80,
+    "triangles": 74,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 83,
+    "triangles": 1843,
+    "removed_numerically_degenerate_triangles": 2,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 84,
+    "triangles": 198,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 85,
+    "triangles": 143,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 88,
+    "triangles": 2172,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 89,
+    "triangles": 50,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 90,
+    "triangles": 187,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 93,
+    "triangles": 1364,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 94,
+    "triangles": 12,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 95,
+    "triangles": 246,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 98,
+    "triangles": 4679,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 99,
+    "triangles": 233,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 100,
+    "triangles": 296,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 103,
+    "triangles": 1930,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 104,
+    "triangles": 627,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 107,
+    "triangles": 1134,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 108,
+    "triangles": 14,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 109,
+    "triangles": 61,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 113,
+    "triangles": 366,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 116,
+    "triangles": 532,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 119,
+    "triangles": 840,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_0_barrel"
+  },
+  {
+    "source_node": 120,
+    "triangles": 407,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_0_barrel"
+  },
+  {
+    "source_node": 123,
+    "triangles": 704,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_0_barrel"
+  },
+  {
+    "source_node": 126,
+    "triangles": 746,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_0_barrel"
+  },
+  {
+    "source_node": 129,
+    "triangles": 198,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_0_barrel"
+  },
+  {
+    "source_node": 132,
+    "triangles": 146,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_0_barrel"
+  },
+  {
+    "source_node": 135,
+    "triangles": 388,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 136,
+    "triangles": 206,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 139,
+    "triangles": 154,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 142,
+    "triangles": 1121,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 143,
+    "triangles": 78,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 146,
+    "triangles": 144,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 149,
+    "triangles": 816,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_0_barrel"
+  },
+  {
+    "source_node": 150,
+    "triangles": 18,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_0_barrel"
+  },
+  {
+    "source_node": 155,
+    "triangles": 367,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 156,
+    "triangles": 89,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 159,
+    "triangles": 224,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 162,
+    "triangles": 284,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 165,
+    "triangles": 224,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 168,
+    "triangles": 88,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 171,
+    "triangles": 88,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 176,
+    "triangles": 366,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 179,
+    "triangles": 532,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 182,
+    "triangles": 840,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_1_barrel"
+  },
+  {
+    "source_node": 183,
+    "triangles": 407,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_1_barrel"
+  },
+  {
+    "source_node": 186,
+    "triangles": 704,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_1_barrel"
+  },
+  {
+    "source_node": 189,
+    "triangles": 746,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_1_barrel"
+  },
+  {
+    "source_node": 192,
+    "triangles": 198,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_1_barrel"
+  },
+  {
+    "source_node": 195,
+    "triangles": 146,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_1_barrel"
+  },
+  {
+    "source_node": 198,
+    "triangles": 388,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 199,
+    "triangles": 206,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 202,
+    "triangles": 1121,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 203,
+    "triangles": 78,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 206,
+    "triangles": 144,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 209,
+    "triangles": 816,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_1_barrel"
+  },
+  {
+    "source_node": 210,
+    "triangles": 18,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_1_barrel"
+  },
+  {
+    "source_node": 214,
+    "triangles": 366,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 217,
+    "triangles": 532,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 220,
+    "triangles": 840,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_2_barrel"
+  },
+  {
+    "source_node": 221,
+    "triangles": 407,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_2_barrel"
+  },
+  {
+    "source_node": 224,
+    "triangles": 704,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_2_barrel"
+  },
+  {
+    "source_node": 227,
+    "triangles": 746,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_2_barrel"
+  },
+  {
+    "source_node": 230,
+    "triangles": 198,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_2_barrel"
+  },
+  {
+    "source_node": 233,
+    "triangles": 146,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_2_barrel"
+  },
+  {
+    "source_node": 236,
+    "triangles": 388,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 237,
+    "triangles": 206,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 240,
+    "triangles": 1121,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 241,
+    "triangles": 78,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 244,
+    "triangles": 144,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 247,
+    "triangles": 816,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_2_barrel"
+  },
+  {
+    "source_node": 248,
+    "triangles": 18,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_2_barrel"
+  },
+  {
+    "source_node": 252,
+    "triangles": 366,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 255,
+    "triangles": 532,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 258,
+    "triangles": 840,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_3_barrel"
+  },
+  {
+    "source_node": 259,
+    "triangles": 407,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_3_barrel"
+  },
+  {
+    "source_node": 262,
+    "triangles": 704,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_3_barrel"
+  },
+  {
+    "source_node": 265,
+    "triangles": 746,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_3_barrel"
+  },
+  {
+    "source_node": 268,
+    "triangles": 198,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_3_barrel"
+  },
+  {
+    "source_node": 271,
+    "triangles": 146,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_3_barrel"
+  },
+  {
+    "source_node": 274,
+    "triangles": 380,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 275,
+    "triangles": 206,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 278,
+    "triangles": 1121,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 279,
+    "triangles": 78,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 282,
+    "triangles": 144,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 285,
+    "triangles": 816,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_3_barrel"
+  },
+  {
+    "source_node": 286,
+    "triangles": 18,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_3_barrel"
+  },
+  {
+    "source_node": 290,
+    "triangles": 366,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 293,
+    "triangles": 532,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 296,
+    "triangles": 840,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_4_barrel"
+  },
+  {
+    "source_node": 297,
+    "triangles": 407,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_4_barrel"
+  },
+  {
+    "source_node": 300,
+    "triangles": 704,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_4_barrel"
+  },
+  {
+    "source_node": 303,
+    "triangles": 746,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_4_barrel"
+  },
+  {
+    "source_node": 306,
+    "triangles": 198,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_4_barrel"
+  },
+  {
+    "source_node": 309,
+    "triangles": 146,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_4_barrel"
+  },
+  {
+    "source_node": 312,
+    "triangles": 388,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 313,
+    "triangles": 206,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 316,
+    "triangles": 1121,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 317,
+    "triangles": 78,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 320,
+    "triangles": 144,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 323,
+    "triangles": 816,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_4_barrel"
+  },
+  {
+    "source_node": 324,
+    "triangles": 18,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_4_barrel"
+  },
+  {
+    "source_node": 328,
+    "triangles": 366,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 331,
+    "triangles": 532,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 334,
+    "triangles": 840,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_5_barrel"
+  },
+  {
+    "source_node": 335,
+    "triangles": 407,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_5_barrel"
+  },
+  {
+    "source_node": 338,
+    "triangles": 704,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_5_barrel"
+  },
+  {
+    "source_node": 341,
+    "triangles": 746,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_5_barrel"
+  },
+  {
+    "source_node": 344,
+    "triangles": 198,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_5_barrel"
+  },
+  {
+    "source_node": 347,
+    "triangles": 146,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_5_barrel"
+  },
+  {
+    "source_node": 350,
+    "triangles": 388,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 351,
+    "triangles": 206,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 354,
+    "triangles": 1121,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 355,
+    "triangles": 78,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 358,
+    "triangles": 144,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 361,
+    "triangles": 816,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_5_barrel"
+  },
+  {
+    "source_node": 362,
+    "triangles": 18,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_pdc_5_barrel"
+  },
+  {
+    "source_node": 366,
+    "triangles": 252,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 367,
+    "triangles": 384,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 370,
+    "triangles": 487,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 371,
+    "triangles": 147,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 374,
+    "triangles": 154,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 377,
+    "triangles": 154,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 380,
+    "triangles": 154,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 383,
+    "triangles": 154,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": 386,
+    "triangles": 156,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": null,
+    "triangles": 72,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  },
+  {
+    "source_node": null,
+    "triangles": 156,
+    "removed_numerically_degenerate_triangles": 0,
+    "assigned_to": "hero_hull"
+  }
+]

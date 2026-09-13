@@ -1,0 +1,388 @@
+{
+  "status": "PASS BOUNDED OFFLINE ONLY",
+  "all18_mount_transform_dicts_exact": true,
+  "equipment_exact": true,
+  "normalization_exact": true,
+  "spatial_restored_detail_under_one_unit_delta": true,
+  "old_spatial": {
+    "box": {
+      "center": [
+        -0.21248626708984375,
+        0.02161407470703125,
+        -0.382080078125
+      ],
+      "extents": [
+        206.16521453857422,
+        205.93097686767578,
+        542.24072265625
+      ]
+    },
+    "radius": 574.0262941929471,
+    "bounds_min": [
+      -206.37770080566406,
+      -205.90936279296875,
+      -542.622802734375
+    ],
+    "bounds_max": [
+      205.95272827148438,
+      205.9525909423828,
+      541.858642578125
+    ]
+  },
+  "new_spatial": {
+    "box": {
+      "center": [
+        -0.02172088623046875,
+        -7.62939453125e-06,
+        0.0
+      ],
+      "extents": [
+        206.57494354248047,
+        206.55329132080078,
+        542.622802734375
+      ]
+    },
+    "radius": 574.4864238020813,
+    "bounds_min": [
+      -206.59666442871094,
+      -206.5532989501953,
+      -542.622802734375
+    ],
+    "bounds_max": [
+      206.55322265625,
+      206.55328369140625,
+      542.622802734375
+    ]
+  },
+  "support_checks": [
+    {
+      "mount": 0,
+      "frozen_socket_bottom_top": [
+        99.39077758789062,
+        100.49077758789062
+      ],
+      "new_surface_heights": [
+        99.89077908670117,
+        99.89077833630155,
+        99.89077758789064,
+        99.89077830140852,
+        99.89077758789064
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 1,
+      "frozen_socket_bottom_top": [
+        98.83509195958376,
+        100.11564971909416
+      ],
+      "new_surface_heights": [
+        99.38671490713473,
+        99.28893651954715,
+        99.4844884584795,
+        99.65176192879282,
+        99.4844932947223
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 2,
+      "frozen_socket_bottom_top": [
+        99.39067077636719,
+        100.49067077636721
+      ],
+      "new_surface_heights": [
+        99.89067077636717,
+        99.89067077636719,
+        99.89067077636717,
+        99.89067077636717,
+        99.89067077636717
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 3,
+      "frozen_socket_bottom_top": [
+        99.39074216837068,
+        100.49074764526978
+      ],
+      "new_surface_heights": [
+        99.89074490682025,
+        99.89074280902709,
+        99.89074216837068,
+        99.8907476452698,
+        99.89074700461339
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 4,
+      "frozen_socket_bottom_top": [
+        77.27886159067816,
+        78.93442775698375
+      ],
+      "new_surface_heights": [
+        78.33442775698376,
+        78.00503697585555,
+        78.11181207524149,
+        78.0514635332461,
+        78.06281804383819
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 5,
+      "frozen_socket_bottom_top": [
+        77.3116733462634,
+        79.01118675807413
+      ],
+      "new_surface_heights": [
+        78.41118675807412,
+        77.8116733462634,
+        78.164073100494,
+        77.8798761401375,
+        78.16407635621286
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 6,
+      "frozen_socket_bottom_top": [
+        76.34887733507597,
+        77.96181478922242
+      ],
+      "new_surface_heights": [
+        78.41116130377205,
+        77.95431796280305,
+        78.16404915696057,
+        77.95431796280305,
+        78.16404915696057
+      ],
+      "maximum_local_hull_above_socket_top": 0.4493465145496316,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 7,
+      "frozen_socket_bottom_top": [
+        77.4543129611003,
+        79.0111676157488
+      ],
+      "new_surface_heights": [
+        78.41116761574881,
+        77.9543129611003,
+        78.1640536468022,
+        77.95431539571989,
+        78.16405608142182
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 8,
+      "frozen_socket_bottom_top": [
+        58.659340411427735,
+        59.759341282355514
+      ],
+      "new_surface_heights": [
+        59.159340846891624,
+        59.1593412823555,
+        59.159340411427735,
+        59.1593412823555,
+        59.159340411427735
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 9,
+      "frozen_socket_bottom_top": [
+        58.659399562372585,
+        59.759400433300364
+      ],
+      "new_surface_heights": [
+        59.15939999783646,
+        59.15939956237257,
+        59.159400433300334,
+        59.15939956237257,
+        59.159400433300334
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 10,
+      "frozen_socket_bottom_top": [
+        58.65937285949025,
+        59.759373730418
+      ],
+      "new_surface_heights": [
+        59.15937329495411,
+        59.15937285949022,
+        59.15937373041798,
+        59.15937285949022,
+        59.15937373041798
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 11,
+      "frozen_socket_bottom_top": [
+        58.65931370854855,
+        59.759314579476246
+      ],
+      "new_surface_heights": [
+        59.1593141440124,
+        59.159314579476245,
+        59.15931370854855,
+        59.159314579476245,
+        59.15931370854855
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 12,
+      "frozen_socket_bottom_top": [
+        84.36581915194432,
+        85.8402696972343
+      ],
+      "new_surface_heights": [
+        85.94531996223148,
+        84.36742377819664,
+        85.9453186603661,
+        84.36742377819797,
+        85.9460066992364
+      ],
+      "maximum_local_hull_above_socket_top": 0.10573700200210112,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 13,
+      "frozen_socket_bottom_top": [
+        83.98929108519442,
+        85.77338592292094
+      ],
+      "new_surface_heights": [
+        85.94543838504013,
+        84.42353605727911,
+        85.94543736102092,
+        84.39900824491878,
+        85.9461415819042
+      ],
+      "maximum_local_hull_above_socket_top": 0.17275565898326306,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 14,
+      "frozen_socket_bottom_top": [
+        83.86750994370882,
+        85.62243087217823
+      ],
+      "new_surface_heights": [
+        85.94540421989743,
+        84.36750994370881,
+        85.94540552176281,
+        84.3675099435894,
+        86.03609441493599
+      ],
+      "maximum_local_hull_above_socket_top": 0.4136635427577602,
+      "maximum_socket_bottom_gap": 0
+    },
+    {
+      "mount": 15,
+      "frozen_socket_bottom_top": [
+        84.24020654893457,
+        86.27274455973668
+      ],
+      "new_surface_heights": [
+        85.94528944465468,
+        84.3673960707766,
+        85.9459566259108,
+        84.36739807985548,
+        85.94529019082655
+      ],
+      "maximum_local_hull_above_socket_top": 0,
+      "maximum_socket_bottom_gap": 0
+    }
+  ],
+  "rail_checks": [
+    {
+      "rail": 0,
+      "angle_degrees": -2,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 4
+    },
+    {
+      "rail": 0,
+      "angle_degrees": -1,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 4
+    },
+    {
+      "rail": 0,
+      "angle_degrees": 0,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 4
+    },
+    {
+      "rail": 0,
+      "angle_degrees": 1,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 4
+    },
+    {
+      "rail": 0,
+      "angle_degrees": 2,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 4
+    },
+    {
+      "rail": 1,
+      "angle_degrees": -2,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 2
+    },
+    {
+      "rail": 1,
+      "angle_degrees": -1,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 2
+    },
+    {
+      "rail": 1,
+      "angle_degrees": 0,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 2
+    },
+    {
+      "rail": 1,
+      "angle_degrees": 1,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 2
+    },
+    {
+      "rail": 1,
+      "angle_degrees": 2,
+      "sampled_vertices": 400,
+      "contacts_outside_original_bearing_envelope": [],
+      "contacts_within_intended_bearing": 2
+    }
+  ],
+  "caveat": "400 sampled vertices at five poses per rail; full continuous or internal collision not proven. Runtime not run."
+}

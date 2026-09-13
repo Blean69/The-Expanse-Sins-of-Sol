@@ -1,0 +1,872 @@
+{
+  "source_root": "/run/media/haker/NVME 2/expanse-mod",
+  "status": "OFFLINE ARMED STATIC HERO VISUAL CHECKS PASS; no functional hero turret/deployment integration; RUNTIME NOT RUN",
+  "counts": {
+    "hero_armed": 26935
+  },
+  "triangle_total": 26935,
+  "frames": {
+    "hero_armed": {
+      "basis": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "origin": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "rigs": [],
+  "meshpoints": {
+    "hero_armed": [
+      {
+        "name": "center",
+        "translation": [
+          0.0,
+          -10.112395,
+          3.162117
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          0.3278848137759674,
+          -10.403137659707747,
+          -49.32761581661896
+        ],
+        "rotation": [
+          1.4541658458737188e-05,
+          0.9999835982609835,
+          -0.0048977631135972395,
+          0.0029689920914876796
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0,
+          9.887605,
+          3.162117
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0,
+          -32.112395,
+          3.162117
+        ]
+      },
+      {
+        "name": "weapon.pdc.0",
+        "translation": [
+          -16.42426964587598,
+          -13.134975179527268,
+          10.485409000252071
+        ],
+        "rotation": [
+          -0.0048977819324973314,
+          -0.0029689304630146638,
+          -1.4541412483726188e-05,
+          0.9999835983517904
+        ]
+      },
+      {
+        "name": "weapon.pdc.1",
+        "translation": [
+          16.368377631859556,
+          -6.498450200010531,
+          10.616268345643865
+        ],
+        "rotation": [
+          -0.004897534796539588,
+          -0.00296901334300458,
+          -1.4541084642487604e-05,
+          0.9999835993161301
+        ]
+      },
+      {
+        "name": "weapon.pdc.2",
+        "translation": [
+          9.035515508171645,
+          -8.705633583428762,
+          37.0088446238768
+        ],
+        "rotation": [
+          0.02978435158444573,
+          -0.13467802627480305,
+          0.004050042827110374,
+          0.9904333994734408
+        ]
+      },
+      {
+        "name": "weapon.pdc.3",
+        "translation": [
+          -10.922695773906726,
+          -14.137918601646026,
+          28.820148978604113
+        ],
+        "rotation": [
+          -0.005097618905453654,
+          0.9908665533245903,
+          -0.03917712134740387,
+          -0.12892882124285646
+        ]
+      },
+      {
+        "name": "weapon.pdc.4",
+        "translation": [
+          -2.356823158406369,
+          3.168795319751903,
+          -15.043970408145812
+        ],
+        "rotation": [
+          -0.004897787379358381,
+          -0.0029689571698450763,
+          -1.4541559463406536e-05,
+          0.9999835982458178
+        ]
+      },
+      {
+        "name": "weapon.pdc.5",
+        "translation": [
+          2.594139146537807,
+          -23.303615680321037,
+          -14.755038464589639
+        ],
+        "rotation": [
+          -0.0048977347105652455,
+          -0.002968902405920178,
+          -1.4541134859759966e-05,
+          0.9999835986663804
+        ]
+      },
+      {
+        "name": "weapon.rail.0",
+        "translation": [
+          0,
+          -19.598627067468637,
+          40.12
+        ]
+      }
+    ]
+  },
+  "materialspec": [
+    {
+      "name": "expanse03_hero_mat_0",
+      "original": {
+        "name": "roci_darker silver metal",
+        "doubleSided": true,
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.08021982031446832,
+            0.08021982031446832,
+            0.08021982031446832,
+            1
+          ],
+          "roughnessFactor": 0.7,
+          "metallicFactor": 0.1
+        },
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularFactor": 0.4
+          }
+        }
+      },
+      "srgb_texture_color": [
+        80,
+        80,
+        80
+      ],
+      "material_file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/materials/expanse03_hero_mat_0.mesh_material"
+    },
+    {
+      "name": "expanse03_hero_mat_1",
+      "original": {
+        "name": "roci_dark silver metal",
+        "doubleSided": true,
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.31854677812509186,
+            0.31854677812509186,
+            0.31854677812509186,
+            1
+          ],
+          "roughnessFactor": 0.6,
+          "metallicFactor": 0.1
+        },
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularFactor": 0.4
+          }
+        }
+      },
+      "srgb_texture_color": [
+        153,
+        153,
+        153
+      ],
+      "material_file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/materials/expanse03_hero_mat_1.mesh_material"
+    },
+    {
+      "name": "expanse03_hero_mat_2",
+      "original": {
+        "name": "roci_color metal",
+        "doubleSided": true,
+        "pbrMetallicRoughness": {
+          "baseColorFactor": [
+            0.445201,
+            0.08865550000000004,
+            0.005181530000000002,
+            1
+          ],
+          "roughnessFactor": 0.7,
+          "metallicFactor": 0.1
+        },
+        "extensions": {
+          "KHR_materials_specular": {
+            "specularFactor": 0.4
+          }
+        }
+      },
+      "srgb_texture_color": [
+        178,
+        84,
+        16
+      ],
+      "material_file": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/geometry03-b/hero/materials/expanse03_hero_mat_2.mesh_material"
+    }
+  ],
+  "normalization": {
+    "scale": 208.6639007429145,
+    "source_to_game_rotation": [
+      [
+        0.38944163231229134,
+        0.0,
+        -0.9210511468001861
+      ],
+      [
+        0.11418987177062144,
+        0.9922849950115776,
+        0.04828210703648305
+      ],
+      [
+        0.9139452326080305,
+        -0.1239777749230618,
+        0.3864370881763027
+      ]
+    ],
+    "source_rotated_center": [
+      0.8816639249515608,
+      -0.14890972439648711,
+      -0.28712185487864733
+    ],
+    "target_center": [
+      0.0,
+      -10.112395,
+      3.162117
+    ]
+  },
+  "measured_static_weapon_mounts": [
+    {
+      "index": 0,
+      "source_housing_node": 111,
+      "source_cannon_node": 117,
+      "source_frame_node": 140,
+      "weapon_position": [
+        -16.42426964587598,
+        -13.134975179527268,
+        10.485409000252071
+      ],
+      "muzzle_hull": [
+        -16.42426964587598,
+        -13.134975179527268,
+        10.485409000252071
+      ],
+      "forward": [
+        -0.00593762109398863,
+        0.00979548954648713,
+        0.9999343943680951
+      ],
+      "up": [
+        5.816469592237664e-05,
+        0.9999520230413781,
+        -0.00979531685671714
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 9.995140093366217e-07,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.0"
+    },
+    {
+      "index": 1,
+      "source_housing_node": 174,
+      "source_cannon_node": 180,
+      "source_frame_node": 200,
+      "weapon_position": [
+        16.368377631859556,
+        -6.498450200010531,
+        10.616268345643865
+      ],
+      "muzzle_hull": [
+        16.368377631859556,
+        -6.498450200010531,
+        10.616268345643865
+      ],
+      "forward": [
+        -0.00593778686737464,
+        0.009794995292587946,
+        0.9999343982253714
+      ],
+      "up": [
+        5.816338463502102e-05,
+        0.999952027882947,
+        -0.009794822601890643
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 9.924241588521454e-07,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.1"
+    },
+    {
+      "index": 2,
+      "source_housing_node": 212,
+      "source_cannon_node": 218,
+      "source_frame_node": 238,
+      "weapon_position": [
+        9.035515508171645,
+        -8.705633583428762,
+        37.0088446238768
+      ],
+      "muzzle_hull": [
+        9.035515508171645,
+        -8.705633583428762,
+        37.0088446238768
+      ],
+      "forward": [
+        -0.26653797499646364,
+        -0.06008973673035677,
+        0.9619494432788354
+      ],
+      "up": [
+        -0.01604519074107181,
+        0.9981929791075853,
+        0.057907929633222194
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 1.1266558885836275e-06,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.2"
+    },
+    {
+      "index": 3,
+      "source_housing_node": 250,
+      "source_cannon_node": 256,
+      "source_frame_node": 276,
+      "weapon_position": [
+        -10.922695773906726,
+        -14.137918601646026,
+        28.820148978604113
+      ],
+      "muzzle_hull": [
+        -10.922695773906726,
+        -14.137918601646026,
+        28.820148978604113
+      ],
+      "forward": [
+        -0.2551030933893393,
+        -0.0789530583906135,
+        -0.9636850244317168
+      ],
+      "up": [
+        -0.02020424030003653,
+        0.9968783348888511,
+        -0.07632413840411174
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 1.1593594884118374e-06,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.3"
+    },
+    {
+      "index": 4,
+      "source_housing_node": 288,
+      "source_cannon_node": 294,
+      "source_frame_node": 314,
+      "weapon_position": [
+        -2.356823158406369,
+        3.168795319751903,
+        -15.043970408145812
+      ],
+      "muzzle_hull": [
+        -2.356823158406369,
+        3.168795319751903,
+        -15.043970408145812
+      ],
+      "forward": [
+        -0.005937674504545965,
+        0.009795500440641956,
+        0.9999343939442205
+      ],
+      "up": [
+        5.816528382529116e-05,
+        0.9999520229346593,
+        -0.009795327747573038
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 9.944643064585534e-07,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.4"
+    },
+    {
+      "index": 5,
+      "source_housing_node": 326,
+      "source_cannon_node": 332,
+      "source_frame_node": 352,
+      "weapon_position": [
+        2.594139146537807,
+        -23.303615680321037,
+        -14.755038464589639
+      ],
+      "muzzle_hull": [
+        2.594139146537807,
+        -23.303615680321037,
+        -14.755038464589639
+      ],
+      "forward": [
+        -0.005937564986680801,
+        0.009795395104789092,
+        0.9999343956264181
+      ],
+      "up": [
+        5.816358546302368e-05,
+        0.9999520239665206,
+        -0.009795222419948011
+      ],
+      "tip_plane_unique_vertices": 210,
+      "tip_plane_flatness": 9.947047878711146e-07,
+      "geometry_basis": "Visually isolated cannon1 contains actual long barrel. Most frequent authored normal identifies barrel cap plane; center from full cap circumference bounds in that plane plus 0.04 outward clearance. cannon2 is a trunnion block and is not used. Source deployed pose is retained, including reversed #3.",
+      "status": "Static source barrel cap measured; emission/clearance NOT RUN; not a rotating turret pivot",
+      "mesh_point": "weapon.pdc.5"
+    }
+  ],
+  "exhaust_geometry": {
+    "position": [
+      0.3278848137759674,
+      -10.403137659707747,
+      -49.32761581661896
+    ],
+    "opening_center": [
+      0.3272910393413162,
+      -10.402158114516581,
+      -49.227622377218474
+    ],
+    "forward": [
+      0.0059377443465116865,
+      -0.009795451911667693,
+      -0.9999343940048876
+    ],
+    "up": [
+      5.8165679801001125e-05,
+      0.9999520234100465,
+      -0.00979527921539185
+    ],
+    "source_nodes": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "basis": "Full aftmost s3_3c authored axial plane; inner/outer rim separated by largest radial gap, inner circumference least-squares circle fitted. 0.1 outward clearance.",
+    "rim_unique_vertices": 152,
+    "inner_rim_vertices": 64,
+    "opening_radius": 8.748105557241582,
+    "circle_max_radial_residual": 0.006216378283321333,
+    "maximum_angular_gap_radians": 0.5195953673592232,
+    "plane_flatness": 9.829721108189915e-07,
+    "runtime": "NOT RUN"
+  },
+  "rest_pose_position_max_error": 2.048632900152763e-06,
+  "rotation_checks": [
+    {
+      "mesh_point": "weapon.pdc.0",
+      "basis_error": 1.9081992763680944e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.1",
+      "basis_error": 2.2939269150867858e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.2",
+      "basis_error": 4.64814039480288e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.3",
+      "basis_error": 1.7877750557726557e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.4",
+      "basis_error": 1.865811816159635e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.5",
+      "basis_error": 2.0340315765032813e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "exhaust.0",
+      "basis_error": 4.688078958370312e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.rail.0",
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true
+    }
+  ],
+  "tangent_repair": "Exact16-byte tangent-field substitution only; official regenerated winding/index/grid/trailer preserved",
+  "custom_railgun": {
+    "position": [
+      0,
+      -19.598627067468637,
+      40.12
+    ],
+    "forward": [
+      0,
+      0,
+      1
+    ],
+    "up": [
+      0,
+      1,
+      0
+    ],
+    "mesh_point": "weapon.rail.0",
+    "source": "CUSTOM prototype keel railgun added to hero derivative; not a relabelled source antenna",
+    "mount_hull_surface_samples": [
+      -18.436335678959942,
+      -18.598627067468637
+    ]
+  },
+  "custom_torpedo_ports": [
+    {
+      "name": "dorsal",
+      "position": [
+        0.0,
+        3.520688097611285,
+        13.120000000000001
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source": "CUSTOM prototype launch fitting on measured hero forebody surface",
+      "hull_surface_y": 2.7206880976112853,
+      "nearest_PDC_muzzle_distance": 19.24114424397103
+    },
+    {
+      "name": "ventral",
+      "position": [
+        3.0,
+        -22.690471366280242,
+        13.120000000000001
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source": "CUSTOM prototype launch fitting on measured hero forebody surface",
+      "hull_surface_y": -21.89047136628024,
+      "nearest_PDC_muzzle_distance": 21.04304595937091
+    }
+  ],
+  "custom_added_triangles": 228,
+  "outputs": {
+    "hero_armed": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/meshes/expanse03_hero_armed.mesh",
+      "sha256": "bba6b43d21a18439855c5b44a1fd90ab00973b3abfedccbd7c0065859b26a76d",
+      "raw_official_sha256": "fe1ec61700feeef675e73e05609eb8e762b3f76660255f876bb385e3d4195521",
+      "triangles": 26935,
+      "materials": [
+        "expanse03_hero_armed_expanse03_hero_mat_0",
+        "expanse03_hero_armed_expanse03_hero_mat_1",
+        "expanse03_hero_armed_expanse03_hero_mat_2"
+      ],
+      "source_frame_max_match_error": 2.0510963838734615e-06,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.779384900009063e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 49,
+      "minimum_face_normal_cosine": -2.427058966288957e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999999996257998e-07,
+      "changed_bytes": 428118,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "fb5c51365369eb5a522cf7a29a71a70e4e05400362617f153eaa6bba21d399a0",
+      "trailer_sha256_after": "fb5c51365369eb5a522cf7a29a71a70e4e05400362617f153eaa6bba21d399a0",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            -10.112395286560059,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            0.32788482308387756,
+            -10.40313720703125,
+            -49.32761764526367
+          ],
+          "rotation": [
+            -0.9999824166297913,
+            1.8189894035458565e-12,
+            -0.005938029382377863,
+            5.816567863803357e-05,
+            0.9999520182609558,
+            -0.009795279242098331,
+            0.005937744397670031,
+            -0.00979545246809721,
+            -0.9999344348907471
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            9.887604713439941,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -32.112396240234375,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.0",
+          "position": [
+            -16.42426872253418,
+            -13.13497543334961,
+            10.485408782958984
+          ],
+          "rotation": [
+            0.9999823570251465,
+            0.0,
+            0.005937905982136726,
+            5.8164696383755654e-05,
+            0.9999520182609558,
+            -0.00979531742632389,
+            -0.005937620997428894,
+            0.00979549065232277,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.1",
+          "position": [
+            16.368377685546875,
+            -6.49845027923584,
+            10.616268157958984
+          ],
+          "rotation": [
+            0.9999823570251465,
+            -1.8189894035458565e-12,
+            0.005938071757555008,
+            5.81633867113851e-05,
+            0.9999520182609558,
+            -0.00979482289403677,
+            -0.005937786772847176,
+            0.009794996120035648,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.2",
+          "position": [
+            9.035515785217285,
+            -8.705633163452148,
+            37.008846282958984
+          ],
+          "rotation": [
+            0.9636908769607544,
+            0.0,
+            0.26702046394348145,
+            -0.016045190393924713,
+            0.9981930255889893,
+            0.05790793150663376,
+            -0.26653796434402466,
+            -0.06008973717689514,
+            0.9619494676589966
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.3",
+          "position": [
+            -10.922696113586426,
+            -14.137918472290039,
+            28.820148468017578
+          ],
+          "rotation": [
+            -0.9667027592658997,
+            0.0,
+            0.25590193271636963,
+            -0.020204240456223488,
+            0.9968783259391785,
+            -0.07632413506507874,
+            -0.25510311126708984,
+            -0.07895305752754211,
+            -0.9636850357055664
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.4",
+          "position": [
+            -2.356823205947876,
+            3.168795347213745,
+            -15.043970108032227
+          ],
+          "rotation": [
+            0.9999823570251465,
+            -1.8189894035458565e-12,
+            0.005937959533184767,
+            5.81652857363224e-05,
+            0.9999520182609558,
+            -0.009795327670872211,
+            -0.005937674548476934,
+            0.00979550089687109,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.5",
+          "position": [
+            2.5941390991210938,
+            -23.30361557006836,
+            -14.755038261413574
+          ],
+          "rotation": [
+            0.9999823570251465,
+            0.0,
+            0.0059378501027822495,
+            5.816358680021949e-05,
+            0.9999520182609558,
+            -0.00979522243142128,
+            -0.005937565118074417,
+            0.009795395657420158,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.rail.0",
+          "position": [
+            0.0,
+            -19.5986270904541,
+            40.119998931884766
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update11-c/expanse11_morrigan_editable.gltf": "b785597c83b6d5cce1b8558c4a1aee434426224a3e8a5284c398a658b29c7681",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update11-c/expanse11_morrigan_editable.bin": "442897727e46d91d60bf5460759a1b9e753fa62b0f31e20e50e80b697431f33c"
+  },
+  "triangles": 30185,
+  "coordinate_conversion": "Source already uses game-facing right-handed glTF axes",
+  "camera_basis": [
+    [
+      0.7803805282839275,
+      0.0,
+      0.6253049104839162
+    ],
+    [
+      -0.23984779590714161,
+      0.9235120770132178,
+      0.29933004929211277
+    ],
+    [
+      -0.5774766366475658,
+      -0.3835693465473128,
+      0.720690842536162
+    ]
+  ],
+  "material_colors": "Actual source material base-color texture and UVs, or explicit source PBR factor; no invented colors",
+  "renderer": "Imported generic CPU double-sided z-buffer from polish_ui.py; studio contrast lift and Lambert shading; not Sins runtime rendering",
+  "runtime": "NOT RUN"
+}

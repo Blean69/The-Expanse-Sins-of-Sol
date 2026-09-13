@@ -1,0 +1,170 @@
+{
+  "status": "PASS BOUNDED OFFLINE CHECKS; RUNTIME NOT RUN",
+  "master_files_preserved": 5,
+  "original_archives_preserved": 2,
+  "source_archive_sha256": "b03d70d6180b7c6ff50db22df883f576ebb3981c5d4d138f8bdf1e7434079562",
+  "donor_dependencies_preserved": 7,
+  "prior_frozen_checkpoints": [
+    {
+      "checkpoint": "geometry04-b",
+      "files_preserved": 128
+    },
+    {
+      "checkpoint": "torpedo05-b",
+      "files_preserved": 26
+    },
+    {
+      "checkpoint": "amun06-b",
+      "files_preserved": 75
+    }
+  ],
+  "unique_weapon_mounts": 18,
+  "mount_checks": [
+    {
+      "index": 0,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 1,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 2,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 3,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 4,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 5,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 6,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 7,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 8,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 9,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 10,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 11,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 12,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 13,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 14,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 15,
+      "type": "pdc",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 16,
+      "type": "rail",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    },
+    {
+      "index": 17,
+      "type": "rail",
+      "muzzle_transform_error": 0.0,
+      "one_weapon_id_per_physical_mount": true
+    }
+  ],
+  "rail_sampled_clearance_checks": [
+    {
+      "index": 0,
+      "angles": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "vertices_sampled_per_pose": 400,
+      "contacts_outside_drum_bearing_envelope": 0,
+      "contact_envelope_radius": 11.2,
+      "contact_envelope_axial_half_span": 19,
+      "caveat": "Sampled radial clearance only. Original drum intersects source bearing hardware at neutral; this expected bearing region is excluded. Exact internal collision and continuous sweep NOT VERIFIED."
+    },
+    {
+      "index": 1,
+      "angles": [
+        -2,
+        -1,
+        0,
+        1,
+        2
+      ],
+      "vertices_sampled_per_pose": 400,
+      "contacts_outside_drum_bearing_envelope": 0,
+      "contact_envelope_radius": 11.2,
+      "contact_envelope_axial_half_span": 19,
+      "caveat": "Sampled radial clearance only. Original drum intersects source bearing hardware at neutral; this expected bearing region is excluded. Exact internal collision and continuous sweep NOT VERIFIED."
+    }
+  ],
+  "aft_aperture_outward_rays_clear": 4,
+  "front_custom_support_footprints": 2,
+  "editable_active_nodes": 35,
+  "assembled_triangles": 76299,
+  "launch_hangar_caveat": "Corvettes spawn60units outside actual staticclosedhatch, no animated opening or through-hull passage claimed",
+  "runtime": "NOT RUN"
+}

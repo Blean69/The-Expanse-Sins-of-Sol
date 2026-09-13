@@ -1,0 +1,153 @@
+{
+  "normalized_Tachi_length_game_units": 104.98695859999998,
+  "donor_PDC_local_parts": [
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/polish-b/expanse_polish_pdc_0_base.gltf",
+      "triangles": 138,
+      "bounds_in_yaw_frame": {
+        "min": [
+          -1.7781670093536377,
+          -0.2556488811969757,
+          -2.555100440979004
+        ],
+        "max": [
+          1.7781668901443481,
+          3.0697503089904785,
+          1.7779780626296997
+        ],
+        "dimensions": [
+          3.556333899497986,
+          3.3253991901874542,
+          4.333078503608704
+        ]
+      }
+    },
+    {
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/polish-b/expanse_polish_pdc_0_barrel.gltf",
+      "triangles": 539,
+      "bounds_in_yaw_frame": {
+        "min": [
+          -2.430316209793091,
+          -0.2556488714569607,
+          -2.55528357928743
+        ],
+        "max": [
+          2.430314779281616,
+          3.399823883975168,
+          3.9761092334414516
+        ],
+        "dimensions": [
+          4.860630989074707,
+          3.655472755432129,
+          6.531392812728882
+        ]
+      }
+    }
+  ],
+  "assembled_PDC_yaw_frame_bounds_game_units": {
+    "min": [
+      -2.430316209793091,
+      -0.2556488811969757,
+      -2.55528357928743
+    ],
+    "max": [
+      2.430314779281616,
+      3.399823883975168,
+      3.9761092334414516
+    ],
+    "dimensions": [
+      4.860630989074707,
+      3.655472765172144,
+      6.531392812728882
+    ]
+  },
+  "donor_triangles_per_PDC": 677,
+  "source_dependencies": {
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/polish-b/mount-metadata.json": "357589618ec057b1f5d51e1c41161ab1e6934f0c98fb7cabd5601f6256d2d0d4",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/polish-b/expanse_polish_pdc_0_base.gltf": "bcefb591575a37324f4841c9bf99133e208caa3604849a96fcbd91e916ada14c",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/polish-b/expanse_polish_pdc_0_base.bin": "641b03576e2fbb3136703271ab03cd6aba63af7cfd1dc729382360f943f52a43",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/polish-b/expanse_polish_pdc_0_barrel.gltf": "570e8b9e0225dd6e05003e8ed34dd2fd4d71be7cbfb7cba5bf7249bdb7a986c3",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/polish-b/expanse_polish_pdc_0_barrel.bin": "45f70a063a49803f03bf702b27ceddf99dcfc1e0f34d6fec4472d4533242b840",
+    "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/mcrn_editable.gltf": "9cc667f8a55e04c69881e20499945ce7997519b06faeee8778c0b13854fd4bb9",
+    "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/scene.bin": "01aa5e4cffbbbef5f4c43682b4f383628679cf83650ae1c84513723319285cba"
+  },
+  "Donnager_source_length_exporter_units": 1183.900772034083,
+  "Donnager_preview_length_arbitrary_units": 100,
+  "physical_scaling": "For common units per meter k=Tachi_game_length/Tachi_canonical_meters: Donnager_game_length=k*Donnager_canonical_meters. Reuse donor PDC geometry at scale1.0 in game units to retain the same physical gun size. Do not multiply donor PDC size by the Donnager/Tachi hull-length ratio.",
+  "canonical_lengths": "Provisional secondary convention475.5m/46m only; geometry can be rescaled without touching master.",
+  "placement": "No Donnager PDC coordinates generated. Need surface inspection/spacing/rail sweep and external placement references.",
+  "stock_mesh_comparisons": {
+    "trader_light_frigate": {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_light_frigate.mesh",
+      "sha256": "a395aaba866865508e03e27cb646ddcb0152d68b4de5d5c8c67fb7bb59da09d9",
+      "box_center_then_half_extents": [
+        7.000000096013537e-06,
+        -10.11240005493164,
+        3.156048059463501,
+        20.691299438476562,
+        21.192699432373047,
+        55.25629806518555
+      ],
+      "dimensions_game_units": [
+        41.382598876953125,
+        42.385398864746094,
+        110.5125961303711
+      ],
+      "triangles": 7716
+    },
+    "trader_battle_capital_ship": {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_battle_capital_ship.mesh",
+      "sha256": "4d0fb83890be22dd56370ba064c39cd03122fdd28c96de65a1c41106a5b72c94",
+      "box_center_then_half_extents": [
+        18.832748413085938,
+        2.2133560180664062,
+        16.210708618164062,
+        86.85784912109375,
+        104.72293090820312,
+        418.56378173828125
+      ],
+      "dimensions_game_units": [
+        173.7156982421875,
+        209.44586181640625,
+        837.1275634765625
+      ],
+      "triangles": 53790
+    },
+    "trader_carrier_capital_ship": {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_carrier_capital_ship.mesh",
+      "sha256": "ebd7c18b6b8d39da08c674aab7cc4d68f972bc21193789dbc50a0a360fcb1c51",
+      "box_center_then_half_extents": [
+        0.08618900179862976,
+        -0.4484559893608093,
+        0.27851900458335876,
+        131.35865783691406,
+        83.88277435302734,
+        413.3200988769531
+      ],
+      "dimensions_game_units": [
+        262.7173156738281,
+        167.7655487060547,
+        826.6401977539062
+      ],
+      "triangles": 62647
+    }
+  },
+  "provisional_lore_scale": {
+    "Donnager_meters": 475.5,
+    "Tachi_meters": 46,
+    "length_ratio": 10.33695652173913,
+    "game_units_per_provisional_meter": 2.282325186956521,
+    "Donnager_game_length": 1085.2456263978258,
+    "Donnager_game_dimensions": [
+      413.19334346319494,
+      413.19324567718775,
+      1085.2456263978258
+    ],
+    "donor_PDC_provisional_meters": [
+      2.1296838052934755,
+      1.6016441417126515,
+      2.8617275268466407
+    ],
+    "provenance": "Main integrator supplied secondary lore convention, not calibrated exporter meters or primary-verified screen scale."
+  }
+}

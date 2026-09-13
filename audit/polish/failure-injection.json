@@ -1,0 +1,17 @@
+[
+  {
+    "check": "duplicate_physical_weapon",
+    "status": "PASS: rejected",
+    "diagnostic": "Expected six distinct physical weapon entries"
+  },
+  {
+    "check": "seventh_hidden_weapon",
+    "status": "PASS: rejected",
+    "diagnostic": "Expected six distinct physical weapon entries"
+  },
+  {
+    "check": "unrelated_health_change",
+    "status": "PASS: rejected",
+    "diagnostic": "Unexpected change to health, navigation, economy or other unit values"
+  }
+]

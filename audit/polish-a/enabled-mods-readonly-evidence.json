@@ -1,0 +1,49 @@
+{
+  "status": "Read-only observed settings/log evidence, not a fresh agent runtime test",
+  "enabled_settings_path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/settings/.enabled_mods",
+  "enabled_settings_sha256": "9a27bf79d20cf92cffa03bc5388b6637b67656e8fcc894048634013ea8455abd",
+  "enabled_settings_contents": {
+    "version": 0,
+    "enabled_mods": [
+      {
+        "type": 0,
+        "folder_name": "expanse_cobalt_name",
+        "display_name": "expanse_cobalt_name",
+        "display_version": "1.0"
+      },
+      {
+        "type": 0,
+        "folder_name": "expanse_corvette_visual",
+        "display_name": "expanse_corvette_visual",
+        "display_version": "1.0"
+      }
+    ]
+  },
+  "initial_log_path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/logs/sins2_log_492.txt",
+  "log_path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/logs/sins2_log_318_[2026-09-12][22-30-07]_492.txt",
+  "note": "Log was renamed by external game/session lifecycle between first inspection and evidence capture. Current archived path verified and hashed. Agent did not rename it or run the game.",
+  "log_sha256": "a6c9cb29c73a82c10caeca466eff430e5272f96016b483b41c863387562dcc8a",
+  "relevant_log_lines": [
+    {
+      "line": 20,
+      "text": "[22:30:07.7818269][   496][    local_filesystem_mods] WARNING : corrupt mod meta_data : C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_cobalt_name\\.mod_meta_data"
+    },
+    {
+      "line": 23,
+      "text": "[22:30:07.7818689][   496][    local_filesystem_mods] Found mod : [expanse_cobalt_name] { name=expanse_cobalt_name , version=1.0 , compatibility_version=2 , target game version=0.0.0 , bundled_mods=[] , dependencies=0 }"
+    },
+    {
+      "line": 24,
+      "text": "[22:30:07.7819743][   496][    local_filesystem_mods] WARNING : corrupt mod meta_data : C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_corvette_visual\\.mod_meta_data"
+    },
+    {
+      "line": 27,
+      "text": "[22:30:07.7819942][   496][    local_filesystem_mods] Found mod : [expanse_corvette_visual] { name=expanse_corvette_visual , version=1.0 , compatibility_version=2 , target game version=0.0.0 , bundled_mods=[] , dependencies=0 }"
+    },
+    {
+      "line": 726,
+      "text": "simulation_mods                                    = [expanse_corvette_visual:1.0 (/:expanse_corvette_visual)]"
+    }
+  ],
+  "interpretation": "Both frozen baselines enabled together; visual baseline listed in simulation_mods. Metadata warnings precede successful discovery with fallback values; no causation assigned to earlier startup crash."
+}

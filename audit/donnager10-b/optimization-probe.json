@@ -1,0 +1,554 @@
+{
+  "parts": [
+    {
+      "key": "n4",
+      "node": 4,
+      "material": 0,
+      "name": "Engines_GreyHull_0",
+      "source_triangles": 46370,
+      "triangles": 3596,
+      "error": 0.004469392355531454
+    },
+    {
+      "key": "n5",
+      "node": 5,
+      "material": 0,
+      "name": "Engines_GreyHull_0",
+      "source_triangles": 42311,
+      "triangles": 1813,
+      "error": 0.004473542794585228
+    },
+    {
+      "key": "n6",
+      "node": 6,
+      "material": 0,
+      "name": "Engines_GreyHull_0",
+      "source_triangles": 41521,
+      "triangles": 1994,
+      "error": 0.0044782268814742565
+    },
+    {
+      "key": "n7",
+      "node": 7,
+      "material": 0,
+      "name": "Engines_GreyHull_0",
+      "source_triangles": 40042,
+      "triangles": 1946,
+      "error": 0.004473311826586723
+    },
+    {
+      "key": "n8",
+      "node": 8,
+      "material": 0,
+      "name": "Engines_GreyHull_0",
+      "source_triangles": 32404,
+      "triangles": 1446,
+      "error": 0.004465521313250065
+    },
+    {
+      "key": "n9",
+      "node": 9,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 48906,
+      "triangles": 1342,
+      "error": 0.00447416864335537
+    },
+    {
+      "key": "n10",
+      "node": 10,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 39071,
+      "triangles": 3341,
+      "error": 0.004499049391597509
+    },
+    {
+      "key": "n11",
+      "node": 11,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 39527,
+      "triangles": 2605,
+      "error": 0.004474514629691839
+    },
+    {
+      "key": "n12",
+      "node": 12,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 39200,
+      "triangles": 2811,
+      "error": 0.004473941866308451
+    },
+    {
+      "key": "n13",
+      "node": 13,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 38211,
+      "triangles": 1014,
+      "error": 0.004471337888389826
+    },
+    {
+      "key": "n14",
+      "node": 14,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 35712,
+      "triangles": 1078,
+      "error": 0.004473240580409765
+    },
+    {
+      "key": "n15",
+      "node": 15,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 35668,
+      "triangles": 817,
+      "error": 0.003833638271316886
+    },
+    {
+      "key": "n16",
+      "node": 16,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 35764,
+      "triangles": 1064,
+      "error": 0.004487280268222094
+    },
+    {
+      "key": "n17",
+      "node": 17,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 36338,
+      "triangles": 952,
+      "error": 0.004474855028092861
+    },
+    {
+      "key": "n18",
+      "node": 18,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 34596,
+      "triangles": 794,
+      "error": 0.003440300701186061
+    },
+    {
+      "key": "n19",
+      "node": 19,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 33986,
+      "triangles": 800,
+      "error": 0.004472453147172928
+    },
+    {
+      "key": "n20",
+      "node": 20,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 35638,
+      "triangles": 1058,
+      "error": 0.004467436578124762
+    },
+    {
+      "key": "n21",
+      "node": 21,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 34972,
+      "triangles": 802,
+      "error": 0.004131929948925972
+    },
+    {
+      "key": "n22",
+      "node": 22,
+      "material": 1,
+      "name": "Engines_Grey_Mech_Metal_0",
+      "source_triangles": 31507,
+      "triangles": 723,
+      "error": 0.004237694665789604
+    },
+    {
+      "key": "n23",
+      "node": 23,
+      "material": 2,
+      "name": "Engines_OrangeHull_0",
+      "source_triangles": 14528,
+      "triangles": 1891,
+      "error": 0.004474245943129063
+    },
+    {
+      "key": "n24",
+      "node": 24,
+      "material": 3,
+      "name": "Engines_GoldishMetal_0",
+      "source_triangles": 12224,
+      "triangles": 446,
+      "error": 0.004444119520485401
+    },
+    {
+      "key": "n25",
+      "node": 25,
+      "material": 4,
+      "name": "Engines_Emit_Red_Running_Light_0",
+      "source_triangles": 3296,
+      "triangles": 75,
+      "error": 0.0017531932098791003
+    },
+    {
+      "key": "n26",
+      "node": 26,
+      "material": 5,
+      "name": "Engines_Emit_Running_Light_White_0",
+      "source_triangles": 1024,
+      "triangles": 32,
+      "error": 0.00391726940870285
+    },
+    {
+      "key": "n27",
+      "node": 27,
+      "material": 6,
+      "name": "Engines_GreyHullBrick_0",
+      "source_triangles": 46114,
+      "triangles": 1443,
+      "error": 0.004473781678825617
+    },
+    {
+      "key": "n28",
+      "node": 28,
+      "material": 6,
+      "name": "Engines_GreyHullBrick_0",
+      "source_triangles": 42638,
+      "triangles": 1299,
+      "error": 0.004474560264497995
+    },
+    {
+      "key": "n29",
+      "node": 29,
+      "material": 6,
+      "name": "Engines_GreyHullBrick_0",
+      "source_triangles": 24616,
+      "triangles": 618,
+      "error": 0.004492311272770166
+    },
+    {
+      "key": "n30",
+      "node": 30,
+      "material": 7,
+      "name": "Engines_Emit_Main_Engine_Blue_0",
+      "source_triangles": 1528,
+      "triangles": 513,
+      "error": 0.004447811748832464
+    },
+    {
+      "key": "n31",
+      "node": 31,
+      "material": 8,
+      "name": "Engines_White_Paint_Markings_0",
+      "source_triangles": 5968,
+      "triangles": 136,
+      "error": 0.0042352573946118355
+    },
+    {
+      "key": "n33",
+      "node": 33,
+      "material": 0,
+      "name": "Railguns_GreyHull_0",
+      "source_triangles": 43394,
+      "triangles": 2057,
+      "error": 0.004472197964787483
+    },
+    {
+      "key": "n34",
+      "node": 34,
+      "material": 0,
+      "name": "Railguns_GreyHull_0",
+      "source_triangles": 13045,
+      "triangles": 666,
+      "error": 0.004467388149350882
+    },
+    {
+      "key": "n35",
+      "node": 35,
+      "material": 1,
+      "name": "Railguns_Grey_Mech_Metal_0",
+      "source_triangles": 38799,
+      "triangles": 1782,
+      "error": 0.004473532550036907
+    },
+    {
+      "key": "n36",
+      "node": 36,
+      "material": 1,
+      "name": "Railguns_Grey_Mech_Metal_0",
+      "source_triangles": 31625,
+      "triangles": 1512,
+      "error": 0.004464120138436556
+    },
+    {
+      "key": "n38",
+      "node": 38,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 38361,
+      "triangles": 881,
+      "error": 0.0022366736084222794
+    },
+    {
+      "key": "n39",
+      "node": 39,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 36248,
+      "triangles": 1816,
+      "error": 0.004474367946386337
+    },
+    {
+      "key": "n40",
+      "node": 40,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 37775,
+      "triangles": 868,
+      "error": 0.0016151306917890906
+    },
+    {
+      "key": "n41",
+      "node": 41,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 35697,
+      "triangles": 820,
+      "error": 0.0022663134150207043
+    },
+    {
+      "key": "n42",
+      "node": 42,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 34213,
+      "triangles": 786,
+      "error": 0.002382774604484439
+    },
+    {
+      "key": "n43",
+      "node": 43,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 34305,
+      "triangles": 779,
+      "error": 0.0015709676081314683
+    },
+    {
+      "key": "n44",
+      "node": 44,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 35453,
+      "triangles": 815,
+      "error": 0.0024408437311649323
+    },
+    {
+      "key": "n45",
+      "node": 45,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 36745,
+      "triangles": 845,
+      "error": 0.0028426460921764374
+    },
+    {
+      "key": "n46",
+      "node": 46,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 35442,
+      "triangles": 814,
+      "error": 0.0024884578306227922
+    },
+    {
+      "key": "n47",
+      "node": 47,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 35030,
+      "triangles": 805,
+      "error": 0.0024379058741033077
+    },
+    {
+      "key": "n48",
+      "node": 48,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 34480,
+      "triangles": 793,
+      "error": 0.0026230725925415754
+    },
+    {
+      "key": "n49",
+      "node": 49,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 35232,
+      "triangles": 808,
+      "error": 0.002535479608923197
+    },
+    {
+      "key": "n50",
+      "node": 50,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 33450,
+      "triangles": 768,
+      "error": 0.0014639431610703468
+    },
+    {
+      "key": "n51",
+      "node": 51,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 35150,
+      "triangles": 805,
+      "error": 0.002556847408413887
+    },
+    {
+      "key": "n52",
+      "node": 52,
+      "material": 1,
+      "name": "Body_Grey_Mech_Metal_0",
+      "source_triangles": 26869,
+      "triangles": 611,
+      "error": 0.00114023732021451
+    },
+    {
+      "key": "n53",
+      "node": 53,
+      "material": 0,
+      "name": "Body_GreyHull_0",
+      "source_triangles": 41376,
+      "triangles": 1012,
+      "error": 0.004473044071346521
+    },
+    {
+      "key": "n54",
+      "node": 54,
+      "material": 0,
+      "name": "Body_GreyHull_0",
+      "source_triangles": 37800,
+      "triangles": 869,
+      "error": 0.0034390301443636417
+    },
+    {
+      "key": "n55",
+      "node": 55,
+      "material": 0,
+      "name": "Body_GreyHull_0",
+      "source_triangles": 37042,
+      "triangles": 851,
+      "error": 0.004002767149358988
+    },
+    {
+      "key": "n56",
+      "node": 56,
+      "material": 0,
+      "name": "Body_GreyHull_0",
+      "source_triangles": 39241,
+      "triangles": 1168,
+      "error": 0.004496535751968622
+    },
+    {
+      "key": "n57",
+      "node": 57,
+      "material": 0,
+      "name": "Body_GreyHull_0",
+      "source_triangles": 15548,
+      "triangles": 487,
+      "error": 0.004463172517716885
+    },
+    {
+      "key": "n58",
+      "node": 58,
+      "material": 2,
+      "name": "Body_OrangeHull_0",
+      "source_triangles": 41386,
+      "triangles": 950,
+      "error": 0.00431241188198328
+    },
+    {
+      "key": "n59",
+      "node": 59,
+      "material": 2,
+      "name": "Body_OrangeHull_0",
+      "source_triangles": 30196,
+      "triangles": 946,
+      "error": 0.004469468258321285
+    },
+    {
+      "key": "n60",
+      "node": 60,
+      "material": 9,
+      "name": "Body_Absolute_Black_0",
+      "source_triangles": 2056,
+      "triangles": 86,
+      "error": 0.004499724134802818
+    },
+    {
+      "key": "n61",
+      "node": 61,
+      "material": 5,
+      "name": "Body_Emit_Running_Light_White_0",
+      "source_triangles": 1896,
+      "triangles": 43,
+      "error": 0.0022693672217428684
+    },
+    {
+      "key": "n62",
+      "node": 62,
+      "material": 4,
+      "name": "Body_Emit_Red_Running_Light_0",
+      "source_triangles": 6860,
+      "triangles": 157,
+      "error": 0.0007719026179984212
+    },
+    {
+      "key": "n63",
+      "node": 63,
+      "material": 6,
+      "name": "Body_GreyHullBrick_0",
+      "source_triangles": 18803,
+      "triangles": 1025,
+      "error": 0.004454667214304209
+    },
+    {
+      "key": "n64",
+      "node": 64,
+      "material": 8,
+      "name": "Body_White_Paint_Markings_0",
+      "source_triangles": 2255,
+      "triangles": 58,
+      "error": 0.004477089736610651
+    },
+    {
+      "key": "n65",
+      "node": 65,
+      "material": 3,
+      "name": "Body_GoldishMetal_0",
+      "source_triangles": 4444,
+      "triangles": 1343,
+      "error": 0.004470381420105696
+    },
+    {
+      "key": "n66",
+      "node": 66,
+      "material": 10,
+      "name": "Body_Emit_Amber_Running_Light_0",
+      "source_triangles": 128,
+      "triangles": 16,
+      "error": 0.004448911640793085
+    }
+  ],
+  "triangles": 64491
+}

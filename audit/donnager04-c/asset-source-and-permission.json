@@ -1,0 +1,22 @@
+{
+  "title": "MCRN Donnager (The Expanse)",
+  "creator": "owlstraw",
+  "creator_profile": "https://sketchfab.com/strawfinch",
+  "source": "https://sketchfab.com/3d-models/mcrn-donnager-the-expanse-05e9f9006d914fcd96e95fbd452aaa28",
+  "license_exact_as_packaged": "CC-BY-4.0",
+  "license_url_as_packaged": "http://creativecommons.org/licenses/by/4.0/",
+  "license_evidence": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c/master/license.txt",
+  "license_text_unchanged": "Model Information:\n* title:\tMCRN Donnager (The Expanse)\n* source:\thttps://sketchfab.com/3d-models/mcrn-donnager-the-expanse-05e9f9006d914fcd96e95fbd452aaa28\n* author:\towlstraw (https://sketchfab.com/strawfinch)\n\nModel License:\n* license type:\tCC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)\n* requirements:\tAuthor must be credited. Commercial use is allowed.\n\nIf you use this 3D model in your project be sure to copy paste this credit wherever you share it:\nThis work is based on \"MCRN Donnager (The Expanse)\" (https://sketchfab.com/3d-models/mcrn-donnager-the-expanse-05e9f9006d914fcd96e95fbd452aaa28) by owlstraw (https://sketchfab.com/strawfinch) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+  "archive_sha256": "b03d70d6180b7c6ff50db22df883f576ebb3981c5d4d138f8bdf1e7434079562",
+  "modifications": "Separate candidate files only: centered100-unit normalization; provisional relative-scale parent transform; whole railgun selection by source-world sign(X) with estimated drum-center parent pivots. No master edits, optimization, PDC splicing, game export or distribution.",
+  "attribution_for_derivatives": "Retain the full packaged attribution and license link, and identify the normalization/selection edits. No release authorization is implied by this local preparation.",
+  "future_PDC_donor": {
+    "title": "MCRN Tachi [Expanse TV Show]",
+    "creator": "Jakub.Vildomec",
+    "source": "https://sketchfab.com/3d-models/mcrn-tachi-expanse-tv-show-76fc983ab08c449b9042491a00e621cf",
+    "license_exact_as_packaged": "CC-BY-4.0",
+    "evidence": "/run/media/haker/NVME 2/expanse-mod/assets/source/tachi/license.txt",
+    "status": "Read-only measurement of existing677-triangle derivative; no donor geometry copied into Donnager yet. If spliced later, both separate asset records/credits apply."
+  },
+  "permission_status": "Package-license record, not a claim of additional creator correspondence or franchise rights clearance. No publishing/distribution performed."
+}

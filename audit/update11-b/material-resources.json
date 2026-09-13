@@ -1,0 +1,137 @@
+{
+  "status": "PASS EXACT ACCEPTED TEXTURE/MATERIAL REUSE",
+  "aliases": [
+    {
+      "new_material": "expanse10_donnager_pdc_barrel_mcrn_tachi_material",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "source_sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse10_donnager_pdc_base_mcrn_tachi_material",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "source_sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_0",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_0.mesh_material",
+      "source_sha256": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_1",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_1.mesh_material",
+      "source_sha256": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_10",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_10.mesh_material",
+      "source_sha256": "bb84e2eb88911869879b5b222beee85100f47a01747f192feefb04f590ddefe6",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_2",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_2.mesh_material",
+      "source_sha256": "bb9adcae82cfca26adfbbf09a69de651dae17ea8e4037280b54efdadb831068b",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_3",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_3.mesh_material",
+      "source_sha256": "b58371dd11dd222f1ac9ff3981d3028ba5d8a8f1f1fbd08dfdb497ac5ea69bef",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_4",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_4.mesh_material",
+      "source_sha256": "b4e58953b2cf714e03a310c3e139d0923e4c6cb4c3ed2783515fbc244464c144",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_5",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_5.mesh_material",
+      "source_sha256": "bff43d164ff974cb07d40d6b97679c3bc962b3996e9ceb3254c3b66ac24c98ad",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_6",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_6.mesh_material",
+      "source_sha256": "7a471a3541042550bac406c6210cd2021e6d7981f3cef4c7324e3dcfba8f01ae",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_7",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_7.mesh_material",
+      "source_sha256": "2d872832574c61c995d288f6639847f3c8dce11648bd553cd76ecad361607920",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_8",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_8.mesh_material",
+      "source_sha256": "df2f44896bdde0c53f54244901c262f97f677949d4f58f6665532de7960d6de8",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_9",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_9.mesh_material",
+      "source_sha256": "02dc4e22a6667a4e812d599659455dc767646b608c36a5f09f0dcba088df090c",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_rail_0_expanse11_donnager_mat_0",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_0.mesh_material",
+      "source_sha256": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_rail_0_expanse11_donnager_mat_1",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_1.mesh_material",
+      "source_sha256": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_rail_1_expanse11_donnager_mat_0",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_0.mesh_material",
+      "source_sha256": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be",
+      "definition_values_exactly_preserved": true
+    },
+    {
+      "new_material": "expanse11_donnager_rail_1_expanse11_donnager_mat_1",
+      "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_1.mesh_material",
+      "source_sha256": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3",
+      "definition_values_exactly_preserved": true
+    }
+  ],
+  "textures": {
+    "expanse10_donnager_atlas_0_clr": "bb0c96cde92ae9b8d035dcf669a322e16c2335bae65baa33174b7fac36f337fa",
+    "expanse10_donnager_atlas_1_clr": "a6fb127d0dc4473b7c30ffb5232b85242e7decd87cc57978318e52553a7b5155",
+    "expanse10_donnager_dark_msk": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "expanse10_donnager_emissive_msk": "b52ceb025e271faa6ff2277bfd212b8e11a27bd63fb543e6aa58eeb4894492ef",
+    "expanse10_donnager_flat_nrm": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "expanse10_donnager_mat_0_orm": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+    "expanse10_donnager_mat_10_clr": "961b6b6c1b135de312360a4790d913731d052af38ef39d66ce7801c53eedc03e",
+    "expanse10_donnager_mat_10_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+    "expanse10_donnager_mat_1_orm": "080230e03ab0d15777c3a7842b0a5a736075a2c593798b069b3e2769a16cc10a",
+    "expanse10_donnager_mat_2_orm": "67a1cce7e6e1e003b7db32b3f4c08a3bdb80b4389b1f1717f6364e5cc678a90f",
+    "expanse10_donnager_mat_3_clr": "0b59307be618db5280285ccc81eab82bf94003aee8c06bf1f189ca8605b913d5",
+    "expanse10_donnager_mat_3_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+    "expanse10_donnager_mat_4_clr": "6f7d1d9ebc19f2c64c3e8c5bc08d32ee55cd1b0a2f87b750057efa844cd695df",
+    "expanse10_donnager_mat_4_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+    "expanse10_donnager_mat_5_clr": "44fd6f8fd403eece7da85970a10d21881cf15a01d92d4cb7ce6d98d887e9d172",
+    "expanse10_donnager_mat_5_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+    "expanse10_donnager_mat_6_orm": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+    "expanse10_donnager_mat_7_clr": "f432b6d411cc4409e891445d76aa5ecfa0b84423d3711244f04a45a757ec6a1e",
+    "expanse10_donnager_mat_7_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+    "expanse10_donnager_mat_8_clr": "44fd6f8fd403eece7da85970a10d21881cf15a01d92d4cb7ce6d98d887e9d172",
+    "expanse10_donnager_mat_8_orm": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+    "expanse10_donnager_mat_9_clr": "43e715e7ce37f2681ac3ff10dbc78b0bb33a31151196d943b20fd62e3d455c8b",
+    "expanse10_donnager_mat_9_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+    "mcrn_tachi_material_clr": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "mcrn_tachi_material_msk": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "mcrn_tachi_material_nrm": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "mcrn_tachi_material_orm": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d"
+  },
+  "source_normal_maps": "Original Donnager has no detail normal maps; original flat normal derivative preserved; source color atlases remain2048x2048"
+}

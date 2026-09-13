@@ -1,0 +1,135 @@
+{
+  "weapon_properties": [
+    "acquire_target_logic",
+    "always_check_is_dead_soon",
+    "attack_target_type_groups",
+    "burst_pattern",
+    "cooldown_duration",
+    "custom_target_filter",
+    "damage_affect_type",
+    "effects",
+    "firing",
+    "modifiers",
+    "name",
+    "pitch_firing_tolerance",
+    "pitch_speed",
+    "population_damage",
+    "range",
+    "tags",
+    "target_acquired_duration_required_to_fire",
+    "turret",
+    "uniforms_target_filter_id",
+    "version",
+    "weapon_type",
+    "yaw_firing_tolerance",
+    "yaw_speed"
+  ],
+  "weapon_magazine_fields_observed": [],
+  "ability_fields": {
+    "cooldown_reset_type": {
+      "type": "string",
+      "enum": [
+        "on_start_use_ability",
+        "on_spawned_buff_made_dead"
+      ]
+    },
+    "stop_use_type": {
+      "type": "string",
+      "enum": [
+        "on_stop_time_elapsed",
+        "on_spawned_buff_removed"
+      ]
+    },
+    "watched_buff": {
+      "$ref": "#/$defs/buff_definition_ptr"
+    },
+    "channeling_will_disable_weapons": {
+      "type": "boolean"
+    },
+    "max_charge_count": {
+      "$ref": "#/$defs/action_value_id"
+    }
+  },
+  "time_action_schema": {
+    "type": "object",
+    "properties": {
+      "action_group": {
+        "$ref": "#/$defs/action_group"
+      },
+      "execution_interval_count_value": {
+        "description": "Maximum number of executions. If not specified will execute infinitely.",
+        "$ref": "#/$defs/action_value_id"
+      },
+      "execution_interval_value": {
+        "description": "Interval between each execution. If not specified will be executed every update.",
+        "$ref": "#/$defs/action_value_id"
+      },
+      "executions_per_interval_value": {
+        "description": "How many executions per interval. Default to 1.",
+        "$ref": "#/$defs/action_value_id"
+      },
+      "first_action_delay_time_value": {
+        "description": "Delay before first execution.",
+        "$ref": "#/$defs/action_value_id"
+      }
+    },
+    "required": [
+      "action_group"
+    ],
+    "unevaluatedProperties": false
+  },
+  "charge_examples": [
+    "advent_guardian_cruiser_shield_projection.ability",
+    "advent_battle_psionic_capital_ship_domination.ability"
+  ],
+  "charge_limit": "max_charge_count is observed, but no verified eight-round magazine with four10-second paired launches then120-second full reload was established from charge mechanics",
+  "normal_candidate_source_buff": "trader_torpedo_cruiser_heavy_torpedo_on_self.buff with installed charged-salvo timer keys",
+  "same_well_constraint_source": "vasari_loyalist_titan_phase_tunneling.action_data_source#/target_filters/0/target_filter/constraints/0/constraint",
+  "source_gravity": {
+    "neutron_star": {
+      "inner_move_distance": 50000.0,
+      "axis_rotation_speed": [
+        0.2,
+        0.3
+      ],
+      "axis_tilt_angle": [
+        0.0,
+        0.0
+      ]
+    },
+    "neutron_star_spatial": {
+      "radius": 7500.0,
+      "line_of_sight_radius": 24879.410156,
+      "box": {
+        "center": [
+          0.000305,
+          0.0,
+          0.000122
+        ],
+        "extents": [
+          1317.935303,
+          1317.935181,
+          1317.935547
+        ]
+      },
+      "can_be_displaced_on_collision": false
+    },
+    "common_gravity_well": {
+      "gravity_well_jump_node_radius": 10000.0,
+      "gravity_well_outer_move_area_distance": 5000.0,
+      "gravity_well_vertical_plane_max_distance": 4000.0,
+      "gravity_well_vertical_plane_return_distance": 3500.0,
+      "min_gravity_well_inner_move_area_distance": 2000.0
+    }
+  },
+  "range_inference": "200000 numeric range and240s duration provide margin over a conservatively inferred125000 opposite-edge neutron-star scale; not a universal same-well guarantee under all maps/modifiers/motion",
+  "unresolved": [
+    "Replace both ability_positions arrays with verified real launch apertures before packaging; emitted positions are unchanged stock Ogrov reference points.",
+    "Observed schemas/definitions support timer fields, not a proven persistent magazine: cancellation, target loss, retargeting and remaining ammunition are unresolved.",
+    "cooldown_reset_type=on_spawned_buff_made_dead is current-schema supported but no explicitly set installed example was found; verify buff completion time and next-ready t150.",
+    "The watched-buff ability may count as channeling; channeling_will_disable_weapons=false is explicit but not runtime proof of uninterrupted PDCs/navigation.",
+    "Ability range is not max_range_weapon_index; no verified ability-based stop-and-fire standoff selection found.",
+    "Actual spawn count, per-projectile damage, interception preventing impact, lifetime and same-well filtering require runtime observations.",
+    "Hero8 ability has a separate120-second cooldown/reserve and does not consume normal timed-cycle ammo; user-facing cooldown remains provisional."
+  ]
+}

@@ -1,0 +1,281 @@
+{
+  "status": "PASS STRICT SUPPLEMENTAL CHECKS \u2014 NOT COMPLETE OFFICIAL SCHEMA COVERAGE",
+  "official_schema": "Unchanged pinned Draft7 validates known subsets;2 cloak buffs and optional unit hook include explicitly listed installed-only extensions",
+  "additional_unknown_key_check": "Same pinned schema additionally evaluated with Draft2020 unevaluatedProperties handling; no schema files modified",
+  "extensions": [
+    {
+      "file": "expanse06_amun_cloak.buff",
+      "exact_installed_extensions": {
+        "provides_cloak": true,
+        "required_product": "dlc_Herald",
+        "cloak_alpha_value": "cloak_alpha_value",
+        "cloak_fade_duration_value": "cloak_fade_duration_value"
+      }
+    },
+    {
+      "file": "expanse06_amun_cloak.buff",
+      "exact_observed_modifier_shape": {
+        "modifier_type": "cloak_quality",
+        "value_behavior": "additive",
+        "value_id": "amun_cloak_quality"
+      }
+    },
+    {
+      "file": "expanse06_amun_revealed.buff",
+      "exact_observed_modifier_shape": {
+        "modifier_type": "cloak_quality",
+        "value_behavior": "additive",
+        "value_id": "amun_reveal_quality"
+      }
+    }
+  ],
+  "source_sha256": {
+    "dlc3_herald_cloak_frigate.unit": "db19d56d9c83b35af2a244fcb3b31e23623aa96f22c267b91b066d1275e343cf",
+    "dlc3_herald_cloak_frigate_cloak.ability": "b5f2f5e63515f85a8061985a1871fca91ad2a8846e14935e657e2548ea41e524",
+    "dlc3_herald_cloak_frigate_cloak.buff": "308ce717860ba1e570e9abfb9fef4df3027b25a00a55955a5b792306832fee79",
+    "dlc3_herald_cloak_frigate_cloak.action_data_source": "e57dfe07b0cae50acafa5b3b5b00ded6a5887fbeb0e93109b7aaf9d9b7840b3b",
+    "dlc3_herald_cloak_frigate_cloak_damage_dealt_degrade.buff": "9d4aa3e0d54b65bcce5303dc92104c2a84c610fc6f18bd05caf61c135ca32e8c"
+  },
+  "checked_private_files": [
+    "expanse06_amun_cloak.ability",
+    "expanse06_amun_cloak.buff",
+    "expanse06_amun_cloak.action_data_source",
+    "expanse06_amun_cloak_controller.ability",
+    "expanse06_amun_cloak_controller.buff",
+    "expanse06_amun_revealed.buff"
+  ],
+  "resolved_local_or_uniform_values": [
+    [
+      "expanse06_amun_cloak.ability",
+      "/active_actions/cooldown_time",
+      "cooldown_time_value"
+    ],
+    [
+      "expanse06_amun_cloak.buff",
+      "/cloak_alpha_value",
+      "cloak_alpha_value"
+    ],
+    [
+      "expanse06_amun_cloak.buff",
+      "/cloak_fade_duration_value",
+      "cloak_fade_duration_value"
+    ],
+    [
+      "expanse06_amun_cloak.buff",
+      "/stacking_limit/stacking_limit",
+      "fixed_one"
+    ],
+    [
+      "expanse06_amun_cloak.buff",
+      "/unit_modifiers/0/value_id",
+      "amun_cloak_quality"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/stacking_limit/stacking_limit",
+      "fixed_one"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/0/action_group/actions/0/math_operators/0/operand_value",
+      "fixed_zero"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/0/action_group/actions/1/math_operators/0/operand_value",
+      "fixed_zero"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/constraint/constraints/1/value_a",
+      "common_simulation_time_value"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/constraint/constraints/1/value_b",
+      "reveal_until_memory"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/0/math_operators/0/operand_value",
+      "fixed_one"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/1/math_operators/0/operand_value",
+      "common_simulation_time_value"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/1/math_operators/1/operand_value",
+      "reveal_seconds"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/1/constraint/value_a",
+      "launch_count_memory"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/1/constraint/value_b",
+      "threshold"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/2/constraint/value_a",
+      "launch_count_memory"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/2/constraint/value_b",
+      "threshold"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/3/math_operators/0/operand_value",
+      "fixed_zero"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/3/constraint/value_a",
+      "launch_count_memory"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/3/constraint/value_b",
+      "threshold"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/2/action_group/constraint/constraints/1/value_a",
+      "common_simulation_time_value"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/2/action_group/constraint/constraints/1/value_b",
+      "reveal_until_memory"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/2/action_group/actions/0/math_operators/0/operand_value",
+      "common_simulation_time_value"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/2/action_group/actions/0/math_operators/1/operand_value",
+      "reveal_seconds"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/2/action_group/actions/2/math_operators/0/operand_value",
+      "fixed_zero"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/gui/tooltip_line_groups/0/lines/0/value_id",
+      "launch_count_memory"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/gui/tooltip_line_groups/0/lines/1/value_id",
+      "reveal_until_memory"
+    ],
+    [
+      "expanse06_amun_revealed.buff",
+      "/active_duration",
+      "reveal_seconds"
+    ],
+    [
+      "expanse06_amun_revealed.buff",
+      "/unit_modifiers/0/value_id",
+      "amun_reveal_quality"
+    ],
+    [
+      "expanse06_amun_revealed.buff",
+      "/stacking_limit/stacking_limit",
+      "fixed_one"
+    ],
+    [
+      "expanse06_amun_revealed.buff",
+      "/gui/tooltip_line_groups/0/lines/0/value_id",
+      "amun_reveal_quality"
+    ]
+  ],
+  "resolved_private_references": [
+    [
+      "expanse06_amun_cloak.ability",
+      "/action_data_source",
+      "expanse06_amun_cloak"
+    ],
+    [
+      "expanse06_amun_cloak.ability",
+      "/active_actions/actions/actions/0/operators/0/buff",
+      "expanse06_amun_cloak"
+    ],
+    [
+      "expanse06_amun_cloak_controller.ability",
+      "/action_data_source",
+      "expanse06_amun_cloak"
+    ],
+    [
+      "expanse06_amun_cloak_controller.ability",
+      "/passive_actions/persistant_buff",
+      "expanse06_amun_cloak_controller"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/constraint/constraints/2/unit_constraint/buff",
+      "expanse06_amun_cloak"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/1/action_group/actions/2/operators/0/buff",
+      "expanse06_amun_revealed"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/2/action_group/constraint/constraints/2/unit_constraint/buff",
+      "expanse06_amun_cloak"
+    ],
+    [
+      "expanse06_amun_cloak_controller.buff",
+      "/trigger_event_actions/2/action_group/actions/1/operators/0/buff",
+      "expanse06_amun_revealed"
+    ]
+  ],
+  "GUI_assets": [
+    {
+      "id": "dlc3_herald_battle_capital_ship_cloak_ability_hud_icon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/dlc3_herald_battle_capital_ship_cloak_ability_hud_icon.png",
+      "sha256": "c97a355965c54cb0090d271b620f27694d343f5968fc36dc0e4a78ba9e890ac8"
+    },
+    {
+      "id": "dlc3_herald_battle_capital_ship_cloak_ability_hud_icon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/dlc3_herald_battle_capital_ship_cloak_ability_hud_icon.png",
+      "sha256": "c97a355965c54cb0090d271b620f27694d343f5968fc36dc0e4a78ba9e890ac8"
+    },
+    {
+      "id": "dlc3_herald_battle_capital_ship_cloak_ability_hud_icon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/dlc3_herald_battle_capital_ship_cloak_ability_hud_icon.png",
+      "sha256": "c97a355965c54cb0090d271b620f27694d343f5968fc36dc0e4a78ba9e890ac8"
+    },
+    {
+      "id": "dlc3_herald_battle_capital_ship_cloak_ability_hud_icon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/dlc3_herald_battle_capital_ship_cloak_ability_hud_icon.png",
+      "sha256": "c97a355965c54cb0090d271b620f27694d343f5968fc36dc0e4a78ba9e890ac8"
+    },
+    {
+      "id": "dlc3_herald_battle_capital_ship_decloak_ability_hud_icon",
+      "resolved": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/dlc3_herald_battle_capital_ship_decloak_ability_hud_icon.png",
+      "sha256": "100b0a5db77fcb745db407b1a76f7738fa14f2f83bcbee54b3f363e0d71f8078"
+    }
+  ],
+  "unit_hook_checked": false,
+  "runtime": "NOT RUN",
+  "limitations": [
+    "No proof of engine memory/event ordering or save serialization",
+    "No proof of product entitlement or cloak detector rendering",
+    "Hits reveal; missed PDC/rail shots do not",
+    "Three individual torpedoes: second pair reveals on fourth projectile"
+  ]
+}

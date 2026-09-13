@@ -1,0 +1,518 @@
+{
+  "status": "READ-ONLY installed evidence, no runtime shield proof",
+  "shield_modifier_and_repair_hits": [
+    {
+      "file": "dlc2_trader_rebel_super_modular_overdrive_no_module.buff",
+      "sha256": "1575354050141fea6287dd5bb5af83c22a298a09c9deb33d86f418896e3f9a8c",
+      "hits": [
+        {
+          "path": "/time_actions/0/action_group/actions/0/operators/0",
+          "definition": {
+            "operator_type": "repair_damage",
+            "affect_type": "shields_only",
+            "repair_value": "modular_overdrive_no_module_shield_restore_rate_value"
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_backup_shield_generator.unit_item",
+      "sha256": "22d49a0219acb4c4e1ff52c4f97c329c9c3030539b00a3940d38581010e05764",
+      "hits": [
+        {
+          "path": "/unit_modifiers/0",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "scalar",
+            "values": [
+              0.25
+            ]
+          }
+        },
+        {
+          "path": "/unit_modifiers/1",
+          "definition": {
+            "modifier_type": "shield_burst_restore_points",
+            "value_behavior": "scalar",
+            "values": [
+              0.25
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_carrier_capital_ship_deploy_missile_battery.buff",
+      "sha256": "02d3d5f040e732c4204bad727a8c48550be8a6cc3cf9febc529252a107494be2",
+      "hits": [
+        {
+          "path": "/unit_modifiers/1",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "additive",
+            "value_id": "deploy_missile_battery_shield_bonus_value"
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_command_cruiser_embolden.action_data_source",
+      "sha256": "a1fc1c3fb7f2f22f21228cf393a89eafb4a9c7d97a51dfae72cb50cc444782d6",
+      "hits": [
+        {
+          "path": "/buff_unit_modifiers/0/buff_unit_modifier",
+          "definition": {
+            "modifier_type": "shield_point_restore_scalar_after_damage_taken",
+            "value_behavior": "additive",
+            "value_id": "embolden_shield_point_restore_scalar_after_damage_taken_bonus_value"
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_loyalist_titan_planetary_shield_array.action_data_source",
+      "sha256": "2cb782c48343a6ae4209831aa074d10b2b758994aa4d460b318311834625529c",
+      "hits": [
+        {
+          "path": "/buff_planet_modifiers/0/buff_planet_modifier",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_max_shield_points"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/1/buff_planet_modifier",
+          "definition": {
+            "modifier_type": "shield_points_restore_rate",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_restore"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/2/buff_planet_modifier",
+          "definition": {
+            "modifier_type": "planet_shield_burst_restore",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_burst_restore_percentage"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/3/buff_planet_modifier",
+          "definition": {
+            "modifier_type": "planet_shield_burst_cooldown",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_burst_cooldown_time"
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_loyalist_titan_shield_surge.ability",
+      "sha256": "76b3ee7ba68e9ad26652559ce20412d83987c5852130dc4525ebf14c561d036a",
+      "hits": [
+        {
+          "path": "/active_actions/actions/actions/0/operators/0",
+          "definition": {
+            "operator_type": "repair_damage",
+            "affect_type": "shields_only",
+            "repair_value": "shield_surge_titan_normal_shield_restore_value"
+          }
+        },
+        {
+          "path": "/active_actions/actions/actions/1/operators/0",
+          "definition": {
+            "operator_type": "repair_damage",
+            "affect_type": "shields_only",
+            "repair_value": "shield_surge_titan_improved_shield_restore_value"
+          }
+        },
+        {
+          "path": "/active_actions/actions/actions/2/operators/0",
+          "definition": {
+            "constraint": {
+              "constraint_type": "unit_passes_target_filter",
+              "unit": {
+                "unit_type": "operand_destination"
+              },
+              "target_filter_id": "shield_surge_target_filter"
+            },
+            "operator_type": "repair_damage",
+            "affect_type": "shields_only",
+            "repair_value": "shield_surge_fleet_normal_shield_restore_value"
+          }
+        },
+        {
+          "path": "/active_actions/actions/actions/3/operators/0",
+          "definition": {
+            "constraint": {
+              "constraint_type": "unit_passes_target_filter",
+              "unit": {
+                "unit_type": "operand_destination"
+              },
+              "target_filter_id": "shield_surge_target_filter"
+            },
+            "operator_type": "repair_damage",
+            "affect_type": "shields_only",
+            "repair_value": "shield_surge_fleet_improved_shield_restore_value"
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_radiation_bomb_unit_item.action_data_source",
+      "sha256": "94ef30d298ac928fc93a7e52a834c2d50d70d88de6e73fb6228014df65a60df1",
+      "hits": [
+        {
+          "path": "/buff_unit_modifiers/2/buff_unit_modifier",
+          "definition": {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "scalar",
+            "value_id": "radiation_bomb_shield_regeneration_bonus_value"
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_shield_burst_restore.research_subject",
+      "sha256": "f862c6dbe307e6b683e5313df86cb9ef45d8a5d3d1afbe67b9490fdb2fab198d",
+      "hits": [
+        {
+          "path": "/unit_modifiers/0",
+          "definition": {
+            "modifier_type": "shield_burst_restore_points",
+            "value_behavior": "scalar",
+            "value": 0.85
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_shields_0.research_subject",
+      "sha256": "6b94c3297a48ccbd64480f017ab13b07f8600a8bbdd3759125867155b3af2129",
+      "hits": [
+        {
+          "path": "/unit_modifiers/0",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "scalar",
+            "value": 0.15
+          }
+        },
+        {
+          "path": "/unit_modifiers/1",
+          "definition": {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.15
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_shields_1.research_subject",
+      "sha256": "79319b0f518d16b6d1c56361f32f6423800b9003fe599cb763f1a32220bad752",
+      "hits": [
+        {
+          "path": "/unit_modifiers/0",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "scalar",
+            "value": 0.25
+          }
+        },
+        {
+          "path": "/unit_modifiers/1",
+          "definition": {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "scalar",
+            "value": 0.25
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_starbase_additional_shield_generator.unit_item",
+      "sha256": "91e8b25b3e0fea6db00f158570b1a5637ed04e7a80b37c7d9740c897a4713d2d",
+      "hits": [
+        {
+          "path": "/unit_modifiers/0",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "scalar",
+            "values": [
+              0.25
+            ]
+          }
+        },
+        {
+          "path": "/unit_modifiers/1",
+          "definition": {
+            "modifier_type": "shield_burst_restore_points",
+            "value_behavior": "scalar",
+            "values": [
+              0.25
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_starbase_planetary_shield_array.action_data_source",
+      "sha256": "efb6cc9d3222bfcf3a9466a12ebdc80e0a110894df8c87b738d03ff0eb5e6661",
+      "hits": [
+        {
+          "path": "/buff_planet_modifiers/0/buff_planet_modifier",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_max_shield_points"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/1/buff_planet_modifier",
+          "definition": {
+            "modifier_type": "shield_points_restore_rate",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_restore"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/2/buff_planet_modifier",
+          "definition": {
+            "modifier_type": "planet_shield_burst_restore",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_burst_restore_percentage"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/3/buff_planet_modifier",
+          "definition": {
+            "modifier_type": "planet_shield_burst_cooldown",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_burst_cooldown_time"
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_starbase_structural_integrity_0.unit_item",
+      "sha256": "df35465ebecfa0f7a50ab31e20a9a5d444d0db4b35b3c6d6f5eac8e1808d1478",
+      "hits": [
+        {
+          "path": "/unit_modifiers/5",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "additive",
+            "values": [
+              1000.0
+            ]
+          }
+        },
+        {
+          "path": "/unit_modifiers/6",
+          "definition": {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "additive",
+            "values": [
+              2.5
+            ]
+          }
+        },
+        {
+          "path": "/unit_modifiers/7",
+          "definition": {
+            "modifier_type": "shield_burst_restore_cooldown_duration",
+            "value_behavior": "additive",
+            "values": [
+              -5.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_starbase_structural_integrity_1.unit_item",
+      "sha256": "09d471a28f072244b6f15ea7794b58c90c00975644c12f704445ec7567aa66e5",
+      "hits": [
+        {
+          "path": "/unit_modifiers/5",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "additive",
+            "values": [
+              1500.0
+            ]
+          }
+        },
+        {
+          "path": "/unit_modifiers/6",
+          "definition": {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "additive",
+            "values": [
+              5.0
+            ]
+          }
+        },
+        {
+          "path": "/unit_modifiers/7",
+          "definition": {
+            "modifier_type": "shield_burst_restore_cooldown_duration",
+            "value_behavior": "additive",
+            "values": [
+              -10.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_starbase_structural_integrity_2.unit_item",
+      "sha256": "d1644b140199827b85e8e614a33c0579ae881bccb12d6148a7fc71a55302da5b",
+      "hits": [
+        {
+          "path": "/unit_modifiers/5",
+          "definition": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "additive",
+            "values": [
+              2000.0
+            ]
+          }
+        },
+        {
+          "path": "/unit_modifiers/6",
+          "definition": {
+            "modifier_type": "shield_point_restore_rate",
+            "value_behavior": "additive",
+            "values": [
+              7.5
+            ]
+          }
+        },
+        {
+          "path": "/unit_modifiers/7",
+          "definition": {
+            "modifier_type": "shield_burst_restore_cooldown_duration",
+            "value_behavior": "additive",
+            "values": [
+              -15.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_support_capital_ship_energy_transfer.ability",
+      "sha256": "19ad936fc098a50155b40086471840f810352be7125ba543a0bf00ebc00fa9e4",
+      "hits": [
+        {
+          "path": "/active_actions/actions/actions/0/operators/0",
+          "definition": {
+            "operator_type": "repair_damage",
+            "affect_type": "shields_only",
+            "repair_value": "shield_restore_primary_value"
+          }
+        },
+        {
+          "path": "/active_actions/actions/actions/1/operators/0",
+          "definition": {
+            "operator_type": "repair_damage",
+            "affect_type": "shields_only",
+            "repair_value": "shield_restore_primary_value"
+          }
+        }
+      ]
+    },
+    {
+      "file": "trader_upgrade_backup_shield_generator_unit_item.research_subject",
+      "sha256": "8c1b037d667b2af09a67b038c3946ea9c1c23d56f42ef3e1432355e5ee0db553",
+      "hits": [
+        {
+          "path": "/unit_modifiers/0",
+          "definition": {
+            "modifier_type": "shield_burst_restore_points",
+            "value_behavior": "scalar",
+            "value": 0.5
+          }
+        }
+      ]
+    }
+  ],
+  "guard_mutations": [
+    "disable_can_shields_absorb_damage",
+    "disable_can_have_shields_restored",
+    "disable_can_passively_regenerate_shields"
+  ],
+  "installed_mutation_permission_mappings": {
+    "/permission_infos/can_have_shields_restored": {
+      "disabling_mutations": [
+        "disable_can_have_shields_restored"
+      ]
+    },
+    "/permission_infos/can_shields_absorb_damage": {
+      "disabling_mutations": [
+        "disable_can_shields_absorb_damage"
+      ]
+    },
+    "/permission_infos/can_passively_regenerate_shields": {
+      "disabling_mutations": [
+        "disable_can_passively_regenerate_shields",
+        "in_phase_space"
+      ]
+    }
+  },
+  "installed_buff_examples": {
+    "disable_can_shields_absorb_damage": [
+      "dlc3_herald_titan_crest_cloaking.buff",
+      "vasari_scout_corvette_cloak.buff",
+      "vasari_raider_corvette_cloak.buff",
+      "dlc3_herald_support_capital_ship_cloak.buff",
+      "dlc3_herald_cloak_frigate_cloak.buff"
+    ],
+    "disable_can_have_shields_restored": [
+      "dlc3_herald_ship_corruption_penalty_extreme.buff"
+    ],
+    "disable_can_passively_regenerate_shields": [
+      "advent_subjugator_cruiser_suppression.buff",
+      "dlc2_advent_loyalist_super_stasis_beam_on_target.buff",
+      "trader_starbase_stun_torpedo_on_target.buff",
+      "radiation_storm_fixture_bonus_on_target.buff",
+      "vasari_missile_defense_disruptor_nanites_on_target.buff",
+      "dlc2_trader_rebel_super_ion_pulse_wave_on_target.buff",
+      "trader_siege_capital_ship_concussion_charge_on_spawner.buff",
+      "dlc3_herald_ship_corruption_penalty_extreme.buff",
+      "pirate_king_capital_ship_ion_bolt.buff"
+    ]
+  },
+  "shield_only_ship_shop_items_to_hide": [
+    "trader_backup_shield_generator",
+    "trader_starbase_additional_shield_generator"
+  ],
+  "shield_only_research_to_hide": [
+    "trader_shields_corvette",
+    "trader_shields_frigate",
+    "trader_shields_cruiser",
+    "trader_shields_0",
+    "trader_shields_1",
+    "trader_shield_burst_restore",
+    "trader_unlock_backup_shield_generator_unit_item",
+    "trader_upgrade_backup_shield_generator_unit_item"
+  ],
+  "mixed_items_keep_other_modifiers": [
+    "trader_starbase_structural_integrity_0",
+    "trader_starbase_structural_integrity_1",
+    "trader_starbase_structural_integrity_2"
+  ],
+  "mixed_ADS_or_buff_keep_other_effects": [
+    "trader_carrier_capital_ship_deploy_missile_battery.buff",
+    "trader_command_cruiser_embolden.action_data_source",
+    "trader_support_capital_ship_energy_transfer.ability"
+  ],
+  "native_Shield_Surge": "trader_loyalist_titan_shield_surge.ability contains4 repair_damage/shields_only operators; remove ability from TEC Ankylon coexisting set or disable it rather than charge antimatter for no effect. No replacement ability invented.",
+  "planetary_shield_scope": "trader_starbase_planetary_shield_array and trader_loyalist_titan_planetary_shield_array are PLANET modifier abilities, not ship health shields. Preserve unless user scope includes planetary shields. If removing, hide their2items and2unlock research nodes too.",
+  "guard_qualification": "All3mutation IDs exist and their permission disabling mappings are verified. Passive guard should prevent absorption and restoration including outside allied buffs, but zero displayed capacity under externally added capacity is not proven by these permission flags. Test allied grants, captured ships, saved games, shield burst and ability removal/reapplication.",
+  "research_graph_requirement": "Before removing listed research from player rosters, identify surviving prerequisites and surgically remove only dependencies on hidden nodes; do not orphan unrelated mixed armor/economy research.",
+  "main_scope": "No shared unit/skin/player/uniform/research/item modified by worker."
+}

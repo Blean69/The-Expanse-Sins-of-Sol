@@ -1,0 +1,70 @@
+{
+  "status": "INCOMPLETE UNBOUND COMBAT CANDIDATES \u2014 do not package or install",
+  "files": [
+    "expanse05_amun_torpedo.unit",
+    "expanse05_amun_torpedo.unit_skin",
+    "expanse05_amun_railgun.weapon",
+    "expanse05_amun_pdc_0.weapon",
+    "expanse05_amun_pdc_1.weapon",
+    "expanse05_amun_pdc_2.weapon",
+    "expanse05_amun_magazine.ability",
+    "expanse05_amun_magazine.buff",
+    "expanse05_amun_magazine.action_data_source"
+  ],
+  "torpedo": {
+    "id": "expanse05_amun_torpedo",
+    "damage": 900,
+    "speed": 1500,
+    "penetration": 1000,
+    "hull": 25,
+    "armor": 50,
+    "armor_strength": 50,
+    "size": "same installed Javelis reference as0.4",
+    "lifetime": 240,
+    "range": 200000,
+    "same_well": true,
+    "magazine": 8,
+    "per_pair": 2,
+    "pair_seconds": 10,
+    "reload_seconds": 120
+  },
+  "rail": {
+    "id": "expanse05_amun_railgun",
+    "damage": 3750,
+    "penetration": 1000,
+    "cooldown": 10,
+    "raw_dps": 375
+  },
+  "PDC": {
+    "ids": [
+      "expanse05_amun_pdc_0",
+      "expanse05_amun_pdc_1",
+      "expanse05_amun_pdc_2"
+    ],
+    "damage": 28,
+    "cooldown": 0.25,
+    "penetration": 0,
+    "range": 2500,
+    "raw_dps_per_mount": 112,
+    "raw_dps_all_three_bearing": 336,
+    "source_target_filter_and_groups_preserved": true,
+    "turret": "intentionally omitted until actual three assemblies are identified; no copied Tachi transforms"
+  },
+  "cloak_probe": {
+    "ability": "expanse05_launch_probe",
+    "required_projectile_filter_replace": {
+      "from": "trader_torpedo_cruiser_torpedo",
+      "to": "expanse05_amun_torpedo"
+    },
+    "private_gun_tag_already_on_three_PDC_and_rail": "expanse05_cloak_revealing_gun",
+    "torpedo_has_no_reveal_gun_tag": true
+  },
+  "required_integration": [
+    "Model-owned three PDC mounts/rig metadata, rail hardpoint and torpedo launch ability_positions",
+    "Amun unit/skin, manifests, localized keys, player build entry/private tag limit6",
+    "Bind existing light muzzle and hero rail/PDC effect aliases in Amun skin; final reference resolution",
+    "Cloak schema/quality mapping plus runtime gate; probe alone does not cloak",
+    "Boarding modeled effect is not an interceptable arrival-tracked pod"
+  ],
+  "preservation": "All0.4 source files hashed before and after; MCRN projectile and hero rail definitions unchanged"
+}

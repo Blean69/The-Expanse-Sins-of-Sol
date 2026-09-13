@@ -1,0 +1,26 @@
+{
+  "files": {
+    "uniforms/music.uniforms": "f612a356ccb022152af4932bc92f31266cd333481685cf61b9c12b0013ad6788",
+    "uniforms/player_race.uniforms": "89d77a909f5aa715b0660a46cc5984acf43a70120ef368dde58aac5c4de721a4",
+    "sounds/tech_battle.sound": "5a15e8e668427f7304fe50ace00d683ef840b73847148b3b8f746d81bc5c9786",
+    "sounds/sins2_title_track.sound": "d7e21143ba9c26af53481a630ea61b15de009ab1243d05be15467b42198e22ed"
+  },
+  "music_defaults": {
+    "music_transition_duration": 10.0,
+    "default_player_definition": "trader_loyalist"
+  },
+  "music_sound": {
+    "is_streaming": true,
+    "is_looping": true
+  },
+  "scope": "TEC race music only; all other race fields/pools preserved",
+  "confirmed_combat_tracks": [
+    "boarded",
+    "welwala",
+    "signal",
+    "never_see_them_coming",
+    "hammerlock"
+  ],
+  "signal_start_seconds": 65,
+  "planet_or_gravity_well_music_hooks": "Not established in pinned music schema; no invented hooks"
+}

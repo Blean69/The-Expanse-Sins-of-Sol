@@ -1,0 +1,10 @@
+{
+  "source_sha256": {
+    "entities/trader_robotics_cruiser_emp_droids.ability": "590db9f60af445fc7be200e66dbc21d203a1c18a54611cac98cf4a153d70288b",
+    "meshes/trader_robotics_cruiser.mesh": "790416a5a51031ae4cf51f346622340371cfcb5ea2cf4db3072d7d81d02cf36d",
+    "entities/trader_rebel_titan_piercing_shot.ability": "3c5ea9c5c7cb37eacffa97f0347873e0283da1d00c88cf919d26002788ef57e1"
+  },
+  "origin_evidence": "Hoshiko EMP targets enemy via delayed action but uses caster ability.1 mesh points; its actual mesh has4 such points at launcher bank. Ragnarov enemy-targeted piercing shot uses bomb point with muzzle/travel effects.",
+  "approved_Amun_point": "weapon.boarding.0",
+  "runtime": "NOT RUN"
+}

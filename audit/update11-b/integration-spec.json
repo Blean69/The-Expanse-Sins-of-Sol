@@ -1,0 +1,6269 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "runtime": "NOT RUN FOR THIS NEW DERIVATIVE",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game",
+  "hull_mesh": "expanse11_donnager_hull",
+  "rigs": [
+    {
+      "index": 0,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_0",
+        "mesh_point": "child.expanse10_donnager_pdc_0",
+        "weapon_position": [
+          100.49077758789062,
+          0.0,
+          -370.0
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        100.49077758789062,
+        0.0,
+        -370.0
+      ],
+      "pitch_pivot_hull": [
+        101.86722858330073,
+        0.0,
+        -369.81269195979587
+      ],
+      "muzzle_hull": [
+        102.27454736326906,
+        -1.1252809462488263e-06,
+        -366.02417170718013
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 0,
+        "station": 0,
+        "sector": 0,
+        "yaw_pivot_hull": [
+          100.49077758789062,
+          0.0,
+          -370.0
+        ],
+        "basis_columns": [
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 99.39077758789062,
+          "top": 100.49077758789062,
+          "foot_samples": [
+            {
+              "position": [
+                99.89077758789062,
+                0.0,
+                -370.0
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                -0.0
+              ],
+              "node": 54,
+              "triangle": 50879
+            },
+            {
+              "position": [
+                99.89077758789062,
+                2.8,
+                -372.8
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                -0.0
+              ],
+              "node": 54,
+              "triangle": 50879
+            },
+            {
+              "position": [
+                99.89077758789062,
+                2.8,
+                -367.2
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                -0.0
+              ],
+              "node": 54,
+              "triangle": 50879
+            },
+            {
+              "position": [
+                99.89077758789062,
+                -2.8,
+                -372.8
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                -0.0
+              ],
+              "node": 54,
+              "triangle": 50879
+            },
+            {
+              "position": [
+                99.89077758789062,
+                -2.8,
+                -367.2
+              ],
+              "normal": [
+                1.0,
+                0.0,
+                -0.0
+              ],
+              "node": 54,
+              "triangle": 50879
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 1.0
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 1,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_1",
+        "mesh_point": "child.expanse10_donnager_pdc_1",
+        "weapon_position": [
+          0.0,
+          100.11564971909416,
+          -370.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        100.11564971909416,
+        -370.0
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        101.49210071450428,
+        -369.81269195979587
+      ],
+      "muzzle_hull": [
+        1.1252809462488263e-06,
+        101.89941949447261,
+        -366.02417170718013
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 1,
+        "station": 0,
+        "sector": 1,
+        "yaw_pivot_hull": [
+          0.0,
+          100.11564971909416,
+          -370.0
+        ],
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 98.83509195958376,
+          "top": 100.11564971909416,
+          "foot_samples": [
+            {
+              "position": [
+                0.0,
+                99.42537083933897,
+                -370.0
+              ],
+              "normal": [
+                -8.631662922198302e-07,
+                0.9994806051254272,
+                -0.032224852591753006
+              ],
+              "node": 54,
+              "triangle": 51242
+            },
+            {
+              "position": [
+                -2.8,
+                99.33509195958376,
+                -372.8
+              ],
+              "normal": [
+                -8.631662922198302e-07,
+                0.9994806051254272,
+                -0.032224852591753006
+              ],
+              "node": 54,
+              "triangle": 51242
+            },
+            {
+              "position": [
+                -2.8,
+                99.51564488285138,
+                -367.2
+              ],
+              "normal": [
+                -8.631662922198302e-07,
+                0.9994806051254272,
+                -0.032224852591753006
+              ],
+              "node": 54,
+              "triangle": 51242
+            },
+            {
+              "position": [
+                2.8,
+                99.33509679582659,
+                -372.8
+              ],
+              "normal": [
+                -8.631662922198302e-07,
+                0.9994806051254272,
+                -0.032224852591753006
+              ],
+              "node": 54,
+              "triangle": 51242
+            },
+            {
+              "position": [
+                2.8,
+                99.51564971909417,
+                -367.2
+              ],
+              "normal": [
+                -8.631662922198302e-07,
+                0.9994806051254272,
+                -0.032224852591753006
+              ],
+              "node": 54,
+              "triangle": 51242
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 0.9994806051254272
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 2,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_2",
+        "mesh_point": "child.expanse10_donnager_pdc_2",
+        "weapon_position": [
+          -100.49067077636721,
+          0.0,
+          -370.0
+        ],
+        "up": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -100.49067077636721,
+        0.0,
+        -370.0
+      ],
+      "pitch_pivot_hull": [
+        -101.86712177177732,
+        0.0,
+        -369.81269195979587
+      ],
+      "muzzle_hull": [
+        -102.27444055174566,
+        1.1252809462488263e-06,
+        -366.02417170718013
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 2,
+        "station": 0,
+        "sector": 2,
+        "yaw_pivot_hull": [
+          -100.49067077636721,
+          0.0,
+          -370.0
+        ],
+        "basis_columns": [
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 99.39067077636719,
+          "top": 100.49067077636721,
+          "foot_samples": [
+            {
+              "position": [
+                -99.89067077636719,
+                0.0,
+                -370.0
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "node": 55,
+              "triangle": 52124
+            },
+            {
+              "position": [
+                -99.89067077636722,
+                -2.8,
+                -372.8
+              ],
+              "normal": [
+                -1.0,
+                -0.0,
+                0.0
+              ],
+              "node": 55,
+              "triangle": 52125
+            },
+            {
+              "position": [
+                -99.89067077636719,
+                -2.8,
+                -367.2
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "node": 55,
+              "triangle": 52124
+            },
+            {
+              "position": [
+                -99.89067077636719,
+                2.8,
+                -372.8
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "node": 55,
+              "triangle": 52124
+            },
+            {
+              "position": [
+                -99.89067077636719,
+                2.8,
+                -367.2
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                0.0
+              ],
+              "node": 55,
+              "triangle": 52124
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 1.0
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 3,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_3",
+        "mesh_point": "child.expanse10_donnager_pdc_3",
+        "weapon_position": [
+          0.0,
+          -100.49074764526978,
+          -370.0
+        ],
+        "up": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        -100.49074764526978,
+        -370.0
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        -101.86719864067989,
+        -369.81269195979587
+      ],
+      "muzzle_hull": [
+        -1.1252809462488263e-06,
+        -102.27451742064822,
+        -366.02417170718013
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 3,
+        "station": 0,
+        "sector": 3,
+        "yaw_pivot_hull": [
+          0.0,
+          -100.49074764526978,
+          -370.0
+        ],
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 99.39074216837068,
+          "top": 100.49074764526978,
+          "foot_samples": [
+            {
+              "position": [
+                0.0,
+                -99.89074490682023,
+                -370.0
+              ],
+              "normal": [
+                8.636147299512231e-07,
+                -1.0,
+                1.1440292979614242e-07
+              ],
+              "node": 55,
+              "triangle": 51730
+            },
+            {
+              "position": [
+                2.8,
+                -99.8907428090271,
+                -372.8
+              ],
+              "normal": [
+                8.636147299512231e-07,
+                -1.0,
+                1.1440292979614242e-07
+              ],
+              "node": 55,
+              "triangle": 51730
+            },
+            {
+              "position": [
+                2.8,
+                -99.89074216837068,
+                -367.2
+              ],
+              "normal": [
+                8.636147299512231e-07,
+                -1.0,
+                1.1440292979614242e-07
+              ],
+              "node": 55,
+              "triangle": 51730
+            },
+            {
+              "position": [
+                -2.8,
+                -99.89074764526978,
+                -372.8
+              ],
+              "normal": [
+                8.636147299512231e-07,
+                -1.0,
+                1.1440292979614242e-07
+              ],
+              "node": 55,
+              "triangle": 51730
+            },
+            {
+              "position": [
+                -2.8,
+                -99.89074700461336,
+                -367.2
+              ],
+              "normal": [
+                8.636147299512231e-07,
+                -1.0,
+                1.1440292979614242e-07
+              ],
+              "node": 55,
+              "triangle": 51730
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 1.0
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 4,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_4",
+        "mesh_point": "child.expanse10_donnager_pdc_4",
+        "weapon_position": [
+          78.93442775698375,
+          0.0,
+          -150.0
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        78.93442775698375,
+        0.0,
+        -150.0
+      ],
+      "pitch_pivot_hull": [
+        80.31087875239386,
+        0.0,
+        -149.81269195979584
+      ],
+      "muzzle_hull": [
+        80.7181975323622,
+        -1.1252809462488263e-06,
+        -146.02417170718016
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 4,
+        "station": 1,
+        "sector": 0,
+        "yaw_pivot_hull": [
+          78.93442775698375,
+          0.0,
+          -150.0
+        ],
+        "basis_columns": [
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 77.27886159067816,
+          "top": 78.93442775698375,
+          "foot_samples": [
+            {
+              "position": [
+                78.33442775698376,
+                0.0,
+                -150.0
+              ],
+              "normal": [
+                0.996090292930603,
+                -0.008714728988707066,
+                0.08790948987007141
+              ],
+              "node": 54,
+              "triangle": 50766
+            },
+            {
+              "position": [
+                77.77886159067816,
+                2.8,
+                -152.8
+              ],
+              "normal": [
+                0.9209444522857666,
+                0.013540560379624367,
+                -0.38945847749710083
+              ],
+              "node": 54,
+              "triangle": 50763
+            },
+            {
+              "position": [
+                78.11181207524152,
+                2.8,
+                -147.2
+              ],
+              "normal": [
+                0.996090292930603,
+                -0.008714728988707066,
+                0.08790948987007141
+              ],
+              "node": 54,
+              "triangle": 50766
+            },
+            {
+              "position": [
+                77.86119791624685,
+                -2.8,
+                -152.8
+              ],
+              "normal": [
+                0.9209444522857666,
+                0.013540560379624367,
+                -0.38945847749710083
+              ],
+              "node": 54,
+              "triangle": 50763
+            },
+            {
+              "position": [
+                78.0628180438382,
+                -2.8,
+                -147.2
+              ],
+              "normal": [
+                0.996090292930603,
+                -0.008714728988707066,
+                0.08790948987007141
+              ],
+              "node": 54,
+              "triangle": 50766
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 0.996090292930603
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 5,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_5",
+        "mesh_point": "child.expanse10_donnager_pdc_5",
+        "weapon_position": [
+          0.0,
+          79.01118675807413,
+          -150.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        79.01118675807413,
+        -150.0
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        80.38763775348424,
+        -149.81269195979584
+      ],
+      "muzzle_hull": [
+        1.1252809462488263e-06,
+        80.79495653345258,
+        -146.02417170718016
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 5,
+        "station": 1,
+        "sector": 1,
+        "yaw_pivot_hull": [
+          0.0,
+          79.01118675807413,
+          -150.0
+        ],
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 77.3116733462634,
+          "top": 79.01118675807413,
+          "foot_samples": [
+            {
+              "position": [
+                0.0,
+                78.41118675807414,
+                -150.0
+              ],
+              "normal": [
+                -5.791158059764712e-07,
+                0.9961282014846802,
+                0.08791259676218033
+              ],
+              "node": 54,
+              "triangle": 51131
+            },
+            {
+              "position": [
+                -2.8,
+                77.8116733462634,
+                -152.8
+              ],
+              "normal": [
+                -0.011712959036231041,
+                0.9617284536361694,
+                -0.273753821849823
+              ],
+              "node": 54,
+              "triangle": 51129
+            },
+            {
+              "position": [
+                -2.8,
+                78.164073100494,
+                -147.2
+              ],
+              "normal": [
+                -5.791158059764712e-07,
+                0.9961282014846802,
+                0.08791259676218033
+              ],
+              "node": 54,
+              "triangle": 51131
+            },
+            {
+              "position": [
+                2.8,
+                77.8798761401375,
+                -152.8
+              ],
+              "normal": [
+                -0.011712959036231041,
+                0.9617284536361694,
+                -0.273753821849823
+              ],
+              "node": 54,
+              "triangle": 51129
+            },
+            {
+              "position": [
+                2.8,
+                78.16407635621286,
+                -147.2
+              ],
+              "normal": [
+                -5.791158059764712e-07,
+                0.9961282014846802,
+                0.08791259676218033
+              ],
+              "node": 54,
+              "triangle": 51131
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 0.9961282014846802
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 6,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_6",
+        "mesh_point": "child.expanse10_donnager_pdc_6",
+        "weapon_position": [
+          -77.96181478922242,
+          0.0,
+          -150.0
+        ],
+        "up": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -77.96181478922242,
+        0.0,
+        -150.0
+      ],
+      "pitch_pivot_hull": [
+        -79.33826578463253,
+        0.0,
+        -149.81269195979584
+      ],
+      "muzzle_hull": [
+        -79.74558456460086,
+        1.1252809462488263e-06,
+        -146.02417170718016
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 6,
+        "station": 1,
+        "sector": 2,
+        "yaw_pivot_hull": [
+          -77.96181478922242,
+          0.0,
+          -150.0
+        ],
+        "basis_columns": [
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 76.34887733507597,
+          "top": 77.96181478922242,
+          "foot_samples": [
+            {
+              "position": [
+                -77.2203023086908,
+                0.0,
+                -150.0
+              ],
+              "normal": [
+                -0.9956526756286621,
+                0.0,
+                0.09314355254173279
+              ],
+              "node": 56,
+              "triangle": 52234
+            },
+            {
+              "position": [
+                -77.23685672571236,
+                -2.8,
+                -152.8
+              ],
+              "normal": [
+                -0.9797966480255127,
+                0.19879770278930664,
+                -0.021863127127289772
+              ],
+              "node": 56,
+              "triangle": 52243
+            },
+            {
+              "position": [
+                -77.36181478922242,
+                -2.8,
+                -147.2
+              ],
+              "normal": [
+                -0.9797966480255127,
+                0.19879770278930664,
+                -0.021863127127289772
+              ],
+              "node": 56,
+              "triangle": 52243
+            },
+            {
+              "position": [
+                -76.84887733507597,
+                2.8,
+                -152.8
+              ],
+              "normal": [
+                -0.9593825340270996,
+                0.0,
+                -0.2821083962917328
+              ],
+              "node": 56,
+              "triangle": 52235
+            },
+            {
+              "position": [
+                -76.95836161803902,
+                2.8,
+                -147.2
+              ],
+              "normal": [
+                -0.9956526756286621,
+                0.0,
+                0.09314355254173279
+              ],
+              "node": 56,
+              "triangle": 52234
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 0.9956526756286621
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 7,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_7",
+        "mesh_point": "child.expanse10_donnager_pdc_7",
+        "weapon_position": [
+          0.0,
+          -79.0111676157488,
+          -150.0
+        ],
+        "up": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        -79.0111676157488,
+        -150.0
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        -80.38761861115891,
+        -149.81269195979584
+      ],
+      "muzzle_hull": [
+        -1.1252809462488263e-06,
+        -80.79493739112725,
+        -146.02417170718016
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 7,
+        "station": 1,
+        "sector": 3,
+        "yaw_pivot_hull": [
+          0.0,
+          -79.0111676157488,
+          -150.0
+        ],
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 77.4543129611003,
+          "top": 79.0111676157488,
+          "foot_samples": [
+            {
+              "position": [
+                0.0,
+                -78.41116761574881,
+                -150.0
+              ],
+              "normal": [
+                4.330702267907327e-07,
+                -0.9961282014846802,
+                0.08791285008192062
+              ],
+              "node": 55,
+              "triangle": 51519
+            },
+            {
+              "position": [
+                2.8,
+                -77.9543129611003,
+                -152.8
+              ],
+              "normal": [
+                4.1824290519798524e-07,
+                -0.962023138999939,
+                -0.2729678153991699
+              ],
+              "node": 55,
+              "triangle": 51515
+            },
+            {
+              "position": [
+                2.8,
+                -78.16405364680222,
+                -147.2
+              ],
+              "normal": [
+                4.330702267907327e-07,
+                -0.9961282014846802,
+                0.08791285008192062
+              ],
+              "node": 55,
+              "triangle": 51519
+            },
+            {
+              "position": [
+                -2.8,
+                -77.9543153957199,
+                -152.8
+              ],
+              "normal": [
+                4.1824290519798524e-07,
+                -0.962023138999939,
+                -0.2729678153991699
+              ],
+              "node": 55,
+              "triangle": 51515
+            },
+            {
+              "position": [
+                -2.8,
+                -78.16405608142182,
+                -147.2
+              ],
+              "normal": [
+                4.330702267907327e-07,
+                -0.9961282014846802,
+                0.08791285008192062
+              ],
+              "node": 55,
+              "triangle": 51519
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 0.9961282014846802
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 8,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_8",
+        "mesh_point": "child.expanse10_donnager_pdc_8",
+        "weapon_position": [
+          59.759341282355514,
+          0.0,
+          50.0
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        59.759341282355514,
+        0.0,
+        50.0
+      ],
+      "pitch_pivot_hull": [
+        61.13579227776562,
+        0.0,
+        50.187308040204144
+      ],
+      "muzzle_hull": [
+        61.54311105773396,
+        -1.1252809462488263e-06,
+        53.97582829281985
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 8,
+        "station": 2,
+        "sector": 0,
+        "yaw_pivot_hull": [
+          59.759341282355514,
+          0.0,
+          50.0
+        ],
+        "basis_columns": [
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 58.659340411427735,
+          "top": 59.759341282355514,
+          "foot_samples": [
+            {
+              "position": [
+                59.15934084689161,
+                0.0,
+                50.0
+              ],
+              "normal": [
+                1.0,
+                -0.0,
+                1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 50916
+            },
+            {
+              "position": [
+                59.15934128235551,
+                2.8,
+                47.2
+              ],
+              "normal": [
+                1.0,
+                -0.0,
+                1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 50916
+            },
+            {
+              "position": [
+                59.159340411427735,
+                2.8,
+                52.8
+              ],
+              "normal": [
+                1.0,
+                -0.0,
+                1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 50916
+            },
+            {
+              "position": [
+                59.15934128235551,
+                -2.8,
+                47.2
+              ],
+              "normal": [
+                1.0,
+                -0.0,
+                1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 50916
+            },
+            {
+              "position": [
+                59.159340411427735,
+                -2.8,
+                52.8
+              ],
+              "normal": [
+                1.0,
+                -0.0,
+                1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 50916
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 1.0
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 9,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_9",
+        "mesh_point": "child.expanse10_donnager_pdc_9",
+        "weapon_position": [
+          0.0,
+          59.759400433300364,
+          50.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        59.759400433300364,
+        50.0
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        61.13585142871047,
+        50.187308040204144
+      ],
+      "muzzle_hull": [
+        1.1252809462488263e-06,
+        61.54317020867881,
+        53.97582829281985
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 9,
+        "station": 2,
+        "sector": 1,
+        "yaw_pivot_hull": [
+          0.0,
+          59.759400433300364,
+          50.0
+        ],
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 58.659399562372585,
+          "top": 59.759400433300364,
+          "foot_samples": [
+            {
+              "position": [
+                0.0,
+                59.15939999783649,
+                50.0
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                -1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 51280
+            },
+            {
+              "position": [
+                -2.8,
+                59.159399562372585,
+                47.2
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                -1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 51280
+            },
+            {
+              "position": [
+                -2.8,
+                59.15940043330036,
+                52.8
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                -1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 51280
+            },
+            {
+              "position": [
+                2.8,
+                59.159399562372585,
+                47.2
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                -1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 51280
+            },
+            {
+              "position": [
+                2.8,
+                59.15940043330036,
+                52.8
+              ],
+              "normal": [
+                0.0,
+                1.0,
+                -1.555228124061614e-07
+              ],
+              "node": 54,
+              "triangle": 51280
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 1.0
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 10,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_10",
+        "mesh_point": "child.expanse10_donnager_pdc_10",
+        "weapon_position": [
+          -59.759373730418,
+          0.0,
+          50.0
+        ],
+        "up": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -59.759373730418,
+        0.0,
+        50.0
+      ],
+      "pitch_pivot_hull": [
+        -61.1358247258281,
+        0.0,
+        50.187308040204144
+      ],
+      "muzzle_hull": [
+        -61.54314350579644,
+        1.1252809462488263e-06,
+        53.97582829281985
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 10,
+        "station": 2,
+        "sector": 2,
+        "yaw_pivot_hull": [
+          -59.759373730418,
+          0.0,
+          50.0
+        ],
+        "basis_columns": [
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 58.65937285949025,
+          "top": 59.759373730418,
+          "foot_samples": [
+            {
+              "position": [
+                -59.15937329495412,
+                0.0,
+                50.0
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -1.555228124061614e-07
+              ],
+              "node": 55,
+              "triangle": 52090
+            },
+            {
+              "position": [
+                -59.15937285949025,
+                -2.8,
+                47.2
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -1.555228124061614e-07
+              ],
+              "node": 55,
+              "triangle": 52090
+            },
+            {
+              "position": [
+                -59.159373730418,
+                -2.8,
+                52.8
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -1.555228124061614e-07
+              ],
+              "node": 55,
+              "triangle": 52090
+            },
+            {
+              "position": [
+                -59.15937285949025,
+                2.8,
+                47.2
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -1.555228124061614e-07
+              ],
+              "node": 55,
+              "triangle": 52090
+            },
+            {
+              "position": [
+                -59.159373730418,
+                2.8,
+                52.8
+              ],
+              "normal": [
+                -1.0,
+                0.0,
+                -1.555228124061614e-07
+              ],
+              "node": 55,
+              "triangle": 52090
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 1.0
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 11,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_11",
+        "mesh_point": "child.expanse10_donnager_pdc_11",
+        "weapon_position": [
+          0.0,
+          -59.759314579476246,
+          50.0
+        ],
+        "up": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        -59.759314579476246,
+        50.0
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        -61.13576557488635,
+        50.187308040204144
+      ],
+      "muzzle_hull": [
+        -1.1252809462488263e-06,
+        -61.54308435485469,
+        53.97582829281985
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 11,
+        "station": 2,
+        "sector": 3,
+        "yaw_pivot_hull": [
+          0.0,
+          -59.759314579476246,
+          50.0
+        ],
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 58.65931370854855,
+          "top": 59.759314579476246,
+          "foot_samples": [
+            {
+              "position": [
+                0.0,
+                -59.1593141440124,
+                50.0
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                1.5552279819530668e-07
+              ],
+              "node": 55,
+              "triangle": 51560
+            },
+            {
+              "position": [
+                2.8,
+                -59.159314579476245,
+                47.2
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                1.5552279819530668e-07
+              ],
+              "node": 55,
+              "triangle": 51560
+            },
+            {
+              "position": [
+                2.8,
+                -59.15931370854855,
+                52.8
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                1.5552279819530668e-07
+              ],
+              "node": 55,
+              "triangle": 51560
+            },
+            {
+              "position": [
+                -2.8,
+                -59.159314579476245,
+                47.2
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                1.5552279819530668e-07
+              ],
+              "node": 55,
+              "triangle": 51560
+            },
+            {
+              "position": [
+                -2.8,
+                -59.15931370854855,
+                52.8
+              ],
+              "normal": [
+                0.0,
+                -1.0,
+                1.5552279819530668e-07
+              ],
+              "node": 55,
+              "triangle": 51560
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 1.0
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 12,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_12",
+        "mesh_point": "child.expanse10_donnager_pdc_12",
+        "weapon_position": [
+          85.8402696972343,
+          0.0,
+          240.0
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        85.8402696972343,
+        0.0,
+        240.0
+      ],
+      "pitch_pivot_hull": [
+        87.21672069264442,
+        0.0,
+        240.18730804020416
+      ],
+      "muzzle_hull": [
+        87.62403947261275,
+        -1.1252809462488263e-06,
+        243.97582829281984
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 12,
+        "station": 3,
+        "sector": 0,
+        "yaw_pivot_hull": [
+          85.8402696972343,
+          0.0,
+          240.0
+        ],
+        "basis_columns": [
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 84.36581915194432,
+          "top": 85.8402696972343,
+          "foot_samples": [
+            {
+              "position": [
+                85.0530444245893,
+                0.0,
+                240.0
+              ],
+              "normal": [
+                0.9979953765869141,
+                -0.06318815052509308,
+                -0.0035439759958535433
+              ],
+              "node": 58,
+              "triangle": 54238
+            },
+            {
+              "position": [
+                85.22038356757952,
+                2.8,
+                237.2
+              ],
+              "normal": [
+                0.9979953765869141,
+                -0.06318815052509308,
+                -0.0035439759958535433
+              ],
+              "node": 58,
+              "triangle": 54238
+            },
+            {
+              "position": [
+                85.24026969723431,
+                2.8,
+                242.8
+              ],
+              "normal": [
+                0.9979953765869141,
+                -0.06318815052509308,
+                -0.0035439759958535433
+              ],
+              "node": 58,
+              "triangle": 54238
+            },
+            {
+              "position": [
+                84.86581915194432,
+                -2.8,
+                237.2
+              ],
+              "normal": [
+                0.9979953765869141,
+                -0.06318815052509308,
+                -0.0035439759958535433
+              ],
+              "node": 58,
+              "triangle": 54238
+            },
+            {
+              "position": [
+                84.88570528159909,
+                -2.8,
+                242.8
+              ],
+              "normal": [
+                0.9979953765869141,
+                -0.06318815052509308,
+                -0.0035439759958535433
+              ],
+              "node": 58,
+              "triangle": 54238
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 0.9979953765869141
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 13,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_13",
+        "mesh_point": "child.expanse10_donnager_pdc_13",
+        "weapon_position": [
+          0.0,
+          85.77338592292094,
+          240.0
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        85.77338592292094,
+        240.0
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        87.14983691833105,
+        240.18730804020416
+      ],
+      "muzzle_hull": [
+        1.1252809462488263e-06,
+        87.55715569829938,
+        243.97582829281984
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 13,
+        "station": 3,
+        "sector": 1,
+        "yaw_pivot_hull": [
+          0.0,
+          85.77338592292094,
+          240.0
+        ],
+        "basis_columns": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 83.98929108519442,
+          "top": 85.77338592292094,
+          "foot_samples": [
+            {
+              "position": [
+                0.0,
+                84.8313385040577,
+                240.0
+              ],
+              "normal": [
+                0.06280463933944702,
+                0.9962862133979797,
+                0.058901481330394745
+              ],
+              "node": 58,
+              "triangle": 54519
+            },
+            {
+              "position": [
+                -2.8,
+                85.17338592292094,
+                237.2
+              ],
+              "normal": [
+                0.06280463933944702,
+                0.9962862133979797,
+                0.058901481330394745
+              ],
+              "node": 58,
+              "triangle": 54519
+            },
+            {
+              "position": [
+                -2.8,
+                84.8423080603246,
+                242.8
+              ],
+              "normal": [
+                0.06280463933944702,
+                0.9962862133979797,
+                0.058901481330394745
+              ],
+              "node": 58,
+              "triangle": 54519
+            },
+            {
+              "position": [
+                2.8,
+                84.82036894779077,
+                237.2
+              ],
+              "normal": [
+                0.06280463933944702,
+                0.9962862133979797,
+                0.058901481330394745
+              ],
+              "node": 58,
+              "triangle": 54519
+            },
+            {
+              "position": [
+                2.8,
+                84.48929108519442,
+                242.8
+              ],
+              "normal": [
+                0.06280463933944702,
+                0.9962862133979797,
+                0.058901481330394745
+              ],
+              "node": 58,
+              "triangle": 54519
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 0.9962862133979797
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 14,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_14",
+        "mesh_point": "child.expanse10_donnager_pdc_14",
+        "weapon_position": [
+          -85.62243087217823,
+          0.0,
+          240.0
+        ],
+        "up": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -85.62243087217823,
+        0.0,
+        240.0
+      ],
+      "pitch_pivot_hull": [
+        -86.99888186758834,
+        0.0,
+        240.18730804020416
+      ],
+      "muzzle_hull": [
+        -87.40620064755667,
+        1.1252809462488263e-06,
+        243.97582829281984
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 14,
+        "station": 3,
+        "sector": 2,
+        "yaw_pivot_hull": [
+          -85.62243087217823,
+          0.0,
+          240.0
+        ],
+        "basis_columns": [
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 83.86750994370882,
+          "top": 85.62243087217823,
+          "foot_samples": [
+            {
+              "position": [
+                -84.68374675800823,
+                0.0,
+                240.0
+              ],
+              "normal": [
+                -0.9927639365196228,
+                0.12008285522460938,
+                -4.901950774183206e-07
+              ],
+              "node": 58,
+              "triangle": 54146
+            },
+            {
+              "position": [
+                -84.36750994370882,
+                -2.8,
+                237.2
+              ],
+              "normal": [
+                -1.0,
+                7.175281098170672e-07,
+                -1.2071176306790998e-13
+              ],
+              "node": 58,
+              "triangle": 54316
+            },
+            {
+              "position": [
+                -85.02243087217823,
+                -2.8,
+                242.8
+              ],
+              "normal": [
+                -0.9927639365196228,
+                0.12008285522460938,
+                -4.901950774183206e-07
+              ],
+              "node": 58,
+              "triangle": 54146
+            },
+            {
+              "position": [
+                -84.7254946192829,
+                2.8,
+                237.2
+              ],
+              "normal": [
+                -0.992117702960968,
+                -0.12511247396469116,
+                -0.0070178452879190445
+              ],
+              "node": 58,
+              "triangle": 54313
+            },
+            {
+              "position": [
+                -84.76510679506546,
+                2.8,
+                242.8
+              ],
+              "normal": [
+                -0.992117702960968,
+                -0.12511247396469116,
+                -0.0070178452879190445
+              ],
+              "node": 58,
+              "triangle": 54313
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 0.9927639365196228
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 15,
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse10_donnager_pdc_15",
+        "mesh_point": "child.expanse10_donnager_pdc_15",
+        "weapon_position": [
+          0.0,
+          -86.27274455973668,
+          240.0
+        ],
+        "up": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 5.0
+        }
+      },
+      "basis_columns": [
+        [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        0.0,
+        -86.27274455973668,
+        240.0
+      ],
+      "pitch_pivot_hull": [
+        0.0,
+        -87.64919555514679,
+        240.18730804020416
+      ],
+      "muzzle_hull": [
+        -1.1252809462488263e-06,
+        -88.05651433511512,
+        243.97582829281984
+      ],
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse10_donnager_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse10_donnager_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measured_support": {
+        "index": 15,
+        "station": 3,
+        "sector": 3,
+        "yaw_pivot_hull": [
+          0.0,
+          -86.27274455973668,
+          240.0
+        ],
+        "basis_columns": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "support": {
+          "radius": 3.0,
+          "bottom": 84.24020654893457,
+          "top": 86.27274455973668,
+          "foot_samples": [
+            {
+              "position": [
+                0.0,
+                -85.50647555433562,
+                240.0
+              ],
+              "normal": [
+                3.5499667205840524e-07,
+                -0.9982415437698364,
+                0.0592770092189312
+              ],
+              "node": 58,
+              "triangle": 54596
+            },
+            {
+              "position": [
+                2.8,
+                -85.67274256825345,
+                237.2
+              ],
+              "normal": [
+                3.5499667205840524e-07,
+                -0.9982415437698364,
+                0.0592770092189312
+              ],
+              "node": 58,
+              "triangle": 54596
+            },
+            {
+              "position": [
+                2.8,
+                -85.34020654893456,
+                242.8
+              ],
+              "normal": [
+                3.5499667205840524e-07,
+                -0.9982415437698364,
+                0.0592770092189312
+              ],
+              "node": 58,
+              "triangle": 54596
+            },
+            {
+              "position": [
+                -2.8,
+                -85.67274455973669,
+                237.2
+              ],
+              "normal": [
+                3.5499667205840524e-07,
+                -0.9982415437698364,
+                0.0592770092189312
+              ],
+              "node": 58,
+              "triangle": 54596
+            },
+            {
+              "position": [
+                -2.8,
+                -85.34020854041779,
+                242.8
+              ],
+              "normal": [
+                3.5499667205840524e-07,
+                -0.9982415437698364,
+                0.0592770092189312
+              ],
+              "node": 58,
+              "triangle": 54596
+            }
+          ],
+          "penetration_clearance": 0.5
+        },
+        "source_surface_normal_dot_up": 0.9982415437698364
+      },
+      "prototype_count_not_canonical": true,
+      "donor_scale": 1.0,
+      "runtime": "NOT RUN"
+    },
+    {
+      "index": 16,
+      "kind": "rail",
+      "mount": {
+        "weapon": "expanse10_donnager_rail_0",
+        "mesh_point": "child.expanse10_donnager_rail_0",
+        "weapon_position": [
+          -107.75201749781718,
+          -7.457105678741628e-05,
+          195.0783098869338
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -2.0,
+          "max_angle": 2.0
+        },
+        "pitch_arc": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        -107.75201749781718,
+        -7.457105678741628e-05,
+        195.0783098869338
+      ],
+      "pitch_pivot_hull": [
+        -107.75201749781718,
+        -7.457105678741628e-05,
+        195.0783098869338
+      ],
+      "muzzle_hull": [
+        -108.28919982910156,
+        -8.940696716308594e-05,
+        343.1825866699219
+      ],
+      "turret_override": {
+        "type": "gimbal",
+        "gimbal_mesh": "expanse11_donnager_rail_0",
+        "muzzle_positions": [
+          [
+            -0.5371823312843844,
+            -1.4835910375669655e-05,
+            148.10427678298808
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse11_donnager_rail_0",
+          "mesh_definition": {
+            "mesh": "expanse11_donnager_rail_0",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measurement": {
+        "index": 0,
+        "pivot": [
+          -107.75201749781718,
+          -7.457105678741628e-05,
+          195.0783098869338
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "muzzle": [
+          -108.28919982910156,
+          -8.940696716308594e-05,
+          343.1825866699219
+        ],
+        "muzzle_method": "Terminal forward source rail structure bounds center; front cap bore inspection pending",
+        "supports": [
+          {
+            "hull_contact": {
+              "position": [
+                -78.6551382060803,
+                -20.0,
+                195.0783098869338
+              ],
+              "normal": [
+                -0.37007251381874084,
+                0.9265710115432739,
+                0.06717413663864136
+              ],
+              "node": 63,
+              "triangle": 56494
+            },
+            "end": [
+              -107.75201749781718,
+              -20.0,
+              195.0783098869338
+            ],
+            "thickness": 2.5
+          },
+          {
+            "hull_contact": {
+              "position": [
+                -77.52497505939616,
+                20.0,
+                195.0783098869338
+              ],
+              "normal": [
+                -0.9999974370002747,
+                0.002257483545690775,
+                0.00016342787421308458
+              ],
+              "node": 63,
+              "triangle": 56997
+            },
+            "end": [
+              -107.75201749781718,
+              20.0,
+              195.0783098869338
+            ],
+            "thickness": 2.5
+          }
+        ],
+        "sweep": [
+          {
+            "angle_degrees": -2.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 391,
+            "minimum_radial_clearance": -3.388976700630252,
+            "penetrating_samples": 3,
+            "contact_samples": [
+              {
+                "point": [
+                  -97.08980492041462,
+                  1.3807907104492188,
+                  195.45065604016034
+                ],
+                "hull": {
+                  "position": [
+                    -100.47878162104487,
+                    1.3807907104492188,
+                    195.45065604016034
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46460
+                },
+                "drum_distance_xz": 10.668712138938977
+              },
+              {
+                "point": [
+                  -99.03666740573134,
+                  -1.6790144443511963,
+                  188.42095546073415
+                ],
+                "hull": {
+                  "position": [
+                    -102.16492634752404,
+                    -1.6790144443511963,
+                    188.42095546073415
+                  ],
+                  "normal": [
+                    -0.8815792798995972,
+                    0.0,
+                    0.47203606367111206
+                  ],
+                  "node": 38,
+                  "triangle": 36615
+                },
+                "drum_distance_xz": 10.967118818708071
+              },
+              {
+                "point": [
+                  -99.20751122813793,
+                  -1.3809635639190674,
+                  189.7908123183137
+                ],
+                "hull": {
+                  "position": [
+                    -101.64646325615601,
+                    -1.3809635639190674,
+                    189.7908123183137
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46463
+                },
+                "drum_distance_xz": 10.04819475979399
+              }
+            ]
+          },
+          {
+            "angle_degrees": -1.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 391,
+            "minimum_radial_clearance": -3.4322532327774127,
+            "penetrating_samples": 3,
+            "contact_samples": [
+              {
+                "point": [
+                  -97.08493049063227,
+                  1.3807907104492188,
+                  195.26451806261613
+                ],
+                "hull": {
+                  "position": [
+                    -100.51718372340969,
+                    1.3807907104492188,
+                    195.26451806261613
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46460
+                },
+                "drum_distance_xz": 10.668712138938979
+              },
+              {
+                "point": [
+                  -99.15418165100719,
+                  -1.6790144443511963,
+                  188.26986557600858
+                ],
+                "hull": {
+                  "position": [
+                    -102.24582647679537,
+                    -1.6790144443511963,
+                    188.26986557600858
+                  ],
+                  "normal": [
+                    -0.8815792202949524,
+                    0.0,
+                    0.47203606367111206
+                  ],
+                  "node": 38,
+                  "triangle": 36667
+                },
+                "drum_distance_xz": 10.967118818708068
+              },
+              {
+                "point": [
+                  -99.30109215443275,
+                  -1.3809635639190674,
+                  189.64249543357963
+                ],
+                "hull": {
+                  "position": [
+                    -101.67706249369544,
+                    -1.3809635639190674,
+                    189.64249543357963
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46463
+                },
+                "drum_distance_xz": 10.048194759793983
+              }
+            ]
+          },
+          {
+            "angle_degrees": 0.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 391,
+            "minimum_radial_clearance": -3.472292168951668,
+            "penetrating_samples": 3,
+            "contact_samples": [
+              {
+                "point": [
+                  -97.08330535888672,
+                  1.3807907104492188,
+                  195.0783233642578
+                ],
+                "hull": {
+                  "position": [
+                    -100.55559752783839,
+                    1.3807907104492188,
+                    195.0783233642578
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46460
+                },
+                "drum_distance_xz": 10.668712138938972
+              },
+              {
+                "point": [
+                  -99.2743148803711,
+                  -1.6790144443511963,
+                  188.120849609375
+                ],
+                "hull": {
+                  "position": [
+                    -102.3256161396576,
+                    -1.6790144443511963,
+                    188.120849609375
+                  ],
+                  "normal": [
+                    -0.8815792202949524,
+                    0.0,
+                    0.47203606367111206
+                  ],
+                  "node": 38,
+                  "triangle": 36667
+                },
+                "drum_distance_xz": 10.96711881870807
+              },
+              {
+                "point": [
+                  -99.39724731445312,
+                  -1.3809635639190674,
+                  189.49583435058594
+                ],
+                "hull": {
+                  "position": [
+                    -101.70732012298939,
+                    -1.3809635639190674,
+                    189.49583435058594
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46463
+                },
+                "drum_distance_xz": 10.048194759793986
+              }
+            ]
+          },
+          {
+            "angle_degrees": 1.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 389,
+            "minimum_radial_clearance": -3.5090813129052663,
+            "penetrating_samples": 3,
+            "contact_samples": [
+              {
+                "point": [
+                  -97.08493002020882,
+                  1.3807907104492188,
+                  194.89212866179415
+                ],
+                "hull": {
+                  "position": [
+                    -100.59401133311408,
+                    1.3807907104492188,
+                    194.89212866179415
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46460
+                },
+                "drum_distance_xz": 10.668712138938965
+              },
+              {
+                "point": [
+                  -99.39703050007762,
+                  -1.6790144443511963,
+                  187.9739529525404
+                ],
+                "hull": {
+                  "position": [
+                    -102.4042710314065,
+                    -1.6790144443511963,
+                    187.9739529525404
+                  ],
+                  "normal": [
+                    -0.8815792202949524,
+                    0.0,
+                    0.47203606367111206
+                  ],
+                  "node": 38,
+                  "triangle": 36667
+                },
+                "drum_distance_xz": 10.967118818708064
+              },
+              {
+                "point": [
+                  -99.49594741840582,
+                  -1.3809635639190674,
+                  189.3508737437193
+                ],
+                "hull": {
+                  "position": [
+                    -101.73722692727077,
+                    -1.3809635639190674,
+                    189.3508737437193
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46463
+                },
+                "drum_distance_xz": 10.048194759793986
+              }
+            ]
+          },
+          {
+            "angle_degrees": 2.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 389,
+            "minimum_radial_clearance": -3.5426094583085046,
+            "penetrating_samples": 3,
+            "contact_samples": [
+              {
+                "point": [
+                  -97.08980397971098,
+                  1.3807907104492188,
+                  194.70599067193527
+                ],
+                "hull": {
+                  "position": [
+                    -100.63241343801948,
+                    1.3807907104492188,
+                    194.70599067193527
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46460
+                },
+                "drum_distance_xz": 10.668712138938968
+              },
+              {
+                "point": [
+                  -99.52229112976023,
+                  -1.6790144443511963,
+                  187.82922035164947
+                ],
+                "hull": {
+                  "position": [
+                    -102.48176719300008,
+                    -1.6790144443511963,
+                    187.82922035164947
+                  ],
+                  "normal": [
+                    -0.8815792202949524,
+                    0.0,
+                    0.47203606367111206
+                  ],
+                  "node": 38,
+                  "triangle": 36667
+                },
+                "drum_distance_xz": 10.96711881870806
+              },
+              {
+                "point": [
+                  -99.59716240128306,
+                  -1.3809635639190674,
+                  189.20765776938478
+                ],
+                "hull": {
+                  "position": [
+                    -101.76677379663744,
+                    -1.3809635639190674,
+                    189.20765776938478
+                  ],
+                  "normal": [
+                    -0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 48,
+                  "triangle": 46463
+                },
+                "drum_distance_xz": 10.048194759793983
+              }
+            ]
+          }
+        ],
+        "source_side": "negative_X"
+      },
+      "runtime": "NOT RUN; narrow yaw only, pitch disabled"
+    },
+    {
+      "index": 17,
+      "kind": "rail",
+      "mount": {
+        "weapon": "expanse10_donnager_rail_1",
+        "mesh_point": "child.expanse10_donnager_rail_1",
+        "weapon_position": [
+          107.75210327909191,
+          1.7095884563771384e-05,
+          195.0783098869338
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -2.0,
+          "max_angle": 2.0
+        },
+        "pitch_arc": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        }
+      },
+      "basis_columns": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_pivot_hull": [
+        107.75210327909191,
+        1.7095884563771384e-05,
+        195.0783098869338
+      ],
+      "pitch_pivot_hull": [
+        107.75210327909191,
+        1.7095884563771384e-05,
+        195.0783098869338
+      ],
+      "muzzle_hull": [
+        108.289306640625,
+        1.0251998901367188e-05,
+        343.1825866699219
+      ],
+      "turret_override": {
+        "type": "gimbal",
+        "gimbal_mesh": "expanse11_donnager_rail_1",
+        "muzzle_positions": [
+          [
+            0.5372033615330878,
+            -6.843885662404196e-06,
+            148.10427678298808
+          ]
+        ]
+      },
+      "skin_alias_map": [
+        {
+          "mesh_alias_name": "expanse11_donnager_rail_1",
+          "mesh_definition": {
+            "mesh": "expanse11_donnager_rail_1",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ],
+      "measurement": {
+        "index": 1,
+        "pivot": [
+          107.75210327909191,
+          1.7095884563771384e-05,
+          195.0783098869338
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "muzzle": [
+          108.289306640625,
+          1.0251998901367188e-05,
+          343.1825866699219
+        ],
+        "muzzle_method": "Terminal forward source rail structure bounds center; front cap bore inspection pending",
+        "supports": [
+          {
+            "hull_contact": {
+              "position": [
+                77.53001649211188,
+                -20.0,
+                195.0783098869338
+              ],
+              "normal": [
+                0.9999867081642151,
+                -0.005164385307580233,
+                2.36139712228578e-07
+              ],
+              "node": 63,
+              "triangle": 57015
+            },
+            "end": [
+              107.75210327909191,
+              -20.0,
+              195.0783098869338
+            ],
+            "thickness": 2.5
+          },
+          {
+            "hull_contact": {
+              "position": [
+                77.52568867857792,
+                20.0,
+                195.0783098869338
+              ],
+              "normal": [
+                0.9999983310699463,
+                0.0017953577917069197,
+                2.3492182776863046e-07
+              ],
+              "node": 63,
+              "triangle": 56978
+            },
+            "end": [
+              107.75210327909191,
+              20.0,
+              195.0783098869338
+            ],
+            "thickness": 2.5
+          }
+        ],
+        "sweep": [
+          {
+            "angle_degrees": -2.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 392,
+            "minimum_radial_clearance": -3.6926065386228544,
+            "penetrating_samples": 5,
+            "contact_samples": [
+              {
+                "point": [
+                  98.04064276519568,
+                  1.3808836936950684,
+                  197.65779397290677
+                ],
+                "hull": {
+                  "position": [
+                    100.68374334957753,
+                    1.3808836936950684,
+                    197.65779397290677
+                  ],
+                  "normal": [
+                    0.9948691129684448,
+                    6.132313501439057e-07,
+                    -0.1011708602309227
+                  ],
+                  "node": 38,
+                  "triangle": 36582
+                },
+                "drum_distance_xz": 10.048194039863752
+              },
+              {
+                "point": [
+                  100.21194728314597,
+                  1.3808844089508057,
+                  188.43661805698065
+                ],
+                "hull": {
+                  "position": [
+                    102.15647313934022,
+                    1.3808844089508057,
+                    188.43661805698065
+                  ],
+                  "normal": [
+                    0.881578266620636,
+                    0.0,
+                    0.4720379114151001
+                  ],
+                  "node": 38,
+                  "triangle": 36585
+                },
+                "drum_distance_xz": 10.048185050409145
+              },
+              {
+                "point": [
+                  99.59726157524852,
+                  -1.380868911743164,
+                  189.20765823706785
+                ],
+                "hull": {
+                  "position": [
+                    101.76670503559905,
+                    -1.380868911743164,
+                    189.20765823706785
+                  ],
+                  "normal": [
+                    0.9793742299079895,
+                    0.0,
+                    0.20205457508563995
+                  ],
+                  "node": 49,
+                  "triangle": 47041
+                },
+                "drum_distance_xz": 10.048183617391608
+              },
+              {
+                "point": [
+                  97.07487589760429,
+                  -6.424325466156006,
+                  196.81721116816615
+                ],
+                "hull": {
+                  "position": [
+                    97.3426388054909,
+                    -6.424325466156006,
+                    196.81721116816615
+                  ],
+                  "normal": [
+                    0.24463073909282684,
+                    0.9696162939071655,
+                    3.0777050596952904e-07
+                  ],
+                  "node": 49,
+                  "triangle": 46655
+                },
+                "drum_distance_xz": 10.81790008374364
+              },
+              {
+                "point": [
+                  97.36741195514112,
+                  -1.3808701038360596,
+                  192.63302288000656
+                ],
+                "hull": {
+                  "position": [
+                    101.06001849376398,
+                    -1.3808701038360596,
+                    192.63302288000656
+                  ],
+                  "normal": [
+                    0.9793742895126343,
+                    0.0,
+                    0.20205458998680115
+                  ],
+                  "node": 49,
+                  "triangle": 46651
+                },
+                "drum_distance_xz": 10.66870387816561
+              }
+            ]
+          },
+          {
+            "angle_degrees": -1.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 392,
+            "minimum_radial_clearance": -3.696233048301849,
+            "penetrating_samples": 5,
+            "contact_samples": [
+              {
+                "point": [
+                  98.08714007233738,
+                  1.3808836936950684,
+                  197.82688946097463
+                ],
+                "hull": {
+                  "position": [
+                    100.70093911579329,
+                    1.3808836936950684,
+                    197.82688946097463
+                  ],
+                  "normal": [
+                    0.9948691129684448,
+                    6.132313501439057e-07,
+                    -0.1011708602309227
+                  ],
+                  "node": 38,
+                  "triangle": 36582
+                },
+                "drum_distance_xz": 10.04819403986375
+              },
+              {
+                "point": [
+                  100.0971821801782,
+                  1.3808844089508057,
+                  188.5692234858579
+                ],
+                "hull": {
+                  "position": [
+                    102.08547003725516,
+                    1.3808844089508057,
+                    188.5692234858579
+                  ],
+                  "normal": [
+                    0.881578266620636,
+                    0.0,
+                    0.4720379114151001
+                  ],
+                  "node": 38,
+                  "triangle": 36585
+                },
+                "drum_distance_xz": 10.048185050409138
+              },
+              {
+                "point": [
+                  99.49604659849372,
+                  -1.380868911743164,
+                  189.35087397759645
+                ],
+                "hull": {
+                  "position": [
+                    101.73715821446888,
+                    -1.380868911743164,
+                    189.35087397759645
+                  ],
+                  "normal": [
+                    0.9793742895126343,
+                    0.0,
+                    0.20205458998680115
+                  ],
+                  "node": 49,
+                  "triangle": 46651
+                },
+                "drum_distance_xz": 10.0481836173916
+              },
+              {
+                "point": [
+                  97.10685010296518,
+                  -6.424325466156006,
+                  197.00328963696347
+                ],
+                "hull": {
+                  "position": [
+                    98.386758451617,
+                    -6.424325466156006,
+                    197.00328963696347
+                  ],
+                  "normal": [
+                    0.09009994566440582,
+                    -0.0,
+                    -0.9959327578544617
+                  ],
+                  "node": 49,
+                  "triangle": 47044
+                },
+                "drum_distance_xz": 10.817900083743634
+              },
+              {
+                "point": [
+                  97.32631745122845,
+                  -1.3808701038360596,
+                  192.81463316277305
+                ],
+                "hull": {
+                  "position": [
+                    101.0225504995303,
+                    -1.3808701038360596,
+                    192.81463316277305
+                  ],
+                  "normal": [
+                    0.9793742895126343,
+                    0.0,
+                    0.20205458998680115
+                  ],
+                  "node": 49,
+                  "triangle": 46651
+                },
+                "drum_distance_xz": 10.668703878165603
+              }
+            ]
+          },
+          {
+            "angle_degrees": 0.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 393,
+            "minimum_radial_clearance": -3.696541504153231,
+            "penetrating_samples": 4,
+            "contact_samples": [
+              {
+                "point": [
+                  98.13658142089844,
+                  1.3808836936950684,
+                  197.99514770507812
+                ],
+                "hull": {
+                  "position": [
+                    100.71804974046185,
+                    1.3808836936950684,
+                    197.99514770507812
+                  ],
+                  "normal": [
+                    0.9948691129684448,
+                    6.132313501439057e-07,
+                    -0.1011708602309227
+                  ],
+                  "node": 38,
+                  "triangle": 36582
+                },
+                "drum_distance_xz": 10.048194039863754
+              },
+              {
+                "point": [
+                  99.98474884033203,
+                  1.3808844089508057,
+                  188.7038116455078
+                ],
+                "hull": {
+                  "position": [
+                    102.01340528907727,
+                    1.3808844089508057,
+                    188.7038116455078
+                  ],
+                  "normal": [
+                    0.881578266620636,
+                    0.0,
+                    0.4720379114151001
+                  ],
+                  "node": 38,
+                  "triangle": 36585
+                },
+                "drum_distance_xz": 10.048185050409142
+              },
+              {
+                "point": [
+                  99.39734649658203,
+                  -1.380868911743164,
+                  189.49583435058594
+                ],
+                "hull": {
+                  "position": [
+                    101.7072514584386,
+                    -1.380868911743164,
+                    189.49583435058594
+                  ],
+                  "normal": [
+                    0.9793742895126343,
+                    0.0,
+                    0.20205458998680115
+                  ],
+                  "node": 49,
+                  "triangle": 46651
+                },
+                "drum_distance_xz": 10.048183617391611
+              },
+              {
+                "point": [
+                  97.28839874267578,
+                  -1.3808701038360596,
+                  192.99693298339844
+                ],
+                "hull": {
+                  "position": [
+                    100.98494024682901,
+                    -1.3808701038360596,
+                    192.99693298339844
+                  ],
+                  "normal": [
+                    0.9793742895126343,
+                    0.0,
+                    0.20205458998680115
+                  ],
+                  "node": 49,
+                  "triangle": 46651
+                },
+                "drum_distance_xz": 10.66870387816561
+              }
+            ]
+          },
+          {
+            "angle_degrees": 1.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 393,
+            "minimum_radial_clearance": -3.6935318122183958,
+            "penetrating_samples": 4,
+            "contact_samples": [
+              {
+                "point": [
+                  98.18895175056517,
+                  1.3808836936950684,
+                  198.16251745212617
+                ],
+                "hull": {
+                  "position": [
+                    100.7350700115212,
+                    1.3808836936950684,
+                    198.16251745212617
+                  ],
+                  "normal": [
+                    0.9948691129684448,
+                    6.132313501439057e-07,
+                    -0.1011708602309227
+                  ],
+                  "node": 38,
+                  "triangle": 36582
+                },
+                "drum_distance_xz": 10.048194039863745
+              },
+              {
+                "point": [
+                  99.87468151189196,
+                  1.3808844089508057,
+                  188.84034153907322
+                ],
+                "hull": {
+                  "position": [
+                    101.94030084642688,
+                    1.3808844089508057,
+                    188.84034153907322
+                  ],
+                  "normal": [
+                    0.881578266620636,
+                    0.0,
+                    0.4720379114151001
+                  ],
+                  "node": 38,
+                  "triangle": 36585
+                },
+                "drum_distance_xz": 10.048185050409149
+              },
+              {
+                "point": [
+                  99.30119133452064,
+                  -1.380868911743164,
+                  189.64249519970247
+                ],
+                "hull": {
+                  "position": [
+                    101.67699387739583,
+                    -1.380868911743164,
+                    189.64249519970247
+                  ],
+                  "normal": [
+                    0.9793742895126343,
+                    0.0,
+                    0.20205458998680115
+                  ],
+                  "node": 49,
+                  "triangle": 46651
+                },
+                "drum_distance_xz": 10.048183617391617
+              },
+              {
+                "point": [
+                  97.2536673798891,
+                  -1.3808701038360596,
+                  193.1798668115914
+                ],
+                "hull": {
+                  "position": [
+                    100.94719919210749,
+                    -1.3808701038360596,
+                    193.1798668115914
+                  ],
+                  "normal": [
+                    0.9793742895126343,
+                    0.0,
+                    0.20205458998680115
+                  ],
+                  "node": 49,
+                  "triangle": 46651
+                },
+                "drum_distance_xz": 10.66870387816561
+              }
+            ]
+          },
+          {
+            "angle_degrees": 2.0,
+            "sampled_vertices": 400,
+            "hull_surface_hits": 393,
+            "minimum_radial_clearance": -3.6872048892786182,
+            "penetrating_samples": 4,
+            "contact_samples": [
+              {
+                "point": [
+                  98.24423510882781,
+                  1.3808836936950684,
+                  198.32894771967247
+                ],
+                "hull": {
+                  "position": [
+                    100.7519947444319,
+                    1.3808836936950684,
+                    198.32894771967247
+                  ],
+                  "normal": [
+                    0.9948691129684448,
+                    6.132313501439057e-07,
+                    -0.1011708602309227
+                  ],
+                  "node": 38,
+                  "triangle": 36582
+                },
+                "drum_distance_xz": 10.048194039863745
+              },
+              {
+                "point": [
+                  99.76701372243248,
+                  1.3808844089508057,
+                  188.97877157822597
+                ],
+                "hull": {
+                  "position": [
+                    101.86617897762542,
+                    1.3808844089508057,
+                    188.97877157822597
+                  ],
+                  "normal": [
+                    0.881578266620636,
+                    0.0,
+                    0.4720379114151001
+                  ],
+                  "node": 38,
+                  "triangle": 36585
+                },
+                "drum_distance_xz": 10.048185050409142
+              },
+              {
+                "point": [
+                  99.2076104021034,
+                  -1.380868911743164,
+                  189.79081185063063
+                ],
+                "hull": {
+                  "position": [
+                    101.64639468809287,
+                    -1.380868911743164,
+                    189.79081185063063
+                  ],
+                  "normal": [
+                    0.9793742895126343,
+                    0.0,
+                    0.20205458998680115
+                  ],
+                  "node": 49,
+                  "triangle": 46651
+                },
+                "drum_distance_xz": 10.048183617391615
+              },
+              {
+                "point": [
+                  97.22213394237794,
+                  -1.3808701038360596,
+                  193.36337892393576
+                ],
+                "hull": {
+                  "position": [
+                    100.90933883165656,
+                    -1.3808701038360596,
+                    193.36337892393576
+                  ],
+                  "normal": [
+                    0.9793742895126343,
+                    0.0,
+                    0.20205458998680115
+                  ],
+                  "node": 49,
+                  "triangle": 46651
+                },
+                "drum_distance_xz": 10.66870387816561
+              }
+            ]
+          }
+        ],
+        "source_side": "positive_X"
+      },
+      "runtime": "NOT RUN; narrow yaw only, pitch disabled"
+    }
+  ],
+  "ship_spatial": {
+    "box": {
+      "center": [
+        -0.02172088623046875,
+        -7.62939453125e-06,
+        0.0
+      ],
+      "extents": [
+        206.57494354248047,
+        206.55329132080078,
+        542.622802734375
+      ]
+    },
+    "radius": 574.4864238020813,
+    "bounds_min": [
+      -206.59666442871094,
+      -206.5532989501953,
+      -542.622802734375
+    ],
+    "bounds_max": [
+      206.55322265625,
+      206.55328369140625,
+      542.622802734375
+    ]
+  },
+  "spatial": {
+    "box": {
+      "center": [
+        -0.02172088623046875,
+        -7.62939453125e-06,
+        0.0
+      ],
+      "extents": [
+        206.57494354248047,
+        206.55329132080078,
+        542.622802734375
+      ]
+    },
+    "radius": 574.4864238020813,
+    "bounds_min": [
+      -206.59666442871094,
+      -206.5532989501953,
+      -542.622802734375
+    ],
+    "bounds_max": [
+      206.55322265625,
+      206.55328369140625,
+      542.622802734375
+    ]
+  },
+  "equipment": {
+    "railguns": [
+      {
+        "position": [
+          -108.28919982910156,
+          -8.940696716308594e-05,
+          343.1825866699219
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "position": [
+          108.289306640625,
+          1.0251998901367188e-05,
+          343.1825866699219
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ]
+      }
+    ],
+    "exhausts": [
+      {
+        "position": [
+          -101.73932397162989,
+          -101.73925948958166,
+          -523.1683832943163
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source": "Full actual source blue-emission nozzle surface bounds; four disjoint XY quadrants",
+        "source_node": 30,
+        "surface_bounds": [
+          [
+            -131.64693817813034,
+            -131.6468627685272,
+            -523.0683832943163
+          ],
+          [
+            -71.83170976512943,
+            -71.83165621063611,
+            -500.7294352192703
+          ]
+        ]
+      },
+      {
+        "position": [
+          -101.73932943540537,
+          101.73921645402316,
+          -523.1684267516341
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source": "Full actual source blue-emission nozzle surface bounds; four disjoint XY quadrants",
+        "source_node": 30,
+        "surface_bounds": [
+          [
+            -131.64691632302845,
+            71.83161863884598,
+            -523.0684267516341
+          ],
+          [
+            -71.83174254778228,
+            131.64681426920035,
+            -500.7294740049211
+          ]
+        ]
+      },
+      {
+        "position": [
+          101.73940740348117,
+          -101.7392676852422,
+          -523.1683723667676
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source": "Full actual source blue-emission nozzle surface bounds; four disjoint XY quadrants",
+        "source_node": 30,
+        "surface_bounds": [
+          [
+            71.83180822236326,
+            -131.64686823230002,
+            -523.0683723667676
+          ],
+          [
+            131.64700658459907,
+            -71.83166713818437,
+            -500.7294135302001
+          ]
+        ]
+      },
+      {
+        "position": [
+          101.7393923780986,
+          101.73920006269941,
+          -523.1684031203171
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "source": "Full actual source blue-emission nozzle surface bounds; four disjoint XY quadrants",
+        "source_node": 30,
+        "surface_bounds": [
+          [
+            71.83179183103684,
+            71.83160771129768,
+            -523.068403120317
+          ],
+          [
+            131.64699292516036,
+            131.64679241410113,
+            -500.7294576135911
+          ]
+        ]
+      }
+    ],
+    "exhaust": {
+      "position": [
+        -101.73932397162989,
+        -101.73925948958166,
+        -523.1683832943163
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source": "Full actual source blue-emission nozzle surface bounds; four disjoint XY quadrants",
+      "source_node": 30,
+      "surface_bounds": [
+        [
+          -131.64693817813034,
+          -131.6468627685272,
+          -523.0683832943163
+        ],
+        [
+          -71.83170976512943,
+          -71.83165621063611,
+          -500.7294352192703
+        ]
+      ]
+    },
+    "light_torpedo_ports": [
+      {
+        "position": [
+          -18.0,
+          0.0,
+          295.0293212890625
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "custom_collar": {
+          "center": [
+            -18.0,
+            0.0,
+            294.9293212890625
+          ],
+          "start_z": 291.6293212890625,
+          "end_z": 294.9293212890625,
+          "outer_radius": 2.4,
+          "inner_radius": 1.8,
+          "support_sample_z": [
+            291.9293212890625,
+            291.9293212890625,
+            291.9293212890625,
+            291.9293212890625,
+            291.9293212890625
+          ]
+        },
+        "classification": "New short prototype light tube on measured bow surface, not claimed canonical source aperture"
+      },
+      {
+        "position": [
+          18.0,
+          0.0,
+          295.0293212890625
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "custom_collar": {
+          "center": [
+            18.0,
+            0.0,
+            294.9293212890625
+          ],
+          "start_z": 291.6293212890625,
+          "end_z": 294.9293212890625,
+          "outer_radius": 2.4,
+          "inner_radius": 1.8,
+          "support_sample_z": [
+            291.9293212890625,
+            291.9293212890625,
+            291.9293212890625,
+            291.9293212890625,
+            291.9293212890625
+          ]
+        },
+        "classification": "New short prototype light tube on measured bow surface, not claimed canonical source aperture"
+      }
+    ],
+    "heavy_torpedo_ports": [
+      {
+        "position": [
+          -66.12392841321115,
+          -10.020387178158451,
+          -442.44306932205166
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "source_component": {
+          "node": 60,
+          "component": 0,
+          "triangles": 30,
+          "min": [
+            -75.58491230010986,
+            28.338598582562042,
+            -207.73070356552086
+          ],
+          "max": [
+            -68.68513822555542,
+            35.238366696651916,
+            -207.73070244140592
+          ],
+          "center": [
+            -72.13502526283264,
+            31.78848263960698,
+            -207.7307030034634
+          ],
+          "dimensions": [
+            6.899774074554443,
+            6.8997681140898734,
+            1.1241149309171306e-06
+          ],
+          "area_normal": [
+            1.9254629204816744e-17,
+            -1.6292067895440361e-07,
+            -0.9999999999999868
+          ]
+        },
+        "outward_axis_first_surface": -442.2430725097656,
+        "axis_clearance": -0.19999681228603094,
+        "classification": "Measured actual aft circular dark aperture, assigned heavy launcher for prototype; source weapon label absent"
+      },
+      {
+        "position": [
+          -66.12392841321115,
+          10.020328073790438,
+          -442.44307258709864
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "source_component": {
+          "node": 60,
+          "component": 1,
+          "triangles": 30,
+          "min": [
+            -75.58491230010986,
+            50.20113078099086,
+            -207.73070712737967
+          ],
+          "max": [
+            -68.68513822555542,
+            57.10090038519685,
+            -207.73070600326452
+          ],
+          "center": [
+            -72.13502526283264,
+            53.65101558309385,
+            -207.7307065653221
+          ],
+          "dimensions": [
+            6.899774074554443,
+            6.899769604205993,
+            1.124115158290806e-06
+          ],
+          "area_normal": [
+            -6.299079478105866e-18,
+            -1.6292067990704153e-07,
+            -0.9999999999999868
+          ]
+        },
+        "outward_axis_first_surface": -442.2430725097656,
+        "axis_clearance": -0.20000007733301572,
+        "classification": "Measured actual aft circular dark aperture, assigned heavy launcher for prototype; source weapon label absent"
+      },
+      {
+        "position": [
+          66.12405790468969,
+          -10.02040288650939,
+          -442.44304746694723
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "source_component": {
+          "node": 60,
+          "component": 78,
+          "triangles": 30,
+          "min": [
+            68.68518590927124,
+            28.338580701172493,
+            -207.73067972366027
+          ],
+          "max": [
+            75.58495998382568,
+            35.23835030537849,
+            -207.73067859954512
+          ],
+          "center": [
+            72.13507294654846,
+            31.78846550327549,
+            -207.7306791616027
+          ],
+          "dimensions": [
+            6.899774074554443,
+            6.899769604205996,
+            1.124115158290806e-06
+          ],
+          "area_normal": [
+            -6.299079478078685e-18,
+            -1.629206799070415e-07,
+            -0.9999999999999868
+          ]
+        },
+        "outward_axis_first_surface": -442.2430419921875,
+        "axis_clearance": -0.20000547475973462,
+        "classification": "Measured actual aft circular dark aperture, assigned heavy launcher for prototype; source weapon label absent"
+      },
+      {
+        "position": [
+          66.12405790468969,
+          10.020312365439512,
+          -442.4430507319941
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "source_component": {
+          "node": 60,
+          "component": 79,
+          "triangles": 30,
+          "min": [
+            68.68518590927124,
+            50.20111438971743,
+            -207.73068328551886
+          ],
+          "max": [
+            75.58495998382568,
+            57.100882503807306,
+            -207.73068216140393
+          ],
+          "center": [
+            72.13507294654846,
+            53.65099844676237,
+            -207.7306827234614
+          ],
+          "dimensions": [
+            6.899774074554443,
+            6.8997681140898734,
+            1.1241149309171306e-06
+          ],
+          "area_normal": [
+            1.9254629204805873e-17,
+            -1.6292067895440361e-07,
+            -0.9999999999999866
+          ]
+        },
+        "outward_axis_first_surface": -442.2430419921875,
+        "axis_clearance": -0.20000873980660572,
+        "classification": "Measured actual aft circular dark aperture, assigned heavy launcher for prototype; source weapon label absent"
+      }
+    ],
+    "hangar": {
+      "position": [
+        6.474573926723589e-05,
+        -3.772802129520568e-05,
+        -508.2420349121094
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "mouth_position": [
+        6.474573926723589e-05,
+        -3.772802129520568e-05,
+        -448.3420349121094
+      ],
+      "source_hatch": {
+        "node": 65,
+        "component": 0,
+        "triangles": 4016,
+        "min": [
+          -49.51210916042328,
+          -6.792393303149481,
+          -220.30634654423858
+        ],
+        "max": [
+          49.5121568441391,
+          92.23187368771332,
+          -206.85756307882775
+        ],
+        "center": [
+          2.384185791015625e-05,
+          42.71974019228192,
+          -213.58195481153317
+        ],
+        "dimensions": [
+          99.02426600456238,
+          99.0242669908628,
+          13.448783465410827
+        ],
+        "area_normal": [
+          3.272499762597454e-07,
+          -1.6292072073937683e-07,
+          -0.9999999999999332
+        ]
+      },
+      "clearance_from_static_hatch": 60.0,
+      "classification": "Actual central aft99-source-unit hatch reference; corvette spawn outside closed static hatch, no door animation or open passage claimed"
+    }
+  },
+  "meshes": [
+    {
+      "id": "expanse11_donnager_hull",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse11_donnager_hull.mesh",
+      "sha256": "090212896b36e566e924fa866e081516d1064d622cad2ac8fb2457eb3f8fcd27",
+      "triangles": 166141,
+      "materials": [
+        "expanse11_donnager_hull_expanse11_donnager_mat_0",
+        "expanse11_donnager_hull_expanse11_donnager_mat_1",
+        "expanse11_donnager_hull_expanse11_donnager_mat_10",
+        "expanse11_donnager_hull_expanse11_donnager_mat_2",
+        "expanse11_donnager_hull_expanse11_donnager_mat_3",
+        "expanse11_donnager_hull_expanse11_donnager_mat_4",
+        "expanse11_donnager_hull_expanse11_donnager_mat_5",
+        "expanse11_donnager_hull_expanse11_donnager_mat_6",
+        "expanse11_donnager_hull_expanse11_donnager_mat_7",
+        "expanse11_donnager_hull_expanse11_donnager_mat_8",
+        "expanse11_donnager_hull_expanse11_donnager_mat_9"
+      ]
+    },
+    {
+      "id": "expanse10_donnager_pdc_base",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse10_donnager_pdc_base.mesh",
+      "sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "triangles": 138,
+      "materials": [
+        "expanse10_donnager_pdc_base_mcrn_tachi_material"
+      ]
+    },
+    {
+      "id": "expanse10_donnager_pdc_barrel",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse10_donnager_pdc_barrel.mesh",
+      "sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "triangles": 539,
+      "materials": [
+        "expanse10_donnager_pdc_barrel_mcrn_tachi_material"
+      ]
+    },
+    {
+      "id": "expanse11_donnager_rail_0",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse11_donnager_rail_0.mesh",
+      "sha256": "0b50f109a0e87d4e14f3d99f565c66f5b1fda88830311bd04f7c001dcc62e988",
+      "triangles": 8519,
+      "materials": [
+        "expanse11_donnager_rail_0_expanse11_donnager_mat_0",
+        "expanse11_donnager_rail_0_expanse11_donnager_mat_1"
+      ]
+    },
+    {
+      "id": "expanse11_donnager_rail_1",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/meshes/expanse11_donnager_rail_1.mesh",
+      "sha256": "f820857cc8e2b90b84f766c66a63a44bfe6bef2e69e75ed97ca46d2051db525a",
+      "triangles": 8804,
+      "materials": [
+        "expanse11_donnager_rail_1_expanse11_donnager_mat_0",
+        "expanse11_donnager_rail_1_expanse11_donnager_mat_1"
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "expanse10_donnager_pdc_barrel_mcrn_tachi_material",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1"
+    },
+    {
+      "id": "expanse10_donnager_pdc_base_mcrn_tachi_material",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_0",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_0.mesh_material",
+      "sha256": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_1",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_1.mesh_material",
+      "sha256": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_10",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_10.mesh_material",
+      "sha256": "bb84e2eb88911869879b5b222beee85100f47a01747f192feefb04f590ddefe6"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_2",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_2.mesh_material",
+      "sha256": "bb9adcae82cfca26adfbbf09a69de651dae17ea8e4037280b54efdadb831068b"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_3",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_3.mesh_material",
+      "sha256": "b58371dd11dd222f1ac9ff3981d3028ba5d8a8f1f1fbd08dfdb497ac5ea69bef"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_4",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_4.mesh_material",
+      "sha256": "b4e58953b2cf714e03a310c3e139d0923e4c6cb4c3ed2783515fbc244464c144"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_5",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_5.mesh_material",
+      "sha256": "bff43d164ff974cb07d40d6b97679c3bc962b3996e9ceb3254c3b66ac24c98ad"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_6",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_6.mesh_material",
+      "sha256": "7a471a3541042550bac406c6210cd2021e6d7981f3cef4c7324e3dcfba8f01ae"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_7",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_7.mesh_material",
+      "sha256": "2d872832574c61c995d288f6639847f3c8dce11648bd553cd76ecad361607920"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_8",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_8.mesh_material",
+      "sha256": "df2f44896bdde0c53f54244901c262f97f677949d4f58f6665532de7960d6de8"
+    },
+    {
+      "id": "expanse11_donnager_hull_expanse11_donnager_mat_9",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_hull_expanse11_donnager_mat_9.mesh_material",
+      "sha256": "02dc4e22a6667a4e812d599659455dc767646b608c36a5f09f0dcba088df090c"
+    },
+    {
+      "id": "expanse11_donnager_rail_0_expanse11_donnager_mat_0",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_rail_0_expanse11_donnager_mat_0.mesh_material",
+      "sha256": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be"
+    },
+    {
+      "id": "expanse11_donnager_rail_0_expanse11_donnager_mat_1",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_rail_0_expanse11_donnager_mat_1.mesh_material",
+      "sha256": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3"
+    },
+    {
+      "id": "expanse11_donnager_rail_1_expanse11_donnager_mat_0",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_rail_1_expanse11_donnager_mat_0.mesh_material",
+      "sha256": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be"
+    },
+    {
+      "id": "expanse11_donnager_rail_1_expanse11_donnager_mat_1",
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/mesh_materials/expanse11_donnager_rail_1_expanse11_donnager_mat_1.mesh_material",
+      "sha256": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3"
+    }
+  ],
+  "textures": [
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_atlas_0_clr.dds",
+      "sha256": "bb0c96cde92ae9b8d035dcf669a322e16c2335bae65baa33174b7fac36f337fa",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_atlas_1_clr.dds",
+      "sha256": "a6fb127d0dc4473b7c30ffb5232b85242e7decd87cc57978318e52553a7b5155",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_dark_msk.dds",
+      "sha256": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_emissive_msk.dds",
+      "sha256": "b52ceb025e271faa6ff2277bfd212b8e11a27bd63fb543e6aa58eeb4894492ef",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_flat_nrm.dds",
+      "sha256": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 84
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_0_orm.dds",
+      "sha256": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_10_clr.dds",
+      "sha256": "961b6b6c1b135de312360a4790d913731d052af38ef39d66ce7801c53eedc03e",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_10_orm.dds",
+      "sha256": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_1_orm.dds",
+      "sha256": "080230e03ab0d15777c3a7842b0a5a736075a2c593798b069b3e2769a16cc10a",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_2_orm.dds",
+      "sha256": "67a1cce7e6e1e003b7db32b3f4c08a3bdb80b4389b1f1717f6364e5cc678a90f",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_3_clr.dds",
+      "sha256": "0b59307be618db5280285ccc81eab82bf94003aee8c06bf1f189ca8605b913d5",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_3_orm.dds",
+      "sha256": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_4_clr.dds",
+      "sha256": "6f7d1d9ebc19f2c64c3e8c5bc08d32ee55cd1b0a2f87b750057efa844cd695df",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_4_orm.dds",
+      "sha256": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_5_clr.dds",
+      "sha256": "44fd6f8fd403eece7da85970a10d21881cf15a01d92d4cb7ce6d98d887e9d172",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_5_orm.dds",
+      "sha256": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_6_orm.dds",
+      "sha256": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_7_clr.dds",
+      "sha256": "f432b6d411cc4409e891445d76aa5ecfa0b84423d3711244f04a45a757ec6a1e",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_7_orm.dds",
+      "sha256": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_8_clr.dds",
+      "sha256": "44fd6f8fd403eece7da85970a10d21881cf15a01d92d4cb7ce6d98d887e9d172",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_8_orm.dds",
+      "sha256": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_9_clr.dds",
+      "sha256": "43e715e7ce37f2681ac3ff10dbc78b0bb33a31151196d943b20fd62e3d455c8b",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/expanse10_donnager_mat_9_orm.dds",
+      "sha256": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "dimensions": [
+        16,
+        16
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/mcrn_tachi_material_clr.dds",
+      "sha256": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/mcrn_tachi_material_msk.dds",
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "dimensions": [
+        4,
+        4
+      ],
+      "dxgi_format": 98
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/mcrn_tachi_material_nrm.dds",
+      "sha256": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "dxgi_format": 84
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/update11-b/game/textures/mcrn_tachi_material_orm.dds",
+      "sha256": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+      "dimensions": [
+        2048,
+        2048
+      ],
+      "dxgi_format": 98
+    }
+  ],
+  "unique_mesh_triangles": 184141,
+  "assembled_triangle_count": 194296,
+  "pdc_count": 16,
+  "railgun_count": 2,
+  "count_is_prototype_not_canonical": true,
+  "rail_yaw_speed_override": 15.0,
+  "normalization": {
+    "scale": 0.9166694135465797,
+    "source_world_center": [
+      -4.6789646e-05,
+      42.71978135,
+      274.714836017
+    ],
+    "source_to_game_rotation": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "target_center": [
+      0,
+      0,
+      0
+    ],
+    "provisional_meters": [
+      475.5,
+      46
+    ]
+  },
+  "source_hashes": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c/master/scene.gltf": "a6cce51398991f0f720317123f51ce47bdf87d7e9fd864ac5e9803487eb1e818",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c/master/license.txt": "4e8aecd09ba158cea886cbf6f046166c0c2a55727664cb8ecd943edeaea28f99",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c/master/scene.bin": "80c2f1d178a95cc889457daf9ce8f152deba3877f8bc97fd3da94da55f106eee",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c/master/textures/GreyHull_baseColor.jpeg": "d66989a5d80424ac292282df12a0208b5ce535a90fc65628c397dbb61374b70a",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c/master/textures/OrangeHull_baseColor.jpeg": "0f83b3aa6e7549b5b1bfddee8b91b78a3f0849421db559b3e611fd7a27a8015e"
+  },
+  "editable": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/update11-b/update11_donnager_editable.gltf",
+  "editable_compiler_z_reflected": false,
+  "compiler_input_z_reflected": true,
+  "meshpoints": [
+    {
+      "name": "center",
+      "position": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "above",
+      "position": [
+        0.0,
+        215.0,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "aura",
+      "position": [
+        0.0,
+        -215.0,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_0",
+      "position": [
+        100.49077606201172,
+        0.0,
+        -370.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        -0.9999999403953552,
+        0.0,
+        0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_1",
+      "position": [
+        0.0,
+        100.11564636230469,
+        -370.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_2",
+      "position": [
+        -100.49066925048828,
+        0.0,
+        -370.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        0.9999999403953552,
+        0.0,
+        -0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_3",
+      "position": [
+        0.0,
+        -100.4907455444336,
+        -370.0
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_4",
+      "position": [
+        78.9344253540039,
+        0.0,
+        -150.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        -0.9999999403953552,
+        0.0,
+        0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_5",
+      "position": [
+        0.0,
+        79.01118469238281,
+        -150.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_6",
+      "position": [
+        -77.9618148803711,
+        0.0,
+        -150.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        0.9999999403953552,
+        0.0,
+        -0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_7",
+      "position": [
+        0.0,
+        -79.01116943359375,
+        -150.0
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_8",
+      "position": [
+        59.759342193603516,
+        0.0,
+        50.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        -0.9999999403953552,
+        0.0,
+        0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_9",
+      "position": [
+        0.0,
+        59.7593994140625,
+        50.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_10",
+      "position": [
+        -59.75937271118164,
+        0.0,
+        50.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        0.9999999403953552,
+        0.0,
+        -0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_11",
+      "position": [
+        0.0,
+        -59.759315490722656,
+        50.0
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_12",
+      "position": [
+        85.84027099609375,
+        0.0,
+        240.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        -0.9999999403953552,
+        0.0,
+        0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_13",
+      "position": [
+        0.0,
+        85.77338409423828,
+        240.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_14",
+      "position": [
+        -85.62242889404297,
+        0.0,
+        240.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        0.9999999403953552,
+        0.0,
+        -0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_pdc_15",
+      "position": [
+        0.0,
+        -86.27274322509766,
+        240.0
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_rail_0",
+      "position": [
+        -107.75201416015625,
+        -7.457105675712228e-05,
+        195.07830810546875
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse10_donnager_rail_1",
+      "position": [
+        107.75210571289062,
+        1.7095884686568752e-05,
+        195.07830810546875
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "exhaust.0",
+      "position": [
+        -101.73932647705078,
+        -101.7392578125,
+        -523.1683959960938
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "exhaust.1",
+      "position": [
+        -101.73932647705078,
+        101.73921966552734,
+        -523.16845703125
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "exhaust.2",
+      "position": [
+        101.73941040039062,
+        -101.73926544189453,
+        -523.1683959960938
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "exhaust.3",
+      "position": [
+        101.73939514160156,
+        101.73919677734375,
+        -523.1683959960938
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "hangar.0",
+      "position": [
+        6.474574183812365e-05,
+        -3.772802301682532e-05,
+        -508.2420349121094
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "weapon.boarding.0",
+      "position": [
+        6.474574183812365e-05,
+        -3.772802301682532e-05,
+        -508.2420349121094
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "bone_index": 0
+    }
+  ],
+  "offline_checks": [
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/update11-b/output-validation.json",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/update11-b/mount-preservation-checks.json",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/update11-b/silhouette-comparison.json",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/update11-b/uv-frame-fallback.json",
+    "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/update11-b/preservation-checks.json"
+  ],
+  "ui_integration_spec": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/audit/update11-b/ui-integration-spec.json",
+  "unchanged_donor_meshes": [
+    {
+      "file": "expanse10_donnager_pdc_base.mesh",
+      "sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "exact_prior_binary_preserved": true
+    },
+    {
+      "file": "expanse10_donnager_pdc_barrel.mesh",
+      "sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "exact_prior_binary_preserved": true
+    }
+  ],
+  "support_correction": {
+    "reason": "Higher-fidelity original hull is0.473 lower at one existingPDC15footprint; extend fixedsocket into hull, preserve all gunpivots/muzzles/arcs",
+    "mount_index": 15,
+    "fixed_socket_bottom_delta": -0.6,
+    "gun_transform_delta": 0,
+    "PDC6_minor_footing_embed": 0.44934651455,
+    "no_moving_geometry_removed": true
+  },
+  "runtime_limits": [
+    "New higher-fidelity derivative has not been loaded in game; user performance observation covers previous76299triangle version only",
+    "Inherited narrow rail yaw and gun arcs remain unchanged; sampledclearance is notcontinuous collision proof",
+    "Restored surfaces locally embed some fixed socketfeet by0.11–0.45gameunits; no gun transforms moved; inspectcloseup",
+    "Detailed shaders and higherpolygon performance require workstation observation"
+  ],
+  "material_limitations": {
+    "status": "PASS EXACT ACCEPTED TEXTURE/MATERIAL REUSE",
+    "aliases": [
+      {
+        "new_material": "expanse10_donnager_pdc_barrel_mcrn_tachi_material",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+        "source_sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse10_donnager_pdc_base_mcrn_tachi_material",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+        "source_sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_0",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_0.mesh_material",
+        "source_sha256": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_1",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_1.mesh_material",
+        "source_sha256": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_10",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_10.mesh_material",
+        "source_sha256": "bb84e2eb88911869879b5b222beee85100f47a01747f192feefb04f590ddefe6",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_2",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_2.mesh_material",
+        "source_sha256": "bb9adcae82cfca26adfbbf09a69de651dae17ea8e4037280b54efdadb831068b",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_3",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_3.mesh_material",
+        "source_sha256": "b58371dd11dd222f1ac9ff3981d3028ba5d8a8f1f1fbd08dfdb497ac5ea69bef",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_4",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_4.mesh_material",
+        "source_sha256": "b4e58953b2cf714e03a310c3e139d0923e4c6cb4c3ed2783515fbc244464c144",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_5",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_5.mesh_material",
+        "source_sha256": "bff43d164ff974cb07d40d6b97679c3bc962b3996e9ceb3254c3b66ac24c98ad",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_6",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_6.mesh_material",
+        "source_sha256": "7a471a3541042550bac406c6210cd2021e6d7981f3cef4c7324e3dcfba8f01ae",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_7",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_7.mesh_material",
+        "source_sha256": "2d872832574c61c995d288f6639847f3c8dce11648bd553cd76ecad361607920",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_8",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_8.mesh_material",
+        "source_sha256": "df2f44896bdde0c53f54244901c262f97f677949d4f58f6665532de7960d6de8",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_hull_expanse11_donnager_mat_9",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_hull_expanse10_donnager_mat_9.mesh_material",
+        "source_sha256": "02dc4e22a6667a4e812d599659455dc767646b608c36a5f09f0dcba088df090c",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_rail_0_expanse11_donnager_mat_0",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_0.mesh_material",
+        "source_sha256": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_rail_0_expanse11_donnager_mat_1",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_rail_0_expanse10_donnager_mat_1.mesh_material",
+        "source_sha256": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_rail_1_expanse11_donnager_mat_0",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_0.mesh_material",
+        "source_sha256": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be",
+        "definition_values_exactly_preserved": true
+      },
+      {
+        "new_material": "expanse11_donnager_rail_1_expanse11_donnager_mat_1",
+        "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/donnager10-b/game/mesh_materials/expanse10_donnager_rail_1_expanse10_donnager_mat_1.mesh_material",
+        "source_sha256": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3",
+        "definition_values_exactly_preserved": true
+      }
+    ],
+    "textures": {
+      "expanse10_donnager_atlas_0_clr": "bb0c96cde92ae9b8d035dcf669a322e16c2335bae65baa33174b7fac36f337fa",
+      "expanse10_donnager_atlas_1_clr": "a6fb127d0dc4473b7c30ffb5232b85242e7decd87cc57978318e52553a7b5155",
+      "expanse10_donnager_dark_msk": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+      "expanse10_donnager_emissive_msk": "b52ceb025e271faa6ff2277bfd212b8e11a27bd63fb543e6aa58eeb4894492ef",
+      "expanse10_donnager_flat_nrm": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+      "expanse10_donnager_mat_0_orm": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+      "expanse10_donnager_mat_10_clr": "961b6b6c1b135de312360a4790d913731d052af38ef39d66ce7801c53eedc03e",
+      "expanse10_donnager_mat_10_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "expanse10_donnager_mat_1_orm": "080230e03ab0d15777c3a7842b0a5a736075a2c593798b069b3e2769a16cc10a",
+      "expanse10_donnager_mat_2_orm": "67a1cce7e6e1e003b7db32b3f4c08a3bdb80b4389b1f1717f6364e5cc678a90f",
+      "expanse10_donnager_mat_3_clr": "0b59307be618db5280285ccc81eab82bf94003aee8c06bf1f189ca8605b913d5",
+      "expanse10_donnager_mat_3_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "expanse10_donnager_mat_4_clr": "6f7d1d9ebc19f2c64c3e8c5bc08d32ee55cd1b0a2f87b750057efa844cd695df",
+      "expanse10_donnager_mat_4_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "expanse10_donnager_mat_5_clr": "44fd6f8fd403eece7da85970a10d21881cf15a01d92d4cb7ce6d98d887e9d172",
+      "expanse10_donnager_mat_5_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "expanse10_donnager_mat_6_orm": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+      "expanse10_donnager_mat_7_clr": "f432b6d411cc4409e891445d76aa5ecfa0b84423d3711244f04a45a757ec6a1e",
+      "expanse10_donnager_mat_7_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "expanse10_donnager_mat_8_clr": "44fd6f8fd403eece7da85970a10d21881cf15a01d92d4cb7ce6d98d887e9d172",
+      "expanse10_donnager_mat_8_orm": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+      "expanse10_donnager_mat_9_clr": "43e715e7ce37f2681ac3ff10dbc78b0bb33a31151196d943b20fd62e3d455c8b",
+      "expanse10_donnager_mat_9_orm": "db98eda688873b053c98c2103ec7fd0bd4d2984cc1b8342259bf774bb6b723c1",
+      "mcrn_tachi_material_clr": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+      "mcrn_tachi_material_msk": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "mcrn_tachi_material_nrm": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+      "mcrn_tachi_material_orm": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d"
+    },
+    "source_normal_maps": "Original Donnager has no detail normal maps; original flat normal derivative preserved; source color atlases remain2048x2048"
+  }
+}

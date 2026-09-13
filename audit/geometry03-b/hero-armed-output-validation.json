@@ -1,0 +1,298 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "triangle_total": 26935,
+  "rest_pose_position_max_error": 2.048632900152763e-06,
+  "outputs": {
+    "hero_armed": {
+      "status": "PASS OFFLINE; RUNTIME NOT RUN",
+      "mesh": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/geometry03-b/hero-armed/game/meshes/expanse03_hero_armed.mesh",
+      "sha256": "bba6b43d21a18439855c5b44a1fd90ab00973b3abfedccbd7c0065859b26a76d",
+      "raw_official_sha256": "fe1ec61700feeef675e73e05609eb8e762b3f76660255f876bb385e3d4195521",
+      "triangles": 26935,
+      "materials": [
+        "expanse03_hero_armed_expanse03_hero_mat_0",
+        "expanse03_hero_armed_expanse03_hero_mat_1",
+        "expanse03_hero_armed_expanse03_hero_mat_2"
+      ],
+      "source_frame_max_match_error": 2.0510963838734615e-06,
+      "orthogonal_fallback_vertex_count": 0,
+      "tangent_max_abs_normal_dot": 2.779384900009063e-08,
+      "tangent_max_unit_error": 5.960464477539063e-08,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 49,
+      "minimum_face_normal_cosine": -2.427058966288957e-06,
+      "winding_cosine_tolerance": 1e-05,
+      "binary_json_vertex_max_error": 4.999999996257998e-07,
+      "changed_bytes": 428118,
+      "only_tangent_fields_changed": true,
+      "trailer_sha256_before": "fb5c51365369eb5a522cf7a29a71a70e4e05400362617f153eaa6bba21d399a0",
+      "trailer_sha256_after": "fb5c51365369eb5a522cf7a29a71a70e4e05400362617f153eaa6bba21d399a0",
+      "official_triangle_facing_data_unchanged": true,
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            -10.112395286560059,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            0.32788482308387756,
+            -10.40313720703125,
+            -49.32761764526367
+          ],
+          "rotation": [
+            -0.9999824166297913,
+            1.8189894035458565e-12,
+            -0.005938029382377863,
+            5.816567863803357e-05,
+            0.9999520182609558,
+            -0.009795279242098331,
+            0.005937744397670031,
+            -0.00979545246809721,
+            -0.9999344348907471
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            9.887604713439941,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -32.112396240234375,
+            3.1621170043945312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.0",
+          "position": [
+            -16.42426872253418,
+            -13.13497543334961,
+            10.485408782958984
+          ],
+          "rotation": [
+            0.9999823570251465,
+            0.0,
+            0.005937905982136726,
+            5.8164696383755654e-05,
+            0.9999520182609558,
+            -0.00979531742632389,
+            -0.005937620997428894,
+            0.00979549065232277,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.1",
+          "position": [
+            16.368377685546875,
+            -6.49845027923584,
+            10.616268157958984
+          ],
+          "rotation": [
+            0.9999823570251465,
+            -1.8189894035458565e-12,
+            0.005938071757555008,
+            5.81633867113851e-05,
+            0.9999520182609558,
+            -0.00979482289403677,
+            -0.005937786772847176,
+            0.009794996120035648,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.2",
+          "position": [
+            9.035515785217285,
+            -8.705633163452148,
+            37.008846282958984
+          ],
+          "rotation": [
+            0.9636908769607544,
+            0.0,
+            0.26702046394348145,
+            -0.016045190393924713,
+            0.9981930255889893,
+            0.05790793150663376,
+            -0.26653796434402466,
+            -0.06008973717689514,
+            0.9619494676589966
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.3",
+          "position": [
+            -10.922696113586426,
+            -14.137918472290039,
+            28.820148468017578
+          ],
+          "rotation": [
+            -0.9667027592658997,
+            0.0,
+            0.25590193271636963,
+            -0.020204240456223488,
+            0.9968783259391785,
+            -0.07632413506507874,
+            -0.25510311126708984,
+            -0.07895305752754211,
+            -0.9636850357055664
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.4",
+          "position": [
+            -2.356823205947876,
+            3.168795347213745,
+            -15.043970108032227
+          ],
+          "rotation": [
+            0.9999823570251465,
+            -1.8189894035458565e-12,
+            0.005937959533184767,
+            5.81652857363224e-05,
+            0.9999520182609558,
+            -0.009795327670872211,
+            -0.005937674548476934,
+            0.00979550089687109,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.pdc.5",
+          "position": [
+            2.5941390991210938,
+            -23.30361557006836,
+            -14.755038261413574
+          ],
+          "rotation": [
+            0.9999823570251465,
+            0.0,
+            0.0059378501027822495,
+            5.816358680021949e-05,
+            0.9999520182609558,
+            -0.00979522243142128,
+            -0.005937565118074417,
+            0.009795395657420158,
+            0.9999343752861023
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "weapon.rail.0",
+          "position": [
+            0.0,
+            -19.5986270904541,
+            40.119998931884766
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    }
+  },
+  "rotation_checks": [
+    {
+      "mesh_point": "weapon.pdc.0",
+      "basis_error": 1.9081992763680944e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.1",
+      "basis_error": 2.2939269150867858e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.2",
+      "basis_error": 4.64814039480288e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.3",
+      "basis_error": 1.7877750557726557e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.4",
+      "basis_error": 1.865811816159635e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.pdc.5",
+      "basis_error": 2.0340315765032813e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "exhaust.0",
+      "basis_error": 4.688078958370312e-08,
+      "row0_right_row1_up_row2_forward": true
+    },
+    {
+      "mesh_point": "weapon.rail.0",
+      "basis_error": 0.0,
+      "row0_right_row1_up_row2_forward": true
+    }
+  ],
+  "runtime": "NOT RUN"
+}

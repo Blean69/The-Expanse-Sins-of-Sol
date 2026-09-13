@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "case": "Reviewed three-second single-roll graph",
+      "expected": "PASS",
+      "observed": "PASS",
+      "diagnostic": ""
+    },
+    {
+      "case": "Injected guaranteed capture instead of10%",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "diagnostic": "Boarding must have one10% roll"
+    },
+    {
+      "case": "Injected repeat attempt schedule",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "diagnostic": "Boarding must roll once on arrival-buff start"
+    },
+    {
+      "case": "Injected capture recipient change",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "diagnostic": "Capture recipient must be initiating ship owner"
+    },
+    {
+      "case": "Explicit additive private group retains installed groups",
+      "expected": "PASS",
+      "observed": "PASS"
+    },
+    {
+      "case": "Injected overwrite drops installed groups",
+      "expected": "REJECT",
+      "observed": "REJECT",
+      "diagnostic": "Changed or removed installed uniform entry: attack_target_type_group.uniforms"
+    }
+  ],
+  "only_owned_temporary_copies_mutated": true,
+  "runtime": "NOT RUN"
+}

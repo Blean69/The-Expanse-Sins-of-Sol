@@ -1,0 +1,114 @@
+{
+  "format": "Integrator metadata, not a game definition",
+  "unit_patches": [
+    {
+      "pointer": "/attack/attack_pattern",
+      "old_cobalt": {
+        "type": "stop_and_fire"
+      },
+      "value": {
+        "type": "circle_strafe",
+        "angle_range_off_gravity_well_plane": [
+          -45.0,
+          45.0
+        ]
+      }
+    }
+  ],
+  "skin_patches_by_role": {
+    "corvette": [
+      {
+        "pointer": "/skin_stages/0/effects/hyperspace_effects/travel_effect",
+        "value": "mcrn03_corvette_phase_plume",
+        "old_in_corvette_02_skin": "hyperspace_tech_frigate_travel"
+      },
+      {
+        "pointer": "/skin_stages/0/effects/hyperspace_effects/travel_effect_between_stars",
+        "value": "mcrn03_corvette_phase_plume",
+        "old_in_corvette_02_skin": "hyperspace_tech_frigate_travel_interstellar"
+      },
+      {
+        "pointer": "/skin_stages/0/effects/hyperspace_effects/travel_effect_destabilized",
+        "value": "mcrn03_corvette_phase_plume",
+        "old_in_corvette_02_skin": "hyperspace_tech_frigate_travel_unstable"
+      }
+    ],
+    "hero": [
+      {
+        "pointer": "/skin_stages/0/effects/hyperspace_effects/travel_effect",
+        "value": "mcrn03_hero_phase_plume",
+        "old_in_corvette_02_skin": "hyperspace_tech_frigate_travel"
+      },
+      {
+        "pointer": "/skin_stages/0/effects/hyperspace_effects/travel_effect_between_stars",
+        "value": "mcrn03_hero_phase_plume",
+        "old_in_corvette_02_skin": "hyperspace_tech_frigate_travel_interstellar"
+      },
+      {
+        "pointer": "/skin_stages/0/effects/hyperspace_effects/travel_effect_destabilized",
+        "value": "mcrn03_hero_phase_plume",
+        "old_in_corvette_02_skin": "hyperspace_tech_frigate_travel_unstable"
+      },
+      {
+        "pointer": "/skin_stages/0/effects/exhaust_effects/particle_effects/0/particle_effect",
+        "value": "mcrn03_hero_idle_plume",
+        "old_in_corvette_02_skin": "exhaust_tech_medium_01"
+      }
+    ]
+  },
+  "copy_generated_subdirectories": [
+    "effects"
+  ],
+  "entity_manifests_required": [],
+  "unit_physics_and_move_unchanged": true,
+  "torpedo_orbit_alignment_note": "Generic installed circle_strafe selected; Shuriken yaw90 broadside alignment omitted because forward torpedo arcs may not bear. Actual orbit distance and firing behavior remain runtime-dependent.",
+  "phase_hook": "Three native travel_effect keys only; charge/exit effects and sounds remain existing. Normal corvette exhaust unchanged. Hero gets private1.5x blue normal plume.",
+  "phase_dimensions": {
+    "corvette": {
+      "length_vs_base": 4.0,
+      "width_vs_base": 1.25
+    },
+    "hero": {
+      "length_vs_base": 4.0,
+      "width_vs_base": 1.5
+    },
+    "hero_normal": {
+      "length_vs_base": 1.5,
+      "width_vs_base": 1.5
+    }
+  },
+  "nozzle_evidence": {
+    "mesh": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_corvette_polish/meshes/expanse_polish_hull.mesh",
+    "mesh_sha256": "ef3c73d9938e96bc6d7464ad6143d2d48f484fbe1f7e25c12ac42e893abd03e9",
+    "meshpoint": {
+      "name": "exhaust.0",
+      "position": [
+        0.0,
+        -10.112395286560059,
+        -49.331363677978516
+      ],
+      "rotation": [
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "bone_index": 0
+    },
+    "phase_effect_transform": "Baked unit-space translation and yaw180 into every source node; travel hooks expose no mesh_point field."
+  },
+  "runtime_uncertainties": [
+    "Hyperspace effect origin may differ from unit origin; nozzle position/direction must be observed before claiming alignment.",
+    "Native normal exhaust may coexist with phase-only plume; do not claim an exclusive exhaust replacement until observed.",
+    "Source external_color was removed on private blue effects; verify that ordinary/resting throttle and hero emissive appearance remain desired.",
+    "Travel tunnel removal applies to three skin travel assets only; charging/exit visuals and any global camera overlay remain.",
+    "circle_strafe with retained Cobalt turning/speed limits may produce a wide/slow orbit; do not claim Shuriken agility.",
+    "Minimum/maximum actual orbit range follows engine weapon logic; no explicit orbit radius field was invented."
+  ],
+  "runtime": "NOT RUN"
+}

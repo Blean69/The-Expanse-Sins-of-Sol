@@ -1,0 +1,3254 @@
+[
+  {
+    "error_limit": 0.003,
+    "normal_weight": 0.3,
+    "options": 1,
+    "triangles": 425368,
+    "parts": [
+      {
+        "node": 4,
+        "triangles": 22783,
+        "error": 0.000333138246787712
+      },
+      {
+        "node": 5,
+        "triangles": 12561,
+        "error": 0.0004204217984806746
+      },
+      {
+        "node": 6,
+        "triangles": 1922,
+        "error": 0.0
+      },
+      {
+        "node": 9,
+        "triangles": 3616,
+        "error": 0.0004100572259631008
+      },
+      {
+        "node": 10,
+        "triangles": 848,
+        "error": 0.0
+      },
+      {
+        "node": 13,
+        "triangles": 5104,
+        "error": 0.0
+      },
+      {
+        "node": 14,
+        "triangles": 80,
+        "error": 0.0
+      },
+      {
+        "node": 17,
+        "triangles": 22102,
+        "error": 0.0
+      },
+      {
+        "node": 18,
+        "triangles": 534,
+        "error": 0.0
+      },
+      {
+        "node": 21,
+        "triangles": 1332,
+        "error": 0.0
+      },
+      {
+        "node": 22,
+        "triangles": 468,
+        "error": 0.0
+      },
+      {
+        "node": 25,
+        "triangles": 4128,
+        "error": 0.0
+      },
+      {
+        "node": 29,
+        "triangles": 9308,
+        "error": 0.0
+      },
+      {
+        "node": 30,
+        "triangles": 16,
+        "error": 0.0
+      },
+      {
+        "node": 33,
+        "triangles": 2736,
+        "error": 0.000532190257217735
+      },
+      {
+        "node": 36,
+        "triangles": 9640,
+        "error": 0.0
+      },
+      {
+        "node": 37,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 38,
+        "triangles": 2888,
+        "error": 0.0
+      },
+      {
+        "node": 41,
+        "triangles": 19582,
+        "error": 0.00020095679792575538
+      },
+      {
+        "node": 42,
+        "triangles": 64,
+        "error": 0.0
+      },
+      {
+        "node": 43,
+        "triangles": 96,
+        "error": 0.0
+      },
+      {
+        "node": 46,
+        "triangles": 22725,
+        "error": 0.0003664917021524161
+      },
+      {
+        "node": 47,
+        "triangles": 16281,
+        "error": 0.00010295987158315256
+      },
+      {
+        "node": 48,
+        "triangles": 64,
+        "error": 0.0
+      },
+      {
+        "node": 49,
+        "triangles": 128,
+        "error": 0.0
+      },
+      {
+        "node": 52,
+        "triangles": 5788,
+        "error": 8.707146480446681e-05
+      },
+      {
+        "node": 53,
+        "triangles": 32,
+        "error": 0.0
+      },
+      {
+        "node": 54,
+        "triangles": 130,
+        "error": 0.0
+      },
+      {
+        "node": 57,
+        "triangles": 5129,
+        "error": 0.0
+      },
+      {
+        "node": 58,
+        "triangles": 32,
+        "error": 0.0
+      },
+      {
+        "node": 59,
+        "triangles": 163,
+        "error": 0.0
+      },
+      {
+        "node": 63,
+        "triangles": 2316,
+        "error": 0.0
+      },
+      {
+        "node": 64,
+        "triangles": 52,
+        "error": 0.0
+      },
+      {
+        "node": 71,
+        "triangles": 4242,
+        "error": 2.4240498532890342e-05
+      },
+      {
+        "node": 74,
+        "triangles": 2128,
+        "error": 0.0
+      },
+      {
+        "node": 77,
+        "triangles": 3796,
+        "error": 0.000161364849191159
+      },
+      {
+        "node": 80,
+        "triangles": 1480,
+        "error": 0.0
+      },
+      {
+        "node": 83,
+        "triangles": 12328,
+        "error": 8.636713755549863e-05
+      },
+      {
+        "node": 84,
+        "triangles": 572,
+        "error": 0.0
+      },
+      {
+        "node": 85,
+        "triangles": 2860,
+        "error": 0.00013879904872737825
+      },
+      {
+        "node": 88,
+        "triangles": 19527,
+        "error": 0.00015245135000441223
+      },
+      {
+        "node": 89,
+        "triangles": 114,
+        "error": 0.0
+      },
+      {
+        "node": 90,
+        "triangles": 3183,
+        "error": 0.0001554140035295859
+      },
+      {
+        "node": 93,
+        "triangles": 10535,
+        "error": 0.0
+      },
+      {
+        "node": 94,
+        "triangles": 12,
+        "error": 0.0
+      },
+      {
+        "node": 95,
+        "triangles": 1661,
+        "error": 0.0
+      },
+      {
+        "node": 98,
+        "triangles": 20934,
+        "error": 0.000502687122207135
+      },
+      {
+        "node": 99,
+        "triangles": 506,
+        "error": 0.0
+      },
+      {
+        "node": 100,
+        "triangles": 778,
+        "error": 0.0
+      },
+      {
+        "node": 103,
+        "triangles": 11021,
+        "error": 0.00038150884211063385
+      },
+      {
+        "node": 104,
+        "triangles": 2147,
+        "error": 0.0
+      },
+      {
+        "node": 107,
+        "triangles": 10593,
+        "error": 0.00010431530245114118
+      },
+      {
+        "node": 108,
+        "triangles": 16,
+        "error": 0.0
+      },
+      {
+        "node": 109,
+        "triangles": 73,
+        "error": 0.0
+      },
+      {
+        "node": 113,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 116,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 119,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 120,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 123,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 126,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 129,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 132,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 135,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 136,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 139,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 142,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 143,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 146,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 149,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 150,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 155,
+        "triangles": 371,
+        "error": 0.0
+      },
+      {
+        "node": 156,
+        "triangles": 105,
+        "error": 0.0
+      },
+      {
+        "node": 159,
+        "triangles": 224,
+        "error": 0.0
+      },
+      {
+        "node": 162,
+        "triangles": 288,
+        "error": 0.0
+      },
+      {
+        "node": 165,
+        "triangles": 224,
+        "error": 0.0
+      },
+      {
+        "node": 168,
+        "triangles": 88,
+        "error": 0.0
+      },
+      {
+        "node": 171,
+        "triangles": 88,
+        "error": 0.0
+      },
+      {
+        "node": 176,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 179,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 182,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 183,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 186,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 189,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 192,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 195,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 198,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 199,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 202,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 203,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 206,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 209,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 210,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 214,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 217,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 220,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 221,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 224,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 227,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 230,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 233,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 236,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 237,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 240,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 241,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 244,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 247,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 248,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 252,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 255,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 258,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 259,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 262,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 265,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 268,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 271,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 274,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 275,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 278,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 279,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 282,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 285,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 286,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 290,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 293,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 296,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 297,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 300,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 303,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 306,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 309,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 312,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 313,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 316,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 317,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 320,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 323,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 324,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 328,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 331,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 334,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 335,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 338,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 341,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 344,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 347,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 350,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 351,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 354,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 355,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 358,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 361,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 362,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 366,
+        "triangles": 1332,
+        "error": 0.0
+      },
+      {
+        "node": 367,
+        "triangles": 468,
+        "error": 0.0
+      },
+      {
+        "node": 370,
+        "triangles": 3618,
+        "error": 0.0003678575449157506
+      },
+      {
+        "node": 371,
+        "triangles": 848,
+        "error": 0.0
+      },
+      {
+        "node": 374,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 377,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 380,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 383,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 386,
+        "triangles": 840,
+        "error": 0.0
+      }
+    ]
+  },
+  {
+    "error_limit": 0.005,
+    "normal_weight": 0.3,
+    "options": 1,
+    "triangles": 425368,
+    "parts": [
+      {
+        "node": 4,
+        "triangles": 22783,
+        "error": 0.000333138246787712
+      },
+      {
+        "node": 5,
+        "triangles": 12561,
+        "error": 0.0004204217984806746
+      },
+      {
+        "node": 6,
+        "triangles": 1922,
+        "error": 0.0
+      },
+      {
+        "node": 9,
+        "triangles": 3616,
+        "error": 0.0004100572259631008
+      },
+      {
+        "node": 10,
+        "triangles": 848,
+        "error": 0.0
+      },
+      {
+        "node": 13,
+        "triangles": 5104,
+        "error": 0.0
+      },
+      {
+        "node": 14,
+        "triangles": 80,
+        "error": 0.0
+      },
+      {
+        "node": 17,
+        "triangles": 22102,
+        "error": 0.0
+      },
+      {
+        "node": 18,
+        "triangles": 534,
+        "error": 0.0
+      },
+      {
+        "node": 21,
+        "triangles": 1332,
+        "error": 0.0
+      },
+      {
+        "node": 22,
+        "triangles": 468,
+        "error": 0.0
+      },
+      {
+        "node": 25,
+        "triangles": 4128,
+        "error": 0.0
+      },
+      {
+        "node": 29,
+        "triangles": 9308,
+        "error": 0.0
+      },
+      {
+        "node": 30,
+        "triangles": 16,
+        "error": 0.0
+      },
+      {
+        "node": 33,
+        "triangles": 2736,
+        "error": 0.000532190257217735
+      },
+      {
+        "node": 36,
+        "triangles": 9640,
+        "error": 0.0
+      },
+      {
+        "node": 37,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 38,
+        "triangles": 2888,
+        "error": 0.0
+      },
+      {
+        "node": 41,
+        "triangles": 19582,
+        "error": 0.00020095679792575538
+      },
+      {
+        "node": 42,
+        "triangles": 64,
+        "error": 0.0
+      },
+      {
+        "node": 43,
+        "triangles": 96,
+        "error": 0.0
+      },
+      {
+        "node": 46,
+        "triangles": 22725,
+        "error": 0.0003664917021524161
+      },
+      {
+        "node": 47,
+        "triangles": 16281,
+        "error": 0.00010295987158315256
+      },
+      {
+        "node": 48,
+        "triangles": 64,
+        "error": 0.0
+      },
+      {
+        "node": 49,
+        "triangles": 128,
+        "error": 0.0
+      },
+      {
+        "node": 52,
+        "triangles": 5788,
+        "error": 8.707146480446681e-05
+      },
+      {
+        "node": 53,
+        "triangles": 32,
+        "error": 0.0
+      },
+      {
+        "node": 54,
+        "triangles": 130,
+        "error": 0.0
+      },
+      {
+        "node": 57,
+        "triangles": 5129,
+        "error": 0.0
+      },
+      {
+        "node": 58,
+        "triangles": 32,
+        "error": 0.0
+      },
+      {
+        "node": 59,
+        "triangles": 163,
+        "error": 0.0
+      },
+      {
+        "node": 63,
+        "triangles": 2316,
+        "error": 0.0
+      },
+      {
+        "node": 64,
+        "triangles": 52,
+        "error": 0.0
+      },
+      {
+        "node": 71,
+        "triangles": 4242,
+        "error": 2.4240498532890342e-05
+      },
+      {
+        "node": 74,
+        "triangles": 2128,
+        "error": 0.0
+      },
+      {
+        "node": 77,
+        "triangles": 3796,
+        "error": 0.000161364849191159
+      },
+      {
+        "node": 80,
+        "triangles": 1480,
+        "error": 0.0
+      },
+      {
+        "node": 83,
+        "triangles": 12328,
+        "error": 8.636713755549863e-05
+      },
+      {
+        "node": 84,
+        "triangles": 572,
+        "error": 0.0
+      },
+      {
+        "node": 85,
+        "triangles": 2860,
+        "error": 0.00013879904872737825
+      },
+      {
+        "node": 88,
+        "triangles": 19527,
+        "error": 0.00015245135000441223
+      },
+      {
+        "node": 89,
+        "triangles": 114,
+        "error": 0.0
+      },
+      {
+        "node": 90,
+        "triangles": 3183,
+        "error": 0.0001554140035295859
+      },
+      {
+        "node": 93,
+        "triangles": 10535,
+        "error": 0.0
+      },
+      {
+        "node": 94,
+        "triangles": 12,
+        "error": 0.0
+      },
+      {
+        "node": 95,
+        "triangles": 1661,
+        "error": 0.0
+      },
+      {
+        "node": 98,
+        "triangles": 20934,
+        "error": 0.000502687122207135
+      },
+      {
+        "node": 99,
+        "triangles": 506,
+        "error": 0.0
+      },
+      {
+        "node": 100,
+        "triangles": 778,
+        "error": 0.0
+      },
+      {
+        "node": 103,
+        "triangles": 11021,
+        "error": 0.00038150884211063385
+      },
+      {
+        "node": 104,
+        "triangles": 2147,
+        "error": 0.0
+      },
+      {
+        "node": 107,
+        "triangles": 10593,
+        "error": 0.00010431530245114118
+      },
+      {
+        "node": 108,
+        "triangles": 16,
+        "error": 0.0
+      },
+      {
+        "node": 109,
+        "triangles": 73,
+        "error": 0.0
+      },
+      {
+        "node": 113,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 116,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 119,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 120,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 123,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 126,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 129,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 132,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 135,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 136,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 139,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 142,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 143,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 146,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 149,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 150,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 155,
+        "triangles": 371,
+        "error": 0.0
+      },
+      {
+        "node": 156,
+        "triangles": 105,
+        "error": 0.0
+      },
+      {
+        "node": 159,
+        "triangles": 224,
+        "error": 0.0
+      },
+      {
+        "node": 162,
+        "triangles": 288,
+        "error": 0.0
+      },
+      {
+        "node": 165,
+        "triangles": 224,
+        "error": 0.0
+      },
+      {
+        "node": 168,
+        "triangles": 88,
+        "error": 0.0
+      },
+      {
+        "node": 171,
+        "triangles": 88,
+        "error": 0.0
+      },
+      {
+        "node": 176,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 179,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 182,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 183,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 186,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 189,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 192,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 195,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 198,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 199,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 202,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 203,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 206,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 209,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 210,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 214,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 217,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 220,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 221,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 224,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 227,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 230,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 233,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 236,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 237,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 240,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 241,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 244,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 247,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 248,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 252,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 255,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 258,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 259,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 262,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 265,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 268,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 271,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 274,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 275,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 278,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 279,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 282,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 285,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 286,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 290,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 293,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 296,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 297,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 300,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 303,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 306,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 309,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 312,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 313,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 316,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 317,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 320,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 323,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 324,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 328,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 331,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 334,
+        "triangles": 6374,
+        "error": 0.00031110330019146204
+      },
+      {
+        "node": 335,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 338,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 341,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 344,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 347,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 350,
+        "triangles": 1866,
+        "error": 0.0
+      },
+      {
+        "node": 351,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 354,
+        "triangles": 6451,
+        "error": 0.00022024694771971554
+      },
+      {
+        "node": 355,
+        "triangles": 1081,
+        "error": 0.0
+      },
+      {
+        "node": 358,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 361,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 362,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 366,
+        "triangles": 1332,
+        "error": 0.0
+      },
+      {
+        "node": 367,
+        "triangles": 468,
+        "error": 0.0
+      },
+      {
+        "node": 370,
+        "triangles": 3618,
+        "error": 0.0003678575449157506
+      },
+      {
+        "node": 371,
+        "triangles": 848,
+        "error": 0.0
+      },
+      {
+        "node": 374,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 377,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 380,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 383,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 386,
+        "triangles": 840,
+        "error": 0.0
+      }
+    ]
+  },
+  {
+    "error_limit": 0.003,
+    "normal_weight": 0.3,
+    "options": 0,
+    "triangles": 410954,
+    "parts": [
+      {
+        "node": 4,
+        "triangles": 22698,
+        "error": 0.0026668854989111423
+      },
+      {
+        "node": 5,
+        "triangles": 12524,
+        "error": 0.002959553152322769
+      },
+      {
+        "node": 6,
+        "triangles": 1880,
+        "error": 0.0026886046398431063
+      },
+      {
+        "node": 9,
+        "triangles": 3126,
+        "error": 0.002985049271956086
+      },
+      {
+        "node": 10,
+        "triangles": 848,
+        "error": 0.0
+      },
+      {
+        "node": 13,
+        "triangles": 5104,
+        "error": 0.0
+      },
+      {
+        "node": 14,
+        "triangles": 80,
+        "error": 0.0
+      },
+      {
+        "node": 17,
+        "triangles": 22099,
+        "error": 0.0001653008657740429
+      },
+      {
+        "node": 18,
+        "triangles": 528,
+        "error": 0.00019676267402246594
+      },
+      {
+        "node": 21,
+        "triangles": 1332,
+        "error": 0.0
+      },
+      {
+        "node": 22,
+        "triangles": 468,
+        "error": 0.0
+      },
+      {
+        "node": 25,
+        "triangles": 4128,
+        "error": 0.0
+      },
+      {
+        "node": 29,
+        "triangles": 9308,
+        "error": 0.0
+      },
+      {
+        "node": 30,
+        "triangles": 16,
+        "error": 0.0
+      },
+      {
+        "node": 33,
+        "triangles": 2736,
+        "error": 0.000532190257217735
+      },
+      {
+        "node": 36,
+        "triangles": 7740,
+        "error": 0.002989275148138404
+      },
+      {
+        "node": 37,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 38,
+        "triangles": 2728,
+        "error": 0.001155029283836484
+      },
+      {
+        "node": 41,
+        "triangles": 19582,
+        "error": 0.00020095679792575538
+      },
+      {
+        "node": 42,
+        "triangles": 64,
+        "error": 0.0
+      },
+      {
+        "node": 43,
+        "triangles": 96,
+        "error": 0.0
+      },
+      {
+        "node": 46,
+        "triangles": 22366,
+        "error": 0.002759367460384965
+      },
+      {
+        "node": 47,
+        "triangles": 15979,
+        "error": 0.0027640964835882187
+      },
+      {
+        "node": 48,
+        "triangles": 64,
+        "error": 0.0
+      },
+      {
+        "node": 49,
+        "triangles": 128,
+        "error": 0.0
+      },
+      {
+        "node": 52,
+        "triangles": 5788,
+        "error": 8.707146480446681e-05
+      },
+      {
+        "node": 53,
+        "triangles": 32,
+        "error": 0.0
+      },
+      {
+        "node": 54,
+        "triangles": 130,
+        "error": 0.0
+      },
+      {
+        "node": 57,
+        "triangles": 5128,
+        "error": 0.0013432757696136832
+      },
+      {
+        "node": 58,
+        "triangles": 32,
+        "error": 0.0
+      },
+      {
+        "node": 59,
+        "triangles": 162,
+        "error": 0.00038029850111342967
+      },
+      {
+        "node": 63,
+        "triangles": 2316,
+        "error": 0.0
+      },
+      {
+        "node": 64,
+        "triangles": 52,
+        "error": 0.0
+      },
+      {
+        "node": 71,
+        "triangles": 4242,
+        "error": 2.4240498532890342e-05
+      },
+      {
+        "node": 74,
+        "triangles": 2128,
+        "error": 0.0
+      },
+      {
+        "node": 77,
+        "triangles": 3796,
+        "error": 0.000161364849191159
+      },
+      {
+        "node": 80,
+        "triangles": 1480,
+        "error": 0.0
+      },
+      {
+        "node": 83,
+        "triangles": 12216,
+        "error": 0.0029949138406664133
+      },
+      {
+        "node": 84,
+        "triangles": 526,
+        "error": 0.0029657818377017975
+      },
+      {
+        "node": 85,
+        "triangles": 2103,
+        "error": 0.002957271644845605
+      },
+      {
+        "node": 88,
+        "triangles": 19426,
+        "error": 0.0026386112440377474
+      },
+      {
+        "node": 89,
+        "triangles": 69,
+        "error": 0.0029411392752081156
+      },
+      {
+        "node": 90,
+        "triangles": 2237,
+        "error": 0.00298852426931262
+      },
+      {
+        "node": 93,
+        "triangles": 10515,
+        "error": 0.002937404904514551
+      },
+      {
+        "node": 94,
+        "triangles": 12,
+        "error": 0.0
+      },
+      {
+        "node": 95,
+        "triangles": 1651,
+        "error": 0.002455460373312235
+      },
+      {
+        "node": 98,
+        "triangles": 20868,
+        "error": 0.0029864388052374125
+      },
+      {
+        "node": 99,
+        "triangles": 394,
+        "error": 0.0029379711486399174
+      },
+      {
+        "node": 100,
+        "triangles": 578,
+        "error": 0.002985050668939948
+      },
+      {
+        "node": 103,
+        "triangles": 10112,
+        "error": 0.002989414380863309
+      },
+      {
+        "node": 104,
+        "triangles": 2020,
+        "error": 0.0028998134657740593
+      },
+      {
+        "node": 107,
+        "triangles": 10579,
+        "error": 0.002775017637759447
+      },
+      {
+        "node": 108,
+        "triangles": 16,
+        "error": 0.0
+      },
+      {
+        "node": 109,
+        "triangles": 71,
+        "error": 0.0024704879615455866
+      },
+      {
+        "node": 113,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 116,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 119,
+        "triangles": 6183,
+        "error": 0.002730955369770527
+      },
+      {
+        "node": 120,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 123,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 126,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 129,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 132,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 135,
+        "triangles": 1864,
+        "error": 0.00034848315408453345
+      },
+      {
+        "node": 136,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 139,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 142,
+        "triangles": 6449,
+        "error": 0.00245866272598505
+      },
+      {
+        "node": 143,
+        "triangles": 98,
+        "error": 0.0029693448450416327
+      },
+      {
+        "node": 146,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 149,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 150,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 155,
+        "triangles": 368,
+        "error": 0.0007971384911797941
+      },
+      {
+        "node": 156,
+        "triangles": 105,
+        "error": 0.0
+      },
+      {
+        "node": 159,
+        "triangles": 224,
+        "error": 0.0
+      },
+      {
+        "node": 162,
+        "triangles": 288,
+        "error": 0.0
+      },
+      {
+        "node": 165,
+        "triangles": 224,
+        "error": 0.0
+      },
+      {
+        "node": 168,
+        "triangles": 88,
+        "error": 0.0
+      },
+      {
+        "node": 171,
+        "triangles": 88,
+        "error": 0.0
+      },
+      {
+        "node": 176,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 179,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 182,
+        "triangles": 6183,
+        "error": 0.002730955369770527
+      },
+      {
+        "node": 183,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 186,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 189,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 192,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 195,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 198,
+        "triangles": 1864,
+        "error": 0.00034848315408453345
+      },
+      {
+        "node": 199,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 202,
+        "triangles": 6449,
+        "error": 0.00245866272598505
+      },
+      {
+        "node": 203,
+        "triangles": 98,
+        "error": 0.0029693448450416327
+      },
+      {
+        "node": 206,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 209,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 210,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 214,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 217,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 220,
+        "triangles": 6183,
+        "error": 0.002730955369770527
+      },
+      {
+        "node": 221,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 224,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 227,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 230,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 233,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 236,
+        "triangles": 1864,
+        "error": 0.00034848315408453345
+      },
+      {
+        "node": 237,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 240,
+        "triangles": 6449,
+        "error": 0.00245866272598505
+      },
+      {
+        "node": 241,
+        "triangles": 98,
+        "error": 0.0029693448450416327
+      },
+      {
+        "node": 244,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 247,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 248,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 252,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 255,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 258,
+        "triangles": 6183,
+        "error": 0.002730955369770527
+      },
+      {
+        "node": 259,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 262,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 265,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 268,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 271,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 274,
+        "triangles": 1864,
+        "error": 0.00034848315408453345
+      },
+      {
+        "node": 275,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 278,
+        "triangles": 6449,
+        "error": 0.00245866272598505
+      },
+      {
+        "node": 279,
+        "triangles": 98,
+        "error": 0.0029693448450416327
+      },
+      {
+        "node": 282,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 285,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 286,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 290,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 293,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 296,
+        "triangles": 6183,
+        "error": 0.002730955369770527
+      },
+      {
+        "node": 297,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 300,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 303,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 306,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 309,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 312,
+        "triangles": 1864,
+        "error": 0.00034848315408453345
+      },
+      {
+        "node": 313,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 316,
+        "triangles": 6449,
+        "error": 0.00245866272598505
+      },
+      {
+        "node": 317,
+        "triangles": 98,
+        "error": 0.0029693448450416327
+      },
+      {
+        "node": 320,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 323,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 324,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 328,
+        "triangles": 400,
+        "error": 0.0
+      },
+      {
+        "node": 331,
+        "triangles": 752,
+        "error": 0.0
+      },
+      {
+        "node": 334,
+        "triangles": 6183,
+        "error": 0.002730955369770527
+      },
+      {
+        "node": 335,
+        "triangles": 1140,
+        "error": 0.0
+      },
+      {
+        "node": 338,
+        "triangles": 820,
+        "error": 0.0
+      },
+      {
+        "node": 341,
+        "triangles": 832,
+        "error": 0.0
+      },
+      {
+        "node": 344,
+        "triangles": 284,
+        "error": 0.0
+      },
+      {
+        "node": 347,
+        "triangles": 212,
+        "error": 0.0
+      },
+      {
+        "node": 350,
+        "triangles": 1864,
+        "error": 0.00034848315408453345
+      },
+      {
+        "node": 351,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 354,
+        "triangles": 6449,
+        "error": 0.00245866272598505
+      },
+      {
+        "node": 355,
+        "triangles": 98,
+        "error": 0.0029693448450416327
+      },
+      {
+        "node": 358,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 361,
+        "triangles": 1316,
+        "error": 0.0
+      },
+      {
+        "node": 362,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 366,
+        "triangles": 1332,
+        "error": 0.0
+      },
+      {
+        "node": 367,
+        "triangles": 468,
+        "error": 0.0
+      },
+      {
+        "node": 370,
+        "triangles": 3128,
+        "error": 0.0029872613959014416
+      },
+      {
+        "node": 371,
+        "triangles": 848,
+        "error": 0.0
+      },
+      {
+        "node": 374,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 377,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 380,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 383,
+        "triangles": 840,
+        "error": 0.0
+      },
+      {
+        "node": 386,
+        "triangles": 840,
+        "error": 0.0
+      }
+    ]
+  },
+  {
+    "error_limit": 0.005,
+    "normal_weight": 0.3,
+    "options": 32,
+    "triangles": 118755,
+    "parts": [
+      {
+        "node": 4,
+        "triangles": 7157,
+        "error": 0.004979509394615889
+      },
+      {
+        "node": 5,
+        "triangles": 3942,
+        "error": 0.00497780367732048
+      },
+      {
+        "node": 6,
+        "triangles": 500,
+        "error": 0.004892704542726278
+      },
+      {
+        "node": 9,
+        "triangles": 721,
+        "error": 0.004946152679622173
+      },
+      {
+        "node": 10,
+        "triangles": 199,
+        "error": 0.004958302713930607
+      },
+      {
+        "node": 13,
+        "triangles": 1878,
+        "error": 0.004948621150106192
+      },
+      {
+        "node": 14,
+        "triangles": 80,
+        "error": 0.0
+      },
+      {
+        "node": 17,
+        "triangles": 7782,
+        "error": 0.004986440297216177
+      },
+      {
+        "node": 18,
+        "triangles": 504,
+        "error": 0.004710083361715078
+      },
+      {
+        "node": 21,
+        "triangles": 558,
+        "error": 0.0049787829630076885
+      },
+      {
+        "node": 22,
+        "triangles": 428,
+        "error": 0.004830151330679655
+      },
+      {
+        "node": 25,
+        "triangles": 1028,
+        "error": 0.004954636096954346
+      },
+      {
+        "node": 29,
+        "triangles": 1158,
+        "error": 0.004979272838681936
+      },
+      {
+        "node": 30,
+        "triangles": 16,
+        "error": 0.0
+      },
+      {
+        "node": 33,
+        "triangles": 856,
+        "error": 0.004907140042632818
+      },
+      {
+        "node": 36,
+        "triangles": 3039,
+        "error": 0.004974819254130125
+      },
+      {
+        "node": 37,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 38,
+        "triangles": 315,
+        "error": 0.00497717410326004
+      },
+      {
+        "node": 41,
+        "triangles": 4316,
+        "error": 0.004971794784069061
+      },
+      {
+        "node": 42,
+        "triangles": 64,
+        "error": 0.0
+      },
+      {
+        "node": 43,
+        "triangles": 96,
+        "error": 0.0
+      },
+      {
+        "node": 46,
+        "triangles": 2446,
+        "error": 0.004984911996871233
+      },
+      {
+        "node": 47,
+        "triangles": 2376,
+        "error": 0.0049668592400848866
+      },
+      {
+        "node": 48,
+        "triangles": 64,
+        "error": 0.0
+      },
+      {
+        "node": 49,
+        "triangles": 128,
+        "error": 0.0
+      },
+      {
+        "node": 52,
+        "triangles": 1856,
+        "error": 0.004962320905178785
+      },
+      {
+        "node": 53,
+        "triangles": 32,
+        "error": 0.0
+      },
+      {
+        "node": 54,
+        "triangles": 130,
+        "error": 0.0
+      },
+      {
+        "node": 57,
+        "triangles": 1567,
+        "error": 0.0049637602642178535
+      },
+      {
+        "node": 58,
+        "triangles": 32,
+        "error": 0.0
+      },
+      {
+        "node": 59,
+        "triangles": 162,
+        "error": 0.00038029850111342967
+      },
+      {
+        "node": 63,
+        "triangles": 1958,
+        "error": 0.004937965422868729
+      },
+      {
+        "node": 64,
+        "triangles": 52,
+        "error": 0.0
+      },
+      {
+        "node": 71,
+        "triangles": 232,
+        "error": 0.004915667697787285
+      },
+      {
+        "node": 74,
+        "triangles": 106,
+        "error": 0.004724061116576195
+      },
+      {
+        "node": 77,
+        "triangles": 218,
+        "error": 0.00499317143112421
+      },
+      {
+        "node": 80,
+        "triangles": 118,
+        "error": 0.004908803850412369
+      },
+      {
+        "node": 83,
+        "triangles": 3343,
+        "error": 0.0049681346863508224
+      },
+      {
+        "node": 84,
+        "triangles": 299,
+        "error": 0.00496659753844142
+      },
+      {
+        "node": 85,
+        "triangles": 217,
+        "error": 0.004935267381370068
+      },
+      {
+        "node": 88,
+        "triangles": 3895,
+        "error": 0.004977560136467218
+      },
+      {
+        "node": 89,
+        "triangles": 50,
+        "error": 0.004953405354171991
+      },
+      {
+        "node": 90,
+        "triangles": 301,
+        "error": 0.004966024775058031
+      },
+      {
+        "node": 93,
+        "triangles": 2676,
+        "error": 0.004977739881724119
+      },
+      {
+        "node": 94,
+        "triangles": 12,
+        "error": 0.0
+      },
+      {
+        "node": 95,
+        "triangles": 378,
+        "error": 0.004963376093655825
+      },
+      {
+        "node": 98,
+        "triangles": 7336,
+        "error": 0.004976198542863131
+      },
+      {
+        "node": 99,
+        "triangles": 299,
+        "error": 0.00484158331528306
+      },
+      {
+        "node": 100,
+        "triangles": 376,
+        "error": 0.004873109515756369
+      },
+      {
+        "node": 103,
+        "triangles": 2772,
+        "error": 0.004978220909833908
+      },
+      {
+        "node": 104,
+        "triangles": 721,
+        "error": 0.004966780077666044
+      },
+      {
+        "node": 107,
+        "triangles": 1690,
+        "error": 0.004967952612787485
+      },
+      {
+        "node": 108,
+        "triangles": 14,
+        "error": 0.004968724213540554
+      },
+      {
+        "node": 109,
+        "triangles": 61,
+        "error": 0.004728780593723059
+      },
+      {
+        "node": 113,
+        "triangles": 380,
+        "error": 0.0039521814323961735
+      },
+      {
+        "node": 116,
+        "triangles": 560,
+        "error": 0.003510155715048313
+      },
+      {
+        "node": 119,
+        "triangles": 966,
+        "error": 0.004955179989337921
+      },
+      {
+        "node": 120,
+        "triangles": 513,
+        "error": 0.004959417972713709
+      },
+      {
+        "node": 123,
+        "triangles": 668,
+        "error": 0.0048872544430196285
+      },
+      {
+        "node": 126,
+        "triangles": 672,
+        "error": 0.0049009136855602264
+      },
+      {
+        "node": 129,
+        "triangles": 232,
+        "error": 0.004462613258510828
+      },
+      {
+        "node": 132,
+        "triangles": 152,
+        "error": 0.004944743122905493
+      },
+      {
+        "node": 135,
+        "triangles": 432,
+        "error": 0.004965410102158785
+      },
+      {
+        "node": 136,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 139,
+        "triangles": 186,
+        "error": 0.004956748336553574
+      },
+      {
+        "node": 142,
+        "triangles": 1380,
+        "error": 0.004967019893229008
+      },
+      {
+        "node": 143,
+        "triangles": 75,
+        "error": 0.004898482002317905
+      },
+      {
+        "node": 146,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 149,
+        "triangles": 878,
+        "error": 0.004982428625226021
+      },
+      {
+        "node": 150,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 155,
+        "triangles": 367,
+        "error": 0.0007971384911797941
+      },
+      {
+        "node": 156,
+        "triangles": 101,
+        "error": 0.004042337648570538
+      },
+      {
+        "node": 159,
+        "triangles": 224,
+        "error": 0.0
+      },
+      {
+        "node": 162,
+        "triangles": 288,
+        "error": 0.0
+      },
+      {
+        "node": 165,
+        "triangles": 224,
+        "error": 0.0
+      },
+      {
+        "node": 168,
+        "triangles": 88,
+        "error": 0.0
+      },
+      {
+        "node": 171,
+        "triangles": 88,
+        "error": 0.0
+      },
+      {
+        "node": 176,
+        "triangles": 380,
+        "error": 0.0039521814323961735
+      },
+      {
+        "node": 179,
+        "triangles": 560,
+        "error": 0.003510155715048313
+      },
+      {
+        "node": 182,
+        "triangles": 966,
+        "error": 0.004955179989337921
+      },
+      {
+        "node": 183,
+        "triangles": 513,
+        "error": 0.004959417972713709
+      },
+      {
+        "node": 186,
+        "triangles": 668,
+        "error": 0.0048872544430196285
+      },
+      {
+        "node": 189,
+        "triangles": 672,
+        "error": 0.0049009136855602264
+      },
+      {
+        "node": 192,
+        "triangles": 232,
+        "error": 0.004462613258510828
+      },
+      {
+        "node": 195,
+        "triangles": 152,
+        "error": 0.004944743122905493
+      },
+      {
+        "node": 198,
+        "triangles": 432,
+        "error": 0.004965410102158785
+      },
+      {
+        "node": 199,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 202,
+        "triangles": 1380,
+        "error": 0.004967019893229008
+      },
+      {
+        "node": 203,
+        "triangles": 75,
+        "error": 0.004898482002317905
+      },
+      {
+        "node": 206,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 209,
+        "triangles": 878,
+        "error": 0.004982428625226021
+      },
+      {
+        "node": 210,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 214,
+        "triangles": 380,
+        "error": 0.0039521814323961735
+      },
+      {
+        "node": 217,
+        "triangles": 560,
+        "error": 0.003510155715048313
+      },
+      {
+        "node": 220,
+        "triangles": 966,
+        "error": 0.004955179989337921
+      },
+      {
+        "node": 221,
+        "triangles": 513,
+        "error": 0.004959417972713709
+      },
+      {
+        "node": 224,
+        "triangles": 668,
+        "error": 0.0048872544430196285
+      },
+      {
+        "node": 227,
+        "triangles": 672,
+        "error": 0.0049009136855602264
+      },
+      {
+        "node": 230,
+        "triangles": 232,
+        "error": 0.004462613258510828
+      },
+      {
+        "node": 233,
+        "triangles": 152,
+        "error": 0.004944743122905493
+      },
+      {
+        "node": 236,
+        "triangles": 432,
+        "error": 0.004965410102158785
+      },
+      {
+        "node": 237,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 240,
+        "triangles": 1380,
+        "error": 0.004967019893229008
+      },
+      {
+        "node": 241,
+        "triangles": 75,
+        "error": 0.004898482002317905
+      },
+      {
+        "node": 244,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 247,
+        "triangles": 878,
+        "error": 0.004982428625226021
+      },
+      {
+        "node": 248,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 252,
+        "triangles": 380,
+        "error": 0.0039521814323961735
+      },
+      {
+        "node": 255,
+        "triangles": 560,
+        "error": 0.003510155715048313
+      },
+      {
+        "node": 258,
+        "triangles": 966,
+        "error": 0.004955179989337921
+      },
+      {
+        "node": 259,
+        "triangles": 513,
+        "error": 0.004959417972713709
+      },
+      {
+        "node": 262,
+        "triangles": 668,
+        "error": 0.0048872544430196285
+      },
+      {
+        "node": 265,
+        "triangles": 672,
+        "error": 0.0049009136855602264
+      },
+      {
+        "node": 268,
+        "triangles": 232,
+        "error": 0.004462613258510828
+      },
+      {
+        "node": 271,
+        "triangles": 152,
+        "error": 0.004944743122905493
+      },
+      {
+        "node": 274,
+        "triangles": 440,
+        "error": 0.0049627190455794334
+      },
+      {
+        "node": 275,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 278,
+        "triangles": 1380,
+        "error": 0.004967019893229008
+      },
+      {
+        "node": 279,
+        "triangles": 75,
+        "error": 0.004898482002317905
+      },
+      {
+        "node": 282,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 285,
+        "triangles": 878,
+        "error": 0.004982428625226021
+      },
+      {
+        "node": 286,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 290,
+        "triangles": 380,
+        "error": 0.0039521814323961735
+      },
+      {
+        "node": 293,
+        "triangles": 560,
+        "error": 0.003510155715048313
+      },
+      {
+        "node": 296,
+        "triangles": 966,
+        "error": 0.004955179989337921
+      },
+      {
+        "node": 297,
+        "triangles": 513,
+        "error": 0.004959417972713709
+      },
+      {
+        "node": 300,
+        "triangles": 668,
+        "error": 0.0048872544430196285
+      },
+      {
+        "node": 303,
+        "triangles": 672,
+        "error": 0.0049009136855602264
+      },
+      {
+        "node": 306,
+        "triangles": 232,
+        "error": 0.004462613258510828
+      },
+      {
+        "node": 309,
+        "triangles": 152,
+        "error": 0.004944743122905493
+      },
+      {
+        "node": 312,
+        "triangles": 432,
+        "error": 0.004965410102158785
+      },
+      {
+        "node": 313,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 316,
+        "triangles": 1380,
+        "error": 0.004967019893229008
+      },
+      {
+        "node": 317,
+        "triangles": 75,
+        "error": 0.004898482002317905
+      },
+      {
+        "node": 320,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 323,
+        "triangles": 878,
+        "error": 0.004982428625226021
+      },
+      {
+        "node": 324,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 328,
+        "triangles": 380,
+        "error": 0.0039521814323961735
+      },
+      {
+        "node": 331,
+        "triangles": 560,
+        "error": 0.003510155715048313
+      },
+      {
+        "node": 334,
+        "triangles": 966,
+        "error": 0.004955179989337921
+      },
+      {
+        "node": 335,
+        "triangles": 513,
+        "error": 0.004959417972713709
+      },
+      {
+        "node": 338,
+        "triangles": 668,
+        "error": 0.0048872544430196285
+      },
+      {
+        "node": 341,
+        "triangles": 672,
+        "error": 0.0049009136855602264
+      },
+      {
+        "node": 344,
+        "triangles": 232,
+        "error": 0.004462613258510828
+      },
+      {
+        "node": 347,
+        "triangles": 152,
+        "error": 0.004944743122905493
+      },
+      {
+        "node": 350,
+        "triangles": 432,
+        "error": 0.004965410102158785
+      },
+      {
+        "node": 351,
+        "triangles": 206,
+        "error": 0.0
+      },
+      {
+        "node": 354,
+        "triangles": 1380,
+        "error": 0.004967019893229008
+      },
+      {
+        "node": 355,
+        "triangles": 75,
+        "error": 0.004898482002317905
+      },
+      {
+        "node": 358,
+        "triangles": 144,
+        "error": 0.0
+      },
+      {
+        "node": 361,
+        "triangles": 878,
+        "error": 0.004982428625226021
+      },
+      {
+        "node": 362,
+        "triangles": 18,
+        "error": 0.0
+      },
+      {
+        "node": 366,
+        "triangles": 558,
+        "error": 0.0049787829630076885
+      },
+      {
+        "node": 367,
+        "triangles": 428,
+        "error": 0.004830085672438145
+      },
+      {
+        "node": 370,
+        "triangles": 714,
+        "error": 0.004942791070789099
+      },
+      {
+        "node": 371,
+        "triangles": 197,
+        "error": 0.004958302713930607
+      },
+      {
+        "node": 374,
+        "triangles": 186,
+        "error": 0.004956748336553574
+      },
+      {
+        "node": 377,
+        "triangles": 186,
+        "error": 0.004956748336553574
+      },
+      {
+        "node": 380,
+        "triangles": 186,
+        "error": 0.004956748336553574
+      },
+      {
+        "node": 383,
+        "triangles": 186,
+        "error": 0.004956748336553574
+      },
+      {
+        "node": 386,
+        "triangles": 186,
+        "error": 0.004956748336553574
+      }
+    ]
+  }
+]

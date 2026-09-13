@@ -1,0 +1,31 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "meshes": 5,
+  "materials": 17,
+  "textures": 27,
+  "all_mesh_material_texture_references_resolved": true,
+  "zero_compiler_tangent_fallbacks": true,
+  "required_boarding_and_four_exhaust_points": true,
+  "inherited_donor_near_perpendicular_faces": [
+    {
+      "part": "base",
+      "unique_near_perpendicular_faces": 3,
+      "instances_across16guns": 48,
+      "old_min_cosine": -3.3955366772156244e-06,
+      "new_min_cosine": -3.3955366772156244e-06,
+      "geometry_normals_uv_exactly_preserved_before_compile": true,
+      "unordered_triangle_membership_exactly_preserved": true,
+      "accepted_existing_tolerance": 1e-05
+    },
+    {
+      "part": "barrel",
+      "unique_near_perpendicular_faces": 9,
+      "instances_across16guns": 144,
+      "old_min_cosine": -1.2020169536859024e-06,
+      "new_min_cosine": -1.8028028504939529e-06,
+      "geometry_normals_uv_exactly_preserved_before_compile": true,
+      "unordered_triangle_membership_exactly_preserved": true,
+      "accepted_existing_tolerance": 1e-05
+    }
+  ]
+}
