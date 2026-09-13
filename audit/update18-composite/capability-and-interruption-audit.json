@@ -1,0 +1,67 @@
+{
+  "status": "Capability audit; dependent study/production/plating NOT IMPLEMENTED pending gates",
+  "source_hashes": {
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/scripts/event_metadata.lua": "359f1692b201d1c33f535d6aa16ac347c3c9771d41d3700ca5fe93431b217639",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/scripts/pirate_incursion.lua": "5d80d07db7bab052bd00544c0565b008fc15342eeb6a980a25d81aea43cd2a55",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/gui/hud_exotics_window.gui": "a84696bf2f8559cb1ff69a0625fbe9a3e1d6ecc358ca3ae3ea5a3643fc000213",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/unit_mutation.uniforms": "e7e20597ebd8c0ce3def8e077233415c4a0f93a798316e9bacb6e5e260aac820",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/buff-schema.json": "3168c93503e336251d421a6a632911840ee3bf34dec8243281423681f941293d",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/action-data-source-schema.json": "4a762b71a3e30715e2c0e5ea0df0eced70edbefb33f8e8651e9bc0d49160d6e4",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/player-schema.json": "83cadc0ffaf864118a1f7d88ae64fad0743e8817952d30f863f8c16c45983734",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/unit-item-schema.json": "3ec1534f4841b0b7dbd4720f36c96c17766852746e4906394616f95a5d9810d7",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/exotic-uniforms-schema.json": "23324aa32e827ca238242776527e56f50302f5e19097173bc61aeb4aa9e5632c"
+  },
+  "resource": {
+    "registration": "exotic.uniforms/type_datas[] name and entity both arbitrary string; no schema maxItems or five-type enum",
+    "costs": "player-schema/$defs/exotic_type, unit-item-schema/$defs/exotic_type and action-data-source-schema/$defs/exotic_type are arbitrary strings",
+    "custom_sound": "exotic-schema insufficient_exotics_player_sound_id accepts insufficient_custom_exotics_a/b/c; nativeTECplayer soundmaps already bind allthree",
+    "factory": "player.buildable_exotics[] points exotic_name to factory_build_price/time/prerequisites; no production fragment enabled",
+    "reward": "native trader_economic_exotic_build_rate.research_subject windfall.exotics_given used by one-shot probe",
+    "UI": "hud_exotics_window has shared definition and grids but native widths/layout tunedforfive entries; no runtime proof of sixth visibility, scrolling or per-resource persistence",
+    "AI": "exotic.ai_trade_value explicit1200 in probe; valuation is a hint, not evidenceAIcan manufacture/equip/use newmaterial",
+    "limitations": "Schemas expose customtype capability; actual engine registration, display, serialization, ownership, spending and multiplayer must pass. No other exotic is renamed."
+  },
+  "paid_study": {
+    "desired_authoritative_state": [
+      "labunitID",
+      "ownerplayerIDatcommit",
+      "paidcommitID",
+      "startsimulationtick",
+      "completionflag",
+      "authorization/sampleknowledge"
+    ],
+    "verified_native_interfaces": [
+      "context.instance per-instance table",
+      "context.shared event-wide table",
+      "context.current_tick deterministic simulationtick",
+      "context.cancel andcontext.complete onlyon_update",
+      "simulation.get_unit_by_id, unit.owner_id andcurrent_gravity_well_id",
+      "simulation.give_research(player,research_subject_def_name), requiresnodeinownerresearchtree"
+    ],
+    "missing_or_unverified": [
+      "ability/item paidcommit callback or query",
+      "atomic resource debit paired with acceptedcommit",
+      "sampleauthorization inventory/knowledge read",
+      "saved eventinstance restoration and dedup semantics",
+      "full playeridentity+sector globalnotification templates to unseenemies",
+      "oneactivestudyperowner across simultaneouslabs, capture and reconnect"
+    ],
+    "rejected_shortcuts": [
+      "empireresearch180s with cosmeticlabcountdown",
+      "complete knowledge merelywhen labexists aftertimer",
+      "externalPython/file/wallclock ledgers",
+      "fixed completion reward independent of actual lab death/capture"
+    ],
+    "next_gate": "Operations smoke probe must prove realobject cancellation and global earlywarning; then connect a VERIFIED paidcommit path, death/ownershipchecks and single-owner state beforegrantresearch. No production unlock is generated."
+  },
+  "plating": {
+    "baseline_item_absent": true,
+    "guard_conflict": "Everyeligiblehull has expanse11_no_shields persistentbuff disabling absorption, shieldrestoration and passive shieldregen. Addingcapacityitem alone cannotmake a functionalshield-backed layer.",
+    "no_enable_override": "unit_mutation permission_infos for can_shields_absorb_damage/can_have_shields_restored/can_passively_regenerate_shields have disablingmutations only; no documented enablewins switch.",
+    "required_lifecycle_gate": "Need verified conditional removal/reapplication of guard tied to actualequippeditem, including sell/capture/load; preserve guard for hulls withoutitem. Do notgloballyremove it.",
+    "regen_semantics": "Native shield_point_restore_cooldown_duration_after_damage_taken can express20s; shield_point_restore_rate can express0.01\u00d7fixedcapacity. Whether shield-bypass hull damage resets delay must be measured, not inferred.",
+    "burst": "Keep shield_burst_restore restore_percentage0 and no enable_can_have_shields_burst_restored mutation, plus shieldrestoration abilities audit.",
+    "refill_exploit_gate": "Install/remove/rebuy mustnot refill instantly; itemcapacity changes may reset currentpoints. No verified engine clamp/ownership/save lifecycle solution authored.",
+    "inheritance": "TECshieldresearch modifiers were removed/hidden in0.17; eligibleunits zero capacity/recharge and original guard. Foreignally/capturedship providers, shielddrain/bypass/shieldonlydamage still engine-specific; naming plating doesnotchange this."
+  }
+}

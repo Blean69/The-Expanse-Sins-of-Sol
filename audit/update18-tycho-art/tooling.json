@@ -1,0 +1,27 @@
+{
+  "isolated_recovery_dependencies": {
+    "ImageIO": "2.37.4",
+    "packaging": "26.3",
+    "numpy": "2.5.3",
+    "networkx": "3.6.1",
+    "scikit-image": "0.26.0",
+    "scipy": "1.18.1",
+    "lazy-loader": "0.5",
+    "pillow": "12.3.0",
+    "tifffile": "2026.9.9"
+  },
+  "python": "3.14.4 (main, Aug 20 2026, 10:41:58) [GCC 15.2.0]",
+  "scope": "Read/parse recovery tool only; no runtime game dependency",
+  "meshoptimizer_library_sha256": "1877da479e08797a1b688e5eacabac1900b89d2f4efd89a5ae5c8d5626356ef4",
+  "package_records": {
+    ".tools/tycho18-packages/imageio-2.37.4.dist-info/RECORD": "eb498b2714083bd576aab75b9a6e39b9ef5b565ab5452fb40f8e47181557c09f",
+    ".tools/tycho18-packages/lazy_loader-0.5.dist-info/RECORD": "5f9f95fb489ce18aaff5957e06e9970a72dee7b08b16d7212fca8c76fc307480",
+    ".tools/tycho18-packages/networkx-3.6.1.dist-info/RECORD": "4b8085daefdaf9459f9d91d928771d69de1f196bcc9d8d01469501f3988cff29",
+    ".tools/tycho18-packages/numpy-2.5.3.dist-info/RECORD": "6b1c49bdac9d653f182cbdc937122bb9b2cf83485562f1bd8e1b68e4c8cc8144",
+    ".tools/tycho18-packages/packaging-26.3.dist-info/RECORD": "fb96d1369585ab87d62ad98728c89d2e67274ad060f012c85e358ba17ca92577",
+    ".tools/tycho18-packages/pillow-12.3.0.dist-info/RECORD": "68376a303a07ca71e5eb0cd97cd48b202ed68d9e7a04cda8380266d24404a235",
+    ".tools/tycho18-packages/scikit_image-0.26.0.dist-info/RECORD": "79ee47f32ba4f12233f61d85d7992fc74630663f85b34a049aa4b60ce0bed98c",
+    ".tools/tycho18-packages/scipy-1.18.1.dist-info/RECORD": "17b6953ee4e4a371f7c3bdeb2d603b5e11372dd8a9a93e0ad120b87c0bcbaec9",
+    ".tools/tycho18-packages/tifffile-2026.9.9.dist-info/RECORD": "1a46243f0a8a2b523fe18a07f9c4c7352ca02fe63842d7f3db4ad0835b364e21"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "status": "OFFLINE SCHEMA PASS; DISABLED FRAGMENTS ONLY; RUNTIME NOT RUN",
+  "resource_id": "expanse18_prototech_composite",
+  "distinct_from_existing_exotics": true,
+  "existing_type_entries_unchanged": [
+    {
+      "name": "offense",
+      "entity": "offense"
+    },
+    {
+      "name": "defense",
+      "entity": "defense"
+    },
+    {
+      "name": "utility",
+      "entity": "utility"
+    },
+    {
+      "name": "economic",
+      "entity": "economic"
+    },
+    {
+      "name": "ultimate",
+      "entity": "ultimate"
+    }
+  ],
+  "schema_checks": [
+    "expanse18_prototech_composite.exotic",
+    "expanse18_composite_probe_receive_one.research_subject",
+    "expanse18_composite_probe_production_disabled.research_subject",
+    "expanse18_composite_probe_debit_one.unit_item",
+    "merge/uniforms/exotic.uniforms"
+  ],
+  "source_hashes": {
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/utility.exotic": "550e2509bb747e87d0a2289e41ac5a5283414d2b4a522930b4049cd84445eb5c",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_economic_exotic_build_rate.research_subject": "efc61c6716a21e768aea30b87fa4bfa1238beb07c63104b9c4a486d4ef9ce9dc",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_heavy_armor.unit_item": "e7e9b7b6494961b6e2ab76085b3f7cb1d6bcfc7969a2c3af6d3610ddfce93e6f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/exotic-schema.json": "af4ae959bd43bdf6da61ad7ad039c3f13cb6563805de3a6faeae5d1ec56149bd",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/research-subject-schema.json": "e5858238bd357c24ba87dd59501325b76c8a3e8270a04a864fdf075fbff1483e",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/unit-item-schema.json": "3ec1534f4841b0b7dbd4720f36c96c17766852746e4906394616f95a5d9810d7",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/exotic.uniforms": "943784b35fab196aca570f7df63e92405dc30c0225557ec227cbeb9f83a0a49e",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/exotic-uniforms-schema.json": "23324aa32e827ca238242776527e56f50302f5e19097173bc61aeb4aa9e5632c"
+  },
+  "output_resources": {
+    "entities/expanse18_composite_probe_receive_one.research_subject": "11e5173711f785f65d35d42e6d0815c0766a97d376d55b6ea140ccebcd02b2b7",
+    "entities/expanse18_prototech_composite.exotic": "16d3aa94db218f98c31bed75bb480dac7a8ff4b6b7a4cb92b04e807f7e71b27c",
+    "entities/expanse18_composite_probe_debit_one.unit_item": "2f780bdace807035c1515f065feb458747ecc9eafc2967b100ab0c61b5a18a79",
+    "entities/expanse18_composite_probe_production_disabled.research_subject": "2dd28d258808a662f13d230d684d6e2f69a19fb900e9c7efb2c1feceba01eb67",
+    "merge/localization.json": "9e089753d3b8ad0aad366dddeae7a1ac8c3a746a42ded47b3f5ab060f0cab97f",
+    "merge/player-fragments.json": "b035a9f87d1911b01a47b262970cd2405dad12aae50fb012434a32779220507f",
+    "merge/manifest-additions.json": "e0608c97026b37f057fb65ff5ef70eba3e2b1262d40730c462b440b636811497",
+    "merge/uniforms/exotic.uniforms": "b56c54d2a9129c0a6f79015533f56a8fc98a5e4f55923891acdeede9d1eaa680"
+  },
+  "runtime_gates": [
+    {
+      "gate": "new exotic accepted by engine registry",
+      "status": "NOT RUN"
+    },
+    {
+      "gate": "receive1 from actual windfall",
+      "status": "NOT RUN"
+    },
+    {
+      "gate": "distinct resource visible in HUD / insufficient-resource feedback",
+      "status": "NOT RUN"
+    },
+    {
+      "gate": "save/reload balance1",
+      "status": "NOT RUN"
+    },
+    {
+      "gate": "spend1 on real item leaves0",
+      "status": "NOT RUN"
+    },
+    {
+      "gate": "second eligible empty-slot purchase rejected at0",
+      "status": "NOT RUN"
+    },
+    {
+      "gate": "simultaneous purchases cannot overspend",
+      "status": "NOT RUN"
+    },
+    {
+      "gate": "ownerA receipt/spend never changes ownerB/C balances",
+      "status": "NOT RUN"
+    },
+    {
+      "gate": "multiplayer and save parity",
+      "status": "NOT RUN"
+    }
+  ],
+  "no_dependent_features_built": [
+    "real paid containment study",
+    "composite refinery/production",
+    "Adaptive Composite Plating",
+    "global study announcements"
+  ],
+  "integration_warning": "Do not copy merge/ into game expecting registration. Main owns merging uniforms/manifests/player/localization into a deliberately separate disabled probe package; no mod metadata or playable package emitted."
+}

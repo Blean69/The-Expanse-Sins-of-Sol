@@ -1,0 +1,45 @@
+{
+  "status": "PASS OFFLINE GEOMETRY ONLY",
+  "source_sha256": "46e78de85bbb5b4510ffedb48a5cb6438e61a82a75768466acf38332ddcad0ab",
+  "parts": [
+    {
+      "material": "expanse18_tycho_industrial_grey",
+      "triangles": 224779,
+      "finite_attributes": true,
+      "winding_matches_normals": true
+    },
+    {
+      "material": "expanse18_tycho_machinery",
+      "triangles": 12498,
+      "finite_attributes": true,
+      "winding_matches_normals": true
+    },
+    {
+      "material": "expanse18_tycho_ochre_panels",
+      "triangles": 1440,
+      "finite_attributes": true,
+      "winding_matches_normals": true
+    },
+    {
+      "material": "expanse18_tycho_dock_markings",
+      "triangles": 271,
+      "finite_attributes": true,
+      "winding_matches_normals": true
+    },
+    {
+      "material": "expanse18_tycho_warm_habitat_windows",
+      "triangles": 384,
+      "finite_attributes": true,
+      "winding_matches_normals": true
+    },
+    {
+      "material": "expanse18_tycho_cool_work_lights",
+      "triangles": 96,
+      "finite_attributes": true,
+      "winding_matches_normals": true
+    }
+  ],
+  "total_triangles": 239468,
+  "visual_review": "CPU side/oblique previews inspected: recognizable ring/core, colored zones and light patches; print facets and irregular panel edges remain",
+  "game_render": "NOT RUN"
+}

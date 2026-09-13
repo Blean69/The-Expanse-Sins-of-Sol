@@ -1,6 +1,6 @@
 # The Expanse — Sins II corvette prototype
 
-**Current update: [0.17 Fleet voices](docs/update17.md).** Adds 23 normalized ship recordings, distinct fleet introductions and UNN crew responses. Full 0.16 gameplay, models, music and PDC audio retained. Offline checks pass; listening and in-game voice/save/multiplayer tests remain pending. Load alone as TEC Enclave; [0.16 rollback](docs/update16.md) is preserved.
+**Staged candidate: [0.18 Sol Gate 1](docs/update18.md).** Three shared UNN/MCRN/OPA identities and the small three-home scenario, preserving the complete 0.17 fleet. Offline checks pass; editor/game/multiplayer acceptance is pending. Full Sol geography and later recovery/Tycho/composite progression remain gated. **Accepted rollback: [0.17 Fleet voices](docs/update17.md)**, broadly reported working by the user. The current milestone explicitly forbids remote push, publication and automatic installation, superseding older push instructions below.
 
 The user has now observed **individual PDC tracking and good tracer appearance** in the polish prototype. Residual hull holes and floating turret supports remain recorded defects. The working **0.2.1** package and installed copy are preserved. New work is staged separately under `build/experiments/expanse_corvette_ammo03` and `build/experiments/expanse_rocinante03`; see [0.3 handoff](docs/combat03.md) for exact package availability and runtime limits.
 

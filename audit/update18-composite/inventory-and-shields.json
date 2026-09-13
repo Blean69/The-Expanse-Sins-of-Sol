@@ -1,0 +1,243 @@
+{
+  "baseline": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update17",
+  "plating_entity_inventory": [],
+  "actual_item_absent": true,
+  "shield_guard": {
+    "version": 0,
+    "stacking_limit": {
+      "stacking_limit": "fixed_one",
+      "stacking_limit_met_behavior": "preserve_existing_buff"
+    },
+    "stacking_ownership_type": "for_all_players",
+    "restart_other_stacked_buffs_when_started": false,
+    "unit_mutations": [
+      "disable_can_shields_absorb_damage",
+      "disable_can_have_shields_restored",
+      "disable_can_passively_regenerate_shields"
+    ]
+  },
+  "permissions": {
+    "can_have_shields_bypassed": {
+      "disabling_mutations": [
+        "disable_can_have_shields_bypassed"
+      ]
+    },
+    "can_have_shields_restored": {
+      "disabling_mutations": [
+        "disable_can_have_shields_restored"
+      ]
+    },
+    "can_shields_absorb_damage": {
+      "disabling_mutations": [
+        "disable_can_shields_absorb_damage"
+      ]
+    },
+    "can_have_shields_burst_restored": {
+      "enabling_mutation": "enable_can_have_shields_burst_restored"
+    },
+    "can_passively_regenerate_shields": {
+      "disabling_mutations": [
+        "disable_can_passively_regenerate_shields",
+        "in_phase_space"
+      ]
+    }
+  },
+  "eligibility_audit": [
+    {
+      "unit": "expanse_rocinante_hero",
+      "sha256": "cc444c40300036a47552635638041f89dcbeb8f8bc0ccb04b73ea02fbe91123c",
+      "unmodified_base_hull": 3000.0,
+      "base_shields": 0,
+      "base_shield_regeneration": 0.0,
+      "base_shield_delay": 20.0,
+      "shield_burst": {
+        "cooldown_duration": 30.0,
+        "restore_percentage": 0.0
+      },
+      "guard_present_in_all_ability_sets": true,
+      "design_only_12_percent_capacity": 360.0,
+      "design_only_regeneration_1_percent_capacity": 3.6,
+      "not_implemented": "Resource, shield-guard lifecycle, study interruption and refill tests have not passed runtime gates."
+    },
+    {
+      "unit": "expanse12_pella",
+      "sha256": "facde92f4c4591932efd332f6c323fc75a08c6d1626b3b61136aa4306b2f0619",
+      "unmodified_base_hull": 5400.0,
+      "base_shields": 0.0,
+      "base_shield_regeneration": 0.0,
+      "base_shield_delay": 20.0,
+      "shield_burst": {
+        "cooldown_duration": 50.0,
+        "restore_percentage": 0.0
+      },
+      "guard_present_in_all_ability_sets": true,
+      "design_only_12_percent_capacity": 648.0,
+      "design_only_regeneration_1_percent_capacity": 6.48,
+      "not_implemented": "Resource, shield-guard lifecycle, study interruption and refill tests have not passed runtime gates."
+    },
+    {
+      "unit": "expanse12_raptor",
+      "sha256": "8807ac83f3b99b57675692edef6b412050458d5b4068ab8a4eddcd8a1b378e04",
+      "unmodified_base_hull": 4500.0,
+      "base_shields": 0.0,
+      "base_shield_regeneration": 0.0,
+      "base_shield_delay": 20.0,
+      "shield_burst": {
+        "cooldown_duration": 50.0,
+        "restore_percentage": 0.0
+      },
+      "guard_present_in_all_ability_sets": true,
+      "design_only_12_percent_capacity": 540.0,
+      "design_only_regeneration_1_percent_capacity": 5.4,
+      "not_implemented": "Resource, shield-guard lifecycle, study interruption and refill tests have not passed runtime gates."
+    },
+    {
+      "unit": "expanse12_scirocco",
+      "sha256": "9962359a0345afd7900485ae84fe096e0a0aaa2a7d1c240b334b28cc87f19cea",
+      "unmodified_base_hull": 6500.0,
+      "base_shields": 0.0,
+      "base_shield_regeneration": 0.0,
+      "base_shield_delay": 20.0,
+      "shield_burst": {
+        "cooldown_duration": 50.0,
+        "restore_percentage": 0.0
+      },
+      "guard_present_in_all_ability_sets": true,
+      "design_only_12_percent_capacity": 780.0,
+      "design_only_regeneration_1_percent_capacity": 7.8,
+      "not_implemented": "Resource, shield-guard lifecycle, study interruption and refill tests have not passed runtime gates."
+    },
+    {
+      "unit": "expanse15_truman",
+      "sha256": "cd6180ab4ac7521be15529f5d1b7f4ba4b9bc042dfc773b2297c179e18d470ed",
+      "unmodified_base_hull": 22000.0,
+      "base_shields": 0.0,
+      "base_shield_regeneration": 0.0,
+      "base_shield_delay": 20.0,
+      "shield_burst": {
+        "cooldown_duration": 50.0,
+        "restore_percentage": 0.0
+      },
+      "guard_present_in_all_ability_sets": true,
+      "design_only_12_percent_capacity": 2640.0,
+      "design_only_regeneration_1_percent_capacity": 26.4,
+      "not_implemented": "Resource, shield-guard lifecycle, study interruption and refill tests have not passed runtime gates."
+    },
+    {
+      "unit": "expanse_donnager_battleship",
+      "sha256": "77b336e9f32430c4011cd4918de964ac6d9d74e1cc5ed68e56567b7e9e4f4c48",
+      "unmodified_base_hull": 14520.0,
+      "base_shields": 0.0,
+      "base_shield_regeneration": 0.0,
+      "base_shield_delay": 20.0,
+      "shield_burst": {
+        "cooldown_duration": 70.0,
+        "restore_percentage": 0.0
+      },
+      "guard_present_in_all_ability_sets": true,
+      "design_only_12_percent_capacity": 1742.4,
+      "design_only_regeneration_1_percent_capacity": 17.42,
+      "not_implemented": "Resource, shield-guard lifecycle, study interruption and refill tests have not passed runtime gates."
+    }
+  ],
+  "remaining_shield_modifiers_in_baseline": [
+    {
+      "definition": "trader_command_cruiser_embolden.action_data_source",
+      "shield_modifiers": [
+        {
+          "path": "/buff_unit_modifiers/0/buff_unit_modifier",
+          "modifier": {
+            "modifier_type": "shield_point_restore_scalar_after_damage_taken",
+            "value_behavior": "additive",
+            "value_id": "embolden_shield_point_restore_scalar_after_damage_taken_bonus_value"
+          }
+        }
+      ]
+    },
+    {
+      "definition": "trader_loyalist_titan_planetary_shield_array.action_data_source",
+      "shield_modifiers": [
+        {
+          "path": "/buff_planet_modifiers/0/buff_planet_modifier",
+          "modifier": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_max_shield_points"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/1/buff_planet_modifier",
+          "modifier": {
+            "modifier_type": "shield_points_restore_rate",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_restore"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/2/buff_planet_modifier",
+          "modifier": {
+            "modifier_type": "planet_shield_burst_restore",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_burst_restore_percentage"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/3/buff_planet_modifier",
+          "modifier": {
+            "modifier_type": "planet_shield_burst_cooldown",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_burst_cooldown_time"
+          }
+        }
+      ]
+    },
+    {
+      "definition": "trader_starbase_planetary_shield_array.action_data_source",
+      "shield_modifiers": [
+        {
+          "path": "/buff_planet_modifiers/0/buff_planet_modifier",
+          "modifier": {
+            "modifier_type": "max_shield_points",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_max_shield_points"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/1/buff_planet_modifier",
+          "modifier": {
+            "modifier_type": "shield_points_restore_rate",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_restore"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/2/buff_planet_modifier",
+          "modifier": {
+            "modifier_type": "planet_shield_burst_restore",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_burst_restore_percentage"
+          }
+        },
+        {
+          "path": "/buff_planet_modifiers/3/buff_planet_modifier",
+          "modifier": {
+            "modifier_type": "planet_shield_burst_cooldown",
+            "value_behavior": "additive",
+            "value_id": "starbase_planetary_shield_array_shield_burst_cooldown_time"
+          }
+        }
+      ]
+    }
+  ],
+  "shield_named_research_still_listed": {
+    "trader_loyalist": [],
+    "trader_rebel": [],
+    "dlc_trader_loyalist": []
+  },
+  "warnings": [
+    "No plating item or guard change generated.",
+    "Foreign shields/research/providers can act differently after capture; zero capacity and disabled restoration/absorption are distinct protections.",
+    "Removing global guard from an eligible hull would restore inherited shielding behavior even when item is absent; prohibited as shortcut.",
+    "A cosmetic rename does not avoid shield bypass, drain, shield-only damage or native shield recharge-delay semantics."
+  ]
+}

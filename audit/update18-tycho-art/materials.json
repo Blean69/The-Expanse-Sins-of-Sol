@@ -1,0 +1,46 @@
+{
+  "status": "EDITABLE GLTF MATERIAL STUDY ONLY; NOT IN GAME PACKAGE",
+  "triangles": 239468,
+  "removed_degenerate_triangles": 20,
+  "materials": [
+    "industrial_grey",
+    "machinery",
+    "ochre_panels",
+    "dock_markings",
+    "warm_habitat_windows",
+    "cool_work_lights"
+  ],
+  "emissive_patches": [
+    {
+      "material": "warm_habitat_windows",
+      "patches": 192
+    },
+    {
+      "material": "cool_work_lights",
+      "patches": 48
+    }
+  ],
+  "dynamic_lights": 0,
+  "original_textures_recovered": false,
+  "UVs": "New helper planar per-face projections, no original texture atlas; full texture bake pending",
+  "game_mask_contract": {
+    "R": "primary team color",
+    "G": "secondary team color",
+    "B": "emissive strength",
+    "A": "emissive hue strength"
+  },
+  "mask_contract_source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/README.md",
+  "mask_contract_source_sha256": "6d68e50ce5ac3ab555d392e60b4bb8990330171f1ef7c380bc7246ed28f41ce6",
+  "game_shader_conversion": "NOT RUN: glTF emissiveFactor is editable preview, not a claim of Iron Engine mask export",
+  "units": "Source printed millimeters at 25% print scale; gameplay scale not assigned",
+  "limitations": [
+    "Missing supported accessories and original assembly orientation",
+    "Printed strand and infill artifacts, inferred joined core",
+    "No functional mounts or ring animation in art study",
+    "Game bloom/night-side and team-color tests NOT RUN"
+  ],
+  "outputs": {
+    "assets/derived/tycho18-material-study/tycho18_reconstructed_core.bin": "4340d3874837940aa4da61cdb7a3dd6f457e2fd52aec2f8c0f7e982ef04ebbe6",
+    "assets/derived/tycho18-material-study/tycho18_reconstructed_core.gltf": "46e78de85bbb5b4510ffedb48a5cb6438e61a82a75768466acf38332ddcad0ab"
+  }
+}

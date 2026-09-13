@@ -1,0 +1,65 @@
+{
+  "status": "APPROXIMATE CORE; NOT ORIGINAL STL; REVIEW REQUIRED",
+  "archive_sha256": "1f4ff63097207029b6a15cf2947b1ff426177d64d04827e618a36e39d29ba407",
+  "parts": [
+    {
+      "part": "upper",
+      "segments": 689197,
+      "voxel_step_print_mm": 0.4,
+      "voxel_shape": [
+        126,
+        457,
+        457
+      ],
+      "printed_bounds": [
+        [
+          -89.164794921875,
+          -0.19999998807907104,
+          -89.164794921875
+        ],
+        [
+          89.11480712890625,
+          47.80000305175781,
+          89.11480712890625
+        ]
+      ],
+      "vertices": 2007744,
+      "triangles": 4044676,
+      "discarded_isolated_voxels": 19223,
+      "source_sha256": "3d2ad191bfd9da80af80e72d785cb61772374db1ca5770e9d9c2b9d840d01786",
+      "filename": "station-main-antenna-side-b4-v1_25pct-scale_01m.gcode"
+    },
+    {
+      "part": "lower",
+      "segments": 782950,
+      "voxel_step_print_mm": 0.4,
+      "voxel_shape": [
+        156,
+        457,
+        457
+      ],
+      "printed_bounds": [
+        [
+          -89.164794921875,
+          -59.79999542236328,
+          -89.11480712890625
+        ],
+        [
+          89.11480712890625,
+          0.19999998807907104,
+          89.164794921875
+        ]
+      ],
+      "vertices": 1934309,
+      "triangles": 3899546,
+      "discarded_isolated_voxels": 16339,
+      "source_sha256": "ec7fbad9129425469a6e791cb7ded9668bd83df30b1f58caeacf048190e3ad32",
+      "filename": "station-boehemoth-side-b4-v1_25pct-scale_01mm_p.gcode"
+    }
+  ],
+  "excluded": "Three accessory print jobs contain support_material=1 without semantic path labels; support separation unverified.",
+  "losses": "0.4mm voxel sampling at 25% print scale, omitted bottom skirt layers, 1.2mm closing radius at print scale, smoothing and largest-component selection remove detail. Relative half rotation is inferred, not verified source assembly.",
+  "orientation": "Both centered on declared 250x210 bed; lower mirrored around X to join nominal ring split planes.",
+  "source_terms": "Included Printables PDF identifies ewr2san, model5439, CC BY-NC4.0; no original UV/material data.",
+  "runtime": "NOT RUN"
+}

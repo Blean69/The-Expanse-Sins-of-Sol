@@ -1,0 +1,26 @@
+{
+  "status": "Project integration interfaces; not engine keys",
+  "baseline": "build/experiments/expanse_update17",
+  "candidate": "build/experiments/expanse_update18",
+  "faction_ids": ["expanse18_unn", "expanse18_mcrn", "expanse18_opa"],
+  "canonical_player": "trader_loyalist",
+  "scenario_ids": ["expanse18_sol_three_homes", "expanse18_sol_three_powers", "expanse18_operations_test"],
+  "home_node_ids": {"expanse18_unn": "earth", "expanse18_mcrn": "mars", "expanse18_opa": "jovian_habitats"},
+  "objective_ids": ["expanse18_industrial_cache", "expanse18_classified_archive", "expanse18_containment_sample"],
+  "contact_ids": ["expanse18_ceres_exchange", "expanse18_tycho_bureau"],
+  "station_id": "expanse18_tycho_arsenal",
+  "lab_id": "expanse18_containment_lab",
+  "exotic_id": "expanse18_prototech_composite",
+  "item_id": "expanse18_adaptive_composite",
+  "plating_eligibility": ["expanse_rocinante_hero", "expanse12_pella", "expanse12_raptor", "expanse12_scirocco", "expanse15_truman", "expanse_donnager_battleship"],
+  "logical_event_fields": ["operation_id", "owner_player", "objective", "gravity_well", "phase"],
+  "logical_phases": ["committed", "completed", "interrupted"],
+  "workers": {
+    "scenario": {"output": "build/laboratory/update18/scenario", "source": "tools/update18_scenario*", "audit": "audit/update18-scenario"},
+    "operations": {"output": "build/laboratory/update18/operations", "source": "tools/update18_operations*", "audit": "audit/update18-operations"},
+    "composite": {"output": "build/laboratory/update18/composite", "source": "tools/update18_composite*", "audit": "audit/update18-composite"},
+    "station": {"output": "build/laboratory/update18/station", "source": "tools/update18_tycho*", "audit": "audit/update18-tycho"}
+  },
+  "shared_ownership": "Integrator owns manifests, localization merges, resource registration, research integration, final packaging",
+  "gates": "Offline/schema checks do not satisfy runtime gates. Keep dependent unverified features experimental. No install, enable, asset publication or remote push."
+}

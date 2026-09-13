@@ -1,0 +1,134 @@
+{
+  "baseline": "0.17.0",
+  "source_commit": "9cea830807166ed2e34d7617868ebde019a301a6",
+  "entity_counts": {
+    ".action_data_source": 39,
+    ".buff": 44,
+    ".unit": 70,
+    ".weapon": 89,
+    ".ability": 42,
+    ".entity_manifest": 6,
+    ".research_subject": 19,
+    ".unit_skin": 14,
+    ".unit_item": 5,
+    ".player": 3
+  },
+  "research": {
+    "report": "audit/update15/research/integration.json",
+    "ids": [
+      "trader_autocannon_weapon_damage_0",
+      "trader_find_npc_explore",
+      "trader_improve_gauss_defense_cooldown",
+      "trader_labor_negotiations",
+      "trader_max_hull_points_0",
+      "trader_max_hull_points_2",
+      "trader_mining_track_crystal_rate_0",
+      "trader_missile_weapon_armor",
+      "trader_missile_weapon_damage_0",
+      "trader_planet_health_restore_rate",
+      "trader_shield_burst_restore",
+      "trader_shields_0",
+      "trader_shields_1",
+      "trader_structure_build_rate",
+      "trader_trade_port_income_rate_0",
+      "trader_unlock_trade_escorts_0",
+      "trader_unlock_trade_escorts_1",
+      "trader_upgrade_backup_shield_generator_unit_item",
+      "trader_upgrade_experience_gain_0"
+    ]
+  },
+  "scirocco_abilities": [
+    {
+      "abilities": [
+        "expanse12_scirocco_reactor",
+        "expanse12_scirocco_launch_corvette",
+        "expanse15_scirocco_breaching_teams",
+        "expanse15_scirocco_engineering_teams",
+        "expanse12_scirocco_light_magazine",
+        "expanse12_scirocco_heavy_magazine",
+        "expanse12_scirocco_reactor_breach",
+        "expanse11_no_shields"
+      ]
+    }
+  ],
+  "hero_and_ship_limits": {
+    "global": [
+      {
+        "tag": "titan",
+        "unit_limit": 1
+      },
+      {
+        "tag": "super_capital_ship",
+        "unit_limit": 1
+      },
+      {
+        "tag": "expanse_rocinante_hero",
+        "unit_limit": 1
+      },
+      {
+        "tag": "expanse_amun_ra",
+        "unit_limit": 6
+      },
+      {
+        "tag": "expanse12_pella",
+        "unit_limit": 1
+      }
+    ],
+    "star": [
+      {
+        "tag": "starbase",
+        "unit_limit": 4
+      }
+    ],
+    "planet": [
+      {
+        "tag": "starbase",
+        "unit_limit": 1
+      },
+      {
+        "tag": "superweapon",
+        "unit_limit": 1
+      }
+    ]
+  },
+  "capture_definitions": [
+    "expanse06_amun_boarding.ability",
+    "expanse06_amun_boarding.action_data_source",
+    "expanse06_amun_boarding.buff",
+    "expanse10_donnager_marines.ability",
+    "expanse10_donnager_marines.action_data_source",
+    "expanse10_donnager_marines.buff",
+    "expanse12_pella_marines.ability",
+    "expanse12_pella_marines.action_data_source",
+    "expanse12_pella_marines.buff",
+    "expanse12_raptor_marines.ability",
+    "expanse12_raptor_marines.action_data_source",
+    "expanse12_raptor_marines.buff",
+    "expanse12_scirocco_marines.ability",
+    "expanse12_scirocco_marines.action_data_source",
+    "expanse12_scirocco_marines.buff"
+  ],
+  "stealth_definitions": [
+    "expanse06_amun_cloak.ability",
+    "expanse06_amun_cloak.action_data_source",
+    "expanse06_amun_cloak.buff",
+    "expanse06_amun_cloak_controller.ability",
+    "expanse06_amun_cloak_controller.buff"
+  ],
+  "items": [
+    "trader_backup_shield_generator.unit_item",
+    "trader_starbase_additional_shield_generator.unit_item",
+    "trader_starbase_structural_integrity_0.unit_item",
+    "trader_starbase_structural_integrity_1.unit_item",
+    "trader_starbase_structural_integrity_2.unit_item"
+  ],
+  "custom_stations": [
+    "expanse15_missile_defense"
+  ],
+  "native_starbase": "trader_starbase.unit exists in overlay, shieldless, native eight item slots and per-star/per-planet starbase-tag limits",
+  "salvage_contacts_notifications": "No custom Expanse salvage operation, minor-faction player, custom notification uniform or native Lua event script in baseline; stock game systems remain available.",
+  "plating": "Absent. No expanse adaptive/prototech entity IDs, six proposed eligible hulls guarded by expanse11_no_shields.",
+  "worker_reconciliation": "Earlier research15 completed. Reused for isolated composite investigation; new scenario18/operations18 worktrees. No conflicting active implementation.",
+  "no_agents_md": "No AGENTS.md found in repository or ancestor directories inspected.",
+  "delivery_gate": "Gate1 first. No gate2/full map, gate3 operations, gate4 Tycho or gate5 composite enabled before their prerequisite runtime evidence."
+}

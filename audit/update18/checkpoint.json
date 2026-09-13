@@ -1,0 +1,29 @@
+{
+  "source_commit": "9cea830807166ed2e34d7617868ebde019a301a6",
+  "baseline": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update17",
+  "mod_id": "expanse_update17",
+  "files": 1070,
+  "zip_sha256": "710a0dde1842d1ea3a9e0f5e28649922a482b808a9e60dbfd7bf1645bdf878db",
+  "tree_sha256": "9c3899619279acec20558bb78e92c4a4ca86fd75301699639c63abfae801e32e",
+  "installed": false,
+  "runtime": "NOT RUN",
+  "brief_sha256": "b71a95623aa898dd2205500c59c5e7519e8cdf48b9acfc1e29e060b664982672",
+  "tycho_archive_sha256": "1f4ff63097207029b6a15cf2947b1ff426177d64d04827e618a36e39d29ba407",
+  "dependencies": [
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update16",
+    "/run/media/haker/NVME 2/expanse-mod/assets/original/voice17",
+    "/run/media/haker/NVME 2/expanse-mod/assets/derived/voice17",
+    "/run/media/haker/NVME 2/expanse-mod/audit/update17/audio-intake.json"
+  ],
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "runtime_feedback": {
+    "source": "user",
+    "version": "0.17.0",
+    "observation": "Given it a test, and seems all good",
+    "limits": "Broad positive test; no specific multiplayer/session duration claimed"
+  }
+}

@@ -1,0 +1,2849 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "gate": 1,
+  "schemas": [
+    {
+      "file": "expanse18_unn.player",
+      "unchanged_extensions": [
+        {
+          "path": [
+            "ai",
+            "bounty_placed_messages"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "ai",
+            "cease_fire_messages"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "ai",
+            "rival_taunts"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "factional_victory",
+            "gui_definition"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "cloaked_unit_detected"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_destroy_planet_started"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_planet_destroyed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_planet_shrouded"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_planet_shrouding_started"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "insufficient_corruption"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_ready_to_shroud"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_shrouded"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_corruption_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_culture_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_industry_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_influence_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_population_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "DEPRECATED_starting_units_in_player_file"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "corruption_thresholds"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "negative_corruption_buffs"
+          ],
+          "unchanged_installed_extension": true
+        }
+      ]
+    },
+    {
+      "file": "expanse18_mcrn.player",
+      "unchanged_extensions": [
+        {
+          "path": [
+            "ai",
+            "bounty_placed_messages"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "ai",
+            "cease_fire_messages"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "ai",
+            "rival_taunts"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "factional_victory",
+            "gui_definition"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "cloaked_unit_detected"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_destroy_planet_started"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_planet_destroyed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_planet_shrouded"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_planet_shrouding_started"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "insufficient_corruption"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_ready_to_shroud"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_shrouded"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_corruption_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_culture_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_industry_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_influence_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_population_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "DEPRECATED_starting_units_in_player_file"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "corruption_thresholds"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "negative_corruption_buffs"
+          ],
+          "unchanged_installed_extension": true
+        }
+      ]
+    },
+    {
+      "file": "expanse18_opa.player",
+      "unchanged_extensions": [
+        {
+          "path": [
+            "ai",
+            "bounty_placed_messages"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "ai",
+            "cease_fire_messages"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "ai",
+            "rival_taunts"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "factional_victory",
+            "gui_definition"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            0,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            1,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            2,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            3,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            4,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            5,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            6,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            7,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            8,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            9,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            10,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            11,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            12,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            13,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            14,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            15,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            16,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            17,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "colonization_research_prerequisites"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            18,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            19,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "maintenance_cost_rates"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "shroud_restricted_max_track_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "tracks"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "planet_types",
+            20,
+            "trade_capacity_levels"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "cloaked_unit_detected"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_destroy_planet_started"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_planet_destroyed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_planet_shrouded"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "enemy_planet_shrouding_started"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "insufficient_corruption"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_ready_to_shroud"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_shrouded"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_corruption_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_culture_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_industry_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_influence_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "sounds",
+            "user_interface_sounds",
+            "planet_track_upgrade_population_completed"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "DEPRECATED_starting_units_in_player_file"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "corruption_thresholds"
+          ],
+          "unchanged_installed_extension": true
+        },
+        {
+          "path": [
+            "negative_corruption_buffs"
+          ],
+          "unchanged_installed_extension": true
+        }
+      ]
+    },
+    {
+      "file": "uniforms/player.uniforms",
+      "status": "PASS changed-property schema and exact unchanged installed remainder",
+      "validated_property": "pickable_players",
+      "installed_full_schema_mismatches": [
+        {
+          "path": [
+            "npc",
+            "asset_market"
+          ],
+          "validator": "unevaluatedProperties",
+          "message": "Unevaluated properties are not allowed ('fluctuation' was unexpected)"
+        },
+        {
+          "path": [],
+          "validator": "required",
+          "message": "'dlc_only_pickable_players' is a required property"
+        },
+        {
+          "path": [],
+          "validator": "unevaluatedProperties",
+          "message": "Unevaluated properties are not allowed ('default_corruption_thresholds', 'default_negative_corruption_buffs', 'dlc_pickable_players' were unexpected)"
+        }
+      ]
+    },
+    {
+      "file": "uniforms/scenario.uniforms",
+      "status": "PASS changed-property schema and exact unchanged installed remainder",
+      "validated_property": "scenarios",
+      "installed_full_schema_mismatches": [
+        {
+          "path": [
+            "dlc_multiplayer_scenarios",
+            0
+          ],
+          "validator": "unevaluatedProperties",
+          "message": "Unevaluated properties are not allowed ('scenarios' was unexpected)"
+        },
+        {
+          "path": [
+            "dlc_scenarios",
+            0
+          ],
+          "validator": "unevaluatedProperties",
+          "message": "Unevaluated properties are not allowed ('scenarios' was unexpected)"
+        }
+      ]
+    },
+    {
+      "file": "entities/expanse18_equal_home.unit",
+      "unchanged_extensions": [
+        {
+          "path": [
+            "planet",
+            "shrouded_planet"
+          ],
+          "unchanged_installed_extension": true
+        }
+      ]
+    },
+    {
+      "file": "entities/trader_orbital_cannon_structure.unit",
+      "unchanged_extensions": [
+        {
+          "path": [
+            "corruption"
+          ],
+          "unchanged_installed_extension": true
+        }
+      ]
+    },
+    {
+      "file": "gui/front_end_faction_picker_dialog.gui",
+      "status": "PASS added page/portrait structures plus exact installed template remainder",
+      "schema_source_sha256": "70815915027ffde9e0a78d0550cf443326d73d23f8d4ee4aa8cf53527772e2b3",
+      "schema_note": "Installed schema line 153 has unescaped capital_ships quotes in description; removed only those two description quotes in memory, no SDK file edits or validation-rule changes"
+    }
+  ],
+  "changed_baseline_files": [
+    ".mod_meta_data",
+    "entities/trader_orbital_cannon_structure.unit",
+    "entities/unit.entity_manifest",
+    "localized_text/en.localized_text"
+  ],
+  "new_files": [
+    "GATE-1-README.md",
+    "entities/advanced_start_mode.start_mode",
+    "entities/basic_start_mode.start_mode",
+    "entities/expanse18_equal_home.unit",
+    "entities/expanse18_mcrn.player",
+    "entities/expanse18_opa.player",
+    "entities/expanse18_unn.player",
+    "entities/normal_start_mode.start_mode",
+    "entities/player.entity_manifest",
+    "entities/quick_start_mode.start_mode",
+    "gui/front_end_faction_picker_dialog.gui",
+    "scenarios/expanse18_sol_three_homes.scenario",
+    "uniforms/player.uniforms",
+    "uniforms/scenario.uniforms"
+  ],
+  "file_count": 1084,
+  "preserved_baseline_files": 1066,
+  "clone_gameplay_parity": true,
+  "research_weapons_hull_stats_audio_meshes_unchanged": true,
+  "review": "Independent read-only worker review found no concrete source defect; not a runtime pass",
+  "runtime": {
+    "SolarForge": "NOT RUN",
+    "game_load": "NOT RUN",
+    "home_economy_precedence": "NOT RUN",
+    "construction_victory": "NOT RUN",
+    "owner_research_limits": "NOT RUN",
+    "save_reload": "NOT RUN",
+    "multiplayer_minutes": 0
+  },
+  "preservation": {
+    "baseline_tree_sha256": "9c3899619279acec20558bb78e92c4a4ca86fd75301699639c63abfae801e32e",
+    "baseline_zip_sha256": "710a0dde1842d1ea3a9e0f5e28649922a482b808a9e60dbfd7bf1645bdf878db",
+    "pins": {
+      "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+      "schemas": 62,
+      "installed_references": 527
+    }
+  }
+}

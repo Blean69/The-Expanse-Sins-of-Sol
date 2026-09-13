@@ -1,5 +1,22 @@
 # Asset sources and permissions
 
+## Milestone 0.18 — Tycho print recovery, separate from Gate 1
+
+The supplied `tycho-station-from-the-expanse-print_files.zip` contains G-code
+and a PDF, not STL files. The PDF credits ewr2san and CC BY-NC 4.0 for Printables
+model 5439. Two support-free core print jobs were reconstructed as an approximate
+surface, simplified and given new materials, UVs and emissive light patches.
+Missing accessories and original UV/texture data are not claimed recovered.
+See [the recovery/credit record](audit/update18-tycho-art/README.md) for the exact
+source, hashes, changes and limitations. Originals and derivatives remain local
+and ignored; this art is absent from the 0.18 Gate 1 package.
+
+The Gate 1 scenario retains the installed Balance of Power archive's temporary
+thumbnail and native planet/portrait placeholders. Its definitions reference
+the user's installed game. No NASA textures were downloaded or incorporated;
+planetary texture preparation remains a later art increment. No assets or
+source were pushed/published for this milestone.
+
 ## Supplied model
 
 - Title: **MCRN Tachi [Expanse TV Show]**

@@ -1,0 +1,717 @@
+THE EXPANSE — SINS OF SOL
+INTEGRATED MILESTONE: SOL, THREE POWERS, SALVAGE AND SECRETS
+
+Continue in the existing local repository. This brief replaces conflicting
+earlier instructions, especially “keep only one playable faction.”
+Preserve useful work already in progress; reconcile active workers
+rather than starting duplicate implementations.
+
+The target is THREE selectable faction identities sharing the SAME
+current gameplay, plus a three-player Sol scenario, strategic salvage,
+global announcements, Tycho infrastructure, and ProtoTech Composite
+equipment.
+
+This is staged implementation, not permission to rewrite the working mod.
+All numbers below are initial design targets, not verified engine values.
+
+1. PRESERVE THE WORKING GAME AND ESTABLISH INTERFACES
+
+Read AGENTS.md, README, implementation notes, build scripts, asset records,
+and current test results.
+
+Inventory the actual research, Scirocco abilities, heroes, salvage,
+contacts, stealth, items, notifications, and station implementation.
+The user says protomolecule plating was not added; verify the latest
+working tree before creating it.
+
+Inspect Git status and retain a versioned rollback of the playable
+package. Record source commit, game version, pinned SDK revision,
+dependencies, and package hash.
+
+Do not discard local work, silently change SDK/game versions, enable
+experimental mods, overwrite the working installation, publish assets,
+or push remotely.
+
+Before delegation, agree stable faction IDs, scenario/home-node IDs,
+objective IDs, item eligibility, resource identity, event payloads,
+and output directories. These are project interfaces, not invented
+game configuration keys.
+
+Use up to four isolated writing workers if supported:
+
+A. Sol scenario and faction registration/start configuration.
+B. Salvage, contacts, and global operation notifications.
+C. Containment research, ProtoTech Composite resource, and plating.
+D. Tycho station mechanics/art and Solar System asset preparation.
+
+Use separate worktrees and outputs. The integrator owns shared manifests,
+localization merges, resource registration, research-graph integration,
+and final packaging.
+
+Share original assets and SDK references read-only. Supply ignored local
+dependencies explicitly. Missing dependencies are not permission to
+recreate source assets or fabricate test passes.
+
+Without isolation, helpers investigate read-only and the integrator
+applies changes sequentially.
+
+Identify supported mechanisms from installed data, matching schemas,
+official documentation, and working examples. Distinguish offline
+validation, runtime observation, and unresolved capability.
+
+Inspect available native scripting/event interfaces where relevant.
+Do not invent callbacks, serialization, or an external runtime framework.
+
+Use game-synchronized state, not external Python timers, client wall
+clocks, network calls, or unseeded client randomness.
+
+2. THREE FACTION IDENTITIES, ONE GAMEPLAY FOUNDATION
+
+Create real selectable identities:
+
+- United Nations / UNN.
+- Martian Congressional Republic / MCRN.
+- Outer Planets Alliance / OPA.
+
+Initially ALL THREE have identical:
+- Available ships and heroes.
+- Statistics, abilities, and ship voices.
+- Prices and construction times.
+- Fleet supply and economic modifiers.
+- Research, structures, items, and technology access.
+
+Only presentation and the Sol scenario's starting location differ.
+
+No Earth population advantage, OPA extraction bonus, Martian quality
+bonus, or faction-exclusive ships yet.
+
+Share common definitions where supported. If the engine requires
+duplicated wrappers, generate them from one maintained source.
+
+Keep per-faction availability records for future restrictions, but
+populate them identically now. Do not independently duplicate and
+diverge the entire fleet three times.
+
+Preserve proper per-owner research and limits. One player's research
+must not upgrade opponents because definitions are shared.
+
+Hero limits remain per player, not one shared global allocation among
+the three clones. Audit filters, AI references, and default bonuses
+inherited from the original TEC implementation.
+
+Use differentiated names, descriptions, icons, and lobby identification.
+Do not require another voice-generation project. Distinguish faction
+identity from the freely chosen player color.
+
+3. SOL: THREE POWERS — AUTHORED THREE-PLAYER SCENARIO
+
+Create a reproducible fixed-layout scenario with one star, Sol, and
+three human-playable starting empires.
+
+This is an alternate-history sandbox, not exact canonical territorial
+ownership or a scientifically scaled simulation.
+
+Desired home mapping:
+
+UNN -> Earth.
+MCRN -> Mars.
+OPA -> Jupiter — Jovian Habitats.
+
+Jupiter ownership represents the Jovian orbital economy and habitats,
+not a conventional surface settlement.
+
+Prefer a functional home-node representation with Jupiter visuals.
+If the installed homeworld mechanism cannot support that directly,
+use a clearly labeled Jovian orbital-habitat home linked to Jupiter.
+
+Do not silently relocate OPA to Ceres, give it an uncolonizable capital,
+or create an unreachable invisible victory target.
+
+FIRST prove the smallest three-home scenario, construction, ownership,
+and victory behavior. Then expand the map.
+
+Investigate automatic faction-to-home binding separately from fixed
+slot ownership.
+
+Prefer actual faction-aware assignment. If unavailable, implement a
+deterministic documented setup:
+
+Slot 1: UNN / Earth.
+Slot 2: MCRN / Mars.
+Slot 3: OPA / Jovian Habitats.
+
+Use supported constraints or a clear lobby warning. Do not claim
+arbitrary lobby ordering works until tested. Test host changes and the
+slot/faction permutations relevant to the chosen implementation.
+
+No random starts in the intended setup.
+
+All players begin with one owned home, equivalent starting resources,
+equivalent fleet/structures, viable build slots, and equivalent usable
+economic capacity.
+
+Nearby moons and colonies start unowned or under balanced militia.
+OPA does not receive the whole Jovian system automatically.
+
+Normalize scenario-specific home economics independently of visual size.
+Do not globally reskin all vanilla planets to implement Earth or Mars.
+
+PROPOSED COMPACT GEOGRAPHY
+
+Aim for approximately 24–28 playable/utility gravity wells:
+
+Inner system:
+Mercury, Venus, Earth, Luna.
+
+Martian neighborhood:
+Mars, Phobos, Deimos.
+
+Inner-system/Belt routes:
+Eros, Ceres, Vesta, Pallas.
+
+Utility hubs where needed:
+Tycho Roadstead, Ceres Freeport.
+
+Jovian neighborhood:
+Jupiter/Jovian Habitats, Io, Europa, Ganymede, Callisto.
+
+Outer destinations:
+Saturn, Titan, Enceladus, Uranus, Neptune, Triton.
+
+Add only a few relay/salvage nodes where needed for connectivity.
+Pluto/Charon and further bodies belong in a later expanded map.
+Do not fill empty space with dozens of resource-rich colonies.
+
+Use compressed distances and readable body sizes. Place main planets
+in recognizable radial order and moons near their parents.
+
+Do not use literal astronomical distances, periods, planet radii,
+or gravity-well proportions. Parentage, position, and travel links
+are separate concepts.
+
+Use documented parent/moon arrangements where compatible with the
+installed build.
+
+The first version should have a static/fixed orbital layout. Use
+supported configuration and validate an extended session. An orbiting
+variant can follow later.
+
+No navigation or flip-and-burn rewrite.
+
+CONNECTIVITY AND FAIRNESS
+
+Create multiple corridors between regions.
+
+Mars must not be the unavoidable bridge between Earth and OPA.
+Do not create one Sun-centered shortcut connecting every home.
+
+Aim for:
+- Two useful outbound routes per home.
+- Two comparable early expansion opportunities.
+- Comparable travel time to contested Belt objectives.
+
+Earth must reach the Belt without crossing Mars's home.
+OPA must affect the inner contest without first conquering Mars.
+
+Compare travel times using ordinary ships, not the Sunflare's extreme
+burn ability.
+
+Ceres, Eros, Luna, Deimos, and advertised colonies must actually be
+contestable/colonizable through the intended progression.
+
+Do not make Ceres itself an invulnerable minor-faction home. Put the
+Ceres Shipping Exchange at a separately named Freeport/annex if NPC
+rules require it.
+
+Keep NPC homes off mandatory invasion chokepoints and preserve markets.
+
+Balance first-expansion militia, colonization requirements, resources,
+and build/research access. No player should need unavailable technology
+simply to establish a viable opening economy.
+
+Major salvage belongs on contested routes, not as free prizes inside
+one home cluster.
+
+4. GENERATE THE MAP; USE THE EDITOR FOR VALIDATION
+
+Do not hand the entire map back to the user by default.
+
+Inspect a working installed scenario's serialized/archive format.
+Preserve required metadata.
+
+Create a deterministic project-level data file plus generator/patcher
+for named nodes, valid parents, positions, lanes, ownership, NPCs, and
+objectives, using verified game structures.
+
+Round-trip a small result through SolarForge and the game before scaling
+it up.
+
+If an editor-created seed/export is necessary and unavailable to the
+agent, request that precise one-time step, then automate from it.
+Do not claim GUI/editor validation happened when it did not.
+
+Deliver editable map source, build command, packaged scenario, faction/
+slot instructions, and a readable node/connection report.
+
+Validate duplicate IDs, missing references, invalid parents, disconnected
+wells, orphan nodes, home eligibility, overlaps, unintended generated
+objects, and required markets.
+
+Use current compatibility metadata, not old tutorial values blindly.
+
+Maintain a small development scenario for operation tests and the full
+Sol scenario for play.
+
+Mark scenario-only features versus arbitrary-map support.
+
+Do not assume scenario transfer distributes all required mod assets.
+Document the identical package and dependencies every player needs.
+
+5. SOLAR SYSTEM AND TYCHO ART
+
+Use the existing Blender/glTF/MeshBuilder/material pipeline.
+Keep original archives, licenses, editable derivatives, and generated
+assets separate.
+
+Prefer official NASA planetary assets/maps where their individual terms
+permit use. Check package-specific credits and third-party restrictions.
+
+NASA Ceres is the natural body, not a finished fictional settlement.
+Add original settlement/dock details sparingly.
+
+Verify UV projection, poles, seams, normals, color space, compression,
+and lighting. Do not use a perspective planet photo as a seamless
+spherical texture.
+
+Prioritize Earth, Mars, Jupiter, Ceres, and Luna. Other bodies may use
+appropriate local placeholders until ready.
+
+Future settlement lights are artistic additions, not scientific data.
+Avoid an unnecessarily huge texture package.
+
+Audit the ewr2san Tycho STL candidate before rejecting its green preview.
+Inspect its actual geometry and exact license.
+
+For geometry-only STL, create suitable UVs/materials. Do not promise
+to recover nonexistent original textures.
+
+Proposed Tycho appearance:
+- Grey industrial structural surfaces.
+- Dark machinery and restrained contrasting panels.
+- Clear docking markings.
+- Warm habitat windows.
+- Cool docking/work lights.
+
+Use emissive textures for most small lights, not hundreds of dynamic
+lights. Verify the shader's actual channel mapping.
+
+Keep team-color and emissive masks independent. Avoid night-side
+black-out and excessive bloom.
+
+Separate habitat ring, hub, and weapon assemblies where useful.
+Optional slow ring rotation can use the documented child-mesh system
+after static export works.
+
+Keep functional turrets on stable geometry unless rotating transforms
+are verified. Client-render animation must not drive authoritative
+gameplay.
+
+No asset purchase without approval.
+Art completion must not block functional map/contact/station tests.
+Use an existing referenced starbase as a placeholder when needed.
+
+6. TYCHO'S TWO DISTINCT ROLES
+
+Implement:
+
+A. Tycho Engineering Bureau:
+A neutral NPC contact available to all three factions through the
+normal service interface. Optional named home: Tycho Roadstead.
+
+B. Tycho-pattern Arsenal Station:
+A powerful player-built military/engineering starbase available to
+ALL THREE factions for now.
+
+The neutral contact is not automatically owned by OPA and is not a
+fourth playable empire.
+
+It must not give every visiting army free combat buffs or repairs.
+Preserve and accurately describe its native neutrality/service behavior.
+
+The player-built version has separate gameplay IDs and future
+faction-access gating. Later it may become OPA-specific while Earth
+and Mars receive equivalents. Do not apply that restriction now.
+
+Desired limit: one player-built Tycho-pattern station per player,
+counting construction and completed copies. Rebuilding after loss
+is allowed.
+
+Verify capture, queued builds, inherited TEC limit research, and
+coexistence with normal starbases. Document any different native limit
+behavior before packaging.
+
+The neutral contact does not consume a player's allowance.
+
+7. TYCHO AS A MILITARY POWERHOUSE
+
+Start from the proven starbase framework.
+
+The station is expensive, slow-built, stationary, and shieldless without
+explicitly fitted experimental equipment.
+
+It should dominate an unsupported raid but remain vulnerable to a
+committed siege. It must not replace the player's field fleet.
+
+Initial weapon direction:
+- Roughly 12–16 rotating dual-purpose PDC mounts.
+- A modest set of torpedo banks.
+- An optional Heavy Ordnance module adding two heavy railgun mounts.
+
+Reuse working weapon families but tune TOTAL output. Do not multiply a
+ship's entire intended weapon budget by every new mount.
+
+Keep heavy-weapon tracking limits and saturation counterplay.
+Exact mount count follows the asset and performance audit.
+
+Offer limited upgrades, preferably choose three from four through
+supported slot/access rules:
+
+HEAVY ORDNANCE
+Adds heavy railgun/torpedo capability.
+
+REPAIR ANCHORAGE
+Bounded local repair for owned ships.
+Support allies only through an explicit supported alliance filter.
+Cap throughput or simultaneous targets.
+Avoid unlimited percentage-based healing of large capitals.
+
+DEFENSE COORDINATION CENTER
+Approximately +10% nearby PDC tracking.
+Not a bonus to every weapon statistic.
+Use a documented local radius and intended weapon filters.
+
+INDUSTRIAL DRYDOCK
+Approximately +15% local shipbuilding RATE where supported.
+Do not describe +15% rate as exactly 15% shorter build time.
+
+Each module has one clear primary role.
+
+Test repair/coordination interactions with existing Scirocco support.
+Same-effect auras must not multiply across overlapping stations.
+Prefer the strongest applicable effect.
+
+Effects end on station loss or leaving range.
+No accidental effects in neighboring gravity wells.
+
+Optional Emergency Lockdown:
+Around 12 seconds of 20% reduced incoming damage to the STATION ONLY,
+with a substantial cooldown. Add only after passive modules work.
+
+No invulnerability, instant full healing, system-wide combat bonuses,
+or unverified enemy-PDC shutdown.
+
+Do not buff enemies, neutral visitors, mines, projectiles, or unrelated
+structures. Test sieges with and without supporting defenders,
+multi-direction attacks, and long-range pressure.
+
+8. SALVAGE AND RECOVERY
+
+Extend existing native derelict/reward systems first.
+Start with placed sites and fixed rewards:
+
+Industrial cache:
+Modest materials; owner-only feedback.
+
+Classified Martian archive:
+Limited component/reward; global operation announcement.
+
+Containment sample:
+Research authorization, not free plating or finished composite.
+
+Scouts discover sites. Major recovery requires an eligible capital or
+recovery equipment.
+
+Scirocco gets a Recovery Operations specialization.
+Rocinante's Legitimate Salvage gives a modest advantage without erasing
+the response window.
+
+Preserve existing combat abilities.
+
+Start major recovery around 90 seconds, then tune against actual map
+response times.
+
+One claimant per site. Desired behavior:
+Remain in range; leaving, destruction, or ownership loss interrupts and
+releases the claim.
+
+Ordinary damage should not continually reset progress unless explicitly
+accepted as a necessary compromise.
+
+Use supported persistent operation state. Resolve payment/reward once.
+
+Handle simultaneous claims, cancellation, capture, full slots,
+defeat/disconnect behavior, and save/reload.
+
+Do not make reward delivery independent of the real objective state.
+
+Do not create persistent wreckage from every ship death yet.
+Prevent salvage farming from summons, scuttling, or ownership cycles.
+
+Provide a costly late contact route or additional contested sample sites
+so the first claimant cannot permanently lock everyone else out.
+
+9. GLOBAL STRATEGIC ANNOUNCEMENTS
+
+All active players, including enemies without local vision, hear about:
+
+- Important recovery actually beginning.
+- Its completion or genuine failure/abandonment.
+- Paid protomolecule study actually beginning at its designated lab.
+- Study completion or interruption.
+
+Include player identity, event, and actual gravity-well/sector name.
+Do not report every location merely as “Sol.”
+
+Example templates, NOT assumed engine syntax:
+
+“PRIORITY TRAFFIC: {player} has begun classified recovery near {sector}.”
+
+“CONTAINMENT ADVISORY: {player} has begun protomolecule analysis
+at {sector}.”
+
+“RESEARCH INTERRUPTED: The containment facility at {sector} has
+been lost.”
+
+Start alerts occur after commitment, not selection, invalid orders,
+or merely queueing.
+
+Tie alerts and outcomes to the same authoritative operation.
+Deduplicate and suppress restart spam without suppressing different sites.
+
+Save/reload restores status but does not replay historical announcement
+sounds or duplicate rewards.
+
+Reveal the objective location, not surrounding fleets, unrelated labs,
+research queues, or concealed units.
+
+Use a supported marker/focus link where possible.
+Never force camera movement.
+
+Use one generic short sound plus parameterized text.
+Routine salvage, ordinary research, composite fabrication, and individual
+plating purchases remain owner-only.
+
+Prove early warning FIRST with an enemy lacking local vision.
+Owner-only or completion-only messages are not equivalent fallbacks.
+
+10. CONTACTS AND SHARED RESEARCH
+
+Reuse the existing minor-faction/Influence interface and supported
+reward types.
+
+Ceres Shipping Exchange:
+One modest material/logistics service.
+One finite intelligence/recovery service.
+
+Tycho Engineering Bureau:
+One limited engineering consumable/recovery component.
+A costly late sample-authorization route where needed.
+
+No new quest UI, profitable unlimited conversion loop, or free finished
+ProtoTech giveaway.
+
+Ordinary vision is not stealth detection.
+All three faction clones access the same services.
+
+Controlling Ceres does not silently grant ownership of its separate
+NPC contact.
+
+Add or consolidate shared research:
+- Salvage Certification.
+- Shipping Registry Access.
+- Containment Procedures.
+- Recovered Systems Integration.
+- Composite Fabrication.
+- Tycho-pattern Arsenal Construction.
+- Station module unlocks.
+
+Anchor costs and tiers to current pacing.
+Avoid redundant nodes and circular dependencies.
+
+Map every unlock to actual definitions and test existing/new ships
+for all three owners.
+
+11. CONTESTABLE RESEARCH AND PROTOTECH COMPOSITE
+
+Progression:
+
+Sample authorization + late prerequisites
+-> owned Containment Laboratory
+-> paid, finite, globally announced study
+-> Composite Fabrication and Adaptive Composite Plating access.
+
+Use a real structure, initially with a working placeholder model.
+One active study per player.
+About 180 seconds is an initial target, adjustable for travel time.
+
+Destroying or losing the actual lab BEFORE completion must prevent
+the unlock.
+
+A cosmetic countdown attached to unstoppable empire research is not
+acceptable. Use a verified structure operation, research condition,
+or native event mechanism that actually enforces interruption.
+
+Specify payment, cancellation, rebuilding, and retry rules.
+Prevent duplicate costs, free completion after destruction, ownership
+exploits, and repeated rewards.
+
+After success, acquired knowledge and installed plating remain.
+Losing production facilities stops future composite manufacturing.
+Test/document any separate operational-lab requirement for installation.
+
+ADD A REAL EXOTIC
+
+Create “ProtoTech Composite” as a distinct exotic if the installed
+resource system supports it.
+
+It represents stabilized engineered material, not the raw sample.
+
+Preserve existing exotic identities and costs.
+
+Inspect:
+- Type registration and available custom slots.
+- Interface limits, icons, and localization.
+- Insufficient-resource feedback.
+- Factory outputs and rewards.
+- Purchase-cost references.
+- AI valuation.
+- Multiplayer persistence.
+
+First prove:
+Receive one unit -> display it -> save/reload -> spend it ->
+reject the purchase when balance is zero.
+
+Do not merely rename an already-required exotic or display a fake counter.
+Do not use external client state as a currency ledger.
+
+After study completion, manufacture finite paid batches through a
+verified facility/production mechanism.
+
+Tune input cost and time against the existing exotic economy.
+
+Default rules:
+No free starting stock.
+No ordinary early survey drops.
+No unrestricted pre-unlock market purchase.
+No passive infinite resource trickle.
+
+The sample unlocks KNOWLEDGE.
+Manufacturing supplies the consumable MATERIAL.
+
+Each plating installation consumes composite.
+
+Initial cost reference:
+One unit for a small eligible hero.
+Two units for a standard capital.
+Three units for a large flagship.
+Also charge ordinary resources and occupy a normal item slot.
+
+Do not require composite to build the first lab/refinery producing it.
+
+Ordinary Tycho construction does not require composite.
+A future experimental station upgrade may consume it separately.
+
+If resource registration is blocked, report the exact limitation and
+leave the dependent feature explicitly experimental.
+Do not secretly substitute another resource.
+Continue independent map, station, and salvage work.
+
+12. IMPLEMENT THE ACTUAL PLATING ITEM
+
+Adaptive Composite Plating is a mod-original per-ship item using a small
+regenerating shield-backed layer. Explain that abstraction accurately.
+
+Initially selected capitals and heroes only.
+Identical eligibility for all factions.
+One copy per ship, occupying a normal equipment slot.
+
+Initial targets:
+- Capacity about 12–15% of unmodified hull, set/capped by hull class.
+- Regeneration after about 20 seconds without relevant incoming damage.
+- About 1% of PLATING CAPACITY regenerated per second, not 1% of hull.
+- No burst restoration or emergency full refill.
+- No re-equipping refill exploit.
+- Composite and ordinary resources consumed per installation.
+
+Audit inherited TEC shield research, levels, items, auras, repairs,
+restore abilities, bypass, drain, and shield-specific damage.
+
+Renaming the buffer does not change its engine semantics.
+Ships without the item remain shieldless.
+
+Check whether bypass damage resets the intended recharge delay and
+describe supported differences honestly.
+
+Test installation/removal, upgrading, full slots, capture, refunds,
+cancellation, and save/reload.
+
+Separate ownership of research knowledge from ownership of a captured,
+already-equipped ship.
+
+Use a restrained hull-close effect where practical.
+No mandatory shader rewrite or globally misleading interface rename.
+
+13. DELIVERY GATES AND MULTIPLAYER ACCEPTANCE
+
+Integrate in small playable increments:
+
+1. Three selectable clones and a working three-home Sol skeleton.
+2. Full connected Sol layout with viable starts and placeholder art.
+3. One salvage operation, one contact, and verified global alerts.
+4. Buildable Tycho with tested weapons/modules; art upgrade separately.
+5. Interruptible study, real composite resource, and working plating.
+6. Final texture/light polish and a complete three-player session.
+
+Run resource and alert capability probes early in parallel.
+Do not build every dependent feature before checking essential hooks.
+
+Test a three-player non-allied session for:
+Correct homes and lobby setup.
+Equal initial gameplay.
+Independent research/rewards/resources.
+Colonization, markets, and travel routes.
+Construction and station limits.
+Local buffs and bounded repair.
+Global recipients and operation interruption.
+The complete sample-to-plating progression.
+
+Test save/reload during recovery, study, composite production,
+and station construction.
+
+Check repeated cancellation, simultaneous claims/purchases,
+depleted inventory, captured ships/labs/stations, player defeat,
+and missing prerequisites.
+
+Shared definitions must never produce shared player state.
+
+Schema validation is not proof of runtime behavior or synchronization.
+Report the actual duration and results of multiplayer testing.
+Record AI and scenario-only limitations.
+
+Deliver:
+- A versioned integrated candidate and rollback.
+- Changelog and dependency list.
+- Editable scenario source/generator.
+- Asset and license records.
+- Faction-parity and starting-economy reports.
+- Offline/runtime test results and known limitations.
+- Exact friend-lobby setup instructions.
+
+Do not publish or install automatically.
+
+Stop after this milestone. Full faction asymmetry, exclusive rosters,
+planet-killers, orbital-physics rewrites, automatic outbreaks, and
+additional combat ships are deferred.
+
+Preserve existing stealth. Further electronic-warfare work is a separate
+increment with explicit dependency requirements.
