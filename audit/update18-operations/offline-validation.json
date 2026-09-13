@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "definition_checks": [
+    {
+      "file": "entities/expanse18_tycho_recovery_component.unit_item",
+      "schema": "unit-item-schema.json",
+      "status": "PASS"
+    },
+    {
+      "file": "entities/expanse18_tycho_recovery_component.npc_reward",
+      "schema": "npc-reward-schema.json",
+      "status": "PASS"
+    },
+    {
+      "file": "entities/expanse18_ceres_materials.npc_reward",
+      "schema": "npc-reward-schema.json",
+      "status": "PASS"
+    },
+    {
+      "file": "entities/expanse18_ceres_registry.npc_reward",
+      "schema": "npc-reward-schema.json",
+      "status": "PASS"
+    }
+  ],
+  "lua": {
+    "status": "PASS",
+    "scope": "Lua 5.4 syntax compile only; not game API binding/runtime validation"
+  },
+  "runtime_status": "NOT RUN",
+  "engine_tests_observed": 0,
+  "disabled_register": true,
+  "source_integrity_unchanged": true
+}

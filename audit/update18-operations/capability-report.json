@@ -1,0 +1,141 @@
+{
+  "status": "GLOBAL_OPERATION_GATE_UNRESOLVED",
+  "runtime_status": "NOT RUN",
+  "native_lua_api_version": 0.6,
+  "verified_source_structure": {
+    "event_callbacks": [
+      "on_start",
+      "on_update",
+      "on_complete",
+      "on_cancel",
+      "on_teardown"
+    ],
+    "state": "Documented context.instance/shared survives event callbacks; save/reload behavior not documented or observed.",
+    "physical_checks": [
+      "unit existence",
+      "unit owner id",
+      "current gravity-well id",
+      "position within range",
+      "owner defeated"
+    ],
+    "notification_action_enum": [
+      "planet_conversion_started",
+      "planet_conversion_colonized"
+    ],
+    "custom_notification_types_rejected_by_pinned_schema": true,
+    "native_lua_notification_examples": [
+      "NOTIFY_PIRATE_INCURSION_STARTED: {}",
+      "NOTIFY_PIRATE_KING_ARRIVED: gravity_well_id + target_player_index"
+    ],
+    "loot": "Native capture_points_total + destroy_on_capture, per-level collection duration/range; no exclusive-claim API identified."
+  },
+  "not_verified": [
+    "global delivery to enemy without local vision",
+    "arbitrary event identity + actor + actual sector text",
+    "ability/payment commitment callback",
+    "exclusive one-claimant capture ownership",
+    "claim cancellation on departure/capture/death in native loot",
+    "reward exactly once under save/reload",
+    "runtime Lua loading/bindings in retail build",
+    "disconnect/defeat behavior",
+    "owner-only fixed industrial reward per placed site"
+  ],
+  "excluded_from_supported_candidate": [
+    "major salvage",
+    "containment sample authorization",
+    "paid study",
+    "salvage-generated research",
+    "second capture system"
+  ],
+  "contact_outputs": "4 native-schema-valid item/reward definitions plus project integration/localization fragments; no .player or manifest, not enabled",
+  "sound": "Probe retains native pirate notifications/sounds and labels; no fake custom traffic voice",
+  "duration_target_seconds": 90,
+  "sources": [
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/scripts/event_metadata.lua",
+      "sha256": "359f1692b201d1c33f535d6aa16ac347c3c9771d41d3700ca5fe93431b217639"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/scripts/pirate_incursion.lua",
+      "sha256": "5d80d07db7bab052bd00544c0565b008fc15342eeb6a980a25d81aea43cd2a55"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/derelict_loot_2.unit",
+      "sha256": "bab28ffe0741554f3a2ae1dda756b9374bd5cac7272534f5b3f4767a881e82c1"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_derelict_specialist.unit_item",
+      "sha256": "d1ac13ea127d4cbdb739c7863e5975e5f9b7319b405cd7b08593a207f0093a59"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/pranast_united_npc.player",
+      "sha256": "ade8feabb84ebfd80a1f7cc28cfce4db9b3f82b0f908b44ea457e9558e2037c8"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/jiskun_force_npc.player",
+      "sha256": "d1ecaf88c151b4881f850020c009c774a83b3fac4687a5aaa00e89cba8bb9b1a"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/jiskun_share_vision.npc_reward",
+      "sha256": "efbb7850a0ec29f6eab24261c57bef5461760412e126824692d158a9506eeaee"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/jiskun_share_vision.ability",
+      "sha256": "73be5cc61f865a0d8853ad33a9881f842dd0d4c3cb69502f263565377e2b08d5"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/jiskun_share_vision.action_data_source",
+      "sha256": "044e9d0e8a1bdbad81afd46e3dee9fd6e4d0889c5626ac9878a828758617e958"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/jiskun_share_vision_on_scout.buff",
+      "sha256": "6848762c52daddf1750d2a3557f06a94cce8afaf323d67605b557d10e5b7faba"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/jiskun_share_vision_on_node.buff",
+      "sha256": "a208e5f5497cb60530509562c9076b7ca90acad4f65a2342c55ccef0e8d7fba6"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/jiskun_crystal_stockpile_0.npc_reward",
+      "sha256": "ddf804ebc1c5068b7f8ea929ec04585fd7478ba303eec4942595cd5d8bf5cab0"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/pirate_looting_crew.npc_reward",
+      "sha256": "64749b3d9d8dc18e6520891e0dd610de8b78ba4f750076fd261681e37f01dc06"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/advent_unity_conversion_on_planet.buff",
+      "sha256": "c5064b78e1ef9d5ed904da8e4f0914e0e8fe13c6a65e716aaefd2552d0d3ccc3"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/notification.uniforms",
+      "sha256": "53c4f6ff14792110cc023839e28f4b9b0b127d3f62abbae957281835a756b1e6"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/loot.uniforms",
+      "sha256": "d676a5eafd34766f6e40224b55e6185a39b799a4b70601f9107e3cd9678d059a"
+    }
+  ],
+  "schemas": [
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/npc-reward-schema.json",
+      "sha256": "df351da2439cbb2ce6eafcc71af222a9004a622d89883111371f31904fd91cc5"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/unit-item-schema.json",
+      "sha256": "3ec1534f4841b0b7dbd4720f36c96c17766852746e4906394616f95a5d9810d7"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/action-data-source-schema.json",
+      "sha256": "4a762b71a3e30715e2c0e5ea0df0eced70edbefb33f8e8651e9bc0d49160d6e4"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/notification-uniforms-schema.json",
+      "sha256": "fee0c8411bbe777ea8f5950ecabba11c0ab8cc7a71153487f8adab12c15fc4b4"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas/loot-uniforms-schema.json",
+      "sha256": "8cc9cd86a3058470918daaf6d18107007ca42776d6de1575485cb2ad4d4880dd"
+    }
+  ]
+}
