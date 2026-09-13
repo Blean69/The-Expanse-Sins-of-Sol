@@ -1,0 +1,23 @@
+{
+  "format": "Project source, not engine configuration",
+  "scenario_id": "expanse18_sol_three_homes",
+  "title": "Sol — Three Homes (Gate 1)",
+  "stage": "Offline candidate; SolarForge/game/multiplayer gate pending",
+  "start_mode": "normal",
+  "factions": [
+    {"id": "expanse18_unn", "name": "United Nations", "short": "UNN", "home": "earth", "icon": "expanse15_truman_hud_icon"},
+    {"id": "expanse18_mcrn", "name": "Martian Congressional Republic", "short": "MCRN", "home": "mars", "icon": "expanse12_raptor_hud_icon"},
+    {"id": "expanse18_opa", "name": "Outer Planets Alliance", "short": "OPA", "home": "jovian_habitats", "icon": "expanse12_pella_hud_icon"}
+  ],
+  "nodes": [
+    {"id": 0, "key": "sol", "name": "Sol", "filling": "random_yellow_star", "position": [0, 0]},
+    {"id": 1, "key": "earth", "name": "Earth", "parent": "sol", "filling": "player_home_planet", "position": [-450, 300], "slot": 0},
+    {"id": 2, "key": "mars", "name": "Mars", "parent": "sol", "filling": "player_home_planet", "position": [450, 300], "slot": 1},
+    {"id": 3, "key": "jovian_habitats", "name": "Jovian Habitats — OPA Home", "parent": "sol", "filling": "player_home_planet", "position": [0, -480], "slot": 2},
+    {"id": 4, "key": "jupiter", "name": "Jupiter — Unsettled Gas Giant", "parent": "sol", "filling": "random_gas_giant_planet", "position": [350, -750]},
+    {"id": 5, "key": "materials_annex", "name": "Materials Exchange Annex", "parent": "sol", "filling": "player_home_planet", "position": [-800, 600], "npc": "pranast_united"},
+    {"id": 6, "key": "logistics_annex", "name": "Logistics Exchange Annex", "parent": "sol", "filling": "player_home_planet", "position": [800, 600], "npc": "viturak_cabal"}
+  ],
+  "lanes": [["earth", "mars"], ["earth", "jovian_habitats"], ["mars", "jovian_habitats"], ["jovian_habitats", "jupiter"], ["earth", "materials_annex"], ["mars", "logistics_annex"], ["materials_annex", "sol"]],
+  "layout_note": "Small construction/ownership/victory probe only. Temporary triangular homes have equal pairwise distances within 0.1%; full radial Sol layout and early expansion balance require Gate 2. Native NPC markets are annexes, never required invasion chokepoints. Sol has one access lane and creates no shortcut. Jupiter is a separately reachable unowned utility node; OPA's eligible victory home is the labeled habitat node, initially a terran visual placeholder."
+}

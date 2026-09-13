@@ -1,0 +1,11 @@
+{
+  "status": "PASS OFFLINE",
+  "compared_builds": [
+    "scenario-v3 (promoted to scenario)",
+    "scenario-v3-repro"
+  ],
+  "file_count": 15,
+  "identical_file_hashes": true,
+  "gameplay_drift_negative_control": "PASS",
+  "not_tested": "No game state simulation or runtime claim"
+}

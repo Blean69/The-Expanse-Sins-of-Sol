@@ -1,0 +1,31 @@
+{
+  "status": "PASS OFFLINE",
+  "cases": [
+    {
+      "case": "duplicate node",
+      "status": "PASS rejected malformed input",
+      "expected_error": "Duplicate node ID/key"
+    },
+    {
+      "case": "duplicate lane",
+      "status": "PASS rejected malformed input",
+      "expected_error": "Duplicate lane"
+    },
+    {
+      "case": "parent cycle",
+      "status": "PASS rejected malformed input",
+      "expected_error": "Cyclic parent hierarchy"
+    },
+    {
+      "case": "disconnected objective",
+      "status": "PASS rejected malformed input",
+      "expected_error": "Disconnected or orphan node"
+    },
+    {
+      "case": "unknown filling",
+      "status": "PASS rejected malformed input",
+      "expected_error": "Unknown filling"
+    }
+  ],
+  "runtime": "NOT RUN"
+}
