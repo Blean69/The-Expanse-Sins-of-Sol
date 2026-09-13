@@ -1,0 +1,61 @@
+{
+  "generated_albedo": {
+    "path": "/run/media/haker/NVME 2/expanse-workers/visual13-scirocco/assets/source/update13-a/charcoal-panel-tile.png",
+    "sha256": "7e56a44f43a7b7821f25136935c85f5e186811538006dd44a50cda256652348a",
+    "method": "built-in imagegen",
+    "prompt": "Square tileable unlit charcoal spacecraft hull albedo. Dense restrained rectangular armored panels, fine seams/bolts/scuffs, base approximately RGB60/65/69. No logos, text, stripes, perspective or lighting gradients.",
+    "license_record": "AI-generated material derivative; no copied atlas imagery."
+  },
+  "visual_references": [
+    {
+      "path": "/home/haker/Downloads/paul-kiesling-4.jpg",
+      "sha256": "281bc813dc525f43f78c92aa39522c9d295e1d546359cd7170c605ccee05f8bd",
+      "creator": "Paul Kiesling, credited in supplied image",
+      "use": "Read-only visual reference for dark armor and red banding; pixels not embedded in derivative",
+      "permission": "Not independently verified; no license invented"
+    },
+    {
+      "path": "/home/haker/Downloads/paul-kiesling-display-2.jpg",
+      "sha256": "f9c362569d40137c7297f109d59ae6a5d1658aa23b65ec27716c6cded8808ef9",
+      "creator": "Paul Kiesling, credited in supplied image",
+      "use": "Read-only visual reference for dark armor and red banding; pixels not embedded in derivative",
+      "permission": "Not independently verified; no license invented"
+    },
+    {
+      "path": "/home/haker/Downloads/paul-kiesling-display-3.jpg",
+      "sha256": "c8766c3f68926f7dfb5a3a2ce93b56deec9bc5d078f990d2e13c1c04ffa4aa36",
+      "creator": "Paul Kiesling, credited in supplied image",
+      "use": "Read-only visual reference for dark armor and red banding; pixels not embedded in derivative",
+      "permission": "Not independently verified; no license invented"
+    },
+    {
+      "path": "/home/haker/Downloads/paul-kiesling-material-1.jpg",
+      "sha256": "d18c2ff976a37938abd20fe16061bd547bf02a45d4f875823255f83feb8a4616",
+      "creator": "Paul Kiesling, credited in supplied image",
+      "use": "Read-only visual reference for dark armor and red banding; pixels not embedded in derivative",
+      "permission": "Not independently verified; no license invented"
+    },
+    {
+      "path": "/home/haker/Downloads/paul-kiesling-material-2.jpg",
+      "sha256": "ceb429a5e909f0dd5461ba9b151b0203dfbc5c60bd329eac4b2bb48fd43bac11",
+      "creator": "Paul Kiesling, credited in supplied image",
+      "use": "Read-only visual reference for dark armor and red banding; pixels not embedded in derivative",
+      "permission": "Not independently verified; no license invented"
+    },
+    {
+      "path": "/home/haker/Downloads/paul-kiesling-material-3.jpg",
+      "sha256": "5fecf7405900237e5a4c3f57f1f3c9e260380bee8c81c22c2210ae2f47f69a0a",
+      "creator": "Paul Kiesling, credited in supplied image",
+      "use": "Read-only visual reference for dark armor and red banding; pixels not embedded in derivative",
+      "permission": "Not independently verified; no license invented"
+    },
+    {
+      "path": "/home/haker/Downloads/paul-kiesling-material-4.jpg",
+      "sha256": "69522882f5df9177acd365f2cee4af0bb7626bcb50b07b9bb5023d7addc121a7",
+      "creator": "Paul Kiesling, credited in supplied image",
+      "use": "Read-only visual reference for dark armor and red banding; pixels not embedded in derivative",
+      "permission": "Not independently verified; no license invented"
+    }
+  ],
+  "original_uvs": "Original STL has no UV map; supplied compressed material contact sheets cannot directly reconstruct matching original mapping. New dominant-axis UVs are authored."
+}

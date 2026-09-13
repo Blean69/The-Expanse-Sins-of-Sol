@@ -1,0 +1,29 @@
+{
+  "status": "PASS OFFLINE",
+  "rotation": [
+    [
+      -1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "determinant": 1,
+  "triangles": 17741,
+  "same_triangle_indices": true,
+  "UVs_unchanged": true,
+  "source_primitive_sha256": "ff466516978740f1abc86b838b514cbdacbf7880f41fc9e988cc847b0eb0f8f1",
+  "maximum_inverse_position_error": 0.0,
+  "longitudinal_positions_unchanged": true,
+  "semantic_points": "Exhaust full pose rotates with hull; above/aura are re-anchored to new world-up/down bounds, not swapped.",
+  "runtime": "NOT RUN"
+}

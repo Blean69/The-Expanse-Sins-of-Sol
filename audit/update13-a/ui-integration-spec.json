@@ -1,0 +1,49 @@
+{
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/visual13-scirocco/build/update13-a/ui-clearance/generated",
+  "status": "PASS OFFLINE UI",
+  "logos": {
+    "small_logo": "expanse12_scirocco_mod_small_logo.png",
+    "large_logo": "expanse12_scirocco_mod_large_logo.png"
+  },
+  "source": "Actual selected Scirocco final active source geometry; no other ship imagery",
+  "copy_generated_subdirectories": [
+    "brushes",
+    "textures"
+  ],
+  "optional_root_logos": {
+    "small_logo": "expanse12_scirocco_mod_small_logo.png",
+    "large_logo": "expanse12_scirocco_mod_large_logo.png"
+  },
+  "skin_patches": [
+    {
+      "pointer": "/skin_stages/0/gui/hud_icon",
+      "value": "expanse12_scirocco_hud_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_monochrome_icon",
+      "value": "expanse12_scirocco_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_picture",
+      "value": "expanse12_scirocco_hud_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/tooltip_picture",
+      "value": "expanse12_scirocco_tooltip_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/icon",
+      "value": "expanse12_scirocco_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/selected_icon",
+      "value": "expanse12_scirocco_main_view_icon_selected"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/sub_selected_icon",
+      "value": "expanse12_scirocco_main_view_icon_sub_selected"
+    }
+  ],
+  "entity_manifests_required": [],
+  "runtime": "NOT RUN"
+}

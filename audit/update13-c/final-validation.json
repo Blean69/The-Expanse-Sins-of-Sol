@@ -1,0 +1,23 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "runtime": "NOT RUN",
+  "triangles": 17741,
+  "proper_roll_determinant": 1,
+  "opposed_winding": 0,
+  "ambiguous_winding": 0,
+  "normal_unit_error": 1.516122245526219e-07,
+  "tangent_normal_dot_error": 4.192634683874985e-08,
+  "exhaust_pose": "PASS; original pose rotated with hull",
+  "exhaust_centerline": "PASS; no aft intersection",
+  "vertex_index_UV_preservation": "PASS; inverse rotation exactly recovers editable positions/normals and unchanged indices/UVs",
+  "unchanged_material_texture_files": [
+    "textures/expanse12_sunflare_material_nrm.dds",
+    "textures/expanse12_sunflare_material_orm.dds",
+    "textures/expanse12_sunflare_material_clr.dds",
+    "textures/expanse12_sunflare_material_msk.dds",
+    "mesh_materials/expanse12_sunflare_hull_expanse12_sunflare_material.mesh_material"
+  ],
+  "original_archive_and_extracted_master": "PASS; original audit hashes unchanged",
+  "UI": "PASS; current rotated geometry rendered with unchanged original textures",
+  "presentation_limit": "Proper roll makes a lettered central prong dorsal. Source has no canonical top annotation and any view can show oblique/hidden lettering; actual in-game orientation still needs observation."
+}

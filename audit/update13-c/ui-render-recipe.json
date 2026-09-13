@@ -1,0 +1,29 @@
+{
+  "source_dependencies": {
+    "assets/derived/update13-c/expanse12_sunflare_editable.gltf": "ca2c53b4e7885b0c9648a813d4c5caedb8571751d9fa551938f2a7fe70b34124",
+    "assets/derived/update13-c/expanse12_sunflare_editable.bin": "17c4434316107d4380e4147d01b4def357516c7895af8dc9078a54dc61235538",
+    "assets/derived/update13-c/../../../../validation/assets/source/update12-sunflare/images/Razorback_Base_Color.png": "5ccbff575813e0b3872339290b18687422b8dd8ff64e74c8535e6829e4a4bfea"
+  },
+  "triangles": 17741,
+  "coordinate_conversion": "Source already uses game-facing right-handed glTF axes",
+  "camera_basis": [
+    [
+      -0.2999826015136537,
+      0.0,
+      -0.9539446728134187
+    ],
+    [
+      -0.548689384030967,
+      0.8180272526499991,
+      0.17254383145627897
+    ],
+    [
+      0.7803527398816631,
+      0.5751794623610049,
+      -0.2453939433590136
+    ]
+  ],
+  "material_colors": "Actual source material base-color texture and UVs, or explicit source PBR factor; no invented colors",
+  "renderer": "Imported generic CPU double-sided z-buffer from polish_ui.py; studio contrast lift and Lambert shading; not Sins runtime rendering",
+  "runtime": "NOT RUN"
+}

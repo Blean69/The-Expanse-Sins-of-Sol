@@ -1,0 +1,48 @@
+{
+  "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella",
+  "input_hashes": {
+    "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/expanse12_pella_hull.gltf": "c37501e5b7e1508a12b604e13b5dd8cc3d3709cf6f6a8727e469cbda201110f2",
+    "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/expanse12_pella_hull.bin": "9813509ca4ab26da12d918c528dd4e1991d2bb29926c65cd3c839c1d6eb27df8",
+    "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/expanse12_pella_editable.gltf": "d9633ea79102218848906aa2ac3c177f38ed27e82e7ce44a6b3ed11b988a581c",
+    "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/pella/expanse12_pella_editable.bin": "c5f2ac4b3fd0c7121797d3aee216c0c2068261994d8c1c7b097f26e8cf748e2e"
+  },
+  "before_triangles": 89430,
+  "after_triangles": 89430,
+  "geometry_change": "None: exact positions, indices and UVs preserved",
+  "normal_policy": "Area-weighted 25 degree corner crease; no cross-material smoothing",
+  "diagnostics": [
+    {
+      "old_corner_face_angle_p95": 21.472393035888672,
+      "new_corner_face_angle_p95": 11.31515121459961,
+      "old_corner_face_angle_mean": 5.9305806159973145,
+      "new_corner_face_angle_mean": 2.284933567047119,
+      "maximum_normal_tangent_dot": 1.7136335372924805e-07,
+      "opposed_corner_normals": 0
+    },
+    {
+      "old_corner_face_angle_p95": 20.39175033569336,
+      "new_corner_face_angle_p95": 11.198868751525879,
+      "old_corner_face_angle_mean": 4.828771591186523,
+      "new_corner_face_angle_mean": 1.989561676979065,
+      "maximum_normal_tangent_dot": 1.4458782970905304e-07,
+      "opposed_corner_normals": 0
+    },
+    {
+      "old_corner_face_angle_p95": 15.043403625488281,
+      "new_corner_face_angle_p95": 15.043403625488281,
+      "old_corner_face_angle_mean": 4.438199043273926,
+      "new_corner_face_angle_mean": 4.438840389251709,
+      "maximum_normal_tangent_dot": 2.2737367544323206e-13,
+      "opposed_corner_normals": 0
+    },
+    {
+      "old_corner_face_angle_p95": 23.798023223876953,
+      "new_corner_face_angle_p95": 11.227806091308594,
+      "old_corner_face_angle_mean": 7.901698112487793,
+      "new_corner_face_angle_mean": 2.191671371459961,
+      "maximum_normal_tangent_dot": 5.960464477539063e-08,
+      "opposed_corner_normals": 0
+    }
+  ],
+  "runtime": "NOT RUN"
+}

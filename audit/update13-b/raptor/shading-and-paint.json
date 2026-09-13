@@ -1,0 +1,40 @@
+{
+  "source": "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/raptor",
+  "input_hashes": {
+    "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/raptor/expanse12_raptor_hull.gltf": "425fdd25cc55c266054523ac4183642943e08445ba07487fcc65dc53df4f73f9",
+    "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/raptor/expanse12_raptor_hull.bin": "a191113e5b4af60976cedb22281ffe6241bd5a57df8eaf6965a21b10c0191e5e",
+    "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/raptor/expanse12_raptor_editable.gltf": "1a0857309550969952ff9e746ff2a3c5341ee2d9c9fd0eb57cd79c4d1b670217",
+    "/run/media/haker/NVME 2/expanse-workers/weapon-behavior/assets/derived/update12-a/raptor/expanse12_raptor_editable.bin": "7b91cc32b227ce6bde71fb794e3c5f4c08d47a127acc1402acdf1ad331203dd9"
+  },
+  "before_triangles": 88730,
+  "after_triangles": 88730,
+  "geometry_change": "None: exact positions, indices and UVs preserved",
+  "normal_policy": "Area-weighted 25 degree corner crease; no cross-material smoothing",
+  "diagnostics": [
+    {
+      "old_corner_face_angle_p95": 21.494773864746094,
+      "new_corner_face_angle_p95": 11.318534851074219,
+      "old_corner_face_angle_mean": 5.936959743499756,
+      "new_corner_face_angle_mean": 2.2922215461730957,
+      "maximum_normal_tangent_dot": 1.7881393432617188e-07,
+      "opposed_corner_normals": 0
+    },
+    {
+      "old_corner_face_angle_p95": 20.391761779785156,
+      "new_corner_face_angle_p95": 11.198868751525879,
+      "old_corner_face_angle_mean": 4.8294196128845215,
+      "new_corner_face_angle_mean": 1.989561915397644,
+      "maximum_normal_tangent_dot": 1.3998214853927493e-07,
+      "opposed_corner_normals": 0
+    },
+    {
+      "old_corner_face_angle_p95": 15.043403625488281,
+      "new_corner_face_angle_p95": 15.043403625488281,
+      "old_corner_face_angle_mean": 4.438931465148926,
+      "new_corner_face_angle_mean": 4.438840389251709,
+      "maximum_normal_tangent_dot": 2.2737367544323206e-13,
+      "opposed_corner_normals": 0
+    }
+  ],
+  "runtime": "NOT RUN"
+}

@@ -1,6 +1,6 @@
 # The Expanse — Sins II corvette prototype
 
-**Current update: [0.12 Capital fleet](docs/update12.md).** Adds regular MCRN Raptor and Scirocco capitals, a unique silver Free Navy Pella with its eagle emblem, and the fast Sunflare scout with a damaging emergency burn. Includes the complete 0.11 ships/audio and shield policy. New 0.12 runtime tests remain NOT RUN; earlier installed packages stay preserved. The sections below record historical milestones.
+**Current update: [0.13 Model and audio polish](docs/update13.md).** Adds Martian color mapping to Scirocco/Morrigan, clearer Scirocco PDC hardware, refined Raptor/Pella shading, corrected Razorback overhead presentation and shorter varied PDC reports. Includes the complete 0.12 fleet. New runtime tests remain NOT RUN; earlier packages and installed settings are preserved.
 
 The user has now observed **individual PDC tracking and good tracer appearance** in the polish prototype. Residual hull holes and floating turret supports remain recorded defects. The working **0.2.1** package and installed copy are preserved. New work is staged separately under `build/experiments/expanse_corvette_ammo03` and `build/experiments/expanse_rocinante03`; see [0.3 handoff](docs/combat03.md) for exact package availability and runtime limits.
 

@@ -1,0 +1,253 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/visual13-sunflare/build/update13-c/game",
+  "hull_mesh": "expanse12_sunflare_hull",
+  "rigs": [],
+  "ship_spatial": {
+    "box": {
+      "center": [
+        0.0,
+        -0.0007917881011962891,
+        0.0
+      ],
+      "extents": [
+        5.853516101837158,
+        5.18842339515686,
+        13.69565200805664
+      ]
+    },
+    "radius": 15.137659291986877,
+    "bounds_min": [
+      -5.853516101837158,
+      -5.189215183258057,
+      -13.69565200805664
+    ],
+    "bounds_max": [
+      5.853516101837158,
+      5.187631607055664,
+      13.69565200805664
+    ]
+  },
+  "equipment": {
+    "exhaust": {
+      "position": [
+        -1.6661736879086675e-07,
+        -1.2142006653231263,
+        -11.679046052403327
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "up": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "source_local_position": [
+        -4.500150680541992e-05,
+        -8.37277889251709,
+        -5.960464477539062e-07
+      ],
+      "source": "Central engine bell aft mouth; side fins are not engine nozzles; whole-model 180 degree longitudinal roll applied in update13",
+      "source_offset_beyond_surface": 0.1,
+      "source_ring_bounds": [
+        [
+          -1.662931203842163,
+          -8.37277889251709,
+          -1.6629559993743896
+        ],
+        [
+          1.6628412008285522,
+          -8.37277889251709,
+          1.6629548072814941
+        ]
+      ],
+      "source_ring_vertices": 98
+    },
+    "exhausts": [
+      {
+        "position": [
+          -1.6661736879086675e-07,
+          -1.2142006653231263,
+          -11.679046052403327
+        ],
+        "forward": [
+          0.0,
+          0.0,
+          -1.0
+        ],
+        "up": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "source_local_position": [
+          -4.500150680541992e-05,
+          -8.37277889251709,
+          -5.960464477539062e-07
+        ],
+        "source": "Central engine bell aft mouth; side fins are not engine nozzles; whole-model 180 degree longitudinal roll applied in update13",
+        "source_offset_beyond_surface": 0.1,
+        "source_ring_bounds": [
+          [
+            -1.662931203842163,
+            -8.37277889251709,
+            -1.6629559993743896
+          ],
+          [
+            1.6628412008285522,
+            -8.37277889251709,
+            1.6629548072814941
+          ]
+        ],
+        "source_ring_vertices": 98
+      }
+    ]
+  },
+  "exhaust_geometry": {
+    "position": [
+      -1.6661736879086675e-07,
+      -1.2142006653231263,
+      -11.679046052403327
+    ],
+    "forward": [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    "up": [
+      0.0,
+      -1.0,
+      0.0
+    ],
+    "source_local_position": [
+      -4.500150680541992e-05,
+      -8.37277889251709,
+      -5.960464477539062e-07
+    ],
+    "source": "Central engine bell aft mouth; side fins are not engine nozzles; whole-model 180 degree longitudinal roll applied in update13",
+    "source_offset_beyond_surface": 0.1,
+    "source_ring_bounds": [
+      [
+        -1.662931203842163,
+        -8.37277889251709,
+        -1.6629559993743896
+      ],
+      [
+        1.6628412008285522,
+        -8.37277889251709,
+        1.6629548072814941
+      ]
+    ],
+    "source_ring_vertices": 98
+  },
+  "counts": {
+    "hull": 17741
+  },
+  "assembled_triangle_total": 17741,
+  "meshpoints": {
+    "hull": [
+      {
+        "name": "center",
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0.0,
+          6.187631607055664,
+          0.0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0.0,
+          -6.189215183258057,
+          0.0
+        ]
+      },
+      {
+        "name": "exhaust.0",
+        "translation": [
+          -1.6661736879086675e-07,
+          -1.2142006653231263,
+          -11.679046052403327
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ]
+  },
+  "editable_source": "/run/media/haker/NVME 2/expanse-workers/visual13-sunflare/assets/derived/update13-c/expanse12_sunflare_editable.gltf",
+  "normalization": {
+    "source_mesh_local_center": [
+      -0.8687659502029419,
+      -0.0883488655090332,
+      -7.152557373046875e-07
+    ],
+    "proper_rotation": [
+      [
+        0.0,
+        0.0,
+        -1.0
+      ],
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "determinant": 1.0,
+    "uniform_scale": 1.3976877927780151,
+    "game_length": 27.391304347826086,
+    "provisional_meters": 12,
+    "reference": "Tachi46m/105gameunits, provisional12m within requested10-15m envelope; no source physicalunit assertion",
+    "scene_root_transform": "Discarded arbitrary presentation transform; single unskinned mesh local geometry preserves relative scale and proportions",
+    "update13_roll_degrees": 180,
+    "update13_game_rotation": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "orientation_limit": "Three-prong source has no canonical top annotation. 180-degree proper roll brings a lettered central prong upward; camera-side glyph readability remains runtime-dependent."
+  },
+  "runtime": "NOT RUN",
+  "files": {
+    "textures/expanse12_sunflare_material_nrm.dds": "c9a132738dc37ab1698b38a779c3282149e0d6cc43e200c73b248b1735b527bd",
+    "textures/expanse12_sunflare_material_orm.dds": "a3189452d431697641ca0095c324f615442b72f8f716586d67ef6bd5d24a0e09",
+    "textures/expanse12_sunflare_material_clr.dds": "3af1b8d55962abf5563b1c643e2c64738e7895266a90fd586e068ec1effadad7",
+    "textures/expanse12_sunflare_material_msk.dds": "3be6b657995ac12f317514a89e2bc0aa0272ca3a554fb0219b998e760ab01bc2",
+    "mesh_materials/expanse12_sunflare_hull_expanse12_sunflare_material.mesh_material": "3aa32455bc3b99c6b3f8814f5b8e63fb1d3a8c14b2df9ebd630d0db38898cf75",
+    "meshes/expanse12_sunflare_hull.mesh": "922feebf79e840f12d7f0d5a07eafeca250a513e71ea7d150edb50b2ba61b199"
+  },
+  "ui_integration_spec": "/run/media/haker/NVME 2/expanse-workers/visual13-sunflare/audit/update13-c/ui-integration-spec.json",
+  "source_archive_sha256": "0f861de9e69b6b0cf3959e083b45571f9879a35cc6b2bfb62f50e6bf4f103e86"
+}

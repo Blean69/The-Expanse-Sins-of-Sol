@@ -1,0 +1,5 @@
+{
+  "status": "PASS",
+  "scope": "Asset-independent CLI control-flow regression with mocked tree validation; not an asset validation pass",
+  "result": "--validate-only writes one validation report and invokes neither build nor ZIP verification"
+}

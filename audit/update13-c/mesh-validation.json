@@ -1,0 +1,102 @@
+{
+  "status": "PASS OFFLINE",
+  "meshes": [
+    {
+      "mesh": "expanse12_sunflare_hull",
+      "triangles": 17741,
+      "sha256": "922feebf79e840f12d7f0d5a07eafeca250a513e71ea7d150edb50b2ba61b199",
+      "only_tangent_bytes_changed": true,
+      "official_trailer_preserved": true,
+      "authored_frame_error": 1.4600096599955427e-07,
+      "tangent_fallbacks": 0,
+      "opposed_winding_triangles": 0,
+      "near_ambiguous_winding_triangles": 0,
+      "materials": [
+        "expanse12_sunflare_hull_expanse12_sunflare_material"
+      ],
+      "meshpoints": [
+        {
+          "name": "center",
+          "position": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "above",
+          "position": [
+            0.0,
+            6.187631607055664,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "aura",
+          "position": [
+            0.0,
+            -6.189215183258057,
+            -0.0
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            -0.0,
+            -0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "exhaust.0",
+          "position": [
+            -1.6661736879086675e-07,
+            -1.2142006158828735,
+            -11.679045677185059
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0,
+            0.0,
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "bone_index": 0
+        }
+      ]
+    }
+  ],
+  "runtime": "NOT RUN"
+}

@@ -1,0 +1,355 @@
+{
+  "status": "PASS",
+  "pinned_brush_schema_blob": "3e2e9a9c47b6ced821bd2b2ebb9e09f66d390c9f",
+  "source_dependencies": {
+    "assets/derived/update13-a/expanse12_scirocco_editable.gltf": "c08f124a32d841ac772f72b5a657e28036e408b40707ab73d0a223107d766f0d",
+    "assets/derived/update13-a/expanse12_scirocco_editable.bin": "a154776e06b7a0a2806f64f1a48a1ea407ce799f64bc2aadcb5aeedb08e007a5",
+    "assets/derived/update13-a/texture-sources/expanse13_scirocco_panels_clr.png": "7e56a44f43a7b7821f25136935c85f5e186811538006dd44a50cda256652348a"
+  },
+  "triangles": 98455,
+  "brush_schema_checks": [
+    {
+      "file": "build/update13-a/ui-clearance/generated/brushes/expanse12_scirocco_hud_icon.brush",
+      "status": "PASS",
+      "texture": "expanse12_scirocco_hud_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/brushes/expanse12_scirocco_hud_picture.brush",
+      "status": "PASS",
+      "texture": "expanse12_scirocco_hud_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/brushes/expanse12_scirocco_tooltip_picture.brush",
+      "status": "PASS",
+      "texture": "expanse12_scirocco_tooltip_picture",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/brushes/expanse12_scirocco_main_view_icon.brush",
+      "status": "PASS",
+      "texture": "expanse12_scirocco_main_view_icon",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/brushes/expanse12_scirocco_main_view_icon_selected.brush",
+      "status": "PASS",
+      "texture": "expanse12_scirocco_main_view_icon_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/brushes/expanse12_scirocco_main_view_icon_sub_selected.brush",
+      "status": "PASS",
+      "texture": "expanse12_scirocco_main_view_icon_sub_selected",
+      "dpi_suffixes": [
+        "",
+        "150",
+        "200"
+      ]
+    }
+  ],
+  "png_checks": [
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_hud_icon.png",
+      "sha256": "18b8b6c91fd8c92384cc4bac94a668357c9ea9dc674d6b9674d4cd96d06fcd5b",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_icon.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_hud_icon150.png",
+      "sha256": "38c394570de96d052c212c410639bb8125b49f28158ad075ad0b8d1ccd3702a7",
+      "dimensions": [
+        128,
+        60
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_icon150.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_hud_icon200.png",
+      "sha256": "59ec8a35e3fc7a64e292fc9fdd9696d444e7061c0bfe124fe54deb471614e320",
+      "dimensions": [
+        170,
+        80
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_icon200.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_hud_picture.png",
+      "sha256": "422e2184e9c85b8b7d8f3d82792deafadc09636092b56304c819a8c03a61f3aa",
+      "dimensions": [
+        265,
+        85
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_picture.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_hud_picture150.png",
+      "sha256": "75f21db1f6f387bbeaafaa1d69489fa1f4ad52c67e2b04007f1211045085e980",
+      "dimensions": [
+        397,
+        127
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_picture150.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_hud_picture200.png",
+      "sha256": "31cf52483b78dfb26fa06dd3548c27dd70596b0b2a329313b3d8dded67bf671a",
+      "dimensions": [
+        530,
+        170
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_hud_picture200.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_tooltip_picture.png",
+      "sha256": "ed7a9f42508b4e8e48e6f95dd3621b4258e53c9181a898c90adc0c856dbecb36",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_tooltip_picture.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_tooltip_picture150.png",
+      "sha256": "cf1e93ad7b8b40b8e072b03755b35bc30bf2a77fdd58c77e00850baa9044a012",
+      "dimensions": [
+        689,
+        324
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_tooltip_picture150.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_tooltip_picture200.png",
+      "sha256": "62be04533cabdb13f5d605d77e6d212513be80e319872672756c910dc7364b88",
+      "dimensions": [
+        918,
+        432
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_tooltip_picture200.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_main_view_icon.png",
+      "sha256": "7ee5220688510bef30b9ed36971ca5912ebe16818fae1da51e63ded925bda4b8",
+      "dimensions": [
+        51,
+        28
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_main_view_icon150.png",
+      "sha256": "833b9d049aa5bd64a402793757f8a16182172cff3cdb6872ed543b0dbd9a5a9c",
+      "dimensions": [
+        77,
+        42
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon150.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_main_view_icon200.png",
+      "sha256": "da534322752b78a08af687891195be3b62da3833e3e32dd2d073c6e72f6404d4",
+      "dimensions": [
+        102,
+        56
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon200.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_main_view_icon_selected.png",
+      "sha256": "0881fd5ea7382f14d5baf808d3148d6b4a036e859e33e92a748020a0ddf2b374",
+      "dimensions": [
+        62,
+        39
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_selected.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_main_view_icon_selected150.png",
+      "sha256": "b75ddc5c611fe25111d1b9bb255c69082b53892a9aaf304e3b4c71865d5fabf9",
+      "dimensions": [
+        93,
+        59
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_selected150.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_main_view_icon_selected200.png",
+      "sha256": "43daaa02a158f8546121c44b20fd0d53f5d1e1f013a81a6f83a35f816a7b9d73",
+      "dimensions": [
+        124,
+        78
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_selected200.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_main_view_icon_sub_selected.png",
+      "sha256": "184beace3d8bddecf7063f65bec3472aeb38bc258e948051fb24173794af2af8",
+      "dimensions": [
+        72,
+        49
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_sub_selected.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_main_view_icon_sub_selected150.png",
+      "sha256": "12c0e496a49d832177154d90ed27dd83fef0dc579fc836580e79e2755de8670a",
+      "dimensions": [
+        108,
+        74
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_sub_selected150.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/textures/expanse12_scirocco_main_view_icon_sub_selected200.png",
+      "sha256": "80ac07cb07033de5b77370e54407abccb7677a0938fbf2825d2696c50ee4b10e",
+      "dimensions": [
+        144,
+        98
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        0,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_loyalist_titan_main_view_icon_sub_selected200.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/expanse12_scirocco_mod_small_logo.png",
+      "sha256": "b49217786134dbb3f16915f581af25eae6c8113668041d964c5f28ceb321715a",
+      "dimensions": [
+        85,
+        40
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_small_logo.png"
+    },
+    {
+      "file": "build/update13-a/ui-clearance/generated/expanse12_scirocco_mod_large_logo.png",
+      "sha256": "79809ddde8abef1a02a8a9691419e30c3b724071ee6ddbecaab8e4ad1a600335",
+      "dimensions": [
+        459,
+        216
+      ],
+      "mode": "RGBA",
+      "alpha_extrema": [
+        255,
+        255
+      ],
+      "size_reference": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/examples/mods/super_fast_trader_scout_corvette/mod_large_logo.png"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

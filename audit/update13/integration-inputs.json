@@ -1,0 +1,22 @@
+{
+  "geometry": {
+    "expanse12_scirocco": "/run/media/haker/NVME 2/expanse-mod/audit/update13-a/integration-spec.json",
+    "trader_scout_corvette": "/run/media/haker/NVME 2/expanse-mod/audit/update13-c/integration-spec.json"
+  },
+  "ui": {
+    "expanse12_scirocco": "/run/media/haker/NVME 2/expanse-mod/audit/update13-a/ui-integration-spec.json",
+    "trader_scout_corvette": "/run/media/haker/NVME 2/expanse-mod/audit/update13-c/ui-integration-spec.json",
+    "trader_light_frigate": "/run/media/haker/NVME 2/expanse-mod/audit/update13-b/morrigan/ui-integration-spec.json"
+  },
+  "resource_directories": [
+    "/run/media/haker/NVME 2/expanse-workers/visual13-scirocco/build/update13-a/game",
+    "/run/media/haker/NVME 2/expanse-workers/visual13-scirocco/build/update13-a/ui-clearance/generated",
+    "/run/media/haker/NVME 2/expanse-workers/visual13-sunflare/build/update13-c/game",
+    "/run/media/haker/NVME 2/expanse-workers/visual13-sunflare/build/update13-c/ui/generated",
+    "/run/media/haker/NVME 2/expanse-workers/visual13-hulls/build/update13-b/morrigan/ui/generated",
+    "/run/media/haker/NVME 2/expanse-workers/visual13-hulls/build/update13-b/morrigan/game",
+    "/run/media/haker/NVME 2/expanse-workers/visual13-hulls/build/update13-b/raptor/game",
+    "/run/media/haker/NVME 2/expanse-workers/visual13-hulls/build/update13-b/pella/game",
+    "/run/media/haker/NVME 2/expanse-mod/build/update13-audio/game"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "source": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update11-c",
+  "input_hashes": {
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update11-c/expanse11_morrigan_hull.gltf": "3ae916f7d1a27b9164d4b3681d5b8fffc8aa6b52648a12f5f271ffcb21d661c9",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update11-c/expanse11_morrigan_hull.bin": "038a5fb32e6c31d047187c4ee0e8c5a06be151808bbf1c8a6cb70f4c4329010d",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update11-c/expanse11_morrigan_editable.gltf": "b785597c83b6d5cce1b8558c4a1aee434426224a3e8a5284c398a658b29c7681",
+    "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/update11-c/expanse11_morrigan_editable.bin": "442897727e46d91d60bf5460759a1b9e753fa62b0f31e20e50e80b697431f33c"
+  },
+  "before_triangles": 28831,
+  "after_triangles": 32863,
+  "geometry_change": "Only planar clipping for Morrigan paint boundaries; surface and silhouette unchanged",
+  "normal_policy": "Area-weighted 25 degree corner crease; no cross-material smoothing",
+  "diagnostics": [
+    {
+      "old_corner_face_angle_p95": 22.49942398071289,
+      "new_corner_face_angle_p95": 12.391830444335938,
+      "old_corner_face_angle_mean": 7.425323963165283,
+      "new_corner_face_angle_mean": 2.580336570739746,
+      "maximum_normal_tangent_dot": 1.2811506167054176e-07,
+      "opposed_corner_normals": 0
+    },
+    {
+      "old_corner_face_angle_p95": 21.922576904296875,
+      "new_corner_face_angle_p95": 12.174510955810547,
+      "old_corner_face_angle_mean": 6.992218017578125,
+      "new_corner_face_angle_mean": 2.244128942489624,
+      "maximum_normal_tangent_dot": 1.043081283569336e-07,
+      "opposed_corner_normals": 0
+    },
+    {
+      "old_corner_face_angle_p95": 15.043403625488281,
+      "new_corner_face_angle_p95": 15.043403625488281,
+      "old_corner_face_angle_mean": 4.438790798187256,
+      "new_corner_face_angle_mean": 4.4396891593933105,
+      "maximum_normal_tangent_dot": 1.1368683772161603e-13,
+      "opposed_corner_normals": 0
+    }
+  ],
+  "runtime": "NOT RUN"
+}

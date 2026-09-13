@@ -1,0 +1,111 @@
+{
+  "status": "PASS OFFLINE AUDIO ENCODING",
+  "source": "/run/media/haker/NVME 2/expanse-mod/assets/derived/pdc-audio10/PDC-normalized.wav",
+  "source_sha256": "c6b964cb6b30812f489f3084c17e382e66e645f3342bd9a05d25e66868bcdf98",
+  "original_sha256": "dc1a38a83d9eb5c2ce0da4b2080dfbed43313b6b70a9c9cce16127e31d1ddcff",
+  "old": {
+    "samples": 43968,
+    "duration": 0.916,
+    "peak_dbfs": -6.708893775939941,
+    "rms_dbfs": -15.795051574707031
+  },
+  "reports": [
+    {
+      "id": "expanse13_pdc_report_0",
+      "source_start_seconds": 0.06,
+      "source_duration_seconds": 0.2,
+      "gain_db": -6,
+      "fade_in_seconds": 0.004,
+      "fade_out_seconds": 0.025,
+      "wav_sha256": "87f95adaa90386c75a30d2af5f869d462495124f5e355fa7c6d882f4df8b8915",
+      "ogg_sha256": "8fbf26b2a7c06dd071e9d5b78653f3a43e3972fba40248c93ca675769fbf7330",
+      "decoded": {
+        "samples": 9472,
+        "duration": 0.19733333333333333,
+        "peak_dbfs": -12.651317596435547,
+        "rms_dbfs": -22.322093963623047
+      }
+    },
+    {
+      "id": "expanse13_pdc_report_1",
+      "source_start_seconds": 0.25,
+      "source_duration_seconds": 0.2,
+      "gain_db": -6,
+      "fade_in_seconds": 0.004,
+      "fade_out_seconds": 0.025,
+      "wav_sha256": "a425283de940af7308fc83501fff36e3eb3ff1d48449fe9f9e8613a668113a8d",
+      "ogg_sha256": "a0f3b6e8a8abe2dc1d2e42360ab1020357c22aa9b9b0fd849f0e286e05974b2d",
+      "decoded": {
+        "samples": 9472,
+        "duration": 0.19733333333333333,
+        "peak_dbfs": -13.264918327331543,
+        "rms_dbfs": -22.518352508544922
+      }
+    },
+    {
+      "id": "expanse13_pdc_report_2",
+      "source_start_seconds": 0.44,
+      "source_duration_seconds": 0.2,
+      "gain_db": -6,
+      "fade_in_seconds": 0.004,
+      "fade_out_seconds": 0.025,
+      "wav_sha256": "f41fbc1af1ba0595322c524207888bfcc910b048e7e285b84f8e09b0fafd410d",
+      "ogg_sha256": "e804d1a62a745a8728759ad01d6d0b8bd69776902562f91f12818555b516e192",
+      "decoded": {
+        "samples": 9472,
+        "duration": 0.19733333333333333,
+        "peak_dbfs": -13.145489692687988,
+        "rms_dbfs": -21.044261932373047
+      }
+    },
+    {
+      "id": "expanse13_pdc_report_3",
+      "source_start_seconds": 0.63,
+      "source_duration_seconds": 0.2,
+      "gain_db": -6,
+      "fade_in_seconds": 0.004,
+      "fade_out_seconds": 0.025,
+      "wav_sha256": "948b89273a04de79b615265404f85dc73bdca0faaf445f920331f7e9718f26f2",
+      "ogg_sha256": "4084e3e1f36a1f6465b6acb35757ecff1497f13b773ca3e09520568e13bb0116",
+      "decoded": {
+        "samples": 9472,
+        "duration": 0.19733333333333333,
+        "peak_dbfs": -12.43701171875,
+        "rms_dbfs": -22.191696166992188
+      }
+    }
+  ],
+  "sound_profile": {
+    "is_positionable": true,
+    "is_looping": false,
+    "is_streaming": false,
+    "min_attenuation_distance": 70.0,
+    "sound_group": "weapon_muzzle_light"
+  },
+  "synthetic_mix_16_guns_at_four_triggers_per_second": {
+    "old": {
+      "unlimited_mix_peak_dbfs": 22.16543199675948,
+      "unlimited_mix_rms_dbfs": 9.889243122619881,
+      "samples_exceeding_full_scale": 97651
+    },
+    "new": {
+      "unlimited_mix_peak_dbfs": 3.644203352441173,
+      "unlimited_mix_rms_dbfs": -10.10811219881518,
+      "samples_exceeding_full_scale": 1432
+    },
+    "warning": "Deliberately coherent unattenuated sum without engine limiter/spatialization; not a listening or runtime pass"
+  },
+  "game_directory": "/run/media/haker/NVME 2/expanse-mod/build/update13-audio/game",
+  "files": {
+    "sounds/expanse13_pdc_report_0.ogg": "8fbf26b2a7c06dd071e9d5b78653f3a43e3972fba40248c93ca675769fbf7330",
+    "sounds/expanse13_pdc_report_0.sound": "cfe5521cf416cd84807f88ff7121e3f6b919840005f85b46e05c1e65636809a3",
+    "sounds/expanse13_pdc_report_1.ogg": "a0f3b6e8a8abe2dc1d2e42360ab1020357c22aa9b9b0fd849f0e286e05974b2d",
+    "sounds/expanse13_pdc_report_1.sound": "cfe5521cf416cd84807f88ff7121e3f6b919840005f85b46e05c1e65636809a3",
+    "sounds/expanse13_pdc_report_2.ogg": "e804d1a62a745a8728759ad01d6d0b8bd69776902562f91f12818555b516e192",
+    "sounds/expanse13_pdc_report_2.sound": "cfe5521cf416cd84807f88ff7121e3f6b919840005f85b46e05c1e65636809a3",
+    "sounds/expanse13_pdc_report_3.ogg": "4084e3e1f36a1f6465b6acb35757ecff1497f13b773ca3e09520568e13bb0116",
+    "sounds/expanse13_pdc_report_3.sound": "cfe5521cf416cd84807f88ff7121e3f6b919840005f85b46e05c1e65636809a3"
+  },
+  "runtime": "NOT RUN",
+  "limitations": "No verified per-ship concurrency cap. Short reports and varied waveform starts reduce repeat overlap; finite gain/attenuation does not guarantee a clean whole-fleet mix. No firing rate or damage changed."
+}

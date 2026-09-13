@@ -1,0 +1,77 @@
+{
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers/visual13-sunflare/build/update13-c/ui/generated",
+  "status": "PASS OFFLINE UI",
+  "logos": {
+    "small_logo": "expanse12_sunflare_mod_small_logo.png",
+    "large_logo": "expanse12_sunflare_mod_large_logo.png"
+  },
+  "source": "Actual selected Sunflare final active source geometry; no other ship imagery",
+  "copy_generated_subdirectories": [
+    "brushes",
+    "textures"
+  ],
+  "optional_root_logos": {
+    "small_logo": "expanse12_sunflare_mod_small_logo.png",
+    "large_logo": "expanse12_sunflare_mod_large_logo.png"
+  },
+  "skin_patches": [
+    {
+      "pointer": "/skin_stages/0/gui/hud_icon",
+      "value": "expanse12_sunflare_hud_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_monochrome_icon",
+      "value": "expanse12_sunflare_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/hud_picture",
+      "value": "expanse12_sunflare_hud_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/gui/tooltip_picture",
+      "value": "expanse12_sunflare_tooltip_picture"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/icon",
+      "value": "expanse12_sunflare_main_view_icon"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/selected_icon",
+      "value": "expanse12_sunflare_main_view_icon_selected"
+    },
+    {
+      "pointer": "/skin_stages/0/main_view_icon/sub_selected_icon",
+      "value": "expanse12_sunflare_main_view_icon_sub_selected"
+    }
+  ],
+  "entity_manifests_required": [],
+  "runtime": "NOT RUN",
+  "files": {
+    "expanse12_sunflare_mod_small_logo.png": "824caae9399054c485758c29c566dc5fd171493fb47d7ffc327139995b6c70dd",
+    "expanse12_sunflare_mod_large_logo.png": "5b8f570ae1075c085f5f815d8f87c06eec2f51d1e7572de3aac486f5af801aaf",
+    "textures/expanse12_sunflare_main_view_icon_selected.png": "07f4be5572e0cff550b25dc89c4f486fad9f8754e2b3be0fe5946305775049cb",
+    "textures/expanse12_sunflare_tooltip_picture200.png": "b398b76591ffd5ed3a777754d0253dd1b1cc61fb3faebbd21fb54c7f897b5f36",
+    "textures/expanse12_sunflare_tooltip_picture.png": "4a40714b6332993ba34d9dc60d5ec4f7315204c2424c29b0009ad848bf22d7a7",
+    "textures/expanse12_sunflare_main_view_icon_selected150.png": "2dec3d29c8023572bd6f0fa72d4304d11792b2f491722cb5348091188124a54c",
+    "textures/expanse12_sunflare_main_view_icon_selected200.png": "4303e5dcca9c75a73f8c3aaf92cd34fda27f5bc99fa8a74625b0938650c95c30",
+    "textures/expanse12_sunflare_tooltip_picture150.png": "316d98b7586db1727a55e551b05ef09bd665cb28e6248632579338d7d3c4d896",
+    "textures/expanse12_sunflare_main_view_icon_sub_selected.png": "20727a9c2b83e2ac2a846553ff93742d3006341e0b7cd78eb1d7826996ac751b",
+    "textures/expanse12_sunflare_hud_icon.png": "0a862c39180857e4fc0b0af02a6ff8b870bba2483aef9ed703701e0bf931bb63",
+    "textures/expanse12_sunflare_hud_icon200.png": "aa776a5f0cb16b9fee2861a71a8b982c3096211580820fb34dfbb10a87f0e72f",
+    "textures/expanse12_sunflare_hud_picture150.png": "b175c5e13354b6ac9076bab91cfe27252e1837ab638dc786d56856ad9a157316",
+    "textures/expanse12_sunflare_hud_picture.png": "10ccd11fdebbe9744e0579f6aba08861e9c3bd7cf2f87ea9e393b6597c250d64",
+    "textures/expanse12_sunflare_main_view_icon150.png": "86a00c61603aa78cdcc88e7b101dcbb7fd42f0d74ba02cbae6e8eb8a66e0fc48",
+    "textures/expanse12_sunflare_main_view_icon_sub_selected200.png": "8fdb27371aefeedc348f03c45829ebde31834041bb385a6e6853379550fac6ee",
+    "textures/expanse12_sunflare_main_view_icon.png": "3941731ee5ace0d6a97f11c213b366a65c0271357f36d5517d7e59f72464b101",
+    "textures/expanse12_sunflare_hud_picture200.png": "103726142b0a2eba594514db8f2e7ab60a1d3f8cb420856ca992012b0bfced79",
+    "textures/expanse12_sunflare_main_view_icon200.png": "c505df0a6ad505d3c8d697b138f4a6e99e90e6941343c8b61e1e16e89f14798a",
+    "textures/expanse12_sunflare_hud_icon150.png": "b1d959a41461d2cf17501e20f733f23b7e489292edff38099381faf947a296cc",
+    "textures/expanse12_sunflare_main_view_icon_sub_selected150.png": "2ba9584081a8bcb98d899b77040ebeb2e8ea2c070d473cc085383e38bde5eef6",
+    "brushes/expanse12_sunflare_main_view_icon_sub_selected.brush": "a4c7d47b84da73dfd2a7f5d8130e435f0e04d2fa70656575773dec086ad880fd",
+    "brushes/expanse12_sunflare_main_view_icon.brush": "15baec134e6fe93d74ea143f814b4c070c3b440f9ec12eda6904ef3d582b5f0d",
+    "brushes/expanse12_sunflare_hud_picture.brush": "4dbf931ce72dbff6698160b6f54913de7f85a2bacf771e6139a8cb32ec3a0947",
+    "brushes/expanse12_sunflare_hud_icon.brush": "a1eb1ae98c70f9e0900882b50236981f42b1cc6e679a85af95846050c12c455b",
+    "brushes/expanse12_sunflare_tooltip_picture.brush": "204d197df9882373697424da95191573cdc4b3e78f94233af36ed70e392f48b1",
+    "brushes/expanse12_sunflare_main_view_icon_selected.brush": "5141c903fab328fe6b4fef04e176ec1723bd95914addf205b2ed40081d31e6db"
+  }
+}

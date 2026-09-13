@@ -197,3 +197,19 @@ The agent did not install, enable or launch this package. New capital/scout/embl
 | U12-5 destruction, save/reload and full-fleet performance | NOT RUN | |
 
 Record ship level/items, target state, timestamps, exact package hash and logs before marking any gate observed. Earlier successful user reports do not certify these new assets or behaviors.
+
+## User observations following update 0.12
+
+USER OBSERVED: new fleet models load and look broadly good; Scirocco/Morrigan appear mostly uncolored; Razorback presents its lettering on the wrong-facing axis; no clearly visible rotating Scirocco PDCs; PDC audio sounds good individually but bunches together near many guns. Screenshots supplied in the update0.13 request show those models and Raptor/Pella faceted lighting. This establishes visible loading and reported defects only, not a full pass for earlier U12 gameplay/ability/performance gates.
+
+## Update 0.13 workstation results
+
+New derivative package/hash: `audit/update13/package-summary.json`. No agent installation or game launch. Offline measurements do not mark runtime results passed.
+
+| Gate | Result | Observations |
+|---|---|---|
+| U13-1 load / painted hulls / Raptor-Pella lighting | NOT RUN | |
+| U13-2 Scirocco physical PDC tracking, muzzle and support | NOT RUN | |
+| U13-3 Razorback orientation, drive and movement | NOT RUN | |
+| U13-4 close/far PDC audio mix with one ship and fleet | NOT RUN | |
+| U13-5 save/reload and unchanged gameplay regression | NOT RUN | |
