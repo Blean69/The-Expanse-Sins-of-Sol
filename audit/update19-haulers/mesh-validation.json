@@ -1,0 +1,26 @@
+{
+  "status": "PASS OFFLINE",
+  "records": [
+    {
+      "ship": "artemis",
+      "triangles": 77478,
+      "sha256": "cae0e6779166cff5a1e1a9a32d5a5336b4f438085f9104420e6705816edeb764",
+      "near_perpendicular_faces_reframed": 10257,
+      "only_tangent_bytes_patched": true,
+      "official_trailer_unchanged": true,
+      "tangent_match_max_error": 1.56432552526793e-07,
+      "opposed_winding_triangles": 0
+    },
+    {
+      "ship": "le_guin",
+      "triangles": 75043,
+      "sha256": "d641f9355c1b6aa59b4f058f01ff09fcb118488fe488f5abb4dab6325bd088c3",
+      "near_perpendicular_faces_reframed": 3671,
+      "only_tangent_bytes_patched": true,
+      "official_trailer_unchanged": true,
+      "tangent_match_max_error": 1.5267256827179937e-07,
+      "opposed_winding_triangles": 0
+    }
+  ],
+  "runtime": "NOT RUN"
+}

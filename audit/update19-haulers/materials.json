@@ -1,0 +1,835 @@
+[
+  {
+    "alias": "mat_c4a0c18f41",
+    "source_material": "MI_Struct_DoorAirlockDbl02A_DoorSign",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_DoorAirlockDbl02A_DoorSign.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockDbl02A_DoorSign_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockDbl02A_DoorSign_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_842bd5dbdd",
+    "source_material": "MI_Vehi_TilesArtemisExt01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_TilesArtemisExt01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExt01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExt01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      0.6062157626908513,
+      0.6748057973486968,
+      0.6941501628458461
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_e88828f008",
+    "source_material": "MI_Vehi_ArtemisExtTrim01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_ArtemisExtTrim01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_ArtemisExtTrim01B_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_ArtemisExtTrim01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      0.726327237039874,
+      0.808507095163453,
+      0.8316845184751017
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_81f11f8011",
+    "source_material": "MI_Vehi_ArtemisExtTrim02A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_ArtemisExtTrim02A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_ArtemisExtTrim01B_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_ArtemisExtTrim01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_b599de7d41",
+    "source_material": "MI_Vehi_ArtemisExt_MetalPainted01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_ArtemisExt_MetalPainted01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TileMetal01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TileMetal01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      0.6601334708069969,
+      0.561400527912957,
+      0.12552967431842385
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_fbb2eff360",
+    "source_material": "MI_Vehi_EngThrusterInt01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_EngThrusterInt01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_EngThrusterInt01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_EngThrusterInt01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_c956f5316b",
+    "source_material": "MI_Vehi_EngineThusterCone01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_EngineThusterCone01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_EngineThusterCone01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_EngineThusterCone01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_ac5ec01313",
+    "source_material": "MI_Struct_metalDark",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_metalDark.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TileMetal01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TileMetal01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      0.5803550478108285,
+      0.5803550478108285,
+      0.5803550478108285
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_57f9cf3b3c",
+    "source_material": "MI_Struct_TrimPanel01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_TrimPanel01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TrimPanel01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/Common/T_Struct_TrimPanel01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_07967afc67",
+    "source_material": "MI_Struct_HallHexTrim01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/MI_Struct_HallHexTrim01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/T_Struct_HallHexTrim01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/T_Struct_HallHexTrim01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_dbe22dc8f8",
+    "source_material": "MI_Struct_PanelWall01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_PanelWall01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_c01442c57b",
+    "source_material": "MI_Decal_LargeAssetEmissive01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/MI_Decal_LargeAssetEmissive01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_LargeAssetEmissive01A_E.png",
+    "normal_source": "None",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      0.9606936361645778,
+      0.4923636811596243
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_30c00fa233",
+    "source_material": "MI_Struct_FloorFrame02A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_FloorFrame02A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor02A_Tile_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor02A_Tile_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_1fcabfded4",
+    "source_material": "MI_Struct_AirlockTrim01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_AirlockTrim01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_AirlockTrim01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_AirlockTrim01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_c468572c94",
+    "source_material": "MI_Struct_PanelWall01B_Darker",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_PanelWall01B_Darker.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/UNN/UNN_Interior/T_Struct_PanelWall02C_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01B_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_8ae5a95f46",
+    "source_material": "MI_Struct_DoorAirlockCargo01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_DoorAirlockCargo01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockCargo01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockCargo01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_3fa29d493b",
+    "source_material": "MI_Bin_ShippingContainer01E",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01E.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_adfffb3dac",
+    "source_material": "MI_Bin_ShippingContainer01D",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01D.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_403d81c191",
+    "source_material": "MI_Bin_ShippingContainerHex01B",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainerHex01B.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_43e1b9d2ac",
+    "source_material": "MI_Bin_ShippingContainerHex01C",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainerHex01C.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_ce3f94da32",
+    "source_material": "MI_Bin_ShippingContainerHex01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainerHex01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_f869597639",
+    "source_material": "MI_Bin_ShippingContainer01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_0d21871c90",
+    "source_material": "MI_Bin_ShippingContainer01C",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01C.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_89520bb057",
+    "source_material": "MI_Bin_ShippingContainer01B",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01B.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_580058b0e9",
+    "source_material": "MI_Decal_BelterShips01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/UNN/MI_Decal_BelterShips01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_Belter01A.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/ArtemisBaseMaterials/DefaultTextures/TX_Blank_Normal.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_94b8686a32",
+    "source_material": "MI_Struct_PanelWall01C",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_PanelWall01C.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01C_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_b2e3984007",
+    "source_material": "MI_Vehi_TilesArtemisExtGreeble01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_TilesArtemisExtGreeble01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExtGreeble01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExtGreeble01A_N.png",
+    "uv_scale": [
+      0.5,
+      0.5
+    ],
+    "tint_linear": [
+      0.7157589266560047,
+      0.7157589266560047,
+      0.7157589266560047
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_295a1cee9e",
+    "source_material": "MI_Struct_FloorGrate02B",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_FloorGrate02B.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_FloorGrate02A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_FloorGrate02A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      0.9736092187730474,
+      0.4870833797184389
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_c061abada0",
+    "source_material": "MI_Vehi_TilesArtemisExtGreeble01B",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_TilesArtemisExtGreeble01B.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExtGreeble01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExtGreeble01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_f8fb1f77d4",
+    "source_material": "MI_Struct_TrimWallTech01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_TrimWallTech01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/T_Struct_TrimWallTech01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/T_Struct_TrimWallTech01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_fd88f4059a",
+    "source_material": "MI_Struct_Void",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/Common/MI_Struct_Void.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/ArtemisBaseMaterials/DefaultTextures/TX_Black_RGBA.png",
+    "normal_source": "None",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      0.6956156183198241,
+      0.6956156183198241,
+      0.6956156183198241
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_91f6e4147f",
+    "source_material": "MI_Vehi_ArtemisExtFrame01a",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_ArtemisExtFrame01a.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_ArtemisExtFrame01a_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_ArtemisExtFrame01a_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_53b3bd7168",
+    "source_material": "MI_Struct_Floor01A_Tile",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_Floor01A_Tile.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor01A_Tile_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor01A_Tile_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_fafc235727",
+    "source_material": "MI_Struct_Floor04B_Tile",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_Floor04B_Tile.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor04A_Tile_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor04A_Tile_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_9c099842cb",
+    "source_material": "MI_Vehi_PaintingHullArtemis01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_PaintingHullArtemis01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_PaintingHullArtemis01A.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/ArtemisBaseMaterials/DefaultTextures/TX_Blank_Normal.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_f392c63527",
+    "source_material": "MI_Tech_BoomArmContainmentVault01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Tech/MI_Tech_BoomArmContainmentVault01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Tech/T_Tech_BoomArmContainmentVault01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Tech/T_Tech_BoomArmContainmentVault01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_d7cad9971a",
+    "source_material": "MI_Struct_DoorAirlockSingle02A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_DoorAirlockSingle02A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockSingle02A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockSingle02A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_554f068988",
+    "source_material": "MI_Decal_ShippingContainers",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/ShippingContainers/MI_Decal_ShippingContainers.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/ShippingContainers/T_Decal_ShippingContainers_BC.png",
+    "normal_source": "None",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_77101938dc",
+    "source_material": "MI_Decal_StencilText01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/MI_Decal_StencilText01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_StencilText_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/ArtemisBaseMaterials/DefaultTextures/TX_Blank_Normal.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_15a00ad13d",
+    "source_material": "MI_Decal_Industrial01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/MI_Decal_Industrial01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_Industrial01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_Industrial01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      0.7567793318113607,
+      0.7567793318113607,
+      0.7567793318113607
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_2d0e7aa335",
+    "source_material": "MI_Vehi_UrshinabiExteriorPaint01A_VERTDMG",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_UrshinabiExteriorPaint01A_VERTDMG.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_UrshanabiExt_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_UrshanabiExt_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      0.40300088019090397,
+      0.40300088019090397,
+      0.40300088019090397
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_afb3f0a370",
+    "source_material": "MI_Trash_DamageTile_Leguin01A_CM",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/MI_Trash_DamageTile_Leguin01A_CM.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/T_Trash_DamageTile01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/T_Trash_DamageTile01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_8b3ffa4aa8",
+    "source_material": "MI_Vehi_LeGuinExterior01A_Green_VERTDMG",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_LeGuinExterior01A_Green_VERTDMG.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_UrshanabiExt_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_UrshanabiExt_N.png",
+    "uv_scale": [
+      4.0,
+      4.0
+    ],
+    "tint_linear": [
+      0.5173020771062511,
+      0.5906425665441882,
+      0.48285445345104633
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_004acc1a91",
+    "source_material": "MI_Struct_Floor01B_TileNoEmis",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_Floor01B_TileNoEmis.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor01B_Tile_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor01B_Tile_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      0.8045746561300074,
+      0.8045746561300074,
+      0.8045746561300074
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_5ce992901d",
+    "source_material": "MI_Trash_HullDamage_01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/MI_Trash_HullDamage_01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_HullDamage_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_HullDamage_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_e7b2789630",
+    "source_material": "MI_Decal_UNNUrshanabi01A_Yellow",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/UNN/MI_Decal_UNNUrshanabi01A_Yellow.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/UNN/T_Decal_UNNUrshanabi01A.png",
+    "normal_source": "None",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      0.8856865472521608,
+      0.8110026461109979,
+      0.26453095095233287
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_6c6147b02e",
+    "source_material": "MI_Trash_StrcutSupportBeam01C",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/MI_Trash_StrcutSupportBeam01C.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_StructSupportBeams01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_StructSupportBeams01A_N.png",
+    "uv_scale": [
+      1.0,
+      1.0
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_ecf4d13bde",
+    "source_material": "MI_Trash_DamageUnderlay01A",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/MI_Trash_DamageUnderlay01A.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_DamageUnderlay01A_BCA.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_DamageUnderlay01A_N.png",
+    "uv_scale": [
+      5.0,
+      5.0
+    ],
+    "tint_linear": [
+      0.7100862445115045,
+      0.7912594200548811,
+      0.8404888280017342
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  },
+  {
+    "alias": "mat_2fabc2e7c8",
+    "source_material": "MI_Trash_DamageTile_Distant",
+    "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/MI_Trash_DamageTile_Distant.json",
+    "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/T_Trash_DamageTile01A_BC.png",
+    "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/T_Trash_DamageTile01A_N.png",
+    "uv_scale": [
+      0.5,
+      0.5
+    ],
+    "tint_linear": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+  }
+]

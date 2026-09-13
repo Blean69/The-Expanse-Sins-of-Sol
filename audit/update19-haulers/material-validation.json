@@ -1,0 +1,1826 @@
+{
+  "status": "PASS OFFLINE DDS CONVERSION",
+  "normal_format": "BC5_SNORM",
+  "other_channels": "BC7_UNORM",
+  "mipmaps": "fullchain",
+  "maximum_source_dimension": 1024,
+  "materials": [
+    {
+      "alias": "mat_c4a0c18f41",
+      "source_material": "MI_Struct_DoorAirlockDbl02A_DoorSign",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_DoorAirlockDbl02A_DoorSign.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockDbl02A_DoorSign_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockDbl02A_DoorSign_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_842bd5dbdd",
+      "source_material": "MI_Vehi_TilesArtemisExt01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_TilesArtemisExt01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExt01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExt01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        0.6062157626908513,
+        0.6748057973486968,
+        0.6941501628458461
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_e88828f008",
+      "source_material": "MI_Vehi_ArtemisExtTrim01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_ArtemisExtTrim01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_ArtemisExtTrim01B_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_ArtemisExtTrim01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        0.726327237039874,
+        0.808507095163453,
+        0.8316845184751017
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_81f11f8011",
+      "source_material": "MI_Vehi_ArtemisExtTrim02A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_ArtemisExtTrim02A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_ArtemisExtTrim01B_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_ArtemisExtTrim01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_b599de7d41",
+      "source_material": "MI_Vehi_ArtemisExt_MetalPainted01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_ArtemisExt_MetalPainted01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TileMetal01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TileMetal01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        0.6601334708069969,
+        0.561400527912957,
+        0.12552967431842385
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_fbb2eff360",
+      "source_material": "MI_Vehi_EngThrusterInt01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_EngThrusterInt01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_EngThrusterInt01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_EngThrusterInt01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_c956f5316b",
+      "source_material": "MI_Vehi_EngineThusterCone01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_EngineThusterCone01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_EngineThusterCone01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_EngineThusterCone01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_ac5ec01313",
+      "source_material": "MI_Struct_metalDark",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_metalDark.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TileMetal01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TileMetal01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        0.5803550478108285,
+        0.5803550478108285,
+        0.5803550478108285
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_57f9cf3b3c",
+      "source_material": "MI_Struct_TrimPanel01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_TrimPanel01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_TrimPanel01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/Common/T_Struct_TrimPanel01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_07967afc67",
+      "source_material": "MI_Struct_HallHexTrim01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/MI_Struct_HallHexTrim01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/T_Struct_HallHexTrim01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/T_Struct_HallHexTrim01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_dbe22dc8f8",
+      "source_material": "MI_Struct_PanelWall01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_PanelWall01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_c01442c57b",
+      "source_material": "MI_Decal_LargeAssetEmissive01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/MI_Decal_LargeAssetEmissive01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_LargeAssetEmissive01A_E.png",
+      "normal_source": "None",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        0.9606936361645778,
+        0.4923636811596243
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_30c00fa233",
+      "source_material": "MI_Struct_FloorFrame02A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_FloorFrame02A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor02A_Tile_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor02A_Tile_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_1fcabfded4",
+      "source_material": "MI_Struct_AirlockTrim01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_AirlockTrim01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_AirlockTrim01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_AirlockTrim01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_c468572c94",
+      "source_material": "MI_Struct_PanelWall01B_Darker",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_PanelWall01B_Darker.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/UNN/UNN_Interior/T_Struct_PanelWall02C_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01B_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_8ae5a95f46",
+      "source_material": "MI_Struct_DoorAirlockCargo01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_DoorAirlockCargo01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockCargo01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockCargo01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_3fa29d493b",
+      "source_material": "MI_Bin_ShippingContainer01E",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01E.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_adfffb3dac",
+      "source_material": "MI_Bin_ShippingContainer01D",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01D.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_403d81c191",
+      "source_material": "MI_Bin_ShippingContainerHex01B",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainerHex01B.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_43e1b9d2ac",
+      "source_material": "MI_Bin_ShippingContainerHex01C",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainerHex01C.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_ce3f94da32",
+      "source_material": "MI_Bin_ShippingContainerHex01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainerHex01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainerHex01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_f869597639",
+      "source_material": "MI_Bin_ShippingContainer01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_0d21871c90",
+      "source_material": "MI_Bin_ShippingContainer01C",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01C.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_89520bb057",
+      "source_material": "MI_Bin_ShippingContainer01B",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/MI_Bin_ShippingContainer01B.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Bin/T_Bin_ShippingContainer01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_580058b0e9",
+      "source_material": "MI_Decal_BelterShips01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/UNN/MI_Decal_BelterShips01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_Belter01A.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/ArtemisBaseMaterials/DefaultTextures/TX_Blank_Normal.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_94b8686a32",
+      "source_material": "MI_Struct_PanelWall01C",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_PanelWall01C.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01C_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_PanelWall01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_b2e3984007",
+      "source_material": "MI_Vehi_TilesArtemisExtGreeble01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_TilesArtemisExtGreeble01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExtGreeble01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExtGreeble01A_N.png",
+      "uv_scale": [
+        0.5,
+        0.5
+      ],
+      "tint_linear": [
+        0.7157589266560047,
+        0.7157589266560047,
+        0.7157589266560047
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_295a1cee9e",
+      "source_material": "MI_Struct_FloorGrate02B",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_FloorGrate02B.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_FloorGrate02A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_FloorGrate02A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        0.9736092187730474,
+        0.4870833797184389
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_c061abada0",
+      "source_material": "MI_Vehi_TilesArtemisExtGreeble01B",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_TilesArtemisExtGreeble01B.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExtGreeble01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Struct_TilesArtemisExtGreeble01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_f8fb1f77d4",
+      "source_material": "MI_Struct_TrimWallTech01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_TrimWallTech01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/T_Struct_TrimWallTech01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/HexSet/T_Struct_TrimWallTech01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_fd88f4059a",
+      "source_material": "MI_Struct_Void",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/Common/MI_Struct_Void.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/ArtemisBaseMaterials/DefaultTextures/TX_Black_RGBA.png",
+      "normal_source": "None",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        0.6956156183198241,
+        0.6956156183198241,
+        0.6956156183198241
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_91f6e4147f",
+      "source_material": "MI_Vehi_ArtemisExtFrame01a",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_ArtemisExtFrame01a.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_ArtemisExtFrame01a_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_ArtemisExtFrame01a_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_53b3bd7168",
+      "source_material": "MI_Struct_Floor01A_Tile",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_Floor01A_Tile.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor01A_Tile_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor01A_Tile_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_fafc235727",
+      "source_material": "MI_Struct_Floor04B_Tile",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_Floor04B_Tile.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor04A_Tile_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor04A_Tile_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_9c099842cb",
+      "source_material": "MI_Vehi_PaintingHullArtemis01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_PaintingHullArtemis01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_PaintingHullArtemis01A.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/ArtemisBaseMaterials/DefaultTextures/TX_Blank_Normal.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_f392c63527",
+      "source_material": "MI_Tech_BoomArmContainmentVault01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Tech/MI_Tech_BoomArmContainmentVault01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Tech/T_Tech_BoomArmContainmentVault01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Tech/T_Tech_BoomArmContainmentVault01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_d7cad9971a",
+      "source_material": "MI_Struct_DoorAirlockSingle02A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_DoorAirlockSingle02A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockSingle02A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_DoorAirlockSingle02A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_554f068988",
+      "source_material": "MI_Decal_ShippingContainers",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/ShippingContainers/MI_Decal_ShippingContainers.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/ShippingContainers/T_Decal_ShippingContainers_BC.png",
+      "normal_source": "None",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_77101938dc",
+      "source_material": "MI_Decal_StencilText01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/MI_Decal_StencilText01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_StencilText_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/ArtemisBaseMaterials/DefaultTextures/TX_Blank_Normal.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_15a00ad13d",
+      "source_material": "MI_Decal_Industrial01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/MI_Decal_Industrial01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_Industrial01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/T_Decal_Industrial01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        0.7567793318113607,
+        0.7567793318113607,
+        0.7567793318113607
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_2d0e7aa335",
+      "source_material": "MI_Vehi_UrshinabiExteriorPaint01A_VERTDMG",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_UrshinabiExteriorPaint01A_VERTDMG.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_UrshanabiExt_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_UrshanabiExt_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        0.40300088019090397,
+        0.40300088019090397,
+        0.40300088019090397
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_afb3f0a370",
+      "source_material": "MI_Trash_DamageTile_Leguin01A_CM",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/MI_Trash_DamageTile_Leguin01A_CM.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/T_Trash_DamageTile01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/T_Trash_DamageTile01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_8b3ffa4aa8",
+      "source_material": "MI_Vehi_LeGuinExterior01A_Green_VERTDMG",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/MI_Vehi_LeGuinExterior01A_Green_VERTDMG.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_UrshanabiExt_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Vehi/T_Vehi_UrshanabiExt_N.png",
+      "uv_scale": [
+        4.0,
+        4.0
+      ],
+      "tint_linear": [
+        0.5173020771062511,
+        0.5906425665441882,
+        0.48285445345104633
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_004acc1a91",
+      "source_material": "MI_Struct_Floor01B_TileNoEmis",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/MI_Struct_Floor01B_TileNoEmis.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor01B_Tile_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Struct/T_Struct_Floor01B_Tile_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        0.8045746561300074,
+        0.8045746561300074,
+        0.8045746561300074
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_5ce992901d",
+      "source_material": "MI_Trash_HullDamage_01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/MI_Trash_HullDamage_01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_HullDamage_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_HullDamage_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_e7b2789630",
+      "source_material": "MI_Decal_UNNUrshanabi01A_Yellow",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/UNN/MI_Decal_UNNUrshanabi01A_Yellow.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Decal/UNN/T_Decal_UNNUrshanabi01A.png",
+      "normal_source": "None",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        0.8856865472521608,
+        0.8110026461109979,
+        0.26453095095233287
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_6c6147b02e",
+      "source_material": "MI_Trash_StrcutSupportBeam01C",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/MI_Trash_StrcutSupportBeam01C.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_StructSupportBeams01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_StructSupportBeams01A_N.png",
+      "uv_scale": [
+        1.0,
+        1.0
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_ecf4d13bde",
+      "source_material": "MI_Trash_DamageUnderlay01A",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/MI_Trash_DamageUnderlay01A.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_DamageUnderlay01A_BCA.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/Trash_Struct/T_Trash_DamageUnderlay01A_N.png",
+      "uv_scale": [
+        5.0,
+        5.0
+      ],
+      "tint_linear": [
+        0.7100862445115045,
+        0.7912594200548811,
+        0.8404888280017342
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    },
+    {
+      "alias": "mat_2fabc2e7c8",
+      "source_material": "MI_Trash_DamageTile_Distant",
+      "source_json": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/MI_Trash_DamageTile_Distant.json",
+      "base_color_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/T_Trash_DamageTile01A_BC.png",
+      "normal_source": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/raw-export/Artemis/Content/Env/Trash/T_Trash_DamageTile01A_N.png",
+      "uv_scale": [
+        0.5,
+        0.5
+      ],
+      "tint_linear": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "approximation": "Selected base layer with authored tint/tile; vertex damage/layer blend and decals are not full Unreal shader reproduction. NormalY converted DirectX to glTF; roughness/metal scalar conservative; emission disabled pending source shader verification."
+    }
+  ],
+  "files": [
+    {
+      "file": "expanse19_hauler_mat_004acc1a91_clr.dds",
+      "source_sha256": "3f1e93fd0b0a5bde52be7deb22c553c82bc60dd64292e89f804d30b019ca123f",
+      "sha256": "0b20180f2a96cd8e03ffb38d3551512165c0a54f2122a252e4c646de10ce5797"
+    },
+    {
+      "file": "expanse19_hauler_mat_004acc1a91_nrm.dds",
+      "source_sha256": "8b2f5c9f6f5212984c302e20965c22c5a8d4e1a68c89878052cc37dd43848292",
+      "sha256": "1cbd789e30a5abe1e09a1633dd838588f6edff717098833482032c0e0ba1c373"
+    },
+    {
+      "file": "expanse19_hauler_mat_004acc1a91_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_004acc1a91_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_07967afc67_clr.dds",
+      "source_sha256": "e536aba850b7af2040765a3a9f8c47df034dc97b1fc441c6f447c1f5d2d87b7e",
+      "sha256": "ecd1162710bf72abb48de2238a03de420a54321b1932ec1ae4df105777a2483a"
+    },
+    {
+      "file": "expanse19_hauler_mat_07967afc67_nrm.dds",
+      "source_sha256": "e447999b87e2738ba1d8a2236ee1672dadf11b68eb59ddf29960e89a30d56fe1",
+      "sha256": "90edac7b905d875ad8e7867277672a0cc53ffb7a3633524ed497e677f2ce755f"
+    },
+    {
+      "file": "expanse19_hauler_mat_07967afc67_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_07967afc67_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_0d21871c90_clr.dds",
+      "source_sha256": "10946e74e6411429fb8ec84c0ee38b518e9f4686f08947774bb008a550380c77",
+      "sha256": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710"
+    },
+    {
+      "file": "expanse19_hauler_mat_0d21871c90_nrm.dds",
+      "source_sha256": "3e5252ec7169e488070955a1450e01f657c8a7f2c1f60ee79ddfd6d609f60b72",
+      "sha256": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42"
+    },
+    {
+      "file": "expanse19_hauler_mat_0d21871c90_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_0d21871c90_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_15a00ad13d_clr.dds",
+      "source_sha256": "b3b1b66fda23c8e164c810ef55248c7ee3920607c3e11722a8c4561faf7196c2",
+      "sha256": "9aa36e73c049e64c2302316b2f8fdcb6312d3e44476246c1a7541ec9a64c2472"
+    },
+    {
+      "file": "expanse19_hauler_mat_15a00ad13d_nrm.dds",
+      "source_sha256": "31de84ee2ed1b87c3780b254b59a11b90d679aef59c494d1e132cdc3c38660f7",
+      "sha256": "032c0b30ae148905fe97085860a97b5adf7d8268c40ceaee0f20496783856df0"
+    },
+    {
+      "file": "expanse19_hauler_mat_15a00ad13d_orm.dds",
+      "source_sha256": "180e2e1db0b0d7e723df75a1314e5d5d927b341935a31cd2fd9fe70dadd6767a",
+      "sha256": "f99d01360b0539bf26fb75ee94e213e8e2b79717f52094631950e6ddf74b2fef"
+    },
+    {
+      "file": "expanse19_hauler_mat_15a00ad13d_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_1fcabfded4_clr.dds",
+      "source_sha256": "af0664a18b0980a6a283eb8c04fe19d8587d1d91da33c5422e7931f8b8904cbf",
+      "sha256": "a65a491e3fae93dbe251f1f879450744eb7a5917494d33b8ffa5fbcfd1f962ba"
+    },
+    {
+      "file": "expanse19_hauler_mat_1fcabfded4_nrm.dds",
+      "source_sha256": "8a37ab16cb0e653be84ee60c728d543acd2c1b6f48cab9557eca0bc03e2274ec",
+      "sha256": "de2821725a0cad98eed857c3a56309ca5adf68aa79153e949b999fde5d4ac578"
+    },
+    {
+      "file": "expanse19_hauler_mat_1fcabfded4_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_1fcabfded4_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_295a1cee9e_clr.dds",
+      "source_sha256": "a47b016cd595b0beac4d90927303a2f123e09daecabecba3621c14732dbc1711",
+      "sha256": "5ea9c22e134fb74b2a22af844b392bbc45ed20b8a24ffd6ede02c7780927f4ce"
+    },
+    {
+      "file": "expanse19_hauler_mat_295a1cee9e_nrm.dds",
+      "source_sha256": "27960c0a476b02029679887b83591df9e73f44919fee0d8530fe93e430b42c4c",
+      "sha256": "304f60b5d6a8c79dff651be1ad89bf283f1d9e7e08308ddca85e87e0846edc84"
+    },
+    {
+      "file": "expanse19_hauler_mat_295a1cee9e_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_295a1cee9e_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_2d0e7aa335_clr.dds",
+      "source_sha256": "1cc8d3106633c01c90b1bacdce946cbdce859023f8eb346e90aa10db53e05bbd",
+      "sha256": "274a39d9ea3847eddbedecf7d5611461c850f353a5252c004e3ea556d139092a"
+    },
+    {
+      "file": "expanse19_hauler_mat_2d0e7aa335_nrm.dds",
+      "source_sha256": "ac8991c164cb273d9cc65649dd156b93889bb67c182a77f181410a47be6af698",
+      "sha256": "adba4ebcfffa90010fb9698505e98cbe33dbda35ecd24120740c348dd5e2ac6f"
+    },
+    {
+      "file": "expanse19_hauler_mat_2d0e7aa335_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_2d0e7aa335_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_2fabc2e7c8_clr.dds",
+      "source_sha256": "8274e2faf0dacb7054af51e68c5ae7efd247cc9af74ed6586e67b1006f2e69bf",
+      "sha256": "2fbc31d2edb159b245bb517c9553b12bd04958a0f7b770888a440a82251d0c61"
+    },
+    {
+      "file": "expanse19_hauler_mat_2fabc2e7c8_nrm.dds",
+      "source_sha256": "2817589be86b819857f7665d7d20e5dbec7ad5fc55d8bd026ca30cd9529b58da",
+      "sha256": "96063cb90a98d0aca24f2050b7070dc492609c2a7f48a7143a5646392677b452"
+    },
+    {
+      "file": "expanse19_hauler_mat_2fabc2e7c8_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_2fabc2e7c8_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_30c00fa233_clr.dds",
+      "source_sha256": "f2be483a3deef9bcd681b1ea95a5d8c698f03287e0574b42cc4d0a048b9288c2",
+      "sha256": "5306c8b31ffba2eb3d3d4d39e522c896926deb9383a37b993fd7eed8fd80b3a7"
+    },
+    {
+      "file": "expanse19_hauler_mat_30c00fa233_nrm.dds",
+      "source_sha256": "508e4c9102fb960fcdd6d066456077c68e277b80e7221f1fb077445cc0bb9692",
+      "sha256": "e56a30e3949dc1bacd5d1f1b90bcaac45ba2139539330789b36802b8e160af6c"
+    },
+    {
+      "file": "expanse19_hauler_mat_30c00fa233_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_30c00fa233_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_3fa29d493b_clr.dds",
+      "source_sha256": "10946e74e6411429fb8ec84c0ee38b518e9f4686f08947774bb008a550380c77",
+      "sha256": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710"
+    },
+    {
+      "file": "expanse19_hauler_mat_3fa29d493b_nrm.dds",
+      "source_sha256": "3e5252ec7169e488070955a1450e01f657c8a7f2c1f60ee79ddfd6d609f60b72",
+      "sha256": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42"
+    },
+    {
+      "file": "expanse19_hauler_mat_3fa29d493b_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_3fa29d493b_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_403d81c191_clr.dds",
+      "source_sha256": "3e663c3f2734db9fb2327175d68c892fe974c3599ddd8351ec761606ff1186e8",
+      "sha256": "8c64aa8bad6da13b57ee9ee88d11c39834cfc090e5421caa6a9552db29b6ca74"
+    },
+    {
+      "file": "expanse19_hauler_mat_403d81c191_nrm.dds",
+      "source_sha256": "16e66304a95e05bf135e5c1eb6912675356f6e940a7a1508e251fcf3313a2475",
+      "sha256": "72207a2d2f3cea3732caaf79fe2d2bbebd96eac62d372d06e8d6c6eb1e4f137b"
+    },
+    {
+      "file": "expanse19_hauler_mat_403d81c191_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_403d81c191_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_43e1b9d2ac_clr.dds",
+      "source_sha256": "3e663c3f2734db9fb2327175d68c892fe974c3599ddd8351ec761606ff1186e8",
+      "sha256": "8c64aa8bad6da13b57ee9ee88d11c39834cfc090e5421caa6a9552db29b6ca74"
+    },
+    {
+      "file": "expanse19_hauler_mat_43e1b9d2ac_nrm.dds",
+      "source_sha256": "16e66304a95e05bf135e5c1eb6912675356f6e940a7a1508e251fcf3313a2475",
+      "sha256": "72207a2d2f3cea3732caaf79fe2d2bbebd96eac62d372d06e8d6c6eb1e4f137b"
+    },
+    {
+      "file": "expanse19_hauler_mat_43e1b9d2ac_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_43e1b9d2ac_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_53b3bd7168_clr.dds",
+      "source_sha256": "69165a53e8cd84335f83c8d6611da3e9171a00a21f2ce1810bf2f8b9b5587655",
+      "sha256": "329fc4851bcc1253174f23ba6060d24dda197a55605255af2498d7487be9862c"
+    },
+    {
+      "file": "expanse19_hauler_mat_53b3bd7168_nrm.dds",
+      "source_sha256": "70f0d40d5ce6f8f2b7f673cac244094a9056b07abbcb283fafb938557d7ccba9",
+      "sha256": "2aba5caccd90cc83e9daee8ed4d67db9388c568e10f68a412a54a3a46d336baa"
+    },
+    {
+      "file": "expanse19_hauler_mat_53b3bd7168_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_53b3bd7168_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_554f068988_clr.dds",
+      "source_sha256": "c9ec098b5a1551ef88ffe681aa739112417ba587043e335b591c4638c0d9ea94",
+      "sha256": "0d1b33851bf3fa76264a42f14539b638be20b16454b90b49f2985f8dc1356efd"
+    },
+    {
+      "file": "expanse19_hauler_mat_554f068988_nrm.dds",
+      "source_sha256": "41cff44e65c1732522f287cb4205bc327cdfb9e81060d895f09723d3ac843897",
+      "sha256": "945113d794f208b413bb58d6b6cb289b476e6f4a7964a296e98987a294c3474c"
+    },
+    {
+      "file": "expanse19_hauler_mat_554f068988_orm.dds",
+      "source_sha256": "758faf979b4363dc479371869cf9278bbbc86af173ff4a9d0eb5e5e229fac1b4",
+      "sha256": "25028fc210e5468d9caeb758f867a8e26e63f53e64e4106ea3f64ce90f92d804"
+    },
+    {
+      "file": "expanse19_hauler_mat_554f068988_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_57f9cf3b3c_clr.dds",
+      "source_sha256": "6880a916587f1e511250ee07248e3605bd38729aad8d592576c4ad147bfe0f31",
+      "sha256": "ff2c4387fb0bf6b5679d8bb8efdf0e3bb8798eb24bce8ae344e2142acec19df4"
+    },
+    {
+      "file": "expanse19_hauler_mat_57f9cf3b3c_nrm.dds",
+      "source_sha256": "a21209659e02c4ad27ae583564c7797162fda7e52ad4b3390c58e211b6d4ea64",
+      "sha256": "e7e924a0702d67733293f044d9156d107d1d77f55364e5c6489c919ef0172d3b"
+    },
+    {
+      "file": "expanse19_hauler_mat_57f9cf3b3c_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_57f9cf3b3c_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_580058b0e9_clr.dds",
+      "source_sha256": "3069082320c26a7c539c85a344be1708573e7a4e2d11921d58e3e8b2c9f6123c",
+      "sha256": "d1d3298b614a72e348b3fe51f3c99cb828ab085f0d2eda4c545b420d0cda29a9"
+    },
+    {
+      "file": "expanse19_hauler_mat_580058b0e9_nrm.dds",
+      "source_sha256": "14c19c8234c4c4a6b6dd48ce89c25f6bfa26d17a6373f1074bbee01c3cc93c23",
+      "sha256": "052b48981e867346bec5d45f3bec3e24b0419a28e3ce7a5570f906f2d089f70b"
+    },
+    {
+      "file": "expanse19_hauler_mat_580058b0e9_orm.dds",
+      "source_sha256": "180e2e1db0b0d7e723df75a1314e5d5d927b341935a31cd2fd9fe70dadd6767a",
+      "sha256": "f99d01360b0539bf26fb75ee94e213e8e2b79717f52094631950e6ddf74b2fef"
+    },
+    {
+      "file": "expanse19_hauler_mat_580058b0e9_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_5ce992901d_clr.dds",
+      "source_sha256": "cdc804674fbf30c1cb71dec9271a1f36e462156d3fcc02bb593b7ab726880f85",
+      "sha256": "a562d6a2208daa918f9806aa9f3e11a5f6cfd2b3e4b097e4b12ca78a3bc6811d"
+    },
+    {
+      "file": "expanse19_hauler_mat_5ce992901d_nrm.dds",
+      "source_sha256": "7df18f798a58a8a5ed4110274f84ca1459a8da523d8e9fc48c78f725a37a6d23",
+      "sha256": "8fe4880e3e9b63c9add102539f73ed8f7247b24674a98cf5695874df55fc84bf"
+    },
+    {
+      "file": "expanse19_hauler_mat_5ce992901d_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_5ce992901d_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_6c6147b02e_clr.dds",
+      "source_sha256": "7371d2a2b630574f3b0032267bcf39d40b10b361b9e6186d0a43d875556673f1",
+      "sha256": "e79580ba8e81d807200744a77a03d7b4a87508d83b80b0ae25166052cdc52ca8"
+    },
+    {
+      "file": "expanse19_hauler_mat_6c6147b02e_nrm.dds",
+      "source_sha256": "b553e9b74120e604eecefa3236cedf7ecf243bf6a3fecf2dd6b30414e2f962b7",
+      "sha256": "e2bc87f390d80022af335254a51833d3ea2670fbfada5df98b074e811f4d8354"
+    },
+    {
+      "file": "expanse19_hauler_mat_6c6147b02e_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_6c6147b02e_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_77101938dc_clr.dds",
+      "source_sha256": "b75dce00d6baabceac7cc41e6a508e9c11cbd0403f74132f17dac657fe796bcf",
+      "sha256": "4038c79458add694499f53e60c0e3398be66033dbd3fa8ed63c8ac1e39ffae1a"
+    },
+    {
+      "file": "expanse19_hauler_mat_77101938dc_nrm.dds",
+      "source_sha256": "14c19c8234c4c4a6b6dd48ce89c25f6bfa26d17a6373f1074bbee01c3cc93c23",
+      "sha256": "052b48981e867346bec5d45f3bec3e24b0419a28e3ce7a5570f906f2d089f70b"
+    },
+    {
+      "file": "expanse19_hauler_mat_77101938dc_orm.dds",
+      "source_sha256": "180e2e1db0b0d7e723df75a1314e5d5d927b341935a31cd2fd9fe70dadd6767a",
+      "sha256": "f99d01360b0539bf26fb75ee94e213e8e2b79717f52094631950e6ddf74b2fef"
+    },
+    {
+      "file": "expanse19_hauler_mat_77101938dc_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_81f11f8011_clr.dds",
+      "source_sha256": "24f240fc339bdffed772caa1db53bf5f63ea2e02f7a84512a923af9e63595011",
+      "sha256": "bda97c339b7065fe995883d60c5662fcf513c3422b3a3dcf3aacc83d0954e9bb"
+    },
+    {
+      "file": "expanse19_hauler_mat_81f11f8011_nrm.dds",
+      "source_sha256": "ffcdabacf20ac5332980c97e98a4684ad075d7838f7e4e336101005ca5845d4b",
+      "sha256": "5257810b2105ec2a36bbb1eb61dc176722f7078ef8cbabe27fb1cd0c2062df05"
+    },
+    {
+      "file": "expanse19_hauler_mat_81f11f8011_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_81f11f8011_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_842bd5dbdd_clr.dds",
+      "source_sha256": "b89521fcb61e38706dfb65344b51962850a375193832b44588365b8f9922d7ad",
+      "sha256": "7a746cea9c4236a0b7e0479625c9c9f9608b9dacb19300449a02cda63047e671"
+    },
+    {
+      "file": "expanse19_hauler_mat_842bd5dbdd_nrm.dds",
+      "source_sha256": "7fa1ab29f26cd3fb1f59187daf6b0a6033db48c95d8614b1bfa927bfc6774285",
+      "sha256": "8ea73931f448a558dc87e998dceda8645ba5ddc9dd0516812b700174310c2ea6"
+    },
+    {
+      "file": "expanse19_hauler_mat_842bd5dbdd_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_842bd5dbdd_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_89520bb057_clr.dds",
+      "source_sha256": "10946e74e6411429fb8ec84c0ee38b518e9f4686f08947774bb008a550380c77",
+      "sha256": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710"
+    },
+    {
+      "file": "expanse19_hauler_mat_89520bb057_nrm.dds",
+      "source_sha256": "3e5252ec7169e488070955a1450e01f657c8a7f2c1f60ee79ddfd6d609f60b72",
+      "sha256": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42"
+    },
+    {
+      "file": "expanse19_hauler_mat_89520bb057_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_89520bb057_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_8ae5a95f46_clr.dds",
+      "source_sha256": "d160024476921037968c97a7e0aa802c1ccde64dc01e840582265e0a8c1b2843",
+      "sha256": "bfff6e78f3596264e251610b3ccd6cd1de3c6f97ab84ae9d96c5e3ba7334f7e1"
+    },
+    {
+      "file": "expanse19_hauler_mat_8ae5a95f46_nrm.dds",
+      "source_sha256": "a05ae99ee30bd9afd87e2db6153c4b7f96b5633a27da66c7eda88cbb61b17714",
+      "sha256": "b8e18e7b2a827f7b6678ff24e887a53f6a436a4ea5829de5f179f0d042858da9"
+    },
+    {
+      "file": "expanse19_hauler_mat_8ae5a95f46_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_8ae5a95f46_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_8b3ffa4aa8_clr.dds",
+      "source_sha256": "bd15176dab0db401823d38dd6aa230c19b3a101e78542d470112d8eb5f4583dc",
+      "sha256": "d4b4ebd4aeb54ed7f04eb3c923a6ef0759de3f635c2e410833fbbd42b250da0d"
+    },
+    {
+      "file": "expanse19_hauler_mat_8b3ffa4aa8_nrm.dds",
+      "source_sha256": "ac8991c164cb273d9cc65649dd156b93889bb67c182a77f181410a47be6af698",
+      "sha256": "adba4ebcfffa90010fb9698505e98cbe33dbda35ecd24120740c348dd5e2ac6f"
+    },
+    {
+      "file": "expanse19_hauler_mat_8b3ffa4aa8_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_8b3ffa4aa8_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_91f6e4147f_clr.dds",
+      "source_sha256": "efac067e584fb5deb95ef8092e3ea1de5c0255fb07ca5790f9d260c8cee2a8e2",
+      "sha256": "374598dea9edcf91e5b9a111689a09139152bfc4d672efbe9b57e0cb0b22268d"
+    },
+    {
+      "file": "expanse19_hauler_mat_91f6e4147f_nrm.dds",
+      "source_sha256": "a6315ed0f6b9aa17a5b64e5f8a91b3c8fa76a4b6c327486d04be461379281da7",
+      "sha256": "d0340425b8b2f2c6496fa9930541cc5082fc239fff3ae21d3e2ec82e96cc330a"
+    },
+    {
+      "file": "expanse19_hauler_mat_91f6e4147f_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_91f6e4147f_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_94b8686a32_clr.dds",
+      "source_sha256": "99fdd4a92b9d76b837eb4050a0a46899e78e2c4fab4ab20a42c3ba360ab7c39a",
+      "sha256": "d8dcca956970fcea606daaba9960e4d5c87e9d34c8bf4811ebc796425bc67a9b"
+    },
+    {
+      "file": "expanse19_hauler_mat_94b8686a32_nrm.dds",
+      "source_sha256": "2f209fc7c8611efd40526677739022c839dfe27c91ba445992301a3f3ede50e1",
+      "sha256": "f58f37abf0f80f99db579ba33cd01d7fbf3fbf7aaedb5ac24e678840085cab16"
+    },
+    {
+      "file": "expanse19_hauler_mat_94b8686a32_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_94b8686a32_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_9c099842cb_clr.dds",
+      "source_sha256": "0dd1661adfe112be57ec16c0d7aee957944102bcc4d90d603357da47613c6151",
+      "sha256": "72e486f26493e80e25747afb6270a5722da19428f79b20cce7fd3c7e3af5b98b"
+    },
+    {
+      "file": "expanse19_hauler_mat_9c099842cb_nrm.dds",
+      "source_sha256": "14c19c8234c4c4a6b6dd48ce89c25f6bfa26d17a6373f1074bbee01c3cc93c23",
+      "sha256": "052b48981e867346bec5d45f3bec3e24b0419a28e3ce7a5570f906f2d089f70b"
+    },
+    {
+      "file": "expanse19_hauler_mat_9c099842cb_orm.dds",
+      "source_sha256": "180e2e1db0b0d7e723df75a1314e5d5d927b341935a31cd2fd9fe70dadd6767a",
+      "sha256": "f99d01360b0539bf26fb75ee94e213e8e2b79717f52094631950e6ddf74b2fef"
+    },
+    {
+      "file": "expanse19_hauler_mat_9c099842cb_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_ac5ec01313_clr.dds",
+      "source_sha256": "a5c6eee72757a758d1b71d17b699190510e3ff903654ec95b6ac0f9f4c1bf088",
+      "sha256": "aec8077503f5771006985794b2a4e03a2c13a15594b8c539f71c1fa7db3485e7"
+    },
+    {
+      "file": "expanse19_hauler_mat_ac5ec01313_nrm.dds",
+      "source_sha256": "d227a6b6e5d9a5b9f3ea915f6791a78a2289333b4af18244258d8dfbaac30c30",
+      "sha256": "6bf16e8284e3cdd16453d98c0fb88ef1f56777838f19bce2d48c705235236993"
+    },
+    {
+      "file": "expanse19_hauler_mat_ac5ec01313_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_ac5ec01313_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_adfffb3dac_clr.dds",
+      "source_sha256": "10946e74e6411429fb8ec84c0ee38b518e9f4686f08947774bb008a550380c77",
+      "sha256": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710"
+    },
+    {
+      "file": "expanse19_hauler_mat_adfffb3dac_nrm.dds",
+      "source_sha256": "3e5252ec7169e488070955a1450e01f657c8a7f2c1f60ee79ddfd6d609f60b72",
+      "sha256": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42"
+    },
+    {
+      "file": "expanse19_hauler_mat_adfffb3dac_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_adfffb3dac_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_afb3f0a370_clr.dds",
+      "source_sha256": "8274e2faf0dacb7054af51e68c5ae7efd247cc9af74ed6586e67b1006f2e69bf",
+      "sha256": "2fbc31d2edb159b245bb517c9553b12bd04958a0f7b770888a440a82251d0c61"
+    },
+    {
+      "file": "expanse19_hauler_mat_afb3f0a370_nrm.dds",
+      "source_sha256": "2817589be86b819857f7665d7d20e5dbec7ad5fc55d8bd026ca30cd9529b58da",
+      "sha256": "96063cb90a98d0aca24f2050b7070dc492609c2a7f48a7143a5646392677b452"
+    },
+    {
+      "file": "expanse19_hauler_mat_afb3f0a370_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_afb3f0a370_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_b2e3984007_clr.dds",
+      "source_sha256": "4036b4e2128034576624032663f032fc9e3cba2c84ecffd6abff918616e0d135",
+      "sha256": "722992d485c2379779d7627deab061b6df387ad36818820bb5280828b5fffa01"
+    },
+    {
+      "file": "expanse19_hauler_mat_b2e3984007_nrm.dds",
+      "source_sha256": "7bc0ad4d5eeb1e36c5f809a918ed222155acb40919167f9fa700c1fa4b7f31a9",
+      "sha256": "2ac934e62d5e38ab8ecf20917fb0cd2c612f1f858fc5fd7b48c8f3205f450031"
+    },
+    {
+      "file": "expanse19_hauler_mat_b2e3984007_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_b2e3984007_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_b599de7d41_clr.dds",
+      "source_sha256": "a4f2b324b4b4ced2e53005ba74763e1b58882478df86766d507f7ae7ca5ed3cc",
+      "sha256": "239e5713ef26745b2f11d72e8ac16010860a261b2e29cb44d8e21b18f4195bce"
+    },
+    {
+      "file": "expanse19_hauler_mat_b599de7d41_nrm.dds",
+      "source_sha256": "d227a6b6e5d9a5b9f3ea915f6791a78a2289333b4af18244258d8dfbaac30c30",
+      "sha256": "6bf16e8284e3cdd16453d98c0fb88ef1f56777838f19bce2d48c705235236993"
+    },
+    {
+      "file": "expanse19_hauler_mat_b599de7d41_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_b599de7d41_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_c01442c57b_clr.dds",
+      "source_sha256": "2f637c936cc6c945a6111f3e69af86ef57cc635dca575e362d067297e99d4392",
+      "sha256": "2f7307a4f108ab4f74f34d9dabddeda03598ff5593587c7211275b95b64e3524"
+    },
+    {
+      "file": "expanse19_hauler_mat_c01442c57b_nrm.dds",
+      "source_sha256": "41cff44e65c1732522f287cb4205bc327cdfb9e81060d895f09723d3ac843897",
+      "sha256": "945113d794f208b413bb58d6b6cb289b476e6f4a7964a296e98987a294c3474c"
+    },
+    {
+      "file": "expanse19_hauler_mat_c01442c57b_orm.dds",
+      "source_sha256": "758faf979b4363dc479371869cf9278bbbc86af173ff4a9d0eb5e5e229fac1b4",
+      "sha256": "25028fc210e5468d9caeb758f867a8e26e63f53e64e4106ea3f64ce90f92d804"
+    },
+    {
+      "file": "expanse19_hauler_mat_c01442c57b_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_c061abada0_clr.dds",
+      "source_sha256": "fff37653f07f3e041e1c3242ec2ca7beee3644ea5e7f2715d02d96e6b0a172b8",
+      "sha256": "553e4aafff4531488502474760a2595c488e5f18518d309172707b5d41c4395f"
+    },
+    {
+      "file": "expanse19_hauler_mat_c061abada0_nrm.dds",
+      "source_sha256": "7bc0ad4d5eeb1e36c5f809a918ed222155acb40919167f9fa700c1fa4b7f31a9",
+      "sha256": "2ac934e62d5e38ab8ecf20917fb0cd2c612f1f858fc5fd7b48c8f3205f450031"
+    },
+    {
+      "file": "expanse19_hauler_mat_c061abada0_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_c061abada0_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_c468572c94_clr.dds",
+      "source_sha256": "f0f9a4fb681b9fc97c2300fb1ccd4439549406e4cd4cb3b7794e56e15aa3f583",
+      "sha256": "a99b3f7af2967447c1362dd6d03c0e79c15cc898183069a6a40157a340d2c73b"
+    },
+    {
+      "file": "expanse19_hauler_mat_c468572c94_nrm.dds",
+      "source_sha256": "bb815293d26a9526e02962e2212addcdbaa91b3a1a43ead959f0f153d21bf78b",
+      "sha256": "3ff3a359b71d40d24995c9217379de26f41272a7b9e4362d4fe7b9c8e7504fe6"
+    },
+    {
+      "file": "expanse19_hauler_mat_c468572c94_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_c468572c94_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_c4a0c18f41_clr.dds",
+      "source_sha256": "b292b0ea79194e188ad63d569ca863b2cff9f10a4ca5a41a8963b77e2ab45163",
+      "sha256": "ed7b851f1aba96abd90b6fd27b5c06cb431efc797d77af4fc41623846f7400bd"
+    },
+    {
+      "file": "expanse19_hauler_mat_c4a0c18f41_nrm.dds",
+      "source_sha256": "be0f4a314c44874cd94710ddfaa010072664132704f0fbdbcd2b812329c0edb5",
+      "sha256": "f19380abfaf73a0b7e48b2dfebe615753194bf8be9fc973062f04755d72969a2"
+    },
+    {
+      "file": "expanse19_hauler_mat_c4a0c18f41_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_c4a0c18f41_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_c956f5316b_clr.dds",
+      "source_sha256": "7fdbeba2a8545d3c04e343e2b13c6bd64e688a18cf10c82a8e29a538dade96e3",
+      "sha256": "a97ea40582713b2ed25ac4ee41e4cd5adbb2abf4e4ba2e7c7190ece2555642a1"
+    },
+    {
+      "file": "expanse19_hauler_mat_c956f5316b_nrm.dds",
+      "source_sha256": "c1b45cb695bcd7039f8e8c89ff2f46f9f4ffafa64e4dca1d9e08e180bd41c879",
+      "sha256": "74d3f71f215292143258da21dca21aae9dd501d9a6b1ce8b502c18849e85b1ca"
+    },
+    {
+      "file": "expanse19_hauler_mat_c956f5316b_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_c956f5316b_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_ce3f94da32_clr.dds",
+      "source_sha256": "3e663c3f2734db9fb2327175d68c892fe974c3599ddd8351ec761606ff1186e8",
+      "sha256": "8c64aa8bad6da13b57ee9ee88d11c39834cfc090e5421caa6a9552db29b6ca74"
+    },
+    {
+      "file": "expanse19_hauler_mat_ce3f94da32_nrm.dds",
+      "source_sha256": "16e66304a95e05bf135e5c1eb6912675356f6e940a7a1508e251fcf3313a2475",
+      "sha256": "72207a2d2f3cea3732caaf79fe2d2bbebd96eac62d372d06e8d6c6eb1e4f137b"
+    },
+    {
+      "file": "expanse19_hauler_mat_ce3f94da32_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_ce3f94da32_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_d7cad9971a_clr.dds",
+      "source_sha256": "a4457c5fc70cb2c85113fe9b927e9d843cb702630ee761d0e36d975b51ad7b79",
+      "sha256": "dc65a63ff4a03c114c5ecd6e5289bed80096a872aa5bfcd7d9935ba6739c7805"
+    },
+    {
+      "file": "expanse19_hauler_mat_d7cad9971a_nrm.dds",
+      "source_sha256": "226103c92e6b5506f2ac6f4d9ecf434569f7668b9fe8c9e2846eb53f50e85a93",
+      "sha256": "d615f6e2ea85216b8c1cd9384d1c5b6f5219efd8ef1c0547b9010d2789daa5a4"
+    },
+    {
+      "file": "expanse19_hauler_mat_d7cad9971a_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_d7cad9971a_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_dbe22dc8f8_clr.dds",
+      "source_sha256": "3741b12f231d23a1ab7b4635955b1c361fa5d2d941fd05ea13a64449c112c162",
+      "sha256": "7790e4ba98062ec9ef5d5057b2b726d8a6d86b9dc91a936c03e7341f789eed48"
+    },
+    {
+      "file": "expanse19_hauler_mat_dbe22dc8f8_nrm.dds",
+      "source_sha256": "2f209fc7c8611efd40526677739022c839dfe27c91ba445992301a3f3ede50e1",
+      "sha256": "f58f37abf0f80f99db579ba33cd01d7fbf3fbf7aaedb5ac24e678840085cab16"
+    },
+    {
+      "file": "expanse19_hauler_mat_dbe22dc8f8_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_dbe22dc8f8_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_e7b2789630_clr.dds",
+      "source_sha256": "cc912843003fe944a4b0718b4279781dfbad17829776724cd88e459105c57cba",
+      "sha256": "d9b6b24f44aacfe4e39c0c905dc299c8ff17a64253aaeeb5e843930bd922d23e"
+    },
+    {
+      "file": "expanse19_hauler_mat_e7b2789630_nrm.dds",
+      "source_sha256": "41cff44e65c1732522f287cb4205bc327cdfb9e81060d895f09723d3ac843897",
+      "sha256": "945113d794f208b413bb58d6b6cb289b476e6f4a7964a296e98987a294c3474c"
+    },
+    {
+      "file": "expanse19_hauler_mat_e7b2789630_orm.dds",
+      "source_sha256": "758faf979b4363dc479371869cf9278bbbc86af173ff4a9d0eb5e5e229fac1b4",
+      "sha256": "25028fc210e5468d9caeb758f867a8e26e63f53e64e4106ea3f64ce90f92d804"
+    },
+    {
+      "file": "expanse19_hauler_mat_e7b2789630_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_e88828f008_clr.dds",
+      "source_sha256": "c82ac84252579f6fe54ae36ab602fe8ec827a07722a7936409c93c6c0f8f6956",
+      "sha256": "02a485a041eb552f678575f789ef813660e97b9007c2f42c9d9b6e37ce1aec43"
+    },
+    {
+      "file": "expanse19_hauler_mat_e88828f008_nrm.dds",
+      "source_sha256": "ffcdabacf20ac5332980c97e98a4684ad075d7838f7e4e336101005ca5845d4b",
+      "sha256": "5257810b2105ec2a36bbb1eb61dc176722f7078ef8cbabe27fb1cd0c2062df05"
+    },
+    {
+      "file": "expanse19_hauler_mat_e88828f008_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_e88828f008_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_ecf4d13bde_clr.dds",
+      "source_sha256": "3893197898e38e568b5da6a66490a3f4a85586b9ee3551958894fa50033cf823",
+      "sha256": "633edd73a2fd7654839da76d3b079a806dae32b5bfc0851aa6d4c961dbbd06dd"
+    },
+    {
+      "file": "expanse19_hauler_mat_ecf4d13bde_nrm.dds",
+      "source_sha256": "40022745b7cce163545078708960dacfae1f1c32ea42494f2484da7ee431799a",
+      "sha256": "49877d3b7549537d023c05069346762c54285905c59b0fe630d5835f6f7f2178"
+    },
+    {
+      "file": "expanse19_hauler_mat_ecf4d13bde_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_ecf4d13bde_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_f392c63527_clr.dds",
+      "source_sha256": "361c712fa66fa4ce4b6c05ec1f7755ce25e62a38dad3e4ce38240ec35efa2353",
+      "sha256": "9001cd38884d51219f0fe4ab45e7b296f57fe6ef0430f649744aa93bb0b5e677"
+    },
+    {
+      "file": "expanse19_hauler_mat_f392c63527_nrm.dds",
+      "source_sha256": "372e425e6d45e63a492588ab8379a74c9a4a674f80d7d274f253e1f0ada62f40",
+      "sha256": "ee6f092bd5c66194f9ccd8f8dff5b0fcac2b275a62e3497523215e9b6f3b3731"
+    },
+    {
+      "file": "expanse19_hauler_mat_f392c63527_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_f392c63527_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_f869597639_clr.dds",
+      "source_sha256": "10946e74e6411429fb8ec84c0ee38b518e9f4686f08947774bb008a550380c77",
+      "sha256": "85db0d51560c05fd879912054cef4eba01c55285d5cd3ff8ebf63e4469a9d710"
+    },
+    {
+      "file": "expanse19_hauler_mat_f869597639_nrm.dds",
+      "source_sha256": "3e5252ec7169e488070955a1450e01f657c8a7f2c1f60ee79ddfd6d609f60b72",
+      "sha256": "e62748058f674a391bcd06562efebf6ea3ffeef646d755d12997f56b51ec8e42"
+    },
+    {
+      "file": "expanse19_hauler_mat_f869597639_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_f869597639_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_f8fb1f77d4_clr.dds",
+      "source_sha256": "a1b8bf7a4a52ee877092ad69a9fc69e64ff040fd41df309f34911bf5c6573c37",
+      "sha256": "7abda9cd6dbc361ee1d98f0bd5478f82ed76b048e28824eda22328da3ec4e1b2"
+    },
+    {
+      "file": "expanse19_hauler_mat_f8fb1f77d4_nrm.dds",
+      "source_sha256": "af2bf6741d638a04d13dd1bf5f0a1e0029034b54575c89efb5e3b84a0244f8e4",
+      "sha256": "f05c002550fda26fe14cc466ef7034a3c4bdde7ab0e618ab8c0f815341827d7f"
+    },
+    {
+      "file": "expanse19_hauler_mat_f8fb1f77d4_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_f8fb1f77d4_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_fafc235727_clr.dds",
+      "source_sha256": "2c2ed281d3e862d4f037a276e0c43e5e6959f5c931cb38578f46ffd0ec909385",
+      "sha256": "cae4b6bf494be7e26e01798c8eae403127d3cbc026fec767c659813acc555081"
+    },
+    {
+      "file": "expanse19_hauler_mat_fafc235727_nrm.dds",
+      "source_sha256": "9cd10dbfac12c6d012cd947483f15163343044bed931e8dd43fff9b4f0f3be29",
+      "sha256": "959ef47503c31bd2740035915685c9d363ac175b80a93ee3f7093c9efd44cfbd"
+    },
+    {
+      "file": "expanse19_hauler_mat_fafc235727_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_fafc235727_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_fbb2eff360_clr.dds",
+      "source_sha256": "2af7619d278d77e92597f425ee71b13ed8bd518ff546462bebbc68523aad39b5",
+      "sha256": "b9cc4d3673f3f43ca0c03a19085c3cb080ed0d5f736cfa5115cf35a7c028a405"
+    },
+    {
+      "file": "expanse19_hauler_mat_fbb2eff360_nrm.dds",
+      "source_sha256": "52fe97822b5a91f52ff8b1ac57dd1bba9ee1c6eb390175e641f478fc35f5d182",
+      "sha256": "910ec9d46329e28caec33196d04224c51433807868d00427d50443f84c80b499"
+    },
+    {
+      "file": "expanse19_hauler_mat_fbb2eff360_orm.dds",
+      "source_sha256": "28bbba4c15a954f614f7d8bf4e01e7c3e21e986650aad7300084f64c88fd122b",
+      "sha256": "22fb98967b32e259577bd56ae03e50084dc40358cd0f51c1d3823c8fc864a8d1"
+    },
+    {
+      "file": "expanse19_hauler_mat_fbb2eff360_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    },
+    {
+      "file": "expanse19_hauler_mat_fd88f4059a_clr.dds",
+      "source_sha256": "acf548744b89fc028affe4fe678220433c8731f9eff0d741012d6f1391f8786a",
+      "sha256": "205f48df5173ec3db320cca089d004b5512d300dee07858fc676716e600bd36e"
+    },
+    {
+      "file": "expanse19_hauler_mat_fd88f4059a_nrm.dds",
+      "source_sha256": "41cff44e65c1732522f287cb4205bc327cdfb9e81060d895f09723d3ac843897",
+      "sha256": "945113d794f208b413bb58d6b6cb289b476e6f4a7964a296e98987a294c3474c"
+    },
+    {
+      "file": "expanse19_hauler_mat_fd88f4059a_orm.dds",
+      "source_sha256": "758faf979b4363dc479371869cf9278bbbc86af173ff4a9d0eb5e5e229fac1b4",
+      "sha256": "25028fc210e5468d9caeb758f867a8e26e63f53e64e4106ea3f64ce90f92d804"
+    },
+    {
+      "file": "expanse19_hauler_mat_fd88f4059a_msk.dds",
+      "source_sha256": "a54ddc4b657b5217f40ee975d30077fa269b6628960cf372a159d634f3e84c1e",
+      "sha256": "02d3051429f257611dcda7652ebc553f662dbfc67c9bcc51dc964313a595b17f"
+    }
+  ],
+  "limitations": "Unreal layered material effects approximated by one selected authored base-color/tint layer. No recovered full shader or verified runtime appearance claim.",
+  "runtime": "NOT RUN"
+}

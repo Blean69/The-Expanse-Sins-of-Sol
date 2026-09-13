@@ -1,0 +1,36 @@
+{
+  "source_package": "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers",
+  "manifest_sha256": "5ddfbe32c7d9b1e95fbc1be124ccb968bf017db927529f592f12e33e2a7e3408",
+  "geometry_dependencies": {
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Artemis_Hauler/Full_Hull_Exterior.gltf": "607c195a0b1afd3dc76cedfb93a6bcf91340b5fd01f7543765137b3dd18b2f9b",
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Artemis_Hauler/Full_Hull_Exterior.bin": "4a9c5aae4d63ff64386594279f40409a542cdf5173d18f623f0321525961e572",
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Artemis_Hauler/Compact_Exterior.gltf": "48c518837af82c30336270462eb78187e3c743bdea29e27d7ec2f12ba4c4bec8",
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Artemis_Hauler/Compact_Exterior.bin": "4f5003cd10620c0b8d4e32f4ae0192489f53bfd2cd5e3a058a6889b075f52896",
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Artemis_Hauler/Thruster_Section.gltf": "554a1facbd21e2aaa626934a72712ffdd3b9cbf8f662035d23c53ffc5cf368d8",
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Artemis_Hauler/Thruster_Section.bin": "e9d204028fbd9d65d473b0329cf49edddec122249e1be7c9ae0a80f7b09e467d",
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Le_Guin_Freighter/Exterior.gltf": "e243311cb4ef6a516f426d900b33def8f1f89ba831c8d5d96d0a053325921e44",
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Le_Guin_Freighter/Exterior.bin": "2b08ee2c38bb94fa9a3417011edcf0b982982363ac53f3ada48606db7e16dc5c",
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Manitoba_Bulk_Hauler/Complete_Distant_Exterior.gltf": "f5f586d866ed68406bae6ba8dff6685a42e4601512982c8a99d7c78bc59f49c2",
+    "/run/media/haker/NVME 2/expanse-extracted/Stations-and-Haulers/models/Manitoba_Bulk_Hauler/Complete_Distant_Exterior.bin": "fb82d701549a9c5a9d6d66e1755fc3c16599f391d7d6582917d6214fe2858394"
+  },
+  "source_game": "The Expanse: A Telltale Series, user-supplied local extraction",
+  "source_model_lengths_metres": {
+    "artemis_full": 147.665713,
+    "artemis_compact_without_thrusters": 78.270742,
+    "le_guin": 91.166
+  },
+  "use": "Private local derivative for the authorized mod; no source publication or provenance/license reassignment.",
+  "primary_role_reference": {
+    "url": "https://telltale.com/the-expanse-a-telltale-series-ama/",
+    "finding": "Publisher describes Drummer as XO on a scavenger ship; supports native collector role forArtemis."
+  },
+  "geometry_notes": {
+    "artemis": "Full/ThrusterSection occupy same authored coordinates; compact misses all original -61.65..-29.39 aft thruster section. Fullchosen instead of inventing attachments. Three measured circular engine mouths remain.",
+    "le_guin": "Source damage and exposed structure retained, designated derelict-only.",
+    "manitoba": "Distantcomplete3752triangles; independent local highdetail modules cannot verify fullassembly. Excluded fromactive close-up fleet.",
+    "stations": "Ceresinteriors andunassembledMausoleum not imported."
+  },
+  "game_unit_scale": 2.282608695652174,
+  "scale_reference": "Existing Tachi46m=105gameunits; audit/update12-c/integration-spec.json normalization.reference",
+  "runtime": "NOT RUN"
+}
