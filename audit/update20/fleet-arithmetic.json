@@ -1,0 +1,1301 @@
+{
+  "status": "CALCULATED, NOT OBSERVED",
+  "damage_scalar_per_additive_defensive_value": 0.01,
+  "formula_reference": "https://www.sinsofasolarempire2.com/article/525851/the-art-of-war-update---sins-of-a-solar-empire-ii",
+  "rows": [
+    {
+      "unit": "trader_light_frigate",
+      "name": "Morrigan",
+      "supply_before": 25,
+      "supply": 40,
+      "resources": {
+        "credits": 200.0,
+        "metal": 45.5
+      },
+      "exotic_price": [],
+      "build_seconds": 15.0,
+      "hull": 600.0,
+      "armor": 550.0,
+      "durability": 150.0,
+      "armor_strength": 50.0,
+      "mounts": [
+        {
+          "weapon": "expanse11_morrigan_pdc_0",
+          "damage": 22.05,
+          "cooldown": 0.25,
+          "raw_dps": 88.2,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse11_morrigan_pdc_1",
+          "damage": 22.05,
+          "cooldown": 0.25,
+          "raw_dps": 88.2,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 176.4,
+      "raw_pdc_dps_per_supply": 4.41,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 70.56,
+          "armor_layer_dps_all_mounts": 47.04,
+          "with_fire_control_hull_dps": 74.08800000000001
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 70.56,
+          "armor_layer_dps_all_mounts": 47.04,
+          "with_fire_control_hull_dps": 74.08800000000001
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 29.400000000000002,
+          "armor_layer_dps_all_mounts": 14.341463414634148,
+          "with_fire_control_hull_dps": 30.870000000000005
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 29.400000000000002,
+          "armor_layer_dps_all_mounts": 14.341463414634148,
+          "with_fire_control_hull_dps": 30.870000000000005
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 20.75294117647059,
+          "armor_layer_dps_all_mounts": 9.0230179028133,
+          "with_fire_control_hull_dps": 21.79058823529412
+        }
+      ]
+    },
+    {
+      "unit": "expanse_mcrn_corvette",
+      "name": "Tachi",
+      "supply_before": 55,
+      "supply": 95,
+      "resources": {
+        "credits": 300.0,
+        "metal": 400.0
+      },
+      "exotic_price": [],
+      "build_seconds": 20.0,
+      "hull": 750.0,
+      "armor": 825.0,
+      "durability": 150.0,
+      "armor_strength": 50.0,
+      "mounts": [
+        {
+          "weapon": "expanse_polish_pdc_0",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_polish_pdc_1",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_polish_pdc_2",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_polish_pdc_3",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_polish_pdc_4",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_polish_pdc_5",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 705.6,
+      "raw_pdc_dps_per_supply": 7.427368421052631,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 282.24,
+          "armor_layer_dps_all_mounts": 188.16,
+          "with_fire_control_hull_dps": 296.35200000000003
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 282.24,
+          "armor_layer_dps_all_mounts": 188.16,
+          "with_fire_control_hull_dps": 296.35200000000003
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 117.6,
+          "armor_layer_dps_all_mounts": 57.36585365853659,
+          "with_fire_control_hull_dps": 123.48
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 117.6,
+          "armor_layer_dps_all_mounts": 57.36585365853659,
+          "with_fire_control_hull_dps": 123.48
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 83.01176470588234,
+          "armor_layer_dps_all_mounts": 36.092071611253196,
+          "with_fire_control_hull_dps": 87.16235294117647
+        }
+      ]
+    },
+    {
+      "unit": "expanse19_europa_bane",
+      "name": "Europa's Bane",
+      "supply_before": 95,
+      "supply": 95,
+      "resources": {
+        "credits": 1500.0,
+        "metal": 350.0,
+        "crystal": 200.0
+      },
+      "exotic_price": [],
+      "build_seconds": 60.0,
+      "hull": 2500.0,
+      "armor": 1500.0,
+      "durability": 250.0,
+      "armor_strength": 75.0,
+      "mounts": [
+        {
+          "weapon": "expanse19_europa_pdc_0",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse19_europa_pdc_1",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse19_europa_pdc_2",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse19_europa_pdc_3",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse19_europa_pdc_4",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse19_europa_pdc_5",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 510.0,
+      "raw_pdc_dps_per_supply": 5.368421052631579,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 204.0,
+          "armor_layer_dps_all_mounts": 136.0,
+          "with_fire_control_hull_dps": 214.20000000000002
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 204.0,
+          "armor_layer_dps_all_mounts": 136.0,
+          "with_fire_control_hull_dps": 214.20000000000002
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 85.0,
+          "armor_layer_dps_all_mounts": 41.463414634146346,
+          "with_fire_control_hull_dps": 89.25
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 85.0,
+          "armor_layer_dps_all_mounts": 41.463414634146346,
+          "with_fire_control_hull_dps": 89.25
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 60.0,
+          "armor_layer_dps_all_mounts": 26.086956521739133,
+          "with_fire_control_hull_dps": 63.0
+        }
+      ]
+    },
+    {
+      "unit": "expanse15_truman",
+      "name": "Truman",
+      "supply_before": 185,
+      "supply": 185,
+      "resources": {
+        "credits": 4000.0,
+        "metal": 1000.0,
+        "crystal": 700.0
+      },
+      "exotic_price": [
+        {
+          "exotic_type": "offense",
+          "count": 1
+        },
+        {
+          "exotic_type": "defense",
+          "count": 2
+        }
+      ],
+      "build_seconds": 100.0,
+      "hull": 16200.0,
+      "armor": 6500.0,
+      "durability": 500.0,
+      "armor_strength": 105.0,
+      "mounts": [
+        {
+          "weapon": "expanse15_truman_pdc_0",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_1",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_2",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_3",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_4",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_5",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_6",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_7",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_8",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_9",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_10",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_11",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_12",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_13",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_14",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_15",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_16",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse15_truman_pdc_17",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 1530.0,
+      "raw_pdc_dps_per_supply": 8.27027027027027,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 612.0,
+          "armor_layer_dps_all_mounts": 408.0,
+          "with_fire_control_hull_dps": 642.6
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 612.0,
+          "armor_layer_dps_all_mounts": 408.0,
+          "with_fire_control_hull_dps": 642.6
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 255.0,
+          "armor_layer_dps_all_mounts": 124.39024390243904,
+          "with_fire_control_hull_dps": 267.75
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 255.0,
+          "armor_layer_dps_all_mounts": 124.39024390243904,
+          "with_fire_control_hull_dps": 267.75
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 180.0,
+          "armor_layer_dps_all_mounts": 78.26086956521739,
+          "with_fire_control_hull_dps": 189.0
+        }
+      ]
+    },
+    {
+      "unit": "expanse_donnager_battleship",
+      "name": "Donnager",
+      "supply_before": 500,
+      "supply": 500,
+      "resources": {
+        "credits": 9600.0,
+        "metal": 3770.0,
+        "crystal": 1900.0
+      },
+      "exotic_price": [
+        {
+          "exotic_type": "defense",
+          "count": 3
+        },
+        {
+          "exotic_type": "utility",
+          "count": 1
+        },
+        {
+          "exotic_type": "ultimate",
+          "count": 3
+        }
+      ],
+      "build_seconds": 300.0,
+      "hull": 14520.0,
+      "armor": 5000.0,
+      "durability": 750.0,
+      "armor_strength": 130.0,
+      "mounts": [
+        {
+          "weapon": "expanse10_donnager_pdc_0",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_1",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_2",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_3",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_4",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_5",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_6",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_7",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_8",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_9",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_10",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_11",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_12",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_13",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_14",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse10_donnager_pdc_15",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 1881.5999999999995,
+      "raw_pdc_dps_per_supply": 3.763199999999999,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 752.64,
+          "armor_layer_dps_all_mounts": 501.76,
+          "with_fire_control_hull_dps": 790.272
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 752.64,
+          "armor_layer_dps_all_mounts": 501.76,
+          "with_fire_control_hull_dps": 790.272
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 313.59999999999997,
+          "armor_layer_dps_all_mounts": 152.97560975609755,
+          "with_fire_control_hull_dps": 329.28
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 313.59999999999997,
+          "armor_layer_dps_all_mounts": 152.97560975609755,
+          "with_fire_control_hull_dps": 329.28
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 221.36470588235292,
+          "armor_layer_dps_all_mounts": 96.24552429667519,
+          "with_fire_control_hull_dps": 232.43294117647056
+        }
+      ]
+    },
+    {
+      "unit": "expanse_amun_ra",
+      "name": "Amun-Ra",
+      "supply_before": 70,
+      "supply": 70,
+      "resources": {
+        "credits": 4000.0,
+        "metal": 750.0,
+        "crystal": 500.0
+      },
+      "exotic_price": [],
+      "build_seconds": 90.0,
+      "hull": 2400.0,
+      "armor": 1200.0,
+      "durability": 150.0,
+      "armor_strength": 50.0,
+      "mounts": [
+        {
+          "weapon": "expanse06_amun_pdc_0",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse06_amun_pdc_1",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse06_amun_pdc_2",
+          "damage": 21.25,
+          "cooldown": 0.25,
+          "raw_dps": 85.0,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 255.0,
+      "raw_pdc_dps_per_supply": 3.642857142857143,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 102.0,
+          "armor_layer_dps_all_mounts": 68.0,
+          "with_fire_control_hull_dps": 107.10000000000001
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 102.0,
+          "armor_layer_dps_all_mounts": 68.0,
+          "with_fire_control_hull_dps": 107.10000000000001
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 42.5,
+          "armor_layer_dps_all_mounts": 20.731707317073173,
+          "with_fire_control_hull_dps": 44.625
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 42.5,
+          "armor_layer_dps_all_mounts": 20.731707317073173,
+          "with_fire_control_hull_dps": 44.625
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 30.0,
+          "armor_layer_dps_all_mounts": 13.043478260869566,
+          "with_fire_control_hull_dps": 31.5
+        }
+      ]
+    },
+    {
+      "unit": "expanse19_artemis",
+      "name": "Artemis",
+      "supply_before": 8,
+      "supply": 8,
+      "resources": {
+        "credits": 600.0,
+        "metal": 100.0,
+        "crystal": 50.0
+      },
+      "exotic_price": [],
+      "build_seconds": 35.0,
+      "hull": 900.0,
+      "armor": 400.0,
+      "durability": 50.0,
+      "armor_strength": 25.0,
+      "mounts": [],
+      "raw_pdc_dps_per_hull": 0,
+      "raw_pdc_dps_per_supply": 0.0,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        }
+      ]
+    },
+    {
+      "unit": "expanse12_scirocco",
+      "name": "Scirocco",
+      "supply_before": 200,
+      "supply": 200,
+      "resources": {
+        "credits": 5500.0,
+        "metal": 1950.0,
+        "crystal": 1000.0
+      },
+      "exotic_price": [
+        {
+          "exotic_type": "offense",
+          "count": 1
+        },
+        {
+          "exotic_type": "defense",
+          "count": 2
+        }
+      ],
+      "build_seconds": 150.0,
+      "hull": 5400.0,
+      "armor": 3100.0,
+      "durability": 500.0,
+      "armor_strength": 105.0,
+      "mounts": [
+        {
+          "weapon": "expanse12_scirocco_pdc_0",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_1",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_2",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_3",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_4",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_5",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_6",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_7",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_8",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_9",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_10",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_scirocco_pdc_11",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 1411.1999999999998,
+      "raw_pdc_dps_per_supply": 7.055999999999999,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 564.48,
+          "armor_layer_dps_all_mounts": 376.32,
+          "with_fire_control_hull_dps": 592.7040000000001
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 564.48,
+          "armor_layer_dps_all_mounts": 376.32,
+          "with_fire_control_hull_dps": 592.7040000000001
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 235.2,
+          "armor_layer_dps_all_mounts": 114.73170731707317,
+          "with_fire_control_hull_dps": 246.96
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 235.2,
+          "armor_layer_dps_all_mounts": 114.73170731707317,
+          "with_fire_control_hull_dps": 246.96
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 166.02352941176468,
+          "armor_layer_dps_all_mounts": 72.18414322250639,
+          "with_fire_control_hull_dps": 174.32470588235293
+        }
+      ]
+    },
+    {
+      "unit": "expanse12_pella",
+      "name": "Pella",
+      "supply_before": 200,
+      "supply": 200,
+      "resources": {
+        "credits": 6000.0,
+        "metal": 2210.0,
+        "crystal": 1200.0
+      },
+      "exotic_price": [
+        {
+          "exotic_type": "offense",
+          "count": 1
+        },
+        {
+          "exotic_type": "defense",
+          "count": 2
+        }
+      ],
+      "build_seconds": 150.0,
+      "hull": 5400.0,
+      "armor": 3100.0,
+      "durability": 500.0,
+      "armor_strength": 105.0,
+      "mounts": [
+        {
+          "weapon": "expanse12_pella_pdc_0",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_pella_pdc_1",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_pella_pdc_2",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_pella_pdc_3",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_pella_pdc_4",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_pella_pdc_5",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_pella_pdc_6",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_pella_pdc_7",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_pella_pdc_8",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 1058.4,
+      "raw_pdc_dps_per_supply": 5.292000000000001,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 423.36,
+          "armor_layer_dps_all_mounts": 282.24,
+          "with_fire_control_hull_dps": 444.528
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 423.36,
+          "armor_layer_dps_all_mounts": 282.24,
+          "with_fire_control_hull_dps": 444.528
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 176.39999999999998,
+          "armor_layer_dps_all_mounts": 86.04878048780488,
+          "with_fire_control_hull_dps": 185.21999999999997
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 176.39999999999998,
+          "armor_layer_dps_all_mounts": 86.04878048780488,
+          "with_fire_control_hull_dps": 185.21999999999997
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 124.51764705882351,
+          "armor_layer_dps_all_mounts": 54.13810741687979,
+          "with_fire_control_hull_dps": 130.74352941176468
+        }
+      ]
+    },
+    {
+      "unit": "expanse12_raptor",
+      "name": "Raptor",
+      "supply_before": 150,
+      "supply": 150,
+      "resources": {
+        "credits": 4500.0,
+        "metal": 1560.0,
+        "crystal": 850.0
+      },
+      "exotic_price": [
+        {
+          "exotic_type": "offense",
+          "count": 1
+        },
+        {
+          "exotic_type": "defense",
+          "count": 2
+        }
+      ],
+      "build_seconds": 120.0,
+      "hull": 4500.0,
+      "armor": 2600.0,
+      "durability": 500.0,
+      "armor_strength": 105.0,
+      "mounts": [
+        {
+          "weapon": "expanse12_raptor_pdc_0",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_1",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_2",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_3",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_4",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_5",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_6",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_7",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse12_raptor_pdc_8",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 1058.4,
+      "raw_pdc_dps_per_supply": 7.056000000000001,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 423.36,
+          "armor_layer_dps_all_mounts": 282.24,
+          "with_fire_control_hull_dps": 444.528
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 423.36,
+          "armor_layer_dps_all_mounts": 282.24,
+          "with_fire_control_hull_dps": 444.528
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 176.39999999999998,
+          "armor_layer_dps_all_mounts": 86.04878048780488,
+          "with_fire_control_hull_dps": 185.21999999999997
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 176.39999999999998,
+          "armor_layer_dps_all_mounts": 86.04878048780488,
+          "with_fire_control_hull_dps": 185.21999999999997
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 124.51764705882351,
+          "armor_layer_dps_all_mounts": 54.13810741687979,
+          "with_fire_control_hull_dps": 130.74352941176468
+        }
+      ]
+    },
+    {
+      "unit": "expanse_rocinante_hero",
+      "name": "Rocinante",
+      "supply_before": 110,
+      "supply": 110,
+      "resources": {
+        "credits": 3000.0,
+        "metal": 650.0,
+        "crystal": 200.0
+      },
+      "exotic_price": [],
+      "build_seconds": 90.0,
+      "hull": 3000.0,
+      "armor": 1650.0,
+      "durability": 150.0,
+      "armor_strength": 50.0,
+      "mounts": [
+        {
+          "weapon": "expanse_rocinante04_pdc_0",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_rocinante04_pdc_1",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_rocinante04_pdc_2",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_rocinante04_pdc_3",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_rocinante04_pdc_4",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        },
+        {
+          "weapon": "expanse_rocinante04_pdc_5",
+          "damage": 29.4,
+          "cooldown": 0.25,
+          "raw_dps": 117.6,
+          "penetration": 0.0
+        }
+      ],
+      "raw_pdc_dps_per_hull": 705.6,
+      "raw_pdc_dps_per_supply": 6.414545454545455,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 282.24,
+          "armor_layer_dps_all_mounts": 188.16,
+          "with_fire_control_hull_dps": 296.35200000000003
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 282.24,
+          "armor_layer_dps_all_mounts": 188.16,
+          "with_fire_control_hull_dps": 296.35200000000003
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 117.6,
+          "armor_layer_dps_all_mounts": 57.36585365853659,
+          "with_fire_control_hull_dps": 123.48
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 117.6,
+          "armor_layer_dps_all_mounts": 57.36585365853659,
+          "with_fire_control_hull_dps": 123.48
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 83.01176470588234,
+          "armor_layer_dps_all_mounts": 36.092071611253196,
+          "with_fire_control_hull_dps": 87.16235294117647
+        }
+      ]
+    },
+    {
+      "unit": "trader_scout_corvette",
+      "name": "Sunflare",
+      "supply_before": 5,
+      "supply": 5,
+      "resources": {
+        "credits": 200.0
+      },
+      "exotic_price": [],
+      "build_seconds": 12.0,
+      "hull": 100.0,
+      "armor": 0.0,
+      "durability": 50.0,
+      "armor_strength": 0.0,
+      "mounts": [],
+      "raw_pdc_dps_per_hull": 0,
+      "raw_pdc_dps_per_supply": 0.0,
+      "effective": [
+        {
+          "target": "Morrigan",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        },
+        {
+          "target": "Tachi",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        },
+        {
+          "target": "Pella",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        },
+        {
+          "target": "Truman",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        },
+        {
+          "target": "Donnager",
+          "exposed_hull_dps_all_mounts": 0,
+          "armor_layer_dps_all_mounts": 0.0,
+          "with_fire_control_hull_dps": 0.0
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Nominal continuous all-mount PDC envelope; actual arcs, target allocation, interception, overkill, reloads, movement, research and cripple states affect observed results.",
+    "Exposed hull and armor layer reported separately; no invented target-class multiplier. Penetration offsets durability but not armor strength.",
+    "PDC numbers exclude railguns and torpedoes; those definitions and schedules remain byte-identical.",
+    "No casualty, torpedo-leakage or winner claims without runtime trials."
+  ]
+}

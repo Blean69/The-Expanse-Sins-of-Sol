@@ -1,0 +1,606 @@
+{
+  "acquisition_paths": [
+    {
+      "path": "expanse10_donnager_launch_corvette",
+      "supply": 95,
+      "metal": 400,
+      "mechanism": "spawn_units with owner supply constraint; ordinary unit, no reserve/special-operation exemption",
+      "refund": "Native action cost/payment behavior; no custom refund or reserve ledger"
+    },
+    {
+      "path": "expanse12_pella_launch_corvette",
+      "supply": 95,
+      "metal": 400,
+      "mechanism": "spawn_units with owner supply constraint; ordinary unit, no reserve/special-operation exemption",
+      "refund": "Native action cost/payment behavior; no custom refund or reserve ledger"
+    },
+    {
+      "path": "expanse12_raptor_launch_corvette",
+      "supply": 95,
+      "metal": 400,
+      "mechanism": "spawn_units with owner supply constraint; ordinary unit, no reserve/special-operation exemption",
+      "refund": "Native action cost/payment behavior; no custom refund or reserve ledger"
+    },
+    {
+      "path": "expanse12_scirocco_launch_corvette",
+      "supply": 95,
+      "metal": 400,
+      "mechanism": "spawn_units with owner supply constraint; ordinary unit, no reserve/special-operation exemption",
+      "refund": "Native action cost/payment behavior; no custom refund or reserve ledger"
+    },
+    {
+      "path": "factory",
+      "unit": "trader_light_frigate",
+      "supply": 40,
+      "mechanism": "normal build.supply_cost"
+    },
+    {
+      "path": "factory",
+      "unit": "expanse_mcrn_corvette",
+      "supply": 95,
+      "mechanism": "normal build.supply_cost"
+    },
+    {
+      "path": "factory",
+      "unit": "expanse19_europa_bane",
+      "supply": 95,
+      "mechanism": "normal build.supply_cost"
+    },
+    {
+      "path": "factory",
+      "unit": "expanse15_truman",
+      "supply": 185,
+      "mechanism": "normal build.supply_cost"
+    },
+    {
+      "path": "factory",
+      "unit": "expanse_donnager_battleship",
+      "supply": 500,
+      "mechanism": "normal build.supply_cost"
+    },
+    {
+      "path": "factory",
+      "unit": "expanse_amun_ra",
+      "supply": 70,
+      "mechanism": "normal build.supply_cost"
+    },
+    {
+      "path": "factory",
+      "unit": "expanse19_artemis",
+      "supply": 8,
+      "mechanism": "normal build.supply_cost"
+    },
+    {
+      "path": "dlc_trader_loyalist.trade",
+      "definition": {
+        "unit": "trader_light_frigate",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_0"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "dlc_trader_loyalist.trade",
+      "definition": {
+        "unit": "expanse_mcrn_corvette",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_1"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "dlc_trader_loyalist.garrison",
+      "mechanism": "Native build_from_factory special_operation garrison, own local supply",
+      "policy": "Existing local garrison rules retained; unit supply changes affect its own budget, not double-charged ordinary fleet."
+    },
+    {
+      "path": "expanse18_mcrn.trade",
+      "definition": {
+        "unit": "trader_light_frigate",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_0"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "expanse18_mcrn.trade",
+      "definition": {
+        "unit": "expanse_mcrn_corvette",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_1"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "expanse18_mcrn.garrison",
+      "mechanism": "Native build_from_factory special_operation garrison, own local supply",
+      "policy": "Existing local garrison rules retained; unit supply changes affect its own budget, not double-charged ordinary fleet."
+    },
+    {
+      "path": "expanse18_opa.trade",
+      "definition": {
+        "unit": "trader_light_frigate",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_0"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "expanse18_opa.trade",
+      "definition": {
+        "unit": "expanse_mcrn_corvette",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_1"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "expanse18_opa.garrison",
+      "mechanism": "Native build_from_factory special_operation garrison, own local supply",
+      "policy": "Existing local garrison rules retained; unit supply changes affect its own budget, not double-charged ordinary fleet."
+    },
+    {
+      "path": "expanse18_unn.trade",
+      "definition": {
+        "unit": "trader_light_frigate",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_0"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "expanse18_unn.trade",
+      "definition": {
+        "unit": "expanse_mcrn_corvette",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_1"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "expanse18_unn.garrison",
+      "mechanism": "Native build_from_factory special_operation garrison, own local supply",
+      "policy": "Existing local garrison rules retained; unit supply changes affect its own budget, not double-charged ordinary fleet."
+    },
+    {
+      "path": "trader_loyalist.trade",
+      "definition": {
+        "unit": "trader_light_frigate",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_0"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "trader_loyalist.trade",
+      "definition": {
+        "unit": "expanse_mcrn_corvette",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_1"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "trader_loyalist.garrison",
+      "mechanism": "Native build_from_factory special_operation garrison, own local supply",
+      "policy": "Existing local garrison rules retained; unit supply changes affect its own budget, not double-charged ordinary fleet."
+    },
+    {
+      "path": "trader_rebel.trade",
+      "definition": {
+        "unit": "trader_light_frigate",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_0"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "trader_rebel.trade",
+      "definition": {
+        "unit": "expanse_mcrn_corvette",
+        "special_operation_unit_kind": "trade_escort",
+        "count_per_trade_ship": 1,
+        "research_prerequisites": [
+          [
+            "trader_unlock_trade_escorts_1"
+          ]
+        ],
+        "construction_time": 60
+      },
+      "policy": "Preserved native automatic trade_escort special operation; separate from ordinary fleet. No new controllable/free Tachi spawn path."
+    },
+    {
+      "path": "trader_rebel.garrison",
+      "mechanism": "Native build_from_factory special_operation garrison, own local supply",
+      "policy": "Existing local garrison rules retained; unit supply changes affect its own budget, not double-charged ordinary fleet."
+    }
+  ],
+  "all_matching_references": [
+    {
+      "definition": "advanced_start_mode.start_mode",
+      "references": [
+        {
+          "path": "faction_configurations/0/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/0/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/1/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/1/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/7/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/7/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/8/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/8/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/9/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/9/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+          "unit": "trader_light_frigate"
+        }
+      ]
+    },
+    {
+      "definition": "dlc_trader_loyalist.player",
+      "references": [
+        {
+          "path": "buildable_units/1",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "buildable_units/23",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "garrison/units/random_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/1/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "theme_picker_mesh_preview_units/1",
+          "unit": "trader_light_frigate"
+        }
+      ]
+    },
+    {
+      "definition": "expanse10_donnager_launch_corvette.ability",
+      "references": [
+        {
+          "path": "active_actions/actions/actions/0/operators/0/units/required_units/0/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "gui/tooltip_line_groups/0/lines/0/unit",
+          "unit": "expanse_mcrn_corvette"
+        }
+      ]
+    },
+    {
+      "definition": "expanse12_pella_launch_corvette.ability",
+      "references": [
+        {
+          "path": "active_actions/actions/actions/0/operators/0/units/required_units/0/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "gui/tooltip_line_groups/0/lines/0/unit",
+          "unit": "expanse_mcrn_corvette"
+        }
+      ]
+    },
+    {
+      "definition": "expanse12_raptor_launch_corvette.ability",
+      "references": [
+        {
+          "path": "active_actions/actions/actions/0/operators/0/units/required_units/0/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "gui/tooltip_line_groups/0/lines/0/unit",
+          "unit": "expanse_mcrn_corvette"
+        }
+      ]
+    },
+    {
+      "definition": "expanse12_scirocco_launch_corvette.ability",
+      "references": [
+        {
+          "path": "active_actions/actions/actions/0/operators/0/units/required_units/0/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "gui/tooltip_line_groups/0/lines/0/unit",
+          "unit": "expanse_mcrn_corvette"
+        }
+      ]
+    },
+    {
+      "definition": "expanse18_mcrn.player",
+      "references": [
+        {
+          "path": "buildable_units/1",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "buildable_units/23",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "garrison/units/random_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/1/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "theme_picker_mesh_preview_units/1",
+          "unit": "trader_light_frigate"
+        }
+      ]
+    },
+    {
+      "definition": "expanse18_opa.player",
+      "references": [
+        {
+          "path": "buildable_units/1",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "buildable_units/23",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "garrison/units/random_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/1/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "theme_picker_mesh_preview_units/1",
+          "unit": "trader_light_frigate"
+        }
+      ]
+    },
+    {
+      "definition": "expanse18_unn.player",
+      "references": [
+        {
+          "path": "buildable_units/1",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "buildable_units/23",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "garrison/units/random_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/1/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "theme_picker_mesh_preview_units/1",
+          "unit": "trader_light_frigate"
+        }
+      ]
+    },
+    {
+      "definition": "expanse_mcrn_corvette.unit",
+      "references": [
+        {
+          "path": "skin_groups/0/skins/0",
+          "unit": "expanse_mcrn_corvette"
+        }
+      ]
+    },
+    {
+      "definition": "quick_start_mode.start_mode",
+      "references": [
+        {
+          "path": "faction_configurations/0/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/1/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/7/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/8/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "faction_configurations/9/home_planet/starting_units_in_formations/0/required_units/3/unit",
+          "unit": "trader_light_frigate"
+        }
+      ]
+    },
+    {
+      "definition": "trader_light_frigate.unit",
+      "references": [
+        {
+          "path": "skin_groups/0/skins/0",
+          "unit": "trader_light_frigate"
+        }
+      ]
+    },
+    {
+      "definition": "trader_loyalist.player",
+      "references": [
+        {
+          "path": "buildable_units/1",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "buildable_units/23",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "garrison/units/random_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/1/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "theme_picker_mesh_preview_units/1",
+          "unit": "trader_light_frigate"
+        }
+      ]
+    },
+    {
+      "definition": "trader_rebel.player",
+      "references": [
+        {
+          "path": "buildable_units/1",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "buildable_units/23",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "culture/insurgency/spawn_units/random_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "garrison/units/random_units/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/0/unit",
+          "unit": "trader_light_frigate"
+        },
+        {
+          "path": "trade/trade_ship_escorts/1/unit",
+          "unit": "expanse_mcrn_corvette"
+        },
+        {
+          "path": "theme_picker_mesh_preview_units/1",
+          "unit": "trader_light_frigate"
+        }
+      ]
+    }
+  ],
+  "capture": "Existing per_build_or_virtual_supply target transforms read actual95 supply; no fixed Tachi capture price. Guarded resolution checked in ability overlay.",
+  "runtime": "NOT RUN"
+}

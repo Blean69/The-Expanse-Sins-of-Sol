@@ -1,0 +1,84 @@
+{
+  "status": "offline authored; runtime NOT RUN",
+  "boarding": {
+    "expanse06_amun_boarding": {
+      "chance_before_after": 0.1,
+      "cooldown_before_after": 180.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship",
+        "super_capital_ship",
+        "titan"
+      ]
+    },
+    "expanse10_donnager_marines": {
+      "chance_before_after": 0.4,
+      "cooldown_before_after": 600.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship"
+      ]
+    },
+    "expanse12_raptor_marines": {
+      "chance_before_after": 0.2,
+      "cooldown_before_after": 600.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship"
+      ]
+    },
+    "expanse12_pella_marines": {
+      "chance_before_after": 0.25,
+      "cooldown_before_after": 600.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship"
+      ]
+    },
+    "expanse12_scirocco_marines": {
+      "chance_before_after": 0.25,
+      "cooldown_before_after": 600.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship"
+      ]
+    }
+  },
+  "repair": {
+    "owned_only": true,
+    "default_autocast": true,
+    "autocast_remaining_hull_maximum": 0.8,
+    "repair_per_second": 20,
+    "seconds": 20,
+    "maximum": 400,
+    "antimatter": 50,
+    "cooldown": 60,
+    "manual_threshold_unchanged": true,
+    "buff_stacking_unchanged": true,
+    "range": 3500,
+    "no_move_orders_authored": true
+  },
+  "rocinante_repair": {
+    "default_autocast": true,
+    "remaining_hull_maximum": 0.8,
+    "numbers_unchanged": true
+  },
+  "new_buffs": [
+    "expanse20_boarding_target_lock"
+  ],
+  "cancellation": {
+    "target_ownership_changed": "Permanent cancellation flag; lock remains through original 33-second expiry.",
+    "caster_dead_or_currently_captured": "Resolution fails live-caster/owner check; lock still expires at 33 seconds.",
+    "target_dead": "No target remains to capture; normal target-owned buff cleanup.",
+    "target_healed_out_of_threshold_or_left_range_or_not_hostile": "Resolution fails; cooldown is consumed, no refund.",
+    "player_defeat": "No explicit defeated-player constraint exists in pinned action schema. Caster existence/health/ownership guards apply; defeat that leaves a living owned caster is NOT independently rejected.",
+    "caster_captured_then_recaptured_within_delay": "Current owner checked at resolution; transient caster ownership loss is not remembered. NOT claimed covered.",
+    "simultaneous_attempts": "Shared preserve-existing target buff and pending-buff exclusion authored; engine ordering still requires multiplayer runtime test.",
+    "save_reload": "Uses native buff lifetime/memory and synchronized random_chance, no external timer; runtime NOT RUN."
+  }
+}

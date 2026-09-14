@@ -1,0 +1,131 @@
+{
+  "status": "SETUPS ONLY; RUNTIME NOT RUN",
+  "fleets": [
+    {
+      "label": "500 Donnager",
+      "units": {
+        "expanse_donnager_battleship": 1
+      },
+      "supply": 500,
+      "resource_totals": {
+        "credits": 9600.0,
+        "metal": 3770.0,
+        "crystal": 1900.0
+      }
+    },
+    {
+      "label": "500 Tachi",
+      "units": {
+        "expanse_mcrn_corvette": 5
+      },
+      "supply": 475,
+      "resource_totals": {
+        "credits": 1500.0,
+        "metal": 2000.0,
+        "crystal": 0
+      }
+    },
+    {
+      "label": "500 Morrigan",
+      "units": {
+        "trader_light_frigate": 12
+      },
+      "supply": 480,
+      "resource_totals": {
+        "credits": 2400.0,
+        "metal": 546.0,
+        "crystal": 0
+      }
+    },
+    {
+      "label": "500 Earth mix",
+      "units": {
+        "expanse15_truman": 2,
+        "trader_light_frigate": 3
+      },
+      "supply": 490,
+      "resource_totals": {
+        "credits": 8600.0,
+        "metal": 2136.5,
+        "crystal": 1400.0
+      }
+    },
+    {
+      "label": "1000 Tachi",
+      "units": {
+        "expanse_mcrn_corvette": 10
+      },
+      "supply": 950,
+      "resource_totals": {
+        "credits": 3000.0,
+        "metal": 4000.0,
+        "crystal": 0
+      }
+    },
+    {
+      "label": "1000 Morrigan",
+      "units": {
+        "trader_light_frigate": 25
+      },
+      "supply": 1000,
+      "resource_totals": {
+        "credits": 5000.0,
+        "metal": 1137.5,
+        "crystal": 0
+      }
+    },
+    {
+      "label": "1000 mixed",
+      "units": {
+        "expanse_donnager_battleship": 1,
+        "expanse_mcrn_corvette": 5
+      },
+      "supply": 975,
+      "resource_totals": {
+        "credits": 11100.0,
+        "metal": 5770.0,
+        "crystal": 1900.0
+      }
+    },
+    {
+      "label": "2000 Tachi",
+      "units": {
+        "expanse_mcrn_corvette": 21
+      },
+      "supply": 1995,
+      "resource_totals": {
+        "credits": 6300.0,
+        "metal": 8400.0,
+        "crystal": 0
+      }
+    },
+    {
+      "label": "2000 Morrigan",
+      "units": {
+        "trader_light_frigate": 50
+      },
+      "supply": 2000,
+      "resource_totals": {
+        "credits": 10000.0,
+        "metal": 2275.0,
+        "crystal": 0
+      }
+    },
+    {
+      "label": "2000 mixed",
+      "units": {
+        "expanse_donnager_battleship": 1,
+        "expanse12_scirocco": 2,
+        "expanse_mcrn_corvette": 8,
+        "trader_light_frigate": 8
+      },
+      "supply": 1980,
+      "resource_totals": {
+        "credits": 24600.0,
+        "metal": 11234.0,
+        "crystal": 3900.0
+      }
+    }
+  ],
+  "observations": []
+}
