@@ -13,8 +13,8 @@
     "simplification": false
   },
   "hull_mesh": "expanse24_storm_hull",
-  "chosen_length_metres": 200,
-  "game_units_per_metre": 1.875,
+  "chosen_length_metres": 164.3060569403831,
+  "game_units_per_metre": 2.282326086956522,
   "source_units_are_not_metres": true,
   "source_to_game_rotation": [
     [
@@ -524,7 +524,7 @@
   },
   "runtime": "NOT RUN",
   "adaptations": [
-    "200 m design length and six PDC mounts are mod choices, not a verified canonical specification.",
+    "164.306 m design length and six PDC mounts are mod choices, not a verified canonical specification.",
     "Six real rotating donor PDC rigs; fixed source keel rail geometry is not a turret.",
     "Two unmodeled torpedo apertures use actual forward hull surface origins; no invented launcher geometry claim.",
     "Pearl/blue/blush static facet materials approximate crystalline appearance; not an angle-dependent iridescent shader.",
