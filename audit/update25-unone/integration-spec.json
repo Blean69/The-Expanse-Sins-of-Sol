@@ -1,0 +1,556 @@
+{
+  "status": "OFFLINE COMPILED ART PASS; RUNTIME UNTESTED",
+  "output_game": "/run/media/haker/NVME 2/expanse-workers20/assets/build/update25-unone/game",
+  "base_mesh": "expanse25_unone_hull",
+  "source": {
+    "archive": "/home/haker/Downloads/un-one-from-the-expanse-tv-show-1100-scale-model_files.zip",
+    "sha256": "35b7c563f7a7ebb1501511ee06164f5d5f61f04d47997216222756d2f1d738e6",
+    "author": "Lionel SAVOCA",
+    "license": "CC BY-SA 4.0, per included assembly PDF",
+    "included": [
+      {
+        "member": "UN One - Body Front.stl",
+        "sha256": "69fe77391b3a56a3a8b91c84718df660c1170b4f817cbf163234e3f19a218187",
+        "triangles": 29510,
+        "bounds": [
+          [
+            110.0,
+            -63.828800201416016,
+            -19.133764266967773
+          ],
+          [
+            260.0,
+            63.828800201416016,
+            19.535524368286133
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Body Center.stl",
+        "sha256": "e725843e50b63a068b51e24d9c4a764c337fc02e74ab93e4a83beeca2029c176",
+        "triangles": 20852,
+        "bounds": [
+          [
+            -60.001041412353516,
+            -97.50000762939453,
+            -19.749387741088867
+          ],
+          [
+            110.0,
+            97.50000762939453,
+            21.0
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Body Rear 1.stl",
+        "sha256": "0e445b91d00e8d8d5195ccc9ce67fb36763735804db8606111210a7417565830",
+        "triangles": 11676,
+        "bounds": [
+          [
+            -147.0,
+            -85.5728530883789,
+            -19.642616271972656
+          ],
+          [
+            -59.99962615966797,
+            85.5728530883789,
+            19.692825317382812
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Body Rear 2.stl",
+        "sha256": "6c99c5cbd421eeff724d7ca096e2401a762e6ee4d3ebab4f79d20f273637000b",
+        "triangles": 10278,
+        "bounds": [
+          [
+            -247.1065673828125,
+            -85.5728530883789,
+            -19.755220413208008
+          ],
+          [
+            -147.0,
+            85.5728530883789,
+            19.692825317382812
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Engines.stl",
+        "sha256": "044050a3c36079a59897cbd349693d5a6b8426073e1b524d1c62e26048d6d203",
+        "triangles": 9064,
+        "bounds": [
+          [
+            -257.41015625,
+            -80.5728530883789,
+            -16.737285614013672
+          ],
+          [
+            -180.41363525390625,
+            80.5728530883789,
+            16.692825317382812
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Wing L.stl",
+        "sha256": "3e1eda1ad17c7443c401d8f084bd2cb6717ced2138314a0681061f3d5b005917",
+        "triangles": 5454,
+        "bounds": [
+          [
+            -233.46376037597656,
+            85.5728530883789,
+            -3.2458767890930176
+          ],
+          [
+            38.024871826171875,
+            255.5,
+            29.921403884887695
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Wing R.stl",
+        "sha256": "41421387a790686d570df87485d8d86eb529ce879316f59a1df0a7418904f170",
+        "triangles": 5454,
+        "bounds": [
+          [
+            -233.46376037597656,
+            -255.5,
+            -3.2458767890930176
+          ],
+          [
+            38.024871826171875,
+            -85.5728530883789,
+            29.921403884887695
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Connector Body F.U.stl",
+        "sha256": "830a4c9bae6c584737ff31ba0c8532563d44c9e842c13ec629d27d39920d5a99",
+        "triangles": 3636,
+        "bounds": [
+          [
+            99.30000305175781,
+            -10.899999618530273,
+            5.199999809265137
+          ],
+          [
+            120.69999694824219,
+            10.899999618530273,
+            21.0
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Connector Body F.B.stl",
+        "sha256": "f72436a59f2d6bff57b78ae3972f39f168dafb1720eca2364161a27f09e3bcba",
+        "triangles": 782,
+        "bounds": [
+          [
+            99.30000305175781,
+            -10.977499961853027,
+            -19.727258682250977
+          ],
+          [
+            138.6999969482422,
+            10.977499961853027,
+            -5.0
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Connector  body R.U.stl",
+        "sha256": "2dfbfb9dc388e074d2d4fbc0aac98d76491e6572546e2e48cd4bef478a5845d6",
+        "triangles": 1722,
+        "bounds": [
+          [
+            -70.37416076660156,
+            -10.899999618530273,
+            5.199999809265137
+          ],
+          [
+            -50.574161529541016,
+            10.90000057220459,
+            20.0
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Connector  body R.B.stl",
+        "sha256": "cf124d1b382a3de74b221af45585471fdc3823ed76fb8730a4df016b0a6e0d4a",
+        "triangles": 710,
+        "bounds": [
+          [
+            -70.69999694824219,
+            -10.899999618530273,
+            -19.691598892211914
+          ],
+          [
+            -49.29999923706055,
+            10.899999618530273,
+            -5.0
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Body Rear Up L.stl",
+        "sha256": "10a986c4fe8846eedac84e2378d17f8eb761ecc25cae7ff23d449d1c37771685",
+        "triangles": 8454,
+        "bounds": [
+          [
+            -234.81927490234375,
+            6.598015785217285,
+            -4.0
+          ],
+          [
+            -72.59899139404297,
+            74.99152374267578,
+            19.45085906982422
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Body Rear Up R.stl",
+        "sha256": "71c8b391de628a34e79d4c5f8eccd3e417fe5a728bf27f6f4f441df47e684782",
+        "triangles": 8454,
+        "bounds": [
+          [
+            -234.81927490234375,
+            -74.99152374267578,
+            -4.0
+          ],
+          [
+            -72.59899139404297,
+            -6.598015785217285,
+            19.45085906982422
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Body Rear Bottom L.stl",
+        "sha256": "f17e040d683d1153645ec2cf01f2219b7c2a47c15bbf3dc1019acdc80e5104d1",
+        "triangles": 776,
+        "bounds": [
+          [
+            -144.9372100830078,
+            40.60357666015625,
+            -16.294153213500977
+          ],
+          [
+            -100.08577728271484,
+            58.536869049072266,
+            -5.0
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Body Rear Bottom R.stl",
+        "sha256": "dc9de09eca43978a1c1a51767f99c893484fe0a78afd47032763595777d50e0b",
+        "triangles": 776,
+        "bounds": [
+          [
+            -144.9372100830078,
+            -58.536869049072266,
+            -16.294153213500977
+          ],
+          [
+            -100.08577728271484,
+            -40.60357666015625,
+            -5.0
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Connector Wing L.stl",
+        "sha256": "228b540d38d946f2740aec325794e426df64d117eb775a73198e79aeb0df403c",
+        "triangles": 112,
+        "bounds": [
+          [
+            -19.899999618530273,
+            70.86514282226562,
+            -3.7762508392333984
+          ],
+          [
+            -0.10000000149011612,
+            100.27285766601562,
+            0.0
+          ]
+        ]
+      },
+      {
+        "member": "UN One - Connector Wing R.stl",
+        "sha256": "2286ca7efbc9a54b3fcb43e823064d1dbba6de60574a06983ac33d0ea7dc63fc",
+        "triangles": 112,
+        "bounds": [
+          [
+            -19.899999618530273,
+            -100.27285766601562,
+            -3.7762508392333984
+          ],
+          [
+            -0.10000000149011612,
+            -70.86514282226562,
+            0.0
+          ]
+        ]
+      }
+    ],
+    "excluded": [
+      {
+        "member": "UN One - Connector C1 (x8).stl",
+        "sha256": "86b9edda5bb499009362d215b8e6f42b26c1d3f51e756298d4f0792e26692be9",
+        "triangles": 810,
+        "bounds": [
+          [
+            95.0,
+            -30.950000762939453,
+            -8.948472023010254
+          ],
+          [
+            124.0,
+            -13.050000190734863,
+            8.948472023010254
+          ]
+        ],
+        "reason": "Printing stand/interface or internal repeated assembly peg"
+      },
+      {
+        "member": "UN One - Connector R1 (x2).stl",
+        "sha256": "f033ba18b9a15d60998dddce8afa15bbef73bb7ee91e692c91f2777ff525f181",
+        "triangles": 60,
+        "bounds": [
+          [
+            -169.89999389648438,
+            66.0728530883789,
+            -1.5
+          ],
+          [
+            -150.10000610351562,
+            105.0728530883789,
+            1.5
+          ]
+        ],
+        "reason": "Printing stand/interface or internal repeated assembly peg"
+      },
+      {
+        "member": "UN One - Stand.stl",
+        "sha256": "4f33e0313200bba52051da78c0dc1c2b631ea680fae5183cd9606fcc7365e3c3",
+        "triangles": 12668,
+        "bounds": [
+          [
+            -226.82223510742188,
+            -100.0,
+            -203.16221618652344
+          ],
+          [
+            -1.390977382659912,
+            100.0,
+            -21.0
+          ]
+        ],
+        "reason": "Printing stand/interface or internal repeated assembly peg"
+      },
+      {
+        "member": "UN One - Stand interface.stl",
+        "sha256": "7d18b46e99bb5694326a7b6820b244603b5f00aa367a416922c8f54e3c68bba8",
+        "triangles": 10002,
+        "bounds": [
+          [
+            -213.24278259277344,
+            -39.0,
+            -29.0
+          ],
+          [
+            -35.0,
+            39.0,
+            -2.0
+          ]
+        ],
+        "reason": "Printing stand/interface or internal repeated assembly peg"
+      }
+    ],
+    "all_included_faces_retained": true,
+    "source_triangles": 117822,
+    "source_bounds": [
+      [
+        -257.41015625,
+        -255.5,
+        -19.755220413208008
+      ],
+      [
+        260.0,
+        255.5,
+        29.921403884887695
+      ]
+    ],
+    "coordinate_policy": "One bounding-box centering and cyclic axis permutation [Y,Z,X] for every assembled part; no individual recentering."
+  },
+  "scale": {
+    "estimated_length_m": 52,
+    "basis": "Author describes a 52cm print at 1:100. A model-design estimate, not verified TV dimensions.",
+    "game_units_per_metre": 2.2823251869565215,
+    "source_to_game": 0.22937491328329354,
+    "game_length": 118.68090972173911
+  },
+  "counts": {
+    "hull": 117826,
+    "source": 117822,
+    "material_triangles": {
+      "top": 44342,
+      "side": 53284,
+      "wing": 11132,
+      "engine": 9064,
+      "glow": 4
+    },
+    "added_glow_faces": 4,
+    "weapons": 0
+  },
+  "spatial": {
+    "box": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extents": [
+        58.6052903438815,
+        5.697285695291227,
+        59.340454860869556
+      ]
+    },
+    "radius": 70.5591498262516
+  },
+  "meshpoints": [
+    {
+      "name": "center",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0,
+        15,
+        0
+      ]
+    },
+    {
+      "name": "aura",
+      "translation": [
+        0,
+        -12,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        -2.7524989593995226,
+        -1.1659337261192901,
+        -46.99482515324559
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.1",
+      "translation": [
+        2.7524989593995226,
+        -1.1659337261192901,
+        -46.99482561861186
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "nozzles": [
+    {
+      "mesh_point": "exhaust.0",
+      "position": [
+        -2.7524989593995226,
+        -1.1659337261192901,
+        -46.99482515324559
+      ],
+      "source_y": -12,
+      "method": "First rear-facing intersection of actual Engines part; glow patch corners independently ray-projected."
+    },
+    {
+      "mesh_point": "exhaust.1",
+      "position": [
+        2.7524989593995226,
+        -1.1659337261192901,
+        -46.99482561861186
+      ],
+      "source_y": 12,
+      "method": "First rear-facing intersection of actual Engines part; glow patch corners independently ray-projected."
+    }
+  ],
+  "role": "Unarmed diplomatic/support ship; classification, capabilities, balance and research owned by main integration.",
+  "checks": {
+    "no_individual_part_recentring": true,
+    "stands_and_internal_print_pegs_excluded": true,
+    "all_117822_selected_source_faces_retained": true,
+    "degenerate_source_triangles": 0,
+    "meshpoint_transforms_exact": true,
+    "source_frame_error": 2.5174495815378837e-06,
+    "opposed_winding_triangles": 0,
+    "initial_winding_flips": 55352,
+    "only_tangent_bytes_repaired": true,
+    "official_triangle_grid_and_trailer_preserved": true
+  },
+  "runtime": "NOT RUN",
+  "skin_contract": {
+    "unit_mesh": {
+      "mesh": "expanse25_unone_hull",
+      "shader": "ship",
+      "is_shadow_blocker": true
+    },
+    "exhaust_effects": {
+      "particle_effects": [
+        {
+          "particle_effect": "expanse25_unone_idle_plume"
+        }
+      ]
+    },
+    "notes": "Two actual engine-face origins; no weapons or child aliases. Idle plume only. Main may use normal hyperspace effects; do not reuse a multi-engine absolute phase effect."
+  },
+  "source_game_hashes": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/effects/expanse15_truman_idle_plume.particle_effect": "84962541459fb493ac8bb9d9624fa5650433a5d16f916ae36789d15b0e27fa98"
+  },
+  "files": {
+    "effects/expanse25_unone_idle_plume.particle_effect": "ecc813ae923efe0605a31872a6e94ea4772dbcd2d9f17cc0c2a2de611d23bb42",
+    "mesh_materials/expanse25_unone_hull_engine.mesh_material": "aacf33c68ea26d534a3f25938b6206ce756d430a7cc0884cc38db0526cbf778c",
+    "mesh_materials/expanse25_unone_hull_glow.mesh_material": "9deb45029bb8d90322b23f78cbe557e211f68aba91bd526db9fdec28fa22fe4e",
+    "mesh_materials/expanse25_unone_hull_side.mesh_material": "8059f0fefa9fb39fb2908942bb5b64c712f8aeb293f2c72bf2b1a192cfd8597d",
+    "mesh_materials/expanse25_unone_hull_top.mesh_material": "5f24cb7d7fadcb7fbf5d8fcf625c8705a0650dde0b99704114b88c2d37ce65cf",
+    "mesh_materials/expanse25_unone_hull_wing.mesh_material": "bbdc465a62439a4afca24de4e165f5e93c24aee796a5828e11dcb73ca2f4f4d6",
+    "meshes/expanse25_unone_hull.mesh": "bb8c89780f359e1fe0b7392592d78aa62945cbad93c44419c97487271473e118",
+    "textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse25_unone_engine_clr.dds": "026082cb94e1861960db33136f394fd0522fa6e7e5dc80a477408558c98e54fe",
+    "textures/expanse25_unone_glow_clr.dds": "2465e0ba8ef0e922420a79e918a5e320955ad5cc235eb24e40459c2d34d19302",
+    "textures/expanse25_unone_glow_msk.dds": "9c16a55e1b1d21ea020de7a47f51ee23d6d69840147f97fd0acdfa6f36b68663",
+    "textures/expanse25_unone_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse25_unone_orm.dds": "2c7baac0f15fff4566796bd5abf991bab14732fca4fe6313af1dab7a761af072",
+    "textures/expanse25_unone_side_clr.dds": "089d806cd21e0b52d83e6bd65b6586785b5a948bdc4015d6b8cedf276e6c04fc",
+    "textures/expanse25_unone_top_clr.dds": "c488f3882c1403677a8234d2d1d9ad0a30da25e19ae247b77c76792512807376",
+    "textures/expanse25_unone_windows_msk.dds": "119dfc6a81d040bc8b8ba5d33ad25796c6fdfc664b093e3c600fdf567b5dd08d",
+    "textures/expanse25_unone_wing_clr.dds": "54fa1285b8682c3f698549582140789f9f5957e2819ff40678df24f67add7ee6"
+  },
+  "wine_prefix_used_in_place": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/proton-prefix",
+  "wine_prefix_copied": false
+}

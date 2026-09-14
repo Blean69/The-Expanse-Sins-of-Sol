@@ -1,0 +1,46 @@
+{
+  "status": "PASS OFFLINE",
+  "source_triangles_preserved": 117822,
+  "compiled_triangles": 117826,
+  "global_part_transform": true,
+  "main_body_interfaces": [
+    {
+      "left": "UN One - Body Center.stl",
+      "right": "UN One - Body Front.stl",
+      "axial_seam_gap_game_units": 0.0
+    },
+    {
+      "left": "UN One - Body Rear 1.stl",
+      "right": "UN One - Body Center.stl",
+      "axial_seam_gap_game_units": 0.00032462346202126273
+    },
+    {
+      "left": "UN One - Body Rear 2.stl",
+      "right": "UN One - Body Rear 1.stl",
+      "axial_seam_gap_game_units": 0.0
+    }
+  ],
+  "exhaust_points": 2,
+  "weapon_points": 0,
+  "opaque_authored_base_maps_BC7_alpha_minimum": 254,
+  "all_material_and_particle_resources_resolved": true,
+  "stock_particle_resources": {
+    "t_edgemask_ghost_fade": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_edgemask_ghost_fade.dds",
+    "advent_light": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/advent_light.dds",
+    "t_noise_008": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_noise_008.dds",
+    "zap_clr": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/zap_clr.dds",
+    "soft_circle_large": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/soft_circle_large.dds",
+    "water_uv": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/water_uv.dds",
+    "heat_refraction_falloff": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/heat_refraction_falloff.dds"
+  },
+  "all_packaged_hashes_verified": true,
+  "symlinks": 0,
+  "runtime_not_tested": [
+    "ship shader, windows and exhaust appearance",
+    "hyperspace appearance",
+    "save/reload",
+    "multiplayer",
+    "support gameplay or diplomacy effects"
+  ],
+  "scope": "Art/assembly checks only; no new gameplay definitions."
+}
