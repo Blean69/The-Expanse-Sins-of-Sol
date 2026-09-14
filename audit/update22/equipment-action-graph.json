@@ -1,0 +1,36 @@
+{
+  "status": "PASS OFFLINE",
+  "graphs": [
+    {
+      "ability": "expanse22_defense_coordination",
+      "ADS": "build/experiments/expanse_update22/entities/expanse22_defense_coordination.action_data_source",
+      "reachable_buffs": [
+        "build/experiments/expanse_update22/entities/expanse22_defense_coordination_on_self.buff",
+        "build/experiments/expanse_update22/entities/expanse22_defense_coordination_on_target.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse22_industrial_drydock",
+      "ADS": "build/experiments/expanse_update22/entities/expanse22_industrial_drydock.action_data_source",
+      "reachable_buffs": [
+        "build/experiments/expanse_update22/entities/expanse22_industrial_drydock_on_self.buff",
+        "build/experiments/expanse_update22/entities/expanse22_industrial_drydock_on_target.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse22_repair_anchorage",
+      "ADS": "build/experiments/expanse_update22/entities/expanse22_repair_anchorage.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.buff",
+        "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_retrofit_bay_repair.buff",
+        "build/experiments/expanse_update22/entities/expanse15_scirocco_engineering_teams.buff",
+        "build/experiments/expanse_update22/entities/expanse22_repair_anchorage_on_self.buff",
+        "build/experiments/expanse_update22/entities/expanse22_repair_anchorage_reservation.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "runtime": "NOT RUN"
+}

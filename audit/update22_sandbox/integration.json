@@ -1,0 +1,404 @@
+{
+  "access": {
+    "expanse18_mcrn": {
+      "faction": "mcrn",
+      "structures": [
+        "expanse22_mcrn_support_station",
+        "expanse22_unn_support_station",
+        "expanse22_opa_support_station",
+        "expanse22_pdc_picket",
+        "expanse22_foehammer_battery"
+      ],
+      "modules": [
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock"
+      ],
+      "research": [
+        "expanse22_mcrn_naval_readiness",
+        "expanse22_opa_dockworker_damage_control",
+        "expanse22_unn_orbital_defense"
+      ]
+    },
+    "expanse18_unn": {
+      "faction": "unn",
+      "structures": [
+        "expanse22_mcrn_support_station",
+        "expanse22_unn_support_station",
+        "expanse22_opa_support_station",
+        "expanse22_pdc_picket",
+        "expanse22_foehammer_battery"
+      ],
+      "modules": [
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock"
+      ],
+      "research": [
+        "expanse22_mcrn_naval_readiness",
+        "expanse22_opa_dockworker_damage_control",
+        "expanse22_unn_orbital_defense"
+      ]
+    },
+    "expanse18_opa": {
+      "faction": "opa",
+      "structures": [
+        "expanse22_mcrn_support_station",
+        "expanse22_unn_support_station",
+        "expanse22_opa_support_station",
+        "expanse22_pdc_picket",
+        "expanse22_foehammer_battery"
+      ],
+      "modules": [
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock"
+      ],
+      "research": [
+        "expanse22_mcrn_naval_readiness",
+        "expanse22_opa_dockworker_damage_control",
+        "expanse22_unn_orbital_defense"
+      ]
+    },
+    "trader_loyalist": {
+      "faction": "mcrn",
+      "structures": [
+        "expanse22_mcrn_support_station",
+        "expanse22_unn_support_station",
+        "expanse22_opa_support_station",
+        "expanse22_pdc_picket",
+        "expanse22_foehammer_battery"
+      ],
+      "modules": [
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock"
+      ],
+      "research": [
+        "expanse22_mcrn_naval_readiness",
+        "expanse22_opa_dockworker_damage_control",
+        "expanse22_unn_orbital_defense"
+      ]
+    },
+    "trader_rebel": {
+      "faction": "opa",
+      "structures": [
+        "expanse22_mcrn_support_station",
+        "expanse22_unn_support_station",
+        "expanse22_opa_support_station",
+        "expanse22_pdc_picket",
+        "expanse22_foehammer_battery"
+      ],
+      "modules": [
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock"
+      ],
+      "research": [
+        "expanse22_mcrn_naval_readiness",
+        "expanse22_opa_dockworker_damage_control",
+        "expanse22_unn_orbital_defense"
+      ]
+    },
+    "dlc_trader_loyalist": {
+      "faction": "unn",
+      "structures": [
+        "expanse22_mcrn_support_station",
+        "expanse22_unn_support_station",
+        "expanse22_opa_support_station",
+        "expanse22_pdc_picket",
+        "expanse22_foehammer_battery"
+      ],
+      "modules": [
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock"
+      ],
+      "research": [
+        "expanse22_mcrn_naval_readiness",
+        "expanse22_opa_dockworker_damage_control",
+        "expanse22_unn_orbital_defense"
+      ]
+    }
+  },
+  "stations": {
+    "status": "OFFLINE AUTHORING; runtime NOT RUN",
+    "player_recipes": {
+      "mcrn": {
+        "structures_append": [
+          "expanse22_mcrn_support_station",
+          "expanse22_pdc_picket"
+        ],
+        "ship_components_append": [
+          "expanse22_ordnance_control",
+          "expanse22_repair_anchorage",
+          "expanse22_defense_coordination",
+          "expanse22_industrial_drydock"
+        ],
+        "global_unit_limit": {
+          "tag": "expanse22_major_support_station",
+          "unit_limit": 1
+        }
+      },
+      "unn": {
+        "structures_append": [
+          "expanse22_unn_support_station",
+          "expanse22_pdc_picket"
+        ],
+        "ship_components_append": [
+          "expanse22_ordnance_control",
+          "expanse22_repair_anchorage",
+          "expanse22_defense_coordination",
+          "expanse22_industrial_drydock"
+        ],
+        "global_unit_limit": {
+          "tag": "expanse22_major_support_station",
+          "unit_limit": 1
+        }
+      },
+      "opa": {
+        "structures_append": [
+          "expanse22_opa_support_station",
+          "expanse22_pdc_picket"
+        ],
+        "ship_components_append": [
+          "expanse22_ordnance_control",
+          "expanse22_repair_anchorage",
+          "expanse22_defense_coordination",
+          "expanse22_industrial_drydock"
+        ],
+        "global_unit_limit": {
+          "tag": "expanse22_major_support_station",
+          "unit_limit": 1
+        }
+      }
+    },
+    "unit_tag_entries_append": [
+      {
+        "name": "expanse22_major_support_station",
+        "localized_name": "expanse22_major_support_station.name"
+      },
+      {
+        "name": "expanse22_mcrn_support_station",
+        "localized_name": "expanse22_mcrn_support_station.name"
+      },
+      {
+        "name": "expanse22_unn_support_station",
+        "localized_name": "expanse22_unn_support_station.name"
+      },
+      {
+        "name": "expanse22_opa_support_station",
+        "localized_name": "expanse22_opa_support_station.name"
+      }
+    ],
+    "stations": [
+      {
+        "unit": "expanse22_mcrn_support_station",
+        "title": "MCRN Naval Anchorage",
+        "price": {
+          "credits": 4000.0,
+          "metal": 900.0,
+          "crystal": 700.0
+        },
+        "build_seconds": 240,
+        "military_slots": 8,
+        "fleet_supply": 0,
+        "hull": 12000,
+        "armor": 4500,
+        "durability": 600,
+        "armor_strength": 75,
+        "pdc_count": 4,
+        "pdc_base_dps_per_mount": 117.6,
+        "optional_torpedo_banks": 2,
+        "normal_item_slots": 3,
+        "shared_native_art": true
+      },
+      {
+        "unit": "expanse22_unn_support_station",
+        "title": "UNN Fleet Support Station",
+        "price": {
+          "credits": 4000.0,
+          "metal": 900.0,
+          "crystal": 700.0
+        },
+        "build_seconds": 240,
+        "military_slots": 8,
+        "fleet_supply": 0,
+        "hull": 12000,
+        "armor": 4500,
+        "durability": 600,
+        "armor_strength": 75,
+        "pdc_count": 4,
+        "pdc_base_dps_per_mount": 85.0,
+        "optional_torpedo_banks": 2,
+        "normal_item_slots": 3,
+        "shared_native_art": true
+      },
+      {
+        "unit": "expanse22_opa_support_station",
+        "title": "OPA Tycho-pattern Engineering Station",
+        "price": {
+          "credits": 4000.0,
+          "metal": 900.0,
+          "crystal": 700.0
+        },
+        "build_seconds": 240,
+        "military_slots": 8,
+        "fleet_supply": 0,
+        "hull": 12000,
+        "armor": 4500,
+        "durability": 600,
+        "armor_strength": 75,
+        "pdc_count": 4,
+        "pdc_base_dps_per_mount": 85.0,
+        "optional_torpedo_banks": 2,
+        "normal_item_slots": 3,
+        "shared_native_art": true
+      }
+    ],
+    "modules": [
+      {
+        "item": "expanse22_ordnance_control",
+        "slots": 1,
+        "price": {
+          "credits": 700.0,
+          "metal": 150.0,
+          "crystal": 100.0
+        },
+        "seconds": 60,
+        "scope": "Local/owned only"
+      },
+      {
+        "item": "expanse22_repair_anchorage",
+        "slots": 1,
+        "price": {
+          "credits": 700.0,
+          "metal": 150.0,
+          "crystal": 100.0
+        },
+        "seconds": 60,
+        "scope": "Local/owned only"
+      },
+      {
+        "item": "expanse22_defense_coordination",
+        "slots": 1,
+        "price": {
+          "credits": 700.0,
+          "metal": 150.0,
+          "crystal": 100.0
+        },
+        "seconds": 60,
+        "scope": "Local/owned only"
+      },
+      {
+        "item": "expanse22_industrial_drydock",
+        "slots": 1,
+        "price": {
+          "credits": 700.0,
+          "metal": 150.0,
+          "crystal": 100.0
+        },
+        "seconds": 60,
+        "scope": "Local/owned only"
+      }
+    ],
+    "blocked_or_deferred": [
+      "Ordnance Control enables modest existing defense torpedoes, not a new heavy railgun. Heavy gun role belongs to separate Foehammer battery.",
+      "OPA native placeholder does not claim imported Tycho model, habitat animation,12\u201316modeledPDCs or new salvage progression.",
+      "Paid UNN mobilization and custom OPA recovery specialization are separate main-thread research/Stage4 integrations."
+    ],
+    "picket": {
+      "unit": "expanse22_pdc_picket",
+      "native_art": "trader_hangar_defense_structure",
+      "pdc_count": 4,
+      "dps_per_mount": 85.0,
+      "penetration": 0.0,
+      "military_slots": 3,
+      "price": {
+        "credits": 1200.0,
+        "metal": 250.0,
+        "crystal": 100.0
+      },
+      "build_seconds": 80,
+      "carrier_removed": true
+    },
+    "combined_sandbox": {
+      "structures_append": [
+        "expanse22_mcrn_support_station",
+        "expanse22_unn_support_station",
+        "expanse22_opa_support_station",
+        "expanse22_pdc_picket"
+      ],
+      "ship_components_append": [
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock"
+      ],
+      "global_unit_limit": {
+        "tag": "expanse22_major_support_station",
+        "unit_limit": 1
+      }
+    },
+    "capture_rule": "No forced deletion. Captured excess survives; native shared-tag limit prevents ordinary additional construction until below1. Capture/queued construction behavior NOT RUN.",
+    "research_extension_points": {
+      "mcrn_naval_readiness": {
+        "owned_station_tag": "expanse22_mcrn_support_station",
+        "repair_module": "expanse22_repair_anchorage",
+        "bounded_action_value": "repair_per_tick",
+        "base_value": 20,
+        "suggested_researched_value": 22,
+        "merge_rule": "Main adds owner-specific research level only after that node is present; do not change global shared value."
+      },
+      "unn_fleet_train": {
+        "owned_station_tag": "expanse22_unn_support_station",
+        "module": "expanse22_repair_anchorage",
+        "existing_stage21_node": "expanse21_unn_fleet_train",
+        "existing_stage21_module": "expanse21_unn_fleet_train_module",
+        "interaction": "Existing fleet-train module applies expanse15_scirocco_engineering_teams, so the station repair filter already excludes it. Preserve that implemented node/module; do not replace it with a redundant station unlock."
+      }
+    },
+    "runtime_cases": [
+      "Fresh load with explicit unit tags and constructor menu",
+      "All3normal slots and4module choices",
+      "Local ownership filters,source/target capture and leaving6000range",
+      "Three-target fixed repair cap,pending reservations,overlapping stations and Scirocco interaction",
+      "PDCtracking only+10%,no range/damage/cooldown drift",
+      "Factory10%rate is9.09%less base time,not global",
+      "Missile component slots/gating,both banks,all native muzzle arcs",
+      "Unique limit queued construction,cancellation,capture and save/reload",
+      "Shared/native placeholder model and weapon effect origins"
+    ]
+  },
+  "battery": {
+    "status": "OFFLINE AUTHORED; RUNTIME NOT RUN",
+    "unit": "expanse22_foehammer_battery",
+    "research": "expanse22_unn_orbital_defense",
+    "art_files": 5,
+    "private_weapon_change": "turret alias only; all damage, cooldown, penetration, acquisition, tracking and range unchanged",
+    "rail": {
+      "damage": 5000.0,
+      "cooldown_duration": 30.0,
+      "penetration": 1500.0,
+      "range": 12000.0,
+      "pitch_speed": 0.0,
+      "yaw_speed": 15.0,
+      "target_acquired_duration_required_to_fire": 1.5
+    },
+    "station_rotation": "Native gauss stationary attack and 8-degree/second whole-structure rotation retained; no linear movement. Actual elevation/body alignment needs runtime test.",
+    "limit": "Native player.unit_limits.planet private tag,2 across all aliases. Native queued/captured counting requires runtime verification. Excess captured property is retained; no deletion script; additional construction should remain blocked.",
+    "research_limit_interaction": "Native gauss range/cooldown research targets native gauss weapon IDs, not this private gun; native starbase limit research targets starbase tag, not private battery tag.",
+    "cost_basis": "Exactly half Truman ordinary resource investment; no exotic cost;120seconds;4militaryslots;no fleet supply."
+  },
+  "repair_research": {
+    "mcrn": "expanse22_mcrn_naval_readiness",
+    "opa": "expanse22_opa_dockworker_damage_control"
+  },
+  "runtime": "NOT RUN"
+}
