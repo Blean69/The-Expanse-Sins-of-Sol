@@ -1,7 +1,10 @@
 """Validate final compiled art contracts and emit exact dependency manifests."""
 from update27_mars_assets import *
 import jsonschema
-from update27_storm_patch import changes
+import importlib.util
+def local_module(name):
+ spec=importlib.util.spec_from_file_location('_isolated_'+name,ROOT/'tools'/(name+'.py'));module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module);return module
+changes=local_module('update27_storm_patch').changes
 
 SDK=Path('/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/json_schemas')
 def digest(p):return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -17,7 +20,7 @@ def artifact(key):
     assert pt['name'] in points
     assert np.allclose(pt['translation'],points[pt['name']]['position'],atol=2e-4)
    if meta.get('epstein_drive_pass'):
-    from update27_epstein_surface import meshrows
+    meshrows=local_module('update27_epstein_surface').meshrows
     rv,_=meshrows(p);center=np.array(meta['spatial']['box']['center']);extent=np.array(meta['spatial']['box']['extents'])
     assert (abs(rv[:,:3]-center)<=extent+2e-4).all(),'Hull/drive outside final spatial box'
     assert np.linalg.norm(rv[:,:3],axis=1).max()<=meta['spatial']['radius']+2e-4
