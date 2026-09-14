@@ -1,0 +1,13 @@
+# Gathering Storm private art contract
+
+Complete source STL from `lns-gathering-storm-the-expanse-model_files.zip`, by dredeth, retained at 65,799 triangles after removing five zero/near-zero-area triangles. No simplification, subdivision, invented high-resolution source or filled print seams. Source and archive hashes are in `audit/update24-storm/integration-spec.json`. Source archive remains unchanged; derived licensed geometry stays in ignored local assets/build directories.
+
+The book ship is a Laconian Pulsar-class fast-attack destroyer, not a Magnetar. The source notes cite [Gathering Storm](https://expanse.fandom.com/wiki/Gathering_Storm) and [Bridging The Expanse](https://seattlein2025.org/wp-content/uploads/2025/08/Bridging-The-Expanse-The-Villains.pdf); accessible summaries describe crystalline pink/blue facets. The implemented static pearl/ice-blue/blush material approximates that appearance, with moderate metallic response. It is not an iridescent shader or a recovered original skin.
+
+The 200 m design length is a mod choice, not a verified canonical dimension. The derivative uses the accepted Europa/Tachi ratio of 1.875 game units per metre: total 375 game units including the keel rail. Proper rotation maps source -X forward to game +Z. Six real native rotating PDC rigs are also a mod count, with copied accepted mesh/material bytes. Fixed source rail uses `weapon.keel_rail.0`. Torpedo origins are two measured forward hull surfaces without fabricated aperture-model claims. The single measured aft centre drive origin is `exhaust.0`.
+
+`tools/update24_storm_geometry.py`, `update24_storm_compile.py`, and `update24_storm_preview.py` are reproducible from the ZIP, frozen main0.20 donors and installed SDK. The compiler uses the existing local Wine prefix in place. No game installation or launch is performed.
+
+Offline checks: official binary/JSON MeshBuilder output, 65,799 retained hull triangles, zero opposed winding triangles, tangent-only repair with unchanged official opaque trailer, exact point positions/rotations, and 1,177,290 clear PDC hull-ray samples at 1-degree spacing with 3-degree aim envelope. Swept gun-mesh collision, actual game facing/targeting, effects, performance and multiplayer are not tested. The source is a fan printable interpretation and contains visible print-part seams.
+
+Integration assets: `build/update24-storm/game`. Rig/scale/meshpoint/material/hash contract: `audit/update24-storm/integration-spec.json`. Actual compiled DDS/mesh previews: `oblique.png`, `side.png`, `top.png` beside that report. Total assembled triangle count is 69,861 including six 677-triangle PDCs. Ordinary native gun colors are retained on the small retrofit PDCs.
