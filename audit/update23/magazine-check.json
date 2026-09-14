@@ -1,0 +1,18 @@
+{
+  "status": "PASS OFFLINE",
+  "create_operations": 2,
+  "capacity": 8,
+  "pair_count": 2,
+  "unchanged_UNN_ordnance_values": true,
+  "graphs": [
+    {
+      "ability": "expanse23_murphy_light_magazine",
+      "ADS": "build/experiments/expanse_update23/entities/expanse23_murphy_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "build/experiments/expanse_update23/entities/expanse23_murphy_light_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "runtime": "NOT RUN"
+}
