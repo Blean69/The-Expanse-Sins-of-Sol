@@ -1,0 +1,203 @@
+{
+  "log": "sins2_log_496.txt",
+  "log_sha256": "95f2aa9295cd8d2209b13dc1523abf65e6b25d225c1b4a8427d96a6c619041fa",
+  "line_count": 814,
+  "installed27_1_source_tree_matches": true,
+  "compared_files": 2248,
+  "different_files": [],
+  "installed_extras": [],
+  "diagnostics": [
+    {
+      "line": 114,
+      "text": "[19:24:29.0411571][   500][           modding_system] Enabling mod : [expanse_update27_1] { name=The Expanse — 0.27.1 Runtime Repair , version=0.27.1 , compatibility_version=2 , target game version=0.0.0 , bundled_mods=[] , dependencies=0 }"
+    },
+    {
+      "line": 171,
+      "text": "[19:24:39.0928311][   848][              json_reader] json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_1\\entities\\expanse24_behemoth.unit'."
+    },
+    {
+      "line": 173,
+      "text": "[ship_roles[1]] failed to parse \"support_ship\""
+    },
+    {
+      "line": 176,
+      "text": "[19:24:39.1044161][   844][              json_reader] json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_1\\entities\\expanse26_tycho_recovery_component.unit_item'."
+    },
+    {
+      "line": 178,
+      "text": "unused keys : [ build_time ]"
+    },
+    {
+      "line": 181,
+      "text": "[19:24:39.2305393][   872][              json_reader] json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_1\\entities\\expanse03_hero_torpedo_salvo.action_data_source'."
+    },
+    {
+      "line": 183,
+      "text": "[action_values[1]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 184,
+      "text": "[action_values[2]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 185,
+      "text": "[action_values[3]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 186,
+      "text": "[action_values[4]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 187,
+      "text": "[action_values[5]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 188,
+      "text": "[action_values[6]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 189,
+      "text": "[action_values[7]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 190,
+      "text": "[action_values[8]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 191,
+      "text": "[action_values[9]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 192,
+      "text": "[action_values[10]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 193,
+      "text": "[action_values[11]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 194,
+      "text": "[action_values[12]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 195,
+      "text": "[action_values[13]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 196,
+      "text": "[action_values[14]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 197,
+      "text": "[action_values[15]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 201,
+      "text": "json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_1\\entities\\expanse24_behemoth.unit'."
+    },
+    {
+      "line": 203,
+      "text": "[ship_roles[1]] failed to parse \"support_ship\""
+    },
+    {
+      "line": 207,
+      "text": "json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_1\\entities\\expanse26_tycho_recovery_component.unit_item'."
+    },
+    {
+      "line": 209,
+      "text": "unused keys : [ build_time ]"
+    },
+    {
+      "line": 213,
+      "text": "json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_1\\entities\\expanse03_hero_torpedo_salvo.action_data_source'."
+    },
+    {
+      "line": 215,
+      "text": "[action_values[1]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 216,
+      "text": "[action_values[2]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 217,
+      "text": "[action_values[3]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 218,
+      "text": "[action_values[4]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 219,
+      "text": "[action_values[5]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 220,
+      "text": "[action_values[6]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 221,
+      "text": "[action_values[7]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 222,
+      "text": "[action_values[8]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 223,
+      "text": "[action_values[9]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 224,
+      "text": "[action_values[10]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 225,
+      "text": "[action_values[11]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 226,
+      "text": "[action_values[12]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 227,
+      "text": "[action_values[13]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 228,
+      "text": "[action_values[14]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 229,
+      "text": "[action_values[15]..action_value] static array size mismatch. key=values expected_size=1 actual_size=2"
+    },
+    {
+      "line": 237,
+      "text": "- 'build_radius' must be >= `spatial.box.get_bounding_radius_xz()`. 119.93179 < 134.5491"
+    },
+    {
+      "line": 778,
+      "text": "[19:26:55.8644981][   500][    weapon_rendering_data] No turret_muzzle mesh points found."
+    },
+    {
+      "line": 780,
+      "text": "mesh = expanse15_truman_rail_0"
+    },
+    {
+      "line": 803,
+      "text": "[19:27:02.3132335][   500][      unit_rendering_data] unit has no gui_definition : <unit(expanse12_scirocco)[225]>"
+    },
+    {
+      "line": 808,
+      "text": "[19:27:03.4427540][   500][             resource_ptr] Attempting to get an empty resource. This is most likely due to either a missing serialization, or serialized value was an empty string. This is allowed but client code should be accounting for it explicitly with a has_id() branch."
+    }
+  ],
+  "private_log_payloads": "Excluded; only diagnostic lines copied",
+  "user_report": "Crash after spawning every new ship in one system; models accepted for now.",
+  "causality": "Known load faults and missing gimbal muzzle metadata repaired. Terminal empty-resource error source blank; crash root cause not proven.",
+  "previous_tag_overflow_present": false,
+  "preserved_zip_hashes": {
+    "expanse_update27_1": "ed2fed9cb5ea68a6853f06fe024fd194053720e8760bfd6eb633368d4c9eca58",
+    "expanse_update27_2_menu": "bc26b73bc492b2f6e10bd00510d8c18ba5bd01773c9d325947ff7c2db0a71976"
+  }
+}

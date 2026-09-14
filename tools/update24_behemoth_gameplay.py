@@ -62,7 +62,7 @@ def changes(base=BASE, art_contract=CONTRACT):
     unit['tags']=['titan',ID];unit['skin_groups']=[{'skins':[ID]}]
     unit['ship_component_shop']={}  # Existing mobile-fabricator service; no discount.
     unit['spawn_debris']['spawn_loot']['loot_name']=ID+'_loot_name';loc[ID+'_loot_name']='Behemoth wreckage'
-    unit['ship_roles']=['support_ship']
+    unit['ship_roles']=['attack_ship'] # Engine role enum; support comes from abilities.
     magazine=ID+'_magazine'
     for ext in ['ability','action_data_source','buff']:
         d=rename(read('expanse19_europa_magazine.'+ext),'expanse19_europa_magazine',magazine)

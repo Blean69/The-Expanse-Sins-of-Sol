@@ -13,11 +13,11 @@ def registries(out):
         ids=sorted(p.stem for p in (out/'entities').glob('*.'+kind) if not (GAME/'entities'/p.name).exists())
         write(out/'entities'/f'{kind}.entity_manifest',{'ids':ids})
 
-def package(base,out,edits,origins,readme,audit,art=None,package_existing=False,art_replacements=None, magazine_position_replacements=None):
+def package(base,out,edits,origins,readme,audit,art=None,package_existing=False,art_replacements=None, magazine_position_replacements=None, action_level_replacements=None):
     import jsonschema
     from amun06_validate_package import AmunResolver,check_action_values
     from build_combat03 import check_actions
-    art=art or {};art_replacements=art_replacements or {};magazine_position_replacements=magazine_position_replacements or {};pins=verify_pins(ROOT,GAME,SDK)
+    art=art or {};art_replacements=art_replacements or {};magazine_position_replacements=magazine_position_replacements or {};action_level_replacements=action_level_replacements or {};pins=verify_pins(ROOT,GAME,SDK)
     class DoctrineResolver(AmunResolver):
         def weapon(self,name,skins,source):
             data=read(self.resolve('entities/'+name+'.weapon',source))
@@ -71,7 +71,14 @@ def package(base,out,edits,origins,readme,audit,art=None,package_existing=False,
     for rel in audio:require(after[rel]==before[rel],'Audio changed')
     for rel in before:
         if (rel.endswith('.weapon') and 'rail' in rel) or ('magazine' in rel) or ('torpedo' in rel and rel.endswith('.unit')):
-            if rel in magazine_position_replacements:
+            if rel in action_level_replacements:
+                require(rel.endswith('.action_data_source'),'Invalid action-level exception '+rel)
+                require(before[rel]==action_level_replacements[rel],'Action-level predecessor drift '+rel)
+                a,b=read(base/rel),read(out/rel)
+                require(a.get('level_count',1)==1 and b.pop('level_count')==2,'Unexpected action-level repair '+rel)
+                a.pop('level_count',None)
+                require(a==b,'Action values changed under level declaration exception '+rel)
+            elif rel in magazine_position_replacements:
                 require(rel.endswith('.ability') and 'magazine' in rel,'Invalid geometry exception '+rel)
                 require(before[rel]==magazine_position_replacements[rel],'Magazine predecessor drift '+rel)
                 a,b=read(base/rel),read(out/rel)
@@ -105,6 +112,7 @@ def package(base,out,edits,origins,readme,audit,art=None,package_existing=False,
     require(after['PLAYTEST-README.md']==sha256(readme),'README drift')
     report={'status':'PASS OFFLINE ONLY','schemas':checks,'actions':actions,'all_changed_ability_graphs':equipment_actions,'audio_files_preserved':len(audio),'pins':pins,'baseline':baseline,
         'magazine_position_only_replacements':magazine_position_replacements,
+        'action_level_declaration_only_replacements':action_level_replacements,
         'changed_files':sorted(r for r,h in after.items() if h!=before.get(r)),
         'runtime':{k:'NOT RUN' for k in ['load','opening_viability','menus','existing_and_new_research','colonization','bombardment','stacking','ownership','save_reload','multiplayer']}}
     write(audit/'validation.json',report)

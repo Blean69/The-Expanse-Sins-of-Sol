@@ -1,0 +1,55 @@
+{
+  "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/scenarios/front_end.scenario",
+  "source_sha256": "9ed194c9713f8676ad90a290b4269668aa52b3696fcb6f0260dc945230661c8e",
+  "scenario_sha256": "8289a28443d04f221fc71bc7b7c5cea52b438dc38fd563fc8a3a69db8843a57e",
+  "fleets": [
+    {
+      "anchor": "expanse_donnager_battleship",
+      "high": "expanse12_scirocco",
+      "lead": "expanse27_hephaestus",
+      "low": "expanse12_raptor",
+      "wing": "expanse_mcrn_corvette"
+    },
+    {
+      "anchor": "expanse15_truman",
+      "high": "expanse27_nathan_hale",
+      "lead": "expanse27_munroe",
+      "low": "expanse23_murphy",
+      "wing": "expanse23_murphy"
+    }
+  ],
+  "private_units": {
+    "expanse_menu27_expanse12_raptor": "expanse12_raptor",
+    "expanse_menu27_expanse12_scirocco": "expanse12_scirocco",
+    "expanse_menu27_expanse15_truman": "expanse15_truman",
+    "expanse_menu27_expanse23_murphy": "expanse23_murphy",
+    "expanse_menu27_expanse27_hephaestus": "expanse27_hephaestus",
+    "expanse_menu27_expanse27_munroe": "expanse27_munroe",
+    "expanse_menu27_expanse27_nathan_hale": "expanse27_nathan_hale",
+    "expanse_menu27_donnager_battleship": "expanse_donnager_battleship",
+    "expanse_menu27_mcrn_corvette": "expanse_mcrn_corvette"
+  },
+  "private_skins": {
+    "expanse_menu27_expanse12_raptor_skin": "expanse12_raptor",
+    "expanse_menu27_expanse12_scirocco_skin": "expanse12_scirocco",
+    "expanse_menu27_expanse15_truman_skin": "expanse15_truman",
+    "expanse_menu27_expanse23_murphy_skin": "expanse23_murphy",
+    "expanse_menu27_expanse27_hephaestus_skin": "expanse27_hephaestus",
+    "expanse_menu27_expanse27_munroe_skin": "expanse27_munroe",
+    "expanse_menu27_expanse27_nathan_hale_skin": "expanse27_nathan_hale",
+    "expanse_menu27_donnager_battleship_skin": "expanse_donnager_battleship",
+    "expanse_menu27_mcrn_corvette_skin": "expanse_mcrn_corvette"
+  },
+  "lua_lifecycle": {
+    "status": "PASS Lua 5.4 / mocked engine API",
+    "initial_ships": 12,
+    "same_player_race_still_distinct_fleets": true,
+    "foreground_patrol": "PASS",
+    "wiped_side_only_respawn_after_15s": "PASS",
+    "native_item_injection_absent": true,
+    "engine_rendering": "NOT RUN"
+  },
+  "camera": "Native scene camera, positions, directions and waypoint routes byte-preserved; all menu skins render meshes to 60000 units. Scene staging is within 12000 units of camera.",
+  "abilities": "Only existing torpedo magazines and shieldless helper. No boarding/capture, free ship launch or equipment.",
+  "visuals": "NOT RUN"
+}

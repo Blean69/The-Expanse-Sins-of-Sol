@@ -1,0 +1,298 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "schemas": [
+    {
+      "file": "expanse03_hero_torpedo_salvo.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse03_torpedo_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse06_amun_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_heavy_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse11_morrigan_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_heavy_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse19_europa_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse22_repair_anchorage.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse23_murphy_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_medium_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_laconia_frigate_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse24_behemoth.unit",
+          "source_sha256": "0798bda6e1c082ca5a6e00f388360c74b4392062c17a7334be25c77e462e0ca8"
+        }
+      ]
+    },
+    {
+      "file": "expanse26_tycho_recovery_component.unit_item",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse22_foehammer_battery.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse22_foehammer_battery.unit",
+          "source_sha256": "976cfd5a8f5e85a083373a99bdd897c89615be98d74613bc1c256f577ea3a54c"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "unit": "expanse24_behemoth",
+      "actions": {
+        "abilities": 3,
+        "buffs": 4,
+        "torpedoes": 2
+      },
+      "values": [
+        {
+          "ability": "expanse27_behemoth_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse27_behemoth_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse27_behemoth_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse24_behemoth_hospital",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse24_behemoth_hospital.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.buff",
+            "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_retrofit_bay_repair.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse15_scirocco_engineering_teams.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse22_repair_anchorage_reservation.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse24_behemoth_hospital_grid_load.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse22_foehammer_battery",
+      "actions": {
+        "abilities": 1,
+        "buffs": 1,
+        "torpedoes": 0
+      },
+      "values": [
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    }
+  ],
+  "all_changed_ability_graphs": [],
+  "audio_files_preserved": 160,
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "baseline": {
+    "zip_sha256": "ed2fed9cb5ea68a6853f06fe024fd194053720e8760bfd6eb633368d4c9eca58",
+    "tree_sha256": "97a5d9bce2eeba19bcabd1ca77a5fd6626df6dccbd1089769acd995646c0780e"
+  },
+  "magazine_position_only_replacements": {},
+  "action_level_declaration_only_replacements": {
+    "entities/expanse03_torpedo_magazine.action_data_source": "79716cfaceaa7c66ef09fa59659e0473a842cde28b401db76515df661b99c416",
+    "entities/expanse06_amun_magazine.action_data_source": "fa4c6cdb096d5153fd9c7bc548b6ff0d7877c4ddea0caa3e7b51eebf4968735e",
+    "entities/expanse10_donnager_heavy_magazine.action_data_source": "f16cad0a6f7b3266cdacc26e465fc593ce16bf007e61274aaffc091f75aa1996",
+    "entities/expanse10_donnager_light_magazine.action_data_source": "03b47392593f9b615abee6ec9126401de915ba92a63645ff344156dc79fc318e",
+    "entities/expanse11_morrigan_magazine.action_data_source": "64322684a279dd670a662e4f96a11534b2d0d02b81137ceb6b867c02ea85756e",
+    "entities/expanse12_pella_light_magazine.action_data_source": "b928c31454186dcfc56526c41dbb4e5f2b86a88c47369384340b7471abf31afb",
+    "entities/expanse12_raptor_light_magazine.action_data_source": "4a78a0c6ef541b1382c64139bdae19abfb8492a9197c3ce811e795a7d1d79974",
+    "entities/expanse12_scirocco_heavy_magazine.action_data_source": "68f6225cf861b780299311c308751165e8545a2d05909611ffa7a55f9976eeae",
+    "entities/expanse12_scirocco_light_magazine.action_data_source": "d47320b8f6087775ab69da50c358f7fa53b2ad2a42bff95e58485839a8ffad30",
+    "entities/expanse15_truman_light_magazine.action_data_source": "9631bd2963dcca9eba2720f821a64ab4b721e1da8b07935e4865611834b9714a",
+    "entities/expanse19_europa_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+    "entities/expanse23_murphy_light_magazine.action_data_source": "add50f1fde9a610e805252882144083ad3a66b6e8cccbc3b6ea7bef2e08b686d",
+    "entities/expanse24_behemoth_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+    "entities/expanse24_gathering_storm_light_magazine.action_data_source": "4a78a0c6ef541b1382c64139bdae19abfb8492a9197c3ce811e795a7d1d79974",
+    "entities/expanse26_opa_command_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+    "entities/expanse27_behemoth_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+    "entities/expanse27_dark_star_magazine.action_data_source": "fa4c6cdb096d5153fd9c7bc548b6ff0d7877c4ddea0caa3e7b51eebf4968735e",
+    "entities/expanse27_hephaestus_light_magazine.action_data_source": "d47320b8f6087775ab69da50c358f7fa53b2ad2a42bff95e58485839a8ffad30",
+    "entities/expanse27_hephaestus_medium_magazine.action_data_source": "7b957382fe29126c37f8e2d56f75f46da29f72b31046863f14af2e4b3184b42e",
+    "entities/expanse27_laconia_frigate_light_magazine.action_data_source": "a96a4b04479ef496a962760ebf08693411462f25f32596b8e2685112f3ab0b24",
+    "entities/expanse27_munroe_magazine.action_data_source": "dcbc18060a9d1a1119a997bb90691d827eab9190fc9fb013061425a991dc8924",
+    "entities/expanse27_nathan_hale_magazine.action_data_source": "a32495855029761171f9b3195bc7c154d26565ded006d7d85baf4b764f8d50e8"
+  },
+  "changed_files": [
+    ".mod_meta_data",
+    "PLAYTEST-README.md",
+    "entities/expanse03_hero_torpedo_salvo.action_data_source",
+    "entities/expanse03_torpedo_magazine.action_data_source",
+    "entities/expanse06_amun_magazine.action_data_source",
+    "entities/expanse10_donnager_heavy_magazine.action_data_source",
+    "entities/expanse10_donnager_light_magazine.action_data_source",
+    "entities/expanse11_morrigan_magazine.action_data_source",
+    "entities/expanse12_pella_light_magazine.action_data_source",
+    "entities/expanse12_raptor_light_magazine.action_data_source",
+    "entities/expanse12_scirocco_heavy_magazine.action_data_source",
+    "entities/expanse12_scirocco_light_magazine.action_data_source",
+    "entities/expanse15_truman_light_magazine.action_data_source",
+    "entities/expanse19_europa_magazine.action_data_source",
+    "entities/expanse22_foehammer_battery.unit",
+    "entities/expanse22_repair_anchorage.action_data_source",
+    "entities/expanse23_murphy_light_magazine.action_data_source",
+    "entities/expanse24_behemoth.unit",
+    "entities/expanse24_behemoth_magazine.action_data_source",
+    "entities/expanse24_gathering_storm_light_magazine.action_data_source",
+    "entities/expanse26_opa_command_magazine.action_data_source",
+    "entities/expanse26_tycho_recovery_component.unit_item",
+    "entities/expanse27_behemoth_magazine.action_data_source",
+    "entities/expanse27_dark_star_magazine.action_data_source",
+    "entities/expanse27_hephaestus_light_magazine.action_data_source",
+    "entities/expanse27_hephaestus_medium_magazine.action_data_source",
+    "entities/expanse27_laconia_frigate_light_magazine.action_data_source",
+    "entities/expanse27_munroe_magazine.action_data_source",
+    "entities/expanse27_nathan_hale_magazine.action_data_source",
+    "localized_text/en.localized_text",
+    "meshes/expanse11_donnager_rail_0.mesh",
+    "meshes/expanse11_donnager_rail_1.mesh",
+    "meshes/expanse12_scirocco_rail_0.mesh",
+    "meshes/expanse15_truman_rail_0.mesh",
+    "meshes/expanse15_truman_rail_1.mesh",
+    "meshes/expanse22_foehammer_rail.mesh",
+    "meshes/expanse27_hephaestus_rail_0.mesh",
+    "meshes/expanse27_nathan_hale_rail_mesh.mesh"
+  ],
+  "runtime": {
+    "load": "NOT RUN",
+    "opening_viability": "NOT RUN",
+    "menus": "NOT RUN",
+    "existing_and_new_research": "NOT RUN",
+    "colonization": "NOT RUN",
+    "bombardment": "NOT RUN",
+    "stacking": "NOT RUN",
+    "ownership": "NOT RUN",
+    "save_reload": "NOT RUN",
+    "multiplayer": "NOT RUN"
+  }
+}

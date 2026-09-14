@@ -1,0 +1,654 @@
+{
+  "runtime": "NOT RUN",
+  "action_level_repairs": [
+    {
+      "file": "entities/expanse03_hero_torpedo_salvo.action_data_source",
+      "consumers": [
+        "expanse03_hero_torpedo_salvo"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse03_torpedo_magazine.action_data_source",
+      "consumers": [
+        "expanse03_roci_torpedo_magazine",
+        "expanse03_torpedo_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse06_amun_magazine.action_data_source",
+      "consumers": [
+        "expanse06_amun_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "consumers": [
+        "expanse10_donnager_heavy_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse10_donnager_light_magazine.action_data_source",
+      "consumers": [
+        "expanse10_donnager_light_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse11_morrigan_magazine.action_data_source",
+      "consumers": [
+        "expanse11_morrigan_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse12_pella_light_magazine.action_data_source",
+      "consumers": [
+        "expanse12_pella_light_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse12_raptor_light_magazine.action_data_source",
+      "consumers": [
+        "expanse12_raptor_light_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse12_scirocco_heavy_magazine.action_data_source",
+      "consumers": [
+        "expanse12_scirocco_heavy_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse12_scirocco_light_magazine.action_data_source",
+      "consumers": [
+        "expanse12_scirocco_light_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse15_truman_light_magazine.action_data_source",
+      "consumers": [
+        "expanse15_truman_light_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse19_europa_magazine.action_data_source",
+      "consumers": [
+        "expanse19_europa_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse22_repair_anchorage.action_data_source",
+      "consumers": [
+        "expanse22_repair_anchorage"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [
+        "apply_buff_radius",
+        "repair_target_count",
+        "reservation_duration",
+        "minimum_missing_hull",
+        "target_missing_hull"
+      ],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse23_murphy_light_magazine.action_data_source",
+      "consumers": [
+        "expanse23_murphy_light_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse24_behemoth_magazine.action_data_source",
+      "consumers": [
+        "expanse24_behemoth_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse24_gathering_storm_light_magazine.action_data_source",
+      "consumers": [
+        "expanse24_gathering_storm_light_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse26_opa_command_magazine.action_data_source",
+      "consumers": [
+        "expanse26_opa_command_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse27_behemoth_magazine.action_data_source",
+      "consumers": [
+        "expanse27_behemoth_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse27_dark_star_magazine.action_data_source",
+      "consumers": [
+        "expanse27_dark_star_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse27_hephaestus_light_magazine.action_data_source",
+      "consumers": [
+        "expanse27_hephaestus_light_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse27_hephaestus_medium_magazine.action_data_source",
+      "consumers": [
+        "expanse27_hephaestus_medium_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse27_laconia_frigate_light_magazine.action_data_source",
+      "consumers": [
+        "expanse27_laconia_frigate_light_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse27_munroe_magazine.action_data_source",
+      "consumers": [
+        "expanse27_munroe_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_magazine.action_data_source",
+      "consumers": [
+        "expanse27_nathan_hale_magazine"
+      ],
+      "level_count": 2,
+      "constant_arrays_expanded": [],
+      "existing_research_values_preserved": true
+    }
+  ],
+  "gimbal_repairs": [
+    {
+      "file": "meshes/expanse15_truman_rail_0.mesh",
+      "muzzle_positions": [
+        [
+          11,
+          9,
+          105.4
+        ],
+        [
+          -11,
+          9,
+          105.4
+        ]
+      ],
+      "consumers": [
+        "expanse15_truman"
+      ],
+      "new_points": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            11.0,
+            9.0,
+            105.4000015258789
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "turret_muzzle.1",
+          "position": [
+            -11.0,
+            9.0,
+            105.4000015258789
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_acceleration_unchanged": true
+    },
+    {
+      "file": "meshes/expanse15_truman_rail_1.mesh",
+      "muzzle_positions": [
+        [
+          11,
+          9,
+          105.4
+        ],
+        [
+          -11,
+          9,
+          105.4
+        ]
+      ],
+      "consumers": [
+        "expanse15_truman"
+      ],
+      "new_points": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            11.0,
+            9.0,
+            105.4000015258789
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "turret_muzzle.1",
+          "position": [
+            -11.0,
+            9.0,
+            105.4000015258789
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_acceleration_unchanged": true
+    },
+    {
+      "file": "meshes/expanse22_foehammer_rail.mesh",
+      "muzzle_positions": [
+        [
+          -0.5371823312843844,
+          -1.4835910375669655e-05,
+          148.10427678298808
+        ]
+      ],
+      "consumers": [
+        "expanse22_foehammer_battery"
+      ],
+      "new_points": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -0.5371823310852051,
+            -1.483591040596366e-05,
+            148.10427856445312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_acceleration_unchanged": true
+    },
+    {
+      "file": "meshes/expanse27_hephaestus_rail_0.mesh",
+      "muzzle_positions": [
+        [
+          0.0005970001220703125,
+          4.9481007921844125,
+          32.28572506302809
+        ]
+      ],
+      "consumers": [
+        "expanse27_hephaestus"
+      ],
+      "new_points": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            0.0005970001220703125,
+            4.948100566864014,
+            32.28572463989258
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_acceleration_unchanged": true
+    },
+    {
+      "file": "meshes/expanse12_scirocco_rail_0.mesh",
+      "muzzle_positions": [
+        [
+          0.03434863035456472,
+          5.747544682701876,
+          49.70413542599683
+        ]
+      ],
+      "consumers": [
+        "expanse12_scirocco"
+      ],
+      "new_points": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            0.03434862941503525,
+            5.747544765472412,
+            49.70413589477539
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_acceleration_unchanged": true
+    },
+    {
+      "file": "meshes/expanse11_donnager_rail_0.mesh",
+      "muzzle_positions": [
+        [
+          -0.5371823312843844,
+          -1.4835910375669655e-05,
+          148.10427678298808
+        ]
+      ],
+      "consumers": [
+        "expanse_donnager_battleship"
+      ],
+      "new_points": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -0.5371823310852051,
+            -1.483591040596366e-05,
+            148.10427856445312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_acceleration_unchanged": true
+    },
+    {
+      "file": "meshes/expanse11_donnager_rail_1.mesh",
+      "muzzle_positions": [
+        [
+          0.5372033615330878,
+          -6.843885662404196e-06,
+          148.10427678298808
+        ]
+      ],
+      "consumers": [
+        "expanse_donnager_battleship"
+      ],
+      "new_points": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            0.5372033715248108,
+            -6.8438857852015644e-06,
+            148.10427856445312
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_acceleration_unchanged": true
+    },
+    {
+      "file": "meshes/expanse27_nathan_hale_rail_mesh.mesh",
+      "muzzle_positions": [
+        [
+          8.25,
+          6.75,
+          79.05000000000001
+        ],
+        [
+          -8.25,
+          6.75,
+          79.05000000000001
+        ]
+      ],
+      "consumers": [
+        "expanse27_nathan_hale"
+      ],
+      "new_points": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            8.25,
+            6.75,
+            79.05000305175781
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        },
+        {
+          "name": "turret_muzzle.1",
+          "position": [
+            -8.25,
+            6.75,
+            79.05000305175781
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_acceleration_unchanged": true
+    }
+  ],
+  "placement_repairs": [
+    {
+      "unit": "expanse22_foehammer_battery",
+      "before": 119.93179211460206,
+      "after": 134.55,
+      "required_xz_radius": 134.54909624785307
+    }
+  ],
+  "socket_serializer_proof": {
+    "status": "PASS",
+    "compiler_ab_only_socket_block_changed": true,
+    "official_point_serialization_matches": true,
+    "without_sha256": "49bc8162d8c48efa5c00eaf6121e86121cac2a5ec6ad6b80de12bc875b96100f",
+    "with_sha256": "f47743c8681321ead32b81175c59882b474dd85e7f34b199fdc54569f96821b3",
+    "points": [
+      {
+        "name": "child.socket_proof",
+        "position": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "bone_index": 0
+      },
+      {
+        "name": "turret_muzzle.0",
+        "position": [
+          0.0,
+          0.4000000059604645,
+          3.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "bone_index": 0
+      }
+    ]
+  },
+  "references": {
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_robotics_cruiser_repair_droids.action_data_source": "0cb69767353b289311b4d5b89d248f3492627e6a25394f4663faa7a8ec134776",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/viturak_phase_shifter.unit_item": "29787a7af0618abb68df7cd21f57e4f9f0c9ec0e471963611411fcba90c4dca1"
+  }
+}

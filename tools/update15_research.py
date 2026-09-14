@@ -146,6 +146,7 @@ def build_overlay(base,out,game=GAME,audit=None):
   stage(p.name,a)
   programs.setdefault(sid,{'abilities':[],'torpedo_entities':torpedo_units,'resolved_buff_graph':sorted(seen),'damage_before':avs['heavy_torpedo_damage_value']['values'][0]})['abilities'].append(p.stem)
   if (out/'entities'/sp.name).exists():continue
+  s['level_count']=2
   for v in s.get('action_values',[]):
    av=v['action_value']
    if 'values'in av:

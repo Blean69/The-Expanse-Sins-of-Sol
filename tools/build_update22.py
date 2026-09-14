@@ -29,8 +29,10 @@ def definitions(base,sandbox=False):
     a=edits['entities/expanse22_repair_anchorage.ability']
     a.update(level_source='research_prerequisites_per_level',level_prerequisites=[[],[[nodes['mcrn']],[nodes['opa']]]])
     ads=edits['entities/expanse22_repair_anchorage.action_data_source']
+    ads['level_count']=2
     for v in ads['action_values']:
         if v['action_value_id']=='repair_per_tick':v['action_value']['values']=[20.,22.]
+        elif 'values' in v['action_value']:v['action_value']['values']*=2
     loc['expanse22_repair_anchorage.description']+=' Naval Readiness or Dockworker Damage Control raises20 to22, capped at66 total per second; researching both grants one upgrade.'
     edits['entities/'+RESEARCH+'.research_subject']['field_coord']=[4,29]
     tags=read(base/'uniforms/unit_tag.uniforms');have={x['name'] for x in tags['unit_tags']}

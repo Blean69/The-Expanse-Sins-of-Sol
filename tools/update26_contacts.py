@@ -19,7 +19,7 @@ def changes(base):
  # Influence purchase supplies the component. Fitting requires no unrelated
  # civilian research, and no research tree is modified to deliver this service.
  item.pop('build_prerequisites',None)
- item.pop('price',None);item['is_finite']=True;item['always_show_in_shop']=True
+ item.pop('price',None);item.pop('build_time',None);item['is_finite']=True;item['always_show_in_shop']=True
  item['hud_icon']='expanse19_artemis_hud_icon'
  item['other_item_requirements']={'mutually_exclusive_items':['trader_derelict_specialist']}
  edits['entities/'+ITEM+'.unit_item']=item
@@ -29,7 +29,7 @@ def changes(base):
  native_item.setdefault('other_item_requirements',{}).setdefault('mutually_exclusive_items',[]).append(ITEM)
  edits['entities/trader_derelict_specialist.unit_item']=native_item
  origins['entities/trader_derelict_specialist.unit_item']=str(GAME/'entities/trader_derelict_specialist.unit_item')
- edits['entities/'+ITEM+'.npc_reward']={'version':0,'gui':{'hud_icon':item['hud_icon'],**labels(ITEM,'Tycho Recovery Equipment','Receive one equippable recovery component. +15% native capture points, one slot; no change to boarding probability. Fitting takes the normal component build time.')},'type':'ship_component','item':ITEM}
+ edits['entities/'+ITEM+'.npc_reward']={'version':0,'gui':{'hud_icon':item['hud_icon'],**labels(ITEM,'Tycho Recovery Equipment','Receive one equippable recovery component. +15% native capture points, one slot; no change to boarding probability. Fitted from the purchased finite inventory.')},'type':'ship_component','item':ITEM}
  edits['entities/'+METAL+'.npc_reward']={'version':0,'gui':{'hud_icon':'expanse19_artemis_hud_icon',**labels(METAL,'Bonded Metal Shipment','Receive 300 metal once per paid purchase. Two Influence; four-minute service cooldown. No passive income.')},'type':'assets','assets':{'metal':300.0}}
  vision=read(GAME/'entities/jiskun_share_vision.npc_reward');vision['gui']={'hud_icon':'expanse12_sunflare_hud_icon',**labels(VISION,'Shipping Registry Access','Native scout intelligence for 360 seconds. Coverage follows Ceres contact scouts and the engine detection rules. Four Influence; ten-minute service cooldown.')};edits['entities/'+VISION+'.npc_reward']=vision
  specs=[('pranast_united_npc','Tycho Engineering Bureau','Paid engineering and recovery services at Tycho Roadstead.',[
