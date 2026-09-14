@@ -1,0 +1,545 @@
+{
+  "status": "offline authored; runtime NOT RUN",
+  "boarding": {
+    "expanse06_amun_boarding": {
+      "chance_before_after": 0.1,
+      "cooldown_before_after": 180.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship",
+        "super_capital_ship",
+        "titan"
+      ]
+    },
+    "expanse10_donnager_marines": {
+      "chance_before_after": 0.4,
+      "cooldown_before_after": 600.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship"
+      ]
+    },
+    "expanse12_raptor_marines": {
+      "chance_before_after": 0.2,
+      "cooldown_before_after": 600.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship"
+      ]
+    },
+    "expanse12_pella_marines": {
+      "chance_before_after": 0.25,
+      "cooldown_before_after": 600.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship"
+      ]
+    },
+    "expanse12_scirocco_marines": {
+      "chance_before_after": 0.25,
+      "cooldown_before_after": 600.0,
+      "range_before_after": 6000.0,
+      "delay_before_after": 3.0,
+      "target_types": [
+        "capital_ship"
+      ]
+    }
+  },
+  "repair": {
+    "owned_only": true,
+    "default_autocast": true,
+    "autocast_remaining_hull_maximum": 0.8,
+    "repair_per_second": 20,
+    "seconds": 20,
+    "maximum": 400,
+    "antimatter": 50,
+    "cooldown": 60,
+    "manual_threshold_unchanged": true,
+    "buff_stacking_unchanged": true,
+    "range": 3500,
+    "no_move_orders_authored": true
+  },
+  "rocinante_repair": {
+    "default_autocast": true,
+    "remaining_hull_maximum": 0.8,
+    "numbers_unchanged": true
+  },
+  "new_buffs": [
+    "expanse20_boarding_target_lock"
+  ],
+  "cancellation": {
+    "target_ownership_changed": "Permanent cancellation flag; lock remains through original 33-second expiry.",
+    "caster_dead_or_currently_captured": "Resolution fails live-caster/owner check; lock still expires at 33 seconds.",
+    "target_dead": "No target remains to capture; normal target-owned buff cleanup.",
+    "target_healed_out_of_threshold_or_left_range_or_not_hostile": "Resolution fails; cooldown is consumed, no refund.",
+    "player_defeat": "No explicit defeated-player constraint exists in pinned action schema. Caster existence/health/ownership guards apply; defeat that leaves a living owned caster is NOT independently rejected.",
+    "caster_captured_then_recaptured_within_delay": "Current owner checked at resolution; transient caster ownership loss is not remembered. NOT claimed covered.",
+    "simultaneous_attempts": "Shared preserve-existing target buff and pending-buff exclusion authored; engine ordering still requires multiplayer runtime test.",
+    "save_reload": "Uses native buff lifetime/memory and synchronized random_chance, no external timer; runtime NOT RUN."
+  },
+  "schema_checks": [
+    {
+      "file": "entities/expanse15_scirocco_engineering_teams.ability",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse15_scirocco_engineering_teams.action_data_source",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse06_amun_boarding.ability",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse06_amun_boarding.action_data_source",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse10_donnager_marines.ability",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse10_donnager_marines.action_data_source",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse12_raptor_marines.ability",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse12_raptor_marines.action_data_source",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse12_pella_marines.ability",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse12_pella_marines.action_data_source",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse12_scirocco_marines.ability",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse12_scirocco_marines.action_data_source",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse_roci_belter_ingenuity.ability",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    },
+    {
+      "file": "entities/expanse20_boarding_target_lock.buff",
+      "status": "PASS Draft7 + closed-key Draft202012; no exemptions"
+    }
+  ],
+  "existing_action_reference_checks": [
+    {
+      "unit": "expanse_amun_ra",
+      "actions": {
+        "abilities": 5,
+        "buffs": 6,
+        "torpedoes": 2
+      },
+      "typed": [
+        {
+          "ability": "expanse06_amun_magazine",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse06_amun_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse06_amun_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_boarding",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse06_amun_boarding.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_cloak_controller",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse06_amun_cloak.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse06_amun_cloak.buff",
+            "build/update20-abilities-validation-view/entities/expanse06_amun_cloak_controller.buff",
+            "build/update20-abilities-validation-view/entities/expanse06_amun_revealed.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_cloak",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse06_amun_cloak.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse06_amun_cloak.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse19_europa_bane",
+      "actions": {
+        "abilities": 3,
+        "buffs": 3,
+        "torpedoes": 2
+      },
+      "typed": [
+        {
+          "ability": "expanse19_europa_magazine",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse19_europa_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse19_europa_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_boarding",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse06_amun_boarding.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse12_pella",
+      "actions": {
+        "abilities": 6,
+        "buffs": 5,
+        "torpedoes": 3
+      },
+      "typed": [
+        {
+          "ability": "expanse12_pella_light_magazine",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_pella_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_pella_light_magazine.buff",
+            "build/update20-abilities-validation-view/entities/expanse12_pella_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_pella_reactor",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_pella_reactor.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_pella_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_pella_launch_corvette",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_pella_launch_corvette.action_data_source",
+          "reachable_buffs": [],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_pella_marines",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_pella_marines.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_pella_reactor_breach",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_pella_reactor_breach.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_pella_reactor_breach.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse12_raptor",
+      "actions": {
+        "abilities": 6,
+        "buffs": 5,
+        "torpedoes": 3
+      },
+      "typed": [
+        {
+          "ability": "expanse12_raptor_light_magazine",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_raptor_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_raptor_light_magazine.buff",
+            "build/update20-abilities-validation-view/entities/expanse12_raptor_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_raptor_reactor",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_raptor_reactor.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_raptor_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_raptor_launch_corvette",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_raptor_launch_corvette.action_data_source",
+          "reachable_buffs": [],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_raptor_marines",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_raptor_marines.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_raptor_reactor_breach",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_raptor_reactor_breach.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_raptor_reactor_breach.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse12_scirocco",
+      "actions": {
+        "abilities": 8,
+        "buffs": 8,
+        "torpedoes": 6
+      },
+      "typed": [
+        {
+          "ability": "expanse12_scirocco_reactor",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_scirocco_reactor.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_scirocco_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_launch_corvette",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_scirocco_launch_corvette.action_data_source",
+          "reachable_buffs": [],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse15_scirocco_breaching_teams",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse15_scirocco_breaching_teams.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse15_scirocco_breaching_teams_disruption.buff",
+            "build/update20-abilities-validation-view/entities/expanse15_scirocco_breaching_teams_guard.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse15_scirocco_engineering_teams",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse15_scirocco_engineering_teams.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse15_scirocco_engineering_teams.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_light_magazine",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_scirocco_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_scirocco_light_magazine.buff",
+            "build/update20-abilities-validation-view/entities/expanse12_scirocco_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_heavy_magazine",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_scirocco_heavy_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_scirocco_heavy_magazine.buff",
+            "build/update20-abilities-validation-view/entities/expanse12_scirocco_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_reactor_breach",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse12_scirocco_reactor_breach.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse12_scirocco_reactor_breach.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_rocinante_hero",
+      "actions": {
+        "abilities": 6,
+        "buffs": 7,
+        "torpedoes": 3
+      },
+      "typed": [
+        {
+          "ability": "expanse03_roci_torpedo_magazine",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse03_torpedo_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse03_torpedo_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse_roci_belter_ingenuity",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse_roci_belter_ingenuity.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse_roci_belter_ingenuity.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse03_hero_torpedo_salvo",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse03_hero_torpedo_salvo.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse03_hero_torpedo_salvo_on_self.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse_roci_overcharged_reactor",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse_roci_overcharged_reactor.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse_roci_overcharged_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse_roci_morale",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse_roci_morale.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse_roci_morale.buff",
+            "build/update20-abilities-validation-view/entities/expanse_roci_morale_recipient.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_donnager_battleship",
+      "actions": {
+        "abilities": 7,
+        "buffs": 6,
+        "torpedoes": 13
+      },
+      "typed": [
+        {
+          "ability": "expanse10_donnager_light_magazine",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse10_donnager_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse10_donnager_light_magazine.buff",
+            "build/update20-abilities-validation-view/entities/expanse10_donnager_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse10_donnager_heavy_magazine",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse10_donnager_heavy_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse10_donnager_heavy_magazine.buff",
+            "build/update20-abilities-validation-view/entities/expanse10_donnager_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse10_donnager_launch_corvette",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse10_donnager_launch_corvette.action_data_source",
+          "reachable_buffs": [],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse10_donnager_reactor",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse10_donnager_reactor.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse10_donnager_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse10_donnager_marines",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse10_donnager_marines.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse10_donnager_reactor_breach",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse10_donnager_reactor_breach.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse10_donnager_reactor_breach.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update20-abilities-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update20-abilities-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    }
+  ],
+  "preservation": "PASS all previous boarding ADS numeric values unchanged; repair buffs/numbers unchanged; no unit/weapon edits"
+}
