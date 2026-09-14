@@ -1,0 +1,1951 @@
+{
+  "access": {
+    "expanse18_mcrn": {
+      "faction": "mcrn",
+      "roster": [
+        "trader_scout_corvette",
+        "trader_skirmisher_corvette_frigate",
+        "trader_missile_corvette",
+        "trader_colony_frigate",
+        "trader_siege_frigate",
+        "trader_carrier_cruiser",
+        "trader_antifighter_frigate",
+        "trader_antiarmor_frigate",
+        "trader_robotics_cruiser",
+        "trader_long_range_cruiser",
+        "trader_heavy_cruiser",
+        "trader_torpedo_cruiser",
+        "trader_light_frigate",
+        "expanse_mcrn_corvette",
+        "expanse12_raptor",
+        "expanse12_scirocco",
+        "expanse_donnager_battleship",
+        "expanse19_artemis"
+      ],
+      "research": [
+        "expanse21_mcrn_terraforming_bonds",
+        "expanse21_mcrn_closed_loop",
+        "expanse21_mcrn_precision_manufacturing",
+        "expanse21_mcrn_mmc_certification",
+        "expanse21_mcrn_redundant_command"
+      ],
+      "items": [
+        "expanse21_mcrn_precision_combat_repair_system",
+        "expanse21_mcrn_precision_antimatter_engine",
+        "expanse21_mcrn_redundant_command_module",
+        "expanse21_scirocco_colony_module"
+      ],
+      "planet_items": [
+        "expanse21_mcrn_terraforming_bonds_module"
+      ],
+      "trade_escorts": [
+        {
+          "unit": "trader_light_frigate",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_0"
+            ]
+          ],
+          "construction_time": 60
+        },
+        {
+          "unit": "expanse_mcrn_corvette",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_1"
+            ]
+          ],
+          "construction_time": 60
+        }
+      ],
+      "garrison": {
+        "random_units": [
+          {
+            "unit": "trader_light_frigate",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_heavy_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_long_range_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_skirmisher_corvette_frigate",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_missile_corvette",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_antifighter_frigate",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_antiarmor_frigate",
+            "weight": 20.0
+          }
+        ]
+      }
+    },
+    "expanse18_unn": {
+      "faction": "unn",
+      "roster": [
+        "trader_scout_corvette",
+        "trader_skirmisher_corvette_frigate",
+        "trader_missile_corvette",
+        "trader_colony_frigate",
+        "trader_siege_frigate",
+        "trader_carrier_cruiser",
+        "trader_antifighter_frigate",
+        "trader_antiarmor_frigate",
+        "trader_robotics_cruiser",
+        "trader_long_range_cruiser",
+        "trader_heavy_cruiser",
+        "trader_torpedo_cruiser",
+        "expanse21_contract_patrol",
+        "expanse15_truman",
+        "expanse_amun_ra",
+        "expanse19_artemis"
+      ],
+      "research": [
+        "expanse21_unn_lunar_procurement",
+        "expanse21_unn_emergency_appropriations",
+        "expanse21_unn_shipping_requisition",
+        "expanse21_unn_black_budget",
+        "expanse21_unn_fleet_train"
+      ],
+      "items": [
+        "expanse21_unn_fleet_train_module",
+        "expanse21_truman_colony_module"
+      ],
+      "planet_items": [
+        "expanse21_unn_lunar_procurement_module",
+        "expanse21_unn_emergency_appropriations_module"
+      ],
+      "trade_escorts": [
+        {
+          "unit": "expanse21_contract_patrol",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_0"
+            ]
+          ],
+          "construction_time": 60
+        },
+        {
+          "unit": "trader_antiarmor_frigate",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_1"
+            ]
+          ],
+          "construction_time": 60
+        }
+      ],
+      "garrison": {
+        "random_units": [
+          {
+            "unit": "expanse21_contract_patrol",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_heavy_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_long_range_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_skirmisher_corvette_frigate",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_missile_corvette",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_antifighter_frigate",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_antiarmor_frigate",
+            "weight": 20.0
+          }
+        ]
+      }
+    },
+    "expanse18_opa": {
+      "faction": "opa",
+      "roster": [
+        "trader_scout_corvette",
+        "trader_skirmisher_corvette_frigate",
+        "trader_missile_corvette",
+        "trader_colony_frigate",
+        "trader_siege_frigate",
+        "trader_carrier_cruiser",
+        "trader_antifighter_frigate",
+        "trader_antiarmor_frigate",
+        "trader_robotics_cruiser",
+        "trader_long_range_cruiser",
+        "trader_heavy_cruiser",
+        "trader_torpedo_cruiser",
+        "expanse21_contract_patrol",
+        "expanse19_europa_bane",
+        "expanse19_artemis",
+        "expanse_rocinante_hero",
+        "expanse12_pella",
+        "expanse21_opa_command"
+      ],
+      "research": [
+        "expanse21_opa_recovery_cooperatives",
+        "expanse21_opa_spin_habitat",
+        "expanse21_opa_override_codes",
+        "expanse21_opa_surplus"
+      ],
+      "items": [
+        "expanse21_opa_command_colony_module"
+      ],
+      "planet_items": [],
+      "trade_escorts": [
+        {
+          "unit": "expanse21_contract_patrol",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_0"
+            ]
+          ],
+          "construction_time": 60
+        },
+        {
+          "unit": "trader_antiarmor_frigate",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_1"
+            ]
+          ],
+          "construction_time": 60
+        }
+      ],
+      "garrison": {
+        "random_units": [
+          {
+            "unit": "expanse21_contract_patrol",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_heavy_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_long_range_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_skirmisher_corvette_frigate",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_missile_corvette",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_antifighter_frigate",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_antiarmor_frigate",
+            "weight": 20.0
+          }
+        ]
+      }
+    },
+    "trader_loyalist": {
+      "faction": "mcrn",
+      "roster": [
+        "trader_scout_corvette",
+        "trader_skirmisher_corvette_frigate",
+        "trader_missile_corvette",
+        "trader_colony_frigate",
+        "trader_siege_frigate",
+        "trader_carrier_cruiser",
+        "trader_antifighter_frigate",
+        "trader_antiarmor_frigate",
+        "trader_robotics_cruiser",
+        "trader_long_range_cruiser",
+        "trader_heavy_cruiser",
+        "trader_torpedo_cruiser",
+        "trader_light_frigate",
+        "expanse_mcrn_corvette",
+        "expanse12_raptor",
+        "expanse12_scirocco",
+        "expanse_donnager_battleship",
+        "expanse19_artemis"
+      ],
+      "research": [
+        "expanse21_mcrn_terraforming_bonds",
+        "expanse21_mcrn_closed_loop",
+        "expanse21_mcrn_precision_manufacturing",
+        "expanse21_mcrn_mmc_certification",
+        "expanse21_mcrn_redundant_command"
+      ],
+      "items": [
+        "expanse21_mcrn_precision_combat_repair_system",
+        "expanse21_mcrn_precision_antimatter_engine",
+        "expanse21_mcrn_redundant_command_module",
+        "expanse21_scirocco_colony_module"
+      ],
+      "planet_items": [
+        "expanse21_mcrn_terraforming_bonds_module"
+      ],
+      "trade_escorts": [
+        {
+          "unit": "trader_light_frigate",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_0"
+            ]
+          ],
+          "construction_time": 60
+        },
+        {
+          "unit": "expanse_mcrn_corvette",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_1"
+            ]
+          ],
+          "construction_time": 60
+        }
+      ],
+      "garrison": {
+        "random_units": [
+          {
+            "unit": "trader_light_frigate",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_heavy_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_long_range_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_skirmisher_corvette_frigate",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_missile_corvette",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_antifighter_frigate",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_antiarmor_frigate",
+            "weight": 20.0
+          }
+        ]
+      }
+    },
+    "trader_rebel": {
+      "faction": "opa",
+      "roster": [
+        "trader_scout_corvette",
+        "trader_skirmisher_corvette_frigate",
+        "trader_missile_corvette",
+        "trader_colony_frigate",
+        "trader_siege_frigate",
+        "trader_carrier_cruiser",
+        "trader_antifighter_frigate",
+        "trader_antiarmor_frigate",
+        "trader_robotics_cruiser",
+        "trader_long_range_cruiser",
+        "trader_heavy_cruiser",
+        "trader_torpedo_cruiser",
+        "expanse21_contract_patrol",
+        "expanse19_europa_bane",
+        "expanse19_artemis",
+        "expanse_rocinante_hero",
+        "expanse12_pella",
+        "expanse21_opa_command"
+      ],
+      "research": [
+        "expanse21_opa_recovery_cooperatives",
+        "expanse21_opa_spin_habitat",
+        "expanse21_opa_override_codes",
+        "expanse21_opa_surplus"
+      ],
+      "items": [
+        "expanse21_opa_command_colony_module"
+      ],
+      "planet_items": [],
+      "trade_escorts": [
+        {
+          "unit": "expanse21_contract_patrol",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_0"
+            ]
+          ],
+          "construction_time": 60
+        },
+        {
+          "unit": "trader_antiarmor_frigate",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_1"
+            ]
+          ],
+          "construction_time": 60
+        }
+      ],
+      "garrison": {
+        "random_units": [
+          {
+            "unit": "expanse21_contract_patrol",
+            "weight": 50.0
+          },
+          {
+            "unit": "trader_heavy_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_long_range_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_carrier_cruiser",
+            "weight": 10.0
+          },
+          {
+            "unit": "trader_skirmisher_corvette_frigate",
+            "weight": 50.0
+          },
+          {
+            "unit": "trader_antifighter_frigate",
+            "weight": 10.0
+          }
+        ]
+      }
+    },
+    "dlc_trader_loyalist": {
+      "faction": "unn",
+      "roster": [
+        "trader_scout_corvette",
+        "trader_skirmisher_corvette_frigate",
+        "trader_missile_corvette",
+        "trader_colony_frigate",
+        "trader_siege_frigate",
+        "trader_carrier_cruiser",
+        "trader_antifighter_frigate",
+        "trader_antiarmor_frigate",
+        "trader_robotics_cruiser",
+        "trader_long_range_cruiser",
+        "trader_heavy_cruiser",
+        "trader_torpedo_cruiser",
+        "expanse21_contract_patrol",
+        "expanse15_truman",
+        "expanse_amun_ra",
+        "expanse19_artemis"
+      ],
+      "research": [
+        "expanse21_unn_lunar_procurement",
+        "expanse21_unn_emergency_appropriations",
+        "expanse21_unn_shipping_requisition",
+        "expanse21_unn_black_budget",
+        "expanse21_unn_fleet_train"
+      ],
+      "items": [
+        "expanse21_unn_fleet_train_module",
+        "expanse21_truman_colony_module"
+      ],
+      "planet_items": [
+        "expanse21_unn_lunar_procurement_module",
+        "expanse21_unn_emergency_appropriations_module"
+      ],
+      "trade_escorts": [
+        {
+          "unit": "expanse21_contract_patrol",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_0"
+            ]
+          ],
+          "construction_time": 60
+        },
+        {
+          "unit": "trader_antiarmor_frigate",
+          "special_operation_unit_kind": "trade_escort",
+          "count_per_trade_ship": 1,
+          "research_prerequisites": [
+            [
+              "trader_unlock_trade_escorts_1"
+            ]
+          ],
+          "construction_time": 60
+        }
+      ],
+      "garrison": {
+        "random_units": [
+          {
+            "unit": "expanse21_contract_patrol",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_heavy_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_long_range_cruiser",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_carrier_cruiser",
+            "weight": 10.0
+          },
+          {
+            "unit": "trader_skirmisher_corvette_frigate",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_missile_corvette",
+            "weight": 20.0
+          },
+          {
+            "unit": "trader_antifighter_frigate",
+            "weight": 30.0
+          },
+          {
+            "unit": "trader_antiarmor_frigate",
+            "weight": 20.0
+          }
+        ]
+      }
+    }
+  },
+  "colony_bombardment": {
+    "status": "PROPOSED MERGE FRAGMENTS; runtime NOT RUN",
+    "unit_patches": {
+      "expanse_mcrn_corvette": {
+        "weapons_append": [
+          {
+            "weapon": "expanse21_local_bombardment",
+            "mesh_point": "center",
+            "weapon_position": [
+              3.857128172413127e-07,
+              -1.1384768011684947,
+              13.514855539497557
+            ],
+            "non_turret_muzzle_positions": [
+              [
+                3.857128172413127e-07,
+                -1.1384768011684947,
+                13.514855539497557
+              ]
+            ],
+            "forward": [
+              0.0,
+              0.6514067925868338,
+              0.758728667292685
+            ],
+            "up": [
+              0.0,
+              0.758728667292685,
+              -0.6514067925868338
+            ],
+            "yaw_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            },
+            "pitch_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            }
+          }
+        ]
+      },
+      "expanse_rocinante_hero": {
+        "weapons_append": [
+          {
+            "weapon": "expanse21_local_bombardment",
+            "mesh_point": "center",
+            "weapon_position": [
+              0.05913020035185099,
+              3.4224937843945042,
+              13.252888913066995
+            ],
+            "non_turret_muzzle_positions": [
+              [
+                0.05913020035185099,
+                3.4224937843945042,
+                13.252888913066995
+              ]
+            ],
+            "forward": [
+              0.005938029232905325,
+              -0.00979527921539185,
+              0.9999343940048876
+            ],
+            "up": [
+              0.0,
+              0.9999520234100465,
+              0.009795451911667693
+            ],
+            "yaw_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            },
+            "pitch_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            }
+          }
+        ]
+      },
+      "expanse_donnager_battleship": {
+        "weapons_append": [
+          {
+            "weapon": "expanse21_local_bombardment",
+            "mesh_point": "center",
+            "weapon_position": [
+              -66.12392841321115,
+              -10.020387178158451,
+              -442.44306932205166
+            ],
+            "non_turret_muzzle_positions": [
+              [
+                -66.12392841321115,
+                -10.020387178158451,
+                -442.44306932205166
+              ]
+            ],
+            "forward": [
+              0,
+              0,
+              -1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "yaw_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            },
+            "pitch_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            }
+          }
+        ]
+      },
+      "expanse12_scirocco": {
+        "weapons_append": [
+          {
+            "weapon": "expanse21_local_bombardment",
+            "mesh_point": "center",
+            "weapon_position": [
+              -30.03106704269377,
+              15.146892618830675,
+              203.91302837488516
+            ],
+            "non_turret_muzzle_positions": [
+              [
+                -30.03106704269377,
+                15.146892618830675,
+                203.91302837488516
+              ]
+            ],
+            "forward": [
+              0,
+              0,
+              1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "yaw_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            },
+            "pitch_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            }
+          }
+        ],
+        "tags_append": [
+          "expanse21_scirocco_colony_capital"
+        ],
+        "item_builds_append": [
+          {
+            "build_group": [
+              "expanse21_scirocco_colony_module"
+            ],
+            "weight": 5.0
+          }
+        ],
+        "colonize_ability": "expanse21_scirocco_colony_module"
+      },
+      "expanse15_truman": {
+        "weapons_append": [
+          {
+            "weapon": "expanse21_local_bombardment",
+            "mesh_point": "center",
+            "weapon_position": [
+              -35.0,
+              0.0,
+              419.0167731674959
+            ],
+            "non_turret_muzzle_positions": [
+              [
+                -35.0,
+                0.0,
+                419.0167731674959
+              ]
+            ],
+            "forward": [
+              0,
+              0,
+              1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "yaw_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            },
+            "pitch_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            }
+          }
+        ],
+        "tags_append": [
+          "expanse21_truman_colony_capital"
+        ],
+        "item_builds_append": [
+          {
+            "build_group": [
+              "expanse21_truman_colony_module"
+            ],
+            "weight": 5.0
+          }
+        ],
+        "colonize_ability": "expanse21_truman_colony_module"
+      },
+      "expanse21_opa_command": {
+        "weapons_append": [
+          {
+            "weapon": "expanse21_local_bombardment",
+            "mesh_point": "center",
+            "weapon_position": [
+              14.884006977081299,
+              -0.40423035621643066,
+              107.4084909668821
+            ],
+            "non_turret_muzzle_positions": [
+              [
+                14.884006977081299,
+                -0.40423035621643066,
+                107.4084909668821
+              ]
+            ],
+            "forward": [
+              0,
+              0,
+              1
+            ],
+            "up": [
+              0,
+              1,
+              0
+            ],
+            "yaw_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            },
+            "pitch_arc": {
+              "min_angle": -10.0,
+              "max_angle": 10.0
+            }
+          }
+        ],
+        "tags_append": [
+          "expanse21_opa_command"
+        ],
+        "item_builds_append": [
+          {
+            "build_group": [
+              "expanse21_opa_command_colony_module"
+            ],
+            "weight": 5.0
+          }
+        ],
+        "colonize_ability": "expanse21_opa_command_colony_module"
+      }
+    },
+    "skin_patches": {
+      "expanse_mcrn_corvette": {
+        "effect_alias_bindings_merge": [
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "weapon_techcapitalplanetbombing_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "weapon_techfrigateplanetbombing_travel"
+            }
+          },
+          {
+            "alias_name": "trader_colony_shuttle",
+            "alias_binding": {
+              "particle_effect": "trader_colony_shuttle",
+              "sounds": [
+                "ability_activate_tech_shuttlelaunch"
+              ]
+            }
+          }
+        ]
+      },
+      "expanse_rocinante_hero": {
+        "effect_alias_bindings_merge": [
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "weapon_techcapitalplanetbombing_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "weapon_techfrigateplanetbombing_travel"
+            }
+          },
+          {
+            "alias_name": "trader_colony_shuttle",
+            "alias_binding": {
+              "particle_effect": "trader_colony_shuttle",
+              "sounds": [
+                "ability_activate_tech_shuttlelaunch"
+              ]
+            }
+          }
+        ]
+      },
+      "expanse_donnager_battleship": {
+        "effect_alias_bindings_merge": [
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "weapon_techcapitalplanetbombing_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "weapon_techfrigateplanetbombing_travel"
+            }
+          },
+          {
+            "alias_name": "trader_colony_shuttle",
+            "alias_binding": {
+              "particle_effect": "trader_colony_shuttle",
+              "sounds": [
+                "ability_activate_tech_shuttlelaunch"
+              ]
+            }
+          }
+        ]
+      },
+      "expanse12_scirocco": {
+        "effect_alias_bindings_merge": [
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "weapon_techcapitalplanetbombing_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "weapon_techfrigateplanetbombing_travel"
+            }
+          },
+          {
+            "alias_name": "trader_colony_shuttle",
+            "alias_binding": {
+              "particle_effect": "trader_colony_shuttle",
+              "sounds": [
+                "ability_activate_tech_shuttlelaunch"
+              ]
+            }
+          }
+        ]
+      },
+      "expanse15_truman": {
+        "effect_alias_bindings_merge": [
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "weapon_techcapitalplanetbombing_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "weapon_techfrigateplanetbombing_travel"
+            }
+          },
+          {
+            "alias_name": "trader_colony_shuttle",
+            "alias_binding": {
+              "particle_effect": "trader_colony_shuttle",
+              "sounds": [
+                "ability_activate_tech_shuttlelaunch"
+              ]
+            }
+          }
+        ]
+      },
+      "expanse21_opa_command": {
+        "effect_alias_bindings_merge": [
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_hull",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_hit_shield",
+            "alias_binding": {
+              "particle_effect": "nuke",
+              "sounds": [
+                "weapon_impact_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_muzzle",
+            "alias_binding": {
+              "particle_effect": "weapon_techcapitalplanetbombing_muzzle",
+              "sounds": [
+                "weapon_muzzle_tech_planetbomb"
+              ]
+            }
+          },
+          {
+            "alias_name": "trader_colony_capital_ship_planet_bombing_weapon_projectile_travel",
+            "alias_binding": {
+              "particle_effect": "weapon_techfrigateplanetbombing_travel"
+            }
+          },
+          {
+            "alias_name": "trader_colony_shuttle",
+            "alias_binding": {
+              "particle_effect": "trader_colony_shuttle",
+              "sounds": [
+                "ability_activate_tech_shuttlelaunch"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    "player_ship_components_append": [
+      "expanse21_scirocco_colony_module",
+      "expanse21_truman_colony_module",
+      "expanse21_opa_command_colony_module"
+    ],
+    "unit_tag_entries_append": [
+      {
+        "name": "expanse21_scirocco_colony_capital",
+        "localized_name": "expanse21_scirocco_colony_module.name"
+      },
+      {
+        "name": "expanse21_truman_colony_capital",
+        "localized_name": "expanse21_truman_colony_module.name"
+      },
+      {
+        "name": "expanse21_opa_command",
+        "localized_name": "expanse21_opa_command_colony_module.name"
+      }
+    ],
+    "colony": [
+      {
+        "ship": "expanse12_scirocco",
+        "module": "expanse21_scirocco_colony_module",
+        "launch_point": "weapon.light_torpedo.0",
+        "base_build_seconds": 20,
+        "outside_shop_build_seconds_at_current_scalar": 200,
+        "component_slots": 1,
+        "research_or_xp_prerequisite": false,
+        "native_colony_buff": "trader_colony_capital_ship_colonize",
+        "first_level_bonus_tracks": {
+          "logistics": 1,
+          "commerce": 1
+        }
+      },
+      {
+        "ship": "expanse15_truman",
+        "module": "expanse21_truman_colony_module",
+        "launch_point": "weapon.torpedo.0",
+        "base_build_seconds": 20,
+        "outside_shop_build_seconds_at_current_scalar": 200,
+        "component_slots": 1,
+        "research_or_xp_prerequisite": false,
+        "native_colony_buff": "trader_colony_capital_ship_colonize",
+        "first_level_bonus_tracks": {
+          "logistics": 1,
+          "commerce": 1
+        }
+      },
+      {
+        "ship": "expanse21_opa_command",
+        "module": "expanse21_opa_command_colony_module",
+        "launch_point": "weapon.torpedo.0",
+        "base_build_seconds": 20,
+        "outside_shop_build_seconds_at_current_scalar": 200,
+        "component_slots": 1,
+        "research_or_xp_prerequisite": false,
+        "native_colony_buff": "trader_colony_capital_ship_colonize",
+        "first_level_bonus_tracks": {
+          "logistics": 1,
+          "commerce": 1
+        }
+      }
+    ],
+    "bombardment": [
+      {
+        "ship": "expanse_mcrn_corvette",
+        "source_ship": "expanse_mcrn_corvette",
+        "actual_anti_ship_magazine": "expanse03_torpedo_magazine",
+        "siege_eligibility_reason": "Explicit Tachi/Rocinante expeditionary requirement",
+        "mesh": "expanse03_hull",
+        "mesh_sha256": "9c6a2107e3b0b26b41cd6654418bdcab190a2c7ee4a91d265937d5e9103d008a",
+        "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/expanse03_torpedo_magazine.ability /ability_positions/0",
+        "mount": {
+          "weapon": "expanse21_local_bombardment",
+          "mesh_point": "center",
+          "weapon_position": [
+            3.857128172413127e-07,
+            -1.1384768011684947,
+            13.514855539497557
+          ],
+          "non_turret_muzzle_positions": [
+            [
+              3.857128172413127e-07,
+              -1.1384768011684947,
+              13.514855539497557
+            ]
+          ],
+          "forward": [
+            0.0,
+            0.6514067925868338,
+            0.758728667292685
+          ],
+          "up": [
+            0.0,
+            0.758728667292685,
+            -0.6514067925868338
+          ],
+          "yaw_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          },
+          "pitch_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          }
+        },
+        "planet_damage": 75,
+        "population_damage": 3,
+        "interval": 15,
+        "range": 4000,
+        "interceptable": false,
+        "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+      },
+      {
+        "ship": "expanse_rocinante_hero",
+        "source_ship": "expanse_rocinante_hero",
+        "actual_anti_ship_magazine": "expanse03_roci_torpedo_magazine",
+        "siege_eligibility_reason": "Explicit Tachi/Rocinante expeditionary requirement",
+        "mesh": "expanse04_hero_hull",
+        "mesh_sha256": "bab077014fd34375253cd01f43562b3520333daf03e05d915ed738ef5d8f8c04",
+        "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/expanse03_roci_torpedo_magazine.ability /ability_positions/0",
+        "mount": {
+          "weapon": "expanse21_local_bombardment",
+          "mesh_point": "center",
+          "weapon_position": [
+            0.05913020035185099,
+            3.4224937843945042,
+            13.252888913066995
+          ],
+          "non_turret_muzzle_positions": [
+            [
+              0.05913020035185099,
+              3.4224937843945042,
+              13.252888913066995
+            ]
+          ],
+          "forward": [
+            0.005938029232905325,
+            -0.00979527921539185,
+            0.9999343940048876
+          ],
+          "up": [
+            0.0,
+            0.9999520234100465,
+            0.009795451911667693
+          ],
+          "yaw_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          },
+          "pitch_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          }
+        },
+        "planet_damage": 75,
+        "population_damage": 3,
+        "interval": 15,
+        "range": 4000,
+        "interceptable": false,
+        "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+      },
+      {
+        "ship": "expanse_donnager_battleship",
+        "source_ship": "expanse_donnager_battleship",
+        "actual_anti_ship_magazine": "expanse10_donnager_heavy_magazine",
+        "siege_eligibility_reason": "Existing true heavy-torpedo carrier",
+        "mesh": "expanse11_donnager_hull",
+        "mesh_sha256": "090212896b36e566e924fa866e081516d1064d622cad2ac8fb2457eb3f8fcd27",
+        "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/expanse10_donnager_heavy_magazine.ability /ability_positions/0",
+        "mount": {
+          "weapon": "expanse21_local_bombardment",
+          "mesh_point": "center",
+          "weapon_position": [
+            -66.12392841321115,
+            -10.020387178158451,
+            -442.44306932205166
+          ],
+          "non_turret_muzzle_positions": [
+            [
+              -66.12392841321115,
+              -10.020387178158451,
+              -442.44306932205166
+            ]
+          ],
+          "forward": [
+            0,
+            0,
+            -1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "yaw_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          },
+          "pitch_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          }
+        },
+        "planet_damage": 75,
+        "population_damage": 3,
+        "interval": 15,
+        "range": 4000,
+        "interceptable": false,
+        "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+      },
+      {
+        "ship": "expanse12_scirocco",
+        "source_ship": "expanse12_scirocco",
+        "actual_anti_ship_magazine": "expanse12_scirocco_heavy_magazine",
+        "siege_eligibility_reason": "Existing true heavy-torpedo carrier",
+        "mesh": "expanse12_scirocco_hull",
+        "mesh_sha256": "457ea15a7f657c4628eab2257bda697d2120a333bf9320f489e5688168f2c37a",
+        "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/expanse12_scirocco_heavy_magazine.ability /ability_positions/0",
+        "mount": {
+          "weapon": "expanse21_local_bombardment",
+          "mesh_point": "center",
+          "weapon_position": [
+            -30.03106704269377,
+            15.146892618830675,
+            203.91302837488516
+          ],
+          "non_turret_muzzle_positions": [
+            [
+              -30.03106704269377,
+              15.146892618830675,
+              203.91302837488516
+            ]
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "yaw_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          },
+          "pitch_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          }
+        },
+        "planet_damage": 75,
+        "population_damage": 3,
+        "interval": 15,
+        "range": 4000,
+        "interceptable": false,
+        "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+      },
+      {
+        "ship": "expanse15_truman",
+        "source_ship": "expanse15_truman",
+        "actual_anti_ship_magazine": "expanse15_truman_light_magazine",
+        "siege_eligibility_reason": "Required designated colony capital with added siege-only stores",
+        "mesh": "expanse15_truman_hull",
+        "mesh_sha256": "b99b180104b80d55406afe1a4ae18239acfdd335f64f791eac6c0f32cf54b595",
+        "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/expanse15_truman_light_magazine.ability /ability_positions/0",
+        "mount": {
+          "weapon": "expanse21_local_bombardment",
+          "mesh_point": "center",
+          "weapon_position": [
+            -35.0,
+            0.0,
+            419.0167731674959
+          ],
+          "non_turret_muzzle_positions": [
+            [
+              -35.0,
+              0.0,
+              419.0167731674959
+            ]
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "yaw_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          },
+          "pitch_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          }
+        },
+        "planet_damage": 75,
+        "population_damage": 3,
+        "interval": 15,
+        "range": 4000,
+        "interceptable": false,
+        "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+      },
+      {
+        "ship": "expanse21_opa_command",
+        "source_ship": "expanse19_europa_bane",
+        "actual_anti_ship_magazine": "expanse19_europa_magazine",
+        "siege_eligibility_reason": "Required designated colony capital with added siege-only stores",
+        "mesh": "expanse19_europa_bane_hull",
+        "mesh_sha256": "a8f0f86db47acb7242e9fcdd33b7f1b4e9f579852fd394ababfe8302196b7e11",
+        "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/expanse19_europa_magazine.ability /ability_positions/0",
+        "mount": {
+          "weapon": "expanse21_local_bombardment",
+          "mesh_point": "center",
+          "weapon_position": [
+            14.884006977081299,
+            -0.40423035621643066,
+            107.4084909668821
+          ],
+          "non_turret_muzzle_positions": [
+            [
+              14.884006977081299,
+              -0.40423035621643066,
+              107.4084909668821
+            ]
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "yaw_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          },
+          "pitch_arc": {
+            "min_angle": -10.0,
+            "max_angle": 10.0
+          }
+        },
+        "planet_damage": 75,
+        "population_damage": 3,
+        "interval": 15,
+        "range": 4000,
+        "interceptable": false,
+        "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+      }
+    ],
+    "warnings": [
+      "Only generated entity definitions are emitted. Main merges unit, skin, player, tags and localization recipes.",
+      "OPA command skin recipe assumes main gives the NEW command unit a same-ID cloned Europa skin.",
+      "bombing_damage is an unchanged installed extension absent from the pinned weapon schema; preserve it.",
+      "No new weapon tags; physical is native. No anti-ship stats, magazines, supply or costs modified.",
+      "Tachi and Rocinante currently use light torpedo objects despite old heavy_torpedo action-value names; siege eligibility is explicit doctrine adaptation, not a false heavy-object inventory.",
+      "Donnager native siege mount uses its real aft heavy launcher frame. Verify ship facing and target acquisition in runtime.",
+      "Item granted colonize_ability command resolution, native level/research bombing modifiers and all ownership/diplomacy stop cases remain runtime NOT RUN."
+    ]
+  },
+  "research": {
+    "mapping": [
+      {
+        "id": "expanse21_mcrn_terraforming_bonds",
+        "faction": "expanse18_mcrn",
+        "name": "Terraforming Directorate Bonds",
+        "description": "Unlocks a paid Directorate Bonds planet component on developed colonies. While fitted: +10% local commerce income; one slot. No empire-wide income bonus.",
+        "template": "trader_unlock_commercial_district_unit_item",
+        "tier": 1,
+        "domain": "civilian",
+        "price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_time": 150.0,
+        "prerequisites": [
+          "trader_unlock_commercial_district_unit_item"
+        ]
+      },
+      {
+        "id": "expanse21_mcrn_closed_loop",
+        "faction": "expanse18_mcrn",
+        "name": "Closed-Loop Habitat Engineering",
+        "description": "Reduces civilian colony development-track build times by 10%. Does not alter ship production.",
+        "template": "trader_planet_track_upgrade_rate",
+        "tier": 0,
+        "domain": "civilian",
+        "price": {
+          "credits": 450.0,
+          "metal": 50.0,
+          "crystal": 75.0
+        },
+        "research_time": 75.0,
+        "prerequisites": []
+      },
+      {
+        "id": "expanse21_mcrn_precision_manufacturing",
+        "faction": "expanse18_mcrn",
+        "name": "Precision Manufacturing",
+        "description": "Unlocks two discounted equipment supply contracts: Combat Repair System and Antimatter Engine, each 10% cheaper in ordinary resources. Their native effects and exotic costs are unchanged.",
+        "template": "trader_trade_port_income_rate_0",
+        "tier": 2,
+        "domain": "civilian",
+        "price": {
+          "credits": 1200.0,
+          "metal": 200.0,
+          "crystal": 300.0
+        },
+        "research_time": 225.0,
+        "prerequisites": [
+          "trader_unlock_combat_repair_system_unit_item"
+        ]
+      },
+      {
+        "id": "expanse21_mcrn_mmc_certification",
+        "faction": "expanse18_mcrn",
+        "name": "MMC Assault Certification",
+        "description": "Adds one second to trained Scirocco Marine Breaching Teams disruption (13 to 14 seconds). Movement/firing penalties, protection and capture probabilities are unchanged.",
+        "template": "trader_upgrade_experience_gain_0",
+        "tier": 2,
+        "domain": "military",
+        "price": {
+          "credits": 1250.0,
+          "metal": 225.0,
+          "crystal": 350.0
+        },
+        "research_time": 270.0,
+        "prerequisites": [
+          "trader_upgrade_experience_gain_0"
+        ]
+      },
+      {
+        "id": "expanse21_mcrn_redundant_command",
+        "faction": "expanse18_mcrn",
+        "name": "Redundant Command Systems",
+        "description": "Unlocks a paid capital/command component providing +15% antimatter capacity. No damage, shield, reload or regeneration bonus.",
+        "template": "trader_unlock_antimatter_engine_unit_item",
+        "tier": 1,
+        "domain": "military",
+        "price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_time": 150.0,
+        "prerequisites": []
+      },
+      {
+        "id": "expanse21_unn_lunar_procurement",
+        "faction": "expanse18_unn",
+        "name": "Lunar Procurement Offices",
+        "description": "Unlocks a paid developed-colony procurement office. While fitted it increases local factory production rate by 10% (build time divided by 1.10).",
+        "template": "trader_unlock_industrial_complex_unit_item",
+        "tier": 3,
+        "domain": "civilian",
+        "price": {
+          "credits": 1750.0,
+          "metal": 325.0,
+          "crystal": 550.0
+        },
+        "research_time": 420.0,
+        "prerequisites": []
+      },
+      {
+        "id": "expanse21_unn_emergency_appropriations",
+        "faction": "expanse18_unn",
+        "name": "Emergency Appropriations",
+        "description": "Unlocks a paid local mobilization office. Manual activation costs 300 credits, 100 metal and 50 crystal for +20% local shipbuilding rate for 30 seconds; 180-second cooldown. Incompatible with passive Lunar Procurement on the same planet.",
+        "template": "trader_trade_port_income_rate_0",
+        "tier": 2,
+        "domain": "civilian",
+        "price": {
+          "credits": 1200.0,
+          "metal": 200.0,
+          "crystal": 300.0
+        },
+        "research_time": 225.0,
+        "prerequisites": [
+          "expanse21_unn_lunar_procurement"
+        ]
+      },
+      {
+        "id": "expanse21_unn_shipping_requisition",
+        "faction": "expanse18_unn",
+        "name": "Civilian Shipping Requisition",
+        "description": "Increases ordinary trade credit, metal and crystal income by 5%. Preserves existing trade shipping; grants no combat escorts or free ships.",
+        "template": "trader_trade_port_income_rate_0",
+        "tier": 2,
+        "domain": "civilian",
+        "price": {
+          "credits": 1200.0,
+          "metal": 200.0,
+          "crystal": 300.0
+        },
+        "research_time": 225.0,
+        "prerequisites": [
+          "trader_unlock_trade_port"
+        ]
+      },
+      {
+        "id": "expanse21_unn_black_budget",
+        "faction": "expanse18_unn",
+        "name": "Black-Budget Procurement",
+        "description": "Authorizes paid Amun-Ra construction. Normal 4,000 credits / 750 metal / 500 crystal, 90-second build time and 70 supply remain; maximum six owned hulls. Grants no free ship.",
+        "template": "trader_unlock_heavy_gauss_slugs_unit_item",
+        "tier": 3,
+        "domain": "military",
+        "price": {
+          "credits": 1750.0,
+          "metal": 325.0,
+          "crystal": 550.0
+        },
+        "research_time": 420.0,
+        "prerequisites": []
+      },
+      {
+        "id": "expanse21_unn_fleet_train",
+        "faction": "expanse18_unn",
+        "name": "Fleet Train Organization",
+        "description": "Unlocks a paid targeted repair component for capitals and command ships. 200 hull maximum over 20 seconds within 2,000 range; same-effect repair cannot stack with Scirocco teams. No reload reset.",
+        "template": "trader_unlock_robotics_cruiser",
+        "tier": 1,
+        "domain": "military",
+        "price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_time": 150.0,
+        "prerequisites": [
+          "trader_unlock_retrofit_bay_repair_ability"
+        ]
+      },
+      {
+        "id": "expanse21_opa_recovery_cooperatives",
+        "faction": "expanse18_opa",
+        "name": "Volatile Recovery Cooperatives",
+        "description": "Adds 15% metal and crystal income from orbital extractors. Does not multiply mining-track income, market transactions or salvage rewards.",
+        "template": "trader_orbital_extraction_crystal_rate_0",
+        "tier": 1,
+        "domain": "civilian",
+        "price": {
+          "credits": 700.0,
+          "metal": 100.0,
+          "crystal": 125.0
+        },
+        "research_time": 120.0,
+        "prerequisites": [
+          "trader_unlock_resource_extractor_structures"
+        ]
+      },
+      {
+        "id": "expanse21_opa_spin_habitat",
+        "faction": "expanse18_opa",
+        "name": "Spin-Habitat Construction",
+        "description": "Reduces logistics-track development time by 10% on asteroid and ice-asteroid colonies. Does not discount ships, rail batteries or other orbital structures.",
+        "template": "trader_planet_track_upgrade_rate",
+        "tier": 0,
+        "domain": "civilian",
+        "price": {
+          "credits": 450.0,
+          "metal": 50.0,
+          "crystal": 75.0
+        },
+        "research_time": 75.0,
+        "prerequisites": []
+      },
+      {
+        "id": "expanse21_opa_override_codes",
+        "faction": "expanse18_opa",
+        "name": "Override-Code Libraries",
+        "description": "Increases the existing Amun/Europa guarded boarding range by 5% (6,000 to 6,300). Requires ownership of a compatible hull; no capture-probability, health-threshold or protection change.",
+        "template": "trader_upgrade_experience_gain_0",
+        "tier": 2,
+        "domain": "military",
+        "price": {
+          "credits": 1250.0,
+          "metal": 225.0,
+          "crystal": 350.0
+        },
+        "research_time": 270.0,
+        "prerequisites": []
+      },
+      {
+        "id": "expanse21_opa_surplus",
+        "faction": "expanse18_opa",
+        "name": "Diverted Martian Surplus",
+        "description": "Authorizes one paid Pella command capital per player. Full ordinary/exotic prices, construction time and 200 supply remain. Does not unlock the MCRN production tree.",
+        "template": "trader_unlock_heavy_gauss_slugs_unit_item",
+        "tier": 3,
+        "domain": "military",
+        "price": {
+          "credits": 1750.0,
+          "metal": 325.0,
+          "crystal": 550.0
+        },
+        "research_time": 420.0,
+        "prerequisites": []
+      }
+    ],
+    "shared_definition_merges": [
+      {
+        "file": "entities/trader_commercial_district.unit_item",
+        "set_fields": {
+          "other_item_requirements": {
+            "mutually_exclusive_items": [
+              "trader_high_density_district",
+              "trader_industrial_complex",
+              "expanse21_mcrn_terraforming_bonds_module"
+            ]
+          }
+        }
+      },
+      {
+        "file": "entities/trader_combat_repair_system.unit_item",
+        "set_fields": {
+          "other_item_requirements": {
+            "mutually_exclusive_items": [
+              "expanse21_mcrn_precision_combat_repair_system"
+            ]
+          }
+        }
+      },
+      {
+        "file": "entities/trader_antimatter_engine.unit_item",
+        "set_fields": {
+          "other_item_requirements": {
+            "mutually_exclusive_items": [
+              "expanse21_mcrn_precision_antimatter_engine"
+            ]
+          }
+        }
+      },
+      {
+        "file": "entities/expanse15_scirocco_breaching_teams.ability",
+        "set_fields": {
+          "action_data_source": "expanse21_mcrn_mmc_certification_support",
+          "level_prerequisites": [
+            [],
+            [
+              [
+                "trader_upgrade_experience_gain_0"
+              ]
+            ],
+            [
+              [
+                "expanse21_mcrn_mmc_certification"
+              ]
+            ]
+          ]
+        }
+      },
+      {
+        "file": "entities/trader_industrial_complex.unit_item",
+        "set_fields": {
+          "other_item_requirements": {
+            "mutually_exclusive_items": [
+              "trader_commercial_district",
+              "trader_high_density_district",
+              "expanse21_unn_lunar_procurement_module",
+              "expanse21_unn_emergency_appropriations_module"
+            ]
+          }
+        }
+      },
+      {
+        "file": "entities/expanse06_amun_boarding.ability",
+        "set_fields": {
+          "action_data_source": "expanse21_opa_override_codes_boarding",
+          "level_source": "research_prerequisites_per_level",
+          "level_prerequisites": [
+            [],
+            [
+              [
+                "expanse21_opa_override_codes"
+              ]
+            ]
+          ]
+        }
+      }
+    ],
+    "deferred": [
+      {
+        "faction": "mcrn",
+        "name": "Naval Readiness Program",
+        "stage": 3,
+        "reason": "Requires an operational local naval anchorage."
+      },
+      {
+        "faction": "unn",
+        "name": "Orbital Defense Command",
+        "stage": 3,
+        "reason": "Requires the actual heavy orbital battery."
+      },
+      {
+        "faction": "opa",
+        "name": "Dockworker Damage Control",
+        "stage": 3,
+        "reason": "Requires bounded local tender/engineering equipment; no free Artemis aura or empire heal."
+      },
+      {
+        "faction": "opa",
+        "name": "Salvage Arbitration",
+        "stage": 4,
+        "reason": "Requires reward-specific ordinary material adjustment excluding rare samples/scuttle rewards."
+      }
+    ],
+    "runtime": "NOT RUN",
+    "acquisition_gates": {
+      "expanse_amun_ra": "expanse21_unn_black_budget",
+      "expanse12_pella": "expanse21_opa_surplus"
+    },
+    "stage1_dependency": "Call changes() against the integrated Stage 1 package, so private boarding/repair ADS inherit its new target lock and autocast filters.",
+    "research_owner_scoping": "Only add each faction research list to that owner player; effects use native per-player research state. Captured foreign hulls gain no production access.",
+    "origins": {}
+  },
+  "sandbox": false,
+  "starting_supply": [
+    {
+      "mode": "entities/advanced_start_mode.start_mode",
+      "player": "trader_loyalist",
+      "maximum_starting_supply": 905,
+      "cap": 1000
+    },
+    {
+      "mode": "entities/advanced_start_mode.start_mode",
+      "player": "trader_rebel",
+      "maximum_starting_supply": 905,
+      "cap": 1000
+    },
+    {
+      "mode": "entities/advanced_start_mode.start_mode",
+      "player": "expanse18_unn",
+      "maximum_starting_supply": 905,
+      "cap": 1000
+    },
+    {
+      "mode": "entities/advanced_start_mode.start_mode",
+      "player": "expanse18_mcrn",
+      "maximum_starting_supply": 905,
+      "cap": 1000
+    },
+    {
+      "mode": "entities/advanced_start_mode.start_mode",
+      "player": "expanse18_opa",
+      "maximum_starting_supply": 905,
+      "cap": 1000
+    },
+    {
+      "mode": "entities/quick_start_mode.start_mode",
+      "player": "trader_loyalist",
+      "maximum_starting_supply": 250,
+      "cap": 250
+    },
+    {
+      "mode": "entities/quick_start_mode.start_mode",
+      "player": "trader_rebel",
+      "maximum_starting_supply": 250,
+      "cap": 250
+    },
+    {
+      "mode": "entities/quick_start_mode.start_mode",
+      "player": "expanse18_unn",
+      "maximum_starting_supply": 250,
+      "cap": 250
+    },
+    {
+      "mode": "entities/quick_start_mode.start_mode",
+      "player": "expanse18_mcrn",
+      "maximum_starting_supply": 250,
+      "cap": 250
+    },
+    {
+      "mode": "entities/quick_start_mode.start_mode",
+      "player": "expanse18_opa",
+      "maximum_starting_supply": 250,
+      "cap": 250
+    },
+    {
+      "mode": "entities/normal_start_mode.start_mode",
+      "player": "trader_loyalist",
+      "maximum_starting_supply": 10,
+      "cap": 100
+    },
+    {
+      "mode": "entities/normal_start_mode.start_mode",
+      "player": "trader_rebel",
+      "maximum_starting_supply": 10,
+      "cap": 100
+    },
+    {
+      "mode": "entities/normal_start_mode.start_mode",
+      "player": "expanse18_unn",
+      "maximum_starting_supply": 10,
+      "cap": 100
+    },
+    {
+      "mode": "entities/normal_start_mode.start_mode",
+      "player": "expanse18_mcrn",
+      "maximum_starting_supply": 10,
+      "cap": 100
+    },
+    {
+      "mode": "entities/normal_start_mode.start_mode",
+      "player": "expanse18_opa",
+      "maximum_starting_supply": 10,
+      "cap": 100
+    },
+    {
+      "mode": "entities/basic_start_mode.start_mode",
+      "player": "trader_loyalist",
+      "maximum_starting_supply": 0,
+      "cap": 100
+    },
+    {
+      "mode": "entities/basic_start_mode.start_mode",
+      "player": "trader_rebel",
+      "maximum_starting_supply": 0,
+      "cap": 100
+    },
+    {
+      "mode": "entities/basic_start_mode.start_mode",
+      "player": "expanse18_unn",
+      "maximum_starting_supply": 0,
+      "cap": 100
+    },
+    {
+      "mode": "entities/basic_start_mode.start_mode",
+      "player": "expanse18_mcrn",
+      "maximum_starting_supply": 0,
+      "cap": 100
+    },
+    {
+      "mode": "entities/basic_start_mode.start_mode",
+      "player": "expanse18_opa",
+      "maximum_starting_supply": 0,
+      "cap": 100
+    }
+  ]
+}
