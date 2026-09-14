@@ -1,0 +1,107 @@
+{
+  "status": "OFFLINE NEW-ONLY PROTOTYPE; RUNTIME NOT RUN",
+  "unit": "expanse25_un_one",
+  "ability": "expanse25_un_one_civilian_relief",
+  "output_art": "/run/media/haker/NVME 2/expanse-workers20/assets/build/update25-unone/game",
+  "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update24_sandbox",
+  "player_recipes": {
+    "expanse18_unn": {
+      "buildable_units_append": [
+        "expanse25_un_one"
+      ],
+      "unit_limits_global_append": [
+        {
+          "tag": "expanse25_un_one",
+          "unit_limit": 1
+        }
+      ]
+    }
+  },
+  "unit_tag_entries_append": [
+    {
+      "name": "expanse25_un_one",
+      "localized_name": "expanse25_un_one.name"
+    }
+  ],
+  "research_prerequisite": "trader_unlock_trade_port",
+  "stats": {
+    "supply": 25,
+    "hull": 800,
+    "armor": 150,
+    "durability": 100,
+    "speed": 900,
+    "cost": {
+      "credits": 1200.0,
+      "metal": 200.0,
+      "crystal": 150.0
+    },
+    "build_seconds": 60,
+    "antimatter": 100,
+    "antimatter_restore": 1
+  },
+  "function": {
+    "manual": true,
+    "range": 2500,
+    "cooldown": 90,
+    "antimatter_cost": 25,
+    "repair_tick": 10,
+    "ticks": 15,
+    "maximum_hull_repair": 150,
+    "ownership": "self only",
+    "types": [
+      "corvette",
+      "frigate",
+      "cruiser"
+    ],
+    "requires_unarmed": true,
+    "excluded": [
+      "self envoy",
+      "armed ships",
+      "capital ships",
+      "titan",
+      "planet",
+      "structure",
+      "enemy",
+      "allied other player"
+    ]
+  },
+  "shared_repair_interaction": "Uses existing expanse15_scirocco_engineering_teams buff. Native fixed-one/preserve-existing limit and pending target exclusion prevent same-effect overlap; existing station repair excludes this exact ID. Effect ends on target ownership change. It is a dispatched 15-second team effect, not a persistent aura or an interceptable pod.",
+  "adaptations": [
+    "Humanitarian repair function is a game role, not a claimed show ability.",
+    "Phase travel is a Sins transport abstraction; no armed/capital/hero billing classification.",
+    "No faction-standing modifier, paid NPC contact, income, strategic resource, capture or global bonus.",
+    "The native shared target buff displays the existing engineering-team label, while source command/tooltip is Civilian Relief Teams.",
+    "Source art is assembled fan interpretation; portrait remains the existing civilian donor until main renders UN One UI."
+  ],
+  "runtime_unverified": [
+    "fresh load and manual ability targeting",
+    "ability availability without capital level UI",
+    "unarmed/armed and ally/enemy filters",
+    "shared repair effect exclusion and station interaction",
+    "native15-tick completion, target ownership change, save/reload",
+    "one-player limit queues and capture",
+    "normal frigate full-cost billing",
+    "native hyperspace and nozzle appearance",
+    "multiplayer"
+  ],
+  "access": {
+    "expanse18_mcrn": true,
+    "expanse18_unn": true,
+    "expanse18_opa": true,
+    "trader_loyalist": true,
+    "trader_rebel": true,
+    "dlc_trader_loyalist": true
+  },
+  "inherited_collector_removed": true,
+  "ipbm": {
+    "ship": "expanse15_truman",
+    "actual_alias": "trader_colony_capital_ship_planet_bombing_weapon_projectile_travel",
+    "effect": {
+      "particle_effect": "expanse25_ipbm_local_bombardment_travel"
+    },
+    "weapon_unchanged": true,
+    "actual_unit_created": false,
+    "interceptable": false,
+    "global_launch": false
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "ships": {
+    "mcrn": {
+      "status": "PRIVATE NEW DEFINITIONS; RUNTIME NOT RUN",
+      "unit_id": "expanse24_gathering_storm",
+      "unlock": "expanse24_gathering_storm_procurement",
+      "art_game_directory": "/run/media/haker/NVME 2/expanse-workers20/foundations/build/update24-storm/game",
+      "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2",
+      "player_recipes": {
+        "expanse18_mcrn": {
+          "buildable_units_append": [
+            "expanse24_gathering_storm"
+          ],
+          "research_subjects_append": [
+            "expanse24_gathering_storm_procurement"
+          ],
+          "unit_limits_global_append": [
+            {
+              "tag": "expanse24_gathering_storm",
+              "unit_limit": 1
+            }
+          ]
+        }
+      },
+      "unit_tag_entries_append": [
+        "expanse24_gathering_storm"
+      ],
+      "research_merge": {
+        "domain": "military",
+        "field": "military_experimental",
+        "proposed_field_coord": [
+          7,
+          4
+        ],
+        "main_must_resolve_grid_occupancy": true
+      },
+      "weapon_summary": {
+        "pdc_count": 6,
+        "pdc_each_dps": 117.6,
+        "pdc_range": 4500,
+        "rail_damage": 5000.0,
+        "rail_cooldown": 30.0,
+        "rail_penetration": 1500.0,
+        "rail_tracking_speed": 0,
+        "rail_half_arc_degrees": 2
+      },
+      "native_dependencies": [
+        "expanse12_raptor_reactor ability/buff/action data source",
+        "expanse11_no_shields ability/buff",
+        "Raptor shared accepted torpedo projectile unit/action chain and military warhead research",
+        "Raptor generic crew/effect aliases and single-point idle plume; native ordinary hyperspace effect",
+        "trader_unlock_loyalist_titan native existing research prerequisite"
+      ],
+      "adaptations": [
+        "Rare MCRN acquisition is a faction-access adaptation; the canonical vessel is Laconian Pulsar-class.",
+        "164.306m length, weapon count, resources, speed and hull values are mod design choices, not canonical specifications.",
+        "No Magnetar field weapon, automatic hull regrowth, shield or silent-running mechanic supplied.",
+        "Existing first-capital discount avoidance uses native build_kind cruiser while unit target type, progression and items remain capital_ship. Runtime purchase/AI verification remains required.",
+        "Shared Raptor portrait is explicitly temporary; actual Storm preview is available for main UI packaging."
+      ],
+      "runtime_checks_not_run": [
+        "ordinary resource charging including free-first-capital boundary",
+        "one-per-player queue/capture/save behavior",
+        "research completion existing and newly built units",
+        "target tracking and fixed rail alignment",
+        "torpedo spawn/reload and overcharge",
+        "plume appearance and rendering",
+        "multiplayer/save/reload"
+      ]
+    },
+    "opa": {
+      "status": "PRIVATE GAMEPLAY FRAGMENT; ACCESS MERGES REQUIRED",
+      "unit": "expanse24_behemoth",
+      "unit_id": "expanse24_behemoth",
+      "unlock": "expanse24_behemoth_refit",
+      "art_contract": "/run/media/haker/NVME 2/expanse-mod/docs/audit/update24-behemoth/integration-spec.json",
+      "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2",
+      "source_definitions_sha256": {
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse_donnager_battleship.unit": "7d9315dbdb0d230a8a94e726926ba3fff656db8d8dfa141af3a6abaeba479392",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse15_truman_pdc_0.weapon": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse19_europa_magazine.ability": "f6fd19c1e7447d0bf86e9c78f20e98359817489b7b0e531e1296042522057df5",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse19_europa_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse19_europa_magazine.buff": "5bfea1fbdcbe70062d7dae2ddbd76040e4b63583ead239368b12e0882fc28be5",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse15_scirocco_engineering_teams.ability": "87616afc0991744920d8de8deef462c6d6b7cc6b0dc0ab70f96c6f922ed8534f",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse15_scirocco_engineering_teams.action_data_source": "f9382b3de44cfdaf533249e425f41fd5005f3ccbdb3e85fdcc53caa44dd60893",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse_donnager_battleship.unit_skin": "718b57a78e89735cdd3b4f3f833dadb8393ce4496b16a5e3bf10b4b412ea3ce3",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse19_europa_bane.unit_skin": "310dbad00135189fbedb4f321a427c2d58ee79067d4fe94089e4cda51f12dcb7"
+      },
+      "scope": "One OPA logistics titan; new files only",
+      "shared_definition_merges": [],
+      "unit_tag_entries_append": [
+        {
+          "name": "expanse24_behemoth",
+          "localized_name": "expanse24_behemoth.name"
+        }
+      ],
+      "player_recipes": {
+        "opa": {
+          "buildable_units_append": [
+            "expanse24_behemoth"
+          ],
+          "research_requirement": "trader_unlock_rebel_titan",
+          "note": "Retain/restore the native rebel titan unlock chain and titan-factory access, or replace this prerequisite with an equivalent priced OPA titan research in the main integration. Do not grant a second independent titan limit."
+        }
+      },
+      "titan_limit_policy": {
+        "required_existing_global_limit_tag": "titan",
+        "extra_per_ship_limit": null,
+        "shares_with_donnager": true,
+        "native_build_kind": "titan",
+        "native_target_type": "titan"
+      },
+      "stats": {
+        "hull_level_1": 12000,
+        "armor_level_1": 1500,
+        "armor_strength_level_1": 55,
+        "durability": 350,
+        "max_speed": 250,
+        "turn_rate": 4,
+        "fleet_supply": 500,
+        "price": {
+          "credits": 11000.0,
+          "metal": 3000.0,
+          "crystal": 2200.0
+        },
+        "build_time": 360,
+        "native_titan_equipment_slots": 8,
+        "pdcs": 8,
+        "base_dps_per_pdc": 85,
+        "railguns": 0,
+        "torpedo_magazine_profile": "Unchanged Europa magazine; eight UNN light torpedoes, two per ten seconds,120-second reload,30-second fuel",
+        "hospital_max_per_cast": 800,
+        "hospital_hull_per_second": 40,
+        "hospital_duration": 20,
+        "hospital_cooldown": 60,
+        "hospital_antimatter": 100
+      },
+      "service_scopes": {
+        "hospital": "one other owned ship, same gravity well, targeted within6000; fixed absolute cap; shared repair reservation",
+        "component_shop": "native mobile component-shop availability, same service semantics as Vasari Fabricator; no price reduction or empire modifier"
+      },
+      "mechanical_limits": [
+        "Hospital grid load affects normal PDC cooldown only; scripted missile magazine schedule is not a normal weapon cooldown.",
+        "The native shared repair timer cancels when target ownership changes, but may finish if the provider dies or leaves after the cast; this is a finite 800-hull dispatched-team budget, not a persistent aura.",
+        "Hospital does not claim real interceptable pods or animate drum spin.",
+        "Refit uses native mobile shop semantics; exact proximity/UI and alliance behavior must be observed in game.",
+        "Current generic Europa crew voice pool is reused; no Behemoth-specific audio or Donnager-name pool.",
+        "Source mesh aspect ratio and 2km scale are documented art assumptions."
+      ],
+      "observed_passes": [],
+      "untested": [
+        "game load and research menus",
+        "native shared titan cap across capture and rebuild",
+        "navigation/collision at2km scale",
+        "PDC tracking and range in engine",
+        "hospital caster-death/save-reload/ownership and manual-autocast behavior",
+        "mobile shop availability and allied access",
+        "multiplayer synchronization and performance"
+      ],
+      "art_directory": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/game",
+      "art_files": {
+        "textures/expanse24_behemoth_hud_icon.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_icon.png",
+        "textures/expanse24_behemoth_hud_icon150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_icon150.png",
+        "textures/expanse24_behemoth_hud_icon200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_icon200.png",
+        "textures/expanse24_behemoth_hud_picture.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_picture.png",
+        "textures/expanse24_behemoth_hud_picture150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_picture150.png",
+        "textures/expanse24_behemoth_hud_picture200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_picture200.png",
+        "textures/expanse24_behemoth_main_view_icon.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon.png",
+        "textures/expanse24_behemoth_main_view_icon150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon150.png",
+        "textures/expanse24_behemoth_main_view_icon200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon200.png",
+        "textures/expanse24_behemoth_main_view_icon_selected.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_selected.png",
+        "textures/expanse24_behemoth_main_view_icon_selected150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_selected150.png",
+        "textures/expanse24_behemoth_main_view_icon_selected200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_selected200.png",
+        "textures/expanse24_behemoth_main_view_icon_sub_selected.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_sub_selected.png",
+        "textures/expanse24_behemoth_main_view_icon_sub_selected150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_sub_selected150.png",
+        "textures/expanse24_behemoth_main_view_icon_sub_selected200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_sub_selected200.png",
+        "textures/expanse24_behemoth_tooltip_picture.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_tooltip_picture.png",
+        "textures/expanse24_behemoth_tooltip_picture150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_tooltip_picture150.png",
+        "textures/expanse24_behemoth_tooltip_picture200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_tooltip_picture200.png"
+      },
+      "art_merge_policy": "Copy private art aliases and UI files; any already-present donor material/texture must match bytes and be skipped, never overwritten."
+    }
+  },
+  "access": {
+    "expanse18_mcrn": [
+      "expanse24_gathering_storm"
+    ],
+    "expanse18_unn": [],
+    "expanse18_opa": [
+      "expanse24_behemoth"
+    ],
+    "trader_loyalist": [
+      "expanse24_gathering_storm"
+    ],
+    "trader_rebel": [
+      "expanse24_behemoth"
+    ],
+    "dlc_trader_loyalist": []
+  },
+  "runtime": "NOT RUN"
+}
