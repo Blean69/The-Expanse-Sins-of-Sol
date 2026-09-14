@@ -1,0 +1,257 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "runtime": "NOT RUN",
+  "definition_count": 28,
+  "schema_checks": [
+    {
+      "file": "expanse22_station_mcrn_pdc.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_station_earth_pdc.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_station_defense_torpedo.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_ordnance_control.unit_item",
+      "status": "PASS",
+      "schema": "unit-item-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_repair_anchorage.unit_item",
+      "status": "PASS",
+      "schema": "unit-item-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_defense_coordination.unit_item",
+      "status": "PASS",
+      "schema": "unit-item-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_industrial_drydock.unit_item",
+      "status": "PASS",
+      "schema": "unit-item-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_defense_coordination.ability",
+      "status": "PASS",
+      "schema": "ability-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_defense_coordination.action_data_source",
+      "status": "PASS",
+      "schema": "action-data-source-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_defense_coordination_on_self.buff",
+      "status": "PASS",
+      "schema": "buff-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_defense_coordination_on_target.buff",
+      "status": "PASS",
+      "schema": "buff-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_industrial_drydock.ability",
+      "status": "PASS",
+      "schema": "ability-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_industrial_drydock.action_data_source",
+      "status": "PASS",
+      "schema": "action-data-source-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_industrial_drydock_on_self.buff",
+      "status": "PASS",
+      "schema": "buff-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_industrial_drydock_on_target.buff",
+      "status": "PASS",
+      "schema": "buff-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_repair_anchorage.ability",
+      "status": "PASS",
+      "schema": "ability-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_repair_anchorage.action_data_source",
+      "status": "PASS",
+      "schema": "action-data-source-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_repair_anchorage_on_self.buff",
+      "status": "PASS",
+      "schema": "buff-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_repair_anchorage_reservation.buff",
+      "status": "PASS",
+      "schema": "buff-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_mcrn_support_station.unit",
+      "status": "PASS",
+      "schema": "unit-schema.json",
+      "unchanged_source_extensions": [
+        "/corruption"
+      ]
+    },
+    {
+      "file": "expanse22_mcrn_support_station.unit_skin",
+      "status": "PASS",
+      "schema": "unit-skin-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_unn_support_station.unit",
+      "status": "PASS",
+      "schema": "unit-schema.json",
+      "unchanged_source_extensions": [
+        "/corruption"
+      ]
+    },
+    {
+      "file": "expanse22_unn_support_station.unit_skin",
+      "status": "PASS",
+      "schema": "unit-skin-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_opa_support_station.unit",
+      "status": "PASS",
+      "schema": "unit-schema.json",
+      "unchanged_source_extensions": [
+        "/corruption"
+      ]
+    },
+    {
+      "file": "expanse22_opa_support_station.unit_skin",
+      "status": "PASS",
+      "schema": "unit-skin-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_pdc_picket_weapon.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse22_pdc_picket.unit",
+      "status": "PASS",
+      "schema": "unit-schema.json",
+      "unchanged_source_extensions": [
+        "/corruption"
+      ]
+    },
+    {
+      "file": "expanse22_pdc_picket.unit_skin",
+      "status": "PASS",
+      "schema": "unit-skin-schema.json",
+      "unchanged_source_extensions": []
+    }
+  ],
+  "passed": [
+    "28definition schemas with unchanged installed extension handling",
+    "all weapon firing budgets/profiles preserved",
+    "native hull/mount/arc pairing",
+    "3slots4modules and2gatedordnancebanks",
+    "owned-only local targets",
+    "bounded3x20direct hull repairs persecond",
+    "shared pending reservation/Scirocco exclusion",
+    "parent death and distance removal for tracking/factory effects",
+    "10%PDCtracking only",
+    "10%factory RATE not time",
+    "shared1/playerstation tag recipe",
+    "shield guard/no invalid burst",
+    "all station weapon effects have skin aliases"
+  ],
+  "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20",
+  "sources": [
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_derelict_specialist.unit_item",
+      "sha256": "d1ac13ea127d4cbdb739c7863e5975e5f9b7319b405cd7b08593a207f0093a59"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_hangar_defense_structure.unit_skin",
+      "sha256": "015a955d2075c9da3264a073beb70fb4baa4257d27b6262060819bf31c55f621"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_retrofit_bay_repair.action_data_source",
+      "sha256": "5de78771d79909e6d70eb85b7e3d2f05fd7b937d66d774d7586682272539dc4c"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_retrofit_bay_repair.buff",
+      "sha256": "0104ba8f0dab15daba866bffb755a5e65f24b842637fe0c7e45d168ce4ff5d70"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_starbase.unit_skin",
+      "sha256": "e60d790a055b43bcac8bc3ef5063a9dc7babd89a8934fb828fc5052cfeedac4d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_targeting_array_unit_item.ability",
+      "sha256": "271fb28bd0247a304ebd00424baec40202b91be45102918c765c05b0d16a5037"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_targeting_array_unit_item.action_data_source",
+      "sha256": "adee99ccd161917ffd2163d89650ac08adcc20d0c8205a6c18f477d858f2baac"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_targeting_array_unit_item_on_self.buff",
+      "sha256": "1e8668adf9bb892a7ce59680741068d532bcd6870574dbb8c7c76c501d52a21b"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_targeting_array_unit_item_on_target.buff",
+      "sha256": "a097354b6352ea34694b93900f6ca9e26d416ea25e614da595da345cf0e444dc"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/expanse10_donnager_pdc_0.weapon",
+      "sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/expanse15_missile_defense.weapon",
+      "sha256": "e2f96df824549e4ff65b04a7aace1502eaf714070de09e14a32de432060af967"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/expanse15_truman_pdc_0.weapon",
+      "sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/trader_hangar_defense_structure.unit",
+      "sha256": "53b891bc76d3d65e17e31d3a70bc3ee5beb70444ef32e24fcb841ac532c0c7dd"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update20/entities/trader_starbase.unit",
+      "sha256": "8c686926e96e2dc14b288fb99bd9fdff28baf43a83e96868c53aff7773d0bb8a"
+    }
+  ]
+}
