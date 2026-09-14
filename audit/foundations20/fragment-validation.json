@@ -1,0 +1,424 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "definition_checks": [
+    {
+      "definition": "expanse21_local_bombardment.weapon",
+      "schema": "weapon-schema.json",
+      "sha256": "6650136018cdb257073805f0ec82974c79a93ee40f68e6cc464e54992b46d3fe",
+      "status": "PASS",
+      "unchanged_installed_extensions": [
+        {
+          "path": "/bombing_damage",
+          "value": 75.0,
+          "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_colony_capital_ship_planet_bombing.weapon",
+          "sha256": "e9e5fd42622aca82e76f0802ca996fd16e3c372fee999be4d09d6a3c2f121137"
+        }
+      ]
+    },
+    {
+      "definition": "expanse21_scirocco_colony_module.ability",
+      "schema": "ability-schema.json",
+      "sha256": "d6a1de797283d6ff0db79defbc64c92a3afde14a2da58d6214e794cb69601dc4",
+      "status": "PASS",
+      "unchanged_installed_extensions": []
+    },
+    {
+      "definition": "expanse21_scirocco_colony_module.action_data_source",
+      "schema": "action-data-source-schema.json",
+      "sha256": "4a762b71a3e30715e2c0e5ea0df0eced70edbefb33f8e8651e9bc0d49160d6e4",
+      "status": "PASS",
+      "unchanged_installed_extensions": []
+    },
+    {
+      "definition": "expanse21_scirocco_colony_module.unit_item",
+      "schema": "unit-item-schema.json",
+      "sha256": "3ec1534f4841b0b7dbd4720f36c96c17766852746e4906394616f95a5d9810d7",
+      "status": "PASS",
+      "unchanged_installed_extensions": []
+    },
+    {
+      "definition": "expanse21_truman_colony_module.ability",
+      "schema": "ability-schema.json",
+      "sha256": "d6a1de797283d6ff0db79defbc64c92a3afde14a2da58d6214e794cb69601dc4",
+      "status": "PASS",
+      "unchanged_installed_extensions": []
+    },
+    {
+      "definition": "expanse21_truman_colony_module.action_data_source",
+      "schema": "action-data-source-schema.json",
+      "sha256": "4a762b71a3e30715e2c0e5ea0df0eced70edbefb33f8e8651e9bc0d49160d6e4",
+      "status": "PASS",
+      "unchanged_installed_extensions": []
+    },
+    {
+      "definition": "expanse21_truman_colony_module.unit_item",
+      "schema": "unit-item-schema.json",
+      "sha256": "3ec1534f4841b0b7dbd4720f36c96c17766852746e4906394616f95a5d9810d7",
+      "status": "PASS",
+      "unchanged_installed_extensions": []
+    },
+    {
+      "definition": "expanse21_opa_command_colony_module.ability",
+      "schema": "ability-schema.json",
+      "sha256": "d6a1de797283d6ff0db79defbc64c92a3afde14a2da58d6214e794cb69601dc4",
+      "status": "PASS",
+      "unchanged_installed_extensions": []
+    },
+    {
+      "definition": "expanse21_opa_command_colony_module.action_data_source",
+      "schema": "action-data-source-schema.json",
+      "sha256": "4a762b71a3e30715e2c0e5ea0df0eced70edbefb33f8e8651e9bc0d49160d6e4",
+      "status": "PASS",
+      "unchanged_installed_extensions": []
+    },
+    {
+      "definition": "expanse21_opa_command_colony_module.unit_item",
+      "schema": "unit-item-schema.json",
+      "sha256": "3ec1534f4841b0b7dbd4720f36c96c17766852746e4906394616f95a5d9810d7",
+      "status": "PASS",
+      "unchanged_installed_extensions": []
+    }
+  ],
+  "schema_check_count": 10,
+  "native_sources": [
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_colony_capital_ship_colonize.ability",
+      "sha256": "47545863000cff82cf541ada6111b60c491e9b6b77b04c58d3fc25c8a4ec2071"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_colony_capital_ship_colonize.action_data_source",
+      "sha256": "467bfc85f0a2e3d13354c5180b4e93d89c8cb5fee9fb1657744d6b42fadf725f"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_colony_capital_ship_colonize.buff",
+      "sha256": "74afa84ba61b3a4976ee8c4c3125b4096dd3186775c188c000107172870d205e"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_colony_capital_ship_planet_bombing.weapon",
+      "sha256": "e9e5fd42622aca82e76f0802ca996fd16e3c372fee999be4d09d6a3c2f121137"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_colony_capital_ship.unit_skin",
+      "sha256": "f723a35ada18dcbf972cfdb849bdcaf1555b2e21637f988097f9907a79a448e3"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_derelict_specialist.unit_item",
+      "sha256": "d1ac13ea127d4cbdb739c7863e5975e5f9b7319b405cd7b08593a207f0093a59"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_radiation_bomb.unit_item",
+      "sha256": "ba11f4bb39419cf541054634a7989a324cc2b5508acd93b324111cac4be4851b"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.ability",
+      "sha256": "a7c458382cf7e606de2369088be5a98e519da4ba7f0443f2a1346696d887ddfe"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/uniforms/target_filter.uniforms",
+      "sha256": "e1e16ca7208c286f9d4ab6daefb2cc6a7da8f157e08ce7596ba28476c510855d"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/gui/hud_ship_window.gui",
+      "sha256": "5d156e61e9cc32a5a8063344e6886088385df360fed9e438a38247853c2d4b66"
+    }
+  ],
+  "baseline": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19",
+  "verified_mounts": [
+    {
+      "ship": "expanse_mcrn_corvette",
+      "source_ship": "expanse_mcrn_corvette",
+      "actual_anti_ship_magazine": "expanse03_torpedo_magazine",
+      "siege_eligibility_reason": "Explicit Tachi/Rocinante expeditionary requirement",
+      "mesh": "expanse03_hull",
+      "mesh_sha256": "9c6a2107e3b0b26b41cd6654418bdcab190a2c7ee4a91d265937d5e9103d008a",
+      "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/expanse03_torpedo_magazine.ability /ability_positions/0",
+      "mount": {
+        "weapon": "expanse21_local_bombardment",
+        "mesh_point": "center",
+        "weapon_position": [
+          3.857128172413127e-07,
+          -1.1384768011684947,
+          13.514855539497557
+        ],
+        "non_turret_muzzle_positions": [
+          [
+            3.857128172413127e-07,
+            -1.1384768011684947,
+            13.514855539497557
+          ]
+        ],
+        "forward": [
+          0.0,
+          0.6514067925868338,
+          0.758728667292685
+        ],
+        "up": [
+          0.0,
+          0.758728667292685,
+          -0.6514067925868338
+        ],
+        "yaw_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        },
+        "pitch_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        }
+      },
+      "planet_damage": 75,
+      "population_damage": 3,
+      "interval": 15,
+      "range": 4000,
+      "interceptable": false,
+      "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+    },
+    {
+      "ship": "expanse_rocinante_hero",
+      "source_ship": "expanse_rocinante_hero",
+      "actual_anti_ship_magazine": "expanse03_roci_torpedo_magazine",
+      "siege_eligibility_reason": "Explicit Tachi/Rocinante expeditionary requirement",
+      "mesh": "expanse04_hero_hull",
+      "mesh_sha256": "bab077014fd34375253cd01f43562b3520333daf03e05d915ed738ef5d8f8c04",
+      "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/expanse03_roci_torpedo_magazine.ability /ability_positions/0",
+      "mount": {
+        "weapon": "expanse21_local_bombardment",
+        "mesh_point": "center",
+        "weapon_position": [
+          0.05913020035185099,
+          3.4224937843945042,
+          13.252888913066995
+        ],
+        "non_turret_muzzle_positions": [
+          [
+            0.05913020035185099,
+            3.4224937843945042,
+            13.252888913066995
+          ]
+        ],
+        "forward": [
+          0.005938029232905325,
+          -0.00979527921539185,
+          0.9999343940048876
+        ],
+        "up": [
+          0.0,
+          0.9999520234100465,
+          0.009795451911667693
+        ],
+        "yaw_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        },
+        "pitch_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        }
+      },
+      "planet_damage": 75,
+      "population_damage": 3,
+      "interval": 15,
+      "range": 4000,
+      "interceptable": false,
+      "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+    },
+    {
+      "ship": "expanse_donnager_battleship",
+      "source_ship": "expanse_donnager_battleship",
+      "actual_anti_ship_magazine": "expanse10_donnager_heavy_magazine",
+      "siege_eligibility_reason": "Existing true heavy-torpedo carrier",
+      "mesh": "expanse11_donnager_hull",
+      "mesh_sha256": "090212896b36e566e924fa866e081516d1064d622cad2ac8fb2457eb3f8fcd27",
+      "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/expanse10_donnager_heavy_magazine.ability /ability_positions/0",
+      "mount": {
+        "weapon": "expanse21_local_bombardment",
+        "mesh_point": "center",
+        "weapon_position": [
+          -66.12392841321115,
+          -10.020387178158451,
+          -442.44306932205166
+        ],
+        "non_turret_muzzle_positions": [
+          [
+            -66.12392841321115,
+            -10.020387178158451,
+            -442.44306932205166
+          ]
+        ],
+        "forward": [
+          0,
+          0,
+          -1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "yaw_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        },
+        "pitch_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        }
+      },
+      "planet_damage": 75,
+      "population_damage": 3,
+      "interval": 15,
+      "range": 4000,
+      "interceptable": false,
+      "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+    },
+    {
+      "ship": "expanse12_scirocco",
+      "source_ship": "expanse12_scirocco",
+      "actual_anti_ship_magazine": "expanse12_scirocco_heavy_magazine",
+      "siege_eligibility_reason": "Existing true heavy-torpedo carrier",
+      "mesh": "expanse12_scirocco_hull",
+      "mesh_sha256": "457ea15a7f657c4628eab2257bda697d2120a333bf9320f489e5688168f2c37a",
+      "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/expanse12_scirocco_heavy_magazine.ability /ability_positions/0",
+      "mount": {
+        "weapon": "expanse21_local_bombardment",
+        "mesh_point": "center",
+        "weapon_position": [
+          -30.03106704269377,
+          15.146892618830675,
+          203.91302837488516
+        ],
+        "non_turret_muzzle_positions": [
+          [
+            -30.03106704269377,
+            15.146892618830675,
+            203.91302837488516
+          ]
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "yaw_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        },
+        "pitch_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        }
+      },
+      "planet_damage": 75,
+      "population_damage": 3,
+      "interval": 15,
+      "range": 4000,
+      "interceptable": false,
+      "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+    },
+    {
+      "ship": "expanse15_truman",
+      "source_ship": "expanse15_truman",
+      "actual_anti_ship_magazine": "expanse15_truman_light_magazine",
+      "siege_eligibility_reason": "Required designated colony capital with added siege-only stores",
+      "mesh": "expanse15_truman_hull",
+      "mesh_sha256": "b99b180104b80d55406afe1a4ae18239acfdd335f64f791eac6c0f32cf54b595",
+      "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/expanse15_truman_light_magazine.ability /ability_positions/0",
+      "mount": {
+        "weapon": "expanse21_local_bombardment",
+        "mesh_point": "center",
+        "weapon_position": [
+          -35.0,
+          0.0,
+          419.0167731674959
+        ],
+        "non_turret_muzzle_positions": [
+          [
+            -35.0,
+            0.0,
+            419.0167731674959
+          ]
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "yaw_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        },
+        "pitch_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        }
+      },
+      "planet_damage": 75,
+      "population_damage": 3,
+      "interval": 15,
+      "range": 4000,
+      "interceptable": false,
+      "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+    },
+    {
+      "ship": "expanse21_opa_command",
+      "source_ship": "expanse19_europa_bane",
+      "actual_anti_ship_magazine": "expanse19_europa_magazine",
+      "siege_eligibility_reason": "Required designated colony capital with added siege-only stores",
+      "mesh": "expanse19_europa_bane_hull",
+      "mesh_sha256": "a8f0f86db47acb7242e9fcdd33b7f1b4e9f579852fd394ababfe8302196b7e11",
+      "muzzle_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/expanse19_europa_magazine.ability /ability_positions/0",
+      "mount": {
+        "weapon": "expanse21_local_bombardment",
+        "mesh_point": "center",
+        "weapon_position": [
+          14.884006977081299,
+          -0.40423035621643066,
+          107.4084909668821
+        ],
+        "non_turret_muzzle_positions": [
+          [
+            14.884006977081299,
+            -0.40423035621643066,
+            107.4084909668821
+          ]
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "yaw_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        },
+        "pitch_arc": {
+          "min_angle": -10.0,
+          "max_angle": 10.0
+        }
+      },
+      "planet_damage": 75,
+      "population_damage": 3,
+      "interval": 15,
+      "range": 4000,
+      "interceptable": false,
+      "ammunition": "Separate native siege stores; anti-ship magazine unchanged"
+    }
+  ],
+  "runtime": "NOT RUN",
+  "shared_main_mutations": false
+}
