@@ -1,0 +1,28 @@
+{
+  "status": "PASS OFFLINE",
+  "compiled_model_triangle_count": 12162,
+  "firing_ray_sweep_samples": 5256,
+  "minimum_muzzle_clearance_from_global_hull_plane": 4.583769775378448,
+  "scope": "Analytical outward hemisphere rays in the accepted negative-pitch convention. Does not prove game target acquisition, rig attachment, or particle appearance.",
+  "material_and_texture_dependencies_resolved": true,
+  "particle_stock_resources": {
+    "t_edgemask_ghost_fade": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_edgemask_ghost_fade.dds",
+    "advent_light": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/advent_light.dds",
+    "t_noise_008": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_noise_008.dds",
+    "zap_clr": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/zap_clr.dds",
+    "soft_circle_large": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/soft_circle_large.dds",
+    "water_uv": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/water_uv.dds",
+    "heat_refraction_falloff": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/heat_refraction_falloff.dds"
+  },
+  "all_packaged_files_match_hashes": true,
+  "symlinks": 0,
+  "runtime_cases_not_run": [
+    "target acquisition and interpolation",
+    "allied/enemy target filters",
+    "visible firing/mount tracking",
+    "PDC own-hull obstruction in engine",
+    "save/reload",
+    "multiplayer",
+    "plume appearance"
+  ]
+}

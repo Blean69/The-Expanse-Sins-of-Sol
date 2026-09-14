@@ -1,0 +1,511 @@
+{
+  "status": "OFFLINE COMPILED ART PASS; RUNTIME UNTESTED",
+  "output_game": "/run/media/haker/NVME 2/expanse-workers20/assets/build/update23-murphy/game",
+  "base_mesh": "expanse23_murphy_hull",
+  "source": {
+    "zip": "/home/haker/Downloads/UNN Murphy Class Destroyer - 7350801.zip",
+    "zip_sha256": "23405f9bee36c6cc719b3bc33d4987c7435744c0dc1d4652227418669c8271e6",
+    "member": "files/UNN_Murphy_Class_Destroyer.stl",
+    "stl_sha256": "060e3755a814965ee57d3dee33c75e97267690febc04599309e7416f18a24a0d",
+    "author": "Qwerty1998",
+    "url": "https://www.thingiverse.com/thing:7350801",
+    "license": "This thing was created by Thingiverse user Qwerty1998, and is licensed under Creative Commons - Attribution - Share Alike",
+    "author_description": "a made up UNN ship from the Expanse",
+    "source_triangles": 8302,
+    "retained_triangles": 8302,
+    "decimation": false,
+    "source_bounds": [
+      [
+        -2.630000114440918,
+        -13.0,
+        -2.90992883543624e-14
+      ],
+      [
+        14.0,
+        48.0,
+        13.802000045776367
+      ]
+    ]
+  },
+  "scale": {
+    "length_metres_provisional": 102,
+    "game_units_per_metre": 2.2823251869565215,
+    "source_to_game": 3.8163470339272982,
+    "transform": "center bounding box then [X,Z,-Y]; positive Z bow; positive Y dorsal",
+    "lore_caveat": "102 m is the RPG class reference applied to a fan-made geometry; one modeled drive differs from the RPG two-drive description."
+  },
+  "counts": {
+    "hull": 9454,
+    "material_triangles": {
+      "armor": 7908,
+      "machinery": 1162,
+      "nozzle": 384
+    },
+    "source": 8302,
+    "added_geometry": 1152,
+    "pdc_base": 138,
+    "pdc_barrel": 539,
+    "assembled": 12162
+  },
+  "spatial": {
+    "box": {
+      "center": [
+        0.0,
+        -1.7763568394002505e-15,
+        -0.20000000000000284
+      ],
+      "extents": [
+        34.53292580547861,
+        29.13661096848159,
+        116.5985845347826
+      ]
+    },
+    "radius": 124.3739410138517
+  },
+  "meshpoints": [
+    {
+      "name": "center",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0,
+        41.336610968481594,
+        0
+      ]
+    },
+    {
+      "name": "aura",
+      "translation": [
+        0,
+        -36.336610968481594,
+        0
+      ]
+    },
+    {
+      "name": "child.expanse23_murphy_pdc_0",
+      "translation": [
+        34.53292580547861,
+        -10.0,
+        22.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse23_murphy_pdc_1",
+      "translation": [
+        -34.53292580547861,
+        -10.0,
+        22.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse23_murphy_pdc_2",
+      "translation": [
+        0.0,
+        29.13661096848159,
+        -18.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse23_murphy_pdc_3",
+      "translation": [
+        0.0,
+        -29.136610968481595,
+        -18.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "weapon.torpedo.0",
+      "translation": [
+        -8.0,
+        9.0,
+        110.72238851330363
+      ]
+    },
+    {
+      "name": "weapon.torpedo.1",
+      "translation": [
+        8.0,
+        9.0,
+        110.72238851330363
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        -0.7060239829034213,
+        -1.5303552479540439,
+        -116.5985845347826
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "weapon.rail.0",
+      "translation": [
+        0,
+        16,
+        116.5985845347826
+      ]
+    },
+    {
+      "name": "weapon.rail.1",
+      "translation": [
+        -0.7060239829034213,
+        -21.530355247954045,
+        -116.5985845347826
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "rigs": [
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse23_murphy_pdc_0",
+      "position": [
+        34.53292580547861,
+        -10.0,
+        22.0
+      ],
+      "up": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "support_surface": [
+        30.885696298084078,
+        -10.0,
+        22.0
+      ],
+      "support_length": 4.097229507394534,
+      "outward_hull_plane_clearance": 2.8,
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": 0.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse23_murphy_pdc_base",
+        "biaxial_barrel_mesh": "expanse23_murphy_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse23_murphy_pdc_1",
+      "position": [
+        -34.53292580547861,
+        -10.0,
+        22.0
+      ],
+      "up": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "support_surface": [
+        -30.885696298084078,
+        -10.0,
+        22.0
+      ],
+      "support_length": 4.097229507394534,
+      "outward_hull_plane_clearance": 2.8,
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": 0.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse23_murphy_pdc_base",
+        "biaxial_barrel_mesh": "expanse23_murphy_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse23_murphy_pdc_2",
+      "position": [
+        0.0,
+        29.13661096848159,
+        -18.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "support_surface": [
+        0.0,
+        24.993255909930248,
+        -18.0
+      ],
+      "support_length": 4.593355058551342,
+      "outward_hull_plane_clearance": 2.8,
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": 0.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse23_murphy_pdc_base",
+        "biaxial_barrel_mesh": "expanse23_murphy_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse23_murphy_pdc_3",
+      "position": [
+        0.0,
+        -29.136610968481595,
+        -18.0
+      ],
+      "up": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "support_surface": [
+        0.0,
+        -24.99325681981818,
+        -18.0
+      ],
+      "support_length": 4.5933541486634155,
+      "outward_hull_plane_clearance": 2.8,
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": 0.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse23_murphy_pdc_base",
+        "biaxial_barrel_mesh": "expanse23_murphy_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    }
+  ],
+  "torpedo_ports": [
+    [
+      -8.0,
+      9.0,
+      110.72238851330363
+    ],
+    [
+      8.0,
+      9.0,
+      110.72238851330363
+    ]
+  ],
+  "exhaust_point": [
+    -0.7060239829034213,
+    -1.5303552479540439,
+    -116.5985845347826
+  ],
+  "reserved_rail_points": [
+    "weapon.rail.0",
+    "weapon.rail.1"
+  ],
+  "adaptations": [
+    "Four visible PDC mounts and their exact locations are mod adaptations; canon does not specify this count.",
+    "Two forward torpedo tubes follow the RPG role; collars are original added geometry.",
+    "Reserved rail points are optional integration origins, not additional modeled guns.",
+    "Blue nozzle annulus and UNN gray/navy panel materials are original mod art."
+  ],
+  "checks": {
+    "all_source_faces_retained": true,
+    "source_degenerate_faces": 0,
+    "support_first_hit_rays": true,
+    "meshpoint_transforms_exact": true,
+    "source_frame_error": 3.868067418169545e-06,
+    "opposed_winding_triangles": 0,
+    "initial_winding_flips": 8292,
+    "only_tangent_bytes_repaired": true,
+    "official_triangle_grid_and_trailer_preserved": true,
+    "donor_game_bytes_unchanged": true
+  },
+  "runtime": "NOT RUN",
+  "skin_contract": {
+    "unit_mesh": {
+      "mesh": "expanse23_murphy_hull",
+      "shader": "ship",
+      "is_shadow_blocker": true
+    },
+    "child_mesh_alias_bindings": {
+      "map": [
+        {
+          "mesh_alias_name": "expanse23_murphy_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse23_murphy_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse23_murphy_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse23_murphy_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ]
+    },
+    "exhaust_effects": {
+      "particle_effects": [
+        {
+          "particle_effect": "expanse23_murphy_idle_plume"
+        }
+      ]
+    },
+    "exhaust_notes": "One exhaust.0 with accepted Truman rotation; private blue idle effect at 0.5 spatial scale. No six-engine absolute phase effect reused; use ordinary hyperspace effects until a custom phase plume is authored."
+  },
+  "source_game_hashes": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/effects/expanse15_truman_idle_plume.particle_effect": "84962541459fb493ac8bb9d9624fa5650433a5d16f916ae36789d15b0e27fa98",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/meshes/expanse11_morrigan_pdc_base.mesh": "cbda0af5ad4120159a4a60247dc0d318d11d7331e42b98daa60cbdb74082ad00",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/meshes/expanse11_morrigan_pdc_barrel.mesh": "25f7854e78b7a6c6f9f29a5be60522d291d29b817188bf8e53165c1a0825cf80",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/mesh_materials/expanse11_morrigan_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/mesh_materials/expanse11_morrigan_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1"
+  },
+  "files": {
+    "effects/expanse23_murphy_idle_plume.particle_effect": "f4da52c6d0038a21ce47b09d0b6a3a788687416d9c73f45b85e566b3ef847a43",
+    "mesh_materials/expanse11_morrigan_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse11_morrigan_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse23_murphy_hull_armor.mesh_material": "e468ba4e5819ad522ab050042048d440abbad5577a463914f2eb80300586919a",
+    "mesh_materials/expanse23_murphy_hull_machinery.mesh_material": "8c928ad965dba17b2cf5663ceae2b9a25e1b35e26db8240c6aa9f219cc577158",
+    "mesh_materials/expanse23_murphy_hull_nozzle.mesh_material": "6bdf7f5e284784c1407c78c766ea0c70ed150502bd638e64721b68e9bb95117a",
+    "meshes/expanse23_murphy_hull.mesh": "94fa54ff5967451ee96b6fa7aa93c4ebcb66f05c488fd419bfe6336a428e4fa7",
+    "meshes/expanse23_murphy_pdc_barrel.mesh": "25f7854e78b7a6c6f9f29a5be60522d291d29b817188bf8e53165c1a0825cf80",
+    "meshes/expanse23_murphy_pdc_base.mesh": "cbda0af5ad4120159a4a60247dc0d318d11d7331e42b98daa60cbdb74082ad00",
+    "textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse23_murphy_armor_clr.dds": "1ce8cee89a011a182e67c579b0e6d37c00e6ad6e610582ca7f23e0350f71b400",
+    "textures/expanse23_murphy_glow_msk.dds": "067553d8cdd84b8be4f1d10db84f8e623b970b6d1b9bf7fa254031168e5ad465",
+    "textures/expanse23_murphy_machinery_clr.dds": "f44e62d07dfa46f38ab0246d8691c5aaa46fb7a82e0a30981ee73f7725b16408",
+    "textures/expanse23_murphy_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse23_murphy_nozzle_clr.dds": "789a24e7515618594a23497440bbe82006c9a84d654060ac867c4507e0026836",
+    "textures/expanse23_murphy_orm.dds": "3e2e20e59e6fc4bab49706244ec914263f6ace0913a14e2661c3df026bb6bbb5",
+    "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d"
+  },
+  "wine_prefix_used_in_place": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/proton-prefix",
+  "wine_prefix_copied": false
+}
