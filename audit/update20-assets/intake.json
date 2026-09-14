@@ -1,0 +1,1142 @@
+{
+  "archives": [
+    {
+      "archive": "/home/haker/Downloads/un-one-from-the-expanse-tv-show-1100-scale-model_files.zip",
+      "sha256": "35b7c563f7a7ebb1501511ee06164f5d5f61f04d47997216222756d2f1d738e6",
+      "entries": [
+        {
+          "name": "UN One - Body Front.stl",
+          "bytes": 1475584,
+          "sha256": "69fe77391b3a56a3a8b91c84718df660c1170b4f817cbf163234e3f19a218187",
+          "triangles": 29510,
+          "bounds": [
+            [
+              110.0,
+              -63.828800201416016,
+              -19.133764266967773
+            ],
+            [
+              260.0,
+              63.828800201416016,
+              19.535524368286133
+            ]
+          ],
+          "dimensions": [
+            150.0,
+            127.65760040283203,
+            38.669288635253906
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Body Center.stl",
+          "bytes": 1042684,
+          "sha256": "e725843e50b63a068b51e24d9c4a764c337fc02e74ab93e4a83beeca2029c176",
+          "triangles": 20852,
+          "bounds": [
+            [
+              -60.001041412353516,
+              -97.50000762939453,
+              -19.749387741088867
+            ],
+            [
+              110.0,
+              97.50000762939453,
+              21.0
+            ]
+          ],
+          "dimensions": [
+            170.00104141235352,
+            195.00001525878906,
+            40.74938774108887
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Body Rear 1.stl",
+          "bytes": 583884,
+          "sha256": "0e445b91d00e8d8d5195ccc9ce67fb36763735804db8606111210a7417565830",
+          "triangles": 11676,
+          "bounds": [
+            [
+              -147.0,
+              -85.5728530883789,
+              -19.642616271972656
+            ],
+            [
+              -59.99962615966797,
+              85.5728530883789,
+              19.692825317382812
+            ]
+          ],
+          "dimensions": [
+            87.00037384033203,
+            171.1457061767578,
+            39.33544158935547
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Body Rear 2.stl",
+          "bytes": 513984,
+          "sha256": "6c99c5cbd421eeff724d7ca096e2401a762e6ee4d3ebab4f79d20f273637000b",
+          "triangles": 10278,
+          "bounds": [
+            [
+              -247.1065673828125,
+              -85.5728530883789,
+              -19.755220413208008
+            ],
+            [
+              -147.0,
+              85.5728530883789,
+              19.692825317382812
+            ]
+          ],
+          "dimensions": [
+            100.1065673828125,
+            171.1457061767578,
+            39.44804573059082
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Engines.stl",
+          "bytes": 453284,
+          "sha256": "044050a3c36079a59897cbd349693d5a6b8426073e1b524d1c62e26048d6d203",
+          "triangles": 9064,
+          "bounds": [
+            [
+              -257.41015625,
+              -80.5728530883789,
+              -16.737285614013672
+            ],
+            [
+              -180.41363525390625,
+              80.5728530883789,
+              16.692825317382812
+            ]
+          ],
+          "dimensions": [
+            76.99652099609375,
+            161.1457061767578,
+            33.430110931396484
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Wing L.stl",
+          "bytes": 272784,
+          "sha256": "3e1eda1ad17c7443c401d8f084bd2cb6717ced2138314a0681061f3d5b005917",
+          "triangles": 5454,
+          "bounds": [
+            [
+              -233.46376037597656,
+              85.5728530883789,
+              -3.2458767890930176
+            ],
+            [
+              38.024871826171875,
+              255.5,
+              29.921403884887695
+            ]
+          ],
+          "dimensions": [
+            271.48863220214844,
+            169.9271469116211,
+            33.16728067398071
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Wing R.stl",
+          "bytes": 272784,
+          "sha256": "41421387a790686d570df87485d8d86eb529ce879316f59a1df0a7418904f170",
+          "triangles": 5454,
+          "bounds": [
+            [
+              -233.46376037597656,
+              -255.5,
+              -3.2458767890930176
+            ],
+            [
+              38.024871826171875,
+              -85.5728530883789,
+              29.921403884887695
+            ]
+          ],
+          "dimensions": [
+            271.48863220214844,
+            169.9271469116211,
+            33.16728067398071
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Connector Body F.U.stl",
+          "bytes": 181884,
+          "sha256": "830a4c9bae6c584737ff31ba0c8532563d44c9e842c13ec629d27d39920d5a99",
+          "triangles": 3636,
+          "bounds": [
+            [
+              99.30000305175781,
+              -10.899999618530273,
+              5.199999809265137
+            ],
+            [
+              120.69999694824219,
+              10.899999618530273,
+              21.0
+            ]
+          ],
+          "dimensions": [
+            21.399993896484375,
+            21.799999237060547,
+            15.800000190734863
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Connector Body F.B.stl",
+          "bytes": 39184,
+          "sha256": "f72436a59f2d6bff57b78ae3972f39f168dafb1720eca2364161a27f09e3bcba",
+          "triangles": 782,
+          "bounds": [
+            [
+              99.30000305175781,
+              -10.977499961853027,
+              -19.727258682250977
+            ],
+            [
+              138.6999969482422,
+              10.977499961853027,
+              -5.0
+            ]
+          ],
+          "dimensions": [
+            39.399993896484375,
+            21.954999923706055,
+            14.727258682250977
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Connector  body R.U.stl",
+          "bytes": 86184,
+          "sha256": "2dfbfb9dc388e074d2d4fbc0aac98d76491e6572546e2e48cd4bef478a5845d6",
+          "triangles": 1722,
+          "bounds": [
+            [
+              -70.37416076660156,
+              -10.899999618530273,
+              5.199999809265137
+            ],
+            [
+              -50.574161529541016,
+              10.90000057220459,
+              20.0
+            ]
+          ],
+          "dimensions": [
+            19.799999237060547,
+            21.800000190734863,
+            14.800000190734863
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Connector  body R.B.stl",
+          "bytes": 35584,
+          "sha256": "cf124d1b382a3de74b221af45585471fdc3823ed76fb8730a4df016b0a6e0d4a",
+          "triangles": 710,
+          "bounds": [
+            [
+              -70.69999694824219,
+              -10.899999618530273,
+              -19.691598892211914
+            ],
+            [
+              -49.29999923706055,
+              10.899999618530273,
+              -5.0
+            ]
+          ],
+          "dimensions": [
+            21.39999771118164,
+            21.799999237060547,
+            14.691598892211914
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Connector C1 (x8).stl",
+          "bytes": 40584,
+          "sha256": "86b9edda5bb499009362d215b8e6f42b26c1d3f51e756298d4f0792e26692be9",
+          "triangles": 810,
+          "bounds": [
+            [
+              95.0,
+              -30.950000762939453,
+              -8.948472023010254
+            ],
+            [
+              124.0,
+              -13.050000190734863,
+              8.948472023010254
+            ]
+          ],
+          "dimensions": [
+            29.0,
+            17.90000057220459,
+            17.896944046020508
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Body Rear Up L.stl",
+          "bytes": 422784,
+          "sha256": "10a986c4fe8846eedac84e2378d17f8eb761ecc25cae7ff23d449d1c37771685",
+          "triangles": 8454,
+          "bounds": [
+            [
+              -234.81927490234375,
+              6.598015785217285,
+              -4.0
+            ],
+            [
+              -72.59899139404297,
+              74.99152374267578,
+              19.45085906982422
+            ]
+          ],
+          "dimensions": [
+            162.22028350830078,
+            68.3935079574585,
+            23.45085906982422
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Body Rear Up R.stl",
+          "bytes": 422784,
+          "sha256": "71c8b391de628a34e79d4c5f8eccd3e417fe5a728bf27f6f4f441df47e684782",
+          "triangles": 8454,
+          "bounds": [
+            [
+              -234.81927490234375,
+              -74.99152374267578,
+              -4.0
+            ],
+            [
+              -72.59899139404297,
+              -6.598015785217285,
+              19.45085906982422
+            ]
+          ],
+          "dimensions": [
+            162.22028350830078,
+            68.3935079574585,
+            23.45085906982422
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Body Rear Bottom L.stl",
+          "bytes": 38884,
+          "sha256": "f17e040d683d1153645ec2cf01f2219b7c2a47c15bbf3dc1019acdc80e5104d1",
+          "triangles": 776,
+          "bounds": [
+            [
+              -144.9372100830078,
+              40.60357666015625,
+              -16.294153213500977
+            ],
+            [
+              -100.08577728271484,
+              58.536869049072266,
+              -5.0
+            ]
+          ],
+          "dimensions": [
+            44.85143280029297,
+            17.933292388916016,
+            11.294153213500977
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Body Rear Bottom R.stl",
+          "bytes": 38884,
+          "sha256": "dc9de09eca43978a1c1a51767f99c893484fe0a78afd47032763595777d50e0b",
+          "triangles": 776,
+          "bounds": [
+            [
+              -144.9372100830078,
+              -58.536869049072266,
+              -16.294153213500977
+            ],
+            [
+              -100.08577728271484,
+              -40.60357666015625,
+              -5.0
+            ]
+          ],
+          "dimensions": [
+            44.85143280029297,
+            17.933292388916016,
+            11.294153213500977
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Connector R1 (x2).stl",
+          "bytes": 3084,
+          "sha256": "f033ba18b9a15d60998dddce8afa15bbef73bb7ee91e692c91f2777ff525f181",
+          "triangles": 60,
+          "bounds": [
+            [
+              -169.89999389648438,
+              66.0728530883789,
+              -1.5
+            ],
+            [
+              -150.10000610351562,
+              105.0728530883789,
+              1.5
+            ]
+          ],
+          "dimensions": [
+            19.79998779296875,
+            39.0,
+            3.0
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Connector Wing L.stl",
+          "bytes": 5684,
+          "sha256": "228b540d38d946f2740aec325794e426df64d117eb775a73198e79aeb0df403c",
+          "triangles": 112,
+          "bounds": [
+            [
+              -19.899999618530273,
+              70.86514282226562,
+              -3.7762508392333984
+            ],
+            [
+              -0.10000000149011612,
+              100.27285766601562,
+              0.0
+            ]
+          ],
+          "dimensions": [
+            19.799999617040157,
+            29.40771484375,
+            3.7762508392333984
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Connector Wing R.stl",
+          "bytes": 5684,
+          "sha256": "2286ca7efbc9a54b3fcb43e823064d1dbba6de60574a06983ac33d0ea7dc63fc",
+          "triangles": 112,
+          "bounds": [
+            [
+              -19.899999618530273,
+              -100.27285766601562,
+              -3.7762508392333984
+            ],
+            [
+              -0.10000000149011612,
+              -70.86514282226562,
+              0.0
+            ]
+          ],
+          "dimensions": [
+            19.799999617040157,
+            29.40771484375,
+            3.7762508392333984
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Stand.stl",
+          "bytes": 633484,
+          "sha256": "4f33e0313200bba52051da78c0dc1c2b631ea680fae5183cd9606fcc7365e3c3",
+          "triangles": 12668,
+          "bounds": [
+            [
+              -226.82223510742188,
+              -100.0,
+              -203.16221618652344
+            ],
+            [
+              -1.390977382659912,
+              100.0,
+              -21.0
+            ]
+          ],
+          "dimensions": [
+            225.43125772476196,
+            200.0,
+            182.16221618652344
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "UN One - Stand interface.stl",
+          "bytes": 500184,
+          "sha256": "7d18b46e99bb5694326a7b6820b244603b5f00aa367a416922c8f54e3c68bba8",
+          "triangles": 10002,
+          "bounds": [
+            [
+              -213.24278259277344,
+              -39.0,
+              -29.0
+            ],
+            [
+              -35.0,
+              39.0,
+              -2.0
+            ]
+          ],
+          "dimensions": [
+            178.24278259277344,
+            78.0,
+            27.0
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "515915-un-one-from-the-expanse-tv-show-1100-scale-c53149e9-3e04-47d5-a077-2c744a3648a2.pdf",
+          "bytes": 1264319,
+          "sha256": "1102ec15501c0e2f01621b1e6509618cfc695c9d2d2f88f41751f70bbb6b95b0",
+          "text": "3D\n\nM\nO\n\nD\n\nEL\n\nO\n\nN\n\nLY\n\nUN One From THE\nEXPANSE TV show 1:100 Scale\nLionel SAVOCA\n\nVIEW IN BROWSER\nupdated 13. 12. 2023 | published 13. 12. 2023\n\nSummary\nModel of the UN One from the TV show THE EXPANSE at 1:100 scale (52cm\nlong)\nTabletop Miniatures > Vehicles & Machines\nTags: space\nunitednations\n\nspaceship\n\nscifi\n\nexpanse\n\ntheexpanse\n\nmcrn\n\nunone\n\nHere is my own interpretation of the UN One form The Expanse. The model\nis design at 1:100 and mesure around 52 centimeter long but designed to\nbe undersized until 40 % size without issues (1:250 scale - 21 cm long). It\ncan be printed on a standard Printer or with MMU.\nHere is printing size and scale table guide :\n\n\fPrinting size\n100%\n67%\n50%\n40%\n\nScale\n1:100\n1:150\n1:200\n1:250\n\nLenght\n52 cm\n35 cm\n26cm\n21 cm\n\ncomment\nalmost same scale than MartinTaichl's Rocinante (1\n\nThe details on the shell are embossed to facilitate the painting both in\nprusa slicer in case of MMU and with a brush.\nThe 100% size print needs around 1,4Kg of filament and 250 hours of\nprinting.\nINFORMATION : to avoid the theft and resale of 3D models, an\nannotation has been added to some 3Ds, however this annotation is small\nenough to be ignored by the slicer when slicing.\nHere is the assembly instructions :\n\n\f\f\fModel files\nun-one-body-front.stl\n\nun-one-body-center.stl\n\nun-one-body-rear-1.stl\n\nun-one-body-rear-2.stl\n\nun-one-engines.stl\n\nun-one-wing-l.stl\n\nun-one-wing-r.stl\n\nun-one-connector-body-fu.stl\n\nun-one-connector-body-fb.stl\n\n\fun-one-connector-body-ru.stl\n\nun-one-connector-body-rb.stl\n\nun-one-connector-c1-x8.stl\n\nun-one-body-rear-up-l.stl\n\nun-one-body-rear-up-r.stl\n\nun-one-body-rear-bottom-l.stl\n\nun-one-body-rear-bottom-r.stl\n\nun-one-connector-r1-x2.stl\n\nun-one-connector-wing-l.stl\n\nun-one-connector-wing-r.stl\n\n\fun-one-stand.stl\n\nun-one-stand-interface.stl\n\nLicense \uf1f9\nThis work is licensed under a\nCreative Commons (4.0 International License)\nAttribution-ShareAlike\n\n\u2716 | Sharing without ATTRIBUTION\n\u2714 | Remix Culture allowed\n\u2714 | Commercial Use\n\u2714 | Free Cultural Works\n\u2714 | Meets Open Definition\n\n\f"
+        }
+      ]
+    },
+    {
+      "archive": "/home/haker/Downloads/nauvoobehemothmedina-station-the-expanse-model_files.zip",
+      "sha256": "2bec7dd645bb2d31fa4ad38c12aa59d64cd9d299d59d6b521126169df26e181f",
+      "entries": [
+        {
+          "name": "part31behemoth.stl",
+          "bytes": 1202384,
+          "sha256": "0c287d10d03337cc007b07535bd21900652dcbbf57648151a2f337b5b7c1bd0a",
+          "triangles": 24046,
+          "bounds": [
+            [
+              -41.58287048339844,
+              -41.59157180786133,
+              0.0
+            ],
+            [
+              41.592498779296875,
+              41.58380126953125,
+              212.90872192382812
+            ]
+          ],
+          "dimensions": [
+            83.17536926269531,
+            83.17537307739258,
+            212.90872192382812
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "729020-nauvoobehemothmedina-station-the-expanse-0507c3d7-fd9b-4a27-8692-b4b070ed89bf.pdf",
+          "bytes": 89820,
+          "sha256": "9fb394e5fea4a0f20171bc6839c056dd0005445be24af52a7caf2e07f6e1a4e5",
+          "text": "3D\n\nM\nO\n\nD\n\nEL\n\nO\n\nN\n\nLY\n\nNauvoo/Behemoth/\nMedina Station |\nThe Expanse\nR\n\nRingBuilder\n\nVIEW IN BROWSER\nupdated 19. 1. 2024 | published 19. 1. 2024\n\nSummary\nThe Nauvoo from The Expanse.\nTabletop Miniatures > Vehicles & Machines\nTags: model\n\nmodelrocket\n\nmedinastation\n\ntheexpanse\n\nbehemoth\n\nnauvoo\n\nWARNING: The support bars on the front and back of the ship are fragile. I\nSTRONGLY recommend using a resin printer for this.\n\nModel files\npart31behemoth.stl\n\n\fLicense \uf1f9\nThis work is licensed under a\nCreative Commons (International License)\nPublic Domain\n\n\u2714 | Sharing without ATTRIBUTION\n\u2714 | Remix Culture allowed\n\u2714 | Commercial Use\n\u2714 | Free Cultural Works\n\u2714 | Meets Open Definition\n\n\f"
+        }
+      ]
+    },
+    {
+      "archive": "/home/haker/Downloads/lns-gathering-storm-the-expanse-model_files.zip",
+      "sha256": "4d04c88a8fc525bc40c46defc720bb3527614ee294ff689d044497ff8b955445",
+      "entries": [
+        {
+          "name": "gathering-storm-3d-print-whole.stl",
+          "bytes": 3290284,
+          "sha256": "e8ba0a0d64a577c62faf9d484114d7f110674690d1f448fd511de0edb34d7271",
+          "triangles": 65804,
+          "bounds": [
+            [
+              -44.308143615722656,
+              69.2898178100586,
+              -98.90713500976562
+            ],
+            [
+              156.96839904785156,
+              110.44032287597656,
+              -68.04711151123047
+            ]
+          ],
+          "dimensions": [
+            201.27654266357422,
+            41.15050506591797,
+            30.860023498535156
+          ],
+          "finite": true,
+          "degenerate_triangles": 5,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "gathering-storm-3d-print-01-bow.stl",
+          "bytes": 300584,
+          "sha256": "c3c79de960394063ce832dd6500a0cc3d99f4803c9c712a518c461a35dc7029c",
+          "triangles": 6010,
+          "bounds": [
+            [
+              129.4108123779297,
+              79.2391128540039,
+              -113.51573181152344
+            ],
+            [
+              173.69369506835938,
+              100.48784637451172,
+              -61.152591705322266
+            ]
+          ],
+          "dimensions": [
+            44.28288269042969,
+            21.248733520507812,
+            52.36314010620117
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "gathering-storm-3d-print-02-middle.stl",
+          "bytes": 1402884,
+          "sha256": "702b362aa02f2886f612594a73d0ab6d26b3a188a6d78d49e7b9f67c2f5da2c2",
+          "triangles": 28056,
+          "bounds": [
+            [
+              50.81461715698242,
+              69.2898178100586,
+              -113.51573181152344
+            ],
+            [
+              99.48011016845703,
+              110.44032287597656,
+              -55.71797561645508
+            ]
+          ],
+          "dimensions": [
+            48.66549301147461,
+            41.15050506591797,
+            57.79775619506836
+          ],
+          "finite": true,
+          "degenerate_triangles": 3,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "gathering-storm-3d-print-03-stern.stl",
+          "bytes": 1522584,
+          "sha256": "d6275bcc839cdeeeb2c6129e51b7ac2d610e44cc493bf9555b9dffdff15238fd",
+          "triangles": 30450,
+          "bounds": [
+            [
+              91.3445816040039,
+              81.2348403930664,
+              -113.51573181152344
+            ],
+            [
+              130.03636169433594,
+              118.64007568359375,
+              -68.5047378540039
+            ]
+          ],
+          "dimensions": [
+            38.69178009033203,
+            37.405235290527344,
+            45.01099395751953
+          ],
+          "finite": true,
+          "degenerate_triangles": 2,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "gathering-storm-3d-print-04-railgun-and-drive-cone.stl",
+          "bytes": 64484,
+          "sha256": "d3f79a22244a9a4d165e0b1f98df46a92837d3d3339193d4e5e16b12c6753464",
+          "triangles": 1288,
+          "bounds": [
+            [
+              121.30817413330078,
+              70.90898132324219,
+              -113.51573181152344
+            ],
+            [
+              141.79220581054688,
+              74.67724609375,
+              -76.71573638916016
+            ]
+          ],
+          "dimensions": [
+            20.484031677246094,
+            3.7682647705078125,
+            36.79999542236328
+          ],
+          "finite": true,
+          "degenerate_triangles": 2,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "1232891-lns-gathering-storm-the-expanse-1cde577d-b494-488a-ad58-50bf321302d8.pdf",
+          "bytes": 167260,
+          "sha256": "357fe143d739a767c7398fd1c943190d57410dd17d32ef0d5400d67e55e3f4de",
+          "text": "3D\n\nM\n\nO\n\nD\n\nEL\n\nO\n\nN\n\nLY\n\nL.N.S. Gathering\nStorm - The\nExpanse\nd\n\ndredeth\n\nVIEW IN BROWSER\nupdated 17. 3. 2025 | published 17. 3. 2025\n\nSummary\nMy design of Laconian Fast Destroyer, as described in the last 3 books of\n\"The Expanse\"\nTabletop Miniatures > Vehicles & Machines\nTags: expanse\nlaconia\n\nmcrn\n\ngatheringstorm\n\nvalkyrie\n\nholden\n\nprotomolecule\n\nduarte\n\nThis is a personal fan art project inspired by the universe of The Expanse.\nAs a professional architect with a passion for science fiction, I wanted to\nreimagine the spaces and structures that might exist in this incredible\nworld. I\u2019ve focused on architectural detail, proportion, and immersive\ndesign described in James S. A. Corey's books.\nAs its Wiki page states: \"The Gathering Storm, or simply the Storm, is a\nLaconian Pulsar-class fast-attack destroyer.\"\nThis is a non-commercial project, made purely out of admiration for the\nseries.\nMore details and info on my ArtStation portfolio: https://\nwww.artstation.com/vrac and YouTube channel: https://www.youtube.com/\n@dredeth\n\n\fModel files\ngathering-storm-3d-print-whole.stl\n\ngathering-storm-3d-print-01-bow.stl\n\ngathering-storm-3d-print-02-middle.stl\n\ngathering-storm-3d-print-03-stern.stl\n\ngathering-storm-3d-print-04-railgun-and-drive-cone.stl\n\nLicense \uf1f9\nThis work is licensed under a\nCreative Commons (4.0 International License)\nAttribution-NonCommercial\n\n\u2716 | Sharing without ATTRIBUTION\n\u2714 | Remix Culture allowed\n\u2716 | Commercial Use\n\u2716 | Free Cultural Works\n\u2716 | Meets Open Definition\n\n\f\f"
+        }
+      ]
+    },
+    {
+      "archive": "/home/haker/Downloads/UN IPBM from The Expanse - 2639049.zip",
+      "sha256": "97ca7f3e5228450854b95b8222f393e8f1cd00950b92c23142a6ed96a6cb979f",
+      "entries": [
+        {
+          "name": "files/unnipbm.stl",
+          "bytes": 2725784,
+          "sha256": "50ca07ac3e17138f5612b8a6d8488d6d4f87156cc653cbc7ac305a82b2151e2c",
+          "triangles": 54514,
+          "bounds": [
+            [
+              -4.6365275382995605,
+              -0.7204769253730774,
+              -0.684719979763031
+            ],
+            [
+              4.440612316131592,
+              0.7210866808891296,
+              0.6968494653701782
+            ]
+          ],
+          "dimensions": [
+            9.077139854431152,
+            1.441563606262207,
+            1.3815694451332092
+          ],
+          "finite": true,
+          "degenerate_triangles": 1648,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "files/unnipbmv2.stl",
+          "bytes": 1998084,
+          "sha256": "d14c961dcb478de68a71d00e5243cba083ce9cd005ae8d8b2772c88e3223744e",
+          "triangles": 39960,
+          "bounds": [
+            [
+              -0.6997149586677551,
+              -0.7190844416618347,
+              -4.637588024139404
+            ],
+            [
+              0.6454876661300659,
+              0.7190845608711243,
+              4.4537553787231445
+            ]
+          ],
+          "dimensions": [
+            1.345202624797821,
+            1.438169002532959,
+            9.091343402862549
+          ],
+          "finite": true,
+          "degenerate_triangles": 1648,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "images/5bb60cde4abcd0b24e7f95656f27278a.png",
+          "bytes": 103665,
+          "sha256": "1ce8a46ae5e43587a1ccb67aa7b5c9e624235cd5f303f7db73563f3621d92d66"
+        },
+        {
+          "name": "images/IMG_4675.jpg",
+          "bytes": 1315684,
+          "sha256": "83ef377e440aa7f1934fe6c907e732e3770b6eb9a179d042b7be4ec266e5f52b"
+        },
+        {
+          "name": "images/7950c33afac82188f61a2bbbd4818d25.png",
+          "bytes": 236725,
+          "sha256": "08b561d32f3458218139a8be2f627d10c1929daa4db6a5455f40333e3c490260"
+        },
+        {
+          "name": "README.txt",
+          "bytes": 223,
+          "sha256": "d610b94a347e002fa6cf205f7630f17fa2329cc11fd0422fc9d30dce6dd581bc",
+          "text": "UN IPBM from The Expanse by trehn on Thingiverse: https://www.thingiverse.com/thing:2639049\n\nSummary:\nUnited Nations Interplanetary Ballistic Missile as seen at the beginning of Episode 3 in Season 2 of The Expanse on SYFY."
+        },
+        {
+          "name": "LICENSE.txt",
+          "bytes": 133,
+          "sha256": "bd2d900c64b81a21c2bf4740803d744eb4b9508448c9dfb337a5c461491c5c5a",
+          "text": "This thing was created by Thingiverse user trehn, and is licensed under Creative Commons - Attribution - Non-Commercial - Share Alike"
+        }
+      ]
+    },
+    {
+      "archive": "/home/haker/Downloads/UNN Murphy Class Destroyer - 7350801.zip",
+      "sha256": "23405f9bee36c6cc719b3bc33d4987c7435744c0dc1d4652227418669c8271e6",
+      "entries": [
+        {
+          "name": "files/UNN_Murphy_Class_Destroyer.stl",
+          "bytes": 415184,
+          "sha256": "060e3755a814965ee57d3dee33c75e97267690febc04599309e7416f18a24a0d",
+          "triangles": 8302,
+          "bounds": [
+            [
+              -2.630000114440918,
+              -13.0,
+              -2.90992883543624e-14
+            ],
+            [
+              14.0,
+              48.0,
+              13.802000045776367
+            ]
+          ],
+          "dimensions": [
+            16.630000114440918,
+            61.0,
+            13.802000045776396
+          ],
+          "finite": true,
+          "degenerate_triangles": 0,
+          "has_uv": false,
+          "has_materials": false
+        },
+        {
+          "name": "images/UNN_Murphy_Class_Destroyer.png",
+          "bytes": 325646,
+          "sha256": "5287de91127ade4314a0a409284d40c4bcfd6f78426a0ef9938b43c7ab1885dc"
+        },
+        {
+          "name": "README.txt",
+          "bytes": 144,
+          "sha256": "724a1c0c468e731b6c5015c3ed7864d56f6d904867157d9893215ea32623b1c4",
+          "text": "UNN Murphy Class Destroyer by Qwerty1998 on Thingiverse: https://www.thingiverse.com/thing:7350801\n\nSummary:\na made up UNN ship from the Expanse"
+        },
+        {
+          "name": "LICENSE.txt",
+          "bytes": 121,
+          "sha256": "5f0cf53931a699adca96ce6bd9085a64bcadd4c0b6f3b97d8bbe77dbeecb23fe",
+          "text": "This thing was created by Thingiverse user Qwerty1998, and is licensed under Creative Commons - Attribution - Share Alike"
+        }
+      ]
+    }
+  ],
+  "urshanabi": [
+    {
+      "file": "/run/media/haker/NVME 2/expanse-extracted/UNN-Urshanabi/sdk-candidate/intact-hologram-bases/SM_UrshanaabiHologram01a.gltf",
+      "sha256": "14a34409bf98f6fa028a525d2c0efc7e736380adb0bf8be1f0f8e81619b3a728",
+      "triangles": 17747,
+      "dimensions": [
+        27.697148323059082,
+        22.768887996673584,
+        35.18000030517578
+      ],
+      "bounds": [
+        [
+          -11.131436347961426,
+          -14.888484001159668,
+          -18.37070083618164
+        ],
+        [
+          16.565711975097656,
+          7.880403995513916,
+          16.80929946899414
+        ]
+      ],
+      "has_uv": true,
+      "material_count": 1,
+      "images": [],
+      "nodes": 1
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-extracted/UNN-Urshanabi/sdk-candidate/intact-hologram-bases/SM_UrshanabiHologram01b.gltf",
+      "sha256": "c50ddaf98e6b5ddea48dfa25f95fd9947ead060706db36e887c0cbd7db60b3c2",
+      "triangles": 31156,
+      "dimensions": [
+        2.822063446044922,
+        2.383366823196411,
+        3.6694077253341675
+      ],
+      "bounds": [
+        [
+          -1.7234935760498047,
+          -0.749629020690918,
+          -2.0123848915100098
+        ],
+        [
+          1.0985698699951172,
+          1.6337378025054932,
+          1.6570228338241577
+        ]
+      ],
+      "has_uv": true,
+      "material_count": 1,
+      "images": [],
+      "nodes": 1
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-extracted/UNN-Urshanabi/sdk-candidate/markings/SM_Decal_UNNUrshanabi01A.gltf",
+      "sha256": "a37d43caa87d217886568cb2ebed022d5df6dc0d4e4762714d01e0a836554f3c",
+      "triangles": 30,
+      "dimensions": [
+        1.6729300022125244,
+        0.15883510559797287,
+        2.5873305276036263e-08
+      ],
+      "bounds": [
+        [
+          -0.8364650011062622,
+          -0.07941757142543793,
+          9.417836554348469e-05
+        ],
+        [
+          0.8364650011062622,
+          0.07941753417253494,
+          9.420423884876072e-05
+        ]
+      ],
+      "has_uv": true,
+      "material_count": 1,
+      "images": [],
+      "nodes": 1
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-extracted/UNN-Urshanabi/sdk-candidate/markings/SM_Decal_UNNUrshanabi02A.gltf",
+      "sha256": "e627b544e9140c00b80fd8f2fff2c73da0073e2a5f9bfe9b8144e5278a0956db",
+      "triangles": 4,
+      "dimensions": [
+        1.483146071434021,
+        0.18345649540424347,
+        8.018105290830135e-09
+      ],
+      "bounds": [
+        [
+          -0.7415730357170105,
+          -0.09172828495502472,
+          0.00010992908937623724
+        ],
+        [
+          0.7415730357170105,
+          0.09172821044921875,
+          0.00010993710748152807
+        ]
+      ],
+      "has_uv": true,
+      "material_count": 1,
+      "images": [],
+      "nodes": 1
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-extracted/UNN-Urshanabi/sdk-candidate/markings/SM_Decal_UNN_UrshanabiBadge.gltf",
+      "sha256": "438778d530455633a69b90ee2da25340eabb31a3419a958bf6d772ce9c4597b6",
+      "triangles": 2,
+      "dimensions": [
+        0.15593580901622772,
+        0.1588350236415863,
+        2.5873305276036263e-08
+      ],
+      "bounds": [
+        [
+          -0.07796791195869446,
+          -0.07941751182079315,
+          9.124058851739392e-05
+        ],
+        [
+          0.07796789705753326,
+          0.07941751182079315,
+          9.126646182266995e-05
+        ]
+      ],
+      "has_uv": true,
+      "material_count": 1,
+      "images": [],
+      "nodes": 1
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-extracted/UNN-Urshanabi/sdk-candidate/railguns/SM_Vehi_UnnExtRailgun01A.gltf",
+      "sha256": "2ef5b62bd1801ce9d8cf511fd2f22e487bda8ec0f3e0a64d650925a421d89aab",
+      "triangles": 23305,
+      "dimensions": [
+        7.028231143951416,
+        5.901879668235779,
+        22.777809619903564
+      ],
+      "bounds": [
+        [
+          -3.5642333030700684,
+          0.896553635597229,
+          -5.7652153968811035
+        ],
+        [
+          3.4639978408813477,
+          6.798433303833008,
+          17.01259422302246
+        ]
+      ],
+      "has_uv": true,
+      "material_count": 7,
+      "images": [],
+      "nodes": 1
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-extracted/UNN-Urshanabi/sdk-candidate/railguns/SM_Vehi_UnnExtRailgun01A_Base.gltf",
+      "sha256": "3b59b6e76c4ec69bbfddc941bd020c6e2d02aa03eb6aca4c396030b87c406c06",
+      "triangles": 68,
+      "dimensions": [
+        11.996241092681885,
+        1.0821175947785378,
+        8.266920566558838
+      ],
+      "bounds": [
+        [
+          -5.98766565322876,
+          -0.019666709005832672,
+          -3.054387092590332
+        ],
+        [
+          6.008575439453125,
+          1.062450885772705,
+          5.212533473968506
+        ]
+      ],
+      "has_uv": true,
+      "material_count": 1,
+      "images": [],
+      "nodes": 1
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-extracted/UNN-Urshanabi/sdk-candidate/railguns/SM_Vehi_UnnExtRailgun02A.gltf",
+      "sha256": "35687a392ebab39a2d5fb77142386d31421b4d73aa25391a64ccea4a39850bc5",
+      "triangles": 24115,
+      "dimensions": [
+        7.028231143951416,
+        11.171265959739685,
+        21.87618112564087
+      ],
+      "bounds": [
+        [
+          -3.5642333030700684,
+          0.896553635597229,
+          -5.7652153968811035
+        ],
+        [
+          3.4639978408813477,
+          12.067819595336914,
+          16.110965728759766
+        ]
+      ],
+      "has_uv": true,
+      "material_count": 8,
+      "images": [],
+      "nodes": 1
+    },
+    {
+      "file": "/run/media/haker/NVME 2/expanse-extracted/UNN-Urshanabi/sdk-candidate/unn_urshanabi_wreck.gltf",
+      "sha256": "83c2a0e40c4f06b5cfd9314215b01903c59a1ef4a0a08e0e8fc5b5a08f3f685c",
+      "triangles": 811310,
+      "dimensions": [
+        147.89516718945313,
+        63.54299516489258,
+        319.5394543113281
+      ],
+      "bounds": [
+        [
+          -119.46939849853516,
+          -25.531280517578125,
+          -144.66851806640625
+        ],
+        [
+          28.42576869091797,
+          38.011714647314456,
+          174.87093624492186
+        ]
+      ],
+      "has_uv": true,
+      "material_count": 195,
+      "images": [],
+      "nodes": 84
+    }
+  ]
+}

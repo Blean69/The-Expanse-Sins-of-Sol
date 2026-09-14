@@ -1,0 +1,160 @@
+{
+  "status": "isolated editable art only; NOT compiled, installed, or runtime tested",
+  "source": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/assets/derived/update11-b/update11_donnager_editable.gltf",
+  "source_sha256": "54636637e6230cd9653221de9f2635711cf9a083687049448a060c5cf15c436f",
+  "source_counts": {
+    "donnager_pdc_base": 138,
+    "donnager_pdc_barrel": 539,
+    "donnager_rail_0": 8519
+  },
+  "support_triangles": 168,
+  "assembled_triangles": 10041,
+  "coordinate_system": "+Z forward, +Y up; no compiler reflection",
+  "rail_pivot": [
+    0,
+    0,
+    0
+  ],
+  "rail_muzzle": [
+    -0.5371823312843844,
+    -1.4835910375669655e-05,
+    148.10427678298808
+  ],
+  "pdc_mounts": [
+    {
+      "yaw_pivot": [
+        -71,
+        -31,
+        -26
+      ],
+      "pitch_pivot": [
+        -72.3764509954,
+        -31,
+        -25.8126919598
+      ],
+      "rotation_quaternion": [
+        0,
+        0,
+        0.7071067811865476,
+        0.7071067811865476
+      ],
+      "outward_up": [
+        -1,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "yaw_pivot": [
+        71,
+        -31,
+        -26
+      ],
+      "pitch_pivot": [
+        72.3764509954,
+        -31,
+        -25.8126919598
+      ],
+      "rotation_quaternion": [
+        0,
+        0,
+        -0.7071067811865476,
+        0.7071067811865476
+      ],
+      "outward_up": [
+        1,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "path": "/run/media/haker/NVME 2/expanse-workers/validation/assets/derived/donnager04-c/master/textures/GreyHull_baseColor.jpeg",
+      "sha256": "d66989a5d80424ac292282df12a0208b5ce535a90fc65628c397dbb61374b70a",
+      "copy": "donor_0.jpeg"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/textures/material_baseColor.png",
+      "sha256": "6b52eb697f17719924f09b4471a2067d5d258cd96e8a246f10d45dd553259db0",
+      "copy": "donor_2.png"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/textures/material_metallicRoughness.png",
+      "sha256": "2364f25a08ada859379cc69cfd26f68c70bc28a15267923f4f3867e85dbdc218",
+      "copy": "donor_3.png"
+    },
+    {
+      "path": "/run/media/haker/NVME 2/expanse-mod/assets/derived/baseline/textures/material_normal.png",
+      "sha256": "53b9a5b4737953cf3d92e2709cf488a6df79719401a2e3752d4140e156745208",
+      "copy": "donor_4.png"
+    }
+  ],
+  "reference_weapon": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/entities/expanse10_donnager_rail_0.weapon",
+  "reference_weapon_sha256": "664eb644aeaf2dff22d1cebd00418cb9d122f7b53228ea2e4249394da9b2f8f5",
+  "reference_weapon_values": {
+    "version": 0,
+    "name": "expanse10_donnager.rail.name",
+    "pitch_speed": 0.0,
+    "yaw_speed": 15.0,
+    "range": 12000.0,
+    "cooldown_duration": 30.0,
+    "uniforms_target_filter_id": "common_weapon",
+    "attack_target_type_groups": [
+      "flak",
+      "light",
+      "antiarmor_lrm",
+      "carrier_support",
+      "capital_supercapital_heavy",
+      "defense",
+      "corvette",
+      "defense_starbase_titan",
+      "defense_civilian"
+    ],
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 5000.0,
+    "penetration": 1500.0,
+    "tags": [
+      "rail_gun",
+      "physical"
+    ],
+    "acquire_target_logic": "order_target_only",
+    "target_acquired_duration_required_to_fire": 1.5,
+    "firing": {
+      "firing_type": "projectile",
+      "travel_speed": 4500.0
+    },
+    "effects": {
+      "muzzle_effect": "trader_rebel_titan_rail_gun_weapon_muzzle",
+      "projectile_travel_effect": "trader_rebel_titan_rail_gun_weapon_projectile_travel",
+      "hit_hull_effect": "trader_rebel_titan_rail_gun_weapon_hit_hull",
+      "hit_shield_effect": "trader_rebel_titan_rail_gun_weapon_hit_shield",
+      "hit_shield_impact_radius_t": 1.0
+    },
+    "turret": {
+      "type": "gimbal",
+      "gimbal_mesh": "expanse11_donnager_rail_0",
+      "muzzle_positions": [
+        [
+          -0.5371823312843844,
+          -1.4835910375669655e-05,
+          148.10427678298808
+        ]
+      ]
+    },
+    "yaw_firing_tolerance": 0.5,
+    "pitch_firing_tolerance": 1.0
+  },
+  "gameplay_caveat": "Stage3 integrator must preserve weapon fields and validate platform arcs. Existing donor rail has zero pitch speed; do not promise high/low tracking without separately deciding supported structure geometry/rotation. There is no station unit, local cap, ability or game behavior in this art-only deliverable."
+}

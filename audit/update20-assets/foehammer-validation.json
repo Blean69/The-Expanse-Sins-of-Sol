@@ -1,0 +1,19 @@
+{
+  "checks": {
+    "donnager_pdc_base": "identical donor position/normal/tangent/UV/index arrays",
+    "donnager_pdc_barrel": "identical donor position/normal/tangent/UV/index arrays",
+    "donnager_rail_0": "identical donor position/normal/tangent/UV/index arrays"
+  },
+  "nodes": 6,
+  "rail_count": 1,
+  "pdc_count": 2,
+  "runtime": "NOT RUN",
+  "files": {
+    "donor_0.jpeg": "d66989a5d80424ac292282df12a0208b5ce535a90fc65628c397dbb61374b70a",
+    "donor_2.png": "6b52eb697f17719924f09b4471a2067d5d258cd96e8a246f10d45dd553259db0",
+    "donor_3.png": "2364f25a08ada859379cc69cfd26f68c70bc28a15267923f4f3867e85dbdc218",
+    "donor_4.png": "53b9a5b4737953cf3d92e2709cf488a6df79719401a2e3752d4140e156745208",
+    "foehammer_orbital_editable.bin": "23ec1a903c1f87173381e17899d38706cccf44f790316c6efaa9a2e11b0ce07f",
+    "foehammer_orbital_editable.gltf": "3ba1301191d04fdfc81abcde2448c4d717c569a14ec3d58e4f9647cf43de954a"
+  }
+}
