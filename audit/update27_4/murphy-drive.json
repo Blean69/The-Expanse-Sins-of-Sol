@@ -1,0 +1,221 @@
+{
+  "source_mesh": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_3/meshes/expanse03_hull.mesh",
+  "drive_triangles": 1581,
+  "hull_triangles": 10877,
+  "opening_center": [
+    -0.7060239911079407,
+    -1.5303552150726318,
+    -116.1985870361328
+  ],
+  "diameter": 34,
+  "stub_cut_plane": -94,
+  "neck_z": -94.15578217240504,
+  "connector_root_z": -92,
+  "old_stub_faces_removed_net": 670,
+  "points": [
+    {
+      "name": "center",
+      "translation": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0.0,
+        41.336612701416016,
+        -0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "aura",
+      "translation": [
+        0.0,
+        -36.336612701416016,
+        -0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse23_murphy_pdc_0",
+      "translation": [
+        34.53292465209961,
+        -10.0,
+        22.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.7071067390396978,
+        0.7071068233333948
+      ]
+    },
+    {
+      "name": "child.expanse23_murphy_pdc_1",
+      "translation": [
+        -34.53292465209961,
+        -10.0,
+        22.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067390396978,
+        0.7071068233333948
+      ]
+    },
+    {
+      "name": "child.expanse23_murphy_pdc_2",
+      "translation": [
+        0.0,
+        29.13661003112793,
+        -18.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse23_murphy_pdc_3",
+      "translation": [
+        0.0,
+        -29.13661003112793,
+        -18.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "weapon.torpedo.0",
+      "translation": [
+        -8.0,
+        9.0,
+        110.7223892211914
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "weapon.torpedo.1",
+      "translation": [
+        8.0,
+        9.0,
+        110.7223892211914
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        -0.7060239911079407,
+        -1.5303552150726318,
+        -116.59858703613281
+      ],
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "name": "weapon.rail.0",
+      "translation": [
+        0.0,
+        16.0,
+        116.59858703613281
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "weapon.rail.1",
+      "translation": [
+        -0.7060239911079407,
+        -21.53035545349121,
+        -116.59858703613281
+      ],
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "materials": {
+    "armor": "expanse23_murphy_hull_armor",
+    "machinery": "expanse23_murphy_hull_machinery",
+    "nozzle": "expanse23_murphy_hull_nozzle",
+    "epstein_1": "expanse03_hull_mcrn_tachi_secondary",
+    "epstein_2": "expanse03_hull_mcrn_tachi_primary",
+    "connector": "expanse23_murphy_hull_machinery"
+  },
+  "bounds_min": [
+    -34.53292465209961,
+    -29.13661003112793,
+    -116.1985870361328
+  ],
+  "bounds_max": [
+    34.53292465209961,
+    29.13661003112793,
+    116.3985824584961
+  ],
+  "status": "OFFLINE COMPILED",
+  "runtime": "NOT RUN",
+  "compiler": {
+    "triangles": 10877,
+    "materials": [
+      "expanse23_murphy_hull_armor",
+      "expanse23_murphy_hull_connector",
+      "expanse23_murphy_hull_epstein_1",
+      "expanse23_murphy_hull_epstein_2",
+      "expanse23_murphy_hull_machinery"
+    ],
+    "source_frame_error": 3.866960965376548e-06,
+    "opposed_winding_triangles": 0,
+    "initial_winding_flips": 9446,
+    "meshpoints_unchanged": true,
+    "only_tangent_bytes_repaired": true,
+    "official_triangle_grid_and_trailer_preserved": true
+  }
+}

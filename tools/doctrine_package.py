@@ -87,6 +87,12 @@ def package(base,out,edits,origins,readme,audit,art=None,package_existing=False,
                 require(a==b,'Magazine mechanics changed under geometry exception '+rel)
             else:require(after[rel]==before[rel],'Existing rail/magazine/projectile altered '+rel)
     # No incidental conventional shields, invalid disabled bursts or tag overflow.
+    native_attack_types={read(p).get('ai_attack_target',{}).get('attack_target_type') for p in (GAME/'entities').glob('*.unit')}
+    for p in (out/'entities').glob('*.unit'):
+        d=read(p)
+        require(d.get('ai_attack_target',{}).get('attack_target_type') in native_attack_types,'Engine-unknown AI target type '+p.name)
+        if d.get('user_interface',{}).get('can_be_controlled_by_selected_planet'):
+            require(any(k in d for k in ['carrier','unit_factory','exotic_factory','trade_port']),'Planet control flag on unsupported unit '+p.name)
     for p in (out/'entities').glob('expanse*.unit'):
         for level in read(p).get('health',{}).get('levels',[]):
             require(level.get('max_shield_points',0)==0,'Unplanned shield pool '+p.name)

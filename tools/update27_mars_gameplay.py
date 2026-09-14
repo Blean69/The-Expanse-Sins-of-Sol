@@ -45,7 +45,7 @@ def changes(base,contracts=CONTRACTS):
                           exotic_price=[{'exotic_type':'offense','count':1},{'exotic_type':'defense' if heph else 'utility','count':2 if heph else 1}],prerequisites=[[uid+'_procurement']])
         u['physics'].update(max_linear_speed=1600. if heph else 1550.,time_to_max_linear_speed=3. if heph else 4.,max_angular_speed=25.)
         u['health']['durability']=350. if heph else 250.;u['health']['levels'][0].update(max_hull_points=4000. if heph else 1500.,max_armor_points=2300. if heph else 800.,max_shield_points=0.)
-        u['user_interface']['pip_type']='cruiser' if heph else 'frigate';u['ai_attack_target']['attack_target_type']='capital_supercapital_heavy' if heph else 'light'
+        u['user_interface']['pip_type']='cruiser' if heph else 'frigate';u['ai_attack_target']['attack_target_type']='heavy' if heph else 'light'
         u['player_ai']['attack_ship_weight_scalar']=1.;u['weapons']={'weapons':[],'max_range_weapon_index':10 if heph else 0}
         u['attack']=get('expanse12_scirocco','unit')['attack'] if heph else u['attack']
         for i,rig in enumerate(spec['rigs']):

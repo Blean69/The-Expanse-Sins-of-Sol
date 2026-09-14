@@ -1,0 +1,49 @@
+{
+  "status": "PASS OFFLINE",
+  "action_sources_checked": 65,
+  "gimbal_meshes_checked": 8,
+  "biaxial_pairs_checked": 48,
+  "roles_and_build_radii": "PASS",
+  "all_unit_skin_gui_objects_present": "PASS",
+  "crash_reproduction": "NOT RUN; Pella empty-resource fault remains unlocalized",
+  "confirmed_definition_fixes": [
+    {
+      "unit": "expanse22_mcrn_support_station",
+      "field": "user_interface.can_be_controlled_by_selected_planet",
+      "after": false
+    },
+    {
+      "unit": "expanse22_pdc_picket",
+      "field": "user_interface.can_be_controlled_by_selected_planet",
+      "after": false
+    },
+    {
+      "unit": "expanse22_unn_support_station",
+      "field": "user_interface.can_be_controlled_by_selected_planet",
+      "after": false
+    },
+    {
+      "unit": "expanse27_hephaestus",
+      "field": "ai_attack_target.attack_target_type",
+      "before": "capital_supercapital_heavy",
+      "after": "heavy"
+    },
+    {
+      "unit": "expanse22_opa_support_station",
+      "field": "user_interface.can_be_controlled_by_selected_planet",
+      "after": false
+    },
+    {
+      "unit": "expanse_donnager_battleship",
+      "field": "build.prerequisites",
+      "removed_unused_foreign_branch": "trader_unlock_rebel_titan"
+    }
+  ],
+  "owner_procurement_pairs_checked": 189,
+  "new_drive_triangles": 1581,
+  "murphy_weapon_exhaust_hardpoints_preserved": true,
+  "murphy_existing_spatial_bounds_contain_drive": true,
+  "menu": "NOT INCLUDED; 0.27.3 menu failed user test",
+  "pella_gui": "Serialized GUI and dependencies exist; no proven correction to debug-spawn empty-resource fault.",
+  "runtime": "NOT RUN"
+}

@@ -1,0 +1,104 @@
+{
+  "user_observations": {
+    "menu": "Crash before menu reached",
+    "regular": "Loads with assertions; Pella GUI error; user reports Hephaestus crash",
+    "murphy": "Printed drive stub still visible"
+  },
+  "logs": [
+    {
+      "log": "sins2_log_488.txt",
+      "sha256": "7ee233a48ffb46b6aab47e91723d7112eaad03a5d45e0c3efdd2f7b877c5eccc",
+      "line_count": 726,
+      "enabled_package": "expanse_update27_3",
+      "package_sha256": "727b4de8c63badb147293a571eab60b363b41e6d1704e2dd0640fb185043372f",
+      "installed_files_equal_package": true,
+      "diagnostics": [
+        {
+          "line": 120,
+          "text": "[19:45:31.2251732][   492][           modding_system] Enabling mod : [expanse_update27_3] { name=The Expanse — 0.27.3 Load Repair , version=0.27.3 , compatibility_version=2 , target game version=0.0.0 , bundled_mods=[] , dependencies=0 }"
+        },
+        {
+          "line": 177,
+          "text": "[19:45:41.0915854][   824][              json_reader] json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_3\\entities\\expanse27_hephaestus.unit'."
+        },
+        {
+          "line": 179,
+          "text": "[ai_attack_target] failed to parse \"capital_supercapital_heavy\". key=attack_target_type"
+        },
+        {
+          "line": 183,
+          "text": "json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_3\\entities\\expanse27_hephaestus.unit'."
+        },
+        {
+          "line": 185,
+          "text": "[ai_attack_target] failed to parse \"capital_supercapital_heavy\". key=attack_target_type"
+        },
+        {
+          "line": 193,
+          "text": "- user_interface.can_be_controlled_by_selected_planet=true only needed for [carrier,unit_factory,exotic_factory,trade_port] units"
+        },
+        {
+          "line": 670,
+          "text": "[19:46:37.6437623][  1164][          player_research] Player has an unknown research prerequisite."
+        },
+        {
+          "line": 673,
+          "text": "prerequisite = trader_unlock_rebel_titan.research_subject"
+        },
+        {
+          "line": 707,
+          "text": "[19:47:27.7192060][   492][      unit_rendering_data] unit has no gui_definition : <unit(expanse12_pella)[215]>"
+        },
+        {
+          "line": 720,
+          "text": "[19:47:28.7611771][   492][             resource_ptr] Attempting to get an empty resource. This is most likely due to either a missing serialization, or serialized value was an empty string. This is allowed but client code should be accounting for it explicitly with a has_id() branch."
+        }
+      ],
+      "prior27_1_faults_present": false
+    },
+    {
+      "log": "sins2_log_492.txt",
+      "sha256": "6d96cf036b1c1ce4b750acc962b288f7fd6af95b58dbf3ed8b39937c070bc82a",
+      "line_count": 286,
+      "enabled_package": "expanse_update27_3_menu",
+      "package_sha256": "2d064315b080d0cd493e43b04c9a604b99f47223f314c8c91ac361abfc2fe69a",
+      "installed_files_equal_package": true,
+      "diagnostics": [
+        {
+          "line": 117,
+          "text": "[19:43:30.2941817][   496][           modding_system] Enabling mod : [expanse_update27_3_menu] { name=The Expanse — 0.27.3 MENU BATTLE , version=0.27.3 , compatibility_version=2 , target game version=0.0.0 , bundled_mods=[] , dependencies=0 }"
+        },
+        {
+          "line": 174,
+          "text": "[19:43:40.1516188][   840][              json_reader] json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_3_menu\\entities\\expanse27_hephaestus.unit'."
+        },
+        {
+          "line": 176,
+          "text": "[ai_attack_target] failed to parse \"capital_supercapital_heavy\". key=attack_target_type"
+        },
+        {
+          "line": 180,
+          "text": "json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27_3_menu\\entities\\expanse27_hephaestus.unit'."
+        },
+        {
+          "line": 182,
+          "text": "[ai_attack_target] failed to parse \"capital_supercapital_heavy\". key=attack_target_type"
+        },
+        {
+          "line": 190,
+          "text": "- user_interface.can_be_controlled_by_selected_planet=true only needed for [carrier,unit_factory,exotic_factory,trade_port] units"
+        },
+        {
+          "line": 279,
+          "text": "[19:44:08.4610250][  1072][          player_research] Player has an unknown research prerequisite."
+        },
+        {
+          "line": 282,
+          "text": "prerequisite = trader_unlock_rebel_titan.research_subject"
+        }
+      ],
+      "prior27_1_faults_present": false
+    }
+  ],
+  "limitations": "No stack trace or named source for terminal empty-resource assertion; runtime closure pending."
+}

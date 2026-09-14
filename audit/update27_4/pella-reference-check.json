@@ -1,0 +1,55 @@
+{
+  "status": "PASS OFFLINE REFERENCES ONLY",
+  "unit": "expanse12_pella",
+  "ability_graphs": [
+    {
+      "ability": "expanse12_pella_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_pella_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_pella_light_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_pella_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_pella_reactor",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_pella_reactor.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_pella_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_pella_launch_corvette",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_pella_launch_corvette.action_data_source",
+      "reachable_buffs": [],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_pella_marines",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_pella_marines.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse20_boarding_target_lock.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse12_pella_reactor_breach",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_pella_reactor_breach.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_pella_reactor_breach.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse11_no_shields",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse11_no_shields.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse11_no_shields.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "owning_faction": "OPA",
+  "note": "No proved root cause for no gui_definition on a debug-spawned Pella. Skin GUI explicitly present, resource graph resolves; no speculative player acquisition changes made."
+}
