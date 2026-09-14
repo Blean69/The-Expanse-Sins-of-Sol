@@ -1,0 +1,1288 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "schemas": [
+    {
+      "file": "expanse23_murphy_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse23_murphy_rail.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse23_murphy_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse23_murphy_light_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse23_murphy_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse23_murphy.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse_mcrn_corvette.unit",
+          "source_sha256": "b77dee03ea98cec779d3579624311976b45072a06036f19e0efade0cec56dc08"
+        }
+      ]
+    },
+    {
+      "file": "expanse23_murphy.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "uniforms/unit_tag.uniforms",
+      "unchanged_installed_extension": "item_access_tags",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/uniforms/unit_tag.uniforms",
+      "source_sha256": "ee4bf1143302db18b1325870d8c16de6cec72a077abbdca22cacaa6d8d044928"
+    },
+    {
+      "file": "expanse18_unn.player",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/ai/bounty_placed_messages",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/ai/cease_fire_messages",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/ai/rival_taunts",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/factional_victory/gui_definition",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/0/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/0/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/0/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/0/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/1/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/1/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/1/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/1/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/2/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/2/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/2/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/2/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/3/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/3/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/3/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/3/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/4/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/4/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/4/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/4/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/5/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/5/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/5/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/5/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/5/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/6/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/6/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/6/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/6/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/6/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/7/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/7/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/7/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/7/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/7/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/8/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/8/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/8/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/8/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/8/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/9/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/9/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/9/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/9/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/9/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/10/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/10/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/10/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/10/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/10/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/11/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/11/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/11/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/11/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/11/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/12/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/12/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/12/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/12/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/13/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/13/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/13/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/13/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/14/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/14/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/14/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/14/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/15/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/15/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/15/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/15/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/15/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/16/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/16/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/16/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/16/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/16/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/17/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/17/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/17/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/17/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/18/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/18/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/18/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/18/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/18/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/19/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/19/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/19/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/19/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/20/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/20/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/20/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/planet_types/20/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/cloaked_unit_detected",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_destroy_planet_started",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_destroyed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_shrouded",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_shrouding_started",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/insufficient_corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_ready_to_shroud",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_shrouded",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_corruption_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_culture_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_industry_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_influence_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_population_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/DEPRECATED_starting_units_in_player_file",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/corruption_thresholds",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        },
+        {
+          "field": "/negative_corruption_buffs",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/expanse18_unn.player",
+          "source_sha256": "5c61a778473addcd0fcc325977e4f4320767fc0980aaf8cd845894fcadbb63bf"
+        }
+      ]
+    },
+    {
+      "file": "dlc_trader_loyalist.player",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/ai/bounty_placed_messages",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/ai/cease_fire_messages",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/ai/rival_taunts",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/0/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/0/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/0/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/0/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/1/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/1/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/1/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/1/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/2/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/2/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/2/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/2/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/3/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/3/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/3/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/3/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/4/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/4/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/4/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/4/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/5/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/5/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/5/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/5/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/5/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/6/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/6/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/6/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/6/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/6/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/7/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/7/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/7/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/7/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/7/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/8/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/8/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/8/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/8/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/8/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/9/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/9/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/9/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/9/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/9/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/10/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/10/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/10/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/10/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/10/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/11/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/11/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/11/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/11/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/11/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/12/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/12/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/12/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/12/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/13/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/13/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/13/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/13/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/14/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/14/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/14/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/14/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/15/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/15/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/15/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/15/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/15/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/16/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/16/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/16/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/16/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/16/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/17/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/17/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/17/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/17/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/18/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/18/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/18/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/18/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/18/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/19/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/19/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/19/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/19/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/20/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/20/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/20/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/planet_types/20/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/cloaked_unit_detected",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_destroy_planet_started",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_destroyed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_shrouded",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_shrouding_started",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/insufficient_corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_ready_to_shroud",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_shrouded",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_corruption_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_culture_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_industry_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_influence_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_population_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/corruption_thresholds",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        },
+        {
+          "field": "/negative_corruption_buffs",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22_1/entities/dlc_trader_loyalist.player",
+          "source_sha256": "44f4968b2e1cf681619693bdaad23e712869130b272b75673908d31176d98040"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "unit": "expanse23_murphy",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 2
+      },
+      "values": [
+        {
+          "ability": "expanse23_murphy_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse23_murphy_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse23_murphy_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    }
+  ],
+  "all_changed_ability_graphs": [
+    {
+      "ability": "expanse23_murphy_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse23_murphy_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update23_2/entities/expanse23_murphy_light_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "audio_files_preserved": 160,
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "baseline": {
+    "zip_sha256": "3edaf1e212e1399a922647c4bb6541ba36e0a3c7eeae68c1efae1a1f3d6e613b",
+    "tree_sha256": "17723f1f8e786ae7b6bf28c4cca55ea70f762c166cd1afc6ef938e01f4b671f9"
+  },
+  "changed_files": [
+    ".mod_meta_data",
+    "PLAYTEST-README.md",
+    "effects/expanse23_murphy_idle_plume.particle_effect",
+    "entities/ability.entity_manifest",
+    "entities/action_data_source.entity_manifest",
+    "entities/buff.entity_manifest",
+    "entities/dlc_trader_loyalist.player",
+    "entities/expanse18_unn.player",
+    "entities/expanse23_murphy.unit",
+    "entities/expanse23_murphy.unit_skin",
+    "entities/expanse23_murphy_light_magazine.ability",
+    "entities/expanse23_murphy_light_magazine.action_data_source",
+    "entities/expanse23_murphy_light_magazine.buff",
+    "entities/expanse23_murphy_pdc.weapon",
+    "entities/expanse23_murphy_rail.weapon",
+    "entities/unit.entity_manifest",
+    "entities/unit_skin.entity_manifest",
+    "entities/weapon.entity_manifest",
+    "localized_text/en.localized_text",
+    "mesh_materials/expanse23_murphy_hull_armor.mesh_material",
+    "mesh_materials/expanse23_murphy_hull_machinery.mesh_material",
+    "mesh_materials/expanse23_murphy_hull_nozzle.mesh_material",
+    "meshes/expanse23_murphy_hull.mesh",
+    "meshes/expanse23_murphy_pdc_barrel.mesh",
+    "meshes/expanse23_murphy_pdc_base.mesh",
+    "textures/expanse23_murphy_armor_clr.dds",
+    "textures/expanse23_murphy_glow_msk.dds",
+    "textures/expanse23_murphy_machinery_clr.dds",
+    "textures/expanse23_murphy_msk.dds",
+    "textures/expanse23_murphy_nozzle_clr.dds",
+    "textures/expanse23_murphy_orm.dds",
+    "uniforms/unit_tag.uniforms"
+  ],
+  "runtime": {
+    "load": "NOT RUN",
+    "opening_viability": "NOT RUN",
+    "menus": "NOT RUN",
+    "existing_and_new_research": "NOT RUN",
+    "colonization": "NOT RUN",
+    "bombardment": "NOT RUN",
+    "stacking": "NOT RUN",
+    "ownership": "NOT RUN",
+    "save_reload": "NOT RUN",
+    "multiplayer": "NOT RUN"
+  }
+}

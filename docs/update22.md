@@ -1,4 +1,6 @@
-# 0.22.0 — Stage3 Orbital Defense candidate
+# 0.22.1 — Stage3 Orbital Defense candidate
+
+Supersedes0.22.0: new defenses now use the actual player `structures` constructor list. The earlier candidate incorrectly listed them in ship production. Old files are retained for audit; use this corrected package.
 
 Separate successors to frozen0.21.1 asymmetric and combined packages. Use one package only in a fresh game. No game installation, runtime test, multiplayer test or remote publication has been performed. Original0.19,0.20 and0.21.1 packages remain available for rollback. The user's three-hour playtest refers to0.19 only.
 

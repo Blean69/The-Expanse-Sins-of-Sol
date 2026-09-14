@@ -1,0 +1,61 @@
+{
+  "unit": "expanse23_murphy",
+  "factions": [
+    "unn"
+  ],
+  "source_art": {
+    "zip": "/home/haker/Downloads/UNN Murphy Class Destroyer - 7350801.zip",
+    "zip_sha256": "23405f9bee36c6cc719b3bc33d4987c7435744c0dc1d4652227418669c8271e6",
+    "member": "files/UNN_Murphy_Class_Destroyer.stl",
+    "stl_sha256": "060e3755a814965ee57d3dee33c75e97267690febc04599309e7416f18a24a0d",
+    "author": "Qwerty1998",
+    "url": "https://www.thingiverse.com/thing:7350801",
+    "license": "This thing was created by Thingiverse user Qwerty1998, and is licensed under Creative Commons - Attribution - Share Alike",
+    "author_description": "a made up UNN ship from the Expanse",
+    "source_triangles": 8302,
+    "retained_triangles": 8302,
+    "decimation": false,
+    "source_bounds": [
+      [
+        -2.630000114440918,
+        -13.0,
+        -2.90992883543624e-14
+      ],
+      [
+        14.0,
+        48.0,
+        13.802000045776367
+      ]
+    ]
+  },
+  "stats": {
+    "supply": 95,
+    "cost": {
+      "credits": 1200.0,
+      "metal": 450.0,
+      "crystal": 150.0
+    },
+    "seconds": 60,
+    "hull": 1400,
+    "armor": 1000,
+    "speed": 1350,
+    "pdc_count": 4,
+    "pdc_dps_per_mount": 85,
+    "rail_damage": 750,
+    "rail_interval": 30,
+    "rail_pierce": 800,
+    "rail_arcs": "fixed fore/aft,5degrees yaw,0pitch",
+    "torpedoes_per_pair": 2,
+    "magazine": 8,
+    "pair_seconds": 10,
+    "reload_seconds": 120
+  },
+  "adaptation": "Fan hull, provisional102m scale; four PDC and fixed rail locations are mod interpretations. Reserved hull-integrated rail origins have no additional animated gun mesh. Two opposed rails cannot both concentrate straight ahead. Native orbit behavior fromTachi, ordinary native hyperspace effect until private phase art is authored.",
+  "runtime": "NOT RUN",
+  "unit_tag_entries_append": [
+    {
+      "name": "expanse23_murphy",
+      "localized_name": "expanse23_murphy.name"
+    }
+  ]
+}

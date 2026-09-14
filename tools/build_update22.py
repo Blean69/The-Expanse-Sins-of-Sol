@@ -43,7 +43,8 @@ def definitions(base,sandbox=False):
         recipe=sr['combined_sandbox'] if sandbox else sr['player_recipes'][faction]
         structures=list(recipe['structures_append']);research=list(nodes.values())+[RESEARCH] if sandbox else ([nodes[faction]] if faction in nodes else [RESEARCH])
         if sandbox or faction=='unn':structures.append(ID)
-        p['buildable_units']=list(dict.fromkeys(p['buildable_units']+structures))
+        p['structures']=list(dict.fromkeys(p['structures']+structures))
+        require(all(n in p['structures'] and n not in p['buildable_units'] for n in structures),'Station acquisition must use constructor structures list')
         p['ship_components']=list(dict.fromkeys(p['ship_components']+recipe['ship_components_append']))
         p['research']['research_subjects']=list(dict.fromkeys(p['research']['research_subjects']+research))
         p['unit_limits']['global'].append(recipe['global_unit_limit'])
@@ -64,12 +65,12 @@ def definitions(base,sandbox=False):
             occupied[key]=n
     text=read(base/'localized_text/en.localized_text');text.update(loc);edits['localized_text/en.localized_text']=text
     meta=read(base/'.mod_meta_data');mode='COMBINED SANDBOX' if sandbox else 'ORBITAL DEFENSE'
-    meta.update(display_name='The Expanse — 0.22 '+mode,display_version='0.22.0',short_description='Stage3: Foehammer battery, PDC picket and local engineering stations.',long_description='Frozen0.21.1 foundations plus local shieldless orbital defense. UNN Foehammer battery; faction station art uses disclosed native placeholders. Three slots/four modules; bounded owned-only repair, PDC tracking and local shipyard support. Offline validation only; runtime/MP NOT RUN. No installation or publication.')
+    meta.update(display_name='The Expanse — 0.22.1 '+mode,display_version='0.22.1',short_description='Stage3: Foehammer battery, PDC picket and local engineering stations.',long_description='Frozen0.21.1 foundations plus local shieldless orbital defense. Corrected constructor-menu access. UNN Foehammer battery; faction station art uses disclosed native placeholders. Three slots/four modules; bounded owned-only repair, PDC tracking and local shipyard support. Offline validation only; runtime/MP NOT RUN. No installation or publication.')
     edits['.mod_meta_data']=meta
     return edits,origins,art,{'access':access,'stations':sr,'battery':br,'repair_research':nodes,'runtime':'NOT RUN'}
 
 if __name__=='__main__':
     p=argparse.ArgumentParser();p.add_argument('--sandbox',action='store_true');p.add_argument('--package-existing',action='store_true');a=p.parse_args()
-    suffix='_sandbox' if a.sandbox else '';base=ROOT/'build/experiments'/('expanse_update21'+suffix);out=ROOT/'build/experiments'/('expanse_update22'+suffix);audit=ROOT/'audit'/('update22'+suffix)
+    suffix='_sandbox' if a.sandbox else '';base=ROOT/'build/experiments'/('expanse_update21'+suffix);out=ROOT/'build/experiments'/('expanse_update22_1'+suffix);audit=ROOT/'audit'/('update22_1'+suffix)
     edits,origins,art,report=definitions(base,a.sandbox);write(audit/'integration.json',report)
     print(json.dumps(package(base,out,edits,origins,ROOT/'docs/update22.md',audit,art,a.package_existing),indent=2))

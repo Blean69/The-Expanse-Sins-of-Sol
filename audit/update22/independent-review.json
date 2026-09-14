@@ -1,0 +1,26 @@
+{
+  "reviewer": "foundations20 read-only worker",
+  "packages": [
+    "0.22.0",
+    "0.23.1"
+  ],
+  "result": "No confirmed structural blocker found",
+  "observed_offline": [
+    "New definitions registered exactly once",
+    "Unit tags unique",
+    "All six owner/wrapper prerequisites reachable",
+    "Three real station slots and four eligible modules",
+    "Actual compiled weapon meshpoints/child aliases resolve",
+    "Station repair baseline20 and OR-gated22",
+    "Murphy exactly two create operations followed by subtract2 from8capacity"
+  ],
+  "runtime_not_run": [
+    "existing passive ability level refresh",
+    "source capture/death cleanup",
+    "same-tick reservation arbitration",
+    "queued and captured native tag limits",
+    "aiming",
+    "multiplayer"
+  ],
+  "later_integrator_finding": "Review missed constructor list placement. Fixed in0.22.1/0.23.2. This review is not evidence of actual menu functionality."
+}

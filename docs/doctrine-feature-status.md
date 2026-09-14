@@ -7,14 +7,14 @@ The confirmed three-hour user playtest used **0.19 Fleet Balance**. It is eviden
 | Existing fleet, PDC audio, ordnance, shieldless rules | Inherited | Frozen0.19 retained; no historical multiplier reapplied |
 | Stage1 supply, Morrigan role, autocast/boarding guards | Modified; offline checked |0.20; use Normal Start because the later starting-fleet correction is in0.21.1 |
 | Stage2 faction access, research, colony modules and local siege | Implemented; offline checked |0.21.1 asymmetric and combined sandbox; corrected Quick/Advanced starting supply |
-| Stage3 battery, picket, station equipment and local research | Implemented; offline checked |0.22 asymmetric and combined sandbox; native station placeholder art disclosed |
+| Stage3 battery, picket, station equipment and local research | Implemented; offline checked |0.22.1 asymmetric and combined sandbox; corrected actual constructor list; native station placeholder art disclosed |
 | Stage4 important recovery, announcements, contacts | Blocked at synchronized operation/notification gate | Existing ordinary native derelicts and haulers preserved. No false exclusive90-second recovery, globally announced study or free reward system enabled |
 | Stage5 real ProtoTech, interruptible study and plating | Blocked at resource/lifecycle/runtime gates | No research promise unlock, sixth resource or conventional shield restoration added |
-| New hulls requested alongside doctrine | Separate prototypes | Murphy0.23.1; Behemoth/Gathering Storm/UN One art and private mechanics under preparation; not labeled Stage4/5 |
+| New hulls requested alongside doctrine | Implemented; offline checked prototypes | Murphy0.23.2; Behemoth/Gathering Storm0.24; UN One0.25; not labeled Stage4/5 |
 | Urshanabi flagship | Geometry blocked | Both supposedly intact holograms are also debris. Actual reconstruction required; retained as reference/wreck donors |
-| UN IPBM | Local visual preparation | Native bombing visual only until actual-object destruction cancels all associated damage is demonstrated |
+| UN IPBM | Implemented; offline checked cosmetic | Truman native local bombing visual only in0.25; no actual interception/global launch |
 
-Every new candidate remains **runtime NOT RUN**, including loading, before/after research on existing and new ships, capture/ally filters, simultaneous buffs, save/reload and multiplayer. The baseline remains the latest user-tested build.0.22 is the next complete doctrine-stage candidate for testing; new-hull prototypes are an additional comparison option.
+Every new candidate remains **runtime NOT RUN**, including loading, before/after research on existing and new ships, capture/ally filters, simultaneous buffs, save/reload and multiplayer. The baseline remains the latest user-tested build.0.22.1 is the next complete doctrine-stage candidate for testing;0.25 is the cumulative new-hull comparison option. Superseded0.22.0/0.23.1 files remain unchanged, but their station constructor access was wrong; use the corrected versions.
 
 ## Capability boundary for Stages4–5
 

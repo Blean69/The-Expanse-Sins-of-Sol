@@ -80,8 +80,15 @@ def package(base,out,edits,origins,readme,audit,art=None,package_existing=False)
         if not rel.endswith('.unit'):continue
         ident=Path(rel).stem;u=resolver.unit(ident,'Doctrine integration')
         actions.append({'unit':ident,'actions':check_actions(out,resolver,ident),'values':check_action_values(out,GAME,resolver,u)})
+    # Equipment-granted abilities are absent from a hull's ordinary ability bar.
+    # Walk each changed ability too, so station/item actions cannot evade this
+    # typed scalar/filter/reference check merely by being equipment-dependent.
+    equipment_actions=[]
+    for rel in edits:
+        if rel.endswith('.ability'):
+            equipment_actions.extend(check_action_values(out,GAME,resolver,{'abilities':[{'abilities':[Path(rel).stem]}]}))
     require(after['PLAYTEST-README.md']==sha256(readme),'README drift')
-    report={'status':'PASS OFFLINE ONLY','schemas':checks,'actions':actions,'audio_files_preserved':len(audio),'pins':pins,'baseline':baseline,
+    report={'status':'PASS OFFLINE ONLY','schemas':checks,'actions':actions,'all_changed_ability_graphs':equipment_actions,'audio_files_preserved':len(audio),'pins':pins,'baseline':baseline,
         'changed_files':sorted(r for r,h in after.items() if h!=before.get(r)),
         'runtime':{k:'NOT RUN' for k in ['load','opening_viability','menus','existing_and_new_research','colonization','bombardment','stacking','ownership','save_reload','multiplayer']}}
     write(audit/'validation.json',report)

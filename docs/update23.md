@@ -1,4 +1,6 @@
-# 0.23.1 — Murphy hull prototype
+# 0.23.2 — Murphy hull prototype
+
+Supersedes0.23.1 by inheriting0.22.1's corrected station constructor list. Murphy combat mechanics are unchanged. Use the corrected package for testing; old files are retained.
 
 This separate new-hull experiment follows frozen0.22 Stage3; it is **not Stage4 or Stage5**. Only UNN can manufacture the Murphy in asymmetric play. The combined sandbox exposes it to every owner. Existing fleets, defenses, economy, research, audio and ordnance remain unchanged. Retain0.22 for direct comparisons. Fresh game, one intended package only; no implicit save migration.
 
