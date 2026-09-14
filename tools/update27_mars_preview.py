@@ -13,7 +13,7 @@ def preview(key):
    r=struct.unpack_from('<12f?',b,off);rows.append(r[:-1]);off+=49+(8 if r[-1]else 0)
   rows=np.array(rows);ic=struct.unpack_from('<Q',b,off)[0];idx=np.frombuffer(b,'<u4',ic,off+8);info=read_mesh(GAME/'meshes'/(name+'.mesh'));v=rows[:,:3]@B.T+pos
   for p in info['primitives']:
-   ii=idx[p['vertex_index_start']:p['vertex_index_start']+p['vertex_index_count']].reshape(-1,3);mat=read(GAME/'mesh_materials'/(info['materials'][p['material_index']]+'.mesh_material'));tex=np.array(Image.open(GAME/'textures'/(mat['base_color_texture']+'.dds')).convert('RGBA'));parts.append((v[ii],rows[ii,10:12],tex,[1,1,1,1],'OPAQUE'))
+   ii=idx[p['vertex_index_start']:p['vertex_index_start']+p['vertex_index_count']].reshape(-1,3);mat=read(GAME/'mesh_materials'/(info['materials'][p['material_index']]+'.mesh_material'));tex=np.array(Image.open(GAME/'textures'/(mat['base_color_texture']+'.dds')).convert('RGBA'));parts.append((v[ii],rows[ii,10:12],tex,mat.get('base_color_factor',[1,1,1,1]),'OPAQUE'))
  add(meta['hull_mesh'],[0,0,0]);hull=np.concatenate([p[0]for p in parts]);ray=Rays(hull,BUILD/'rays');obstacles=[hull]
  for r in meta['rigs']:
   if r['kind']!='rail':continue
@@ -36,6 +36,9 @@ def preview(key):
  ray.close();pdc_ray.close()
  for name,B in [('oblique',[[.65,0,.76],[-.3,.92,.26],[-.7,-.39,.60]]),('side',[[0,0,1],[0,1,0],[-1,0,0]]),('top',[[0,0,1],[1,0,0],[0,1,0]]),('stern',[[1,0,0],[0,1,0],[0,0,-1]]),('bow',[[1,0,0],[0,1,0],[0,0,1]])]:render(parts,(1400,850),np.array(B),fill=.86).save(AUD/(key+'-'+name+'.png'))
  meta['arc_checks']=checks;meta['compiled_assembled_triangles']=sum(len(p[0])for p in parts);meta['preview_scope']='Actual compiled mesh and DDS; diffuse software render. Specular lighting, animated targeting and gameplay not tested.'
+ if meta.get('epstein_drive_pass'):
+  meta['epstein_drive_pass']['stage']='compiled; offline ray checks and diffuse previews complete'
+  meta['preview_texture_limit']='Actual tile grain/fasteners and native Tachi orange drive flecks are present in textures; nearest-neighbor CPU sampling exaggerates speckles. Game filtering, normal response and specular appearance remain untested.'
  aliases=[]
  for r in meta['rigs']:
   t=r['turret_override']

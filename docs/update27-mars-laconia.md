@@ -28,25 +28,25 @@ Each ship has `<ship>-integration.json`, `<ship>-manifest.json`, and compiled ob
 
 Length grows uniformly by 15% to 431.25 game units. Hull, six gun assemblies, barrel offsets, muzzle offsets, exhaust, child points, fixed keel muzzle, magazine origins and spatial bounds follow the same factor. The keel weapon definition and all combat/movement/economic fields are unchanged.
 
-The drive is physically connected by a closed 64-segment annular collar. Its root crosses the measured hull section at original z=-145; its aft annulus intersects the retained engine flange at original z=-187. The original UV-bearing engine remains visible. This removes the air gap without substituting a particle effect for geometry.
+The final pass replaces the hidden Truman assembly with the existing MCRN Tachi’s actual curved bell and contained throat machinery. A shorter closed connector joins the measured hull at z=-166.75 to the narrow native throat; the flared bell remains exposed in side views. A thin open metallic lip distinguishes the mouth from the dark throat. The opening remains at z=-215.625. Source UVs, normals and drive materials are retained.
 
-Fifteen bounded Taubin smoothing iterations change small actual vertex bumps, with maximum displacement 1.25 units before scale. Keel, stern and 35-unit neighborhoods of all mount pivots are protected. Broad original sculpted facets remain visible; this is not a complete smooth-surface remodel. Materials use restrained gray silver and a darker collar, roughness 0.43 and metallic 0.32. Offline previews are diffuse-only and cannot establish the in-game specular result.
+Fifteen bounded Taubin smoothing iterations change small actual vertex bumps, with maximum displacement 1.25 units before scale. Keel, stern and 35-unit neighborhoods of all mount pivots are protected. Broad original sculpted facets remain visible; this is not a complete smooth-surface remodel. Materials use restrained gray silver and a darker connector. Fine thermal tiles use shared generated base-color/normal maps, world-aligned UV projections, and authored roughness approximately 0.42–0.47 with metallic 0.32. The lip has lower roughness and higher metallic response. Offline previews are diffuse-only and cannot establish the in-game specular result.
 
 Hull mesh keeps `expanse24_storm_hull`; new gun mesh aliases are `expanse27_storm_pdc_base` and `expanse27_storm_pdc_barrel`. Existing child-point names remain. `tools/update27_storm_patch.py:changes(base)` returns exactly nine edited definitions: unit, magazine, skin, six PDC turret-only derivatives. Skin alias bindings are inside `skin_stages[0]`. Main merges these with its independent procurement changes.
 
 ### Hephaestus
 
-270-game-unit source hull conversion. Four existing engine pods and their detail are retained. Source static PDC clusters are removed and replaced by ten native biaxial guns on short octagonal feet. The actual source railgun is extracted as a gimbal mesh; it has bounded yaw ±12° and pitch ±1°, retaining a positive native pitch interval.
+270-game-unit source hull conversion. Four existing engine pods and their forward panel detail are retained. The printable aft caps are replaced by exposed 28-unit native Tachi bells, narrow fitted connectors and metallic lips. Source static PDC clusters are removed and replaced by ten native biaxial guns on short octagonal feet. The actual source railgun is extracted as a gimbal mesh; it has bounded yaw ±12° and pitch ±1°, retaining a positive native pitch interval.
 
-Rig order is **PDC indices 0–9, rail index 10**. Hull mesh `expanse27_hephaestus_hull`; PDC aliases `expanse27_hephaestus_pdc_base/barrel`; rail alias `expanse27_hephaestus_rail_0`. All child names, source-derived pivots, accepted arcs and turret fragments are in the contract. Five light and three medium torpedo origins use visible fitted collars centered on the actual source tube-face components, then projected to the retained surface. Four exhaust points are `exhaust.0` through `exhaust.3`.
+Rig order is **PDC indices 0–9, rail index 10**. Hull mesh `expanse27_hephaestus_hull`; PDC aliases `expanse27_hephaestus_pdc_base/barrel`; rail alias `expanse27_hephaestus_rail_0`. All child names, source-derived pivots, accepted arcs and turret fragments are in the contract. Five light and three medium torpedo origins use visible fitted collars centered on the actual source tube-face components, then projected to the retained surface. Four exhaust points are `exhaust.0` through `exhaust.3`, at final opening positions with z=-136.4.
 
 Source has 1,667,487 triangles; controlled simplification preserves hull panels and engine shapes. The rail retains 6,500 triangles. Livery boundaries are cut through triangles so orange bands have straight edges rather than centroid-selected triangular blotches. Full compiled assembled count is recorded by the manifest.
 
 ### Laconian frigate
 
-160-game-unit source conversion; original small wedge proportions remain. The source closed engine stub is replaced by an open native engine and a closed collar intersecting both hull and flange. Sensor ridges, heat-management strips and two visible launch collars add actual geometry. Six native rotating PDCs use short octagonal feet, with per-mount clearance-derived native arcs.
+160-game-unit source conversion; original small wedge proportions remain. The source closed engine stub is replaced by an exposed 22-unit Tachi cone with a recessed throat, a short closed connector and metallic rim. Sensor ridges, heat-management strips and two visible launch collars add actual geometry. Six native rotating PDCs use short octagonal feet, with per-mount clearance-derived native arcs.
 
-Hull mesh `expanse27_laconia_frigate_hull`; PDC aliases `expanse27_laconia_frigate_pdc_base/barrel`; child-point suffixes `_pdc_0` through `_pdc_5`. One engine point is `exhaust.0`. The final assembly has 14,978 triangles including its six guns (source STL: 4,294).
+Hull mesh `expanse27_laconia_frigate_hull`; PDC aliases `expanse27_laconia_frigate_pdc_base/barrel`; child-point suffixes `_pdc_0` through `_pdc_5`. One engine point is `exhaust.0`. Final triangle counts are recorded in the manifest (source STL: 4,294); removing the hidden donor assembly lowers the count while exposing the correct cone geometry.
 
 ## Validation and limits
 
@@ -60,4 +60,15 @@ Observed: SDK compilation, offline visual inspection, dependency/hash validation
 
 ## Reproduction
 
-Run from this isolated worktree in order: `update27_mars_intake.py`; each `update27_*_geometry.py`; `update27_mars_compile.py <storm|hephaestus|laconia>`; `update27_mars_preview.py <ship>`; `update27_mars_validate.py`. Do not run two SDK/Wine compiles simultaneously against the same existing prefix. The compile script uses explicit read-only dependencies and writes only this worker's derived/staging roots.
+The final drive/surface pass is `update27_epstein_surface.py <ship>`, applied after the first compiled/validated art baseline. It records a bounded explicit pre-pass snapshot, preserves every weapon pivot and torpedo origin, and recalculates spatial bounds from hull, drives and mounted meshes. It does not copy SDK or Wine trees. Run the compiler, preview and validator again after this pass.
+
+Initial build: `update27_mars_intake.py`; each `update27_*_geometry.py`; `update27_mars_compile.py <storm|hephaestus|laconia>`; `update27_mars_preview.py <ship>`; `update27_mars_validate.py`. Do not run two SDK/Wine compiles simultaneously against the same existing prefix. The compile script uses explicit read-only dependencies and writes only this worker's derived/staging roots.
+
+
+## Final surface reference and encoding
+
+The user provided Paul Kiesling’s Scirocco displays/material sheets. The [artist’s project](https://paulwk13.artstation.com/projects/Qn3oN8) and [production design interview](https://magazine.artstation.com/2016/02/scenes-concept-art-expanse/) informed dense thermal tiles, flush access panels and conventional rocket bells. New tile base color and registered tangent normal maps were generated with imagegen, then converted through texconv to 1024×1024 BC7 with mipmaps. No supplied photograph was pasted across a hull. Provenance and raw image hashes are in `surface-provenance.json`. Scalar ORM and mask textures are authored shader data. Native `base_color_factor` is verified in installed materials and the pinned shader; per-face planar UV tangents are calculated consistently with the new normal mapping.
+
+The CPU previews show actual compiled color/geometry but do not render normal-map or specular effects; those require the user’s in-game test.
+
+The final preview’s small speckles include real tile grain/fasteners and native Tachi orange drive flecks. Its nearest-neighbor CPU sampling exaggerates high-frequency texture detail; it does not use the final DDS mip chain. They are not all geometry defects or all preview artifacts. In-game filtering and material appearance remain untested.

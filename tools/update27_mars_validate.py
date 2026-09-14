@@ -16,11 +16,27 @@ def artifact(key):
    for pt in meta['meshpoints']:
     assert pt['name'] in points
     assert np.allclose(pt['translation'],points[pt['name']]['position'],atol=2e-4)
+   if meta.get('epstein_drive_pass'):
+    from update27_epstein_surface import meshrows
+    rv,_=meshrows(p);center=np.array(meta['spatial']['box']['center']);extent=np.array(meta['spatial']['box']['extents'])
+    assert (abs(rv[:,:3]-center)<=extent+2e-4).all(),'Hull/drive outside final spatial box'
+    assert np.linalg.norm(rv[:,:3],axis=1).max()<=meta['spatial']['radius']+2e-4
+    prior=read(BUILD/'pre-epstein'/(key+'-integration.json'))
+    assert meta['spatial'].get('collision_rank')==prior['spatial'].get('collision_rank')
+    old={r['mesh_point']:r for r in prior['rigs']}
+    for r in meta['rigs']:
+     assert r['position']==old[r['mesh_point']]['position'],'Weapon pivot moved in engine pass'
+     assert r['turret_override']==old[r['mesh_point']]['turret_override'],'Turret changed in engine pass'
+    if 'torpedo_ports'in prior:assert meta['torpedo_ports']==prior['torpedo_ports']
  for name in materials:
   p=GAME/'mesh_materials'/(name+'.mesh_material');assert p.exists();paths.add(p)
   for field,name in read(p).items():
    if field.endswith('_texture'):
     tex=GAME/'textures'/(name+'.dds');assert tex.exists(),tex;paths.add(tex)
+    if name.startswith('expanse27_thermal_tiles_'):
+     from PIL import Image
+     dimensions=Image.open(tex).size;assert all(x%4==0 for x in dimensions),'BC7 dimensions must satisfy Direct3D block alignment'
+     if name.endswith(('_clr','_nrm')):assert dimensions==(1024,1024)
  assert len(meta['rigs'])=={'storm':6,'laconia':6,'hephaestus':11}[key]
  assert len(meta['arc_checks'])==len(meta['rigs'])
  assert all(a['blocked']==0 for a in meta['arc_checks'])

@@ -32,8 +32,25 @@ def build(key,materials_only=False):
   native=next((v for k,v in meta.get('native_materials',{}).items()if mat.endswith('_'+k)),None)
   numeric=next((k for k in meta['colors']if mat.endswith('_'+k)),None)
   if numeric:
+   if meta.get('epstein_drive_pass') and numeric!='rim':
+    surface=OUT/'surface';folder=OUT/'textures';folder.mkdir(exist_ok=True)
+    for channel in ['clr','nrm']:
+     source=surface/('thermal-tiles-'+channel+'.png');stem='expanse27_thermal_tiles_'+channel;target=folder/(stem+'.png')
+     target.write_bytes(source.read_bytes())
+     if not (GAME/'textures'/(stem+'.dds')).exists():
+      with(BUILD/(stem+'.log')).open('w')as log:subprocess.run([str(WINE),str(MAIN/'.tools/texconv.exe'),'-f','BC7_UNORM','-y','-m','0','-w','1024','-h','1024','-nogpu','--single-proc','-o','Z:'+str(GAME/'textures'),'-bc','q','Z:'+str(target)],env=ENV,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=120)
+    # Small authored data maps: roughness varies slightly between tile regions;
+    # metal stays restrained. Base color/normal are the generated shared pattern.
+    orm=Image.new('RGBA',(32,32));orm.putdata([(255,108+((x//2+3*(y//2))%5)*3,82,255)for y in range(32)for x in range(32)])
+    for channel,img in [('orm',orm),('msk',Image.new('RGBA',(16,16),(0,0,0,0)))]:
+     target=folder/('expanse27_thermal_tiles_'+channel+'.png');img.save(target)
+     if not(GAME/'textures'/(target.stem+'.dds')).exists():
+      with(BUILD/(target.stem+'.log')).open('w')as log:subprocess.run([str(WINE),str(MAIN/'.tools/texconv.exe'),'-f','BC7_UNORM','-y','-m','0','-nogpu','--single-proc','-o','Z:'+str(GAME/'textures'),'-bc','q','Z:'+str(target)],env=ENV,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=120)
+    tint={'armor':[.50,.58,.64,1],'orange':[1.,.14,.035,1],'dark':[.10,.12,.14,1],'storm_silver':[.68,.75,.82,1],'storm_dark':[.18,.21,.24,1]}[numeric]
+    md={'version':1,'base_color_texture':'expanse27_thermal_tiles_clr','base_color_factor':tint,'occlusion_roughness_metallic_texture':'expanse27_thermal_tiles_orm','normal_texture':'expanse27_thermal_tiles_nrm','mask_texture':'expanse27_thermal_tiles_msk','emissive_factor':0.0};write(GAME/'mesh_materials'/(mat+'.mesh_material'),md)
+    continue
    stem='expanse27_'+key+'_'+numeric;rgba=tuple(round(v*255)for v in meta['colors'][numeric]);folder=OUT/'textures';folder.mkdir(exist_ok=True)
-   channels={'clr':rgba,'orm':(255,round(.43*255),round(.32*255),255),'nrm':(128,128,255,255),'msk':(0,0,0,0)}
+   channels={'clr':rgba,'orm':((255,70,190,255)if numeric=='rim'else(255,round(.43*255),round(.32*255),255)),'nrm':(128,128,255,255),'msk':(0,0,0,0)}
    for channel,color in channels.items():
     p=folder/(stem+'_'+channel+'.png');Image.new('RGBA',(16,16),color).save(p)
     with(BUILD/(p.stem+'.log')).open('w')as log:subprocess.run([str(WINE),str(MAIN/'.tools/texconv.exe'),'-f','BC7_UNORM','-y','-m','0','-nogpu','--single-proc','-o','Z:'+str(GAME/'textures'),'-bc','q','Z:'+str(p)],env=ENV,stdout=log,stderr=subprocess.STDOUT,check=True,timeout=120)
