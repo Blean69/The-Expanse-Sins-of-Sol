@@ -1,0 +1,70 @@
+{
+  "status": "OFFLINE PASS",
+  "support_triangles": 27970,
+  "assembled_triangles": 37843,
+  "meshpoints_preserved": true,
+  "source_hashes_unchanged": true,
+  "material_dependencies_resolved": true,
+  "outward_pdc_ray_samples": 2628,
+  "minimum_pdc_muzzle_clearance_from_new_support_plane": 1.8837682494995414,
+  "rail_path_vertical_clearance": 18.3999847826199,
+  "rail_pitch_speed_preserved": 0,
+  "recoil_foot_ring_contacts": [
+    {
+      "x": -34,
+      "z": -46,
+      "ring_surface_y": -52.12636947631836
+    },
+    {
+      "x": -34,
+      "z": 2,
+      "ring_surface_y": -52.12636947631836
+    },
+    {
+      "x": 34,
+      "z": -46,
+      "ring_surface_y": -52.12636947631836
+    },
+    {
+      "x": 34,
+      "z": 2,
+      "ring_surface_y": -52.12636947631835
+    }
+  ],
+  "murphy_geometry_opposed_normals": 0,
+  "murphy_hull_drive_rig_hashes_preserved": true,
+  "texture_checks": {
+    "textures/expanse26_murphy_machinery_orm.dds": {
+      "dxgi_format": 98,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_machinery_clr.dds": {
+      "dxgi_format": 98,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_armor_orm.dds": {
+      "dxgi_format": 98,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_machinery_nrm.dds": {
+      "dxgi_format": 84,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_armor_nrm.dds": {
+      "dxgi_format": 84,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_armor_clr.dds": {
+      "dxgi_format": 98,
+      "mip_levels": 11
+    }
+  },
+  "package_manifest": "combined-art-manifest.json",
+  "untested": [
+    "game shader metallic/roughness/normal response",
+    "in-game LOD and visual attachment appearance",
+    "game turret interpolation and target acquisition",
+    "save/reload",
+    "multiplayer"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "status": "OFFLINE PASS",
+  "preserved_files_verified": true,
+  "geometry_rebuilt": false,
+  "new_texture_formats": {
+    "textures/expanse26_murphy_machinery_orm.dds": {
+      "dxgi_format": 98,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_machinery_clr.dds": {
+      "dxgi_format": 98,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_armor_orm.dds": {
+      "dxgi_format": 98,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_machinery_nrm.dds": {
+      "dxgi_format": 84,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_armor_nrm.dds": {
+      "dxgi_format": 84,
+      "mip_levels": 11
+    },
+    "textures/expanse26_murphy_armor_clr.dds": {
+      "dxgi_format": 98,
+      "mip_levels": 11
+    }
+  },
+  "untested": [
+    "game shader metallic/roughness/normal response",
+    "in-game LOD and visual attachment appearance",
+    "game turret interpolation and target acquisition",
+    "save/reload",
+    "multiplayer"
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "status": "OFFLINE PASS; RUNTIME UNTESTED",
+  "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25",
+  "game": "/run/media/haker/NVME 2/expanse-workers20/assets/build/update26-art/game",
+  "files": {
+    "mesh_materials/expanse22_foehammer_support_port_machinery_0.mesh_material": {
+      "sha256": "442b6aeb74e59cc3cba78a1d659fac4435ae6a115c3e54ee50cbb47550a4c7bd",
+      "mode": "new"
+    },
+    "mesh_materials/expanse22_foehammer_support_recoil_frame.mesh_material": {
+      "sha256": "8c928ad965dba17b2cf5663ceae2b9a25e1b35e26db8240c6aa9f219cc577158",
+      "mode": "new"
+    },
+    "mesh_materials/expanse22_foehammer_support_service_ring_0.mesh_material": {
+      "sha256": "469a1e4ab57594ab366af53d366cacf153bafaa1782857efa445edd181d02aed",
+      "mode": "new"
+    },
+    "mesh_materials/expanse22_foehammer_support_starboard_machinery_0.mesh_material": {
+      "sha256": "442b6aeb74e59cc3cba78a1d659fac4435ae6a115c3e54ee50cbb47550a4c7bd",
+      "mode": "new"
+    },
+    "mesh_materials/expanse23_murphy_hull_armor.mesh_material": {
+      "sha256": "a49ccfe75655d6b5aa34d898a139e2186ad24d301ac29a6a96851845d695529e",
+      "mode": "replacement"
+    },
+    "mesh_materials/expanse23_murphy_hull_machinery.mesh_material": {
+      "sha256": "0bba2663ad0a3ee31dc19a46994e9ce660e5295d506cc16823d31b69a3f29ba2",
+      "mode": "replacement"
+    },
+    "meshes/expanse22_foehammer_support.mesh": {
+      "sha256": "2f2a8ec7bed3633b87227473aedf8ae65427ffec90719af47c7ad4a52eb92fb0",
+      "mode": "replacement"
+    },
+    "textures/expanse10_donnager_flat_nrm.dds": {
+      "sha256": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+      "mode": "replacement"
+    },
+    "textures/expanse23_murphy_machinery_clr.dds": {
+      "sha256": "f44e62d07dfa46f38ab0246d8691c5aaa46fb7a82e0a30981ee73f7725b16408",
+      "mode": "replacement"
+    },
+    "textures/expanse23_murphy_msk.dds": {
+      "sha256": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+      "mode": "replacement"
+    },
+    "textures/expanse23_murphy_orm.dds": {
+      "sha256": "3e2e20e59e6fc4bab49706244ec914263f6ace0913a14e2661c3df026bb6bbb5",
+      "mode": "replacement"
+    },
+    "textures/expanse26_murphy_armor_clr.dds": {
+      "sha256": "d5c09f92f5ee2697eac4973d694a38c3aff843a1e9f45d2f3dbd3107c900b062",
+      "mode": "new"
+    },
+    "textures/expanse26_murphy_armor_nrm.dds": {
+      "sha256": "b6aebcef4bf2a86d37a15b1d141e788c4de9e02f34666b285c8c882665adde00",
+      "mode": "new"
+    },
+    "textures/expanse26_murphy_armor_orm.dds": {
+      "sha256": "0722dcfd650b015ac8f207a43691fbe4528e5742c6db1349bba0b62a9f540f9a",
+      "mode": "new"
+    },
+    "textures/expanse26_murphy_machinery_clr.dds": {
+      "sha256": "e705a150619d87120babac343e79f4a81e784288786b50eb36d8d697d7da5dd7",
+      "mode": "new"
+    },
+    "textures/expanse26_murphy_machinery_nrm.dds": {
+      "sha256": "084c180096f623ee5e03cbdf73f47f87d139b2104f75b442d0a50743c1f8bb59",
+      "mode": "new"
+    },
+    "textures/expanse26_murphy_machinery_orm.dds": {
+      "sha256": "5b0f16da4060bafdb927f143a6491091ca720f2b16d5217ef912543741f22e9b",
+      "mode": "new"
+    },
+    "textures/trader_capital_ship_factory_structure_clr.dds": {
+      "sha256": "e344487180570eb64c4a0931c9b88e095f53e50a696a5143c4c3df5ee50d57a4",
+      "mode": "new"
+    },
+    "textures/trader_capital_ship_factory_structure_msk.dds": {
+      "sha256": "8946b9856d6d0041fea01e6c3dc40bd659154ab3fb2b4efa89af6374948561ce",
+      "mode": "new"
+    },
+    "textures/trader_capital_ship_factory_structure_nrm.dds": {
+      "sha256": "7b7cc0bfc9bf8d21a0ee6ea4f7dde05fda8a25b9070172f0a5e29b01efb62112",
+      "mode": "new"
+    },
+    "textures/trader_capital_ship_factory_structure_orm.dds": {
+      "sha256": "77dfd66c043059b5b0f1a166a1ce005fa62ef095495272946494849c0651f70b",
+      "mode": "new"
+    },
+    "textures/trader_research_lab_structure_clr.dds": {
+      "sha256": "e7ad6b9238d9767f6e958cbf5302e8c5ae48cb0c61a31a69a67c35274028f795",
+      "mode": "new"
+    },
+    "textures/trader_research_lab_structure_msk.dds": {
+      "sha256": "690ee3fd32bdb0b8df9ff2f5a27d2ad2eb356e755f8a95f038e0fd7e744a7f86",
+      "mode": "new"
+    },
+    "textures/trader_research_lab_structure_nrm.dds": {
+      "sha256": "f8ad16eb72f965a7ffee127aa207c82d95ec2089b1519fae806d73fb97ff8f1e",
+      "mode": "new"
+    },
+    "textures/trader_research_lab_structure_orm.dds": {
+      "sha256": "4bcfedd5924984d4be71135fcebde20f1cfa5efcab822144edd07dfcde5c0e92",
+      "mode": "new"
+    }
+  },
+  "file_count": 25,
+  "symlinks": 0
+}

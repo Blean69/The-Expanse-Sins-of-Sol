@@ -1,0 +1,399 @@
+{
+  "status": "OFFLINE COMPILED ART PASS; RUNTIME UNTESTED",
+  "base_reference": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25",
+  "game_output": "/run/media/haker/NVME 2/expanse-workers20/assets/build/update26-art/game",
+  "replacement_mesh": "expanse22_foehammer_support",
+  "materials": {
+    "service_ring_0": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_research_lab_structure.mesh_material",
+    "port_machinery_0": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_capital_ship_factory_structure.mesh_material",
+    "starboard_machinery_0": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_capital_ship_factory_structure.mesh_material",
+    "recoil_frame": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse23_murphy_hull_machinery.mesh_material"
+  },
+  "donors": [
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_research_lab_structure_component_habitat_ring.mesh",
+      "sha256": "c5d312d8703daa65bde89c5ea9bcce6886a1cb96421fcccb8ad16f73b729f646",
+      "triangles": 2382,
+      "scale": 0.31,
+      "centered_on_source_bounds": [
+        0.0,
+        -2.300000051036477e-05,
+        43.01982116699219
+      ],
+      "position": [
+        0,
+        -58,
+        -22
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          2.220446049250313e-16,
+          -1.0
+        ],
+        [
+          0.0,
+          1.0,
+          2.220446049250313e-16
+        ]
+      ],
+      "material_label": "service_ring"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_capital_ship_factory_structure_component_left.mesh",
+      "sha256": "20b5cf7929b2d556eb8939788c6f5e49fb0dc4c223dfcfdfc0ece342df72a5d6",
+      "triangles": 11882,
+      "scale": 0.08,
+      "centered_on_source_bounds": [
+        17.874160766601562,
+        -86.49874114990234,
+        -1.4999999621068127e-05
+      ],
+      "position": [
+        -33,
+        -72,
+        -13
+      ],
+      "rotation": [
+        [
+          -1.0,
+          0.0,
+          1.2246467991473532e-16
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          -1.2246467991473532e-16,
+          0.0,
+          -1.0
+        ]
+      ],
+      "material_label": "port_machinery"
+    },
+    {
+      "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_capital_ship_factory_structure_component_left.mesh",
+      "sha256": "20b5cf7929b2d556eb8939788c6f5e49fb0dc4c223dfcfdfc0ece342df72a5d6",
+      "triangles": 11882,
+      "scale": 0.08,
+      "centered_on_source_bounds": [
+        17.874160766601562,
+        -86.49874114990234,
+        -1.4999999621068127e-05
+      ],
+      "position": [
+        33,
+        -72,
+        -13
+      ],
+      "rotation": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "material_label": "starboard_machinery"
+    }
+  ],
+  "meshpoints": [
+    {
+      "name": "center",
+      "translation": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0.0,
+        35.0,
+        -0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "aura",
+      "translation": [
+        0.0,
+        -55.0,
+        -0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse22_foehammer_rail_0",
+      "translation": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotation": [
+        0.0,
+        -0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse22_foehammer_pdc_0",
+      "translation": [
+        -71.0,
+        -31.0,
+        -26.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067390396978,
+        0.7071068233333948
+      ]
+    },
+    {
+      "name": "child.expanse22_foehammer_pdc_1",
+      "translation": [
+        71.0,
+        -31.0,
+        -26.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.7071067390396978,
+        0.7071068233333948
+      ]
+    }
+  ],
+  "counts": {
+    "support": 27970,
+    "frame": 1824,
+    "rail_unchanged": 8519,
+    "two_pdcs_unchanged": 1354,
+    "assembled": 37843
+  },
+  "spatial_patch_guidance": {
+    "unit": "expanse22_foehammer_battery",
+    "old": {
+      "radius": 119.93179211460206,
+      "box": {
+        "center": [
+          0.0,
+          -15.774040222167969,
+          41.099090576171875
+        ],
+        "extents": [
+          74.39982388396507,
+          34.22595977783203,
+          107.09909057617188
+        ]
+      },
+      "can_be_displaced_on_collision": false
+    },
+    "new_art_bounds": {
+      "box": {
+        "center": [
+          0.0,
+          -30.55743591308594,
+          36.045657709287184
+        ],
+        "extents": [
+          74.33216522117915,
+          49.00935546875,
+          112.15252344305657
+        ]
+      },
+      "radius": 118.61486539210071
+    },
+    "note": "Main owns unit.spatial update. Do not modify weapons, physics, cost or build time. Unit skin keeps same support mesh ID and unchanged child aliases."
+  },
+  "source_weapon_records": {
+    "weapons": [
+      {
+        "mesh_point": "child.expanse22_foehammer_rail_0",
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -2.0,
+          "max_angle": 2.0
+        },
+        "pitch_arc": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "weapon": "expanse22_foehammer_battery_0",
+        "weapon_position": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "mesh_point": "child.expanse22_foehammer_pdc_0",
+        "up": [
+          -1,
+          0,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 0.0
+        },
+        "weapon": "expanse22_foehammer_battery_1",
+        "weapon_position": [
+          -71,
+          -31,
+          -26
+        ]
+      },
+      {
+        "mesh_point": "child.expanse22_foehammer_pdc_1",
+        "up": [
+          1,
+          0,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": 0.0
+        },
+        "weapon": "expanse22_foehammer_battery_2",
+        "weapon_position": [
+          71,
+          -31,
+          -26
+        ]
+      }
+    ],
+    "max_range_weapon_index": 0
+  },
+  "source_hashes": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse22_foehammer_support.mesh": "d3df740c80a2f021136c3c9915bcca23835460d6651fe1e5c34947781618ca18",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery.unit": "66eb3d9ffcac6f59b6f77e308cb1291fbfbd33c9b89acc5147a0436ef13e7c6d",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery.unit_skin": "e2bddab4e59f96f22e4f0f2c8520a75fcf700596756a46a182c91228d409248e",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery_0.weapon": "aadfe43e0665de6c9303eb08f7975682210ef9697bb486701e627c9b51a71ec6",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery_1.weapon": "721e1ef25e5355519b4c3f12bb6ac387a1a682e6dc2459892877d55bb353b3eb",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery_2.weapon": "721e1ef25e5355519b4c3f12bb6ac387a1a682e6dc2459892877d55bb353b3eb",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_capital_ship_factory_structure.mesh_material": "d4ed9905e7645e2374d244485b3d107cee1115bb70b46cd81139acfb4e531e00",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_capital_ship_factory_structure_clr.dds": "e344487180570eb64c4a0931c9b88e095f53e50a696a5143c4c3df5ee50d57a4",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_capital_ship_factory_structure_orm.dds": "77dfd66c043059b5b0f1a166a1ce005fa62ef095495272946494849c0651f70b",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_capital_ship_factory_structure_nrm.dds": "7b7cc0bfc9bf8d21a0ee6ea4f7dde05fda8a25b9070172f0a5e29b01efb62112",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_capital_ship_factory_structure_msk.dds": "8946b9856d6d0041fea01e6c3dc40bd659154ab3fb2b4efa89af6374948561ce",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse23_murphy_hull_machinery.mesh_material": "8c928ad965dba17b2cf5663ceae2b9a25e1b35e26db8240c6aa9f219cc577158",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse23_murphy_machinery_clr.dds": "f44e62d07dfa46f38ab0246d8691c5aaa46fb7a82e0a30981ee73f7725b16408",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse23_murphy_orm.dds": "3e2e20e59e6fc4bab49706244ec914263f6ace0913a14e2661c3df026bb6bbb5",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse23_murphy_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_research_lab_structure.mesh_material": "9063520b4345f31a3cbb99d2fd5d6aeb8b9487db93737f8d3087910f58c1caac",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_research_lab_structure_clr.dds": "e7ad6b9238d9767f6e958cbf5302e8c5ae48cb0c61a31a69a67c35274028f795",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_research_lab_structure_orm.dds": "4bcfedd5924984d4be71135fcebde20f1cfa5efcab822144edd07dfcde5c0e92",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_research_lab_structure_nrm.dds": "f8ad16eb72f965a7ffee127aa207c82d95ec2089b1519fae806d73fb97ff8f1e",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_research_lab_structure_msk.dds": "690ee3fd32bdb0b8df9ff2f5a27d2ad2eb356e755f8a95f038e0fd7e744a7f86",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse22_foehammer_rail.mesh": "0b50f109a0e87d4e14f3d99f565c66f5b1fda88830311bd04f7c001dcc62e988",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse22_foehammer_pdc_base.mesh": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse22_foehammer_pdc_barrel.mesh": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7"
+  },
+  "clearance": {
+    "support_x_min": -70.9,
+    "support_x_max": 70.9,
+    "support_y_max": -18.4,
+    "pdcs_outward_plane_x": 71,
+    "rail_muzzle_height": 0,
+    "rail_fire_path_vertical_clearance": 18.4
+  },
+  "runtime": "NOT RUN",
+  "checks": {
+    "triangles": 27970,
+    "materials": [
+      "expanse22_foehammer_support_port_machinery_0",
+      "expanse22_foehammer_support_recoil_frame",
+      "expanse22_foehammer_support_service_ring_0",
+      "expanse22_foehammer_support_starboard_machinery_0"
+    ],
+    "source_frame_error": 4.438149410960129e-06,
+    "opposed_winding_triangles": 0,
+    "initial_winding_flips": 13706,
+    "meshpoints_unchanged": true,
+    "only_tangent_bytes_repaired": true,
+    "official_triangle_grid_and_trailer_preserved": true
+  },
+  "files": {
+    "mesh_materials/expanse22_foehammer_support_port_machinery_0.mesh_material": "442b6aeb74e59cc3cba78a1d659fac4435ae6a115c3e54ee50cbb47550a4c7bd",
+    "mesh_materials/expanse22_foehammer_support_recoil_frame.mesh_material": "8c928ad965dba17b2cf5663ceae2b9a25e1b35e26db8240c6aa9f219cc577158",
+    "mesh_materials/expanse22_foehammer_support_service_ring_0.mesh_material": "469a1e4ab57594ab366af53d366cacf153bafaa1782857efa445edd181d02aed",
+    "mesh_materials/expanse22_foehammer_support_starboard_machinery_0.mesh_material": "442b6aeb74e59cc3cba78a1d659fac4435ae6a115c3e54ee50cbb47550a4c7bd",
+    "meshes/expanse22_foehammer_support.mesh": "2f2a8ec7bed3633b87227473aedf8ae65427ffec90719af47c7ad4a52eb92fb0",
+    "textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse23_murphy_machinery_clr.dds": "f44e62d07dfa46f38ab0246d8691c5aaa46fb7a82e0a30981ee73f7725b16408",
+    "textures/expanse23_murphy_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse23_murphy_orm.dds": "3e2e20e59e6fc4bab49706244ec914263f6ace0913a14e2661c3df026bb6bbb5",
+    "textures/trader_capital_ship_factory_structure_clr.dds": "e344487180570eb64c4a0931c9b88e095f53e50a696a5143c4c3df5ee50d57a4",
+    "textures/trader_capital_ship_factory_structure_msk.dds": "8946b9856d6d0041fea01e6c3dc40bd659154ab3fb2b4efa89af6374948561ce",
+    "textures/trader_capital_ship_factory_structure_nrm.dds": "7b7cc0bfc9bf8d21a0ee6ea4f7dde05fda8a25b9070172f0a5e29b01efb62112",
+    "textures/trader_capital_ship_factory_structure_orm.dds": "77dfd66c043059b5b0f1a166a1ce005fa62ef095495272946494849c0651f70b",
+    "textures/trader_research_lab_structure_clr.dds": "e7ad6b9238d9767f6e958cbf5302e8c5ae48cb0c61a31a69a67c35274028f795",
+    "textures/trader_research_lab_structure_msk.dds": "690ee3fd32bdb0b8df9ff2f5a27d2ad2eb356e755f8a95f038e0fd7e744a7f86",
+    "textures/trader_research_lab_structure_nrm.dds": "f8ad16eb72f965a7ffee127aa207c82d95ec2089b1519fae806d73fb97ff8f1e",
+    "textures/trader_research_lab_structure_orm.dds": "4bcfedd5924984d4be71135fcebde20f1cfa5efcab822144edd07dfcde5c0e92"
+  }
+}

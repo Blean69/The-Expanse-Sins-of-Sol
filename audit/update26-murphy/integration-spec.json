@@ -1,0 +1,62 @@
+{
+  "status": "OFFLINE MATERIAL PACKAGE PASS; RUNTIME UNTESTED",
+  "base_reference": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25",
+  "game_output": "/run/media/haker/NVME 2/expanse-workers20/assets/build/update26-art/game",
+  "material_changes": {
+    "armor": {
+      "roughness_byte_range": [
+        78,
+        151
+      ],
+      "metallic_byte_range": [
+        75,
+        195
+      ],
+      "maximum_normal_tilt_degrees": 4.484606009544706
+    },
+    "machinery": {
+      "roughness_byte_range": [
+        113,
+        157
+      ],
+      "metallic_byte_range": [
+        205,
+        205
+      ],
+      "maximum_normal_tilt_degrees": 4.765938153787055
+    }
+  },
+  "preserved_files": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse23_murphy_hull.mesh": "94fa54ff5967451ee96b6fa7aa93c4ebcb66f05c488fd419bfe6336a428e4fa7",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse23_murphy_pdc_base.mesh": "cbda0af5ad4120159a4a60247dc0d318d11d7331e42b98daa60cbdb74082ad00",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse23_murphy_pdc_barrel.mesh": "25f7854e78b7a6c6f9f29a5be60522d291d29b817188bf8e53165c1a0825cf80",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/effects/expanse23_murphy_idle_plume.particle_effect": "f4da52c6d0038a21ce47b09d0b6a3a788687416d9c73f45b85e566b3ef847a43",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse23_murphy.unit": "977b3dec434446eaaecf2f841bd838cfa0139b74da329a680bec5759f4064551",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse23_murphy.unit_skin": "8e0a74337bc30ea52c103af4cbdd23b03978b3079b3e4402fc511a00cb429222",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse23_murphy_pdc.weapon": "ba367edb730a7ea090dbfb21d08741cdc6ed80f1623bfc2de8f08a0d31298f22",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse23_murphy_rail.weapon": "cffa38294595c25e30a7aa68fa82d2216c0f389863e8e2336fc86526d61e448e",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse23_murphy_hull_nozzle.mesh_material": "6bdf7f5e284784c1407c78c766ea0c70ed150502bd638e64721b68e9bb95117a"
+  },
+  "checks": {
+    "existing_hull_triangles": 9454,
+    "existing_opposed_winding_triangles": 0,
+    "geometry_rebuild_needed": false
+  },
+  "skin_or_spatial_patch_required": false,
+  "scope": "Only armor and machinery material bindings/textures; hull, rig, gun positions, plume and nozzle materials unchanged.",
+  "runtime": "NOT RUN",
+  "source_material_hashes": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse23_murphy_hull_armor.mesh_material": "e468ba4e5819ad522ab050042048d440abbad5577a463914f2eb80300586919a",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse23_murphy_hull_machinery.mesh_material": "8c928ad965dba17b2cf5663ceae2b9a25e1b35e26db8240c6aa9f219cc577158"
+  },
+  "files": {
+    "textures/expanse26_murphy_machinery_orm.dds": "5b0f16da4060bafdb927f143a6491091ca720f2b16d5217ef912543741f22e9b",
+    "textures/expanse26_murphy_machinery_clr.dds": "e705a150619d87120babac343e79f4a81e784288786b50eb36d8d697d7da5dd7",
+    "textures/expanse26_murphy_armor_orm.dds": "0722dcfd650b015ac8f207a43691fbe4528e5742c6db1349bba0b62a9f540f9a",
+    "textures/expanse26_murphy_machinery_nrm.dds": "084c180096f623ee5e03cbdf73f47f87d139b2104f75b442d0a50743c1f8bb59",
+    "textures/expanse26_murphy_armor_nrm.dds": "b6aebcef4bf2a86d37a15b1d141e788c4de9e02f34666b285c8c882665adde00",
+    "textures/expanse26_murphy_armor_clr.dds": "d5c09f92f5ee2697eac4973d694a38c3aff843a1e9f45d2f3dbd3107c900b062",
+    "mesh_materials/expanse23_murphy_hull_armor.mesh_material": "a49ccfe75655d6b5aa34d898a139e2186ad24d301ac29a6a96851845d695529e",
+    "mesh_materials/expanse23_murphy_hull_machinery.mesh_material": "0bba2663ad0a3ee31dc19a46994e9ce660e5295d506cc16823d31b69a3f29ba2"
+  }
+}
