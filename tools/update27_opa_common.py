@@ -111,11 +111,15 @@ def plume(prefix,exhausts,width,length):
  source=compiler.INSTALLED/'effects/exhaust_tech_medium_01.particle_effect';fx=read(source);idle=scale_effect(fx,width,length,blue=True);phase=phase_effect(exhausts,width,length*2.5);write(GAME/'effects'/(prefix+'_idle_plume.particle_effect'),idle);write(GAME/'effects'/(prefix+'_phase_plume.particle_effect'),phase)
  return {'idle':prefix+'_idle_plume','phase':prefix+'_phase_plume','source':str(source),'source_sha256':sha(source),'nozzle_count':len(exhausts),'width_scalar':width,'length_scalar':length}
 
-def preview(parts,riglist,name):
+def preview(parts,riglist,name,donor_materials=None):
  textures={};meshes=[]
  for p in parts:
   mat=p['material']
-  if mat not in textures:textures[mat]=np.array(Image.open(SOURCE/'textures'/(mat+'_clr.png')).resize((512,512)).convert('RGBA'))
+  if mat not in textures:
+   if mat in (donor_materials or {}):
+    native=read(BASE/'mesh_materials'/(donor_materials[mat]+'.mesh_material'));source=BASE/'textures'/(native['base_color_texture']+'.dds')
+   else:source=SOURCE/'textures'/(mat+'_clr.png')
+   textures[mat]=np.array(Image.open(source).resize((512,512)).convert('RGBA'))
   meshes.append((p['v'][p['i']],p['uv'][p['i']],textures[mat],[1,1,1,1],'OPAQUE'))
  # The offline portrait checks assembled muzzle axes/placement; actual tracking
  # remains a runtime check. Donor base colors retain their accepted identities.

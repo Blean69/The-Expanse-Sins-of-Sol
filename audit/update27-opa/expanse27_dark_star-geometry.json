@@ -416,5 +416,47 @@
     "Black/charcoal mod paint; original STL has no UV/material sources.",
     "Three independent actual Amun PDC donor rigs; outward -25deg maximum elevation arc preserves hull clearance.",
     "Local user-authorized paid-model derivative only; do not publish source or compiled art."
-  ]
+  ],
+  "actual_drive_donor": {
+    "donor_mesh": "expanse03_hull",
+    "sources_sha256": {
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse03_hull.mesh": "9c6a2107e3b0b26b41cd6654418bdcab190a2c7ee4a91d265937d5e9103d008a",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse03_hull_mcrn_tachi_secondary.mesh_material": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_clr.dds": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_orm.dds": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_nrm.dds": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse03_hull_mcrn_tachi_primary.mesh_material": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_clr.dds": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_orm.dds": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_nrm.dds": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    "selection": "All face vertices Z<-35 and radialdistance<10.1 about Tachi exhaust XY;2 actual source materials, original UVs/normals/tangents",
+    "donor_triangles_per_engine": 1790,
+    "removed_old_interior_triangles": 26459,
+    "new_triangles": 155303,
+    "instances": [
+      {
+        "mouth_center": [
+          0.0,
+          0.0,
+          -102.83788568781875
+        ],
+        "radius": 20.8,
+        "uniform_scale": 2.0884333227454133,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      }
+    ],
+    "original_spatial_meshpoints_rigs_exhausts_unchanged": true,
+    "sampled_rays_rechecked": 459
+  },
+  "donor_materials": {
+    "expanse27_dark_star_epstein_donor_0": "expanse03_hull_mcrn_tachi_secondary",
+    "expanse27_dark_star_epstein_donor_1": "expanse03_hull_mcrn_tachi_primary"
+  }
 }

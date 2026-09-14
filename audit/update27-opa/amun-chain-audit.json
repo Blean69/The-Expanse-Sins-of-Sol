@@ -37,6 +37,10 @@
         "expanse06_amun_torpedo"
       ]
     },
+    "expanse06_amun_revealed.buff": {
+      "sha256": "58e236402a04ada7ea29fca8de30faf1da18068cc1f251a286e2d69b851cd254",
+      "unit_definition_filters": []
+    },
     "expanse06_amun_cloak.ability": {
       "sha256": "62c6c2fdb2f5cbbc44ecfeed414719bb532cc7ae050328fd464d316fc7c2e3fd",
       "unit_definition_filters": []
@@ -47,10 +51,6 @@
     },
     "expanse06_amun_cloak.action_data_source": {
       "sha256": "1be191a3cf52783f6cdb325255b4052143c2c70cd80d17dc8b528fc81dee1b70",
-      "unit_definition_filters": []
-    },
-    "expanse06_amun_revealed.buff": {
-      "sha256": "58e236402a04ada7ea29fca8de30faf1da18068cc1f251a286e2d69b851cd254",
       "unit_definition_filters": []
     },
     "expanse27_dark_star_magazine.ability": {

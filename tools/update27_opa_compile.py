@@ -24,14 +24,16 @@ def main():
   if len(sys.argv)>1 and sys.argv[1]!=name:continue
   r=o.read(o.AUD/(name+'-geometry.json'));parts=loadparts(name);compiled=o.compile_parts(r['hull_mesh'],parts,r['meshpoints']);r['compiled']=compiled
   o.textures(r['materials']);o.materials(compiled,r['materials'])
+  for alias,native in r.get('donor_materials',{}).items():
+   name_mat=next(x for x in compiled['materials']if x.endswith('_'+alias));o.write(o.GAME/'mesh_materials'/(name_mat+'.mesh_material'),o.read(o.BASE/'mesh_materials'/(native+'.mesh_material')))
   r['donors']=[]
   for role in ['base','barrel']:r['donors'].append(o.donor(base+'_'+role,name+'_pdc_'+role))
   if name.endswith('dark_star'):r['plumes']=o.plume(name,r['exhausts'],1.25,2.5)
   else:r['plumes']=o.plume(name,r['exhausts'],9.,18.)
-  o.preview(parts,r['rigs'],name);ui(name)
+  o.preview(parts,r['rigs'],name,r.get('donor_materials'));ui(name)
   r['status']='PASS OFFLINE COMPILED ART; NO RUNTIME TEST';r['output_game']=str(o.GAME)
   r['art_files']={str(p.relative_to(o.GAME)):o.sha(p)for p in sorted(o.GAME.rglob('*'))if p.is_file()and name in p.name}
-  r['previews']=[str(o.BUILD/(name+'-'+x+'.png'))for x in ['oblique','side','aft']]
+  r['previews']=[str(o.BUILD/(name+'-'+x+'.png'))for x in ['oblique','side','aft','epstein-closeup']if(o.BUILD/(name+'-'+x+'.png')).exists()];r['preview_sha256']={p:o.sha(p)for p in r['previews']}
   r['tool_sources_sha256']={str(p):o.sha(p)for p in [o.compiler.SDK/'MeshBuilder/bin/MeshBuilder.exe',o.MAIN/'.tools/texconv.exe',o.MAIN/'.tools/libmeshoptimizer.so',o.MAIN/'tools/update12_scirocco_common.py',o.MAIN/'tools/common.py']}
   o.write(o.AUD/(name+'-art.json'),r);reports.append({'id':name,'triangles':compiled['triangles'],'art_files':len(r['art_files'])});print(json.dumps(reports[-1]),flush=True)
  o.write(o.AUD/'compiled-art-manifest.json',{'base':str(o.BASE),'files':{str(p.relative_to(o.GAME)):o.sha(p)for p in sorted(o.GAME.rglob('*'))if p.is_file()},'ui_files':{'textures/'+p.name:o.sha(p) for p in sorted((o.BUILD/'ui').glob('*.png'))},'source_files_not_packaged':True,'distribution':'LOCAL USER GAME DERIVATIVE ONLY; no publication authorized'})

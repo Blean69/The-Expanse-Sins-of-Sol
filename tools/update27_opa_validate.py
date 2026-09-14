@@ -89,6 +89,11 @@ def main():
  restored=cp(behe);restored['spatial']=old['spatial'];restored['weapons']=old['weapons'];restored['ai']=old['ai'];restored['abilities']=old['abilities'];assert restored==old
  for name,unit in [(DARK,dark),(NEWBEHE,behe)]:
   art=read(AUD/(name+'-art.json'));assert art['checks']['sampled_muzzle_rays_clear']==len(art['rigs'])*17*9
+  if 'actual_drive_donor'in art:
+   for path,h in art['actual_drive_donor']['sources_sha256'].items():assert hashlib.sha256(Path(path).read_bytes()).hexdigest()==h
+   oldart=read(ROOT/'build/update27-opa/source'/(name+'-pre-drive-geometry.json'))
+   for key in ['spatial','meshpoints','rigs','exhausts','torpedo_ports']:assert art[key]==oldart[key]
+   assert art['actual_drive_donor']['sampled_rays_rechecked']==len(art['rigs'])*17*9
   hull=read_mesh(view/'meshes'/(art['hull_mesh']+'.mesh'));pts={x['name']:x for x in hull['meshpoints']}
   for r,w in zip(art['rigs'],unit['weapons']['weapons']):assert w['mesh_point']in pts and np.allclose(w['weapon_position'],pts[w['mesh_point']]['position'],atol=.003)
   for j,e in enumerate(art['exhausts']):assert np.allclose(e['position'],pts[f'exhaust.{j}']['position'],atol=.003)

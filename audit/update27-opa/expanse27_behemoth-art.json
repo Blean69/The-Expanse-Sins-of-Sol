@@ -1048,16 +1048,158 @@
     "White/ivory industrial panel paint and emissive windows; inherited support-oriented combat/health remain unchanged.",
     "CC BY-NC archive attribution: Brendch06, Thingiverse5977410. Local derivative only."
   ],
+  "actual_drive_donor": {
+    "donor_mesh": "expanse03_hull",
+    "sources_sha256": {
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse03_hull.mesh": "9c6a2107e3b0b26b41cd6654418bdcab190a2c7ee4a91d265937d5e9103d008a",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse03_hull_mcrn_tachi_secondary.mesh_material": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_clr.dds": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_orm.dds": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_nrm.dds": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse03_hull_mcrn_tachi_primary.mesh_material": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_clr.dds": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_orm.dds": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_nrm.dds": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    "selection": "All face vertices Z<-35 and radialdistance<10.1 about Tachi exhaust XY;2 actual source materials, original UVs/normals/tangents",
+    "donor_triangles_per_engine": 1790,
+    "removed_old_interior_triangles": 768,
+    "new_triangles": 158823,
+    "instances": [
+      {
+        "mouth_center": [
+          523.623793968357,
+          -72.96715681656492,
+          -2322.083709625869
+        ],
+        "radius": 118.96859268973604,
+        "uniform_scale": 11.945094871796687,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          422.68316791160487,
+          317.35327795698703,
+          -2322.083709625869
+        ],
+        "radius": 118.96004578312892,
+        "uniform_scale": 11.944236715808,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          75.30888130744466,
+          521.9738535375586,
+          -2322.083709625869
+        ],
+        "radius": 118.95566501893266,
+        "uniform_scale": 11.943796863215377,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          -315.0195385385621,
+          421.0332255850153,
+          -2322.083709625869
+        ],
+        "radius": 118.96544311605916,
+        "uniform_scale": 11.944778637439994,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          -519.6400799948923,
+          73.65098992843298,
+          -2322.083709625869
+        ],
+        "radius": 118.95564197619801,
+        "uniform_scale": 11.943794549599275,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          -418.69545571453926,
+          -316.66549401629777,
+          -2322.083709625869
+        ],
+        "radius": 118.96395354002536,
+        "uniform_scale": 11.944629075890678,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          -71.31324280745116,
+          -521.2900280088554,
+          -2322.083709625869
+        ],
+        "radius": 118.95065566121337,
+        "uniform_scale": 11.943293896408333,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          319.00721281980384,
+          -420.34143773335165,
+          -2322.083709625869
+        ],
+        "radius": 118.95723229656274,
+        "uniform_scale": 11.943954226428291,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      }
+    ],
+    "original_spatial_meshpoints_rigs_exhausts_unchanged": true,
+    "sampled_rays_rechecked": 1224
+  },
+  "donor_materials": {
+    "expanse27_behemoth_epstein_donor_0": "expanse03_hull_mcrn_tachi_secondary",
+    "expanse27_behemoth_epstein_donor_1": "expanse03_hull_mcrn_tachi_primary"
+  },
   "compiled": {
     "name": "expanse27_behemoth_hull",
-    "triangles": 145271,
+    "triangles": 158823,
     "materials": [
+      "expanse27_behemoth_hull_expanse27_behemoth_epstein_donor_0",
+      "expanse27_behemoth_hull_expanse27_behemoth_epstein_donor_1",
       "expanse27_behemoth_hull_expanse27_behemoth_framework",
       "expanse27_behemoth_hull_expanse27_behemoth_ivory",
       "expanse27_behemoth_hull_expanse27_behemoth_nozzle"
     ],
-    "winding_flips": 137967,
-    "max_attribute_error": 0.0001017205906851949,
+    "winding_flips": 146047,
+    "max_attribute_error": 0.00012454382673663558,
     "checks": {
       "official_facing_grid": true,
       "tangent_only_patch": true,
@@ -1093,10 +1235,12 @@
   "art_files": {
     "effects/expanse27_behemoth_idle_plume.particle_effect": "719afd1cd85bdce2b4ef236bd783d4bd7fec6bb049b0b3122642bbf1d9a918d8",
     "effects/expanse27_behemoth_phase_plume.particle_effect": "c662696e8e7e1ac89e720e7bc34e2171b86f1c8cd7f351dd18476fa547642d43",
+    "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_epstein_donor_0.mesh_material": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+    "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_epstein_donor_1.mesh_material": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
     "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_framework.mesh_material": "8ab4e48ab84c3b4fd3d0974475062a477f739919eefdbc32ef68fef04916a0c2",
     "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_ivory.mesh_material": "a343fe29fcf1dda288a8c9140e8cd7c8aff623a7002c2a3fec2651d31c9dee8b",
     "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_nozzle.mesh_material": "945fa9bd8e7ab3de8e18a4339bb5cc9420d29a81bae263dc1ca8cf8b6b8dad76",
-    "meshes/expanse27_behemoth_hull.mesh": "61f30169a522023b44a670b247ca3bc0bc34cff3c70a8b99efbf2db092cce31e",
+    "meshes/expanse27_behemoth_hull.mesh": "e9273fa37e3162539a8c264270ef085a48fc16b5084c6f2a6dfae96f8ee9c280",
     "meshes/expanse27_behemoth_pdc_barrel.mesh": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
     "meshes/expanse27_behemoth_pdc_base.mesh": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
     "textures/expanse27_behemoth_framework_clr.dds": "c763564ad5b0b7d6b5fae23ba0a9f55bc254b41b97e5ce4532c7d82b4fad0075",
@@ -1115,7 +1259,8 @@
   "previews": [
     "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_behemoth-oblique.png",
     "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_behemoth-side.png",
-    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_behemoth-aft.png"
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_behemoth-aft.png",
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_behemoth-epstein-closeup.png"
   ],
   "tool_sources_sha256": {
     "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/MeshBuilder/bin/MeshBuilder.exe": "6eb01c73910e565c7db33fef8edc95d5258c4e6ad2d71075b0e7af071dc6657d",
@@ -1123,5 +1268,11 @@
     "/run/media/haker/NVME 2/expanse-mod/.tools/libmeshoptimizer.so": "1877da479e08797a1b688e5eacabac1900b89d2f4efd89a5ae5c8d5626356ef4",
     "/run/media/haker/NVME 2/expanse-mod/tools/update12_scirocco_common.py": "765f13b5923bde94acbf0fbb89a7e98dbc7ace24c1d5f06847dd4c21470e28d6",
     "/run/media/haker/NVME 2/expanse-mod/tools/common.py": "1c83c2ec5483f2f299928e539019baf01137ebbb66d5185ffb9b344d8bb0437f"
+  },
+  "preview_sha256": {
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_behemoth-oblique.png": "93970064889a77587e9f27ccb2c3f1717bf11225afefe4d6dcc7957cdfda79a4",
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_behemoth-side.png": "9e89d736b66d82da031ec9c9a4f5630868a31253fbadc64a486b8993f8f093a2",
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_behemoth-aft.png": "1f1418bc0e430d5d38bfdb140f7019fc08ad44ab24e946c8c034d38e9ba03d46",
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_behemoth-epstein-closeup.png": "542a308312987755f6c564442769871d80aeeac51573570ae4a1b772fed2c8a6"
   }
 }

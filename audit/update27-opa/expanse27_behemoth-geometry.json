@@ -1047,5 +1047,145 @@
     "Blade removed and attachment capped; no separate exterior source lettering identified. Interior detail is retained rather than misclassified as print supports.",
     "White/ivory industrial panel paint and emissive windows; inherited support-oriented combat/health remain unchanged.",
     "CC BY-NC archive attribution: Brendch06, Thingiverse5977410. Local derivative only."
-  ]
+  ],
+  "actual_drive_donor": {
+    "donor_mesh": "expanse03_hull",
+    "sources_sha256": {
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse03_hull.mesh": "9c6a2107e3b0b26b41cd6654418bdcab190a2c7ee4a91d265937d5e9103d008a",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse03_hull_mcrn_tachi_secondary.mesh_material": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_clr.dds": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_orm.dds": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_nrm.dds": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse03_hull_mcrn_tachi_primary.mesh_material": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_clr.dds": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_orm.dds": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_nrm.dds": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    "selection": "All face vertices Z<-35 and radialdistance<10.1 about Tachi exhaust XY;2 actual source materials, original UVs/normals/tangents",
+    "donor_triangles_per_engine": 1790,
+    "removed_old_interior_triangles": 768,
+    "new_triangles": 158823,
+    "instances": [
+      {
+        "mouth_center": [
+          523.623793968357,
+          -72.96715681656492,
+          -2322.083709625869
+        ],
+        "radius": 118.96859268973604,
+        "uniform_scale": 11.945094871796687,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          422.68316791160487,
+          317.35327795698703,
+          -2322.083709625869
+        ],
+        "radius": 118.96004578312892,
+        "uniform_scale": 11.944236715808,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          75.30888130744466,
+          521.9738535375586,
+          -2322.083709625869
+        ],
+        "radius": 118.95566501893266,
+        "uniform_scale": 11.943796863215377,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          -315.0195385385621,
+          421.0332255850153,
+          -2322.083709625869
+        ],
+        "radius": 118.96544311605916,
+        "uniform_scale": 11.944778637439994,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          -519.6400799948923,
+          73.65098992843298,
+          -2322.083709625869
+        ],
+        "radius": 118.95564197619801,
+        "uniform_scale": 11.943794549599275,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          -418.69545571453926,
+          -316.66549401629777,
+          -2322.083709625869
+        ],
+        "radius": 118.96395354002536,
+        "uniform_scale": 11.944629075890678,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          -71.31324280745116,
+          -521.2900280088554,
+          -2322.083709625869
+        ],
+        "radius": 118.95065566121337,
+        "uniform_scale": 11.943293896408333,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      },
+      {
+        "mouth_center": [
+          319.00721281980384,
+          -420.34143773335165,
+          -2322.083709625869
+        ],
+        "radius": 118.95723229656274,
+        "uniform_scale": 11.943954226428291,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      }
+    ],
+    "original_spatial_meshpoints_rigs_exhausts_unchanged": true,
+    "sampled_rays_rechecked": 1224
+  },
+  "donor_materials": {
+    "expanse27_behemoth_epstein_donor_0": "expanse03_hull_mcrn_tachi_secondary",
+    "expanse27_behemoth_epstein_donor_1": "expanse03_hull_mcrn_tachi_primary"
+  }
 }

@@ -417,15 +417,59 @@
     "Three independent actual Amun PDC donor rigs; outward -25deg maximum elevation arc preserves hull clearance.",
     "Local user-authorized paid-model derivative only; do not publish source or compiled art."
   ],
+  "actual_drive_donor": {
+    "donor_mesh": "expanse03_hull",
+    "sources_sha256": {
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse03_hull.mesh": "9c6a2107e3b0b26b41cd6654418bdcab190a2c7ee4a91d265937d5e9103d008a",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse03_hull_mcrn_tachi_secondary.mesh_material": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_clr.dds": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_orm.dds": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_nrm.dds": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_secondary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse03_hull_mcrn_tachi_primary.mesh_material": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_clr.dds": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_orm.dds": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_nrm.dds": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/textures/mcrn_tachi_primary_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+    },
+    "selection": "All face vertices Z<-35 and radialdistance<10.1 about Tachi exhaust XY;2 actual source materials, original UVs/normals/tangents",
+    "donor_triangles_per_engine": 1790,
+    "removed_old_interior_triangles": 26459,
+    "new_triangles": 155303,
+    "instances": [
+      {
+        "mouth_center": [
+          0.0,
+          0.0,
+          -102.83788568781875
+        ],
+        "radius": 20.8,
+        "uniform_scale": 2.0884333227454133,
+        "donor_axis_origin": [
+          0.0,
+          -10.112395286560059,
+          -49.331363677978516
+        ]
+      }
+    ],
+    "original_spatial_meshpoints_rigs_exhausts_unchanged": true,
+    "sampled_rays_rechecked": 459
+  },
+  "donor_materials": {
+    "expanse27_dark_star_epstein_donor_0": "expanse03_hull_mcrn_tachi_secondary",
+    "expanse27_dark_star_epstein_donor_1": "expanse03_hull_mcrn_tachi_primary"
+  },
   "compiled": {
     "name": "expanse27_dark_star_hull",
-    "triangles": 179972,
+    "triangles": 155303,
     "materials": [
       "expanse27_dark_star_hull_expanse27_dark_star_charcoal",
+      "expanse27_dark_star_hull_expanse27_dark_star_epstein_donor_0",
+      "expanse27_dark_star_hull_expanse27_dark_star_epstein_donor_1",
       "expanse27_dark_star_hull_expanse27_dark_star_graphite"
     ],
-    "winding_flips": 31861,
-    "max_attribute_error": 1.5915632505386726e-07,
+    "winding_flips": 13411,
+    "max_attribute_error": 3.6677873043746282e-06,
     "checks": {
       "official_facing_grid": true,
       "tangent_only_patch": true,
@@ -462,8 +506,10 @@
     "effects/expanse27_dark_star_idle_plume.particle_effect": "2db39722d38119347973a9b20231e09782fc66824e4f64cee1b86a580e1f4766",
     "effects/expanse27_dark_star_phase_plume.particle_effect": "9d5d543144e62b0dcbe8ba3a5957ba797234a97dd7361171b55b3424ae7facb7",
     "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_charcoal.mesh_material": "8ebe21375401a217f4af19b061709ae1d4fceeed9d7b99f92b303bffd2abc486",
+    "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_epstein_donor_0.mesh_material": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+    "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_epstein_donor_1.mesh_material": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
     "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_graphite.mesh_material": "bbfe6abc40892db4f67c91c9dfa90bd88418ab495b7dde5ac5d530ce67f28c00",
-    "meshes/expanse27_dark_star_hull.mesh": "f93282f515c22b88252f20f66b4f0f57ba00bfda5c981b570243084a7b2002e4",
+    "meshes/expanse27_dark_star_hull.mesh": "a7f7059723cac346e7e8041ddb27468e2db97bc2c2180cecab9190ff3701fea6",
     "meshes/expanse27_dark_star_pdc_barrel.mesh": "dd39838bc5c8505c13101a7c3adf57bad4f2a58f28a6b09a4093d2d126170637",
     "meshes/expanse27_dark_star_pdc_base.mesh": "fc16d2b4d38a54806002f94ac462cd31d3b48a2ed1f2b7b98930d74ca955118e",
     "textures/expanse27_dark_star_charcoal_clr.dds": "d7589ff98b749ad996b250e838410ddd64baf4dd4534d4f73a83bb17517d24a0",
@@ -478,7 +524,8 @@
   "previews": [
     "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_dark_star-oblique.png",
     "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_dark_star-side.png",
-    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_dark_star-aft.png"
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_dark_star-aft.png",
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_dark_star-epstein-closeup.png"
   ],
   "tool_sources_sha256": {
     "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/MeshBuilder/bin/MeshBuilder.exe": "6eb01c73910e565c7db33fef8edc95d5258c4e6ad2d71075b0e7af071dc6657d",
@@ -486,5 +533,11 @@
     "/run/media/haker/NVME 2/expanse-mod/.tools/libmeshoptimizer.so": "1877da479e08797a1b688e5eacabac1900b89d2f4efd89a5ae5c8d5626356ef4",
     "/run/media/haker/NVME 2/expanse-mod/tools/update12_scirocco_common.py": "765f13b5923bde94acbf0fbb89a7e98dbc7ace24c1d5f06847dd4c21470e28d6",
     "/run/media/haker/NVME 2/expanse-mod/tools/common.py": "1c83c2ec5483f2f299928e539019baf01137ebbb66d5185ffb9b344d8bb0437f"
+  },
+  "preview_sha256": {
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_dark_star-oblique.png": "06007e4b0a6cf27d8be25fc754a5b549a0cc9ad17a337628ea062f64d60c7f54",
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_dark_star-side.png": "72816b8dd33d243363bf5c2243dbfc65972d314739d0699700577006917f0f49",
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_dark_star-aft.png": "1e1928b683e68496f44ac613211beed240def09dffb3e9d46aa7893902c7061b",
+    "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/expanse27_dark_star-epstein-closeup.png": "cd2c9a32ff9c3ee4b068c4943b85b117470ca94ec8e89492558c6caacea8b9c9"
   }
 }
