@@ -1,0 +1,167 @@
+{
+  "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26",
+  "status": "PRIVATE FRAGMENT; RESEARCH/PLAYER/REGISTRY MERGES REQUIRED",
+  "unit_id": "expanse27_dark_star",
+  "behemoth_unit_id": "expanse24_behemoth",
+  "source_definitions_sha256": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse_amun_ra.unit": "6a7a37ed8885398bf85da36d3d61679e20a2a53d3fcb4bb60126644c3ea5513a",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse21_opa_command.unit": "7df5420332932b7bf88d8de7ad3857d4370eb8f1f1a6b1750a13c313dcc5171a",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse06_amun_magazine.ability": "c4b7c30b6499c15a491a421a61639b7566bf9146d8c5633cfe610ec48c011399",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse06_amun_magazine.buff": "2e46863be09fddd4c5363ac11777401f476eb816330832c99401c29fc32ec17e",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse06_amun_magazine.action_data_source": "fa4c6cdb096d5153fd9c7bc548b6ff0d7877c4ddea0caa3e7b51eebf4968735e",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse06_amun_pdc_0.weapon": "da694706dfa51de4fafbc61381b07cee260f495859b9d26d147a6193fbc7c1ff",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse_amun_ra.unit_skin": "7f79f77f8021c6a5af624ae3b0502a60457f22a54df8c0a1a7b9d6263cfb4f18",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth.unit": "6ca65432c9baf0c1bb3664f2554a14cc340385bdd2eb4689f5936b03744a8b8f",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth_pdc.weapon": "a50952d683347d2a256674c7ab0677a57d82a8158df773b48a5ad9a3b1874dcf",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth_magazine.ability": "de6ae73faa2ad32302b44b91cfe69a10edb8bc79ad1284950acea7bb61469393",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth_magazine.buff": "3f065ac460bc6bf62280e98dbec02f427b32e0257cd04a72a92690c1d4334f1c",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth.unit_skin": "1799c653b3053ceef7e40ca146ab452d12ea0988d007c89bb66f286c61c9e255"
+  },
+  "origins": {
+    "entities/expanse27_dark_star_magazine.ability": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse06_amun_magazine.ability",
+    "entities/expanse27_dark_star_magazine.buff": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse06_amun_magazine.buff",
+    "entities/expanse27_dark_star_magazine.action_data_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse06_amun_magazine.action_data_source",
+    "entities/expanse27_dark_star_pdc.weapon": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse06_amun_pdc_0.weapon",
+    "entities/expanse27_dark_star.unit": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse_amun_ra.unit",
+    "entities/expanse27_dark_star.unit_skin": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse_amun_ra.unit_skin",
+    "entities/expanse27_behemoth_pdc.weapon": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth_pdc.weapon",
+    "entities/expanse27_behemoth_magazine.ability": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth_magazine.ability",
+    "entities/expanse27_behemoth_magazine.buff": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth_magazine.buff",
+    "entities/expanse27_behemoth_magazine.action_data_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth_magazine.action_data_source",
+    "entities/expanse24_behemoth.unit": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth.unit",
+    "entities/expanse24_behemoth.unit_skin": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth.unit_skin"
+  },
+  "player_recipes": {
+    "opa": {
+      "buildable_units_append": [
+        "expanse27_dark_star"
+      ],
+      "research_requirement": "expanse27_dark_star_procurement",
+      "native_procurement": "capital_ship; ordinary first-capital entitlement deliberately retained per main instruction"
+    }
+  },
+  "unit_tag_entries_append": [
+    {
+      "name": "expanse27_dark_star",
+      "localized_name": "expanse27_dark_star.name"
+    }
+  ],
+  "research_recipe": {
+    "id": "expanse27_dark_star_procurement",
+    "owner": "main",
+    "faction": "OPA",
+    "tier": 3,
+    "role": "priced salvage procurement, no automatic/free unit spawn"
+  },
+  "preserved": [
+    "all original Amun definitions and cloak/boarding callbacks",
+    "Amun rail and torpedo damage/cadence/projectile type",
+    "Behemoth health/armor/support/hospital/AI service semantics/cost/movement",
+    "all original model assets"
+  ],
+  "art_files": {
+    "effects/expanse27_dark_star_idle_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/effects/expanse27_dark_star_idle_plume.particle_effect",
+    "effects/expanse27_dark_star_phase_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/effects/expanse27_dark_star_phase_plume.particle_effect",
+    "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_charcoal.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_charcoal.mesh_material",
+    "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_graphite.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_graphite.mesh_material",
+    "meshes/expanse27_dark_star_hull.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_dark_star_hull.mesh",
+    "meshes/expanse27_dark_star_pdc_barrel.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_dark_star_pdc_barrel.mesh",
+    "meshes/expanse27_dark_star_pdc_base.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_dark_star_pdc_base.mesh",
+    "textures/expanse27_dark_star_charcoal_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_charcoal_clr.dds",
+    "textures/expanse27_dark_star_charcoal_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_charcoal_msk.dds",
+    "textures/expanse27_dark_star_charcoal_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_charcoal_nrm.dds",
+    "textures/expanse27_dark_star_charcoal_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_charcoal_orm.dds",
+    "textures/expanse27_dark_star_graphite_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_graphite_clr.dds",
+    "textures/expanse27_dark_star_graphite_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_graphite_msk.dds",
+    "textures/expanse27_dark_star_graphite_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_graphite_nrm.dds",
+    "textures/expanse27_dark_star_graphite_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_graphite_orm.dds",
+    "textures/expanse27_dark_star_tooltip_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_tooltip_picture200.png",
+    "textures/expanse27_dark_star_main_view_icon_sub_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_sub_selected150.png",
+    "textures/expanse27_dark_star_main_view_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon200.png",
+    "textures/expanse27_dark_star_hud_picture.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_picture.png",
+    "textures/expanse27_dark_star_tooltip_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_tooltip_picture150.png",
+    "textures/expanse27_dark_star_main_view_icon_sub_selected.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_sub_selected.png",
+    "textures/expanse27_dark_star_tooltip_picture.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_tooltip_picture.png",
+    "textures/expanse27_dark_star_hud_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_icon200.png",
+    "textures/expanse27_dark_star_main_view_icon_selected.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_selected.png",
+    "textures/expanse27_dark_star_hud_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_picture150.png",
+    "textures/expanse27_dark_star_main_view_icon_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_selected200.png",
+    "textures/expanse27_dark_star_hud_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_icon150.png",
+    "textures/expanse27_dark_star_hud_icon.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_icon.png",
+    "textures/expanse27_dark_star_main_view_icon_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_selected150.png",
+    "textures/expanse27_dark_star_main_view_icon.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon.png",
+    "textures/expanse27_dark_star_hud_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_picture200.png",
+    "textures/expanse27_dark_star_main_view_icon_sub_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_sub_selected200.png",
+    "textures/expanse27_dark_star_main_view_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon150.png",
+    "effects/expanse27_behemoth_idle_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/effects/expanse27_behemoth_idle_plume.particle_effect",
+    "effects/expanse27_behemoth_phase_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/effects/expanse27_behemoth_phase_plume.particle_effect",
+    "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_framework.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_framework.mesh_material",
+    "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_ivory.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_ivory.mesh_material",
+    "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_nozzle.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_nozzle.mesh_material",
+    "meshes/expanse27_behemoth_hull.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_behemoth_hull.mesh",
+    "meshes/expanse27_behemoth_pdc_barrel.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_behemoth_pdc_barrel.mesh",
+    "meshes/expanse27_behemoth_pdc_base.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_behemoth_pdc_base.mesh",
+    "textures/expanse27_behemoth_framework_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_framework_clr.dds",
+    "textures/expanse27_behemoth_framework_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_framework_msk.dds",
+    "textures/expanse27_behemoth_framework_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_framework_nrm.dds",
+    "textures/expanse27_behemoth_framework_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_framework_orm.dds",
+    "textures/expanse27_behemoth_ivory_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_ivory_clr.dds",
+    "textures/expanse27_behemoth_ivory_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_ivory_msk.dds",
+    "textures/expanse27_behemoth_ivory_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_ivory_nrm.dds",
+    "textures/expanse27_behemoth_ivory_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_ivory_orm.dds",
+    "textures/expanse27_behemoth_nozzle_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_nozzle_clr.dds",
+    "textures/expanse27_behemoth_nozzle_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_nozzle_msk.dds",
+    "textures/expanse27_behemoth_nozzle_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_nozzle_nrm.dds",
+    "textures/expanse27_behemoth_nozzle_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_nozzle_orm.dds",
+    "textures/expanse27_behemoth_hud_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_picture150.png",
+    "textures/expanse27_behemoth_main_view_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon200.png",
+    "textures/expanse27_behemoth_tooltip_picture.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_tooltip_picture.png",
+    "textures/expanse27_behemoth_main_view_icon.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon.png",
+    "textures/expanse27_behemoth_main_view_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon150.png",
+    "textures/expanse27_behemoth_hud_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_icon150.png",
+    "textures/expanse27_behemoth_tooltip_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_tooltip_picture150.png",
+    "textures/expanse27_behemoth_main_view_icon_sub_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_sub_selected150.png",
+    "textures/expanse27_behemoth_main_view_icon_selected.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_selected.png",
+    "textures/expanse27_behemoth_hud_icon.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_icon.png",
+    "textures/expanse27_behemoth_main_view_icon_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_selected150.png",
+    "textures/expanse27_behemoth_main_view_icon_sub_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_sub_selected200.png",
+    "textures/expanse27_behemoth_main_view_icon_sub_selected.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_sub_selected.png",
+    "textures/expanse27_behemoth_hud_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_picture200.png",
+    "textures/expanse27_behemoth_main_view_icon_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_selected200.png",
+    "textures/expanse27_behemoth_hud_picture.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_picture.png",
+    "textures/expanse27_behemoth_tooltip_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_tooltip_picture200.png",
+    "textures/expanse27_behemoth_hud_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_icon200.png"
+  },
+  "stats": {
+    "dark_star": {
+      "hull": 3600,
+      "armor": 1800,
+      "supply": 140,
+      "price": {
+        "credits": 6000,
+        "metal": 1100,
+        "crystal": 800
+      },
+      "build_time": 150,
+      "pdc_count": 3,
+      "pdc_dps": 85,
+      "railgun": "original expanse06_amun_railgun",
+      "max_speed": 1250.0
+    },
+    "behemoth": {
+      "hull": 12000.0,
+      "armor": 1500.0,
+      "pdc_count": 8
+    }
+  },
+  "distribution": "Local game derivative only. Do not publish paid model or its derivatives.",
+  "runtime": {
+    "native capital procurement and UI": "NOT RUN",
+    "turret tracking/fire under movement": "NOT RUN",
+    "stealth reveal and boarding on new hull": "NOT RUN",
+    "eight engine plumes": "NOT RUN",
+    "save/reload and multiplayer": "NOT RUN",
+    "model performance": "NOT RUN"
+  }
+}

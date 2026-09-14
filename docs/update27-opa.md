@@ -1,0 +1,49 @@
+# 0.27 private OPA hull integration
+
+This worker produces private JSON recipes and local compiled assets against frozen0.26. Main owns player access, priced research, tags/manifests and release packaging. No game installation or runtime session was performed. Original units, magazines, meshes, sounds and research files were not edited.
+
+## Integration contract
+
+`tools/update27_opa_gameplay.py:changes(base)` returns `(edits, localization, origins, report)`. There are24 JSON edits (12 entities,12 brushes) and71 local binary/UI resources. Copy the resources from `report.art_files`; merge the returned edits/localization; append the new unit tag. Main supplies the OPA tier3 research `expanse27_dark_star_procurement` and capital-factory access. The research included in the private validation-view is ONLY a temporary graph-resolution stub, never a deliverable research design.
+
+New Dark Star ID: `expanse27_dark_star`. Existing Behemoth ID remains `expanse24_behemoth`; new visual IDs are `expanse27_behemoth_*`. Only spatial data, weapon attachment records, matching AI weapon alias, private magazine identity and the skin change on Behemoth. Existing health, armor, build cost/time/supply, movement, levels, component slots/shop and support abilities are verified unchanged.
+
+Manifest: `audit/update27-opa/compiled-art-manifest.json` lists SHA256 for35 mesh/material/DDS/effect files plus36 UI PNGs. `gameplay-contract.json` supplies exact source paths. Generated derivatives are ignored under `build/update27-opa/` and must stay out of publication. The local build requires the accepted0.26 package, existing compiled turret donors and explicit main-tool dependency paths; do not recursively copy Wine or Steam trees.
+
+## Dark Star
+
+The paid STL has426,522 triangles. Constrained optimization retained179,972 hull triangles at measured relative error0.0000539307; it did not smooth away the source's angular design. A90m length is a disclosed mod choice, using104.987 game units per46m Tachi reference. The source engine is negativeY; `[X,Z,Y]` maps it to game negativeZ with one reflected winding correction. Dark charcoal/graphite panel materials, sparse emissive windows, three actual Amun base/barrel donors and one blue drive plume are compiled.
+
+Capital design:3600 hull/1800 armor at level1,3% health growth per level,140 supply,150s construction,6000credits/1100metal/800crystal. It uses normal native capital procurement, including the normal first-capital entitlement as explicitly accepted by integration owner. It has three85DPS PDCs and the unchanged existing fixed Amun railgun, no added offensive level bonuses, Amun movement, shieldless baseline, Amun antimatter and the existing cloak/boarding abilities. The inherited command colonize binding and colony recommendations are removed; ship roles are copied from Amun. Generic existing UNN voices remain.
+
+The source artist describes Dark Star as a commissioned Belter salvage fan project. It is not asserted to be a canonical named capital ship. Sources: [artist portfolio](https://blenderartists.org/t/opas-dark-star-belter-salvaged-ship-the-expanse/1569145), [artist model listing](https://cults3d.com/en/3d-model/art/the-expanse-opas-dark-star-belter-salvaged-ship), [artist project post](https://www.patreon.com/posts/project-expanse-146574676). The model listing returned403 on direct access; its full terms were not inspected. User-supplied paid asset and local derivative authorization govern this work; no publication is authorized.
+
+## Behemoth
+
+The Brendch06 bookmark STL contains a complete round three-dimensional hull, not flattened relief. Of168,052 source triangles, only289 actual rectangular-blade triangles were removed. The attachment opening was capped with135 triangles and had zero remaining open boundary edges before simplification. No separate exterior lettering was identified. Repetitive studs and longitudinal structural rails were retained, rather than treating all small parts as lettering or support waste. In the supplied source preview, the conspicuous curved longitudinal rail joins the bow central structure to the aft hull and is perpendicular to the separate bookmark blade; it is not a remnant of the cut blade. Exact screen accuracy of this simplified print rail is not claimed.
+
+The cylinder was optimized to144,886 triangles, preserving its complete dimensional silhouette. Eight solid printer-engine pegs were clipped at their roots and replaced by eight open48-sided nozzle bells aligned with the eight original peg centers. Final hull has145,271 triangles. The nominal original hull is2km; new bells extend the final visual length to approximately2017.4m. White/ivory panels, gray industrial framework, dark nozzle interiors and sparse emissive lights provide the requested exterior. Eight independently rigged existing PDCs and eight blue drive/phase attachments are included. PDCs remain small at this true large scale; they are not enlarged into battleship-sized superguns.
+
+The logistics design retains12000 hull/1500 armor,8x85DPS PDCs and the restrained existing magazine, with no railgun. Existing hospital/local support and titan equipment slots are unchanged. This follows the show's improvised conversion and electrical limitations: [SYFY missile/grid failure recap](https://www.syfy.com/the-expanse/season-3/blogs/episode-recap-it-reaches-out), [SYFY spin-gravity medical response recap](https://www.syfy.com/the-expanse/season-3/blogs/episode-recap-fallen-world). These sources support the role; the numeric stats are mod design choices.
+
+Source: **Nauvoo / Behemoth / Medina Station Bookmark from the Expanse**, **Brendch06**, [Thingiverse5977410](https://www.thingiverse.com/thing:5977410). Archive `LICENSE.txt` specifies Creative Commons Attribution Non-Commercial; no version is stated. Local derivative changes: rectangular blade removal/capping, engine reconstruction, optimization, UV/material work and game rigging. Source and ZIP SHA256 are recorded in the geometry and art reports. Attribution must accompany any separately authorized distribution; this combined worker output is local only because it also contains the paid Dark Star derivative.
+
+## Stealth and capture chain audit
+
+`amun-chain-audit.json` records SHA256 and definition filters for every reachable ability/buff/action-data-source definition. No exact `expanse_amun_ra` hull identity or original `expanse06_amun_magazine` identity occurs in that reachable chain. The private magazine keeps its original cadence, count, reload, target filters, damage and projectile ID; only its own definition IDs and launch positions change. Its projectile remains `expanse06_amun_torpedo`, matching the existing controller's `on_current_spawner_spawned_torpedo` check. The controller uses current-spawner memory, not an Amun hull ID: fourth matching launch reveals60seconds, clears the count and accepts new counted launches after `reveal_until`. The unchanged railgun retains its reveal weapon tag. The original cloak ability and unit-level cloak binding are retained.
+
+Boarding uses the same actual0.26 ability, OPA override-code research wrapper and `expanse20_boarding_target_lock` as Amun. Damaged-enemy eligibility, global target lock, delayed resolution, initiator/target/ownership/range/supply checks and cooldowns remain in that shared system. The cosmetic pod starts at the new `weapon.boarding.0` meshpoint and is not described as interceptable. No second capture system or new capture chance is added.
+
+## Observed verification and remaining runtime tests
+
+PASS: pinned schema validation on all24 JSON edits, exact allowed installed extensions, complete recursive unit/action/value references, unchanged baseline hashes, private magazine equivalence apart from positions/IDs, per-PDC85DPS, Behemoth gameplay preservation, compiled meshpoint/muzzle/exhaust correspondence, and resource hashes. Compiler input/export checks include reflected winding, retained positions/indices and tangent repair. `validation.json` is the machine-readable result.
+
+PASS sampled geometry clearance:459 actual-muzzle rays for Dark Star and1224 for Behemoth, over17 yaw by9 pitch samples per mount. Both use full yaw and outward pitch[-85,-25] degrees; each mount is positioned from surface rays. Behemoth mounts sit on raised collar surfaces selected from axial scans to avoid firing through its taller ribs. These checks sample the authored hull, not a continuous mathematical proof or an in-engine collision test.
+
+Offline oblique/side/aft previews of both assembled hulls and their donor turrets were inspected. They show the intended full silhouettes, white versus charcoal materials, and8 Behemoth engine mouths. These are CPU color/geometry renders, not native PBR/emissive/particle screenshots. Preview paths are listed in each art report.
+
+NOT RUN: actual research/factory UI acquisition, moving turret targeting and firing, timed stealth reveal/rearm and boarding on the new hull, drive-particle appearance, save/reload, multiplayer and performance. Main must validate its real research and player integrations separately. No friends-playtest success is inferred from static checks.
+
+## Rebuild
+
+Use the existing main `.tools/venv/bin/python` with `tools/update27_opa_geometry.py`, then `tools/update27_opa_compile.py` (optional single ship ID), then `tools/update27_opa_gameplay.py` and `tools/update27_opa_validate.py`. SDK/Wine compilation requires the existing explicitly configured local compiler runtime. Five scripts and all audit JSON are source-only review material; inputs/compiled meshes/previews remain ignored local artifacts.

@@ -1,0 +1,73 @@
+{
+  "status": "PASS STATIC IDENTITY/RESOLUTION; NOT RUNTIME",
+  "files": {
+    "expanse06_amun_boarding.ability": {
+      "sha256": "11d8f000e471a0f53d84c9e0e796c05410e54d5bb6daa6cace10767b6a42c1fc",
+      "unit_definition_filters": []
+    },
+    "expanse06_amun_boarding.buff": {
+      "sha256": "7c38d1f5aef39196482d7e9c3db9c78da0cbeb3cc71f0b3a02ff4283c8fe1f12",
+      "unit_definition_filters": []
+    },
+    "expanse06_amun_boarding.action_data_source": {
+      "sha256": "f814e59de4ead549821cba015abff27f1d1203a242fe572fc711848517c1f4d9",
+      "unit_definition_filters": [
+        "expanse12_pella",
+        "expanse_rocinante_hero"
+      ]
+    },
+    "expanse20_boarding_target_lock.buff": {
+      "sha256": "08512515500a674099bd87f5ade66b448ed73a68e360f434072717c5bd570d8f",
+      "unit_definition_filters": []
+    },
+    "expanse21_opa_override_codes_boarding.action_data_source": {
+      "sha256": "cabdfe084299bcc826de30e89cd3f69eb69106a0382e6dd477fa2e45fa38196d",
+      "unit_definition_filters": [
+        "expanse12_pella",
+        "expanse_rocinante_hero"
+      ]
+    },
+    "expanse06_amun_cloak_controller.ability": {
+      "sha256": "acb396008936149578dfbc7ae692e6eab3315f267adeafe1084a5e9f9f7cf464",
+      "unit_definition_filters": []
+    },
+    "expanse06_amun_cloak_controller.buff": {
+      "sha256": "88583928391d79d1379b9a3c5071987019f10b926ffa36725d3850fe3aa39df4",
+      "unit_definition_filters": [
+        "expanse06_amun_torpedo"
+      ]
+    },
+    "expanse06_amun_cloak.ability": {
+      "sha256": "62c6c2fdb2f5cbbc44ecfeed414719bb532cc7ae050328fd464d316fc7c2e3fd",
+      "unit_definition_filters": []
+    },
+    "expanse06_amun_cloak.buff": {
+      "sha256": "0cffab9a83bfbfe6ba7aebb950091277df71ad4b85644c4bfe27b0d89c9d2902",
+      "unit_definition_filters": []
+    },
+    "expanse06_amun_cloak.action_data_source": {
+      "sha256": "1be191a3cf52783f6cdb325255b4052143c2c70cd80d17dc8b528fc81dee1b70",
+      "unit_definition_filters": []
+    },
+    "expanse06_amun_revealed.buff": {
+      "sha256": "58e236402a04ada7ea29fca8de30faf1da18068cc1f251a286e2d69b851cd254",
+      "unit_definition_filters": []
+    },
+    "expanse27_dark_star_magazine.ability": {
+      "sha256": "ad92606083c2e86b25fc88a054acfcfd3326408fbaac1b089c6702e5d1bd1723",
+      "unit_definition_filters": []
+    },
+    "expanse27_dark_star_magazine.buff": {
+      "sha256": "179ba27aea8c0e242367f3625818bd84da3d8c2bfc691cd12349edcc3a644bf7",
+      "unit_definition_filters": []
+    },
+    "expanse27_dark_star_magazine.action_data_source": {
+      "sha256": "fa4c6cdb096d5153fd9c7bc548b6ff0d7877c4ddea0caa3e7b51eebf4968735e",
+      "unit_definition_filters": []
+    }
+  },
+  "retained_projectile": "expanse06_amun_torpedo",
+  "retained_cloak_ability": "expanse06_amun_cloak",
+  "removed_command_colonize": true,
+  "semantics": "Original current_spawner controller counts launches, reveals on fourth torpedo for60seconds, resets launch_count, re-arms after reveal_until; shared native boarding target lock and OPA research wrapper unchanged. No exact Amun hull or original magazine ID occurs in reachable ability/buff/ADS chain."
+}

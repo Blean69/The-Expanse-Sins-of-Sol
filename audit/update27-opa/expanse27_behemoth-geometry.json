@@ -1,0 +1,1051 @@
+{
+  "id": "expanse27_behemoth",
+  "existing_unit_id": "expanse24_behemoth",
+  "hull_mesh": "expanse27_behemoth_hull",
+  "source_zip": "/home/haker/Downloads/Nauvoo _ Behemoth _ Medina Station Bookmark from the Expanse - 5977410.zip",
+  "source_zip_sha256": "afb55f982a14cb8250aac3a910672b473168c6c3a2f51b9cae35fb86f6258e92",
+  "stl_sha256": "2da6862a9744a7a54dc92cfa21fbfe02462a9de479955614d500364e380d68d1",
+  "source_triangles": 168052,
+  "cleanup": {
+    "removed_blade_triangles": 289,
+    "retained_source_triangles": 167763,
+    "caps_added": 135,
+    "boundary_loops": [
+      {
+        "edges": 135,
+        "bounds": [
+          [
+            -1.29564,
+            -24.0,
+            11.733
+          ],
+          [
+            0.491,
+            -22.6,
+            37.525
+          ]
+        ]
+      }
+    ],
+    "remaining_open_edges": 0,
+    "rule": "Remove triangles extending beyond X=0.5; source full hull maxX0.491. Cap narrow attachment loops; no broad silhouette clipping."
+  },
+  "optimization": {
+    "input_triangles": 167898,
+    "output_triangles": 144886,
+    "target": 145000,
+    "relative_error": 0.0,
+    "error_limit": 0.0001,
+    "degenerate_faces_removed": 108,
+    "optimizer_sha256": "1877da479e08797a1b688e5eacabac1900b89d2f4efd89a5ae5c8d5626356ef4"
+  },
+  "engine_reconstruction": {
+    "print_peg_faces_removed": 1425,
+    "bell_faces_added": 1536,
+    "engine_count": 8,
+    "method": "Eight source-Z0 circle groups; replace solid peg ends with48-sided open tapered bells and dark throats"
+  },
+  "length_metres": 2000,
+  "source_scale": 79.51524533869359,
+  "source_center": [
+    -11.38,
+    -24.24,
+    28.703
+  ],
+  "spatial": {
+    "box": {
+      "center": [
+        11.967041015625,
+        -124.2425537109375,
+        -19.87876887543439
+      ],
+      "extents": [
+        931.9584350585938,
+        1041.450927734375,
+        2302.2049407504346
+      ]
+    },
+    "radius": 2455.2632555244363,
+    "collision_rank": 3
+  },
+  "meshpoints": [
+    {
+      "name": "center",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0,
+        1000,
+        0
+      ]
+    },
+    {
+      "name": "aura",
+      "translation": [
+        0,
+        -1000,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        523.623793968357,
+        -72.96715681656492,
+        -2322.083709625869
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.1",
+      "translation": [
+        422.68316791160487,
+        317.35327795698703,
+        -2322.083709625869
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.2",
+      "translation": [
+        75.30888130744466,
+        521.9738535375586,
+        -2322.083709625869
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.3",
+      "translation": [
+        -315.0195385385621,
+        421.0332255850153,
+        -2322.083709625869
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.4",
+      "translation": [
+        -519.6400799948923,
+        73.65098992843298,
+        -2322.083709625869
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.5",
+      "translation": [
+        -418.69545571453926,
+        -316.66549401629777,
+        -2322.083709625869
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.6",
+      "translation": [
+        -71.31324280745116,
+        -521.2900280088554,
+        -2322.083709625869
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.7",
+      "translation": [
+        319.00721281980384,
+        -420.34143773335165,
+        -2322.083709625869
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "child.expanse27_behemoth_pdc_0",
+      "translation": [
+        655.9658429793119,
+        655.9658429793118,
+        -971.5669645764949
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.3826834323650898,
+        0.9238795325112867
+      ]
+    },
+    {
+      "name": "child.expanse27_behemoth_pdc_1",
+      "translation": [
+        -659.602393632805,
+        659.6023936328052,
+        -971.5669645764949
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.3826834323650897,
+        0.9238795325112867
+      ]
+    },
+    {
+      "name": "child.expanse27_behemoth_pdc_2",
+      "translation": [
+        -656.7474708584233,
+        -656.7474708584232,
+        -777.7485540634293
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.9238795325112867,
+        0.3826834323650899
+      ]
+    },
+    {
+      "name": "child.expanse27_behemoth_pdc_3",
+      "translation": [
+        653.362908703295,
+        -653.3629087032954,
+        -971.5669645764949
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.9238795325112867,
+        -0.3826834323650896
+      ]
+    },
+    {
+      "name": "child.expanse27_behemoth_pdc_4",
+      "translation": [
+        655.9658429793119,
+        655.9658429793118,
+        995.1929318477544
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -0.3826834323650898,
+        0.9238795325112867
+      ]
+    },
+    {
+      "name": "child.expanse27_behemoth_pdc_5",
+      "translation": [
+        -659.602393632805,
+        659.6023936328052,
+        726.8289788296635
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.3826834323650897,
+        0.9238795325112867
+      ]
+    },
+    {
+      "name": "child.expanse27_behemoth_pdc_6",
+      "translation": [
+        -656.7474708584232,
+        -656.747470858423,
+        726.8289788296635
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.9238795325112867,
+        0.3826834323650899
+      ]
+    },
+    {
+      "name": "child.expanse27_behemoth_pdc_7",
+      "translation": [
+        653.3629087032947,
+        -653.362908703295,
+        760.3744729569248
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.9238795325112867,
+        -0.3826834323650896
+      ]
+    },
+    {
+      "name": "weapon.torpedo.0",
+      "translation": [
+        -250.0,
+        0.0,
+        1420.7716064453125
+      ]
+    },
+    {
+      "name": "weapon.torpedo.1",
+      "translation": [
+        250.0,
+        0.0,
+        1523.095055893119
+      ]
+    }
+  ],
+  "rigs": [
+    {
+      "mesh_point": "child.expanse27_behemoth_pdc_0",
+      "position": [
+        655.9658429793119,
+        655.9658429793118,
+        -971.5669645764949
+      ],
+      "up": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.7071067811865476,
+          0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_behemoth_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_behemoth_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_behemoth_pdc_1",
+      "position": [
+        -659.602393632805,
+        659.6023936328052,
+        -971.5669645764949
+      ],
+      "up": [
+        -0.7071067811865475,
+        0.7071067811865476,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          0.7071067811865476,
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_behemoth_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_behemoth_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_behemoth_pdc_2",
+      "position": [
+        -656.7474708584233,
+        -656.7474708584232,
+        -777.7485540634293
+      ],
+      "up": [
+        -0.7071067811865477,
+        -0.7071067811865475,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          -0.7071067811865475,
+          -0.7071067811865477,
+          0.0
+        ],
+        [
+          0.7071067811865477,
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_behemoth_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_behemoth_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_behemoth_pdc_3",
+      "position": [
+        653.362908703295,
+        -653.3629087032954,
+        -971.5669645764949
+      ],
+      "up": [
+        0.7071067811865474,
+        -0.7071067811865477,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          -0.7071067811865477,
+          0.7071067811865474,
+          0.0
+        ],
+        [
+          -0.7071067811865474,
+          -0.7071067811865477,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_behemoth_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_behemoth_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_behemoth_pdc_4",
+      "position": [
+        655.9658429793119,
+        655.9658429793118,
+        995.1929318477544
+      ],
+      "up": [
+        0.7071067811865476,
+        0.7071067811865475,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.7071067811865476,
+          0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_behemoth_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_behemoth_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_behemoth_pdc_5",
+      "position": [
+        -659.602393632805,
+        659.6023936328052,
+        726.8289788296635
+      ],
+      "up": [
+        -0.7071067811865475,
+        0.7071067811865476,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          0.7071067811865476,
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.7071067811865475,
+          0.7071067811865476,
+          0.0
+        ],
+        [
+          -0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_behemoth_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_behemoth_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_behemoth_pdc_6",
+      "position": [
+        -656.7474708584232,
+        -656.747470858423,
+        726.8289788296635
+      ],
+      "up": [
+        -0.7071067811865477,
+        -0.7071067811865475,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          -0.7071067811865475,
+          -0.7071067811865477,
+          0.0
+        ],
+        [
+          0.7071067811865477,
+          -0.7071067811865475,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_behemoth_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_behemoth_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_behemoth_pdc_7",
+      "position": [
+        653.3629087032947,
+        -653.362908703295,
+        760.3744729569248
+      ],
+      "up": [
+        0.7071067811865474,
+        -0.7071067811865477,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          -0.7071067811865477,
+          0.7071067811865474,
+          0.0
+        ],
+        [
+          -0.7071067811865474,
+          -0.7071067811865477,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_behemoth_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_behemoth_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    }
+  ],
+  "torpedo_ports": [
+    {
+      "position": [
+        -250.0,
+        0.0,
+        1420.7716064453125
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": [
+        250.0,
+        0.0,
+        1523.095055893119
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "exhausts": [
+    {
+      "position": [
+        523.623793968357,
+        -72.96715681656492,
+        -2322.083709625869
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_xy_center": [
+        -4.7947999954223635,
+        -25.15764989852905
+      ],
+      "aperture_radius": 122.6480337007588
+    },
+    {
+      "position": [
+        422.68316791160487,
+        317.35327795698703,
+        -2322.083709625869
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_xy_center": [
+        -6.064249968528747,
+        -20.24890022277832
+      ],
+      "aperture_radius": 122.63922245683393
+    },
+    {
+      "position": [
+        75.30888130744466,
+        521.9738535375586,
+        -2322.083709625869
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_xy_center": [
+        -10.432900094985962,
+        -17.67554998397827
+      ],
+      "aperture_radius": 122.63470620508522
+    },
+    {
+      "position": [
+        -315.0195385385621,
+        421.0332255850153,
+        -2322.083709625869
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_xy_center": [
+        -15.341750192642213,
+        -18.944999980926514
+      ],
+      "aperture_radius": 122.64478671758677
+    },
+    {
+      "position": [
+        -519.6400799948923,
+        73.65098992843298,
+        -2322.083709625869
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_xy_center": [
+        -17.915100002288817,
+        -23.313750076293946
+      ],
+      "aperture_radius": 122.63468244968867
+    },
+    {
+      "position": [
+        -418.69545571453926,
+        -316.66549401629777,
+        -2322.083709625869
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_xy_center": [
+        -16.6455997467041,
+        -28.222450065612794
+      ],
+      "aperture_radius": 122.64325107219109
+    },
+    {
+      "position": [
+        -71.31324280745116,
+        -521.2900280088554,
+        -2322.083709625869
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_xy_center": [
+        -12.276849937438964,
+        -30.79585008621216
+      ],
+      "aperture_radius": 122.62954191877668
+    },
+    {
+      "position": [
+        319.00721281980384,
+        -420.34143773335165,
+        -2322.083709625869
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "source_xy_center": [
+        -7.368099999427796,
+        -29.526299953460693
+      ],
+      "aperture_radius": 122.63632195521932
+    }
+  ],
+  "materials": [
+    "expanse27_behemoth_ivory",
+    "expanse27_behemoth_framework",
+    "expanse27_behemoth_nozzle"
+  ],
+  "checks": {
+    "sampled_muzzle_rays_clear": 1224,
+    "sampled_yaw_angles": 17,
+    "sampled_pitch_angles": 9
+  },
+  "notes": [
+    "Full round3D source hull retained; no flattened bookmark exported.",
+    "Blade removed and attachment capped; no separate exterior source lettering identified. Interior detail is retained rather than misclassified as print supports.",
+    "White/ivory industrial panel paint and emissive windows; inherited support-oriented combat/health remain unchanged.",
+    "CC BY-NC archive attribution: Brendch06, Thingiverse5977410. Local derivative only."
+  ]
+}

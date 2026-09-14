@@ -1,0 +1,256 @@
+{
+  "status": "PASS OFFLINE SCHEMAS/REFERENCES/VALUES/PRESERVATION; REAL RESEARCH PROVIDED BY MAIN",
+  "schemas": [
+    {
+      "file": "expanse27_dark_star_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/cloak_ability",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse_amun_ra.unit",
+          "source_sha256": "6a7a37ed8885398bf85da36d3d61679e20a2a53d3fcb4bb60126644c3ea5513a"
+        },
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse_amun_ra.unit",
+          "source_sha256": "6a7a37ed8885398bf85da36d3d61679e20a2a53d3fcb4bb60126644c3ea5513a"
+        }
+      ]
+    },
+    {
+      "file": "expanse27_dark_star.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse24_behemoth.unit",
+          "source_sha256": "6ca65432c9baf0c1bb3664f2554a14cc340385bdd2eb4689f5936b03744a8b8f"
+        }
+      ]
+    },
+    {
+      "file": "expanse24_behemoth.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_hud_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_hud_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_tooltip_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_main_view_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_main_view_icon_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_main_view_icon_sub_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_hud_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_hud_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_tooltip_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_main_view_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_main_view_icon_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_main_view_icon_sub_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    }
+  ],
+  "abilities": [
+    {
+      "unit": "expanse27_dark_star",
+      "actions": {
+        "abilities": 5,
+        "buffs": 6,
+        "torpedoes": 2
+      },
+      "values": [
+        {
+          "ability": "expanse27_dark_star_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse27_dark_star_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse27_dark_star_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_boarding",
+          "ADS": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse21_opa_override_codes_boarding.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_cloak_controller",
+          "ADS": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse06_amun_cloak.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse06_amun_cloak.buff",
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse06_amun_cloak_controller.buff",
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse06_amun_revealed.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_cloak",
+          "ADS": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse06_amun_cloak.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse06_amun_cloak.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse24_behemoth",
+      "actions": {
+        "abilities": 3,
+        "buffs": 4,
+        "torpedoes": 2
+      },
+      "values": [
+        {
+          "ability": "expanse27_behemoth_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse27_behemoth_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse27_behemoth_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse24_behemoth_hospital",
+          "ADS": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse24_behemoth_hospital.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.buff",
+            "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_retrofit_bay_repair.buff",
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse15_scirocco_engineering_teams.buff",
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse22_repair_anchorage_reservation.buff",
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse24_behemoth_hospital_grid_load.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    }
+  ],
+  "checks": {
+    "shared_Amun_cloak_boarding_rail_identity": true,
+    "original_magazines_byte_preserved_private_layout_only": true,
+    "no_offense_level_bonus_added": true,
+    "Earth85DPS_per_PDC": true,
+    "Behemoth_health_support_economy_movement_unchanged": true,
+    "attachment_and_exhaust_positions_verified": true,
+    "all_art_hashes_match": true,
+    "source_definitions_unchanged": true
+  },
+  "limits": [
+    "Private research stub validates prerequisite resolution only; actual tier3priced node and player access must be checked by main.",
+    "Muzzle rays are sampled in source geometry; in-engine turret tracking, engine trails and performance remain untested."
+  ],
+  "runtime": {
+    "native capital procurement and UI": "NOT RUN",
+    "turret tracking/fire under movement": "NOT RUN",
+    "stealth reveal and boarding on new hull": "NOT RUN",
+    "eight engine plumes": "NOT RUN",
+    "save/reload and multiplayer": "NOT RUN",
+    "model performance": "NOT RUN"
+  }
+}

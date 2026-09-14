@@ -1,0 +1,420 @@
+{
+  "id": "expanse27_dark_star",
+  "hull_mesh": "expanse27_dark_star_hull",
+  "source_zip": "/home/haker/Downloads/The_Expanse_OPAS_Dark_Star_V1.1_Merged.zip",
+  "source_zip_sha256": "85ff35dc171a9bf63ee92fd58944b276e3f6d313f5ccf6b16658a148857505a3",
+  "stl_sha256": "7312e1f0179311114cbaf1ac11ed0525ab81d9dafb47afd898a3bceebf30c56b",
+  "source_triangles": 426522,
+  "optimization": {
+    "input_triangles": 426522,
+    "output_triangles": 179972,
+    "target": 180000,
+    "relative_error": 5.393071842263453e-05,
+    "error_limit": 0.00025,
+    "degenerate_faces_removed": 12,
+    "optimizer_sha256": "1877da479e08797a1b688e5eacabac1900b89d2f4efd89a5ae5c8d5626356ef4"
+  },
+  "length_metres_mod_adaptation": 90,
+  "source_scale": 0.8880784985018336,
+  "source_center": [
+    0.0,
+    5.542930603027344,
+    0.0
+  ],
+  "source_rotation": "[X,Z,Y], compensate reflected triangle winding; source negativeY engine becomes game negativeZ",
+  "spatial": {
+    "box": {
+      "center": [
+        -2.5065460205078125,
+        -3.5058441162109375,
+        0.0
+      ],
+      "extents": [
+        34.62981414794922,
+        30.164024353027344,
+        102.70467376708984
+      ]
+    },
+    "radius": 115.17949089128066,
+    "collision_rank": 2
+  },
+  "meshpoints": [
+    {
+      "name": "center",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0,
+        40,
+        0
+      ]
+    },
+    {
+      "name": "aura",
+      "translation": [
+        0,
+        -40,
+        0
+      ]
+    },
+    {
+      "name": "child.expanse27_dark_star_pdc_0",
+      "translation": [
+        1.08223858123599e-15,
+        17.674297307427537,
+        30.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -3.061616997868383e-17,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse27_dark_star_pdc_1",
+      "translation": [
+        2.000456671649814e-15,
+        -32.66993672040968,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        -3.061616997868383e-17
+      ]
+    },
+    {
+      "name": "child.expanse27_dark_star_pdc_2",
+      "translation": [
+        1.704775117166262e-15,
+        27.84109048181392,
+        -45.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -3.061616997868383e-17,
+        1.0
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        0.0,
+        0.0,
+        -102.83788568781875
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "weapon.torpedo.0",
+      "translation": [
+        -8.0,
+        0.0,
+        74.85762023925781
+      ]
+    },
+    {
+      "name": "weapon.torpedo.1",
+      "translation": [
+        8.0,
+        0.0,
+        74.85762023925781
+      ]
+    },
+    {
+      "name": "weapon.rail.0",
+      "translation": [
+        0.0,
+        -10.0,
+        74.85762023925778
+      ]
+    },
+    {
+      "name": "weapon.boarding.0",
+      "translation": [
+        28.008875506354173,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.7071067811865475,
+        0.0,
+        0.7071067811865476
+      ]
+    }
+  ],
+  "rigs": [
+    {
+      "mesh_point": "child.expanse27_dark_star_pdc_0",
+      "position": [
+        1.08223858123599e-15,
+        17.674297307427537,
+        30.0
+      ],
+      "up": [
+        6.123233995736766e-17,
+        1.0,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_dark_star_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_dark_star_pdc_barrel",
+        "barrel_position": [
+          2.1843591020073724e-06,
+          1.5430707496980827,
+          -0.7105518623323791
+        ],
+        "muzzle_positions": [
+          [
+            -4.311843950747236e-06,
+            -0.004210139860198336,
+            7.172168120292612
+          ]
+        ]
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_dark_star_pdc_1",
+      "position": [
+        2.000456671649814e-15,
+        -32.66993672040968,
+        0.0
+      ],
+      "up": [
+        6.123233995736766e-17,
+        -1.0,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          -1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -6.123233995736766e-17,
+          -1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_dark_star_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_dark_star_pdc_barrel",
+        "barrel_position": [
+          2.1843591020073724e-06,
+          1.5430707496980827,
+          -0.7105518623323791
+        ],
+        "muzzle_positions": [
+          [
+            -4.311843950747236e-06,
+            -0.004210139860198336,
+            7.172168120292612
+          ]
+        ]
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_dark_star_pdc_2",
+      "position": [
+        1.704775117166262e-15,
+        27.84109048181392,
+        -45.0
+      ],
+      "up": [
+        6.123233995736766e-17,
+        1.0,
+        0.0
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "basis": [
+        [
+          1.0,
+          6.123233995736766e-17,
+          0.0
+        ],
+        [
+          -6.123233995736766e-17,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -25.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_dark_star_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_dark_star_pdc_barrel",
+        "barrel_position": [
+          2.1843591020073724e-06,
+          1.5430707496980827,
+          -0.7105518623323791
+        ],
+        "muzzle_positions": [
+          [
+            -4.311843950747236e-06,
+            -0.004210139860198336,
+            7.172168120292612
+          ]
+        ]
+      }
+    }
+  ],
+  "torpedo_ports": [
+    {
+      "position": [
+        -8.0,
+        0.0,
+        74.85762023925781
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": [
+        8.0,
+        0.0,
+        74.85762023925781
+      ],
+      "rotation": [
+        1,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "rail_position": [
+    0.0,
+    -10.0,
+    74.85762023925778
+  ],
+  "exhausts": [
+    {
+      "position": [
+        0.0,
+        0.0,
+        -102.83788568781875
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "materials": [
+    "expanse27_dark_star_charcoal",
+    "expanse27_dark_star_graphite"
+  ],
+  "checks": {
+    "sampled_muzzle_rays_clear": 459,
+    "sampled_yaw_angles": 17,
+    "sampled_pitch_angles": 9
+  },
+  "notes": [
+    "Commissioned fan/RPG Belter salvage interpretation; not a canonical named ship.",
+    "Black/charcoal mod paint; original STL has no UV/material sources.",
+    "Three independent actual Amun PDC donor rigs; outward -25deg maximum elevation arc preserves hull clearance.",
+    "Local user-authorized paid-model derivative only; do not publish source or compiled art."
+  ]
+}
