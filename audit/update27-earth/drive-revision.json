@@ -1,0 +1,89 @@
+{
+  "donor": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse24_storm_hull.mesh",
+  "donor_sha256": "0b3979fd1a17d122959ef0d48c986eca440b21f281b8d785052dd5d639eca896",
+  "donor_material": "expanse24_storm_hull_storm_drive",
+  "upstream_donor": "Accepted Truman bell, inner throat and support rings; retained in Storm0.26 as a UV-preserving component",
+  "triangles_per_drive": 6123,
+  "uniform_scale_from_storm_component": 0.8148148148148148,
+  "source_uvs_normals_tangents_preserved": true,
+  "nozzles": [
+    {
+      "nozzle": 0,
+      "opening_center": [
+        -45.10651068849512,
+        -14.655993862996759,
+        -306.32903063497025
+      ],
+      "diameter": 22.0,
+      "depth": 13.343089916087962,
+      "aperture_radius": 11.05,
+      "aperture_depth": 23.0,
+      "old_faces_touched": 534
+    },
+    {
+      "nozzle": 1,
+      "opening_center": [
+        45.10651068849512,
+        -14.655993862996759,
+        -306.32903063497025
+      ],
+      "diameter": 22.0,
+      "depth": 13.343089916087962,
+      "aperture_radius": 11.05,
+      "aperture_depth": 23.0,
+      "old_faces_touched": 534
+    },
+    {
+      "nozzle": 2,
+      "opening_center": [
+        -27.87735672919903,
+        38.36988971604987,
+        -306.32903063497025
+      ],
+      "diameter": 22.0,
+      "depth": 13.343089916087962,
+      "aperture_radius": 11.05,
+      "aperture_depth": 23.0,
+      "old_faces_touched": 534
+    },
+    {
+      "nozzle": 3,
+      "opening_center": [
+        27.87735672919903,
+        38.36988971604987,
+        -306.32903063497025
+      ],
+      "diameter": 22.0,
+      "depth": 13.343089916087962,
+      "aperture_radius": 11.05,
+      "aperture_depth": 23.0,
+      "old_faces_touched": 534
+    },
+    {
+      "nozzle": 4,
+      "opening_center": [
+        0.0,
+        -47.42779212558204,
+        -306.32903063497025
+      ],
+      "diameter": 22.0,
+      "depth": 13.343089916087962,
+      "aperture_radius": 11.05,
+      "aperture_depth": 23.0,
+      "old_faces_touched": 534
+    }
+  ],
+  "previous_hull_sha256": "2a6c82951d36d3232811cad16b70aafd51ae7f7535616a937b6d163a1e693939",
+  "weapon_mounts_unchanged": true,
+  "exhaust_meshpoints_unchanged": true,
+  "munroe": "Detailed four-engine source hardware retained; radial surface depth varies across bell/throat, no flat cap substitution.",
+  "compiled": true,
+  "validation": {
+    "all_rigs_exactly_unchanged": true,
+    "all_meshpoints_exactly_unchanged": true,
+    "spatial_exactly_unchanged": true,
+    "compiled_winding": 0,
+    "final_clearance_report": "compiled-clearance.json",
+    "runtime": "NOT RUN"
+  }
+}

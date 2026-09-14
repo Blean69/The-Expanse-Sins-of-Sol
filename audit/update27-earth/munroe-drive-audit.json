@@ -1,0 +1,33 @@
+{
+  "result": "RETAIN DETAILED SOURCE GEOMETRY",
+  "drive_count": 4,
+  "nozzle_region_triangles": [
+    36228,
+    36278,
+    36286,
+    36282
+  ],
+  "near_throat_center_vs_radial_depth_game_units": [
+    [
+      -0.254,
+      1.842,
+      5.898,
+      2.849,
+      3.556,
+      5.598,
+      0.074
+    ]
+  ],
+  "radial_probe_offsets": [
+    0,
+    2,
+    4,
+    6,
+    8,
+    10,
+    12
+  ],
+  "method": "First compiled-mesh intersection from aft at radial offsets along X; throat hardware is non-planar and recessed, not a blank disc. Central detailed hardware projects slightly beyond the exhaust marker.",
+  "hull_sha256": "6ef34e0aefa01462b57095282ab129eeb47bff39b5412d4b7f385351a2394264",
+  "decision": "Keep dense original bell/rim/throat mechanical detail and all four source nozzles. No broad body changes."
+}

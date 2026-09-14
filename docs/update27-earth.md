@@ -15,7 +15,7 @@ The fused print gun tops are cut at actual bearings. Intersection loops are stit
 
 | Hull | Remaining hull triangles | Complete assembled triangles | Engines | Moving mounts |
 |---|---:|---:|---:|---|
-| Nathan Hale | 21,650 | 39,330 | 5 | 12 PDC + 2 rail |
+| Nathan Hale | 62,017 | 79,697 | 5 | 12 PDC + 2 rail |
 | Munroe | 254,029 | 259,445 | 4 | 8 PDC |
 
 No broad decimation was needed: replacing Munroe's extremely dense fused PDC tops removed the excess while preserving every remaining original hull triangle. The STL's small relief details and four-drive silhouette remain. New material assignments add steel armor, blue bands, contrasting machinery and light metal panels. New procedural BC7 textures and retained normal/mask resources supply the surface palette. The STL has no original color map to recover. UVs deliberately tile and trigger the SDK's out-of-range UV warning; this is not a missing texture or invalid mesh. Offline previews show base color and triangle geometry, not engine PBR lighting.
@@ -53,4 +53,13 @@ Hale additionally costs one offense and one defense exotic. Torpedoes reuse the 
 
 Only regular owned game files may be copied; duplicate donor textures must match the accepted package bytes. Do not copy `.tools`, source archives or any Wine prefix. Runtime acceptance still requires live target acquisition, turret animation, nozzle effects, research/build menus, save/reload and multiplayer. Offline passes are recorded separately in `validation.json` and do not claim those runtime tests.
 
-Observed offline: 45 schema checks, native reference/action-value resolution for both ships, compiled winding/frame checks, 124 explicitly hashed game files, zero blocked PDC rays on the final one-degree sweep, and zero blocked rail muzzle rays over their horizontal arcs. Both compiled bow/aft previews were visually inspected.
+Observed offline: 45 schema checks, native reference/action-value resolution for both ships, compiled winding/frame checks, 125 explicitly hashed game files, zero blocked PDC rays on the final one-degree sweep, and zero blocked rail muzzle rays over their horizontal arcs. Both compiled bow/aft previews were visually inspected.
+
+
+## Requested detailed drive revision
+
+Post-build `update27_earth_drives.py prepare` then `compile` replaces Nathan Hale's five simple print recesses with actual accepted Truman bell/throat/support-ring geometry, selected from the existing Storm drive component. Original donor UVs, normal frames and textured material remain; no procedural stand-in cone. A 48-plane cylindrical subtraction removes the old inner print surfaces without deleting the surrounding five drive housings. Each new bell is 22 game units across and uniformly scaled; its mouth matches the original measured exhaust center. Hull count is now **62,017**, assembled **79,697**. Gun mounts, firing arcs, plume attachment positions, game dimensions, health and all costs are unchanged.
+
+Munroe already contains approximately **36,000 triangles of bell/throat hardware per drive** in its immediate nozzle regions. A compiled-mesh radial probe finds varied recessed depths and complex central hardware rather than a flat printer cap. Its four existing detailed drives and dense body are retained unchanged; see `munroe-drive-audit.json`. The three-engine reference remains excluded.
+
+After the drive revision, regenerate Hale previews, UI, private recipe audits and final validation/manifest. `drive-revision.json` records exact donor hashes, scale, local clipping dimensions, counts and invariant checks. The update adds actual donor surface texture detail to Hale's engines; new whole-hull photographic texture projection is not claimed.

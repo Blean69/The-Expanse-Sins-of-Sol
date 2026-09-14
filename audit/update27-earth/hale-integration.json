@@ -1400,8 +1400,8 @@
     "radius": 315.5913745596727
   },
   "counts": {
-    "hull": 21650,
-    "assembled": 39330,
+    "hull": 62017,
+    "assembled": 79697,
     "pdc_count": 12,
     "rail_count": 2
   },
@@ -1590,16 +1590,17 @@
   "runtime": "NOT RUN",
   "compile_checks": {
     "expanse27_nathan_hale_hull": {
-      "triangles": 21650,
+      "triangles": 62017,
       "materials": [
         "expanse27_nathan_hale_hull_armor",
+        "expanse27_nathan_hale_hull_epstein_drive",
         "expanse27_nathan_hale_hull_machinery",
         "expanse27_nathan_hale_hull_navy",
         "expanse27_nathan_hale_hull_steel"
       ],
-      "source_frame_error": 1.5102108096313735e-05,
+      "source_frame_error": 1.5339555887643456e-05,
       "opposed_winding_triangles": 0,
-      "initial_winding_flips": 0,
+      "initial_winding_flips": 48705,
       "meshpoints_unchanged": true,
       "only_tangent_bytes_repaired": true,
       "official_triangle_grid_and_trailer_preserved": true
@@ -1645,7 +1646,8 @@
     "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse15_truman_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
     "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse15_truman_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
     "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse15_truman_rail_0_truman_material.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
-    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/effects/expanse15_truman_idle_plume.particle_effect": "84962541459fb493ac8bb9d9624fa5650433a5d16f916ae36789d15b0e27fa98"
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/effects/expanse15_truman_idle_plume.particle_effect": "84962541459fb493ac8bb9d9624fa5650433a5d16f916ae36789d15b0e27fa98",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse24_storm_hull_storm_drive.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1"
   },
   "files": {
     "effects/expanse27_nathan_hale_idle_plume.particle_effect": "aad761db76b4a5137743679ef1fcd7105e38ba05bca5da5d9d019f864a6d820e",
@@ -1657,7 +1659,7 @@
     "mesh_materials/expanse27_nathan_hale_pdc_barrel_expanse15_truman_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
     "mesh_materials/expanse27_nathan_hale_pdc_base_expanse15_truman_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
     "mesh_materials/expanse27_nathan_hale_rail_mesh_expanse15_truman_rail_0_truman_material.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
-    "meshes/expanse27_nathan_hale_hull.mesh": "2a6c82951d36d3232811cad16b70aafd51ae7f7535616a937b6d163a1e693939",
+    "meshes/expanse27_nathan_hale_hull.mesh": "dfa09edd0c6e2777f59a41f071e48af21276c18674b9ec8b1f678fdbc9868bec",
     "meshes/expanse27_nathan_hale_pdc_barrel.mesh": "e11055aa44559058138c942c611b57711005277de33eaf55151b5dcf6620a6ce",
     "meshes/expanse27_nathan_hale_pdc_base.mesh": "724ee04685668767ac9e2f1f4f9c3d72947eaff41d3ad007f94a5187124a17c7",
     "meshes/expanse27_nathan_hale_rail_mesh.mesh": "2be59693928880b8fe96a6357e18e8b0e9348b100f8eaf72d9d4d875c5f47fd9",
@@ -1703,6 +1705,88 @@
     "textures/expanse27_nathan_hale_main_view_icon_sub_selected.png": "49cb8d55916bbc0682e5498af18b6657d1fa1d66d823f479427510cd270dc549",
     "textures/expanse27_nathan_hale_main_view_icon_sub_selected150.png": "6d549924c3263f7d22ddec28051787fb9751ca32c0c73b897eb24c07baa91420",
     "textures/expanse27_nathan_hale_main_view_icon_sub_selected200.png": "21bd89191a7680b71ae290d0cc8878b3e2a1e25c66c6b5b51c5bccc627d875ec",
-    "brushes/expanse27_nathan_hale_main_view_icon_sub_selected.brush": "09e9ff0aaf14560e45e596016170bca22a73a99853852fd18fa54fcfb9ccc5ef"
+    "brushes/expanse27_nathan_hale_main_view_icon_sub_selected.brush": "09e9ff0aaf14560e45e596016170bca22a73a99853852fd18fa54fcfb9ccc5ef",
+    "mesh_materials/expanse27_nathan_hale_hull_epstein_drive.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1"
+  },
+  "drive_revision": {
+    "donor": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse24_storm_hull.mesh",
+    "donor_sha256": "0b3979fd1a17d122959ef0d48c986eca440b21f281b8d785052dd5d639eca896",
+    "donor_material": "expanse24_storm_hull_storm_drive",
+    "upstream_donor": "Accepted Truman bell, inner throat and support rings; retained in Storm0.26 as a UV-preserving component",
+    "triangles_per_drive": 6123,
+    "uniform_scale_from_storm_component": 0.8148148148148148,
+    "source_uvs_normals_tangents_preserved": true,
+    "nozzles": [
+      {
+        "nozzle": 0,
+        "opening_center": [
+          -45.10651068849512,
+          -14.655993862996759,
+          -306.32903063497025
+        ],
+        "diameter": 22.0,
+        "depth": 13.343089916087962,
+        "aperture_radius": 11.05,
+        "aperture_depth": 23.0,
+        "old_faces_touched": 534
+      },
+      {
+        "nozzle": 1,
+        "opening_center": [
+          45.10651068849512,
+          -14.655993862996759,
+          -306.32903063497025
+        ],
+        "diameter": 22.0,
+        "depth": 13.343089916087962,
+        "aperture_radius": 11.05,
+        "aperture_depth": 23.0,
+        "old_faces_touched": 534
+      },
+      {
+        "nozzle": 2,
+        "opening_center": [
+          -27.87735672919903,
+          38.36988971604987,
+          -306.32903063497025
+        ],
+        "diameter": 22.0,
+        "depth": 13.343089916087962,
+        "aperture_radius": 11.05,
+        "aperture_depth": 23.0,
+        "old_faces_touched": 534
+      },
+      {
+        "nozzle": 3,
+        "opening_center": [
+          27.87735672919903,
+          38.36988971604987,
+          -306.32903063497025
+        ],
+        "diameter": 22.0,
+        "depth": 13.343089916087962,
+        "aperture_radius": 11.05,
+        "aperture_depth": 23.0,
+        "old_faces_touched": 534
+      },
+      {
+        "nozzle": 4,
+        "opening_center": [
+          0.0,
+          -47.42779212558204,
+          -306.32903063497025
+        ],
+        "diameter": 22.0,
+        "depth": 13.343089916087962,
+        "aperture_radius": 11.05,
+        "aperture_depth": 23.0,
+        "old_faces_touched": 534
+      }
+    ],
+    "previous_hull_sha256": "2a6c82951d36d3232811cad16b70aafd51ae7f7535616a937b6d163a1e693939",
+    "weapon_mounts_unchanged": true,
+    "exhaust_meshpoints_unchanged": true,
+    "munroe": "Detailed four-engine source hardware retained; radial surface depth varies across bell/throat, no flat cap substitution.",
+    "compiled": true
   }
 }
