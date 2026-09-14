@@ -1,0 +1,17 @@
+# Gathering Storm gameplay fragment
+
+`tools/update24_storm_gameplay.py:changes(base)` returns `(edits, localization, origins, report)` against frozen main0.22. It supplies 13 new definitions; shared player, research-layout, tag-registry and manifest edits remain the integrator's responsibility. Generated files are in `build/update24-storm/fragments`.
+
+Unit `expanse24_gathering_storm` is a rare Laconian procurement adaptation in MCRN access, one per player through its private tag. It is a capital target with ten native capital levels and four normal item slots, but uses native `build_kind/build_group_id=cruiser` for ordinary production charging rather than the first-free-capital path. Add the tag, unit and unlock to MCRN and its wrapper aliases as appropriate; the isolated fragment does not enable it anywhere. Runtime queue/capture/free-capital billing remains untested.
+
+Initial proposal: 300 supply, 9,000 credits, 3,000 metal, 2,200 crystal, two offense/two utility/two ultimate exotics, 240-second build. Level-one hull6,000/armor3,000, durability500, native scaled Raptor level progression, no shields. Speed1,400, four-second acceleration, angular speed25. Stop-and-fire behavior matches the fixed keel instead of copying a torpedo ship's circle strafe. Existing native reactor overcharge retained. No corvette spawning, capture, reactor-death splash, colony, bombardment or cloak added.
+
+One fixed keel weapon retains the accepted Donnager profile: 5,000 damage, 1,500 penetration, 30-second cooldown, 1.5-second target acquisition,12,000 range. Only the turret is removed and axis speeds made zero; physical muzzle is the source rail tip, arcs±2°. Six PDCs retain exact accepted Raptor weapon behavior at117.6 DPS each and4,500 range, including the working PDC audio; actual native base/barrel geometry and sampled safe arcs bind each mount.
+
+The eighteen-round Raptor magazine is cloned privately with only its IDs and launch positions changed: three per ten-second salvo,120-second reload, existing1,500/1,575 research-scaled damage,2,125 speed,30-second fuel, projectile/interception semantics and reactor memory behavior. It launches from two measured hull locations; this is an explicitly conventional procurement loadout, not a claim about exact canonical Laconian ordnance.
+
+Research `expanse24_gathering_storm_procurement` is tier4,420 seconds,4,000 credits,1,000 metal,1,600 crystal and two ultimate exotics. It requires the real native `trader_unlock_loyalist_titan` prerequisite. Proposed field `military_experimental`, coordinate[7,4], must be checked against the assembled layout by the main integrator. Append research ID to player `/research/research_subjects`, not a new top-level field. Shared Raptor GUI brushes remain an explicitly temporary portrait; generic MCRN acknowledgment replaces the Raptor introduction.
+
+Silent-running is omitted from this bounded fragment: reusing the entire Amun-Ra system would bring its specific reveal/capture/magazine coupling. A clean bounded heat-sink ability requires a separate audited adaptation. No permanent invisibility, Magnetar attack, unusual shield pool or regenerative hull is implied.
+
+`tools/update24_storm_check.py` passes all13 pinned schemas (with unchanged donor extensions explicitly recorded) and mechanical invariants. Game purchase/research, targeting, effects, save/reload, capture-limit edge cases and multiplayer have not run. Art compilation/ray evidence is separate in the art contract.

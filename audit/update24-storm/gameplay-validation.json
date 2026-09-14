@@ -1,0 +1,106 @@
+{
+  "status": "PASS OFFLINE",
+  "schema": [
+    {
+      "file": "expanse24_gathering_storm_light_magazine.ability",
+      "status": "PASS",
+      "schema": "ability-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_light_magazine.buff",
+      "status": "PASS",
+      "schema": "buff-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_light_magazine.action_data_source",
+      "status": "PASS",
+      "schema": "action-data-source-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_0.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_1.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_2.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_3.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_4.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_5.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_keel_rail.weapon",
+      "status": "PASS",
+      "schema": "weapon-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm.unit",
+      "status": "PASS",
+      "schema": "unit-schema.json",
+      "unchanged_source_extensions": [
+        "/corruption"
+      ]
+    },
+    {
+      "file": "expanse24_gathering_storm.unit_skin",
+      "status": "PASS",
+      "schema": "unit-skin-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_procurement.research_subject",
+      "status": "PASS",
+      "schema": "research-subject-schema.json",
+      "unchanged_source_extensions": []
+    }
+  ],
+  "new_definitions": 13,
+  "checks": [
+    "new-only definitions",
+    "native capital progression + ordinary cruiser production costs",
+    "300 supply and private one-per-player tag recipe",
+    "six unchanged117.6 PDC profiles",
+    "fixed rail donor damage5000/cooldown30/penetration1500 retained",
+    "exact source magazine values and state machine",
+    "no shield, capture, hero, free spawn or bombardment",
+    "physical point binding and zero sampled PDC ray obstruction"
+  ],
+  "runtime": "NOT RUN",
+  "limitations": [
+    "ordinary resource charging including free-first-capital boundary",
+    "one-per-player queue/capture/save behavior",
+    "research completion existing and newly built units",
+    "target tracking and fixed rail alignment",
+    "torpedo spawn/reload and overcharge",
+    "plume appearance and rendering",
+    "multiplayer/save/reload"
+  ]
+}
