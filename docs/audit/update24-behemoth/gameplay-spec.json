@@ -1,0 +1,135 @@
+{
+  "status": "PRIVATE GAMEPLAY FRAGMENT; ACCESS MERGES REQUIRED",
+  "unit": "expanse24_behemoth",
+  "unit_id": "expanse24_behemoth",
+  "unlock": "trader_unlock_rebel_titan",
+  "art_contract": "/run/media/haker/NVME 2/expanse-workers20/abilities/docs/audit/update24-behemoth/integration-spec.json",
+  "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22",
+  "source_definitions_sha256": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse_donnager_battleship.unit": "7d9315dbdb0d230a8a94e726926ba3fff656db8d8dfa141af3a6abaeba479392",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse15_truman_pdc_0.weapon": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse19_europa_magazine.ability": "f6fd19c1e7447d0bf86e9c78f20e98359817489b7b0e531e1296042522057df5",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse19_europa_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse19_europa_magazine.buff": "5bfea1fbdcbe70062d7dae2ddbd76040e4b63583ead239368b12e0882fc28be5",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse15_scirocco_engineering_teams.ability": "87616afc0991744920d8de8deef462c6d6b7cc6b0dc0ab70f96c6f922ed8534f",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse15_scirocco_engineering_teams.action_data_source": "f9382b3de44cfdaf533249e425f41fd5005f3ccbdb3e85fdcc53caa44dd60893",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse_donnager_battleship.unit_skin": "718b57a78e89735cdd3b4f3f833dadb8393ce4496b16a5e3bf10b4b412ea3ce3",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse19_europa_bane.unit_skin": "310dbad00135189fbedb4f321a427c2d58ee79067d4fe94089e4cda51f12dcb7"
+  },
+  "scope": "One OPA logistics titan; new files only",
+  "shared_definition_merges": [],
+  "unit_tag_entries_append": [
+    {
+      "name": "expanse24_behemoth",
+      "localized_name": "expanse24_behemoth.name"
+    }
+  ],
+  "player_recipes": {
+    "opa": {
+      "buildable_units_append": [
+        "expanse24_behemoth"
+      ],
+      "research_requirement": "trader_unlock_rebel_titan",
+      "note": "Retain/restore the native rebel titan unlock chain and titan-factory access, or replace this prerequisite with an equivalent priced OPA titan research in the main integration. Do not grant a second independent titan limit."
+    }
+  },
+  "titan_limit_policy": {
+    "required_existing_global_limit_tag": "titan",
+    "extra_per_ship_limit": null,
+    "shares_with_donnager": true,
+    "native_build_kind": "titan",
+    "native_target_type": "titan"
+  },
+  "stats": {
+    "hull_level_1": 12000,
+    "armor_level_1": 1500,
+    "armor_strength_level_1": 55,
+    "durability": 350,
+    "max_speed": 250,
+    "turn_rate": 4,
+    "fleet_supply": 500,
+    "price": {
+      "credits": 11000.0,
+      "metal": 3000.0,
+      "crystal": 2200.0
+    },
+    "build_time": 360,
+    "native_titan_equipment_slots": 8,
+    "pdcs": 8,
+    "base_dps_per_pdc": 85,
+    "railguns": 0,
+    "torpedo_magazine_profile": "Unchanged Europa magazine; eight UNN light torpedoes, two per ten seconds,120-second reload,30-second fuel",
+    "hospital_max_per_cast": 800,
+    "hospital_hull_per_second": 40,
+    "hospital_duration": 20,
+    "hospital_cooldown": 60,
+    "hospital_antimatter": 100
+  },
+  "service_scopes": {
+    "hospital": "one other owned ship, same gravity well, targeted within6000; fixed absolute cap; shared repair reservation",
+    "component_shop": "native mobile component-shop availability, same service semantics as Vasari Fabricator; no price reduction or empire modifier"
+  },
+  "mechanical_limits": [
+    "Hospital grid load affects normal PDC cooldown only; scripted missile magazine schedule is not a normal weapon cooldown.",
+    "The native shared repair timer cancels when target ownership changes, but may finish if the provider dies or leaves after the cast; this is a finite 800-hull dispatched-team budget, not a persistent aura.",
+    "Hospital does not claim real interceptable pods or animate drum spin.",
+    "Refit uses native mobile shop semantics; exact proximity/UI and alliance behavior must be observed in game.",
+    "Current generic Europa crew voice pool is reused; no Behemoth-specific audio or Donnager-name pool.",
+    "Source mesh aspect ratio and 2km scale are documented art assumptions."
+  ],
+  "observed_passes": [],
+  "untested": [
+    "game load and research menus",
+    "native shared titan cap across capture and rebuild",
+    "navigation/collision at2km scale",
+    "PDC tracking and range in engine",
+    "hospital caster-death/save-reload/ownership and manual-autocast behavior",
+    "mobile shop availability and allied access",
+    "multiplayer synchronization and performance"
+  ],
+  "art_directory": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/game",
+  "art_files": {
+    "textures/expanse24_behemoth_hud_icon.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_icon.png",
+    "textures/expanse24_behemoth_hud_icon150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_icon150.png",
+    "textures/expanse24_behemoth_hud_icon200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_icon200.png",
+    "textures/expanse24_behemoth_hud_picture.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_picture.png",
+    "textures/expanse24_behemoth_hud_picture150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_picture150.png",
+    "textures/expanse24_behemoth_hud_picture200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_hud_picture200.png",
+    "textures/expanse24_behemoth_tooltip_picture.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_tooltip_picture.png",
+    "textures/expanse24_behemoth_tooltip_picture150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_tooltip_picture150.png",
+    "textures/expanse24_behemoth_tooltip_picture200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_tooltip_picture200.png",
+    "textures/expanse24_behemoth_main_view_icon.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon.png",
+    "textures/expanse24_behemoth_main_view_icon150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon150.png",
+    "textures/expanse24_behemoth_main_view_icon200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon200.png",
+    "textures/expanse24_behemoth_main_view_icon_selected.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_selected.png",
+    "textures/expanse24_behemoth_main_view_icon_selected150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_selected150.png",
+    "textures/expanse24_behemoth_main_view_icon_selected200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_selected200.png",
+    "textures/expanse24_behemoth_main_view_icon_sub_selected.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_sub_selected.png",
+    "textures/expanse24_behemoth_main_view_icon_sub_selected150.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_sub_selected150.png",
+    "textures/expanse24_behemoth_main_view_icon_sub_selected200.png": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/gameplay-art/textures/expanse24_behemoth_main_view_icon_sub_selected200.png"
+  },
+  "art_merge_policy": "Copy private art aliases and UI files; any already-present donor material/texture must match bytes and be skipped, never overwritten.",
+  "localization": {
+    "expanse24_behemoth.name": "OPA Behemoth",
+    "expanse24_behemoth.description": "A costly shieldless logistics titan rebuilt from a generation ship. Eight defensive PDCs, limited surplus torpedoes, targeted hospital engineering and a mobile component shop. Thin protection, slow movement and no railguns. Shares the ordinary titan limit.",
+    "expanse24_behemoth_pdc.name": "Behemoth point defense",
+    "expanse24_behemoth_pdc.description": "One defensive gun: 85 base damage per second, Earth tracking profile, hull-safe restricted arcs. No railgun.",
+    "expanse24_behemoth_loot_name": "Behemoth wreckage",
+    "expanse24_behemoth_magazine.name": "Behemoth surplus torpedo magazine",
+    "expanse24_behemoth_magazine.description": "Eight existing UNN-profile light torpedoes: two per ten seconds, 120-second reload after the last pair. Base damage 750 each, speed 2125, 30-second fuel; native missile research applies. No planetary or global launch capability.",
+    "expanse24_behemoth_hospital.name": "Hospital Engineering Teams",
+    "expanse24_behemoth_hospital.description": "Repairs one other nearby owned ship for 40 hull per second over 20 seconds, capped at 800. Range 6000; 100 antimatter; 60-second cooldown. Autocast below 80% hull. Shares Scirocco/Fleet Train repair exclusion. While operating, Behemoth loses 25% speed and its PDC reload time rises 25% for 20 seconds. Armor and shields are not restored.",
+    "expanse24_behemoth_hospital_grid_load.name": "Hospital grid priority",
+    "expanse24_behemoth_hospital_grid_load.description": "For 20 seconds, propulsion speed is reduced 25% and PDC cooldown duration increased 25%. The fixed torpedo-magazine schedule is unchanged. No full weapon shutdown."
+  },
+  "origins": {
+    "entities/expanse24_behemoth_pdc.weapon": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse15_truman_pdc_0.weapon",
+    "entities/expanse24_behemoth_magazine.ability": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse19_europa_magazine.ability",
+    "entities/expanse24_behemoth_magazine.action_data_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse19_europa_magazine.action_data_source",
+    "entities/expanse24_behemoth_magazine.buff": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse19_europa_magazine.buff",
+    "entities/expanse24_behemoth_hospital.ability": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse15_scirocco_engineering_teams.ability",
+    "entities/expanse24_behemoth_hospital.action_data_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse15_scirocco_engineering_teams.action_data_source",
+    "entities/expanse24_behemoth.unit": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse_donnager_battleship.unit",
+    "entities/expanse24_behemoth.unit_skin": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse_donnager_battleship.unit_skin"
+  }
+}

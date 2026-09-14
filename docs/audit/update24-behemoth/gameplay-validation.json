@@ -1,0 +1,179 @@
+{
+  "status": "PASS OFFLINE SCHEMA, REFERENCES, ACTION VALUES AND NUMERIC CONTRACTS",
+  "schemas": [
+    {
+      "file": "expanse24_behemoth_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_hospital.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_hospital.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_hospital_grid_load.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update22/entities/expanse_donnager_battleship.unit",
+          "source_sha256": "7d9315dbdb0d230a8a94e726926ba3fff656db8d8dfa141af3a6abaeba479392"
+        }
+      ]
+    },
+    {
+      "file": "expanse24_behemoth.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_hud_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_hud_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_tooltip_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_main_view_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_main_view_icon_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_main_view_icon_sub_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    }
+  ],
+  "actions": {
+    "abilities": 3,
+    "buffs": 4,
+    "torpedoes": 2
+  },
+  "action_values": [
+    {
+      "ability": "expanse24_behemoth_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/validation-view/entities/expanse24_behemoth_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/validation-view/entities/expanse24_behemoth_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse24_behemoth_hospital",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/validation-view/entities/expanse24_behemoth_hospital.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_combat_repair_system_unit_item.buff",
+        "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_retrofit_bay_repair.buff",
+        "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/validation-view/entities/expanse15_scirocco_engineering_teams.buff",
+        "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/validation-view/entities/expanse22_repair_anchorage_reservation.buff",
+        "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/validation-view/entities/expanse24_behemoth_hospital_grid_load.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse11_no_shields",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/validation-view/entities/expanse11_no_shields.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update24-behemoth/validation-view/entities/expanse11_no_shields.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "checks": {
+    "source_definitions_preserved": true,
+    "shared_titan_kind_tag_and_type": true,
+    "exact_native_titan_equipment_slots": true,
+    "no_railguns": true,
+    "pdc_dps": 85,
+    "pdc_count": 8,
+    "no_level_offensive_stat_drift": true,
+    "shared_scirocco_repair_buff": true,
+    "repair_cap": 800,
+    "owned_only_filters": true,
+    "autocast_default_on": true,
+    "magazine_ADS_unchanged_from_Europa": true,
+    "all_weapon_meshpoints_exist": true,
+    "art_file_hashes": {
+      "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+      "textures/expanse24_behemoth_shell_clr.dds": "73e3dccb6031c9000565dfe2dc8d4c3e0366b7809a18376874a1a9949fe0bd50",
+      "textures/expanse24_behemoth_ends_orm.dds": "5a8fd9f61823ce9b7875f2ab10faa9de0022b4fc5b5f25e0045736f01039668f",
+      "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+      "textures/expanse24_behemoth_fittings_msk.dds": "6defd06fbfadf30bf945d7fbb50d35140e81fc6e689efdbbe2b3e5db87642ae5",
+      "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+      "textures/expanse24_behemoth_shell_msk.dds": "ca123827e1defe0c7cefb891f6c9b7b6e61c9605da624a14d28f0861b676723a",
+      "textures/expanse24_behemoth_fittings_nrm.dds": "9021c77d41d0a2de4ebe42fa0385fb97d4183929bc6a401986d9ca0aef0bda8d",
+      "textures/expanse24_behemoth_ends_clr.dds": "3218e0e89d2b5e007d15faa0ed1aed3136cfb784686f64721f5896636d5105b3",
+      "textures/expanse24_behemoth_shell_nrm.dds": "f571e4a850f582859be7fa29f8c777486447c219aa593a2a211952d0e8b7be36",
+      "textures/expanse24_behemoth_shell_orm.dds": "88dd58c2f80421cfcdf8f3ace96c757f4a43e28e56fa6ba71b1c982bcdc35833",
+      "textures/expanse24_behemoth_fittings_clr.dds": "abcedbb18b0d2d6b19965b7a72a6ffa8bee02d38df46f593471738073c9732da",
+      "textures/expanse24_behemoth_ends_nrm.dds": "9021c77d41d0a2de4ebe42fa0385fb97d4183929bc6a401986d9ca0aef0bda8d",
+      "textures/expanse24_behemoth_ends_msk.dds": "6defd06fbfadf30bf945d7fbb50d35140e81fc6e689efdbbe2b3e5db87642ae5",
+      "textures/expanse24_behemoth_fittings_orm.dds": "5a8fd9f61823ce9b7875f2ab10faa9de0022b4fc5b5f25e0045736f01039668f",
+      "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "mesh_materials/expanse24_behemoth_hull_ends.mesh_material": "148a9ad02872fa58ea21da1fe993f75c7e2c6302d282895f8df785ad7e16059d",
+      "mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "mesh_materials/expanse24_behemoth_hull_fittings.mesh_material": "a7edeee4c37d2a9b88f3c352e27f1b2346ec3c06ec1f70a241f408252356827c",
+      "mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "mesh_materials/expanse24_behemoth_hull_shell.mesh_material": "b3a4fd18cfe09f62761ef312ada0a48a6519c53908a054ed067490dfd156951c",
+      "effects/expanse24_behemoth_phase_plume.particle_effect": "f410741ea0d13089af347f013be4d6702b56f509d1d299eb3bb1d48bb2acd8a2",
+      "effects/expanse24_behemoth_idle_plume.particle_effect": "b6ecc38af559225e4229a4772f4636ed5b363d55261e0eb7060be3a6da44c900",
+      "meshes/expanse24_behemoth_pdc_barrel.mesh": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "meshes/expanse24_behemoth_pdc_base.mesh": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "meshes/expanse24_behemoth_hull.mesh": "88c55c5b497a7c089948c87d996f346fd2dd227c8304507532a64fffbcfffe51"
+    }
+  },
+  "integration_not_yet_applied": [
+    "OPA player access",
+    "priced titan research chain",
+    "new unit tag registry entry",
+    "final package manifests"
+  ],
+  "runtime": {
+    "game load and research menus": "NOT RUN",
+    "native shared titan cap across capture and rebuild": "NOT RUN",
+    "navigation/collision at2km scale": "NOT RUN",
+    "PDC tracking and range in engine": "NOT RUN",
+    "hospital caster-death/save-reload/ownership and manual-autocast behavior": "NOT RUN",
+    "mobile shop availability and allied access": "NOT RUN",
+    "multiplayer synchronization and performance": "NOT RUN"
+  }
+}
