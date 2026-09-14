@@ -1,0 +1,53 @@
+{
+  "status": "PASS OFFLINE",
+  "schemas": [
+    {
+      "file": "expanse25_un_one.unit",
+      "status": "PASS",
+      "schema": "unit-schema.json",
+      "unchanged_source_extensions": [
+        "/corruption"
+      ]
+    },
+    {
+      "file": "expanse25_un_one_civilian_relief.ability",
+      "status": "PASS",
+      "schema": "ability-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse25_un_one_civilian_relief.action_data_source",
+      "status": "PASS",
+      "schema": "action-data-source-schema.json",
+      "unchanged_source_extensions": []
+    },
+    {
+      "file": "expanse25_un_one.unit_skin",
+      "status": "PASS",
+      "schema": "unit-skin-schema.json",
+      "unchanged_source_extensions": []
+    }
+  ],
+  "mechanical_checks": [
+    "unarmed ordinary paid frigate25supply",
+    "no free capital/hero/capture/production",
+    "manual owned-only unarmed noncapital filter",
+    "shared fixed-one engineering buff with pending exclusion",
+    "existing station filter excludes shared engineering effect",
+    "150 maximum hull repair over15ticks,90s cooldown25AM",
+    "valid UNN native trade-port prerequisite",
+    "native ordinary hyperspace + actual two-nozzle idle effect"
+  ],
+  "runtime": "NOT RUN",
+  "unverified": [
+    "fresh load and manual ability targeting",
+    "ability availability without capital level UI",
+    "unarmed/armed and ally/enemy filters",
+    "shared repair effect exclusion and station interaction",
+    "native15-tick completion, target ownership change, save/reload",
+    "one-player limit queues and capture",
+    "normal frigate full-cost billing",
+    "native hyperspace and nozzle appearance",
+    "multiplayer"
+  ]
+}
