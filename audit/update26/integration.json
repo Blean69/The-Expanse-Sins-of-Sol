@@ -1,0 +1,4034 @@
+{
+  "research": {
+    "players": {
+      "expanse18_mcrn": {
+        "removed_ships": [
+          "trader_antiarmor_frigate",
+          "trader_antifighter_frigate",
+          "trader_carrier_cruiser",
+          "trader_heavy_cruiser",
+          "trader_long_range_cruiser",
+          "trader_missile_corvette",
+          "trader_robotics_cruiser",
+          "trader_siege_frigate",
+          "trader_skirmisher_corvette_frigate",
+          "trader_torpedo_cruiser"
+        ],
+        "removed_items": [
+          "dlc2_trader_loyalist_super_capital_ship_antimatter_reserves",
+          "dlc2_trader_loyalist_super_capital_ship_factory_supplies",
+          "dlc2_trader_loyalist_super_capital_ship_unlock_missile_weapon",
+          "trader_loyalist_titan_hangar",
+          "trader_loyalist_titan_hull_plating_0",
+          "trader_loyalist_titan_hull_plating_1",
+          "trader_loyalist_titan_hull_plating_2",
+          "trader_loyalist_titan_unlock_beam_weapon",
+          "trader_loyalist_titan_unlock_missile_weapon"
+        ],
+        "removed_research": [
+          "trader_heavy_fallout",
+          "trader_unlock_antiarmor_frigate",
+          "trader_unlock_antiarmor_frigate_coil_shock_ability",
+          "trader_unlock_antifighter_frigate_light_autocannon_weapon",
+          "trader_unlock_carrier_cruiser",
+          "trader_unlock_long_range_cruiser_breaker_missile_ability",
+          "trader_unlock_loyalist_titan_beam_weapon_unit_item",
+          "trader_unlock_loyalist_titan_hangar_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_0_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_1_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_2_unit_item",
+          "trader_unlock_loyalist_titan_missile_weapon_unit_item",
+          "trader_unlock_robotics_cruiser",
+          "trader_unlock_robotics_cruiser_antimatter_droids_ability",
+          "trader_unlock_siege_frigate",
+          "trader_unlock_torpedo_cruiser",
+          "trader_unlock_torpedo_cruiser_heavy_torpedo"
+        ],
+        "garrison": [
+          "trader_light_frigate",
+          "expanse_mcrn_corvette"
+        ],
+        "heavy_trade_escort": "expanse_mcrn_corvette",
+        "retained_military": [
+          "dlc2_trader_unlock_faction_victory_item",
+          "expanse21_mcrn_mmc_certification",
+          "expanse21_mcrn_redundant_command",
+          "expanse22_mcrn_naval_readiness",
+          "expanse24_gathering_storm_procurement",
+          "trader_antimatter_0",
+          "trader_antimatter_1",
+          "trader_autocannon_weapon_damage_0",
+          "trader_autocannon_weapon_damage_1",
+          "trader_autocannon_weapon_damage_2",
+          "trader_autocannon_weapon_damage_3",
+          "trader_beam_weapon_damage_0",
+          "trader_beam_weapon_damage_1",
+          "trader_capital_ship_starting_level_0",
+          "trader_capital_ship_starting_level_1",
+          "trader_corvette_speed",
+          "trader_defense_structure_culture_resistance",
+          "trader_garrison_max_supply",
+          "trader_heavy_maneuvering_thrusters",
+          "trader_hull_damage_reduction_0",
+          "trader_hull_damage_reduction_1",
+          "trader_hull_damage_reduction_2",
+          "trader_improve_gauss_defense_cooldown",
+          "trader_improve_gauss_defense_range",
+          "trader_loyalist_garrison_max_supply",
+          "trader_max_hull_points_0",
+          "trader_max_hull_points_1",
+          "trader_max_hull_points_2",
+          "trader_max_supply_0",
+          "trader_max_supply_1",
+          "trader_max_supply_2",
+          "trader_max_supply_3",
+          "trader_max_supply_4",
+          "trader_missile_weapon_armor",
+          "trader_missile_weapon_damage_0",
+          "trader_missile_weapon_damage_1",
+          "trader_missile_weapon_damage_2",
+          "trader_missile_weapon_range",
+          "trader_planet_bombing_damage_0",
+          "trader_quick_phase_jump",
+          "trader_retrofit_bay_repair_rate_0",
+          "trader_scout_corvette_hyperspace_charge_time",
+          "trader_starbase_item_price",
+          "trader_structure_hull",
+          "trader_twin_fortresses",
+          "trader_unlock_antifighter_frigate",
+          "trader_unlock_antimatter_engine_unit_item",
+          "trader_unlock_autocannon_defense_flechette_blast_ability",
+          "trader_unlock_beam_armor_unit_item",
+          "trader_unlock_combat_repair_system_unit_item",
+          "trader_unlock_deploy_starbase_unit_item",
+          "trader_unlock_flak_burst_unit_item",
+          "trader_unlock_garrison_recruitment_center",
+          "trader_unlock_gauss_defense_meson_bolt_ability",
+          "trader_unlock_hangar_defense_production_ability",
+          "trader_unlock_hangar_defense_structure",
+          "trader_unlock_heavy_armor_unit_item",
+          "trader_unlock_heavy_cruiser",
+          "trader_unlock_heavy_garrison",
+          "trader_unlock_heavy_gauss_slugs_unit_item",
+          "trader_unlock_high_yield_warheads_unit_item",
+          "trader_unlock_home_guard_outpost_unit_item",
+          "trader_unlock_hyperspace_between_stars",
+          "trader_unlock_long_range_cruiser",
+          "trader_unlock_loyalist_titan",
+          "trader_unlock_missile_armor_unit_item",
+          "trader_unlock_missile_corvette",
+          "trader_unlock_missile_guidance_computer_unit_item",
+          "trader_unlock_munitions_plant_unit_item",
+          "trader_unlock_orbital_cannon_structure",
+          "trader_unlock_phase_jump_inhibitor",
+          "trader_unlock_phase_lane_detector",
+          "trader_unlock_phase_lane_detector_extended_range",
+          "trader_unlock_rapid_autoloader_unit_item",
+          "trader_unlock_reserve_squadron_hangar_unit_item",
+          "trader_unlock_retrofit_bay_repair_ability",
+          "trader_unlock_skirmisher_corvette_frigate",
+          "trader_unlock_starbase",
+          "trader_unlock_starbase_command_center_unit_item",
+          "trader_unlock_starbase_docking_booms_unit_item",
+          "trader_unlock_starbase_factory_support_unit_item",
+          "trader_unlock_starbase_flak_field_unit_item",
+          "trader_unlock_starbase_improve_weapon_item",
+          "trader_unlock_starbase_self_destruct_unit_item",
+          "trader_unlock_starbase_stun_torpedo_unit_item",
+          "trader_unlock_starbase_trade_port_unit_item",
+          "trader_unlock_starbase_unit_factory_unit_item",
+          "trader_unlock_targeting_array_unit_item",
+          "trader_unlock_titan_factory",
+          "trader_unlock_volatile_accelerants_unit_item",
+          "trader_unstoppable_phase_jump",
+          "trader_upgrade_consumables_0",
+          "trader_upgrade_consumables_1",
+          "trader_upgrade_experience_gain_0",
+          "trader_upgrade_experience_gain_1",
+          "trader_upgrade_rapid_autoloader_unit_item",
+          "trader_wormhole_travel"
+        ]
+      },
+      "expanse18_unn": {
+        "removed_ships": [
+          "trader_antiarmor_frigate",
+          "trader_antifighter_frigate",
+          "trader_carrier_cruiser",
+          "trader_heavy_cruiser",
+          "trader_long_range_cruiser",
+          "trader_missile_corvette",
+          "trader_robotics_cruiser",
+          "trader_siege_frigate",
+          "trader_skirmisher_corvette_frigate",
+          "trader_torpedo_cruiser"
+        ],
+        "removed_items": [
+          "dlc2_trader_loyalist_super_capital_ship_antimatter_reserves",
+          "dlc2_trader_loyalist_super_capital_ship_factory_supplies",
+          "dlc2_trader_loyalist_super_capital_ship_unlock_missile_weapon",
+          "trader_loyalist_titan_hangar",
+          "trader_loyalist_titan_hull_plating_0",
+          "trader_loyalist_titan_hull_plating_1",
+          "trader_loyalist_titan_hull_plating_2",
+          "trader_loyalist_titan_unlock_beam_weapon",
+          "trader_loyalist_titan_unlock_missile_weapon"
+        ],
+        "removed_research": [
+          "trader_heavy_fallout",
+          "trader_unlock_antiarmor_frigate_coil_shock_ability",
+          "trader_unlock_antifighter_frigate_light_autocannon_weapon",
+          "trader_unlock_carrier_cruiser",
+          "trader_unlock_long_range_cruiser_breaker_missile_ability",
+          "trader_unlock_loyalist_titan",
+          "trader_unlock_loyalist_titan_beam_weapon_unit_item",
+          "trader_unlock_loyalist_titan_hangar_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_0_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_1_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_2_unit_item",
+          "trader_unlock_loyalist_titan_missile_weapon_unit_item",
+          "trader_unlock_robotics_cruiser",
+          "trader_unlock_robotics_cruiser_antimatter_droids_ability",
+          "trader_unlock_siege_frigate",
+          "trader_unlock_torpedo_cruiser",
+          "trader_unlock_torpedo_cruiser_heavy_torpedo"
+        ],
+        "garrison": [
+          "expanse21_contract_patrol",
+          "expanse23_murphy"
+        ],
+        "heavy_trade_escort": "expanse23_murphy",
+        "retained_military": [
+          "dlc2_trader_unlock_faction_victory_item",
+          "expanse21_unn_black_budget",
+          "expanse21_unn_fleet_train",
+          "expanse22_unn_orbital_defense",
+          "trader_antimatter_0",
+          "trader_antimatter_1",
+          "trader_autocannon_weapon_damage_0",
+          "trader_autocannon_weapon_damage_1",
+          "trader_autocannon_weapon_damage_2",
+          "trader_autocannon_weapon_damage_3",
+          "trader_beam_weapon_damage_0",
+          "trader_beam_weapon_damage_1",
+          "trader_capital_ship_starting_level_0",
+          "trader_capital_ship_starting_level_1",
+          "trader_corvette_speed",
+          "trader_defense_structure_culture_resistance",
+          "trader_garrison_max_supply",
+          "trader_heavy_maneuvering_thrusters",
+          "trader_hull_damage_reduction_0",
+          "trader_hull_damage_reduction_1",
+          "trader_hull_damage_reduction_2",
+          "trader_improve_gauss_defense_cooldown",
+          "trader_improve_gauss_defense_range",
+          "trader_loyalist_garrison_max_supply",
+          "trader_max_hull_points_0",
+          "trader_max_hull_points_1",
+          "trader_max_hull_points_2",
+          "trader_max_supply_0",
+          "trader_max_supply_1",
+          "trader_max_supply_2",
+          "trader_max_supply_3",
+          "trader_max_supply_4",
+          "trader_missile_weapon_armor",
+          "trader_missile_weapon_damage_0",
+          "trader_missile_weapon_damage_1",
+          "trader_missile_weapon_damage_2",
+          "trader_missile_weapon_range",
+          "trader_planet_bombing_damage_0",
+          "trader_quick_phase_jump",
+          "trader_retrofit_bay_repair_rate_0",
+          "trader_scout_corvette_hyperspace_charge_time",
+          "trader_starbase_item_price",
+          "trader_structure_hull",
+          "trader_twin_fortresses",
+          "trader_unlock_antiarmor_frigate",
+          "trader_unlock_antifighter_frigate",
+          "trader_unlock_antimatter_engine_unit_item",
+          "trader_unlock_autocannon_defense_flechette_blast_ability",
+          "trader_unlock_beam_armor_unit_item",
+          "trader_unlock_combat_repair_system_unit_item",
+          "trader_unlock_deploy_starbase_unit_item",
+          "trader_unlock_flak_burst_unit_item",
+          "trader_unlock_garrison_recruitment_center",
+          "trader_unlock_gauss_defense_meson_bolt_ability",
+          "trader_unlock_hangar_defense_production_ability",
+          "trader_unlock_hangar_defense_structure",
+          "trader_unlock_heavy_armor_unit_item",
+          "trader_unlock_heavy_cruiser",
+          "trader_unlock_heavy_garrison",
+          "trader_unlock_heavy_gauss_slugs_unit_item",
+          "trader_unlock_high_yield_warheads_unit_item",
+          "trader_unlock_home_guard_outpost_unit_item",
+          "trader_unlock_hyperspace_between_stars",
+          "trader_unlock_long_range_cruiser",
+          "trader_unlock_missile_armor_unit_item",
+          "trader_unlock_missile_corvette",
+          "trader_unlock_missile_guidance_computer_unit_item",
+          "trader_unlock_munitions_plant_unit_item",
+          "trader_unlock_orbital_cannon_structure",
+          "trader_unlock_phase_jump_inhibitor",
+          "trader_unlock_phase_lane_detector",
+          "trader_unlock_phase_lane_detector_extended_range",
+          "trader_unlock_rapid_autoloader_unit_item",
+          "trader_unlock_reserve_squadron_hangar_unit_item",
+          "trader_unlock_retrofit_bay_repair_ability",
+          "trader_unlock_skirmisher_corvette_frigate",
+          "trader_unlock_starbase",
+          "trader_unlock_starbase_command_center_unit_item",
+          "trader_unlock_starbase_docking_booms_unit_item",
+          "trader_unlock_starbase_factory_support_unit_item",
+          "trader_unlock_starbase_flak_field_unit_item",
+          "trader_unlock_starbase_improve_weapon_item",
+          "trader_unlock_starbase_self_destruct_unit_item",
+          "trader_unlock_starbase_stun_torpedo_unit_item",
+          "trader_unlock_starbase_trade_port_unit_item",
+          "trader_unlock_starbase_unit_factory_unit_item",
+          "trader_unlock_targeting_array_unit_item",
+          "trader_unlock_titan_factory",
+          "trader_unlock_volatile_accelerants_unit_item",
+          "trader_unstoppable_phase_jump",
+          "trader_upgrade_consumables_0",
+          "trader_upgrade_consumables_1",
+          "trader_upgrade_experience_gain_0",
+          "trader_upgrade_experience_gain_1",
+          "trader_upgrade_rapid_autoloader_unit_item",
+          "trader_wormhole_travel"
+        ]
+      },
+      "expanse18_opa": {
+        "removed_ships": [
+          "trader_antiarmor_frigate",
+          "trader_antifighter_frigate",
+          "trader_carrier_cruiser",
+          "trader_heavy_cruiser",
+          "trader_long_range_cruiser",
+          "trader_missile_corvette",
+          "trader_robotics_cruiser",
+          "trader_siege_frigate",
+          "trader_skirmisher_corvette_frigate",
+          "trader_torpedo_cruiser"
+        ],
+        "removed_items": [
+          "dlc2_trader_loyalist_super_capital_ship_antimatter_reserves",
+          "dlc2_trader_loyalist_super_capital_ship_factory_supplies",
+          "dlc2_trader_loyalist_super_capital_ship_unlock_missile_weapon",
+          "expanse21_opa_command_colony_module",
+          "trader_loyalist_titan_hangar",
+          "trader_loyalist_titan_hull_plating_0",
+          "trader_loyalist_titan_hull_plating_1",
+          "trader_loyalist_titan_hull_plating_2",
+          "trader_loyalist_titan_unlock_beam_weapon",
+          "trader_loyalist_titan_unlock_missile_weapon"
+        ],
+        "removed_research": [
+          "trader_heavy_fallout",
+          "trader_unlock_antiarmor_frigate",
+          "trader_unlock_antiarmor_frigate_coil_shock_ability",
+          "trader_unlock_antifighter_frigate_light_autocannon_weapon",
+          "trader_unlock_carrier_cruiser",
+          "trader_unlock_long_range_cruiser_breaker_missile_ability",
+          "trader_unlock_loyalist_titan",
+          "trader_unlock_loyalist_titan_beam_weapon_unit_item",
+          "trader_unlock_loyalist_titan_hangar_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_0_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_1_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_2_unit_item",
+          "trader_unlock_loyalist_titan_missile_weapon_unit_item",
+          "trader_unlock_robotics_cruiser",
+          "trader_unlock_robotics_cruiser_antimatter_droids_ability",
+          "trader_unlock_siege_frigate",
+          "trader_unlock_torpedo_cruiser",
+          "trader_unlock_torpedo_cruiser_heavy_torpedo"
+        ],
+        "garrison": [
+          "expanse21_contract_patrol",
+          "expanse19_europa_bane"
+        ],
+        "heavy_trade_escort": "expanse19_europa_bane",
+        "retained_military": [
+          "dlc2_trader_unlock_faction_victory_item",
+          "expanse21_opa_override_codes",
+          "expanse21_opa_surplus",
+          "expanse22_opa_dockworker_damage_control",
+          "expanse24_behemoth_refit",
+          "trader_antimatter_0",
+          "trader_antimatter_1",
+          "trader_autocannon_weapon_damage_0",
+          "trader_autocannon_weapon_damage_1",
+          "trader_autocannon_weapon_damage_2",
+          "trader_autocannon_weapon_damage_3",
+          "trader_beam_weapon_damage_0",
+          "trader_beam_weapon_damage_1",
+          "trader_capital_ship_starting_level_0",
+          "trader_capital_ship_starting_level_1",
+          "trader_corvette_speed",
+          "trader_defense_structure_culture_resistance",
+          "trader_garrison_max_supply",
+          "trader_heavy_maneuvering_thrusters",
+          "trader_hull_damage_reduction_0",
+          "trader_hull_damage_reduction_1",
+          "trader_hull_damage_reduction_2",
+          "trader_improve_gauss_defense_cooldown",
+          "trader_improve_gauss_defense_range",
+          "trader_loyalist_garrison_max_supply",
+          "trader_max_hull_points_0",
+          "trader_max_hull_points_1",
+          "trader_max_hull_points_2",
+          "trader_max_supply_0",
+          "trader_max_supply_1",
+          "trader_max_supply_2",
+          "trader_max_supply_3",
+          "trader_max_supply_4",
+          "trader_missile_weapon_armor",
+          "trader_missile_weapon_damage_0",
+          "trader_missile_weapon_damage_1",
+          "trader_missile_weapon_damage_2",
+          "trader_missile_weapon_range",
+          "trader_planet_bombing_damage_0",
+          "trader_quick_phase_jump",
+          "trader_retrofit_bay_repair_rate_0",
+          "trader_scout_corvette_hyperspace_charge_time",
+          "trader_starbase_item_price",
+          "trader_structure_hull",
+          "trader_twin_fortresses",
+          "trader_unlock_antifighter_frigate",
+          "trader_unlock_antimatter_engine_unit_item",
+          "trader_unlock_autocannon_defense_flechette_blast_ability",
+          "trader_unlock_beam_armor_unit_item",
+          "trader_unlock_combat_repair_system_unit_item",
+          "trader_unlock_deploy_starbase_unit_item",
+          "trader_unlock_flak_burst_unit_item",
+          "trader_unlock_garrison_recruitment_center",
+          "trader_unlock_gauss_defense_meson_bolt_ability",
+          "trader_unlock_hangar_defense_production_ability",
+          "trader_unlock_hangar_defense_structure",
+          "trader_unlock_heavy_armor_unit_item",
+          "trader_unlock_heavy_cruiser",
+          "trader_unlock_heavy_garrison",
+          "trader_unlock_heavy_gauss_slugs_unit_item",
+          "trader_unlock_high_yield_warheads_unit_item",
+          "trader_unlock_home_guard_outpost_unit_item",
+          "trader_unlock_hyperspace_between_stars",
+          "trader_unlock_long_range_cruiser",
+          "trader_unlock_missile_armor_unit_item",
+          "trader_unlock_missile_corvette",
+          "trader_unlock_missile_guidance_computer_unit_item",
+          "trader_unlock_munitions_plant_unit_item",
+          "trader_unlock_orbital_cannon_structure",
+          "trader_unlock_phase_jump_inhibitor",
+          "trader_unlock_phase_lane_detector",
+          "trader_unlock_phase_lane_detector_extended_range",
+          "trader_unlock_rapid_autoloader_unit_item",
+          "trader_unlock_reserve_squadron_hangar_unit_item",
+          "trader_unlock_retrofit_bay_repair_ability",
+          "trader_unlock_skirmisher_corvette_frigate",
+          "trader_unlock_starbase",
+          "trader_unlock_starbase_command_center_unit_item",
+          "trader_unlock_starbase_docking_booms_unit_item",
+          "trader_unlock_starbase_factory_support_unit_item",
+          "trader_unlock_starbase_flak_field_unit_item",
+          "trader_unlock_starbase_improve_weapon_item",
+          "trader_unlock_starbase_self_destruct_unit_item",
+          "trader_unlock_starbase_stun_torpedo_unit_item",
+          "trader_unlock_starbase_trade_port_unit_item",
+          "trader_unlock_starbase_unit_factory_unit_item",
+          "trader_unlock_targeting_array_unit_item",
+          "trader_unlock_titan_factory",
+          "trader_unlock_volatile_accelerants_unit_item",
+          "trader_unstoppable_phase_jump",
+          "trader_upgrade_consumables_0",
+          "trader_upgrade_consumables_1",
+          "trader_upgrade_experience_gain_0",
+          "trader_upgrade_experience_gain_1",
+          "trader_upgrade_rapid_autoloader_unit_item",
+          "trader_wormhole_travel"
+        ]
+      },
+      "trader_loyalist": {
+        "removed_ships": [
+          "trader_antiarmor_frigate",
+          "trader_antifighter_frigate",
+          "trader_carrier_cruiser",
+          "trader_heavy_cruiser",
+          "trader_long_range_cruiser",
+          "trader_missile_corvette",
+          "trader_robotics_cruiser",
+          "trader_siege_frigate",
+          "trader_skirmisher_corvette_frigate",
+          "trader_torpedo_cruiser"
+        ],
+        "removed_items": [
+          "dlc2_trader_loyalist_super_capital_ship_antimatter_reserves",
+          "dlc2_trader_loyalist_super_capital_ship_factory_supplies",
+          "dlc2_trader_loyalist_super_capital_ship_unlock_missile_weapon",
+          "trader_loyalist_titan_hangar",
+          "trader_loyalist_titan_hull_plating_0",
+          "trader_loyalist_titan_hull_plating_1",
+          "trader_loyalist_titan_hull_plating_2",
+          "trader_loyalist_titan_unlock_beam_weapon",
+          "trader_loyalist_titan_unlock_missile_weapon"
+        ],
+        "removed_research": [
+          "trader_heavy_fallout",
+          "trader_unlock_antiarmor_frigate",
+          "trader_unlock_antiarmor_frigate_coil_shock_ability",
+          "trader_unlock_antifighter_frigate_light_autocannon_weapon",
+          "trader_unlock_carrier_cruiser",
+          "trader_unlock_long_range_cruiser_breaker_missile_ability",
+          "trader_unlock_loyalist_titan_beam_weapon_unit_item",
+          "trader_unlock_loyalist_titan_hangar_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_0_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_1_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_2_unit_item",
+          "trader_unlock_loyalist_titan_missile_weapon_unit_item",
+          "trader_unlock_robotics_cruiser",
+          "trader_unlock_robotics_cruiser_antimatter_droids_ability",
+          "trader_unlock_siege_frigate",
+          "trader_unlock_torpedo_cruiser",
+          "trader_unlock_torpedo_cruiser_heavy_torpedo"
+        ],
+        "garrison": [
+          "trader_light_frigate",
+          "expanse_mcrn_corvette"
+        ],
+        "heavy_trade_escort": "expanse_mcrn_corvette",
+        "retained_military": [
+          "dlc2_trader_unlock_faction_victory_item",
+          "expanse21_mcrn_mmc_certification",
+          "expanse21_mcrn_redundant_command",
+          "expanse22_mcrn_naval_readiness",
+          "expanse24_gathering_storm_procurement",
+          "trader_antimatter_0",
+          "trader_antimatter_1",
+          "trader_autocannon_weapon_damage_0",
+          "trader_autocannon_weapon_damage_1",
+          "trader_autocannon_weapon_damage_2",
+          "trader_autocannon_weapon_damage_3",
+          "trader_beam_weapon_damage_0",
+          "trader_beam_weapon_damage_1",
+          "trader_capital_ship_starting_level_0",
+          "trader_capital_ship_starting_level_1",
+          "trader_corvette_speed",
+          "trader_defense_structure_culture_resistance",
+          "trader_garrison_max_supply",
+          "trader_heavy_maneuvering_thrusters",
+          "trader_hull_damage_reduction_0",
+          "trader_hull_damage_reduction_1",
+          "trader_hull_damage_reduction_2",
+          "trader_improve_gauss_defense_cooldown",
+          "trader_improve_gauss_defense_range",
+          "trader_loyalist_garrison_max_supply",
+          "trader_max_hull_points_0",
+          "trader_max_hull_points_1",
+          "trader_max_hull_points_2",
+          "trader_max_supply_0",
+          "trader_max_supply_1",
+          "trader_max_supply_2",
+          "trader_max_supply_3",
+          "trader_max_supply_4",
+          "trader_missile_weapon_armor",
+          "trader_missile_weapon_damage_0",
+          "trader_missile_weapon_damage_1",
+          "trader_missile_weapon_damage_2",
+          "trader_missile_weapon_range",
+          "trader_planet_bombing_damage_0",
+          "trader_quick_phase_jump",
+          "trader_retrofit_bay_repair_rate_0",
+          "trader_scout_corvette_hyperspace_charge_time",
+          "trader_starbase_item_price",
+          "trader_structure_hull",
+          "trader_twin_fortresses",
+          "trader_unlock_antifighter_frigate",
+          "trader_unlock_antimatter_engine_unit_item",
+          "trader_unlock_autocannon_defense_flechette_blast_ability",
+          "trader_unlock_beam_armor_unit_item",
+          "trader_unlock_combat_repair_system_unit_item",
+          "trader_unlock_deploy_starbase_unit_item",
+          "trader_unlock_flak_burst_unit_item",
+          "trader_unlock_garrison_recruitment_center",
+          "trader_unlock_gauss_defense_meson_bolt_ability",
+          "trader_unlock_hangar_defense_production_ability",
+          "trader_unlock_hangar_defense_structure",
+          "trader_unlock_heavy_armor_unit_item",
+          "trader_unlock_heavy_cruiser",
+          "trader_unlock_heavy_garrison",
+          "trader_unlock_heavy_gauss_slugs_unit_item",
+          "trader_unlock_high_yield_warheads_unit_item",
+          "trader_unlock_home_guard_outpost_unit_item",
+          "trader_unlock_hyperspace_between_stars",
+          "trader_unlock_long_range_cruiser",
+          "trader_unlock_loyalist_titan",
+          "trader_unlock_missile_armor_unit_item",
+          "trader_unlock_missile_corvette",
+          "trader_unlock_missile_guidance_computer_unit_item",
+          "trader_unlock_munitions_plant_unit_item",
+          "trader_unlock_orbital_cannon_structure",
+          "trader_unlock_phase_jump_inhibitor",
+          "trader_unlock_phase_lane_detector",
+          "trader_unlock_phase_lane_detector_extended_range",
+          "trader_unlock_rapid_autoloader_unit_item",
+          "trader_unlock_reserve_squadron_hangar_unit_item",
+          "trader_unlock_retrofit_bay_repair_ability",
+          "trader_unlock_skirmisher_corvette_frigate",
+          "trader_unlock_starbase",
+          "trader_unlock_starbase_command_center_unit_item",
+          "trader_unlock_starbase_docking_booms_unit_item",
+          "trader_unlock_starbase_factory_support_unit_item",
+          "trader_unlock_starbase_flak_field_unit_item",
+          "trader_unlock_starbase_improve_weapon_item",
+          "trader_unlock_starbase_self_destruct_unit_item",
+          "trader_unlock_starbase_stun_torpedo_unit_item",
+          "trader_unlock_starbase_trade_port_unit_item",
+          "trader_unlock_starbase_unit_factory_unit_item",
+          "trader_unlock_targeting_array_unit_item",
+          "trader_unlock_titan_factory",
+          "trader_unlock_volatile_accelerants_unit_item",
+          "trader_unstoppable_phase_jump",
+          "trader_upgrade_consumables_0",
+          "trader_upgrade_consumables_1",
+          "trader_upgrade_experience_gain_0",
+          "trader_upgrade_experience_gain_1",
+          "trader_upgrade_rapid_autoloader_unit_item",
+          "trader_wormhole_travel"
+        ]
+      },
+      "trader_rebel": {
+        "removed_ships": [
+          "trader_antiarmor_frigate",
+          "trader_antifighter_frigate",
+          "trader_carrier_cruiser",
+          "trader_heavy_cruiser",
+          "trader_long_range_cruiser",
+          "trader_missile_corvette",
+          "trader_robotics_cruiser",
+          "trader_siege_frigate",
+          "trader_skirmisher_corvette_frigate",
+          "trader_torpedo_cruiser"
+        ],
+        "removed_items": [
+          "dlc2_trader_rebel_super_capital_ship_modular_hangar",
+          "dlc2_trader_rebel_super_capital_ship_modular_missile",
+          "dlc2_trader_rebel_super_capital_ship_modular_railgun",
+          "dlc2_trader_rebel_super_capital_ship_turret_beam",
+          "dlc2_trader_rebel_super_capital_ship_turret_gauss",
+          "dlc2_trader_rebel_super_capital_ship_turret_missile",
+          "expanse21_opa_command_colony_module",
+          "trader_rebel_titan_hangar",
+          "trader_rebel_titan_hull_plating_0",
+          "trader_rebel_titan_hull_plating_1",
+          "trader_rebel_titan_unlock_missile_weapon",
+          "trader_rebel_titan_unlock_rail_gun_weapon"
+        ],
+        "removed_research": [
+          "trader_heavy_fallout",
+          "trader_unlock_antiarmor_frigate",
+          "trader_unlock_antiarmor_frigate_coil_shock_ability",
+          "trader_unlock_antifighter_frigate_light_autocannon_weapon",
+          "trader_unlock_carrier_cruiser",
+          "trader_unlock_long_range_cruiser_breaker_missile_ability",
+          "trader_unlock_rebel_titan",
+          "trader_unlock_rebel_titan_hangar_unit_item",
+          "trader_unlock_rebel_titan_hull_plating_0_unit_item",
+          "trader_unlock_rebel_titan_hull_plating_1_unit_item",
+          "trader_unlock_rebel_titan_missile_weapon_unit_item",
+          "trader_unlock_rebel_titan_rail_gun_weapon_unit_item",
+          "trader_unlock_robotics_cruiser",
+          "trader_unlock_robotics_cruiser_antimatter_droids_ability",
+          "trader_unlock_siege_frigate",
+          "trader_unlock_torpedo_cruiser",
+          "trader_unlock_torpedo_cruiser_heavy_torpedo"
+        ],
+        "garrison": [
+          "expanse21_contract_patrol",
+          "expanse19_europa_bane"
+        ],
+        "heavy_trade_escort": "expanse19_europa_bane",
+        "retained_military": [
+          "dlc2_trader_unlock_faction_victory_item",
+          "dlc2_trader_unlock_rebel_super_capital_ship",
+          "dlc2_trader_upgrade_rebel_super_limit_0",
+          "dlc2_trader_upgrade_rebel_super_limit_1",
+          "expanse21_opa_override_codes",
+          "expanse21_opa_surplus",
+          "expanse22_opa_dockworker_damage_control",
+          "expanse24_behemoth_refit",
+          "trader_antimatter_0",
+          "trader_antimatter_1",
+          "trader_autocannon_weapon_damage_0",
+          "trader_autocannon_weapon_damage_1",
+          "trader_autocannon_weapon_damage_2",
+          "trader_autocannon_weapon_damage_3",
+          "trader_beam_weapon_damage_0",
+          "trader_beam_weapon_damage_1",
+          "trader_capital_ship_starting_level_0",
+          "trader_capital_ship_starting_level_1",
+          "trader_corvette_speed",
+          "trader_heavy_maneuvering_thrusters",
+          "trader_high_order_explosives",
+          "trader_hull_damage_reduction_0",
+          "trader_hull_damage_reduction_1",
+          "trader_hull_damage_reduction_2",
+          "trader_improve_gauss_defense_cooldown",
+          "trader_improve_gauss_defense_range",
+          "trader_max_hull_points_0",
+          "trader_max_hull_points_1",
+          "trader_max_hull_points_2",
+          "trader_max_supply_0",
+          "trader_max_supply_1",
+          "trader_max_supply_2",
+          "trader_max_supply_3",
+          "trader_max_supply_4",
+          "trader_missile_weapon_armor",
+          "trader_missile_weapon_damage_0",
+          "trader_missile_weapon_damage_1",
+          "trader_missile_weapon_damage_2",
+          "trader_missile_weapon_range",
+          "trader_orbital_cannon_structure_range",
+          "trader_pirate_king_windfall",
+          "trader_pirate_raid_supply",
+          "trader_planet_bombing_damage_0",
+          "trader_planet_pillaging",
+          "trader_quick_phase_jump",
+          "trader_retrofit_bay_repair_rate_0",
+          "trader_savage_thrill",
+          "trader_scout_corvette_hyperspace_charge_time",
+          "trader_unlock_antifighter_frigate",
+          "trader_unlock_antimatter_engine_unit_item",
+          "trader_unlock_autocannon_defense_flechette_blast_ability",
+          "trader_unlock_beam_armor_unit_item",
+          "trader_unlock_combat_repair_system_unit_item",
+          "trader_unlock_deploy_starbase_unit_item",
+          "trader_unlock_flak_burst_unit_item",
+          "trader_unlock_gauss_defense_meson_bolt_ability",
+          "trader_unlock_hangar_defense_production_ability",
+          "trader_unlock_hangar_defense_structure",
+          "trader_unlock_heavy_armor_unit_item",
+          "trader_unlock_heavy_cruiser",
+          "trader_unlock_heavy_gauss_slugs_unit_item",
+          "trader_unlock_high_yield_warheads_unit_item",
+          "trader_unlock_human_doctrine_center_unit_item",
+          "trader_unlock_hyperspace_between_stars",
+          "trader_unlock_long_range_cruiser",
+          "trader_unlock_missile_armor_unit_item",
+          "trader_unlock_missile_corvette",
+          "trader_unlock_missile_guidance_computer_unit_item",
+          "trader_unlock_munitions_plant_unit_item",
+          "trader_unlock_orbital_cannon_structure",
+          "trader_unlock_phase_jump_inhibitor",
+          "trader_unlock_phase_lane_detector",
+          "trader_unlock_phase_lane_detector_extended_range",
+          "trader_unlock_pirate_mercenary_base_unit_item",
+          "trader_unlock_rapid_autoloader_unit_item",
+          "trader_unlock_reserve_squadron_hangar_unit_item",
+          "trader_unlock_retrofit_bay_repair_ability",
+          "trader_unlock_skirmisher_corvette_frigate",
+          "trader_unlock_starbase",
+          "trader_unlock_starbase_command_center_unit_item",
+          "trader_unlock_starbase_docking_booms_unit_item",
+          "trader_unlock_starbase_factory_support_unit_item",
+          "trader_unlock_starbase_flak_field_unit_item",
+          "trader_unlock_starbase_improve_weapon_item",
+          "trader_unlock_starbase_self_destruct_unit_item",
+          "trader_unlock_starbase_stun_torpedo_unit_item",
+          "trader_unlock_starbase_trade_port_unit_item",
+          "trader_unlock_starbase_unit_factory_unit_item",
+          "trader_unlock_targeting_array_unit_item",
+          "trader_unlock_titan_factory",
+          "trader_unlock_volatile_accelerants_unit_item",
+          "trader_unstoppable_phase_jump",
+          "trader_upgrade_consumables_0",
+          "trader_upgrade_consumables_1",
+          "trader_upgrade_experience_gain_0",
+          "trader_upgrade_experience_gain_1",
+          "trader_upgrade_rapid_autoloader_unit_item",
+          "trader_wormhole_travel"
+        ]
+      },
+      "dlc_trader_loyalist": {
+        "removed_ships": [
+          "trader_antiarmor_frigate",
+          "trader_antifighter_frigate",
+          "trader_carrier_cruiser",
+          "trader_heavy_cruiser",
+          "trader_long_range_cruiser",
+          "trader_missile_corvette",
+          "trader_robotics_cruiser",
+          "trader_siege_frigate",
+          "trader_skirmisher_corvette_frigate",
+          "trader_torpedo_cruiser"
+        ],
+        "removed_items": [
+          "dlc2_trader_loyalist_super_capital_ship_antimatter_reserves",
+          "dlc2_trader_loyalist_super_capital_ship_factory_supplies",
+          "dlc2_trader_loyalist_super_capital_ship_unlock_missile_weapon",
+          "trader_loyalist_titan_hangar",
+          "trader_loyalist_titan_hull_plating_0",
+          "trader_loyalist_titan_hull_plating_1",
+          "trader_loyalist_titan_hull_plating_2",
+          "trader_loyalist_titan_unlock_beam_weapon",
+          "trader_loyalist_titan_unlock_missile_weapon"
+        ],
+        "removed_research": [
+          "trader_heavy_fallout",
+          "trader_unlock_antiarmor_frigate_coil_shock_ability",
+          "trader_unlock_antifighter_frigate_light_autocannon_weapon",
+          "trader_unlock_carrier_cruiser",
+          "trader_unlock_long_range_cruiser_breaker_missile_ability",
+          "trader_unlock_loyalist_titan",
+          "trader_unlock_loyalist_titan_beam_weapon_unit_item",
+          "trader_unlock_loyalist_titan_hangar_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_0_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_1_unit_item",
+          "trader_unlock_loyalist_titan_hull_plating_2_unit_item",
+          "trader_unlock_loyalist_titan_missile_weapon_unit_item",
+          "trader_unlock_robotics_cruiser",
+          "trader_unlock_robotics_cruiser_antimatter_droids_ability",
+          "trader_unlock_siege_frigate",
+          "trader_unlock_torpedo_cruiser",
+          "trader_unlock_torpedo_cruiser_heavy_torpedo"
+        ],
+        "garrison": [
+          "expanse21_contract_patrol",
+          "expanse23_murphy"
+        ],
+        "heavy_trade_escort": "expanse23_murphy",
+        "retained_military": [
+          "dlc_trader_triple_fortresses",
+          "dlc_trader_unlock_armored_citadel_unit_item",
+          "dlc_trader_unlock_bastion_module_unit_item",
+          "expanse21_unn_black_budget",
+          "expanse21_unn_fleet_train",
+          "expanse22_unn_orbital_defense",
+          "trader_antimatter_0",
+          "trader_antimatter_1",
+          "trader_autocannon_weapon_damage_0",
+          "trader_autocannon_weapon_damage_1",
+          "trader_autocannon_weapon_damage_2",
+          "trader_autocannon_weapon_damage_3",
+          "trader_beam_weapon_damage_0",
+          "trader_beam_weapon_damage_1",
+          "trader_capital_ship_starting_level_0",
+          "trader_capital_ship_starting_level_1",
+          "trader_corvette_speed",
+          "trader_defense_structure_culture_resistance",
+          "trader_garrison_max_supply",
+          "trader_heavy_maneuvering_thrusters",
+          "trader_hull_damage_reduction_0",
+          "trader_hull_damage_reduction_1",
+          "trader_hull_damage_reduction_2",
+          "trader_improve_gauss_defense_cooldown",
+          "trader_improve_gauss_defense_range",
+          "trader_loyalist_garrison_max_supply",
+          "trader_max_hull_points_0",
+          "trader_max_hull_points_1",
+          "trader_max_hull_points_2",
+          "trader_max_supply_0",
+          "trader_max_supply_1",
+          "trader_max_supply_2",
+          "trader_max_supply_3",
+          "trader_max_supply_4",
+          "trader_missile_weapon_armor",
+          "trader_missile_weapon_damage_0",
+          "trader_missile_weapon_damage_1",
+          "trader_missile_weapon_damage_2",
+          "trader_missile_weapon_range",
+          "trader_planet_bombing_damage_0",
+          "trader_quick_phase_jump",
+          "trader_retrofit_bay_repair_rate_0",
+          "trader_scout_corvette_hyperspace_charge_time",
+          "trader_starbase_item_price",
+          "trader_structure_hull",
+          "trader_unlock_antiarmor_frigate",
+          "trader_unlock_antifighter_frigate",
+          "trader_unlock_antimatter_engine_unit_item",
+          "trader_unlock_autocannon_defense_flechette_blast_ability",
+          "trader_unlock_beam_armor_unit_item",
+          "trader_unlock_combat_repair_system_unit_item",
+          "trader_unlock_deploy_starbase_unit_item",
+          "trader_unlock_flak_burst_unit_item",
+          "trader_unlock_garrison_recruitment_center",
+          "trader_unlock_gauss_defense_meson_bolt_ability",
+          "trader_unlock_hangar_defense_production_ability",
+          "trader_unlock_hangar_defense_structure",
+          "trader_unlock_heavy_armor_unit_item",
+          "trader_unlock_heavy_cruiser",
+          "trader_unlock_heavy_garrison",
+          "trader_unlock_heavy_gauss_slugs_unit_item",
+          "trader_unlock_high_yield_warheads_unit_item",
+          "trader_unlock_home_guard_outpost_unit_item",
+          "trader_unlock_hyperspace_between_stars",
+          "trader_unlock_long_range_cruiser",
+          "trader_unlock_missile_armor_unit_item",
+          "trader_unlock_missile_corvette",
+          "trader_unlock_missile_guidance_computer_unit_item",
+          "trader_unlock_munitions_plant_unit_item",
+          "trader_unlock_phase_jump_inhibitor",
+          "trader_unlock_phase_lane_detector",
+          "trader_unlock_phase_lane_detector_extended_range",
+          "trader_unlock_rapid_autoloader_unit_item",
+          "trader_unlock_reserve_squadron_hangar_unit_item",
+          "trader_unlock_retrofit_bay_repair_ability",
+          "trader_unlock_skirmisher_corvette_frigate",
+          "trader_unlock_starbase",
+          "trader_unlock_starbase_command_center_unit_item",
+          "trader_unlock_starbase_docking_booms_unit_item",
+          "trader_unlock_starbase_factory_support_unit_item",
+          "trader_unlock_starbase_flak_field_unit_item",
+          "trader_unlock_starbase_improve_weapon_item",
+          "trader_unlock_starbase_self_destruct_unit_item",
+          "trader_unlock_starbase_stun_torpedo_unit_item",
+          "trader_unlock_starbase_trade_port_unit_item",
+          "trader_unlock_starbase_unit_factory_unit_item",
+          "trader_unlock_targeting_array_unit_item",
+          "trader_unlock_titan_factory",
+          "trader_unlock_volatile_accelerants_unit_item",
+          "trader_unstoppable_phase_jump",
+          "trader_upgrade_consumables_0",
+          "trader_upgrade_consumables_1",
+          "trader_upgrade_experience_gain_0",
+          "trader_upgrade_experience_gain_1",
+          "trader_upgrade_rapid_autoloader_unit_item",
+          "trader_wormhole_travel"
+        ]
+      }
+    },
+    "mapping": {
+      "trader_autocannon_weapon_damage_0": {
+        "field": "military_armament",
+        "old_coord": [
+          0,
+          0
+        ],
+        "coord": [
+          0,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "modifier_type": "damage",
+              "value_behavior": "scalar",
+              "value": 0.05,
+              "tags": [
+                "point_defense"
+              ]
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_autocannon_weapon_damage_1": {
+        "field": "military_armament",
+        "old_coord": [
+          2,
+          0
+        ],
+        "coord": [
+          2,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "damage",
+              "value": 0.1,
+              "tags": [
+                "autocannon"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_autocannon_weapon_damage_0",
+            "trader_hull_damage_reduction_0"
+          ]
+        ]
+      },
+      "trader_unlock_rapid_autoloader_unit_item": {
+        "field": "military_armament",
+        "old_coord": [
+          3,
+          1
+        ],
+        "coord": [
+          3,
+          0
+        ],
+        "direct_definition_references": [
+          "trader_rapid_autoloader.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_autocannon_weapon_damage_0"
+          ]
+        ]
+      },
+      "trader_unlock_flak_burst_unit_item": {
+        "field": "military_armament",
+        "old_coord": [
+          2,
+          2
+        ],
+        "coord": [
+          2,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_flak_burst.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_autocannon_defense_flechette_blast_ability": {
+        "field": "military_armament",
+        "old_coord": [
+          3,
+          3
+        ],
+        "coord": [
+          3,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_autocannon_defense_flechette_blast.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_reserve_squadron_hangar_unit_item": {
+        "field": "military_armament",
+        "old_coord": [
+          3,
+          4
+        ],
+        "coord": [
+          3,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_reserve_squadron_hangar.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_planet_pillaging": {
+        "field": "military_armament",
+        "old_coord": [
+          3,
+          7
+        ],
+        "coord": [
+          3,
+          3
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_upgrade_consumables_0": {
+        "field": "military_armament",
+        "old_coord": [
+          3,
+          8
+        ],
+        "coord": [
+          3,
+          4
+        ],
+        "direct_definition_references": [
+          "trader_flak_burst.unit_item",
+          "trader_radiation_bomb.unit_item",
+          "trader_salvage_kit.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_autocannon_weapon_damage_2": {
+        "field": "military_armament",
+        "old_coord": [
+          4,
+          0
+        ],
+        "coord": [
+          4,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "damage",
+              "value": 0.1,
+              "tags": [
+                "autocannon"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_autocannon_weapon_damage_1"
+          ]
+        ]
+      },
+      "trader_improve_gauss_defense_cooldown": {
+        "field": "military_armament",
+        "old_coord": [
+          4,
+          2
+        ],
+        "coord": [
+          4,
+          1
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "modifier_type": "cooldown_duration",
+              "value_behavior": "scalar",
+              "value": -0.05,
+              "tags": [
+                "rail_gun"
+              ]
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_beam_weapon_damage_0": {
+        "field": "military_armament",
+        "old_coord": [
+          5,
+          3
+        ],
+        "coord": [
+          5,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "damage",
+              "value": 0.1,
+              "tags": [
+                "beam"
+              ]
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_unlock_gauss_defense_meson_bolt_ability": {
+        "field": "military_armament",
+        "old_coord": [
+          4,
+          3
+        ],
+        "coord": [
+          4,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_gauss_defense_meson_bolt.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_missile_weapon_damage_0": {
+        "field": "military_armament",
+        "old_coord": [
+          4,
+          4
+        ],
+        "coord": [
+          4,
+          3
+        ],
+        "direct_definition_references": [
+          "expanse03_hero_torpedo_salvo.ability",
+          "expanse03_roci_torpedo_magazine.ability",
+          "expanse03_torpedo_magazine.ability",
+          "expanse06_amun_magazine.ability",
+          "expanse10_donnager_heavy_magazine.ability",
+          "expanse10_donnager_light_magazine.ability",
+          "expanse11_morrigan_magazine.ability",
+          "expanse12_pella_light_magazine.ability",
+          "expanse12_raptor_light_magazine.ability",
+          "expanse12_scirocco_heavy_magazine.ability",
+          "expanse12_scirocco_light_magazine.ability",
+          "expanse15_truman_light_magazine.ability",
+          "expanse19_europa_magazine.ability",
+          "expanse23_murphy_light_magazine.ability",
+          "expanse24_behemoth_magazine.ability",
+          "expanse24_gathering_storm_light_magazine.ability"
+        ],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "modifier_type": "damage",
+              "value_behavior": "scalar",
+              "value": 0.05,
+              "tags": [
+                "missile"
+              ]
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_missile_weapon_range": {
+        "field": "military_armament",
+        "old_coord": [
+          5,
+          5
+        ],
+        "coord": [
+          5,
+          3
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "range",
+              "value": 0.15,
+              "tags": [
+                "missile"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_antimatter_0",
+            "trader_missile_weapon_damage_0"
+          ]
+        ]
+      },
+      "trader_planet_bombing_damage_0": {
+        "field": "military_armament",
+        "old_coord": [
+          4,
+          6
+        ],
+        "coord": [
+          4,
+          4
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "weapon_type": "planet_bombing",
+              "value_behavior": "scalar",
+              "modifier_type": "damage",
+              "value": 0.25
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_savage_thrill": {
+        "field": "military_armament",
+        "old_coord": [
+          5,
+          7
+        ],
+        "coord": [
+          5,
+          4
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_planet_bombing_damage_0"
+          ]
+        ]
+      },
+      "trader_upgrade_rapid_autoloader_unit_item": {
+        "field": "military_armament",
+        "old_coord": [
+          7,
+          1
+        ],
+        "coord": [
+          7,
+          0
+        ],
+        "direct_definition_references": [
+          "trader_rapid_autoloader.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_rapid_autoloader_unit_item"
+          ]
+        ]
+      },
+      "trader_improve_gauss_defense_range": {
+        "field": "military_armament",
+        "old_coord": [
+          6,
+          2
+        ],
+        "coord": [
+          6,
+          1
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "range",
+              "value": 0.15,
+              "tags": [
+                "gauss"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_improve_gauss_defense_cooldown"
+          ]
+        ]
+      },
+      "trader_unlock_heavy_gauss_slugs_unit_item": {
+        "field": "military_armament",
+        "old_coord": [
+          7,
+          2
+        ],
+        "coord": [
+          7,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_heavy_gauss_slugs.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_improve_gauss_defense_range"
+          ]
+        ]
+      },
+      "trader_beam_weapon_damage_1": {
+        "field": "military_armament",
+        "old_coord": [
+          7,
+          3
+        ],
+        "coord": [
+          7,
+          2
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "damage",
+              "value": 0.15,
+              "tags": [
+                "beam"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_beam_weapon_damage_0"
+          ]
+        ]
+      },
+      "trader_missile_weapon_damage_1": {
+        "field": "military_armament",
+        "old_coord": [
+          6,
+          4
+        ],
+        "coord": [
+          6,
+          3
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "damage",
+              "value": 0.1,
+              "tags": [
+                "missile"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_missile_weapon_damage_0"
+          ]
+        ]
+      },
+      "trader_unlock_missile_guidance_computer_unit_item": {
+        "field": "military_armament",
+        "old_coord": [
+          6,
+          5
+        ],
+        "coord": [
+          6,
+          0
+        ],
+        "direct_definition_references": [
+          "trader_missile_guidance_computer.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_high_yield_warheads_unit_item": {
+        "field": "military_armament",
+        "old_coord": [
+          6,
+          6
+        ],
+        "coord": [
+          6,
+          4
+        ],
+        "direct_definition_references": [
+          "trader_high_yield_warheads.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_planet_bombing_damage_0"
+          ]
+        ]
+      },
+      "trader_unlock_munitions_plant_unit_item": {
+        "field": "military_armament",
+        "old_coord": [
+          6,
+          7
+        ],
+        "coord": [
+          6,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_munitions_plant.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_upgrade_consumables_1": {
+        "field": "military_armament",
+        "old_coord": [
+          7,
+          8
+        ],
+        "coord": [
+          7,
+          4
+        ],
+        "direct_definition_references": [
+          "trader_flak_burst.unit_item",
+          "trader_radiation_bomb.unit_item",
+          "trader_salvage_kit.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_upgrade_consumables_0"
+          ]
+        ]
+      },
+      "expanse21_unn_black_budget": {
+        "field": "military_armament",
+        "old_coord": [
+          7,
+          19
+        ],
+        "coord": [
+          7,
+          3
+        ],
+        "direct_definition_references": [
+          "expanse_amun_ra.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "expanse21_opa_surplus": {
+        "field": "military_armament",
+        "old_coord": [
+          7,
+          23
+        ],
+        "coord": [
+          7,
+          5
+        ],
+        "direct_definition_references": [
+          "expanse12_pella.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_autocannon_weapon_damage_3": {
+        "field": "military_armament",
+        "old_coord": [
+          8,
+          0
+        ],
+        "coord": [
+          8,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "damage",
+              "value": 0.1,
+              "tags": [
+                "autocannon"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_autocannon_weapon_damage_2"
+          ]
+        ]
+      },
+      "trader_high_order_explosives": {
+        "field": "military_armament",
+        "old_coord": [
+          9,
+          0
+        ],
+        "coord": [
+          9,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "damage",
+              "value": 0.1,
+              "tags": [
+                "autocannon"
+              ]
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_missile_weapon_damage_2": {
+        "field": "military_armament",
+        "old_coord": [
+          9,
+          4
+        ],
+        "coord": [
+          9,
+          3
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "weapon_modifiers": [
+            {
+              "value_behavior": "scalar",
+              "modifier_type": "damage",
+              "value": 0.1,
+              "tags": [
+                "missile"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_missile_weapon_damage_1"
+          ]
+        ]
+      },
+      "trader_missile_weapon_armor": {
+        "field": "military_armament",
+        "old_coord": [
+          8,
+          5
+        ],
+        "coord": [
+          8,
+          3
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "max_hull_points",
+              "value_behavior": "scalar",
+              "value": 0.05,
+              "tags": [
+                "torpedo"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_hull_damage_reduction_1",
+            "trader_missile_weapon_damage_1"
+          ]
+        ]
+      },
+      "trader_hull_damage_reduction_0": {
+        "field": "military_engineering",
+        "old_coord": [
+          1,
+          0
+        ],
+        "coord": [
+          1,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "armor_strength",
+              "value_behavior": "additive",
+              "value": 10.0
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_structure_hull": {
+        "field": "military_engineering",
+        "old_coord": [
+          1,
+          2
+        ],
+        "coord": [
+          1,
+          1
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_hull_damage_reduction_0",
+            "trader_max_hull_points_0"
+          ]
+        ]
+      },
+      "trader_max_hull_points_0": {
+        "field": "military_engineering",
+        "old_coord": [
+          0,
+          3
+        ],
+        "coord": [
+          0,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "max_hull_points",
+              "value_behavior": "scalar",
+              "value": 0.05,
+              "tags": [
+                "frigate",
+                "cruiser",
+                "corvette",
+                "capital_ship",
+                "super_capital_ship",
+                "titan",
+                "starbase"
+              ]
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_unlock_combat_repair_system_unit_item": {
+        "field": "military_engineering",
+        "old_coord": [
+          3,
+          1
+        ],
+        "coord": [
+          3,
+          0
+        ],
+        "direct_definition_references": [
+          "expanse21_mcrn_precision_combat_repair_system.unit_item",
+          "trader_combat_repair_system.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_retrofit_bay_repair_ability"
+          ]
+        ]
+      },
+      "trader_unlock_heavy_armor_unit_item": {
+        "field": "military_engineering",
+        "old_coord": [
+          2,
+          1
+        ],
+        "coord": [
+          2,
+          0
+        ],
+        "direct_definition_references": [
+          "trader_heavy_armor.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_hull_damage_reduction_0"
+          ]
+        ]
+      },
+      "trader_unlock_retrofit_bay_repair_ability": {
+        "field": "military_engineering",
+        "old_coord": [
+          2,
+          2
+        ],
+        "coord": [
+          2,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_retrofit_bay_repair.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_max_hull_points_1": {
+        "field": "military_engineering",
+        "old_coord": [
+          2,
+          3
+        ],
+        "coord": [
+          2,
+          2
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "max_hull_points",
+              "value_behavior": "scalar",
+              "value": 0.125
+            },
+            {
+              "modifier_type": "hull_point_restore_rate",
+              "value_behavior": "scalar",
+              "value": 0.05
+            },
+            {
+              "modifier_type": "hull_crippled_percentage",
+              "value_behavior": "scalar",
+              "value": 0.05
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_max_hull_points_0"
+          ]
+        ]
+      },
+      "trader_antimatter_0": {
+        "field": "military_engineering",
+        "old_coord": [
+          2,
+          4
+        ],
+        "coord": [
+          2,
+          3
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "max_antimatter",
+              "value_behavior": "scalar",
+              "value": 0.1
+            },
+            {
+              "modifier_type": "antimatter_restore_rate",
+              "value_behavior": "scalar",
+              "value": 0.1
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_unlock_antimatter_engine_unit_item": {
+        "field": "military_engineering",
+        "old_coord": [
+          3,
+          5
+        ],
+        "coord": [
+          3,
+          3
+        ],
+        "direct_definition_references": [
+          "expanse21_mcrn_precision_antimatter_engine.unit_item",
+          "trader_antimatter_engine.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_antimatter_0"
+          ]
+        ]
+      },
+      "expanse21_mcrn_redundant_command": {
+        "field": "military_engineering",
+        "old_coord": [
+          2,
+          16
+        ],
+        "coord": [
+          2,
+          4
+        ],
+        "direct_definition_references": [
+          "expanse21_mcrn_redundant_command_module.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "expanse22_mcrn_naval_readiness": {
+        "field": "military_engineering",
+        "old_coord": [
+          4,
+          27
+        ],
+        "coord": [
+          2,
+          5
+        ],
+        "direct_definition_references": [
+          "expanse22_repair_anchorage.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "expanse22_opa_dockworker_damage_control": {
+        "field": "military_engineering",
+        "old_coord": [
+          4,
+          28
+        ],
+        "coord": [
+          2,
+          6
+        ],
+        "direct_definition_references": [
+          "expanse22_repair_anchorage.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_hull_damage_reduction_1": {
+        "field": "military_engineering",
+        "old_coord": [
+          4,
+          0
+        ],
+        "coord": [
+          4,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "armor_strength",
+              "value_behavior": "additive",
+              "value": 15.0
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_hull_damage_reduction_0"
+          ]
+        ]
+      },
+      "trader_unlock_beam_armor_unit_item": {
+        "field": "military_engineering",
+        "old_coord": [
+          5,
+          1
+        ],
+        "coord": [
+          5,
+          0
+        ],
+        "direct_definition_references": [
+          "trader_beam_armor.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_hull_damage_reduction_1"
+          ]
+        ]
+      },
+      "trader_retrofit_bay_repair_rate_0": {
+        "field": "military_engineering",
+        "old_coord": [
+          5,
+          2
+        ],
+        "coord": [
+          5,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_retrofit_bay_repair.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_retrofit_bay_repair_ability"
+          ]
+        ]
+      },
+      "dlc_trader_unlock_armored_citadel_unit_item": {
+        "field": "military_engineering",
+        "old_coord": [
+          5,
+          4
+        ],
+        "coord": [
+          5,
+          2
+        ],
+        "direct_definition_references": [
+          "dlc_trader_armored_citadel.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_max_hull_points_1"
+          ]
+        ]
+      },
+      "trader_antimatter_1": {
+        "field": "military_engineering",
+        "old_coord": [
+          4,
+          4
+        ],
+        "coord": [
+          4,
+          3
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "max_antimatter",
+              "value_behavior": "scalar",
+              "value": 0.1
+            },
+            {
+              "modifier_type": "antimatter_restore_rate",
+              "value_behavior": "scalar",
+              "value": 0.1
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_antimatter_0"
+          ]
+        ]
+      },
+      "trader_unlock_volatile_accelerants_unit_item": {
+        "field": "military_engineering",
+        "old_coord": [
+          4,
+          5
+        ],
+        "coord": [
+          4,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_volatile_accelerants.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "expanse22_unn_orbital_defense": {
+        "field": "military_engineering",
+        "old_coord": [
+          4,
+          29
+        ],
+        "coord": [
+          4,
+          2
+        ],
+        "direct_definition_references": [
+          "expanse22_foehammer_battery.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_hangar_defense_structure"
+          ]
+        ]
+      },
+      "trader_unlock_missile_armor_unit_item": {
+        "field": "military_engineering",
+        "old_coord": [
+          6,
+          1
+        ],
+        "coord": [
+          6,
+          0
+        ],
+        "direct_definition_references": [
+          "trader_missile_armor.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_hull_damage_reduction_1"
+          ]
+        ]
+      },
+      "trader_heavy_maneuvering_thrusters": {
+        "field": "military_engineering",
+        "old_coord": [
+          7,
+          2
+        ],
+        "coord": [
+          7,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "max_angular_speed",
+              "value_behavior": "scalar",
+              "value": 0.35,
+              "tags": [
+                "capital_ship",
+                "super_capital_ship",
+                "titan"
+              ]
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_max_hull_points_2": {
+        "field": "military_engineering",
+        "old_coord": [
+          6,
+          3
+        ],
+        "coord": [
+          6,
+          2
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "hull_point_restore_rate",
+              "value_behavior": "scalar",
+              "value": 0.05,
+              "tags": [
+                "frigate",
+                "cruiser",
+                "corvette",
+                "capital_ship",
+                "super_capital_ship",
+                "titan",
+                "starbase"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_max_hull_points_1"
+          ]
+        ]
+      },
+      "trader_hull_damage_reduction_2": {
+        "field": "military_engineering",
+        "old_coord": [
+          8,
+          0
+        ],
+        "coord": [
+          8,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "armor_strength",
+              "value_behavior": "additive",
+              "value": 25.0
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_hull_damage_reduction_1"
+          ]
+        ]
+      },
+      "trader_unlock_antifighter_frigate": {
+        "field": "military_experimental",
+        "old_coord": [
+          0,
+          0
+        ],
+        "coord": [
+          0,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_skirmisher_corvette_frigate": {
+        "field": "military_experimental",
+        "old_coord": [
+          1,
+          2
+        ],
+        "coord": [
+          1,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_scout_corvette_hyperspace_charge_time": {
+        "field": "military_experimental",
+        "old_coord": [
+          0,
+          9
+        ],
+        "coord": [
+          0,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_scout_corvette.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_phase_lane_detector": {
+        "field": "military_experimental",
+        "old_coord": [
+          1,
+          10
+        ],
+        "coord": [
+          1,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_research_lab_structure_phase_lane_detector.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_missile_corvette": {
+        "field": "military_experimental",
+        "old_coord": [
+          2,
+          1
+        ],
+        "coord": [
+          2,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_corvette_speed": {
+        "field": "military_experimental",
+        "old_coord": [
+          3,
+          2
+        ],
+        "coord": [
+          3,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "max_linear_speed",
+              "value_behavior": "scalar",
+              "value": 0.15,
+              "tags": [
+                "corvette"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_unlock_missile_corvette",
+            "trader_unlock_skirmisher_corvette_frigate"
+          ]
+        ]
+      },
+      "trader_unlock_hangar_defense_production_ability": {
+        "field": "military_experimental",
+        "old_coord": [
+          3,
+          4
+        ],
+        "coord": [
+          3,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_hangar_defense_enhanced_production.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_hangar_defense_structure"
+          ]
+        ]
+      },
+      "trader_unlock_hangar_defense_structure": {
+        "field": "military_experimental",
+        "old_coord": [
+          2,
+          4
+        ],
+        "coord": [
+          2,
+          1
+        ],
+        "direct_definition_references": [
+          "expanse22_pdc_picket.unit",
+          "trader_hangar_defense_structure.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_starbase": {
+        "field": "military_experimental",
+        "old_coord": [
+          3,
+          6
+        ],
+        "coord": [
+          3,
+          2
+        ],
+        "direct_definition_references": [
+          "expanse22_mcrn_support_station.unit",
+          "expanse22_opa_support_station.unit",
+          "expanse22_unn_support_station.unit",
+          "trader_starbase.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "dlc_trader_unlock_bastion_module_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          3,
+          9
+        ],
+        "coord": [
+          3,
+          3
+        ],
+        "direct_definition_references": [
+          "dlc_trader_bastion_module.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_unlock_hyperspace_between_stars": {
+        "field": "military_experimental",
+        "old_coord": [
+          3,
+          10
+        ],
+        "coord": [
+          3,
+          4
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_phase_lane_detector_extended_range": {
+        "field": "military_experimental",
+        "old_coord": [
+          2,
+          10
+        ],
+        "coord": [
+          2,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_research_lab_structure_phase_lane_detector.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_phase_lane_detector"
+          ]
+        ]
+      },
+      "trader_unlock_antiarmor_frigate": {
+        "field": "military_experimental",
+        "old_coord": [
+          3,
+          11
+        ],
+        "coord": [
+          3,
+          5
+        ],
+        "direct_definition_references": [
+          "expanse23_murphy.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "expanse21_unn_fleet_train": {
+        "field": "military_experimental",
+        "old_coord": [
+          2,
+          20
+        ],
+        "coord": [
+          2,
+          3
+        ],
+        "direct_definition_references": [
+          "expanse21_unn_fleet_train_module.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_retrofit_bay_repair_ability"
+          ]
+        ]
+      },
+      "trader_unlock_heavy_cruiser": {
+        "field": "military_experimental",
+        "old_coord": [
+          5,
+          0
+        ],
+        "coord": [
+          5,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_targeting_array_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          4,
+          0
+        ],
+        "coord": [
+          4,
+          0
+        ],
+        "direct_definition_references": [
+          "trader_targeting_array.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_long_range_cruiser": {
+        "field": "military_experimental",
+        "old_coord": [
+          4,
+          2
+        ],
+        "coord": [
+          4,
+          1
+        ],
+        "direct_definition_references": [
+          "expanse15_missile_defense.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_starbase_flak_field_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          4,
+          5
+        ],
+        "coord": [
+          4,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_starbase_flak_field.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_unlock_starbase_docking_booms_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          4,
+          7
+        ],
+        "coord": [
+          4,
+          3
+        ],
+        "direct_definition_references": [
+          "trader_starbase_docking_booms.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_unlock_starbase_unit_factory_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          5,
+          7
+        ],
+        "coord": [
+          5,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_starbase_unit_factory.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_starbase_item_price": {
+        "field": "military_experimental",
+        "old_coord": [
+          5,
+          8
+        ],
+        "coord": [
+          5,
+          3
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "ship_component_price",
+              "value_behavior": "scalar",
+              "value": -0.25,
+              "tags": [
+                "starbase"
+              ]
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_quick_phase_jump": {
+        "field": "military_experimental",
+        "old_coord": [
+          4,
+          9
+        ],
+        "coord": [
+          4,
+          4
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "hyperspace_charge_time",
+              "value_behavior": "scalar",
+              "value": -0.4
+            }
+          ]
+        },
+        "prerequisites": []
+      },
+      "trader_wormhole_travel": {
+        "field": "military_experimental",
+        "old_coord": [
+          5,
+          10
+        ],
+        "coord": [
+          5,
+          1
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "dlc2_trader_unlock_rebel_super_capital_ship": {
+        "field": "military_experimental",
+        "old_coord": [
+          6,
+          0
+        ],
+        "coord": [
+          6,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_titan_factory"
+          ]
+        ]
+      },
+      "dlc2_trader_upgrade_rebel_super_limit_0": {
+        "field": "military_experimental",
+        "old_coord": [
+          7,
+          0
+        ],
+        "coord": [
+          7,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "dlc2_trader_unlock_rebel_super_capital_ship"
+          ]
+        ]
+      },
+      "trader_unlock_titan_factory": {
+        "field": "military_experimental",
+        "old_coord": [
+          6,
+          1
+        ],
+        "coord": [
+          6,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_loyalist_titan_factory_structure.unit",
+          "trader_rebel_titan_factory_structure.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_loyalist_titan": {
+        "field": "military_experimental",
+        "old_coord": [
+          6,
+          3
+        ],
+        "coord": [
+          6,
+          2
+        ],
+        "direct_definition_references": [
+          "expanse_donnager_battleship.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_titan_factory"
+          ]
+        ]
+      },
+      "trader_unlock_starbase_command_center_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          7,
+          5
+        ],
+        "coord": [
+          7,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_starbase_command_center.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_unlock_starbase_improve_weapon_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          6,
+          5
+        ],
+        "coord": [
+          6,
+          3
+        ],
+        "direct_definition_references": [
+          "trader_starbase_beam.weapon",
+          "trader_starbase_light_autocannon.weapon",
+          "trader_starbase_medium_autocannon.weapon",
+          "trader_starbase_medium_missile.weapon",
+          "trader_starbase_point_defense_autocannon.weapon"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_unlock_starbase_factory_support_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          6,
+          7
+        ],
+        "coord": [
+          6,
+          4
+        ],
+        "direct_definition_references": [
+          "trader_starbase_factory_support.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase_unit_factory_unit_item"
+          ]
+        ]
+      },
+      "trader_unlock_starbase_trade_port_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          7,
+          7
+        ],
+        "coord": [
+          7,
+          3
+        ],
+        "direct_definition_references": [
+          "trader_starbase_trade_port.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_trade_port_income_rate_0",
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_unlock_orbital_cannon_structure": {
+        "field": "military_experimental",
+        "old_coord": [
+          6,
+          8
+        ],
+        "coord": [
+          6,
+          5
+        ],
+        "direct_definition_references": [
+          "trader_orbital_cannon_structure.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_missile_weapon_damage_0"
+          ]
+        ]
+      },
+      "trader_unlock_phase_jump_inhibitor": {
+        "field": "military_experimental",
+        "old_coord": [
+          6,
+          9
+        ],
+        "coord": [
+          6,
+          6
+        ],
+        "direct_definition_references": [
+          "trader_phase_jump_inhibitor_structure.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unstoppable_phase_jump": {
+        "field": "military_experimental",
+        "old_coord": [
+          7,
+          9
+        ],
+        "coord": [
+          7,
+          1
+        ],
+        "direct_definition_references": [
+          "trader_scout_corvette_unstoppable_phase_jump.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "expanse24_behemoth_refit": {
+        "field": "military_experimental",
+        "old_coord": [
+          6,
+          31
+        ],
+        "coord": [
+          6,
+          7
+        ],
+        "direct_definition_references": [
+          "expanse24_behemoth.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_titan_factory"
+          ]
+        ]
+      },
+      "dlc2_trader_upgrade_rebel_super_limit_1": {
+        "field": "military_experimental",
+        "old_coord": [
+          9,
+          0
+        ],
+        "coord": [
+          9,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "dlc2_trader_upgrade_rebel_super_limit_0"
+          ]
+        ]
+      },
+      "trader_unlock_starbase_stun_torpedo_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          8,
+          5
+        ],
+        "coord": [
+          8,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_starbase_stun_torpedo.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_unlock_starbase_self_destruct_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          9,
+          6
+        ],
+        "coord": [
+          9,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_starbase_self_destruct.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "trader_unlock_deploy_starbase_unit_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          8,
+          7
+        ],
+        "coord": [
+          8,
+          3
+        ],
+        "direct_definition_references": [
+          "trader_deploy_starbase.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_starbase"
+          ]
+        ]
+      },
+      "dlc_trader_triple_fortresses": {
+        "field": "military_experimental",
+        "old_coord": [
+          9,
+          8
+        ],
+        "coord": [
+          9,
+          3
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_starbase_item_price"
+          ]
+        ]
+      },
+      "trader_orbital_cannon_structure_range": {
+        "field": "military_experimental",
+        "old_coord": [
+          9,
+          8
+        ],
+        "coord": [
+          9,
+          5
+        ],
+        "direct_definition_references": [
+          "trader_orbital_cannon.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_orbital_cannon_structure"
+          ]
+        ]
+      },
+      "trader_twin_fortresses": {
+        "field": "military_experimental",
+        "old_coord": [
+          9,
+          8
+        ],
+        "coord": [
+          9,
+          4
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_starbase_item_price"
+          ]
+        ]
+      },
+      "dlc2_trader_unlock_faction_victory_item": {
+        "field": "military_experimental",
+        "old_coord": [
+          9,
+          9
+        ],
+        "coord": [
+          9,
+          6
+        ],
+        "direct_definition_references": [
+          "dlc2_trader_faction_victory.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_orbital_cannon_structure"
+          ]
+        ]
+      },
+      "expanse24_gathering_storm_procurement": {
+        "field": "military_experimental",
+        "old_coord": [
+          8,
+          30
+        ],
+        "coord": [
+          8,
+          4
+        ],
+        "direct_definition_references": [
+          "expanse24_gathering_storm.unit"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_loyalist_titan"
+          ]
+        ]
+      },
+      "trader_max_supply_0": {
+        "field": "military_mobilization",
+        "old_coord": [
+          1,
+          0
+        ],
+        "coord": [
+          1,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_max_supply_1": {
+        "field": "military_mobilization",
+        "old_coord": [
+          2,
+          0
+        ],
+        "coord": [
+          2,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_max_supply_0"
+          ]
+        ]
+      },
+      "trader_max_supply_2": {
+        "field": "military_mobilization",
+        "old_coord": [
+          3,
+          0
+        ],
+        "coord": [
+          3,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_max_supply_1"
+          ]
+        ]
+      },
+      "trader_capital_ship_starting_level_0": {
+        "field": "military_mobilization",
+        "old_coord": [
+          2,
+          1
+        ],
+        "coord": [
+          2,
+          1
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_pirate_raid_supply": {
+        "field": "military_mobilization",
+        "old_coord": [
+          3,
+          3
+        ],
+        "coord": [
+          3,
+          1
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_garrison_recruitment_center": {
+        "field": "military_mobilization",
+        "old_coord": [
+          2,
+          3
+        ],
+        "coord": [
+          2,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_loyalist_garrison_recruitment_center.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_unlock_human_doctrine_center_unit_item": {
+        "field": "military_mobilization",
+        "old_coord": [
+          2,
+          3
+        ],
+        "coord": [
+          2,
+          3
+        ],
+        "direct_definition_references": [
+          "trader_rebel_human_doctrine_center.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_defense_structure_culture_resistance": {
+        "field": "military_mobilization",
+        "old_coord": [
+          3,
+          4
+        ],
+        "coord": [
+          3,
+          2
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_max_supply_3": {
+        "field": "military_mobilization",
+        "old_coord": [
+          5,
+          0
+        ],
+        "coord": [
+          5,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_max_supply_2"
+          ]
+        ]
+      },
+      "trader_unlock_home_guard_outpost_unit_item": {
+        "field": "military_mobilization",
+        "old_coord": [
+          4,
+          2
+        ],
+        "coord": [
+          4,
+          0
+        ],
+        "direct_definition_references": [
+          "trader_loyalist_home_guard_outpost.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_upgrade_experience_gain_0": {
+        "field": "military_mobilization",
+        "old_coord": [
+          5,
+          2
+        ],
+        "coord": [
+          5,
+          1
+        ],
+        "direct_definition_references": [
+          "expanse15_scirocco_breaching_teams.ability"
+        ],
+        "modifiers": {
+          "unit_modifiers": []
+        },
+        "prerequisites": []
+      },
+      "trader_garrison_max_supply": {
+        "field": "military_mobilization",
+        "old_coord": [
+          4,
+          3
+        ],
+        "coord": [
+          4,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_loyalist_garrison_recruitment_center.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_unlock_garrison_recruitment_center"
+          ]
+        ]
+      },
+      "trader_unlock_heavy_garrison": {
+        "field": "military_mobilization",
+        "old_coord": [
+          5,
+          4
+        ],
+        "coord": [
+          5,
+          2
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_garrison_max_supply"
+          ]
+        ]
+      },
+      "trader_unlock_pirate_mercenary_base_unit_item": {
+        "field": "military_mobilization",
+        "old_coord": [
+          5,
+          4
+        ],
+        "coord": [
+          5,
+          3
+        ],
+        "direct_definition_references": [
+          "trader_pirate_mercenary_base.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_pirate_raid_supply"
+          ]
+        ]
+      },
+      "expanse21_mcrn_mmc_certification": {
+        "field": "military_mobilization",
+        "old_coord": [
+          5,
+          15
+        ],
+        "coord": [
+          5,
+          4
+        ],
+        "direct_definition_references": [
+          "expanse15_scirocco_breaching_teams.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_upgrade_experience_gain_0"
+          ]
+        ]
+      },
+      "expanse21_opa_override_codes": {
+        "field": "military_mobilization",
+        "old_coord": [
+          4,
+          23
+        ],
+        "coord": [
+          4,
+          1
+        ],
+        "direct_definition_references": [
+          "expanse06_amun_boarding.ability"
+        ],
+        "modifiers": {},
+        "prerequisites": []
+      },
+      "trader_max_supply_4": {
+        "field": "military_mobilization",
+        "old_coord": [
+          7,
+          0
+        ],
+        "coord": [
+          7,
+          0
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_max_supply_3"
+          ]
+        ]
+      },
+      "trader_capital_ship_starting_level_1": {
+        "field": "military_mobilization",
+        "old_coord": [
+          6,
+          1
+        ],
+        "coord": [
+          6,
+          1
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_capital_ship_starting_level_0"
+          ]
+        ]
+      },
+      "trader_upgrade_experience_gain_1": {
+        "field": "military_mobilization",
+        "old_coord": [
+          7,
+          2
+        ],
+        "coord": [
+          7,
+          1
+        ],
+        "direct_definition_references": [],
+        "modifiers": {
+          "unit_modifiers": [
+            {
+              "modifier_type": "experience_gained_from_unit_death",
+              "value_behavior": "scalar",
+              "value": 0.2
+            }
+          ]
+        },
+        "prerequisites": [
+          [
+            "trader_upgrade_experience_gain_0"
+          ]
+        ]
+      },
+      "trader_pirate_king_windfall": {
+        "field": "military_mobilization",
+        "old_coord": [
+          6,
+          3
+        ],
+        "coord": [
+          6,
+          2
+        ],
+        "direct_definition_references": [],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_pirate_raid_supply"
+          ]
+        ]
+      },
+      "trader_loyalist_garrison_max_supply": {
+        "field": "military_mobilization",
+        "old_coord": [
+          9,
+          3
+        ],
+        "coord": [
+          9,
+          2
+        ],
+        "direct_definition_references": [
+          "trader_loyalist_garrison_recruitment_center.unit_item"
+        ],
+        "modifiers": {},
+        "prerequisites": [
+          [
+            "trader_garrison_max_supply"
+          ]
+        ]
+      }
+    },
+    "civilian": "unchanged",
+    "runtime": "NOT RUN",
+    "maximum_military_rows": {
+      "military_armament": 6,
+      "military_engineering": 7,
+      "military_experimental": 8,
+      "military_mobilization": 5
+    }
+  },
+  "command": {
+    "status": "PRIVATE VALIDATED FRAGMENT; PLAYER ITEM REMOVAL REQUIRED",
+    "unit_id": "expanse21_opa_command",
+    "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25",
+    "art_contract": "/run/media/haker/NVME 2/expanse-mod/audit/update26-command/art-contract.json",
+    "art_directory": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game",
+    "art_files": {
+      "effects/expanse26_opa_command_idle_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/effects/expanse26_opa_command_idle_plume.particle_effect",
+      "effects/expanse26_opa_command_phase_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/effects/expanse26_opa_command_phase_plume.particle_effect",
+      "mesh_materials/expanse26_opa_command_hull_material_00.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_00.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_01.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_01.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_02.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_02.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_03.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_03.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_04.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_04.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_05.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_05.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_06.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_06.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_07.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_07.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_08.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_08.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_09.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_09.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_10.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_10.mesh_material",
+      "mesh_materials/expanse26_opa_command_hull_material_11.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_11.mesh_material",
+      "mesh_materials/expanse26_opa_command_pdc_barrel_material_00.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_pdc_barrel_material_00.mesh_material",
+      "mesh_materials/expanse26_opa_command_pdc_base_material_00.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_pdc_base_material_00.mesh_material",
+      "meshes/expanse26_opa_command_hull.mesh": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/meshes/expanse26_opa_command_hull.mesh",
+      "meshes/expanse26_opa_command_pdc_barrel.mesh": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/meshes/expanse26_opa_command_pdc_barrel.mesh",
+      "meshes/expanse26_opa_command_pdc_base.mesh": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/meshes/expanse26_opa_command_pdc_base.mesh"
+    },
+    "source_definitions_sha256": {
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse21_opa_command.unit": "7476bd89b53c429f4f1e44ff8bf0937cc19945c3957b914fc4d136e40f7845cf",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_bane.unit": "9be51b5daabe529ee0de2d6047d4bc9dbdb49df0c71d0056b463d8341ca094fe",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse12_scirocco.unit": "7c48f03a0961d6ccaa25aa90182d94a00908d09434140117bceb170a72ba23fb",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_0.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_1.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_2.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_3.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_4.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_5.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_magazine.ability": "f6fd19c1e7447d0bf86e9c78f20e98359817489b7b0e531e1296042522057df5",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_magazine.buff": "5bfea1fbdcbe70062d7dae2ddbd76040e4b63583ead239368b12e0882fc28be5",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse21_opa_command.unit_skin": "e54dce3448483823fbff9728e5a4e009df5e094bcd98b43dfe7ed19349a34bc9",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse21_opa_command_colony_module.ability": "0eddadaa05fb0b6b4155ab42d7e8c5b6ba359e0ef696c06d5cec4f9453f4cf14"
+    },
+    "player_recipes": {
+      "all_players_exposing_command_colony_item": {
+        "ship_components_remove": [
+          "expanse21_opa_command_colony_module"
+        ],
+        "note": "Remove from every player item availability list and any recommendation. Do not remove its ability or action data source: command references that native program directly. Preserve the old item definition for old-save resolution."
+      }
+    },
+    "stats": {
+      "hull_level_1": 5000.0,
+      "armor_level_1": 3000.0,
+      "price": {
+        "credits": 4800.0,
+        "metal": 975.0,
+        "crystal": 600.0
+      },
+      "build_time": 100.0,
+      "supply": 150,
+      "scale": 1.361384581046304,
+      "length": 456.521728515625
+    },
+    "preserved": [
+      "regular Europa unit/art",
+      "physics and movement",
+      "build time and fleet supply",
+      "six PDC damage/range/tracking/arcs and target filters",
+      "shared magazine source files and entire cadence/damage/fuel/targeting semantics",
+      "repair and capture abilities/actions/guards",
+      "native progression and regeneration",
+      "accepted color textures and full triangle detail"
+    ],
+    "private_derivations": {
+      "magazine": "expanse26_opa_command_magazine",
+      "pdcs": [
+        "expanse26_opa_command_pdc_0",
+        "expanse26_opa_command_pdc_1",
+        "expanse26_opa_command_pdc_2",
+        "expanse26_opa_command_pdc_3",
+        "expanse26_opa_command_pdc_4",
+        "expanse26_opa_command_pdc_5"
+      ]
+    },
+    "untested": [
+      "Game load, command-bar placement and native colonization execution",
+      "Legacy saves with an already-fitted colony item may retain an extra ability acquisition path; fresh ships use direct ability only",
+      "Engine turret attachment, exhaust visibility, collision, save/reload and multiplayer"
+    ]
+  },
+  "contacts": {
+    "runtime": "NOT RUN",
+    "contacts": {
+      "pranast_united_npc": {
+        "display_name": "Tycho Engineering Bureau",
+        "rewards": [
+          {
+            "reward": "expanse26_tycho_recovery_component",
+            "required_reputation_level": 0,
+            "influence_point_cost": 4,
+            "cooldown_duration": 360
+          }
+        ],
+        "native_scouts_and_markets": "preserved",
+        "native_player_sha256": "ade8feabb84ebfd80a1f7cc28cfce4db9b3f82b0f908b44ea457e9558e2037c8"
+      },
+      "jiskun_force_npc": {
+        "display_name": "Ceres Shipping Exchange",
+        "rewards": [
+          {
+            "reward": "expanse26_ceres_material_shipment",
+            "required_reputation_level": 0,
+            "influence_point_cost": 2,
+            "cooldown_duration": 240
+          },
+          {
+            "reward": "expanse26_ceres_registry_access",
+            "required_reputation_level": 1,
+            "influence_point_cost": 4,
+            "cooldown_duration": 600
+          }
+        ],
+        "native_scouts_and_markets": "preserved",
+        "native_player_sha256": "d1ecaf88c151b4881f850020c009c774a83b3fac4687a5aaa00e89cba8bb9b1a"
+      }
+    },
+    "scenario_registration": {
+      "overwrite_scenarios": false,
+      "scenarios": [
+        "expanse18_sol_three_homes",
+        "expanse26_sol_three_homes"
+      ]
+    },
+    "map": {
+      "file": "expanse26_sol_three_homes.scenario",
+      "changed_nodes": [
+        5,
+        6
+      ],
+      "topology_preserved": true,
+      "old_scenario_retained": true,
+      "other_maps": "Pranast and Jiskun slots provide the renamed services where present; other NPCs unchanged."
+    },
+    "registry_additions": {
+      "npc_reward": [
+        "expanse26_tycho_recovery_component",
+        "expanse26_ceres_material_shipment",
+        "expanse26_ceres_registry_access"
+      ]
+    },
+    "limits": [
+      "Native NPC art/defense fleets and auction markets retained.",
+      "Native Jiskun provides_detection flag retained; no invented stealth exception.",
+      "Exclusive salvage, sample authorization, containment study and ProtoTech remain absent.",
+      "Influence charging, timed vision, fitting and multiplayer require in-game validation."
+    ]
+  },
+  "storm": {
+    "status": "PASS OFFLINE; IN-GAME VISUAL/TARGETING NOT RUN",
+    "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25",
+    "game_directory": "/run/media/haker/NVME 2/expanse-workers20/foundations/build/update26-storm/game",
+    "files": [
+      {
+        "path": "mesh_materials/expanse24_storm_hull_storm_drive.mesh_material",
+        "action": "add",
+        "sha256": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
+        "previous_sha256": null,
+        "bytes": 281
+      },
+      {
+        "path": "meshes/expanse24_storm_hull.mesh",
+        "action": "replace",
+        "sha256": "0b3979fd1a17d122959ef0d48c986eca440b21f281b8d785052dd5d639eca896",
+        "previous_sha256": "770c7c7792e13682b3265603931a39b25288b97979ae774a53f9ae2dd7893854",
+        "bytes": 12535738
+      },
+      {
+        "path": "textures/expanse24_storm_blush_clr.dds",
+        "action": "replace",
+        "sha256": "9349ec6ec37ec36cd6a506387064d8ecf634f233ebe48e2b2efb5b1eeb72d91a",
+        "previous_sha256": "e3c09973c126c094ce7331ba390be3cc1dabbfd8e947afaee2428ca57c548bae",
+        "bytes": 516
+      },
+      {
+        "path": "textures/expanse24_storm_blush_orm.dds",
+        "action": "replace",
+        "sha256": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+        "previous_sha256": "0b429ceb7e77c88768fa7d61a5bf7c461e6d6b98e7646f8dc99a2735ee761f49",
+        "bytes": 516
+      },
+      {
+        "path": "textures/expanse24_storm_dark_clr.dds",
+        "action": "replace",
+        "sha256": "b473a8260087243815d055cac6942a7552d2fd2413a2b1d487ff3002116f56b0",
+        "previous_sha256": "c0f55880a7d98d2771b33a81dd178029564a1c210e6b44d4e934f0158b66b8da",
+        "bytes": 516
+      },
+      {
+        "path": "textures/expanse24_storm_dark_orm.dds",
+        "action": "replace",
+        "sha256": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+        "previous_sha256": "0b429ceb7e77c88768fa7d61a5bf7c461e6d6b98e7646f8dc99a2735ee761f49",
+        "bytes": 516
+      },
+      {
+        "path": "textures/expanse24_storm_ice_clr.dds",
+        "action": "replace",
+        "sha256": "cfa7c771e72ae54d2c5b2e8fb1da3ff0a4e1632f30743c76dc2a770dd0a589bd",
+        "previous_sha256": "a395c4ea5447db8687351548a5f0b6c4480d3e2197fa57684d25552377164d21",
+        "bytes": 516
+      },
+      {
+        "path": "textures/expanse24_storm_ice_orm.dds",
+        "action": "replace",
+        "sha256": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+        "previous_sha256": "0b429ceb7e77c88768fa7d61a5bf7c461e6d6b98e7646f8dc99a2735ee761f49",
+        "bytes": 516
+      },
+      {
+        "path": "textures/expanse24_storm_pearl_clr.dds",
+        "action": "replace",
+        "sha256": "77b963f7d6d8238887c6dbf8890e61cab8c7bc8aaf8479963ff964dfdd8d3d7a",
+        "previous_sha256": "f3e93eca7ee6867baf8b9948ffa4786448fa74bad894c8f6dd7727097573b1b4",
+        "bytes": 516
+      },
+      {
+        "path": "textures/expanse24_storm_pearl_orm.dds",
+        "action": "replace",
+        "sha256": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+        "previous_sha256": "0b429ceb7e77c88768fa7d61a5bf7c461e6d6b98e7646f8dc99a2735ee761f49",
+        "bytes": 516
+      }
+    ],
+    "unchanged_dependencies": [
+      "mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "mesh_materials/expanse24_storm_hull_storm_blush.mesh_material",
+      "mesh_materials/expanse24_storm_hull_storm_dark.mesh_material",
+      "mesh_materials/expanse24_storm_hull_storm_ice.mesh_material",
+      "mesh_materials/expanse24_storm_hull_storm_pearl.mesh_material",
+      "meshes/expanse24_storm_pdc_barrel.mesh",
+      "meshes/expanse24_storm_pdc_base.mesh",
+      "textures/expanse15_truman_material_clr.dds",
+      "textures/expanse15_truman_material_msk.dds",
+      "textures/expanse15_truman_material_nrm.dds",
+      "textures/expanse15_truman_material_orm.dds",
+      "textures/expanse24_storm_blush_msk.dds",
+      "textures/expanse24_storm_blush_nrm.dds",
+      "textures/expanse24_storm_dark_msk.dds",
+      "textures/expanse24_storm_dark_nrm.dds",
+      "textures/expanse24_storm_ice_msk.dds",
+      "textures/expanse24_storm_ice_nrm.dds",
+      "textures/expanse24_storm_pearl_msk.dds",
+      "textures/expanse24_storm_pearl_nrm.dds",
+      "textures/mcrn_tachi_material_clr.dds",
+      "textures/mcrn_tachi_material_msk.dds",
+      "textures/mcrn_tachi_material_nrm.dds",
+      "textures/mcrn_tachi_material_orm.dds"
+    ],
+    "gameplay_changes": [],
+    "integration": {
+      "unit_skin_edits_required": false,
+      "mesh_alias_changes_required": false,
+      "exhaust_meshpoint": "exhaust.0",
+      "old_position": [
+        0.0,
+        0.0,
+        -178.62815856933594
+      ],
+      "new_position": [
+        0.0,
+        0.0,
+        -187.89999389648438
+      ],
+      "rotation_unchanged": true,
+      "note": "Existing idle plume already uses mesh exhaust points; replacing hull relocates it automatically. Preserve native hyperspace and all unit/weapon/ability data. No absolute exhaust positions outside mesh are supplied."
+    },
+    "checks": {
+      "hull_hard_normal_min_alignment": 0.9999663252123938,
+      "non_exhaust_points_identical": true,
+      "outer_box_identical": true,
+      "unit_spatial_unchanged": true,
+      "six_frozen_arcs_unchanged": true,
+      "sampled_rays": 1177290,
+      "blocked_rays": 0,
+      "compiled_hull_plus_drive_triangles": 70853,
+      "assembled_with_six_pdcs": 74915
+    },
+    "frozen_gameplay_hashes": {
+      "entities/expanse24_gathering_storm.unit": "c76d43b9fc2483a242e8f8446493cf9695489d04afe7159a04ab0dff3fca6a43",
+      "entities/expanse24_gathering_storm.unit_skin": "7746942047f74a23d30708ce568877e9cd6106af5223ed9e00a8b5955e22772a"
+    }
+  },
+  "platform": {
+    "status": "OFFLINE COMPILED ART PASS; RUNTIME UNTESTED",
+    "base_reference": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25",
+    "game_output": "/run/media/haker/NVME 2/expanse-workers20/assets/build/update26-art/game",
+    "replacement_mesh": "expanse22_foehammer_support",
+    "materials": {
+      "service_ring_0": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_research_lab_structure.mesh_material",
+      "port_machinery_0": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_capital_ship_factory_structure.mesh_material",
+      "starboard_machinery_0": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_capital_ship_factory_structure.mesh_material",
+      "recoil_frame": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse23_murphy_hull_machinery.mesh_material"
+    },
+    "donors": [
+      {
+        "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_research_lab_structure_component_habitat_ring.mesh",
+        "sha256": "c5d312d8703daa65bde89c5ea9bcce6886a1cb96421fcccb8ad16f73b729f646",
+        "triangles": 2382,
+        "scale": 0.31,
+        "centered_on_source_bounds": [
+          0.0,
+          -2.300000051036477e-05,
+          43.01982116699219
+        ],
+        "position": [
+          0,
+          -58,
+          -22
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            2.220446049250313e-16,
+            -1.0
+          ],
+          [
+            0.0,
+            1.0,
+            2.220446049250313e-16
+          ]
+        ],
+        "material_label": "service_ring"
+      },
+      {
+        "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_capital_ship_factory_structure_component_left.mesh",
+        "sha256": "20b5cf7929b2d556eb8939788c6f5e49fb0dc4c223dfcfdfc0ece342df72a5d6",
+        "triangles": 11882,
+        "scale": 0.08,
+        "centered_on_source_bounds": [
+          17.874160766601562,
+          -86.49874114990234,
+          -1.4999999621068127e-05
+        ],
+        "position": [
+          -33,
+          -72,
+          -13
+        ],
+        "rotation": [
+          [
+            -1.0,
+            0.0,
+            1.2246467991473532e-16
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            -1.2246467991473532e-16,
+            0.0,
+            -1.0
+          ]
+        ],
+        "material_label": "port_machinery"
+      },
+      {
+        "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/meshes/trader_capital_ship_factory_structure_component_left.mesh",
+        "sha256": "20b5cf7929b2d556eb8939788c6f5e49fb0dc4c223dfcfdfc0ece342df72a5d6",
+        "triangles": 11882,
+        "scale": 0.08,
+        "centered_on_source_bounds": [
+          17.874160766601562,
+          -86.49874114990234,
+          -1.4999999621068127e-05
+        ],
+        "position": [
+          33,
+          -72,
+          -13
+        ],
+        "rotation": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "material_label": "starboard_machinery"
+      }
+    ],
+    "meshpoints": [
+      {
+        "name": "center",
+        "translation": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "name": "above",
+        "translation": [
+          0.0,
+          35.0,
+          -0.0
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "name": "aura",
+        "translation": [
+          0.0,
+          -55.0,
+          -0.0
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse22_foehammer_rail_0",
+        "translation": [
+          0.0,
+          0.0,
+          -0.0
+        ],
+        "rotation": [
+          0.0,
+          -0.0,
+          0.0,
+          1.0
+        ]
+      },
+      {
+        "name": "child.expanse22_foehammer_pdc_0",
+        "translation": [
+          -71.0,
+          -31.0,
+          -26.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          0.7071067390396978,
+          0.7071068233333948
+        ]
+      },
+      {
+        "name": "child.expanse22_foehammer_pdc_1",
+        "translation": [
+          71.0,
+          -31.0,
+          -26.0
+        ],
+        "rotation": [
+          0.0,
+          0.0,
+          -0.7071067390396978,
+          0.7071068233333948
+        ]
+      }
+    ],
+    "counts": {
+      "support": 27970,
+      "frame": 1824,
+      "rail_unchanged": 8519,
+      "two_pdcs_unchanged": 1354,
+      "assembled": 37843
+    },
+    "spatial_patch_guidance": {
+      "unit": "expanse22_foehammer_battery",
+      "old": {
+        "radius": 119.93179211460206,
+        "box": {
+          "center": [
+            0.0,
+            -15.774040222167969,
+            41.099090576171875
+          ],
+          "extents": [
+            74.39982388396507,
+            34.22595977783203,
+            107.09909057617188
+          ]
+        },
+        "can_be_displaced_on_collision": false
+      },
+      "new_art_bounds": {
+        "box": {
+          "center": [
+            0.0,
+            -30.55743591308594,
+            36.045657709287184
+          ],
+          "extents": [
+            74.33216522117915,
+            49.00935546875,
+            112.15252344305657
+          ]
+        },
+        "radius": 118.61486539210071
+      },
+      "note": "Main owns unit.spatial update. Do not modify weapons, physics, cost or build time. Unit skin keeps same support mesh ID and unchanged child aliases."
+    },
+    "source_weapon_records": {
+      "weapons": [
+        {
+          "mesh_point": "child.expanse22_foehammer_rail_0",
+          "up": [
+            0,
+            1,
+            0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -2.0,
+            "max_angle": 2.0
+          },
+          "pitch_arc": {
+            "min_angle": 0.0,
+            "max_angle": 0.0
+          },
+          "weapon": "expanse22_foehammer_battery_0",
+          "weapon_position": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "mesh_point": "child.expanse22_foehammer_pdc_0",
+          "up": [
+            -1,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": 0.0
+          },
+          "weapon": "expanse22_foehammer_battery_1",
+          "weapon_position": [
+            -71,
+            -31,
+            -26
+          ]
+        },
+        {
+          "mesh_point": "child.expanse22_foehammer_pdc_1",
+          "up": [
+            1,
+            0,
+            0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": 0.0
+          },
+          "weapon": "expanse22_foehammer_battery_2",
+          "weapon_position": [
+            71,
+            -31,
+            -26
+          ]
+        }
+      ],
+      "max_range_weapon_index": 0
+    },
+    "source_hashes": {
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse22_foehammer_support.mesh": "d3df740c80a2f021136c3c9915bcca23835460d6651fe1e5c34947781618ca18",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery.unit": "66eb3d9ffcac6f59b6f77e308cb1291fbfbd33c9b89acc5147a0436ef13e7c6d",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery.unit_skin": "e2bddab4e59f96f22e4f0f2c8520a75fcf700596756a46a182c91228d409248e",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery_0.weapon": "aadfe43e0665de6c9303eb08f7975682210ef9697bb486701e627c9b51a71ec6",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery_1.weapon": "721e1ef25e5355519b4c3f12bb6ac387a1a682e6dc2459892877d55bb353b3eb",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse22_foehammer_battery_2.weapon": "721e1ef25e5355519b4c3f12bb6ac387a1a682e6dc2459892877d55bb353b3eb",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_capital_ship_factory_structure.mesh_material": "d4ed9905e7645e2374d244485b3d107cee1115bb70b46cd81139acfb4e531e00",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_capital_ship_factory_structure_clr.dds": "e344487180570eb64c4a0931c9b88e095f53e50a696a5143c4c3df5ee50d57a4",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_capital_ship_factory_structure_orm.dds": "77dfd66c043059b5b0f1a166a1ce005fa62ef095495272946494849c0651f70b",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_capital_ship_factory_structure_nrm.dds": "7b7cc0bfc9bf8d21a0ee6ea4f7dde05fda8a25b9070172f0a5e29b01efb62112",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_capital_ship_factory_structure_msk.dds": "8946b9856d6d0041fea01e6c3dc40bd659154ab3fb2b4efa89af6374948561ce",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse23_murphy_hull_machinery.mesh_material": "8c928ad965dba17b2cf5663ceae2b9a25e1b35e26db8240c6aa9f219cc577158",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse23_murphy_machinery_clr.dds": "f44e62d07dfa46f38ab0246d8691c5aaa46fb7a82e0a30981ee73f7725b16408",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse23_murphy_orm.dds": "3e2e20e59e6fc4bab49706244ec914263f6ace0913a14e2661c3df026bb6bbb5",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse23_murphy_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/mesh_materials/trader_research_lab_structure.mesh_material": "9063520b4345f31a3cbb99d2fd5d6aeb8b9487db93737f8d3087910f58c1caac",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_research_lab_structure_clr.dds": "e7ad6b9238d9767f6e958cbf5302e8c5ae48cb0c61a31a69a67c35274028f795",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_research_lab_structure_orm.dds": "4bcfedd5924984d4be71135fcebde20f1cfa5efcab822144edd07dfcde5c0e92",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_research_lab_structure_nrm.dds": "f8ad16eb72f965a7ffee127aa207c82d95ec2089b1519fae806d73fb97ff8f1e",
+      "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/trader_research_lab_structure_msk.dds": "690ee3fd32bdb0b8df9ff2f5a27d2ad2eb356e755f8a95f038e0fd7e744a7f86",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse22_foehammer_rail.mesh": "0b50f109a0e87d4e14f3d99f565c66f5b1fda88830311bd04f7c001dcc62e988",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse22_foehammer_pdc_base.mesh": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse22_foehammer_pdc_barrel.mesh": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7"
+    },
+    "clearance": {
+      "support_x_min": -70.9,
+      "support_x_max": 70.9,
+      "support_y_max": -18.4,
+      "pdcs_outward_plane_x": 71,
+      "rail_muzzle_height": 0,
+      "rail_fire_path_vertical_clearance": 18.4
+    },
+    "runtime": "NOT RUN",
+    "checks": {
+      "triangles": 27970,
+      "materials": [
+        "expanse22_foehammer_support_port_machinery_0",
+        "expanse22_foehammer_support_recoil_frame",
+        "expanse22_foehammer_support_service_ring_0",
+        "expanse22_foehammer_support_starboard_machinery_0"
+      ],
+      "source_frame_error": 4.438149410960129e-06,
+      "opposed_winding_triangles": 0,
+      "initial_winding_flips": 13706,
+      "meshpoints_unchanged": true,
+      "only_tangent_bytes_repaired": true,
+      "official_triangle_grid_and_trailer_preserved": true
+    },
+    "files": {
+      "mesh_materials/expanse22_foehammer_support_port_machinery_0.mesh_material": "442b6aeb74e59cc3cba78a1d659fac4435ae6a115c3e54ee50cbb47550a4c7bd",
+      "mesh_materials/expanse22_foehammer_support_recoil_frame.mesh_material": "8c928ad965dba17b2cf5663ceae2b9a25e1b35e26db8240c6aa9f219cc577158",
+      "mesh_materials/expanse22_foehammer_support_service_ring_0.mesh_material": "469a1e4ab57594ab366af53d366cacf153bafaa1782857efa445edd181d02aed",
+      "mesh_materials/expanse22_foehammer_support_starboard_machinery_0.mesh_material": "442b6aeb74e59cc3cba78a1d659fac4435ae6a115c3e54ee50cbb47550a4c7bd",
+      "meshes/expanse22_foehammer_support.mesh": "2f2a8ec7bed3633b87227473aedf8ae65427ffec90719af47c7ad4a52eb92fb0",
+      "textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+      "textures/expanse23_murphy_machinery_clr.dds": "f44e62d07dfa46f38ab0246d8691c5aaa46fb7a82e0a30981ee73f7725b16408",
+      "textures/expanse23_murphy_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+      "textures/expanse23_murphy_orm.dds": "3e2e20e59e6fc4bab49706244ec914263f6ace0913a14e2661c3df026bb6bbb5",
+      "textures/trader_capital_ship_factory_structure_clr.dds": "e344487180570eb64c4a0931c9b88e095f53e50a696a5143c4c3df5ee50d57a4",
+      "textures/trader_capital_ship_factory_structure_msk.dds": "8946b9856d6d0041fea01e6c3dc40bd659154ab3fb2b4efa89af6374948561ce",
+      "textures/trader_capital_ship_factory_structure_nrm.dds": "7b7cc0bfc9bf8d21a0ee6ea4f7dde05fda8a25b9070172f0a5e29b01efb62112",
+      "textures/trader_capital_ship_factory_structure_orm.dds": "77dfd66c043059b5b0f1a166a1ce005fa62ef095495272946494849c0651f70b",
+      "textures/trader_research_lab_structure_clr.dds": "e7ad6b9238d9767f6e958cbf5302e8c5ae48cb0c61a31a69a67c35274028f795",
+      "textures/trader_research_lab_structure_msk.dds": "690ee3fd32bdb0b8df9ff2f5a27d2ad2eb356e755f8a95f038e0fd7e744a7f86",
+      "textures/trader_research_lab_structure_nrm.dds": "f8ad16eb72f965a7ffee127aa207c82d95ec2089b1519fae806d73fb97ff8f1e",
+      "textures/trader_research_lab_structure_orm.dds": "4bcfedd5924984d4be71135fcebde20f1cfa5efcab822144edd07dfcde5c0e92"
+    }
+  }
+}

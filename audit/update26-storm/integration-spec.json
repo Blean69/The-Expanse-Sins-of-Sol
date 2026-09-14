@@ -1,0 +1,709 @@
+{
+  "status": "PASS OFFLINE COMPILED HULL / NATIVE ROTATING PDC ASSETS; RUNTIME NOT RUN",
+  "hull_mesh": "expanse24_storm_hull",
+  "colors": {
+    "pearl": [
+      0.5,
+      0.56,
+      0.63,
+      1
+    ],
+    "ice": [
+      0.25,
+      0.38,
+      0.48,
+      1
+    ],
+    "blush": [
+      0.42,
+      0.32,
+      0.4,
+      1
+    ],
+    "dark": [
+      0.055,
+      0.07,
+      0.085,
+      1
+    ]
+  },
+  "meshpoints": [
+    {
+      "name": "center",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0,
+        45,
+        0
+      ]
+    },
+    {
+      "name": "aura",
+      "translation": [
+        0,
+        -45,
+        0
+      ]
+    },
+    {
+      "name": "child.expanse24_storm_pdc_0",
+      "translation": [
+        -16.918408487786678,
+        0.0,
+        25.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse24_storm_pdc_1",
+      "translation": [
+        16.91247532543474,
+        0.0,
+        25.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse24_storm_pdc_2",
+      "translation": [
+        -25.759691923829024,
+        0.0,
+        -125.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse24_storm_pdc_3",
+      "translation": [
+        25.75376452387445,
+        0.0,
+        -125.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse24_storm_pdc_4",
+      "translation": [
+        0.0,
+        24.376902114674607,
+        -55.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse24_storm_pdc_5",
+      "translation": [
+        0.0,
+        -26.431928638404997,
+        -55.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "weapon.keel_rail.0",
+      "translation": [
+        -0.37559389136090787,
+        2.4242994741927166,
+        187.5
+      ]
+    },
+    {
+      "name": "weapon.torpedo.0",
+      "translation": [
+        -7.0,
+        0.0,
+        110.80275966861115
+      ]
+    },
+    {
+      "name": "weapon.torpedo.1",
+      "translation": [
+        7.0,
+        0.0,
+        110.7629235588281
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        0.0,
+        0.0,
+        -187.9
+      ],
+      "rotation": [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "rigs": [
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse24_storm_pdc_0",
+      "position": [
+        -16.918408487786678,
+        0.0,
+        25.0
+      ],
+      "up": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -170.0,
+        "max_angle": 170.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -17.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse24_storm_pdc_base",
+        "biaxial_barrel_mesh": "expanse24_storm_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface_clearance": 1.0
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse24_storm_pdc_1",
+      "position": [
+        16.91247532543474,
+        0.0,
+        25.0
+      ],
+      "up": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -170.0,
+        "max_angle": 170.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -17.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse24_storm_pdc_base",
+        "biaxial_barrel_mesh": "expanse24_storm_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface_clearance": 1.0
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse24_storm_pdc_2",
+      "position": [
+        -25.759691923829024,
+        0.0,
+        -125.0
+      ],
+      "up": [
+        -1.0,
+        -0.0,
+        -0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -39.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse24_storm_pdc_base",
+        "biaxial_barrel_mesh": "expanse24_storm_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface_clearance": 1.0
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse24_storm_pdc_3",
+      "position": [
+        25.75376452387445,
+        0.0,
+        -125.0
+      ],
+      "up": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -39.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse24_storm_pdc_base",
+        "biaxial_barrel_mesh": "expanse24_storm_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface_clearance": 1.0
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse24_storm_pdc_4",
+      "position": [
+        0.0,
+        24.376902114674607,
+        -55.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -17.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse24_storm_pdc_base",
+        "biaxial_barrel_mesh": "expanse24_storm_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface_clearance": 1.0
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse24_storm_pdc_5",
+      "position": [
+        0.0,
+        -26.431928638404997,
+        -55.0
+      ],
+      "up": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -17.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse24_storm_pdc_base",
+        "biaxial_barrel_mesh": "expanse24_storm_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface_clearance": 1.0
+    }
+  ],
+  "spatial": {
+    "radius": 187.55558679585002,
+    "box": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extents": [
+        38.333924051726875,
+        28.747783171369537,
+        187.5
+      ]
+    }
+  },
+  "fixed_rail": {
+    "mesh_point": "weapon.keel_rail.0",
+    "weapon_position": [
+      -0.37559389136090787,
+      2.4242994741927166,
+      187.5
+    ],
+    "forward": [
+      0,
+      0,
+      1
+    ],
+    "yaw_arc": {
+      "min_angle": -2.0,
+      "max_angle": 2.0
+    },
+    "pitch_arc": {
+      "min_angle": -2.0,
+      "max_angle": 2.0
+    },
+    "turret": false
+  },
+  "source": {
+    "remaining_triangles": 70853,
+    "original_hull_triangles": 65799,
+    "aperture_touched_faces": 2316,
+    "new_hull_triangles": 64730,
+    "drive_triangles": 6123,
+    "source_game_hull": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse24_storm_hull.mesh",
+    "source_game_hull_sha256": "770c7c7792e13682b3265603931a39b25288b97979ae774a53f9ae2dd7893854"
+  },
+  "drive": {
+    "source_game_mesh": "expanse15_truman_hull",
+    "source_component": "185 bell plus contained engine hardware",
+    "source_bounds": [
+      [
+        -115.82506561279297,
+        -83.32025146484375,
+        -428.4791564941406
+      ],
+      [
+        -37.98942565917969,
+        -5.484611511230469,
+        -381.2715148925781
+      ]
+    ],
+    "source_uvs_preserved": true,
+    "uniform_scale": 0.3468847948843338,
+    "final_opening_center": [
+      0.0,
+      0.0,
+      -187.5
+    ],
+    "opening_diameter": 27.0,
+    "exhaust_old": [
+      0.0,
+      0.0,
+      -178.62815346111452
+    ],
+    "exhaust_new": [
+      0.0,
+      0.0,
+      -187.9
+    ],
+    "adaptation": "Native human drive cone kitbashed as readable gameplay machinery, not canonical Laconian drive reconstruction."
+  },
+  "changes": [
+    "Flat face normals remove inappropriate smoothing across printable facets.",
+    "Muted coherent spatial color regions replace per-normal paint speckling.",
+    "Material roughness0.55/metallic0.28 reduce blown-out triangle reflections.",
+    "Stern aperture with preserved original outer bounds accepts an existing detailed drive cone."
+  ],
+  "source_reference": "https://expanse.fandom.com/wiki/Gathering_Storm",
+  "runtime": "NOT RUN",
+  "adaptations": [
+    "Wiki appearance paragraph describes crystalline knife form, pink/blue facets and unusual tail drive; no plot events used.",
+    "Same375gameunit silhouette bounds, same gun/mount points and required gameplay spatial values.",
+    "Six PDCs remain separate native rotating meshes.",
+    "Existing fan hull print seams remain; no claim of canonical model.",
+    "Frozen firing arcs preserved exactly and checked against the new hull/drive at1-degree samples plus3-degree aim envelope. Static checks do not prove runtime targeting."
+  ],
+  "output_game": "/run/media/haker/NVME 2/expanse-workers20/foundations/build/update26-storm/game",
+  "checks": {
+    "compiled_triangles": 70853,
+    "degenerate_only_removal": true,
+    "source_frame_error": 7.621385985046516e-06,
+    "only_tangent_bytes_repaired": true,
+    "opaque_trailer_preserved": true,
+    "opposed_winding_triangles": 0,
+    "meshpoint_positions_rotations_match": true,
+    "initial_winding_flips": 34052
+  },
+  "donor_mesh_hashes": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse10_donnager_pdc_base.mesh": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse10_donnager_pdc_barrel.mesh": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7"
+  },
+  "compiled_files": {
+    "mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse24_storm_hull_storm_blush.mesh_material": "ace74cbf7b1fcc956ea0c761a24cff0cb17e7de74f0803bbdb01f16bb6418701",
+    "mesh_materials/expanse24_storm_hull_storm_dark.mesh_material": "fbfd0f8f707b2a1b1d3d7dcbacb0e7eb2439174d9acbf651b734bbb31ebc69c6",
+    "mesh_materials/expanse24_storm_hull_storm_drive.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
+    "mesh_materials/expanse24_storm_hull_storm_ice.mesh_material": "bbcc13275f218115c3cf4e048f03df451d9e22cb816166791ffefcc754ced7b4",
+    "mesh_materials/expanse24_storm_hull_storm_pearl.mesh_material": "a5664511d8dafc19dc9feaa07f4a514b8ec7daf40876d9bf059c0f858e6f072a",
+    "meshes/expanse24_storm_hull.mesh": "0b3979fd1a17d122959ef0d48c986eca440b21f281b8d785052dd5d639eca896",
+    "meshes/expanse24_storm_pdc_barrel.mesh": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+    "meshes/expanse24_storm_pdc_base.mesh": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+    "textures/expanse15_truman_material_clr.dds": "a2adda7d4e5ccff86a464d510f88da5d7ce7ea6a63f2dd6cd441ca72be0d1256",
+    "textures/expanse15_truman_material_msk.dds": "00177b0806b5bff596b5b47b6a364d3f2731c58e8e29788b4c4c6b03fd2ef802",
+    "textures/expanse15_truman_material_nrm.dds": "cbf714a6b08415ebae1f5cec906db5a932181ebdc6aba988db623de93a516a5e",
+    "textures/expanse15_truman_material_orm.dds": "d9b90c37f267c988b404b97e75718639364efa598afe68a3e61288f5d964ae9f",
+    "textures/expanse24_storm_blush_clr.dds": "9349ec6ec37ec36cd6a506387064d8ecf634f233ebe48e2b2efb5b1eeb72d91a",
+    "textures/expanse24_storm_blush_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse24_storm_blush_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse24_storm_blush_orm.dds": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+    "textures/expanse24_storm_dark_clr.dds": "b473a8260087243815d055cac6942a7552d2fd2413a2b1d487ff3002116f56b0",
+    "textures/expanse24_storm_dark_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse24_storm_dark_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse24_storm_dark_orm.dds": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+    "textures/expanse24_storm_ice_clr.dds": "cfa7c771e72ae54d2c5b2e8fb1da3ff0a4e1632f30743c76dc2a770dd0a589bd",
+    "textures/expanse24_storm_ice_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse24_storm_ice_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse24_storm_ice_orm.dds": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+    "textures/expanse24_storm_pearl_clr.dds": "77b963f7d6d8238887c6dbf8890e61cab8c7bc8aaf8479963ff964dfdd8d3d7a",
+    "textures/expanse24_storm_pearl_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse24_storm_pearl_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse24_storm_pearl_orm.dds": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+    "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d"
+  },
+  "arc_checks": [
+    {
+      "mesh_point": "child.expanse24_storm_pdc_0",
+      "rays": 211761,
+      "blocked": 0,
+      "step_degrees": 1,
+      "aim_envelope": 3,
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -170.0,
+          "max_angle": 170.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      }
+    },
+    {
+      "mesh_point": "child.expanse24_storm_pdc_1",
+      "rays": 211761,
+      "blocked": 0,
+      "step_degrees": 1,
+      "aim_envelope": 3,
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -170.0,
+          "max_angle": 170.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      }
+    },
+    {
+      "mesh_point": "child.expanse24_storm_pdc_2",
+      "rays": 152703,
+      "blocked": 0,
+      "step_degrees": 1,
+      "aim_envelope": 3,
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -39.0
+        }
+      }
+    },
+    {
+      "mesh_point": "child.expanse24_storm_pdc_3",
+      "rays": 152703,
+      "blocked": 0,
+      "step_degrees": 1,
+      "aim_envelope": 3,
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -39.0
+        }
+      }
+    },
+    {
+      "mesh_point": "child.expanse24_storm_pdc_4",
+      "rays": 224181,
+      "blocked": 0,
+      "step_degrees": 1,
+      "aim_envelope": 3,
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      }
+    },
+    {
+      "mesh_point": "child.expanse24_storm_pdc_5",
+      "rays": 224181,
+      "blocked": 0,
+      "step_degrees": 1,
+      "aim_envelope": 3,
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -17.0
+        }
+      }
+    }
+  ],
+  "assembled_triangles": 74915,
+  "material_finish": {
+    "roughness": 0.55,
+    "metallic": 0.28,
+    "scope": "four crystalline hull regions; native drive textures unchanged",
+    "rationale": "Restrained reflectivity retains crystal-like contrast; hard face normals address triangular highlights.",
+    "preview_limit": "Software preview is diffuse only; game specular lighting not tested."
+  }
+}

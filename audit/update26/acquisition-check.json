@@ -1,0 +1,232 @@
+{
+  "status": "PASS OFFLINE actual acquisition fields",
+  "rows": [
+    {
+      "owner": "expanse18_mcrn",
+      "faction": "mcrn",
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "checked": [
+        {
+          "unit": "expanse24_gathering_storm",
+          "route": "ship",
+          "build_kind": "cruiser"
+        },
+        {
+          "unit": "expanse22_mcrn_support_station",
+          "route": "structure",
+          "build_kind": "structure"
+        },
+        {
+          "unit": "expanse22_pdc_picket",
+          "route": "structure",
+          "build_kind": "structure"
+        }
+      ]
+    },
+    {
+      "owner": "expanse18_unn",
+      "faction": "unn",
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "checked": [
+        {
+          "unit": "expanse21_contract_patrol",
+          "route": "ship",
+          "build_kind": "frigate"
+        },
+        {
+          "unit": "expanse23_murphy",
+          "route": "ship",
+          "build_kind": "frigate"
+        },
+        {
+          "unit": "expanse25_un_one",
+          "route": "ship",
+          "build_kind": "frigate"
+        },
+        {
+          "unit": "expanse22_unn_support_station",
+          "route": "structure",
+          "build_kind": "structure"
+        },
+        {
+          "unit": "expanse22_pdc_picket",
+          "route": "structure",
+          "build_kind": "structure"
+        },
+        {
+          "unit": "expanse22_foehammer_battery",
+          "route": "structure",
+          "build_kind": "structure"
+        }
+      ]
+    },
+    {
+      "owner": "expanse18_opa",
+      "faction": "opa",
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "checked": [
+        {
+          "unit": "expanse21_contract_patrol",
+          "route": "ship",
+          "build_kind": "frigate"
+        },
+        {
+          "unit": "expanse21_opa_command",
+          "route": "ship",
+          "build_kind": "capital_ship"
+        },
+        {
+          "unit": "expanse24_behemoth",
+          "route": "ship",
+          "build_kind": "titan"
+        },
+        {
+          "unit": "expanse22_opa_support_station",
+          "route": "structure",
+          "build_kind": "structure"
+        },
+        {
+          "unit": "expanse22_pdc_picket",
+          "route": "structure",
+          "build_kind": "structure"
+        }
+      ]
+    },
+    {
+      "owner": "trader_loyalist",
+      "faction": "mcrn",
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "checked": [
+        {
+          "unit": "expanse24_gathering_storm",
+          "route": "ship",
+          "build_kind": "cruiser"
+        },
+        {
+          "unit": "expanse22_mcrn_support_station",
+          "route": "structure",
+          "build_kind": "structure"
+        },
+        {
+          "unit": "expanse22_pdc_picket",
+          "route": "structure",
+          "build_kind": "structure"
+        }
+      ]
+    },
+    {
+      "owner": "trader_rebel",
+      "faction": "opa",
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "checked": [
+        {
+          "unit": "expanse21_contract_patrol",
+          "route": "ship",
+          "build_kind": "frigate"
+        },
+        {
+          "unit": "expanse21_opa_command",
+          "route": "ship",
+          "build_kind": "capital_ship"
+        },
+        {
+          "unit": "expanse24_behemoth",
+          "route": "ship",
+          "build_kind": "titan"
+        },
+        {
+          "unit": "expanse22_opa_support_station",
+          "route": "structure",
+          "build_kind": "structure"
+        },
+        {
+          "unit": "expanse22_pdc_picket",
+          "route": "structure",
+          "build_kind": "structure"
+        }
+      ]
+    },
+    {
+      "owner": "dlc_trader_loyalist",
+      "faction": "unn",
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "checked": [
+        {
+          "unit": "expanse21_contract_patrol",
+          "route": "ship",
+          "build_kind": "frigate"
+        },
+        {
+          "unit": "expanse23_murphy",
+          "route": "ship",
+          "build_kind": "frigate"
+        },
+        {
+          "unit": "expanse25_un_one",
+          "route": "ship",
+          "build_kind": "frigate"
+        },
+        {
+          "unit": "expanse22_unn_support_station",
+          "route": "structure",
+          "build_kind": "structure"
+        },
+        {
+          "unit": "expanse22_pdc_picket",
+          "route": "structure",
+          "build_kind": "structure"
+        },
+        {
+          "unit": "expanse22_foehammer_battery",
+          "route": "structure",
+          "build_kind": "structure"
+        }
+      ]
+    }
+  ],
+  "cosmetic_bombing_weapon_unchanged": true,
+  "all_prior_magazines_unchanged": true,
+  "runtime": "NOT RUN"
+}

@@ -8,16 +8,16 @@ from update11_validate import schema_check
 SDK=GAME.parent/'Sins of a Solar Empire II - Mod Tools'
 
 def registries(out):
-    for kind in ['unit','unit_skin','weapon','ability','buff','action_data_source','unit_item','research_subject','player']:
+    for kind in ['unit','unit_skin','weapon','ability','buff','action_data_source','unit_item','research_subject','player','npc_reward','exotic']:
         # Native overrides must not be re-registered in additive entity manifests.
         ids=sorted(p.stem for p in (out/'entities').glob('*.'+kind) if not (GAME/'entities'/p.name).exists())
         write(out/'entities'/f'{kind}.entity_manifest',{'ids':ids})
 
-def package(base,out,edits,origins,readme,audit,art=None,package_existing=False):
+def package(base,out,edits,origins,readme,audit,art=None,package_existing=False,art_replacements=None):
     import jsonschema
     from amun06_validate_package import AmunResolver,check_action_values
     from build_combat03 import check_actions
-    art=art or {};pins=verify_pins(ROOT,GAME,SDK)
+    art=art or {};art_replacements=art_replacements or {};pins=verify_pins(ROOT,GAME,SDK)
     class DoctrineResolver(AmunResolver):
         def weapon(self,name,skins,source):
             data=read(self.resolve('entities/'+name+'.weapon',source))
@@ -36,7 +36,10 @@ def package(base,out,edits,origins,readme,audit,art=None,package_existing=False)
         require(not out.exists() and not out.with_suffix('.zip').exists(),'Existing candidate '+str(out))
         shutil.copytree(base,out,symlinks=True)
         for rel,src in art.items():
-            require(not (out/rel).exists(),'Art collision '+rel);(out/rel).parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,out/rel)
+            if (out/rel).exists():
+                require(rel in art_replacements and sha256(base/rel)==art_replacements[rel],'Unapproved art replacement '+rel)
+            else:require(rel not in art_replacements,'Replacement missing predecessor '+rel)
+            (out/rel).parent.mkdir(parents=True,exist_ok=True);shutil.copy2(src,out/rel)
         for rel,d in edits.items():write(out/rel,d)
         registries(out);shutil.copy2(readme,out/'PLAYTEST-README.md')
     before,after=file_hashes(base),file_hashes(out)
@@ -54,7 +57,12 @@ def package(base,out,edits,origins,readme,audit,art=None,package_existing=False)
             if sp.exists():
                 schema=read(sp)
                 for k,v in d.items():
-                    if k in schema['properties']:jsonschema.validate(v,schema['properties'][k])
+                    if k in schema['properties']:
+                        # Keep the document resolver: nested uniform arrays use
+                        # local $defs, lost when validating an isolated property.
+                        validator=jsonschema.Draft202012Validator(schema)
+                        errors=list(validator.descend(v,schema['properties'][k]))
+                        if errors:raise errors[0]
                     else:
                         require(source.is_file() and read(source).get(k)==v,'Changed unknown uniform field '+rel+':'+k)
                         checks.append({'file':rel,'unchanged_installed_extension':k,'source':str(source),'source_sha256':sha256(source)})

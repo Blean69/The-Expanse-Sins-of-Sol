@@ -73,7 +73,7 @@ def check_action_values(mod,game,resolver,unit):
         require(v in values,'Unknown typed action value '+v+' in '+str(source))
        elif k in {'target_filter','target_filter_id'}:require(v in filters or v in resolver.filters,'Unknown exact action target filter '+v)
        elif k=='buff_unit_modifier_id':require(v in modifiers,'Unknown ADS modifier '+v)
-      elif k=='target_filters'and isinstance(v,list)and all(isinstance(x,str)for x in v):require(set(v)<=filters,'Unknown target_filters list member')
+      elif k=='target_filters'and isinstance(v,list)and all(isinstance(x,str)for x in v):require(set(v)<=(filters|set(resolver.filters)),'Unknown target_filters list member')
       else:walk(v,source)
    walk(ability,abilitypath);walk(ads,ads_path)
    for binding in ads.get('effect_alias_bindings',[]):

@@ -32,7 +32,7 @@ def preservation():
 def schema_check(path, original_override=None):
     types = {'.unit': 'unit', '.unit_skin': 'unit-skin', '.weapon': 'weapon',
              '.ability': 'ability', '.buff': 'buff', '.action_data_source': 'action-data-source',
-             '.player': 'player', '.unit_item': 'unit-item', '.research_subject': 'research-subject', '.brush': 'brush'}
+             '.player': 'player', '.unit_item': 'unit-item', '.research_subject': 'research-subject', '.brush': 'brush', '.npc_reward': 'npc-reward', '.exotic': 'exotic'}
     if path.suffix not in types:
         return None
     schema = read(SDK / 'json_schemas' / (types[path.suffix] + '-schema.json'))

@@ -1,0 +1,136 @@
+{
+  "status": "PASS OFFLINE; IN-GAME VISUAL/TARGETING NOT RUN",
+  "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25",
+  "game_directory": "/run/media/haker/NVME 2/expanse-workers20/foundations/build/update26-storm/game",
+  "files": [
+    {
+      "path": "mesh_materials/expanse24_storm_hull_storm_drive.mesh_material",
+      "action": "add",
+      "sha256": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
+      "previous_sha256": null,
+      "bytes": 281
+    },
+    {
+      "path": "meshes/expanse24_storm_hull.mesh",
+      "action": "replace",
+      "sha256": "0b3979fd1a17d122959ef0d48c986eca440b21f281b8d785052dd5d639eca896",
+      "previous_sha256": "770c7c7792e13682b3265603931a39b25288b97979ae774a53f9ae2dd7893854",
+      "bytes": 12535738
+    },
+    {
+      "path": "textures/expanse24_storm_blush_clr.dds",
+      "action": "replace",
+      "sha256": "9349ec6ec37ec36cd6a506387064d8ecf634f233ebe48e2b2efb5b1eeb72d91a",
+      "previous_sha256": "e3c09973c126c094ce7331ba390be3cc1dabbfd8e947afaee2428ca57c548bae",
+      "bytes": 516
+    },
+    {
+      "path": "textures/expanse24_storm_blush_orm.dds",
+      "action": "replace",
+      "sha256": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+      "previous_sha256": "0b429ceb7e77c88768fa7d61a5bf7c461e6d6b98e7646f8dc99a2735ee761f49",
+      "bytes": 516
+    },
+    {
+      "path": "textures/expanse24_storm_dark_clr.dds",
+      "action": "replace",
+      "sha256": "b473a8260087243815d055cac6942a7552d2fd2413a2b1d487ff3002116f56b0",
+      "previous_sha256": "c0f55880a7d98d2771b33a81dd178029564a1c210e6b44d4e934f0158b66b8da",
+      "bytes": 516
+    },
+    {
+      "path": "textures/expanse24_storm_dark_orm.dds",
+      "action": "replace",
+      "sha256": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+      "previous_sha256": "0b429ceb7e77c88768fa7d61a5bf7c461e6d6b98e7646f8dc99a2735ee761f49",
+      "bytes": 516
+    },
+    {
+      "path": "textures/expanse24_storm_ice_clr.dds",
+      "action": "replace",
+      "sha256": "cfa7c771e72ae54d2c5b2e8fb1da3ff0a4e1632f30743c76dc2a770dd0a589bd",
+      "previous_sha256": "a395c4ea5447db8687351548a5f0b6c4480d3e2197fa57684d25552377164d21",
+      "bytes": 516
+    },
+    {
+      "path": "textures/expanse24_storm_ice_orm.dds",
+      "action": "replace",
+      "sha256": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+      "previous_sha256": "0b429ceb7e77c88768fa7d61a5bf7c461e6d6b98e7646f8dc99a2735ee761f49",
+      "bytes": 516
+    },
+    {
+      "path": "textures/expanse24_storm_pearl_clr.dds",
+      "action": "replace",
+      "sha256": "77b963f7d6d8238887c6dbf8890e61cab8c7bc8aaf8479963ff964dfdd8d3d7a",
+      "previous_sha256": "f3e93eca7ee6867baf8b9948ffa4786448fa74bad894c8f6dd7727097573b1b4",
+      "bytes": 516
+    },
+    {
+      "path": "textures/expanse24_storm_pearl_orm.dds",
+      "action": "replace",
+      "sha256": "6717753f0e2acd92e4030f320f0603ece400a6d7b4cf3a1c5c748b9f75fa6544",
+      "previous_sha256": "0b429ceb7e77c88768fa7d61a5bf7c461e6d6b98e7646f8dc99a2735ee761f49",
+      "bytes": 516
+    }
+  ],
+  "unchanged_dependencies": [
+    "mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+    "mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+    "mesh_materials/expanse24_storm_hull_storm_blush.mesh_material",
+    "mesh_materials/expanse24_storm_hull_storm_dark.mesh_material",
+    "mesh_materials/expanse24_storm_hull_storm_ice.mesh_material",
+    "mesh_materials/expanse24_storm_hull_storm_pearl.mesh_material",
+    "meshes/expanse24_storm_pdc_barrel.mesh",
+    "meshes/expanse24_storm_pdc_base.mesh",
+    "textures/expanse15_truman_material_clr.dds",
+    "textures/expanse15_truman_material_msk.dds",
+    "textures/expanse15_truman_material_nrm.dds",
+    "textures/expanse15_truman_material_orm.dds",
+    "textures/expanse24_storm_blush_msk.dds",
+    "textures/expanse24_storm_blush_nrm.dds",
+    "textures/expanse24_storm_dark_msk.dds",
+    "textures/expanse24_storm_dark_nrm.dds",
+    "textures/expanse24_storm_ice_msk.dds",
+    "textures/expanse24_storm_ice_nrm.dds",
+    "textures/expanse24_storm_pearl_msk.dds",
+    "textures/expanse24_storm_pearl_nrm.dds",
+    "textures/mcrn_tachi_material_clr.dds",
+    "textures/mcrn_tachi_material_msk.dds",
+    "textures/mcrn_tachi_material_nrm.dds",
+    "textures/mcrn_tachi_material_orm.dds"
+  ],
+  "gameplay_changes": [],
+  "integration": {
+    "unit_skin_edits_required": false,
+    "mesh_alias_changes_required": false,
+    "exhaust_meshpoint": "exhaust.0",
+    "old_position": [
+      0.0,
+      0.0,
+      -178.62815856933594
+    ],
+    "new_position": [
+      0.0,
+      0.0,
+      -187.89999389648438
+    ],
+    "rotation_unchanged": true,
+    "note": "Existing idle plume already uses mesh exhaust points; replacing hull relocates it automatically. Preserve native hyperspace and all unit/weapon/ability data. No absolute exhaust positions outside mesh are supplied."
+  },
+  "checks": {
+    "hull_hard_normal_min_alignment": 0.9999663252123938,
+    "non_exhaust_points_identical": true,
+    "outer_box_identical": true,
+    "unit_spatial_unchanged": true,
+    "six_frozen_arcs_unchanged": true,
+    "sampled_rays": 1177290,
+    "blocked_rays": 0,
+    "compiled_hull_plus_drive_triangles": 70853,
+    "assembled_with_six_pdcs": 74915
+  },
+  "frozen_gameplay_hashes": {
+    "entities/expanse24_gathering_storm.unit": "c76d43b9fc2483a242e8f8446493cf9695489d04afe7159a04ab0dff3fca6a43",
+    "entities/expanse24_gathering_storm.unit_skin": "7746942047f74a23d30708ce568877e9cd6106af5223ed9e00a8b5955e22772a"
+  }
+}

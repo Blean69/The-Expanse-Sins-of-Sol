@@ -1,0 +1,21 @@
+{
+  "source_revision": "560a95d94f20da9b911179573fa643cc1069c923",
+  "baseline": "0.25.0 New Hulls",
+  "preserved_packages": {
+    "expanse_update25": {
+      "zip_sha256": "ee3cd317056d6688c51c828c8f19c68a25ba2c3292ac39a2f661f4e82c4b2876",
+      "tree_sha256": "a51bcb2f1a311aa2a2671ede65448313adc5d5cb62035a8619dee7d4b9a4712a"
+    },
+    "expanse_update25_sandbox": {
+      "zip_sha256": "22009abf1a31de9b37278abf3dbf165ce2df18aefd72ae956b3f6679213d6ef7",
+      "tree_sha256": "f0e78db1076ba2091a13be881554cb45065b19778ff0dc26ecfdd5cac7efeea1"
+    }
+  },
+  "user_observations": [
+    "Research sparse layout and missing icon/internal label",
+    "OPA command colony ability not apparent",
+    "New hull surface/art polish needed"
+  ],
+  "runtime_tests_by_agent": "NOT RUN",
+  "scope": "Military research/roster presentation, existing-art polish, OPA command size/health/colony, bounded native contacts; civilian research mechanics preserved"
+}

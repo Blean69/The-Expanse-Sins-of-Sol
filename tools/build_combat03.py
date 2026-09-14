@@ -54,6 +54,9 @@ def check_actions(mod, resolver, unit_id):
             common=read(resolver.resolve('uniforms/action.uniforms',p))
             values={v['action_value_id'] for v in ads.get('action_values',[])}|{v for ptr,v in strings(common) if ptr[-1]=='action_value_id'}|{'fixed_zero','fixed_one'}
             filters={v['target_filter_id'] for v in ads.get('target_filters',[])}
+            uniform_filters=set(getattr(resolver,'filters',{}))
+            if not uniform_filters:
+                uniform_filters={r['target_filter_id'] for r in read(resolver.game/'uniforms/target_filter.uniforms')['common_target_filters']}
             modifiers={v['buff_unit_modifier_id'] for v in ads.get('buff_unit_modifiers',[])}
             seen=set()
             def walk(d,source):
@@ -77,12 +80,12 @@ def check_actions(mod, resolver, unit_id):
                                 resolver.resolve(rel if rel.lower() in resolver.index else f'textures/{v}.png',source)
                             elif k in {'name','description'}:require(v in loc,f'Missing localized {v}')
                             elif k=='buff_unit_modifier_id':require(v in modifiers,'Unknown buff modifier '+v)
-                            elif k in {'target_filter','target_filter_id'} or k=='target_filters' and isinstance(v,str):require(v in filters or v.startswith('uniforms_'),'Unknown target filter '+v)
+                            elif k in {'target_filter','target_filter_id'} or k=='target_filters' and isinstance(v,str):require(v in filters or v in uniform_filters,'Unknown target filter '+v)
                             elif k.endswith('_value') or k in {'value_id','cooldown_time','antimatter_cost','range','active_duration'}:
                                 require(v in values,f'Unknown action value {v} in {source}')
                         else:
                             if k=='target_filters':
-                                require(all(x in filters for x in v) if all(isinstance(x,str) for x in v) else True,'Unknown target filter in list')
+                                require(all(x in filters or x in uniform_filters for x in v) if all(isinstance(x,str) for x in v) else True,'Unknown target filter in list')
                             walk(v,source)
             walk(ability,p);walk(ads,p);counts['abilities']+=1
     return counts

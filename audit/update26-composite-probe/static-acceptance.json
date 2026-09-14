@@ -1,0 +1,16 @@
+{
+  "status": "PASS OFFLINE",
+  "distinct_native_exotic_registered": true,
+  "five_native_types_unchanged": true,
+  "one_unit_grant_and_debit": true,
+  "debit_item_is_inert": true,
+  "uniform_reference_positive_negative_test": "PASS",
+  "uniforms_checked": [
+    "expanse_update26/scenario",
+    "expanse_update26_sandbox/scenario",
+    "expanse_update26_composite_probe/scenario",
+    "expanse_update26_composite_probe/exotic"
+  ],
+  "engine_balance_ui_save_spend_reject": "NOT RUN",
+  "study_and_plating": "NOT IMPLEMENTED"
+}
