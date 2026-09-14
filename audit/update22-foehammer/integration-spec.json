@@ -1,0 +1,394 @@
+{
+  "status": "OFFLINE COMPILED ASSET CHECKS PASS; RUNTIME NOT RUN",
+  "source_editable": "/run/media/haker/NVME 2/expanse-workers20/assets/assets/derived/update20-foehammer/foehammer_orbital_editable.gltf",
+  "source_editable_sha256": "3ba1301191d04fdfc81abcde2448c4d717c569a14ec3d58e4f9647cf43de954a",
+  "output_game": "/run/media/haker/NVME 2/expanse-workers20/assets/build/update22-foehammer/game",
+  "base_mesh": "expanse22_foehammer_support",
+  "aliases": [
+    "expanse22_foehammer_support",
+    "expanse22_foehammer_rail",
+    "expanse22_foehammer_pdc_base",
+    "expanse22_foehammer_pdc_barrel"
+  ],
+  "rigs": [
+    {
+      "kind": "rail",
+      "mesh_point": "child.expanse22_foehammer_rail_0",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -2.0,
+        "max_angle": 2.0
+      },
+      "pitch_arc": {
+        "min_angle": 0.0,
+        "max_angle": 0.0
+      },
+      "turret_override": {
+        "type": "gimbal",
+        "gimbal_mesh": "expanse22_foehammer_rail",
+        "muzzle_positions": [
+          [
+            -0.5371823312843844,
+            -1.4835910375669655e-05,
+            148.10427678298808
+          ]
+        ]
+      }
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse22_foehammer_pdc_0",
+      "position": [
+        -71,
+        -31,
+        -26
+      ],
+      "up": [
+        -1,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": 0.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse22_foehammer_pdc_base",
+        "biaxial_barrel_mesh": "expanse22_foehammer_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse22_foehammer_pdc_1",
+      "position": [
+        71,
+        -31,
+        -26
+      ],
+      "up": [
+        1,
+        0,
+        0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": 0.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse22_foehammer_pdc_base",
+        "biaxial_barrel_mesh": "expanse22_foehammer_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    }
+  ],
+  "counts": {
+    "support": 168,
+    "rail": 8519,
+    "pdc_base": 138,
+    "pdc_barrel": 539,
+    "assembled": 10041
+  },
+  "spatial": {
+    "box": {
+      "center": [
+        0.0,
+        -15.774040222167969,
+        41.099090576171875
+      ],
+      "extents": [
+        74.39982388396507,
+        34.22595977783203,
+        107.09909057617188
+      ]
+    },
+    "radius": 119.93179211460206
+  },
+  "meshpoints": [
+    {
+      "name": "center",
+      "position": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "above",
+      "position": [
+        0.0,
+        35.0,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "aura",
+      "position": [
+        0.0,
+        -55.0,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse22_foehammer_rail_0",
+      "position": [
+        0.0,
+        0.0,
+        -0.0
+      ],
+      "rotation": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -0.0,
+        -0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse22_foehammer_pdc_0",
+      "position": [
+        -71.0,
+        -31.0,
+        -26.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        0.9999999403953552,
+        0.0,
+        -0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    },
+    {
+      "name": "child.expanse22_foehammer_pdc_1",
+      "position": [
+        71.0,
+        -31.0,
+        -26.0
+      ],
+      "rotation": [
+        5.960464477539063e-08,
+        -0.9999999403953552,
+        0.0,
+        0.9999999403953552,
+        5.960464477539063e-08,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "bone_index": 0
+    }
+  ],
+  "checks": {
+    "meshpoint_position_and_rotation_match": true,
+    "source_frame_error": 0.0,
+    "opposed_winding_triangles": 0,
+    "only_tangent_fields_repaired": true,
+    "opaque_trailer_unchanged": true,
+    "initial_winding_flips": 168,
+    "donor_game_bytes_unchanged": true
+  },
+  "source_game_hashes": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/meshes/expanse11_donnager_rail_0.mesh": "0b50f109a0e87d4e14f3d99f565c66f5b1fda88830311bd04f7c001dcc62e988",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/meshes/expanse10_donnager_pdc_base.mesh": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/meshes/expanse10_donnager_pdc_barrel.mesh": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/mesh_materials/expanse11_donnager_rail_0_expanse11_donnager_mat_1.mesh_material": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/mesh_materials/expanse11_donnager_rail_0_expanse11_donnager_mat_0.mesh_material": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/expanse10_donnager_mat_1_orm.dds": "080230e03ab0d15777c3a7842b0a5a736075a2c593798b069b3e2769a16cc10a",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/expanse10_donnager_atlas_0_clr.dds": "bb0c96cde92ae9b8d035dcf669a322e16c2335bae65baa33174b7fac36f337fa",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/expanse10_donnager_dark_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/expanse10_donnager_mat_0_orm.dds": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e"
+  },
+  "files": {
+    "mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse11_donnager_rail_0_expanse11_donnager_mat_0.mesh_material": "0115cb76dbd0f22bbf68ca006d36f8ecc770961903238104a1b76a96a04764be",
+    "mesh_materials/expanse11_donnager_rail_0_expanse11_donnager_mat_1.mesh_material": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3",
+    "mesh_materials/expanse22_foehammer_support_support_mat.mesh_material": "6161bc3a388723e89e579cb3d6d887b34653d9856c419ef3c57d8444e88099e3",
+    "meshes/expanse22_foehammer_pdc_barrel.mesh": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+    "meshes/expanse22_foehammer_pdc_base.mesh": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+    "meshes/expanse22_foehammer_rail.mesh": "0b50f109a0e87d4e14f3d99f565c66f5b1fda88830311bd04f7c001dcc62e988",
+    "meshes/expanse22_foehammer_support.mesh": "d3df740c80a2f021136c3c9915bcca23835460d6651fe1e5c34947781618ca18",
+    "textures/expanse10_donnager_atlas_0_clr.dds": "bb0c96cde92ae9b8d035dcf669a322e16c2335bae65baa33174b7fac36f337fa",
+    "textures/expanse10_donnager_dark_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse10_donnager_mat_0_orm.dds": "798db48a9dfddaa687312076f629e411a32051230942ba7b52471ddf3b431e0e",
+    "textures/expanse10_donnager_mat_1_orm.dds": "080230e03ab0d15777c3a7842b0a5a736075a2c593798b069b3e2769a16cc10a",
+    "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d"
+  },
+  "reference_weapon": {
+    "version": 0,
+    "name": "expanse10_donnager.rail.name",
+    "pitch_speed": 0.0,
+    "yaw_speed": 15.0,
+    "range": 12000.0,
+    "cooldown_duration": 30.0,
+    "uniforms_target_filter_id": "common_weapon",
+    "attack_target_type_groups": [
+      "flak",
+      "light",
+      "antiarmor_lrm",
+      "carrier_support",
+      "capital_supercapital_heavy",
+      "defense",
+      "corvette",
+      "defense_starbase_titan",
+      "defense_civilian"
+    ],
+    "weapon_type": "normal",
+    "damage_affect_type": "hull_and_armor_and_shields",
+    "damage": 5000.0,
+    "penetration": 1500.0,
+    "tags": [
+      "rail_gun",
+      "physical"
+    ],
+    "acquire_target_logic": "order_target_only",
+    "target_acquired_duration_required_to_fire": 1.5,
+    "firing": {
+      "firing_type": "projectile",
+      "travel_speed": 4500.0
+    },
+    "effects": {
+      "muzzle_effect": "trader_rebel_titan_rail_gun_weapon_muzzle",
+      "projectile_travel_effect": "trader_rebel_titan_rail_gun_weapon_projectile_travel",
+      "hit_hull_effect": "trader_rebel_titan_rail_gun_weapon_hit_hull",
+      "hit_shield_effect": "trader_rebel_titan_rail_gun_weapon_hit_shield",
+      "hit_shield_impact_radius_t": 1.0
+    },
+    "turret": {
+      "type": "gimbal",
+      "gimbal_mesh": "expanse11_donnager_rail_0",
+      "muzzle_positions": [
+        [
+          -0.5371823312843844,
+          -1.4835910375669655e-05,
+          148.10427678298808
+        ]
+      ]
+    },
+    "yaw_firing_tolerance": 0.5,
+    "pitch_firing_tolerance": 1.0
+  },
+  "limitations": [
+    "Rail preserves zero pitch speed and donor narrow yaw arc; stationary elevation blindspots remain.",
+    "No shared gameplay, unit, build limit or infrastructure definition supplied.",
+    "PDC negative pitch follows existing native outward rig convention; runtime aiming not tested.",
+    "Firing/destruction effects and multiplayer are not tested."
+  ],
+  "wine_prefix_used_in_place": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/proton-prefix",
+  "wine_prefix_copied": false
+}
