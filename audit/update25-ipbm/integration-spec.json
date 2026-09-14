@@ -1,0 +1,128 @@
+{
+  "status": "OFFLINE COMPILED LOCAL BOMBARDMENT VISUAL PASS; RUNTIME UNTESTED",
+  "output_game": "/run/media/haker/NVME 2/expanse-workers20/assets/build/update25-ipbm/game",
+  "base_mesh": "expanse25_un_ipbm",
+  "source": {
+    "archive": "/home/haker/Downloads/UN IPBM from The Expanse - 2639049.zip",
+    "zip_sha256": "97ca7f3e5228450854b95b8222f393e8f1cd00950b92c23142a6ed96a6cb979f",
+    "member": "files/unnipbmv2.stl",
+    "stl_sha256": "d14c961dcb478de68a71d00e5243cba083ce9cd005ae8d8b2772c88e3223744e",
+    "author": "trehn",
+    "url": "https://www.thingiverse.com/thing:2639049",
+    "license": "This thing was created by Thingiverse user trehn, and is licensed under Creative Commons - Attribution - Non-Commercial - Share Alike",
+    "description": "UN IPBM from The Expanse by trehn on Thingiverse: https://www.thingiverse.com/thing:2639049\n\nSummary:\nUnited Nations Interplanetary Ballistic Missile as seen at the beginning of Episode 3 in Season 2 of The Expanse on SYFY.",
+    "original_triangles": 39960,
+    "exact_zero_area_removed": 1584,
+    "numerical_slivers_removed": 64,
+    "clean_source_triangles": 38312,
+    "bounds": [
+      [
+        -0.6997149586677551,
+        -0.7190844416618347,
+        -4.637588024139404
+      ],
+      [
+        0.6454876661300659,
+        0.7190845608711243,
+        4.4537553787231445
+      ]
+    ]
+  },
+  "optimization": {
+    "target": 6000,
+    "relative_error": 0.00022719991102349013,
+    "relative_error_limit": 0.0007,
+    "post_simplification_degenerates_removed": 0,
+    "library": "/run/media/haker/NVME 2/expanse-mod/.tools/libmeshoptimizer.so",
+    "library_sha256": "1877da479e08797a1b688e5eacabac1900b89d2f4efd89a5ae5c8d5626356ef4"
+  },
+  "scale": {
+    "policy": "Match accepted Expanse torpedo visual length; never use print units directly. Not a canonical metric-size claim.",
+    "reference": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/meshes/expanse05_amun_torpedo.mesh",
+    "reference_sha256": "cf93418cfd01da9fd76971c2855912124f244c3e35d5ede20ffe441ead5de024",
+    "reference_length": 16.51075553894043,
+    "game_length": 16.51075553894043,
+    "source_to_game": 1.8160963465247353
+  },
+  "counts": {
+    "hull": 6000,
+    "source": 39960
+  },
+  "spatial": {
+    "box": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extents": [
+        1.2215087413787842,
+        1.3059266805648804,
+        8.255377769470215
+      ]
+    },
+    "radius": 8.276402840110597
+  },
+  "meshpoints": [
+    {
+      "name": "center",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        0.04924099392981271,
+        -1.0824777761249156e-07,
+        -8.255377769470215
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "scope": "LOCAL NATIVE PLANET_BOMBING COSMETIC ONLY. No actual unit, damage, health, global firing or interception.",
+  "checks": {
+    "no_stands_present": true,
+    "original_shape_and_ribs_retained_with_bounded_simplification": true,
+    "meshpoint_transforms_exact": true,
+    "source_frame_error": 1.4745393833191368e-07,
+    "opposed_winding_triangles": 0,
+    "initial_winding_flips": 5873,
+    "only_tangent_bytes_repaired": true,
+    "official_triangle_grid_and_trailer_preserved": true
+  },
+  "runtime": "NOT RUN",
+  "effect_fragment": {
+    "native_unit_skin_path": "skin_stages[].effects.effect_alias_bindings[]",
+    "entry": {
+      "alias_name": "trader_siege_frigate_planet_bombing_weapon_projectile_travel",
+      "alias_binding": {
+        "particle_effect": "expanse25_ipbm_local_bombardment_travel"
+      }
+    },
+    "integration_note": "Use the actual local bombardment weapon travel alias on each selected ship skin. Do not replace the whole alias list. Preserve weapon_type planet_bombing, firing, damage, filters, range and cooldown. This changes only an already native mesh-particle travel effect."
+  },
+  "source_game_hashes": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update19/textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/effects/Weapon_TechFrigatePlanetBombing_Travel.particle_effect": "a823dbbc6a480f538969c9c409d6d475d39b3cf4907528a180b70cf9c07b798f",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_siege_frigate.unit_skin": "10fa907c147fa6994179459343e997fd966eb3c4bbd08cb9a534b49c7fda8e8a",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_siege_frigate_planet_bombing.weapon": "383f9bd94c988b1b52437e31572491dff5b1d62f3504fcf6f7c74c6c48377822"
+  },
+  "files": {
+    "effects/expanse25_ipbm_local_bombardment_travel.particle_effect": "8dcd74a5fac08cde01600842b67663b3024bf91cc14ac33adf548ad7b627d3e9",
+    "mesh_materials/expanse25_un_ipbm_shell.mesh_material": "f3e86661e0a94dbbb9018b3f2e316686c3d589c375a2ddbfe4f7f0a93be1c419",
+    "meshes/expanse25_un_ipbm.mesh": "bcb48891389db487a40a35425591c68e0c58fed138ddc36bac958bc572b8bf3e",
+    "textures/expanse10_donnager_flat_nrm.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+    "textures/expanse25_ipbm_clr.dds": "e5bdbac619b43744107d1db55e6cfc542da10af0c344381ce098ffe48bdeff16",
+    "textures/expanse25_ipbm_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse25_ipbm_orm.dds": "5573b7aac2c96e57ead516a240137f697550d5632e0e372d113073eadfba420e"
+  },
+  "wine_prefix_copied": false
+}

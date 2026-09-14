@@ -1,0 +1,30 @@
+{
+  "status": "PASS OFFLINE",
+  "mesh_triangles": 6000,
+  "visual_length_matches_existing_torpedo": true,
+  "source_degenerate_cleanup": {
+    "zero_area": 1584,
+    "numerical_slivers": 64
+  },
+  "material_and_particle_resources_resolved": true,
+  "stock_particle_resources": {
+    "siege_missile_exhaust": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/siege_missile_exhaust.dds",
+    "t_gradient_79": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/t_gradient_79.dds",
+    "fire_pillar": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/textures/fire_pillar.dds"
+  },
+  "native_local_planet_bombing_chain_verified": true,
+  "effect_changed_fields": [
+    "mesh emitter particle.mesh.mesh",
+    "mesh emitter attachment node z for the new centered model"
+  ],
+  "no_gameplay_definitions_in_package": true,
+  "all_packaged_hashes_verified": true,
+  "scope": "Cosmetic travel mesh only. No actual destructible projectile entity, new damage, range, cooldown, targeting, global launch, or interception behavior.",
+  "runtime_not_tested": [
+    "visual scale and orientation during bombardment",
+    "particle appearance and lifetime",
+    "save/reload",
+    "multiplayer"
+  ],
+  "strategic_acceptance_test": "Not applicable: this is not a strategic impactor prototype. Destroying the visible mesh cannot be claimed to cancel damage."
+}
