@@ -1,0 +1,243 @@
+{
+  "status": "PASS OFFLINE",
+  "players": [
+    {
+      "owner": "expanse18_mcrn",
+      "faction": "mcrn",
+      "civilian_subjects_unchanged": 101,
+      "research_cells": 97,
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "ships": [
+        "trader_scout_corvette",
+        "trader_colony_frigate",
+        "trader_light_frigate",
+        "expanse_mcrn_corvette",
+        "expanse12_raptor",
+        "expanse12_scirocco",
+        "expanse_donnager_battleship",
+        "expanse19_artemis",
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "owner": "expanse18_unn",
+      "faction": "unn",
+      "civilian_subjects_unchanged": 101,
+      "research_cells": 98,
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "ships": [
+        "trader_scout_corvette",
+        "trader_colony_frigate",
+        "expanse21_contract_patrol",
+        "expanse15_truman",
+        "expanse_amun_ra",
+        "expanse19_artemis",
+        "expanse23_murphy",
+        "expanse25_un_one",
+        "expanse27_nathan_hale",
+        "expanse27_munroe"
+      ]
+    },
+    {
+      "owner": "expanse18_opa",
+      "faction": "opa",
+      "civilian_subjects_unchanged": 100,
+      "research_cells": 99,
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "ships": [
+        "trader_scout_corvette",
+        "trader_colony_frigate",
+        "expanse21_contract_patrol",
+        "expanse19_europa_bane",
+        "expanse19_artemis",
+        "expanse_rocinante_hero",
+        "expanse12_pella",
+        "expanse21_opa_command",
+        "expanse24_behemoth",
+        "expanse27_laconia_frigate",
+        "expanse27_dark_star",
+        "expanse24_gathering_storm"
+      ]
+    },
+    {
+      "owner": "trader_loyalist",
+      "faction": "mcrn",
+      "civilian_subjects_unchanged": 101,
+      "research_cells": 97,
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "ships": [
+        "trader_scout_corvette",
+        "trader_colony_frigate",
+        "trader_light_frigate",
+        "expanse_mcrn_corvette",
+        "expanse12_raptor",
+        "expanse12_scirocco",
+        "expanse_donnager_battleship",
+        "expanse19_artemis",
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "owner": "trader_rebel",
+      "faction": "opa",
+      "civilian_subjects_unchanged": 104,
+      "research_cells": 101,
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "ships": [
+        "trader_scout_corvette",
+        "trader_colony_frigate",
+        "expanse21_contract_patrol",
+        "expanse19_europa_bane",
+        "expanse19_artemis",
+        "expanse_rocinante_hero",
+        "expanse12_pella",
+        "expanse21_opa_command",
+        "expanse24_behemoth",
+        "expanse27_laconia_frigate",
+        "expanse27_dark_star",
+        "expanse24_gathering_storm"
+      ]
+    },
+    {
+      "owner": "dlc_trader_loyalist",
+      "faction": "unn",
+      "civilian_subjects_unchanged": 92,
+      "research_cells": 98,
+      "factory_kinds": [
+        "capital_ship",
+        "corvette",
+        "cruiser",
+        "frigate",
+        "super_capital_ship",
+        "titan"
+      ],
+      "ships": [
+        "trader_scout_corvette",
+        "trader_colony_frigate",
+        "expanse21_contract_patrol",
+        "expanse15_truman",
+        "expanse_amun_ra",
+        "expanse19_artemis",
+        "expanse23_murphy",
+        "expanse25_un_one",
+        "expanse27_nathan_hale",
+        "expanse27_munroe"
+      ]
+    }
+  ],
+  "weapons": [
+    {
+      "unit": "expanse27_nathan_hale",
+      "weapon_count": 14,
+      "pdc_count": 12,
+      "pdc_dps": [
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0
+      ]
+    },
+    {
+      "unit": "expanse27_munroe",
+      "weapon_count": 9,
+      "pdc_count": 8,
+      "pdc_dps": [
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0,
+        85.0
+      ]
+    },
+    {
+      "unit": "expanse27_hephaestus",
+      "weapon_count": 11,
+      "pdc_count": 10,
+      "pdc_dps": [
+        117.6,
+        117.6,
+        117.6,
+        117.6,
+        117.6,
+        117.6,
+        117.6,
+        117.6,
+        117.6,
+        117.6
+      ]
+    },
+    {
+      "unit": "expanse27_laconia_frigate",
+      "weapon_count": 6,
+      "pdc_count": 6,
+      "pdc_dps": [
+        117.6,
+        117.6,
+        117.6,
+        117.6,
+        117.6,
+        117.6
+      ]
+    },
+    {
+      "unit": "expanse27_dark_star",
+      "weapon_count": 4,
+      "pdc_count": 3,
+      "pdc_dps": [
+        85.0,
+        85.0,
+        85.0
+      ]
+    }
+  ],
+  "positive_static_arcs_checked": 49,
+  "scenario_full_schema": "PASS",
+  "runtime": "NOT RUN",
+  "unresolved_runtime_error": "Unattributed inplace_vector assertion requires a new log after this candidate."
+}

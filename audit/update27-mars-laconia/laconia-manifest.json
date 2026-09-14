@@ -1,0 +1,228 @@
+{
+  "ship": "laconia",
+  "artifact_root": "/run/media/haker/NVME 2/expanse-workers27/mars-laconia/build/update27-mars-laconia/game",
+  "baseline": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26",
+  "contract": "/run/media/haker/NVME 2/expanse-workers27/mars-laconia/audit/update27-mars-laconia/laconia-integration.json",
+  "files": [
+    {
+      "path": "mesh_materials/expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "bytes": 257,
+      "sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "previous_sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "action": "reuse"
+    },
+    {
+      "path": "mesh_materials/expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "bytes": 257,
+      "sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "previous_sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "action": "reuse"
+    },
+    {
+      "path": "mesh_materials/expanse27_laconia_frigate_hull_armor.mesh_material",
+      "bytes": 338,
+      "sha256": "22dd566f45ab73031de5b1af3c09029be616da0a63150b4730cd488e719d0f62",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse27_laconia_frigate_hull_dark.mesh_material",
+      "bytes": 338,
+      "sha256": "fd8f87f7e84db171814da0f4248ee36b764bb99d28e85f14ed3eab9779d1e67b",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse27_laconia_frigate_hull_orange.mesh_material",
+      "bytes": 339,
+      "sha256": "8fd81d4437362b7e06364b17e664273dbad79d9d9fe39cb3d66f6e3dda41eb60",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse27_laconia_frigate_hull_rim.mesh_material",
+      "bytes": 265,
+      "sha256": "c42fb8eca4b8cf35f987a119f1ee3340930e1b6f9a5e0aa22c1a51aa88c6e3e5",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse27_laconia_frigate_hull_tachi_drive_1.mesh_material",
+      "bytes": 261,
+      "sha256": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse27_laconia_frigate_hull_tachi_drive_2.mesh_material",
+      "bytes": 253,
+      "sha256": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "meshes/expanse27_laconia_frigate_hull.mesh",
+      "bytes": 601486,
+      "sha256": "75052ddda2dcf09dbbd06c3699dd1bd2135e412e790137c1b4dc588917d48911",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "meshes/expanse27_laconia_frigate_pdc_barrel.mesh",
+      "bytes": 68778,
+      "sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "meshes/expanse27_laconia_frigate_pdc_base.mesh",
+      "bytes": 21430,
+      "sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_laconia_rim_clr.dds",
+      "bytes": 516,
+      "sha256": "a694d26af37f4e674892b427c87ade862d159159ecc95bb1293ec29d34ecb43e",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_laconia_rim_msk.dds",
+      "bytes": 516,
+      "sha256": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_laconia_rim_nrm.dds",
+      "bytes": 516,
+      "sha256": "5a33e8e50b31777c346331e3665430b908b37a2b9a1dff82bb3e25a1f6e73ea6",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_laconia_rim_orm.dds",
+      "bytes": 516,
+      "sha256": "b73e9f9d53cc5ed422f08044730d446062426fd2672ab46d4483f6b1a54f39ea",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_thermal_tiles_clr.dds",
+      "bytes": 1398276,
+      "sha256": "bfd74c676d04fd2419bef1cbca022910aa034cf9e417da9fbb2109954e7ad419",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_thermal_tiles_msk.dds",
+      "bytes": 516,
+      "sha256": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_thermal_tiles_nrm.dds",
+      "bytes": 1398276,
+      "sha256": "60b049e08a2f930726942a6a5ada02af4493a11f7df39b18f13182f11ab74d19",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_thermal_tiles_orm.dds",
+      "bytes": 1540,
+      "sha256": "d33677752ad21ef4c3111e7ed606f68b6107983e0b9be08feafd29aa0ec73513",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/mcrn_tachi_material_clr.dds",
+      "bytes": 5592580,
+      "sha256": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+      "previous_sha256": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_material_msk.dds",
+      "bytes": 196,
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "previous_sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_material_nrm.dds",
+      "bytes": 5592560,
+      "sha256": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+      "previous_sha256": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_material_orm.dds",
+      "bytes": 5592580,
+      "sha256": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+      "previous_sha256": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_primary_clr.dds",
+      "bytes": 5592580,
+      "sha256": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+      "previous_sha256": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_primary_msk.dds",
+      "bytes": 196,
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "previous_sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_primary_nrm.dds",
+      "bytes": 5592560,
+      "sha256": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+      "previous_sha256": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_primary_orm.dds",
+      "bytes": 5592580,
+      "sha256": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+      "previous_sha256": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_secondary_clr.dds",
+      "bytes": 5592580,
+      "sha256": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+      "previous_sha256": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_secondary_msk.dds",
+      "bytes": 196,
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "previous_sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_secondary_nrm.dds",
+      "bytes": 5592560,
+      "sha256": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+      "previous_sha256": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_secondary_orm.dds",
+      "bytes": 5592580,
+      "sha256": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+      "previous_sha256": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+      "action": "reuse"
+    }
+  ],
+  "compiled_assembled_triangles": 11460,
+  "sampled_clearance_rays": 1435122,
+  "runtime": "NOT RUN"
+}

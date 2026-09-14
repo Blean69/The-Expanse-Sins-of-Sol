@@ -1,0 +1,39 @@
+{
+  "source_revision": "4e8b214b5c1a3429a7dbee9d3e99aefc21cfc793",
+  "preserved_packages": {
+    "expanse_update26": {
+      "files": 1886,
+      "zip_sha256": "473e7415fd06f4a0e0f28a5306112a900a861227a3be2a16e2d3b31ddb25c60d",
+      "tree_sha256": "53e1e0706159811d86615a0f63a30041d6df68a19bd07445399bc1e6d98ab3b3",
+      "installed": false,
+      "runtime": "NOT RUN"
+    },
+    "expanse_update26_sandbox": {
+      "files": 1890,
+      "zip_sha256": "619d06a4dee4dfa8c1df6d10fbb5b2ded50e6b75475d6b4f674c980c80330c1a",
+      "tree_sha256": "e92b302ddaa829ffe8ab3a36e686dd5e608e9564a3ee47cbfa7a2f6059490749",
+      "installed": false,
+      "runtime": "NOT RUN"
+    },
+    "expanse_update26_composite_probe": {
+      "files": 1894,
+      "zip_sha256": "60fe69b63fd64c0495399361c76f75bb444c78e7a37c959e28a45ab182ee2327",
+      "tree_sha256": "ef687f79ebf1686c043593f54f8227e458321fbde5646b2ec8a9032d08fb64a9",
+      "installed": false,
+      "runtime": "NOT RUN"
+    }
+  },
+  "user_observations": {
+    "package": "0.26 Composite currency test",
+    "faction": "UNN",
+    "receive_and_capital_equipment": "PASS user reported",
+    "save_reload": "UNCONFIRMED",
+    "zero_balance_rejection": "UNCONFIRMED",
+    "military_research_presentation": "IMPROVED user reported",
+    "gathering_storm_drive": "visible gap user reported",
+    "errors": "intermittent during load/play, audit pending"
+  },
+  "scope": "New user-requested ship imports, Storm drive/scale corrections, OPA Storm procurement, runtime log fixes; regular faction access and civilian/weapon baseline preserved",
+  "reference_correction": "Three-engine colored screenshot is most likely Laconian; Munroe retains actual four-engine source layout.",
+  "drive_followup": "Replace black print stubs with actual detailed existing Epstein drive components; reference-guided thermal surface detail before0.27 freeze."
+}

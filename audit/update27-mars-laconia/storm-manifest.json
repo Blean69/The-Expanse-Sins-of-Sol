@@ -1,0 +1,221 @@
+{
+  "ship": "storm",
+  "artifact_root": "/run/media/haker/NVME 2/expanse-workers27/mars-laconia/build/update27-mars-laconia/game",
+  "baseline": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26",
+  "contract": "/run/media/haker/NVME 2/expanse-workers27/mars-laconia/audit/update27-mars-laconia/storm-integration.json",
+  "files": [
+    {
+      "path": "mesh_materials/expanse24_storm_hull_rim.mesh_material",
+      "bytes": 257,
+      "sha256": "a05f26cca1367362f5c42da4e9602aa85d39dfe5688c86cf307da2475b2e8543",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse24_storm_hull_storm_dark.mesh_material",
+      "bytes": 339,
+      "sha256": "9f3d0ab3587891f67a9cfcb9419884fe7c73994cdf8299d1a2383cf4a7308257",
+      "previous_sha256": "fbfd0f8f707b2a1b1d3d7dcbacb0e7eb2439174d9acbf651b734bbb31ebc69c6",
+      "action": "replace"
+    },
+    {
+      "path": "mesh_materials/expanse24_storm_hull_storm_silver.mesh_material",
+      "bytes": 339,
+      "sha256": "0dc8dd7226b978b04373abd94ddf15d9f6c8909a715593ea5ba13cc48de90d83",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse24_storm_hull_tachi_drive_1.mesh_material",
+      "bytes": 261,
+      "sha256": "b45c47e4163e878aa5605615506e81977a0912fe4d1bd939c9ebe74c45198cfe",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse24_storm_hull_tachi_drive_2.mesh_material",
+      "bytes": 253,
+      "sha256": "9ed6e0ebc1e667464218b9bfbf50ab92a4d6d3c17d1967338d9465ade6bf25c9",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse27_storm_pdc_barrel_expanse10_donnager_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "bytes": 257,
+      "sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "mesh_materials/expanse27_storm_pdc_base_expanse10_donnager_pdc_base_mcrn_tachi_material.mesh_material",
+      "bytes": 257,
+      "sha256": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "meshes/expanse24_storm_hull.mesh",
+      "bytes": 4535201,
+      "sha256": "2b6427918fb0a5fdb868bc9e873a6b1df44d61345f236d386fcea2677b4b08cd",
+      "previous_sha256": "0b3979fd1a17d122959ef0d48c986eca440b21f281b8d785052dd5d639eca896",
+      "action": "replace"
+    },
+    {
+      "path": "meshes/expanse27_storm_pdc_barrel.mesh",
+      "bytes": 68574,
+      "sha256": "eca95acf173aec78603c5017eee5c3c4c269ac594d6bdb26e523652d0a1437d2",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "meshes/expanse27_storm_pdc_base.mesh",
+      "bytes": 21357,
+      "sha256": "f5deb5a8bba4d03a01af6d3bb90e2a85d841019f2e268f145de1ae2bbeb04bf1",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_storm_rim_clr.dds",
+      "bytes": 516,
+      "sha256": "a694d26af37f4e674892b427c87ade862d159159ecc95bb1293ec29d34ecb43e",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_storm_rim_msk.dds",
+      "bytes": 516,
+      "sha256": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_storm_rim_nrm.dds",
+      "bytes": 516,
+      "sha256": "5a33e8e50b31777c346331e3665430b908b37a2b9a1dff82bb3e25a1f6e73ea6",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_storm_rim_orm.dds",
+      "bytes": 516,
+      "sha256": "b73e9f9d53cc5ed422f08044730d446062426fd2672ab46d4483f6b1a54f39ea",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_thermal_tiles_clr.dds",
+      "bytes": 1398276,
+      "sha256": "bfd74c676d04fd2419bef1cbca022910aa034cf9e417da9fbb2109954e7ad419",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_thermal_tiles_msk.dds",
+      "bytes": 516,
+      "sha256": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_thermal_tiles_nrm.dds",
+      "bytes": 1398276,
+      "sha256": "60b049e08a2f930726942a6a5ada02af4493a11f7df39b18f13182f11ab74d19",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/expanse27_thermal_tiles_orm.dds",
+      "bytes": 1540,
+      "sha256": "d33677752ad21ef4c3111e7ed606f68b6107983e0b9be08feafd29aa0ec73513",
+      "previous_sha256": null,
+      "action": "add"
+    },
+    {
+      "path": "textures/mcrn_tachi_material_clr.dds",
+      "bytes": 5592580,
+      "sha256": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+      "previous_sha256": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_material_msk.dds",
+      "bytes": 196,
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "previous_sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_material_nrm.dds",
+      "bytes": 5592560,
+      "sha256": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+      "previous_sha256": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_material_orm.dds",
+      "bytes": 5592580,
+      "sha256": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+      "previous_sha256": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_primary_clr.dds",
+      "bytes": 5592580,
+      "sha256": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+      "previous_sha256": "69c08b56fa9ceab0feefde303ec241680cd17b9df50aa2db1394620f44adf2dd",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_primary_msk.dds",
+      "bytes": 196,
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "previous_sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_primary_nrm.dds",
+      "bytes": 5592560,
+      "sha256": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+      "previous_sha256": "528c7354d7288bb9cf5cad4d90e3196fb7af155861f935bf53d65c4f3bb93557",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_primary_orm.dds",
+      "bytes": 5592580,
+      "sha256": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+      "previous_sha256": "e96bcaefd9df8ccc35dbe9364ca47879983694343b226f1e7c87852315c480dc",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_secondary_clr.dds",
+      "bytes": 5592580,
+      "sha256": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+      "previous_sha256": "e5411c52b21ed1642f474ac055da74de759608a0a1a74dfd79e1ec02abeb890e",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_secondary_msk.dds",
+      "bytes": 196,
+      "sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "previous_sha256": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_secondary_nrm.dds",
+      "bytes": 5592560,
+      "sha256": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+      "previous_sha256": "a6fc0da0d722d356f4118c4176c674de02a2b571f6d1a20ac4a089ac88638a24",
+      "action": "reuse"
+    },
+    {
+      "path": "textures/mcrn_tachi_secondary_orm.dds",
+      "bytes": 5592580,
+      "sha256": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+      "previous_sha256": "fdf9c28a82230c13166f7e9522f78f1a0dac5a297716fed11b709f83c7439396",
+      "action": "reuse"
+    }
+  ],
+  "compiled_assembled_triangles": 63609,
+  "sampled_clearance_rays": 1177290,
+  "runtime": "NOT RUN"
+}

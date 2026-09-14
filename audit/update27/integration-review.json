@@ -1,0 +1,33 @@
+{
+  "scope": "Read-only independent review of private Martian/Laconian gameplay and shared access",
+  "findings": [
+    {
+      "issue": "Laconian frigate was assigned cruiser production",
+      "resolution": "Use frigate build_kind and build_group_id; Hephaestus remains cruiser."
+    },
+    {
+      "issue": "Laconian description denied regeneration while retaining native out-of-combat repairs",
+      "resolution": "Description explicitly acknowledges ordinary out-of-combat repairs; native values retained."
+    }
+  ],
+  "passed": [
+    "Magazine launch/action counts and ammo decrement/guard ordering",
+    "Normal new ship faction routes and research prerequisite ancestors"
+  ],
+  "runtime": "NOT RUN",
+  "art_merge_review": {
+    "earth": "Final manifest125 files matches explicit compiled sources",
+    "opa": "Final drive delta39 compiled files plus36UI files accepted; no stale pre-refit hashes",
+    "reuse_guard": "Added base/native hash verification for declared reused dependencies"
+  },
+  "final_art_review": {
+    "status": "PASS compiled previews / offline only",
+    "donors": "Tachi bells for Hephaestus, Laconia, Storm, Dark Star and Behemoth interiors; Truman clusters for Nathan Hale; Munroe source engines retained.",
+    "views": "Side, oblique and stern inspected; exposed throats and connected collars.",
+    "render_limit": "CPU nearest-neighbor sampling exaggerates authored tile grain and donor wear. DDS maps have mipmaps; game lighting/plumes untested."
+  },
+  "torpedo_test_correction": {
+    "issue": "Generic speed assertion originally excluded the preserved Amun program.",
+    "resolution": "Dark Star now compared directly against frozen expanse06_amun_magazine speed 2550; other native program checks retained. No gameplay speed changed."
+  }
+}

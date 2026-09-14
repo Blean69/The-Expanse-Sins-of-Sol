@@ -1,0 +1,28 @@
+{
+  "method": "Built-in imagegen creates new reference-guided thermal base color and corresponding tangent normal; ordinary SDK texture conversion to DDS. Native material tint preserves gray/orange livery. Small ORM/mask maps are authored channel data.",
+  "sources": [
+    "https://paulwk13.artstation.com/projects/Qn3oN8",
+    "https://magazine.artstation.com/2016/02/scenes-concept-art-expanse/"
+  ],
+  "reference_scope": "Thermal tiles, flush access panels, restrained roughness; not a photograph pasted onto the hull.",
+  "files": {
+    "thermal-tiles-nrm.png": {
+      "sha256": "841836c9e01b898b676dafe7ad256aac418db5360972a3468f827a74470fdf82",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    },
+    "thermal-tiles-clr.png": {
+      "sha256": "6657243f301a1f40af00cdbb6abc9390b645426acdfb3aeede6dfecb22701437",
+      "dimensions": [
+        1254,
+        1254
+      ]
+    }
+  },
+  "donor_mesh": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse03_hull.mesh",
+  "donor_sha256": "9c6a2107e3b0b26b41cd6654418bdcab190a2c7ee4a91d265937d5e9103d008a",
+  "donor_part": "Tachi main bell component192 and contained components; native UVs/normals/materials retained",
+  "runtime": "NOT RUN"
+}

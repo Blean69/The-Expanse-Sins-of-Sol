@@ -1,0 +1,1997 @@
+{
+  "earth": {
+    "status": "PRIVATE EARTH DEFINITIONS; MAIN INTEGRATION REQUIRED",
+    "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox",
+    "art_directory": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game",
+    "art_files": {
+      "effects/expanse27_nathan_hale_idle_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/effects/expanse27_nathan_hale_idle_plume.particle_effect",
+      "effects/expanse27_nathan_hale_phase_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/effects/expanse27_nathan_hale_phase_plume.particle_effect",
+      "mesh_materials/expanse27_nathan_hale_hull_armor.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_nathan_hale_hull_armor.mesh_material",
+      "mesh_materials/expanse27_nathan_hale_hull_machinery.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_nathan_hale_hull_machinery.mesh_material",
+      "mesh_materials/expanse27_nathan_hale_hull_navy.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_nathan_hale_hull_navy.mesh_material",
+      "mesh_materials/expanse27_nathan_hale_hull_steel.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_nathan_hale_hull_steel.mesh_material",
+      "mesh_materials/expanse27_nathan_hale_pdc_barrel_expanse15_truman_pdc_barrel_mcrn_tachi_material.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_nathan_hale_pdc_barrel_expanse15_truman_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "mesh_materials/expanse27_nathan_hale_pdc_base_expanse15_truman_pdc_base_mcrn_tachi_material.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_nathan_hale_pdc_base_expanse15_truman_pdc_base_mcrn_tachi_material.mesh_material",
+      "mesh_materials/expanse27_nathan_hale_rail_mesh_expanse15_truman_rail_0_truman_material.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_nathan_hale_rail_mesh_expanse15_truman_rail_0_truman_material.mesh_material",
+      "meshes/expanse27_nathan_hale_hull.mesh": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/meshes/expanse27_nathan_hale_hull.mesh",
+      "meshes/expanse27_nathan_hale_pdc_barrel.mesh": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/meshes/expanse27_nathan_hale_pdc_barrel.mesh",
+      "meshes/expanse27_nathan_hale_pdc_base.mesh": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/meshes/expanse27_nathan_hale_pdc_base.mesh",
+      "meshes/expanse27_nathan_hale_rail_mesh.mesh": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/meshes/expanse27_nathan_hale_rail_mesh.mesh",
+      "textures/expanse15_truman_material_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse15_truman_material_clr.dds",
+      "textures/expanse15_truman_material_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse15_truman_material_msk.dds",
+      "textures/expanse15_truman_material_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse15_truman_material_nrm.dds",
+      "textures/expanse15_truman_material_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse15_truman_material_orm.dds",
+      "textures/expanse23_murphy_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse23_murphy_msk.dds",
+      "textures/expanse26_murphy_armor_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse26_murphy_armor_nrm.dds",
+      "textures/expanse26_murphy_machinery_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse26_murphy_machinery_nrm.dds",
+      "textures/expanse27_unn_armor_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_unn_armor_clr.dds",
+      "textures/expanse27_unn_armor_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_unn_armor_orm.dds",
+      "textures/expanse27_unn_machinery_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_unn_machinery_clr.dds",
+      "textures/expanse27_unn_machinery_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_unn_machinery_orm.dds",
+      "textures/expanse27_unn_navy_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_unn_navy_clr.dds",
+      "textures/expanse27_unn_navy_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_unn_navy_orm.dds",
+      "textures/expanse27_unn_steel_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_unn_steel_clr.dds",
+      "textures/expanse27_unn_steel_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_unn_steel_orm.dds",
+      "textures/mcrn_tachi_material_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/mcrn_tachi_material_clr.dds",
+      "textures/mcrn_tachi_material_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/mcrn_tachi_material_msk.dds",
+      "textures/mcrn_tachi_material_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/mcrn_tachi_material_nrm.dds",
+      "textures/mcrn_tachi_material_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/mcrn_tachi_material_orm.dds",
+      "textures/expanse27_nathan_hale_hud_icon.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_hud_icon.png",
+      "textures/expanse27_nathan_hale_hud_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_hud_icon150.png",
+      "textures/expanse27_nathan_hale_hud_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_hud_icon200.png",
+      "brushes/expanse27_nathan_hale_hud_icon.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_nathan_hale_hud_icon.brush",
+      "textures/expanse27_nathan_hale_hud_picture.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_hud_picture.png",
+      "textures/expanse27_nathan_hale_hud_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_hud_picture150.png",
+      "textures/expanse27_nathan_hale_hud_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_hud_picture200.png",
+      "brushes/expanse27_nathan_hale_hud_picture.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_nathan_hale_hud_picture.brush",
+      "textures/expanse27_nathan_hale_tooltip_picture.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_tooltip_picture.png",
+      "textures/expanse27_nathan_hale_tooltip_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_tooltip_picture150.png",
+      "textures/expanse27_nathan_hale_tooltip_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_tooltip_picture200.png",
+      "brushes/expanse27_nathan_hale_tooltip_picture.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_nathan_hale_tooltip_picture.brush",
+      "textures/expanse27_nathan_hale_main_view_icon.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_main_view_icon.png",
+      "textures/expanse27_nathan_hale_main_view_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_main_view_icon150.png",
+      "textures/expanse27_nathan_hale_main_view_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_main_view_icon200.png",
+      "brushes/expanse27_nathan_hale_main_view_icon.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_nathan_hale_main_view_icon.brush",
+      "textures/expanse27_nathan_hale_main_view_icon_selected.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_main_view_icon_selected.png",
+      "textures/expanse27_nathan_hale_main_view_icon_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_main_view_icon_selected150.png",
+      "textures/expanse27_nathan_hale_main_view_icon_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_main_view_icon_selected200.png",
+      "brushes/expanse27_nathan_hale_main_view_icon_selected.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_nathan_hale_main_view_icon_selected.brush",
+      "textures/expanse27_nathan_hale_main_view_icon_sub_selected.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_main_view_icon_sub_selected.png",
+      "textures/expanse27_nathan_hale_main_view_icon_sub_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_main_view_icon_sub_selected150.png",
+      "textures/expanse27_nathan_hale_main_view_icon_sub_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_nathan_hale_main_view_icon_sub_selected200.png",
+      "brushes/expanse27_nathan_hale_main_view_icon_sub_selected.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_nathan_hale_main_view_icon_sub_selected.brush",
+      "mesh_materials/expanse27_nathan_hale_hull_epstein_drive.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_nathan_hale_hull_epstein_drive.mesh_material",
+      "effects/expanse27_munroe_idle_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/effects/expanse27_munroe_idle_plume.particle_effect",
+      "effects/expanse27_munroe_phase_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/effects/expanse27_munroe_phase_plume.particle_effect",
+      "mesh_materials/expanse27_munroe_hull_armor.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_munroe_hull_armor.mesh_material",
+      "mesh_materials/expanse27_munroe_hull_machinery.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_munroe_hull_machinery.mesh_material",
+      "mesh_materials/expanse27_munroe_hull_navy.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_munroe_hull_navy.mesh_material",
+      "mesh_materials/expanse27_munroe_hull_steel.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_munroe_hull_steel.mesh_material",
+      "mesh_materials/expanse27_munroe_pdc_barrel_expanse15_truman_pdc_barrel_mcrn_tachi_material.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_munroe_pdc_barrel_expanse15_truman_pdc_barrel_mcrn_tachi_material.mesh_material",
+      "mesh_materials/expanse27_munroe_pdc_base_expanse15_truman_pdc_base_mcrn_tachi_material.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/mesh_materials/expanse27_munroe_pdc_base_expanse15_truman_pdc_base_mcrn_tachi_material.mesh_material",
+      "meshes/expanse27_munroe_hull.mesh": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/meshes/expanse27_munroe_hull.mesh",
+      "meshes/expanse27_munroe_pdc_barrel.mesh": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/meshes/expanse27_munroe_pdc_barrel.mesh",
+      "meshes/expanse27_munroe_pdc_base.mesh": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/meshes/expanse27_munroe_pdc_base.mesh",
+      "textures/expanse27_munroe_hud_icon.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_hud_icon.png",
+      "textures/expanse27_munroe_hud_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_hud_icon150.png",
+      "textures/expanse27_munroe_hud_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_hud_icon200.png",
+      "brushes/expanse27_munroe_hud_icon.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_munroe_hud_icon.brush",
+      "textures/expanse27_munroe_hud_picture.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_hud_picture.png",
+      "textures/expanse27_munroe_hud_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_hud_picture150.png",
+      "textures/expanse27_munroe_hud_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_hud_picture200.png",
+      "brushes/expanse27_munroe_hud_picture.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_munroe_hud_picture.brush",
+      "textures/expanse27_munroe_tooltip_picture.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_tooltip_picture.png",
+      "textures/expanse27_munroe_tooltip_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_tooltip_picture150.png",
+      "textures/expanse27_munroe_tooltip_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_tooltip_picture200.png",
+      "brushes/expanse27_munroe_tooltip_picture.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_munroe_tooltip_picture.brush",
+      "textures/expanse27_munroe_main_view_icon.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_main_view_icon.png",
+      "textures/expanse27_munroe_main_view_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_main_view_icon150.png",
+      "textures/expanse27_munroe_main_view_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_main_view_icon200.png",
+      "brushes/expanse27_munroe_main_view_icon.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_munroe_main_view_icon.brush",
+      "textures/expanse27_munroe_main_view_icon_selected.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_main_view_icon_selected.png",
+      "textures/expanse27_munroe_main_view_icon_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_main_view_icon_selected150.png",
+      "textures/expanse27_munroe_main_view_icon_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_main_view_icon_selected200.png",
+      "brushes/expanse27_munroe_main_view_icon_selected.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_munroe_main_view_icon_selected.brush",
+      "textures/expanse27_munroe_main_view_icon_sub_selected.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_main_view_icon_sub_selected.png",
+      "textures/expanse27_munroe_main_view_icon_sub_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_main_view_icon_sub_selected150.png",
+      "textures/expanse27_munroe_main_view_icon_sub_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/textures/expanse27_munroe_main_view_icon_sub_selected200.png",
+      "brushes/expanse27_munroe_main_view_icon_sub_selected.brush": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game/brushes/expanse27_munroe_main_view_icon_sub_selected.brush"
+    },
+    "ships": {
+      "expanse27_nathan_hale": {
+        "role": "capital_ship",
+        "lore_class": "TV Leonidas-class battleship",
+        "stats": {
+          "hull": 10000,
+          "armor": 3800,
+          "supply": 155,
+          "speed": 800,
+          "price": {
+            "credits": 3200.0,
+            "metal": 800.0,
+            "crystal": 500.0
+          },
+          "build_time": 90.0,
+          "pdc_count": 12,
+          "pdc_dps_each": 85.0,
+          "rail_count": 2,
+          "rail_damage": 2400,
+          "rail_cooldown": 60.0,
+          "salvo": 4,
+          "interval": 10.0,
+          "magazine": 24,
+          "reload": 120.0
+        },
+        "art": "/run/media/haker/NVME 2/expanse-mod/audit/update27-earth/hale-integration.json",
+        "new_private_ids": [
+          "expanse27_nathan_hale_pdc_0",
+          "expanse27_nathan_hale_pdc_1",
+          "expanse27_nathan_hale_pdc_2",
+          "expanse27_nathan_hale_pdc_3",
+          "expanse27_nathan_hale_pdc_4",
+          "expanse27_nathan_hale_pdc_5",
+          "expanse27_nathan_hale_pdc_6",
+          "expanse27_nathan_hale_pdc_7",
+          "expanse27_nathan_hale_pdc_8",
+          "expanse27_nathan_hale_pdc_9",
+          "expanse27_nathan_hale_pdc_10",
+          "expanse27_nathan_hale_pdc_11",
+          "expanse27_nathan_hale_rail_0",
+          "expanse27_nathan_hale_rail_1",
+          "expanse27_nathan_hale",
+          "expanse27_nathan_hale_magazine"
+        ]
+      },
+      "expanse27_munroe": {
+        "role": "cruiser",
+        "lore_class": "RPG Munroe-class light destroyer; cruiser is requested mod classification",
+        "stats": {
+          "hull": 5200,
+          "armor": 2400,
+          "supply": 125,
+          "speed": 950,
+          "price": {
+            "credits": 2600.0,
+            "metal": 750.0,
+            "crystal": 400.0
+          },
+          "build_time": 80.0,
+          "pdc_count": 8,
+          "pdc_dps_each": 85.0,
+          "rail_count": 1,
+          "rail_damage": 1800,
+          "rail_cooldown": 60.0,
+          "salvo": 6,
+          "interval": 12.0,
+          "magazine": 36,
+          "reload": 120.0
+        },
+        "art": "/run/media/haker/NVME 2/expanse-mod/audit/update27-earth/munroe-integration.json",
+        "new_private_ids": [
+          "expanse27_munroe_pdc_0",
+          "expanse27_munroe_pdc_1",
+          "expanse27_munroe_pdc_2",
+          "expanse27_munroe_pdc_3",
+          "expanse27_munroe_pdc_4",
+          "expanse27_munroe_pdc_5",
+          "expanse27_munroe_pdc_6",
+          "expanse27_munroe_pdc_7",
+          "expanse27_munroe_rail_0",
+          "expanse27_munroe",
+          "expanse27_munroe_magazine"
+        ]
+      }
+    },
+    "unit_tag_entries_append": [
+      "expanse27_nathan_hale",
+      "expanse27_munroe"
+    ],
+    "source_definitions_sha256": {
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse15_truman.unit": "75fc9fb0885b34526be9a8e5140399aa7e1a47587392b690e24d60982cbff9cd",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse15_truman_pdc_0.weapon": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse15_truman_rail_0.weapon": "1d2b1ede949a12afb522904f9ab79fae769de61d8f63e728efa10b9ae82d123f",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse15_truman_light_magazine.ability": "f30e8ec6eb3ca2a69dcc88ba9ecb8b989464162b2d43dcd7778fa42b0467a6c5",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse15_truman_light_magazine.buff": "5f085f964514d60eab85941c8d205cf106aae252656aed2f12d75f754fccd30a",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse15_truman_light_magazine.action_data_source": "9631bd2963dcca9eba2720f821a64ab4b721e1da8b07935e4865611834b9714a",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse15_truman.unit_skin": "1beeed7aefaa28074a30b7d7d15e4ae74f305095257603a465fab9c7b29c22fa",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse23_murphy.unit": "977b3dec434446eaaecf2f841bd838cfa0139b74da329a680bec5759f4064551",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse23_murphy.unit_skin": "8e0a74337bc30ea52c103af4cbdd23b03978b3079b3e4402fc511a00cb429222"
+    },
+    "integration_needed": [
+      "priced research unlock and prerequisites",
+      "Earth player build availability only",
+      "unit tag registry and manifest registration",
+      "localization merge",
+      "main shared no_shields GUI visibility fix"
+    ],
+    "preserved": [
+      "all pre-existing hull definitions and shared weapons",
+      "accepted UNN torpedo damage, hull, speed, fuel and target guards",
+      "no second capture system or special boarding ability",
+      "no free colony capability inherited from Truman"
+    ],
+    "untested": [
+      "game load and research/build access",
+      "live PDC/rail acquisition and rig interpolation",
+      "actual plume orientation/scale and shader appearance",
+      "save/reload",
+      "multiplayer"
+    ]
+  },
+  "opa": {
+    "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox",
+    "status": "PRIVATE FRAGMENT; RESEARCH/PLAYER/REGISTRY MERGES REQUIRED",
+    "unit_id": "expanse27_dark_star",
+    "behemoth_unit_id": "expanse24_behemoth",
+    "source_definitions_sha256": {
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse_amun_ra.unit": "6a7a37ed8885398bf85da36d3d61679e20a2a53d3fcb4bb60126644c3ea5513a",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse21_opa_command.unit": "7df5420332932b7bf88d8de7ad3857d4370eb8f1f1a6b1750a13c313dcc5171a",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse06_amun_magazine.ability": "c4b7c30b6499c15a491a421a61639b7566bf9146d8c5633cfe610ec48c011399",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse06_amun_magazine.buff": "2e46863be09fddd4c5363ac11777401f476eb816330832c99401c29fc32ec17e",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse06_amun_magazine.action_data_source": "fa4c6cdb096d5153fd9c7bc548b6ff0d7877c4ddea0caa3e7b51eebf4968735e",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse06_amun_pdc_0.weapon": "da694706dfa51de4fafbc61381b07cee260f495859b9d26d147a6193fbc7c1ff",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse_amun_ra.unit_skin": "7f79f77f8021c6a5af624ae3b0502a60457f22a54df8c0a1a7b9d6263cfb4f18",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth.unit": "6ca65432c9baf0c1bb3664f2554a14cc340385bdd2eb4689f5936b03744a8b8f",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth_pdc.weapon": "a50952d683347d2a256674c7ab0677a57d82a8158df773b48a5ad9a3b1874dcf",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth_magazine.ability": "de6ae73faa2ad32302b44b91cfe69a10edb8bc79ad1284950acea7bb61469393",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth_magazine.buff": "3f065ac460bc6bf62280e98dbec02f427b32e0257cd04a72a92690c1d4334f1c",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+      "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth.unit_skin": "1799c653b3053ceef7e40ca146ab452d12ea0988d007c89bb66f286c61c9e255"
+    },
+    "origins": {
+      "entities/expanse27_dark_star_magazine.ability": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse06_amun_magazine.ability",
+      "entities/expanse27_dark_star_magazine.buff": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse06_amun_magazine.buff",
+      "entities/expanse27_dark_star_magazine.action_data_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse06_amun_magazine.action_data_source",
+      "entities/expanse27_dark_star_pdc.weapon": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse06_amun_pdc_0.weapon",
+      "entities/expanse27_dark_star.unit": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse_amun_ra.unit",
+      "entities/expanse27_dark_star.unit_skin": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse_amun_ra.unit_skin",
+      "entities/expanse27_behemoth_pdc.weapon": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth_pdc.weapon",
+      "entities/expanse27_behemoth_magazine.ability": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth_magazine.ability",
+      "entities/expanse27_behemoth_magazine.buff": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth_magazine.buff",
+      "entities/expanse27_behemoth_magazine.action_data_source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth_magazine.action_data_source",
+      "entities/expanse24_behemoth.unit": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth.unit",
+      "entities/expanse24_behemoth.unit_skin": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26_sandbox/entities/expanse24_behemoth.unit_skin"
+    },
+    "player_recipes": {
+      "opa": {
+        "buildable_units_append": [
+          "expanse27_dark_star"
+        ],
+        "research_requirement": "expanse27_dark_star_procurement",
+        "native_procurement": "capital_ship; ordinary first-capital entitlement deliberately retained per main instruction"
+      }
+    },
+    "unit_tag_entries_append": [
+      {
+        "name": "expanse27_dark_star",
+        "localized_name": "expanse27_dark_star.name"
+      }
+    ],
+    "research_recipe": {
+      "id": "expanse27_dark_star_procurement",
+      "owner": "main",
+      "faction": "OPA",
+      "tier": 3,
+      "role": "priced salvage procurement, no automatic/free unit spawn"
+    },
+    "preserved": [
+      "all original Amun definitions and cloak/boarding callbacks",
+      "Amun rail and torpedo damage/cadence/projectile type",
+      "Behemoth health/armor/support/hospital/AI service semantics/cost/movement",
+      "all original model assets"
+    ],
+    "art_files": {
+      "effects/expanse27_dark_star_idle_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/effects/expanse27_dark_star_idle_plume.particle_effect",
+      "effects/expanse27_dark_star_phase_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/effects/expanse27_dark_star_phase_plume.particle_effect",
+      "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_charcoal.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_charcoal.mesh_material",
+      "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_epstein_donor_0.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_epstein_donor_0.mesh_material",
+      "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_epstein_donor_1.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_epstein_donor_1.mesh_material",
+      "mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_graphite.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_dark_star_hull_expanse27_dark_star_graphite.mesh_material",
+      "meshes/expanse27_dark_star_hull.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_dark_star_hull.mesh",
+      "meshes/expanse27_dark_star_pdc_barrel.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_dark_star_pdc_barrel.mesh",
+      "meshes/expanse27_dark_star_pdc_base.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_dark_star_pdc_base.mesh",
+      "textures/expanse27_dark_star_charcoal_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_charcoal_clr.dds",
+      "textures/expanse27_dark_star_charcoal_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_charcoal_msk.dds",
+      "textures/expanse27_dark_star_charcoal_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_charcoal_nrm.dds",
+      "textures/expanse27_dark_star_charcoal_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_charcoal_orm.dds",
+      "textures/expanse27_dark_star_graphite_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_graphite_clr.dds",
+      "textures/expanse27_dark_star_graphite_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_graphite_msk.dds",
+      "textures/expanse27_dark_star_graphite_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_graphite_nrm.dds",
+      "textures/expanse27_dark_star_graphite_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_dark_star_graphite_orm.dds",
+      "textures/expanse27_dark_star_tooltip_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_tooltip_picture200.png",
+      "textures/expanse27_dark_star_main_view_icon_sub_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_sub_selected150.png",
+      "textures/expanse27_dark_star_main_view_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon200.png",
+      "textures/expanse27_dark_star_hud_picture.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_picture.png",
+      "textures/expanse27_dark_star_tooltip_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_tooltip_picture150.png",
+      "textures/expanse27_dark_star_main_view_icon_sub_selected.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_sub_selected.png",
+      "textures/expanse27_dark_star_tooltip_picture.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_tooltip_picture.png",
+      "textures/expanse27_dark_star_hud_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_icon200.png",
+      "textures/expanse27_dark_star_main_view_icon_selected.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_selected.png",
+      "textures/expanse27_dark_star_hud_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_picture150.png",
+      "textures/expanse27_dark_star_main_view_icon_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_selected200.png",
+      "textures/expanse27_dark_star_hud_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_icon150.png",
+      "textures/expanse27_dark_star_hud_icon.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_icon.png",
+      "textures/expanse27_dark_star_main_view_icon_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_selected150.png",
+      "textures/expanse27_dark_star_main_view_icon.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon.png",
+      "textures/expanse27_dark_star_hud_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_hud_picture200.png",
+      "textures/expanse27_dark_star_main_view_icon_sub_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon_sub_selected200.png",
+      "textures/expanse27_dark_star_main_view_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_dark_star_main_view_icon150.png",
+      "effects/expanse27_behemoth_idle_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/effects/expanse27_behemoth_idle_plume.particle_effect",
+      "effects/expanse27_behemoth_phase_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/effects/expanse27_behemoth_phase_plume.particle_effect",
+      "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_epstein_donor_0.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_epstein_donor_0.mesh_material",
+      "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_epstein_donor_1.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_epstein_donor_1.mesh_material",
+      "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_framework.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_framework.mesh_material",
+      "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_ivory.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_ivory.mesh_material",
+      "mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_nozzle.mesh_material": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/mesh_materials/expanse27_behemoth_hull_expanse27_behemoth_nozzle.mesh_material",
+      "meshes/expanse27_behemoth_hull.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_behemoth_hull.mesh",
+      "meshes/expanse27_behemoth_pdc_barrel.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_behemoth_pdc_barrel.mesh",
+      "meshes/expanse27_behemoth_pdc_base.mesh": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/meshes/expanse27_behemoth_pdc_base.mesh",
+      "textures/expanse27_behemoth_framework_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_framework_clr.dds",
+      "textures/expanse27_behemoth_framework_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_framework_msk.dds",
+      "textures/expanse27_behemoth_framework_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_framework_nrm.dds",
+      "textures/expanse27_behemoth_framework_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_framework_orm.dds",
+      "textures/expanse27_behemoth_ivory_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_ivory_clr.dds",
+      "textures/expanse27_behemoth_ivory_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_ivory_msk.dds",
+      "textures/expanse27_behemoth_ivory_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_ivory_nrm.dds",
+      "textures/expanse27_behemoth_ivory_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_ivory_orm.dds",
+      "textures/expanse27_behemoth_nozzle_clr.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_nozzle_clr.dds",
+      "textures/expanse27_behemoth_nozzle_msk.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_nozzle_msk.dds",
+      "textures/expanse27_behemoth_nozzle_nrm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_nozzle_nrm.dds",
+      "textures/expanse27_behemoth_nozzle_orm.dds": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/game/textures/expanse27_behemoth_nozzle_orm.dds",
+      "textures/expanse27_behemoth_hud_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_picture150.png",
+      "textures/expanse27_behemoth_main_view_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon200.png",
+      "textures/expanse27_behemoth_tooltip_picture.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_tooltip_picture.png",
+      "textures/expanse27_behemoth_main_view_icon.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon.png",
+      "textures/expanse27_behemoth_main_view_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon150.png",
+      "textures/expanse27_behemoth_hud_icon150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_icon150.png",
+      "textures/expanse27_behemoth_tooltip_picture150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_tooltip_picture150.png",
+      "textures/expanse27_behemoth_main_view_icon_sub_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_sub_selected150.png",
+      "textures/expanse27_behemoth_main_view_icon_selected.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_selected.png",
+      "textures/expanse27_behemoth_hud_icon.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_icon.png",
+      "textures/expanse27_behemoth_main_view_icon_selected150.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_selected150.png",
+      "textures/expanse27_behemoth_main_view_icon_sub_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_sub_selected200.png",
+      "textures/expanse27_behemoth_main_view_icon_sub_selected.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_sub_selected.png",
+      "textures/expanse27_behemoth_hud_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_picture200.png",
+      "textures/expanse27_behemoth_main_view_icon_selected200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_main_view_icon_selected200.png",
+      "textures/expanse27_behemoth_hud_picture.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_picture.png",
+      "textures/expanse27_behemoth_tooltip_picture200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_tooltip_picture200.png",
+      "textures/expanse27_behemoth_hud_icon200.png": "/run/media/haker/NVME 2/expanse-workers27/opa/build/update27-opa/ui/expanse27_behemoth_hud_icon200.png"
+    },
+    "stats": {
+      "dark_star": {
+        "hull": 3600,
+        "armor": 1800,
+        "supply": 140,
+        "price": {
+          "credits": 6000,
+          "metal": 1100,
+          "crystal": 800
+        },
+        "build_time": 150,
+        "pdc_count": 3,
+        "pdc_dps": 85,
+        "railgun": "original expanse06_amun_railgun",
+        "max_speed": 1250.0
+      },
+      "behemoth": {
+        "hull": 12000.0,
+        "armor": 1500.0,
+        "pdc_count": 8
+      }
+    },
+    "distribution": "Local game derivative only. Do not publish paid model or its derivatives.",
+    "runtime": {
+      "native capital procurement and UI": "NOT RUN",
+      "turret tracking/fire under movement": "NOT RUN",
+      "stealth reveal and boarding on new hull": "NOT RUN",
+      "eight engine plumes": "NOT RUN",
+      "save/reload and multiplayer": "NOT RUN",
+      "model performance": "NOT RUN"
+    }
+  },
+  "mars": {
+    "expanse27_hephaestus": {
+      "source": {
+        "triangles": 1667487,
+        "removed_static_pdc_components": [
+          2,
+          3,
+          4,
+          8,
+          16,
+          17,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          42,
+          43,
+          44,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          131,
+          132,
+          133,
+          134,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          146,
+          147,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          304,
+          305,
+          308,
+          309,
+          310,
+          311,
+          312,
+          313,
+          315,
+          316,
+          318,
+          319,
+          327,
+          328,
+          333,
+          334,
+          338,
+          339,
+          340,
+          341,
+          342,
+          343,
+          344,
+          345,
+          386,
+          387,
+          388,
+          389,
+          391,
+          392,
+          393,
+          394,
+          438,
+          439,
+          440,
+          441,
+          442,
+          443,
+          444,
+          445,
+          451,
+          452,
+          571,
+          585,
+          598,
+          603,
+          604,
+          605,
+          606,
+          607,
+          609,
+          610,
+          611,
+          612,
+          614,
+          615,
+          617,
+          618,
+          619,
+          620,
+          621,
+          622,
+          623,
+          639,
+          640,
+          653,
+          654,
+          658,
+          659,
+          660,
+          668,
+          669,
+          670,
+          671,
+          672,
+          673,
+          674,
+          675,
+          676,
+          677,
+          678,
+          680,
+          681,
+          682,
+          683,
+          684,
+          685,
+          686,
+          687,
+          688,
+          689,
+          690,
+          691,
+          692,
+          693,
+          694,
+          695,
+          696,
+          697,
+          698,
+          703,
+          704,
+          705,
+          706,
+          707,
+          708,
+          709,
+          710,
+          711,
+          712,
+          713,
+          714,
+          715,
+          718,
+          719,
+          720,
+          721,
+          722,
+          723,
+          726,
+          727,
+          728,
+          729,
+          730,
+          731,
+          732
+        ],
+        "rail_components": [
+          287,
+          288,
+          295,
+          321,
+          322,
+          324,
+          326,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          365,
+          366,
+          367,
+          368,
+          369,
+          370,
+          371,
+          372,
+          373,
+          374,
+          375,
+          376,
+          377,
+          378,
+          379,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          396,
+          397,
+          398,
+          399,
+          400,
+          401,
+          402,
+          403,
+          404,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410,
+          411,
+          412,
+          413,
+          414,
+          415,
+          416,
+          417,
+          418,
+          419,
+          420,
+          421,
+          422,
+          423,
+          424,
+          425,
+          426,
+          427,
+          428,
+          429,
+          430,
+          431,
+          432,
+          433,
+          434,
+          435,
+          436,
+          470,
+          471
+        ],
+        "source_scale": 14.739452338725277,
+        "source_center": [
+          0.0,
+          -0.2315700000000005,
+          -0.402633
+        ],
+        "rotation": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "normalized_simplification_error": 7.779373117955402e-05,
+        "rail_error": 0.00012195789167890325,
+        "hull_triangles": 116260,
+        "rail_triangles": 6500,
+        "zip": "/home/haker/Downloads/mcrn_hephaestus-class_destroyer_printable.zip",
+        "sha256": "df16b8f939b275c15ef15c2146732008721328970b5a957af0e8ebf9c01d81e5"
+      },
+      "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 0.8,
+        "durability": 350.0,
+        "can_ever_be_resurrected": true,
+        "levels": [
+          {
+            "max_hull_points": 4000.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2300.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 35.0,
+            "max_shield_points": 0.0
+          }
+        ]
+      },
+      "build": {
+        "build_time": 150.0,
+        "price": {
+          "credits": 6000.0,
+          "metal": 1950.0,
+          "crystal": 1000.0
+        },
+        "build_kind": "cruiser",
+        "supply_cost": 180,
+        "build_group_id": "cruiser",
+        "exotic_price": [
+          {
+            "exotic_type": "offense",
+            "count": 1
+          },
+          {
+            "exotic_type": "defense",
+            "count": 2
+          }
+        ],
+        "prerequisites": [
+          [
+            "expanse27_hephaestus_procurement"
+          ]
+        ]
+      },
+      "speed": 1600.0,
+      "rigs": [
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_0",
+          "position": [
+            0.0,
+            -30.724654889053863,
+            -15.109316785987074
+          ],
+          "up": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -23.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            0.0,
+            -29.524654889053863,
+            -15.109316785987074
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_1",
+          "position": [
+            -1.4739452338740018e-05,
+            31.10283311718724,
+            55.39430355105069
+          ],
+          "up": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -9.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            -1.4739452338740018e-05,
+            29.902833117187242,
+            55.39430355105069
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_2",
+          "position": [
+            30.972131729991087,
+            25.302716688510166,
+            -15.109316785987074
+          ],
+          "up": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -13.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            29.772131729991088,
+            25.302716688510166,
+            -15.109316785987074
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_3",
+          "position": [
+            -30.960136401143313,
+            25.30270194905783,
+            -15.109302046534735
+          ],
+          "up": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -13.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            -29.760136401143313,
+            25.30270194905783,
+            -15.109302046534735
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_4",
+          "position": [
+            21.799445232112348,
+            -6.65130880493985,
+            55.39431829050303
+          ],
+          "up": [
+            0.8660254,
+            -0.5,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -172.0,
+            "max_angle": 164.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -9.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            20.760214752112347,
+            -6.0513088049398505,
+            55.39431829050303
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_5",
+          "position": [
+            -21.796047596857463,
+            -6.649385168033808,
+            55.39430355105069
+          ],
+          "up": [
+            -0.8660254,
+            -0.5,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -164.0,
+            "max_angle": 172.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -9.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            -20.756817116857462,
+            -6.049385168033808,
+            55.39430355105069
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_6",
+          "position": [
+            30.047059120982425,
+            -24.11248394693675,
+            -88.28811087387263
+          ],
+          "up": [
+            0.70710678,
+            -0.70710678,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -7.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            29.198530984982426,
+            -23.26395581093675,
+            -88.28811087387263
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_7",
+          "position": [
+            30.051686301574165,
+            35.986290954524435,
+            -88.28811087387263
+          ],
+          "up": [
+            0.70710678,
+            0.70710678,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -7.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            29.203158165574166,
+            35.137762818524436,
+            -88.28811087387263
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_8",
+          "position": [
+            -30.044598730189847,
+            -24.11002355614417,
+            -88.28811087387263
+          ],
+          "up": [
+            -0.70710678,
+            -0.70710678,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -7.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            -29.196070594189848,
+            -23.261495420144172,
+            -88.28811087387263
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_hephaestus_pdc_9",
+          "position": [
+            -30.047115314282536,
+            35.981719967232806,
+            -88.28811087387263
+          ],
+          "up": [
+            -0.70710678,
+            0.70710678,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -7.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            -29.198587178282537,
+            35.13319183123281,
+            -88.28811087387263
+          ]
+        },
+        {
+          "kind": "rail",
+          "mesh_point": "child.expanse27_hephaestus_rail_0",
+          "position": [
+            0.0,
+            -33.593197120413244,
+            23.01668658858324
+          ],
+          "up": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -12.0,
+            "max_angle": 12.0
+          },
+          "pitch_arc": {
+            "min_angle": -1.0,
+            "max_angle": 1.0
+          },
+          "turret_override": {
+            "type": "gimbal",
+            "gimbal_mesh": "expanse27_hephaestus_rail_0",
+            "muzzle_positions": [
+              [
+                0.0005970001220703125,
+                4.9481007921844125,
+                32.28572506302809
+              ]
+            ]
+          }
+        }
+      ],
+      "magazines": [
+        "expanse27_hephaestus_light_magazine",
+        "expanse27_hephaestus_medium_magazine"
+      ],
+      "runtime": "NOT RUN",
+      "classification": "Mod balance and procurement adaptation; no claim of canonical numerical specifications."
+    },
+    "expanse27_laconia_frigate": {
+      "source": {
+        "path": "/home/haker/Downloads/LaconiaFrigate.stl",
+        "sha256": "ed2d71ffac13a7bc52ce2efdd48914a646d1315afde4c12c63bf0a3512d6feb6",
+        "triangles": 4294,
+        "source_rotation": [
+          [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "source_scale": 35.011527757604895,
+        "original_center": [
+          0.0,
+          0.0,
+          0.5854132175445557
+        ]
+      },
+      "health": {
+        "release_time_after_death": 60.0,
+        "can_collide_duration_after_death": 0.8,
+        "durability": 250.0,
+        "can_ever_be_resurrected": true,
+        "levels": [
+          {
+            "max_hull_points": 1500.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 800.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 35.0,
+            "max_shield_points": 0.0
+          }
+        ]
+      },
+      "build": {
+        "build_time": 95.0,
+        "price": {
+          "credits": 4000.0,
+          "metal": 1100.0,
+          "crystal": 750.0
+        },
+        "build_kind": "frigate",
+        "supply_cost": 130,
+        "build_group_id": "frigate",
+        "exotic_price": [
+          {
+            "exotic_type": "offense",
+            "count": 1
+          },
+          {
+            "exotic_type": "utility",
+            "count": 1
+          }
+        ],
+        "prerequisites": [
+          [
+            "expanse27_laconia_frigate_procurement"
+          ]
+        ]
+      },
+      "speed": 1550.0,
+      "rigs": [
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_laconia_frigate_pdc_0",
+          "position": [
+            13.672382491106031,
+            0.0,
+            35.0
+          ],
+          "up": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -156.0,
+            "max_angle": 156.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -19.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            12.472382491106032,
+            0.0,
+            35.0
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_laconia_frigate_pdc_1",
+          "position": [
+            -17.38666553375823,
+            0.0,
+            35.0
+          ],
+          "up": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -154.0,
+            "max_angle": 154.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -7.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            -16.18666553375823,
+            0.0,
+            35.0
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_laconia_frigate_pdc_2",
+          "position": [
+            24.539921517757545,
+            0.0,
+            -25.0
+          ],
+          "up": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -7.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            23.339921517757546,
+            0.0,
+            -25.0
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_laconia_frigate_pdc_3",
+          "position": [
+            -24.539921517757545,
+            0.0,
+            -25.0
+          ],
+          "up": [
+            -1.0,
+            0.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -7.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            -23.339921517757546,
+            0.0,
+            -25.0
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_laconia_frigate_pdc_4",
+          "position": [
+            0.0,
+            20.01327859303377,
+            -2.0
+          ],
+          "up": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -7.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            0.0,
+            18.813278593033772,
+            -2.0
+          ]
+        },
+        {
+          "kind": "pdc",
+          "mesh_point": "child.expanse27_laconia_frigate_pdc_5",
+          "position": [
+            0.0,
+            -20.06009856724013,
+            -2.0
+          ],
+          "up": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "forward": [
+            0,
+            0,
+            1
+          ],
+          "yaw_arc": {
+            "min_angle": -180.0,
+            "max_angle": 180.0
+          },
+          "pitch_arc": {
+            "min_angle": -85.0,
+            "max_angle": -7.0
+          },
+          "turret_override": {
+            "type": "biaxial",
+            "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+            "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+            "barrel_position": [
+              0.0,
+              1.3764509954101047,
+              0.18730804020414693
+            ],
+            "muzzle_positions": [
+              [
+                1.1252809462488263e-06,
+                0.4073187799683431,
+                3.7885202526157014
+              ]
+            ]
+          },
+          "surface": [
+            0.0,
+            -18.86009856724013,
+            -2.0
+          ]
+        }
+      ],
+      "magazines": [
+        "expanse27_laconia_frigate_light_magazine"
+      ],
+      "runtime": "NOT RUN",
+      "classification": "Mod balance and procurement adaptation; no claim of canonical numerical specifications."
+    }
+  },
+  "storm": {
+    "scale": 1.15,
+    "changed_fields": [
+      "unit.spatial",
+      "unit.weapons.weapons[].weapon_position",
+      "unit.weapons.weapons[].non_turret_muzzle_positions",
+      "light_magazine.ability_positions[].position",
+      "sixPDC.turret private mesh names and scaled barrel/muzzle offsets",
+      "unit_skin PDC alias bindings"
+    ],
+    "unchanged": "All movement,damage,timings,ammo,price,limits,research and firing arcs",
+    "runtime": "NOT RUN"
+  },
+  "access": {
+    "access": {
+      "expanse18_mcrn": {
+        "new_hulls": [
+          "expanse27_nathan_hale",
+          "expanse27_munroe",
+          "expanse27_hephaestus",
+          "expanse27_laconia_frigate",
+          "expanse27_dark_star"
+        ],
+        "gathering_storm": true
+      },
+      "expanse18_unn": {
+        "new_hulls": [
+          "expanse27_nathan_hale",
+          "expanse27_munroe",
+          "expanse27_hephaestus",
+          "expanse27_laconia_frigate",
+          "expanse27_dark_star"
+        ],
+        "gathering_storm": true
+      },
+      "expanse18_opa": {
+        "new_hulls": [
+          "expanse27_nathan_hale",
+          "expanse27_munroe",
+          "expanse27_hephaestus",
+          "expanse27_laconia_frigate",
+          "expanse27_dark_star"
+        ],
+        "gathering_storm": true
+      },
+      "trader_loyalist": {
+        "new_hulls": [
+          "expanse27_nathan_hale",
+          "expanse27_munroe",
+          "expanse27_hephaestus",
+          "expanse27_laconia_frigate",
+          "expanse27_dark_star"
+        ],
+        "gathering_storm": true
+      },
+      "trader_rebel": {
+        "new_hulls": [
+          "expanse27_nathan_hale",
+          "expanse27_munroe",
+          "expanse27_hephaestus",
+          "expanse27_laconia_frigate",
+          "expanse27_dark_star"
+        ],
+        "gathering_storm": true
+      },
+      "dlc_trader_loyalist": {
+        "new_hulls": [
+          "expanse27_nathan_hale",
+          "expanse27_munroe",
+          "expanse27_hephaestus",
+          "expanse27_laconia_frigate",
+          "expanse27_dark_star"
+        ],
+        "gathering_storm": true
+      }
+    },
+    "research": {
+      "expanse27_nathan_hale_procurement": {
+        "faction": "unn",
+        "tier": 2,
+        "price": {
+          "credits": 1250.0,
+          "metal": 225.0,
+          "crystal": 350.0
+        },
+        "seconds": 270.0,
+        "prerequisite": "trader_unlock_antiarmor_frigate",
+        "coord": [
+          4,
+          5
+        ]
+      },
+      "expanse27_munroe_procurement": {
+        "faction": "unn",
+        "tier": 2,
+        "price": {
+          "credits": 1250.0,
+          "metal": 225.0,
+          "crystal": 350.0
+        },
+        "seconds": 270.0,
+        "prerequisite": "trader_unlock_antiarmor_frigate",
+        "coord": [
+          4,
+          6
+        ]
+      },
+      "expanse27_hephaestus_procurement": {
+        "faction": "mcrn",
+        "tier": 3,
+        "price": {
+          "credits": 1750.0,
+          "metal": 325.0,
+          "crystal": 550.0
+        },
+        "seconds": 420.0,
+        "prerequisite": "expanse22_mcrn_naval_readiness",
+        "coord": [
+          6,
+          10
+        ]
+      },
+      "expanse27_laconia_frigate_procurement": {
+        "faction": "opa",
+        "tier": 3,
+        "price": {
+          "credits": 1750.0,
+          "metal": 325.0,
+          "crystal": 550.0
+        },
+        "seconds": 420.0,
+        "prerequisite": "expanse21_opa_surplus",
+        "coord": [
+          6,
+          11
+        ]
+      },
+      "expanse27_dark_star_procurement": {
+        "faction": "opa",
+        "tier": 3,
+        "price": {
+          "credits": 1750.0,
+          "metal": 325.0,
+          "crystal": 550.0
+        },
+        "seconds": 420.0,
+        "prerequisite": "expanse21_opa_surplus",
+        "coord": [
+          6,
+          12
+        ]
+      }
+    }
+  },
+  "runtime_repairs": {
+    "runtime_after_fix": "NOT RUN",
+    "rail_mounts": [
+      {
+        "unit": "expanse12_scirocco.unit",
+        "weapon": "expanse12_scirocco_rail_0",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      },
+      {
+        "unit": "expanse15_truman.unit",
+        "weapon": "expanse15_truman_rail_0",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      },
+      {
+        "unit": "expanse15_truman.unit",
+        "weapon": "expanse15_truman_rail_1",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      },
+      {
+        "unit": "expanse22_foehammer_battery.unit",
+        "weapon": "expanse22_foehammer_battery_0",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      },
+      {
+        "unit": "expanse23_murphy.unit",
+        "weapon": "expanse23_murphy_rail",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      },
+      {
+        "unit": "expanse23_murphy.unit",
+        "weapon": "expanse23_murphy_rail",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      },
+      {
+        "unit": "expanse27_nathan_hale.unit",
+        "weapon": "expanse27_nathan_hale_rail_0",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      },
+      {
+        "unit": "expanse27_nathan_hale.unit",
+        "weapon": "expanse27_nathan_hale_rail_1",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      },
+      {
+        "unit": "expanse_donnager_battleship.unit",
+        "weapon": "expanse10_donnager_rail_0",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      },
+      {
+        "unit": "expanse_donnager_battleship.unit",
+        "weapon": "expanse10_donnager_rail_1",
+        "axis": "pitch",
+        "before": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        },
+        "after": {
+          "min_angle": -1.0,
+          "max_angle": 1.0
+        }
+      }
+    ],
+    "scenario_required_arrays": "added empty DLC arrays without replacing installed lists",
+    "shieldless_passive": "GUI only; original buff mutations untouched",
+    "command_colony": "first ordinary ability slot",
+    "unresolved": [
+      "Generic inplace_vector index assertion has no attributable entity or call stack in the supplied log.",
+      "Old installed prototype metadata and old replay metadata warnings are outside this candidate."
+    ]
+  }
+}

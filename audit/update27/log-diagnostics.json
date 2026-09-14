@@ -1,0 +1,90 @@
+{
+  "file": "sins2_log_552.txt",
+  "snapshot_sha256": "a36e5aedc84bb4794a0f5f6bdc974ecf67ac420b1177309f3469aa972cf60e67",
+  "game": "2.0.3 (318)",
+  "active_mod": "expanse_update26_composite_probe",
+  "evidence": [
+    {
+      "line": 159,
+      "message": "key not found : 'dlc_scenarios'"
+    },
+    {
+      "line": 160,
+      "message": "key not found : 'dlc_multiplayer_scenarios'"
+    },
+    {
+      "line": 176,
+      "message": "[16:39:23.5544325][   556][entity_definition_factory_engine] Found errors for C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update26_composite_probe\\entities\\expanse12_scirocco.unit"
+    },
+    {
+      "line": 178,
+      "message": "- index(12) : weapon expanse12_scirocco_rail_0.weapon : pitch_arc: 0 <= 0. weapons that have no pitch_speed must have a pitch_arc > 0 because they rely on the arc instead of firing tolerance."
+    },
+    {
+      "line": 244,
+      "message": "[16:39:41.4857870][  1204][           player_exotics] <player(vasari_rebel)[0]> initialize_exotics. exotic_type_count=6"
+    },
+    {
+      "line": 245,
+      "message": "[16:39:41.4858491][  1204][           player_exotics] <player(advent_loyalist)[1]> initialize_exotics. exotic_type_count=6"
+    },
+    {
+      "line": 905,
+      "message": "[16:41:43.1448324][  1332][           player_exotics] <player(expanse18_mcrn)[0]> initialize_exotics. exotic_type_count=6"
+    },
+    {
+      "line": 906,
+      "message": "[16:41:43.1448810][  1332][           player_exotics] <player(expanse18_opa)[1]> initialize_exotics. exotic_type_count=6"
+    },
+    {
+      "line": 907,
+      "message": "[16:41:43.1449130][  1332][           player_exotics] <player(expanse18_unn)[2]> initialize_exotics. exotic_type_count=6"
+    },
+    {
+      "line": 908,
+      "message": "[16:41:43.1449347][  1332][           player_exotics] <player(pranast_united_npc)[10]> initialize_exotics. exotic_type_count=6"
+    },
+    {
+      "line": 909,
+      "message": "[16:41:43.1449514][  1332][           player_exotics] <player(jiskun_force_npc)[11]> initialize_exotics. exotic_type_count=6"
+    },
+    {
+      "line": 910,
+      "message": "[16:41:43.1449610][  1332][           player_exotics] <player(militia)[12]> initialize_exotics. exotic_type_count=6"
+    },
+    {
+      "line": 911,
+      "message": "[16:41:43.1449719][  1332][           player_exotics] <player(guardian_npc)[13]> initialize_exotics. exotic_type_count=6"
+    },
+    {
+      "line": 1006,
+      "message": "[16:44:58.0543581][   556][      unit_rendering_data] unit has no gui_definition : <unit(expanse12_scirocco)[279]>"
+    },
+    {
+      "line": 1036,
+      "message": "[16:45:24.1321919][   772][                  ability] <ability(expanse11_no_shields)[222]> has no gui"
+    },
+    {
+      "line": 1043,
+      "message": "[16:45:25.0624189][   772][  hud_ship_ability_button] <ability(expanse11_no_shields)[222]> has no gui.hud_icon"
+    },
+    {
+      "line": 1047,
+      "message": "<ability(expanse11_no_shields)[222]> has no gui.hud_icon"
+    },
+    {
+      "line": 1206,
+      "message": "[16:59:07.0096354][   772][           inplace_vector] ASSERT(is_index_valid(i))"
+    },
+    {
+      "line": 1210,
+      "message": "ASSERT(is_index_valid(i))"
+    }
+  ],
+  "unrelated_notes": [
+    "Two old disabled prototype mod metadata files lack display_name/logos.",
+    "Old1018 replays cannot read current metadata.",
+    "Generic index assertion lacks attributable stack/entity; remains unresolved."
+  ],
+  "scope": "Diagnostic excerpts only; no account/session payloads retained."
+}

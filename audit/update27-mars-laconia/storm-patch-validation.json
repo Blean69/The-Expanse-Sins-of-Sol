@@ -1,0 +1,19 @@
+{
+  "definitions": 9,
+  "schemas": "PASS",
+  "nonspatial_field_guards": "PASS",
+  "report": {
+    "scale": 1.15,
+    "changed_fields": [
+      "unit.spatial",
+      "unit.weapons.weapons[].weapon_position",
+      "unit.weapons.weapons[].non_turret_muzzle_positions",
+      "light_magazine.ability_positions[].position",
+      "sixPDC.turret private mesh names and scaled barrel/muzzle offsets",
+      "unit_skin PDC alias bindings"
+    ],
+    "unchanged": "All movement,damage,timings,ammo,price,limits,research and firing arcs",
+    "runtime": "NOT RUN"
+  },
+  "runtime": "NOT RUN"
+}

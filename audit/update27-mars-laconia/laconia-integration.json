@@ -1,0 +1,1043 @@
+{
+  "id": "laconia",
+  "hull_mesh": "expanse27_laconia_frigate_hull",
+  "meshes": [
+    {
+      "name": "expanse27_laconia_frigate_hull",
+      "triangles": 7398,
+      "meshpoints": [
+        {
+          "name": "child.expanse27_laconia_frigate_pdc_0",
+          "translation": [
+            13.672382491106031,
+            0.0,
+            35.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ]
+        },
+        {
+          "name": "child.expanse27_laconia_frigate_pdc_1",
+          "translation": [
+            -17.38666553375823,
+            0.0,
+            35.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.7071067811865475,
+            0.7071067811865475
+          ]
+        },
+        {
+          "name": "child.expanse27_laconia_frigate_pdc_2",
+          "translation": [
+            24.539921517757545,
+            0.0,
+            -25.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.7071067811865475,
+            -0.7071067811865475
+          ]
+        },
+        {
+          "name": "child.expanse27_laconia_frigate_pdc_3",
+          "translation": [
+            -24.539921517757545,
+            0.0,
+            -25.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.7071067811865475,
+            0.7071067811865475
+          ]
+        },
+        {
+          "name": "child.expanse27_laconia_frigate_pdc_4",
+          "translation": [
+            0.0,
+            20.01327859303377,
+            -2.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "child.expanse27_laconia_frigate_pdc_5",
+          "translation": [
+            0.0,
+            -20.06009856724013,
+            -2.0
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "name": "weapon.torpedo.light.0",
+          "translation": [
+            -5.0,
+            0.0,
+            65.30576861578265
+          ]
+        },
+        {
+          "name": "weapon.torpedo.light.1",
+          "translation": [
+            5.0,
+            0.0,
+            81.2
+          ]
+        },
+        {
+          "name": "exhaust.0",
+          "translation": [
+            0,
+            0,
+            -80.4
+          ],
+          "rotation": [
+            0,
+            1,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "center",
+          "translation": [
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "name": "above",
+          "translation": [
+            0,
+            35,
+            0
+          ]
+        }
+      ],
+      "source_frame_error": 3.801891483083621e-06,
+      "winding_flips": 2542
+    }
+  ],
+  "colors": {
+    "armor": [
+      0.28,
+      0.32,
+      0.35,
+      1
+    ],
+    "orange": [
+      0.5,
+      0.105,
+      0.037,
+      1
+    ],
+    "dark": [
+      0.065,
+      0.075,
+      0.085,
+      1
+    ],
+    "rim": [
+      0.46,
+      0.49,
+      0.53,
+      1
+    ]
+  },
+  "native_materials": {
+    "tachi_drive_1": "expanse03_hull_mcrn_tachi_secondary",
+    "tachi_drive_2": "expanse03_hull_mcrn_tachi_primary"
+  },
+  "copied_meshes": {
+    "expanse27_laconia_frigate_pdc_base": "expanse24_storm_pdc_base",
+    "expanse27_laconia_frigate_pdc_barrel": "expanse24_storm_pdc_barrel"
+  },
+  "rigs": [
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_0",
+      "position": [
+        13.672382491106031,
+        0.0,
+        35.0
+      ],
+      "up": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -156.0,
+        "max_angle": 156.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -19.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface": [
+        12.472382491106032,
+        0.0,
+        35.0
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_1",
+      "position": [
+        -17.38666553375823,
+        0.0,
+        35.0
+      ],
+      "up": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -154.0,
+        "max_angle": 154.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface": [
+        -16.18666553375823,
+        0.0,
+        35.0
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_2",
+      "position": [
+        24.539921517757545,
+        0.0,
+        -25.0
+      ],
+      "up": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface": [
+        23.339921517757546,
+        0.0,
+        -25.0
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_3",
+      "position": [
+        -24.539921517757545,
+        0.0,
+        -25.0
+      ],
+      "up": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface": [
+        -23.339921517757546,
+        0.0,
+        -25.0
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_4",
+      "position": [
+        0.0,
+        20.01327859303377,
+        -2.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface": [
+        0.0,
+        18.813278593033772,
+        -2.0
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_5",
+      "position": [
+        0.0,
+        -20.06009856724013,
+        -2.0
+      ],
+      "up": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      },
+      "turret_override": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      },
+      "surface": [
+        0.0,
+        -18.86009856724013,
+        -2.0
+      ]
+    }
+  ],
+  "meshpoints": [
+    {
+      "name": "child.expanse27_laconia_frigate_pdc_0",
+      "translation": [
+        13.672382491106031,
+        0.0,
+        35.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_laconia_frigate_pdc_1",
+      "translation": [
+        -17.38666553375823,
+        0.0,
+        35.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_laconia_frigate_pdc_2",
+      "translation": [
+        24.539921517757545,
+        0.0,
+        -25.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_laconia_frigate_pdc_3",
+      "translation": [
+        -24.539921517757545,
+        0.0,
+        -25.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_laconia_frigate_pdc_4",
+      "translation": [
+        0.0,
+        20.01327859303377,
+        -2.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse27_laconia_frigate_pdc_5",
+      "translation": [
+        0.0,
+        -20.06009856724013,
+        -2.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "weapon.torpedo.light.0",
+      "translation": [
+        -5.0,
+        0.0,
+        65.30576861578265
+      ]
+    },
+    {
+      "name": "weapon.torpedo.light.1",
+      "translation": [
+        5.0,
+        0.0,
+        81.2
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        0,
+        0,
+        -80.4
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "center",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0,
+        35,
+        0
+      ]
+    }
+  ],
+  "torpedo_ports": {
+    "light": [
+      {
+        "position": [
+          -5.0,
+          0.0,
+          65.30576861578265
+        ],
+        "mesh_point": "weapon.torpedo.light.0",
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          -5.0,
+          0.0,
+          64.10576861578265
+        ]
+      },
+      {
+        "position": [
+          5.0,
+          0.0,
+          81.2
+        ],
+        "mesh_point": "weapon.torpedo.light.1",
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "measured_surface": [
+          5.0,
+          0.0,
+          80.0
+        ]
+      }
+    ]
+  },
+  "exhausts": [
+    {
+      "name": "exhaust.0",
+      "translation": [
+        0,
+        0,
+        -80.4
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "spatial": {
+    "radius": 82.39466882409928,
+    "box": {
+      "center": [
+        0.0,
+        -0.023409987103178764,
+        0.4899984741210943
+      ],
+      "extents": [
+        27.872086738936694,
+        23.3688538013161,
+        80.7099984741211
+      ]
+    },
+    "collision_rank": 1
+  },
+  "source": {
+    "path": "/home/haker/Downloads/LaconiaFrigate.stl",
+    "sha256": "ed2d71ffac13a7bc52ce2efdd48914a646d1315afde4c12c63bf0a3512d6feb6",
+    "triangles": 4294,
+    "source_rotation": [
+      [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ],
+    "source_scale": 35.011527757604895,
+    "original_center": [
+      0.0,
+      0.0,
+      0.5854132175445557
+    ]
+  },
+  "counts": {
+    "hull": 10916,
+    "pdcs": 6
+  },
+  "runtime": "NOT RUN",
+  "adaptations": [
+    "Unnamed fan Laconian frigate; no unverified canonical class identity.",
+    "Exactly six native biaxial40mm PDC rigs; private Laconian label is a mod adaptation.",
+    "Scirocco-style charcoal/orange livery, original small sensor/heat-management details.",
+    "Source closed engine stub replaced with native machinery and continuous capped collar."
+  ],
+  "wine_prefix_used_in_place": "/run/media/haker/NVME 2/expanse-workers/tachi-one-pdc/build/polish-b/proton-prefix",
+  "preview_scope": "Actual compiled mesh and DDS; diffuse software render. Specular lighting, animated targeting and gameplay not tested.",
+  "skin_contract": {
+    "unit_mesh": {
+      "mesh": "expanse27_laconia_frigate_hull",
+      "shader": "ship",
+      "is_shadow_blocker": true
+    },
+    "child_mesh_alias_bindings": {
+      "map": [
+        {
+          "mesh_alias_name": "expanse27_laconia_frigate_pdc_base",
+          "mesh_definition": {
+            "mesh": "expanse27_laconia_frigate_pdc_base",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        },
+        {
+          "mesh_alias_name": "expanse27_laconia_frigate_pdc_barrel",
+          "mesh_definition": {
+            "mesh": "expanse27_laconia_frigate_pdc_barrel",
+            "shader": "ship",
+            "is_shadow_blocker": true
+          }
+        }
+      ]
+    },
+    "exhaust_effects": {
+      "particle_effects": [
+        {
+          "particle_effect": "expanse12_raptor_idle_plume"
+        }
+      ]
+    },
+    "phase_note": "Use ordinary native hyperspace effects; no absolute multi-nozzle phase effect."
+  },
+  "weapon_mounts": [
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_0",
+      "weapon_position": [
+        13.672382491106031,
+        0.0,
+        35.0
+      ],
+      "up": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -156.0,
+        "max_angle": 156.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -19.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_1",
+      "weapon_position": [
+        -17.38666553375823,
+        0.0,
+        35.0
+      ],
+      "up": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -154.0,
+        "max_angle": 154.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_2",
+      "weapon_position": [
+        24.539921517757545,
+        0.0,
+        -25.0
+      ],
+      "up": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_3",
+      "weapon_position": [
+        -24.539921517757545,
+        0.0,
+        -25.0
+      ],
+      "up": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_4",
+      "weapon_position": [
+        0.0,
+        20.01327859303377,
+        -2.0
+      ],
+      "up": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_5",
+      "weapon_position": [
+        0.0,
+        -20.06009856724013,
+        -2.0
+      ],
+      "up": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "forward": [
+        0,
+        0,
+        1
+      ],
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    }
+  ],
+  "epstein_drive_pass": {
+    "donor": "expanse03_hull (existing MCRN Tachi)",
+    "connections": [
+      {
+        "root_z": -60.0,
+        "neck_z": -65.58700861758791,
+        "neck_radius": 6.111277032053278,
+        "closed_shell": true,
+        "root_crosses_measured_surface": true,
+        "opening_center": [
+          0,
+          0,
+          -80.0
+        ],
+        "diameter": 22.0,
+        "source_mesh": "expanse03_hull",
+        "source_part": "Connected Tachi bell component 192 and contained engine details",
+        "source_uvs_preserved": true
+      }
+    ],
+    "native_triangles": 1581,
+    "surface_uv_repeat_game_units": 36.0,
+    "source_texture": "Generated thermal armor tile base color guided by user Paul Kiesling/show references",
+    "stage": "compiled; offline ray checks and diffuse previews complete"
+  },
+  "compiled": true,
+  "compiled_meshes": [
+    "expanse27_laconia_frigate_hull"
+  ],
+  "used_materials": [
+    "expanse10_donnager_pdc_barrel_mcrn_tachi_material",
+    "expanse10_donnager_pdc_base_mcrn_tachi_material",
+    "expanse27_laconia_frigate_hull_armor",
+    "expanse27_laconia_frigate_hull_dark",
+    "expanse27_laconia_frigate_hull_orange",
+    "expanse27_laconia_frigate_hull_rim",
+    "expanse27_laconia_frigate_hull_tachi_drive_1",
+    "expanse27_laconia_frigate_hull_tachi_drive_2"
+  ],
+  "arc_checks": [
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_0",
+      "rays": 188739,
+      "blocked": 0,
+      "yaw_arc": {
+        "min_angle": -156.0,
+        "max_angle": 156.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -19.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_1",
+      "rays": 219699,
+      "blocked": 0,
+      "yaw_arc": {
+        "min_angle": -154.0,
+        "max_angle": 154.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_2",
+      "rays": 256671,
+      "blocked": 0,
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_3",
+      "rays": 256671,
+      "blocked": 0,
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_4",
+      "rays": 256671,
+      "blocked": 0,
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    },
+    {
+      "mesh_point": "child.expanse27_laconia_frigate_pdc_5",
+      "rays": 256671,
+      "blocked": 0,
+      "yaw_arc": {
+        "min_angle": -180.0,
+        "max_angle": 180.0
+      },
+      "pitch_arc": {
+        "min_angle": -85.0,
+        "max_angle": -7.0
+      }
+    }
+  ],
+  "compiled_assembled_triangles": 11460,
+  "preview_texture_limit": "Actual tile grain/fasteners and native Tachi orange drive flecks are present in textures; nearest-neighbor CPU sampling exaggerates speckles. Game filtering, normal response and specular appearance remain untested."
+}

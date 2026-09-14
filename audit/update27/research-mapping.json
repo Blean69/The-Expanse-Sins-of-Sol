@@ -1,0 +1,127 @@
+{
+  "new_procurement": [
+    {
+      "unit": "expanse27_nathan_hale",
+      "faction": "unn",
+      "tier": 2,
+      "coord": [
+        4,
+        5
+      ],
+      "research_price": {
+        "credits": 1250.0,
+        "metal": 225.0,
+        "crystal": 350.0
+      },
+      "research_seconds": 270.0,
+      "prerequisites": [
+        [
+          "trader_unlock_antiarmor_frigate"
+        ]
+      ]
+    },
+    {
+      "unit": "expanse27_munroe",
+      "faction": "unn",
+      "tier": 2,
+      "coord": [
+        4,
+        6
+      ],
+      "research_price": {
+        "credits": 1250.0,
+        "metal": 225.0,
+        "crystal": 350.0
+      },
+      "research_seconds": 270.0,
+      "prerequisites": [
+        [
+          "trader_unlock_antiarmor_frigate"
+        ]
+      ]
+    },
+    {
+      "unit": "expanse27_hephaestus",
+      "faction": "mcrn",
+      "tier": 3,
+      "coord": [
+        6,
+        0
+      ],
+      "research_price": {
+        "credits": 1750.0,
+        "metal": 325.0,
+        "crystal": 550.0
+      },
+      "research_seconds": 420.0,
+      "prerequisites": [
+        [
+          "expanse22_mcrn_naval_readiness"
+        ]
+      ]
+    },
+    {
+      "unit": "expanse27_laconia_frigate",
+      "faction": "opa",
+      "tier": 3,
+      "coord": [
+        6,
+        2
+      ],
+      "research_price": {
+        "credits": 1750.0,
+        "metal": 325.0,
+        "crystal": 550.0
+      },
+      "research_seconds": 420.0,
+      "prerequisites": [
+        [
+          "expanse21_opa_surplus"
+        ]
+      ]
+    },
+    {
+      "unit": "expanse27_dark_star",
+      "faction": "opa",
+      "tier": 3,
+      "coord": [
+        6,
+        8
+      ],
+      "research_price": {
+        "credits": 1750.0,
+        "metal": 325.0,
+        "crystal": 550.0
+      },
+      "research_seconds": 420.0,
+      "prerequisites": [
+        [
+          "expanse21_opa_surplus"
+        ]
+      ]
+    }
+  ],
+  "retained_research": {
+    "trader_max_hull_points_0": {
+      "affected": "New hull tags frigate/cruiser/capital_ship; existing eligible hulls",
+      "result": "+5% maximum hull; no shield pool"
+    },
+    "trader_autocannon_weapon_damage_0": {
+      "affected": "New PDC definitions retain point_defense tag",
+      "result": "+5% normal PDC damage"
+    },
+    "trader_improve_gauss_defense_cooldown": {
+      "affected": "New Hephaestus/Hale/Munroe rails retain rail_gun tag; existing Dark Star rail",
+      "result": "-5% cooldown, no tracking improvement"
+    },
+    "trader_missile_weapon_armor": {
+      "affected": "Existing spawned projectile identities retained by private magazines",
+      "result": "+5% torpedo hull where faction owns research"
+    },
+    "trader_missile_weapon_damage_0": {
+      "affected": "Native missile-tag weapon effects; scripted magazine payload values are not ordinary weapon cooldown/damage",
+      "result": "No new assumptions about scripted damage scaling; retained existing projectile program"
+    }
+  },
+  "evidence": "Definition/tag audit only; before/after existing/new ships NOT RUN"
+}
