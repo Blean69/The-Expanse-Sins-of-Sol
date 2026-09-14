@@ -1,0 +1,398 @@
+{
+  "status": "PASS OFFLINE ART COMPILATION; NOT INSTALLED OR RUNTIME TESTED",
+  "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25",
+  "output_game": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game",
+  "scale": 1.361384581046304,
+  "target_length": 456.521728515625,
+  "meshes": [
+    {
+      "old": "expanse19_europa_bane_hull",
+      "new": "expanse26_opa_command_hull",
+      "triangles": 100867,
+      "meshpoints": [
+        {
+          "name": "center",
+          "translation": [
+            0.0,
+            0.0,
+            -0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "above",
+          "translation": [
+            0.0,
+            81.68307486277824,
+            -0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "aura",
+          "translation": [
+            0.0,
+            -81.68307486277824,
+            -0.0
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "child.expanse19_europa_pdc_0",
+          "translation": [
+            -0.15791111291047036,
+            51.05905734226969,
+            123.54820581881118
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "child.expanse19_europa_pdc_1",
+          "translation": [
+            -0.15791111291047036,
+            -50.01309121029881,
+            123.54820581881118
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        },
+        {
+          "name": "child.expanse19_europa_pdc_2",
+          "translation": [
+            60.15314311201087,
+            32.633436513439136,
+            -159.78996011145085
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            -0.7071067390396978,
+            0.7071068233333948
+          ]
+        },
+        {
+          "name": "child.expanse19_europa_pdc_3",
+          "translation": [
+            -60.46896144287929,
+            32.633436513439136,
+            -159.78996011145085
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.7071067390396978,
+            0.7071068233333948
+          ]
+        },
+        {
+          "name": "child.expanse19_europa_pdc_4",
+          "translation": [
+            50.75196370506643,
+            -31.0394168043706,
+            3.576189614105629
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.9238795291436553,
+            -0.3826834404952711
+          ]
+        },
+        {
+          "name": "child.expanse19_europa_pdc_5",
+          "translation": [
+            -51.06778203593484,
+            -31.0394168043706,
+            3.576189614105629
+          ],
+          "rotation": [
+            0.0,
+            0.0,
+            0.9238795291436553,
+            0.3826834404952711
+          ]
+        },
+        {
+          "name": "weapon.torpedo.0",
+          "translation": [
+            20.262856953625338,
+            -0.5503129741439037,
+            146.2242663007874
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "weapon.torpedo.1",
+          "translation": [
+            -20.578680477763786,
+            -0.5503129741439037,
+            146.2242663007874
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "weapon.boarding.0",
+          "translation": [
+            20.262856953625338,
+            -0.5503129741439037,
+            146.2242663007874
+          ],
+          "rotation": [
+            0.0,
+            -0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "name": "exhaust.0",
+          "translation": [
+            -0.15791111291047036,
+            6.852216009874752,
+            -209.3103242470102
+          ],
+          "rotation": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "exhaust.1",
+          "translation": [
+            43.38937908213044,
+            32.12291729554677,
+            -227.68901609113527
+          ],
+          "rotation": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "exhaust.2",
+          "translation": [
+            -43.78177996962574,
+            32.02081241331429,
+            -227.68901609113527
+          ],
+          "rotation": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "name": "exhaust.3",
+          "translation": [
+            -0.15791111291047036,
+            -43.43392695252311,
+            -227.68901609113527
+          ],
+          "rotation": [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "source_attribute_max_error": 8.266047021312054e-06,
+      "winding_flips": 35050,
+      "sources_sha256": {
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse19_europa_bane_hull.mesh": "a8f0f86db47acb7242e9fcdd33b7f1b4e9f579852fd394ababfe8302196b7e11",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_09.mesh_material": "376166b73e17142e33b9f5e7b405807874e5daf03c8777d5960663ffd1b139ff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_09_clr.dds": "59fe9ba2ea5c8864f1ca6e31e9b2e657fb7604f7d25e8f9eaa5c660563d39551",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_09_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_09_nrm.dds": "2f923f8e582dfad8c7a8fef6410692ea6bb3dc23cd8b22aee8543a2a2a362003",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_09_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_01.mesh_material": "8f159f5bc7f1cb5dce38f30e0518d7c147cca308b59d0ec3e4e391f554bbd187",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_01_clr.dds": "59fe9ba2ea5c8864f1ca6e31e9b2e657fb7604f7d25e8f9eaa5c660563d39551",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_01_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_01_nrm.dds": "2f923f8e582dfad8c7a8fef6410692ea6bb3dc23cd8b22aee8543a2a2a362003",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_01_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_02.mesh_material": "6f30e6ba65a684df11b8c1923f777a2160ffd87e2701bf89cfc97245f277e685",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_02_clr.dds": "fc52f821eef8e92ec24f9c032af42f3adac142183a6967a105be736ade8dc74d",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_02_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_02_nrm.dds": "8ca84921106b1e057e7fdde83e23f811a38dfdbdebb05515d601322042825306",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_02_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_04.mesh_material": "720884dacde310762d2ede6f358680d1b34a662308916bbbb5f101fe107f0166",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_04_clr.dds": "3b81bdbfe1dfcfa35faa201bda4165888ecf9aa9bb8cf006f811c3c8e4fda123",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_04_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_04_nrm.dds": "276e9c1a874ba7b9b63a791073647d1570ed409a3c018ebb1b552ec196991c02",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_04_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_05.mesh_material": "0f173ddecd3bc64a55f874c8071ccfc8d548b9ed04e74864cf5f9e3fba50574a",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_05_clr.dds": "b9489937e4198a64df06e00dbd0cca3b8e366d5e9c5ae29b4b45a764f82af938",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_05_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_05_nrm.dds": "e0e614ccb74122da77941f7a8f7875929834a2105fe55d1e0fad5f60e3a46183",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_05_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_06.mesh_material": "fbde22e38b51d8f7378827e84021fbdda83229fa433a93ee1cafc726da9932d0",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_06_clr.dds": "55026ae4106f7466e1a666a6138ae1576495cb5186c58caeae1bc37fdd40672b",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_06_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_06_nrm.dds": "831f15f962db4aa51539917c91a6c430e8cdacda04675c65532d8d559c1f4040",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_06_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_07.mesh_material": "7deeb421a80d03474a340dcf0d750ae611eadc5047234798ed142c57ee76c3ae",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_07_clr.dds": "1fa81c96f8cfefe5157936fed29d9e841b74b0a9b4ec718e72f7621cfd472dfe",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_07_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_07_nrm.dds": "831f15f962db4aa51539917c91a6c430e8cdacda04675c65532d8d559c1f4040",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_07_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_08.mesh_material": "e7a328561044732bb455445a43dc61bf5fda8fead5c1c9bafa8ba42ed790053a",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_08_clr.dds": "6f26cb0228d6da9021daa0aba07bde5a588ee282b8e7c6f81ce5175588616807",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_08_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_08_nrm.dds": "831f15f962db4aa51539917c91a6c430e8cdacda04675c65532d8d559c1f4040",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_08_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_10.mesh_material": "9a0e3e8b4a7a7846da07dbcd2b071d3e806e6fbe4162b6da29742e0bccd5d16e",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_10_clr.dds": "acb0a12e20fcf8e4f01aa11fa582dc6d99df4e1fc61c26a83fab25f2af1068a2",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_10_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_10_nrm.dds": "51722e14ca165b11a643453479ae79f61de4a3ef65aa83c8bcba1e823da20dba",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_10_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_15.mesh_material": "c689d8c6ddec30bd0bee7ccdb4ab2424d5d3ec4026af48a18ef2d1b1c1704b60",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_15_clr.dds": "f52f5eefe422994e242681d6f7b56be6fa2a338ad09dd5b80b0b449be60cbed5",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_15_orm.dds": "68df92aa9988c139b533d314c843a58e1405bff636891c06039c437262e2baaf",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_15_nrm.dds": "778f124d5def3ce1d3db6ae50626bbfb17504c943af16ffc54128eeaf972c877",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_15_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_material_17.mesh_material": "039ad352f8acb81c4868c4b5c66e86edc6d842fd48d978970e9b539081fce1e0",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_17_clr.dds": "a81631001429a4e5fc1cc2262fb961c98b68b889e3df70434bf9340c7afdcba3",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_17_orm.dds": "6e459c96e89c66e9525c5447eca5f15adbaf4e57646dc6dddb3ac3f0efd39d25",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_17_nrm.dds": "aa0ef9ea9b138c0ed2f1adbb0d16a0de3a8ad0f0568a8db879b6d9f47dd4103b",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_material_17_msk.dds": "f7621a23d4c1378b60fa27430070e424715311481a5023354410d6e6dcd292a4",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_bane_hull_expanse19_europa_support.mesh_material": "2277f913bd2148f15791a336ede861cd662aaea3689c70fc466a686e0951c642",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_support_base_color_texture.dds": "6750496fd2811ee25f049cc55acab176818932aac59936e8021f5eec5bcbaf9e",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_support_occlusion_roughness_metallic_texture.dds": "3899064d5192d3dcaa405f26750ffefd3ebbc4a06f9d81a61b44fdb23fccd4cd",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_support_normal_texture.dds": "87f9ad63af85edc09acfbbbc615f372863dabf042a2dc20f870bc2b09c797fbd",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_support_mask_texture.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf"
+      },
+      "checks": {
+        "triangles_retained": true,
+        "meshpoint_positions_rotations_match": true,
+        "official_facing_grid_rebuilt": true,
+        "tangent_only_postcompile_patch": true,
+        "texture_aliases_resolve": true
+      }
+    },
+    {
+      "old": "expanse19_europa_pdc_base",
+      "new": "expanse26_opa_command_pdc_base",
+      "triangles": 138,
+      "meshpoints": [],
+      "source_attribute_max_error": 3.138828861162081e-07,
+      "winding_flips": 138,
+      "sources_sha256": {
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse19_europa_pdc_base.mesh": "c4b44a1b2730056b72041bbabdb08e3970acbbbcd462c5dba4b47ba4b4b53f46",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_pdc_base_mcrn_tachi_material.mesh_material": "3b7c0426c2492587fa982c27d4b7d65678f74743373bc18cc639f267f0276406",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_pdc_base_color_texture.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_pdc_occlusion_roughness_metallic_texture.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_pdc_normal_texture.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_pdc_mask_texture.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+      },
+      "checks": {
+        "triangles_retained": true,
+        "meshpoint_positions_rotations_match": true,
+        "official_facing_grid_rebuilt": true,
+        "tangent_only_postcompile_patch": true,
+        "texture_aliases_resolve": true
+      }
+    },
+    {
+      "old": "expanse19_europa_pdc_barrel",
+      "new": "expanse26_opa_command_pdc_barrel",
+      "triangles": 539,
+      "meshpoints": [],
+      "source_attribute_max_error": 6.403586143018283e-07,
+      "winding_flips": 537,
+      "sources_sha256": {
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/meshes/expanse19_europa_pdc_barrel.mesh": "87828cae23fd21425944711719fc8bed6201ebd4f944f7c736e20417eac316df",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/mesh_materials/expanse19_europa_pdc_barrel_mcrn_tachi_material.mesh_material": "3b7c0426c2492587fa982c27d4b7d65678f74743373bc18cc639f267f0276406",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_pdc_base_color_texture.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_pdc_occlusion_roughness_metallic_texture.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_pdc_normal_texture.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/textures/expanse19_europa_pdc_mask_texture.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f"
+      },
+      "checks": {
+        "triangles_retained": true,
+        "meshpoint_positions_rotations_match": true,
+        "official_facing_grid_rebuilt": true,
+        "tangent_only_postcompile_patch": true,
+        "texture_aliases_resolve": true
+      }
+    }
+  ],
+  "effect_sources_sha256": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/effects/expanse19_europa_bane_idle_plume.particle_effect": "6a476a159833218a2767709ad49c30a052813777b05279d7224d76129a49e626",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/effects/expanse19_europa_bane_phase_plume.particle_effect": "e6f1d920a53cc7c99019485829cd7065b314086fe2e71bea36d134231bec119e"
+  },
+  "limitations": [
+    "Uniform derivative preserves the accepted shape and full 100867 hull triangles; no new sculpted detail.",
+    "Preview renderer is an offline material and scale check, not engine culling or aiming evidence."
+  ],
+  "files": {
+    "effects/expanse26_opa_command_idle_plume.particle_effect": "2b1aa0c4349c89335a74b9c821e741a8a1c40b3c40cb9076242db2a733e8e048",
+    "effects/expanse26_opa_command_phase_plume.particle_effect": "017bcc2420e96e6e7fd7a690aa28eef584622912776b4f881ba671ea81644899",
+    "mesh_materials/expanse26_opa_command_hull_material_00.mesh_material": "376166b73e17142e33b9f5e7b405807874e5daf03c8777d5960663ffd1b139ff",
+    "mesh_materials/expanse26_opa_command_hull_material_01.mesh_material": "8f159f5bc7f1cb5dce38f30e0518d7c147cca308b59d0ec3e4e391f554bbd187",
+    "mesh_materials/expanse26_opa_command_hull_material_02.mesh_material": "6f30e6ba65a684df11b8c1923f777a2160ffd87e2701bf89cfc97245f277e685",
+    "mesh_materials/expanse26_opa_command_hull_material_03.mesh_material": "720884dacde310762d2ede6f358680d1b34a662308916bbbb5f101fe107f0166",
+    "mesh_materials/expanse26_opa_command_hull_material_04.mesh_material": "0f173ddecd3bc64a55f874c8071ccfc8d548b9ed04e74864cf5f9e3fba50574a",
+    "mesh_materials/expanse26_opa_command_hull_material_05.mesh_material": "fbde22e38b51d8f7378827e84021fbdda83229fa433a93ee1cafc726da9932d0",
+    "mesh_materials/expanse26_opa_command_hull_material_06.mesh_material": "7deeb421a80d03474a340dcf0d750ae611eadc5047234798ed142c57ee76c3ae",
+    "mesh_materials/expanse26_opa_command_hull_material_07.mesh_material": "e7a328561044732bb455445a43dc61bf5fda8fead5c1c9bafa8ba42ed790053a",
+    "mesh_materials/expanse26_opa_command_hull_material_08.mesh_material": "9a0e3e8b4a7a7846da07dbcd2b071d3e806e6fbe4162b6da29742e0bccd5d16e",
+    "mesh_materials/expanse26_opa_command_hull_material_09.mesh_material": "c689d8c6ddec30bd0bee7ccdb4ab2424d5d3ec4026af48a18ef2d1b1c1704b60",
+    "mesh_materials/expanse26_opa_command_hull_material_10.mesh_material": "039ad352f8acb81c4868c4b5c66e86edc6d842fd48d978970e9b539081fce1e0",
+    "mesh_materials/expanse26_opa_command_hull_material_11.mesh_material": "2277f913bd2148f15791a336ede861cd662aaea3689c70fc466a686e0951c642",
+    "mesh_materials/expanse26_opa_command_pdc_barrel_material_00.mesh_material": "3b7c0426c2492587fa982c27d4b7d65678f74743373bc18cc639f267f0276406",
+    "mesh_materials/expanse26_opa_command_pdc_base_material_00.mesh_material": "3b7c0426c2492587fa982c27d4b7d65678f74743373bc18cc639f267f0276406",
+    "meshes/expanse26_opa_command_hull.mesh": "f5cc9bd7a53d713f5f086fcfc5dbe205aebd7bc51621c2c46f8d6c952a3d3243",
+    "meshes/expanse26_opa_command_pdc_barrel.mesh": "a985f0e5220cec59c6434da1481cda9d7c625f953c103495267a52900019d4d0",
+    "meshes/expanse26_opa_command_pdc_base.mesh": "b3cf33a9100921ad0ba6813e3c074eeac70f2cb0886bdd4fa314075ae4497e60"
+  },
+  "previews": [
+    "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/command-scale-comparison.png",
+    "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/command-oblique.png"
+  ],
+  "tool_dependencies_sha256": {
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins of a Solar Empire II - Mod Tools/MeshBuilder/bin/MeshBuilder.exe": "6eb01c73910e565c7db33fef8edc95d5258c4e6ad2d71075b0e7af071dc6657d",
+    "/run/media/haker/NVME 2/expanse-workers20/abilities/tools/update24_behemoth_compile.py": "5a0671dfd9fd9bf5e9c74740e8dc6e82edb2ec38387b4afaaee11dc6ef4d33f3",
+    "/run/media/haker/NVME 2/expanse-mod/tools/update12_scirocco_common.py": "765f13b5923bde94acbf0fbb89a7e98dbc7ace24c1d5f06847dd4c21470e28d6",
+    "/run/media/haker/NVME 2/expanse-mod/tools/common.py": "1c83c2ec5483f2f299928e539019baf01137ebbb66d5185ffb9b344d8bb0437f",
+    "/run/media/haker/NVME 2/expanse-mod/tools/flight03_effects.py": "bd15e6d96b0c4ba21bbff597504244a6bc7fe76be1d9f0d2243a8d5a0169075f"
+  }
+}

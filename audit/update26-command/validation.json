@@ -1,0 +1,129 @@
+{
+  "status": "PASS OFFLINE: schemas, references, action values, exact preservation and uniform attachment checks",
+  "schemas": [
+    {
+      "file": "expanse26_opa_command_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse21_opa_command.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse21_opa_command.unit",
+          "source_sha256": "7476bd89b53c429f4f1e44ff8bf0937cc19945c3957b914fc4d136e40f7845cf"
+        }
+      ]
+    },
+    {
+      "file": "expanse21_opa_command.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    }
+  ],
+  "actions": {
+    "abilities": 5,
+    "buffs": 4,
+    "torpedoes": 2
+  },
+  "action_values": [
+    {
+      "ability": "expanse15_scirocco_engineering_teams",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/validation-view/entities/expanse15_scirocco_engineering_teams.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/validation-view/entities/expanse15_scirocco_engineering_teams.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse26_opa_command_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/validation-view/entities/expanse26_opa_command_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/validation-view/entities/expanse26_opa_command_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse06_amun_boarding",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/validation-view/entities/expanse21_opa_override_codes_boarding.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/validation-view/entities/expanse20_boarding_target_lock.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse11_no_shields",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/validation-view/entities/expanse11_no_shields.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/validation-view/entities/expanse11_no_shields.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse21_opa_command_colony_module",
+      "ADS": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/validation-view/entities/expanse21_opa_command_colony_module.action_data_source",
+      "reachable_buffs": [],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "checks": {
+    "regular_Europa_untouched": true,
+    "all_shared_magazine_programs_untouched": true,
+    "private_magazine_only_ID_and_position_differences": true,
+    "PDC_combat_fields_unchanged": true,
+    "PDC_geometry_and_offsets_uniformly_scaled": true,
+    "all_weapon_meshpoints_exist": true,
+    "colony_and_boarding_meshpoints_exist": true,
+    "physics_and_progression_unchanged": true,
+    "hull_armor_exactly_doubled_at_all_levels": true,
+    "direct_colony_once_no_item_recommendation": true,
+    "native_colony_program_unmodified": true
+  },
+  "runtime": {
+    "Game load, command-bar placement and native colonization execution": "NOT RUN",
+    "Legacy saves with an already-fitted colony item may retain an extra ability acquisition path; fresh ships use direct ability only": "NOT RUN",
+    "Engine turret attachment, exhaust visibility, collision, save/reload and multiplayer": "NOT RUN"
+  }
+}

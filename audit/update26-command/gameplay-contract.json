@@ -1,0 +1,91 @@
+{
+  "status": "PRIVATE VALIDATED FRAGMENT; PLAYER ITEM REMOVAL REQUIRED",
+  "unit_id": "expanse21_opa_command",
+  "base": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25",
+  "art_contract": "/run/media/haker/NVME 2/expanse-workers20/abilities/audit/update26-command/art-contract.json",
+  "art_directory": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game",
+  "art_files": {
+    "effects/expanse26_opa_command_idle_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/effects/expanse26_opa_command_idle_plume.particle_effect",
+    "effects/expanse26_opa_command_phase_plume.particle_effect": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/effects/expanse26_opa_command_phase_plume.particle_effect",
+    "mesh_materials/expanse26_opa_command_hull_material_00.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_00.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_01.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_01.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_02.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_02.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_03.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_03.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_04.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_04.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_05.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_05.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_06.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_06.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_07.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_07.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_08.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_08.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_09.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_09.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_10.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_10.mesh_material",
+    "mesh_materials/expanse26_opa_command_hull_material_11.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_hull_material_11.mesh_material",
+    "mesh_materials/expanse26_opa_command_pdc_barrel_material_00.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_pdc_barrel_material_00.mesh_material",
+    "mesh_materials/expanse26_opa_command_pdc_base_material_00.mesh_material": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/mesh_materials/expanse26_opa_command_pdc_base_material_00.mesh_material",
+    "meshes/expanse26_opa_command_hull.mesh": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/meshes/expanse26_opa_command_hull.mesh",
+    "meshes/expanse26_opa_command_pdc_barrel.mesh": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/meshes/expanse26_opa_command_pdc_barrel.mesh",
+    "meshes/expanse26_opa_command_pdc_base.mesh": "/run/media/haker/NVME 2/expanse-workers20/abilities/build/update26-command/game/meshes/expanse26_opa_command_pdc_base.mesh"
+  },
+  "source_definitions_sha256": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse21_opa_command.unit": "7476bd89b53c429f4f1e44ff8bf0937cc19945c3957b914fc4d136e40f7845cf",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_bane.unit": "9be51b5daabe529ee0de2d6047d4bc9dbdb49df0c71d0056b463d8341ca094fe",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse12_scirocco.unit": "7c48f03a0961d6ccaa25aa90182d94a00908d09434140117bceb170a72ba23fb",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_0.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_1.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_2.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_3.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_4.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_pdc_5.weapon": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_magazine.ability": "f6fd19c1e7447d0bf86e9c78f20e98359817489b7b0e531e1296042522057df5",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_magazine.buff": "5bfea1fbdcbe70062d7dae2ddbd76040e4b63583ead239368b12e0882fc28be5",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse19_europa_magazine.action_data_source": "dcbd64bbd3eb3e1e6be741f2085b8c27231f6150b42a453d991fee97e9de9c5b",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse21_opa_command.unit_skin": "e54dce3448483823fbff9728e5a4e009df5e094bcd98b43dfe7ed19349a34bc9",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update25/entities/expanse21_opa_command_colony_module.ability": "0eddadaa05fb0b6b4155ab42d7e8c5b6ba359e0ef696c06d5cec4f9453f4cf14"
+  },
+  "player_recipes": {
+    "all_players_exposing_command_colony_item": {
+      "ship_components_remove": [
+        "expanse21_opa_command_colony_module"
+      ],
+      "note": "Remove from every player item availability list and any recommendation. Do not remove its ability or action data source: command references that native program directly. Preserve the old item definition for old-save resolution."
+    }
+  },
+  "stats": {
+    "hull_level_1": 5000.0,
+    "armor_level_1": 3000.0,
+    "price": {
+      "credits": 4800.0,
+      "metal": 975.0,
+      "crystal": 600.0
+    },
+    "build_time": 100.0,
+    "supply": 150,
+    "scale": 1.361384581046304,
+    "length": 456.521728515625
+  },
+  "preserved": [
+    "regular Europa unit/art",
+    "physics and movement",
+    "build time and fleet supply",
+    "six PDC damage/range/tracking/arcs and target filters",
+    "shared magazine source files and entire cadence/damage/fuel/targeting semantics",
+    "repair and capture abilities/actions/guards",
+    "native progression and regeneration",
+    "accepted color textures and full triangle detail"
+  ],
+  "private_derivations": {
+    "magazine": "expanse26_opa_command_magazine",
+    "pdcs": [
+      "expanse26_opa_command_pdc_0",
+      "expanse26_opa_command_pdc_1",
+      "expanse26_opa_command_pdc_2",
+      "expanse26_opa_command_pdc_3",
+      "expanse26_opa_command_pdc_4",
+      "expanse26_opa_command_pdc_5"
+    ]
+  },
+  "untested": [
+    "Game load, command-bar placement and native colonization execution",
+    "Legacy saves with an already-fitted colony item may retain an extra ability acquisition path; fresh ships use direct ability only",
+    "Engine turret attachment, exhaust visibility, collision, save/reload and multiplayer"
+  ]
+}
