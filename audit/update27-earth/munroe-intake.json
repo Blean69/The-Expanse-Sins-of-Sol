@@ -1,0 +1,20 @@
+{
+  "archive": "/home/haker/Downloads/munroe.zip",
+  "archive_sha256": "bfffa156a7875a036b9e662f2ae143f016c559653aa387ed964b48cad89a1b73",
+  "member": "monroe.stl",
+  "source_sha256": "32f94823ad688da9d0b1a91e753d413170c68ecfb3c97afeca5d7367e3b549d7",
+  "source_triangles": 608432,
+  "removed_degenerates": 8,
+  "bounds_min": [
+    -66.93894958496094,
+    -59.842193603515625,
+    1.52587890625e-05
+  ],
+  "bounds_max": [
+    53.923057556152344,
+    59.84181213378906,
+    386.5160217285156
+  ],
+  "stl_has_uv": false,
+  "stl_has_materials": false
+}

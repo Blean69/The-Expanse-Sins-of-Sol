@@ -1,0 +1,134 @@
+{
+  "ray_backend": "PASS: both windings, both ray directions, miss and range cutoff",
+  "ships": {
+    "expanse27_nathan_hale": {
+      "pdc": [
+        {
+          "weapon": "expanse27_nathan_hale_pdc_0",
+          "samples": 33345,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_1",
+          "samples": 33345,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_2",
+          "samples": 133209,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_3",
+          "samples": 87723,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_4",
+          "samples": 256671,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_5",
+          "samples": 256671,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_6",
+          "samples": 65403,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_7",
+          "samples": 71595,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_8",
+          "samples": 219699,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_9",
+          "samples": 219699,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_10",
+          "samples": 236313,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_pdc_11",
+          "samples": 231075,
+          "blocked": 0
+        }
+      ],
+      "rail": [
+        {
+          "weapon": "expanse27_nathan_hale_rail_0",
+          "samples": 50,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_nathan_hale_rail_1",
+          "samples": 50,
+          "blocked": 0
+        }
+      ],
+      "limits": "Stationary hull/resting rails only; excludes moving sibling PDCs. Sampled angles, not continuous proof."
+    },
+    "expanse27_munroe": {
+      "pdc": [
+        {
+          "weapon": "expanse27_munroe_pdc_0",
+          "samples": 256671,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_munroe_pdc_1",
+          "samples": 256671,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_munroe_pdc_2",
+          "samples": 256671,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_munroe_pdc_3",
+          "samples": 250173,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_munroe_pdc_4",
+          "samples": 256671,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_munroe_pdc_5",
+          "samples": 256671,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_munroe_pdc_6",
+          "samples": 256671,
+          "blocked": 0
+        },
+        {
+          "weapon": "expanse27_munroe_pdc_7",
+          "samples": 256671,
+          "blocked": 0
+        }
+      ],
+      "rail": [
+        {
+          "weapon": "expanse27_munroe_rail_0",
+          "samples": 25,
+          "blocked": 0
+        }
+      ],
+      "limits": "Stationary hull/resting rails only; excludes moving sibling PDCs. Sampled angles, not continuous proof."
+    }
+  }
+}

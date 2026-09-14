@@ -1,0 +1,313 @@
+{
+  "status": "PASS OFFLINE",
+  "schemas": [
+    {
+      "file": "expanse27_nathan_hale_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_9.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_10.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_11.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_rail_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_rail_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse15_truman.unit",
+          "source_sha256": "75fc9fb0885b34526be9a8e5140399aa7e1a47587392b690e24d60982cbff9cd"
+        }
+      ]
+    },
+    {
+      "file": "expanse27_nathan_hale.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_rail_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/entities/expanse23_murphy.unit",
+          "source_sha256": "977b3dec434446eaaecf2f841bd838cfa0139b74da329a680bec5759f4064551"
+        }
+      ]
+    },
+    {
+      "file": "expanse27_munroe.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_hud_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_main_view_icon_sub_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_tooltip_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_hud_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_main_view_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_main_view_icon_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_main_view_icon_sub_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_main_view_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_hud_icon.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_hud_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_tooltip_picture.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_main_view_icon_selected.brush",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    }
+  ],
+  "actions": {
+    "expanse27_nathan_hale": {
+      "abilities": 2,
+      "buffs": 2,
+      "torpedoes": 4
+    },
+    "expanse27_munroe": {
+      "abilities": 2,
+      "buffs": 2,
+      "torpedoes": 6
+    }
+  },
+  "action_values": {
+    "expanse27_nathan_hale": [
+      {
+        "ability": "expanse27_nathan_hale_magazine",
+        "ADS": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/validation-view/entities/expanse27_nathan_hale_magazine.action_data_source",
+        "reachable_buffs": [
+          "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/validation-view/entities/expanse27_nathan_hale_magazine.buff"
+        ],
+        "status": "PASS typed scalar/filter/modifier references"
+      },
+      {
+        "ability": "expanse11_no_shields",
+        "ADS": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/validation-view/entities/expanse11_no_shields.action_data_source",
+        "reachable_buffs": [
+          "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/validation-view/entities/expanse11_no_shields.buff"
+        ],
+        "status": "PASS typed scalar/filter/modifier references"
+      }
+    ],
+    "expanse27_munroe": [
+      {
+        "ability": "expanse27_munroe_magazine",
+        "ADS": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/validation-view/entities/expanse27_munroe_magazine.action_data_source",
+        "reachable_buffs": [
+          "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/validation-view/entities/expanse27_munroe_magazine.buff"
+        ],
+        "status": "PASS typed scalar/filter/modifier references"
+      },
+      {
+        "ability": "expanse11_no_shields",
+        "ADS": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/validation-view/entities/expanse11_no_shields.action_data_source",
+        "reachable_buffs": [
+          "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/validation-view/entities/expanse11_no_shields.buff"
+        ],
+        "status": "PASS typed scalar/filter/modifier references"
+      }
+    ]
+  },
+  "checks": [
+    "all source definitions unchanged",
+    "native schemas and references",
+    "zero opposed compiled winding",
+    "only tangent bytes repaired; native triangle grids preserved",
+    "rig meshpoints match unit origins",
+    "85 DPS per PDC",
+    "60-second rails with zero elevation tracking",
+    "five Hale and four Munroe plume origins",
+    "all owned art hashes match",
+    "no new capture system or shield pool"
+  ],
+  "pdc_clearance": "Separate compiled-clearance.json: 1-degree grid plus 3-degree envelope against stationary hull and rails; moving sibling mounts excluded",
+  "files": 124,
+  "untested": [
+    "game load and research/build access",
+    "live PDC/rail acquisition and rig interpolation",
+    "actual plume orientation/scale and shader appearance",
+    "save/reload",
+    "multiplayer"
+  ]
+}

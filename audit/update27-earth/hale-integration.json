@@ -1,0 +1,1708 @@
+{
+  "status": "COMPILED PRIVATE ART; RUNTIME UNTESTED",
+  "ID": "expanse27_nathan_hale",
+  "game_output": "/run/media/haker/NVME 2/expanse-workers27/earth/build/update27-earth/game",
+  "source": {
+    "archive": "/home/haker/Downloads/leonidas-class-the-expanse-model_files.zip",
+    "archive_sha256": "f68ab4058581434ce4154f65e071e40264b39a09ee7e26ea47e8ae0d1703db67",
+    "member": "nathanhale.stl",
+    "source_sha256": "e941b3b0ea15f211fef4eeed206129551fd8d7e3e6bf3c66a39d97a5cd442e89",
+    "source_triangles": 22306,
+    "removed_degenerates": 0,
+    "bounds_min": [
+      -3.6733789443969727,
+      -6.0578999519348145,
+      2.220446049250313e-15
+    ],
+    "bounds_max": [
+      3.6733789443969727,
+      6.0578999519348145,
+      29.380849838256836
+    ],
+    "stl_has_uv": false,
+    "stl_has_materials": false
+  },
+  "source_to_game": {
+    "center": [
+      0.0,
+      0.0,
+      14.69042491912842
+    ],
+    "scale": 20.97379088319869,
+    "length_metres": 270,
+    "units_per_metre": 2.2823251869565215,
+    "axis": "source +Z bow, +Y up; original silhouette preserved"
+  },
+  "surgeries": [
+    {
+      "axis": 1,
+      "sign": -1,
+      "plane": 5.01,
+      "source_z_window": [
+        7.8,
+        15.4
+      ],
+      "source_faces_touched": 1049,
+      "cap_loops": [
+        {
+          "center": [
+            -3.853748607585905e-09,
+            -5.009999999999996,
+            11.04439561120395
+          ],
+          "vertices": 58,
+          "bounds": [
+            [
+              -0.8522247672080994,
+              -5.01,
+              10.188403129577637
+            ],
+            [
+              0.8572499752044678,
+              -5.01,
+              11.900388717651367
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "axis": 1,
+      "sign": 1,
+      "plane": 5.01,
+      "source_z_window": [
+        7.8,
+        15.4
+      ],
+      "source_faces_touched": 1049,
+      "cap_loops": [
+        {
+          "center": [
+            -3.465337832778424e-09,
+            5.009999999999996,
+            11.044395615347
+          ],
+          "vertices": 58,
+          "bounds": [
+            [
+              -0.8522500509400421,
+              5.01,
+              10.188416586200043
+            ],
+            [
+              0.857249449555155,
+              5.01,
+              11.900401092938043
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "optimization": {
+    "simplified": false
+  },
+  "donors": {
+    "expanse27_nathan_hale_pdc_base": {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse15_truman_pdc_base.mesh",
+      "sha256": "11e2c630970cfc3f47094223b99f2d9faee10fdaa4462be504327bcce86b5c66",
+      "scale": 0.65,
+      "materials": [
+        "expanse15_truman_pdc_base_mcrn_tachi_material"
+      ]
+    },
+    "expanse27_nathan_hale_pdc_barrel": {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse15_truman_pdc_barrel.mesh",
+      "sha256": "69c706d08ecf00a5fec1da55d9173e6f2bd3b3075c0c26f815a903458a18358f",
+      "scale": 0.65,
+      "materials": [
+        "expanse15_truman_pdc_barrel_mcrn_tachi_material"
+      ]
+    },
+    "expanse27_nathan_hale_rail_mesh": {
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/meshes/expanse15_truman_rail_0.mesh",
+      "sha256": "04237a98375ad62a28c8e2efcb9cfc5f46b39ef7c0cfca565e6277fd01b7a9c2",
+      "scale": 0.75,
+      "materials": [
+        "expanse15_truman_rail_0_truman_material"
+      ]
+    }
+  },
+  "hull_mesh": "expanse27_nathan_hale_hull",
+  "hull_materials": [
+    "armor",
+    "machinery",
+    "navy",
+    "steel"
+  ],
+  "meshpoints": [
+    {
+      "name": "center",
+      "translation": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "above",
+      "translation": [
+        0,
+        120.07869232482543,
+        0
+      ]
+    },
+    {
+      "name": "aura",
+      "translation": [
+        0,
+        -120.07869232482543,
+        0
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_0",
+      "translation": [
+        -42.789198468848966,
+        0.0,
+        -172.54378413391305
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_1",
+      "translation": [
+        42.78919846884898,
+        0.0,
+        -172.54378413391305
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_2",
+      "translation": [
+        0.0,
+        -63.41431293173608,
+        -172.54378413391305
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_3",
+      "translation": [
+        0.0,
+        43.856845397300845,
+        -172.54378413391305
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_4",
+      "translation": [
+        -81.04468181452725,
+        0.0,
+        12.324556009565217
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_5",
+      "translation": [
+        81.04468181452725,
+        0.0,
+        12.324556009565217
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_6",
+      "translation": [
+        -33.0,
+        -25.975289317862774,
+        12.324556009565217
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_7",
+      "translation": [
+        33.0,
+        25.975289317862746,
+        12.324556009565217
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_8",
+      "translation": [
+        -51.946086239022534,
+        0.0,
+        172.54378413391305
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_9",
+      "translation": [
+        51.946086239022534,
+        0.0,
+        172.54378413391305
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.7071067811865475,
+        -0.7071067811865475
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_10",
+      "translation": [
+        0.0,
+        -83.87530829332015,
+        172.54378413391305
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_pdc_11",
+      "translation": [
+        0.0,
+        57.492133132894,
+        172.54378413391305
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_rail_0",
+      "translation": [
+        -8.082771741192489e-08,
+        -105.07869232482535,
+        -76.47105625842148
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ]
+    },
+    {
+      "name": "child.expanse27_nathan_hale_rail_1",
+      "translation": [
+        -7.26812710443316e-08,
+        105.07869232482535,
+        -76.471056171526
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    },
+    {
+      "name": "exhaust.0",
+      "translation": [
+        -45.10651068849512,
+        -14.655993862996759,
+        -306.47903063497023
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.1",
+      "translation": [
+        45.10651068849512,
+        -14.655993862996759,
+        -306.47903063497023
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.2",
+      "translation": [
+        -27.87735672919903,
+        38.36988971604987,
+        -306.47903063497023
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.3",
+      "translation": [
+        27.87735672919903,
+        38.36988971604987,
+        -306.47903063497023
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "exhaust.4",
+      "translation": [
+        0.0,
+        -47.42779212558204,
+        -306.47903063497023
+      ],
+      "rotation": [
+        0,
+        1,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "weapon.torpedo.0",
+      "translation": [
+        -18.49072363548654,
+        0.0,
+        264.0134420469533
+      ]
+    },
+    {
+      "name": "weapon.torpedo.1",
+      "translation": [
+        18.49072363548654,
+        0.0,
+        264.0134379042649
+      ]
+    },
+    {
+      "name": "weapon.torpedo.2",
+      "translation": [
+        -15.40893636290545,
+        43.452375594406725,
+        30.811390023913045
+      ]
+    },
+    {
+      "name": "weapon.torpedo.3",
+      "translation": [
+        15.40893636290545,
+        43.45237559440674,
+        30.811390023913045
+      ]
+    },
+    {
+      "name": "weapon.torpedo.4",
+      "translation": [
+        -15.40893636290545,
+        -70.80319893437331,
+        30.811390023913045
+      ]
+    },
+    {
+      "name": "weapon.torpedo.5",
+      "translation": [
+        15.40893636290545,
+        -70.80319893437331,
+        30.811390023913045
+      ]
+    }
+  ],
+  "rigs": [
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_0",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_0",
+        "weapon_position": [
+          -42.789198468848966,
+          0.0,
+          -172.54378413391305
+        ],
+        "up": [
+          -1.0,
+          -0.0,
+          -0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -14.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -67.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        -38.789198468848966,
+        0.0,
+        -172.54378413391305
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_1",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_1",
+        "weapon_position": [
+          42.78919846884898,
+          0.0,
+          -172.54378413391305
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 14.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -67.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        38.78919846884898,
+        0.0,
+        -172.54378413391305
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_2",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_2",
+        "weapon_position": [
+          0.0,
+          -63.41431293173608,
+          -172.54378413391305
+        ],
+        "up": [
+          -0.0,
+          -1.0,
+          -0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -45.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        0.0,
+        -59.41431293173608,
+        -172.54378413391305
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_3",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_3",
+        "weapon_position": [
+          0.0,
+          43.856845397300845,
+          -172.54378413391305
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -59.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        0.0,
+        39.856845397300845,
+        -172.54378413391305
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_4",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_4",
+        "weapon_position": [
+          -81.04468181452725,
+          0.0,
+          12.324556009565217
+        ],
+        "up": [
+          -1.0,
+          -0.0,
+          -0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        -77.04468181452725,
+        0.0,
+        12.324556009565217
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_5",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_5",
+        "weapon_position": [
+          81.04468181452725,
+          0.0,
+          12.324556009565217
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        77.04468181452725,
+        0.0,
+        12.324556009565217
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_6",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_6",
+        "weapon_position": [
+          -33.0,
+          -25.975289317862774,
+          12.324556009565217
+        ],
+        "up": [
+          -0.0,
+          -1.0,
+          -0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -10.0,
+          "max_angle": 158.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -43.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        -33.0,
+        -21.975289317862774,
+        12.324556009565217
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_7",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_7",
+        "weapon_position": [
+          33.0,
+          25.975289317862746,
+          12.324556009565217
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -26.0,
+          "max_angle": 158.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -43.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        33.0,
+        21.975289317862746,
+        12.324556009565217
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_8",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_8",
+        "weapon_position": [
+          -51.946086239022534,
+          0.0,
+          172.54378413391305
+        ],
+        "up": [
+          -1.0,
+          -0.0,
+          -0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -154.0,
+          "max_angle": 154.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        -47.946086239022534,
+        0.0,
+        172.54378413391305
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_9",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_9",
+        "weapon_position": [
+          51.946086239022534,
+          0.0,
+          172.54378413391305
+        ],
+        "up": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -154.0,
+          "max_angle": 154.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        47.946086239022534,
+        0.0,
+        172.54378413391305
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_10",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_10",
+        "weapon_position": [
+          0.0,
+          -83.87530829332015,
+          172.54378413391305
+        ],
+        "up": [
+          -0.0,
+          -1.0,
+          -0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -170.0,
+          "max_angle": 170.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -9.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        0.0,
+        -79.87530829332015,
+        172.54378413391305
+      ]
+    },
+    {
+      "kind": "pdc",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_pdc_11",
+        "mesh_point": "child.expanse27_nathan_hale_pdc_11",
+        "weapon_position": [
+          0.0,
+          57.492133132894,
+          172.54378413391305
+        ],
+        "up": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -162.0,
+          "max_angle": 162.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      },
+      "contact": [
+        0.0,
+        53.492133132894,
+        172.54378413391305
+      ]
+    },
+    {
+      "kind": "rail",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_rail_0",
+        "mesh_point": "child.expanse27_nathan_hale_rail_0",
+        "weapon_position": [
+          -8.082771741192489e-08,
+          -105.07869232482535,
+          -76.47105625842148
+        ],
+        "up": [
+          0,
+          -1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -12.0,
+          "max_angle": 12.0
+        },
+        "pitch_arc": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        }
+      },
+      "turret": {
+        "type": "gimbal",
+        "gimbal_mesh": "expanse27_nathan_hale_rail_mesh",
+        "muzzle_positions": [
+          [
+            8.25,
+            6.75,
+            79.05000000000001
+          ],
+          [
+            -8.25,
+            6.75,
+            79.05000000000001
+          ]
+        ]
+      }
+    },
+    {
+      "kind": "rail",
+      "mount": {
+        "weapon": "expanse27_nathan_hale_rail_1",
+        "mesh_point": "child.expanse27_nathan_hale_rail_1",
+        "weapon_position": [
+          -7.26812710443316e-08,
+          105.07869232482535,
+          -76.471056171526
+        ],
+        "up": [
+          0,
+          1,
+          0
+        ],
+        "forward": [
+          0,
+          0,
+          1
+        ],
+        "yaw_arc": {
+          "min_angle": -12.0,
+          "max_angle": 12.0
+        },
+        "pitch_arc": {
+          "min_angle": 0.0,
+          "max_angle": 0.0
+        }
+      },
+      "turret": {
+        "type": "gimbal",
+        "gimbal_mesh": "expanse27_nathan_hale_rail_mesh",
+        "muzzle_positions": [
+          [
+            8.25,
+            6.75,
+            79.05000000000001
+          ],
+          [
+            -8.25,
+            6.75,
+            79.05000000000001
+          ]
+        ]
+      }
+    }
+  ],
+  "ports": [
+    {
+      "position": [
+        -18.49072363548654,
+        0.0,
+        264.0134420469533
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": [
+        18.49072363548654,
+        0.0,
+        264.0134379042649
+      ],
+      "forward": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": [
+        -15.40893636290545,
+        43.452375594406725,
+        30.811390023913045
+      ],
+      "forward": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": [
+        15.40893636290545,
+        43.45237559440674,
+        30.811390023913045
+      ],
+      "forward": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": [
+        -15.40893636290545,
+        -70.80319893437331,
+        30.811390023913045
+      ],
+      "forward": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "position": [
+        15.40893636290545,
+        -70.80319893437331,
+        30.811390023913045
+      ],
+      "forward": [
+        -0.0,
+        -1.0,
+        -0.0
+      ],
+      "up": [
+        0,
+        0,
+        1
+      ]
+    }
+  ],
+  "exhausts": [
+    {
+      "position": [
+        -45.10651068849512,
+        -14.655993862996759,
+        -306.47903063497023
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": [
+        45.10651068849512,
+        -14.655993862996759,
+        -306.47903063497023
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": [
+        -27.87735672919903,
+        38.36988971604987,
+        -306.47903063497023
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": [
+        27.87735672919903,
+        38.36988971604987,
+        -306.47903063497023
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    },
+    {
+      "position": [
+        0.0,
+        -47.42779212558204,
+        -306.47903063497023
+      ],
+      "forward": [
+        0,
+        0,
+        -1
+      ],
+      "up": [
+        0,
+        1,
+        0
+      ]
+    }
+  ],
+  "spatial": {
+    "box": {
+      "center": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extents": [
+        86.45945029894337,
+        120.63230884856803,
+        308.11390023913043
+      ]
+    },
+    "radius": 315.5913745596727
+  },
+  "counts": {
+    "hull": 21650,
+    "assembled": 39330,
+    "pdc_count": 12,
+    "rail_count": 2
+  },
+  "arc_checks": [
+    {
+      "weapon": "expanse27_nathan_hale_pdc_0",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -14.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -67.0
+        }
+      },
+      "samples": 8820,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_1",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 14.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -67.0
+        }
+      },
+      "samples": 8820,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_2",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -45.0
+        }
+      },
+      "samples": 34209,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_3",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -59.0
+        }
+      },
+      "samples": 22806,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_4",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "samples": 65160,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_5",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -180.0,
+          "max_angle": 180.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "samples": 65160,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_6",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -10.0,
+          "max_angle": 158.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -43.0
+        }
+      },
+      "samples": 16830,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_7",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -26.0,
+          "max_angle": 158.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -43.0
+        }
+      },
+      "samples": 18414,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_8",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -154.0,
+          "max_angle": 154.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "samples": 55800,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_9",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -154.0,
+          "max_angle": 154.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "samples": 55800,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_10",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -170.0,
+          "max_angle": 170.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -9.0
+        }
+      },
+      "samples": 60021,
+      "blocked": 0
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_11",
+      "arcs": {
+        "yaw_arc": {
+          "min_angle": -162.0,
+          "max_angle": 162.0
+        },
+        "pitch_arc": {
+          "min_angle": -85.0,
+          "max_angle": -7.0
+        }
+      },
+      "samples": 58680,
+      "blocked": 0
+    }
+  ],
+  "runtime": "NOT RUN",
+  "compile_checks": {
+    "expanse27_nathan_hale_hull": {
+      "triangles": 21650,
+      "materials": [
+        "expanse27_nathan_hale_hull_armor",
+        "expanse27_nathan_hale_hull_machinery",
+        "expanse27_nathan_hale_hull_navy",
+        "expanse27_nathan_hale_hull_steel"
+      ],
+      "source_frame_error": 1.5102108096313735e-05,
+      "opposed_winding_triangles": 0,
+      "initial_winding_flips": 0,
+      "meshpoints_unchanged": true,
+      "only_tangent_bytes_repaired": true,
+      "official_triangle_grid_and_trailer_preserved": true
+    },
+    "expanse27_nathan_hale_pdc_base": {
+      "triangles": 138,
+      "materials": [
+        "expanse27_nathan_hale_pdc_base_expanse15_truman_pdc_base_mcrn_tachi_material"
+      ],
+      "source_frame_error": 1.925917791223415e-07,
+      "opposed_winding_triangles": 0,
+      "initial_winding_flips": 0,
+      "meshpoints_unchanged": true,
+      "only_tangent_bytes_repaired": true,
+      "official_triangle_grid_and_trailer_preserved": true
+    },
+    "expanse27_nathan_hale_pdc_barrel": {
+      "triangles": 539,
+      "materials": [
+        "expanse27_nathan_hale_pdc_barrel_expanse15_truman_pdc_barrel_mcrn_tachi_material"
+      ],
+      "source_frame_error": 2.737315573441822e-07,
+      "opposed_winding_triangles": 0,
+      "initial_winding_flips": 0,
+      "meshpoints_unchanged": true,
+      "only_tangent_bytes_repaired": true,
+      "official_triangle_grid_and_trailer_preserved": true
+    },
+    "expanse27_nathan_hale_rail_mesh": {
+      "triangles": 4778,
+      "materials": [
+        "expanse27_nathan_hale_rail_mesh_expanse15_truman_rail_0_truman_material"
+      ],
+      "source_frame_error": 3.854075238662967e-06,
+      "opposed_winding_triangles": 0,
+      "initial_winding_flips": 0,
+      "meshpoints_unchanged": true,
+      "only_tangent_bytes_repaired": true,
+      "official_triangle_grid_and_trailer_preserved": true
+    }
+  },
+  "source_dependency_hashes": {
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse15_truman_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse15_truman_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/mesh_materials/expanse15_truman_rail_0_truman_material.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update26/effects/expanse15_truman_idle_plume.particle_effect": "84962541459fb493ac8bb9d9624fa5650433a5d16f916ae36789d15b0e27fa98"
+  },
+  "files": {
+    "effects/expanse27_nathan_hale_idle_plume.particle_effect": "aad761db76b4a5137743679ef1fcd7105e38ba05bca5da5d9d019f864a6d820e",
+    "effects/expanse27_nathan_hale_phase_plume.particle_effect": "805001dd24b8671b0e045bd8946e327feb097297c49671eec84676ce76b80339",
+    "mesh_materials/expanse27_nathan_hale_hull_armor.mesh_material": "2880f81f35a509025e02939dd11a8846bc88259a4dba0d55a5a2543b90195644",
+    "mesh_materials/expanse27_nathan_hale_hull_machinery.mesh_material": "5feda210f0516786b531b3dff0c11813c26df1f12337d90ceb2bbd81f1d261b8",
+    "mesh_materials/expanse27_nathan_hale_hull_navy.mesh_material": "cffc37d20e98d8212e24259090c4810b1d632274d15f80f671af3b57e81f8d0a",
+    "mesh_materials/expanse27_nathan_hale_hull_steel.mesh_material": "9987bc630fefc34fdafa0e8b758c0daf03ee6fe275aa7910375e74fa103c579a",
+    "mesh_materials/expanse27_nathan_hale_pdc_barrel_expanse15_truman_pdc_barrel_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse27_nathan_hale_pdc_base_expanse15_truman_pdc_base_mcrn_tachi_material.mesh_material": "38b973a0801328bc0fb73c33b1c5b4ab03067643fe9e64b0b468de0cbf6df7a1",
+    "mesh_materials/expanse27_nathan_hale_rail_mesh_expanse15_truman_rail_0_truman_material.mesh_material": "97c12ed38e18cdeddeaf17fc46846f4edfb353a6d42411dd21ccd038cf3283d1",
+    "meshes/expanse27_nathan_hale_hull.mesh": "2a6c82951d36d3232811cad16b70aafd51ae7f7535616a937b6d163a1e693939",
+    "meshes/expanse27_nathan_hale_pdc_barrel.mesh": "e11055aa44559058138c942c611b57711005277de33eaf55151b5dcf6620a6ce",
+    "meshes/expanse27_nathan_hale_pdc_base.mesh": "724ee04685668767ac9e2f1f4f9c3d72947eaff41d3ad007f94a5187124a17c7",
+    "meshes/expanse27_nathan_hale_rail_mesh.mesh": "2be59693928880b8fe96a6357e18e8b0e9348b100f8eaf72d9d4d875c5f47fd9",
+    "textures/expanse15_truman_material_clr.dds": "a2adda7d4e5ccff86a464d510f88da5d7ce7ea6a63f2dd6cd441ca72be0d1256",
+    "textures/expanse15_truman_material_msk.dds": "00177b0806b5bff596b5b47b6a364d3f2731c58e8e29788b4c4c6b03fd2ef802",
+    "textures/expanse15_truman_material_nrm.dds": "cbf714a6b08415ebae1f5cec906db5a932181ebdc6aba988db623de93a516a5e",
+    "textures/expanse15_truman_material_orm.dds": "d9b90c37f267c988b404b97e75718639364efa598afe68a3e61288f5d964ae9f",
+    "textures/expanse23_murphy_msk.dds": "ac95555e67e424e06eb31a9bc7e620eb7bc614c731c747741eda8570efd9fcdf",
+    "textures/expanse26_murphy_armor_nrm.dds": "b6aebcef4bf2a86d37a15b1d141e788c4de9e02f34666b285c8c882665adde00",
+    "textures/expanse26_murphy_machinery_nrm.dds": "084c180096f623ee5e03cbdf73f47f87d139b2104f75b442d0a50743c1f8bb59",
+    "textures/expanse27_unn_armor_clr.dds": "018a28e0503fc2fbe4bf09688dceee70662c15ebded28ad1dc9c1cf4708c97bc",
+    "textures/expanse27_unn_armor_orm.dds": "e8a91640b73464f7348148d18181e9f75398c1a0dc1d0c6b05b18694b6272b1d",
+    "textures/expanse27_unn_machinery_clr.dds": "408443437100daf09707b442c933425983116e2ebf51e027ded106d28760a921",
+    "textures/expanse27_unn_machinery_orm.dds": "2c04cdb9ed2cb54611b8d21ad303db2629f4c19bb6c2ac4afbd8eebf714b569b",
+    "textures/expanse27_unn_navy_clr.dds": "c4ffc327a494e4ba9dcdb4c1254e31e820e0f9dccb10afbe6202504a276a61dd",
+    "textures/expanse27_unn_navy_orm.dds": "951e3997629af815811782e7b880c24794de181ec31396508709ef6570b17722",
+    "textures/expanse27_unn_steel_clr.dds": "b020ac58984f3fa74273ea00c3bbc3fa5b7915f004acd5c589b5621430fded73",
+    "textures/expanse27_unn_steel_orm.dds": "d9a3edca46e4429c8f84332adc58a25a08df7a8de3aa525326fd9be44738b4b4",
+    "textures/mcrn_tachi_material_clr.dds": "c7af87e1e75046797bf44e00e21777e0838a35671deae7bebaacc2b295ea158a",
+    "textures/mcrn_tachi_material_msk.dds": "3919f0b2d91fd67da49a1abeab05e592277a14c5e94273e407953176cfa5a57f",
+    "textures/mcrn_tachi_material_nrm.dds": "ff1e7cbaa7f2288884c31fedf5c3b71b13f92cd63d11c8405e0c311f34d3bfe2",
+    "textures/mcrn_tachi_material_orm.dds": "dbbb36616074c743aaf978e8ca4abaa001b71ecd73312fcc5e2374f3a04f112d",
+    "textures/expanse27_nathan_hale_hud_icon.png": "5058f1b0dfa48d81d824d7054d493977326f69ee3c822dfaf04874ec75bdfc63",
+    "textures/expanse27_nathan_hale_hud_icon150.png": "65dc86463f4ae5d6bd7b28f94fc1640b273f3cdf9ed8c624cdcc5115998766c1",
+    "textures/expanse27_nathan_hale_hud_icon200.png": "815d6043a8143d1729d27a8b776076ee558e673085bd387b074fa467fe3af761",
+    "brushes/expanse27_nathan_hale_hud_icon.brush": "15b6033fd189678e5d5763b01656923721659bf78cf336e640cf42cc69a60a96",
+    "textures/expanse27_nathan_hale_hud_picture.png": "0c0af2e70f098588bf6a98d117fa821406110a79bfefcbacefc0a8eca33119ea",
+    "textures/expanse27_nathan_hale_hud_picture150.png": "14c5c4fd6bba4f0ac71d87c1e322283688b716447a8e7838ae42fef353d2f48b",
+    "textures/expanse27_nathan_hale_hud_picture200.png": "b70b379920129860fdf86a5a327e82119c28e47dc34644b9fb39189b38885add",
+    "brushes/expanse27_nathan_hale_hud_picture.brush": "a7a1b0bc0cf88a7f2b03d8677b87963180ec29ff91df7f577db5c2f2aa368ae6",
+    "textures/expanse27_nathan_hale_tooltip_picture.png": "5dc0c5f6962b59a641d5f555edbbf9446713eb9245898bf515b965eff8c460c6",
+    "textures/expanse27_nathan_hale_tooltip_picture150.png": "bbf7ef8fc1906b9eb4b5029e86482e2aa17ffe4329e10859f918e665281bce66",
+    "textures/expanse27_nathan_hale_tooltip_picture200.png": "23f97117dd47576cc5cb2611233b362f41ffa0b35bb2db3a92cf29016ed43cad",
+    "brushes/expanse27_nathan_hale_tooltip_picture.brush": "6ab6cac8b14cc744d7b73230180b918322dd8f6249f8f98e0342be6a2de23b55",
+    "textures/expanse27_nathan_hale_main_view_icon.png": "3a98c3246346e9082cd326fb837526213aa6a52eeffe63c123aea7e33944fcd8",
+    "textures/expanse27_nathan_hale_main_view_icon150.png": "10c14f12b60f371ceeffb167447bbf732263b173f36e3096d745071cc87d67c5",
+    "textures/expanse27_nathan_hale_main_view_icon200.png": "1da43ce1c36653e9eabe9b1989474fcb41e25dfb137a1eb21fe15d9ee89996ab",
+    "brushes/expanse27_nathan_hale_main_view_icon.brush": "881035a48786b736dff7b306d924816797dc9013abab5e7518e8fc3c8bdaa885",
+    "textures/expanse27_nathan_hale_main_view_icon_selected.png": "4054702fcc99524d05947cc31e2664b27766f5f143e45a4d2760eb186b4fc8f0",
+    "textures/expanse27_nathan_hale_main_view_icon_selected150.png": "ae0752ccc391133459142b712e4091cd7a9bf5767d64d6df60f66299f092993c",
+    "textures/expanse27_nathan_hale_main_view_icon_selected200.png": "d8236dd2fe7e23d336f3afb8184de8c1283249130d50ce5c56c83227597b13e4",
+    "brushes/expanse27_nathan_hale_main_view_icon_selected.brush": "709434d9ccbbae288ca7517567ad80a72cb0720a08899c5674c3b78b06945c75",
+    "textures/expanse27_nathan_hale_main_view_icon_sub_selected.png": "49cb8d55916bbc0682e5498af18b6657d1fa1d66d823f479427510cd270dc549",
+    "textures/expanse27_nathan_hale_main_view_icon_sub_selected150.png": "6d549924c3263f7d22ddec28051787fb9751ca32c0c73b897eb24c07baa91420",
+    "textures/expanse27_nathan_hale_main_view_icon_sub_selected200.png": "21bd89191a7680b71ae290d0cc8878b3e2a1e25c66c6b5b51c5bccc627d875ec",
+    "brushes/expanse27_nathan_hale_main_view_icon_sub_selected.brush": "09e9ff0aaf14560e45e596016170bca22a73a99853852fd18fa54fcfb9ccc5ef"
+  }
+}
