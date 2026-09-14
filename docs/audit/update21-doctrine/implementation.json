@@ -1,0 +1,739 @@
+{
+  "mapping": [
+    {
+      "id": "expanse21_mcrn_terraforming_bonds",
+      "faction": "expanse18_mcrn",
+      "name": "Terraforming Directorate Bonds",
+      "description": "Unlocks a paid Directorate Bonds planet component on developed colonies. While fitted: +10% local commerce income; one slot. No empire-wide income bonus.",
+      "template": "trader_unlock_commercial_district_unit_item",
+      "tier": 1,
+      "domain": "civilian",
+      "price": {
+        "credits": 750.0,
+        "metal": 125.0,
+        "crystal": 150.0
+      },
+      "research_time": 150.0,
+      "prerequisites": [
+        "trader_unlock_commercial_district_unit_item"
+      ]
+    },
+    {
+      "id": "expanse21_mcrn_closed_loop",
+      "faction": "expanse18_mcrn",
+      "name": "Closed-Loop Habitat Engineering",
+      "description": "Reduces civilian colony development-track build times by 10%. Does not alter ship production.",
+      "template": "trader_planet_track_upgrade_rate",
+      "tier": 0,
+      "domain": "civilian",
+      "price": {
+        "credits": 450.0,
+        "metal": 50.0,
+        "crystal": 75.0
+      },
+      "research_time": 75.0,
+      "prerequisites": []
+    },
+    {
+      "id": "expanse21_mcrn_precision_manufacturing",
+      "faction": "expanse18_mcrn",
+      "name": "Precision Manufacturing",
+      "description": "Unlocks two discounted equipment supply contracts: Combat Repair System and Antimatter Engine, each 10% cheaper in ordinary resources. Their native effects and exotic costs are unchanged.",
+      "template": "trader_trade_port_income_rate_0",
+      "tier": 2,
+      "domain": "civilian",
+      "price": {
+        "credits": 1200.0,
+        "metal": 200.0,
+        "crystal": 300.0
+      },
+      "research_time": 225.0,
+      "prerequisites": [
+        "trader_unlock_combat_repair_system_unit_item"
+      ]
+    },
+    {
+      "id": "expanse21_mcrn_mmc_certification",
+      "faction": "expanse18_mcrn",
+      "name": "MMC Assault Certification",
+      "description": "Adds one second to trained Scirocco Marine Breaching Teams disruption (13 to 14 seconds). Movement/firing penalties, protection and capture probabilities are unchanged.",
+      "template": "trader_upgrade_experience_gain_0",
+      "tier": 2,
+      "domain": "military",
+      "price": {
+        "credits": 1250.0,
+        "metal": 225.0,
+        "crystal": 350.0
+      },
+      "research_time": 270.0,
+      "prerequisites": [
+        "trader_upgrade_experience_gain_0"
+      ]
+    },
+    {
+      "id": "expanse21_mcrn_redundant_command",
+      "faction": "expanse18_mcrn",
+      "name": "Redundant Command Systems",
+      "description": "Unlocks a paid capital/command component providing +15% antimatter capacity. No damage, shield, reload or regeneration bonus.",
+      "template": "trader_unlock_antimatter_engine_unit_item",
+      "tier": 1,
+      "domain": "military",
+      "price": {
+        "credits": 750.0,
+        "metal": 125.0,
+        "crystal": 150.0
+      },
+      "research_time": 150.0,
+      "prerequisites": []
+    },
+    {
+      "id": "expanse21_unn_lunar_procurement",
+      "faction": "expanse18_unn",
+      "name": "Lunar Procurement Offices",
+      "description": "Unlocks a paid developed-colony procurement office. While fitted it increases local factory production rate by 10% (build time divided by 1.10).",
+      "template": "trader_unlock_industrial_complex_unit_item",
+      "tier": 3,
+      "domain": "civilian",
+      "price": {
+        "credits": 1750.0,
+        "metal": 325.0,
+        "crystal": 550.0
+      },
+      "research_time": 420.0,
+      "prerequisites": []
+    },
+    {
+      "id": "expanse21_unn_emergency_appropriations",
+      "faction": "expanse18_unn",
+      "name": "Emergency Appropriations",
+      "description": "Unlocks a paid local mobilization office. Manual activation costs 300 credits, 100 metal and 50 crystal for +20% local shipbuilding rate for 30 seconds; 180-second cooldown. Incompatible with passive Lunar Procurement on the same planet.",
+      "template": "trader_trade_port_income_rate_0",
+      "tier": 2,
+      "domain": "civilian",
+      "price": {
+        "credits": 1200.0,
+        "metal": 200.0,
+        "crystal": 300.0
+      },
+      "research_time": 225.0,
+      "prerequisites": [
+        "expanse21_unn_lunar_procurement"
+      ]
+    },
+    {
+      "id": "expanse21_unn_shipping_requisition",
+      "faction": "expanse18_unn",
+      "name": "Civilian Shipping Requisition",
+      "description": "Increases ordinary trade credit, metal and crystal income by 5%. Preserves existing trade shipping; grants no combat escorts or free ships.",
+      "template": "trader_trade_port_income_rate_0",
+      "tier": 2,
+      "domain": "civilian",
+      "price": {
+        "credits": 1200.0,
+        "metal": 200.0,
+        "crystal": 300.0
+      },
+      "research_time": 225.0,
+      "prerequisites": [
+        "trader_unlock_trade_port"
+      ]
+    },
+    {
+      "id": "expanse21_unn_black_budget",
+      "faction": "expanse18_unn",
+      "name": "Black-Budget Procurement",
+      "description": "Authorizes paid Amun-Ra construction. Normal 4,000 credits / 750 metal / 500 crystal, 90-second build time and 70 supply remain; maximum six owned hulls. Grants no free ship.",
+      "template": "trader_unlock_heavy_gauss_slugs_unit_item",
+      "tier": 3,
+      "domain": "military",
+      "price": {
+        "credits": 1750.0,
+        "metal": 325.0,
+        "crystal": 550.0
+      },
+      "research_time": 420.0,
+      "prerequisites": []
+    },
+    {
+      "id": "expanse21_unn_fleet_train",
+      "faction": "expanse18_unn",
+      "name": "Fleet Train Organization",
+      "description": "Unlocks a paid targeted repair component for capitals and command ships. 200 hull maximum over 20 seconds within 2,000 range; same-effect repair cannot stack with Scirocco teams. No reload reset.",
+      "template": "trader_unlock_robotics_cruiser",
+      "tier": 1,
+      "domain": "military",
+      "price": {
+        "credits": 750.0,
+        "metal": 125.0,
+        "crystal": 150.0
+      },
+      "research_time": 150.0,
+      "prerequisites": [
+        "trader_unlock_retrofit_bay_repair_ability"
+      ]
+    },
+    {
+      "id": "expanse21_opa_recovery_cooperatives",
+      "faction": "expanse18_opa",
+      "name": "Volatile Recovery Cooperatives",
+      "description": "Adds 15% metal and crystal income from orbital extractors. Does not multiply mining-track income, market transactions or salvage rewards.",
+      "template": "trader_orbital_extraction_crystal_rate_0",
+      "tier": 1,
+      "domain": "civilian",
+      "price": {
+        "credits": 700.0,
+        "metal": 100.0,
+        "crystal": 125.0
+      },
+      "research_time": 120.0,
+      "prerequisites": [
+        "trader_unlock_resource_extractor_structures"
+      ]
+    },
+    {
+      "id": "expanse21_opa_spin_habitat",
+      "faction": "expanse18_opa",
+      "name": "Spin-Habitat Construction",
+      "description": "Reduces logistics-track development time by 10% on asteroid and ice-asteroid colonies. Does not discount ships, rail batteries or other orbital structures.",
+      "template": "trader_planet_track_upgrade_rate",
+      "tier": 0,
+      "domain": "civilian",
+      "price": {
+        "credits": 450.0,
+        "metal": 50.0,
+        "crystal": 75.0
+      },
+      "research_time": 75.0,
+      "prerequisites": []
+    },
+    {
+      "id": "expanse21_opa_override_codes",
+      "faction": "expanse18_opa",
+      "name": "Override-Code Libraries",
+      "description": "Increases the existing Amun/Europa guarded boarding range by 5% (6,000 to 6,300). Requires ownership of a compatible hull; no capture-probability, health-threshold or protection change.",
+      "template": "trader_upgrade_experience_gain_0",
+      "tier": 2,
+      "domain": "military",
+      "price": {
+        "credits": 1250.0,
+        "metal": 225.0,
+        "crystal": 350.0
+      },
+      "research_time": 270.0,
+      "prerequisites": []
+    },
+    {
+      "id": "expanse21_opa_surplus",
+      "faction": "expanse18_opa",
+      "name": "Diverted Martian Surplus",
+      "description": "Authorizes one paid Pella command capital per player. Full ordinary/exotic prices, construction time and 200 supply remain. Does not unlock the MCRN production tree.",
+      "template": "trader_unlock_heavy_gauss_slugs_unit_item",
+      "tier": 3,
+      "domain": "military",
+      "price": {
+        "credits": 1750.0,
+        "metal": 325.0,
+        "crystal": 550.0
+      },
+      "research_time": 420.0,
+      "prerequisites": []
+    }
+  ],
+  "shared_definition_merges": [
+    {
+      "file": "entities/trader_commercial_district.unit_item",
+      "set_fields": {
+        "other_item_requirements": {
+          "mutually_exclusive_items": [
+            "trader_high_density_district",
+            "trader_industrial_complex",
+            "expanse21_mcrn_terraforming_bonds_module"
+          ]
+        }
+      }
+    },
+    {
+      "file": "entities/trader_combat_repair_system.unit_item",
+      "set_fields": {
+        "other_item_requirements": {
+          "mutually_exclusive_items": [
+            "expanse21_mcrn_precision_combat_repair_system"
+          ]
+        }
+      }
+    },
+    {
+      "file": "entities/trader_antimatter_engine.unit_item",
+      "set_fields": {
+        "other_item_requirements": {
+          "mutually_exclusive_items": [
+            "expanse21_mcrn_precision_antimatter_engine"
+          ]
+        }
+      }
+    },
+    {
+      "file": "entities/expanse15_scirocco_breaching_teams.ability",
+      "set_fields": {
+        "action_data_source": "expanse21_mcrn_mmc_certification_support",
+        "level_prerequisites": [
+          [],
+          [
+            [
+              "trader_upgrade_experience_gain_0"
+            ]
+          ],
+          [
+            [
+              "expanse21_mcrn_mmc_certification"
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "file": "entities/trader_industrial_complex.unit_item",
+      "set_fields": {
+        "other_item_requirements": {
+          "mutually_exclusive_items": [
+            "trader_commercial_district",
+            "trader_high_density_district",
+            "expanse21_unn_lunar_procurement_module",
+            "expanse21_unn_emergency_appropriations_module"
+          ]
+        }
+      }
+    },
+    {
+      "file": "entities/expanse06_amun_boarding.ability",
+      "set_fields": {
+        "action_data_source": "expanse21_opa_override_codes_boarding",
+        "level_source": "research_prerequisites_per_level",
+        "level_prerequisites": [
+          [],
+          [
+            [
+              "expanse21_opa_override_codes"
+            ]
+          ]
+        ]
+      }
+    }
+  ],
+  "deferred": [
+    {
+      "faction": "mcrn",
+      "name": "Naval Readiness Program",
+      "stage": 3,
+      "reason": "Requires an operational local naval anchorage."
+    },
+    {
+      "faction": "unn",
+      "name": "Orbital Defense Command",
+      "stage": 3,
+      "reason": "Requires the actual heavy orbital battery."
+    },
+    {
+      "faction": "opa",
+      "name": "Dockworker Damage Control",
+      "stage": 3,
+      "reason": "Requires bounded local tender/engineering equipment; no free Artemis aura or empire heal."
+    },
+    {
+      "faction": "opa",
+      "name": "Salvage Arbitration",
+      "stage": 4,
+      "reason": "Requires reward-specific ordinary material adjustment excluding rare samples/scuttle rewards."
+    }
+  ],
+  "runtime": "NOT RUN",
+  "acquisition_gates": {
+    "expanse_amun_ra": "expanse21_unn_black_budget",
+    "expanse12_pella": "expanse21_opa_surplus"
+  },
+  "stage1_dependency": "Call changes() against the integrated Stage 1 package, so private boarding/repair ADS inherit its new target lock and autocast filters.",
+  "research_owner_scoping": "Only add each faction research list to that owner player; effects use native per-player research state. Captured foreign hulls gain no production access.",
+  "origins": {},
+  "schema_checks": [
+    {
+      "file": "entities/expanse21_mcrn_terraforming_bonds.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_terraforming_bonds_module.unit_item",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_terraforming_bonds_module.action_data_source",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_terraforming_bonds_module.buff",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_terraforming_bonds_module.ability",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_closed_loop.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_precision_manufacturing.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_precision_combat_repair_system.unit_item",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_precision_antimatter_engine.unit_item",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_mmc_certification.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_mmc_certification_support.action_data_source",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_redundant_command.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_mcrn_redundant_command_module.unit_item",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_lunar_procurement.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_lunar_procurement_module.unit_item",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_lunar_procurement_module.action_data_source",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_lunar_procurement_module.buff",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_lunar_procurement_module.ability",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_emergency_appropriations.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_emergency_appropriations_module.unit_item",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_emergency_appropriations_module.action_data_source",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_emergency_appropriations_module.buff",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_emergency_appropriations_module.ability",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_shipping_requisition.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_black_budget.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_fleet_train.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_fleet_train_module.unit_item",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_fleet_train_module.ability",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_unn_fleet_train_module.action_data_source",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_opa_recovery_cooperatives.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_opa_spin_habitat.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_opa_override_codes.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_opa_override_codes_boarding.action_data_source",
+      "status": "PASS closed schema; no exemptions"
+    },
+    {
+      "file": "entities/expanse21_opa_surplus.research_subject",
+      "status": "PASS closed schema; no exemptions"
+    }
+  ],
+  "reference_checks": [
+    {
+      "unit": "expanse_amun_ra",
+      "actions": {
+        "abilities": 5,
+        "buffs": 6,
+        "torpedoes": 2
+      },
+      "typed": [
+        {
+          "ability": "expanse06_amun_magazine",
+          "ADS": "build/update21-research-validation-view/entities/expanse06_amun_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse06_amun_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_boarding",
+          "ADS": "build/update21-research-validation-view/entities/expanse21_opa_override_codes_boarding.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_cloak_controller",
+          "ADS": "build/update21-research-validation-view/entities/expanse06_amun_cloak.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse06_amun_cloak.buff",
+            "build/update21-research-validation-view/entities/expanse06_amun_cloak_controller.buff",
+            "build/update21-research-validation-view/entities/expanse06_amun_revealed.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_cloak",
+          "ADS": "build/update21-research-validation-view/entities/expanse06_amun_cloak.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse06_amun_cloak.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update21-research-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse19_europa_bane",
+      "actions": {
+        "abilities": 3,
+        "buffs": 3,
+        "torpedoes": 2
+      },
+      "typed": [
+        {
+          "ability": "expanse19_europa_magazine",
+          "ADS": "build/update21-research-validation-view/entities/expanse19_europa_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse19_europa_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_boarding",
+          "ADS": "build/update21-research-validation-view/entities/expanse21_opa_override_codes_boarding.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update21-research-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse12_scirocco",
+      "actions": {
+        "abilities": 8,
+        "buffs": 8,
+        "torpedoes": 6
+      },
+      "typed": [
+        {
+          "ability": "expanse12_scirocco_reactor",
+          "ADS": "build/update21-research-validation-view/entities/expanse12_scirocco_reactor.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse12_scirocco_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_launch_corvette",
+          "ADS": "build/update21-research-validation-view/entities/expanse12_scirocco_launch_corvette.action_data_source",
+          "reachable_buffs": [],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse15_scirocco_breaching_teams",
+          "ADS": "build/update21-research-validation-view/entities/expanse21_mcrn_mmc_certification_support.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse15_scirocco_breaching_teams_disruption.buff",
+            "build/update21-research-validation-view/entities/expanse15_scirocco_breaching_teams_guard.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse15_scirocco_engineering_teams",
+          "ADS": "build/update21-research-validation-view/entities/expanse15_scirocco_engineering_teams.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse15_scirocco_engineering_teams.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_light_magazine",
+          "ADS": "build/update21-research-validation-view/entities/expanse12_scirocco_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse12_scirocco_light_magazine.buff",
+            "build/update21-research-validation-view/entities/expanse12_scirocco_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_heavy_magazine",
+          "ADS": "build/update21-research-validation-view/entities/expanse12_scirocco_heavy_magazine.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse12_scirocco_heavy_magazine.buff",
+            "build/update21-research-validation-view/entities/expanse12_scirocco_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_reactor_breach",
+          "ADS": "build/update21-research-validation-view/entities/expanse12_scirocco_reactor_breach.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse12_scirocco_reactor_breach.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "build/update21-research-validation-view/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "new_component_abilities": [
+        {
+          "ability": "expanse21_mcrn_terraforming_bonds_module",
+          "ADS": "build/update21-research-validation-view/entities/expanse21_mcrn_terraforming_bonds_module.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse21_mcrn_terraforming_bonds_module.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse21_unn_lunar_procurement_module",
+          "ADS": "build/update21-research-validation-view/entities/expanse21_unn_lunar_procurement_module.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse21_unn_lunar_procurement_module.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse21_unn_emergency_appropriations_module",
+          "ADS": "build/update21-research-validation-view/entities/expanse21_unn_emergency_appropriations_module.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse21_unn_emergency_appropriations_module.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse21_unn_fleet_train_module",
+          "ADS": "build/update21-research-validation-view/entities/expanse21_unn_fleet_train_module.action_data_source",
+          "reachable_buffs": [
+            "build/update21-research-validation-view/entities/expanse15_scirocco_engineering_teams.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    }
+  ],
+  "patches": {
+    "research": {
+      "mcrn": [
+        "expanse21_mcrn_terraforming_bonds",
+        "expanse21_mcrn_closed_loop",
+        "expanse21_mcrn_precision_manufacturing",
+        "expanse21_mcrn_mmc_certification",
+        "expanse21_mcrn_redundant_command"
+      ],
+      "unn": [
+        "expanse21_unn_lunar_procurement",
+        "expanse21_unn_emergency_appropriations",
+        "expanse21_unn_shipping_requisition",
+        "expanse21_unn_black_budget",
+        "expanse21_unn_fleet_train"
+      ],
+      "opa": [
+        "expanse21_opa_recovery_cooperatives",
+        "expanse21_opa_spin_habitat",
+        "expanse21_opa_override_codes",
+        "expanse21_opa_surplus"
+      ]
+    },
+    "items": {
+      "mcrn": [
+        "expanse21_mcrn_precision_combat_repair_system",
+        "expanse21_mcrn_precision_antimatter_engine",
+        "expanse21_mcrn_redundant_command_module"
+      ],
+      "unn": [
+        "expanse21_unn_fleet_train_module"
+      ],
+      "opa": []
+    },
+    "planet_items": {
+      "mcrn": [
+        "expanse21_mcrn_terraforming_bonds_module"
+      ],
+      "unn": [
+        "expanse21_unn_lunar_procurement_module",
+        "expanse21_unn_emergency_appropriations_module"
+      ],
+      "opa": []
+    }
+  }
+}
