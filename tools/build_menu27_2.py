@@ -13,7 +13,7 @@ FLEETS=[
 ]
 def menu_id(n):return 'expanse_menu27_'+n.removeprefix('expanse_').removeprefix('trader_')
 
-def lua_check(script):
+def lua_check(script, expected_counts=None):
     """Real Lua compilation + mocked existing scene API lifecycle, never the game."""
     lib=ctypes.CDLL(ctypes.util.find_library('lua5.4'))
     lib.luaL_newstate.restype=ctypes.c_void_p;lib.luaL_openlibs.argtypes=[ctypes.c_void_p]
@@ -74,6 +74,7 @@ assert(#spawned==18)
     for i,f in enumerate(FLEETS,1):
         for role,n in f.items():
             key=str(i)+':'+menu_id(n);expected[key]=expected.get(key,0)+(2 if role=='wing' else 1)
+    if expected_counts is not None:expected=expected_counts
     literal='{'+','.join('['+json.dumps(k)+']='+str(v) for k,v in expected.items())+'}'
     code=(mock+script+tests.replace('EXPECTED',literal)).encode()
     try:

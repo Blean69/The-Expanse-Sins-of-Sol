@@ -1,0 +1,703 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "schemas": [
+    {
+      "file": "expanse_menu27_expanse12_raptor_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_expanse12_raptor.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_raptor.unit",
+          "source_sha256": "dcbde4ee08451f9658d011238f3a44894301a06462f6675cb127f4cebc9dea34"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_expanse12_scirocco_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_expanse12_scirocco.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse12_scirocco.unit",
+          "source_sha256": "07694ef52e441536e858c8d98c13693db7746475ac2edfe9be5adbd2d5d32130"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_expanse15_truman_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_expanse15_truman.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse15_truman.unit",
+          "source_sha256": "3f30223e8347e06647394edf7cd435ba2cd2339fa59dabde09f0466b8714c080"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_expanse24_gathering_storm_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_expanse24_gathering_storm.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse24_gathering_storm.unit",
+          "source_sha256": "21989dbcfe61339bb91853a90870f495cc2f76d1ceb4297f8d87108ff5645489"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_expanse27_hephaestus_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_expanse27_hephaestus.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse27_hephaestus.unit",
+          "source_sha256": "fcaa9f52df833a8ec7539267f1d430b709cc56d1c39f7361cc53f0da6bcf8de3"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_expanse27_munroe_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_expanse27_munroe.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse27_munroe.unit",
+          "source_sha256": "9be76ff987f9e43dda3e128c83a88b31ea2eccd7a579243d5174cef5fc61747c"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_amun_ra_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_amun_ra.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse_amun_ra.unit",
+          "source_sha256": "6a7a37ed8885398bf85da36d3d61679e20a2a53d3fcb4bb60126644c3ea5513a"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_donnager_battleship_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_donnager_battleship.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse_donnager_battleship.unit",
+          "source_sha256": "f883091067b20f6774df184102f1be85165b42c9a3d1c1c853a8e24353bacaf3"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_mcrn_corvette_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_mcrn_corvette.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/expanse_mcrn_corvette.unit",
+          "source_sha256": "b77dee03ea98cec779d3579624311976b45072a06036f19e0efade0cec56dc08"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_light_frigate_skin.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_light_frigate.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_4/entities/trader_light_frigate.unit",
+          "source_sha256": "3dc6277d2580ec1942e86eeac01cfdeada93f7524aad3b9ffed8bc8d13c02f89"
+        }
+      ]
+    },
+    {
+      "file": "expanse_menu27_5_expanse11_morrigan_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse27_munroe_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse03_torpedo_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse27_hephaestus_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse27_hephaestus_medium_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse06_amun_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse15_truman_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse10_donnager_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse10_donnager_heavy_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse12_scirocco_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse12_scirocco_heavy_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse24_gathering_storm_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_menu27_5_expanse12_raptor_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    }
+  ],
+  "actions": [
+    {
+      "unit": "expanse_menu27_expanse12_raptor",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 3
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse12_raptor_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_raptor_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_raptor_light_magazine.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_raptor_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_menu27_expanse12_scirocco",
+      "actions": {
+        "abilities": 3,
+        "buffs": 3,
+        "torpedoes": 6
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse12_scirocco_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_light_magazine.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse_menu27_5_expanse12_scirocco_heavy_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_heavy_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_heavy_magazine.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_menu27_expanse15_truman",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 6
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse15_truman_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse15_truman_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse15_truman_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_menu27_expanse24_gathering_storm",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 3
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse24_gathering_storm_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse24_gathering_storm_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_raptor_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse24_gathering_storm_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_menu27_expanse27_hephaestus",
+      "actions": {
+        "abilities": 3,
+        "buffs": 3,
+        "torpedoes": 8
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse27_hephaestus_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_hephaestus_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_hephaestus_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse_menu27_5_expanse27_hephaestus_medium_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_hephaestus_medium_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_hephaestus_medium_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_menu27_expanse27_munroe",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 6
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse27_munroe_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_munroe_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_munroe_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_menu27_amun_ra",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 2
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse06_amun_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse06_amun_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse06_amun_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_menu27_donnager_battleship",
+      "actions": {
+        "abilities": 3,
+        "buffs": 3,
+        "torpedoes": 13
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse10_donnager_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_light_magazine.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse_menu27_5_expanse10_donnager_heavy_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_heavy_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_heavy_magazine.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_menu27_mcrn_corvette",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 2
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse03_torpedo_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse03_torpedo_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse03_torpedo_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_menu27_light_frigate",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 1
+      },
+      "values": [
+        {
+          "ability": "expanse_menu27_5_expanse11_morrigan_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_morrigan_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_morrigan_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    }
+  ],
+  "all_changed_ability_graphs": [
+    {
+      "ability": "expanse_menu27_5_expanse11_morrigan_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_morrigan_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse11_morrigan_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse27_munroe_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_munroe_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_munroe_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse03_torpedo_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse03_torpedo_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse03_torpedo_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse27_hephaestus_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_hephaestus_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_hephaestus_light_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse27_hephaestus_medium_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_hephaestus_medium_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_hephaestus_medium_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse06_amun_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse06_amun_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse06_amun_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse15_truman_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse15_truman_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse15_truman_light_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse10_donnager_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_light_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse10_donnager_heavy_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_heavy_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_heavy_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse10_donnager_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse12_scirocco_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_light_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse12_scirocco_heavy_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_heavy_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_heavy_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse24_gathering_storm_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse24_gathering_storm_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_raptor_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse24_gathering_storm_light_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse_menu27_5_expanse12_raptor_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_raptor_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_raptor_light_magazine.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_raptor_reactor.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "audio_files_preserved": 160,
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "baseline": {
+    "zip_sha256": "a60cb3f87eecb2a75d8f9722f4bb735e8677423bde994b3ac63f22327a9a798d",
+    "tree_sha256": "c473443fe1156a214c36a53936b506e9ca6c52f2b4b1c060d6beac3d57d41a02"
+  },
+  "magazine_position_only_replacements": {},
+  "action_level_declaration_only_replacements": {},
+  "changed_files": [
+    ".mod_meta_data",
+    "PLAYTEST-README.md",
+    "entities/ability.entity_manifest",
+    "entities/expanse_menu27_5_expanse03_torpedo_magazine.ability",
+    "entities/expanse_menu27_5_expanse06_amun_magazine.ability",
+    "entities/expanse_menu27_5_expanse10_donnager_heavy_magazine.ability",
+    "entities/expanse_menu27_5_expanse10_donnager_light_magazine.ability",
+    "entities/expanse_menu27_5_expanse11_morrigan_magazine.ability",
+    "entities/expanse_menu27_5_expanse12_raptor_light_magazine.ability",
+    "entities/expanse_menu27_5_expanse12_scirocco_heavy_magazine.ability",
+    "entities/expanse_menu27_5_expanse12_scirocco_light_magazine.ability",
+    "entities/expanse_menu27_5_expanse15_truman_light_magazine.ability",
+    "entities/expanse_menu27_5_expanse24_gathering_storm_light_magazine.ability",
+    "entities/expanse_menu27_5_expanse27_hephaestus_light_magazine.ability",
+    "entities/expanse_menu27_5_expanse27_hephaestus_medium_magazine.ability",
+    "entities/expanse_menu27_5_expanse27_munroe_magazine.ability",
+    "entities/expanse_menu27_amun_ra.unit",
+    "entities/expanse_menu27_amun_ra_skin.unit_skin",
+    "entities/expanse_menu27_donnager_battleship.unit",
+    "entities/expanse_menu27_donnager_battleship_skin.unit_skin",
+    "entities/expanse_menu27_expanse12_raptor.unit",
+    "entities/expanse_menu27_expanse12_raptor_skin.unit_skin",
+    "entities/expanse_menu27_expanse12_scirocco.unit",
+    "entities/expanse_menu27_expanse12_scirocco_skin.unit_skin",
+    "entities/expanse_menu27_expanse15_truman.unit",
+    "entities/expanse_menu27_expanse15_truman_skin.unit_skin",
+    "entities/expanse_menu27_expanse24_gathering_storm.unit",
+    "entities/expanse_menu27_expanse24_gathering_storm_skin.unit_skin",
+    "entities/expanse_menu27_expanse27_hephaestus.unit",
+    "entities/expanse_menu27_expanse27_hephaestus_skin.unit_skin",
+    "entities/expanse_menu27_expanse27_munroe.unit",
+    "entities/expanse_menu27_expanse27_munroe_skin.unit_skin",
+    "entities/expanse_menu27_light_frigate.unit",
+    "entities/expanse_menu27_light_frigate_skin.unit_skin",
+    "entities/expanse_menu27_mcrn_corvette.unit",
+    "entities/expanse_menu27_mcrn_corvette_skin.unit_skin",
+    "entities/unit.entity_manifest",
+    "entities/unit_skin.entity_manifest",
+    "scenarios/front_end.scenario"
+  ],
+  "runtime": {
+    "load": "NOT RUN",
+    "opening_viability": "NOT RUN",
+    "menus": "NOT RUN",
+    "existing_and_new_research": "NOT RUN",
+    "colonization": "NOT RUN",
+    "bombardment": "NOT RUN",
+    "stacking": "NOT RUN",
+    "ownership": "NOT RUN",
+    "save_reload": "NOT RUN",
+    "multiplayer": "NOT RUN"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "tested_package": "0.27.4 Hephaestus Repair",
+  "package_sha256": "a60cb3f87eecb2a75d8f9722f4bb735e8677423bde994b3ac63f22327a9a798d",
+  "installed_files_match": true,
+  "log": "sins2_log_484.txt",
+  "log_sha256": "f557ed45819f8eb8d94c26b949d14ce3b7477377039168e1140435893d90b182",
+  "user_observed": "Pella still produced Skip All; no crash observed during hotfix test.",
+  "diagnostics": [
+    {
+      "line": 123,
+      "text": "[20:01:54.4890660][   488][           modding_system] Enabling mod : [expanse_update27_4] { name=The Expanse — 0.27.4 Hephaestus Repair , version=0.27.4 , compatibility_version=2 , target game version=0.0.0 , bundled_mods=[] , dependencies=0 }"
+    },
+    {
+      "line": 445,
+      "text": "[20:04:27.1616658][   488][      unit_rendering_data] unit has no gui_definition : <unit(expanse12_pella)[441]>"
+    },
+    {
+      "line": 458,
+      "text": "[20:04:28.1771652][   488][             resource_ptr] Attempting to get an empty resource. This is most likely due to either a missing serialization, or serialized value was an empty string. This is allowed but client code should be accounting for it explicitly with a has_id() branch."
+    }
+  ],
+  "known_hephaestus_parse_error_present": false,
+  "new_menu_runtime": "NOT RUN"
+}

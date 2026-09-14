@@ -1,0 +1,92 @@
+{
+  "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/scenarios/front_end.scenario",
+  "source_sha256": "9ed194c9713f8676ad90a290b4269668aa52b3696fcb6f0260dc945230661c8e",
+  "scenario_sha256": "6380f453145372c631e0eb978329c8530a1e576cb48e95f082e87f29065045af",
+  "fleets": [
+    {
+      "anchor": "expanse_donnager_battleship",
+      "high": "expanse12_scirocco",
+      "lead": "expanse27_hephaestus",
+      "low": "expanse12_raptor",
+      "wing": "expanse_mcrn_corvette"
+    },
+    {
+      "anchor": "expanse15_truman",
+      "high": "expanse27_munroe",
+      "lead": "expanse24_gathering_storm",
+      "low": "expanse_amun_ra",
+      "wing": "trader_light_frigate"
+    }
+  ],
+  "private_units": {
+    "expanse_menu27_expanse12_raptor": "expanse12_raptor",
+    "expanse_menu27_expanse12_scirocco": "expanse12_scirocco",
+    "expanse_menu27_expanse15_truman": "expanse15_truman",
+    "expanse_menu27_expanse24_gathering_storm": "expanse24_gathering_storm",
+    "expanse_menu27_expanse27_hephaestus": "expanse27_hephaestus",
+    "expanse_menu27_expanse27_munroe": "expanse27_munroe",
+    "expanse_menu27_amun_ra": "expanse_amun_ra",
+    "expanse_menu27_donnager_battleship": "expanse_donnager_battleship",
+    "expanse_menu27_mcrn_corvette": "expanse_mcrn_corvette",
+    "expanse_menu27_light_frigate": "trader_light_frigate"
+  },
+  "private_skins": {
+    "expanse_menu27_expanse12_raptor_skin": "expanse12_raptor",
+    "expanse_menu27_expanse12_scirocco_skin": "expanse12_scirocco",
+    "expanse_menu27_expanse15_truman_skin": "expanse15_truman",
+    "expanse_menu27_expanse24_gathering_storm_skin": "expanse24_gathering_storm",
+    "expanse_menu27_expanse27_hephaestus_skin": "expanse27_hephaestus",
+    "expanse_menu27_expanse27_munroe_skin": "expanse27_munroe",
+    "expanse_menu27_amun_ra_skin": "expanse_amun_ra",
+    "expanse_menu27_donnager_battleship_skin": "expanse_donnager_battleship",
+    "expanse_menu27_mcrn_corvette_skin": "expanse_mcrn_corvette",
+    "expanse_menu27_light_frigate_skin": "trader_light_frigate"
+  },
+  "lua_lifecycle": {
+    "status": "PASS Lua 5.4 / mocked engine API",
+    "initial_ships": 12,
+    "same_player_race_still_distinct_fleets": true,
+    "foreground_patrol": "PASS",
+    "wiped_side_only_respawn_after_15s": "PASS",
+    "native_item_injection_absent": true,
+    "engine_rendering": "NOT RUN"
+  },
+  "camera": "Native scene camera, positions, directions and waypoint routes byte-preserved; all menu skins render meshes to 60000 units. Scene staging is within 12000 units of camera.",
+  "abilities": "Fixed level zero private torpedo-magazine abilities + existing shieldless helper. No owner research, cloak, capture, free ships or items.",
+  "visuals": "NOT RUN",
+  "actual_spawn_counts": {
+    "1:expanse_menu27_donnager_battleship": 1,
+    "1:expanse_menu27_expanse12_scirocco": 1,
+    "1:expanse_menu27_expanse27_hephaestus": 1,
+    "1:expanse_menu27_expanse12_raptor": 1,
+    "2:expanse_menu27_expanse15_truman": 1,
+    "2:expanse_menu27_expanse27_munroe": 1,
+    "2:expanse_menu27_expanse24_gathering_storm": 1,
+    "2:expanse_menu27_amun_ra": 3,
+    "1:expanse_menu27_mcrn_corvette": 1,
+    "1:expanse_menu27_light_frigate": 1
+  },
+  "private_ability_sources": {
+    "expanse11_morrigan_magazine": "expanse_menu27_5_expanse11_morrigan_magazine",
+    "expanse11_no_shields": "expanse11_no_shields",
+    "expanse27_munroe_magazine": "expanse_menu27_5_expanse27_munroe_magazine",
+    "expanse03_torpedo_magazine": "expanse_menu27_5_expanse03_torpedo_magazine",
+    "expanse27_hephaestus_light_magazine": "expanse_menu27_5_expanse27_hephaestus_light_magazine",
+    "expanse27_hephaestus_medium_magazine": "expanse_menu27_5_expanse27_hephaestus_medium_magazine",
+    "expanse06_amun_magazine": "expanse_menu27_5_expanse06_amun_magazine",
+    "expanse15_truman_light_magazine": "expanse_menu27_5_expanse15_truman_light_magazine",
+    "expanse10_donnager_light_magazine": "expanse_menu27_5_expanse10_donnager_light_magazine",
+    "expanse10_donnager_heavy_magazine": "expanse_menu27_5_expanse10_donnager_heavy_magazine",
+    "expanse12_scirocco_light_magazine": "expanse_menu27_5_expanse12_scirocco_light_magazine",
+    "expanse12_scirocco_heavy_magazine": "expanse_menu27_5_expanse12_scirocco_heavy_magazine",
+    "expanse24_gathering_storm_light_magazine": "expanse_menu27_5_expanse24_gathering_storm_light_magazine",
+    "expanse12_raptor_light_magazine": "expanse_menu27_5_expanse12_raptor_light_magazine"
+  },
+  "previous_failure_prevention": [
+    "Hephaestus native heavy target type inherited from 0.27.4",
+    "No rebel-titan or other procurement prerequisites on any display copy",
+    "Private magazine levels require no owner research"
+  ],
+  "user_evidence": "0.27.4 user reports no crash observed; Pella prompt remains. This does not validate the new menu.",
+  "plating": "Not included: existing Composite item is inert; shield-disable exception and production/study behavior not implemented."
+}
