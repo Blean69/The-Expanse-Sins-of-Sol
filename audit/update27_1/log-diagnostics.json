@@ -1,0 +1,93 @@
+{
+  "file": "sins2_log_544.txt",
+  "sha256": "4903b70df43b22916c8f252e032a32ec9c47a4e35695940b6ef5b1088dc70ddf",
+  "active_mod": "expanse_update27",
+  "evidence": [
+    {
+      "line": 159,
+      "message": "[19:03:36.0897265][   548][              json_reader] json read errors in 'C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27\\uniforms\\unit_tag.uniforms'."
+    },
+    {
+      "line": 161,
+      "message": "[unit_tags[0]] size overflow. key=unit_tags expected_size=30 actual_size=35"
+    },
+    {
+      "line": 168,
+      "message": "[19:03:44.3968351][   548][        uniforms_registry] Found errors for [S:\\steamapps\\common\\Sins2\\uniforms\\unit.uniforms]"
+    },
+    {
+      "line": 170,
+      "message": "- unit_tag:starbase_tag not found in uniforms: starbase"
+    },
+    {
+      "line": 185,
+      "message": "[19:03:48.6990445][   548][entity_definition_factory_engine] Found errors for S:\\steamapps\\common\\Sins2\\entities\\advent_antiarmor_corvette.unit"
+    },
+    {
+      "line": 187,
+      "message": "- unit_tag:unit_definition not found in uniforms: corvette"
+    },
+    {
+      "line": 195,
+      "message": "[19:03:50.6553631][   548][entity_definition_factory_engine] Found errors for C:\\users\\steamuser\\AppData\\Local\\sins2\\mods\\expanse_update27\\entities\\expanse21_opa_command.unit"
+    },
+    {
+      "line": 197,
+      "message": "- units with experience levels require level_up_effect and level_up_sound (expanse21_opa_command)"
+    },
+    {
+      "line": 699,
+      "message": "[19:05:21.0266592][  1360][    weapon_rendering_data] Turret barrel mesh point not found on weapon turret base mesh."
+    },
+    {
+      "line": 701,
+      "message": "unit_skin = trader_light_frigate"
+    },
+    {
+      "line": 702,
+      "message": "weapon = expanse11_morrigan_pdc_0"
+    },
+    {
+      "line": 703,
+      "message": "mesh_point_type = child"
+    },
+    {
+      "line": 704,
+      "message": "base mesh = expanse11_morrigan_pdc_base"
+    },
+    {
+      "line": 708,
+      "message": "[19:05:22.8313918][  1360][    weapon_rendering_data] No turret_muzzle mesh points found."
+    },
+    {
+      "line": 710,
+      "message": "mesh = expanse11_morrigan_pdc_barrel"
+    },
+    {
+      "line": 723,
+      "message": "[19:05:30.0044721][   548][      unit_rendering_data] unit has no gui_definition : <unit(trader_constructor_ship)[196]>"
+    },
+    {
+      "line": 729,
+      "message": "[19:05:30.4118683][   548][    simulation_formations] ASSERT(_formations_with_unit_removed.empty())"
+    },
+    {
+      "line": 732,
+      "message": "[19:05:30.4136842][   548][   simulation_unit_orders] ASSERT(_staged_release_orders.empty())"
+    },
+    {
+      "line": 753,
+      "message": "[19:05:42.3944792][   764][           inplace_vector] ASSERT(is_index_valid(i))"
+    },
+    {
+      "line": 756,
+      "message": "[19:05:43.3945919][   764][               app_output] WARNING: Timed out waiting for error_dialog_result (most likely due to deadlock between main_and_rendering_mutex OR tbb worker thread)."
+    },
+    {
+      "line": 757,
+      "message": "ASSERT(is_index_valid(i))"
+    }
+  ],
+  "scope": "Diagnostic excerpts only; no account/authentication payloads copied.",
+  "unrelated": "Disabled old mod metadata and optional scenario member warnings are not changed."
+}

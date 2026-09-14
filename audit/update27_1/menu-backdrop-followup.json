@@ -1,0 +1,9 @@
+{
+  "status": "FEASIBLE FOLLOW-UP; NOT IMPLEMENTED",
+  "source": "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/scenarios/front_end.scenario",
+  "sha256": "9ed194c9713f8676ad90a290b4269668aa52b3696fcb6f0260dc945230661c8e",
+  "script_sha256": "ab213ca7ee17a9c5bc1d1b83b1420428f2ac0c3d3e5e54b05bb1f8a7eb896a61",
+  "verified": "get_fleet_for_race chooses unit IDs; existing scene supplies opposing combat, waypoint movement and respawn. Existing titan-only items are keyed by unit ID.",
+  "remaining": "Swap rosters, check camera/mesh visibility at current staging distances, then observe loop/performance in game.",
+  "reason_deferred": "User made this optional with limited remaining usage; keep crash repair independent."
+}

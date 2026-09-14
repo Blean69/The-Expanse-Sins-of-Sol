@@ -1,0 +1,542 @@
+{
+  "status": "PASS OFFLINE",
+  "unit_tag_count": 30,
+  "unit_tag_capacity": 30,
+  "native_tags_preserved": 14,
+  "equipment_matrix": [
+    {
+      "player": "expanse18_mcrn",
+      "station_only_items_rejected": [
+        "dlc_ancient_starbase_antimatter_pulse_wave",
+        "dlc_ancient_starbase_phase_jump_inhibitor",
+        "dlc_ancient_starbase_shield_leech",
+        "dlc_ancient_starbase_singularity_portal",
+        "dlc_ancient_starbase_unlock_heavy_weapon",
+        "dlc_ancient_starbase_unlock_light_weapon",
+        "dlc_ancient_starbase_unlock_missile_weapon",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock",
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "trader_starbase_command_center",
+        "trader_starbase_docking_booms",
+        "trader_starbase_factory_support",
+        "trader_starbase_flak_field",
+        "trader_starbase_hangar_0",
+        "trader_starbase_hangar_1",
+        "trader_starbase_hangar_2",
+        "trader_starbase_self_destruct",
+        "trader_starbase_structural_integrity_0",
+        "trader_starbase_structural_integrity_1",
+        "trader_starbase_structural_integrity_2",
+        "trader_starbase_stun_torpedo",
+        "trader_starbase_trade_port",
+        "trader_starbase_unit_factory",
+        "trader_starbase_unlock_beam_weapon",
+        "trader_starbase_unlock_torpedo_weapon"
+      ],
+      "mobile_hulls_checked": [
+        "trader_siege_capital_ship",
+        "expanse_donnager_battleship",
+        "expanse12_raptor",
+        "expanse12_pella",
+        "expanse12_scirocco",
+        "expanse15_truman",
+        "expanse21_opa_command",
+        "expanse24_behemoth",
+        "expanse27_nathan_hale",
+        "expanse27_dark_star",
+        "expanse24_gathering_storm"
+      ],
+      "starbase_positive_controls": [
+        "trader_starbase"
+      ]
+    },
+    {
+      "player": "expanse18_unn",
+      "station_only_items_rejected": [
+        "dlc_ancient_starbase_antimatter_pulse_wave",
+        "dlc_ancient_starbase_phase_jump_inhibitor",
+        "dlc_ancient_starbase_shield_leech",
+        "dlc_ancient_starbase_singularity_portal",
+        "dlc_ancient_starbase_unlock_heavy_weapon",
+        "dlc_ancient_starbase_unlock_light_weapon",
+        "dlc_ancient_starbase_unlock_missile_weapon",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock",
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "trader_starbase_command_center",
+        "trader_starbase_docking_booms",
+        "trader_starbase_factory_support",
+        "trader_starbase_flak_field",
+        "trader_starbase_hangar_0",
+        "trader_starbase_hangar_1",
+        "trader_starbase_hangar_2",
+        "trader_starbase_self_destruct",
+        "trader_starbase_structural_integrity_0",
+        "trader_starbase_structural_integrity_1",
+        "trader_starbase_structural_integrity_2",
+        "trader_starbase_stun_torpedo",
+        "trader_starbase_trade_port",
+        "trader_starbase_unit_factory",
+        "trader_starbase_unlock_beam_weapon",
+        "trader_starbase_unlock_torpedo_weapon"
+      ],
+      "mobile_hulls_checked": [
+        "trader_siege_capital_ship",
+        "expanse_donnager_battleship",
+        "expanse12_raptor",
+        "expanse12_pella",
+        "expanse12_scirocco",
+        "expanse15_truman",
+        "expanse21_opa_command",
+        "expanse24_behemoth",
+        "expanse27_nathan_hale",
+        "expanse27_dark_star",
+        "expanse24_gathering_storm"
+      ],
+      "starbase_positive_controls": [
+        "trader_starbase"
+      ]
+    },
+    {
+      "player": "expanse18_opa",
+      "station_only_items_rejected": [
+        "dlc_ancient_starbase_antimatter_pulse_wave",
+        "dlc_ancient_starbase_phase_jump_inhibitor",
+        "dlc_ancient_starbase_shield_leech",
+        "dlc_ancient_starbase_singularity_portal",
+        "dlc_ancient_starbase_unlock_heavy_weapon",
+        "dlc_ancient_starbase_unlock_light_weapon",
+        "dlc_ancient_starbase_unlock_missile_weapon",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock",
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "trader_starbase_command_center",
+        "trader_starbase_docking_booms",
+        "trader_starbase_factory_support",
+        "trader_starbase_flak_field",
+        "trader_starbase_hangar_0",
+        "trader_starbase_hangar_1",
+        "trader_starbase_hangar_2",
+        "trader_starbase_self_destruct",
+        "trader_starbase_structural_integrity_0",
+        "trader_starbase_structural_integrity_1",
+        "trader_starbase_structural_integrity_2",
+        "trader_starbase_stun_torpedo",
+        "trader_starbase_trade_port",
+        "trader_starbase_unit_factory",
+        "trader_starbase_unlock_beam_weapon",
+        "trader_starbase_unlock_torpedo_weapon"
+      ],
+      "mobile_hulls_checked": [
+        "trader_siege_capital_ship",
+        "expanse_donnager_battleship",
+        "expanse12_raptor",
+        "expanse12_pella",
+        "expanse12_scirocco",
+        "expanse15_truman",
+        "expanse21_opa_command",
+        "expanse24_behemoth",
+        "expanse27_nathan_hale",
+        "expanse27_dark_star",
+        "expanse24_gathering_storm"
+      ],
+      "starbase_positive_controls": [
+        "trader_starbase"
+      ]
+    },
+    {
+      "player": "trader_loyalist",
+      "station_only_items_rejected": [
+        "dlc_ancient_starbase_antimatter_pulse_wave",
+        "dlc_ancient_starbase_phase_jump_inhibitor",
+        "dlc_ancient_starbase_shield_leech",
+        "dlc_ancient_starbase_singularity_portal",
+        "dlc_ancient_starbase_unlock_heavy_weapon",
+        "dlc_ancient_starbase_unlock_light_weapon",
+        "dlc_ancient_starbase_unlock_missile_weapon",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock",
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "trader_starbase_command_center",
+        "trader_starbase_docking_booms",
+        "trader_starbase_factory_support",
+        "trader_starbase_flak_field",
+        "trader_starbase_hangar_0",
+        "trader_starbase_hangar_1",
+        "trader_starbase_hangar_2",
+        "trader_starbase_self_destruct",
+        "trader_starbase_structural_integrity_0",
+        "trader_starbase_structural_integrity_1",
+        "trader_starbase_structural_integrity_2",
+        "trader_starbase_stun_torpedo",
+        "trader_starbase_trade_port",
+        "trader_starbase_unit_factory",
+        "trader_starbase_unlock_beam_weapon",
+        "trader_starbase_unlock_torpedo_weapon"
+      ],
+      "mobile_hulls_checked": [
+        "trader_siege_capital_ship",
+        "expanse_donnager_battleship",
+        "expanse12_raptor",
+        "expanse12_pella",
+        "expanse12_scirocco",
+        "expanse15_truman",
+        "expanse21_opa_command",
+        "expanse24_behemoth",
+        "expanse27_nathan_hale",
+        "expanse27_dark_star",
+        "expanse24_gathering_storm"
+      ],
+      "starbase_positive_controls": [
+        "trader_starbase"
+      ]
+    },
+    {
+      "player": "trader_rebel",
+      "station_only_items_rejected": [
+        "dlc_ancient_starbase_antimatter_pulse_wave",
+        "dlc_ancient_starbase_phase_jump_inhibitor",
+        "dlc_ancient_starbase_shield_leech",
+        "dlc_ancient_starbase_singularity_portal",
+        "dlc_ancient_starbase_unlock_heavy_weapon",
+        "dlc_ancient_starbase_unlock_light_weapon",
+        "dlc_ancient_starbase_unlock_missile_weapon",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock",
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "trader_starbase_command_center",
+        "trader_starbase_docking_booms",
+        "trader_starbase_factory_support",
+        "trader_starbase_flak_field",
+        "trader_starbase_hangar_0",
+        "trader_starbase_hangar_1",
+        "trader_starbase_hangar_2",
+        "trader_starbase_self_destruct",
+        "trader_starbase_structural_integrity_0",
+        "trader_starbase_structural_integrity_1",
+        "trader_starbase_structural_integrity_2",
+        "trader_starbase_stun_torpedo",
+        "trader_starbase_trade_port",
+        "trader_starbase_unit_factory",
+        "trader_starbase_unlock_beam_weapon",
+        "trader_starbase_unlock_torpedo_weapon"
+      ],
+      "mobile_hulls_checked": [
+        "trader_siege_capital_ship",
+        "expanse_donnager_battleship",
+        "expanse12_raptor",
+        "expanse12_pella",
+        "expanse12_scirocco",
+        "expanse15_truman",
+        "expanse21_opa_command",
+        "expanse24_behemoth",
+        "expanse27_nathan_hale",
+        "expanse27_dark_star",
+        "expanse24_gathering_storm"
+      ],
+      "starbase_positive_controls": [
+        "trader_starbase"
+      ]
+    },
+    {
+      "player": "dlc_trader_loyalist",
+      "station_only_items_rejected": [
+        "dlc_ancient_starbase_antimatter_pulse_wave",
+        "dlc_ancient_starbase_phase_jump_inhibitor",
+        "dlc_ancient_starbase_shield_leech",
+        "dlc_ancient_starbase_singularity_portal",
+        "dlc_ancient_starbase_unlock_heavy_weapon",
+        "dlc_ancient_starbase_unlock_light_weapon",
+        "dlc_ancient_starbase_unlock_missile_weapon",
+        "dlc_trader_bastion_module",
+        "expanse22_defense_coordination",
+        "expanse22_industrial_drydock",
+        "expanse22_ordnance_control",
+        "expanse22_repair_anchorage",
+        "trader_starbase_command_center",
+        "trader_starbase_docking_booms",
+        "trader_starbase_factory_support",
+        "trader_starbase_flak_field",
+        "trader_starbase_hangar_0",
+        "trader_starbase_hangar_1",
+        "trader_starbase_hangar_2",
+        "trader_starbase_self_destruct",
+        "trader_starbase_structural_integrity_0",
+        "trader_starbase_structural_integrity_1",
+        "trader_starbase_structural_integrity_2",
+        "trader_starbase_stun_torpedo",
+        "trader_starbase_trade_port",
+        "trader_starbase_unit_factory",
+        "trader_starbase_unlock_beam_weapon",
+        "trader_starbase_unlock_torpedo_weapon"
+      ],
+      "mobile_hulls_checked": [
+        "trader_siege_capital_ship",
+        "expanse_donnager_battleship",
+        "expanse12_raptor",
+        "expanse12_pella",
+        "expanse12_scirocco",
+        "expanse15_truman",
+        "expanse21_opa_command",
+        "expanse24_behemoth",
+        "expanse27_nathan_hale",
+        "expanse27_dark_star",
+        "expanse24_gathering_storm"
+      ],
+      "starbase_positive_controls": [
+        "trader_starbase"
+      ]
+    }
+  ],
+  "turret_sockets": [
+    {
+      "base": "trader_asset_medturret_mount_0",
+      "barrel": "trader_asset_medturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse27_behemoth_pdc_base",
+      "barrel": "expanse27_behemoth_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_asset_turret_mount_0",
+      "barrel": "trader_asset_turret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse06_amun_pdc_0_base",
+      "barrel": "expanse06_amun_pdc_0_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse06_amun_pdc_1_base",
+      "barrel": "expanse06_amun_pdc_1_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse06_amun_pdc_2_base",
+      "barrel": "expanse06_amun_pdc_2_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_medum_cruiser_turret_mount_0",
+      "barrel": "trader_medum_cruiser_turret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_asset_frigate_turret_mount_0",
+      "barrel": "trader_asset_frigate_turret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_asset_gaussturret_mount_0",
+      "barrel": "trader_asset_gaussturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_asset_miscorvette_mount_0",
+      "barrel": "trader_asset_miscorvette_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_hangar_defense_structure_pdturret_mount_0",
+      "barrel": "trader_hangar_defense_structure_pdturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse23_murphy_pdc_base",
+      "barrel": "expanse23_murphy_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse27_dark_star_pdc_base",
+      "barrel": "expanse27_dark_star_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_asset_frigate_pdturret_mount_0",
+      "barrel": "trader_asset_frigate_pdturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse12_raptor_pdc_base",
+      "barrel": "expanse12_raptor_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse03_pdc_0_base",
+      "barrel": "expanse03_pdc_0_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse03_pdc_1_base",
+      "barrel": "expanse03_pdc_1_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse03_pdc_2_base",
+      "barrel": "expanse03_pdc_2_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse03_pdc_3_base",
+      "barrel": "expanse03_pdc_3_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse03_pdc_4_base",
+      "barrel": "expanse03_pdc_4_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse03_pdc_5_base",
+      "barrel": "expanse03_pdc_5_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_skirmisher_corvette_frigate_medturret_mount_0",
+      "barrel": "trader_skirmisher_corvette_frigate_medturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse15_truman_pdc_base",
+      "barrel": "expanse15_truman_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse27_laconia_frigate_pdc_base",
+      "barrel": "expanse27_laconia_frigate_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_heavy_cruiser_kodmedturret_mount_0",
+      "barrel": "trader_heavy_cruiser_kodmedturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_starbase_beamturret_mount_0",
+      "barrel": "trader_starbase_beamturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_asset_pdturret_mount_0",
+      "barrel": "trader_asset_pdturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse27_storm_pdc_base",
+      "barrel": "expanse27_storm_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse22_foehammer_pdc_base",
+      "barrel": "expanse22_foehammer_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_asset_advbeam_mount_0",
+      "barrel": "trader_asset_advbeam_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "dlc2_trader_asset_gaussturret_mount_0",
+      "barrel": "dlc2_trader_asset_gaussturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_asset_misturret_mount_0",
+      "barrel": "trader_asset_misturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse27_hephaestus_pdc_base",
+      "barrel": "expanse27_hephaestus_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse26_opa_command_pdc_base",
+      "barrel": "expanse26_opa_command_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse19_europa_pdc_base",
+      "barrel": "expanse19_europa_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse27_munroe_pdc_base",
+      "barrel": "expanse27_munroe_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse11_morrigan_pdc_base",
+      "barrel": "expanse11_morrigan_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "trader_rebel_titan_rag_medturret_mount_0",
+      "barrel": "trader_rebel_titan_rag_medturret_barrel_0",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse12_scirocco_pdc_base",
+      "barrel": "expanse12_scirocco_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse12_pella_pdc_base",
+      "barrel": "expanse12_pella_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse04_hero_pdc_0_base",
+      "barrel": "expanse04_hero_pdc_0_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse04_hero_pdc_1_base",
+      "barrel": "expanse04_hero_pdc_1_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse04_hero_pdc_2_base",
+      "barrel": "expanse04_hero_pdc_2_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse04_hero_pdc_3_base",
+      "barrel": "expanse04_hero_pdc_3_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse04_hero_pdc_4_base",
+      "barrel": "expanse04_hero_pdc_4_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse04_hero_pdc_5_base",
+      "barrel": "expanse04_hero_pdc_5_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse10_donnager_pdc_base",
+      "barrel": "expanse10_donnager_pdc_barrel",
+      "status": "PASS native socket types"
+    },
+    {
+      "base": "expanse27_nathan_hale_pdc_base",
+      "barrel": "expanse27_nathan_hale_pdc_barrel",
+      "status": "PASS native socket types"
+    }
+  ],
+  "baseline_gameplay_preserved": true,
+  "runtime": "NOT RUN",
+  "crash_status": "Tag overflow and missing sockets repaired. No post-fix runtime reproduction; secondary index/formation assertions remain unconfirmed."
+}

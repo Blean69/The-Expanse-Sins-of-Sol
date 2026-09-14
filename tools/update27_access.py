@@ -44,7 +44,7 @@ def changes(base,unit_edits,sandbox=False):
         origins['entities/'+node+'.research_subject']=str(GAME/'entities'/f'{source}.research_subject')
         loc.update({node+'.name':name,node+'.upper':name.upper(),node+'.description':
             'Authorizes paid '+name.lower()+'. Research cost and time follow the existing military tier. Ship construction is separately paid.'})
-        u=get(rel);u['build']['prerequisites']=[[node]];edits[rel]=u
+        u=get(rel);u['build']['prerequisites']=[[node]];u['tags']=[t for t in u['tags'] if t not in SHIPS];edits[rel]=u
         for owner,owner_faction in owners.items():
             if not sandbox and owner_faction!=faction:continue
             p=players[owner]
@@ -71,8 +71,6 @@ def changes(base,unit_edits,sandbox=False):
         if allowed:require('expanse24_behemoth_refit' in p['research']['research_subjects'],'Missing OPA commissioning route '+owner)
         edits['entities/'+owner+'.player']=p
         report['access'][owner]={'new_hulls':[u for u in SHIPS if u in p['buildable_units']],'gathering_storm':allowed}
-    tags=get('uniforms/unit_tag.uniforms');have={x['name'] for x in tags['unit_tags']}
-    for uid in SHIPS:
-        if uid not in have:tags['unit_tags'].append({'name':uid,'localized_name':uid+'.name'});have.add(uid)
-    edits['uniforms/unit_tag.uniforms']=tags
+    # No identity tags: these five IDs are not used by caps/item/research filters.
+    # Engine 2.0.3 limits the global unit tag registry to 30 entries.
     return edits,loc,origins,report

@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "old_defects_rejected": [
+    {
+      "regression": "unit_tag_capacity",
+      "old_027_rejected": "Unit tag overflow / duplicate"
+    },
+    {
+      "regression": "mandatory_turret_sockets",
+      "old_027_rejected": "No turret barrel socket expanse27_behemoth_pdc_base"
+    }
+  ]
+}

@@ -1,0 +1,789 @@
+{
+  "bad": [
+    {
+      "unit": "expanse24_behemoth",
+      "skin": "expanse24_behemoth",
+      "weapon": "expanse27_behemoth_pdc",
+      "base": "expanse27_behemoth_pdc_base",
+      "barrel": "expanse27_behemoth_pdc_barrel",
+      "barrel_alias": "expanse27_behemoth_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_behemoth_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_behemoth_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_amun_ra",
+      "skin": "expanse_amun_ra",
+      "weapon": "expanse06_amun_pdc_0",
+      "base": "expanse06_amun_pdc_0_base",
+      "barrel": "expanse06_amun_pdc_0_barrel",
+      "barrel_alias": "expanse06_amun_pdc_0_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse06_amun_pdc_0_base",
+        "biaxial_barrel_mesh": "expanse06_amun_pdc_0_barrel",
+        "barrel_position": [
+          2.1843591020073724e-06,
+          1.5430707496980827,
+          -0.7105518623323791
+        ],
+        "muzzle_positions": [
+          [
+            -4.311843950747236e-06,
+            -0.004210139860198336,
+            7.172168120292612
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_amun_ra",
+      "skin": "expanse_amun_ra",
+      "weapon": "expanse06_amun_pdc_1",
+      "base": "expanse06_amun_pdc_1_base",
+      "barrel": "expanse06_amun_pdc_1_barrel",
+      "barrel_alias": "expanse06_amun_pdc_1_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse06_amun_pdc_1_base",
+        "biaxial_barrel_mesh": "expanse06_amun_pdc_1_barrel",
+        "barrel_position": [
+          6.544452009238973e-06,
+          1.5430707606351297,
+          -0.7105472962791588
+        ],
+        "muzzle_positions": [
+          [
+            -4.311843934366917e-06,
+            -0.004213411024424775,
+            7.172168120292614
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_amun_ra",
+      "skin": "expanse_amun_ra",
+      "weapon": "expanse06_amun_pdc_2",
+      "base": "expanse06_amun_pdc_2_base",
+      "barrel": "expanse06_amun_pdc_2_barrel",
+      "barrel_alias": "expanse06_amun_pdc_2_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse06_amun_pdc_2_base",
+        "biaxial_barrel_mesh": "expanse06_amun_pdc_2_barrel",
+        "barrel_position": [
+          4.362975629614457e-06,
+          1.5430685791488656,
+          -0.7105472962791675
+        ],
+        "muzzle_positions": [
+          [
+            5.113170484461064e-08,
+            -0.004213959857796328,
+            7.172170438121765
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse23_murphy",
+      "skin": "expanse23_murphy",
+      "weapon": "expanse23_murphy_pdc",
+      "base": "expanse23_murphy_pdc_base",
+      "barrel": "expanse23_murphy_pdc_barrel",
+      "barrel_alias": "expanse23_murphy_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse23_murphy_pdc_base",
+        "biaxial_barrel_mesh": "expanse23_murphy_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse27_dark_star",
+      "skin": "expanse27_dark_star",
+      "weapon": "expanse27_dark_star_pdc",
+      "base": "expanse27_dark_star_pdc_base",
+      "barrel": "expanse27_dark_star_pdc_barrel",
+      "barrel_alias": "expanse27_dark_star_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_dark_star_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_dark_star_pdc_barrel",
+        "barrel_position": [
+          2.1843591020073724e-06,
+          1.5430707496980827,
+          -0.7105518623323791
+        ],
+        "muzzle_positions": [
+          [
+            -4.311843950747236e-06,
+            -0.004210139860198336,
+            7.172168120292612
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse12_raptor",
+      "skin": "expanse12_raptor",
+      "weapon": "expanse12_raptor_pdc_0",
+      "base": "expanse12_raptor_pdc_base",
+      "barrel": "expanse12_raptor_pdc_barrel",
+      "barrel_alias": "expanse12_raptor_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_raptor_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_raptor_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse15_truman",
+      "skin": "expanse15_truman",
+      "weapon": "expanse15_truman_pdc_0",
+      "base": "expanse15_truman_pdc_base",
+      "barrel": "expanse15_truman_pdc_barrel",
+      "barrel_alias": "expanse15_truman_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse15_truman_pdc_base",
+        "biaxial_barrel_mesh": "expanse15_truman_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.441127488525262,
+          0.4682701005103673
+        ],
+        "muzzle_positions": [
+          [
+            2.8132023656220657e-06,
+            1.0182969499208578,
+            9.471300631539254
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse27_laconia_frigate",
+      "skin": "expanse27_laconia_frigate",
+      "weapon": "expanse27_laconia_frigate_pdc_0",
+      "base": "expanse27_laconia_frigate_pdc_base",
+      "barrel": "expanse27_laconia_frigate_pdc_barrel",
+      "barrel_alias": "expanse27_laconia_frigate_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_laconia_frigate_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_laconia_frigate_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse24_gathering_storm",
+      "skin": "expanse24_gathering_storm",
+      "weapon": "expanse24_gathering_storm_pdc_0",
+      "base": "expanse27_storm_pdc_base",
+      "barrel": "expanse27_storm_pdc_barrel",
+      "barrel_alias": "expanse27_storm_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_storm_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_storm_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.5829186447216204,
+          0.21540424623476895
+        ],
+        "muzzle_positions": [
+          [
+            1.2940730881861501e-06,
+            0.4684165969635945,
+            4.356798290508056
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse22_foehammer_battery",
+      "skin": "expanse22_foehammer_battery",
+      "weapon": "expanse22_foehammer_battery_1",
+      "base": "expanse22_foehammer_pdc_base",
+      "barrel": "expanse22_foehammer_pdc_barrel",
+      "barrel_alias": "expanse22_foehammer_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse22_foehammer_pdc_base",
+        "biaxial_barrel_mesh": "expanse22_foehammer_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse27_hephaestus",
+      "skin": "expanse27_hephaestus",
+      "weapon": "expanse27_hephaestus_pdc_0",
+      "base": "expanse27_hephaestus_pdc_base",
+      "barrel": "expanse27_hephaestus_pdc_barrel",
+      "barrel_alias": "expanse27_hephaestus_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_hephaestus_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_hephaestus_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse21_opa_command",
+      "skin": "expanse21_opa_command",
+      "weapon": "expanse26_opa_command_pdc_0",
+      "base": "expanse26_opa_command_pdc_base",
+      "barrel": "expanse26_opa_command_pdc_barrel",
+      "barrel_alias": "expanse26_opa_command_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse26_opa_command_pdc_base",
+        "biaxial_barrel_mesh": "expanse26_opa_command_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          5.621637485151461,
+          0.7649948335197806
+        ],
+        "muzzle_positions": [
+          [
+            4.595820388705041e-06,
+            1.6635525198584835,
+            15.472899170677994
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse19_europa_bane",
+      "skin": "expanse19_europa_bane",
+      "weapon": "expanse19_europa_pdc_0",
+      "base": "expanse19_europa_pdc_base",
+      "barrel": "expanse19_europa_pdc_barrel",
+      "barrel_alias": "expanse19_europa_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse19_europa_pdc_base",
+        "biaxial_barrel_mesh": "expanse19_europa_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          4.129352986230314,
+          0.5619241206124408
+        ],
+        "muzzle_positions": [
+          [
+            3.375842838746479e-06,
+            1.2219563399050293,
+            11.365560757847105
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse27_munroe",
+      "skin": "expanse27_munroe",
+      "weapon": "expanse27_munroe_pdc_0",
+      "base": "expanse27_munroe_pdc_base",
+      "barrel": "expanse27_munroe_pdc_barrel",
+      "barrel_alias": "expanse27_munroe_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_munroe_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_munroe_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.8926201186888942,
+          0.25754855528070203
+        ],
+        "muzzle_positions": [
+          [
+            1.5472613010921363e-06,
+            0.5600633224564718,
+            5.20921534734659
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse21_contract_patrol",
+      "skin": "expanse21_contract_patrol",
+      "weapon": "expanse21_contract_patrol_pdc_0",
+      "base": "expanse11_morrigan_pdc_base",
+      "barrel": "expanse11_morrigan_pdc_barrel",
+      "barrel_alias": "expanse11_morrigan_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse11_morrigan_pdc_base",
+        "biaxial_barrel_mesh": "expanse11_morrigan_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse12_scirocco",
+      "skin": "expanse12_scirocco",
+      "weapon": "expanse12_scirocco_pdc_0",
+      "base": "expanse12_scirocco_pdc_base",
+      "barrel": "expanse12_scirocco_pdc_barrel",
+      "barrel_alias": "expanse12_scirocco_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_scirocco_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_scirocco_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          3.0281921899022306,
+          0.4120776884491233
+        ],
+        "muzzle_positions": [
+          [
+            2.475618081747418e-06,
+            0.8961013159303549,
+            8.334744555754543
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse12_pella",
+      "skin": "expanse12_pella",
+      "weapon": "expanse12_pella_pdc_0",
+      "base": "expanse12_pella_pdc_base",
+      "barrel": "expanse12_pella_pdc_barrel",
+      "barrel_alias": "expanse12_pella_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse12_pella_pdc_base",
+        "biaxial_barrel_mesh": "expanse12_pella_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "trader_light_frigate",
+      "skin": "trader_light_frigate",
+      "weapon": "expanse11_morrigan_pdc_0",
+      "base": "expanse11_morrigan_pdc_base",
+      "barrel": "expanse11_morrigan_pdc_barrel",
+      "barrel_alias": "expanse11_morrigan_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse11_morrigan_pdc_base",
+        "biaxial_barrel_mesh": "expanse11_morrigan_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_rocinante_hero",
+      "skin": "expanse_rocinante_hero",
+      "weapon": "expanse_rocinante04_pdc_0",
+      "base": "expanse04_hero_pdc_0_base",
+      "barrel": "expanse04_hero_pdc_0_barrel",
+      "barrel_alias": "expanse04_hero_pdc_0_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_0_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_0_barrel",
+        "barrel_position": [
+          -8.683666631308258e-16,
+          1.727936380492649,
+          -2.882488765720078e-16
+        ],
+        "muzzle_positions": [
+          [
+            -0.0710579646403381,
+            -0.222950250534577,
+            5.777100429663441
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_rocinante_hero",
+      "skin": "expanse_rocinante_hero",
+      "weapon": "expanse_rocinante04_pdc_1",
+      "base": "expanse04_hero_pdc_1_base",
+      "barrel": "expanse04_hero_pdc_1_barrel",
+      "barrel_alias": "expanse04_hero_pdc_1_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_1_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_1_barrel",
+        "barrel_position": [
+          -4.1043144794368666e-16,
+          1.7459760476477004,
+          8.78144174669655e-17
+        ],
+        "muzzle_positions": [
+          [
+            -0.07729830265309386,
+            -0.22186212250228743,
+            5.779711996812647
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_rocinante_hero",
+      "skin": "expanse_rocinante_hero",
+      "weapon": "expanse_rocinante04_pdc_2",
+      "base": "expanse04_hero_pdc_2_base",
+      "barrel": "expanse04_hero_pdc_2_barrel",
+      "barrel_alias": "expanse04_hero_pdc_2_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_2_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_2_barrel",
+        "barrel_position": [
+          -9.51005733714221e-17,
+          1.6548882161454446,
+          3.3355702575159786e-16
+        ],
+        "muzzle_positions": [
+          [
+            -0.06838993138690422,
+            -0.24787704005975936,
+            5.685023627544309
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_rocinante_hero",
+      "skin": "expanse_rocinante_hero",
+      "weapon": "expanse_rocinante04_pdc_3",
+      "base": "expanse04_hero_pdc_3_base",
+      "barrel": "expanse04_hero_pdc_3_barrel",
+      "barrel_alias": "expanse04_hero_pdc_3_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_3_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_3_barrel",
+        "barrel_position": [
+          4.808604662032654e-16,
+          1.5828226790486,
+          -1.2686542855705798e-15
+        ],
+        "muzzle_positions": [
+          [
+            -0.01231479903841471,
+            -0.19762184031502128,
+            5.733279825453691
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_rocinante_hero",
+      "skin": "expanse_rocinante_hero",
+      "weapon": "expanse_rocinante04_pdc_4",
+      "base": "expanse04_hero_pdc_4_base",
+      "barrel": "expanse04_hero_pdc_4_barrel",
+      "barrel_alias": "expanse04_hero_pdc_4_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_4_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_4_barrel",
+        "barrel_position": [
+          1.616297250094146e-16,
+          1.7236283502357574,
+          1.284188377811563e-15
+        ],
+        "muzzle_positions": [
+          [
+            -0.07001557052187979,
+            -0.2239583140430435,
+            5.7805419861398475
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_rocinante_hero",
+      "skin": "expanse_rocinante_hero",
+      "weapon": "expanse_rocinante04_pdc_5",
+      "base": "expanse04_hero_pdc_5_base",
+      "barrel": "expanse04_hero_pdc_5_barrel",
+      "barrel_alias": "expanse04_hero_pdc_5_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse04_hero_pdc_5_base",
+        "biaxial_barrel_mesh": "expanse04_hero_pdc_5_barrel",
+        "barrel_position": [
+          -9.890396574033874e-17,
+          1.7286419012300367,
+          1.3751331113986284e-15
+        ],
+        "muzzle_positions": [
+          [
+            -0.0714087068168577,
+            -0.22268019743398987,
+            5.779485326515976
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse_donnager_battleship",
+      "skin": "expanse_donnager_battleship",
+      "weapon": "expanse10_donnager_pdc_0",
+      "base": "expanse10_donnager_pdc_base",
+      "barrel": "expanse10_donnager_pdc_barrel",
+      "barrel_alias": "expanse10_donnager_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse10_donnager_pdc_base",
+        "biaxial_barrel_mesh": "expanse10_donnager_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          1.3764509954101047,
+          0.18730804020414693
+        ],
+        "muzzle_positions": [
+          [
+            1.1252809462488263e-06,
+            0.4073187799683431,
+            3.7885202526157014
+          ]
+        ]
+      }
+    },
+    {
+      "unit": "expanse27_nathan_hale",
+      "skin": "expanse27_nathan_hale",
+      "weapon": "expanse27_nathan_hale_pdc_0",
+      "base": "expanse27_nathan_hale_pdc_base",
+      "barrel": "expanse27_nathan_hale_pdc_barrel",
+      "barrel_alias": "expanse27_nathan_hale_pdc_barrel",
+      "points": [
+        [],
+        []
+      ],
+      "turret": {
+        "type": "biaxial",
+        "biaxial_base_mesh": "expanse27_nathan_hale_pdc_base",
+        "biaxial_barrel_mesh": "expanse27_nathan_hale_pdc_barrel",
+        "barrel_position": [
+          0.0,
+          2.2367328675414204,
+          0.30437556533173876
+        ],
+        "muzzle_positions": [
+          [
+            1.8285815376543427e-06,
+            0.6618930174485577,
+            6.156345410500515
+          ]
+        ]
+      }
+    }
+  ],
+  "checked": 78,
+  "native_alias_suffix_differences_not_faults": 12
+}

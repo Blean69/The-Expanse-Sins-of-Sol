@@ -1,0 +1,1721 @@
+{
+  "status": "PASS OFFLINE",
+  "official_compiler_proof": {
+    "status": "PASS",
+    "compiler_ab_only_socket_block_changed": true,
+    "official_point_serialization_matches": true,
+    "without_sha256": "49bc8162d8c48efa5c00eaf6121e86121cac2a5ec6ad6b80de12bc875b96100f",
+    "with_sha256": "f47743c8681321ead32b81175c59882b474dd85e7f34b199fdc54569f96821b3",
+    "points": [
+      {
+        "name": "child.socket_proof",
+        "position": [
+          0.5,
+          1.0,
+          2.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "bone_index": 0
+      },
+      {
+        "name": "turret_muzzle.0",
+        "position": [
+          0.0,
+          0.4000000059604645,
+          3.0
+        ],
+        "rotation": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          -0.0,
+          -0.0,
+          1.0
+        ],
+        "bone_index": 0
+      }
+    ]
+  },
+  "files": [
+    {
+      "path": "meshes/expanse04_hero_pdc_0_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_0_barrel.mesh",
+      "previous_sha256": "633cd6032b3f0c12164d08f5cf0b660f3f7f0e97a3a698e72f6294a006dc6315",
+      "sha256": "f0a0f6bb0db91ad2424a41f3b9e4bf4776b294158a9e7fc969078bd91abc101b",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -0.07105796784162521,
+            -0.22295024991035461,
+            5.777100563049316
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_0_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_0_base.mesh",
+      "previous_sha256": "37671f5f6c3b5228cf6697a8a6696809ab6d30557977f5062617dbd6a9876a05",
+      "sha256": "06024bbf0a3a59303f6b5c5ec7abe5ae9055259f2937a39569e12a6156280946",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse04_hero_pdc_0_barrel",
+          "position": [
+            -8.683666367012024e-16,
+            1.7279363870620728,
+            -2.8824888537088463e-16
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_1_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_1_barrel.mesh",
+      "previous_sha256": "b268f9b299207bc0f936f59a0f6dad4f0518cc15aa7d4db9ca90d7528f7fd2f4",
+      "sha256": "c97eda4ba13afd10159ff0f96e520d8c919c1eae87b2280184d2e4d8e5ef685c",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -0.07729830592870712,
+            -0.22186212241649628,
+            5.779712200164795
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_1_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_1_base.mesh",
+      "previous_sha256": "3e02eb440eb408b95f180c547d57e3a0a8793195c1525a0b240ad0ed902a6ef2",
+      "sha256": "d19096376932af5a17867b65112956545039b4befb91b264e3bacf2a24c7aec6",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse04_hero_pdc_1_barrel",
+          "position": [
+            -4.1043145571840653e-16,
+            1.7459760904312134,
+            8.781442027091548e-17
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_2_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_2_barrel.mesh",
+      "previous_sha256": "e49dc620d285307f48e9af7fb1d8fb5829e82e02a5c95207fa3ddc060c541fe8",
+      "sha256": "1a03794cf9075b32f3e5f82748e7e114824b68db3bd4f4de06340990efca41ee",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -0.06838992983102798,
+            -0.24787704646587372,
+            5.685023784637451
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_2_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_2_base.mesh",
+      "previous_sha256": "1b97845aa0330e008ee488ec40f8f1a9a52a8be4a5c3b3fe2572c4e9f83a36e8",
+      "sha256": "6cf39a260c163ce05a74dba0feeaaab15c530f65a10416b3f50967440058e40d",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse04_hero_pdc_2_barrel",
+          "position": [
+            -9.510057121341737e-17,
+            1.6548882722854614,
+            3.33557021826652e-16
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_3_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_3_barrel.mesh",
+      "previous_sha256": "a4addbf4c22b3f29bd9416bd7bf1d2a663ad0537ec7b9b37601cf19c95d74c4b",
+      "sha256": "781cf3b482a1e7d45de796c59a2aade6deac25bac449857668140df3ab364b41",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -0.01231479924172163,
+            -0.19762183725833893,
+            5.733279705047607
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_3_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_3_base.mesh",
+      "previous_sha256": "e5aa0e6340b2b139c4cc89b69d379cb33fa44e41b4545b6fc98c26e13fa72db9",
+      "sha256": "eb0fcd29ec0ea5ecfe087d9693f7784c8548a982564af26e7b9b9121385ef57f",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse04_hero_pdc_3_barrel",
+          "position": [
+            4.808604453375887e-16,
+            1.5828226804733276,
+            -1.2686542905410874e-15
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_4_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_4_barrel.mesh",
+      "previous_sha256": "a54c76083efb9037a0b644e8128636e58d310f7d60626ccbee35d44ca8cdb211",
+      "sha256": "4e85d08ef0b519747581ecc0c4330fba674dfd794c8f3c694cd8d6265ea8327d",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -0.0700155720114708,
+            -0.2239583134651184,
+            5.780541896820068
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_4_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_4_base.mesh",
+      "previous_sha256": "0c70370542e525ac996823691bae2d3a37331b8a828e41f29d6d187cfe4cf072",
+      "sha256": "8667078aa9e5b8a8d423346397a76fffd6eb396ff51ac0cd24a533ce10abd673",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse04_hero_pdc_4_barrel",
+          "position": [
+            1.6162972849921212e-16,
+            1.7236284017562866,
+            1.2841883453981393e-15
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_5_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_5_barrel.mesh",
+      "previous_sha256": "43b33990cf192b17f4ec9a36aec4a33c5207aadf8d64fc37edaf8a95b4ba57bc",
+      "sha256": "a1399181610b6c9df33443d376403ff083fe901d1af2b914b5eb5572720f2cf4",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -0.0714087039232254,
+            -0.2226801961660385,
+            5.77948522567749
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse04_hero_pdc_5_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse04_hero_pdc_5_base.mesh",
+      "previous_sha256": "d6d2ccbab9e6455e4f100cf1a0609d638e15ad8036a99b9a70fdd857b84f9d55",
+      "sha256": "6a8d3a48f2521a837bb66d90e57dfe977f530ecc5816bff72aa9ffac3fd63286",
+      "consumers": [
+        "expanse_rocinante_hero"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse04_hero_pdc_5_barrel",
+          "position": [
+            -9.890396752227089e-17,
+            1.7286418676376343,
+            1.375133108274531e-15
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse06_amun_pdc_0_barrel.mesh",
+      "previous_sha256": "dd39838bc5c8505c13101a7c3adf57bad4f2a58f28a6b09a4093d2d126170637",
+      "sha256": "da048f279d493526b32612bab4d2caca4c2cd749a133323417a5dd0884e18175",
+      "consumers": [
+        "expanse_amun_ra"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -4.311843895266065e-06,
+            -0.004210140090435743,
+            7.172168254852295
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse06_amun_pdc_0_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse06_amun_pdc_0_base.mesh",
+      "previous_sha256": "fc16d2b4d38a54806002f94ac462cd31d3b48a2ed1f2b7b98930d74ca955118e",
+      "sha256": "7b4f28c4ccd4619648ca98195a8e9c42101f3ef2f4dd22289bc974691c500290",
+      "consumers": [
+        "expanse_amun_ra"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse06_amun_pdc_0_barrel",
+          "position": [
+            2.184359118473367e-06,
+            1.5430707931518555,
+            -0.7105518579483032
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse06_amun_pdc_1_barrel.mesh",
+      "previous_sha256": "034074396411f46abdc077c6c6d040ec9af10aee574eaaca8fc85b06c2c159fe",
+      "sha256": "ce2862c40d60bde752c7e8aaee7d2cfe3325bf1e33fa68d1ccf9adc9d791aa15",
+      "consumers": [
+        "expanse_amun_ra"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -4.311843895266065e-06,
+            -0.004213410895317793,
+            7.172168254852295
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse06_amun_pdc_1_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse06_amun_pdc_1_base.mesh",
+      "previous_sha256": "824f938bb37a5a110500987e97aaef01a6938f5579ec9020412e94e2457ffd33",
+      "sha256": "b78a6e28beef0907bab99080bd5b0573f1d60c61b926dd2d32661d9bd9f135e4",
+      "consumers": [
+        "expanse_amun_ra"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse06_amun_pdc_1_barrel",
+          "position": [
+            6.5444519350421615e-06,
+            1.5430707931518555,
+            -0.7105472683906555
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse06_amun_pdc_2_barrel.mesh",
+      "previous_sha256": "0166f3672b4bfe874f562d34a6b4851ba8f0114aadd88db85e10c8b344554f9b",
+      "sha256": "09bb692cef211b6e6c69ed75d6eda4b13742501867cdd86e80ddcf7b9a06e645",
+      "consumers": [
+        "expanse_amun_ra"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            5.1131703315832056e-08,
+            -0.004213959909975529,
+            7.172170639038086
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse06_amun_pdc_2_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse06_amun_pdc_2_base.mesh",
+      "previous_sha256": "346fc42476ace1bca267383704e92a3f4f56563fd97adfc90a6139b775052929",
+      "sha256": "99aba4b82d34d0cd3d9bf816f66e4170912ca2922f7be28d28a7eef471871771",
+      "consumers": [
+        "expanse_amun_ra"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse06_amun_pdc_2_barrel",
+          "position": [
+            4.362975687399739e-06,
+            1.543068528175354,
+            -0.7105472683906555
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse10_donnager_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse10_donnager_pdc_barrel.mesh",
+      "previous_sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "sha256": "7e65080838318003814144723fdb8a122f66cb82d94f299aeba3ad21af0e153d",
+      "consumers": [
+        "expanse_donnager_battleship"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse10_donnager_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse10_donnager_pdc_base.mesh",
+      "previous_sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "sha256": "7ddcd530f5bc9330f3b025e5cb4b154e6aeb6e7a61c1cc845c8cd9de98d29db1",
+      "consumers": [
+        "expanse_donnager_battleship"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse10_donnager_pdc_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse11_morrigan_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse11_morrigan_pdc_barrel.mesh",
+      "previous_sha256": "25f7854e78b7a6c6f9f29a5be60522d291d29b817188bf8e53165c1a0825cf80",
+      "sha256": "a0d56b1931cdc487a40ddfe6a44a0ce9a64673415513af2104b44608efccc1c1",
+      "consumers": [
+        "expanse21_contract_patrol",
+        "trader_light_frigate"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse11_morrigan_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse11_morrigan_pdc_base.mesh",
+      "previous_sha256": "cbda0af5ad4120159a4a60247dc0d318d11d7331e42b98daa60cbdb74082ad00",
+      "sha256": "8dd075bf39bfb8446fe05628148299f4eab5a7cc5bd9ff8b76ebd006979fe9b6",
+      "consumers": [
+        "expanse21_contract_patrol",
+        "trader_light_frigate"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse11_morrigan_pdc_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse12_pella_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse12_pella_pdc_barrel.mesh",
+      "previous_sha256": "600f969c81cdef2c743d63ad1db6ce8b05abf106ddd8d6280e336c76776be33d",
+      "sha256": "18c0f20e78486a610cffe72f5e1657007c8d9dc50c09f2dd8f8d8d79a2c19042",
+      "consumers": [
+        "expanse12_pella"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse12_pella_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse12_pella_pdc_base.mesh",
+      "previous_sha256": "df98518e170f5217f790b5810b64f59ed319194b07927a9691f0c4ca406fdf72",
+      "sha256": "fe070a95316a472a1beeb8eef21bf971fc329ac5432738c0e9ce7db0cb3456e8",
+      "consumers": [
+        "expanse12_pella"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse12_pella_pdc_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse12_raptor_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse12_raptor_pdc_barrel.mesh",
+      "previous_sha256": "84d6ad3271c047ca0c3ffd8e067dc2df2eb504ce2fdc8c5d2e72417a08125c73",
+      "sha256": "9bac0a10c380ee4556ebc19a6534d2144ae414def7ee4c9064b5a7db7c5fec0a",
+      "consumers": [
+        "expanse12_raptor"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse12_raptor_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse12_raptor_pdc_base.mesh",
+      "previous_sha256": "0b8902fc41e415cc3719213d916ac5c14d2b4fd1f378e4144b87115f9db77e77",
+      "sha256": "e952df3536dde1f477303733fd6d842b77b091744aad974485d0fe6825db0bec",
+      "consumers": [
+        "expanse12_raptor"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse12_raptor_pdc_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse12_scirocco_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse12_scirocco_pdc_barrel.mesh",
+      "previous_sha256": "473fe52f6857c2764d9a4642c18663d546cb3351d35963ac58356ff15c9c4a1d",
+      "sha256": "14491949cca0b9a832d85e53992f313a73f44170ac13d507ff99a93b6e40ffa2",
+      "consumers": [
+        "expanse12_scirocco"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            2.475617975505884e-06,
+            0.8961012959480286,
+            8.334744453430176
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse12_scirocco_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse12_scirocco_pdc_base.mesh",
+      "previous_sha256": "316a7da7715712bca386c1c34ab143fe6ff3170a523bfa7d16a45dc9b03fa8ef",
+      "sha256": "0551b35b26a1ea7b54cd3f808bb628659590075788bd4f5f8f2de5076e443e91",
+      "consumers": [
+        "expanse12_scirocco"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse12_scirocco_pdc_barrel",
+          "position": [
+            0.0,
+            3.0281922817230225,
+            0.4120776951313019
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse15_truman_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse15_truman_pdc_barrel.mesh",
+      "previous_sha256": "69c706d08ecf00a5fec1da55d9173e6f2bd3b3075c0c26f815a903458a18358f",
+      "sha256": "62d002d41d6c4a6245adb6afd499f9827f90c34036861c90b3d763b9ee94f634",
+      "consumers": [
+        "expanse15_truman"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            2.8132023999205558e-06,
+            1.0182969570159912,
+            9.471301078796387
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse15_truman_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse15_truman_pdc_base.mesh",
+      "previous_sha256": "11e2c630970cfc3f47094223b99f2d9faee10fdaa4462be504327bcce86b5c66",
+      "sha256": "1f207c2e7edb1c7ec9b1aed5873c3dc89defd6e8faadf6a601e920ebd1450925",
+      "consumers": [
+        "expanse15_truman"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse15_truman_pdc_barrel",
+          "position": [
+            0.0,
+            3.4411275386810303,
+            0.46827009320259094
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse19_europa_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse19_europa_pdc_barrel.mesh",
+      "previous_sha256": "87828cae23fd21425944711719fc8bed6201ebd4f944f7c736e20417eac316df",
+      "sha256": "8a39e0efa9ae5f269aa88cdf8ddc372b14e1716d2babd56ddea959a45e733083",
+      "consumers": [
+        "expanse19_europa_bane"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            3.375842879904667e-06,
+            1.2219563722610474,
+            11.365560531616211
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse19_europa_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse19_europa_pdc_base.mesh",
+      "previous_sha256": "c4b44a1b2730056b72041bbabdb08e3970acbbbcd462c5dba4b47ba4b4b53f46",
+      "sha256": "d062fb549ae4b172039818b1f8e0c1756902b0317cfa2c22e398fc805fe80705",
+      "consumers": [
+        "expanse19_europa_bane"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse19_europa_pdc_barrel",
+          "position": [
+            0.0,
+            4.129353046417236,
+            0.5619240999221802
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse22_foehammer_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse22_foehammer_pdc_barrel.mesh",
+      "previous_sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "sha256": "7e65080838318003814144723fdb8a122f66cb82d94f299aeba3ad21af0e153d",
+      "consumers": [
+        "expanse22_foehammer_battery"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse22_foehammer_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse22_foehammer_pdc_base.mesh",
+      "previous_sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "sha256": "0baf1d73a8d4212624238fc755085adb07481fec50e09645b86f9ff6ce14ab85",
+      "consumers": [
+        "expanse22_foehammer_battery"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse22_foehammer_pdc_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse23_murphy_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse23_murphy_pdc_barrel.mesh",
+      "previous_sha256": "25f7854e78b7a6c6f9f29a5be60522d291d29b817188bf8e53165c1a0825cf80",
+      "sha256": "a0d56b1931cdc487a40ddfe6a44a0ce9a64673415513af2104b44608efccc1c1",
+      "consumers": [
+        "expanse23_murphy"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse23_murphy_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse23_murphy_pdc_base.mesh",
+      "previous_sha256": "cbda0af5ad4120159a4a60247dc0d318d11d7331e42b98daa60cbdb74082ad00",
+      "sha256": "046fbb6a0c2b9dd2ab3e80ebb980e402b075d4d802fbeeb0f7da05e760fa7481",
+      "consumers": [
+        "expanse23_murphy"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse23_murphy_pdc_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse26_opa_command_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse26_opa_command_pdc_barrel.mesh",
+      "previous_sha256": "a985f0e5220cec59c6434da1481cda9d7c625f953c103495267a52900019d4d0",
+      "sha256": "09756dcdbdbfa75d202760ab832dbd7294427dd5a8774dbb38eacb95d931f584",
+      "consumers": [
+        "expanse21_opa_command"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            4.5958204282214865e-06,
+            1.6635525226593018,
+            15.472899436950684
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse26_opa_command_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse26_opa_command_pdc_base.mesh",
+      "previous_sha256": "b3cf33a9100921ad0ba6813e3c074eeac70f2cb0886bdd4fa314075ae4497e60",
+      "sha256": "1a1fd0c24e854263efd5f0cb9370b6c4f55859f3b6f6d3c8a3205f7f0f8f45d8",
+      "consumers": [
+        "expanse21_opa_command"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse26_opa_command_pdc_barrel",
+          "position": [
+            0.0,
+            5.621637344360352,
+            0.7649948596954346
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_behemoth_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_behemoth_pdc_barrel.mesh",
+      "previous_sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "sha256": "7e65080838318003814144723fdb8a122f66cb82d94f299aeba3ad21af0e153d",
+      "consumers": [
+        "expanse24_behemoth"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_behemoth_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_behemoth_pdc_base.mesh",
+      "previous_sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "sha256": "eb3a1f47d1a21d48fdb3d0102f8a1ceb1a5330532a9c24dbc605cf2b554c0886",
+      "consumers": [
+        "expanse24_behemoth"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse27_behemoth_pdc_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_dark_star_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_dark_star_pdc_barrel.mesh",
+      "previous_sha256": "dd39838bc5c8505c13101a7c3adf57bad4f2a58f28a6b09a4093d2d126170637",
+      "sha256": "da048f279d493526b32612bab4d2caca4c2cd749a133323417a5dd0884e18175",
+      "consumers": [
+        "expanse27_dark_star"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            -4.311843895266065e-06,
+            -0.004210140090435743,
+            7.172168254852295
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_dark_star_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_dark_star_pdc_base.mesh",
+      "previous_sha256": "fc16d2b4d38a54806002f94ac462cd31d3b48a2ed1f2b7b98930d74ca955118e",
+      "sha256": "6336f55f148d850b1fdaa611a6cd654ca69bb7e0f3033e12a36f5a122ea76e7e",
+      "consumers": [
+        "expanse27_dark_star"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse27_dark_star_pdc_barrel",
+          "position": [
+            2.184359118473367e-06,
+            1.5430707931518555,
+            -0.7105518579483032
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_hephaestus_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_hephaestus_pdc_barrel.mesh",
+      "previous_sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "sha256": "7e65080838318003814144723fdb8a122f66cb82d94f299aeba3ad21af0e153d",
+      "consumers": [
+        "expanse27_hephaestus"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_hephaestus_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_hephaestus_pdc_base.mesh",
+      "previous_sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "sha256": "9d7f3796bc924b8401213756b63a1a832f242dca33ca4abb8f56102ac98499b7",
+      "consumers": [
+        "expanse27_hephaestus"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse27_hephaestus_pdc_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_laconia_frigate_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_laconia_frigate_pdc_barrel.mesh",
+      "previous_sha256": "957c45a957ebdfd0296a98cff9722b1369ba1ac4e6e9a06602578c0dca2695d7",
+      "sha256": "7e65080838318003814144723fdb8a122f66cb82d94f299aeba3ad21af0e153d",
+      "consumers": [
+        "expanse27_laconia_frigate"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.1252809599682223e-06,
+            0.40731877088546753,
+            3.788520336151123
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_laconia_frigate_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_laconia_frigate_pdc_base.mesh",
+      "previous_sha256": "14601c2abfa57d5e95f06b8a0cbcabf792ba58a7a5f4290fa84d5757ab5e126c",
+      "sha256": "011e7e77b5ef386edb5894df7c31eeaf9b82f9e65b7df96391c6738616d0ec7c",
+      "consumers": [
+        "expanse27_laconia_frigate"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse27_laconia_frigate_pdc_barrel",
+          "position": [
+            0.0,
+            1.376451015472412,
+            0.18730804324150085
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_munroe_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_munroe_pdc_barrel.mesh",
+      "previous_sha256": "4f31688b70285d90bc684e80cc9aba1ed8f661a5f1aa66bb03c7ae9c6e8096f5",
+      "sha256": "168ea754a83188bba7047fdfe42d718a76c06c8e90719b09e5dc99f24babdb48",
+      "consumers": [
+        "expanse27_munroe"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.5472612631128868e-06,
+            0.5600633025169373,
+            5.20921516418457
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_munroe_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_munroe_pdc_base.mesh",
+      "previous_sha256": "ad40b7827f1825df29d918d5ea55874d9ee67fd0dfa3f4ef9f10b17b554c3269",
+      "sha256": "7250bcaa5456dc2d2890bba4eab73a786c1e3bf58e465ee2ea760c463690c69b",
+      "consumers": [
+        "expanse27_munroe"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse27_munroe_pdc_barrel",
+          "position": [
+            0.0,
+            1.8926200866699219,
+            0.2575485408306122
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_nathan_hale_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_nathan_hale_pdc_barrel.mesh",
+      "previous_sha256": "e11055aa44559058138c942c611b57711005277de33eaf55151b5dcf6620a6ce",
+      "sha256": "0d639fe4704b1616971eea7ec57dd1ca35229063e10102f284b7dd05d4572b21",
+      "consumers": [
+        "expanse27_nathan_hale"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.8285815031049424e-06,
+            0.6618930101394653,
+            6.156345367431641
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_nathan_hale_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_nathan_hale_pdc_base.mesh",
+      "previous_sha256": "724ee04685668767ac9e2f1f4f9c3d72947eaff41d3ad007f94a5187124a17c7",
+      "sha256": "840d8a5da5c2486be2bfdc094755cb1dec4ec2fe1b8eaead149394c57aad6189",
+      "consumers": [
+        "expanse27_nathan_hale"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse27_nathan_hale_pdc_barrel",
+          "position": [
+            0.0,
+            2.2367329597473145,
+            0.304375559091568
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_storm_pdc_barrel.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_storm_pdc_barrel.mesh",
+      "previous_sha256": "eca95acf173aec78603c5017eee5c3c4c269ac594d6bdb26e523652d0a1437d2",
+      "sha256": "d1ed31c3e236c7ea9f827cad07d3de5e15db7ee6fb4f59ec4a2ddb36261b62af",
+      "consumers": [
+        "expanse24_gathering_storm"
+      ],
+      "meshpoints": [
+        {
+          "name": "turret_muzzle.0",
+          "position": [
+            1.2940730584887206e-06,
+            0.46841660141944885,
+            4.35679817199707
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    },
+    {
+      "path": "meshes/expanse27_storm_pdc_base.mesh",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/update27_1-sockets/game/meshes/expanse27_storm_pdc_base.mesh",
+      "previous_sha256": "f5deb5a8bba4d03a01af6d3bb90e2a85d841019f2e268f145de1ae2bbeb04bf1",
+      "sha256": "2d29b11f6aca69a8a1c7cd1223d4e21532dba5d28bcb7e275634214b62fc577d",
+      "consumers": [
+        "expanse24_gathering_storm"
+      ],
+      "meshpoints": [
+        {
+          "name": "child.expanse27_storm_pdc_barrel",
+          "position": [
+            0.0,
+            1.582918643951416,
+            0.21540424227714539
+          ],
+          "rotation": [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "bone_index": 0
+        }
+      ],
+      "geometry_material_and_acceleration_bytes_unchanged": true
+    }
+  ],
+  "runtime": "NOT RUN"
+}

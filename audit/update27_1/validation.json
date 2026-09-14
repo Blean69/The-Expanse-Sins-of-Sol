@@ -1,0 +1,338 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "schemas": [
+    {
+      "file": "uniforms/unit_tag.uniforms",
+      "unchanged_installed_extension": "item_access_tags",
+      "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27/uniforms/unit_tag.uniforms",
+      "source_sha256": "22394419aa192a4e3c7f8c539ba64f141fbf46c37c9aa897edec57ed72548a50"
+    },
+    {
+      "file": "expanse27_dark_star.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/cloak_ability",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27/entities/expanse27_dark_star.unit",
+          "source_sha256": "dd9998e47132f1c148d4586d04a0f5e723997ccae4ece8c71aa80b7318aabd66"
+        },
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27/entities/expanse27_dark_star.unit",
+          "source_sha256": "dd9998e47132f1c148d4586d04a0f5e723997ccae4ece8c71aa80b7318aabd66"
+        }
+      ]
+    },
+    {
+      "file": "expanse27_hephaestus.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27/entities/expanse27_hephaestus.unit",
+          "source_sha256": "14e001053b6871e360739bed16f092727b0bd420b3d01efeb14c2fea0bb20946"
+        }
+      ]
+    },
+    {
+      "file": "expanse27_laconia_frigate.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27/entities/expanse27_laconia_frigate.unit",
+          "source_sha256": "c529918f11aafbea5784e689f1fef6782b287dba337a247fb3de53f569d97955"
+        }
+      ]
+    },
+    {
+      "file": "expanse27_munroe.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27/entities/expanse27_munroe.unit",
+          "source_sha256": "4b132dedd1247b61f748333e79488fa519fd253af4842205be7b519dd1125509"
+        }
+      ]
+    },
+    {
+      "file": "expanse27_nathan_hale.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27/entities/expanse27_nathan_hale.unit",
+          "source_sha256": "8293c78f239b0da727fa8213e1338aca8240d6e7ebc1505c2e86b4b63b7c1ef0"
+        }
+      ]
+    },
+    {
+      "file": "expanse27_dark_star.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse21_opa_command.unit_skin",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    }
+  ],
+  "actions": [
+    {
+      "unit": "expanse27_dark_star",
+      "actions": {
+        "abilities": 5,
+        "buffs": 6,
+        "torpedoes": 2
+      },
+      "values": [
+        {
+          "ability": "expanse27_dark_star_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_dark_star_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_dark_star_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_boarding",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse21_opa_override_codes_boarding.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_cloak_controller",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse06_amun_cloak.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse06_amun_cloak.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse06_amun_cloak_controller.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse06_amun_revealed.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse06_amun_cloak",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse06_amun_cloak.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse06_amun_cloak.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse27_hephaestus",
+      "actions": {
+        "abilities": 3,
+        "buffs": 3,
+        "torpedoes": 8
+      },
+      "values": [
+        {
+          "ability": "expanse27_hephaestus_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_hephaestus_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse12_scirocco_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_hephaestus_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse27_hephaestus_medium_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_hephaestus_medium_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse12_scirocco_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_hephaestus_medium_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse27_laconia_frigate",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 2
+      },
+      "values": [
+        {
+          "ability": "expanse27_laconia_frigate_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_laconia_frigate_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse12_scirocco_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_laconia_frigate_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse27_munroe",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 6
+      },
+      "values": [
+        {
+          "ability": "expanse27_munroe_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_munroe_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_munroe_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse27_nathan_hale",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 4
+      },
+      "values": [
+        {
+          "ability": "expanse27_nathan_hale_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_nathan_hale_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse27_nathan_hale_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_1/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    }
+  ],
+  "all_changed_ability_graphs": [],
+  "audio_files_preserved": 160,
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "baseline": {
+    "zip_sha256": "915e033d306fa2fa39e8d6e4a5218b338f4a2a2e5c0d95d108c845061c680a55",
+    "tree_sha256": "a9df42a372b4d88105e9eb5909b9657aef451c037ab7efc68a0532ee071323d8"
+  },
+  "magazine_position_only_replacements": {},
+  "changed_files": [
+    ".mod_meta_data",
+    "PLAYTEST-README.md",
+    "entities/expanse21_opa_command.unit_skin",
+    "entities/expanse27_dark_star.unit",
+    "entities/expanse27_dark_star.unit_skin",
+    "entities/expanse27_hephaestus.unit",
+    "entities/expanse27_laconia_frigate.unit",
+    "entities/expanse27_munroe.unit",
+    "entities/expanse27_nathan_hale.unit",
+    "meshes/expanse04_hero_pdc_0_barrel.mesh",
+    "meshes/expanse04_hero_pdc_0_base.mesh",
+    "meshes/expanse04_hero_pdc_1_barrel.mesh",
+    "meshes/expanse04_hero_pdc_1_base.mesh",
+    "meshes/expanse04_hero_pdc_2_barrel.mesh",
+    "meshes/expanse04_hero_pdc_2_base.mesh",
+    "meshes/expanse04_hero_pdc_3_barrel.mesh",
+    "meshes/expanse04_hero_pdc_3_base.mesh",
+    "meshes/expanse04_hero_pdc_4_barrel.mesh",
+    "meshes/expanse04_hero_pdc_4_base.mesh",
+    "meshes/expanse04_hero_pdc_5_barrel.mesh",
+    "meshes/expanse04_hero_pdc_5_base.mesh",
+    "meshes/expanse06_amun_pdc_0_barrel.mesh",
+    "meshes/expanse06_amun_pdc_0_base.mesh",
+    "meshes/expanse06_amun_pdc_1_barrel.mesh",
+    "meshes/expanse06_amun_pdc_1_base.mesh",
+    "meshes/expanse06_amun_pdc_2_barrel.mesh",
+    "meshes/expanse06_amun_pdc_2_base.mesh",
+    "meshes/expanse10_donnager_pdc_barrel.mesh",
+    "meshes/expanse10_donnager_pdc_base.mesh",
+    "meshes/expanse11_morrigan_pdc_barrel.mesh",
+    "meshes/expanse11_morrigan_pdc_base.mesh",
+    "meshes/expanse12_pella_pdc_barrel.mesh",
+    "meshes/expanse12_pella_pdc_base.mesh",
+    "meshes/expanse12_raptor_pdc_barrel.mesh",
+    "meshes/expanse12_raptor_pdc_base.mesh",
+    "meshes/expanse12_scirocco_pdc_barrel.mesh",
+    "meshes/expanse12_scirocco_pdc_base.mesh",
+    "meshes/expanse15_truman_pdc_barrel.mesh",
+    "meshes/expanse15_truman_pdc_base.mesh",
+    "meshes/expanse19_europa_pdc_barrel.mesh",
+    "meshes/expanse19_europa_pdc_base.mesh",
+    "meshes/expanse22_foehammer_pdc_barrel.mesh",
+    "meshes/expanse22_foehammer_pdc_base.mesh",
+    "meshes/expanse23_murphy_pdc_barrel.mesh",
+    "meshes/expanse23_murphy_pdc_base.mesh",
+    "meshes/expanse26_opa_command_pdc_barrel.mesh",
+    "meshes/expanse26_opa_command_pdc_base.mesh",
+    "meshes/expanse27_behemoth_pdc_barrel.mesh",
+    "meshes/expanse27_behemoth_pdc_base.mesh",
+    "meshes/expanse27_dark_star_pdc_barrel.mesh",
+    "meshes/expanse27_dark_star_pdc_base.mesh",
+    "meshes/expanse27_hephaestus_pdc_barrel.mesh",
+    "meshes/expanse27_hephaestus_pdc_base.mesh",
+    "meshes/expanse27_laconia_frigate_pdc_barrel.mesh",
+    "meshes/expanse27_laconia_frigate_pdc_base.mesh",
+    "meshes/expanse27_munroe_pdc_barrel.mesh",
+    "meshes/expanse27_munroe_pdc_base.mesh",
+    "meshes/expanse27_nathan_hale_pdc_barrel.mesh",
+    "meshes/expanse27_nathan_hale_pdc_base.mesh",
+    "meshes/expanse27_storm_pdc_barrel.mesh",
+    "meshes/expanse27_storm_pdc_base.mesh",
+    "uniforms/unit_tag.uniforms"
+  ],
+  "runtime": {
+    "load": "NOT RUN",
+    "opening_viability": "NOT RUN",
+    "menus": "NOT RUN",
+    "existing_and_new_research": "NOT RUN",
+    "colonization": "NOT RUN",
+    "bombardment": "NOT RUN",
+    "stacking": "NOT RUN",
+    "ownership": "NOT RUN",
+    "save_reload": "NOT RUN",
+    "multiplayer": "NOT RUN"
+  }
+}

@@ -35,3 +35,7 @@ No installation, enabling, game launch, remote push or publication has been perf
 ## 0.27 fleet expansion
 
 Five paid research hulls are integrated on their assigned regular faction routes: UNN Nathan Hale/Munroe, MCRN Hephaestus, and OPA Dark Star/Laconian frigate. Gathering Storm moves to OPA and gains a connected enlarged drive/turret assembly. Behemoth receives the white cylindrical replacement with its bookmark blade removed. All prior global combat/economy/audio values are preserved. Required scenario fields, invalid fixed-axis arcs and shieldless-helper GUI assertions are repaired. Generic intermittent inplace_vector assertion remains unattributed. New gameplay, shader appearance, save/reload and multiplayer are untested in-engine; see docs/update27.md and audit/update27 acceptance records.
+
+## 0.27.1 runtime repair
+
+The user reported a crash on the exact regular0.27 package. Its unit tag array exceeded the engine limit (35/30), and the log reported unresolved native tags, missing PDC sockets and experience effects.0.27.1 repairs those concrete faults without balance/audio changes. Tag/equipment/socket/schema checks pass offline; post-fix game load and crash resolution remain unverified. The menu battle ship swap is a feasible optional follow-up, not part of this hotfix.

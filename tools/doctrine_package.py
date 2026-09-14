@@ -86,7 +86,7 @@ def package(base,out,edits,origins,readme,audit,art=None,package_existing=False,
             require('shield_burst_restore' not in level,'Disabled optional burst restored '+p.name)
     tags=read(GAME/'uniforms/weapon.uniforms')['weapon_tags']+read(out/'uniforms/weapon.uniforms')['weapon_tags']
     names=[x['name'] for x in tags];require(len(names)<=32 and len(names)==len(set(names)),'Weapon registry overflow/duplicates')
-    tags=read(out/'uniforms/unit_tag.uniforms')['unit_tags'];require(len(tags)==len(set(x['name'] for x in tags)),'Duplicate unit tag')
+    tags=read(out/'uniforms/unit_tag.uniforms')['unit_tags'];require(len(tags)<=30 and len(tags)==len(set(x['name'] for x in tags)),'Unit tag overflow (engine capacity 30) or duplicate')
     for p in (out/'entities').glob('*.entity_manifest'):
         ids=read(p)['ids'];require(len(ids)==len(set(ids)),'Duplicate entity registry')
         for ident in ids:require((out/'entities'/f'{ident}.{p.stem}').is_file(),'Missing registered entity')
