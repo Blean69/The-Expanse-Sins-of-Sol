@@ -1,0 +1,130 @@
+{
+  "stage": "A",
+  "baseline": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu",
+  "players": [
+    "dlc_trader_loyalist",
+    "expanse18_unn"
+  ],
+  "truman": {
+    "before_build": {
+      "build_time": 100.0,
+      "price": {
+        "credits": 4000.0,
+        "metal": 1000.0,
+        "crystal": 700.0
+      },
+      "exotic_price": [
+        {
+          "exotic_type": "offense",
+          "count": 1
+        },
+        {
+          "exotic_type": "defense",
+          "count": 2
+        }
+      ],
+      "build_kind": "capital_ship",
+      "supply_cost": 185,
+      "build_group_id": "capital_ship"
+    },
+    "after_build": {
+      "build_time": 240.0,
+      "price": {
+        "credits": 7680.0,
+        "metal": 3016.0,
+        "crystal": 1520.0
+      },
+      "exotic_price": [
+        {
+          "exotic_type": "offense",
+          "count": 1
+        },
+        {
+          "exotic_type": "defense",
+          "count": 2
+        }
+      ],
+      "build_kind": "super_capital_ship",
+      "supply_cost": 400.0,
+      "build_group_id": "super_capital_ship",
+      "prerequisites": [
+        [
+          "expanse28_truman_command_procurement"
+        ]
+      ]
+    },
+    "health_preserved": true,
+    "combat_progression_preserved": true,
+    "items_preserved": true,
+    "native_cap_tag": "super_capital_ship",
+    "cap": 2,
+    "factory": "trader_loyalist_titan_factory_structure"
+  },
+  "raptor": {
+    "health_L1_preserved": true,
+    "abilities_preserved": true,
+    "fixed_antimatter": {
+      "max_antimatter": 225.0,
+      "antimatter_restore_rate": 0.75
+    }
+  },
+  "hephaestus": {
+    "health_L1_preserved": true,
+    "L10_hull": 5080.0,
+    "L10_armor": 2921.0,
+    "weapon_level_modifiers": false
+  },
+  "capture_guards": [
+    "expanse06_amun_boarding",
+    "expanse21_opa_override_codes_boarding"
+  ],
+  "menu_cosmetic_clones": "Excluded from gameplay edits and cap reasoning: expanse_menu27_* are menu-only display entities, absent playable build rosters. Parent may regenerate visual metadata.",
+  "new_entity_manifest_entries": {
+    "ability": [
+      "expanse28_nathan_expeditionary_colonize"
+    ],
+    "research_subject": [
+      "expanse28_truman_command_procurement"
+    ]
+  },
+  "new_unit_tags": [],
+  "observed_static": [
+    "Native titan factory accepts super_capital_ship; ordinary capital factory accepts cruiser/capital_ship.",
+    "Native command cap uses existing player.unit_limits.global, no new tag budget.",
+    "Native command classification removes capital_ship kind/tag, including first-capital item eligibility.",
+    "Cheap trader_colony_frigate and tier2 Nathan Hale procurement remain available.",
+    "No damage/reload/speed/torpedo/audio/model changes in this fragment."
+  ],
+  "untested_runtime": [
+    "Two simultaneous queues, cancellation and death releasing cap reservations.",
+    "Ownership transfer/diplomacy/rewards respecting cap; native cap is not proven an absolute ownership guard.",
+    "First capital discount vs full command billing in actual game.",
+    "Save/reload, multiplayer and legacy saves with already-owned excess ships or Raptor items.",
+    "Existing-hull and newly-built progression, role AI and colony/repair UI in game."
+  ],
+  "edit_reasons": {
+    "entities/expanse15_truman.unit": "Native super_capital_ship classification; economics floor; health/levels/weapons unchanged",
+    "entities/expanse12_raptor.unit": "Cruiser progression/items removed; exact L1 health, AM and fixed abilities preserved",
+    "entities/expanse27_hephaestus.unit": "Ordinary capital; existing native XP/AM; conservative +3% hull/armor per level, no weapon scaling",
+    "entities/expanse27_nathan_hale.unit": "Disclosed expeditionary support refit; native colonize + existing capped/nonstacking repair; no cost/stat changes",
+    "entities/expanse28_nathan_expeditionary_colonize.ability": "Native trader_colony_frigate_colonize; existing Nathan weapon.torpedo.0 shuttle origin",
+    "entities/expanse28_truman_command_procurement.research_subject": "Native command unlock tier3 [6,0], titan-factory prerequisite and unchanged native costs",
+    "entities/dlc_trader_loyalist.player": "UNN native aggregate command cap2 and actual command procurement graph registration",
+    "entities/expanse18_unn.player": "UNN native aggregate command cap2 and actual command procurement graph registration",
+    "entities/expanse06_amun_boarding.action_data_source": "Prevent Truman command capture at acquisition and delayed ownership-change validation; other capture unchanged",
+    "entities/expanse21_opa_override_codes_boarding.action_data_source": "Prevent Truman command capture at acquisition and delayed ownership-change validation; other capture unchanged",
+    "localized_text/en.localized_text": "Stage A acquisition/classification/support tooltips"
+  },
+  "baseline_hashes": {
+    "expanse15_truman": "3f30223e8347e06647394edf7cd435ba2cd2339fa59dabde09f0466b8714c080",
+    "expanse12_raptor": "dcbde4ee08451f9658d011238f3a44894301a06462f6675cb127f4cebc9dea34",
+    "expanse27_hephaestus": "fcaa9f52df833a8ec7539267f1d430b709cc56d1c39f7361cc53f0da6bcf8de3",
+    "expanse27_nathan_hale": "f886cc14b3091f4d8e292e3cadfe2bf85632b78ea47d78396b503f62baef8446"
+  },
+  "observed_checks": {
+    "schema_definitions": 10,
+    "idempotent_reapplication": true,
+    "scope_and_acquisition_invariants": true,
+    "runtime_tested": false
+  }
+}

@@ -1,0 +1,134 @@
+{
+  "razorback": {
+    "unit": "trader_scout_corvette",
+    "former_name": "Sunflare",
+    "before": {
+      "speed": 215000.0,
+      "speed_between_stars": 752500.0,
+      "charge_time": 2.0,
+      "charge_time_variance": 0.0,
+      "min_charge_angle": 10.0,
+      "max_charge_angle": 45.0
+    },
+    "after": {
+      "speed": 215000.0,
+      "speed_between_stars": 752500.0,
+      "charge_time": 0.1,
+      "charge_time_variance": 0.0,
+      "min_charge_angle": 10.0,
+      "max_charge_angle": 45.0
+    },
+    "preserved": "Transit speed, alignment angles, movement, high-G burn health cost/cooldown, fleet behavior unchanged.",
+    "inhibitor_caveat": "Existing research-gated native Unstoppable Phase Jump already grants phase_jump_disruption_immune. Preserved outside targeted charge edit; no new bypass added. Inhibitor tests must record whether that existing research is active.",
+    "runtime": "NOT RUN; 0.1 seconds is charge only, not total escape time."
+  },
+  "battery": {
+    "access": {
+      "expanse18_mcrn": {
+        "research": "expanse28_mcrn_orbital_defense",
+        "tier": 2,
+        "research_price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_seconds": 150.0,
+        "cap_tag": "expanse22_foehammer_battery",
+        "per_planet_limit": 2,
+        "builder": {
+          "ship": "trader_constructor_ship",
+          "special_operation_unit_kind": "structure_builder"
+        }
+      },
+      "trader_loyalist": {
+        "research": "expanse28_mcrn_orbital_defense",
+        "tier": 2,
+        "research_price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_seconds": 150.0,
+        "cap_tag": "expanse22_foehammer_battery",
+        "per_planet_limit": 2,
+        "builder": {
+          "ship": "trader_constructor_ship",
+          "special_operation_unit_kind": "structure_builder"
+        }
+      },
+      "expanse18_unn": {
+        "research": "expanse22_unn_orbital_defense",
+        "tier": 2,
+        "research_price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_seconds": 150.0,
+        "cap_tag": "expanse22_foehammer_battery",
+        "per_planet_limit": 2,
+        "builder": {
+          "ship": "trader_constructor_ship",
+          "special_operation_unit_kind": "structure_builder"
+        }
+      },
+      "dlc_trader_loyalist": {
+        "research": "expanse22_unn_orbital_defense",
+        "tier": 2,
+        "research_price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_seconds": 150.0,
+        "cap_tag": "expanse22_foehammer_battery",
+        "per_planet_limit": 2,
+        "builder": {
+          "ship": "trader_constructor_ship",
+          "special_operation_unit_kind": "structure_builder"
+        }
+      },
+      "expanse18_opa": {
+        "research": "expanse28_opa_orbital_defense",
+        "tier": 2,
+        "research_price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_seconds": 150.0,
+        "cap_tag": "expanse22_foehammer_battery",
+        "per_planet_limit": 2,
+        "builder": {
+          "ship": "trader_constructor_ship",
+          "special_operation_unit_kind": "structure_builder"
+        }
+      },
+      "trader_rebel": {
+        "research": "expanse28_opa_orbital_defense",
+        "tier": 2,
+        "research_price": {
+          "credits": 750.0,
+          "metal": 125.0,
+          "crystal": 150.0
+        },
+        "research_seconds": 150.0,
+        "cap_tag": "expanse22_foehammer_battery",
+        "per_planet_limit": 2,
+        "builder": {
+          "ship": "trader_constructor_ship",
+          "special_operation_unit_kind": "structure_builder"
+        }
+      }
+    },
+    "cost": {
+      "credits": 2000.0,
+      "metal": 500.0,
+      "crystal": 350.0
+    },
+    "build_seconds": 120.0,
+    "military_slots": 4,
+    "cap": "One shared native planet tag bucket, not one cap per faction. Queue reservations, cancellation and capture counting require runtime verification; no deletion or transfer script added.",
+    "weapons": "Unchanged in A. User range/60-second shot interval override is applied with B weapon increment."
+  }
+}

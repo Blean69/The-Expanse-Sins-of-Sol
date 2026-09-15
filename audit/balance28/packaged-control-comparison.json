@@ -1,0 +1,35 @@
+{
+  "B95": {
+    "status": "PASS OFFLINE isolated packaged difference",
+    "changed_mechanics_files": [
+      "entities/expanse10_donnager_launch_corvette.action_data_source",
+      "entities/expanse12_pella_launch_corvette.action_data_source",
+      "entities/expanse12_raptor_launch_corvette.action_data_source",
+      "entities/expanse12_scirocco_launch_corvette.action_data_source",
+      "entities/expanse_mcrn_corvette.unit"
+    ],
+    "sha256": "24a4637cbc504e3f7b82672bac847cc9733c055c5c17e0456cfe9a7cfc9cbf5b"
+  },
+  "B-tracking-control": {
+    "status": "PASS OFFLINE isolated packaged difference",
+    "changed_mechanics_files": [
+      "entities/expanse10_donnager_rail_0.weapon",
+      "entities/expanse10_donnager_rail_1.weapon",
+      "entities/expanse15_truman_rail_0.weapon",
+      "entities/expanse15_truman_rail_1.weapon",
+      "entities/expanse22_foehammer_battery_0.weapon",
+      "entities/expanse27_nathan_hale_rail_0.weapon",
+      "entities/expanse27_nathan_hale_rail_1.weapon"
+    ],
+    "sha256": "e4f9b914b61e17c2686c05133e9532a677faa0fe3fcf8921c9ff4912c397488f"
+  },
+  "C-cadence": {
+    "status": "PASS OFFLINE isolated packaged difference",
+    "changed_mechanics_files": [
+      "entities/expanse10_donnager_rail_0.weapon",
+      "entities/expanse10_donnager_rail_1.weapon"
+    ],
+    "sha256": "16a53d9cb93ba7db4f1e5995a458730e255b65279b60ff7d1d7ad0dab76bd510",
+    "recommendation": "Optional test only after A/B comparison; no gameplay evidence to adopt by default."
+  }
+}

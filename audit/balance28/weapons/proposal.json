@@ -1,0 +1,2780 @@
+{
+  "runtime": "NOT RUN",
+  "variant": {
+    "tachi_supply": 120,
+    "heavy_tracking": true,
+    "optional_donnager_cadence": false
+  },
+  "pdc_ranges": [
+    {
+      "weapon": "expanse06_amun_pdc_0",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_amun_ra"
+      ]
+    },
+    {
+      "weapon": "expanse06_amun_pdc_1",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_amun_ra"
+      ]
+    },
+    {
+      "weapon": "expanse06_amun_pdc_2",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_amun_ra"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_0",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_1",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_10",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_11",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_12",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_13",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_14",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_15",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_2",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_3",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_4",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_5",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_6",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_7",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_8",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse10_donnager_pdc_9",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse_donnager_battleship"
+      ]
+    },
+    {
+      "weapon": "expanse11_morrigan_pdc_0",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "trader_light_frigate"
+      ]
+    },
+    {
+      "weapon": "expanse11_morrigan_pdc_1",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "trader_light_frigate"
+      ]
+    },
+    {
+      "weapon": "expanse12_pella_pdc_0",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_pella"
+      ]
+    },
+    {
+      "weapon": "expanse12_pella_pdc_1",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_pella"
+      ]
+    },
+    {
+      "weapon": "expanse12_pella_pdc_2",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_pella"
+      ]
+    },
+    {
+      "weapon": "expanse12_pella_pdc_3",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_pella"
+      ]
+    },
+    {
+      "weapon": "expanse12_pella_pdc_4",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_pella"
+      ]
+    },
+    {
+      "weapon": "expanse12_pella_pdc_5",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_pella"
+      ]
+    },
+    {
+      "weapon": "expanse12_pella_pdc_6",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_pella"
+      ]
+    },
+    {
+      "weapon": "expanse12_pella_pdc_7",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_pella"
+      ]
+    },
+    {
+      "weapon": "expanse12_pella_pdc_8",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_pella"
+      ]
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_0",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_raptor"
+      ]
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_1",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_raptor"
+      ]
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_2",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_raptor"
+      ]
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_3",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_raptor"
+      ]
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_4",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_raptor"
+      ]
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_5",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_raptor"
+      ]
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_6",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_raptor"
+      ]
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_7",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_raptor"
+      ]
+    },
+    {
+      "weapon": "expanse12_raptor_pdc_8",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_raptor"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_0",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_1",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_10",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_11",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_2",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_3",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_4",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_5",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_6",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_7",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_8",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse12_scirocco_pdc_9",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse12_scirocco"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_0",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_1",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_10",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_11",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_12",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_13",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_14",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_15",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_16",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_17",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_2",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_3",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_4",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_5",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_6",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_7",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_8",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse15_truman_pdc_9",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse15_truman"
+      ]
+    },
+    {
+      "weapon": "expanse19_europa_pdc_0",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse19_europa_bane"
+      ]
+    },
+    {
+      "weapon": "expanse19_europa_pdc_1",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse19_europa_bane"
+      ]
+    },
+    {
+      "weapon": "expanse19_europa_pdc_2",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse19_europa_bane"
+      ]
+    },
+    {
+      "weapon": "expanse19_europa_pdc_3",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse19_europa_bane"
+      ]
+    },
+    {
+      "weapon": "expanse19_europa_pdc_4",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse19_europa_bane"
+      ]
+    },
+    {
+      "weapon": "expanse19_europa_pdc_5",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse19_europa_bane"
+      ]
+    },
+    {
+      "weapon": "expanse21_contract_patrol_pdc_0",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse21_contract_patrol"
+      ]
+    },
+    {
+      "weapon": "expanse21_contract_patrol_pdc_1",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse21_contract_patrol"
+      ]
+    },
+    {
+      "weapon": "expanse22_foehammer_battery_1",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse22_foehammer_battery"
+      ]
+    },
+    {
+      "weapon": "expanse22_foehammer_battery_2",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse22_foehammer_battery"
+      ]
+    },
+    {
+      "weapon": "expanse22_pdc_picket_weapon",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse22_pdc_picket"
+      ]
+    },
+    {
+      "weapon": "expanse22_station_earth_pdc",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse22_opa_support_station",
+        "expanse22_unn_support_station"
+      ]
+    },
+    {
+      "weapon": "expanse22_station_mcrn_pdc",
+      "before": 8000.0,
+      "after": 10400.0,
+      "hosts": [
+        "expanse22_mcrn_support_station"
+      ]
+    },
+    {
+      "weapon": "expanse23_murphy_pdc",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse23_murphy"
+      ]
+    },
+    {
+      "weapon": "expanse24_behemoth_pdc",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": []
+    },
+    {
+      "weapon": "expanse24_gathering_storm_pdc_0",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse24_gathering_storm"
+      ]
+    },
+    {
+      "weapon": "expanse24_gathering_storm_pdc_1",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse24_gathering_storm"
+      ]
+    },
+    {
+      "weapon": "expanse24_gathering_storm_pdc_2",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse24_gathering_storm"
+      ]
+    },
+    {
+      "weapon": "expanse24_gathering_storm_pdc_3",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse24_gathering_storm"
+      ]
+    },
+    {
+      "weapon": "expanse24_gathering_storm_pdc_4",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse24_gathering_storm"
+      ]
+    },
+    {
+      "weapon": "expanse24_gathering_storm_pdc_5",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse24_gathering_storm"
+      ]
+    },
+    {
+      "weapon": "expanse26_opa_command_pdc_0",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse21_opa_command"
+      ]
+    },
+    {
+      "weapon": "expanse26_opa_command_pdc_1",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse21_opa_command"
+      ]
+    },
+    {
+      "weapon": "expanse26_opa_command_pdc_2",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse21_opa_command"
+      ]
+    },
+    {
+      "weapon": "expanse26_opa_command_pdc_3",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse21_opa_command"
+      ]
+    },
+    {
+      "weapon": "expanse26_opa_command_pdc_4",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse21_opa_command"
+      ]
+    },
+    {
+      "weapon": "expanse26_opa_command_pdc_5",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse21_opa_command"
+      ]
+    },
+    {
+      "weapon": "expanse27_behemoth_pdc",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse24_behemoth"
+      ]
+    },
+    {
+      "weapon": "expanse27_dark_star_pdc",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse27_dark_star"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_0",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_1",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_2",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_3",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_4",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_5",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_6",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_7",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_8",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_hephaestus_pdc_9",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_hephaestus"
+      ]
+    },
+    {
+      "weapon": "expanse27_laconia_frigate_pdc_0",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_laconia_frigate"
+      ]
+    },
+    {
+      "weapon": "expanse27_laconia_frigate_pdc_1",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_laconia_frigate"
+      ]
+    },
+    {
+      "weapon": "expanse27_laconia_frigate_pdc_2",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_laconia_frigate"
+      ]
+    },
+    {
+      "weapon": "expanse27_laconia_frigate_pdc_3",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_laconia_frigate"
+      ]
+    },
+    {
+      "weapon": "expanse27_laconia_frigate_pdc_4",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_laconia_frigate"
+      ]
+    },
+    {
+      "weapon": "expanse27_laconia_frigate_pdc_5",
+      "before": 4500.0,
+      "after": 5850.0,
+      "hosts": [
+        "expanse27_laconia_frigate"
+      ]
+    },
+    {
+      "weapon": "expanse27_munroe_pdc_0",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_munroe"
+      ]
+    },
+    {
+      "weapon": "expanse27_munroe_pdc_1",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_munroe"
+      ]
+    },
+    {
+      "weapon": "expanse27_munroe_pdc_2",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_munroe"
+      ]
+    },
+    {
+      "weapon": "expanse27_munroe_pdc_3",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_munroe"
+      ]
+    },
+    {
+      "weapon": "expanse27_munroe_pdc_4",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_munroe"
+      ]
+    },
+    {
+      "weapon": "expanse27_munroe_pdc_5",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_munroe"
+      ]
+    },
+    {
+      "weapon": "expanse27_munroe_pdc_6",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_munroe"
+      ]
+    },
+    {
+      "weapon": "expanse27_munroe_pdc_7",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_munroe"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_0",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_1",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_10",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_11",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_2",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_3",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_4",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_5",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_6",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_7",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_8",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse27_nathan_hale_pdc_9",
+      "before": 6000.0,
+      "after": 7800.0,
+      "hosts": [
+        "expanse27_nathan_hale"
+      ]
+    },
+    {
+      "weapon": "expanse_polish_pdc_0",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_mcrn_corvette"
+      ]
+    },
+    {
+      "weapon": "expanse_polish_pdc_1",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_mcrn_corvette"
+      ]
+    },
+    {
+      "weapon": "expanse_polish_pdc_2",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_mcrn_corvette"
+      ]
+    },
+    {
+      "weapon": "expanse_polish_pdc_3",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_mcrn_corvette"
+      ]
+    },
+    {
+      "weapon": "expanse_polish_pdc_4",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_mcrn_corvette"
+      ]
+    },
+    {
+      "weapon": "expanse_polish_pdc_5",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_mcrn_corvette"
+      ]
+    },
+    {
+      "weapon": "expanse_rocinante04_pdc_0",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_rocinante_hero"
+      ]
+    },
+    {
+      "weapon": "expanse_rocinante04_pdc_1",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_rocinante_hero"
+      ]
+    },
+    {
+      "weapon": "expanse_rocinante04_pdc_2",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_rocinante_hero"
+      ]
+    },
+    {
+      "weapon": "expanse_rocinante04_pdc_3",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_rocinante_hero"
+      ]
+    },
+    {
+      "weapon": "expanse_rocinante04_pdc_4",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_rocinante_hero"
+      ]
+    },
+    {
+      "weapon": "expanse_rocinante04_pdc_5",
+      "before": 3500.0,
+      "after": 4550.0,
+      "hosts": [
+        "expanse_rocinante_hero"
+      ]
+    }
+  ],
+  "railguns": [
+    {
+      "weapon": "expanse03_hero_railgun",
+      "hosts": [
+        "expanse_rocinante_hero"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 4550.0,
+      "damage": 2500.0,
+      "penetration": 1000.0,
+      "cooldown": 15.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse06_amun_railgun",
+      "hosts": [
+        "expanse27_dark_star",
+        "expanse_amun_ra"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 4550.0,
+      "damage": 3750.0,
+      "penetration": 1000.0,
+      "cooldown": 15.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 2
+    },
+    {
+      "weapon": "expanse10_donnager_rail_0",
+      "hosts": [
+        "expanse_donnager_battleship"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 10400.0,
+      "damage": 5000.0,
+      "penetration": 1500.0,
+      "cooldown": 30.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 15.0,
+      "yaw_after": 9.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse10_donnager_rail_1",
+      "hosts": [
+        "expanse_donnager_battleship"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 10400.0,
+      "damage": 5000.0,
+      "penetration": 1500.0,
+      "cooldown": 30.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 15.0,
+      "yaw_after": 9.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse12_scirocco_rail_0",
+      "hosts": [
+        "expanse12_scirocco"
+      ],
+      "heavy_tracking": false,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 5850.0,
+      "damage": 2000.0,
+      "penetration": 1250.0,
+      "cooldown": 22.5,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 30.0,
+      "yaw_after": 30.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse15_truman_rail_0",
+      "hosts": [
+        "expanse15_truman"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 3500.0,
+      "penetration": 1250.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 20.0,
+      "yaw_after": 12.0,
+      "muzzles_per_instance": 2,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse15_truman_rail_1",
+      "hosts": [
+        "expanse15_truman"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 3500.0,
+      "penetration": 1250.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 20.0,
+      "yaw_after": 12.0,
+      "muzzles_per_instance": 2,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse22_foehammer_battery_0",
+      "hosts": [
+        "expanse22_foehammer_battery"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 31200.0,
+      "damage": 5000.0,
+      "penetration": 1500.0,
+      "cooldown": 30.0,
+      "charge": 60.0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 15.0,
+      "yaw_after": 9.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse23_murphy_rail",
+      "hosts": [
+        "expanse23_murphy"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 750.0,
+      "penetration": 800.0,
+      "cooldown": 30.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 2
+    },
+    {
+      "weapon": "expanse24_gathering_storm_keel_rail",
+      "hosts": [
+        "expanse24_gathering_storm"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 5850.0,
+      "damage": 5000.0,
+      "penetration": 1500.0,
+      "cooldown": 30.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse27_hephaestus_rail_10",
+      "hosts": [
+        "expanse27_hephaestus"
+      ],
+      "heavy_tracking": false,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 5850.0,
+      "damage": 2000.0,
+      "penetration": 1250.0,
+      "cooldown": 22.5,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 30.0,
+      "yaw_after": 30.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse27_munroe_rail_0",
+      "hosts": [
+        "expanse27_munroe"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 1800.0,
+      "penetration": 1000.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse27_nathan_hale_rail_0",
+      "hosts": [
+        "expanse27_nathan_hale"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 2400.0,
+      "penetration": 1100.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 20.0,
+      "yaw_after": 12.0,
+      "muzzles_per_instance": 2,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse27_nathan_hale_rail_1",
+      "hosts": [
+        "expanse27_nathan_hale"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 2400.0,
+      "penetration": 1100.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 20.0,
+      "yaw_after": 12.0,
+      "muzzles_per_instance": 2,
+      "instances": 1
+    }
+  ],
+  "torpedoes": [
+    {
+      "source": "expanse04_light_torpedo",
+      "private": "expanse28_mcrn_light_torpedo",
+      "speed_before": 2125.0,
+      "speed_after": 2550.0,
+      "changed_pointer": "/physics/max_linear_speed"
+    },
+    {
+      "source": "expanse10_donnager_heavy_torpedo",
+      "private": "expanse28_mcrn_heavy_torpedo",
+      "speed_before": 1275.0,
+      "speed_after": 1530.0,
+      "changed_pointer": "/physics/max_linear_speed"
+    }
+  ],
+  "magazines": [
+    {
+      "host": "expanse_mcrn_corvette",
+      "private": "expanse28_mcrn_03_torpedo_magazine",
+      "fuel": [
+        30.0,
+        30.0
+      ],
+      "speed": [
+        2550.0,
+        2550.0
+      ],
+      "capacity": [
+        8.0,
+        8.0
+      ],
+      "rounds_per_interval": [
+        2.0,
+        2.0
+      ],
+      "interval": [
+        10.0,
+        10.0
+      ],
+      "empty_reload": [
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "host": "expanse28_mcrn_morrigan",
+      "private": "expanse28_mcrn_11_morrigan_magazine",
+      "fuel": [
+        30.0,
+        30.0
+      ],
+      "speed": [
+        2550.0,
+        2550.0
+      ],
+      "capacity": [
+        4.0,
+        4.0
+      ],
+      "rounds_per_interval": [
+        1.0,
+        1.0
+      ],
+      "interval": [
+        10.0,
+        10.0
+      ],
+      "empty_reload": [
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "host": "expanse12_raptor",
+      "private": "expanse28_mcrn_12_raptor_light_magazine",
+      "fuel": [
+        30.0,
+        30.0
+      ],
+      "speed": [
+        2550.0,
+        2550.0
+      ],
+      "capacity": [
+        18,
+        18
+      ],
+      "rounds_per_interval": [
+        3,
+        3
+      ],
+      "interval": [
+        10.0,
+        10.0
+      ],
+      "empty_reload": [
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "host": "expanse12_scirocco",
+      "private": "expanse28_mcrn_12_scirocco_light_magazine",
+      "fuel": [
+        30.0,
+        30.0
+      ],
+      "speed": [
+        2550.0,
+        2550.0
+      ],
+      "capacity": [
+        20,
+        20
+      ],
+      "rounds_per_interval": [
+        5,
+        5
+      ],
+      "interval": [
+        10.0,
+        10.0
+      ],
+      "empty_reload": [
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "host": "expanse12_scirocco",
+      "private": "expanse28_mcrn_12_scirocco_heavy_magazine",
+      "fuel": [
+        30.0,
+        30.0
+      ],
+      "speed": [
+        1530.0,
+        1530.0
+      ],
+      "capacity": [
+        5,
+        5
+      ],
+      "rounds_per_interval": [
+        1,
+        1
+      ],
+      "interval": [
+        20.0,
+        20.0
+      ],
+      "empty_reload": [
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "host": "expanse_donnager_battleship",
+      "private": "expanse28_mcrn_10_donnager_light_magazine",
+      "fuel": [
+        30.0,
+        30.0
+      ],
+      "speed": [
+        2550.0,
+        2550.0
+      ],
+      "capacity": [
+        48.0,
+        48.0
+      ],
+      "rounds_per_interval": [
+        12.0,
+        12.0
+      ],
+      "interval": [
+        10.0,
+        10.0
+      ],
+      "empty_reload": [
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "host": "expanse_donnager_battleship",
+      "private": "expanse28_mcrn_10_donnager_heavy_magazine",
+      "fuel": [
+        30.0,
+        30.0
+      ],
+      "speed": [
+        1530.0,
+        1530.0
+      ],
+      "capacity": [
+        4.0,
+        4.0
+      ],
+      "rounds_per_interval": [
+        1.0,
+        1.0
+      ],
+      "interval": [
+        15.0,
+        15.0
+      ],
+      "empty_reload": [
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "host": "expanse27_hephaestus",
+      "private": "expanse28_mcrn_27_hephaestus_light_magazine",
+      "fuel": [
+        30.0,
+        30.0
+      ],
+      "speed": [
+        2550.0,
+        2550.0
+      ],
+      "capacity": [
+        20,
+        20
+      ],
+      "rounds_per_interval": [
+        5,
+        5
+      ],
+      "interval": [
+        10.0,
+        10.0
+      ],
+      "empty_reload": [
+        120.0,
+        120.0
+      ]
+    },
+    {
+      "host": "expanse27_hephaestus",
+      "private": "expanse28_mcrn_27_hephaestus_medium_magazine",
+      "fuel": [
+        30.0,
+        30.0
+      ],
+      "speed": [
+        1530.0,
+        1530.0
+      ],
+      "capacity": [
+        12,
+        12
+      ],
+      "rounds_per_interval": [
+        3,
+        3
+      ],
+      "interval": [
+        20.0,
+        20.0
+      ],
+      "empty_reload": [
+        120.0,
+        120.0
+      ]
+    }
+  ],
+  "recipients": {
+    "expanse_mcrn_corvette": [
+      "expanse03_torpedo_magazine"
+    ],
+    "expanse28_mcrn_morrigan": [
+      "expanse11_morrigan_magazine"
+    ],
+    "expanse12_raptor": [
+      "expanse12_raptor_light_magazine"
+    ],
+    "expanse12_scirocco": [
+      "expanse12_scirocco_light_magazine",
+      "expanse12_scirocco_heavy_magazine"
+    ],
+    "expanse_donnager_battleship": [
+      "expanse10_donnager_light_magazine",
+      "expanse10_donnager_heavy_magazine"
+    ],
+    "expanse27_hephaestus": [
+      "expanse27_hephaestus_light_magazine",
+      "expanse27_hephaestus_medium_magazine"
+    ]
+  },
+  "unresolved": [
+    "Acquisition field has no verified continuous-lock or reset semantics in pinned schema; unchanged, not raised to 2.5.",
+    "Native firing.charge_duration exists and stock Vasari projectile weapons use it with cooldown. 60-second orbital charge versus 30-second reload is configured; actual combined cycle, interruption and target-switch behavior require runtime timing.",
+    "Fixed/spinal rail host turn rates remain unchanged; damage application is not proof of a dodge mechanic.",
+    "Muzzle arrays route effects; no offline claim that extra muzzle entries multiply damage applications.",
+    "MCRN player and trader_loyalist alias build/garrison/escort/preview references use a private Morrigan. Shared original trader_light_frigate and contract patrol preserve original torpedoes for foreign/NPC users.",
+    "Capturing an upgraded MCRN hull retains fitted private torpedoes; this is equipment scope, not a faction-wide owner modifier.",
+    "OPA Pella launches the same standard expanse_mcrn_corvette: these Tachi hulls retain hardware-origin private premium torpedoes and 120 supply; Pella own magazine remains baseline.",
+    "Private projectile max speed increases 20 percent with unchanged acceleration ramp, steering, health and 30-second lifetime; practical pursuit distance also increases.",
+    "Menu-only display hull stats remain frozen. All PDC range changes intentionally include shared custom OPA/UNN PDC weapons under the latest ALL PDC override.",
+    "Runtime tests NOT RUN: close orbit dodge, still-target hit, interception under attack order, first volley, magazine counts/fuel, new-save/save-reload."
+  ],
+  "tachi": {
+    "supply_before": 95,
+    "supply_after": 120,
+    "physics_before": {
+      "can_move_linear": true,
+      "max_linear_speed": 1250.0,
+      "time_to_max_linear_speed": 5.0,
+      "arrival_tolerance_spatial_radius_scalar": 1.5,
+      "death_linear_speed_range": [
+        0.75,
+        1.25
+      ],
+      "can_move_angular": true,
+      "max_angular_speed": 25.0,
+      "time_to_max_angular_speed": 1.25,
+      "max_bank_angle": 35.0,
+      "death_angular_speed_range": [
+        5.0,
+        10.0
+      ],
+      "linear_acceleration_angle": 90.0,
+      "can_strafe_linear": true,
+      "strafe_max_linear_speed": 250.0,
+      "time_to_strafe_max_linear_speed": 10.0,
+      "strafe_max_linear_distance_spatial_radius_scalar": 10.0,
+      "strafe_start_angle": 0.0,
+      "strafe_stop_angle": 180.0,
+      "strafe_speed_start_angle": 10.0,
+      "strafe_max_start_turning_angle": 170.0
+    },
+    "physics_after": {
+      "can_move_linear": true,
+      "max_linear_speed": 1250.0,
+      "time_to_max_linear_speed": 4.0,
+      "arrival_tolerance_spatial_radius_scalar": 1.5,
+      "death_linear_speed_range": [
+        0.75,
+        1.25
+      ],
+      "can_move_angular": true,
+      "max_angular_speed": 28.749999999999996,
+      "time_to_max_angular_speed": 1.25,
+      "max_bank_angle": 35.0,
+      "death_angular_speed_range": [
+        5.0,
+        10.0
+      ],
+      "linear_acceleration_angle": 90.0,
+      "can_strafe_linear": true,
+      "strafe_max_linear_speed": 250.0,
+      "time_to_strafe_max_linear_speed": 10.0,
+      "strafe_max_linear_distance_spatial_radius_scalar": 10.0,
+      "strafe_start_angle": 0.0,
+      "strafe_stop_angle": 180.0,
+      "strafe_speed_start_angle": 10.0,
+      "strafe_max_start_turning_angle": 170.0
+    },
+    "angular_ramp": "Existing 1.25-second angular ramp preserved: acceleration increases from 20 to 23 degrees/s^2.",
+    "menu_aliases": "Display-unit hull stats untouched; main integrator owns any display synchronization."
+  },
+  "morrigan_acquisition": {
+    "entities/expanse18_mcrn.player": [
+      "/buildable_units/2",
+      "/garrison/units/random_units/0/unit",
+      "/theme_picker_mesh_preview_units/1",
+      "/trade/trade_ship_escorts/0/unit"
+    ],
+    "entities/trader_loyalist.player": [
+      "/buildable_units/2",
+      "/garrison/units/random_units/0/unit",
+      "/theme_picker_mesh_preview_units/1",
+      "/trade/trade_ship_escorts/0/unit"
+    ]
+  },
+  "morrigan_start_modes": {
+    "entities/advanced_start_mode.start_mode": [
+      "/faction_configurations/0/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+      "/faction_configurations/0/home_planet/starting_units_in_formations/0/required_units/3/unit",
+      "/faction_configurations/8/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+      "/faction_configurations/8/home_planet/starting_units_in_formations/0/required_units/3/unit"
+    ],
+    "entities/quick_start_mode.start_mode": [
+      "/faction_configurations/0/home_planet/starting_units_in_formations/0/required_units/3/unit",
+      "/faction_configurations/8/home_planet/starting_units_in_formations/0/required_units/3/unit"
+    ]
+  },
+  "morrigan_research_scope": {
+    "explicit_unit_filter_consumers": [],
+    "display_only_reference": "trader_unlock_trade_escorts_0.research_subject /arbitary_research_line/units_listing; original skin/name identical, retained shared display reference",
+    "retained_upgrade_contract": "No exact trader_light_frigate references occur in installed or mod research unit filters/ADS/buffs/items. Autocannon and missile research use weapon tags (point_defense/missile); original tags, skin, target_filter_unit_type and ship roles are retained.",
+    "foreign_spawn_exception": "Native eivonns_light_ships creates the original hull; deliberately unchanged foreign ability."
+  },
+  "changed_pointers": {
+    "entities/advanced_start_mode.start_mode": [
+      "/faction_configurations/0/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+      "/faction_configurations/0/home_planet/starting_units_in_formations/0/required_units/3/unit",
+      "/faction_configurations/8/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+      "/faction_configurations/8/home_planet/starting_units_in_formations/0/required_units/3/unit"
+    ],
+    "entities/expanse03_hero_railgun.weapon": [
+      "/range"
+    ],
+    "entities/expanse06_amun_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse06_amun_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse06_amun_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse06_amun_railgun.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_launch_corvette.action_data_source": [
+      "/action_values/3/action_value/values/0"
+    ],
+    "entities/expanse10_donnager_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_10.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_11.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_12.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_13.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_14.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_15.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_6.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_7.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_8.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_pdc_9.weapon": [
+      "/range"
+    ],
+    "entities/expanse10_donnager_rail_0.weapon": [
+      "/range",
+      "/yaw_speed"
+    ],
+    "entities/expanse10_donnager_rail_1.weapon": [
+      "/range",
+      "/yaw_speed"
+    ],
+    "entities/expanse11_morrigan_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse11_morrigan_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_pella_launch_corvette.action_data_source": [
+      "/action_values/3/action_value/values/0"
+    ],
+    "entities/expanse12_pella_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_pella_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_pella_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_pella_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_pella_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_pella_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_pella_pdc_6.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_pella_pdc_7.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_pella_pdc_8.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_raptor.unit": [
+      "/abilities/0/abilities/0"
+    ],
+    "entities/expanse12_raptor_launch_corvette.action_data_source": [
+      "/action_values/3/action_value/values/0"
+    ],
+    "entities/expanse12_raptor_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_raptor_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_raptor_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_raptor_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_raptor_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_raptor_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_raptor_pdc_6.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_raptor_pdc_7.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_raptor_pdc_8.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco.unit": [
+      "/abilities/0/abilities/4",
+      "/abilities/0/abilities/5"
+    ],
+    "entities/expanse12_scirocco_launch_corvette.action_data_source": [
+      "/action_values/3/action_value/values/0"
+    ],
+    "entities/expanse12_scirocco_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_10.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_11.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_6.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_7.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_8.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_pdc_9.weapon": [
+      "/range"
+    ],
+    "entities/expanse12_scirocco_rail_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_10.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_11.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_12.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_13.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_14.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_15.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_16.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_17.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_6.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_7.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_8.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_pdc_9.weapon": [
+      "/range"
+    ],
+    "entities/expanse15_truman_rail_0.weapon": [
+      "/range",
+      "/yaw_speed"
+    ],
+    "entities/expanse15_truman_rail_1.weapon": [
+      "/range",
+      "/yaw_speed"
+    ],
+    "entities/expanse18_mcrn.player": [
+      "/buildable_units/2",
+      "/garrison/units/random_units/0/unit",
+      "/theme_picker_mesh_preview_units/1",
+      "/trade/trade_ship_escorts/0/unit"
+    ],
+    "entities/expanse19_europa_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse19_europa_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse19_europa_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse19_europa_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse19_europa_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse19_europa_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse21_contract_patrol_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse21_contract_patrol_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse22_foehammer_battery_0.weapon": [
+      "/firing/charge_duration",
+      "/range",
+      "/yaw_speed"
+    ],
+    "entities/expanse22_foehammer_battery_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse22_foehammer_battery_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse22_pdc_picket_weapon.weapon": [
+      "/range"
+    ],
+    "entities/expanse22_station_earth_pdc.weapon": [
+      "/range"
+    ],
+    "entities/expanse22_station_mcrn_pdc.weapon": [
+      "/range"
+    ],
+    "entities/expanse23_murphy_pdc.weapon": [
+      "/range"
+    ],
+    "entities/expanse23_murphy_rail.weapon": [
+      "/range"
+    ],
+    "entities/expanse24_behemoth_pdc.weapon": [
+      "/range"
+    ],
+    "entities/expanse24_gathering_storm_keel_rail.weapon": [
+      "/range"
+    ],
+    "entities/expanse24_gathering_storm_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse24_gathering_storm_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse24_gathering_storm_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse24_gathering_storm_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse24_gathering_storm_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse24_gathering_storm_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse26_opa_command_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse26_opa_command_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse26_opa_command_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse26_opa_command_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse26_opa_command_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse26_opa_command_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_behemoth_pdc.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_dark_star_pdc.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus.unit": [
+      "/abilities/0/abilities/0",
+      "/abilities/0/abilities/1"
+    ],
+    "entities/expanse27_hephaestus_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_pdc_6.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_pdc_7.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_pdc_8.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_pdc_9.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_hephaestus_rail_10.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_laconia_frigate_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_laconia_frigate_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_laconia_frigate_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_laconia_frigate_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_laconia_frigate_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_laconia_frigate_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_munroe_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_munroe_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_munroe_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_munroe_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_munroe_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_munroe_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_munroe_pdc_6.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_munroe_pdc_7.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_munroe_rail_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_10.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_11.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_6.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_7.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_8.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_pdc_9.weapon": [
+      "/range"
+    ],
+    "entities/expanse27_nathan_hale_rail_0.weapon": [
+      "/range",
+      "/yaw_speed"
+    ],
+    "entities/expanse27_nathan_hale_rail_1.weapon": [
+      "/range",
+      "/yaw_speed"
+    ],
+    "entities/expanse28_mcrn_03_torpedo_magazine.ability": [
+      "/action_data_source",
+      "/passive_actions/persistant_buff"
+    ],
+    "entities/expanse28_mcrn_03_torpedo_magazine.action_data_source": [
+      "/action_values/8/action_value/values/0",
+      "/action_values/8/action_value/values/1"
+    ],
+    "entities/expanse28_mcrn_03_torpedo_magazine.buff": [
+      "/time_actions/0/action_group/actions/3/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/4/position_operators/0/torpedo_to_create"
+    ],
+    "entities/expanse28_mcrn_10_donnager_heavy_magazine.ability": [
+      "/action_data_source",
+      "/passive_actions/persistant_buff"
+    ],
+    "entities/expanse28_mcrn_10_donnager_heavy_magazine.action_data_source": [
+      "/action_values/8/action_value/values/0",
+      "/action_values/8/action_value/values/1"
+    ],
+    "entities/expanse28_mcrn_10_donnager_heavy_magazine.buff": [
+      "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create"
+    ],
+    "entities/expanse28_mcrn_10_donnager_light_magazine.ability": [
+      "/action_data_source",
+      "/passive_actions/persistant_buff"
+    ],
+    "entities/expanse28_mcrn_10_donnager_light_magazine.action_data_source": [
+      "/action_values/8/action_value/values/0",
+      "/action_values/8/action_value/values/1"
+    ],
+    "entities/expanse28_mcrn_10_donnager_light_magazine.buff": [
+      "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/8/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/9/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/10/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/11/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/12/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/13/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/14/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/15/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/16/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/17/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/18/position_operators/0/torpedo_to_create"
+    ],
+    "entities/expanse28_mcrn_11_morrigan_magazine.ability": [
+      "/action_data_source",
+      "/passive_actions/persistant_buff"
+    ],
+    "entities/expanse28_mcrn_11_morrigan_magazine.action_data_source": [
+      "/action_values/8/action_value/values/0",
+      "/action_values/8/action_value/values/1"
+    ],
+    "entities/expanse28_mcrn_11_morrigan_magazine.buff": [
+      "/time_actions/0/action_group/actions/3/position_operators/0/torpedo_to_create"
+    ],
+    "entities/expanse28_mcrn_12_raptor_light_magazine.ability": [
+      "/action_data_source",
+      "/passive_actions/persistant_buff"
+    ],
+    "entities/expanse28_mcrn_12_raptor_light_magazine.action_data_source": [
+      "/action_values/8/action_value/values/0",
+      "/action_values/8/action_value/values/1"
+    ],
+    "entities/expanse28_mcrn_12_raptor_light_magazine.buff": [
+      "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/6/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create"
+    ],
+    "entities/expanse28_mcrn_12_scirocco_heavy_magazine.ability": [
+      "/action_data_source",
+      "/passive_actions/persistant_buff"
+    ],
+    "entities/expanse28_mcrn_12_scirocco_heavy_magazine.action_data_source": [
+      "/action_values/8/action_value/values/0",
+      "/action_values/8/action_value/values/1"
+    ],
+    "entities/expanse28_mcrn_12_scirocco_heavy_magazine.buff": [
+      "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create"
+    ],
+    "entities/expanse28_mcrn_12_scirocco_light_magazine.ability": [
+      "/action_data_source",
+      "/passive_actions/persistant_buff"
+    ],
+    "entities/expanse28_mcrn_12_scirocco_light_magazine.action_data_source": [
+      "/action_values/8/action_value/values/0",
+      "/action_values/8/action_value/values/1"
+    ],
+    "entities/expanse28_mcrn_12_scirocco_light_magazine.buff": [
+      "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/6/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/8/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/9/position_operators/0/torpedo_to_create"
+    ],
+    "entities/expanse28_mcrn_27_hephaestus_light_magazine.ability": [
+      "/action_data_source",
+      "/passive_actions/persistant_buff"
+    ],
+    "entities/expanse28_mcrn_27_hephaestus_light_magazine.action_data_source": [
+      "/action_values/8/action_value/values/0",
+      "/action_values/8/action_value/values/1"
+    ],
+    "entities/expanse28_mcrn_27_hephaestus_light_magazine.buff": [
+      "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/6/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/8/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/9/position_operators/0/torpedo_to_create"
+    ],
+    "entities/expanse28_mcrn_27_hephaestus_medium_magazine.ability": [
+      "/action_data_source",
+      "/passive_actions/persistant_buff"
+    ],
+    "entities/expanse28_mcrn_27_hephaestus_medium_magazine.action_data_source": [
+      "/action_values/8/action_value/values/0",
+      "/action_values/8/action_value/values/1"
+    ],
+    "entities/expanse28_mcrn_27_hephaestus_medium_magazine.buff": [
+      "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/6/position_operators/0/torpedo_to_create",
+      "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create"
+    ],
+    "entities/expanse28_mcrn_heavy_torpedo.unit": [
+      "/physics/max_linear_speed"
+    ],
+    "entities/expanse28_mcrn_light_torpedo.unit": [
+      "/physics/max_linear_speed"
+    ],
+    "entities/expanse28_mcrn_morrigan.unit": [
+      "/abilities/0/abilities/0"
+    ],
+    "entities/expanse_donnager_battleship.unit": [
+      "/abilities/0/abilities/0",
+      "/abilities/0/abilities/1"
+    ],
+    "entities/expanse_mcrn_corvette.unit": [
+      "/abilities/0/abilities/0",
+      "/build/supply_cost",
+      "/physics/max_angular_speed",
+      "/physics/time_to_max_linear_speed"
+    ],
+    "entities/expanse_polish_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse_polish_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse_polish_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse_polish_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse_polish_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse_polish_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/expanse_rocinante04_pdc_0.weapon": [
+      "/range"
+    ],
+    "entities/expanse_rocinante04_pdc_1.weapon": [
+      "/range"
+    ],
+    "entities/expanse_rocinante04_pdc_2.weapon": [
+      "/range"
+    ],
+    "entities/expanse_rocinante04_pdc_3.weapon": [
+      "/range"
+    ],
+    "entities/expanse_rocinante04_pdc_4.weapon": [
+      "/range"
+    ],
+    "entities/expanse_rocinante04_pdc_5.weapon": [
+      "/range"
+    ],
+    "entities/quick_start_mode.start_mode": [
+      "/faction_configurations/0/home_planet/starting_units_in_formations/0/required_units/3/unit",
+      "/faction_configurations/8/home_planet/starting_units_in_formations/0/required_units/3/unit"
+    ],
+    "entities/trader_loyalist.player": [
+      "/buildable_units/2",
+      "/garrison/units/random_units/0/unit",
+      "/theme_picker_mesh_preview_units/1",
+      "/trade/trade_ship_escorts/0/unit"
+    ]
+  },
+  "protected_file_changes": [
+    "entities/advanced_start_mode.start_mode",
+    "entities/expanse03_hero_railgun.weapon",
+    "entities/expanse06_amun_pdc_0.weapon",
+    "entities/expanse06_amun_pdc_1.weapon",
+    "entities/expanse06_amun_pdc_2.weapon",
+    "entities/expanse06_amun_railgun.weapon",
+    "entities/expanse10_donnager_launch_corvette.action_data_source",
+    "entities/expanse10_donnager_pdc_0.weapon",
+    "entities/expanse10_donnager_pdc_1.weapon",
+    "entities/expanse10_donnager_pdc_10.weapon",
+    "entities/expanse10_donnager_pdc_11.weapon",
+    "entities/expanse10_donnager_pdc_12.weapon",
+    "entities/expanse10_donnager_pdc_13.weapon",
+    "entities/expanse10_donnager_pdc_14.weapon",
+    "entities/expanse10_donnager_pdc_15.weapon",
+    "entities/expanse10_donnager_pdc_2.weapon",
+    "entities/expanse10_donnager_pdc_3.weapon",
+    "entities/expanse10_donnager_pdc_4.weapon",
+    "entities/expanse10_donnager_pdc_5.weapon",
+    "entities/expanse10_donnager_pdc_6.weapon",
+    "entities/expanse10_donnager_pdc_7.weapon",
+    "entities/expanse10_donnager_pdc_8.weapon",
+    "entities/expanse10_donnager_pdc_9.weapon",
+    "entities/expanse10_donnager_rail_0.weapon",
+    "entities/expanse10_donnager_rail_1.weapon",
+    "entities/expanse11_morrigan_pdc_0.weapon",
+    "entities/expanse11_morrigan_pdc_1.weapon",
+    "entities/expanse12_pella_launch_corvette.action_data_source",
+    "entities/expanse12_pella_pdc_0.weapon",
+    "entities/expanse12_pella_pdc_1.weapon",
+    "entities/expanse12_pella_pdc_2.weapon",
+    "entities/expanse12_pella_pdc_3.weapon",
+    "entities/expanse12_pella_pdc_4.weapon",
+    "entities/expanse12_pella_pdc_5.weapon",
+    "entities/expanse12_pella_pdc_6.weapon",
+    "entities/expanse12_pella_pdc_7.weapon",
+    "entities/expanse12_pella_pdc_8.weapon",
+    "entities/expanse12_raptor.unit",
+    "entities/expanse12_raptor_launch_corvette.action_data_source",
+    "entities/expanse12_raptor_pdc_0.weapon",
+    "entities/expanse12_raptor_pdc_1.weapon",
+    "entities/expanse12_raptor_pdc_2.weapon",
+    "entities/expanse12_raptor_pdc_3.weapon",
+    "entities/expanse12_raptor_pdc_4.weapon",
+    "entities/expanse12_raptor_pdc_5.weapon",
+    "entities/expanse12_raptor_pdc_6.weapon",
+    "entities/expanse12_raptor_pdc_7.weapon",
+    "entities/expanse12_raptor_pdc_8.weapon",
+    "entities/expanse12_scirocco.unit",
+    "entities/expanse12_scirocco_launch_corvette.action_data_source",
+    "entities/expanse12_scirocco_pdc_0.weapon",
+    "entities/expanse12_scirocco_pdc_1.weapon",
+    "entities/expanse12_scirocco_pdc_10.weapon",
+    "entities/expanse12_scirocco_pdc_11.weapon",
+    "entities/expanse12_scirocco_pdc_2.weapon",
+    "entities/expanse12_scirocco_pdc_3.weapon",
+    "entities/expanse12_scirocco_pdc_4.weapon",
+    "entities/expanse12_scirocco_pdc_5.weapon",
+    "entities/expanse12_scirocco_pdc_6.weapon",
+    "entities/expanse12_scirocco_pdc_7.weapon",
+    "entities/expanse12_scirocco_pdc_8.weapon",
+    "entities/expanse12_scirocco_pdc_9.weapon",
+    "entities/expanse12_scirocco_rail_0.weapon",
+    "entities/expanse15_truman_pdc_0.weapon",
+    "entities/expanse15_truman_pdc_1.weapon",
+    "entities/expanse15_truman_pdc_10.weapon",
+    "entities/expanse15_truman_pdc_11.weapon",
+    "entities/expanse15_truman_pdc_12.weapon",
+    "entities/expanse15_truman_pdc_13.weapon",
+    "entities/expanse15_truman_pdc_14.weapon",
+    "entities/expanse15_truman_pdc_15.weapon",
+    "entities/expanse15_truman_pdc_16.weapon",
+    "entities/expanse15_truman_pdc_17.weapon",
+    "entities/expanse15_truman_pdc_2.weapon",
+    "entities/expanse15_truman_pdc_3.weapon",
+    "entities/expanse15_truman_pdc_4.weapon",
+    "entities/expanse15_truman_pdc_5.weapon",
+    "entities/expanse15_truman_pdc_6.weapon",
+    "entities/expanse15_truman_pdc_7.weapon",
+    "entities/expanse15_truman_pdc_8.weapon",
+    "entities/expanse15_truman_pdc_9.weapon",
+    "entities/expanse15_truman_rail_0.weapon",
+    "entities/expanse15_truman_rail_1.weapon",
+    "entities/expanse18_mcrn.player",
+    "entities/expanse19_europa_pdc_0.weapon",
+    "entities/expanse19_europa_pdc_1.weapon",
+    "entities/expanse19_europa_pdc_2.weapon",
+    "entities/expanse19_europa_pdc_3.weapon",
+    "entities/expanse19_europa_pdc_4.weapon",
+    "entities/expanse19_europa_pdc_5.weapon",
+    "entities/expanse21_contract_patrol_pdc_0.weapon",
+    "entities/expanse21_contract_patrol_pdc_1.weapon",
+    "entities/expanse22_foehammer_battery_0.weapon",
+    "entities/expanse22_foehammer_battery_1.weapon",
+    "entities/expanse22_foehammer_battery_2.weapon",
+    "entities/expanse22_pdc_picket_weapon.weapon",
+    "entities/expanse22_station_earth_pdc.weapon",
+    "entities/expanse22_station_mcrn_pdc.weapon",
+    "entities/expanse23_murphy_pdc.weapon",
+    "entities/expanse23_murphy_rail.weapon",
+    "entities/expanse24_behemoth_pdc.weapon",
+    "entities/expanse24_gathering_storm_keel_rail.weapon",
+    "entities/expanse24_gathering_storm_pdc_0.weapon",
+    "entities/expanse24_gathering_storm_pdc_1.weapon",
+    "entities/expanse24_gathering_storm_pdc_2.weapon",
+    "entities/expanse24_gathering_storm_pdc_3.weapon",
+    "entities/expanse24_gathering_storm_pdc_4.weapon",
+    "entities/expanse24_gathering_storm_pdc_5.weapon",
+    "entities/expanse26_opa_command_pdc_0.weapon",
+    "entities/expanse26_opa_command_pdc_1.weapon",
+    "entities/expanse26_opa_command_pdc_2.weapon",
+    "entities/expanse26_opa_command_pdc_3.weapon",
+    "entities/expanse26_opa_command_pdc_4.weapon",
+    "entities/expanse26_opa_command_pdc_5.weapon",
+    "entities/expanse27_behemoth_pdc.weapon",
+    "entities/expanse27_dark_star_pdc.weapon",
+    "entities/expanse27_hephaestus.unit",
+    "entities/expanse27_hephaestus_pdc_0.weapon",
+    "entities/expanse27_hephaestus_pdc_1.weapon",
+    "entities/expanse27_hephaestus_pdc_2.weapon",
+    "entities/expanse27_hephaestus_pdc_3.weapon",
+    "entities/expanse27_hephaestus_pdc_4.weapon",
+    "entities/expanse27_hephaestus_pdc_5.weapon",
+    "entities/expanse27_hephaestus_pdc_6.weapon",
+    "entities/expanse27_hephaestus_pdc_7.weapon",
+    "entities/expanse27_hephaestus_pdc_8.weapon",
+    "entities/expanse27_hephaestus_pdc_9.weapon",
+    "entities/expanse27_hephaestus_rail_10.weapon",
+    "entities/expanse27_laconia_frigate_pdc_0.weapon",
+    "entities/expanse27_laconia_frigate_pdc_1.weapon",
+    "entities/expanse27_laconia_frigate_pdc_2.weapon",
+    "entities/expanse27_laconia_frigate_pdc_3.weapon",
+    "entities/expanse27_laconia_frigate_pdc_4.weapon",
+    "entities/expanse27_laconia_frigate_pdc_5.weapon",
+    "entities/expanse27_munroe_pdc_0.weapon",
+    "entities/expanse27_munroe_pdc_1.weapon",
+    "entities/expanse27_munroe_pdc_2.weapon",
+    "entities/expanse27_munroe_pdc_3.weapon",
+    "entities/expanse27_munroe_pdc_4.weapon",
+    "entities/expanse27_munroe_pdc_5.weapon",
+    "entities/expanse27_munroe_pdc_6.weapon",
+    "entities/expanse27_munroe_pdc_7.weapon",
+    "entities/expanse27_munroe_rail_0.weapon",
+    "entities/expanse27_nathan_hale_pdc_0.weapon",
+    "entities/expanse27_nathan_hale_pdc_1.weapon",
+    "entities/expanse27_nathan_hale_pdc_10.weapon",
+    "entities/expanse27_nathan_hale_pdc_11.weapon",
+    "entities/expanse27_nathan_hale_pdc_2.weapon",
+    "entities/expanse27_nathan_hale_pdc_3.weapon",
+    "entities/expanse27_nathan_hale_pdc_4.weapon",
+    "entities/expanse27_nathan_hale_pdc_5.weapon",
+    "entities/expanse27_nathan_hale_pdc_6.weapon",
+    "entities/expanse27_nathan_hale_pdc_7.weapon",
+    "entities/expanse27_nathan_hale_pdc_8.weapon",
+    "entities/expanse27_nathan_hale_pdc_9.weapon",
+    "entities/expanse27_nathan_hale_rail_0.weapon",
+    "entities/expanse27_nathan_hale_rail_1.weapon",
+    "entities/expanse_donnager_battleship.unit",
+    "entities/expanse_mcrn_corvette.unit",
+    "entities/expanse_polish_pdc_0.weapon",
+    "entities/expanse_polish_pdc_1.weapon",
+    "entities/expanse_polish_pdc_2.weapon",
+    "entities/expanse_polish_pdc_3.weapon",
+    "entities/expanse_polish_pdc_4.weapon",
+    "entities/expanse_polish_pdc_5.weapon",
+    "entities/expanse_rocinante04_pdc_0.weapon",
+    "entities/expanse_rocinante04_pdc_1.weapon",
+    "entities/expanse_rocinante04_pdc_2.weapon",
+    "entities/expanse_rocinante04_pdc_3.weapon",
+    "entities/expanse_rocinante04_pdc_4.weapon",
+    "entities/expanse_rocinante04_pdc_5.weapon",
+    "entities/quick_start_mode.start_mode",
+    "entities/trader_loyalist.player"
+  ],
+  "new_files": [
+    "entities/expanse28_mcrn_03_torpedo_magazine.ability",
+    "entities/expanse28_mcrn_03_torpedo_magazine.action_data_source",
+    "entities/expanse28_mcrn_03_torpedo_magazine.buff",
+    "entities/expanse28_mcrn_10_donnager_heavy_magazine.ability",
+    "entities/expanse28_mcrn_10_donnager_heavy_magazine.action_data_source",
+    "entities/expanse28_mcrn_10_donnager_heavy_magazine.buff",
+    "entities/expanse28_mcrn_10_donnager_light_magazine.ability",
+    "entities/expanse28_mcrn_10_donnager_light_magazine.action_data_source",
+    "entities/expanse28_mcrn_10_donnager_light_magazine.buff",
+    "entities/expanse28_mcrn_11_morrigan_magazine.ability",
+    "entities/expanse28_mcrn_11_morrigan_magazine.action_data_source",
+    "entities/expanse28_mcrn_11_morrigan_magazine.buff",
+    "entities/expanse28_mcrn_12_raptor_light_magazine.ability",
+    "entities/expanse28_mcrn_12_raptor_light_magazine.action_data_source",
+    "entities/expanse28_mcrn_12_raptor_light_magazine.buff",
+    "entities/expanse28_mcrn_12_scirocco_heavy_magazine.ability",
+    "entities/expanse28_mcrn_12_scirocco_heavy_magazine.action_data_source",
+    "entities/expanse28_mcrn_12_scirocco_heavy_magazine.buff",
+    "entities/expanse28_mcrn_12_scirocco_light_magazine.ability",
+    "entities/expanse28_mcrn_12_scirocco_light_magazine.action_data_source",
+    "entities/expanse28_mcrn_12_scirocco_light_magazine.buff",
+    "entities/expanse28_mcrn_27_hephaestus_light_magazine.ability",
+    "entities/expanse28_mcrn_27_hephaestus_light_magazine.action_data_source",
+    "entities/expanse28_mcrn_27_hephaestus_light_magazine.buff",
+    "entities/expanse28_mcrn_27_hephaestus_medium_magazine.ability",
+    "entities/expanse28_mcrn_27_hephaestus_medium_magazine.action_data_source",
+    "entities/expanse28_mcrn_27_hephaestus_medium_magazine.buff",
+    "entities/expanse28_mcrn_heavy_torpedo.unit",
+    "entities/expanse28_mcrn_light_torpedo.unit",
+    "entities/expanse28_mcrn_morrigan.unit"
+  ],
+  "native_charge_evidence": "entities/vasari_heavy_cruiser_medium_wave_cannon.weapon: firing.charge_duration=1, cooldown_duration=4, firing_type=projectile",
+  "schema_evidence": "Pinned weapon-schema.json supports firing.charge_duration, pitch_speed, yaw_speed, pitch_firing_tolerance, yaw_firing_tolerance; acquisition field numeric only.",
+  "offline_checks": {
+    "deterministic": "PASS",
+    "idempotent_frozen_multiplier": "PASS",
+    "stage_a_overlay_preservation": "PASS",
+    "95_supply_control": "PASS",
+    "optional_cadence_isolated": "PASS",
+    "schema_files_checked": 201,
+    "schema_unavailable": [
+      {
+        "file": "entities/advanced_start_mode.start_mode",
+        "reason": "Matching pinned schema absent; exact pointer-only derivative reviewed, schema check NOT RUN"
+      },
+      {
+        "file": "entities/quick_start_mode.start_mode",
+        "reason": "Matching pinned schema absent; exact pointer-only derivative reviewed, schema check NOT RUN"
+      }
+    ],
+    "schema_errors": [],
+    "typed_references_resolved": 149,
+    "shared_torpedo_exclusion": "PASS",
+    "frozen_entities_unchanged": "PASS",
+    "runtime": "NOT RUN"
+  }
+}

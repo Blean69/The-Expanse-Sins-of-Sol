@@ -1,0 +1,93 @@
+{
+  "native_first_free_kinds": [
+    "capital_ship"
+  ],
+  "truman_new_kind": "super_capital_ship",
+  "truman_base_and_ordinary_resource_bill": {
+    "credits": 7680,
+    "metal": 3016,
+    "crystal": 1520
+  },
+  "truman_base_seconds": 240,
+  "ordinary_research_discount_applicable_to_command": "None found in reachable UNN subject definitions; lightweight factory reductions explicitly list corvette/frigate/cruiser, structure discounts affect structures. Temporary factory item/auras can still affect effective production time. Actual billing NOT RUN.",
+  "inherited_research_candidates": [
+    {
+      "research": "trader_fortification_specialist",
+      "modifier": {
+        "modifier_type": "defense_track_build_price",
+        "value_behavior": "scalar",
+        "value": -0.25
+      }
+    },
+    {
+      "research": "trader_fortification_specialist",
+      "modifier": {
+        "modifier_type": "defense_track_build_time",
+        "value_behavior": "scalar",
+        "value": -0.15
+      }
+    },
+    {
+      "research": "trader_labor_negotiations",
+      "modifier": {
+        "modifier_type": "build_time",
+        "value_behavior": "scalar",
+        "value": -0.05,
+        "build_kinds": [
+          "corvette",
+          "frigate",
+          "cruiser"
+        ]
+      }
+    },
+    {
+      "research": "trader_planet_track_upgrade_rate",
+      "modifier": {
+        "modifier_type": "any_development_track_build_time",
+        "value_behavior": "scalar",
+        "value": -0.1
+      }
+    },
+    {
+      "research": "trader_starbase_item_price",
+      "modifier": {
+        "modifier_type": "ship_component_price",
+        "value_behavior": "scalar",
+        "value": -0.25,
+        "tags": [
+          "starbase"
+        ]
+      }
+    },
+    {
+      "research": "trader_structure_build_rate",
+      "modifier": {
+        "modifier_type": "structure_build_time",
+        "value_behavior": "scalar",
+        "value": -0.05
+      }
+    },
+    {
+      "research": "trader_structure_price_decrease",
+      "modifier": {
+        "modifier_type": "structure_build_price",
+        "value_behavior": "scalar",
+        "value": -0.25
+      }
+    },
+    {
+      "research": "trader_unit_factory_build_rate",
+      "modifier": {
+        "modifier_type": "build_time",
+        "value_behavior": "scalar",
+        "value": -0.4,
+        "build_kinds": [
+          "corvette",
+          "frigate",
+          "cruiser"
+        ]
+      }
+    }
+  ],
+  "reclassification_consequence": "Raptor newly qualifies for unchanged cruiser build-time discounts; Hephaestus ceases to qualify. No base cost/time change. These are native framework effects, not new research edits."
+}

@@ -1,0 +1,22 @@
+{
+  "tested_version": "0.27.5 Finished Fleet Menu",
+  "user_confirmation": "the latest, with the menu",
+  "source_revision": "8e55e93550b938e0dc62508a9ee8c6ac350332d4",
+  "zip": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu.zip",
+  "zip_sha256": "98ca0c15b7ff6e9eaa09b0a5d96774da039bc39d39d6496ba6a2536bea8ccfbc",
+  "tree_sha256": "794f63f6243463e0630c5a896864f3357ea0f3fee62c1bc60c906480ccfa6cbe",
+  "file_count": 2285,
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "new_runtime_tests": "NOT RUN",
+  "no_install_enable_publish_push_launch": true,
+  "game": {
+    "version": "2.0.3 (318)",
+    "steam_build_id": "25127248",
+    "sdk_steam_build_id": "24092025",
+    "installed_extensions_note": "Installed native dlc2 command/supercapital definitions available; candidate must not add entitlement prerequisites. Presence is not proof every playtester owns DLC."
+  }
+}

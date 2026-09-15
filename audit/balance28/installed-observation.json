@@ -1,0 +1,27 @@
+{
+  "enabled": {
+    "version": 0,
+    "enabled_mods": [
+      {
+        "type": 0,
+        "folder_name": "expanse_update27_5_menu",
+        "display_name": "The Expanse \u2014 0.27.5 Finished Fleet Menu",
+        "display_version": "0.27.5"
+      }
+    ]
+  },
+  "installed": [
+    {
+      "path": "/run/media/haker/NVME 2/SteamLibrary/steamapps/compatdata/1575940/pfx/drive_c/users/steamuser/AppData/Local/sins2/mods/expanse_update27_5_menu",
+      "differences": [],
+      "extra": []
+    }
+  ],
+  "latest_log": {
+    "name": "sins2_log_488.txt",
+    "sha256": "7b64e23eacbbba294337cf76a18933e49afa4c3b5e1f5b3f90cd3aa228598eb4",
+    "lines": 1313,
+    "whitelisted_diagnostics": [],
+    "caveat": "Absence of matched log strings is not proof of runtime correctness."
+  }
+}

@@ -1,0 +1,1831 @@
+{
+  "status": "PASS \u2014 static proposal review only; runtime NOT RUN",
+  "helper": "/run/media/haker/NVME 2/expanse-workers28/weapons/tools/balance28_weapons.py",
+  "helper_sha256": "13cfefcea1e331c132c92ad1f46ad7bc30ca1f2dcd60247c420e472771aec3ea",
+  "files_checked": 203,
+  "checks": [
+    {
+      "file": "entities/expanse06_amun_pdc_0.weapon",
+      "origin_sha256": "da694706dfa51de4fafbc61381b07cee260f495859b9d26d147a6193fbc7c1ff",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse06_amun_pdc_1.weapon",
+      "origin_sha256": "e4b1b40a6414faa0788272d964edcb38692679e8f8891527dc815106ee2c44fb",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse06_amun_pdc_2.weapon",
+      "origin_sha256": "6923d76f9ef5cce544cffdd803afe9b1290f77e75b4f91c2395c693ae66c2b2d",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_0.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_1.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_10.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_11.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_12.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_13.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_14.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_15.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_2.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_3.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_4.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_5.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_6.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_7.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_8.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_pdc_9.weapon",
+      "origin_sha256": "8d167766cec753599b7737259bb474ddf070ad0462dc9c1792ed1452799546f8",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse11_morrigan_pdc_0.weapon",
+      "origin_sha256": "fd1bf3a1c9d77c24dca03dcdb1d5b691d95a9771de38bb8d8d2f156a93118daa",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse11_morrigan_pdc_1.weapon",
+      "origin_sha256": "fd1bf3a1c9d77c24dca03dcdb1d5b691d95a9771de38bb8d8d2f156a93118daa",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_pdc_0.weapon",
+      "origin_sha256": "c7e4a2572546783a9a006bd28ce506424a96bd6192824dc160f2a6d62b3a9e8c",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_pdc_1.weapon",
+      "origin_sha256": "c7e4a2572546783a9a006bd28ce506424a96bd6192824dc160f2a6d62b3a9e8c",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_pdc_2.weapon",
+      "origin_sha256": "c7e4a2572546783a9a006bd28ce506424a96bd6192824dc160f2a6d62b3a9e8c",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_pdc_3.weapon",
+      "origin_sha256": "c7e4a2572546783a9a006bd28ce506424a96bd6192824dc160f2a6d62b3a9e8c",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_pdc_4.weapon",
+      "origin_sha256": "c7e4a2572546783a9a006bd28ce506424a96bd6192824dc160f2a6d62b3a9e8c",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_pdc_5.weapon",
+      "origin_sha256": "c7e4a2572546783a9a006bd28ce506424a96bd6192824dc160f2a6d62b3a9e8c",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_pdc_6.weapon",
+      "origin_sha256": "c7e4a2572546783a9a006bd28ce506424a96bd6192824dc160f2a6d62b3a9e8c",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_pdc_7.weapon",
+      "origin_sha256": "c7e4a2572546783a9a006bd28ce506424a96bd6192824dc160f2a6d62b3a9e8c",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_pdc_8.weapon",
+      "origin_sha256": "c7e4a2572546783a9a006bd28ce506424a96bd6192824dc160f2a6d62b3a9e8c",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_pdc_0.weapon",
+      "origin_sha256": "acaac4b2ba9796bd3d250e141d693e147026dd42298eebe330669bde9304f3d4",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_pdc_1.weapon",
+      "origin_sha256": "acaac4b2ba9796bd3d250e141d693e147026dd42298eebe330669bde9304f3d4",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_pdc_2.weapon",
+      "origin_sha256": "acaac4b2ba9796bd3d250e141d693e147026dd42298eebe330669bde9304f3d4",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_pdc_3.weapon",
+      "origin_sha256": "acaac4b2ba9796bd3d250e141d693e147026dd42298eebe330669bde9304f3d4",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_pdc_4.weapon",
+      "origin_sha256": "acaac4b2ba9796bd3d250e141d693e147026dd42298eebe330669bde9304f3d4",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_pdc_5.weapon",
+      "origin_sha256": "acaac4b2ba9796bd3d250e141d693e147026dd42298eebe330669bde9304f3d4",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_pdc_6.weapon",
+      "origin_sha256": "acaac4b2ba9796bd3d250e141d693e147026dd42298eebe330669bde9304f3d4",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_pdc_7.weapon",
+      "origin_sha256": "acaac4b2ba9796bd3d250e141d693e147026dd42298eebe330669bde9304f3d4",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_pdc_8.weapon",
+      "origin_sha256": "acaac4b2ba9796bd3d250e141d693e147026dd42298eebe330669bde9304f3d4",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_0.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_1.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_10.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_11.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_2.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_3.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_4.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_5.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_6.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_7.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_8.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_pdc_9.weapon",
+      "origin_sha256": "d9015f9a7b704ded38c9c0c974480ed113cecd71d25bc08f408fb7fcdaaab708",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_0.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_1.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_10.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_11.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_12.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_13.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_14.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_15.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_16.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_17.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_2.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_3.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_4.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_5.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_6.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_7.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_8.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_pdc_9.weapon",
+      "origin_sha256": "c8293d42a1264d1c6e1df74a1dacab7e7ef37b1010f9bc1374613c56c816f9c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse19_europa_pdc_0.weapon",
+      "origin_sha256": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse19_europa_pdc_1.weapon",
+      "origin_sha256": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse19_europa_pdc_2.weapon",
+      "origin_sha256": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse19_europa_pdc_3.weapon",
+      "origin_sha256": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse19_europa_pdc_4.weapon",
+      "origin_sha256": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse19_europa_pdc_5.weapon",
+      "origin_sha256": "c2dea9710c895db488cd0b200c1b916c72ceb8507f447e4ac2f18f1c06bcacc2",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse21_contract_patrol_pdc_0.weapon",
+      "origin_sha256": "764a5dc3dca5b45905d3b3a5442fb753632319774e04ef08a2649d22fc5b2b99",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse21_contract_patrol_pdc_1.weapon",
+      "origin_sha256": "764a5dc3dca5b45905d3b3a5442fb753632319774e04ef08a2649d22fc5b2b99",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse22_foehammer_battery_1.weapon",
+      "origin_sha256": "721e1ef25e5355519b4c3f12bb6ac387a1a682e6dc2459892877d55bb353b3eb",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse22_foehammer_battery_2.weapon",
+      "origin_sha256": "721e1ef25e5355519b4c3f12bb6ac387a1a682e6dc2459892877d55bb353b3eb",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse22_pdc_picket_weapon.weapon",
+      "origin_sha256": "6260f43def604732df643186c3842466b981a301f1a1733c03d381f7a3efe52e",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse22_station_earth_pdc.weapon",
+      "origin_sha256": "378269cd5b1b729c7ef3b0463ae6a7b67d5c721c9382c9ae5e2bbc92bf4c5ec9",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse22_station_mcrn_pdc.weapon",
+      "origin_sha256": "d5a920a117cbb78604bf78801c1d87d4d64bae14d88c0ce53440afdf1c2e8c30",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse23_murphy_pdc.weapon",
+      "origin_sha256": "ba367edb730a7ea090dbfb21d08741cdc6ed80f1623bfc2de8f08a0d31298f22",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse24_behemoth_pdc.weapon",
+      "origin_sha256": "a50952d683347d2a256674c7ab0677a57d82a8158df773b48a5ad9a3b1874dcf",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse24_gathering_storm_pdc_0.weapon",
+      "origin_sha256": "9385556574aec8dc1a87eda90517c33d3e237b4f676280757bd95786367c552a",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse24_gathering_storm_pdc_1.weapon",
+      "origin_sha256": "9385556574aec8dc1a87eda90517c33d3e237b4f676280757bd95786367c552a",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse24_gathering_storm_pdc_2.weapon",
+      "origin_sha256": "9385556574aec8dc1a87eda90517c33d3e237b4f676280757bd95786367c552a",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse24_gathering_storm_pdc_3.weapon",
+      "origin_sha256": "9385556574aec8dc1a87eda90517c33d3e237b4f676280757bd95786367c552a",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse24_gathering_storm_pdc_4.weapon",
+      "origin_sha256": "9385556574aec8dc1a87eda90517c33d3e237b4f676280757bd95786367c552a",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse24_gathering_storm_pdc_5.weapon",
+      "origin_sha256": "9385556574aec8dc1a87eda90517c33d3e237b4f676280757bd95786367c552a",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse26_opa_command_pdc_0.weapon",
+      "origin_sha256": "4a8dd618a9a05b34f9c183eb045c0a685c6877ae5518a1a1045406cb2e92c5f6",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse26_opa_command_pdc_1.weapon",
+      "origin_sha256": "4a8dd618a9a05b34f9c183eb045c0a685c6877ae5518a1a1045406cb2e92c5f6",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse26_opa_command_pdc_2.weapon",
+      "origin_sha256": "4a8dd618a9a05b34f9c183eb045c0a685c6877ae5518a1a1045406cb2e92c5f6",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse26_opa_command_pdc_3.weapon",
+      "origin_sha256": "4a8dd618a9a05b34f9c183eb045c0a685c6877ae5518a1a1045406cb2e92c5f6",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse26_opa_command_pdc_4.weapon",
+      "origin_sha256": "4a8dd618a9a05b34f9c183eb045c0a685c6877ae5518a1a1045406cb2e92c5f6",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse26_opa_command_pdc_5.weapon",
+      "origin_sha256": "4a8dd618a9a05b34f9c183eb045c0a685c6877ae5518a1a1045406cb2e92c5f6",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_behemoth_pdc.weapon",
+      "origin_sha256": "83e0fd1a6a377e007f6308a81c8252ecefd3f57f04293e0803ec57940db9c816",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_dark_star_pdc.weapon",
+      "origin_sha256": "df0c89c87bc541e9b8e15425f08724d08158789bf1e180a25bcc5dea3ad84dd2",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_0.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_1.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_2.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_3.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_4.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_5.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_6.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_7.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_8.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_pdc_9.weapon",
+      "origin_sha256": "35272b75a7782cd6483f114b8f6670752c2646dba29de5ce3b99a65e4210aa12",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_laconia_frigate_pdc_0.weapon",
+      "origin_sha256": "e30eb0b6381d110e80b711ec81978e0392ca28a97fbb4d18d08d5a0e44d9de61",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_laconia_frigate_pdc_1.weapon",
+      "origin_sha256": "e30eb0b6381d110e80b711ec81978e0392ca28a97fbb4d18d08d5a0e44d9de61",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_laconia_frigate_pdc_2.weapon",
+      "origin_sha256": "e30eb0b6381d110e80b711ec81978e0392ca28a97fbb4d18d08d5a0e44d9de61",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_laconia_frigate_pdc_3.weapon",
+      "origin_sha256": "e30eb0b6381d110e80b711ec81978e0392ca28a97fbb4d18d08d5a0e44d9de61",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_laconia_frigate_pdc_4.weapon",
+      "origin_sha256": "e30eb0b6381d110e80b711ec81978e0392ca28a97fbb4d18d08d5a0e44d9de61",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_laconia_frigate_pdc_5.weapon",
+      "origin_sha256": "e30eb0b6381d110e80b711ec81978e0392ca28a97fbb4d18d08d5a0e44d9de61",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_munroe_pdc_0.weapon",
+      "origin_sha256": "12458596ec3d2a91940c926779bae0e4d0c73b9eb25a0064ec587da267b388ac",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_munroe_pdc_1.weapon",
+      "origin_sha256": "12458596ec3d2a91940c926779bae0e4d0c73b9eb25a0064ec587da267b388ac",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_munroe_pdc_2.weapon",
+      "origin_sha256": "12458596ec3d2a91940c926779bae0e4d0c73b9eb25a0064ec587da267b388ac",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_munroe_pdc_3.weapon",
+      "origin_sha256": "12458596ec3d2a91940c926779bae0e4d0c73b9eb25a0064ec587da267b388ac",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_munroe_pdc_4.weapon",
+      "origin_sha256": "12458596ec3d2a91940c926779bae0e4d0c73b9eb25a0064ec587da267b388ac",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_munroe_pdc_5.weapon",
+      "origin_sha256": "12458596ec3d2a91940c926779bae0e4d0c73b9eb25a0064ec587da267b388ac",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_munroe_pdc_6.weapon",
+      "origin_sha256": "12458596ec3d2a91940c926779bae0e4d0c73b9eb25a0064ec587da267b388ac",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_munroe_pdc_7.weapon",
+      "origin_sha256": "12458596ec3d2a91940c926779bae0e4d0c73b9eb25a0064ec587da267b388ac",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_0.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_1.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_10.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_11.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_2.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_3.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_4.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_5.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_6.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_7.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_8.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_pdc_9.weapon",
+      "origin_sha256": "05c227d1f901fe056c616f1977860eb76ff967c48ea49d4d93ee4c98ac2b570f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_polish_pdc_0.weapon",
+      "origin_sha256": "dbadc2fceee573614eb093dc496a1bd46e42f077e3c214f3ab9b4b071b51539f",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_polish_pdc_1.weapon",
+      "origin_sha256": "af0e41ed24b017c96c77c0ff4c9304358a1242d8bc7f32cca9b689a018cc63bc",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_polish_pdc_2.weapon",
+      "origin_sha256": "bc2aaf36b3d4112343920a6f1cde27426bb6e4a110a26599d666d4a7f40d80f0",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_polish_pdc_3.weapon",
+      "origin_sha256": "131a9a4d8050c39d91f11723efddcc43faeb22b4884bb0da5d022a36c54f327b",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_polish_pdc_4.weapon",
+      "origin_sha256": "0711613759acdb132386dcc6dd5fc0d4b8b152fb36a06f1fb3da37bee9d60c8d",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_polish_pdc_5.weapon",
+      "origin_sha256": "75a5263eec08d00652d5c0b6109cff08d3251961340f9cb5f56ef673755de5dd",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_rocinante04_pdc_0.weapon",
+      "origin_sha256": "a6e89d22bd5b778bd0d02ae244c6194a02152dd5c51fae3adee2b0ba93dae525",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_rocinante04_pdc_1.weapon",
+      "origin_sha256": "505d757c4b74e9eed8882924cfbf0c348b0d0cd4360dda724c7ce6c28d2562c0",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_rocinante04_pdc_2.weapon",
+      "origin_sha256": "1815b6da1c93236c61820ea2eb3776b30346f2e5989e6656cb28b023e8995c42",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_rocinante04_pdc_3.weapon",
+      "origin_sha256": "921be3fcd196ecccd6bdcdc32523a1a8576dfddb3d48ecfb69a03cbd41a8f3c7",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_rocinante04_pdc_4.weapon",
+      "origin_sha256": "44cdc2e9d2598ee02175df828193773eb33b53aa49649fb80aba9d2c8d80fcb2",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse_rocinante04_pdc_5.weapon",
+      "origin_sha256": "839c7960dfd59dcf5bdd38b909f45de36a75f7a203b07514172534c15fcd3e5e",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse03_hero_railgun.weapon",
+      "origin_sha256": "bc762000a37763a3ece841c8d7780069ba650976cd8130e39f8b419e1f6e9327",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse06_amun_railgun.weapon",
+      "origin_sha256": "2bfc8900a27bab71e3d76b40ad4c10907497f676fd165a81d4b35db0baa6c5c1",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_rail_0.weapon",
+      "origin_sha256": "664eb644aeaf2dff22d1cebd00418cb9d122f7b53228ea2e4249394da9b2f8f5",
+      "changed_pointers": [
+        "/range",
+        "/yaw_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_rail_1.weapon",
+      "origin_sha256": "e6cdee9e4cda634e58a56d90c01d539da42b34f330ef9bbeba6c538a0048067e",
+      "changed_pointers": [
+        "/range",
+        "/yaw_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_rail_0.weapon",
+      "origin_sha256": "6a35c206a840645f2b0130f88b65019dbf346e28ebe6b99cd18cd94ef172eeae",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_rail_0.weapon",
+      "origin_sha256": "1d2b1ede949a12afb522904f9ab79fae769de61d8f63e728efa10b9ae82d123f",
+      "changed_pointers": [
+        "/range",
+        "/yaw_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse15_truman_rail_1.weapon",
+      "origin_sha256": "f51e610fcfb939c22d9a4878b2345ab7c1ce1870ef4302d83bbcbd858df4e8e8",
+      "changed_pointers": [
+        "/range",
+        "/yaw_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse22_foehammer_battery_0.weapon",
+      "origin_sha256": "aadfe43e0665de6c9303eb08f7975682210ef9697bb486701e627c9b51a71ec6",
+      "changed_pointers": [
+        "/firing/charge_duration",
+        "/range",
+        "/yaw_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse23_murphy_rail.weapon",
+      "origin_sha256": "cffa38294595c25e30a7aa68fa82d2216c0f389863e8e2336fc86526d61e448e",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse24_gathering_storm_keel_rail.weapon",
+      "origin_sha256": "c162a53592088901b65cb09a227b4b390f28f4f65661caa7f06a4c41c84d7fee",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus_rail_10.weapon",
+      "origin_sha256": "fa3a7ab1920df4a79c7f1e7d3135fe39813e8a4b717022a01e5a94227a559105",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_munroe_rail_0.weapon",
+      "origin_sha256": "54a8a1919d6c501a209cb8c703c1eb5c1df6944b02c92f55304c490f450688ff",
+      "changed_pointers": [
+        "/range"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_rail_0.weapon",
+      "origin_sha256": "695d9d67d1ea6499dac8f4ee7b262cf3842ecaff5245294a4050d565fd64304c",
+      "changed_pointers": [
+        "/range",
+        "/yaw_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse27_nathan_hale_rail_1.weapon",
+      "origin_sha256": "695d9d67d1ea6499dac8f4ee7b262cf3842ecaff5245294a4050d565fd64304c",
+      "changed_pointers": [
+        "/range",
+        "/yaw_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse_mcrn_corvette.unit",
+      "origin_sha256": "b77dee03ea98cec779d3579624311976b45072a06036f19e0efade0cec56dc08",
+      "changed_pointers": [
+        "/abilities/0/abilities/0",
+        "/build/supply_cost",
+        "/physics/max_angular_speed",
+        "/physics/time_to_max_linear_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse10_donnager_launch_corvette.action_data_source",
+      "origin_sha256": "7354d3b2cf19886ea93d7ff1a1ea0ff5a667b92f1c74bf652c283339ef4ee9e3",
+      "changed_pointers": [
+        "/action_values/3/action_value/values/0"
+      ]
+    },
+    {
+      "file": "entities/expanse12_pella_launch_corvette.action_data_source",
+      "origin_sha256": "936d1365780c755a219cdf77fc885062a6532b09cde3dad9f35937a0b7485e86",
+      "changed_pointers": [
+        "/action_values/3/action_value/values/0"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor_launch_corvette.action_data_source",
+      "origin_sha256": "936d1365780c755a219cdf77fc885062a6532b09cde3dad9f35937a0b7485e86",
+      "changed_pointers": [
+        "/action_values/3/action_value/values/0"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco_launch_corvette.action_data_source",
+      "origin_sha256": "936d1365780c755a219cdf77fc885062a6532b09cde3dad9f35937a0b7485e86",
+      "changed_pointers": [
+        "/action_values/3/action_value/values/0"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_morrigan.unit",
+      "origin_sha256": "3dc6277d2580ec1942e86eeac01cfdeada93f7524aad3b9ffed8bc8d13c02f89",
+      "changed_pointers": [
+        "/abilities/0/abilities/0"
+      ]
+    },
+    {
+      "file": "entities/expanse18_mcrn.player",
+      "origin_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4",
+      "changed_pointers": [
+        "/buildable_units/2",
+        "/garrison/units/random_units/0/unit",
+        "/theme_picker_mesh_preview_units/1",
+        "/trade/trade_ship_escorts/0/unit"
+      ]
+    },
+    {
+      "file": "entities/trader_loyalist.player",
+      "origin_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68",
+      "changed_pointers": [
+        "/buildable_units/2",
+        "/garrison/units/random_units/0/unit",
+        "/theme_picker_mesh_preview_units/1",
+        "/trade/trade_ship_escorts/0/unit"
+      ]
+    },
+    {
+      "file": "entities/advanced_start_mode.start_mode",
+      "origin_sha256": "d7db12e69d5d2efb2a1429f720feade7a41f99450b6cec0910ebbdfc9914d881",
+      "changed_pointers": [
+        "/faction_configurations/0/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+        "/faction_configurations/0/home_planet/starting_units_in_formations/0/required_units/3/unit",
+        "/faction_configurations/8/additional_starting_planets/granted_planets_units_in_formations/0/required_units/0/unit",
+        "/faction_configurations/8/home_planet/starting_units_in_formations/0/required_units/3/unit"
+      ]
+    },
+    {
+      "file": "entities/quick_start_mode.start_mode",
+      "origin_sha256": "68e6e40ba2273234c1d6ece1fa04e45d0016ca08d5a4e03aee4e989a3050ed9a",
+      "changed_pointers": [
+        "/faction_configurations/0/home_planet/starting_units_in_formations/0/required_units/3/unit",
+        "/faction_configurations/8/home_planet/starting_units_in_formations/0/required_units/3/unit"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_light_torpedo.unit",
+      "origin_sha256": "98d88a75f94d5f34d57a52459d344b6d37a50d48a7b253966440fb1fa7be429d",
+      "changed_pointers": [
+        "/physics/max_linear_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_heavy_torpedo.unit",
+      "origin_sha256": "f4e499b03ee17d3edfaa405b4e1db323f982f3e3c9a442b79d11bc01c4df15a8",
+      "changed_pointers": [
+        "/physics/max_linear_speed"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_03_torpedo_magazine.ability",
+      "origin_sha256": "6c82f1a51ca47e37965a09306d40f5fa71b3d2c125858b2bf1eff542496a90a8",
+      "changed_pointers": [
+        "/action_data_source",
+        "/passive_actions/persistant_buff"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_03_torpedo_magazine.buff",
+      "origin_sha256": "a37e0992dcd4a9c30256aaa1692179d2ade2a7cca44a21d1f4c16983e1002319",
+      "changed_pointers": [
+        "/time_actions/0/action_group/actions/3/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/4/position_operators/0/torpedo_to_create"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_03_torpedo_magazine.action_data_source",
+      "origin_sha256": "73593d124571ea36ec097fed47396da1d361c7d528194b8768562f674b56e706",
+      "changed_pointers": [
+        "/action_values/8/action_value/values/0",
+        "/action_values/8/action_value/values/1"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_11_morrigan_magazine.ability",
+      "origin_sha256": "0df55303abcf733f5d3c95075664bdf41ca17541a349e5c8c450d34683c4644a",
+      "changed_pointers": [
+        "/action_data_source",
+        "/passive_actions/persistant_buff"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_11_morrigan_magazine.buff",
+      "origin_sha256": "a275377136788af8a6b8c61cb1335df7748be5925ca10886ea85966f2914d1e3",
+      "changed_pointers": [
+        "/time_actions/0/action_group/actions/3/position_operators/0/torpedo_to_create"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_11_morrigan_magazine.action_data_source",
+      "origin_sha256": "f211c54b965df5a1bb50e35a8ceb16f3939b9f9a32b967eba7ca1bc0ddaca822",
+      "changed_pointers": [
+        "/action_values/8/action_value/values/0",
+        "/action_values/8/action_value/values/1"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_12_raptor_light_magazine.ability",
+      "origin_sha256": "563beff112d5f477ce14f08e982d23542c74f15642b00503a51e64d13f3ca299",
+      "changed_pointers": [
+        "/action_data_source",
+        "/passive_actions/persistant_buff"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_12_raptor_light_magazine.buff",
+      "origin_sha256": "22dfc1d1603d6325e19f5ab9663a6a5a9bd6f1f0dcc90854a1b5f8ac8e448c7d",
+      "changed_pointers": [
+        "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/6/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_12_raptor_light_magazine.action_data_source",
+      "origin_sha256": "fa8cdc43a681e93395ffb4b2be4105ef7fefddfe14dc90df844e0126d27d385d",
+      "changed_pointers": [
+        "/action_values/8/action_value/values/0",
+        "/action_values/8/action_value/values/1"
+      ]
+    },
+    {
+      "file": "entities/expanse12_raptor.unit",
+      "origin_sha256": "dcbde4ee08451f9658d011238f3a44894301a06462f6675cb127f4cebc9dea34",
+      "changed_pointers": [
+        "/abilities/0/abilities/0"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_12_scirocco_light_magazine.ability",
+      "origin_sha256": "8b87f8ad9ec9116b7ee9622c0da80d42fcebb74d6e9189c1ba03fbe206f5a8a0",
+      "changed_pointers": [
+        "/action_data_source",
+        "/passive_actions/persistant_buff"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_12_scirocco_light_magazine.buff",
+      "origin_sha256": "00b160a58f308f22f719aa8cbb425b6d8fdf834375125d8d7890056dc8e20d8e",
+      "changed_pointers": [
+        "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/6/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/8/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/9/position_operators/0/torpedo_to_create"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_12_scirocco_light_magazine.action_data_source",
+      "origin_sha256": "5cedc6814433f7223f9524b929d0fc24c784bdad57f66324a0ed67da8be23ff8",
+      "changed_pointers": [
+        "/action_values/8/action_value/values/0",
+        "/action_values/8/action_value/values/1"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_12_scirocco_heavy_magazine.ability",
+      "origin_sha256": "8f8333d7f290da8253072772f92a3eb3ea7d48c3f960e51af0a1050f088d0f2c",
+      "changed_pointers": [
+        "/action_data_source",
+        "/passive_actions/persistant_buff"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_12_scirocco_heavy_magazine.buff",
+      "origin_sha256": "2b94337155d7e1a7e3273d341c0788d9b9bdda0aa2a734992ea62a515ca129cc",
+      "changed_pointers": [
+        "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_12_scirocco_heavy_magazine.action_data_source",
+      "origin_sha256": "d1101967a78148fa99f8cd2fb56cd955c8f10f0dd27c1f68cbfc52d01e64eeaa",
+      "changed_pointers": [
+        "/action_values/8/action_value/values/0",
+        "/action_values/8/action_value/values/1"
+      ]
+    },
+    {
+      "file": "entities/expanse12_scirocco.unit",
+      "origin_sha256": "07694ef52e441536e858c8d98c13693db7746475ac2edfe9be5adbd2d5d32130",
+      "changed_pointers": [
+        "/abilities/0/abilities/4",
+        "/abilities/0/abilities/5"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_10_donnager_light_magazine.ability",
+      "origin_sha256": "ad4dea7c638ffc7ab9a47622ef02dd053b5b67aec7066ff32ba5e5764246cc0a",
+      "changed_pointers": [
+        "/action_data_source",
+        "/passive_actions/persistant_buff"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_10_donnager_light_magazine.buff",
+      "origin_sha256": "52cec025df54a381cf8547c6e9df3233916c664bb42d7fcdba0811f8dd90e58f",
+      "changed_pointers": [
+        "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/8/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/9/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/10/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/11/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/12/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/13/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/14/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/15/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/16/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/17/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/18/position_operators/0/torpedo_to_create"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_10_donnager_light_magazine.action_data_source",
+      "origin_sha256": "02c0e05803af63540c9ea1c3de758bf38452cdad5675108b3ddd03711a1ed2d4",
+      "changed_pointers": [
+        "/action_values/8/action_value/values/0",
+        "/action_values/8/action_value/values/1"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_10_donnager_heavy_magazine.ability",
+      "origin_sha256": "a84a0c7e471bd587648ef0330fbdff0f9402e5ac4bc23ae7d0ffa6356681401c",
+      "changed_pointers": [
+        "/action_data_source",
+        "/passive_actions/persistant_buff"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_10_donnager_heavy_magazine.buff",
+      "origin_sha256": "5aded5fef528f9f28d82f41b67b2cc83d56bdfb8650296ea378b5052fec01b8d",
+      "changed_pointers": [
+        "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_10_donnager_heavy_magazine.action_data_source",
+      "origin_sha256": "15ed4650696b344e4ae8789e8de7e93f7cc314cd456d43e8fb01547a07aee913",
+      "changed_pointers": [
+        "/action_values/8/action_value/values/0",
+        "/action_values/8/action_value/values/1"
+      ]
+    },
+    {
+      "file": "entities/expanse_donnager_battleship.unit",
+      "origin_sha256": "f883091067b20f6774df184102f1be85165b42c9a3d1c1c853a8e24353bacaf3",
+      "changed_pointers": [
+        "/abilities/0/abilities/0",
+        "/abilities/0/abilities/1"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_27_hephaestus_light_magazine.ability",
+      "origin_sha256": "eaa05a3b4900a54de5daea51b7c9eaa587df808e62c25b6aec8c4b0a853fbb42",
+      "changed_pointers": [
+        "/action_data_source",
+        "/passive_actions/persistant_buff"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_27_hephaestus_light_magazine.buff",
+      "origin_sha256": "c0d393c9e346650c1478f8df3e49e8ab1e8fe5a99abbb4edeee06bf721f68aa1",
+      "changed_pointers": [
+        "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/6/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/8/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/9/position_operators/0/torpedo_to_create"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_27_hephaestus_light_magazine.action_data_source",
+      "origin_sha256": "5cedc6814433f7223f9524b929d0fc24c784bdad57f66324a0ed67da8be23ff8",
+      "changed_pointers": [
+        "/action_values/8/action_value/values/0",
+        "/action_values/8/action_value/values/1"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_27_hephaestus_medium_magazine.ability",
+      "origin_sha256": "0b58b379d28d5e115a6f35501a3367704ac580577985b43bf035ebf7f3c8dbb7",
+      "changed_pointers": [
+        "/action_data_source",
+        "/passive_actions/persistant_buff"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_27_hephaestus_medium_magazine.buff",
+      "origin_sha256": "1de9cf1020b69196206184efe9605b38689cd3f323df5d9016f6a4749f36328c",
+      "changed_pointers": [
+        "/time_actions/0/action_group/actions/5/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/6/position_operators/0/torpedo_to_create",
+        "/time_actions/0/action_group/actions/7/position_operators/0/torpedo_to_create"
+      ]
+    },
+    {
+      "file": "entities/expanse28_mcrn_27_hephaestus_medium_magazine.action_data_source",
+      "origin_sha256": "e6a4882f855d72e4f3250ab33ef781de0c610d14281c4835e59e0cc18427aafa",
+      "changed_pointers": [
+        "/action_values/8/action_value/values/0",
+        "/action_values/8/action_value/values/1"
+      ]
+    },
+    {
+      "file": "entities/expanse27_hephaestus.unit",
+      "origin_sha256": "fcaa9f52df833a8ec7539267f1d430b709cc56d1c39f7361cc53f0da6bcf8de3",
+      "changed_pointers": [
+        "/abilities/0/abilities/0",
+        "/abilities/0/abilities/1"
+      ]
+    }
+  ],
+  "idempotent_overlay": true,
+  "control95_delta": {
+    "entities/expanse_mcrn_corvette.unit": [
+      "/build/supply_cost"
+    ],
+    "entities/expanse10_donnager_launch_corvette.action_data_source": [
+      "/action_values/3/action_value/values/0"
+    ],
+    "entities/expanse12_pella_launch_corvette.action_data_source": [
+      "/action_values/3/action_value/values/0"
+    ],
+    "entities/expanse12_raptor_launch_corvette.action_data_source": [
+      "/action_values/3/action_value/values/0"
+    ],
+    "entities/expanse12_scirocco_launch_corvette.action_data_source": [
+      "/action_values/3/action_value/values/0"
+    ]
+  },
+  "optional_donnager_delta": {
+    "entities/expanse10_donnager_rail_0.weapon": [
+      "/cooldown_duration"
+    ],
+    "entities/expanse10_donnager_rail_1.weapon": [
+      "/cooldown_duration"
+    ]
+  },
+  "explicit_original_morrigan_consumers": [
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/eivonns_light_ships.ability",
+    "/run/media/haker/NVME 2/SteamLibrary/steamapps/common/Sins2/entities/trader_unlock_trade_escorts_0.research_subject",
+    "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_unlock_trade_escorts_0.research_subject"
+  ],
+  "morrigan_research_result": "No exact-unit-ID gameplay research filters found. Trade escort units_listing is presentation; native Eivonns spawn deliberately keeps original. Tag-based point_defense/missile upgrades retained by cloning.",
+  "limitations": [
+    "Not JSON-schema validation; final integrated package requires its independent reference/manifest/schema contracts.",
+    "No gameplay or per-muzzle damage event measurement. Equal numeric inputs prove preserved configuration, not measured damage equivalence.",
+    "60-second firing charge retains separate 30-second reload. Their engine scheduling must be timed in game.",
+    "Private standard Tachi hardware persists on capture and Pella-launched Tachis. Pella own magazine and Rocinante own magazine remain baseline.",
+    "Acquisition duration remains unchanged: installed field does not establish continuous lock/reset semantics."
+  ],
+  "range_and_rails": [
+    {
+      "weapon": "expanse03_hero_railgun",
+      "hosts": [
+        "expanse_rocinante_hero"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 4550.0,
+      "damage": 2500.0,
+      "penetration": 1000.0,
+      "cooldown": 15.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse06_amun_railgun",
+      "hosts": [
+        "expanse27_dark_star",
+        "expanse_amun_ra"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 4550.0,
+      "damage": 3750.0,
+      "penetration": 1000.0,
+      "cooldown": 15.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 2
+    },
+    {
+      "weapon": "expanse10_donnager_rail_0",
+      "hosts": [
+        "expanse_donnager_battleship"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 10400.0,
+      "damage": 5000.0,
+      "penetration": 1500.0,
+      "cooldown": 30.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 15.0,
+      "yaw_after": 9.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse10_donnager_rail_1",
+      "hosts": [
+        "expanse_donnager_battleship"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 10400.0,
+      "damage": 5000.0,
+      "penetration": 1500.0,
+      "cooldown": 30.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 15.0,
+      "yaw_after": 9.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse12_scirocco_rail_0",
+      "hosts": [
+        "expanse12_scirocco"
+      ],
+      "heavy_tracking": false,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 5850.0,
+      "damage": 2000.0,
+      "penetration": 1250.0,
+      "cooldown": 22.5,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 30.0,
+      "yaw_after": 30.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse15_truman_rail_0",
+      "hosts": [
+        "expanse15_truman"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 3500.0,
+      "penetration": 1250.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 20.0,
+      "yaw_after": 12.0,
+      "muzzles_per_instance": 2,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse15_truman_rail_1",
+      "hosts": [
+        "expanse15_truman"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 3500.0,
+      "penetration": 1250.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 20.0,
+      "yaw_after": 12.0,
+      "muzzles_per_instance": 2,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse22_foehammer_battery_0",
+      "hosts": [
+        "expanse22_foehammer_battery"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 31200.0,
+      "damage": 5000.0,
+      "penetration": 1500.0,
+      "cooldown": 30.0,
+      "charge": 60.0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 15.0,
+      "yaw_after": 9.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse23_murphy_rail",
+      "hosts": [
+        "expanse23_murphy"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 750.0,
+      "penetration": 800.0,
+      "cooldown": 30.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 2
+    },
+    {
+      "weapon": "expanse24_gathering_storm_keel_rail",
+      "hosts": [
+        "expanse24_gathering_storm"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 5850.0,
+      "damage": 5000.0,
+      "penetration": 1500.0,
+      "cooldown": 30.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse27_hephaestus_rail_10",
+      "hosts": [
+        "expanse27_hephaestus"
+      ],
+      "heavy_tracking": false,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 5850.0,
+      "damage": 2000.0,
+      "penetration": 1250.0,
+      "cooldown": 22.5,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 30.0,
+      "yaw_after": 30.0,
+      "muzzles_per_instance": 1,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse27_munroe_rail_0",
+      "hosts": [
+        "expanse27_munroe"
+      ],
+      "heavy_tracking": false,
+      "mount": null,
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 1800.0,
+      "penetration": 1000.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 0.0,
+      "yaw_after": 0.0,
+      "muzzles_per_instance": 0,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse27_nathan_hale_rail_0",
+      "hosts": [
+        "expanse27_nathan_hale"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 2400.0,
+      "penetration": 1100.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 20.0,
+      "yaw_after": 12.0,
+      "muzzles_per_instance": 2,
+      "instances": 1
+    },
+    {
+      "weapon": "expanse27_nathan_hale_rail_1",
+      "hosts": [
+        "expanse27_nathan_hale"
+      ],
+      "heavy_tracking": true,
+      "mount": "gimbal",
+      "range_before": 12000.0,
+      "range_after": 7800.0,
+      "damage": 2400.0,
+      "penetration": 1100.0,
+      "cooldown": 60.0,
+      "charge": 0,
+      "acquisition_unchanged": 1.5,
+      "pitch_before": 0.0,
+      "pitch_after": 0.0,
+      "yaw_before": 20.0,
+      "yaw_after": 12.0,
+      "muzzles_per_instance": 2,
+      "instances": 1
+    }
+  ]
+}

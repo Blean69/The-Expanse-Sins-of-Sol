@@ -1,0 +1,2911 @@
+{
+  "status": "PASS OFFLINE ONLY",
+  "schemas": [
+    {
+      "file": "expanse06_amun_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse06_amun_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse06_amun_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_10.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_11.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_12.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_13.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_14.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_15.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_pdc_9.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse11_morrigan_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse11_morrigan_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_10.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_11.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_pdc_9.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_10.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_11.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_12.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_13.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_14.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_15.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_16.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_17.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_pdc_9.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse19_europa_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse19_europa_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse19_europa_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse19_europa_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse19_europa_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse19_europa_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse21_contract_patrol_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse21_contract_patrol_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse22_foehammer_battery_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse22_foehammer_battery_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse22_pdc_picket_weapon.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse22_station_earth_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse22_station_mcrn_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse23_murphy_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_behemoth_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse26_opa_command_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_behemoth_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_dark_star_pdc.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_pdc_9.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_laconia_frigate_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_laconia_frigate_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_laconia_frigate_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_laconia_frigate_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_laconia_frigate_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_laconia_frigate_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_10.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_11.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_6.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_7.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_8.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_pdc_9.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_polish_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_polish_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_polish_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_polish_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_polish_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_polish_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_rocinante04_pdc_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_rocinante04_pdc_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_rocinante04_pdc_2.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_rocinante04_pdc_3.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_rocinante04_pdc_4.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_rocinante04_pdc_5.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse03_hero_railgun.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse06_amun_railgun.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_rail_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse10_donnager_rail_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_rail_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_rail_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse15_truman_rail_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse22_foehammer_battery_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse23_murphy_rail.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse24_gathering_storm_keel_rail.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus_rail_10.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_munroe_rail_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_rail_0.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_nathan_hale_rail_1.weapon",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_mcrn_corvette.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse_mcrn_corvette.unit",
+          "source_sha256": "b77dee03ea98cec779d3579624311976b45072a06036f19e0efade0cec56dc08"
+        }
+      ]
+    },
+    {
+      "file": "expanse10_donnager_launch_corvette.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_pella_launch_corvette.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor_launch_corvette.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco_launch_corvette.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_morrigan.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_light_frigate.unit",
+          "source_sha256": "3dc6277d2580ec1942e86eeac01cfdeada93f7524aad3b9ffed8bc8d13c02f89"
+        }
+      ]
+    },
+    {
+      "file": "expanse18_mcrn.player",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/ai/bounty_placed_messages",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/ai/cease_fire_messages",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/ai/rival_taunts",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/factional_victory/gui_definition",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/0/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/0/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/0/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/0/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/1/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/1/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/1/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/1/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/2/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/2/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/2/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/2/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/3/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/3/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/3/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/3/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/4/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/4/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/4/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/4/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/5/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/5/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/5/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/5/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/5/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/6/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/6/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/6/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/6/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/6/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/7/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/7/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/7/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/7/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/7/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/8/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/8/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/8/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/8/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/8/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/9/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/9/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/9/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/9/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/9/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/10/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/10/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/10/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/10/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/10/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/11/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/11/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/11/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/11/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/11/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/12/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/12/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/12/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/12/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/13/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/13/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/13/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/13/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/14/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/14/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/14/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/14/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/15/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/15/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/15/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/15/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/15/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/16/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/16/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/16/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/16/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/16/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/17/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/17/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/17/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/17/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/18/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/18/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/18/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/18/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/18/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/19/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/19/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/19/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/19/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/20/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/20/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/20/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/planet_types/20/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/cloaked_unit_detected",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_destroy_planet_started",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_destroyed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_shrouded",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_shrouding_started",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/insufficient_corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_ready_to_shroud",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_shrouded",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_corruption_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_culture_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_industry_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_influence_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_population_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/DEPRECATED_starting_units_in_player_file",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/corruption_thresholds",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        },
+        {
+          "field": "/negative_corruption_buffs",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse18_mcrn.player",
+          "source_sha256": "b484225f7c6b499c2904eaed97f3b44fba511c0fd46b6bec3f91164064c7e5a4"
+        }
+      ]
+    },
+    {
+      "file": "trader_loyalist.player",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/ai/bounty_placed_messages",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/ai/cease_fire_messages",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/ai/rival_taunts",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/factional_victory/gui_definition",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/0/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/0/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/0/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/0/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/1/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/1/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/1/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/1/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/2/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/2/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/2/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/2/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/3/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/3/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/3/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/3/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/4/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/4/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/4/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/4/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/5/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/5/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/5/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/5/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/5/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/6/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/6/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/6/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/6/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/6/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/7/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/7/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/7/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/7/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/7/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/8/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/8/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/8/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/8/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/8/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/9/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/9/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/9/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/9/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/9/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/10/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/10/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/10/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/10/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/10/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/11/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/11/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/11/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/11/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/11/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/12/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/12/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/12/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/12/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/13/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/13/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/13/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/13/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/14/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/14/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/14/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/14/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/15/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/15/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/15/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/15/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/15/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/16/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/16/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/16/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/16/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/16/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/17/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/17/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/17/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/17/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/18/colonization_research_prerequisites",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/18/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/18/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/18/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/18/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/19/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/19/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/19/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/19/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/20/maintenance_cost_rates",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/20/shroud_restricted_max_track_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/20/tracks",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/planet_types/20/trade_capacity_levels",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/cloaked_unit_detected",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_destroy_planet_started",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_destroyed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_shrouded",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/enemy_planet_shrouding_started",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/insufficient_corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_ready_to_shroud",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_shrouded",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_corruption_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_culture_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_industry_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_influence_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/sounds/user_interface_sounds/planet_track_upgrade_population_completed",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/DEPRECATED_starting_units_in_player_file",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/corruption_thresholds",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        },
+        {
+          "field": "/negative_corruption_buffs",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/trader_loyalist.player",
+          "source_sha256": "e618de1e6255ed33f77c99c048b2cc1290038fcf65b24dc9ff7301afa29faf68"
+        }
+      ]
+    },
+    {
+      "file": "expanse28_mcrn_light_torpedo.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_heavy_torpedo.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_03_torpedo_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_03_torpedo_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_03_torpedo_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_11_morrigan_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_11_morrigan_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_11_morrigan_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_12_raptor_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_12_raptor_light_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_12_raptor_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_raptor.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_raptor.unit",
+          "source_sha256": "dcbde4ee08451f9658d011238f3a44894301a06462f6675cb127f4cebc9dea34"
+        }
+      ]
+    },
+    {
+      "file": "expanse28_mcrn_12_scirocco_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_12_scirocco_light_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_12_scirocco_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_12_scirocco_heavy_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_12_scirocco_heavy_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_12_scirocco_heavy_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse12_scirocco.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse12_scirocco.unit",
+          "source_sha256": "07694ef52e441536e858c8d98c13693db7746475ac2edfe9be5adbd2d5d32130"
+        }
+      ]
+    },
+    {
+      "file": "expanse28_mcrn_10_donnager_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_10_donnager_light_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_10_donnager_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_10_donnager_heavy_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_10_donnager_heavy_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_10_donnager_heavy_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse_donnager_battleship.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse_donnager_battleship.unit",
+          "source_sha256": "f883091067b20f6774df184102f1be85165b42c9a3d1c1c853a8e24353bacaf3"
+        }
+      ]
+    },
+    {
+      "file": "expanse28_mcrn_27_hephaestus_light_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_27_hephaestus_light_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_27_hephaestus_light_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_27_hephaestus_medium_magazine.ability",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_27_hephaestus_medium_magazine.buff",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse28_mcrn_27_hephaestus_medium_magazine.action_data_source",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": []
+    },
+    {
+      "file": "expanse27_hephaestus.unit",
+      "status": "PASS pinned known fields and closed keys",
+      "exact_source_extensions": [
+        {
+          "field": "/corruption",
+          "source": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_update27_5_menu/entities/expanse27_hephaestus.unit",
+          "source_sha256": "fcaa9f52df833a8ec7539267f1d430b709cc56d1c39f7361cc53f0da6bcf8de3"
+        }
+      ]
+    }
+  ],
+  "actions": [
+    {
+      "unit": "expanse_mcrn_corvette",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 2
+      },
+      "values": [
+        {
+          "ability": "expanse28_mcrn_03_torpedo_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_03_torpedo_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_03_torpedo_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse28_mcrn_morrigan",
+      "actions": {
+        "abilities": 2,
+        "buffs": 2,
+        "torpedoes": 1
+      },
+      "values": [
+        {
+          "ability": "expanse28_mcrn_11_morrigan_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_11_morrigan_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_11_morrigan_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse28_mcrn_light_torpedo",
+      "actions": {
+        "abilities": 0,
+        "buffs": 0,
+        "torpedoes": 0
+      },
+      "values": []
+    },
+    {
+      "unit": "expanse28_mcrn_heavy_torpedo",
+      "actions": {
+        "abilities": 0,
+        "buffs": 0,
+        "torpedoes": 0
+      },
+      "values": []
+    },
+    {
+      "unit": "expanse12_raptor",
+      "actions": {
+        "abilities": 6,
+        "buffs": 5,
+        "torpedoes": 3
+      },
+      "values": [
+        {
+          "ability": "expanse28_mcrn_12_raptor_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_raptor_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_raptor_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_raptor_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_raptor_reactor",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_raptor_reactor.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_raptor_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_raptor_launch_corvette",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_raptor_launch_corvette.action_data_source",
+          "reachable_buffs": [],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_raptor_marines",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_raptor_marines.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_raptor_reactor_breach",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_raptor_reactor_breach.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_raptor_reactor_breach.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse12_scirocco",
+      "actions": {
+        "abilities": 8,
+        "buffs": 8,
+        "torpedoes": 6
+      },
+      "values": [
+        {
+          "ability": "expanse12_scirocco_reactor",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_launch_corvette",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_launch_corvette.action_data_source",
+          "reachable_buffs": [],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse15_scirocco_breaching_teams",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse21_mcrn_mmc_certification_support.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse15_scirocco_breaching_teams_disruption.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse15_scirocco_breaching_teams_guard.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse15_scirocco_engineering_teams",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse15_scirocco_engineering_teams.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse15_scirocco_engineering_teams.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse28_mcrn_12_scirocco_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_scirocco_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_scirocco_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse28_mcrn_12_scirocco_heavy_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_scirocco_heavy_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_scirocco_heavy_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse12_scirocco_reactor_breach",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor_breach.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor_breach.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse_donnager_battleship",
+      "actions": {
+        "abilities": 7,
+        "buffs": 6,
+        "torpedoes": 13
+      },
+      "values": [
+        {
+          "ability": "expanse28_mcrn_10_donnager_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_10_donnager_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_10_donnager_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse28_mcrn_10_donnager_heavy_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_10_donnager_heavy_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_10_donnager_heavy_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse10_donnager_launch_corvette",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_launch_corvette.action_data_source",
+          "reachable_buffs": [],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse10_donnager_reactor",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_reactor.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_reactor.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse10_donnager_marines",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_marines.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse20_boarding_target_lock.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse10_donnager_reactor_breach",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_reactor_breach.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_reactor_breach.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    },
+    {
+      "unit": "expanse27_hephaestus",
+      "actions": {
+        "abilities": 3,
+        "buffs": 3,
+        "torpedoes": 8
+      },
+      "values": [
+        {
+          "ability": "expanse28_mcrn_27_hephaestus_light_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_27_hephaestus_light_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_27_hephaestus_light_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse28_mcrn_27_hephaestus_medium_magazine",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_27_hephaestus_medium_magazine.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.buff",
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_27_hephaestus_medium_magazine.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        },
+        {
+          "ability": "expanse11_no_shields",
+          "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.action_data_source",
+          "reachable_buffs": [
+            "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse11_no_shields.buff"
+          ],
+          "status": "PASS typed scalar/filter/modifier references"
+        }
+      ]
+    }
+  ],
+  "all_changed_ability_graphs": [
+    {
+      "ability": "expanse28_mcrn_03_torpedo_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_03_torpedo_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_03_torpedo_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse28_mcrn_11_morrigan_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_11_morrigan_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_11_morrigan_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse28_mcrn_12_raptor_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_raptor_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_raptor_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_raptor_light_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse28_mcrn_12_scirocco_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_scirocco_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_scirocco_light_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse28_mcrn_12_scirocco_heavy_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_scirocco_heavy_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_12_scirocco_heavy_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse28_mcrn_10_donnager_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_10_donnager_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_10_donnager_light_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse28_mcrn_10_donnager_heavy_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_10_donnager_heavy_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse10_donnager_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_10_donnager_heavy_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse28_mcrn_27_hephaestus_light_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_27_hephaestus_light_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_27_hephaestus_light_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    },
+    {
+      "ability": "expanse28_mcrn_27_hephaestus_medium_magazine",
+      "ADS": "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_27_hephaestus_medium_magazine.action_data_source",
+      "reachable_buffs": [
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse12_scirocco_reactor.buff",
+        "/run/media/haker/NVME 2/expanse-mod/build/experiments/expanse_balance28_C-cadence/entities/expanse28_mcrn_27_hephaestus_medium_magazine.buff"
+      ],
+      "status": "PASS typed scalar/filter/modifier references"
+    }
+  ],
+  "audio_files_preserved": 160,
+  "pins": {
+    "schema_commit": "8e061033afe53b1393eaefd56617a3fd041eeb5f",
+    "schemas": 62,
+    "installed_references": 527
+  },
+  "baseline": {
+    "zip_sha256": "e455bad555ce081ef1248f5288ca0d3c37809e73033093c595898d5d82b900f7",
+    "tree_sha256": "892feb9fcdb987b5877c1ecbddcf88adbebea802643615d14ddbb52bfea9c69f"
+  },
+  "magazine_position_only_replacements": {},
+  "action_level_declaration_only_replacements": {},
+  "targeted_balance_replacements": {
+    "entities/expanse03_hero_railgun.weapon": {
+      "before_sha256": "bc762000a37763a3ece841c8d7780069ba650976cd8130e39f8b419e1f6e9327",
+      "changed_paths": [
+        "/range"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse06_amun_railgun.weapon": {
+      "before_sha256": "2bfc8900a27bab71e3d76b40ad4c10907497f676fd165a81d4b35db0baa6c5c1",
+      "changed_paths": [
+        "/range"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse10_donnager_rail_0.weapon": {
+      "before_sha256": "664eb644aeaf2dff22d1cebd00418cb9d122f7b53228ea2e4249394da9b2f8f5",
+      "changed_paths": [
+        "/cooldown_duration",
+        "/range",
+        "/yaw_speed"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse10_donnager_rail_1.weapon": {
+      "before_sha256": "e6cdee9e4cda634e58a56d90c01d539da42b34f330ef9bbeba6c538a0048067e",
+      "changed_paths": [
+        "/cooldown_duration",
+        "/range",
+        "/yaw_speed"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse12_scirocco_rail_0.weapon": {
+      "before_sha256": "6a35c206a840645f2b0130f88b65019dbf346e28ebe6b99cd18cd94ef172eeae",
+      "changed_paths": [
+        "/range"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse15_truman_rail_0.weapon": {
+      "before_sha256": "1d2b1ede949a12afb522904f9ab79fae769de61d8f63e728efa10b9ae82d123f",
+      "changed_paths": [
+        "/range",
+        "/yaw_speed"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse15_truman_rail_1.weapon": {
+      "before_sha256": "f51e610fcfb939c22d9a4878b2345ab7c1ce1870ef4302d83bbcbd858df4e8e8",
+      "changed_paths": [
+        "/range",
+        "/yaw_speed"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse23_murphy_rail.weapon": {
+      "before_sha256": "cffa38294595c25e30a7aa68fa82d2216c0f389863e8e2336fc86526d61e448e",
+      "changed_paths": [
+        "/range"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse24_gathering_storm_keel_rail.weapon": {
+      "before_sha256": "c162a53592088901b65cb09a227b4b390f28f4f65661caa7f06a4c41c84d7fee",
+      "changed_paths": [
+        "/range"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse27_hephaestus_rail_10.weapon": {
+      "before_sha256": "fa3a7ab1920df4a79c7f1e7d3135fe39813e8a4b717022a01e5a94227a559105",
+      "changed_paths": [
+        "/range"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse27_munroe_rail_0.weapon": {
+      "before_sha256": "54a8a1919d6c501a209cb8c703c1eb5c1df6944b02c92f55304c490f450688ff",
+      "changed_paths": [
+        "/range"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse27_nathan_hale_rail_0.weapon": {
+      "before_sha256": "695d9d67d1ea6499dac8f4ee7b262cf3842ecaff5245294a4050d565fd64304c",
+      "changed_paths": [
+        "/range",
+        "/yaw_speed"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    },
+    "entities/expanse27_nathan_hale_rail_1.weapon": {
+      "before_sha256": "695d9d67d1ea6499dac8f4ee7b262cf3842ecaff5245294a4050d565fd64304c",
+      "changed_paths": [
+        "/range",
+        "/yaw_speed"
+      ],
+      "reason": "Active Martian Quality brief and explicit PDC/rail range override; complete values in acceptance.json."
+    }
+  },
+  "changed_files": [
+    ".mod_meta_data",
+    "PLAYTEST-README.md",
+    "entities/ability.entity_manifest",
+    "entities/action_data_source.entity_manifest",
+    "entities/advanced_start_mode.start_mode",
+    "entities/buff.entity_manifest",
+    "entities/expanse03_hero_railgun.weapon",
+    "entities/expanse06_amun_pdc_0.weapon",
+    "entities/expanse06_amun_pdc_1.weapon",
+    "entities/expanse06_amun_pdc_2.weapon",
+    "entities/expanse06_amun_railgun.weapon",
+    "entities/expanse10_donnager_launch_corvette.action_data_source",
+    "entities/expanse10_donnager_pdc_0.weapon",
+    "entities/expanse10_donnager_pdc_1.weapon",
+    "entities/expanse10_donnager_pdc_10.weapon",
+    "entities/expanse10_donnager_pdc_11.weapon",
+    "entities/expanse10_donnager_pdc_12.weapon",
+    "entities/expanse10_donnager_pdc_13.weapon",
+    "entities/expanse10_donnager_pdc_14.weapon",
+    "entities/expanse10_donnager_pdc_15.weapon",
+    "entities/expanse10_donnager_pdc_2.weapon",
+    "entities/expanse10_donnager_pdc_3.weapon",
+    "entities/expanse10_donnager_pdc_4.weapon",
+    "entities/expanse10_donnager_pdc_5.weapon",
+    "entities/expanse10_donnager_pdc_6.weapon",
+    "entities/expanse10_donnager_pdc_7.weapon",
+    "entities/expanse10_donnager_pdc_8.weapon",
+    "entities/expanse10_donnager_pdc_9.weapon",
+    "entities/expanse10_donnager_rail_0.weapon",
+    "entities/expanse10_donnager_rail_1.weapon",
+    "entities/expanse11_morrigan_pdc_0.weapon",
+    "entities/expanse11_morrigan_pdc_1.weapon",
+    "entities/expanse12_pella_launch_corvette.action_data_source",
+    "entities/expanse12_pella_pdc_0.weapon",
+    "entities/expanse12_pella_pdc_1.weapon",
+    "entities/expanse12_pella_pdc_2.weapon",
+    "entities/expanse12_pella_pdc_3.weapon",
+    "entities/expanse12_pella_pdc_4.weapon",
+    "entities/expanse12_pella_pdc_5.weapon",
+    "entities/expanse12_pella_pdc_6.weapon",
+    "entities/expanse12_pella_pdc_7.weapon",
+    "entities/expanse12_pella_pdc_8.weapon",
+    "entities/expanse12_raptor.unit",
+    "entities/expanse12_raptor_launch_corvette.action_data_source",
+    "entities/expanse12_raptor_pdc_0.weapon",
+    "entities/expanse12_raptor_pdc_1.weapon",
+    "entities/expanse12_raptor_pdc_2.weapon",
+    "entities/expanse12_raptor_pdc_3.weapon",
+    "entities/expanse12_raptor_pdc_4.weapon",
+    "entities/expanse12_raptor_pdc_5.weapon",
+    "entities/expanse12_raptor_pdc_6.weapon",
+    "entities/expanse12_raptor_pdc_7.weapon",
+    "entities/expanse12_raptor_pdc_8.weapon",
+    "entities/expanse12_scirocco.unit",
+    "entities/expanse12_scirocco_launch_corvette.action_data_source",
+    "entities/expanse12_scirocco_pdc_0.weapon",
+    "entities/expanse12_scirocco_pdc_1.weapon",
+    "entities/expanse12_scirocco_pdc_10.weapon",
+    "entities/expanse12_scirocco_pdc_11.weapon",
+    "entities/expanse12_scirocco_pdc_2.weapon",
+    "entities/expanse12_scirocco_pdc_3.weapon",
+    "entities/expanse12_scirocco_pdc_4.weapon",
+    "entities/expanse12_scirocco_pdc_5.weapon",
+    "entities/expanse12_scirocco_pdc_6.weapon",
+    "entities/expanse12_scirocco_pdc_7.weapon",
+    "entities/expanse12_scirocco_pdc_8.weapon",
+    "entities/expanse12_scirocco_pdc_9.weapon",
+    "entities/expanse12_scirocco_rail_0.weapon",
+    "entities/expanse15_truman_pdc_0.weapon",
+    "entities/expanse15_truman_pdc_1.weapon",
+    "entities/expanse15_truman_pdc_10.weapon",
+    "entities/expanse15_truman_pdc_11.weapon",
+    "entities/expanse15_truman_pdc_12.weapon",
+    "entities/expanse15_truman_pdc_13.weapon",
+    "entities/expanse15_truman_pdc_14.weapon",
+    "entities/expanse15_truman_pdc_15.weapon",
+    "entities/expanse15_truman_pdc_16.weapon",
+    "entities/expanse15_truman_pdc_17.weapon",
+    "entities/expanse15_truman_pdc_2.weapon",
+    "entities/expanse15_truman_pdc_3.weapon",
+    "entities/expanse15_truman_pdc_4.weapon",
+    "entities/expanse15_truman_pdc_5.weapon",
+    "entities/expanse15_truman_pdc_6.weapon",
+    "entities/expanse15_truman_pdc_7.weapon",
+    "entities/expanse15_truman_pdc_8.weapon",
+    "entities/expanse15_truman_pdc_9.weapon",
+    "entities/expanse15_truman_rail_0.weapon",
+    "entities/expanse15_truman_rail_1.weapon",
+    "entities/expanse18_mcrn.player",
+    "entities/expanse19_europa_pdc_0.weapon",
+    "entities/expanse19_europa_pdc_1.weapon",
+    "entities/expanse19_europa_pdc_2.weapon",
+    "entities/expanse19_europa_pdc_3.weapon",
+    "entities/expanse19_europa_pdc_4.weapon",
+    "entities/expanse19_europa_pdc_5.weapon",
+    "entities/expanse21_contract_patrol_pdc_0.weapon",
+    "entities/expanse21_contract_patrol_pdc_1.weapon",
+    "entities/expanse22_foehammer_battery_0.weapon",
+    "entities/expanse22_foehammer_battery_1.weapon",
+    "entities/expanse22_foehammer_battery_2.weapon",
+    "entities/expanse22_pdc_picket_weapon.weapon",
+    "entities/expanse22_station_earth_pdc.weapon",
+    "entities/expanse22_station_mcrn_pdc.weapon",
+    "entities/expanse23_murphy_pdc.weapon",
+    "entities/expanse23_murphy_rail.weapon",
+    "entities/expanse24_behemoth_pdc.weapon",
+    "entities/expanse24_gathering_storm_keel_rail.weapon",
+    "entities/expanse24_gathering_storm_pdc_0.weapon",
+    "entities/expanse24_gathering_storm_pdc_1.weapon",
+    "entities/expanse24_gathering_storm_pdc_2.weapon",
+    "entities/expanse24_gathering_storm_pdc_3.weapon",
+    "entities/expanse24_gathering_storm_pdc_4.weapon",
+    "entities/expanse24_gathering_storm_pdc_5.weapon",
+    "entities/expanse26_opa_command_pdc_0.weapon",
+    "entities/expanse26_opa_command_pdc_1.weapon",
+    "entities/expanse26_opa_command_pdc_2.weapon",
+    "entities/expanse26_opa_command_pdc_3.weapon",
+    "entities/expanse26_opa_command_pdc_4.weapon",
+    "entities/expanse26_opa_command_pdc_5.weapon",
+    "entities/expanse27_behemoth_pdc.weapon",
+    "entities/expanse27_dark_star_pdc.weapon",
+    "entities/expanse27_hephaestus.unit",
+    "entities/expanse27_hephaestus_pdc_0.weapon",
+    "entities/expanse27_hephaestus_pdc_1.weapon",
+    "entities/expanse27_hephaestus_pdc_2.weapon",
+    "entities/expanse27_hephaestus_pdc_3.weapon",
+    "entities/expanse27_hephaestus_pdc_4.weapon",
+    "entities/expanse27_hephaestus_pdc_5.weapon",
+    "entities/expanse27_hephaestus_pdc_6.weapon",
+    "entities/expanse27_hephaestus_pdc_7.weapon",
+    "entities/expanse27_hephaestus_pdc_8.weapon",
+    "entities/expanse27_hephaestus_pdc_9.weapon",
+    "entities/expanse27_hephaestus_rail_10.weapon",
+    "entities/expanse27_laconia_frigate_pdc_0.weapon",
+    "entities/expanse27_laconia_frigate_pdc_1.weapon",
+    "entities/expanse27_laconia_frigate_pdc_2.weapon",
+    "entities/expanse27_laconia_frigate_pdc_3.weapon",
+    "entities/expanse27_laconia_frigate_pdc_4.weapon",
+    "entities/expanse27_laconia_frigate_pdc_5.weapon",
+    "entities/expanse27_munroe_pdc_0.weapon",
+    "entities/expanse27_munroe_pdc_1.weapon",
+    "entities/expanse27_munroe_pdc_2.weapon",
+    "entities/expanse27_munroe_pdc_3.weapon",
+    "entities/expanse27_munroe_pdc_4.weapon",
+    "entities/expanse27_munroe_pdc_5.weapon",
+    "entities/expanse27_munroe_pdc_6.weapon",
+    "entities/expanse27_munroe_pdc_7.weapon",
+    "entities/expanse27_munroe_rail_0.weapon",
+    "entities/expanse27_nathan_hale_pdc_0.weapon",
+    "entities/expanse27_nathan_hale_pdc_1.weapon",
+    "entities/expanse27_nathan_hale_pdc_10.weapon",
+    "entities/expanse27_nathan_hale_pdc_11.weapon",
+    "entities/expanse27_nathan_hale_pdc_2.weapon",
+    "entities/expanse27_nathan_hale_pdc_3.weapon",
+    "entities/expanse27_nathan_hale_pdc_4.weapon",
+    "entities/expanse27_nathan_hale_pdc_5.weapon",
+    "entities/expanse27_nathan_hale_pdc_6.weapon",
+    "entities/expanse27_nathan_hale_pdc_7.weapon",
+    "entities/expanse27_nathan_hale_pdc_8.weapon",
+    "entities/expanse27_nathan_hale_pdc_9.weapon",
+    "entities/expanse27_nathan_hale_rail_0.weapon",
+    "entities/expanse27_nathan_hale_rail_1.weapon",
+    "entities/expanse28_mcrn_03_torpedo_magazine.ability",
+    "entities/expanse28_mcrn_03_torpedo_magazine.action_data_source",
+    "entities/expanse28_mcrn_03_torpedo_magazine.buff",
+    "entities/expanse28_mcrn_10_donnager_heavy_magazine.ability",
+    "entities/expanse28_mcrn_10_donnager_heavy_magazine.action_data_source",
+    "entities/expanse28_mcrn_10_donnager_heavy_magazine.buff",
+    "entities/expanse28_mcrn_10_donnager_light_magazine.ability",
+    "entities/expanse28_mcrn_10_donnager_light_magazine.action_data_source",
+    "entities/expanse28_mcrn_10_donnager_light_magazine.buff",
+    "entities/expanse28_mcrn_11_morrigan_magazine.ability",
+    "entities/expanse28_mcrn_11_morrigan_magazine.action_data_source",
+    "entities/expanse28_mcrn_11_morrigan_magazine.buff",
+    "entities/expanse28_mcrn_12_raptor_light_magazine.ability",
+    "entities/expanse28_mcrn_12_raptor_light_magazine.action_data_source",
+    "entities/expanse28_mcrn_12_raptor_light_magazine.buff",
+    "entities/expanse28_mcrn_12_scirocco_heavy_magazine.ability",
+    "entities/expanse28_mcrn_12_scirocco_heavy_magazine.action_data_source",
+    "entities/expanse28_mcrn_12_scirocco_heavy_magazine.buff",
+    "entities/expanse28_mcrn_12_scirocco_light_magazine.ability",
+    "entities/expanse28_mcrn_12_scirocco_light_magazine.action_data_source",
+    "entities/expanse28_mcrn_12_scirocco_light_magazine.buff",
+    "entities/expanse28_mcrn_27_hephaestus_light_magazine.ability",
+    "entities/expanse28_mcrn_27_hephaestus_light_magazine.action_data_source",
+    "entities/expanse28_mcrn_27_hephaestus_light_magazine.buff",
+    "entities/expanse28_mcrn_27_hephaestus_medium_magazine.ability",
+    "entities/expanse28_mcrn_27_hephaestus_medium_magazine.action_data_source",
+    "entities/expanse28_mcrn_27_hephaestus_medium_magazine.buff",
+    "entities/expanse28_mcrn_heavy_torpedo.unit",
+    "entities/expanse28_mcrn_light_torpedo.unit",
+    "entities/expanse28_mcrn_morrigan.unit",
+    "entities/expanse_donnager_battleship.unit",
+    "entities/expanse_mcrn_corvette.unit",
+    "entities/expanse_polish_pdc_0.weapon",
+    "entities/expanse_polish_pdc_1.weapon",
+    "entities/expanse_polish_pdc_2.weapon",
+    "entities/expanse_polish_pdc_3.weapon",
+    "entities/expanse_polish_pdc_4.weapon",
+    "entities/expanse_polish_pdc_5.weapon",
+    "entities/expanse_rocinante04_pdc_0.weapon",
+    "entities/expanse_rocinante04_pdc_1.weapon",
+    "entities/expanse_rocinante04_pdc_2.weapon",
+    "entities/expanse_rocinante04_pdc_3.weapon",
+    "entities/expanse_rocinante04_pdc_4.weapon",
+    "entities/expanse_rocinante04_pdc_5.weapon",
+    "entities/quick_start_mode.start_mode",
+    "entities/trader_loyalist.player",
+    "entities/unit.entity_manifest"
+  ],
+  "runtime": {
+    "load": "NOT RUN",
+    "opening_viability": "NOT RUN",
+    "menus": "NOT RUN",
+    "existing_and_new_research": "NOT RUN",
+    "colonization": "NOT RUN",
+    "bombardment": "NOT RUN",
+    "stacking": "NOT RUN",
+    "ownership": "NOT RUN",
+    "save_reload": "NOT RUN",
+    "multiplayer": "NOT RUN"
+  }
+}

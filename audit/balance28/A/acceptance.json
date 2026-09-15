@@ -1,0 +1,1297 @@
+{
+  "status": "PASS OFFLINE",
+  "action_sources_checked": 65,
+  "gimbal_meshes_checked": 8,
+  "biaxial_pairs_checked": 48,
+  "roles_and_build_radii": "PASS",
+  "all_unit_skin_gui_objects_present": "PASS",
+  "crash_reproduction": "NOT RUN for this candidate; historical user test of 0.27.5 is baseline evidence only.",
+  "battery_access_branches": {
+    "expanse18_mcrn": [
+      [
+        "expanse28_mcrn_orbital_defense"
+      ]
+    ],
+    "trader_loyalist": [
+      [
+        "expanse28_mcrn_orbital_defense"
+      ]
+    ],
+    "expanse18_unn": [
+      [
+        "expanse22_unn_orbital_defense"
+      ]
+    ],
+    "dlc_trader_loyalist": [
+      [
+        "expanse22_unn_orbital_defense"
+      ]
+    ],
+    "expanse18_opa": [
+      [
+        "expanse28_opa_orbital_defense"
+      ]
+    ],
+    "trader_rebel": [
+      [
+        "expanse28_opa_orbital_defense"
+      ]
+    ]
+  },
+  "preserved_audio_art_scenario_files": 1111,
+  "numeric_changes": {
+    "entities/expanse15_truman.unit": [
+      {
+        "path": "/ai_attack_target/attack_target_type",
+        "before": "capital",
+        "after": "supercapital"
+      },
+      {
+        "path": "/build/build_group_id",
+        "before": "capital_ship",
+        "after": "super_capital_ship"
+      },
+      {
+        "path": "/build/build_kind",
+        "before": "capital_ship",
+        "after": "super_capital_ship"
+      },
+      {
+        "path": "/build/build_time",
+        "before": 100.0,
+        "after": 240.0
+      },
+      {
+        "path": "/build/prerequisites",
+        "before": null,
+        "after": [
+          [
+            "expanse28_truman_command_procurement"
+          ]
+        ]
+      },
+      {
+        "path": "/build/price/credits",
+        "before": 4000.0,
+        "after": 7680.0
+      },
+      {
+        "path": "/build/price/crystal",
+        "before": 700.0,
+        "after": 1520.0
+      },
+      {
+        "path": "/build/price/metal",
+        "before": 1000.0,
+        "after": 3016.0
+      },
+      {
+        "path": "/build/supply_cost",
+        "before": 185,
+        "after": 400.0
+      },
+      {
+        "path": "/tags/0",
+        "before": "capital_ship",
+        "after": "expanse21_truman_colony_capital"
+      },
+      {
+        "path": "/tags/1",
+        "before": "expanse21_truman_colony_capital",
+        "after": "super_capital_ship"
+      },
+      {
+        "path": "/target_filter_unit_type",
+        "before": "capital_ship",
+        "after": "super_capital_ship"
+      },
+      {
+        "path": "/user_interface/pip_type",
+        "before": "capital_ship",
+        "after": "super_capital_ship"
+      }
+    ],
+    "entities/expanse12_raptor.unit": [
+      {
+        "path": "/ai_attack_target/attack_target_type",
+        "before": "capital",
+        "after": "heavy"
+      },
+      {
+        "path": "/antimatter/antimatter_restore_rate",
+        "before": 0.0,
+        "after": 0.75
+      },
+      {
+        "path": "/antimatter/max_antimatter",
+        "before": 0.0,
+        "after": 225.0
+      },
+      {
+        "path": "/build/build_group_id",
+        "before": "capital_ship",
+        "after": "cruiser"
+      },
+      {
+        "path": "/build/build_kind",
+        "before": "capital_ship",
+        "after": "cruiser"
+      },
+      {
+        "path": "/health/levels",
+        "before": [
+          {
+            "max_hull_points": 4500.0,
+            "hull_point_restore_rate": 3.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.5,
+            "max_armor_points": 2600.0,
+            "armor_point_restore_rate": 4.0,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 105.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 100.0
+          },
+          {
+            "max_hull_points": 4902.0,
+            "hull_point_restore_rate": 3.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.55,
+            "max_armor_points": 2804.1322314049585,
+            "armor_point_restore_rate": 4.6,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 110.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 120.0
+          },
+          {
+            "max_hull_points": 5304.0,
+            "hull_point_restore_rate": 4.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.6,
+            "max_armor_points": 3008.2644628099174,
+            "armor_point_restore_rate": 5.2,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 115.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 150.0
+          },
+          {
+            "max_hull_points": 5706.0,
+            "hull_point_restore_rate": 4.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.65,
+            "max_armor_points": 3212.396694214876,
+            "armor_point_restore_rate": 5.8,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 120.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 190.0
+          },
+          {
+            "max_hull_points": 6102.0,
+            "hull_point_restore_rate": 5.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.7,
+            "max_armor_points": 3416.528925619835,
+            "armor_point_restore_rate": 6.4,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 125.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 240.0
+          },
+          {
+            "max_hull_points": 6504.0,
+            "hull_point_restore_rate": 5.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.75,
+            "max_armor_points": 3615.289256198347,
+            "armor_point_restore_rate": 7.0,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 130.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 300.0
+          },
+          {
+            "max_hull_points": 6906.0,
+            "hull_point_restore_rate": 6.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.8,
+            "max_armor_points": 3819.4214876033056,
+            "armor_point_restore_rate": 7.6,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 135.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 370.0
+          },
+          {
+            "max_hull_points": 7308.0,
+            "hull_point_restore_rate": 6.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.85,
+            "max_armor_points": 4023.5537190082646,
+            "armor_point_restore_rate": 8.2,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 140.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 450.0
+          },
+          {
+            "max_hull_points": 7704.0,
+            "hull_point_restore_rate": 7.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.92,
+            "max_armor_points": 4227.685950413223,
+            "armor_point_restore_rate": 8.8,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 145.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 540.0
+          },
+          {
+            "max_hull_points": 8106.0,
+            "hull_point_restore_rate": 7.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 1.0,
+            "max_armor_points": 4426.446280991736,
+            "armor_point_restore_rate": 9.4,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 150.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 640.0
+          }
+        ],
+        "after": [
+          {
+            "max_hull_points": 4500.0,
+            "hull_point_restore_rate": 3.0,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "hull_crippled_percentage": 0.5,
+            "max_armor_points": 2600.0,
+            "armor_point_restore_rate": 4.0,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 105.0,
+            "max_shield_points": 0.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 100.0
+          }
+        ]
+      },
+      {
+        "path": "/item_builds",
+        "before": [
+          {
+            "build_group": [
+              "trader_flak_burst"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_beam_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_missile_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_combat_repair_system"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_heavy_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_antimatter_engine"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_rapid_autoloader"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_targeting_array"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_salvage_kit"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_radiation_bomb"
+            ],
+            "weight": 5.0
+          }
+        ],
+        "after": []
+      },
+      {
+        "path": "/items",
+        "before": {
+          "levels": [
+            {
+              "max_ship_component_count": 4
+            }
+          ]
+        },
+        "after": null
+      },
+      {
+        "path": "/levels",
+        "before": {
+          "type": "experience",
+          "levels": [
+            {
+              "experience_to_next_level": 200.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 225.0,
+                  "antimatter_restore_rate": 0.75
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "experience_to_next_level": 500.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 245.0,
+                  "antimatter_restore_rate": 0.83
+                },
+                "scalar_values": {}
+              },
+              "weapon_modifiers": {
+                "additive_values": {},
+                "scalar_values": {
+                  "damage": 0.05,
+                  "cooldown_duration": -0.02
+                }
+              }
+            },
+            {
+              "experience_to_next_level": 900.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 265.0,
+                  "antimatter_restore_rate": 0.91
+                },
+                "scalar_values": {}
+              },
+              "weapon_modifiers": {
+                "additive_values": {},
+                "scalar_values": {
+                  "damage": 0.1,
+                  "cooldown_duration": -0.04
+                }
+              }
+            },
+            {
+              "experience_to_next_level": 1500.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 285.0,
+                  "antimatter_restore_rate": 0.99
+                },
+                "scalar_values": {}
+              },
+              "weapon_modifiers": {
+                "additive_values": {},
+                "scalar_values": {
+                  "damage": 0.15,
+                  "cooldown_duration": -0.06
+                }
+              }
+            },
+            {
+              "experience_to_next_level": 2300.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 305.0,
+                  "antimatter_restore_rate": 1.07
+                },
+                "scalar_values": {}
+              },
+              "weapon_modifiers": {
+                "additive_values": {},
+                "scalar_values": {
+                  "damage": 0.2,
+                  "cooldown_duration": -0.08
+                }
+              }
+            },
+            {
+              "experience_to_next_level": 3300.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 325.0,
+                  "antimatter_restore_rate": 1.15
+                },
+                "scalar_values": {}
+              },
+              "weapon_modifiers": {
+                "additive_values": {},
+                "scalar_values": {
+                  "damage": 0.25,
+                  "cooldown_duration": -0.1
+                }
+              }
+            },
+            {
+              "experience_to_next_level": 4500.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 345.0,
+                  "antimatter_restore_rate": 1.23
+                },
+                "scalar_values": {}
+              },
+              "weapon_modifiers": {
+                "additive_values": {},
+                "scalar_values": {
+                  "damage": 0.3,
+                  "cooldown_duration": -0.12
+                }
+              }
+            },
+            {
+              "experience_to_next_level": 6000.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 365.0,
+                  "antimatter_restore_rate": 1.31
+                },
+                "scalar_values": {}
+              },
+              "weapon_modifiers": {
+                "additive_values": {},
+                "scalar_values": {
+                  "damage": 0.35,
+                  "cooldown_duration": -0.14
+                }
+              }
+            },
+            {
+              "experience_to_next_level": 7800.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 385.0,
+                  "antimatter_restore_rate": 1.39
+                },
+                "scalar_values": {}
+              },
+              "weapon_modifiers": {
+                "additive_values": {},
+                "scalar_values": {
+                  "damage": 0.4,
+                  "cooldown_duration": -0.16
+                }
+              }
+            },
+            {
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 405.0,
+                  "antimatter_restore_rate": 1.47
+                },
+                "scalar_values": {}
+              },
+              "weapon_modifiers": {
+                "additive_values": {},
+                "scalar_values": {
+                  "damage": 0.45,
+                  "cooldown_duration": -0.18
+                }
+              }
+            }
+          ]
+        },
+        "after": null
+      },
+      {
+        "path": "/tags/0",
+        "before": "capital_ship",
+        "after": "cruiser"
+      },
+      {
+        "path": "/target_filter_unit_type",
+        "before": "capital_ship",
+        "after": "cruiser"
+      },
+      {
+        "path": "/user_interface/pip_type",
+        "before": "capital_ship",
+        "after": "cruiser"
+      }
+    ],
+    "entities/expanse27_hephaestus.unit": [
+      {
+        "path": "/ai_attack_target/attack_target_type",
+        "before": "heavy",
+        "after": "capital"
+      },
+      {
+        "path": "/antimatter",
+        "before": null,
+        "after": {
+          "max_antimatter": 0.0,
+          "antimatter_restore_rate": 0.0
+        }
+      },
+      {
+        "path": "/build/build_group_id",
+        "before": "cruiser",
+        "after": "capital_ship"
+      },
+      {
+        "path": "/build/build_kind",
+        "before": "cruiser",
+        "after": "capital_ship"
+      },
+      {
+        "path": "/health/levels",
+        "before": [
+          {
+            "max_hull_points": 4000.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2300.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 35.0,
+            "max_shield_points": 0.0
+          }
+        ],
+        "after": [
+          {
+            "max_hull_points": 4000.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2300.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 35.0,
+            "max_shield_points": 0.0
+          },
+          {
+            "max_hull_points": 4120.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2369.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 95.0,
+            "max_shield_points": 0.0
+          },
+          {
+            "max_hull_points": 4240.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2438.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 155.0,
+            "max_shield_points": 0.0
+          },
+          {
+            "max_hull_points": 4360.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2507.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 215.0,
+            "max_shield_points": 0.0
+          },
+          {
+            "max_hull_points": 4480.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2576.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 275.0,
+            "max_shield_points": 0.0
+          },
+          {
+            "max_hull_points": 4600.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2645.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 335.0,
+            "max_shield_points": 0.0
+          },
+          {
+            "max_hull_points": 4720.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2714.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 395.0,
+            "max_shield_points": 0.0
+          },
+          {
+            "max_hull_points": 4840.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2783.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 455.0,
+            "max_shield_points": 0.0
+          },
+          {
+            "max_hull_points": 4960.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2852.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 515.0,
+            "max_shield_points": 0.0
+          },
+          {
+            "max_hull_points": 5080.0,
+            "hull_point_restore_rate": 1.5,
+            "hull_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "hull_point_restore_scalar_after_damage_taken": 0.0,
+            "max_armor_points": 2921.0,
+            "armor_point_restore_rate": 2.25,
+            "armor_point_restore_cooldown_duration_after_damage_taken": 60.0,
+            "armor_point_restore_scalar_after_damage_taken": 0.0,
+            "armor_strength": 50.0,
+            "shield_point_restore_rate": 0.0,
+            "shield_point_restore_cooldown_duration_after_damage_taken": 20.0,
+            "shield_point_restore_scalar_after_damage_taken": 0.0,
+            "experience_given_on_death": 575.0,
+            "max_shield_points": 0.0
+          }
+        ]
+      },
+      {
+        "path": "/item_builds",
+        "before": [],
+        "after": [
+          {
+            "build_group": [
+              "trader_flak_burst"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_beam_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_missile_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_combat_repair_system"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_heavy_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_antimatter_engine"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_rapid_autoloader"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_targeting_array"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_salvage_kit"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_radiation_bomb"
+            ],
+            "weight": 5.0
+          }
+        ]
+      },
+      {
+        "path": "/items",
+        "before": null,
+        "after": {
+          "levels": [
+            {
+              "max_ship_component_count": 4
+            }
+          ]
+        }
+      },
+      {
+        "path": "/levels",
+        "before": null,
+        "after": {
+          "type": "experience",
+          "levels": [
+            {
+              "experience_to_next_level": 200.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 225.0,
+                  "antimatter_restore_rate": 0.75
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "experience_to_next_level": 500.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 245.0,
+                  "antimatter_restore_rate": 0.83
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "experience_to_next_level": 900.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 265.0,
+                  "antimatter_restore_rate": 0.91
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "experience_to_next_level": 1500.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 285.0,
+                  "antimatter_restore_rate": 0.99
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "experience_to_next_level": 2300.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 305.0,
+                  "antimatter_restore_rate": 1.07
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "experience_to_next_level": 3300.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 325.0,
+                  "antimatter_restore_rate": 1.15
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "experience_to_next_level": 4500.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 345.0,
+                  "antimatter_restore_rate": 1.23
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "experience_to_next_level": 6000.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 365.0,
+                  "antimatter_restore_rate": 1.31
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "experience_to_next_level": 7800.0,
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 385.0,
+                  "antimatter_restore_rate": 1.39
+                },
+                "scalar_values": {}
+              }
+            },
+            {
+              "unit_modifiers": {
+                "additive_values": {
+                  "max_antimatter": 405.0,
+                  "antimatter_restore_rate": 1.47
+                },
+                "scalar_values": {}
+              }
+            }
+          ]
+        }
+      },
+      {
+        "path": "/tags/0",
+        "before": "cruiser",
+        "after": "capital_ship"
+      },
+      {
+        "path": "/target_filter_unit_type",
+        "before": "cruiser",
+        "after": "capital_ship"
+      },
+      {
+        "path": "/user_interface/pip_type",
+        "before": "cruiser",
+        "after": "capital_ship"
+      }
+    ],
+    "entities/expanse27_nathan_hale.unit": [
+      {
+        "path": "/abilities/0/abilities",
+        "before": [
+          "expanse27_nathan_hale_magazine",
+          "expanse11_no_shields"
+        ],
+        "after": [
+          "expanse27_nathan_hale_magazine",
+          "expanse11_no_shields",
+          "expanse28_nathan_expeditionary_colonize",
+          "expanse15_scirocco_engineering_teams"
+        ]
+      },
+      {
+        "path": "/colonize_ability",
+        "before": null,
+        "after": "expanse28_nathan_expeditionary_colonize"
+      },
+      {
+        "path": "/item_builds",
+        "before": [
+          {
+            "build_group": [
+              "trader_flak_burst"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_beam_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_missile_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_combat_repair_system"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_heavy_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_antimatter_engine"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_rapid_autoloader"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_targeting_array"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_salvage_kit"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_radiation_bomb"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "expanse21_truman_colony_module"
+            ],
+            "weight": 5.0
+          }
+        ],
+        "after": [
+          {
+            "build_group": [
+              "trader_flak_burst"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_beam_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_missile_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_combat_repair_system"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_heavy_armor"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_antimatter_engine"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_rapid_autoloader"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_targeting_array"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_salvage_kit"
+            ],
+            "weight": 5.0
+          },
+          {
+            "build_group": [
+              "trader_radiation_bomb"
+            ],
+            "weight": 5.0
+          }
+        ]
+      },
+      {
+        "path": "/ship_roles",
+        "before": [
+          "attack_ship"
+        ],
+        "after": [
+          "attack_ship",
+          "colonize"
+        ]
+      }
+    ],
+    "entities/expanse28_truman_command_procurement.research_subject": [
+      {
+        "path": "",
+        "before": null,
+        "after": {
+          "version": 0,
+          "domain": "military",
+          "tier": 3,
+          "field": "military_experimental",
+          "field_coord": [
+            6,
+            0
+          ],
+          "research_time": 360.0,
+          "price": {
+            "credits": 1700.0,
+            "metal": 300.0,
+            "crystal": 500.0
+          },
+          "prerequisites": [
+            [
+              "trader_unlock_titan_factory"
+            ]
+          ],
+          "name": "expanse28_truman_command_procurement.name",
+          "name_uppercase": "expanse28_truman_command_procurement.name_uppercase",
+          "hud_icon": "expanse15_truman_hud_icon",
+          "tooltip_picture": "expanse15_truman_tooltip_picture",
+          "description": "expanse28_truman_command_procurement.description"
+        }
+      }
+    ],
+    "entities/trader_scout_corvette.unit": [
+      {
+        "path": "/hyperspace/charge_time",
+        "before": 2.0,
+        "after": 0.1
+      }
+    ],
+    "entities/expanse28_mcrn_orbital_defense.research_subject": [
+      {
+        "path": "",
+        "before": null,
+        "after": {
+          "version": 0,
+          "domain": "military",
+          "tier": 2,
+          "field": "military_engineering",
+          "field_coord": [
+            4,
+            2
+          ],
+          "research_time": 150.0,
+          "price": {
+            "credits": 750.0,
+            "metal": 125.0,
+            "crystal": 150.0
+          },
+          "prerequisites": [
+            [
+              "trader_unlock_hangar_defense_structure"
+            ]
+          ],
+          "name": "expanse28_mcrn_orbital_defense.name",
+          "name_uppercase": "expanse28_mcrn_orbital_defense.upper",
+          "hud_icon": "expanse15_truman_hud_icon",
+          "tooltip_picture": "expanse15_truman_tooltip_picture",
+          "description": "expanse28_mcrn_orbital_defense.description",
+          "tooltip_icon": "expanse15_truman_hud_icon"
+        }
+      }
+    ],
+    "entities/expanse28_opa_orbital_defense.research_subject": [
+      {
+        "path": "",
+        "before": null,
+        "after": {
+          "version": 0,
+          "domain": "military",
+          "tier": 2,
+          "field": "military_engineering",
+          "field_coord": [
+            4,
+            2
+          ],
+          "research_time": 150.0,
+          "price": {
+            "credits": 750.0,
+            "metal": 125.0,
+            "crystal": 150.0
+          },
+          "prerequisites": [
+            [
+              "trader_unlock_hangar_defense_structure"
+            ]
+          ],
+          "name": "expanse28_opa_orbital_defense.name",
+          "name_uppercase": "expanse28_opa_orbital_defense.upper",
+          "hud_icon": "expanse15_truman_hud_icon",
+          "tooltip_picture": "expanse15_truman_tooltip_picture",
+          "description": "expanse28_opa_orbital_defense.description",
+          "tooltip_icon": "expanse15_truman_hud_icon"
+        }
+      }
+    ],
+    "entities/expanse22_foehammer_battery.unit": [
+      {
+        "path": "/build/prerequisites",
+        "before": [
+          [
+            "expanse22_unn_orbital_defense"
+          ]
+        ],
+        "after": [
+          [
+            "expanse22_unn_orbital_defense"
+          ],
+          [
+            "expanse28_mcrn_orbital_defense"
+          ],
+          [
+            "expanse28_opa_orbital_defense"
+          ]
+        ]
+      }
+    ]
+  },
+  "runtime": "NOT RUN: no game launched or installed"
+}
