@@ -1,0 +1,9 @@
+# Expanse: Sol at War — 0.28 B120 Combined Fleet Alpha
+
+Command Earth, Mars or the Belt in a Sins of a Solar Empire II fan fleet. This alpha includes MCRN, UNN and OPA factions, plus an optional **Combined Fleet** sandbox faction with access to their ships and research in one tree. Expect PDC screens, torpedo salvos, railgun-heavy capital fights, faction-specific research and ship voices.
+
+**Install:** Download `expanse_balance28_B120_combined4_release.zip`, extract it into a new folder in your Sins II `mods` directory, and enable **The Expanse — B120 Combined Fleet Fourth Faction**. Keep `.mod_meta_data` at the extracted folder's top level. Enable only one Expanse package at a time and start a fresh game.
+
+The ZIP contains 2,320 files. SHA-256: `f3ca5294c49664d49080bb5372062c5a8d795dc80bbb20e90feb34309f205620`. Compared with the local B120 Combined Fleet candidate, only `ASSET-SOURCES.md` changed; all game files are byte-identical. Offline archive, schema, reference and research checks passed. **This exact C4 build has not yet been observed in a game launch, save/reload or multiplayer test.** Please report issues with reproduction steps and relevant game logs.
+
+Known model credits include [Tachi by Jakub.Vildomec](https://sketchfab.com/3d-models/mcrn-tachi-expanse-tv-show-76fc983ab08c449b9042491a00e621cf), [Donnager by owlstraw](https://sketchfab.com/3d-models/mcrn-donnager-the-expanse-05e9f9006d914fcd96e95fbd452aaa28) and [Truman by mohamedhussien](https://sketchfab.com/3d-models/truman-class-ec7e5f790d2940e489bf28c6e6d4427e), each credited under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) with project-specific modifications documented in [ASSET-SOURCES.md](https://github.com/Blean69/The-Expanse-Sins-of-Sol/blob/main/ASSET-SOURCES.md). Other asset terms are recorded there where known. This is an unofficial fan project with no claimed affiliation or endorsement.
