@@ -1,40 +1,35 @@
-# The Expanse — Sins II corvette prototype
+# The Expanse: Sins of Sol
 
-**Current local candidate: [0.27.5 Finished Fleet Menu](docs/menu27_5.md).** Uses the requested finished Martian hulls, Truman, Munroe, Gathering Storm and Amun-Ra; all private display copies have no faction research dependencies. Existing match content is unchanged from [0.27.4 Hephaestus Repair](docs/update27_4.md), retained as rollback. The user observed no crash in that hotfix test, with the Pella GUI prompt still present. The new menu has only offline validation pending user confirmation. Protomolecule plating is not included: the existing item is an inert currency probe and real item-bound shield behavior is not implemented. Enable one package alone. No installation or game launch performed. Earlier notes below are historical.
+A Sins of a Solar Empire II mod built around ships and factions from *The Expanse*. The current local playtest candidate is **0.28 B120 Combined Fleet (C4)**. It preserves the B120 combat balance and adds a fourth, selectable sandbox faction with the combined MCRN, UNN and OPA roster. The three regular factions remain separate.
 
-The user has now observed **individual PDC tracking and good tracer appearance** in the polish prototype. Residual hull holes and floating turret supports remain recorded defects. The working **0.2.1** package and installed copy are preserved. New work is staged separately under `build/experiments/expanse_corvette_ammo03` and `build/experiments/expanse_rocinante03`; see [0.3 handoff](docs/combat03.md) for exact package availability and runtime limits.
+The project targets Sins II **2.0.3 (318)**, Steam build **25127248**, using the pinned official SDK schema commit `8e061033afe53b1393eaefd56617a3fd041eeb5f`. This repository tracks build scripts, definitions, documentation and audits. Generated game assets, supplied models and recordings, tools, and packaged mods stay outside Git.
 
-Start with the [0.3 build/load handoff](docs/combat03.md) and C03/H03 tests in the [existing manual checklist](docs/manual-test-checklist.md). The [polish guide](docs/polish.md) documents the preserved working 0.2.1 version.
+## Current build
 
-The user has tested the older `expanse_cobalt_name` and `expanse_corvette_visual` together: model loading and fixed-muzzle firing worked, but hull holes were visible. [Runtime results and screenshot evidence](audit/manual-results.md) distinguish those observations from untested features. Both installed baselines and all prior packages remain unchanged.
+| Package | Purpose | SHA-256 |
+|---|---|---|
+| [B120 Combined Fleet](build/experiments/expanse_balance28_B120_combined4.zip) | Four factions; combined sandbox has 24 buildable hulls and 216 research subjects | `70513486f44dd65708c81f1c63e1a1dd707378cc82e1d881f8e2b32f223ff4c6` |
+| [B120](build/experiments/expanse_balance28_B120.zip) | Three regular factions; frozen combat rollback | `42b1cf0b31c56f1c48f2a0d89dc69181cb2545b97b4fbf4847ee22cbf0ad73c2` |
 
-The supported corvette derivative has **16,335 triangles**; the stand-free armed hero has **26,935**. Both retain six PDC assemblies. The hero starts with static deployed geometry; its animation is preserved separately. Original archive/extracted master remain untouched. Editable geometry and UI sources are separate from generated game files. [Asset sources and permissions](ASSET-SOURCES.md) apply to both model and rendered UI imagery.
+The Combined Fleet ZIP has 2,320 files and passed offline schema, reference, research-path, starting-mode and archive checks. The three original faction player definitions are byte-identical to B120. It has been installed and enabled locally, but **no game launch or multiplayer test has been observed for C4**. Use a fresh game for testing. The B120 package remains the immediate rollback. See [Combined Fleet implementation](docs/balance28_combined4.md) and [release manifest](docs/current-release.md).
 
-Use the recorded **Sins II 2.0.3 (318), Steam build 25127248**, and pinned official SDK schema commit `8e061033afe53b1393eaefd56617a3fd041eeb5f`. Dependencies have not been updated. See [environment evidence](docs/environment.md), [Cobalt reference trace](docs/cobalt-reference-trace.md), and [asset audit](docs/asset-audit.md).
+## What is implemented
 
-PDC rates are provisional; no exact TV RPM is claimed. Interception priority during a ship attack order, actual damage cadence, turret arcs and fleet performance still require observation. The passive torpedo magazine and hero abilities are now packaged experiments; engine timing, targeting and save behavior remain unverified. The shared Cobalt scope includes applicable neutral/garrison uses. Only the hero package appends its private unit to TEC build lists and adds a one-per-empire tag limit; no faction redesign is included.
+- MCRN, UNN and OPA playable fleets with faction-specific hulls, production, military research, weapons, abilities and voices, plus the optional Combined Fleet sandbox faction.
+- Ship models and UI art for the Rocinante, Tachi, Morrigan, Raptor/Pella, Scirocco, Donnager, Truman, Amun-Ra, Murphy, Nathan Hale, Munroe, Hephaestus, Dark Star, Behemoth, Gathering Storm and other fleet units. These are local gameplay derivatives with source and permission records in [ASSET-SOURCES.md](ASSET-SOURCES.md) and the linked update audits.
+- B120 balance: +30% range on custom PDCs; ship railguns match their host PDC range; the orbital Foehammer has a 31,200 range and 60-second charge. Heavy rail tracking is reduced, standard Tachi uses 120 supply, and premium MCRN torpedoes travel 20% faster while retaining their 30-second fuel life. See [exact values and limits](docs/balance28_B120.md) and [increment A](docs/balance28_A.md).
+- The Combined Fleet faction exposes the union of all three regular factions' ships, structures, equipment and research using the Martian start and economy. Four technology icons move to avoid overlap; research costs and effects do not change.
 
-The [earlier experiment handoff](docs/experiments.md) preserves historical stock-Garda/Ogrov and one-turret work. [Audio feasibility](docs/audio-feasibility.md) records local candidates and unresolved permissions without integrating clips.
+The 0.27.5 menu playtest and older releases are documented in [the historical update records](docs/). The current C4 candidate is offline-validated, not a claim of gameplay stability. Protomolecule plating is **not** included as a functioning shield item; the previous currency probe only established that an item could be equipped.
 
-Repository: [The Expanse: Sins of Sol](https://github.com/Blean69/The-Expanse-Sins-of-Sol). Assets, SDK dependencies and packages are ignored by Git. The user authorized pushing project source and documentation; model/audio derivatives are not included in that source push.
-# Current follow-up:0.4
+## Build and test
 
-The latest optional [Amun torpedo appearance variant](docs/torpedo05.md) includes the complete corrected 0.4 ships and the extracted custom missile. Load it alone instead of other Expanse variants. [Amun stealth/boarding work](docs/amun05.md) remains separate candidates with documented schema and runtime gaps.
+The build scripts expect a local copy of the licensed game, the pinned SDK and the preserved local source assets. Paths and dependencies are recorded in [environment.md](docs/environment.md). To recreate C4, first produce the frozen B120 directory/ZIP following the [0.28 release record](docs/balance28-release.md), then run `python3 tools/build_combined_b120.py` from the repository root. That script deliberately refuses to overwrite an existing candidate. Generated outputs appear in `build/experiments/` and are ignored by Git.
 
-The latest work is documented in [combined0.4](docs/combat04.md) and [Donnager groundwork](docs/donnager04.md). Existing installed mods and0.3 outputs remain preserved. New0.4 results require their own workstation tests; successful earlier movement/railgun observations are recorded separately from untested changes.
+For playtesting, use one Expanse package at a time in the Sins II mods directory. Compare the regular B120 faction matchups before drawing conclusions about the combined sandbox. The [workstation test sheet](audit/balance28/independent/workstation-tests.md) separates observed results from checks still required in game.
 
-## Current Amun-Ra follow-up
+## Sharing and licensing
 
-User-observed custom torpedoes, Rocinante appearance/PDC tracking and unique-hero performance are accepted. Keep that geometry budget. See [Amun0.6](docs/amun06.md) for the additive three-PDC ship, accepted timed boarding visual, separately checked cloak experiment and next workstation gates. New Amun runtime tests remain NOT RUN.
+Project-authored source code and documentation are [licensed under PolyForm Noncommercial 1.0.0](LICENSE), which permits personal noncommercial forks but does **not** make the project OSI open source. The playable ZIP contains supplied or adapted models, art and audio whose public redistribution terms are not all established. A noncommercial or fan-project disclaimer does not itself grant those rights. The local package is for the existing playtest; do not upload it as a public binary release yet. [Release readiness](docs/open-source-readiness.md) lists the remaining asset checks. The source-only snapshot excludes generated models, textures, audio, game binaries and rendered image audits.
 
-## Rocinante voice follow-up
-
-[Voice0.7](docs/voice07.md) adds eleven normalized supplied lines through separate core/cloak combined variants. Original audio and currently tested packages are unchanged; new dialogue runtime tests remain NOT RUN.
-
-## Ability control correction0.8
-
-[Update0.8](docs/update08.md) corrects alternative ability-set grouping on Amun/Rocinante and adds six normalized recordings (17 total). Use the cloak variant to test stealth; the previous enabled0.7 core variant had no cloak. Runtime confirmation is pending.
-
-## Current combined update0.9
-
-[Update0.9](docs/music09.md) includes corrected ability controls,17 Rocinante voices and15 supplied soundtrack tracks. Boarded/Welwala/Signal/Never See Them Coming/Hammerlock are combat tracks; Signal starts at1:05. Use `expanse_amun09_cloak` alone to test stealth. Nothing was installed or enabled by the agent.
+The project is an unofficial fan work. *The Expanse* and Sins of a Solar Empire II belong to their respective owners. No affiliation or endorsement is claimed. Model-specific credits and documented licenses are in [ASSET-SOURCES.md](ASSET-SOURCES.md).

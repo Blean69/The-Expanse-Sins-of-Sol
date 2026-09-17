@@ -1,0 +1,61 @@
+{
+  "base_sha256": "42b1cf0b31c56f1c48f2a0d89dc69181cb2545b97b4fbf4847ee22cbf0ad73c2",
+  "combined_faction": "expanse28_combined_fleet",
+  "ships": [
+    "trader_scout_corvette",
+    "trader_colony_frigate",
+    "expanse28_mcrn_morrigan",
+    "expanse_mcrn_corvette",
+    "expanse12_raptor",
+    "expanse12_scirocco",
+    "expanse_donnager_battleship",
+    "expanse19_artemis",
+    "expanse27_hephaestus",
+    "expanse21_contract_patrol",
+    "expanse15_truman",
+    "expanse_amun_ra",
+    "expanse23_murphy",
+    "expanse25_un_one",
+    "expanse27_nathan_hale",
+    "expanse27_munroe",
+    "expanse19_europa_bane",
+    "expanse_rocinante_hero",
+    "expanse12_pella",
+    "expanse21_opa_command",
+    "expanse24_behemoth",
+    "expanse27_laconia_frigate",
+    "expanse27_dark_star",
+    "expanse24_gathering_storm"
+  ],
+  "research_subject_count": 216,
+  "structures": 24,
+  "ship_components": 52,
+  "planet_components": 38,
+  "relocated_icons": {
+    "expanse27_hephaestus_procurement": [
+      7,
+      4
+    ],
+    "expanse27_laconia_frigate_procurement": [
+      7,
+      5
+    ],
+    "expanse28_mcrn_orbital_defense": [
+      4,
+      4
+    ],
+    "expanse28_opa_orbital_defense": [
+      4,
+      5
+    ]
+  },
+  "original_factions_byte_identical": true,
+  "runtime": "NOT RUN",
+  "package": {
+    "files": 2320,
+    "zip_sha256": "70513486f44dd65708c81f1c63e1a1dd707378cc82e1d881f8e2b32f223ff4c6",
+    "tree_sha256": "83c6eefbde19805eb1b0d68a22db3730ebd589b641fec9ab010e848b7e056121",
+    "installed": false,
+    "runtime": "NOT RUN"
+  }
+}

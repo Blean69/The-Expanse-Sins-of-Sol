@@ -1,0 +1,7 @@
+# Source-available release readiness
+
+The repository can be shared for review as a **source-only snapshot**. Project-authored code and documentation use [PolyForm Noncommercial 1.0.0](../LICENSE), allowing personal noncommercial forks. This restriction means the project is **source-available, not OSI open source**. The license does not cover borrowed code or data that the repository owner cannot license, or third-party models, music, voices, game files or trademarks.
+
+The full playable mod ZIP is a separate distribution decision. The local [asset record](../ASSET-SOURCES.md) establishes CC BY 4.0 attribution for some supplied models, including Tachi, Donnager and Truman. Other model sources have unspecified terms; the OPA Dark Star and Munroe were purchased, but purchase alone does not establish redistribution terms. Supplied voice lines, soundtrack and PDC audio also lack documented public distribution grants. These assets and generated derivatives remain ignored by Git. An unofficial, free or noncommercial disclaimer does not settle their permissions.
+
+Before sharing the full playable package, review each model and recording against its exact source/license, keep required credit and modification notices, and obtain permission or replace assets where necessary. Also check the franchise/game-owner rules for fan mods. The source snapshot deliberately omits generated meshes, textures, audio, packages, game binaries and rendered image audits. No repository push, public upload or Workshop publication was performed for this candidate.

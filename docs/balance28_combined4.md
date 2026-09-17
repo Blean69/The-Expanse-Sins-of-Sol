@@ -1,0 +1,5 @@
+# B120 Combined Fleet fourth faction
+
+Standalone experiment over the frozen B120 combat candidate. Adds one selectable TEC-derived Combined Fleet faction with all 24 distinct buildable ships and all 216 research subjects from the three playable factions. It also exposes the union of their structures and equipment. The faction uses the existing Martian start and economy. Truman uses the native two-command limit; Donnager and Behemoth share the original one-titan limit. Four research icon positions change globally so the combined tree has no overlap; their costs, prerequisites and effects are identical to B120. All other faction player files, combat definitions, audio, art and menu scene remain unchanged.
+
+Offline checks verify JSON schemas, references, the 24 hull prerequisites, 216 research prerequisite branches, unique tree coordinates, all four starting-mode configurations and archive integrity. Runtime loading, UI layout, construction, research progression, save/reload and multiplayer have **NOT RUN**. Install or enable only after you choose to test it; use a fresh game. The original B120 ZIP is retained as rollback.
