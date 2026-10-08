@@ -1,15 +1,13 @@
-# 0.28 B120 Combined Fleet alpha
+# 0.29.0 — Sol at War
 
-**Public release:** [v0.28-b120-c4](https://github.com/Blean69/The-Expanse-Sins-of-Sol/releases/tag/v0.28-b120-c4)
+**Release:** [v0.29.0](https://github.com/Blean69/The-Expanse-Sins-of-Sol/releases/tag/v0.29.0) · **Previous version:** [0.28 B120 C4](https://github.com/Blean69/The-Expanse-Sins-of-Sol/releases/tag/v0.28-b120-c4)
 
-| Archive | Purpose | SHA-256 |
-|---|---|---|
-| `expanse_balance28_B120_combined4_release.zip` | Public alpha download, with path-free asset record | `f3ca5294c49664d49080bb5372062c5a8d795dc80bbb20e90feb34309f205620` |
-| `expanse_balance28_B120_combined4.zip` | Preserved local candidate and installed copy | `70513486f44dd65708c81f1c63e1a1dd707378cc82e1d881f8e2b32f223ff4c6` |
-| `expanse_balance28_B120.zip` | Frozen three-faction rollback | `42b1cf0b31c56f1c48f2a0d89dc69181cb2545b97b4fbf4847ee22cbf0ad73c2` |
+| Archive | Size | Files | SHA-256 |
+|---|---:|---:|---|
+| `expanse_sol_at_war_v0.29.0_sins211.zip` | 519,613,875 bytes | 3,194 | `16ae69d6c5392fbb7a2a0d812e6f60ba2e8386dd326aaf49a5d9053685a2976b` |
 
-The release ZIP is 434,348,460 bytes and contains 2,320 files. Its **only decompressed file change** from the local candidate is `ASSET-SOURCES.md`, updated to remove machine-specific paths and improve credit wording. All game definitions, models, textures, sounds and the menu scene are byte-identical. ZIP integrity and entry-by-entry comparison passed.
+The archive targets **Sins of a Solar Empire II 2.1.1**. It has `.mod_meta_data` at the ZIP root. Extract it into a new folder under the game's `mods` directory, enable only this Expanse package, and begin a fresh match. Do not layer it over the 0.28 installation.
 
-The local C4 candidate passed offline JSON/schema, reference, prerequisite and unique research-position checks. The MCRN, UNN and OPA player definitions are byte-identical to B120. A prior local install check matched the candidate files, and C4 is enabled locally. **No C4 game launch, combat, save/reload or multiplayer pass has been observed.** See `audit/balance28_combined4/` for static results. The 0.27.5 menu package remains the previously user-tested baseline.
+The project owner installed and playtested the 0.29.0 RC1 ZIP and reported that it looked good. All game-runtime files in the final ZIP are byte-identical to that tested candidate; final branding, credits and release documents changed. Offline archive, schema, reference and checksum checks passed. This is not a claim that every scenario, save/reload path or multiplayer has been tested. See the [release notes](release-notes-v0.29.0.md) for changes and known limitations.
 
-The [asset record](../ASSET-SOURCES.md) includes known credits and reported permissions. Some third-party model and recording redistribution terms remain undocumented; see [release readiness](open-source-readiness.md).
+The GitHub source tree intentionally omits generated meshes, textures, audio and game binaries. The release ZIP is the playable artifact. Project-authored source uses [PolyForm Noncommercial 1.0.0](../LICENSE); third-party assets retain their own terms, as discussed in [source and asset terms](open-source-readiness.md). The project owner confirmed public redistribution rights for the included assets; source-by-source license details are not independently verified here.
